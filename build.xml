@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="tei2html">
+<property name="editions" value="./data/tmp"/>
+    <property name="target" value="./data/editions"/>
+    <property name="xsl_editions" value="./xsl/editions.xsl"/>
+
+    <delete>
+        <fileset dir="${target}" includes="*.xml"/>
+    </delete>
+    <xslt style="${xsl_editions}" extension=".xml"  basedir="${editions}" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+
+</project>
