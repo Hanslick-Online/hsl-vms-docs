@@ -2,10 +2,15 @@
 
 /* Transkriptionsansicht */
 
+TEI {
+    background-color: #f1f1f1;
+}
+
 teiHeader {
     display:block;
     background-color: azure;
-    padding: 0 20%;
+    margin: 0 20%;
+    padding: 4em;
 }
 
 titleStmt title {
@@ -15,12 +20,12 @@ titleStmt title {
     margin-bottom:20px;
 }
 
-sourceDesc {
-    display:block;
+sourceDesc, encodingDesc {
+    display:none;
 }
 
 listWit witness {
-    display: block;
+    display: none;
 }
 
 respStmt, profileDesc, revisionDesc, seriesStmt, sourceDesc listBibl, msDesc, editor, author, funder, editionStmt {
@@ -62,32 +67,30 @@ publicationStmt idno[subtype='krausonline']:after {
 
 text {
     display:block;
-    padding: 0 20%;
+    margin: 0 20%;
+    padding: 4em;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
 }
 
 facsimile {
     display:none;
+    background-color: #f1f1f1;
+    margin: 0 20%;
+    padding: 4em;
 }
 
 
 /* Facsimiles */
-graphic[source='wienbibliothek']{
-    content: attr(url, url);
-}
-
-graphic[source='scans'] {
-    display:none;
-}
-
-graphic[source='krausonline'] {
-    display:none;
+graphic {
+    content: attr(url);
 }
 
 
 /*  Transkription */
 
 lb {
-    display: none;
+    display: block;
 }
 
 pb {
@@ -132,82 +135,21 @@ fw[type="pageNum"] {
 
 p {
     display:block;
-    margin-top:4em;
-    margin-bottom:4em;
+    margin-top:1em;
+    margin-bottom:1em;
     text-align: justify;
-}
-
-p[rend="title"] {
-    font-size: 22px;
-    font-family: bold;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-p[rend="h1"] {
-    font-size: 18px;
-    font-family: bold;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-app {
-    display:inline;
-    background-color: beige;
-}
-
-lem {
-    background-color: burlywood;
-}
-
-app rdg:nth-child(3) {
-    background-color: #FFFACD;
-}
-
-app rdg:nth-child(2) {
-    background-color: #A8FBF6;
-}
-
-app rdg:nth-child(4) {
-    background-color: #BBFBA8;
-}
-
-app rdg:nth-child(5) {
-    background-color: lightyellow;
 }
 
 rs[type='person'] {
     background-color: #BBFBA8;
 }
 
-
-rs[type='institution'] {
-  background-color:#FFFACD;      
-}
-
 rs[type='place'] {
     background-color: #FBE1A8;
 }
 
-
-rs[type='label'] {
-    background-color:#D8BFD8;
-}
-
-rs[type='profession'] {
-   background-color:#FFDAB9; 
-}
-
-rs[type='keyword'] {
-    background-color: #A8FBF6;
-}
-
-rs[type='dream'] {
-    background-color: #f48c8c;
-}
-
 rs[type='bibl'] {
-    background-color:none; 
+    background-color: #f1f1f1; 
 }
 
 hi[rendition="#smallcaps"] {
@@ -267,4 +209,8 @@ note[type="footnote-index"] {
 
 note[type="inlinequote"] {
     font-style: italic;
+}
+
+date {
+    text-decoration: underline;
 }
