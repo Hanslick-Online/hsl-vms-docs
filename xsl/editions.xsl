@@ -5,6 +5,8 @@
     exclude-result-prefixes="#all"
     version="2.0">
     
+    <xsl:output encoding="UTF-8" media-type="text/xml" method="xml" indent="yes" omit-xml-declaration="yes"/>
+    
     <xsl:template match="node()|@*">
         <xsl:copy>
             <xsl:apply-templates select="node()|@*"/>
