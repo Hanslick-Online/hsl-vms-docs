@@ -15,7 +15,7 @@
         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2023">2023</date>
+            <date when="2025">2025</date>
             <availability>
                 <licence target="https://creativecommons.org/licenses/by/4.0">
                     <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -78,7 +78,57 @@
         </teiHeader>
     </xsl:template>
     
-    <xsl:template match="tei:facsimile"/>
+    <xsl:template match="tei:titleStmt">
+        <xsl:copy>
+            <xsl:apply-templates select="node()|@*"/>
+            <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
+            <editor xmlns="http://www.tei-c.org/ns/1.0">
+                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
+            </editor>
+            <funder xmlns="http://www.tei-c.org/ns/1.0">
+                <name>FWF Der Wissenschaftsfond.</name>
+                <address>
+                    <street>Sensengasse 1</street>
+                    <postCode>1090 Wien</postCode>
+                    <placeName>
+                        <country>Österreich</country>
+                        <settlement>Wien</settlement>
+                    </placeName>
+                </address>
+            </funder>
+        </xsl:copy>
+        <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Hanslick Edition: Hanslick in Neue Freie Presse</edition>
+            <respStmt>
+                <resp>Herausgegeben von</resp>
+                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
+            </respStmt>
+            <respStmt>
+                <resp>Projektmitarbeiterinnen</resp>
+                <name ref="">Bamer, Katharina</name>
+                <name ref="">Leitner, Jakob</name>
+                <name ref="">Pfiel, Anna-Maria</name>
+                <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+                <name ref="">Wilfing-Albrecht, Meike</name>
+            </respStmt>
+        </editionStmt>
+    </xsl:template>
+    
+    <xsl:template match="tei:principal"/>
+    
+    <xsl:template match="tei:graphic">
+        <xsl:variable name="base" select="replace(tokenize(base-uri(/), '/')[last()], '_tei.xml', '_image_name.xml')"/>
+        <xsl:variable name="items" select="doc(concat('../data/facs/', $base))"/>
+        <xsl:variable name="pos" select="number(tokenize(parent::tei:surface/@xml:id, '_')[last()])"/>
+        <xsl:copy>
+            <xsl:apply-templates select="node()|@*"/>
+            <xsl:attribute name="url">
+                <xsl:value-of select="$items//item[$pos]"/>
+            </xsl:attribute>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="tei:zone"/>
     
     <xsl:template match="tei:body/tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -92,10 +142,7 @@
     </xsl:template>
     <xsl:template match="tei:lb">
         <xsl:copy>
-            <xsl:attribute name="n">
-                <xsl:value-of select="@n"/>
-            </xsl:attribute>
-            <xsl:apply-templates select="node()"/>
+            <xsl:apply-templates select="node()|@* except @facs"/>
         </xsl:copy>
     </xsl:template>
     <xsl:template match="tei:italic">
