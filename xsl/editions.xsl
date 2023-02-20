@@ -7,17 +7,20 @@
     
     <xsl:output encoding="UTF-8" media-type="text/xml" method="xml" indent="yes" omit-xml-declaration="yes"/>
     
+    <xsl:template match="/">
+        <xsl:variable name="file" select="//tei:titleStmt/tei:title[1]/text()"/>
+        <xsl:result-document href="{$file}.xml" method="xml">
+            <xsl:text disable-output-escaping='yes'>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</xsl:text>
+            <xsl:copy>
+                <xsl:apply-templates select="node()|@*"/>
+            </xsl:copy>
+        </xsl:result-document>
+    </xsl:template>
+    
     <xsl:template match="node()|@*">
         <xsl:copy>
             <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
-    </xsl:template>
-    
-    <xsl:template match="/">
-        <xsl:variable name="file" select="//tei:titleStmt/tei:title[1]/text()"/>
-        <xsl:result-document href="{$file}.xml" method="xml">
-            <xsl:apply-templates/>
-        </xsl:result-document>
     </xsl:template>
     
     <xsl:template match="tei:publicationStmt">

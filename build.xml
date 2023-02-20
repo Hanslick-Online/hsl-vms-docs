@@ -15,5 +15,8 @@
     <delete>
         <fileset dir="${facs}" includes="*.xml"/>
     </delete>
+    <delete>
+        <fileset dir="${target}" includes="*_tei.xml"/>
+    </delete>
 
 </project>
