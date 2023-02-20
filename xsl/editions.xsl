@@ -162,7 +162,7 @@
     
     <xsl:template match="tei:principal"/>
     
-    <!--<xsl:template match="tei:graphic">
+    <xsl:template match="tei:graphic">
         <xsl:variable name="base" select="replace(tokenize(base-uri(/), '/')[last()], '_tei.xml', '_image_name.xml')"/>
         <xsl:variable name="items" select="doc(concat('../data/facs/', $base))"/>
         <xsl:variable name="pos" select="number(tokenize(parent::tei:surface/@xml:id, '_')[last()])"/>
@@ -172,7 +172,7 @@
                 <xsl:value-of select="$items//item[$pos]"/>
             </xsl:attribute>
         </xsl:copy>
-    </xsl:template>-->
+    </xsl:template>
     
     <xsl:template match="tei:zone"/>
     
@@ -189,9 +189,8 @@
     <xsl:variable name="ab" select="//tei:ab"/>
     <xsl:template match="tei:ab">
         <xsl:variable name="pos" select="index-of($ab/@facs, @facs)"/>
-        <div xmlns="http://www.tei-c.org/ns/1.0" type="column" n="{$pos - 2}">
-            <p xmlns="http://www.tei-c.org/ns/1.0"><xsl:apply-templates/></p>
-        </div>
+        <cb xmlns="http://www.tei-c.org/ns/1.0" n="{$pos - 2}"/>
+        <p xmlns="http://www.tei-c.org/ns/1.0"><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="tei:lb">
         <xsl:copy>
