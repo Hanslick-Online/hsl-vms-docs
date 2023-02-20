@@ -81,7 +81,7 @@
             <attList>
               <attDef ident="target" mode="change" usage="req">
                 <valList mode="replace" type="closed">
-                  <valItem ident="https://creativecommons.org/licenses/by/4.0/deed.en"/>
+                  <valItem ident="https://creativecommons.org/licenses/by/4.0"/>
                 </valList>
               </attDef>
             </attList>
@@ -146,9 +146,8 @@
                 <valList type="closed" mode="replace">
                   <valItem ident="awilfing"/>
                   <valItem ident="kbamer"/>
-                  <valItem ident="jleitner"/>
+                  <valItem ident="dstoxreiter"/>
                   <valItem ident="ampfiel"/>
-                  <valItem ident="mwilfing"/>
                 </valList>
               </attDef>
               <attDef ident="when" mode="change" usage="req">
@@ -166,7 +165,6 @@
                 <valList type="closed" mode="replace">
                   <valItem ident="#bold"/>
                   <valItem ident="#em"/>
-                  <valItem ident="#smallcaps"/>
                 </valList>
               </attDef>
             </attList>
@@ -207,7 +205,15 @@
           </elementSpec>       
           
           <!-- element p -->
-          <!--<elementSpec ident="p" module="core" mode="change"/>-->
+          <elementSpec ident="p" module="core" mode="change">
+            <attList>
+              <attDef ident="prev" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.truthValue"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
           
           <!-- element pb -->
           <elementSpec ident="pb" module="core" mode="change">

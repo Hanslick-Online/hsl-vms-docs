@@ -53,11 +53,10 @@
             <xsl:apply-templates select="node()|@*"/>
             <encodingDesc>
                 <tagsDecl>
-                    <rendition xml:id="smallcaps" scheme="css" selector="hi">font-variant:small-caps;letter-spacing:8px;</rendition>
                     <rendition xml:id="em" scheme="css" selector="hi">font-style:italic;</rendition>
                     <rendition xml:id="bold" scheme="css" selector="hi">font-weight:bold;</rendition>
                 </tagsDecl>
-                <listPrefixDef>
+                <!--<listPrefixDef>
                     <prefixDef ident="hsl" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/hsl-online/$1">
                         <p>Editionsregister</p>
                     </prefixDef>
@@ -70,7 +69,7 @@
                     <prefixDef ident="plc" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/hsl-online/register/orte.xml#$1">
                         <p>Ortsregister</p>
                     </prefixDef>
-                </listPrefixDef>
+                </listPrefixDef>-->
             </encodingDesc>
             <profileDesc>
                 <langUsage>
@@ -84,9 +83,42 @@
         </teiHeader>
     </xsl:template>
     
+    <xsl:template match="tei:seriesStmt">
+        <xsl:copy>
+            <p xmlns="http://www.tei-c.org/ns/1.0">Maschinenlesbares Transkript der Kritiken von Eduard Hanslick.</p>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="tei:sourceDesc">
+        <xsl:copy>
+            <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                <biblStruct xmlns="http://www.tei-c.org/ns/1.0">
+                    <analytic xmlns="http://www.tei-c.org/ns/1.0">
+                        <title xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]//text()"/></title>
+                        <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
+                    </analytic>
+                    <monogr xmlns="http://www.tei-c.org/ns/1.0">
+                        <title type="main">Neue Freie Presse</title>
+                        <title type="sub"><xsl:value-of select="//tei:body/tei:div/tei:ab[1]//text()"/></title>
+                        <respStmt>
+                            <resp>Herausgegeben von</resp>
+                            <name type="person">Etienne, Michael</name>
+                            <name type="person">Friedländer, Max</name>
+                        </respStmt>
+                        <imprint>
+                            <pubPlace><xsl:value-of select="//tei:body/tei:div/tei:ab[2]/tei:rs[@type='place']"/></pubPlace>
+                            <date when="{//tei:body/tei:div/tei:ab[2]/tei:date}"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]/tei:date"/></date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+        </xsl:copy>
+    </xsl:template>
+    
     <xsl:template match="tei:titleStmt">
         <xsl:copy>
-            <xsl:apply-templates select="node()|@*"/>
+            <title xmlns="http://www.tei-c.org/ns/1.0" level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
+            <title xmlns="http://www.tei-c.org/ns/1.0" level="a"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]//text()"/></title>
             <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor xmlns="http://www.tei-c.org/ns/1.0">
                 <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -112,17 +144,15 @@
             <respStmt>
                 <resp>Projektmitarbeiterinnen</resp>
                 <name ref="">Bamer, Katharina</name>
-                <name ref="">Leitner, Jakob</name>
                 <name ref="">Pfiel, Anna-Maria</name>
                 <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
-                <name ref="">Wilfing-Albrecht, Meike</name>
             </respStmt>
         </editionStmt>
     </xsl:template>
     
     <xsl:template match="tei:principal"/>
     
-    <xsl:template match="tei:graphic">
+    <!--<xsl:template match="tei:graphic">
         <xsl:variable name="base" select="replace(tokenize(base-uri(/), '/')[last()], '_tei.xml', '_image_name.xml')"/>
         <xsl:variable name="items" select="doc(concat('../data/facs/', $base))"/>
         <xsl:variable name="pos" select="number(tokenize(parent::tei:surface/@xml:id, '_')[last()])"/>
@@ -132,9 +162,12 @@
                 <xsl:value-of select="$items//item[$pos]"/>
             </xsl:attribute>
         </xsl:copy>
-    </xsl:template>
+    </xsl:template>-->
     
     <xsl:template match="tei:zone"/>
+    
+    <xsl:template match="tei:body/tei:div/tei:ab[1]"/>
+    <xsl:template match="tei:body/tei:div/tei:ab[2]"/>
     
     <xsl:template match="tei:body/tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -143,8 +176,12 @@
             </xsl:for-each-group>
         </div>
     </xsl:template>
+    <xsl:variable name="ab" select="//tei:ab"/>
     <xsl:template match="tei:ab">
-        <p xmlns="http://www.tei-c.org/ns/1.0"><xsl:apply-templates/></p>
+        <xsl:variable name="pos" select="index-of($ab/@facs, @facs)"/>
+        <div xmlns="http://www.tei-c.org/ns/1.0" type="column" n="{$pos - 2}">
+            <p xmlns="http://www.tei-c.org/ns/1.0"><xsl:apply-templates/></p>
+        </div>
     </xsl:template>
     <xsl:template match="tei:lb">
         <xsl:copy>
