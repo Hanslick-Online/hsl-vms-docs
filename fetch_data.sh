@@ -1,9 +1,11 @@
 # bin/bash
 
-rm -rf ./data
+rm -rf ./data/editions
+rm -rf ./data/facs
+rm -rf ./data/tmp
+rm -rf ./data/meta
 wget https://github.com/Hanslick-Online/hsl-transkribus-export/archive/refs/heads/main.zip
 unzip main
-mkdir ./data
 mkdir ./data/editions
 touch ./data/editions/.gitkeep
 mkdir ./data/tmp
