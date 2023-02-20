@@ -77,6 +77,10 @@
                     <language ident="de">Deutsch</language>
                 </langUsage>
             </profileDesc>
+            <revisionDesc status="draft">
+                <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+                <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            </revisionDesc>
         </teiHeader>
     </xsl:template>
     
