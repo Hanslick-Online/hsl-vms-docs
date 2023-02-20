@@ -13,6 +13,13 @@
         </xsl:copy>
     </xsl:template>
     
+    <xsl:template match="/">
+        <xsl:variable name="file" select="//tei:titleStmt/tei:title[1]/text()"/>
+        <xsl:result-document href="{$file}.xml" method="xml">
+            <xsl:apply-templates/>
+        </xsl:result-document>
+    </xsl:template>
+    
     <xsl:template match="tei:publicationStmt">
         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
