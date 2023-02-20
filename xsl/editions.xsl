@@ -157,5 +157,8 @@
     <xsl:template match="tei:work">
         <rs xmlns="http://www.tei-c.org/ns/1.0" type="bibl"><xsl:apply-templates/></rs>
     </xsl:template>
+    <xsl:template match="tei:person_fictional">
+        <rs xmlns="http://www.tei-c.org/ns/1.0" type="person"><xsl:apply-templates/></rs>
+    </xsl:template>
     
 </xsl:stylesheet>
