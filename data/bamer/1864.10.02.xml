@@ -61,7 +61,7 @@
                   <p>Es werden keine Garantien gegeben und auch keine Gewähr geleistet. Die Lizenz
                         verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die Sie für die
                         jeweilige Nutzung brauchen. Es können beispielsweise andere Rechte wie
-                        Persönlichkeits- undDatenschutzrechte zu beachten sein, die Ihre Nutzung des
+                        Persönlichkeits- und Datenschutzrechte zu beachten sein, die Ihre Nutzung des
                         Materials entsprechend beschränken.</p>
                </licence>
             </availability>
@@ -79,8 +79,7 @@
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Morgenblatt.</title>
+                     <title type="sub">Morgenblatt.</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
@@ -88,7 +87,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="1864">1864</date>
+                        <date when="1864-10-02">2 October 1864</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -109,6 +108,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2023-02-24" who="kbamer">erste Seite Personen, Orte, Daten, Werke</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,165 +123,133 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <cb n="1"/>
-            <p>
-               <lb n="N001"/>Feuilleton.
-      <lb n="N002"/>
-               <rs type="person">Meyerbeer</rs> und die <rs type="bibl">Hugenotten</rs>.
-      <lb n="N003"/>(Kein Festbericht.)
-      <lb n="N004"/>Ed. H. Wenn ich ein großer Mann und todt wäre, nichts
-      <lb n="N005"/>könnte mich so sehr beunruhigen, als der Gedanke, etwa noch zu einer
-      <lb n="N006"/>Trauerfestlichkeit im Theater herhalten zu müssen. Insbesondere das
-      <lb n="N007"/>
-               <rs type="place">Wien</rs>er Hofoperntheater würde mich hierüber in einer peinlich langen
-      <lb n="N008"/>Ungewißheit lassen.
-      <lb n="N009"/>Soll eine Trauer-Festvorstellung (ein fatal zusammengesetzter
-      <lb n="N010"/>Begriff!) einen vernünftigen Sinn haben, so muß sie gleichsam un¬
-      <lb n="N011"/>mittelbar aus dem allgemeinen Gefühle der Trauer und Verehrung
-      <lb n="N012"/>hervorbrechen, sie muß den Charakter des Improvisirten tragen.
-      <lb n="N013"/>So gab man in verschiedenen größeren Städten <rs type="place">Frankreich</rs>s
-      <lb n="N014"/>und <rs type="place">Deutschland</rs>s alsbald nach der Kunde von dem Hinscheiden
-      <lb n="N015"/>
-               <rs type="person">Meyerbeer</rs>’s sein Meisterwerk: die „<rs type="bibl">Hugenotten</rs>,“ bekränzte dabei seine
-      <lb n="N016"/>Büste und sprach allenfalls einige Gelegenheitsverse. Das Publicum,
-      <lb n="N017"/>noch unmittelbar bewegt von der unerwarteten Todesnachricht, fühlte
-      <lb n="N018"/>das Bedürfniß, von dem Verstorbenen zu sprechen, ihn zu rühmen,
-      <lb n="N019"/>ihn auf dem Schauplatze seines Wirkens sich gleichsam persönlich
-      <lb n="N020"/>noch zu vergegenwärtigen. Also erregt, strömte man ins Theater, in
-      <lb n="N021"/>der feierlichen Stimmung, mit der man ein vornehmes Trauerhaus
-      <lb n="N022"/>betritt. Nur so und nicht anders scheinen uns derlei theatralische Exe¬
-      <lb n="N023"/>quien gerechtfertigt. Auch jedes neue äußere Lockmittel dünkt uns
-      <lb n="N024"/>unpassend bei solchem Anlaß. Nur das erregtere Gefühl der ihr
-      <lb n="N025"/>Bestes aufbietenden Darsteller, die aus zwiefachem Quell zu einem
-      <lb n="N026"/>Strome der Theilnahme sich verdoppelnde Empfindung der Hörer
-      <lb n="N027"/>möge die Vorstellung von jeder gewöhnlichen unterscheiden. Die alten
-      <lb n="N028"/>Decorationen, das alte Costum, nichts darf neu sein, als der Schmerz
-      <lb n="N029"/>um den Verlust des Meisters.
-      <lb n="N030"/>Was nach drei Tagen ein rührendes Erinnerungsfest, wird
-      <lb n="N031"/>nach drei Monaten ein frostig gekünstelter, officieller Leichen¬
-      <lb n="N032"/>schmaus. Und so lange hat sich unser Hofoperntheater zu seiner
-      <lb n="N033"/>
-               <rs type="person">Meyerbeer</rs>feier bereits Zeit gelassen. Ein Vierteljahr in unserer Zeit,
-      <lb n="N034"/>die so wenig Zeit hat zur Trauer! Und noch immer kann dieser unglück¬
-      <lb n="N035"/>liche „<rs type="bibl">Hugenotten</rs>“-Festabend, den man bereits einige Dutzendmal ankün¬</p>
-            <cb n="2"/>
-            <p>
-               <lb n="N001"/>digte (in verflossener Woche allein dreimal), nicht ins Leben treten, er wird
-      <lb n="N002"/>zum Mythus, oder prosaischer gesagt, zur langweiligsten aller Zei¬
-      <lb n="N003"/>tungsenten. An äußerem Glanze wird man es zwar dem dramatischen
-      <lb n="N004"/>Katafalk nicht fehlen lassen. Hugenotten und Katholiken, Hoffräuleins
-      <lb n="N005"/>und Zigeunermädchen, Soldaten und Mönche (nein „Rathsherren“),
-      <lb n="N006"/>alle sollen sie in funkelneuen Gewändern stolziren. Die Verschworenen
-      <lb n="N007"/>werden im vierten Act sitzen, anstatt zu stehen, und die Freitreppe, welche
-      <lb n="N008"/>
-               <rs type="person">Valentine</rs> im zweiten Act herabstürzt, wird jetzt links angebracht, an¬
-      <lb n="N009"/>statt rechts. Das ist alles recht schön, wir fürchten nur das Eine, daß die
-      <lb n="N010"/>ganze Festvorstellung bald einem Glase Wein gleichen wird, das man
-      <lb n="N011"/>durch langes Stehen hat matt und abschmeckend werden lassen.
-      <lb n="N012"/>Während man in <rs type="place">Wien</rs>, wo „<rs type="bibl">Robert</rs>“ und die „<rs type="bibl">Hugenotten</rs>“
-      <lb n="N013"/>sich so frisch und wirksam erhalten haben, wie vor 30 Jahren, eine
-      <lb n="N014"/>glänzende Erinnerungsfeier wenigstens vorbereitet, hat das Publicum
-      <lb n="N015"/>in den größten Städten <rs type="place">Deutschland</rs>s, <rs type="place">Frankreich</rs>s und <rs type="place">Italien</rs>s seine
-      <lb n="N016"/>dankbare Verehrung für den verstorbenen Meister in herzlichster Weise
-      <lb n="N017"/>einhellig kundgegeben. Nicht in angenehmster Weise fiel uns hiebei
-      <lb n="N018"/>die Art oder vielmehr Unart ein, mit welcher die <rs type="place">deutsch</rs>e Kritik
-      <lb n="N019"/>
-               <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>
-               </hi> von jeher behandelt hat, und noch immer behandelt.
-      <lb n="N020"/>Der Verfasser der allerneuesten „<rs type="bibl">Geschichte der Musik</rs>“ (Herr Joseph
-      <lb n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">Schlüter</rs>
-               </hi>) versichert uns, <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>
-               </hi> sei nichts anderes, als „der
-      <lb n="N022"/>von allen Nationen profitirende Jude, der Jude, welcher es dem
-      <lb n="N023"/>hochverehrten Publicum auf jede Weise recht zu machen weiß;“ —
-      <lb n="N024"/>die „<rs type="bibl">Hugenotten</rs>“ und der „<rs type="bibl">Prophet</rs>“ aber seien schlechtweg die Ten¬
-      <lb n="N025"/>denz-Opern des modernen „Judenthums gegen den demselben verhaß¬
-      <lb n="N026"/>ten Katholicismus.“ — Wer über <rs type="person">Meyerbeer</rs> nichts anderes vorzu¬
-      <lb n="N027"/>tragen weiß, der löscht sich eigentlich selbst aus der Reihe der musi¬
-      <lb n="N028"/>kalischen Schriftsteller. Ganz analoge Urtheile, etwas länger oder kür¬
-      <lb n="N029"/>zer formulirt, etwas milder oder geistreicher ausgedrückt, finden wir
-      <lb n="N030"/>zu Dutzenden in der <rs type="place">deutsch</rs>en gebundenen oder nichtgebundenen Musik¬
-      <lb n="N031"/>Literatur, ja sie bilden die entschiedene Majorität. Diese stolze Ueber¬
-      <lb n="N032"/>hebung musikalischer Nullitäten wäre mitunter hochkomisch, hätte nicht
-      <lb n="N033"/>ein Mann von ganz anderem Kaliber, ein Meister ersten Ranges, das
-      <lb n="N034"/>Signal zu dieser gehässigen Behandlung <rs type="person">Meyerbeer</rs>s gegeben. <hi rendition="#em">
-                  <rs type="person" continued="true">Schu¬</rs>
-               </hi>
-               <lb n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi> schrieb im Jahr <date>1837</date> über die „<rs type="bibl">Hugenotten</rs>“: „er zähle seit
-      <lb n="N036"/>dieser Musik <rs type="person">Meyerbeer</rs>s gar nicht mehr zu den Künstlern, sondern zu
-      <lb n="N037"/>
-               <rs type="person">Franconi</rs>’s Kunstreitern.“ Nachdem er dem Componisten der „<rs type="bibl">Hugenot¬</rs>
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb n="N001"/>
-               <rs type="bibl">ten</rs>“ alle, aber auch alle sittlichen und künstlerischen Eigenschaften stück¬
-      <lb n="N002"/>weis herabgerissen, wie einem zu kassirenden Offizier die Waffen und
-      <lb n="N003"/>Epaulettes, gesteht er ihm schließlich „leider (!) einigen Esprit“ zu,
-      <lb n="N004"/>also soviel, als man dem letzten <rs type="place">französisch</rs>en Vaudevillisten einräu¬
-      <lb n="N005"/>men muß. <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>, der immer ein milder, oft allzumilder Rich¬
-      <lb n="N006"/>ter war, hat nach unserem Dafürhalten mit seiner berühmten „<rs type="bibl">Huge¬</rs>
-               <lb n="N007"/>
-               <rs type="bibl">notten</rs>“-Kritik ein unheilvolles Beispiel gegeben: es galt fortan für ein
-      <lb n="N008"/>Kennzeichen classischen Geschmackes, in <rs type="person">Meyerbeer</rs> den Gipfel aller
-      <lb n="N009"/>Nichtswürdigkeit zu erblicken, und dies bei jeder Gelegenheit von sich
-      <lb n="N010"/>zu geben. Diese hochherzigen Nachbeter <rs type="person">Schumann</rs>s übersehen dabei
-      <lb n="N011"/>einen sehr wesentlichen Unterschied, den man nicht stark genug beto¬
-      <lb n="N012"/>nen, nicht oft genug hervorheben kann. Dies ist der Unterschied zwi¬
-      <lb n="N013"/>schen dem Urtheil des schaffenden Künstlers und jenem des Kritikers.
-      <lb n="N014"/>Die Einseitigkeit des Ersteren begreifen und achten wir, bei
-      <lb n="N015"/>Letzterem werden wir sie immer als einen Mangel empfinden. Der
-      <lb n="N016"/>Künstler, der seine ganze Seele in eine eigenthümliche Richtung des
-      <lb n="N017"/>Schaffens legt, muß in gewissem Sinn exclusiv sein; er darf <hi rendition="#em">sein</hi>
-               <lb n="N018"/>Ideal so sicher für das einzig echte und würdige halten, daß er Alles,
-      <lb n="N019"/>was diesem widerstreitet, was <hi rendition="#em">anders</hi> ist, abweist. Ist es ein Ton¬
-      <lb n="N020"/>dichter von so tiefer feiner Eigenthümlichkeit, wie <rs type="person">Schumann</rs>, so mag
-      <lb n="N021"/>seine Exclusivität bis zur Ungerechtigkeit gehen. Ihm, dem <hi rendition="#em">Compo¬</hi>
-               <lb n="N022"/>
-               <hi rendition="#em">nisten</hi>
-               <rs type="person">Schumann</rs>, können wir die Unfähigkeit, einer fremden Indi¬
-      <lb n="N023"/>vidualität gerecht zu werden, unschwer nachsehen. <hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi> mit seiner
-      <lb n="N024"/>feinen Empfänglichkeit für das Schöne jeder Nation und jeder Kunst¬
-      <lb n="N025"/>gattung ist vielleicht zu vielseitig, zu unparteiisch gegen die
-      <lb n="N026"/>heterogensten Richtungen, um selbst ein ausgesprochener musikalischer
-      <lb n="N027"/>Character zu bleiben. <hi rendition="#em">
-                  <rs type="person">Spohr</rs>
-               </hi> wäre nicht <rs type="person">Spohr</rs>, wenn er <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>
-               <lb n="N028"/>bewundert hätte, und <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> wäre nicht <rs type="person">Schumann</rs>, gewännen
-      <lb n="N029"/>
-               <rs type="person">Meyerbeer</rs>’s glänzendste Vorzüge sein Wohlgefallen. Nun wissen wir
-      <lb n="N030"/>aber nur zu gut, daß dieser eine einseitige <hi rendition="#em">
-                  <rs type="person">Spohr</rs>
-               </hi>, dieser eine ein¬
-      <lb n="N031"/>seitige <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> der Nation werthvoller sind, als ein Dutzend
-      <lb n="N032"/>unparteiische, vielseitige Eklektiker. Zwei schärfere musikalische Gegen¬
-      <lb n="N033"/>sätze, als <rs type="person">Schumann</rs> und <rs type="person">Meyerbeer</rs>, sind überdies kaum denkbar;
-      <lb n="N034"/>dort die tiefste, grübelnde Innerlichkeit, hier der imposanteste, äußere
-      <lb n="N035"/>Glanz. So gewiß <rs type="person">Meyerbeer</rs> nicht im Stande gewesen, einen Sonaten¬
-      <lb n="N036"/>oder Quartettsatz zu schreiben wie <rs type="person">Schumann</rs>, so gewiß war es
-      <lb n="N037"/>
-               <rs type="person">Schumann</rs> versagt, auch nur einen Act von der dramatischen Leben¬</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
-               <lb n="N001"/>digkeit „<rs type="bibl">Robert</rs>s“ oder der „<rs type="bibl">Hugenotten</rs>“ zu schaffen. Es hätte
+      <cb n="1"/>
+            <lb n="N001"/><head type="h1">Feuilleton.</head>
+            <lb n="N002"/><head type="h2"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> und die <rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>.</head>
+            <lb n="N003"/><head type="h3">(Kein Festbericht.)</head>
+      <p>
+         <lb n="N004"/>Ed. H. Wenn ich ein großer Mann und todt wäre, nichts
+         <lb n="N005"/>könnte mich so sehr beunruhigen, als der Gedanke, etwa noch zu einer
+         <lb n="N006"/>Trauerfestlichkeit im Theater herhalten zu müssen. Insbesondere das
+         <lb n="N007"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofoperntheater würde mich hierüber in einer peinlich langen
+         <lb n="N008"/>Ungewißheit lassen.
+      </p>
+      <p>
+         <lb n="N009"/>Soll eine Trauer-Festvorstellung (ein fatal zusammengesetzter
+         <lb n="N010"/>Begriff!) einen vernünftigen Sinn haben, so muß sie gleichsam un
+         <lb n="N011" break="no"/>mittelbar aus dem allgemeinen Gefühle der Trauer und Verehrung
+         <lb n="N012"/>hervorbrechen, sie muß den Charakter des Improvisirten tragen.
+         <lb n="N013"/>So gab man in verschiedenen größeren Städten <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s
+         <lb n="N014"/>und <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s alsbald nach der Kunde von dem Hinscheiden
+         <lb n="N015"/><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s sein Meisterwerk: die „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>,“ bekränzte dabei seine
+         <lb n="N016"/>Büste und sprach allenfalls einige Gelegenheitsverse. Das Publicum,
+         <lb n="N017"/>noch unmittelbar bewegt von der unerwarteten Todesnachricht, fühlte
+         <lb n="N018"/>das Bedürfniß, von dem Verstorbenen zu sprechen, ihn zu rühmen,
+         <lb n="N019"/>ihn auf dem Schauplatze seines Wirkens sich gleichsam persönlich
+         <lb n="N020"/>noch zu vergegenwärtigen. Also erregt, strömte man ins Theater, in
+         <lb n="N021"/>der feierlichen Stimmung, mit der man ein vornehmes Trauerhaus
+         <lb n="N022"/>betritt. Nur so und nicht anders scheinen uns derlei theatralische Exe
+         <lb n="N023" break="no"/>quien gerechtfertigt. Auch jedes neue äußere Lockmittel dünkt uns
+         <lb n="N024"/>unpassend bei solchem Anlaß. Nur das erregtere Gefühl der ihr
+         <lb n="N025"/>Bestes aufbietenden Darsteller, die aus zwiefachem Quell zu einem
+         <lb n="N026"/>Strome der Theilnahme sich verdoppelnde Empfindung der Hörer
+         <lb n="N027"/>möge die Vorstellung von jeder gewöhnlichen unterscheiden. Die alten
+         <lb n="N028"/>Decorationen, das alte Costum, nichts darf neu sein, als der Schmerz
+         <lb n="N029"/>um den Verlust des Meisters.
+      </p>
+      <p>
+         <lb n="N030"/>Was nach drei Tagen ein rührendes Erinnerungsfest, wird
+         <lb n="N031"/>nach drei Monaten ein frostig gekünstelter, officieller Leichen
+         <lb n="N032" break="no"/>schmaus. Und so lange hat sich unser Hofoperntheater zu seiner
+         <lb n="N033"/><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>feier bereits Zeit gelassen. Ein Vierteljahr in unserer Zeit,
+         <lb n="N034"/>die so wenig Zeit hat zur Trauer! Und noch immer kann dieser unglück
+         <lb n="N035" break="no"/>liche „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“-Festabend, den man bereits einige Dutzendmal ankün</p>
+      <cb n="2"/>
+       <p prev="true">
+          <lb n="N001" break="no"/>digte (in verflossener Woche allein dreimal), nicht ins Leben treten, er wird 
+          <lb n="N002"/>zum Mythus, oder prosaischer gesagt, zur langweiligsten aller Zei 
+          <lb n="N003" break="no"/>tungsenten. An äußerem Glanze wird man es zwar dem dramatischen 
+          <lb n="N004"/>Katafall nicht fehlen lassen. Hugenotten und Katholiken, Hoffräuleins 
+          <lb n="N005"/>und Zigeunermädchen, Soldaten und Mönche (nein „Rathsherren“), 
+          <lb n="N006"/>alle sollen sie in funkelneuen Gewändern stolziren. Die Verschworenen 
+          <lb n="N007"/>werden im vierten Act sitzen, anstatt zu stehen, und die Freitreppe, welche 
+          <lb n="N008"/><rs type="person" ref="#hsl_person_id_666">Valentine</rs> im zweiten Act herabstürzt, wird jetzt links angebracht, an 
+          <lb n="N009"/>statt rechts. Das ist alles recht schön, wir fürchten nur das Eine, daß die 
+          <lb n="N010"/>ganze Festvorstellung bald einem Glase Wein gleichen wird, das man 
+          <lb n="N011"/>durch langes Stehen hat matt und abschmeckend werden lassen. </p>
+       <p>
+          <lb n="N012"/>Während man in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, wo „<rs type="bibl" ref="#hsl_work_id_58">Robert</rs>“ und die „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“
+          <lb n="N013"/>sich so frisch und wirksam erhalten haben, wie vor 30 Jahren, eine
+          <lb n="N014"/>glänzende Erinnerungsfeier wenigstens vorbereitet, hat das Publicum
+          <lb n="N015"/>in den größten Städten <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s, <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s und <rs type="place" ref="#hsl_place_id_28">Italien</rs>s seine
+          <lb n="N016"/>dankbare Verehrung für den verstorbenen Meister in herzlichster Weise
+          <lb n="N017"/>einhellig kundgegeben. Nicht in angenehmster Weise fiel uns hiebei
+          <lb n="N018"/>die Art oder vielmehr Unart ein, mit welcher die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Kritik
+          <lb n="N019"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> von jeher behandelt hat, und noch immer behandelt.
+          <lb n="N020"/>Der Verfasser der allerneuesten „<rs type="bibl" ref="#hsl_work_id_265">Geschichte der Musik</rs>“ (Herr <rs type="person" ref="#hsl_person_id_253">Joseph 
+          <lb n="N021"/><hi rendition="#em">Schlüter</hi></rs>) versichert uns, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> sei nichts anderes, als „der
+          <lb n="N022"/>von allen Nationen profitirende Jude, der Jude, welcher es dem
+          <lb n="N023"/>hochverehrten Publicum auf jede Weise recht zu machen weiß;“ —
+          <lb n="N024"/>die „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“ und der „<rs type="bibl" ref="#hsl_work_id_113">Prophet</rs>“ aber seien schlechtweg die Ten
+          <lb n="N025" break="no"/>denz-Opern des modernen „Judenthums gegen den demselben verhaß
+          <lb n="N026" break="no"/>ten Katholicismus.“ — Wer über <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> nichts anderes vorzu
+          <lb n="N027" break="no"/>tragen weiß, der löscht sich eigentlich selbst aus der Reihe der musi
+          <lb n="N028" break="no"/>kalischen Schriftsteller. Ganz analoge Urtheile, etwas länger oder kür
+          <lb n="N029" break="no"/>zer formulirt, etwas milder oder geistreicher ausgedrückt, finden wir
+          <lb n="N030"/>zu Dutzenden in der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en gebundenen oder nichtgebundenen Musik-
+          <lb n="N031"/>Literatur, ja sie bilden die entschiedene Majorität. Diese stolze Ueber
+          <lb n="N032" break="no"/>hebung musikalischer Nullitäten wäre mitunter hochkomisch, hätte nicht
+          <lb n="N033"/>ein Mann von ganz anderem Kaliber, ein Meister ersten Ranges, das
+          <lb n="N034"/>Signal zu dieser gehässigen Behandlung <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>s gegeben. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schu
+          <lb n="N035" break="no"/>mann</rs></hi>schrieb im Jahr <date>1837</date> über die „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“: „er zähle seit
+          <lb n="N036"/>dieser Musik <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>s gar nicht mehr zu den Künstlern, sondern zu
+          <lb n="N037"/><rs type="person" ref="#hsl_person_id_199">Franconi</rs>’s Kunstreitern.“ Nachdem er dem Componisten der „<rs type="bibl" ref="#hsl_work_id_105">Hugenot</rs>
+       </p>
+      <cb n="3"/>
+       <p prev="true">
+          <lb n="N001" break="no"/><rs type="bibl" ref="#hsl_work_id_105">ten“</rs> alle, aber auch alle sittlichen und künstlerischen Eigenschaften stück
+          <lb n="N002" break="no"/>weis herabgerissen, wie einem zu kassirenden Offizier die Waffen und
+          <lb n="N003"/>Epaulettes, gesteht er ihm schließlich „leider (!) einigen Esprit“ zu,
+          <lb n="N004"/>also soviel, als man dem letzten <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Vaudevillisten einräu
+          <lb n="N005" break="no"/>men muß. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>, der immer ein milder, oft allzumilder Rich¬
+          <lb n="N006"/>ter war, hat nach unserem Dafürhalten mit seiner berühmten „<rs type="bibl" ref="#hsl_work_id_105">Huge
+          <lb n="N007" break="no"/>notten</rs>“-Kritik ein unheilvolles Beispiel gegeben: es galt fortan für ein
+          <lb n="N008"/>Kennzeichen classischen Geschmackes, in <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> den Gipfel aller
+          <lb n="N009"/>Nichtswürdigkeit zu erblicken, und dies bei jeder Gelegenheit von sich
+          <lb n="N010"/>zu geben. Diese hochherzigen Nachbeter <rs type="person" ref="#hsl_person_id_282">Schumann</rs>s übersehen dabei
+          <lb n="N011"/>einen sehr wesentlichen Unterschied, den man nicht stark genug beto
+          <lb n="N012" break="no"/>nen, nicht oft genug hervorheben kann. Dies ist der Unterschied zwi
+          <lb n="N013" break="no"/>schen dem Urtheil des schaffenden Künstlers und jenem des Kritikers.
+       </p>
+       <p>
+          <lb n="N014"/>Die Einseitigkeit des Ersteren begreifen und achten wir, bei
+          <lb n="N015"/>Letzterem werden wir sie immer als einen Mangel empfinden. Der
+          <lb n="N016"/>Künstler, der seine ganze Seele in eine eigenthümliche Richtung des
+          <lb n="N017"/>Schaffens legt, muß in gewissem Sinn exclusiv sein; er darf <hi rendition="#em">sein</hi>
+          <lb n="N018"/>Ideal so sicher für das einzig echte und würdige halten, daß er Alles,
+          <lb n="N019"/>was diesem widerstreitet, was <hi rendition="#em">anders</hi> ist, abweist. Ist es ein Ton
+          <lb n="N020" break="no"/>dichter von so tiefer feiner Eigenthümlichkeit, wie <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, so mag
+          <lb n="N021"/>seine Exclusivität bis zur Ungerechtigkeit gehen. Ihm, dem <hi rendition="#em">Compo
+          <lb n="N022" break="no"/>nisten</hi><rs type="person" ref="#hsl_person_id_282">Schumann</rs>, können wir die Unfähigkeit, einer fremden Indi
+          <lb n="N023" break="no"/>vidualität gerecht zu werden, unschwer nachsehen. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi> mit seiner
+          <lb n="N024"/>feinen Empfänglichkeit für das Schöne jeder Nation und jeder Kunst
+          <lb n="N025" break="no"/>gattung ist vielleicht zu vielseitig, zu unparteiisch gegen die
+          <lb n="N026"/>heterogensten Richtungen, um selbst ein ausgesprochener musikalischer
+          <lb n="N027"/>Character zu bleiben. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_293">Spohr</rs></hi> wäre nicht <rs type="person" ref="#hsl_person_id_293">Spohr</rs>, wenn er <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi>
+          <lb n="N028"/>bewundert hätte, und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> wäre nicht <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, gewännen
+          <lb n="N029"/><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s glänzendste Vorzüge sein Wohlgefallen. Nun wissen wir
+          <lb n="N030"/>aber nur zu gut, daß dieser eine einseitige <hi rendition="#em"><rs type="person" ref="#hsl_person_id_293">Spohr</rs></hi>, dieser eine ein
+          <lb n="N031" break="no"/>seitige <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> der Nation werthvoller sind, als ein Dutzend
+          <lb n="N032"/>unparteiische, vielseitige Eklektiker. Zwei schärfere musikalische Gegen
+          <lb n="N033" break="no"/>sätze, als <rs type="person" ref="#hsl_person_id_282">Schumann</rs> und <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>, sind überdies kaum denkbar;
+          <lb n="N034"/>dort die tiefste, grübelnde Innerlichkeit, hier der imposanteste, äußere
+          <lb n="N035"/>Glanz. So gewiß <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> nicht im Stande gewesen, einen Sonaten-
+          <lb n="N036"/>oder Quartettsatz zu schreiben wie <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, so gewiß war es
+          <lb n="N037"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs> versagt, auch nur einen Act von der dramatischen Leben</p>
+   <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+      <cb n="4"/>
+      <p prev="true">
+          <lb n="N001" break="no"/>digkeit „<rs type="bibl">Robert</rs>s“ oder der „<rs type="bibl">Hugenotten</rs>“ zu schaffen. Es hätte
       <lb n="N002"/>seinen Ruhm nicht vermindert, würde er diesen Mangel erkannt
       <lb n="N003"/>haben, anstatt <rs type="person">Meyerbeer</rs>’s Reichthum zu geißeln. Für die Reize
       <lb n="N004"/>
