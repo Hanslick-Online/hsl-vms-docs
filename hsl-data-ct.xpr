@@ -32,46 +32,6 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../hsl-transkribus-export/tei/162553/1165637_tei.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>editions</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xsl/editions.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>editions</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>framework/hanslick/schema/am.odd</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -102,6 +62,26 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xsl/editions.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>editions</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -170,13 +150,13 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="type">
-                                    <String>XML</String>
+                                    <String>XSL</String>
                                 </field>
                                 <field name="saveAs">
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/data/editions/${cfne}</String>
@@ -253,13 +233,13 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="type">
-                                    <String>XSL</String>
+                                    <String>XML</String>
                                 </field>
                                 <field name="saveAs">
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/data/editions/${cfne}</String>
@@ -309,5 +289,6 @@
     </meta>
     <projectTree name="hsl-data-ct.xpr">
         <folder path="."/>
+        <file name="data/tmp/1165637_tei.xml"/>
     </projectTree>
 </project>

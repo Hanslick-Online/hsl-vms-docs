@@ -110,7 +110,7 @@
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-03-12" who="ampfiel">Worttrennungen ausbessern</change>
-         <change when="2023-03-14" who="ampfiel">Person und bibl rs ausfüllen</change>
+         <change when="2023-03-14" who="ampfiel">ref Links in rs ausfüllen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -161,7 +161,7 @@
       <lb n="N026"/>näher; nicht nur behandelt es den ungleich größeren Künstler, den
                <lb n="N027"/>Wiener obendrein — auch der Verfasser, Herr Dr. <rs ref="#hsl_person_id_149" type="person"><hi rendition="#em">Kreißle</hi> 
          <lb n="N028"/>von <hi rendition="#em">Hellborn</hi></rs>, ist Einer von den Unsern und im musikali
-      <lb break="no" n="N029"/>schen Centrum <rs type="place">Wien</rs>s als ausübender und schriftstellernder
+               <lb break="no" n="N029"/>schen Centrum <rs ref="#hsl_place_id_55" type="place">Wien</rs>s als ausübender und schriftstellernder
       <lb n="N030"/>Musiker vortheilhaft bekannt.
       <lb n="N031"/>Als <hi rendition="#em">
          <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>
@@ -192,7 +192,7 @@
       <lb n="N010"/>Schicksale hingegen, die allereinfachsten, die nur immer ein
       <lb n="N011"/>großes Seelenleben einrahmen können, sind mit wenigen Wor
       <lb break="no" n="N012"/>ten erzählt. Du kennst, musikliebender Leser, das bescheidene,
-      <lb n="N013"/>einstöckige Haus in der Vorstadt <rs type="place">Lichtenthal</rs>, an welchem seit
+               <lb n="N013"/>einstöckige Haus in der Vorstadt <rs ref="#hsl_place_id_24" type="place">Lichtenthal</rs>, an welchem seit
       <lb n="N014"/>Kurzem eine Gedenktafel die Vorübergehenden belehrt, daß hier
       <lb n="N015"/>am 31. Jänner <date>1797</date>
                <rs ref="#hsl_person_id_279" type="person">Franz Schubert</rs> geboren wurde. Hier
@@ -216,9 +216,7 @@
                <lb n="N033"/>schon im Convict sehr eifrig, er hatte da immer viel mehr
       <lb n="N034"/>Ideen als Notenpapier.
                <lb n="N035"/>In seinem sechzehnten Jahre kehrte <rs ref="#hsl_person_id_279" type="person">Schubert</rs> ins väter
-            </p>
             <cb n="3"/>
-            <p prev="true">
                <lb break="no" n="N001"/>liche Haus zurück und trat bei seinem Vater als Schulgehilfe
       <lb n="N002"/>ein. Drei Jahre hielt Pegasus im Joche aus, ruhig, wenn
       <lb n="N003"/>auch nicht willig. Und welch ein Joch es für diese hochflie
@@ -263,27 +261,26 @@
       <lb n="N030"/>hätten bereiten können, angemessenen Vortheil zu ziehen. Lec
                <lb break="no" n="N031"/>tionen geben war ihm, gerade wie <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>, unbezwinglich
       <lb n="N032"/>verhaßt. Ein öffentliches Musikamt hat er nie bekleidet, wenn auch
-      <lb n="N033"/>zweimal angesucht. Es war eine Musikdirectors-Stelle in <rs type="place">Laibach</rs>
-               <lb n="N034"/>und die Stelle eines Vice-Hofcapellmeisters in <rs type="place">Wien</rs>, um die er
-               <lb n="N035"/>sich erfolglos bewarb. Eine zeitlang fungirte <rs ref="#hsl_person_id_279" type="person">Schubert</rs> als Corre</p>
+               <lb n="N033"/>zweimal angesucht. Es war eine Musikdirectors-Stelle in <rs ref="#hsl_place_id_31" type="place">Laibach</rs>
+               <lb n="N034"/>und die Stelle eines Vice-Hofcapellmeisters in <rs ref="#hsl_place_id_55" type="place">Wien</rs>, um die er
+               <lb n="N035"/>sich erfolglos bewarb. Eine zeitlang fungirte <rs ref="#hsl_person_id_279" type="person">Schubert</rs> als Corre
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb break="no" n="4"/>
-            <p prev="true">
+            <cb n="4"/>
                <lb break="no" n="N001"/>petitor am Hofoperntheater; „ich passe nicht dazu,“ pflegte er
       <lb n="N002"/>selbst zu sagen. Mit Ausnahme eines Sommeraufenthaltes
-               <lb n="N003"/>beim <rs ref="#hsl_person_id_827" type="person">Fürsten Eszterhazy</rs> in <rs type="place">Ungarn</rs> und mehrerer Streifzüge
-               <lb n="N004"/>durch <rs type="place">Oberösterreich</rs> und <rs type="place">Salzburg</rs> lebte <rs ref="#hsl_person_id_279" type="person">Schubert</rs> stets in
+               <lb n="N003"/>beim <rs ref="#hsl_person_id_827" type="person">Fürsten Eszterhazy</rs> in <rs ref="#hsl_place_id_53" type="place">Ungarn</rs> und mehrerer Streifzüge
+               <lb n="N004"/>durch <rs ref="#hsl_place_id_42" type="place">Oberösterreich</rs> und <rs ref="#hsl_place_id_49" type="place">Salzburg</rs> lebte <rs ref="#hsl_person_id_279" type="person">Schubert</rs> stets in
       <lb n="N005"/>
-               <rs type="place">Wien</rs>. Aus jener Villeggiatur in <rs type="place">Zélez</rs>, die das Herz des jugend
+               <rs ref="#hsl_place_id_55" type="place">Wien</rs>. Aus jener Villeggiatur in <rs ref="#hsl_place_id_56" type="place">Zélez</rs>, die das Herz des jugend
       <lb break="no" n="N006"/>lichen Tondichters nicht unbehelligt gelassen — auch eine
                <lb n="N007"/>flüchtige Aehnlichkeit mit dem comtessenschwärmenden <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>
                <lb n="N008"/>— stammen in <rs ref="#hsl_person_id_279" type="person">Sch.</rs>’s Werken die häufigen reizenden Anklänge
-      <lb n="N009"/>an <rs type="place">ungarisch</rs>e National-Melodien. Ganz in seinem Lebens
+               <lb n="N009"/>an <rs ref="#hsl_place_id_53" type="place">ungarisch</rs>e National-Melodien. Ganz in seinem Lebens
                <lb break="no" n="N010"/>element fühlte sich aber <rs ref="#hsl_person_id_279" type="person">Schubert</rs>, wenn er mit <hi rendition="#em">
                   <rs ref="#hsl_person_id_316" type="person">Vogl</rs>
                </hi>
-               <rs type="place">Ober
-               <lb break="no" n="N011"/>österreich</rs> und <rs type="place">Salzburg</rs> durchzog, beide singend und spielend,
+               <rs ref="#hsl_place_id_42" type="place">Ober
+                  <lb break="no" n="N011"/>österreich</rs> und <rs ref="#hsl_place_id_49" type="place">Salzburg</rs> durchzog, beide singend und spielend,
       <lb n="N012"/>in den besten Familien, in den stattlichsten Klöstern mit Jubel
       <lb n="N013"/>empfangen und festgehalten. „Als wenn das Sterben das
       <lb n="N014"/>Schlimmste wäre, was uns Menschen begegnen kann,“ schreibt
@@ -362,9 +359,8 @@
       <lb n="N035"/>Persönlichkeit durch <hi rendition="#em">
          <rs ref="#hsl_person_id_149" type="person">Kreißle</rs>
                </hi>’s umfangreichen Band nicht le
-      <lb break="no" n="N036"/>bendiger geworden ist, als sie es uns aus den bekannten Auf</p>
+      <lb break="no" n="N036"/>bendiger geworden ist, als sie es uns aus den bekannten Auf
             <cb n="6"/>
-            <p prev="true">
                <lb break="no" n="N001"/>sätzen von <hi rendition="#em">
                   <rs ref="#hsl_person_id_22" type="person">Bauernfeld</rs>
                </hi>, <hi rendition="#em">
@@ -400,7 +396,7 @@
       <lb n="N023"/>
                <rs ref="#hsl_person_id_279" type="person">Schubert</rs> gekommen, so daß das Buch von unbekannten und
       <lb n="N024"/>unbedeutenden Statisten förmlich wimmelt. Darf das Inter
-      <lb break="no" n="N025"/>esse, welches speciell die ältere <rs type="place">Wien</rs>er Generation für derlei
+               <lb break="no" n="N025"/>esse, welches speciell die ältere <rs ref="#hsl_place_id_55" type="place">Wien</rs>er Generation für derlei
       <lb n="N026"/>haben mag, hierin wirklich entscheidend sein? Noch freigebiger
       <lb n="N027"/>ist der Verfasser mit dem Abdruck von Briefen. Wenn wir
       <lb n="N028"/>ihm den Abdruck jedes nur auffindbaren Briefes von <hi rendition="#em">
@@ -426,10 +422,9 @@
                   <rs ref="#hsl_person_id_43" type="person">Brüggemann</rs>
                </hi>, <hi rendition="#em">
                   <rs ref="#hsl_person_id_212" type="person">Peters</rs>
-               </hi> etc., deren In</p>
+               </hi> etc., deren In
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
-            <p prev="true">
                <lb break="no" n="N001"/>halt sich mit den zwei Worten wiedergeben ließ: Der Ver
                <lb break="no" n="N002"/>leger N. N. nahm die ihm offerirten <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’schen Compo
       <lb break="no" n="N003"/>sitionen an, oder er nahm sie nicht an. Was sollen uns fer
@@ -473,20 +468,19 @@
                </hi> alle Ehre macht.
       <lb n="N026"/>Es bleibt uns nur mehr wenig Raum, um dem Leser
       <lb n="N027"/>von dem biographischen Denkmal zu erzählen, das der ver
-               <lb break="no" n="N028"/>dienstvolle <rs type="place">Augsburg</rs>er Domcapellmeister <rs ref="#hsl_person_id_251" type="person">J. M. <hi rendition="#em">Schletterer</hi>
+               <lb break="no" n="N028"/>dienstvolle <rs ref="#hsl_place_id_3" type="place">Augsburg</rs>er Domcapellmeister <rs ref="#hsl_person_id_251" type="person">J. M. <hi rendition="#em">Schletterer</hi>
                </rs>
                <lb n="N029"/>dem beinahe verschollenen Lieder-Componisten <hi rendition="#em">
                   <rs ref="#hsl_person_id_233" type="person">Reichardt</rs>
                </hi> ge
       <lb break="no" n="N030"/>setzt hat. Gestehen wir es nur, die erste Empfindung, mit
-      <lb n="N031"/>der wir das Buch betrachteten, war — Schrecken. Ein gro</p>
-            <cb break="no" n="8"/>
-            <p prev="true">
+      <lb n="N031"/>der wir das Buch betrachteten, war — Schrecken. Ein gro
+            <cb n="8"/>
                <lb break="no" n="N001"/>ßer dicker Lexikonband, den man beim Lesen wie eine Altar
                <lb break="no" n="N002"/>bibel auf den Tisch breiten muß, und als Titelblatt: „<rs ref="#hsl_work_id_161" type="bibl">
                   <rs ref="#hsl_person_id_233" type="person">Johann
                <lb n="N003"/>Friedrich Reichardt</rs>. <hi rendition="#em">Erster Band</hi>
-               </rs>“! Werden denn die <rs type="place">deut
+               </rs>“! Werden denn die <rs ref="#hsl_place_id_14" type="place">deut
                <lb break="no" n="N004"/>sch</rs>en Gelehrten nicht müde, sich selbst um die wohlverdienten Früchte
       <lb n="N005"/>ihrer Arbeit zu bringen? Mit eigener Hand decimiren sie ihren
       <lb n="N006"/>Leserkreis durch jene mißverstandene Gründlichkeit, die oft nur
@@ -530,7 +524,7 @@
                </rs> und <rs ref="#hsl_person_id_230" type="person">Heribert <hi rendition="#em">Rau</hi>
                </rs>. An die Grenzscheide der al
       <lb break="no" n="N027"/>ten und neuen Zeit gestellt, persönlich befreundet mit allen nam
-               <lb break="no" n="N028"/>haften Componisien <rs type="place">Deutschland</rs>s und <rs type="place">Frankreich</rs>s, von <rs ref="#hsl_person_id_17" type="person">Ema
+               <lb break="no" n="N028"/>haften Componisien <rs ref="#hsl_place_id_14" type="place">Deutschland</rs>s und <rs ref="#hsl_place_id_21" type="place">Frankreich</rs>s, von <rs ref="#hsl_person_id_17" type="person">Ema
                   <lb break="no" n="N029"/>nuel Bach</rs>, <rs ref="#hsl_person_id_90" type="person">Gluck</rs> und <rs ref="#hsl_person_id_103" type="person">Gretry</rs> bis auf <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>, <rs ref="#hsl_person_id_47" type="person">Cherubini</rs>
                <lb n="N030"/>und <hi rendition="#em">
                   <rs ref="#hsl_person_id_36" type="person">Boyeldieu</rs>
@@ -550,7 +544,7 @@
                </hi>, <hi rendition="#em">
                   <rs ref="#hsl_person_id_248" type="person">Schil
                <lb break="no" n="N033"/>ler</rs>
-               </hi> und allen Koryphäen der <rs type="place">Weimar</rs>er Glanzepoche, Capell
+               </hi> und allen Koryphäen der <rs ref="##hsl_place_id_41" type="place">Weimar</rs>er Glanzepoche, Capell
                <lb n="N034"/>meister <rs ref="#hsl_person_id_83" type="person">Friedrich’s des Großen</rs> und <rs ref="#hsl_person_id_38" type="person">König Jerome’s von West
                <lb break="no" n="N035"/>falen</rs>, Virtuose, Componist, Dirigent, Theoretiker, Journalist,
                <lb n="N036"/>endlich gar königlicher Salinen-Director, ist <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> ein</p>
@@ -558,10 +552,10 @@
             <p prev="true">
                <lb n="N001"/>lebendiges Stammbuch seiner Zeit. Er war Augenzeuge der
       <lb n="N002"/>
-               <rs type="place">französisch</rs>en Revolution in <rs type="place">Paris</rs> und erlebte, immer gleich
-               <lb n="N003"/>frischen Geistes, die Befreiung <rs type="place">Deutschland</rs>s von der <rs ref="#hsl_person_id_39" type="person">napoleo
-               <lb break="no" n="N004"/>n</rs>ischen Herrschaft. Seine Briefe aus <rs type="place">Paris</rs> (<date>1802</date>) wie die
-      <lb n="N005"/>späteren aus <rs type="place">Wien</rs> (<date>1809</date>) zählen zu den wichtigsten und in
+               <rs ref="#hsl_place_id_21" type="place">französisch</rs>en Revolution in <rs ref="#hsl_place_id_44" type="place">Paris</rs> und erlebte, immer gleich
+               <lb n="N003"/>frischen Geistes, die Befreiung <rs ref="#hsl_place_id_14" type="place">Deutschland</rs>s von der <rs ref="#hsl_person_id_39" type="person">napoleo
+                  <lb break="no" n="N004"/>n</rs>ischen Herrschaft. Seine Briefe aus <rs ref="#hsl_place_id_44" type="place">Paris</rs> (<date>1802</date>) wie die
+               <lb n="N005"/>späteren aus <rs ref="#hsl_place_id_55" type="place">Wien</rs> (<date>1809</date>) zählen zu den wichtigsten und in
       <lb break="no" n="N006"/>teressantesten Aufschlüssen über die musikalischen wie über die
       <lb n="N007"/>gesellschaftlichen Verhältnisse jener Zeit.
                <lb n="N008"/>Als Tondichter können wir <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> unmöglich so hoch
@@ -570,7 +564,7 @@
       <lb n="N011"/>ungewöhnlichen Bildung und das geschichtliche Verdienst frucht
                <lb break="no" n="N012"/>barer Anregung. <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> erscheint uns ungleich bedeutender
       <lb n="N013"/>durch die Totalität seiner Persönlichkeit, als durch seine Com
-      <lb break="no" n="N014"/>positionen. Er war der erste <rs type="place">deutsch</rs>e Musiker, der mit ent
+               <lb break="no" n="N014"/>positionen. Er war der erste <rs ref="#hsl_place_id_14" type="place">deutsch</rs>e Musiker, der mit ent
       <lb break="no" n="N015"/>schiedenem Beruf schriftstellerisch thätig war, und der hiedurch
       <lb n="N016"/>prophetisch auf die verwandten Künstlernaturen <hi rendition="#em">
          <rs ref="#hsl_person_id_321" type="person">C. M. We
@@ -605,14 +599,14 @@
                <lb n="N001"/>*) <hi rendition="#em">
                   <rs ref="#hsl_person_id_233" type="person">Reichardt</rs>
                </hi> hat eine Selbstbiographie geschrieben und den
-      <lb n="N002"/>Anfang derselben (die ersten 15 Lebensjahre umfassend) in der <rs type="place">Berli
+               <lb n="N002"/>Anfang derselben (die ersten 15 Lebensjahre umfassend) in der <rs ref="#hsl_place_id_9" type="place">Berli
                <lb break="no" n="N003"/>n</rs>er Musikalischen Zeitung von <date>1805</date> veröffentlicht. Die Fortsetzung
       <lb n="N004"/>des Manuscripts erhielt <hi rendition="#em">
          <rs ref="#hsl_person_id_251" type="person">Schletterer</rs>
       </hi> von der Tochter <rs ref="#hsl_person_id_233" type="person">Reichardt</rs>’s,
                <lb n="N005"/>der Frau <rs ref="#hsl_person_id_231" type="person">Hofräthin v. <hi rendition="#em">Raumer</hi>
                </rs>
-               <hi rendition="#em"/> in <rs type="place">Erlangen</rs>, und konnte somit
+               <hi rendition="#em"/> in <rs ref="#hsl_place_id_18" type="place">Erlangen</rs>, und konnte somit
       <lb n="N006"/>dies höchst interessante Schriftstück hier zum erstenmal vollständig
       <lb n="N007"/>veröffentlichen.</p>
          </div>
