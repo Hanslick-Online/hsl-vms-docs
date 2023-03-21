@@ -110,6 +110,7 @@
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-03-15" who="ampfiel">Worttrennungen ausbessern</change>
+         <change when="2023-03-21" who="ampfiel">ref Links in rs ausfüllen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,27 +130,27 @@
                <lb n="N001"/>Feuilleton.
       <lb n="N002"/>Hofoperntheater.
       <lb n="N003"/>Ed. H. Das Erscheinen unserer neuen Coloratur-Sän
-      <lb break="no" n="N004"/>gerin Fräulein <rs type="person">v. <hi rendition="#em">Murska</hi></rs> hat eine leichte Bewegung in die
+      <lb break="no" n="N004"/>gerin Fräulein <rs ref="#hsl_person_id_190" type="person">v. <hi rendition="#em">Murska</hi></rs> hat eine leichte Bewegung in die
       <lb n="N005"/>Stagnation des Hofoperntheaters gebracht.
       <lb n="N006"/>Für uns persönlich war diese Sängerin eine neue Er
       <lb break="no" n="N007"/>scheinung, der wir mit nicht geringen Erwartungen entgegen
-      <lb break="no" n="N008"/>eilten. Dem immensen Beifall gegenüber, den Fräulein <rs type="person">Murska</rs>
+      <lb break="no" n="N008"/>eilten. Dem immensen Beifall gegenüber, den Fräulein <rs ref="#hsl_person_id_190" type="person">Murska</rs>
       <lb n="N009"/>hier erntet, befinden wir uns mit unserm disharmonirenden
       <lb n="N010"/>Urtheil in einiger Verlegenheit; wir geben es ungeschminkt als
       <lb n="N011"/>subjectiven Eindruck und mit der vollsten Bereitwilligkeit, uns
       <lb n="N012"/>zu bessern, sobald wir nur immer wahrnehmen, daß — auch
       <lb n="N013"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs></hi> sich bessert. Die Summe dessen, was an
+         <rs ref="#hsl_person_id_190" type="person">Murska</rs></hi> sich bessert. Die Summe dessen, was an
       <lb n="N014"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs></hi>’s Gesang überraschend und vorzüglich ist,
+         <rs ref="#hsl_person_id_190" type="person">Murska</rs></hi>’s Gesang überraschend und vorzüglich ist,
       <lb n="N015"/>besteht in fünf hohen Tönen und einem schönen Triller. Als
-      <lb n="N016"/>„<rs type="person">Lucia</rs>“ überschritt die Künstlerin das Niveau anständigen
+      <lb n="N016"/>„<rs ref="#hsl_person_id_505" type="person">Lucia</rs>“ überschritt die Künstlerin das Niveau anständigen
       <lb n="N017"/>Mittelguts in netto <hi rendition="#em">zwei Tacten</hi>: der Trillerkette vom
       <lb n="N018"/>zweigestrichenen as nach dem hohen des im zweiten Finale.
       <lb n="N019"/>Ihre Höhe, etwa von f aufwärts, ist zwar nicht besonders
       <lb n="N020"/>kräftig, aber silberhell und leicht ansprechend; Mittellage und
       <lb n="N021"/>Tiefe sind matt und klanglos. Die Triller schlägt Fräulein
-      <lb n="N022"/><rs type="person">Murska</rs>, wie gesagt, ganz vorzüglich, rein und schmetternd, mit
+      <lb n="N022"/><rs ref="#hsl_person_id_190" type="person">Murska</rs>, wie gesagt, ganz vorzüglich, rein und schmetternd, mit
       <lb n="N023"/>deutlichster Distanz beider Töne, höchstens im Nachschlag nicht
       <lb n="N024"/>ruhig und breit genug. Außerdem hörten wir sehr geschmei
       <lb break="no" n="N025"/>dige, correcte Scalen, Arpeggien und Staccatos. Die Wir
@@ -157,29 +158,30 @@
       <lb n="N027"/>sind leicht, geläufig, aber nicht glänzend, dazu ist schon die
       <lb n="N028"/>Stimme (die von Bravourpassagen doch meist in großem Um
       <lb break="no" n="N029"/>fange durcheilt wird) zu unbedeutend. Ueberdies fehlt Fräu
-      <lb break="no" n="N030"/>lein <rs type="person">Murska</rs>’s Coloratur die echte, ohne Beseelung nicht denk
+      <lb break="no" n="N030"/>lein <rs ref="#hsl_person_id_190" type="person">Murska</rs>’s Coloratur die echte, ohne Beseelung nicht denk
       <lb break="no" n="N031"/>bare Anmuth, ja mitunter aller Kunstgeschmack. Wir citiren
       <lb n="N032"/>ihre in die Wahnsinnsscene eingelegte endlose Cadenz als Muster
       <lb n="N033"/>geschmackloser Ueberladung. Das richtige Gefühl, hier ihre
       <lb n="N034"/>einzige Stärke zu besitzen, treibt die Sängerin oft zu einer
-      <lb n="N035"/>unrichtigen Ausbeutung derselben: als „<rs type="person">Lucia</rs>“ that sie viel zu
-      <lb n="N036"/>viel Zierrath aus Eigenem hinzu, selbst als „<rs type="person">Prinzessin</rs>“ in
-      <lb n="N037"/>„<rs type="bibl">Robert</rs>“ genügte ihr der von <rs type="person">Meyerbeer</rs> massenhaft gespen
+      <lb n="N035"/>unrichtigen Ausbeutung derselben: als „<rs ref="#hsl_person_id_505" type="person">Lucia</rs>“ that sie viel zu
+      <lb n="N036"/>viel Zierrath aus Eigenem hinzu, selbst als „<rs ref="#hsl_person_id_596" type="person">Prinzessin</rs>“ in
+      <lb n="N037"/>„<rs ref="#hsl_work_id_58" type="bibl">Robert</rs>“ genügte ihr der von <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> massenhaft gespen
       <lb break="no" n="N038"/>dete Flitter nicht. Immerhin bleibt die Bravour Fräulein
-      <lb n="N039"/><rs type="person">Murska</rs>’s, auch abgesehen vom Triller, eine sehr bedeutende,
+      <lb n="N039"/><rs ref="#hsl_person_id_190" type="person">Murska</rs>’s, auch abgesehen vom Triller, eine sehr bedeutende,
       <lb n="N040"/>sobald man sie nicht mit dem höchsten Maßstabe, sondern
-      <lb n="N041"/>an dem Niveau unserer <rs type="place">deutsch</rs>en Primadonnenkunft mißt.</p>
+               <lb n="N041"/>an dem Niveau unserer <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Primadonnenkunft mißt.</p>
             <cb n="2"/>
             <p>
-               <lb n="N001"/>Um sich klar zu machen, was Fräulein <rs type="person">Murska</rs> von der
+               <lb n="N001"/>Um sich klar zu machen, was Fräulein <rs ref="#hsl_person_id_190" type="person">Murska</rs> von der
       <lb n="N002"/>vollendeten Meisterin unterscheidet, braucht man sich nur die
       <lb n="N003"/>sehr nahe Erinnerung an Fräulein <hi rendition="#em">
-                  <rs type="person">Artôt</rs></hi> zurückzurufen. Der
+         <rs ref="#hsl_person_id_15" type="person">Artôt</rs></hi> zurückzurufen. Der
       <lb n="N004"/>gleiche, ja noch enthusiastischere Beifall, der unmittelbar nach
-      <lb n="N005"/>der <rs type="person">Artôt</rs> Fräulein <rs type="person">Murska</rs> hier zu Theil wurde, könnte uns
+      <lb n="N005"/>der <rs ref="#hsl_person_id_15" type="person">Artôt</rs> Fräulein 
+         <rs ref="#hsl_person_id_190" type="person">Murska</rs> hier zu Theil wurde, könnte uns
       <lb n="N006"/>in dem Urtheil des Publicums irre machen, wüßten wir nicht,
       <lb n="N007"/>die wechselnd sich dasselbe mitunter zusammensetzt. Noch immer
-      <lb n="N008"/>haben wir bisher von Fräulein <rs type="person">Murska</rs>’s größtem Vorzug,
+      <lb n="N008"/>haben wir bisher von Fräulein <rs ref="#hsl_person_id_190" type="person">Murska</rs>’s größtem Vorzug,
       <lb n="N009"/>ihrer Coloratur, gesprochen. Glücklich könnten wir uns schätzen,
       <lb n="N010"/>reichte alles Uebrige nur an die halbe Höhe dieser ihrer Spe
       <lb break="no" n="N011"/>cialität. Aber nun kommt das gewichtige „Soll“ neben dem
@@ -192,10 +194,10 @@
       <lb break="no" n="N018"/>fäß, durch das erwärmend das ewige Feuer der Empfindung
       <lb n="N019"/>und des Geistes leuchtet. Von dieser Flamme haben wir aber
       <lb n="N020"/>kaum einen Schein wahrgenommen. Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs></hi>’s Vor¬
-      <lb n="N021"/>trag ergreift in seiner kühlen Gleichgiltigkeit weder das Ge
+         <rs ref="#hsl_person_id_190" type="person">Murska</rs></hi>’s Vor
+      <lb break="no" n="N021"/>trag ergreift in seiner kühlen Gleichgiltigkeit weder das Ge
       <lb break="no" n="N022"/>müth, noch interessirt er den Geist. Ebenso begnügt sich Fräu
-      <lb break="no" n="N023"/>lein <rs type="person">Murska</rs>’s Spiel mit dem herkömmlichen Apparat der
+      <lb break="no" n="N023"/>lein <rs ref="#hsl_person_id_190" type="person">Murska</rs>’s Spiel mit dem herkömmlichen Apparat der
       <lb n="N024"/>unentbehrlichsten Aeußerlichkeiten; ihre Bewegungen sind fahrig
       <lb n="N025"/>und unedel, die Haltung unruhig, die hübschen, etwas soubret
       <lb break="no" n="N026"/>tenhaften Gesichtszüge stehen entweder ausdruckslos fest (und
@@ -203,11 +205,11 @@
       <lb n="N028"/>Schmerzensgrimassen ruhelos durcheinander. Wir sind durch die
       <lb n="N029"/>Schauspielkunst der Coloratur-Sängerinnen gewiß nicht verwöhnt,
       <lb n="N030"/>auch stellen wir an Rollen von der passiven Lyrik der <hi rendition="#em">
-                  <rs type="person">Lucia</rs></hi>
+         <rs ref="#hsl_person_id_505" type="person">Lucia</rs></hi>
       <lb n="N031"/>oder ihren Zwillingsschwestern <hi rendition="#em">
-                  <rs type="person">Amina</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Elvira</rs></hi> (in den
-      <lb n="N032"/><rs type="bibl">Puritanern</rs>) bescheidene dramatische Anforderungen. Der Aus
+         <rs ref="#hsl_person_id_437" type="person">Amina</rs></hi> und <hi rendition="#em">
+            <rs ref="#hsl_person_id_524" type="person">Elvira</rs></hi> (in den
+      <lb n="N032"/><rs ref="#hsl_work_id_177" type="bibl">Puritanern</rs>) bescheidene dramatische Anforderungen. Der Aus
       <lb break="no" n="N033"/>druck liebenswürdiger, unbefangener Jungfräulichkeit in einfach
       <lb n="N034"/>edle Formen ergossen, genügt uns vollständig. Den einzigen Mo
       <lb break="no" n="N035"/>ment, wo die Rolle darüber hinausgeht, die Wahnsinnsscene,
@@ -216,31 +218,32 @@
       <lb n="N038"/>Wenigen gegeben sein; was uns die größte Mehrzahl bietet, ist
       <lb n="N039"/>doch nur das mehr oder minder geschickt drapirte, allbekannte
       <lb n="N040"/>Theatercostüm des Wahnsinns. Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs></hi>’s „<rs type="person">Lucia</rs>“
+         <rs ref="#hsl_person_id_190" type="person">Murska</rs></hi>’s „<rs ref="#hsl_person_id_505" type="person">Lucia</rs>“
       <lb n="N041"/>brachte im dritten Acte kaum dieses und in den beiden ersten
       <lb n="N042"/>keinen Zug poetischer Phantasie oder auch nur liebenswürdiger
       <lb n="N043"/>Innigkeit. Der Mangel an Grazie und Adel erstreckte sich bis</p>
             <cb n="3"/>
             <p prev="true">
                <lb n="N001"/>auf die Kleidung. Guter Edgar! dachten wir, willst du wirklich
-      <lb n="N002"/>auf die Standhaftigkeit einer <rs type="person">Lucia</rs> bauen, die eine so unermeß
+      <lb n="N002"/>auf die Standhaftigkeit einer <rs ref="#hsl_person_id_505" type="person">Lucia</rs> bauen, die eine so unermeß
       <lb break="no" n="N003"/>liche Crinoline und solch' ein pfiffiges Ungeheuer von rothem
-      <lb n="N004"/>Hütchen trägt? — <rs type="person">Lucia</rs> gilt für Fräulein <rs type="person">Murska</rs>’s beste
-      <lb n="N005"/>Rolle. Ihre „<rs type="person">Martha</rs>“ fand nicht den gleichen Anklang, nur
+      <lb n="N004"/>Hütchen trägt? — <rs ref="#hsl_person_id_505" type="person">Lucia</rs> gilt für Fräulein 
+          <rs ref="#hsl_person_id_190" type="person">Murska</rs>’s beste
+      <lb n="N005"/>Rolle. Ihre „<rs ref="#hsl_person_id_613" type="person">Martha</rs>“ fand nicht den gleichen Anklang, nur
       <lb n="N006"/>in den eingelegten, überaus schalen Bravour-Variationen ent
       <lb break="no" n="N007"/>fesselte sie, bezeichnend genug, den Enthusiasmus der Zuhörer.
-      <lb n="N008"/>Wir hoffen immer noch, Fräulein <rs type="person">Murska</rs> werde vielleicht im
+      <lb n="N008"/>Wir hoffen immer noch, Fräulein <rs ref="#hsl_person_id_190" type="person">Murska</rs> werde vielleicht im
       <lb n="N009"/>komischen Genre mehr Wahrheit und Lebendigkeit entwickeln,
       <lb n="N010"/>und wünschen es um so sehnlicher, als auf diesem Gebiete
       <lb n="N011"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Wildauer</rs></hi> schwer vermißt werden wird. Praktisch,
+         <rs ref="#hsl_person_id_326" type="person">Wildauer</rs></hi> schwer vermißt werden wird. Praktisch,
       <lb n="N012"/>ja vom Augenblicke geboten, war das Engagement Fräulein
       <lb n="N013"/><hi rendition="#em">
-                  <rs type="person">Murska</rs></hi>’s ohne Zweifel — eine künstlerische Bereicherung
+         <rs ref="#hsl_person_id_190" type="person">Murska</rs></hi>’s ohne Zweifel — eine künstlerische Bereicherung
       <lb n="N014"/>unserer verarmten Opernbühne, einen <hi rendition="#em">idealen</hi> Gewinn kön
       <lb break="no" n="N015"/>nen wir darin nicht erblicken.
       <lb n="N016"/>Wir gehören, wie unsere Leser wissen, nicht zu Jenen,
-      <lb n="N017"/>die täglich ihren Witz an Herrn <hi rendition="#em"><rs type="person">Salvi</rs></hi> üben und ihn mit
+      <lb n="N017"/>die täglich ihren Witz an Herrn <hi rendition="#em"><rs ref="#hsl_person_id_245" type="person">Salvi</rs></hi> üben und ihn mit
       <lb n="N018"/>oder ohne Grund für jeden Fehler allein verantwortlich machen.
       <lb n="N019"/>Allein die Thatsache dürfen wir ohneweiters constatiren, daß
       <lb n="N020"/>das Hofoperntheater kaum je zuvor sich in einem solchen Zu
@@ -250,23 +253,23 @@
       <lb break="no" n="N024"/>stellungen. Die Monotonie des Repertoires ist nahezu tödtlich.
       <lb n="N025"/>Seit Jahresfrist kam nicht <hi rendition="#em">Eine Novität</hi> zur Aufführung;
       <lb n="N026"/>die letzte war <hi rendition="#em">
-                  <rs type="person">Offenbach</rs></hi>’s unglückliche „<rs type="bibl">Rheinnixe</rs>“. Von
+         <rs ref="#hsl_person_id_202" type="person">Offenbach</rs></hi>’s unglückliche „<rs ref="#hsl_work_id_107" type="bibl">Rheinnixe</rs>“. Von
       <lb n="N027"/>drei während dieser langen Zeit einstudirten Opern hatte nur
-      <lb n="N028"/>der (auf den kleinsten Bühnen heimische) „<rs type="bibl">Fra Diavolo</rs>“ Er
-      <lb break="no" n="N029"/>folg; „<rs type="bibl">Indra</rs>“ war eine todtgeborne Reprise, „<rs type="bibl">Maria di</rs>
-      <lb n="N030"/><rs type="bibl">Rohan</rs>“, die mit <hi rendition="#em">
-                  <rs type="person">Ander</rs></hi> und der <hi rendition="#em">
-                  <rs type="person">Wildauer</rs></hi> nicht durch
-      <lb break="no" n="N031"/>zudringen vermochte, stand mit Herrn <hi rendition="#em"><rs type="person">Ferenczy</rs></hi> und Fräu
+      <lb n="N028"/>der (auf den kleinsten Bühnen heimische) „<rs ref="#hsl_work_id_194" type="bibl">Fra Diavolo</rs>“ Er
+      <lb break="no" n="N029"/>folg; „<rs ref="#hsl_work_id_169" type="bibl">Indra</rs>“ war eine todtgeborne Reprise, „<rs ref="#hsl_work_id_90" type="bibl">Maria di
+      <lb n="N030"/>Rohan</rs>“, die mit <hi rendition="#em">
+         <rs ref="#hsl_person_id_14" type="person">Ander</rs></hi> und der <hi rendition="#em">
+               <rs ref="#hsl_person_id_326" type="person">Wildauer</rs></hi> nicht durch
+      <lb break="no" n="N031"/>zudringen vermochte, stand mit Herrn <hi rendition="#em"><rs ref="#hsl_person_id_77" type="person">Ferenczy</rs></hi> und Fräu
       <lb break="no" n="N032"/>lein <hi rendition="#em">
-                  <rs type="person">Krauß</rs></hi> in den Hauptrollen von vornherein aussichtslos.
+         <rs ref="#hsl_person_id_148" type="person">Krauß</rs></hi> in den Hauptrollen von vornherein aussichtslos.
       <lb n="N033"/>Mit Neid sehen wir das abwechslungsreichere Repertoire der
       <lb n="N034"/>mittleren, selbst der kleinen Opernbühnen, welche mit ihrem
       <lb n="N035"/>ungleich schwächern Personal dem Publicum wenigstens
-      <lb n="N036"/>Neues vorführen. Man blicke auf <rs type="place">Dresden</rs>, <rs type="place">Braunschweig</rs>
+      <lb n="N036"/>Neues vorführen. Man blicke auf <rs ref="#hsl_place_id_15" type="place">Dresden</rs>, <rs ref="#hsl_place_id_10" type="place">Braunschweig</rs>
       <lb n="N037"/>
-               <rs type="place">Darmstadt</rs>, <rs type="place">Prag</rs>, auf <rs type="place">Karlsruhe</rs>, wo <rs type="person">Eduard <hi rendition="#em">Devrient</hi>
-               </rs>’s
+          <rs ref="#hsl_place_id_13" type="place">Darmstadt</rs>, <rs ref="#hsl_place_id_45" type="place">Prag</rs>, auf 
+               <rs ref="#hsl_place_id_29" type="place">Karlsruhe</rs>, wo <rs ref="#hsl_person_id_58" type="person">Eduard <hi rendition="#em">Devrient</hi></rs>’s
       <lb n="N038"/>tüchtige, gesinnungsvolle Leitung auch die Oper auf echt künst
       <lb break="no" n="N039"/>lerischer Höhe erhält. Gewöhnlich werden wir mit dem Ein
       <lb break="no" n="N040"/>wand abgefertigt, ein großes Hoftheater könne nicht so schnell
@@ -282,14 +285,14 @@
       <lb n="N004"/>(natürlich nach der heiligen Rücksicht auf die „graden“ und
       <lb n="N005"/>„ungraden“ Abonnementstage) besteht darin, daß heute eine
       <lb n="N006"/>Oper mit Herrn <hi rendition="#em">
-                  <rs type="person">Beck</rs></hi> sein muß, morgen eine mit Herrn
+         <rs ref="#hsl_person_id_24" type="person">Beck</rs></hi> sein muß, morgen eine mit Herrn
       <lb n="N007"/><hi rendition="#em">
-                  <rs type="person">Wachtel</rs></hi>, dann eine, worin zugleich Frau <hi rendition="#em">
-                  <rs type="person">Dustmann</rs></hi> und
+         <rs ref="#hsl_person_id_318" type="person">Wachtel</rs></hi>, dann eine, worin zugleich Frau <hi rendition="#em">
+            <rs ref="#hsl_person_id_67" type="person">Dustmann</rs></hi> und
       <lb n="N008"/>Herr <hi rendition="#em">
-                  <rs type="person">Ferenczy</rs></hi> oder Fräulein <hi rendition="#em">
-                  <rs type="person">Krauß</rs></hi> und Herr <hi rendition="#em">
-                  <rs type="person">Walter</rs></hi>
+         <rs ref="#hsl_person_id_77" type="person">Ferenczy</rs></hi> oder Fräulein <hi rendition="#em">
+            <rs ref="#hsl_person_id_148" type="person">Krauß</rs></hi> und Herr <hi rendition="#em">
+               <rs ref="#hsl_person_id_320" type="person">Walter</rs></hi>
       <lb n="N009"/>zu thun haben, u. s. f. Daß eine Oper um ihrer selbst willen
       <lb n="N010"/>gewählt wird, kommt nicht vor. Durch das ewige Ableiern
       <lb n="N011"/>derselben acht bis zehn Rollen werden natürlich die Künstler
@@ -300,9 +303,9 @@
       <lb n="N016"/>Man fristet sich von einer Woche zur andern. Heute beginnt
       <lb n="N017"/>man mit dem Einstudiren dieser, morgen jener Oper, um
       <lb n="N018"/>beide wieder „aus Opportunitäts-Gründen“ zu Gunsten einer
-      <lb n="N019"/>dritten oder auch keiner dritten fallen zu lassen. <hi rendition="#em"><rs type="person">Gluck</rs></hi>’s
-      <lb n="N020"/>„<rs type="bibl">Aulische Iphigenia</rs>“ und „<rs type="bibl">Armida</rs>“ sind seit einigen Jahren,
-      <lb n="N021"/><hi rendition="#em"><rs type="person">Spontini</rs></hi>’s „<rs type="bibl">Vestalin</rs>“ seit mehreren Wochen ausgetheilt,
+      <lb n="N019"/>dritten oder auch keiner dritten fallen zu lassen. <hi rendition="#em"><rs ref="#hsl_person_id_99" type="person">Gluck</rs></hi>’s
+      <lb n="N020"/>„<rs ref="#hsl_work_id_166" type="bibl">Aulische Iphigenia</rs>“ und „<rs ref="#hsl_work_id_260" type="bibl">Armida</rs>“ sind seit einigen Jahren,
+      <lb n="N021"/><hi rendition="#em"><rs ref="#hsl_person_id_294" type="person">Spontini</rs></hi>’s „<rs ref="#hsl_work_id_121" type="bibl">Vestalin</rs>“ seit mehreren Wochen ausgetheilt,
       <lb n="N022"/>und doch werden alle diese Opern nicht gegeben. Wir sind es
       <lb n="N023"/>müde, alljährlich neue Bersprechungen zu lesen — „laßt uns
       <lb n="N024"/>endlich Thaten sehen“. Kommt endlich doch einmal eine Oper
@@ -322,8 +325,8 @@
       <lb break="no" n="N008"/>sen, ohne daß man für den Ersatz derselben sorgt. Geschieht
       <lb n="N009"/>es dann einmal, daß einige der noch vorhandenen erkranken,
       <lb n="N010"/>dann kann man den Scandal erleben, die Chöre (wie jüngst
-      <lb n="N011"/>im „<rs type="bibl">Fliegenden Holländer</rs>“) ausgelacht zu hören, oder, wie kürzlich
-      <lb n="N012"/>im zweiten Act des „<rs type="bibl">Lohengrein</rs>,“ nur <hi rendition="#em">einen</hi> zweiten Tenor
+      <lb n="N011"/>im „<rs ref="#hsl_work_id_237" type="bibl">Fliegenden Holländer</rs>“) ausgelacht zu hören, oder, wie kürzlich
+      <lb n="N012"/>im zweiten Act des „<rs ref="#hsl_work_id_97" type="bibl">Lohengrein</rs>,“ nur <hi rendition="#em">einen</hi> zweiten Tenor
       <lb n="N013"/>und <hi rendition="#em">einen</hi> ersten Baß auf der Bühne vorzufinden. Wird die
       <lb n="N014"/>Sache etwa doch zu auffällig, so wird der Trumpf „Opern
       <lb break="no" n="N015"/>schule“ ausgespielt, d. h. man verstärkt in einzelnen Vorstel
@@ -332,8 +335,8 @@
       <lb break="no" n="N018"/>leuchtete, als ihre besten Lehrjahre mit dem Auswendiglernen
       <lb n="N019"/>von Opernchören und mit Theaterproben auszufüllen, ist diese
       <lb n="N020"/>Hilfe doch nur eine sehr vereinzelte und mitunter riskirte. So
-      <lb n="N021"/>geschah es bei der letzten Vorstellung des „<hi rendition="#em"><rs type="bibl">Don Juan</rs></hi>“ (zu
-      <lb n="N022"/><rs type="person">Mozart</rs>’s Geburtsfeier), daß der <hi rendition="#em">alte</hi> Chor, gekränkt von der
+      <lb n="N021"/>geschah es bei der letzten Vorstellung des „<hi rendition="#em"><rs ref="#hsl_work_id_174" type="bibl">Don Juan</rs></hi>“ (zu
+      <lb n="N022"/><rs ref="#hsl_person_id_189" type="person">Mozart</rs>’s Geburtsfeier), daß der <hi rendition="#em">alte</hi> Chor, gekränkt von der
       <lb n="N023"/>ihm octroyirten Nebenbuhlerschaft, stillschwieg, sobald der
       <lb n="N024"/><hi rendition="#em">junge</hi> den Mund aufthat. Dieser aber, unsicher und in der
       <lb n="N025"/>Männerstimmen sehr unbedeutend, konnte des soliden Unter
@@ -343,13 +346,13 @@
       <lb n="N029"/>Applaus verpuffte. Die Lücken unseres Chorpersonals und
       <lb n="N030"/>andere mögen ihren Grund in einer an sich löblichen, aber oft
       <lb n="N031"/>mißverstandenen Eigenschaft Herrn <hi rendition="#em">
-                  <rs type="person">Salvi</rs></hi>’s haben: in seiner
+         <rs ref="#hsl_person_id_245" type="person">Salvi</rs></hi>’s haben: in seiner
       <lb n="N032"/>Sparsamkeit. „Wir brauchen gar keinen Baßbuffo,“ lautet
       <lb n="N033"/>die Antwort, wenn seit <hi rendition="#em">
-                  <rs type="person">Hölzl</rs></hi>’s Abgang um die Ausfüllung
+         <rs ref="#hsl_person_id_129" type="person">Hölzl</rs></hi>’s Abgang um die Ausfüllung
       <lb n="N034"/>dieser empfindlichen Lücke petitionirt wird. Eine ähnliche Aus
       <lb break="no" n="N035"/>kunft soll Frl. <hi rendition="#em">
-                  <rs type="person">Bettelheim</rs></hi> gelegentlich ihrer (noch schwe
+         <rs ref="#hsl_person_id_304" type="person">Bettelheim</rs></hi> gelegentlich ihrer (noch schwe
       <lb break="no" n="N036"/>benden) Contracts-Erneuerung erhalten haben, „die wenigen Alt
       <lb break="no" n="N037"/>partien lassen sich ganz gut mit Mezzo-Sopran besetzen.“ Das
       <lb n="N038"/>mögen sehr passende Grundsätze für den Principal einer rei
@@ -357,37 +360,37 @@
       <lb n="N040"/>nimmermehr. „Ein Theater-Director muß das Geld zum
       <lb n="N041"/>Fenster hinauswerfen, dann kommt es verdoppelt zur Thür
       <lb n="N042"/>wieder herein,“ äußerte einmal Herr <hi rendition="#em">
-                  <rs type="person">Treumann</rs></hi> gegen uns
+         <rs ref="#hsl_person_id_309" type="person">Treumann</rs></hi> gegen uns
       <lb n="N043"/>— und er befindet sich wohl dabei.
       <lb n="N044"/>Durch den bevorstehenden Austritt Herrn <hi rendition="#em">
-                  <rs type="person">Wachtel</rs></hi>’s
+         <rs ref="#hsl_person_id_318" type="person">Wachtel</rs></hi>’s
       <lb n="N045"/>droht dem Hofoperntheater ein neuer, nicht geringer Verlust.
       <lb n="N046"/>Ob er es unter Herrn <hi rendition="#em">
-                  <rs type="person">Salvi</rs></hi> wirklich nicht habe „aushalten</p>
+         <rs ref="#hsl_person_id_245" type="person">Salvi</rs></hi> wirklich nicht habe „aushalten</p>
             <cb n="6"/>
             <p prev="true">
                <lb n="N001"/>können,“ haben wir nicht zu untersuchen, glauben aber, gestützt
-      <lb n="N002"/>auf <rs type="person">Wachtel</rs>’s Künstlerbiographie, daß er überhaupt sehr ge
+      <lb n="N002"/>auf <rs ref="#hsl_person_id_318" type="person">Wachtel</rs>’s Künstlerbiographie, daß er überhaupt sehr ge
       <lb break="no" n="N003"/>ringe Lust und Fähigkeit besitze, es mit irgend einer Direction
-      <lb n="N004"/>„auszuhalten.“ <hi rendition="#em"><rs type="person">Wachtel</rs></hi> ist zum reisenden Virtuosen, zum
+      <lb n="N004"/>„auszuhalten.“ <hi rendition="#em"><rs ref="#hsl_person_id_318" type="person">Wachtel</rs></hi> ist zum reisenden Virtuosen, zum
       <lb n="N005"/>singenden „Ehrenpassagier“ und „Mauernweiler“ geboren, nicht
       <lb n="N006"/>für den soliden Verband einer stehenden deutschen Oper. Trotz
-      <lb n="N007"/>all seiner Schwächen und Fehler bleibt <rs type="person">Wachtel</rs> eine durch
+      <lb n="N007"/>all seiner Schwächen und Fehler bleibt <rs ref="#hsl_person_id_318" type="person">Wachtel</rs> eine durch
       <lb n="N008"/>außerordentliche Mittel hervorragende, glänzende Theatererschei
       <lb break="no" n="N009"/>nung. Wir sind nunmehr auf zwei erste Tenoristen angewiesen:
       <lb n="N010"/>auf Herrn <hi rendition="#em">
-                  <rs type="person">Walter</rs></hi>, dem man gerne Alles aufhalsen würde,
+         <rs ref="#hsl_person_id_320" type="person">Walter</rs></hi>, dem man gerne Alles aufhalsen würde,
       <lb n="N011"/>obgleich sein Gestaltungsvermögen ein beschränktes ist, und
       <lb n="N012"/>Herrn <hi rendition="#em">
-                  <rs type="person">Ferenczy</rs></hi>, welchem man im Gegentheil kaum <hi rendition="#em">eine</hi>
+         <rs ref="#hsl_person_id_77" type="person">Ferenczy</rs></hi>, welchem man im Gegentheil kaum <hi rendition="#em">eine</hi>
       <lb n="N013"/>neue Rolle zuzutheilen wagt. So oft wir noch Herrn <hi rendition="#em">
-                  <rs type="person">Ferenczy</rs></hi>
+         <rs ref="#hsl_person_id_77" type="person">Ferenczy</rs></hi>
       <lb n="N014"/>hörten, überkam uns eine Art Mitleid. Eine der schönsten
       <lb n="N015"/>Stimmen, von saftigstem, vollem Brustklang, eine schmucke Erschei
       <lb break="no" n="N016"/>nung, endlich ein rührender Fleiß und bescheidener guter Wille
       <lb n="N017"/>fechten hier einen schweren Kampf gegen die mangelnde musikalische
       <lb n="N018"/>Anlage und Ausbildung. Herr <hi rendition="#em">
-                  <rs type="person">Ferenczy</rs></hi> lernt ebenso schwer,
+         <rs ref="#hsl_person_id_77" type="person">Ferenczy</rs></hi> lernt ebenso schwer,
       <lb n="N019"/>wie er leicht vergißt, singt ebenso gern zu hoch, wie er zu tief singt.
       <lb n="N020"/>Das Bewußtsein dieses fundamentalen Mangels macht ihn
       <lb n="N021"/>ängstlich, so oft er die Scene betritt, sein Blick sucht immer den
@@ -395,55 +398,62 @@
       <lb break="no" n="N023"/>suchung, heimlich den Tact zu markiren. Das nimmt seinem Gesang
       <lb n="N024"/>alle Freiheit und damit jede lebendige Wirkung auf den Hörer.
       <lb n="N025"/>Die Aussicht, Herrn <hi rendition="#em">
-                  <rs type="person">Steger</rs></hi> bald wieder zu besitzen, ent
+         <rs ref="#hsl_person_id_298" type="person">Steger</rs></hi> bald wieder zu besitzen, ent
       <lb break="no" n="N026"/>zückt uns sehr mäßig. Im allergünstigsten Fall wird er so
       <lb n="N027"/>viel Stimme mitbringen, als er zuletzt, vor mehreren Jahren,
-      <lb n="N028"/>in <rs type="place">Wien</rs> besessen, und das war sehr wenig. Und besaß Herr
-      <lb n="N029"/><rs type="person">Steger</rs> noch irgend etwas außer seiner Stimme? — Daß ge
-      <lb break="no" n="N030"/>rade <hi rendition="#em"><rs type="person">Steger</rs></hi> jetzt der Mann der Nothwendigkeit sein soll,
+      <lb n="N028"/>in <rs ref="#hsl_place_id_55" type="place">Wien</rs> besessen, und das war sehr wenig. Und besaß Herr
+      <lb n="N029"/><rs ref="#hsl_person_id_298" type="person">Steger</rs> noch irgend etwas außer seiner Stimme? — Daß ge
+      <lb break="no" n="N030"/>rade <hi rendition="#em"><rs ref="#hsl_person_id_298" type="person">Steger</rs></hi> jetzt der Mann der Nothwendigkeit sein soll,
       <lb n="N031"/>will uns nicht einleuchten. Nebenbei wäre uns zur Abwechslung
-      <lb n="N032"/>ein Sänger, der <rs type="place">Deutsch</rs> kann und für die <rs type="place">deutsch</rs>e Oper ge
+      <lb n="N032"/>ein Sänger, der <rs ref="#hsl_place_id_14" type="place">Deutsch</rs> kann und für die <rs ref="#hsl_place_id_14" type="place">deutsch</rs>e Oper ge
       <lb break="no" n="N033"/>bildet ist, wieder einmal recht angenehm. Unsere Oper wird
-      <lb n="N034"/>bald unter den <rs type="place">deutsch</rs>en Bühnen eine Art <rs type="place">ungarisch</rs>-<rs type="place">croatisch</rs>e
-      <lb n="N035"/>Hofkanzlei vorstellen. Während hier die <rs type="place">deutsch</rs>e Oper sich in
-      <lb n="N036"/>tausend Verlegenheiten windet, reist Herr <hi rendition="#em"><rs type="person">Salvi</rs></hi> fleißig im
-      <lb n="N037"/>Interesse seiner <rs type="place">italien</rs>ischen Engagements. Ebenso weisen die
+      <lb n="N034"/>bald unter den <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Bühnen eine Art 
+          <rs ref="#hsl_place_id_53" type="place">ungarisch</rs>-<rs ref="#hsl_place_id_11" type="place">croatisch</rs>e
+      <lb n="N035"/>Hofkanzlei vorstellen. Während hier die <rs ref="#hsl_place_id_14" type="place">deutsch</rs>e Oper sich in
+      <lb n="N036"/>tausend Verlegenheiten windet, reist Herr <hi rendition="#em"><rs ref="#hsl_person_id_245" type="person">Salvi</rs></hi> fleißig im
+      <lb n="N037"/>Interesse seiner <rs ref="#hsl_place_id_28" type="place">italien</rs>ischen Engagements. Ebenso weisen die
       <lb n="N038"/>halbofficiellen Lob- und Vertheidigungs-Artikel stets auf die
-      <lb n="N039"/>relativ guten Leistungen der verflossenen <hi rendition="#em"><rs type="place">italien</rs>ischen</hi> Saison
+      <lb n="N039"/>relativ guten Leistungen der verflossenen <hi rendition="#em"><rs ref="#hsl_place_id_28" type="place">italien</rs>ischen</hi> Saison
       <lb n="N040"/>hin. Diese wird uns bald ausführlicher beschäftigen. Heute
       <lb n="N041"/>wollen wir nur auf jenes officiöse Lieblingsmotiv ein- für
-      <lb n="N042"/>allemal erwidern, daß selbst eine zehnmal bessere <hi rendition="#em"><rs type="place">italien</rs>ische</hi>
-       <lb n="N043"/>Production in den zwei Frühlingsmonaten uns keinen, gar keinen
+      <lb n="N042"/>allemal erwidern, daß selbst eine zehnmal bessere <hi rendition="#em"><rs ref="#hsl_place_id_28" type="place">italien</rs>ische</hi>
+      <lb n="N043"/>Production in den zwei Frühlingsmonaten uns keinen, gar keinen
       <lb n="N044"/>Ersatz für all' die Fehlgriffe und Unterlassungssünden bietet, welche
-      <lb n="N045"/>durch zehn Monate in der <hi rendition="#em"><rs type="place">deutsch</rs>en</hi> Oper begangen werden.</p>
+      <lb n="N045"/>durch zehn Monate in der <hi rendition="#em"><rs ref="#hsl_place_id_14" type="place">deutsch</rs>en</hi> Oper begangen werden.</p>
             <cb n="7"/>
             <p>
                <lb n="N001"/>*) <hi rendition="#em">Im Jahre</hi><date>1849</date> brachte das Hofoperntheater folgende
-      <lb n="N002"/>Opern <hi rendition="#em">zum erstenmal</hi>: „<rs type="bibl">Templer und Jüdin</rs>“, „<rs type="bibl">Die Krondiaman
-      <lb break="no" n="N003"/>ten</rs>“, „<rs type="bibl">Hernani</rs>“, „<rs type="bibl">Linda von Chamounix</rs>“, „
-               <rs type="bibl">Die Barcarole</rs>“ (<rs type="person">Auber</rs>),
-      <lb n="N004"/>„<rs type="bibl">Maria von Rohan</rs>“, „<rs type="bibl">Der schwarze Domino</rs>“, „<rs type="bibl">Der Blitz</rs>“, „<rs type="bibl">Die</rs>
-      <lb n="N005"/><rs type="bibl">Zigeunerin</rs>“, „<rs type="bibl">Haydée</rs>“, „<rs type="bibl">Jolanthe</rs>“ und „
-               <rs type="bibl">Macbeth</rs>“ — also <hi rendition="#em">zwölf</hi>
-      <lb n="N006"/>Opern-Novitäten! <hi rendition="#em"><rs type="person">Holbein</rs></hi> brachte in seinem ersten Directionsjahr
+      <lb n="N002"/>Opern <hi rendition="#em">zum erstenmal</hi>: „<rs ref="#hsl_work_id_230" type="bibl">Templer und Jüdin</rs>“, 
+          „<rs ref="#hsl_work_id_108" type="bibl">Die Krondiaman
+      <lb break="no" n="N003"/>ten</rs>“, „<rs ref="#hsl_work_id_204" type="bibl">Hernani</rs>“, „<rs ref="#hsl_work_id_98" type="bibl">Linda von Chamounix</rs>“, „
+          <rs ref="#hsl_work_id_137" type="bibl">Die Barcarole</rs>“ (<rs ref="#hsl_person_id_16" type="person">Auber</rs>),
+      <lb n="N004"/>„<rs ref="#hsl_work_id_90" type="bibl">Maria von Rohan</rs>“, „<rs ref="#hsl_work_id_118" type="bibl">Der schwarze Domino</rs>“, 
+          „<rs ref="#hsl_work_id_138" type="bibl">Der Blitz</rs>“, „<rs ref="#hsl_work_id_212" type="bibl">Die
+      <lb n="N005"/>Zigeunerin</rs>“, „<rs ref="#hsl_work_id_181" type="bibl">Haydée</rs>“, „<rs ref="#hsl_work_id_159" type="bibl">Jolanthe</rs>“ und „
+          <rs ref="#hsl_work_id_94" type="bibl">Macbeth</rs>“ — also <hi rendition="#em">zwölf</hi>
+      <lb n="N006"/>Opern-Novitäten! <hi rendition="#em"><rs ref="#hsl_person_id_128" type="person">Holbein</rs></hi> brachte in seinem ersten Directionsjahr
       <lb n="N007"/>(vom 9. April <date>1849</date> bis Ende März <date>1850</date>) <hi rendition="#em">elf</hi> neue Opern (dar
-      <lb break="no" n="N008"/>unter „<rs type="bibl">Der Prophet</rs>“) und vier Ballets. — <hi rendition="#em">Im Jahre</hi><date>1851</date> gab
-      <lb n="N009"/>man <hi rendition="#em">fünf</hi> neue Opern „<rs type="bibl">Paquita</rs>“, „<rs type="bibl">Der Brauer von Preston</rs>“,
-      <lb n="N010"/>„<rs type="bibl">Casilda</rs>“, „<rs type="bibl">Giralda</rs>“, „<rs type="bibl">Der verlorne Sohn</rs>“ — und drei Ballets.
-      <lb n="N011"/><hi rendition="#em">Im Jahre</hi><date>1852</date> erschienen am Hofoperntheater neu: „<rs type="bibl">Guttenberg</rs>“,
-      <lb n="N012"/>„<rs type="bibl">Die lustigen Weiber von Windsor</rs>“ „<rs type="bibl">Brahma und die Bayadere</rs>“,
-      <lb n="N013"/>„<rs type="bibl">Die Tochter der Wellen</rs>“, „<rs type="bibl">Indra</rs>“. Noch in den letzten Jahren
-      <lb n="N014"/>unmittelbar vor <rs type="person">Salvi</rs>’s Direction, finden wir in der Regel jährlich
+      <lb break="no" n="N008"/>unter „<rs ref="#hsl_work_id_113" type="bibl">Der Prophet</rs>“) und vier Ballets. — <hi rendition="#em">Im Jahre</hi><date>1851</date> gab
+      <lb n="N009"/>man <hi rendition="#em">fünf</hi> neue Opern „<rs ref="#hsl_work_id_70" type="bibl">Paquita</rs>“, 
+          „<rs ref="#hsl_work_id_175" type="bibl">Der Brauer von Preston</rs>“,
+      <lb n="N010"/>„<rs ref="#hsl_work_id_250" type="bibl">Casilda</rs>“, „<rs ref="#hsl_work_id_189" type="bibl">Giralda</rs>“, 
+          „<rs ref="#hsl_work_id_140" type="bibl">Der verlorne Sohn</rs>“ — und drei Ballets.
+      <lb n="N011"/><hi rendition="#em">Im Jahre</hi><date>1852</date> erschienen am Hofoperntheater neu: „<rs ref="#hsl_work_id_160" type="bibl">Guttenberg</rs>“,
+      <lb n="N012"/>„<rs ref="#hsl_work_id_218" type="bibl">Die lustigen Weiber von Windsor</rs>“ „<rs ref="#hsl_work_id_119" type="bibl">Brahma und die Bayadere</rs>“,
+      <lb n="N013"/>„<rs ref="#hsl_work_id_33" type="bibl">Die Tochter der Wellen</rs>“, „<rs ref="#hsl_work_id_169" type="bibl">Indra</rs>“. Noch in den letzten Jahren
+      <lb n="N014"/>unmittelbar vor <rs ref="#hsl_person_id_245" type="person">Salvi</rs>’s Direction, finden wir in der Regel jährlich
       <lb n="N015"/>vier neue Opern. <hi rendition="#em">Im Jahre</hi>
-               <date>1858</date>: „<rs type="bibl">Paragraph Drei</rs>“, „<rs type="bibl">Königin</rs>
-      <lb n="N016"/><rs type="bibl">von Cypern</rs>" „<rs type="bibl">Die Alpenhütte</rs>“, „
-               <rs type="bibl">Der Schauspieldirector</rs>“, „<rs type="bibl">Königin</rs>
-      <lb n="N017"/><rs type="bibl">Topas</rs>“, „<rs type="bibl">Lohengrin</rs>“. <hi rendition="#em">Im Jahre</hi>
-               <date>1859</date>: „<rs type="bibl">Die Rose von Castilien</rs>“,
-      <lb n="N018"/>„<rs type="bibl">Diana von Solange</rs>“, „<rs type="bibl">Der Troubadour</rs>“, „<rs type="bibl">Tannhäuser</rs>“. <hi rendition="#em">Im</hi>
-      <lb n="N019"/><hi rendition="#em">Jahre</hi><date>1860</date>: „<rs type="bibl">Der Wildschütz</rs>“, „<rs type="bibl">Dominga</rs>“, „
-               <rs type="bibl">Rigoletto</rs>“, „<rs type="bibl">Der</rs>
-      <lb n="N020"/><rs type="bibl">fliegende Holländer</rs>“ — und <hi rendition="#em">nicht</hi> so weiter.</p>
+          <date>1858</date>: „<rs ref="#hsl_work_id_69" type="bibl">Paragraph Drei</rs>“, „<rs ref="#hsl_work_id_249" type="bibl">Königin
+      <lb n="N016"/>von Cypern</rs>" „<rs ref="#hsl_work_id_226" type="bibl">Die Alpenhütte</rs>“, „
+          <rs ref="#hsl_work_id_231" type="bibl">Der Schauspieldirector</rs>“, „<rs ref="#hsl_work_id_143" type="bibl">Königin
+      <lb n="N017"/>Topas</rs>“, „<rs ref="#hsl_work_id_97" type="bibl">Lohengrin</rs>“. <hi rendition="#em">Im Jahre</hi>
+          <date>1859</date>: „<rs ref="#hsl_work_id_215" type="bibl">Die Rose von Castilien</rs>“,
+      <lb n="N018"/>„<rs ref="#hsl_work_id_228" type="bibl">Diana von Solange</rs>“, „<rs ref="#hsl_work_id_171" type="bibl">Der Troubadour</rs>“, 
+          „<rs ref="#hsl_work_id_40" type="bibl">Tannhäuser</rs>“. <hi rendition="#em">Im</hi>
+      <lb n="N019"/><hi rendition="#em">Jahre</hi><date>1860</date>: „<rs ref="#hsl_work_id_229" type="bibl">Der Wildschütz</rs>“, 
+          „<rs ref="#hsl_work_id_209" type="bibl">Dominga</rs>“, „
+               <rs ref="#hsl_work_id_59" type="bibl">Rigoletto</rs>“, „<rs ref="#hsl_work_id_237" type="bibl">Der
+      <lb n="N020"/>fliegende Holländer</rs>“ — und <hi rendition="#em">nicht</hi> so weiter.</p>
          </div>
       </body>
    </text>
