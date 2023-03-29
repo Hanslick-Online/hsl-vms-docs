@@ -110,6 +110,7 @@
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-03-21" who="ampfiel">Worttrennungen ausbessern, ref Links in rs ausfüllen</change>
+         <change when="2023-03-28" who="ampfiel">Fußnote *) auflösen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -261,23 +262,21 @@
          <rs ref="#hsl_person_id_21" type="person">Mendelssohn</rs>
                </hi> (ein Programm ohne jedwede gefallsüchtige
       <lb n="N029"/>Concession) durchaus vorzüglich. Nur die Variationen hätten
-      <lb n="N030"/>wir etwas gemäßigter im Tempo gewünscht. *) Frau <hi rendition="#em">
-         <rs ref="#hsl_person_id_208" type="person">Passy-</rs></hi>
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb n="N001"/>*) Wir wiederholen dringend den Wunsch, daß bei Clavier
-      <lb break="no" n="N002"/>Productionen im Musikvereinssaal der Deckel des Pianos <hi rendition="#em">ganz</hi> ab¬
-      <lb n="N003"/>genommen und nicht blos aufgestützt werde. In dieser hier üblichen
-      <lb n="N004"/>Praxis wird der unter einem Winkel von 45 Graden geneigte Deckel
-      <lb n="N005"/>zu einer Schallwand, welche die ganze Tonstärke ins Parterre wirft
-      <lb n="N006"/>und die Zuhörer im Cercle auf den verdumpften und verschwommenen
-      <lb n="N007"/>Hall reducirt.</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb n="N001"/>
-               <hi rendition="#em"><rs ref="#hsl_person_id_208" type="person">Cornet</rs></hi> sang einige ihrer Vortragsweise sehr fernliegende
+      <lb n="N030"/>wir etwas gemäßigter im Tempo gewünscht.
+               <note type="footnote" n="*)">
+                  <lb n="N001"/>*) Wir wiederholen dringend den Wunsch, daß bei Clavier
+                  <lb break="no" n="N002"/>Productionen im Musikvereinssaal der Deckel des Pianos <hi rendition="#em">ganz</hi> ab
+                  <lb break="no" n="N003"/>genommen und nicht blos aufgestützt werde. In dieser hier üblichen
+                  <lb n="N004"/>Praxis wird der unter einem Winkel von 45 Graden geneigte Deckel
+                  <lb n="N005"/>zu einer Schallwand, welche die ganze Tonstärke ins Parterre wirft
+                  <lb n="N006"/>und die Zuhörer im Cercle auf den verdumpften und verschwommenen
+                  <lb n="N007"/>Hall reducirt.
+               </note>
+               Frau <hi rendition="#em">
+         <rs ref="#hsl_person_id_208" type="person">Passy
+               <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+               <cb n="4"/>
+         <lb break="no" n="N001"/>Cornet</rs></hi> sang einige ihrer Vortragsweise sehr fernliegende
       <lb n="N002"/>Lieder von <rs ref="#hsl_person_id_282" type="person">Schumann</rs> und die oft gehörte <rs ref="#hsl_place_id_48" type="place">russisch</rs>e „Nachti
       <lb break="no" n="N003"/>gall,“ letztere mit vollständigem Erfolg. Den Ensemblestücken
       <lb n="N004"/>kam die treffliche Mitwirkung der Herren <hi rendition="#em">
@@ -327,7 +326,7 @@
           <rs ref="#hsl_person_id_152" type="person">Laub</rs></hi> eine <hi rendition="#em">
                <rs ref="#hsl_person_id_189" type="person">Mozart</rs></hi>’sche Sonate. Kein glücklicher
       <lb n="N035"/>Gedanke war es, dies Stück statt des versprochenen <rs ref="#hsl_work_id_150" type="bibl">D-moll-
-            <cb n="6"/>
+            <cb n="5"/>
       <lb break="no" n="N001"/>Trio</rs>’s von <hi rendition="#em">
                   <rs ref="#hsl_person_id_282" type="person">Schumann</rs></hi> einzuschieben, hört es sich doch in seiner
       <lb n="N002"/>planen, spielseligen Weise gar zu veraltet an. Der Virtuosität
@@ -370,7 +369,7 @@
       <lb break="no" n="N034"/>burgcapelle. <hi rendition="#em">
          <rs ref="#hsl_person_id_121" type="person">Herbeck</rs></hi> ist bekanntlich durch die Gnade des
       <lb n="N035"/>Kaisers zum Vice-Hof-Capellmeister ernannt, aber so viel wir</p>
-            <cb n="7"/>
+            <cb n="6"/>
             <p prev="true">
       <lb n="N001"/>wissen, ist sein Einfluß auf die Hofkapelle ein sehr unter
       <lb break="no" n="N002"/>geordneter und zufälliger. Nun scheint uns dieses mit den besten

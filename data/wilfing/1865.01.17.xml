@@ -111,6 +111,7 @@
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-03-15" who="ampfiel">Worttrennungen ausbessern</change>
          <change when="2023-03-21" who="ampfiel">ref Links in rs ausfüllen</change>
+         <change when="2023-03-28" who="ampfiel">Fußnoten *) auflösen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -279,7 +280,41 @@
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-               <lb n="N001"/>Repertoir auch hier möglich ist und jederzeit möglich war. *)
+               <lb n="N001"/>Repertoir auch hier möglich ist und jederzeit möglich war.
+                     <note type="footnote" n="*)">
+                        <lb n="N001"/><hi rendition="#em">Im Jahre</hi><date>1849</date> brachte das Hofoperntheater folgende
+                        <lb n="N002"/>Opern <hi rendition="#em">zum erstenmal</hi>: „<rs ref="#hsl_work_id_230" type="bibl">Templer und Jüdin</rs>“, 
+                           „<rs ref="#hsl_work_id_108" type="bibl">Die Krondiaman
+                        <lb break="no" n="N003"/>ten</rs>“, „<rs ref="#hsl_work_id_204" type="bibl">Hernani</rs>“, „<rs ref="#hsl_work_id_98" type="bibl">Linda von Chamounix</rs>“, „
+                           <rs ref="#hsl_work_id_137" type="bibl">Die Barcarole</rs>“ (<rs ref="#hsl_person_id_16" type="person">Auber</rs>),
+                        <lb n="N004"/>„<rs ref="#hsl_work_id_90" type="bibl">Maria von Rohan</rs>“, „<rs ref="#hsl_work_id_118" type="bibl">Der schwarze Domino</rs>“, 
+                           „<rs ref="#hsl_work_id_138" type="bibl">Der Blitz</rs>“, „<rs ref="#hsl_work_id_212" type="bibl">Die
+                        <lb n="N005"/>Zigeunerin</rs>“, „<rs ref="#hsl_work_id_181" type="bibl">Haydée</rs>“, „<rs ref="#hsl_work_id_159" type="bibl">Jolanthe</rs>“ und „
+                           <rs ref="#hsl_work_id_94" type="bibl">Macbeth</rs>“ — also <hi rendition="#em">zwölf</hi>
+                        <lb n="N006"/>Opern-Novitäten! <hi rendition="#em"><rs ref="#hsl_person_id_128" type="person">Holbein</rs></hi> brachte in seinem ersten Directionsjahr
+                        <lb n="N007"/>(vom 9. April <date>1849</date> bis Ende März <date>1850</date>) <hi rendition="#em">elf</hi> neue Opern (dar
+                        <lb break="no" n="N008"/>unter „<rs ref="#hsl_work_id_113" type="bibl">Der Prophet</rs>“) und vier Ballets. — <hi rendition="#em">Im Jahre</hi><date>1851</date> gab
+                        <lb n="N009"/>man <hi rendition="#em">fünf</hi> neue Opern „<rs ref="#hsl_work_id_70" type="bibl">Paquita</rs>“, 
+                           „<rs ref="#hsl_work_id_175" type="bibl">Der Brauer von Preston</rs>“,
+                        <lb n="N010"/>„<rs ref="#hsl_work_id_250" type="bibl">Casilda</rs>“, „<rs ref="#hsl_work_id_189" type="bibl">Giralda</rs>“, 
+                           „<rs ref="#hsl_work_id_140" type="bibl">Der verlorne Sohn</rs>“ — und drei Ballets.
+                        <lb n="N011"/><hi rendition="#em">Im Jahre</hi><date>1852</date> erschienen am Hofoperntheater neu: „<rs ref="#hsl_work_id_160" type="bibl">Guttenberg</rs>“,
+                        <lb n="N012"/>„<rs ref="#hsl_work_id_218" type="bibl">Die lustigen Weiber von Windsor</rs>“ „<rs ref="#hsl_work_id_119" type="bibl">Brahma und die Bayadere</rs>“,
+                        <lb n="N013"/>„<rs ref="#hsl_work_id_33" type="bibl">Die Tochter der Wellen</rs>“, „<rs ref="#hsl_work_id_169" type="bibl">Indra</rs>“. Noch in den letzten Jahren
+                        <lb n="N014"/>unmittelbar vor <rs ref="#hsl_person_id_245" type="person">Salvi</rs>’s Direction, finden wir in der Regel jährlich
+                        <lb n="N015"/>vier neue Opern. <hi rendition="#em">Im Jahre</hi>
+                           <date>1858</date>: „<rs ref="#hsl_work_id_69" type="bibl">Paragraph Drei</rs>“, „<rs ref="#hsl_work_id_249" type="bibl">Königin
+                        <lb n="N016"/>von Cypern</rs>" „<rs ref="#hsl_work_id_226" type="bibl">Die Alpenhütte</rs>“, „
+                           <rs ref="#hsl_work_id_231" type="bibl">Der Schauspieldirector</rs>“, „<rs ref="#hsl_work_id_143" type="bibl">Königin
+                        <lb n="N017"/>Topas</rs>“, „<rs ref="#hsl_work_id_97" type="bibl">Lohengrin</rs>“. <hi rendition="#em">Im Jahre</hi>
+                           <date>1859</date>: „<rs ref="#hsl_work_id_215" type="bibl">Die Rose von Castilien</rs>“,
+                        <lb n="N018"/>„<rs ref="#hsl_work_id_228" type="bibl">Diana von Solange</rs>“, „<rs ref="#hsl_work_id_171" type="bibl">Der Troubadour</rs>“, 
+                           „<rs ref="#hsl_work_id_40" type="bibl">Tannhäuser</rs>“. <hi rendition="#em">Im</hi>
+                        <lb n="N019"/><hi rendition="#em">Jahre</hi><date>1860</date>: „<rs ref="#hsl_work_id_229" type="bibl">Der Wildschütz</rs>“, 
+                           „<rs ref="#hsl_work_id_209" type="bibl">Dominga</rs>“, „
+                           <rs ref="#hsl_work_id_59" type="bibl">Rigoletto</rs>“, „<rs ref="#hsl_work_id_237" type="bibl">Der
+                        <lb n="N020"/>fliegende Holländer</rs>“ — und <hi rendition="#em">nicht</hi> so weiter.
+                     </note>
       <lb n="N002"/>Ueber die Abfassung unseres Repertoires entscheidet nicht
       <lb n="N003"/>das mindeste künstlerische Princip. Der einzige Gesichtspunkt
       <lb n="N004"/>(natürlich nach der heiligen Rücksicht auf die „graden“ und
@@ -420,41 +455,7 @@
       <lb n="N043"/>Production in den zwei Frühlingsmonaten uns keinen, gar keinen
       <lb n="N044"/>Ersatz für all' die Fehlgriffe und Unterlassungssünden bietet, welche
       <lb n="N045"/>durch zehn Monate in der <hi rendition="#em"><rs ref="#hsl_place_id_14" type="place">deutsch</rs>en</hi> Oper begangen werden.</p>
-            <cb n="7"/>
-            <p>
-               <lb n="N001"/>*) <hi rendition="#em">Im Jahre</hi><date>1849</date> brachte das Hofoperntheater folgende
-      <lb n="N002"/>Opern <hi rendition="#em">zum erstenmal</hi>: „<rs ref="#hsl_work_id_230" type="bibl">Templer und Jüdin</rs>“, 
-          „<rs ref="#hsl_work_id_108" type="bibl">Die Krondiaman
-      <lb break="no" n="N003"/>ten</rs>“, „<rs ref="#hsl_work_id_204" type="bibl">Hernani</rs>“, „<rs ref="#hsl_work_id_98" type="bibl">Linda von Chamounix</rs>“, „
-          <rs ref="#hsl_work_id_137" type="bibl">Die Barcarole</rs>“ (<rs ref="#hsl_person_id_16" type="person">Auber</rs>),
-      <lb n="N004"/>„<rs ref="#hsl_work_id_90" type="bibl">Maria von Rohan</rs>“, „<rs ref="#hsl_work_id_118" type="bibl">Der schwarze Domino</rs>“, 
-          „<rs ref="#hsl_work_id_138" type="bibl">Der Blitz</rs>“, „<rs ref="#hsl_work_id_212" type="bibl">Die
-      <lb n="N005"/>Zigeunerin</rs>“, „<rs ref="#hsl_work_id_181" type="bibl">Haydée</rs>“, „<rs ref="#hsl_work_id_159" type="bibl">Jolanthe</rs>“ und „
-          <rs ref="#hsl_work_id_94" type="bibl">Macbeth</rs>“ — also <hi rendition="#em">zwölf</hi>
-      <lb n="N006"/>Opern-Novitäten! <hi rendition="#em"><rs ref="#hsl_person_id_128" type="person">Holbein</rs></hi> brachte in seinem ersten Directionsjahr
-      <lb n="N007"/>(vom 9. April <date>1849</date> bis Ende März <date>1850</date>) <hi rendition="#em">elf</hi> neue Opern (dar
-      <lb break="no" n="N008"/>unter „<rs ref="#hsl_work_id_113" type="bibl">Der Prophet</rs>“) und vier Ballets. — <hi rendition="#em">Im Jahre</hi><date>1851</date> gab
-      <lb n="N009"/>man <hi rendition="#em">fünf</hi> neue Opern „<rs ref="#hsl_work_id_70" type="bibl">Paquita</rs>“, 
-          „<rs ref="#hsl_work_id_175" type="bibl">Der Brauer von Preston</rs>“,
-      <lb n="N010"/>„<rs ref="#hsl_work_id_250" type="bibl">Casilda</rs>“, „<rs ref="#hsl_work_id_189" type="bibl">Giralda</rs>“, 
-          „<rs ref="#hsl_work_id_140" type="bibl">Der verlorne Sohn</rs>“ — und drei Ballets.
-      <lb n="N011"/><hi rendition="#em">Im Jahre</hi><date>1852</date> erschienen am Hofoperntheater neu: „<rs ref="#hsl_work_id_160" type="bibl">Guttenberg</rs>“,
-      <lb n="N012"/>„<rs ref="#hsl_work_id_218" type="bibl">Die lustigen Weiber von Windsor</rs>“ „<rs ref="#hsl_work_id_119" type="bibl">Brahma und die Bayadere</rs>“,
-      <lb n="N013"/>„<rs ref="#hsl_work_id_33" type="bibl">Die Tochter der Wellen</rs>“, „<rs ref="#hsl_work_id_169" type="bibl">Indra</rs>“. Noch in den letzten Jahren
-      <lb n="N014"/>unmittelbar vor <rs ref="#hsl_person_id_245" type="person">Salvi</rs>’s Direction, finden wir in der Regel jährlich
-      <lb n="N015"/>vier neue Opern. <hi rendition="#em">Im Jahre</hi>
-          <date>1858</date>: „<rs ref="#hsl_work_id_69" type="bibl">Paragraph Drei</rs>“, „<rs ref="#hsl_work_id_249" type="bibl">Königin
-      <lb n="N016"/>von Cypern</rs>" „<rs ref="#hsl_work_id_226" type="bibl">Die Alpenhütte</rs>“, „
-          <rs ref="#hsl_work_id_231" type="bibl">Der Schauspieldirector</rs>“, „<rs ref="#hsl_work_id_143" type="bibl">Königin
-      <lb n="N017"/>Topas</rs>“, „<rs ref="#hsl_work_id_97" type="bibl">Lohengrin</rs>“. <hi rendition="#em">Im Jahre</hi>
-          <date>1859</date>: „<rs ref="#hsl_work_id_215" type="bibl">Die Rose von Castilien</rs>“,
-      <lb n="N018"/>„<rs ref="#hsl_work_id_228" type="bibl">Diana von Solange</rs>“, „<rs ref="#hsl_work_id_171" type="bibl">Der Troubadour</rs>“, 
-          „<rs ref="#hsl_work_id_40" type="bibl">Tannhäuser</rs>“. <hi rendition="#em">Im</hi>
-      <lb n="N019"/><hi rendition="#em">Jahre</hi><date>1860</date>: „<rs ref="#hsl_work_id_229" type="bibl">Der Wildschütz</rs>“, 
-          „<rs ref="#hsl_work_id_209" type="bibl">Dominga</rs>“, „
-               <rs ref="#hsl_work_id_59" type="bibl">Rigoletto</rs>“, „<rs ref="#hsl_work_id_237" type="bibl">Der
-      <lb n="N020"/>fliegende Holländer</rs>“ — und <hi rendition="#em">nicht</hi> so weiter.</p>
-         </div>
+          </div>
       </body>
    </text>
 </TEI>

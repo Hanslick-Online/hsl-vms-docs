@@ -111,6 +111,7 @@
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-03-12" who="ampfiel">Worttrennungen ausbessern</change>
          <change when="2023-03-12" who="ampfiel">alle ref Links in rs ausfüllen</change>
+         <change when="2023-03-28" who="ampfiel">Fußnoten *) auflösen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -130,43 +131,40 @@
                <lb n="N001"/>Feuilleton.
       <lb n="N002"/>Concerte.
       <lb n="N003"/>Ed. H. In dem ersten „Philharmonischen Concert“ lernten wir
-      <lb n="N004"/>ein neues Werk von <hi rendition="#em">
-         <rs ref="#hsl_person_id_282" type="person">Schumann</rs>
-      </hi> kennen: die Ouvertüre zu <rs ref="#hsl_person_id_248" type="person">Schil
-         <lb break="no" n="N005"/>ler</rs>'s „<rs ref="#hsl_work_id_224" type="bibl">Braut von Messina</rs>“. Capellmeister <rs ref="#hsl_person_id_56" type="person">Dessoff</rs>, der uns im
-               <lb n="N006"/>vorigen Jahre mit <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s „<rs ref="#hsl_work_id_157" type="bibl">Julius-Cäsar-Ouvertüre</rs>“ bekannt ge
+      <lb n="N004"/>ein neues Werk von <hi rendition="#em"><rs ref="#hsl_person_id_282" type="person">Schumann</rs>
+         </hi> kennen: die Ouvertüre zu <rs ref="#hsl_person_id_248" type="person">Schil
+      <lb break="no" n="N005"/>ler</rs>'s „<rs ref="#hsl_work_id_224" type="bibl">Braut von Messina</rs>“. Capellmeister <rs ref="#hsl_person_id_56" type="person">Dessoff</rs>, der uns im
+      <lb n="N006"/>vorigen Jahre mit <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s „<rs ref="#hsl_work_id_157" type="bibl">Julius-Cäsar-Ouvertüre</rs>“ bekannt ge
       <lb break="no" n="N007"/>macht, verdient für dies Seitenstück den gleichen Dank. Die Kritik
       <lb n="N008"/>soll diesen Dank um so nachdrücklicher aussprechen, als eine enthu
       <lb break="no" n="N009"/>siastische Aufnahme weder des einen noch des andern Werkes irgendwo
       <lb n="N010"/>zu erwarten steht. Gegen das Interesse, allmälig eine vollständige
-               <lb n="N011"/>Kenntniß aller Orchester-Compositionen <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s zu erlangen, neue
+      <lb n="N011"/>Kenntniß aller Orchester-Compositionen <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s zu erlangen, neue
       <lb n="N012"/>Seiten seines Wesens, neue Marksteine seiner Entwicklung kennen zu
       <lb n="N013"/>lernen, kommt der größere oder geringere Beifall, den solche Novitä
-               <lb break="no" n="N014"/>ten bei der ersten Aufführung finden, in gar keinen Betracht. <rs ref="#hsl_person_id_282" type="person">Schu
-               <lb break="no" n="N015"/>mann</rs> ist eine Individualität, welche es verdient, vollständig gekannt
-               <lb n="N016"/>zu sein. Wir sind weit entfernt, <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s dritte Periode mit der
+      <lb break="no" n="N014"/>ten bei der ersten Aufführung finden, in gar keinen Betracht. <rs ref="#hsl_person_id_282" type="person">Schu
+      <lb break="no" n="N015"/>mann</rs> ist eine Individualität, welche es verdient, vollständig gekannt
+      <lb n="N016"/>zu sein. Wir sind weit entfernt, <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s dritte Periode mit der
       <lb n="N017"/>
                <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s zu vergleichen; wissen wir doch zu wohl, daß des Letzte
       <lb break="no" n="N018"/>ren Spätwerke düsterer, herber, schwerfaßlicher, aber nicht schwächer
-               <lb n="N019"/>geworden, daß <rs ref="#hsl_person_id_25" type="person">Beethoven</rs> darin ein Anderer, aber kein Geringerer ist,
+      <lb n="N019"/>geworden, daß <rs ref="#hsl_person_id_25" type="person">Beethoven</rs> darin ein Anderer, aber kein Geringerer ist,
       <lb n="N020"/>als er zuvor gewesen. Dies läßt von <hi rendition="#em">
-         <rs ref="#hsl_person_id_282" type="person">Schumann</rs>
-               </hi> sich kaum be
+         <rs ref="#hsl_person_id_282" type="person">Schumann</rs></hi> sich kaum be
       <lb break="no" n="N021"/>haupten.
       <lb n="N022"/>Nur erinnern möge man sich beiläufig, welche muthige Aus
       <lb break="no" n="N023"/>dauer anfangs dazu gehörte, das Publicum mit dem vollständigen
-      <lb n="N024"/>
-               <rs ref="#hsl_person_id_25" type="person">Beethoven</rs> bekannt zu machen, und daß man zur Liebe und Bewun
+      <lb n="N024"/><rs ref="#hsl_person_id_25" type="person">Beethoven</rs> bekannt zu machen, und daß man zur Liebe und Bewun
       <lb break="no" n="N025"/>derung seiner letzten Periode mitunter rein auf dem Wege der Neu
-               <lb break="no" n="N026"/>gier gelangt ist. Die Ouvertüre zur „<rs ref="#hsl_work_id_224" type="bibl">Braut von Messina</rs>“ trägt die
-               <lb n="N027"/>verhängnißvolle Opuszahl 100 und stammt bereits aus der <rs ref="#hsl_place_id_16" type="place">Düssel
-               <lb break="no" n="N028"/>dorf</rs>er Zeit des Componisten. Ihr düsteres Wogen und Drängen
-               <lb n="N029"/>mahnt auffallend an die — allerdings bedeutendere — „<rs ref="#hsl_work_id_92" type="bibl">Manfred-
-         <lb break="no" n="N030"/>Ouvertüre</rs>“. Wie diese, so ist auch die Musik zur „<rs ref="#hsl_work_id_224" type="bibl">Braut</rs>“ ein
+      <lb break="no" n="N026"/>gier gelangt ist. Die Ouvertüre zur „<rs ref="#hsl_work_id_224" type="bibl">Braut von Messina</rs>“ trägt die
+      <lb n="N027"/>verhängnißvolle Opuszahl 100 und stammt bereits aus der <rs ref="#hsl_place_id_16" type="place">Düssel
+      <lb break="no" n="N028"/>dorf</rs>er Zeit des Componisten. Ihr düsteres Wogen und Drängen
+      <lb n="N029"/>mahnt auffallend an die — allerdings bedeutendere — „<rs ref="#hsl_work_id_92" type="bibl">Manfred-
+      <lb break="no" n="N030"/>Ouvertüre</rs>“. Wie diese, so ist auch die Musik zur „<rs ref="#hsl_work_id_224" type="bibl">Braut</rs>“ ein
       <lb n="N031"/>Nachtstück, das nur einmal flüchtig erhellt wird durch den schmerz
       <lb break="no" n="N032"/>lich innigen Gesang der Clarinette in As-dur. Diese Farbe,
-               <lb n="N033"/>dies unbeschreiblich süße, wunde Hellroth ist nur <rs ref="#hsl_person_id_282" type="person">Schumann</rs> eigen.
-               <lb n="N034"/>Mit „<rs ref="#hsl_work_id_157" type="bibl">Julius Cäsar</rs>“ verglichen, gewinnt die Ouvertüre zur „<rs ref="#hsl_work_id_224" type="bibl">Braut</rs>“</p>
+      <lb n="N033"/>dies unbeschreiblich süße, wunde Hellroth ist nur <rs ref="#hsl_person_id_282" type="person">Schumann</rs> eigen.
+      <lb n="N034"/>Mit „<rs ref="#hsl_work_id_157" type="bibl">Julius Cäsar</rs>“ verglichen, gewinnt die Ouvertüre zur „<rs ref="#hsl_work_id_224" type="bibl">Braut</rs>“</p>
             <cb n="2"/>
             <p prev="true">
                <lb n="N001"/>durch größere Wärme und bedeutendere Motive. Der Punkt,
@@ -175,22 +173,20 @@
       <lb n="N004"/>allgemein dürfte die unerbittliche Erfüllung eines von Anfang
       <lb n="N005"/>tragisch angelegten Geschickes als die herübergenommene Grund
       <lb break="no" n="N006"/>idee erkannt werden. Gegen die bewegte, in äußeren Handlungen und
-               <lb n="N007"/>Ereignissen so realistisch sich entwickelnde Tragik der „<rs ref="#hsl_work_id_224" type="bibl">Braut von
-         <lb n="N008"/>Messina</rs>“ hebt sich die Ouvertüre etwas <rs ref="#hsl_person_id_551" type="person">Hamlet</rs>isch, psychologisirend,
-               <lb n="N009"/>oder kürzer gesagt, <rs ref="#hsl_person_id_282" type="person">Schumann</rs>isch ab. Sie wurde sehr tüchtig ausge
+      <lb n="N007"/>Ereignissen so realistisch sich entwickelnde Tragik der „<rs ref="#hsl_work_id_224" type="bibl">Braut von
+      <lb n="N008"/>Messina</rs>“ hebt sich die Ouvertüre etwas <rs ref="#hsl_person_id_551" type="person">Hamlet</rs>isch, psychologisirend,
+      <lb n="N009"/>oder kürzer gesagt, <rs ref="#hsl_person_id_282" type="person">Schumann</rs>isch ab. Sie wurde sehr tüchtig ausge
       <lb break="no" n="N010"/>führt und schien die aufmerksame Hörerschaft lebhaft und anhaltend
       <lb n="N011"/>zu interessiren.
-               <lb n="N012"/>Eine zweite Tondichtung aus <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s späterer Zeit und
+      <lb n="N012"/>Eine zweite Tondichtung aus <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s späterer Zeit und
       <lb n="N013"/>von unleugbar enger Verwandtschaft mit der Ouvertüre führte uns
-      <lb n="N014"/>
-               <rs ref="#hsl_person_id_152" type="person">Ferdinand <hi rendition="#em">Laub</hi>
+      <lb n="N014"/><rs ref="#hsl_person_id_152" type="person">Ferdinand <hi rendition="#em">Laub</hi>
                </rs> in seiner ersten Quartett-Soirée vor: die <rs ref="#hsl_work_id_242" type="bibl">D-moll-
       <lb n="N015"/>Sonate für Violine und Clavier, op. 121</rs>. Obgleich <hi rendition="#em">
-         <rs ref="#hsl_person_id_152" type="person">Laub</rs>
-               </hi> den
+         <rs ref="#hsl_person_id_152" type="person">Laub</rs></hi> den
       <lb n="N016"/>äußerst schwierigen Violinpart mit hinreißender Energie vortrug und
       <lb n="N017"/>ihm einen leidenschaftlicheren Charakter aufprägte, als vor einigen
-               <lb n="N018"/>Jahren <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs> — die Composition hat uns einen befriedigen
+      <lb n="N018"/>Jahren <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs> — die Composition hat uns einen befriedigen
       <lb break="no" n="N019"/>den, ungemischten Eindruck so wenig hinterlassen, als damals. Der
       <lb n="N020"/>einheitliche Charakter, das stürmische Pathos im ersten und letzten
       <lb n="N021"/>Satze überträgt die festgehaltene Grundstimmung allerdings mit
@@ -198,8 +194,8 @@
       <lb n="N023"/>lauter Novembernebel gejagt, die Beute einer quälenden, gegenstands
       <lb break="no" n="N024"/>losen Verzweiflung. Die beiden innern Sätze, welche diese drückende
       <lb n="N025"/>Saharaluft durch melodiöse Themen und glänzende Klangeffecte mil
-               <lb break="no" n="N026"/>dern, lassen uns wieder die Innigkeit vermissen, mit der sich <rs ref="#hsl_person_id_282" type="person">Schu
-               <lb break="no" n="N027"/>mann</rs> sonst in seine Töne hineinlebt, — die selige Tiefe, aus der
+      <lb break="no" n="N026"/>dern, lassen uns wieder die Innigkeit vermissen, mit der sich <rs ref="#hsl_person_id_282" type="person">Schu
+      <lb break="no" n="N027"/>mann</rs> sonst in seine Töne hineinlebt, — die selige Tiefe, aus der
       <lb n="N028"/>seine frühere Musik hervorquillt. Eine äußere, fieberhafte Leiden
       <lb break="no" n="N029"/>schaftlichkeit soll sie ersetzen. In dem in breitesten Verhältnissen an
       <lb break="no" n="N030"/>gelegten ersten Satze wird das Hauptmotiv mit peinlicher Zähigkeit
@@ -209,16 +205,22 @@
       <lb break="no" n="N034"/>licht heraus. Ebensowenig vermag sich das Scherzo mit seinem klei
       <lb break="no" n="N035"/>nen Thema und einförmigen Rhythmus aus dem H-moll zu befreien.
       <lb n="N036"/>Anmuthig und effectvoll ausgestattet ist das ständchenartige Andante;
-               <lb n="N037"/>die alte Herzlichkeit <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s fehlt dennoch. Das Finale treibt die</p>
+      <lb n="N037"/>die alte Herzlichkeit <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s fehlt dennoch. Das Finale treibt die</p>
             <cb n="3"/>
             <p prev="true">
-               <lb n="N001"/>leidenschaftliche Bewegtheit beinahe bis zum Theatersturm *) und hält
+               <lb n="N001"/>leidenschaftliche Bewegtheit beinahe bis zum Theatersturm *) 
+                     <note type="footnote" n="*)">
+                        <lb n="N001"/>*) Die frappante Aehnlichkeit des Themas mit dem Seesturm¬
+                        <lb n="N002"/>Motiv in <rs ref="#hsl_person_id_321" type="person">Weber</rs>’s „<hi rendition="#em">
+                           <rs ref="#hsl_work_id_79" type="bibl">Oberon</rs>
+                              </hi>“ (II. 13) wird Niemand entgangen sein.
+                     </note>
+               und hält
       <lb n="N002"/>die auf- und niederwogende Sechzehntelfigur zur Ermüdung fest
       <lb n="N003"/>Das technische Interesse, der virtuose Glanz und einzelne Silberblicke
       <lb n="N004"/>der Melodie können uns nur stellenweise und vorübergehend aus dem
       <lb n="N005"/>Gefühl der Unbefriedigung erretten.
-      <lb n="N006"/>Herr <hi rendition="#em">
-         <rs ref="#hsl_person_id_41" type="person">Brahms</rs>
+      <lb n="N006"/>Herr <hi rendition="#em"><rs ref="#hsl_person_id_41" type="person">Brahms</rs>
                </hi>, vom Publicum auf das herzlichste begrüßt,
       <lb n="N007"/>spielte den Clavierpart der Sonate in der ihm eigenen edlen, aber
       <lb n="N008"/>etwas bequemen Weise; offenbar hinderte ihn auch der auffallend
@@ -226,40 +228,31 @@
       <lb n="N010"/>Herrn <hi rendition="#em">
          <rs ref="#hsl_person_id_152" type="person">Laub</rs>
                </hi>’s vorjährige Partner, der tüchtige Secundarius
-      <lb n="N011"/>
-               <hi rendition="#em">
+      <lb n="N011"/><hi rendition="#em">
                   <rs ref="#hsl_person_id_143" type="person">Käßmayer</rs>
                </hi> und der feinfühlende, wenn auch nicht kräftige Cellist
-      <lb n="N012"/>
-               <hi rendition="#em">
+      <lb n="N012"/><hi rendition="#em">
                   <rs ref="#hsl_person_id_250" type="person">Schlesinger</rs>
                </hi>, sind auch diesmal an ihren Pulten geblieben, wäh
       <lb break="no" n="N013"/>rend die Bratsche in die Hände eines jungen, vielversprechenden Mu
       <lb break="no" n="N014"/>sikers, Herrn <hi rendition="#em">
-         <rs ref="#hsl_person_id_126" type="person">Hilpert</rs>
-               </hi>, gelangt ist.
-      <lb n="N015"/>
-               <hi rendition="#em">
+         <rs ref="#hsl_person_id_126" type="person">Hilpert</rs></hi>, gelangt ist.
+      <lb n="N015"/><hi rendition="#em">
                   <rs ref="#hsl_person_id_152" type="person">Laub</rs>
                </hi>’s erste Soirée erfreute sich zahlreichen Besuches und
       <lb n="N016"/>lebhaftesten Beifalls. Ein Gleiches gilt selbstverständlich von der ersten
       <lb n="N017"/>Quartett-Production <hi rendition="#em">
          <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>
                </hi>’s mit den Herren <hi rendition="#em">
-                  <rs ref="#hsl_person_id_66" type="person">Durst</rs>
-               </hi>,
-      <lb n="N018"/>
-               <hi rendition="#em">
-                  <rs ref="#hsl_person_id_62" type="person">Dobyhal</rs>
-               </hi> und <hi rendition="#em">
-                  <rs ref="#hsl_person_id_243" type="person">Röver</rs>
-               </hi>. Genießt doch <hi rendition="#em">
-                  <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>
-               </hi> ein älteres
-               <lb n="N019"/>Anrecht an die Sympathien der <rs ref="#hsl_place_id_55" type="place">Wien</rs>er Gesellschaft, und daß diese
+                  <rs ref="#hsl_person_id_66" type="person">Durst</rs></hi>,
+      <lb n="N018"/><hi rendition="#em">
+               <rs ref="#hsl_person_id_62" type="person">Dobyhal</rs></hi> und <hi rendition="#em">
+                  <rs ref="#hsl_person_id_243" type="person">Röver</rs></hi>. Genießt doch <hi rendition="#em">
+                     <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs></hi> ein älteres
+      <lb n="N019"/>Anrecht an die Sympathien der <rs ref="#hsl_place_id_55" type="place">Wien</rs>er Gesellschaft, und daß diese
       <lb n="N020"/>sich hierin nicht geändert, bewies der gedrängt volle Saal der ersten
       <lb n="N021"/>Production, obgleich derselben nur um wenige Stunden der anstren
-               <lb break="no" n="N022"/>gende „<rs ref="#hsl_work_id_158" type="bibl">Judas Maccabäus</rs>“ vorangegangen war. So gedeihen denn
+     <lb break="no" n="N022"/>gende „<rs ref="#hsl_work_id_158" type="bibl">Judas Maccabäus</rs>“ vorangegangen war. So gedeihen denn
       <lb n="N023"/>beide Quartett-Unternehmungen im schönsten Frieden nebeneinander.
       <lb n="N024"/>Wir haben in früheren Berichten manchen für das eine und das
       <lb n="N025"/>andere Unternehmen charakteristischen Zug hervorgehoben, ihren ab
@@ -267,36 +260,29 @@
       <lb break="no" n="N027"/>sichtslose Unbilligkeit sehr schwer. Unsere individuelle Vorliebe neigt
       <lb n="N028"/>sich im Quartettspiel auf die Seite <hi rendition="#em">
          <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>
-      </hi>’s. <rs ref="#hsl_person_id_152" type="person">Laub</rs> ist
+            </hi>’s. <rs ref="#hsl_person_id_152" type="person">Laub</rs> ist
       <lb n="N029"/>der brillantere Virtuos, einer der kühnsten, die wir überhaupt kennen;
       <lb n="N030"/>in dieser Eigenschaft, wie er sie jüngst wieder in der Leopoldstags
       <lb break="no" n="N031"/>Akademie bewährte, befriedigt er uns am vollständigsten. Auch ist
-               <lb n="N032"/>er, so glauben wir, ein ebenso gebildeter Musiker wie <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>.
+      <lb n="N032"/>er, so glauben wir, ein ebenso gebildeter Musiker wie <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>.
       <lb n="N033"/>Aber den letzteren halten wir für die musikalischere Natur. Sein
       <lb n="N034"/>Spiel hat mehr Empfindung, die Empfindung mehr Feinheit und ein
-               <lb n="N035"/>wechselvolleres inneres Leben. Namentlich <rs ref="#hsl_person_id_21" type="person">Mendelssohn</rs>’sche und</p>
+      <lb n="N035"/>wechselvolleres inneres Leben. Namentlich <rs ref="#hsl_person_id_21" type="person">Mendelssohn</rs>’sche und</p>
+           <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-               <lb n="N001"/>*) Die frappante Aehnlichkeit des Themas mit dem Seesturm¬
-               <lb n="N002"/>Motiv in <rs ref="#hsl_person_id_321" type="person">Weber</rs>’s „<hi rendition="#em">
-                  <rs ref="#hsl_work_id_79" type="bibl">Oberon</rs>
-               </hi>“ (II. 13) wird Niemand entgangen sein.</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
             <p>
                <lb n="N001"/>
                <rs ref="#hsl_person_id_189" type="person">Mozart</rs>’sche Stücke (wie z. B. das <rs ref="#hsl_work_id_46" type="bibl">G-moll-Quintett</rs>) klingen uns unter
       <lb n="N002"/>
-               <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>’s Bogen sinniger, zarter, geistreicher. Wo Kraft und
-               <lb n="N003"/>kühne Bravour den Ausschlag geben, wird ihn <rs ref="#hsl_person_id_152" type="person">Laub</rs> übertreffen, also
+              <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>’s Bogen sinniger, zarter, geistreicher. Wo Kraft und
+      <lb n="N003"/>kühne Bravour den Ausschlag geben, wird ihn <rs ref="#hsl_person_id_152" type="person">Laub</rs> übertreffen, also
       <lb n="N004"/>mitunter auch in der Kammermusik. Der Boden, auf welchem jedoch
-               <lb n="N005"/>diese Eigenschaften am üppigsten gedeihen, wo <rs ref="#hsl_person_id_152" type="person">Laub</rs>’s Kunst am hellsten
+      <lb n="N005"/>diese Eigenschaften am üppigsten gedeihen, wo <rs ref="#hsl_person_id_152" type="person">Laub</rs>’s Kunst am hellsten
       <lb n="N006"/>glänzt, ist nicht das Quartett, sondern das eigentliche Concertspiel.
-               <lb n="N007"/>Die <hi rendition="#em">Gesellschafts-Concerte</hi> begannen Sonntags mit <rs ref="#hsl_person_id_108" type="person">Hän
-                  <lb break="no" n="N008"/>del</rs>’s Oratorium „<rs ref="#hsl_work_id_158" type="bibl">Judas Maccabäus</rs>.“ Es ist dasselbe Werk, womit
+      <lb n="N007"/>Die <hi rendition="#em">Gesellschafts-Concerte</hi> begannen Sonntags mit <rs ref="#hsl_person_id_108" type="person">Hän
+      <lb break="no" n="N008"/>del</rs>’s Oratorium „<rs ref="#hsl_work_id_158" type="bibl">Judas Maccabäus</rs>.“ Es ist dasselbe Werk, womit
       <lb n="N009"/>vor 6 Jahren der neugegründete „Singverein“ unter <hi rendition="#em">
-         <rs ref="##hsl_person_id_121" type="person">Herbeck</rs>
-               </hi>’s Lei
+         <rs ref="##hsl_person_id_121" type="person">Herbeck</rs></hi>’s Lei
       <lb break="no" n="N010"/>tung zum erstenmal selbstständig in die Oeffentlichkeit trat. Die da
       <lb break="no" n="N011"/>malige Production brachte es zu keinem durchgreifenden Erfolg, und
       <lb n="N012"/>die jetzige hatte in diesem Punkt kein viel besseres Schicksal. Manche
@@ -306,7 +292,7 @@
       <lb break="no" n="N016"/>zielten in den Glanzpunkten des Oratoriums mächtige Wirkung. Was
       <lb n="N017"/>sich jedoch gleichgeblieben war, ist die mangelhafte Besetzung der
       <lb n="N018"/>Solostimmen und manches Bedenken, das in dem Werke selbst wur
-               <lb break="no" n="N019"/>zelt. Bekannt ist, daß die Arien und Duette <rs ref="#hsl_person_id_108" type="person">Händel</rs>’s schwächere
+      <lb break="no" n="N019"/>zelt. Bekannt ist, daß die Arien und Duette <rs ref="#hsl_person_id_108" type="person">Händel</rs>’s schwächere
       <lb n="N020"/>Seite bilden, durch ihren starren Typus und theilweise veralteten
       <lb n="N021"/>Formalismus sich beim Publicum schwerer durchsetzen, als die Chöre.
       <lb n="N022"/>Ebendeshalb bedürfen sie von Seite des Vortrags eine ergiebigere
@@ -317,24 +303,24 @@
       <lb n="N025"/>klangvolle Sopran und die musikalische Festigkeit dieser Künstlerin
       <lb n="N026"/>waren hier wie überall von wohlthuender Wirkung; der eigenthüm
       <lb break="no" n="N027"/>lich leblose, wenig nuancirte Vortrag jedoch ließ kalt. Man kann
-               <lb n="N028"/>nicht sagen, daß Frau <rs ref="#hsl_person_id_327" type="person">Wilt</rs> ausdruckslos singt, aber ihr Ausdruck
+      <lb n="N028"/>nicht sagen, daß Frau <rs ref="#hsl_person_id_327" type="person">Wilt</rs> ausdruckslos singt, aber ihr Ausdruck
       <lb n="N029"/>ist wie verschleiert und gebunden. Sie erinnert in diesem Punkt oft
-               <lb n="N030"/>an einen, in seiner Art sehr schätzbaren Sänger, an <rs ref="#hsl_person_id_71" type="person">Erl</rs>. Der zweite
+      <lb n="N030"/>an einen, in seiner Art sehr schätzbaren Sänger, an <rs ref="#hsl_person_id_71" type="person">Erl</rs>. Der zweite
       <lb n="N031"/>Sopran und die Altpartie, weniger umfangreiche, aber höchst wichtige
       <lb n="N032"/>und delicate Aufgaben, waren mit zwei Anfängerinnen besetzt. Die
       <lb n="N033"/>Sopranistin (ihren Namen nennen wir lieber bei einer künftigen
       <lb n="N034"/>Gelegenheit, wann es ihr mehr Freude machen wird) erwies sich
-               <lb n="N035"/>schon durch ihr junges, unentwickeltes Stimmchen für <rs ref="#hsl_person_id_108" type="person">Händel</rs>’sche
+      <lb n="N035"/>schon durch ihr junges, unentwickeltes Stimmchen für <rs ref="#hsl_person_id_108" type="person">Händel</rs>’sche
       <lb n="N036"/>Oratorienmusik ganz ungeeignet. Unreif, von kindlich scharfer Höhe,
       <lb n="N037"/>wird dies Organ ohne Zweifel noch wachsen, auch an Empfindung
       <lb n="N038"/>scheint es der Sängerin nicht zu fehlen, so daß wir von ihrer Zu
       <lb break="no" n="N039"/>kunft weit mehr Günstiges als Verfehltes erwarten. In dem gegen
       <lb break="no" n="N040"/>wärtigen Stadium ihrer Stimme und Ausbildung hätte aber das</p>
-            <cb n="6"/>
+            <cb n="5"/>
             <p prev="true">
                <lb n="N001"/>junge Mädchen von einer solchen Aufgabe sollen ferngehalten werden.
       <lb n="N002"/>Es war derselben auch so unsicher, daß es in dem ersten Duett mit
-               <lb n="N003"/>Frau <rs ref="#hsl_person_id_327" type="person">Wilt</rs> vollständig herauskam und anhaltende Confusion verur
+      <lb n="N003"/>Frau <rs ref="#hsl_person_id_327" type="person">Wilt</rs> vollständig herauskam und anhaltende Confusion verur
       <lb break="no" n="N004"/>sachte. Noch weniger war die zweite Anfängerin ihrem Part gewach
       <lb break="no" n="N005"/>sen. Ihre kräftige, entwicklungsfähige Altstimme klingt in Folge
       <lb n="N006"/>fehlerhafter Tonbildung verschwollen und gedrückt, die Aussprache ist
@@ -342,11 +328,11 @@
       <lb n="N008"/>welcher Tonstufe die Triller gemeint waren, womit die beiden Mäd
       <lb break="no" n="N009"/>chen uns erfreuten, vermochte nach dem Gehör wol Niemand zu be
       <lb break="no" n="N010"/>stimmen. — Herr <hi rendition="#em">
-         <rs ref="#hsl_person_id_207" type="person">Panzer</rs>
+            <rs ref="#hsl_person_id_207" type="person">Panzer</rs>
                </hi> sang seinen Part mit gewohnter Correct
       <lb break="no" n="N011"/>heit, soweit die hohe Lage ihn nicht genirte. Die reichcolorirte Tenor
       <lb break="no" n="N012"/>partie wurde von Herrn <hi rendition="#em">
-         <rs ref="#hsl_person_id_320" type="person">Walter</rs>
+            <rs ref="#hsl_person_id_320" type="person">Walter</rs>
                </hi> lobenswerth bewältigt; doch besaß
       <lb n="N013"/>weder seine Stimme an dem Tage die gewohnte Frische, noch schien
       <lb n="N014"/>er von dem Inhalt seiner Aufgabe sehr erwärmt. Letzteres ist gerade
@@ -354,54 +340,71 @@
       <lb n="N016"/>Werk in ähnlicher Weise disponirt, und solche Stimmung theilt sich
       <lb n="N017"/>hinüber und herüber ebenso schnell mit, als im entgegengesetzten
       <lb n="N018"/>Fall Befriedigung und Wärme.
-               <lb n="N019"/>Die Vorzüge des „<rs ref="#hsl_work_id_158" type="bibl">Judas Maccabäus</rs>“ zu preisen und seine
+      <lb n="N019"/>Die Vorzüge des „<rs ref="#hsl_work_id_158" type="bibl">Judas Maccabäus</rs>“ zu preisen und seine
       <lb n="N020"/>zahlreichen Musterbilder bewunderungswürdiger Größe und Erhabenheit,
       <lb n="N021"/>dessen bedarf es wol nicht mehr. Prachtstücke wie „Fall war sein Los“,
       <lb n="N022"/>wie die Alt-Arie mit Chor und Vieles im dritten Theil werden ihre
       <lb n="N023"/>mächtige Wirkung nie und nirgends verfehlen. Als Ganzes wirkt dies
       <lb n="N024"/>Oratorium trotzdem nicht so erregend und fesselnd, wie die dramati
-               <lb break="no" n="N025"/>scher gestalteten: „<rs ref="#hsl_work_id_53" type="bibl">Samson</rs>“, „<rs ref="#hsl_work_id_253" type="bibl">Belsazar</rs>“ etc. In „<rs ref="#hsl_work_id_158" type="bibl">Judas Maccabäus</rs>“
+      <lb break="no" n="N025"/>scher gestalteten: „<rs ref="#hsl_work_id_53" type="bibl">Samson</rs>“, „<rs ref="#hsl_work_id_253" type="bibl">Belsazar</rs>“ etc. In „<rs ref="#hsl_work_id_158" type="bibl">Judas Maccabäus</rs>“
       <lb n="N026"/>tritt der Held hinter das allgemeine Pathos der Freiheit (politischer
       <lb n="N027"/>wie religiöser), das sich der Massen bemächtigt hat, allzusehr zurück.
       <lb n="N028"/>Die einzelnen Ereignisse und Personen gehen in dieser Allgemeinheit
       <lb n="N029"/>völlig verloren. Dadurch bekommt der ganze Text etwas eigenthüm
       <lb break="no" n="N030"/>lich Abstractes, Unpersönliches — ein Eindruck, der noch dadurch ver
       <lb break="no" n="N031"/>stärkt wird, daß <hi rendition="#em">
-         <rs ref="#hsl_person_id_625" type="person">Mathatias</rs>
-               </hi> und <hi rendition="#em">
-                  <rs ref="#hsl_person_id_601" type="person">Judas</rs>
-               </hi>, der todte und der le
+         <rs ref="#hsl_person_id_625" type="person">Mathatias</rs></hi> und <hi rendition="#em">
+                  <rs ref="#hsl_person_id_601" type="person">Judas</rs></hi>, der todte und der le
       <lb break="no" n="N032"/>bende Held des Oratoriums, in unserm Bewußtsein nicht so indivi
-               <lb break="no" n="N033"/>duell feststehen, uns nicht so vertraut sind, wie <rs ref="#hsl_person_id_655" type="person">Samson</rs>, <rs ref="#hsl_person_id_631" type="person">Moses</rs> oder
-      <lb n="N034"/>
-               <rs ref="#hsl_person_id_451" type="person">Belsazar</rs>, der Gestalten des neuen Bundes gar nicht zu gedenken.
+      <lb break="no" n="N033"/>duell feststehen, uns nicht so vertraut sind, wie <rs ref="#hsl_person_id_655" type="person">Samson</rs>, <rs ref="#hsl_person_id_631" type="person">Moses</rs> oder
+      <lb n="N034"/><rs ref="#hsl_person_id_451" type="person">Belsazar</rs>, der Gestalten des neuen Bundes gar nicht zu gedenken.
       <lb n="N035"/>Thatsache ist das geringere Interesse, das die Handlung dieses Ora
       <lb break="no" n="N036"/>oriums einflößt, und die unausbleibliche Monotonie mancher Par
       <lb break="no" n="N037"/>tien, welche den Hörer im Verlauf ermüdet. Wir können es daher
       <lb n="N038"/>vom Standpunkt einer wahrhaften, praktischen Pietät (im Gegensatz
       <lb n="N039"/>zur eigensinnig idealistischen) nur billigen, daß Herr <hi rendition="#em">
-         <rs ref="##hsl_person_id_121" type="person">Herbeck</rs>
+            <rs ref="##hsl_person_id_121" type="person">Herbeck</rs>
                </hi>, welcher
       <lb n="N040"/>das Oratorium mit gewohnter Energie dirigirte, uns nicht die voll
-            <cb n="7"/>
-               <lb break="no" n="N001"/>ständige Partitur gab, sondern ein gutes Dutzend Nummern wegließ. *)
+            <cb n="6"/>
+               <lb break="no" n="N001"/>ständige Partitur gab, sondern ein gutes Dutzend Nummern wegließ.
+                     <note type="footnote" n="*)">
+                        <lb n="N001"/>Wie Händel selbst über diesen Punkt dachte, beweist ein
+                        <lb n="N002"/>Brief von ihm, der obendrein einen seiner besten, dramatischesten
+                        <lb n="N003"/>Oratorientexte, den <hi rendition="#em">
+                           <rs ref="#hsl_work_id_253" type="bibl">Belsazar</rs>
+                        </hi>, betrifft. <rs ref="#hsl_person_id_108" type="person">Händel</rs> schreibt nämlich am
+                        <lb n="N004"/>2. October <date>1744</date> an <rs ref="#hsl_person_id_139" type="person">Ch. <hi rendition="#em">Jennies</hi>
+                        </rs>, den Verfasser jenes Textes:
+                        <lb n="N005"/>„Ich halte es für ein sehr schönes, erhabenes Oratorium, nur ist es
+                        <lb n="N006"/>wirklich zu lang; ich habe schon einen großen Theil der <hi rendition="#em">Musik</hi> weg
+                        <lb break="no" n="N007"/>geschnitten, um den <hi rendition="#em">Text</hi> so viel als möglich zu erhalten, aber es
+                        <lb n="N008"/>muß noch mehr verkürzt werden.“ Da jedoch der Dichter keine Zeile
+                        <lb n="N009"/>opfern wollte, blieb <rs ref="#hsl_person_id_108" type="person">Händel</rs> nichts Anderes übrig, als das Ganze un
+                        <lb break="no" n="N010"/>verkürzt zu componiren und zu veröffentlichen. Er ließ aber auf das
+                        <lb n="N011"/>vollständige Textbuch die Bemerkung drucken: „Da das Oratorium
+                        <lb n="N012"/>zu lang ist, so sind verschiedene Stücke mit einer schwarzen Linie am
+                        <lb n="N013"/>Rande als solche bezeichnet, welche bei der Aufführung weggelassen
+                        <lb n="N014"/>werden können.“ Nach <hi rendition="#em">
+                           <rs ref="#hsl_person_id_273" type="person">Schilcher</rs>
+                        </hi>’s Bericht („<rs ref="#hsl_work_id_37" type="bibl">Life of Handel</rs>“
+                        <lb n="N015"/>P. 290) waren <hi rendition="#em">mehr als zweihundert Zeilen</hi> des Textbuchs
+                        <lb n="N016"/>mit jenem schwarzen Strich bezeichnet!
+                     </note>
       <lb n="N002"/>— Die <hi rendition="#em">Akademie</hi> für den „Privat-Pensionsfond des Hofopern
       <lb break="no" n="N003"/>theaters“ oder für die „Theatral-Armen“, wie man ehemals sagte,
       <lb n="N004"/>fand wie alljährlich am 15. November Abends, diesmal unter freundlicher
       <lb n="N005"/>Mitwirkung von Fräulein <hi rendition="#em">
-         <rs ref="#hsl_person_id_15" type="person">Artôt</rs>
+            <rs ref="#hsl_person_id_15" type="person">Artôt</rs>
                </hi>, statt. Dieser Mitwirkung ist wol
       <lb n="N006"/>auch der ungewöhnliche Zudrang zum Operntheater und die Ver
       <lb break="no" n="N007"/>wandlung des Orchesterraumes in Sperrsitzreihen zu verdanken. Fräu
       <lb break="no" n="N008"/>lein <hi rendition="#em">
-         <rs ref="#hsl_person_id_15" type="person">Artôt</rs>
-               </hi> sang mit Fräulein <hi rendition="#em">
-                  <rs ref="#hsl_person_id_304" type="person">Bettelheim</rs>
-               </hi> das große Duett aus
-      <lb n="N009"/>
-               <rs ref="#hsl_person_id_241" type="person">Rossini</rs>’s „<rs ref="#hsl_work_id_52" type="bibl">Semiramide</rs>“ und allein zwei Mazurkas von <hi rendition="#em">
-                  <rs ref="#hsl_person_id_48" type="person">Chopin</rs>
-               </hi>.
+            <rs ref="#hsl_person_id_15" type="person">Artôt</rs></hi> sang mit Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_304" type="person">Bettelheim</rs></hi> das große Duett aus
+      <lb n="N009"/><rs ref="#hsl_person_id_241" type="person">Rossini</rs>’s „
+               <rs ref="#hsl_work_id_52" type="bibl">Semiramide</rs>“ und allein zwei Mazurkas von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_48" type="person">Chopin</rs></hi>.
       <lb n="N010"/>Frau <hi rendition="#em">
          <rs ref="#hsl_person_id_313" type="person">Viardot-Garcia</rs>
                </hi> hat eine Auswahl der für das Clavier
@@ -449,29 +452,6 @@
                </hi>’s Leitung schwung
       <lb break="no" n="N026"/>voll ausgeführte Ouvertüren bildeten die übrigen, durchwegs sehr bei
       <lb break="no" n="N027"/>fällig aufgenommenen Nummern dieser Wohlthätigkeits-Vorstellung.</p>
-            <cb n="8"/>
-            <p>
-               <lb n="N001"/>*) Wie Händel selbst über diesen Punkt dachte, beweist ein
-      <lb n="N002"/>Brief von ihm, der obendrein einen seiner besten, dramatischesten
-      <lb n="N003"/>Oratorientexte, den <hi rendition="#em">
-         <rs ref="#hsl_work_id_253" type="bibl">Belsazar</rs>
-      </hi>, betrifft. <rs ref="#hsl_person_id_108" type="person">Händel</rs> schreibt nämlich am
-               <lb n="N004"/>2. October <date>1744</date> an <rs ref="#hsl_person_id_139" type="person">Ch. <hi rendition="#em">Jennies</hi>
-               </rs>, den Verfasser jenes Textes:
-      <lb n="N005"/>„Ich halte es für ein sehr schönes, erhabenes Oratorium, nur ist es
-      <lb n="N006"/>wirklich zu lang; ich habe schon einen großen Theil der <hi rendition="#em">Musik</hi> weg
-      <lb break="no" n="N007"/>geschnitten, um den <hi rendition="#em">Text</hi> so viel als möglich zu erhalten, aber es
-      <lb n="N008"/>muß noch mehr verkürzt werden.“ Da jedoch der Dichter keine Zeile
-               <lb n="N009"/>opfern wollte, blieb <rs ref="#hsl_person_id_108" type="person">Händel</rs> nichts Anderes übrig, als das Ganze un
-      <lb break="no" n="N010"/>verkürzt zu componiren und zu veröffentlichen. Er ließ aber auf das
-      <lb n="N011"/>vollständige Textbuch die Bemerkung drucken: „Da das Oratorium
-      <lb n="N012"/>zu lang ist, so sind verschiedene Stücke mit einer schwarzen Linie am
-      <lb n="N013"/>Rande als solche bezeichnet, welche bei der Aufführung weggelassen
-      <lb n="N014"/>werden können.“ Nach <hi rendition="#em">
-         <rs ref="#hsl_person_id_273" type="person">Schilcher</rs>
-      </hi>’s Bericht („<rs ref="#hsl_work_id_37" type="bibl">Life of Handel</rs>“
-      <lb n="N015"/>P. 290) waren <hi rendition="#em">mehr als zweihundert Zeilen</hi> des Textbuchs
-      <lb n="N016"/>mit jenem schwarzen Strich bezeichnet!</p>
          </div>
       </body>
    </text>
