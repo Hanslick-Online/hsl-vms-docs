@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project basedir="." name="tei2html">
-    <property name="target" value="./data/tmp"/>
-    <property name="facs" value="./data/facs"/>
-    <property name="editions" value="./data/editions"/>
-    <property name="xsl_editions" value="./xsl/editions.xsl"/>
+<project basedir="../.." name="tei2html">
+    <property name="target" value="${basedir}/data/tmp"/>
+    <property name="facs" value="${basedir}/data/facs"/>
+    <property name="editions" value="${basedir}/data/pre-process"/>
+    <property name="xsl_editions" value="${basedir}/xsl/editions.xsl"/>
 
     <xslt style="${xsl_editions}" extension=".xml"  basedir="${editions}" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>

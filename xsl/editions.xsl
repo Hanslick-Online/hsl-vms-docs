@@ -154,7 +154,7 @@
             <respStmt>
                 <resp>Projektmitarbeiterinnen</resp>
                 <name ref="">Bamer, Katharina</name>
-                <name ref="">Pfiel, Anna-Maria</name>
+                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                 <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
             </respStmt>
         </editionStmt>
@@ -174,8 +174,6 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="tei:zone"/>
-    
     <xsl:template match="tei:body/tei:div/tei:ab[1]"/>
     <xsl:template match="tei:body/tei:div/tei:ab[2]"/>
     
@@ -194,7 +192,7 @@
     </xsl:template>
     <xsl:template match="tei:lb">
         <xsl:copy>
-            <xsl:apply-templates select="node()|@* except @facs"/>
+            <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>
     <xsl:template match="tei:italic">

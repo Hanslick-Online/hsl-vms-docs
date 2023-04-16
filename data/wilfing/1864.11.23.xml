@@ -111,6 +111,7 @@
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-03-12" who="ampfiel">Worttrennungen ausbessern</change>
          <change when="2023-03-14" who="ampfiel">ref Links in rs ausfüllen</change>
+         <change when="2023-03-28" who="ampfiel">Fußnoten *) auflösen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -141,10 +142,10 @@
       <lb n="N009"/>That lebendig unter uns. Wir dürfen sagen, im Buche dauert
       <lb n="N010"/>das geistige Leben des Einzelnen, und nur der Geist, welcher
       <lb n="N011"/>eingebucht ist, hat sichere Dauer auf Erden.“ Es fügte sich
-               <lb n="N012"/>hübsch, daß wir in der Lectüre von <rs ref="#hsl_person_id_82" type="person">Freytag</rs>’s anmuthiger
-               <lb n="N013"/>Erzählung „<rs ref="#hsl_work_id_213" type="bibl">Die verlorne Handschrift</rs>“ gerade bei den oben an
+      <lb n="N012"/>hübsch, daß wir in der Lectüre von <rs ref="#hsl_person_id_82" type="person">Freytag</rs>’s anmuthiger
+      <lb n="N013"/>Erzählung „<rs ref="#hsl_work_id_213" type="bibl">Die verlorne Handschrift</rs>“ gerade bei den oben an
       <lb break="no" n="N014"/>geführten Worten hielten, als man uns zwei neue Biographien
-               <lb n="N015"/>überbrachte: <rs ref="#hsl_person_id_279" type="person">Franz <hi rendition="#em">Schubert</hi>
+      <lb n="N015"/>überbrachte: <rs ref="#hsl_person_id_279" type="person">Franz <hi rendition="#em">Schubert</hi>
                </rs>’s und <rs ref="#hsl_person_id_233" type="person">J. Fr. <hi rendition="#em">Reichardt</hi>
                </rs>’s.
       <lb n="N016"/>Grundverschieden in jedem Bezug, treffen doch beide Tondichter
@@ -157,42 +158,36 @@
                <rs ref="#hsl_person_id_149" type="person">Kreißle</rs>’s „<rs ref="#hsl_work_id_193" type="bibl">Schubert</rs>“ und <rs ref="#hsl_person_id_251" type="person">Schletterer</rs>’s „<rs ref="#hsl_work_id_161" type="bibl">Reichardt</rs>“
       <lb n="N023"/>aufmerksam zu machen; eine eingehend kritische Beurtheilung
       <lb n="N024"/>der beiden — überdies sehr umfangreichen — Növitäten ge
-               <lb break="no" n="N025"/>hört in ein Fachblatt. Das <rs ref="#hsl_work_id_193" type="bibl">Schubertbuch</rs> steht uns natürlich
+      <lb break="no" n="N025"/>hört in ein Fachblatt. Das <rs ref="#hsl_work_id_193" type="bibl">Schubertbuch</rs> steht uns natürlich
       <lb n="N026"/>näher; nicht nur behandelt es den ungleich größeren Künstler, den
-               <lb n="N027"/>Wiener obendrein — auch der Verfasser, Herr Dr. <rs ref="#hsl_person_id_149" type="person"><hi rendition="#em">Kreißle</hi> 
-         <lb n="N028"/>von <hi rendition="#em">Hellborn</hi></rs>, ist Einer von den Unsern und im musikali
-               <lb break="no" n="N029"/>schen Centrum <rs ref="#hsl_place_id_55" type="place">Wien</rs>s als ausübender und schriftstellernder
+      <lb n="N027"/>Wiener obendrein — auch der Verfasser, Herr Dr. <rs ref="#hsl_person_id_149" type="person"><hi rendition="#em">Kreißle</hi> 
+      <lb n="N028"/>von <hi rendition="#em">Hellborn</hi></rs>, ist Einer von den Unsern und im musikali
+      <lb break="no" n="N029"/>schen Centrum <rs ref="#hsl_place_id_55" type="place">Wien</rs>s als ausübender und schriftstellernder
       <lb n="N030"/>Musiker vortheilhaft bekannt.
       <lb n="N031"/>Als <hi rendition="#em">
-         <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>
-               </hi> die Augen schloß, ging es seinen Ver
+         <rs ref="#hsl_person_id_25" type="person">Beethoven</rs></hi> die Augen schloß, ging es seinen Ver
       <lb break="no" n="N032"/>ehrern wie <hi rendition="#em">
-         <rs ref="#hsl_person_id_311" type="person">Rahel</rs>
-               </hi>, die bei der Nachricht von <hi rendition="#em">
-                  <rs ref="#hsl_person_id_100" type="person">Goethe</rs>
-               </hi>’s Tod
-               <lb n="N033"/>gestand, sie habe nie im Ernste daran gedacht, daß auch <rs ref="#hsl_person_id_100" type="person">Goethe</rs>
+         <rs ref="#hsl_person_id_311" type="person">Rahel</rs></hi>, die bei der Nachricht von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_100" type="person">Goethe</rs></hi>’s Tod
+      <lb n="N033"/>gestand, sie habe nie im Ernste daran gedacht, daß auch <rs ref="#hsl_person_id_100" type="person">Goethe</rs>
             </p>
             <cb n="2"/>
             <p prev="true">
                <lb n="N001"/>sterben könne. Ehe man sich des Schlages nur recht bewußt,
       <lb n="N002"/>des Verlustes völlig klar geworden, war, ein Jahr nach
-      <lb n="N003"/>
-               <hi rendition="#em">
-                  <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>
+      <lb n="N003"/><hi rendition="#em"><rs ref="#hsl_person_id_25" type="person">Beethoven</rs>
                </hi>, auch derjenige erblaßt, der inzwischen still und
       <lb n="N004"/>unerkannt dessen Erbschaft angetreten hatte: <hi rendition="#em">
          <rs ref="#hsl_person_id_279" type="person">Franz Schu
-               <lb break="no" n="N005"/>bert</rs>
-      </hi>. Wenige Schritte nur liegen zwischen ihm und <rs ref="#hsl_person_id_25" type="person">Beetho
-               <lb break="no" n="N006"/>ven</rs> — in der Kunst, wie auf dem Friedhof. Was in Wahr
-               <lb break="no" n="N007"/>heit <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s Leben ausmachte, ruht in seinen Tondichtungen;
+      <lb break="no" n="N005"/>bert</rs></hi>. Wenige Schritte nur liegen zwischen ihm und <rs ref="#hsl_person_id_25" type="person">Beetho
+      <lb break="no" n="N006"/>ven</rs> — in der Kunst, wie auf dem Friedhof. Was in Wahr
+      <lb break="no" n="N007"/>heit <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s Leben ausmachte, ruht in seinen Tondichtungen;
       <lb n="N008"/>in solcher Fülle liegt es vor uns ausgebreitet, daß es noch kaum
       <lb n="N009"/>überblickt, geschweige denn durchforscht ist. Seine äußeren
       <lb n="N010"/>Schicksale hingegen, die allereinfachsten, die nur immer ein
       <lb n="N011"/>großes Seelenleben einrahmen können, sind mit wenigen Wor
       <lb break="no" n="N012"/>ten erzählt. Du kennst, musikliebender Leser, das bescheidene,
-               <lb n="N013"/>einstöckige Haus in der Vorstadt <rs ref="#hsl_place_id_24" type="place">Lichtenthal</rs>, an welchem seit
+      <lb n="N013"/>einstöckige Haus in der Vorstadt <rs ref="#hsl_place_id_24" type="place">Lichtenthal</rs>, an welchem seit
       <lb n="N014"/>Kurzem eine Gedenktafel die Vorübergehenden belehrt, daß hier
       <lb n="N015"/>am 31. Jänner <date>1797</date>
                <rs ref="#hsl_person_id_279" type="person">Franz Schubert</rs> geboren wurde. Hier
@@ -201,10 +196,10 @@
       <lb n="N018"/>Schullehrerstelle und — neunzehn Kinder. Zum Glück sind
       <lb n="N019"/>die Schullehrer meistens die wahren musikalischen Missionäre
       <lb n="N020"/>im Land und jedes Schulhaus eine kleine Wegkapelle musika
-               <lb break="no" n="N021"/>lischer Andacht. Im <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’schen Hause waren Vater und
+      <lb break="no" n="N021"/>lischer Andacht. Im <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’schen Hause waren Vater und
       <lb n="N022"/>Brüder wackere Musiker — ihre sonntägigen Gesammt-Pro
-               <lb break="no" n="N023"/>ductionen mahnen fast an <rs ref="#hsl_person_id_18" type="person">Sebastian Bach</rs> und seine Söhne
-               <lb n="N024"/>— der junge <rs ref="#hsl_person_id_279" type="person">Franz</rs> wurde denn recht eigentlich „von Haus
+      <lb break="no" n="N023"/>ductionen mahnen fast an <rs ref="#hsl_person_id_18" type="person">Sebastian Bach</rs> und seine Söhne
+      <lb n="N024"/>— der junge <rs ref="#hsl_person_id_279" type="person">Franz</rs> wurde denn recht eigentlich „von Haus
       <lb n="N025"/>aus“ musikalisch. Seine hübsche Sopranstimme ertönte bald
       <lb n="N026"/>in der kaiserlichen Hofcapelle und verschaffte ihm einen Zög
       <lb break="no" n="N027"/>lingsplatz im „Couvict“. Diese Anstalt, den allgemeinen ge
@@ -212,12 +207,12 @@
       <lb break="no" n="N029"/>nahe ein Conservatorium in kleinem Styl, gleichsam ein letz
       <lb break="no" n="N030"/>ter, weltlicher Nachklang jener segensreichen Sängerschulen, in
       <lb n="N031"/>welchen früher Domcapitel und Klöster für die Heranbildung
-               <lb n="N032"/>junger Sänger sorgten. Componirt hat der junge <rs ref="#hsl_person_id_279" type="person">Schubert</rs>
-               <lb n="N033"/>schon im Convict sehr eifrig, er hatte da immer viel mehr
+      <lb n="N032"/>junger Sänger sorgten. Componirt hat der junge <rs ref="#hsl_person_id_279" type="person">Schubert</rs>
+      <lb n="N033"/>schon im Convict sehr eifrig, er hatte da immer viel mehr
       <lb n="N034"/>Ideen als Notenpapier.
-               <lb n="N035"/>In seinem sechzehnten Jahre kehrte <rs ref="#hsl_person_id_279" type="person">Schubert</rs> ins väter
+      <lb n="N035"/>In seinem sechzehnten Jahre kehrte <rs ref="#hsl_person_id_279" type="person">Schubert</rs> ins väter
             <cb n="3"/>
-               <lb break="no" n="N001"/>liche Haus zurück und trat bei seinem Vater als Schulgehilfe
+      <lb break="no" n="N001"/>liche Haus zurück und trat bei seinem Vater als Schulgehilfe
       <lb n="N002"/>ein. Drei Jahre hielt Pegasus im Joche aus, ruhig, wenn
       <lb n="N003"/>auch nicht willig. Und welch ein Joch es für diese hochflie
       <lb break="no" n="N004"/>gende Künstlernatur war, kleinen Kindern nicht ohne Beihilfe
@@ -308,8 +303,8 @@
       <lb break="no" n="N033"/>phische Unternehmen auf große Schwierigkeiten. Sie liegen
       <lb n="N034"/>hauptsächlich in dem so einfachen bescheidenen Verlauf dieses
       <lb n="N035"/>Künstlerlebens.
-               <lb n="N036"/>„In <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s Leben,“ sagt sein Freund <rs ref="#hsl_person_id_249" type="person">A. <hi rendition="#em">Schindler</hi>
-               </rs>
+               <lb n="N036"/>„In <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s Leben,“ sagt sein Freund 
+               <rs ref="#hsl_person_id_249" type="person">A. <hi rendition="#em">Schindler</hi></rs>
             </p>
             <cb n="5"/>
             <p prev="true">
@@ -447,14 +442,21 @@
          <rs ref="#hsl_person_id_135" type="person">Jahn</rs>
                </hi>) in den
       <lb n="N011"/>Anhang verwiesen, sondern durchweg in den Text aufgenom
-      <lb break="no" n="N012"/>men, dessen Fortgang dadurch auf das ermüdendste gehemmt wird. *)
+      <lb break="no" n="N012"/>men, dessen Fortgang dadurch auf das ermüdendste gehemmt wird.
+               <note type="footnote" n="*)">
+                     <lb n="N001"/>Ein anderer Zug von „Gründlichkeit“, auf den wir gerne
+                     <lb n="N002"/>verzichtet hätten, findet sich Seite 139, wo uns der Verfasser in Einem
+                     <lb n="N003"/>Athem von der „poetischen Flamme“ <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s für die <rs ref="#hsl_person_id_75" type="person">Comtesse
+                     <lb break="no" n="N004"/>Eszterhazy</rs> und von dem „Verhältniß“ erzählt, das <rs ref="#hsl_person_id_279" type="person">Schubert</rs> im
+                     <lb n="N005"/><rs ref="#hsl_person_id_827" type="person">Eszterhazy</rs>’schen Hause „mit einer Dienerin daselbst“ anknüpfte!
+               </note>
       <lb n="N013"/>Da der Werth eines Buches doch nicht genau mit dessen
-               <lb n="N014"/>Papiermasse zunimmt, wird man <rs ref="#hsl_person_id_149" type="person">Kreißle</rs>’s neue <rs ref="#hsl_work_id_640" type="bibl"><rs ref="#hsl_person_id_279" type="person">Schubert</rs>-
-                  <lb break="no" n="N015"/>Biographie</rs> im Vergleich mit dessen früherer „<rs ref="#hsl_work_id_193" type="bibl">biographischen
-               <lb n="N016"/>Skizze</rs>“ kaum in dem Maße reichhaltiger finden, als sie dicker ist.
+      <lb n="N014"/>Papiermasse zunimmt, wird man <rs ref="#hsl_person_id_149" type="person">Kreißle</rs>’s neue <rs ref="#hsl_work_id_640" type="bibl"><rs ref="#hsl_person_id_279" type="person">Schubert</rs>-
+      <lb break="no" n="N015"/>Biographie</rs> im Vergleich mit dessen früherer „<rs ref="#hsl_work_id_193" type="bibl">biographischen
+      <lb n="N016"/>Skizze</rs>“ kaum in dem Maße reichhaltiger finden, als sie dicker ist.
       <lb n="N017"/>Ein wesentlicher Fortschritt der neuen Bearbeitung liegt hingegen in
       <lb n="N018"/>der besseren Anordnung und Eintheilung, in den Notizen über die
-               <lb n="N019"/>Entstehung und erste Aufführung der wichtigsten <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’schen
+      <lb n="N019"/>Entstehung und erste Aufführung der wichtigsten <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’schen
       <lb n="N020"/>Werke, endlich und ganz vorzüglich in der Beigabe eines voll
       <lb break="no" n="N021"/>ständigen chronologischen Verzeichnisses der Compositionen
       <lb n="N022"/>
@@ -468,20 +470,19 @@
                </hi> alle Ehre macht.
       <lb n="N026"/>Es bleibt uns nur mehr wenig Raum, um dem Leser
       <lb n="N027"/>von dem biographischen Denkmal zu erzählen, das der ver
-               <lb break="no" n="N028"/>dienstvolle <rs ref="#hsl_place_id_3" type="place">Augsburg</rs>er Domcapellmeister <rs ref="#hsl_person_id_251" type="person">J. M. <hi rendition="#em">Schletterer</hi>
+      <lb break="no" n="N028"/>dienstvolle <rs ref="#hsl_place_id_3" type="place">Augsburg</rs>er Domcapellmeister <rs ref="#hsl_person_id_251" type="person">J. M. <hi rendition="#em">Schletterer</hi>
                </rs>
-               <lb n="N029"/>dem beinahe verschollenen Lieder-Componisten <hi rendition="#em">
-                  <rs ref="#hsl_person_id_233" type="person">Reichardt</rs>
-               </hi> ge
+      <lb n="N029"/>dem beinahe verschollenen Lieder-Componisten <hi rendition="#em">
+                  <rs ref="#hsl_person_id_233" type="person">Reichardt</rs></hi> ge
       <lb break="no" n="N030"/>setzt hat. Gestehen wir es nur, die erste Empfindung, mit
       <lb n="N031"/>der wir das Buch betrachteten, war — Schrecken. Ein gro
             <cb n="8"/>
                <lb break="no" n="N001"/>ßer dicker Lexikonband, den man beim Lesen wie eine Altar
-               <lb break="no" n="N002"/>bibel auf den Tisch breiten muß, und als Titelblatt: „<rs ref="#hsl_work_id_161" type="bibl">
-                  <rs ref="#hsl_person_id_233" type="person">Johann
-               <lb n="N003"/>Friedrich Reichardt</rs>. <hi rendition="#em">Erster Band</hi>
-               </rs>“! Werden denn die <rs ref="#hsl_place_id_14" type="place">deut
-               <lb break="no" n="N004"/>sch</rs>en Gelehrten nicht müde, sich selbst um die wohlverdienten Früchte
+      <lb break="no" n="N002"/>bibel auf den Tisch breiten muß, und als Titelblatt: „<rs ref="#hsl_work_id_161" type="bibl">
+             <rs ref="#hsl_person_id_233" type="person">Johann
+      <lb n="N003"/>Friedrich Reichardt</rs>. <hi rendition="#em">Erster Band</hi>
+             </rs>“! Werden denn die <rs ref="#hsl_place_id_14" type="place">deut
+      <lb break="no" n="N004"/>sch</rs>en Gelehrten nicht müde, sich selbst um die wohlverdienten Früchte
       <lb n="N005"/>ihrer Arbeit zu bringen? Mit eigener Hand decimiren sie ihren
       <lb n="N006"/>Leserkreis durch jene mißverstandene Gründlichkeit, die oft nur
       <lb n="N007"/>in dem Unvermögen besteht, Wesentliches von Unwesentlichem
@@ -491,22 +492,18 @@
       </hi>’s „<rs ref="#hsl_work_id_99" type="bibl">Mozart</rs>“ mußte sich den Vorwurf allzugroßer
       <lb n="N010"/>Breite gefallen lassen, und doch handelte es sich da um <hi rendition="#em">
          <rs ref="#hsl_person_id_189" type="person">Mo
-               <lb break="no" n="N011"/>zart</rs>
-               </hi> und um weit mehr als seine Person.
-      <lb n="N012"/>Wenn nun vollends <hi rendition="#em">
-         <rs ref="#hsl_person_id_195" type="person">Nohl</rs>
-      </hi> blos für <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s „<hi rendition="#em">
+      <lb break="no" n="N011"/>zart</rs></hi> und um weit mehr als seine Person.
+      <lb n="N012"/>Wenn nun vollends <hi rendition="#em"><rs ref="#hsl_person_id_195" type="person">Nohl</rs>
+               </hi> blos für <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s „<hi rendition="#em">
                   <rs ref="#hsl_work_id_254" type="bibl">Ju
-               <lb break="no" n="N013"/>gendjahre</rs>
-               </hi>“ einen starken Band braucht, <hi rendition="#em">
-                  <rs ref="#hsl_person_id_149" type="person">Kreißle</rs>
-               </hi> über 600
-               <lb n="N014"/>Seiten für <rs ref="#hsl_person_id_279" type="person">Schubert</rs>, <hi rendition="#em">
+       <lb break="no" n="N013"/>gendjahre</rs></hi>“ einen starken Band braucht, <hi rendition="#em">
+                  <rs ref="#hsl_person_id_149" type="person">Kreißle</rs></hi> über 600
+      <lb n="N014"/>Seiten für <rs ref="#hsl_person_id_279" type="person">Schubert</rs>, <hi rendition="#em">
                   <rs ref="#hsl_person_id_251" type="person">Schletterer</rs>
                </hi> endlich noch eine corpu
       <lb break="no" n="N015"/>lentere Arbeit über <hi rendition="#em">
          <rs ref="#hsl_person_id_233" type="person">Reichhardt</rs>
-      </hi> als „<rs ref="#hsl_work_id_161" type="bibl">Erster Band</rs>“ bezeich
+            </hi> als „<rs ref="#hsl_work_id_161" type="bibl">Erster Band</rs>“ bezeich
       <lb break="no" n="N016"/>net u. s. f., dann kann es nicht Wunder nehmen, wenn solche
       <lb n="N017"/>Bücher nicht über den engen Kreis von Musikgelehrten hinaus
       <lb n="N018"/>ins große Publicum dringen, dem sie doch wol zugedacht sind.
@@ -520,64 +517,70 @@
       <lb n="N024"/>anschaulichste um diesen beweglichen, geistreichen Mann. Er ist
       <lb n="N025"/>der rechte Romanheld der neueren Musik, ohne Beihilfe von
       <lb n="N026"/>
-               <rs ref="#hsl_person_id_217" type="person">Elise <hi rendition="#em">Polko</hi>
+            <rs ref="#hsl_person_id_217" type="person">Elise <hi rendition="#em">Polko</hi>
                </rs> und <rs ref="#hsl_person_id_230" type="person">Heribert <hi rendition="#em">Rau</hi>
-               </rs>. An die Grenzscheide der al
+                  </rs>. An die Grenzscheide der al
       <lb break="no" n="N027"/>ten und neuen Zeit gestellt, persönlich befreundet mit allen nam
-               <lb break="no" n="N028"/>haften Componisien <rs ref="#hsl_place_id_14" type="place">Deutschland</rs>s und <rs ref="#hsl_place_id_21" type="place">Frankreich</rs>s, von <rs ref="#hsl_person_id_17" type="person">Ema
-                  <lb break="no" n="N029"/>nuel Bach</rs>, <rs ref="#hsl_person_id_90" type="person">Gluck</rs> und <rs ref="#hsl_person_id_103" type="person">Gretry</rs> bis auf <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>, <rs ref="#hsl_person_id_47" type="person">Cherubini</rs>
-               <lb n="N030"/>und <hi rendition="#em">
-                  <rs ref="#hsl_person_id_36" type="person">Boyeldieu</rs>
+      <lb break="no" n="N028"/>haften Componisien <rs ref="#hsl_place_id_14" type="place">Deutschland</rs>s und <rs ref="#hsl_place_id_21" type="place">Frankreich</rs>s, von <rs ref="#hsl_person_id_17" type="person">Ema
+      <lb break="no" n="N029"/>nuel Bach</rs>, <rs ref="#hsl_person_id_90" type="person">Gluck</rs> und <rs ref="#hsl_person_id_103" type="person">Gretry</rs> bis auf <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>, <rs ref="#hsl_person_id_47" type="person">Cherubini</rs>
+      <lb n="N030"/>und <hi rendition="#em"><rs ref="#hsl_person_id_36" type="person">Boyeldieu</rs>
                </hi>, der Schwiegersohn <rs ref="#hsl_person_id_197" type="person">Franz <hi rendition="#em">Benda</hi>
-               </rs>’s und
-               <lb n="N031"/>Schwiegervater <rs ref="#hsl_person_id_297" type="person">Heinrich <hi rendition="#em">Steffens</hi>
+                  </rs>’s und
+      <lb n="N031"/>Schwiegervater <rs ref="#hsl_person_id_297" type="person">Heinrich <hi rendition="#em">Steffens</hi>
                </rs>’, in lebhaftem Verkehr mit
-      <lb n="N032"/>
-               <hi rendition="#em">
-                  <rs ref="#hsl_person_id_142" type="person">Kant</rs>
-               </hi>, <hi rendition="#em">
-                  <rs ref="#hsl_person_id_107" type="person">Hamann</rs>
-               </hi> und <hi rendition="#em">
-                  <rs ref="#hsl_person_id_154" type="person">Lavater</rs>
-               </hi>, sowie mit <hi rendition="#em">
-                  <rs ref="#hsl_person_id_100" type="person">Goethe</rs>
-               </hi>, <hi rendition="#em">
+      <lb n="N032"/><hi rendition="#em">
+                  <rs ref="#hsl_person_id_142" type="person">Kant</rs></hi>, <hi rendition="#em">
+                  <rs ref="#hsl_person_id_107" type="person">Hamann</rs></hi> und <hi rendition="#em">
+                  <rs ref="#hsl_person_id_154" type="person">Lavater</rs></hi>, sowie mit <hi rendition="#em">
+                  <rs ref="#hsl_person_id_100" type="person">Goethe</rs></hi>, <hi rendition="#em">
                   <rs ref="#hsl_person_id_248" type="person">Schil
-               <lb break="no" n="N033"/>ler</rs>
+      <lb break="no" n="N033"/>ler</rs>
                </hi> und allen Koryphäen der <rs ref="##hsl_place_id_41" type="place">Weimar</rs>er Glanzepoche, Capell
-               <lb n="N034"/>meister <rs ref="#hsl_person_id_83" type="person">Friedrich’s des Großen</rs> und <rs ref="#hsl_person_id_38" type="person">König Jerome’s von West
-               <lb break="no" n="N035"/>falen</rs>, Virtuose, Componist, Dirigent, Theoretiker, Journalist,
-               <lb n="N036"/>endlich gar königlicher Salinen-Director, ist <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> ein</p>
+      <lb n="N034"/>meister <rs ref="#hsl_person_id_83" type="person">Friedrich’s des Großen</rs> und <rs ref="#hsl_person_id_38" type="person">König Jerome’s von West
+      <lb break="no" n="N035"/>falen</rs>, Virtuose, Componist, Dirigent, Theoretiker, Journalist,
+      <lb n="N036"/>endlich gar königlicher Salinen-Director, ist <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> ein</p>
             <cb n="9"/>
             <p prev="true">
                <lb n="N001"/>lebendiges Stammbuch seiner Zeit. Er war Augenzeuge der
       <lb n="N002"/>
                <rs ref="#hsl_place_id_21" type="place">französisch</rs>en Revolution in <rs ref="#hsl_place_id_44" type="place">Paris</rs> und erlebte, immer gleich
-               <lb n="N003"/>frischen Geistes, die Befreiung <rs ref="#hsl_place_id_14" type="place">Deutschland</rs>s von der <rs ref="#hsl_person_id_39" type="person">napoleo
-                  <lb break="no" n="N004"/>n</rs>ischen Herrschaft. Seine Briefe aus <rs ref="#hsl_place_id_44" type="place">Paris</rs> (<date>1802</date>) wie die
-               <lb n="N005"/>späteren aus <rs ref="#hsl_place_id_55" type="place">Wien</rs> (<date>1809</date>) zählen zu den wichtigsten und in
+      <lb n="N003"/>frischen Geistes, die Befreiung <rs ref="#hsl_place_id_14" type="place">Deutschland</rs>s von der <rs ref="#hsl_person_id_39" type="person">napoleo
+      <lb break="no" n="N004"/>n</rs>ischen Herrschaft. Seine Briefe aus <rs ref="#hsl_place_id_44" type="place">Paris</rs> (<date>1802</date>) wie die
+      <lb n="N005"/>späteren aus <rs ref="#hsl_place_id_55" type="place">Wien</rs> (<date>1809</date>) zählen zu den wichtigsten und in
       <lb break="no" n="N006"/>teressantesten Aufschlüssen über die musikalischen wie über die
       <lb n="N007"/>gesellschaftlichen Verhältnisse jener Zeit.
-               <lb n="N008"/>Als Tondichter können wir <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> unmöglich so hoch
+      <lb n="N008"/>Als Tondichter können wir <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> unmöglich so hoch
       <lb n="N009"/>stellen, als sein enthusiastischer Biograph es thut, doch bleibt
       <lb n="N010"/>ihm in seinen Liedern und Opern der Vorzug einer damals
       <lb n="N011"/>ungewöhnlichen Bildung und das geschichtliche Verdienst frucht
-               <lb break="no" n="N012"/>barer Anregung. <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> erscheint uns ungleich bedeutender
+      <lb break="no" n="N012"/>barer Anregung. <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> erscheint uns ungleich bedeutender
       <lb n="N013"/>durch die Totalität seiner Persönlichkeit, als durch seine Com
-               <lb break="no" n="N014"/>positionen. Er war der erste <rs ref="#hsl_place_id_14" type="place">deutsch</rs>e Musiker, der mit ent
+      <lb break="no" n="N014"/>positionen. Er war der erste <rs ref="#hsl_place_id_14" type="place">deutsch</rs>e Musiker, der mit ent
       <lb break="no" n="N015"/>schiedenem Beruf schriftstellerisch thätig war, und der hiedurch
       <lb n="N016"/>prophetisch auf die verwandten Künstlernaturen <hi rendition="#em">
          <rs ref="#hsl_person_id_321" type="person">C. M. We
-               <lb break="no" n="N017"/>ber</rs>
-               </hi> und <hi rendition="#em">
+      <lb break="no" n="N017"/>ber</rs></hi> und <hi rendition="#em">
                   <rs ref="#hsl_person_id_319" type="person">Richard Wagner</rs>
                </hi> hinweist. Kurz es trifft bei
-      <lb n="N018"/>
-               <rs ref="#hsl_person_id_233" type="person">Reichardt</rs> Alles zusammen, was einen biographischen Stoff
-      <lb n="N019"/>anziehend, reichhaltig und bedeutsam machen kann. *) Wir
+      <lb n="N018"/><rs ref="#hsl_person_id_233" type="person">Reichardt</rs> Alles zusammen, was einen biographischen Stoff
+      <lb n="N019"/>anziehend, reichhaltig und bedeutsam machen kann.
+               <note type="footnote" n="*)">
+                  <lb n="N001"/><hi rendition="#em"><rs ref="#hsl_person_id_233" type="person">Reichardt</rs>
+                     </hi> hat eine Selbstbiographie geschrieben und den
+                  <lb n="N002"/>Anfang derselben (die ersten 15 Lebensjahre umfassend) in der <rs ref="#hsl_place_id_9" type="place">Berli
+                  <lb break="no" n="N003"/>n</rs>er Musikalischen Zeitung von <date>1805</date> veröffentlicht. Die Fortsetzung
+                  <lb n="N004"/>des Manuscripts erhielt <hi rendition="#em">
+                     <rs ref="#hsl_person_id_251" type="person">Schletterer</rs>
+                        </hi> von der Tochter <rs ref="#hsl_person_id_233" type="person">Reichardt</rs>’s,
+                  <lb n="N005"/>der Frau <rs ref="#hsl_person_id_231" type="person">Hofräthin v. <hi rendition="#em">Raumer</hi></rs>
+                     <hi rendition="#em"/> in <rs ref="#hsl_place_id_18" type="place">Erlangen</rs>, und konnte somit
+                  <lb n="N006"/>dies höchst interessante Schriftstück hier zum erstenmal vollständig
+                  <lb n="N007"/>veröffentlichen.                 
+               </note>
+               Wir
       <lb n="N020"/>haben <hi rendition="#em">
          <rs ref="#hsl_person_id_251" type="person">Schletterer</rs>
-      </hi>’s <rs ref="#hsl_work_id_161" type="bibl">ersten Band</rs> (der leider nur bis zum
+            </hi>’s <rs ref="#hsl_work_id_161" type="bibl">ersten Band</rs> (der leider nur bis zum
       <lb n="N021"/>Jahre <date>1794</date> reicht und sich auf die Würdigung des „Musikers“
       <lb n="N022"/>beschränkt) mit warmem Interesse und mit aufrichtigster
       <lb n="N023"/>Achtung für den Forscherfleiß und die Gewissenhaftigkeit des
@@ -586,29 +589,6 @@
       <lb n="N026"/>des zweiten Bandes nicht zurückhalten konnten, das Erscheinen
       <lb n="N027"/>dieser Fortsetzung erwarten wir mit Zuversicht und lebhaftem
       <lb n="N028"/>Antheil.</p>
-            <cb n="10"/>
-            <p>
-               <lb n="N001"/>*) Ein anderer Zug von „Gründlichkeit“, auf den wir gerne
-      <lb n="N002"/>verzichtet hätten, findet sich Seite 139, wo uns der Verfasser in Einem
-               <lb n="N003"/>Athem von der „poetischen Flamme“ <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s für die <rs ref="#hsl_person_id_75" type="person">Comtesse
-                  <lb break="no" n="N004"/>Eszterhazy</rs> und von dem „Verhältniß“ erzählt, das <rs ref="#hsl_person_id_279" type="person">Schubert</rs> im
-      <lb n="N005"/>
-               <rs ref="#hsl_person_id_827" type="person">Eszterhazy</rs>’schen Hause „mit einer Dienerin daselbst“ anknüpfte!</p>
-            <cb n="11"/>
-            <p>
-               <lb n="N001"/>*) <hi rendition="#em">
-                  <rs ref="#hsl_person_id_233" type="person">Reichardt</rs>
-               </hi> hat eine Selbstbiographie geschrieben und den
-               <lb n="N002"/>Anfang derselben (die ersten 15 Lebensjahre umfassend) in der <rs ref="#hsl_place_id_9" type="place">Berli
-               <lb break="no" n="N003"/>n</rs>er Musikalischen Zeitung von <date>1805</date> veröffentlicht. Die Fortsetzung
-      <lb n="N004"/>des Manuscripts erhielt <hi rendition="#em">
-         <rs ref="#hsl_person_id_251" type="person">Schletterer</rs>
-      </hi> von der Tochter <rs ref="#hsl_person_id_233" type="person">Reichardt</rs>’s,
-               <lb n="N005"/>der Frau <rs ref="#hsl_person_id_231" type="person">Hofräthin v. <hi rendition="#em">Raumer</hi>
-               </rs>
-               <hi rendition="#em"/> in <rs ref="#hsl_place_id_18" type="place">Erlangen</rs>, und konnte somit
-      <lb n="N006"/>dies höchst interessante Schriftstück hier zum erstenmal vollständig
-      <lb n="N007"/>veröffentlichen.</p>
          </div>
       </body>
    </text>

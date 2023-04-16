@@ -110,6 +110,7 @@
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-03-02" who="ampfiel">Einfügen von ref und Korrigieren und Wort-trennungen</change>
+         <change when="2023-03-29" who="ampfiel">Fußnoten *) auflösen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -134,11 +135,16 @@
       <lb n="N003"/>II.
       <lb n="N004"/>(Neue Errungenschaften: Die Normalstimmung; Die Künstlerstipendien; Musikalische
       <lb n="N005"/>Prüfungs-Commissionen.)
-      <lb n="N006"/>Ed. H. *) Eine zweite Errungenschaft unseres musikalischen
+      <lb n="N006"/>Ed. H. 
+                     <note type="footnote" n="*)">
+                        <lb n="N001"/>Der Gefertigte sieht sich veranlaßt, zu erklären, daß nur die
+                        <lb n="N002"/>mit der Chiffre „Ed. H.“ bezeichneten Aufsätze von ihm herrühren.
+                        <lb n="N003"/>Dr. Ed. Hanslick.
+                     </note>
+               Eine zweite Errungenschaft unseres musikalischen
       <lb n="N007"/>Haushaltes und Weltverkehrs ist die <hi rendition="#em">
-         <rs ref="#hsl_place_id_21
-            " type="place">französisch</rs>e Normal
-               <lb break="no" n="N008"/>stimmung</hi>. Sie erinnern sich, daß ich seinerzeit für diese Maßregel
+         <rs ref="#hsl_place_id_21" type="place">französisch</rs>e Normal
+      <lb break="no" n="N008"/>stimmung</hi>. Sie erinnern sich, daß ich seinerzeit für diese Maßregel
       <lb n="N009"/>nicht wenig in’s Feuer ging und Werth und Bedeutung derselben
       <lb n="N010"/>vielleicht bis zur Ermüdung der Leser besprach. Sie haben deshalb
       <lb n="N011"/>nicht zu besorgen, daß ich so oft Gesagtes Ihnen hier abermals auf
@@ -147,41 +153,38 @@
       <lb break="no" n="N014"/>mand mehr von ihr spricht. Die neue Orchesterstimmung, obwol
       <lb n="N015"/>sie nicht den geistigen, sondern nur den technischen Theil der Kunst
       <lb n="N016"/>angeht, bleibt immerhin ein Capitel der musikalischen Culturgeschichte.
-               <lb n="N017"/>Nach rechts und links, von <rs ref="#hsl_place_id_44
+      <lb n="N017"/>Nach rechts und links, von <rs ref="#hsl_place_id_44
                   " type="place">Paris</rs> bis <rs ref="#hsl_place_id_50" type="place">Petersburg</rs> hat sie ihre Fäden
       <lb n="N018"/>ausgebreitet und wird bald als musikalisches Eisenbahnnetz alle Cul
       <lb break="no" n="N019"/>turstädte verbinden. Durch sie ist dem modernen Orchester der doppelte
       <lb n="N020"/>Vortheil der <hi rendition="#em">Unveränderlichkeit</hi> und der <hi rendition="#em">Gemeinsamkeit</hi>
-               <lb n="N021"/>der Tonhöhe gegeben. Der zweite Punkt ist allerdings noch nicht
-               <lb n="N022"/>allseitig gewürdigt und benützt. Nach außen hin hat das <rs ref="#hsl_place_id_43
+      <lb n="N021"/>der Tonhöhe gegeben. Der zweite Punkt ist allerdings noch nicht
+      <lb n="N022"/>allseitig gewürdigt und benützt. Nach außen hin hat das <rs ref="#hsl_place_id_43
                   " type="place">österreich</rs>ische
       <lb n="N023"/>Staatsministerium, welchem wir die Einführung dieser Maßregel ver
       <lb break="no" n="N024"/>danken, es an thätiger und erfolgreicher Verwendung nicht fehlen
-               <lb n="N025"/>lassen. Die meisten <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Hauptstädte, <rs ref="#hsl_place_id_9
-                  " type="place">Berlin</rs> und <rs ref="#hsl_place_id_15" type="place">Dresden</rs> an
-               <lb n="N026"/>der Spitze, haben nach <rs ref="#hsl_place_id_43
-                  " type="place">Oesterreich</rs>s Vorgang die Normalstimmung
-               <lb n="N027"/>entweder schon eingeführt oder in nahe Aussicht gestellt. <rs ref="#hsl_place_id_14" type="place">Deutschland</rs>
-               <lb n="N028"/>dürfte einen einheitlichen Münzfuß früher in der Musik besitzen, als
-      <lb n="N029"/>*) Der Gefertigte sieht sich veranlaßt, zu erklären, daß nur die
-      <lb n="N030"/>mit der Chiffre „Ed. H.“ bezeichneten Aufsätze von ihm herrühren.
-      <lb n="N031"/>Dr. Ed. Hanslick.</p>
+      <lb n="N025"/>lassen. Die meisten <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Hauptstädte, 
+               <rs ref="#hsl_place_id_9" type="place">Berlin</rs> und 
+                  <rs ref="#hsl_place_id_15" type="place">Dresden</rs> an
+      <lb n="N026"/>der Spitze, haben nach <rs ref="#hsl_place_id_43" type="place">Oesterreich</rs>s Vorgang die Normalstimmung
+      <lb n="N027"/>entweder schon eingeführt oder in nahe Aussicht gestellt. <rs ref="#hsl_place_id_14" type="place">Deutschland</rs>
+      <lb n="N028"/>dürfte einen einheitlichen Münzfuß früher in der Musik besitzen, als</p>
             <cb n="2"/>
-            <p>
+            <p prev="true">
                <lb n="N001"/>im Handel und Verkehr. Die modernen Zugvögel von <rs ref="#hsl_place_id_19
                   " type="place">Europa</rs>, die
       <lb n="N002"/>
                <rs ref="#hsl_place_id_28" type="place">italien</rs>ischen Sänger, werden mit der Zeit die neue Stimmgabel über
-               <lb n="N003"/>den Ocean tragen. Nur im Innern der <rs ref="#hsl_place_id_43" type="place">österreich</rs>ischen Monarchie scheint
-               <lb n="N004"/>der Vorgang <rs ref="#hsl_place_id_55" type="place">Wien</rs>s noch keine Nachahmung, ja kaum Beachtung zu
+      <lb n="N003"/>den Ocean tragen. Nur im Innern der <rs ref="#hsl_place_id_43" type="place">österreich</rs>ischen Monarchie scheint
+      <lb n="N004"/>der Vorgang <rs ref="#hsl_place_id_55" type="place">Wien</rs>s noch keine Nachahmung, ja kaum Beachtung zu
       <lb n="N005"/>finden. Offenbar wollte unsere Regierung sich von dem centralisiren
-               <lb break="no" n="N006"/>den Despotismus <rs ref="#hsl_place_id_21
+      <lb break="no" n="N006"/>den Despotismus <rs ref="#hsl_place_id_21
                   " type="place">Frankreich</rs>s ferne halten, der im Verordnungswege
       <lb n="N007"/>das ganze Reich, Theater, Concerte, Schulen und Fabriken binnen
       <lb n="N008"/>Jahresfrist unter Eine Stimmgabel gebracht haben. Sehr despotisch,
       <lb n="N009"/>wie gesagt, aber wirksam. Aus Dankbarkeit für die vollständige Ab
       <lb break="no" n="N010"/>stinenz unserer Regierung in diesem Punkte, hätten die wichtigsten
-               <lb n="N011"/>Musikinstitute <rs ref="#hsl_place_id_43
+      <lb n="N011"/>Musikinstitute <rs ref="#hsl_place_id_43
                   " type="place">Oesterreich</rs>s immerhin die neue Stimmungseinheit aus
       <lb n="N012"/>freien Stücken adoptiren können. Jetzt noch ließe sich auf dem güt
       <lb break="no" n="N013"/>lichen Wege der Belehrung und Anempfehlung für die Einheit der
@@ -194,7 +197,7 @@
       <lb break="no" n="N020"/>terstützt von dem Einverständniß der musikalischen Weltstädte, zur
       <lb n="N021"/>siegreichsten Propaganda wird. Die kleineren Städte und Institute
       <lb n="N022"/>werden langsam und zögernd, mitunter wohl unwillig, aber sie wer
-               <lb break="no" n="N023"/>den doch folgen. Daß <rs ref="#hsl_place_id_43
+      <lb break="no" n="N023"/>den doch folgen. Daß <rs ref="#hsl_place_id_43
                   " type="place">Oesterreich</rs> unter den ersten Staaten war,
       <lb n="N024"/>welche diesen neuen Fortschritt der musikalischen Cultur sich angeeig
       <lb break="no" n="N025"/>net, wird die Geschichtschreibung unserer Kunst einst rückhaltlos zu
@@ -213,17 +216,17 @@
       <lb n="N003"/>die Hälfte erhöht, um zu den Stipendien für hoffnungsvolle
       <lb n="N004"/>Kunstjünger auch noch Pensionen für bereits selbstständige, verdiente
       <lb n="N005"/>Künstler hinzufügen zu können, für welche eine Unterstützung wün
-               <lb break="no" n="N006"/>schenswerth erscheint. Mag die Summe für das große <rs ref="#hsl_place_id_43
+      <lb break="no" n="N006"/>schenswerth erscheint. Mag die Summe für das große <rs ref="#hsl_place_id_43
                   " type="place">Oesterreich</rs>
-               <lb n="N007"/>immerhin etwas gering erscheinen, die Wohlthat der Maßregel des
+      <lb n="N007"/>immerhin etwas gering erscheinen, die Wohlthat der Maßregel des
       <lb break="no" n="N008"/>halb zu leugnen vermöchte nur Undank oder Unverstand. Zum ersten
-               <lb break="no" n="N009"/>male ist in <rs ref="#hsl_place_id_43
+      <lb break="no" n="N009"/>male ist in <rs ref="#hsl_place_id_43
                   " type="place">Oesterreich</rs> ein eigenes bleibendes Budget gegründet, wel
       <lb break="no" n="N010"/>ches der <hi rendition="#em">Staat</hi> zur Ausbildung und Unterstützung einzelner Künstler
       <lb n="N011"/>bestimmt. Der junge Künstler hat zum erstenmale das Bewußtsein,
       <lb n="N012"/>daß der Staat sich um ihn kümmere, nicht blos um das fertige Kunst
       <lb break="no" n="N013"/>werk, sondern um ihn, den Künstler persönlich. Die <hi rendition="#em">Stipendien</hi>
-               <lb n="N014"/>sind nicht blos eine Hilfe, wie jede andere, sie sind eine öffentliche
+      <lb n="N014"/>sind nicht blos eine Hilfe, wie jede andere, sie sind eine öffentliche
       <lb n="N015"/>Anerkennung der Befähigung des Künstlers; die <hi rendition="#em">Pensionen</hi> tragen
       <lb n="N016"/>den Charakter einer Ehrengabe, die selbst den berühmten Künstler
       <lb n="N017"/>nicht beschämt, sondern auszeichnet. Unter den „schaffenden Künstlern,“
@@ -231,23 +234,23 @@
       <lb n="N019"/>und Architekten naturgemäß die erste Rolle. Ihre Kunst beruht auf
       <lb n="N020"/>einer speciellen, nicht in jedem Orte zu erwerbenden Technik, welche
       <lb n="N021"/>schließlich des anschauenden Studiums classischer Kunstwerke im Aus
-               <lb break="no" n="N022"/>land bedarf. Eine Reise nach <rs ref="#hsl_place_id_28
+      <lb break="no" n="N022"/>land bedarf. Eine Reise nach <rs ref="#hsl_place_id_28
                   " type="place">Italien</rs> ist für den bildenden Künstler
       <lb n="N023"/>eine Lebensfrage; sie ist es nicht für den Poeten und den Musiker.
       <lb n="N024"/>Eigentliche Reisestipendien erhielten bisher nur bildende Künstler.
       <lb n="N025"/>Was die angehenden Componisten betrifft, so ist man mit Recht
-               <lb n="N026"/>gegen die Anschauung der <rs ref="#hsl_place_id_21
+      <lb n="N026"/>gegen die Anschauung der <rs ref="#hsl_place_id_21
                   " type="place">französisch</rs>en Regierung aufgetreten, welche
-               <lb n="N027"/>einen längeren Aufenthalt in <rs ref="#hsl_place_id_28
+      <lb n="N027"/>einen längeren Aufenthalt in <rs ref="#hsl_place_id_28
                   " type="place">Italien</rs> noch immer als wesentliches
       <lb n="N028"/>Bildungsmittel des Componisten festhält. Der „grand prix de Rome,“
-               <lb n="N029"/>welchen die talentvollsten Zöglinge der Compositionsclasse des <rs ref="#hsl_place_id_44
+      <lb n="N029"/>welchen die talentvollsten Zöglinge der Compositionsclasse des <rs ref="#hsl_place_id_44
                   " type="place">Paris</rs>er
       <lb n="N030"/>Conservatoriums bei ihrem Austritte erhalten, ist ein Reisestipendium,
-               <lb n="N031"/>das den Betheilten verpflichtet 3 Jahre in <rs ref="#hsl_place_id_47
+      <lb n="N031"/>das den Betheilten verpflichtet 3 Jahre in <rs ref="#hsl_place_id_47
                   " type="place">Rom</rs> zuzubringen. Diese
       <lb n="N032"/>Bestimmung fußt auf einer längst veralteten Voraussetzung: dem
-               <lb n="N033"/>musikalischen Primate <rs ref="#hsl_place_id_28
+      <lb n="N033"/>musikalischen Primate <rs ref="#hsl_place_id_28
                   " type="place">Italien</rs>s.</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
@@ -255,56 +258,48 @@
                <lb n="N001"/>Gegenwärtig kann der junge Componist in <rs ref="#hsl_place_id_28
                   " type="place">Italien</rs> nichts hören
       <lb n="N002"/>als eine verkommene Kirchen- und die schlechteste Opernmusik. Ein
-               <lb n="N003"/>2 bis 3jähriger Aufenthalt in <rs ref="#hsl_place_id_47
+      <lb n="N003"/>2 bis 3jähriger Aufenthalt in <rs ref="#hsl_place_id_47
                   " type="place">Rom</rs> schließt einem jungen Componi
       <lb break="no" n="N004"/>sten für diese ihm unschätzbare Zeit von guter Musik geradezu ab.
-               <lb n="N005"/>Er würde in einem Monat in jeder<rs ref="#hsl_place_id_14" type="place"> deutsch</rs>en Hauptstadt durch bloßes
-               <lb n="N006"/>Zuhören mehr profitiren. Für den <rs ref="#hsl_place_id_21
+      <lb n="N005"/>Er würde in einem Monat in jeder<rs ref="#hsl_place_id_14" type="place"> deutsch</rs>en Hauptstadt durch bloßes
+      <lb n="N006"/>Zuhören mehr profitiren. Für den <rs ref="#hsl_place_id_21
                   " type="place">französisch</rs>en Componisten ist über
-               <lb break="no" n="N007"/>dies die lange Entfernung von <rs ref="#hsl_place_id_44
+      <lb break="no" n="N007"/>dies die lange Entfernung von <rs ref="#hsl_place_id_44
                   " type="place">Paris</rs> gerade in dem Zeitpunkt, wo
       <lb n="N008"/>er die Flügel zu regen beginnt, von manigfachem Nachtheil. In
-      <lb n="N009"/>
-               <rs ref="#hsl_place_id_21
+      <lb n="N009"/><rs ref="#hsl_place_id_21
                   " type="place">Frankreich</rs> selbst haben die einsichtsvollsten Männer sich bereits gegen
       <lb n="N010"/>die Bestimmungen des „Prix de Rome“ ausgesprochen und die Er
       <lb break="no" n="N011"/>folge haben ihnen Recht gegeben. Seit der Stiftung dieses Reisesti
                <lb break="no" n="N012"/>pendiums sind über sechzig junge Musiker in <rs ref="#hsl_place_id_44
                   " type="place">Paris</rs> gekrönt und nach
-      <lb n="N013"/>
-               <rs ref="#hsl_place_id_47
+      <lb n="N013"/><rs ref="#hsl_place_id_47
                   " type="place">Rom</rs> geschickt worden; nur fünf von ihnen haben sich ausgezeichnet
       <lb n="N014"/>und eine Carriere gemacht: <hi rendition="#em">
          <rs ref="#hsl_person_id_122" type="person">Herold</rs></hi>, <hi rendition="#em">
             <rs ref="#hsl_person_id_106" type="person">Halevy</rs>
                </hi>, A. <hi rendition="#em">
-                  <rs ref="#hsl_person_id_305" type="person">Thomas</rs>
-               </hi>
-               <lb n="N015"/>
-               <hi rendition="#em">
-                  <rs ref="#hsl_person_id_28" type="person">Berlioz</rs>
-               </hi>, <hi rendition="#em">
-                  <rs ref="#hsl_person_id_102" type="person">Gounot</rs>
-               </hi>. Für Ad. <hi rendition="#em">
-                  <rs ref="#hsl_person_id_12" type="person">Adam</rs>
-               </hi> war es ein Glück, daß er
-               <lb n="N016"/>keinen Preis erhielt und in <rs ref="#hsl_place_id_44
+                  <rs ref="#hsl_person_id_305" type="person">Thomas</rs></hi>
+      <lb n="N015"/><hi rendition="#em">
+                  <rs ref="#hsl_person_id_28" type="person">Berlioz</rs></hi>, <hi rendition="#em">
+                  <rs ref="#hsl_person_id_102" type="person">Gounot</rs></hi>. Für Ad. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_12" type="person">Adam</rs></hi> war es ein Glück, daß er
+      <lb n="N016"/>keinen Preis erhielt und in <rs ref="#hsl_place_id_44
                   " type="place">Paris</rs> blieb.
-               <lb n="N017"/>Die seit 25 Jahren in <rs ref="#hsl_place_id_20
+      <lb n="N017"/>Die seit 25 Jahren in <rs ref="#hsl_place_id_20
                   " type="place">Frankfurt</rs> bestehende „<hi rendition="#em">Mozartstif
-               <lb break="no" n="N018"/>tung</hi>,“ welche eine jährliche Unterstützung von 400 Gulden auf 4
+      <lb break="no" n="N018"/>tung</hi>,“ welche eine jährliche Unterstützung von 400 Gulden auf 4
       <lb n="N019"/>Jahre ertheilt, wird nicht als Reisestipendium, sondern dazu verwendet,
-               <lb n="N020"/>den betheilten Kunstjünger einem berühmten <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Meister zur
+      <lb n="N020"/>den betheilten Kunstjünger einem berühmten <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Meister zur
       <lb n="N021"/>vollständigen Ausbildung zu übergeben.
       <lb n="N022"/>Das kostspielige Bedürfniß der Studienreisen ist zunächst Ursache,
       <lb n="N023"/>weshalb auf die bildenden Künstler der weitaus größte, auf die Mu
-               <lb break="no" n="N024"/>siker in <rs ref="#hsl_place_id_43
+      <lb break="no" n="N024"/>siker in <rs ref="#hsl_place_id_43
                   " type="place">Oesterreich</rs> nur ein verhältnißmäßig geringer Theil der ganzen
       <lb n="N025"/>Stipendiensumme entfiel. Ein zweiter Grund dieser scheinbaren Zu
       <lb break="no" n="N026"/>rücksetzung liegt in den gegenwärtigen Verhältnissen der musikalischen
       <lb n="N027"/>Production überhaupt. Es ist betrübend, aber unbestreitbar, daß
-      <lb n="N028"/>
-               <rs ref="#hsl_place_id_43
+      <lb n="N028"/><rs ref="#hsl_place_id_43
                   " type="place">Oesterreich</rs> derzeit sehr wenige hervorragende Compositionstalente be
       <lb break="no" n="N029"/>sitzt. Dies Brachliegen erstreckt sich allerdings mehr oder minder auch
       <lb n="N030"/>auf die übrige musikalische Welt.
@@ -318,7 +313,22 @@
       <lb n="N004"/>eingelangten Gesuche und Compositionsproben des ersten und zweiten
       <lb n="N005"/>Stipendienjahrs ein betrübtes Gesicht gemacht haben. Ein großer
       <lb n="N006"/>Theil der Gesuche mußte gleich anfangs als gänzlich unzulässig aus
-      <lb break="no" n="N007"/>geschieden werden *), und was übrig blieb, machte einen überwiegend
+      <lb break="no" n="N007"/>geschieden werden
+                     <note type="footnote" n="*)">
+                        <lb n="N001"/>Die gesetzliche Bestimmung, daß mit diesen Stipendien nur
+                        <lb n="N002"/><hi rendition="#em">schaffende</hi>, nicht auch blos reproducirende Künstler betheilt werden,
+                        <lb n="N003"/>und daß Jene überdies „Leistungen von tieferem künstlerischen Ge
+                        <lb break="no" n="N004"/>halt“ aufzuweisen haben, mag vielfach übersehen oder mißverstanden
+                        <lb n="N005"/>worden sein. Unter den Competenten befanden sich siebenjährige
+                        <lb n="N006"/>Wunderkinder, kleine <choice>
+                           <corr/>
+                           <sic>Violinspielerinen</sic></choice>, reisende Virtuosen, Schul
+                        <lb break="no" n="N007"/>lehrergehilfen, die um ein Clavier bitten, unter anderen auch ein
+                        <lb n="N008"/>
+                           <hi rendition="#em">blinder</hi> Geiger, der nach dem Zeugniß des Ortsvorstandes zwanzig
+                        <lb n="N009"/>Stücke „ohne Vorlage von Noten“ spielt etc. etc.
+                     </note>
+               , und was übrig blieb, machte einen überwiegend
       <lb n="N008"/>dürftigen Total-Eindruck. Die Compositionen, welche von Gesuch
       <lb break="no" n="N009"/>stellern vorgelegt worden, bestanden fast durchaus aus Liedern, Vocal
       <lb break="no" n="N010"/>quartetten, kleinen kirchlichen Einlagstücken, Clavierbagatellen u. dgl.,
@@ -342,20 +352,7 @@
       <lb n="N023"/>Gelegenheitsgedichten, wie sie Hunderte von jungen Leuten ohne
       <lb n="N024"/>eigentliche poetische Begabung, blos von allgemeiner Bildung und
       <lb n="N025"/>einiger metrischer Fertigkeit getragen, produciren. Auf musikalischem
-      <lb n="N026"/>*) Die gesetzliche Bestimmung, daß mit diesen Stipendien nur
-      <lb n="N027"/>
-               <hi rendition="#em">schaffende</hi>, nicht auch blos reproducirende Künstler betheilt werden,
-      <lb n="N028"/>und daß Jene überdies „Leistungen von tieferem künstlerischen Ge
-      <lb break="no" n="N029"/>halt“ aufzuweisen haben, mag vielfach übersehen oder mißverstanden
-      <lb n="N030"/>worden sein. Unter den Competenten befanden sich siebenjährige
-      <lb n="N031"/>Wunderkinder, kleine <choice>
-                  <corr/>
-                  <sic>Violinspielerinen</sic>
-               </choice>, reisende Virtuosen, Schul¬
-      <lb n="N032"/>lehrergehilfen, die um ein Clavier bitten, unter anderen auch ein
-      <lb n="N033"/>
-               <hi rendition="#em">blinder</hi> Geiger, der nach dem Zeugniß des Ortsvorstandes zwanzig
-      <lb n="N034"/>Stücke „ohne Vorlage von Noten“ spielt etc. etc.</p>
+      </p>
             <cb n="6"/>
             <p>
                <lb n="N001"/>Feld ist nun allerdings die allgemeine Bildung nicht in <hi rendition="#em">dem</hi> Grade
@@ -391,13 +388,14 @@
       <lb n="N026"/>Genies und keine Unterstützung für dieselben, jetzt geben wir die
       <lb n="N027"/>Unterstützung und haben keine Genies. „Wenn sie den Stein der
       <lb n="N028"/>Weisen hätten, der Weise mangelte dem Stein“, lautet ein beißendes
-               <lb n="N029"/>Wort <rs ref="#hsl_person_id_629
+      <lb n="N029"/>Wort <rs ref="#hsl_person_id_629
                   " type="person">Mephisto</rs>’s im zweiten Theil des <rs ref="#hsl_work_id_197" type="bibl">Faust</rs>. Wir müssen uns da
       <lb break="no" n="N030"/>mit trösten, unsere Schuldigkeit gethan zu haben und fernerhin zu
       <lb n="N031"/>thun. Hoffentlich thut auch wieder einmal die Natur „ein Uebriges“
-               <lb n="N032"/>und läßt in <rs ref="#hsl_place_id_43
-                  " type="place">Oesterreich</rs> eine neue Formation von <rs ref="#hsl_person_id_114" type="person">Haydn</rs>’s, <rs ref="#hsl_person_id_189" type="person">Mozart</rs>’s
-               <lb n="N033"/>und <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s entstehen. —</p>
+      <lb n="N032"/>und läßt in <rs ref="#hsl_place_id_43
+                  " type="place">Oesterreich</rs> eine neue Formation von <rs ref="#hsl_person_id_114" type="person">Haydn</rs>’s, 
+                     <rs ref="#hsl_person_id_189" type="person">Mozart</rs>’s
+      <lb n="N033"/>und <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s entstehen. —</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p>
@@ -429,22 +427,24 @@
       <lb n="N026"/>eine gleichmäßig zusammengesetzte, nach festen Normen vorgehende
       <lb n="N027"/>Prüfungscommission geschehen, ähnlich derjenigen, welche bei uns
       <lb n="N028"/>bereits für Gymnasiallehrer oder (um einen technischen Zweig zu
-      <lb n="N029"/>nennen) für Stenographen besteht. *) Eine vom Staate bestellte, aus
-               <lb n="N030"/>*) In den meisten <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Staaten bestehen analoge Bestim
-      <lb break="no" n="N031"/>mungen. Wir erinnern an den schönen „Vorschlag zur Organisation
-               <lb n="N032"/>der Musik im ganzen Lande,“ welchen Wilhelm v. <rs ref="#hsl_person_id_132
-                  " type="person">Humboldt</rs>
-               <lb n="N033"/>als <rs ref="#hsl_place_id_46
-                  " type="place">preuß</rs>. Minister (<date>1809</date>) dem <rs ref="#hsl_person_id_85
-                     " type="person">König</rs> überreichte. Er nennt die
-      <lb n="N034"/>Musik „ein natürliches Band zwischen den unteren und höheren Clas
-      <lb break="no" n="N035"/>sen der Nation“ und schlägt die Errichtung einer ordentlichen <hi rendition="#em">musi
-               <lb break="no" n="N036"/>kalischen Behörde</hi> vor. „Unleugbar ist,“ sagt er, „daß die öffent
-      <lb break="no" n="N037"/>liche Erziehung der Musik nicht entbehren kann, theils um der so
-      <lb n="N038"/>leicht einreißenden Roheit entgegenzuarbeiten, noch mehr aber um das
-      <lb n="N039"/>Gemüth früh an Wohlklang und Rhytmus zu gewöhnen.“</p>
+      <lb n="N029"/>nennen) für Stenographen besteht.
+                     <note type="footnote" n="*)">
+                        <lb n="N001"/>In den meisten <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Staaten bestehen analoge Bestim
+                        <lb break="no" n="N031"/>mungen. Wir erinnern an den schönen „Vorschlag zur Organisation
+                        <lb n="N002"/>der Musik im ganzen Lande,“ welchen <rs ref="#hsl_person_id_132" type="person">Wilhelm v. Humboldt</rs>
+                        <lb n="N003"/>als <rs ref="#hsl_place_id_46" type="place">preuß</rs>. Minister (<date>1809</date>) dem 
+                           <rs ref="#hsl_person_id_85" type="person">König</rs> überreichte. Er nennt die
+                        <lb n="N004"/>Musik „ein natürliches Band zwischen den unteren und höheren Clas
+                        <lb break="no" n="N005"/>sen der Nation“ und schlägt die Errichtung einer ordentlichen <hi rendition="#em">musi
+                        <lb break="no" n="N006"/>kalischen Behörde</hi> vor. „Unleugbar ist,“ sagt er, „daß die öffent
+                        <lb break="no" n="N007"/>liche Erziehung der Musik nicht entbehren kann, theils um der so
+                        <lb n="N008"/>leicht einreißenden Roheit entgegenzuarbeiten, noch mehr aber um das
+                        <lb n="N009"/>Gemüth früh an Wohlklang und Rhytmus zu gewöhnen.“
+                     </note>
+               Eine vom Staate bestellte, aus
+               </p>
             <cb n="8"/>
-            <p>
+            <p prev="true">
                <lb n="N001"/>den gebildetsten theoretischen und praktischen Musikern zusammenge
                <lb break="no" n="N002"/>setzte Commission dürfte, — zunächst in <rs ref="#hsl_place_id_55
                   " type="place">Wien</rs>, dann in drei bis vier
