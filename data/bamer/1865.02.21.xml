@@ -87,8 +87,8 @@
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1865">1865</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -109,6 +109,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2023-04-28" who="kbamer">erste Seite Orte, Personen, Daten, Werke ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -963,74 +964,53 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1667472185954_56l2" n="N001"/>Feuilleton.
-      <lb facs="#facs_1_region_1667472185954_56l5" n="N002"/>Musik.
-      <lb facs="#facs_1_region_1667472185954_56l9" n="N003"/>(Philharmonische Concerte.)
-      <lb facs="#facs_1_region_1667472185954_56l10" n="N004"/>Ed. H. Das letzte „philharmonische Concert“ neigte stark
-      <lb facs="#facs_1_region_1667472185954_56l12" n="N005"/>zum Cultus der Naturgeister; es begann mit Nixen und en¬
-      <lb facs="#facs_1_region_1667472185954_56l13" n="N006"/>digte mit Elfen. Letztere spendete <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>
-               </hi> mitsammt
-      <lb facs="#facs_1_region_1667472185954_56l14" n="N007"/>dem ganzen „<rs type="bibl">Sommernachtstraum</rs>“, die ersteren kamen aus
-      <lb facs="#facs_1_region_1667472185954_56l15" n="N008"/>Rußland von <rs type="person">Anton <hi rendition="#em">Rubinstein</hi>
-               </rs>. Ein Gedicht von <hi rendition="#em">
-                  <rs type="person" continued="true">Ler¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1667472185954_56l16" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">montoff</rs>
-               </hi>, „<rs type="bibl">die Nixe</rs>“, hat diesem Componisten Anregung und
-      <lb facs="#facs_1_region_1667472185954_56l17" n="N010"/>Stoff zu einer Art dramatisirter Ballade für Altsolo, Frauen¬
-      <lb facs="#facs_1_region_1667472185954_56l18" n="N011"/>chor und Orchester gegeben, welche dem Wiener Concertpubli¬
-      <lb facs="#facs_1_region_1667472185954_56l19" n="N012"/>cum bisher unbekannt war. Eine schöne liebestolle <rs type="person">Nixe</rs>,
+            
+               <lb facs="#facs_1_region_1667472185954_56l2" n="N001"/><head type="h1">Feuilleton.</head>
+               <lb facs="#facs_1_region_1667472185954_56l5" n="N002"/><head type="h2">Musik.</head>
+               <lb facs="#facs_1_region_1667472185954_56l9" n="N003"/><head type="h3">(Philharmonische Concerte.)</head>
+   <p><lb facs="#facs_1_region_1667472185954_56l10" n="N004"/>Ed. H. Das letzte „philharmonische Concert“ neigte stark
+      <lb facs="#facs_1_region_1667472185954_56l12" n="N005"/>zum Cultus der Naturgeister; es begann mit Nixen und en
+      <lb facs="#facs_1_region_1667472185954_56l13" n="N006" break="no"/>digte mit Elfen. Letztere spendete <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi> mitsammt
+      <lb facs="#facs_1_region_1667472185954_56l14" n="N007"/>dem ganzen „<rs type="bibl" ref="#hsl_work_id_50">Sommernachtstraum</rs>“, die ersteren kamen aus
+      <lb facs="#facs_1_region_1667472185954_56l15" n="N008"/><rs type="place" ref="#hsl_place_id_48">Rußland</rs> von <rs type="person" ref="#hsl_person_id_244">Anton <hi rendition="#em">Rubinstein</hi></rs>. Ein Gedicht von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_159">Ler
+      <lb facs="#facs_1_region_1667472185954_56l16" n="N009" break="no"/>montoff</rs></hi>, „<rs type="bibl" ref="#hsl_work_id_54">die Nixe</rs>“, hat diesem Componisten Anregung und
+      <lb facs="#facs_1_region_1667472185954_56l17" n="N010"/>Stoff zu einer Art dramatisirter Ballade für Altsolo, Frauen
+      <lb facs="#facs_1_region_1667472185954_56l18" n="N011" break="no"/>chor und Orchester gegeben, welche dem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Concertpubli
+      <lb facs="#facs_1_region_1667472185954_56l19" n="N012" break="no"/>cum bisher unbekannt war. Eine schöne liebestolle <rs type="person">Nixe</rs>,
       <lb facs="#facs_1_region_1667472185954_56l20" n="N013"/>welche, von Fluthen umrauscht, vom Mondlicht übergossen, die
-      <lb facs="#facs_1_region_1667472185954_56l21" n="N014"/>Leiche eines Heldenjünglings zum Leben zurückzuküssen sich be¬
-      <lb facs="#facs_1_region_1667472185954_56l22" n="N015"/>müht — dies gäbe ein Bild (die Düsseldorfer haben derlei
-      <lb facs="#facs_1_region_1667472185954_56l23" n="N016"/>gerne gemalt), das uns den Inhalt der <rs type="person">Rubinstein</rs>ʼschen Ton¬
-      <lb facs="#facs_1_region_1667472185954_56l24" n="N017"/>dichtung deutlicher und vollständiger erklärt, als es <rs type="person">Lermontoff</rs>ʼs
-      <lb facs="#facs_1_region_1667472185954_56l25" n="N018"/>Gedicht thut. In der deutschen Uebersetzung (von <hi rendition="#em">
-                  <rs type="person">Sprato</rs>
-               </hi>)
-      <lb facs="#facs_1_region_1667472185954_56l26" n="N019"/>klingt das Gedicht, welches einen vielverbrauchten <rs type="person">Heine</rs>ʼschen
+      <lb facs="#facs_1_region_1667472185954_56l21" n="N014"/>Leiche eines Heldenjünglings zum Leben zurückzuküssen sich be
+      <lb facs="#facs_1_region_1667472185954_56l22" n="N015" break="no"/>müht — dies gäbe ein Bild (die <rs type="place" ref="#hsl_place_id_16">Düsseldorf</rs>er haben derlei
+      <lb facs="#facs_1_region_1667472185954_56l23" n="N016"/>gerne gemalt), das uns den Inhalt der <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>ʼschen Ton
+      <lb facs="#facs_1_region_1667472185954_56l24" n="N017" break="no"/>dichtung deutlicher und vollständiger erklärt, als es <rs type="person" ref="#hsl_person_id_159">Lermontoff</rs>ʼs
+      <lb facs="#facs_1_region_1667472185954_56l25" n="N018"/>Gedicht thut. In der deutschen Uebersetzung (von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_295">Sprato</rs></hi>)
+      <lb facs="#facs_1_region_1667472185954_56l26" n="N019"/>klingt das Gedicht, welches einen vielverbrauchten <rs type="person" ref="#hsl_person_id_116">Heine</rs>ʼschen
       <lb facs="#facs_1_region_1667472185954_56l27" n="N020"/>Stoff mit frostiger, künstelnder Pracht auseinanderlegt, hart
-      <lb facs="#facs_1_region_1667472185954_56l28" n="N021"/>und unbeholfen.
-      <lb facs="#facs_1_region_1667472185954_56l29" n="N022"/>Wenn die Nixe folgende Verse immer und immer ver¬
-      <lb facs="#facs_1_region_1667472185954_56l30" n="N023"/>wundert wiederholt:
-      <lb facs="#facs_1_region_1667472185954_56l31" n="N024"/>„Dies brünstige Rosen, ich weiß nicht warum,
+      <lb facs="#facs_1_region_1667472185954_56l28" n="N021"/>und unbeholfen.</p>
+   <p><lb facs="#facs_1_region_1667472185954_56l29" n="N022"/>Wenn die Nixe folgende Verse immer und immer ver
+      <lb facs="#facs_1_region_1667472185954_56l30" n="N023" break="no"/>wundert wiederholt:</p>
+ <p>  <lb facs="#facs_1_region_1667472185954_56l31" n="N024"/>„Dies brünstige Rosen, ich weiß nicht warum,
       <lb facs="#facs_1_region_1667472185954_56l33" n="N025"/>Es läßt ihn so kalt und so stumm;
       <lb facs="#facs_1_region_1667472185954_56l34" n="N026"/>Er schläft, sein Haupt auf die Brust mir gelehnt,
-      <lb facs="#facs_1_region_1667472185954_56l36" n="N027"/>Und im Schlaf er nicht athmen, nicht stöhnt!“
-      <lb facs="#facs_1_region_1667472185954_56l37" n="N028"/>so möchte man etwas ungeduldig ihr endlich zurufen, daß der Mann
+      <lb facs="#facs_1_region_1667472185954_56l36" n="N027"/>Und im Schlaf er nicht athmen, nicht stöhnt!“</p>
+   <p><lb facs="#facs_1_region_1667472185954_56l37" n="N028"/>so möchte man etwas ungeduldig ihr endlich zurufen, daß der Mann
       <lb facs="#facs_1_region_1667472185954_56l38" n="N029"/>aus dem einfachen Grunde „nicht athmet, nicht stöhnt“, weil er
-      <lb facs="#facs_1_region_1667472185954_56l39" n="N030"/>eben, wie die meisten Ertrunkenen, maustodt ist. <hi rendition="#em">
-                  <rs type="person" continued="true">Rubin¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1667472185954_56l40" n="N031"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">tein</rs>
-               </hi> hat aus dem Gedicht eine wohlklingende, abgerundete,
+      <lb facs="#facs_1_region_1667472185954_56l39" n="N030"/>eben, wie die meisten Ertrunkenen, maustodt ist. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_244">Rubin
+      <lb facs="#facs_1_region_1667472185954_56l40" n="N031" break="no"/>tein</rs></hi> hat aus dem Gedicht eine wohlklingende, abgerundete,
       <lb facs="#facs_1_region_1667472185954_56l41" n="N032"/>aber in keiner Weise hervorragende Composition gemacht. Die
-      <lb facs="#facs_1_region_1667472185954_56l42" n="N033"/>Musik, die sich ungefähr in Tempo und Stimmung der <rs type="person" continued="true">Men¬</rs>
-               <lb facs="#facs_1_region_1667472185954_56l43" n="N034"/>
-               <rs type="person" continued="true">delssohn</rs>ʼschen <rs type="bibl">Melusina</rs> bewegt, anfangs sogar mit starkem An¬
-      <lb facs="#facs_1_region_1667472185954_56l44" n="N035"/>klang an das Hauptmotiv, entbehrt jeglicher Originalität. Sie
-      <lb facs="#facs_1_region_1667472185954_56l45" n="N036"/>erscheint als verspäteter Nachzügler der musikalischen Loreley¬
-      <lb facs="#facs_1_region_1667472185954_56l46" n="N037"/>und Nixen-Literatur, die <rs type="person">Mendelssohn</rs>, <rs type="person">Schumann</rs>, <rs type="person">Gade</rs> und
-      <lb facs="#facs_1_region_1667472185954_56l47" n="N038"/>
-               <rs type="person">Hiller</rs> schufen. Mit <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>ʼs zauberhaftem Nixenchor
-      <lb facs="#facs_1_region_1667472185954_56l48" n="N039"/>in „<rs type="bibl">Page und Königstochter</rs>“ erlaubt das <rs type="person">Rubinstein</rs>ʼsch
-      <lb facs="#facs_1_region_1667472185954_56l49" n="N040"/>Stück nicht den entferntesten Vergleich. <hi rendition="#em">
-                  <rs type="person">Rubinstein</rs>
-               </hi>'s Nixen
+      <lb facs="#facs_1_region_1667472185954_56l42" n="N033"/>Musik, die sich ungefähr in Tempo und Stimmung der <rs type="person" ref="#hsl_person_id_21">Men
+      <lb facs="#facs_1_region_1667472185954_56l43" n="N034" break="no"/>delssohn</rs>ʼschen <rs type="bibl" ref="#hsl_work_id_6">Melusina</rs> bewegt, anfangs sogar mit starkem An
+      <lb facs="#facs_1_region_1667472185954_56l44" n="N035" break="no"/>klang an das Hauptmotiv, entbehrt jeglicher Originalität. Sie
+      <lb facs="#facs_1_region_1667472185954_56l45" n="N036"/>erscheint als verspäteter Nachzügler der musikalischen Loreley
+      <lb facs="#facs_1_region_1667472185954_56l46" n="N037" break="no"/>und Nixen-Literatur, die <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>, <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, <rs type="person" ref="#hsl_person_id_94">Gade</rs> und
+      <lb facs="#facs_1_region_1667472185954_56l47" n="N038"/><rs type="person" ref="#hsl_person_id_124">Hiller</rs> schufen. Mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>ʼs zauberhaftem Nixenchor
+      <lb facs="#facs_1_region_1667472185954_56l48" n="N039"/>in „<rs type="bibl" ref="#hsl_work_id_31">Page und Königstochter</rs>“ erlaubt das <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>ʼsch
+      <lb facs="#facs_1_region_1667472185954_56l49" n="N040"/>Stück nicht den entferntesten Vergleich. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_244">Rubinstein</rs></hi>'s Nixen
       <lb facs="#facs_1_region_1667472185954_56l50" n="N041"/>drücken sich in dieser conventionell gewordenen Loreleysprache
-      <lb facs="#facs_1_region_1667472185954_56l51" n="N042"/>fein und gebildet aus, ohne darin irgend etwas Eigenthüm¬
-      <lb facs="#facs_1_region_1667472185954_56l52" n="N043"/>liches oder Bedeutendes zu sagen; ebenso ist die umgebend</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1667472204453_60l1" n="N001"/>Wasser- und Mondschein-Decoration mit Harfenarpeggien,
+      <lb facs="#facs_1_region_1667472185954_56l51" n="N042"/>fein und gebildet aus, ohne darin irgend etwas Eigenthüm
+      <lb facs="#facs_1_region_1667472185954_56l52" n="N043" break="no"/>liches oder Bedeutendes zu sagen; ebenso ist die umgebend</p>
+ <cb n="2"/>
+   <p prev="true">
+      <lb facs="#facs_1_region_1667472204453_60l1" n="N001"/>Wasser- und Mondschein-Decoration mit Harfenarpeggien,
       <lb facs="#facs_1_region_1667472204453_60l2" n="N002"/>Hornklängen, sordinirten Violinen äußerst sauber, aber nach
       <lb facs="#facs_1_region_1667472204453_60l3" n="N003"/>bekannten Vorbildern gemalt. In formeller Hinsicht könnte
       <lb facs="#facs_1_region_1667472204453_60l4" n="N004"/>man die „Novität“ für einen Fortschritt des Componisten an¬
@@ -1038,125 +1018,93 @@
       <lb facs="#facs_1_region_1667472204453_60l6" n="N006"/>gertem, durch keine Crudität unterbrochenen Verlauf dahin.
       <lb facs="#facs_1_region_1667472204453_60l7" n="N007"/>Schade, daß dieser formelle Vorzug hier ganz des bedeutenden,
       <lb facs="#facs_1_region_1667472204453_60l8" n="N008"/>eigenthümlichen Inhalts entbehrt, nichts von dem originellen
-      <lb facs="#facs_1_region_1667472204453_60l9" n="N009"/>erfinderischen Geist verräth, welcher die früheren Werke<rs type="person" continued="true"> Ru¬</rs>
-               <lb facs="#facs_1_region_1667472204453_60l10" n="N010"/>
-               <rs type="person" continued="true">binstein</rs>ʼs wenn auch nicht gleichmäßig erfüllt, so doch sporadisch
-      <lb facs="#facs_1_region_1667472204453_60l11" n="N011"/>durchblitzt. Wir hätten beim Anhören der „<rs type="bibl">Nixen</rs>“ nimmer¬
-      <lb facs="#facs_1_region_1667472204453_60l12" n="N012"/>mehr auf <rs type="person">Rubinstein</rs> gerathen, eher auf <rs type="person">Hiller</rs>, <rs type="person">Gade</rs>, <rs type="person">Reinecke</rs>.
-      <lb facs="#facs_1_region_1667472204453_60l13" n="N013"/>Ob <rs type="person">Rubinstein</rs> doch noch die Hoffnungen erfüllen werde, die
+      <lb facs="#facs_1_region_1667472204453_60l9" n="N009"/>erfinderischen Geist verräth, welcher die früheren Werke<rs type="person" ref="#hsl_person_id_244"> Ru
+      <lb facs="#facs_1_region_1667472204453_60l10" n="N010"/>binstein</rs>ʼs wenn auch nicht gleichmäßig erfüllt, so doch sporadisch
+      <lb facs="#facs_1_region_1667472204453_60l11" n="N011"/>durchblitzt. Wir hätten beim Anhören der „<rs type="bibl">Nixen</rs>“ nimmer
+      <lb facs="#facs_1_region_1667472204453_60l12" n="N012" break="no"/>mehr auf <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs> gerathen, eher auf <rs type="person" ref="#hsl_person_id_124">Hiller</rs>, <rs type="person" ref="#hsl_person_id_94">Gade</rs>, <rs type="person" ref="#hsl_person_id_234">Reinecke</rs>.
+      <lb facs="#facs_1_region_1667472204453_60l13" n="N013"/>Ob <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs> doch noch die Hoffnungen erfüllen werde, die
       <lb facs="#facs_1_region_1667472204453_60l14" n="N014"/>man seit bald zehn Jahren in sein Talent setzt? Er müßte
       <lb facs="#facs_1_region_1667472204453_60l15" n="N015"/>sich beeilen, oder besser: er müßte die Eile aufgeben, mit der
       <lb facs="#facs_1_region_1667472204453_60l16" n="N016"/>er sorglos, kritiklos in den Tag hineinproducirt, sich kopfüber
       <lb facs="#facs_1_region_1667472204453_60l17" n="N017"/>aus einer Composition in die andere stürzt, keinem Gedanken
       <lb facs="#facs_1_region_1667472204453_60l18" n="N018"/>Zeit gönnt, auszureisen, keinem Werk die Mühe, gefeilt und
-      <lb facs="#facs_1_region_1667472204453_60l19" n="N019"/>vollendet zu werden. <rs type="person">Rubinstein</rs> hat noch immer keine Tondich¬
-      <lb facs="#facs_1_region_1667472204453_60l20" n="N020"/>tung geliefert, die in allen Theilen sich nur einigermaßen
+      <lb facs="#facs_1_region_1667472204453_60l19" n="N019"/>vollendet zu werden. <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs> hat noch immer keine Tondich
+      <lb facs="#facs_1_region_1667472204453_60l20" n="N020" break="no"/>tung geliefert, die in allen Theilen sich nur einigermaßen
       <lb facs="#facs_1_region_1667472204453_60l21" n="N021"/>auf gleicher Höhe erhielte, in ihrer Totalität befriedigte, den
-      <lb facs="#facs_1_region_1667472204453_60l22" n="N022"/>Stempel des Fertigen, Meisterhaften, Classischen (in des Wor¬
-      <lb facs="#facs_1_region_1667472204453_60l23" n="N023"/>tes liberalster Bedeutung) trüge. Noch immer wechseln Sätze
-      <lb facs="#facs_1_region_1667472204453_60l24" n="N024"/>voll Schwung und Leidenschaft mit matten, alltäglichen, ur¬
-      <lb facs="#facs_1_region_1667472204453_60l25" n="N025"/>kräftige, lebenstrotzende Melodien mit verwaschenen, flachen
+      <lb facs="#facs_1_region_1667472204453_60l22" n="N022"/>Stempel des Fertigen, Meisterhaften, Classischen (in des Wor
+      <lb facs="#facs_1_region_1667472204453_60l23" n="N023" break="no"/>tes liberalster Bedeutung) trüge. Noch immer wechseln Sätze
+      <lb facs="#facs_1_region_1667472204453_60l24" n="N024"/>voll Schwung und Leidenschaft mit matten, alltäglichen, ur
+      <lb facs="#facs_1_region_1667472204453_60l25" n="N025" break="no"/>kräftige, lebenstrotzende Melodien mit verwaschenen, flachen
       <lb facs="#facs_1_region_1667472204453_60l26" n="N026"/>Phrasen, noch immer führen von einem glänzenden Einfalle
       <lb facs="#facs_1_region_1667472204453_60l27" n="N027"/>zum andern die mirabelsten Brücken, noch immer schließt
-      <lb facs="#facs_1_region_1667472204453_60l28" n="N028"/>unlustig, schwach und banal, was frisch und schöpferisch be¬
-      <lb facs="#facs_1_region_1667472204453_60l29" n="N029"/>gonnen. Weder <rs type="person">Rubinstein</rs>ʼs Opern (in ihnen ruhen die
-      <lb facs="#facs_1_region_1667472204453_60l30" n="N030"/>schimmerndsten <choice>
-                  <corr/>
-                  <sic>Juween</sic>
-               </choice> seines Talentes), noch sein Oratorium
-      <lb facs="#facs_1_region_1667472204453_60l31" n="N031"/>vermochten irgendwo festen Fuß zu fassen, seine Orchester¬
+      <lb facs="#facs_1_region_1667472204453_60l28" n="N028"/>unlustig, schwach und banal, was frisch und schöpferisch be
+      <lb facs="#facs_1_region_1667472204453_60l29" n="N029" break="no"/>gonnen. Weder <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>ʼs Opern (in ihnen ruhen die
+      <lb facs="#facs_1_region_1667472204453_60l30" n="N030"/>schimmerndsten <choice><corr>Juwelen</corr><sic>Juween</sic></choice> seines Talentes), noch sein Oratorium
+      <lb facs="#facs_1_region_1667472204453_60l31" n="N031"/>vermochten irgendwo festen Fuß zu fassen, seine Orchester-,
       <lb facs="#facs_1_region_1667472204453_60l32" n="N032"/>Clavier- und Kammermusiken, überall mit lebhaftem Beifalle
       <lb facs="#facs_1_region_1667472204453_60l33" n="N033"/>begrüßt, behaupten (vielleicht mit ganz geringen Ausnahmen)
-      <lb facs="#facs_1_region_1667472204453_60l34" n="N034"/>keine bleibende Stelle in den Repertoires; kurz auf die viel¬
-      <lb facs="#facs_1_region_1667472204453_60l35" n="N035"/>verheißende üppige Blüthe dieses Talents will noch immer die
-      <lb facs="#facs_1_region_1667472204453_60l36" n="N036"/>Frucht nicht folgen. Die „<rs type="bibl">Nixen</rs>“ schienen das Publicum ziem¬
-      <lb facs="#facs_1_region_1667472204453_60l37" n="N037"/>lich kalt zu lassen; wenn Fräulein <hi rendition="#em">
-                  <rs type="person">Bettelheim</rs>
-               </hi> die Hälfte
+      <lb facs="#facs_1_region_1667472204453_60l34" n="N034"/>keine bleibende Stelle in den Repertoires; kurz auf die viel
+      <lb facs="#facs_1_region_1667472204453_60l35" n="N035" break="no"/>verheißende üppige Blüthe dieses Talents will noch immer die
+      <lb facs="#facs_1_region_1667472204453_60l36" n="N036"/>Frucht nicht folgen. Die „<rs type="bibl" ref="#hsl_work_id_216">Nixen</rs>“ schienen das Publicum ziem
+      <lb facs="#facs_1_region_1667472204453_60l37" n="N037" break="no"/>lich kalt zu lassen; wenn Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_31">Bettelheim</rs></hi> die Hälfte
       <lb facs="#facs_1_region_1667472204453_60l38" n="N038"/>des lautgewordenen Beifalles dem Componisten abtritt, so hat
       <lb facs="#facs_1_region_1667472204453_60l39" n="N039"/>sie mehr als redlich getheilt.
-      <lb facs="#facs_1_region_1667472204453_60l40" n="N040"/>Auf die <rs type="person">Rubinstein</rs>ʼsche Novität folgte ein ehrwürdiges
-      <lb facs="#facs_1_region_1667472204453_60l41" n="N041"/>Rococcostück, das durch fünfzigjähriges Liegen für unsere Gene¬
-      <lb facs="#facs_1_region_1667472204453_60l42" n="N042"/>ration wieder zur Novität geworden ist: <hi rendition="#em">
-                  <rs type="person">Méhul</rs>
-               </hi>'s Ouvertüre
-      <lb facs="#facs_1_region_1667472204453_60l43" n="N043"/>„<rs type="bibl">La chasse du jeune Henri</rs>“. Sie ist die noch heutzutage
-      <lb facs="#facs_1_region_1667472204453_60l44" n="N044"/>in ganz <rs type="place">Frankreich</rs> populäre Einleitung zu einer Oper, die
-      <lb facs="#facs_1_region_1667472204453_60l45" n="N045"/>nicht ausgespielt wurde. Es war im Jahre <date>1797</date>, als <hi rendition="#em">
-                  <rs type="person" continued="true">Mé¬</rs>
-               </hi>
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1667472222466_64l1" n="N001"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">hul</rs>
-               </hi>'s Oper unter dem gedachten Titel in der <hi rendition="#em">Opéra com¬</hi>
-               <lb facs="#facs_1_region_1667472222466_64l2" n="N002"/>
-               <hi rendition="#em">que</hi> gegeben und die <rs type="bibl">Ouvertüre</rs> mit solchem Enthusiasmus
+      <lb facs="#facs_1_region_1667472204453_60l40" n="N040"/>Auf die <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>ʼsche Novität folgte ein ehrwürdiges
+      <lb facs="#facs_1_region_1667472204453_60l41" n="N041"/>Rococcostück, das durch fünfzigjähriges Liegen für unsere Gene
+      <lb facs="#facs_1_region_1667472204453_60l42" n="N042" break="no"/>ration wieder zur Novität geworden ist: <hi rendition="#em"><rs type="person" ref="#hsl_person_id_179">Méhul</rs></hi>'s Ouvertüre
+      <lb facs="#facs_1_region_1667472204453_60l43" n="N043"/>„<rs type="bibl" ref="#hsl_work_id_164">La chasse du jeune Henri</rs>“. Sie ist die noch heutzutage
+      <lb facs="#facs_1_region_1667472204453_60l44" n="N044"/>in ganz <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> populäre Einleitung zu einer Oper, die
+      <lb facs="#facs_1_region_1667472204453_60l45" n="N045"/>nicht ausgespielt wurde. Es war im Jahre <date when="1797">1797</date>, als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_179">Mé</rs></hi></p>
+  <cb n="3"/>
+     <p prev="true">
+      <lb facs="#facs_1_region_1667472222466_64l1" n="N001" break="no"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_179">hul</rs></hi>'s Oper unter dem gedachten Titel in der <hi rendition="#em">Opéra com
+      <lb facs="#facs_1_region_1667472222466_64l2" n="N002" break="no"/>que</hi> gegeben und die <rs type="bibl" ref="#hsl_work_id_164">Ouvertüre</rs> mit solchem Enthusiasmus
       <lb facs="#facs_1_region_1667472222466_64l3" n="N003"/>aufgenommen wurde, daß sie zweimal hinter einander gespielt
       <lb facs="#facs_1_region_1667472222466_64l4" n="N004"/>werden mußte. Die Oper selbst hatte eine Episode aus der
-      <lb facs="#facs_1_region_1667472222466_64l5" n="N005"/>Jugend <rs type="person">Heinrich's IV</rs>. von <rs type="place">Frankreich</rs> zum Gegenstand. Was
+      <lb facs="#facs_1_region_1667472222466_64l5" n="N005"/>Jugend <rs type="person" ref="#hsl_person_id_1001">Heinrich's IV</rs>. von <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> zum Gegenstand. Was
       <lb facs="#facs_1_region_1667472222466_64l6" n="N006"/>immer in jenen Revolutions-Jahren auf einen König Bezug
       <lb facs="#facs_1_region_1667472222466_64l7" n="N007"/>hatte, gerieth in die bedenklichste Stellung und wurde sofort
       <lb facs="#facs_1_region_1667472222466_64l8" n="N008"/>Parteisache. Auch diesmal hofften die Royalisten einen Erfolg
       <lb facs="#facs_1_region_1667472222466_64l9" n="N009"/>der Oper, während die Republikaner, entrüstet, daß man einen
-      <lb facs="#facs_1_region_1667472222466_64l10" n="N010"/>„Tyrannen“ auf die Bühne bringe (seine Tyrannei war be¬
-      <lb facs="#facs_1_region_1667472222466_64l11" n="N011"/>kanntlich, <rs type="place">Frankreich</rs> glücklich zu machen), die Oper von der
-      <lb facs="#facs_1_region_1667472222466_64l12" n="N012"/>ersten Scene an ununterbrochen auspfiffen, so daß der Vor¬
-      <lb facs="#facs_1_region_1667472222466_64l13" n="N013"/>hang lange vor dem Schlusse fiel. Um jedoch den Componi¬
-      <lb facs="#facs_1_region_1667472222466_64l14" n="N014"/>sten durch einen Beweis der allgemeinen Achtung zu entschä¬
-      <lb facs="#facs_1_region_1667472222466_64l15" n="N015"/>digen, verlangte das Publicum schließlich die <hi rendition="#em">
-                  <rs type="bibl">Ouvertüre</rs>
-               </hi>
-               <lb facs="#facs_1_region_1667472222466_64l16" n="N016"/>zum drittenmal. Dies dürfte der erste und einzige Fall in
-      <lb facs="#facs_1_region_1667472222466_64l17" n="N017"/>der Theater-Geschichte sein, wo <hi rendition="#em">
-                  <rs type="person">Ludwig Tieck</rs>
-               </hi>ʼs abstruse
+      <lb facs="#facs_1_region_1667472222466_64l10" n="N010"/>„Tyrannen“ auf die Bühne bringe (seine Tyrannei war be
+      <lb facs="#facs_1_region_1667472222466_64l11" n="N011" break="no"/>kanntlich, <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> glücklich zu machen), die Oper von der
+      <lb facs="#facs_1_region_1667472222466_64l12" n="N012"/>ersten Scene an ununterbrochen auspfiffen, so daß der Vor
+      <lb facs="#facs_1_region_1667472222466_64l13" n="N013" break="no"/>hang lange vor dem Schlusse fiel. Um jedoch den Componi
+      <lb facs="#facs_1_region_1667472222466_64l14" n="N014" break="no"/>sten durch einen Beweis der allgemeinen Achtung zu entschä
+      <lb facs="#facs_1_region_1667472222466_64l15" n="N015" break="no"/>digen, verlangte das Publicum schließlich die <hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_164">Ouvertüre</rs></hi>
+      <lb facs="#facs_1_region_1667472222466_64l16" n="N016"/>zum drittenmal. Dies dürfte der erste und einzige Fall in
+      <lb facs="#facs_1_region_1667472222466_64l17" n="N017"/>der Theater-Geschichte sein, wo <hi rendition="#em"><rs type="person" ref="#hsl_person_id_306">Ludwig Tieck</rs></hi>ʼs abstruse
       <lb facs="#facs_1_region_1667472222466_64l18" n="N018"/>Idee, es sollten die Ouvertüren, da sie ja <hi rendition="#em">vor</hi> dem Stück
       <lb facs="#facs_1_region_1667472222466_64l19" n="N019"/>gar nicht verständlich seien, stets <hi rendition="#em">nach</hi> demselben gegeben werden,
-      <lb facs="#facs_1_region_1667472222466_64l20" n="N020"/>thatsächlich zur Ausführung kam. Seit jener ersten Auffüh¬
-      <lb facs="#facs_1_region_1667472222466_64l21" n="N021"/>rung, also fast 70 Jahre lang, hat sich <rs type="person">Méhul</rs>ʼs <rs type="bibl">Jagd-Ouver¬</rs>
-               <lb facs="#facs_1_region_1667472222466_64l22" n="N022"/>
-               <rs type="bibl">türe</rs> als Zwischenakt-Musik in der <hi rendition="#em">Opéra comique</hi> und als
+      <lb facs="#facs_1_region_1667472222466_64l20" n="N020"/>thatsächlich zur Ausführung kam. Seit jener ersten Auffüh
+      <lb facs="#facs_1_region_1667472222466_64l21" n="N021" break="no"/>rung, also fast 70 Jahre lang, hat sich <rs type="person" ref="#hsl_person_id_179">Méhul</rs>ʼs <rs type="bibl" ref="#hsl_work_id_164">Jagd-Ouver
+      <lb facs="#facs_1_region_1667472222466_64l22" n="N022"/>türe</rs> als Zwischenakt-Musik in der <hi rendition="#em">Opéra comique</hi> und als
       <lb facs="#facs_1_region_1667472222466_64l23" n="N023"/>Lieblingsnummer in den Concertprogrammen erhalten. Auch
-      <lb facs="#facs_1_region_1667472222466_64l24" n="N024"/>in <rs type="place">Deutschland</rs> wurde sie häufig gespielt und stets gern gehört.
-      <lb facs="#facs_1_region_1667472222466_64l25" n="N025"/>
-               <hi rendition="#em">
-                  <rs type="place">Wien</rs>
-               </hi> hörte sie zum erstenmal in jenem denkwürdigen Concert
-      <lb facs="#facs_1_region_1667472222466_64l26" n="N026"/>des Hornisten <hi rendition="#em">
-                  <rs type="person">Punto</rs>
-               </hi>, das im Jahre <date>1800</date> im Burgtheater
-      <lb facs="#facs_1_region_1667472222466_64l27" n="N027"/>unter <rs type="person">Beethoven</rs>ʼs Mitwirkung stattfand. <hi rendition="#em">
-                  <rs type="person">Punto</rs>
-               </hi> hatte <rs type="person" continued="true">Mé¬</rs>
-               <lb facs="#facs_1_region_1667472222466_64l28" n="N028"/>
-               <rs type="person" continued="true">hul</rs>ʼs „Jagd-Symphonie“ aus <rs type="place">Paris</rs> mitgebracht und dirigirte
+      <lb facs="#facs_1_region_1667472222466_64l24" n="N024"/>in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> wurde sie häufig gespielt und stets gern gehört.
+      <lb facs="#facs_1_region_1667472222466_64l25" n="N025"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> hörte sie zum erstenmal in jenem denkwürdigen Concert
+      <lb facs="#facs_1_region_1667472222466_64l26" n="N026"/>des Hornisten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_220">Punto</rs></hi>, das im Jahre <date when="1800">1800</date> im Burgtheater
+      <lb facs="#facs_1_region_1667472222466_64l27" n="N027"/>unter <rs type="person">Beethoven</rs>ʼs Mitwirkung stattfand. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_220">Punto</rs></hi> hatte <rs type="person" ref="#hsl_person_id_179">Mé
+      <lb facs="#facs_1_region_1667472222466_64l28" n="N028"/>hul</rs>ʼs <rs type="bibl" ref="#hsl_work_id_164">„Jagd-Symphonie“</rs> aus <rs type="place" ref="#hsl_place_id_44">Paris</rs> mitgebracht und dirigirte
       <lb facs="#facs_1_region_1667472222466_64l29" n="N029"/>sie, seine Zuhörer damit mehr verblüffend als erfreuend. „Kein
       <lb facs="#facs_1_region_1667472222466_64l30" n="N030"/>einziger Musikverständiger oder auch nur überhaupt gebildeter
       <lb facs="#facs_1_region_1667472222466_64l31" n="N031"/>Zuhörer konnte sich damit aussöhnen,“ berichtet ein Kritiker
-      <lb facs="#facs_1_region_1667472222466_64l32" n="N032"/>jenes Concerts und fährt fort: „<hi rendition="#em">
-                  <rs type="person">Méhul</rs>
-               </hi> ist nicht nur ein
+      <lb facs="#facs_1_region_1667472222466_64l32" n="N032"/>jenes Concerts und fährt fort: „<hi rendition="#em"><rs type="person" ref="#hsl_person_id_179">Méhul</rs></hi> ist nicht nur ein
       <lb facs="#facs_1_region_1667472222466_64l33" n="N033"/>Mann von Genie, sondern auch von vieler Wissenschaft, —
       <lb facs="#facs_1_region_1667472222466_64l34" n="N034"/>wie vermochte er es aber über sich selbst, in diese sehr lange
-      <lb facs="#facs_1_region_1667472222466_64l35" n="N035"/>
-               <rs type="bibl">Jagd-Symphonie</rs> außer dem schrecklichen, verworrenen Getöse
+      <lb facs="#facs_1_region_1667472222466_64l35" n="N035"/><rs type="bibl" ref="#hsl_work_id_164">Jagd-Symphonie</rs> außer dem schrecklichen, verworrenen Getöse
       <lb facs="#facs_1_region_1667472222466_64l36" n="N036"/>alle Arten gemeiner Jägermelodien, ja auch ganz kleinliche und
       <lb facs="#facs_1_region_1667472222466_64l37" n="N037"/>widerliche Malereien anzubringen?“ Man war eben damals
       <lb facs="#facs_1_region_1667472222466_64l38" n="N038"/>gegen den Realismus in der Musik und vor Allem gegen
       <lb facs="#facs_1_region_1667472222466_64l39" n="N039"/>grelle Instrumentirung empfindlicher, als in späteren Zeiten
-      <lb facs="#facs_1_region_1667472222466_64l40" n="N040"/>Heutzutage können wir in der „<rs type="bibl">Jagd-Ouvertüre</rs>" zwar kein
+      <lb facs="#facs_1_region_1667472222466_64l40" n="N040"/>Heutzutage können wir in der „<rs type="bibl" ref="#hsl_work_id_164">Jagd-Ouvertüre</rs>" zwar kein
       <lb facs="#facs_1_region_1667472222466_64l41" n="N041"/>geniale Schöpfung erblicken — die Erfindung hat ganz die
-      <lb facs="#facs_1_region_1667472222466_64l42" n="N042"/>trockene, verstandesmäßige Physiognomie der älteren <rs type="place">französi¬</rs>
-               <lb facs="#facs_1_region_1667472222466_64l43" n="N043"/>
-               <rs type="place">schen</rs> Musik — aber das einfache, idyllische Andante spricht
+      <lb facs="#facs_1_region_1667472222466_64l42" n="N042"/>trockene, verstandesmäßige Physiognomie der älteren <rs type="place" ref="#hsl_place_id_21">französi
+      <lb facs="#facs_1_region_1667472222466_64l43" n="N043"/>sch</rs>en Musik — aber das einfache, idyllische Andante spricht
       <lb facs="#facs_1_region_1667472222466_64l44" n="N044"/>uns recht artig an, und dem Effect des lebendigen Jagdallegros
       <lb facs="#facs_1_region_1667472222466_64l45" n="N045"/>mit dem Geschmetter von sieben Waldhörnern kann wol nur</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
+ <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+   <cb n="4"/>
+      <p prev="true">
                <lb facs="#facs_2_region_1667472274853_73l1" n="N001"/>ein ästhetischer Griesgram sich ganz verschließen. Für das Or¬
       <lb facs="#facs_2_region_1667472274853_73l2" n="N002"/>chester ist <hi rendition="#em">
                   <rs type="person">Méhul</rs>
