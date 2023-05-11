@@ -153,7 +153,7 @@
             </respStmt>
             <respStmt>
                 <resp>Projektmitarbeiterinnen</resp>
-                <name ref="">Bamer, Katharina</name>
+                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                 <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                 <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
             </respStmt>
