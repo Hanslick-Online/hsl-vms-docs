@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      No. 155. Wien, Freitag den 3. Februar. 1865.</title>
+            <title level="a">No. 155. Wien, Freitag den 3. Februar. 1865.</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -12,8 +11,8 @@
             <funder>
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Wien</postCode>
                   <placeName>
                      <country>Österreich</country>
                      <settlement>Wien</settlement>
@@ -29,7 +28,7 @@
             </respStmt>
             <respStmt>
                <resp>Projektmitarbeiterinnen</resp>
-                  <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
+               <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
             </respStmt>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2023">2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,14 +72,12 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      No. 155. Wien, Freitag den 3. Februar. 1865.</title>
+                     <title>No. 155. Wien, Freitag den 3. Februar. 1865.</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Morgenblatt.</title>
+                     <title type="sub">Morgenblatt.</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
@@ -88,7 +85,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="1865">1865</date>
+                        <date when="1865-02-03">03.02.1865</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -109,7 +106,8 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change when="2023-04-24" who="kbamer">personen, Orte, Daten, Werke editiert</change>
+         <change who="kbamer" when="2023-04-24">personen, Orte, Daten, Werke editiert</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1035,17 +1033,13 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p/>
-            <cb n="2"/>
-            <p/>
-            <cb n="3"/>
-      <lb facs="#facs_1_region_1666614632479_847l2" n="N001"/><head type="h1">Feuilleton.</head>
-      <lb facs="#facs_1_region_1666614632479_847l6" n="N002"/><head type="h2"><rs type="bibl" ref="#hsl_work_id_247">Concini</rs>.</head>
-      <lb facs="#facs_1_region_1666614632479_847l7" n="N003"/><head type="h3">Romantische Oper in vier Acten von <rs type="person" ref="#hsl_person_id_166">Thomas Löwe</rs>.</head>
-      <lb facs="#facs_1_region_1666614632479_847l8" n="N004"/><head type="h4">(Im Hofoperntheater zum erstenmal aufgeführt am 1. Februar.)</head>
-   <p><lb facs="#facs_1_region_1666614632479_847l9" n="N005"/>Ed. H. Am 26. April <date when="1617">1617</date> wurde in <rs type="place" ref="#hsl_place_id_44">Paris</rs> ein Staats
+      <lb facs="#facs_1_region_1666614632479_847l6" n="N002"/><head type="h1"><rs type="bibl" ref="#hsl_work_id_247">Concini</rs>.</head>
+      <lb facs="#facs_1_region_1666614632479_847l7" n="N003"/><head type="h2">Romantische Oper in vier Acten von Thomas <rs type="person" ref="#hsl_person_id_166">Löwe</rs>.</head>
+      <lb facs="#facs_1_region_1666614632479_847l8" n="N004"/><head type="h3">(Im Hofoperntheater zum erstenmal aufgeführt am 1. Februar.)</head>
+            <p>
+      <lb facs="#facs_1_region_1666614632479_847l9" n="N005"/>Ed. H. Am 26. April <date when="1617">1617</date> wurde in <rs type="place" ref="#hsl_place_id_44">Paris</rs> ein Staats
       <lb facs="#facs_1_region_1666614632479_847l10" n="N006" break="no"/>mann, als er sich zum Conseil in den Louvre begab, von
-      <lb facs="#facs_1_region_1666614632479_847l11" n="N007"/><rs type="person" ref="#hsl_person_id_623">Vitry</rs>, Capitän der Leibwache, auf Befehl des <rs type="person" ref="#hsl_person_id_146">Königs Lud
+      <lb facs="#facs_1_region_1666614632479_847l11" n="N007"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_172">Vitry</rs></hi>, Capitän der Leibwache, auf Befehl des Königs <rs type="person" ref="#hsl_person_id_146">Lud
       <lb facs="#facs_1_region_1666614632479_847l12" n="N008" break="no"/>wig XIII.</rs> verhaftet, und kaum daß man ihm den Degen ab
       <lb facs="#facs_1_region_1666614632479_847l13" n="N009" break="no"/>gefordert, erschossen. Von mehreren Kugeln durchbohrt, starb
       <lb facs="#facs_1_region_1666614632479_847l14" n="N010"/>er auf der Stelle. Der junge <rs type="person" ref="#hsl_person_id_146">König</rs> stand an einem Fenster
@@ -1063,23 +1057,25 @@
       <lb facs="#facs_1_region_1666614632479_847l26" n="N022"/>Leichnam verbrannt. Das Palais des Ermordeten ward zer
       <lb facs="#facs_1_region_1666614632479_847l27" n="N023" break="no"/>stört, sein Habe confiscirt, sein Sohn des Adels verlustig er
       <lb facs="#facs_1_region_1666614632479_847l28" n="N024" break="no"/>klärt. Dieser Staatsmann, der auf so gräßliche Weise das
-      <lb facs="#facs_1_region_1666614632479_847l29" n="N025"/>Opfer seiner eigenen Politik wurde, war <hi rendition="#em"><rs type="person" ref="#hsl_person_id_49">Concino Concini</rs></hi>,
+      <lb facs="#facs_1_region_1666614632479_847l29" n="N025"/>Opfer seiner eigenen Politik wurde, war Concino <hi rendition="#em"><rs type="person" ref="#hsl_person_id_49">Concini</rs></hi>,
       <lb facs="#facs_1_region_1666614632479_847l30" n="N026"/>der Günstling der Königin <rs type="person" ref="#hsl_person_id_178">Maria von Medici</rs>, nachmaliger
-      <lb facs="#facs_1_region_1666614632479_847l31" n="N027"/><rs type="person" ref="#hsl_person_id_49">Marschall von Frankreich</rs>. Er ist der Titelheld der neuen Oper,
+      <lb facs="#facs_1_region_1666614632479_847l31" n="N027"/>Marschall von Frankreich. Er ist der Titelheld der neuen Oper,
       <lb facs="#facs_1_region_1666614632479_847l32" n="N028"/>d. h. er gibt ihr, ohne in die Handlung irgendwie einzugreifen,
       <lb facs="#facs_1_region_1666614632479_847l33" n="N029"/>den Namen. Dieser Name und der Flintenschuß, der in der
       <lb facs="#facs_1_region_1666614632479_847l34" n="N030"/>letzten Scene <rs type="person" ref="#hsl_person_id_467">Concini</rs> niederstreckt, sind die zwei einzigen histo</p>
- <cb n="4"/><p prev="true">
+            <cb n="2"/>
+            <p prev="true">
       <lb facs="#facs_1_region_1666614657239_850l1" n="N001" break="no"/>rischen Dinge in der ganzen Oper. Der Verfasser des Text
-      <lb facs="#facs_1_region_1666614657239_850l2" n="N002" break="no"/>buches (<rs type="person" ref="#hsl_person_id_161">Ritter v. <hi rendition="#em">Levitschnigg</hi></rs>) hat seinen Stoff nach einem
-      <lb facs="#facs_1_region_1666614657239_850l3" n="N003"/>fünfbändigen Roman von <rs type="person" ref="#hsl_person_id_170">August <hi rendition="#em">Maquet</hi></rs>: „<rs type="bibl" ref="#hsl_work_id_129">La maison
-      <lb facs="#facs_1_region_1666614657239_850l4" n="N004" break="no"/>du baigneur</rs>,“ bearbeitet, — ein bedenkliches Unternehmen,
+      <lb facs="#facs_1_region_1666614657239_850l2" n="N002" break="no"/>buches Ritter v. (<rs type="person" ref="#hsl_person_id_161"><hi rendition="#em">Levitschnigg</hi></rs>) hat seinen Stoff nach einem
+      <lb facs="#facs_1_region_1666614657239_850l3" n="N003"/>fünfbändigen Roman von August <rs type="person" ref="#hsl_person_id_170"><hi rendition="#em">Maquet</hi></rs>: „<rs type="bibl" ref="#hsl_work_id_129">La maison
+      <lb facs="#facs_1_region_1666614657239_850l4" n="N004"/>du baigneur</rs>,“ bearbeitet, — ein bedenkliches Unternehmen,
       <lb facs="#facs_1_region_1666614657239_850l5" n="N005"/>das auch nur mit zweifelhaftem Erfolg gelang. Sehen wir,
       <lb facs="#facs_1_region_1666614657239_850l6" n="N006"/>wie die Handlung der Oper sich in ihren Hauptzügen vor dem
-      <lb facs="#facs_1_region_1666614657239_850l7" n="N007"/>Zuschauer abspielt.</p>
-  <p> <lb facs="#facs_1_region_1666614657239_850l8" n="N008"/>Der im Charakter eines Vorspiels gehaltene erste Act
+      <lb facs="#facs_1_region_1666614657239_850l7" n="N007"/>Zuschauer abspielt.
+            </p><p>
+      <lb facs="#facs_1_region_1666614657239_850l8" n="N008"/>Der im Charakter eines Vorspiels gehaltene erste Act
       <lb facs="#facs_1_region_1666614657239_850l9" n="N009"/>führt uns mitten in ein ländliches Fest vor dem Schloß des
-      <lb facs="#facs_1_region_1666614657239_850l10" n="N010"/>alten <rs type="person" ref="#hsl_person_id_545">Grafen Harley</rs> (Herr <rs type="person" ref="#hsl_person_id_155">Lay</rs>), der seinen Sohn <rs type="person" ref="#hsl_person_id_650">Robert</rs>
+      <lb facs="#facs_1_region_1666614657239_850l10" n="N010"/>alten Grafen <rs type="person" ref="#hsl_person_id_545">Harley</rs> (Herr <rs type="person" ref="#hsl_person_id_155">Lay</rs>), der seinen Sohn <rs type="person" ref="#hsl_person_id_650">Robert</rs><space quantity="1"/>
       <lb facs="#facs_1_region_1666614657239_850l11" n="N011"/>(Herr <rs type="person" ref="#hsl_person_id_318">Wachtel</rs>) nach längerer Trennung freudig erwartet.
       <lb facs="#facs_1_region_1666614657239_850l12" n="N012"/>Letzterer erscheint und erzählt ein mysteriöses Abenteuer, das
       <lb facs="#facs_1_region_1666614657239_850l13" n="N013"/>er soeben bestanden. Vermummte Reiter hätten ihn gezwungen,
@@ -1094,16 +1090,16 @@
       <lb facs="#facs_1_region_1666614657239_850l22" n="N022"/>trifft <rs type="person" ref="#hsl_person_id_650">Robert</rs>, der ihr seine Liebe gesteht. Da hört man Lärm
       <lb facs="#facs_1_region_1666614657239_850l23" n="N023"/>und Säbelgeklirr, Bewaffnete, von <rs type="person" ref="#hsl_person_id_519">Dorego</rs> angeführt, dringen
       <lb facs="#facs_1_region_1666614657239_850l24" n="N024"/>ein und ermorden den alten <rs type="person" ref="#hsl_person_id_545">Harley</rs>, welcher als alleiniger
-      <lb facs="#facs_1_region_1666614657239_850l25" n="N025"/>Mitwisser des durch <rs type="person" ref="#hsl_person_id_467">Concini</rs> verübten Verrathes an <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>
+      <lb facs="#facs_1_region_1666614657239_850l25" n="N025"/>Mitwisser des durch <rs type="person" ref="#hsl_person_id_467">Concini</rs> verübten Verrathes an <rs type="place" ref="#hsl_place_id_21">Frankreich</rs><space quantity="1"/>
       <lb facs="#facs_1_region_1666614657239_850l26" n="N026"/>Letzterem im Wege steht. Im 2. Act feiert <rs type="person" ref="#hsl_person_id_467">Concini</rs> (Herr
       <lb facs="#facs_1_region_1666614657239_850l27" n="N027"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi>) seine Ernennung zum Marschall durch einen festlichen
       <lb facs="#facs_1_region_1666614657239_850l28" n="N028"/>Einzug in die Notredame-Kirche. <rs type="person" ref="#hsl_person_id_650">Robert</rs>, der inzwischen nach
       <lb facs="#facs_1_region_1666614657239_850l29" n="N029"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> gekommen war, um seinen Vater zu rächen, erkennt bei
       <lb facs="#facs_1_region_1666614657239_850l30" n="N030"/>dem Festzug den Mörder in der Person <rs type="person" ref="#hsl_person_id_519">Dorego</rs>ʼs (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_130">Hra
       <lb facs="#facs_1_region_1666614657239_850l31" n="N031" break="no"/>banek</rs></hi>). Er will sich auf ihn stürzen, wird aber von seinen
-      <lb facs="#facs_1_region_1666614657239_850l32" n="N032"/>Freunden zurückgehalten und auf die bessere Gelegenheit, die</p>
-  <cb n="5"/>
-   <p>
+      <lb facs="#facs_1_region_1666614657239_850l32" n="N032"/>Freunden zurückgehalten und auf die bessere Gelegenheit, die<space quantity="1"/></p>
+            <cb n="3"/>
+            <p prev="true">
       <lb facs="#facs_1_region_1666614675615_853l1" n="N001"/>sich bei dem bevorstehenden Maskenball bieten soll, vertröstet.
       <lb facs="#facs_1_region_1666614675615_853l2" n="N002"/>Auf diesem Ball soll auch <rs type="person" ref="#hsl_person_id_467">Concini</rs> ermordet werden, der An
       <lb facs="#facs_1_region_1666614675615_853l3" n="N003" break="no"/>schlag wird aber entdeckt, die Verschworenen fliehen, nur
@@ -1122,11 +1118,12 @@
       <lb facs="#facs_1_region_1666614675615_853l16" n="N016"/>zu <rs type="person" ref="#hsl_person_id_650">Robert</rs>, der die vermeintliche Verrätherin nun mit verdop
       <lb facs="#facs_1_region_1666614675615_853l17" n="N017" break="no"/>pelter Inbrunst ans Herz drückt. Beide eilen aus der Bastille
       <lb facs="#facs_1_region_1666614675615_853l18" n="N018"/>auf die von Tumult und Waffengeklirr widerhallenden Straßen.
-      <lb facs="#facs_1_region_1666614675615_853l19" n="N019"/><rs type="person" ref="#hsl_person_id_467">Concini</rs> erscheint an der Schwelle seines Palastes, <rs type="person" ref="#hsl_person_id_545">Vitry</rs>
+      <lb facs="#facs_1_region_1666614675615_853l19" n="N019"/><rs type="person" ref="#hsl_person_id_467">Concini</rs> erscheint an der Schwelle seines Palastes, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_623">Vitry</rs></hi><space quantity="1"/>
       <lb facs="#facs_1_region_1666614675615_853l20" n="N020"/>(Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_184">Mayerhofer</rs></hi>) erschießt ihn „im Namen des Königs.“
       <lb facs="#facs_1_region_1666614675615_853l21" n="N021"/><rs type="person" ref="#hsl_person_id_650">Robert</rs> und <rs type="person" ref="#hsl_person_id_624">Margarethe</rs> aber sinken einander jubelnd in
-      <lb facs="#facs_1_region_1666614675615_853l22" n="N022"/>die Arme.</p>
-  <p> <lb facs="#facs_1_region_1666614675615_853l23" n="N023"/>So weit läßt sich aus dem Textbuch der Zusammenhang
+      <lb facs="#facs_1_region_1666614675615_853l22" n="N022"/>die Arme.
+            </p><p> 
+      <lb facs="#facs_1_region_1666614675615_853l23" n="N023"/>So weit läßt sich aus dem Textbuch der Zusammenhang
       <lb facs="#facs_1_region_1666614675615_853l24" n="N024"/>des Ganzen construiren. Als unvorbereiteter Zuschauer versteht
       <lb facs="#facs_1_region_1666614675615_853l25" n="N025"/>man aber so gut wie gar nichts von diesem Zusammenhang.
       <lb facs="#facs_1_region_1666614675615_853l26" n="N026"/>Wir hören fortwährend von bedeutungsvollen Briefen sprechen
@@ -1136,11 +1133,11 @@
       <lb facs="#facs_1_region_1666614675615_853l30" n="N030" break="no"/>rethe</rs> kommen und verschwinden, <rs type="person" ref="#hsl_person_id_467">Concini</rs> zu höchster Macht er
       <lb facs="#facs_1_region_1666614675615_853l31" n="N031" break="no"/>hoben und gleich wieder gestürzt, errathen aber weder die Ur
       <lb facs="#facs_1_region_1666614675615_853l32" n="N032" break="no"/>sache, noch den Zusammenhang von alledem. Daß die Moti</p>
-<pb facs="#facs_2" n="2" xml:id="img_0002"/>
-   <cb n="6"/>
-   <p prev="true">
+            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
       <lb facs="#facs_2_region_1666614699857_859l1" n="N001" break="no"/>virung dieser Vorgänge in irgend einem Winkel des Textbuches
-      <lb facs="#facs_2_region_1666614699857_859l2" n="N002"/>versteckt ist, allenfalls in 3 - 4 Zeilen, welche die undeutliche
+      <lb facs="#facs_2_region_1666614699857_859l2" n="N002"/>versteckt ist, allenfalls in 3—4 Zeilen, welche die undeutliche
       <lb facs="#facs_2_region_1666614699857_859l3" n="N003"/>Aussprache des Sängers oder der Schwall des Orchesters ver
       <lb facs="#facs_2_region_1666614699857_859l4" n="N004" break="no"/>schlingt, das hilft dem Zuschauer nichts, der an ein Büh
       <lb facs="#facs_2_region_1666614699857_859l5" n="N005" break="no"/>nenstück die berechtigte Anforderung stellt, sich selbst zu erklären.
@@ -1163,25 +1160,27 @@
       <lb facs="#facs_2_region_1666614699857_859l22" n="N022"/>großen Arie sich äußerst empfindsam nach den Tagen seiner
       <lb facs="#facs_2_region_1666614699857_859l23" n="N023"/>Kindheit zurücksehnt, was bekanntlich in der Oper stets die
       <lb facs="#facs_2_region_1666614699857_859l24" n="N024"/>Räuber, Intriganten und herzlosen Fürsten thun. Um als
-      <lb facs="#facs_2_region_1666614699857_859l25" n="N025"/>dramatischer Charakter zu wirken, hätte <rs type="person" ref="#hsl_person_id_467">Concini</rs> mit <rs type="person" ref="#hsl_person_id_519">Dorego</rs>
-      <lb facs="#facs_2_region_1666614699857_859l26" n="N026"/>in eine Person verschmolzen werden, er hätte diesen wie ein
+      <lb facs="#facs_2_region_1666614699857_859l25" n="N025"/>dramatischer Charakter zu wirken, hätte <rs type="person" ref="#hsl_person_id_467">Concini</rs> mit <rs type="person" ref="#hsl_person_id_519">Dorego</rs><space quantity="1"/>
+      <lb facs="#facs_2_region_1666614699857_859l26" n="N026"/>in <hi rendition="#em">eine</hi> Person verschmolzen werden, er hätte diesen wie ein
       <lb facs="#facs_2_region_1666614699857_859l27" n="N027"/>Schwamm aufsaugen müssen. Allerdings hätten wir dann statt
       <lb facs="#facs_2_region_1666614699857_859l28" n="N028"/>der zwei Terzette nur Duette, zugleich aber statt zweier ver
       <lb facs="#facs_2_region_1666614699857_859l29" n="N029" break="no"/>fehlter Figuren eine brauchbare. Wir verzichten auf eine wei
       <lb facs="#facs_2_region_1666614699857_859l30" n="N030" break="no"/>tere Kritik des Textbuches; daß es für den Zuschauer unver
       <lb facs="#facs_2_region_1666614699857_859l31" n="N031" break="no"/>ständlich und in seinen Hauptmotiven unmusikalisch ist, erscheint
-      <lb facs="#facs_2_region_1666614699857_859l32" n="N032"/>uns als entschieden. Man könnte nach dem bekannten lingnistischen</p>
-<cb n="7"/>
-   <p prev="true">
+      <lb facs="#facs_2_region_1666614699857_859l32" n="N032"/>uns als entschieden. Man könnte nach dem bekannten lingnistischen<space quantity="1"/></p>
+            <cb n="5"/>
+            <p prev="true">
       <lb facs="#facs_2_region_1666614718433_862l1" n="N001"/>Axiom: „was nicht klar ist, ist nicht <rs type="place" ref="#hsl_place_id_21">französisch</rs>“, für die Oper
       <lb facs="#facs_2_region_1666614718433_862l2" n="N002"/>den ebenso wahren Satz formen: was nicht verständlich ist, ist
-      <lb facs="#facs_2_region_1666614718433_862l3" n="N003"/>nicht musikalisch.</p>
-  <p> <lb facs="#facs_2_region_1666614718433_862l4" n="N004"/>Vorzüge technischer Art kann man dem Libretto <hi rendition="#em"><rs type="person" ref="#hsl_person_id_161">Levit
-      <lb facs="#facs_2_region_1666614718433_862l5" n="N005" break="no"/>chnigg</rs></hi>ʼs nicht absprechen; es vertheilt die Handlung und die
+      <lb facs="#facs_2_region_1666614718433_862l3" n="N003"/>nicht musikalisch.
+            </p><p> 
+      <lb facs="#facs_2_region_1666614718433_862l4" n="N004"/>Vorzüge technischer Art kann man dem Libretto <hi rendition="#em"><rs type="person" ref="#hsl_person_id_161">Levit
+      <lb facs="#facs_2_region_1666614718433_862l5" n="N005" break="no"/>schnigg</rs>ʼs</hi> nicht absprechen; es vertheilt die Handlung und die
       <lb facs="#facs_2_region_1666614718433_862l6" n="N006"/>Musikstücke mit geschickter Oekonomie und bietet dem Compo
-      <lb facs="#facs_2_region_1666614718433_862l7" n="N007" break="no"/>listen eine Reihe effectvoller Scenen und dankbarer Formen.
+      <lb facs="#facs_2_region_1666614718433_862l7" n="N007" break="no"/>nisten eine Reihe effectvoller Scenen und dankbarer Formen.
+            </p><p>
       <lb facs="#facs_2_region_1666614718433_862l8" n="N008"/>Die Musik zum „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ ist das Werk eines jungen
-      <lb facs="#facs_2_region_1666614718433_862l9" n="N009"/>Wiener Componisten, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_166">Thomas Löwe</rs></hi>, und die erste größere
+      <lb facs="#facs_2_region_1666614718433_862l9" n="N009"/>Wiener Componisten, Thomas <hi rendition="#em"><rs type="person" ref="#hsl_person_id_166">Löwe</rs></hi>, und die erste größere
       <lb facs="#facs_2_region_1666614718433_862l10" n="N010"/>Arbeit, die überhaupt von ihm zur Oeffentlichkeit gelangt.
       <lb facs="#facs_2_region_1666614718433_862l11" n="N011"/>Keine musikalische Gattung erfordert eine solche Reife des Ta
       <lb facs="#facs_2_region_1666614718433_862l12" n="N012" break="no"/>lents und Sicherheit der Technik, so vielerlei Kenntniß und
@@ -1193,8 +1192,9 @@
       <lb facs="#facs_2_region_1666614718433_862l18" n="N018" break="no"/>stellt, oder aber, wenn sie ein erster Versuch auf diesem schwie
       <lb facs="#facs_2_region_1666614718433_862l19" n="N019" break="no"/>rigsten Gebiet und der Anfang einer musikalischen Carrière ist.
       <lb facs="#facs_2_region_1666614718433_862l20" n="N020"/>Indem „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ als das Werk eines Anfängers vor uns
-      <lb facs="#facs_2_region_1666614718433_862l21" n="N021"/>hintritt, ist uns unser Standpunkt auch vorgezeichnet.</p>
-<p>   <lb facs="#facs_2_region_1666614718433_862l22" n="N022"/>Was an Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_166">Löwe</rs></hi>ʼs Arbeit zunächst sehr vortheilhaft
+      <lb facs="#facs_2_region_1666614718433_862l21" n="N021"/>hintritt, ist uns unser Standpunkt auch vorgezeichnet.
+            </p><p>   
+      <lb facs="#facs_2_region_1666614718433_862l22" n="N022"/>Was an Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_166">Löwe</rs>ʼs</hi> Arbeit zunächst sehr vortheilhaft
       <lb facs="#facs_2_region_1666614718433_862l23" n="N023"/>auffällt, ist der Ernst, mit welchem er seine Aufgabe anfaßt.
       <lb facs="#facs_2_region_1666614718433_862l24" n="N024"/>Jede Nummer, ja jeder Tact zeigt das gewissenhafteste Be
       <lb facs="#facs_2_region_1666614718433_862l25" n="N025" break="no"/>streben, dem Inhalt des Gedichtes gerecht zu werden, den dra
@@ -1204,25 +1204,26 @@
       <lb facs="#facs_2_region_1666614718433_862l29" n="N029"/>sondern überall gewissenhafte, mitunter nur zu mühsame Ar
       <lb facs="#facs_2_region_1666614718433_862l30" n="N030" break="no"/>beit aufweist. Was zuerst den dramatischen Charakter betrifft,
       <lb facs="#facs_2_region_1666614718433_862l31" n="N031" break="no"/>so ist er der Musik <rs type="person" ref="#hsl_person_id_166">Löwe</rs>ʼs nirgends abzusprechen, ja die ge
-      <lb facs="#facs_2_region_1666614718433_862l32" n="N032" break="no"/>lungensten Partien der Oper stellen seine Begabung gerade für</p>
-  <cb n="8"/>
-  <p prev="true">
+      <lb facs="#facs_2_region_1666614718433_862l32" n="N032" break="no"/>lungensten Partien der Oper stellen seine Begabung gerade für<space quantity="1"/></p>
+            <cb n="6"/>
+            <p prev="true">
       <lb facs="#facs_2_region_1666614732211_865l1" n="N001"/>das specifisch Dramatische und theatralisch Wirksame außer
       <lb facs="#facs_2_region_1666614732211_865l2" n="N002"/>Zweifel. Die absolut <hi rendition="#em">musikalische</hi> Erfindungskraft des
-      <lb facs="#facs_2_region_1666614732211_865l3" n="N003"/>Componisten scheint uns geringer als das Talent für drama¬
-      <lb facs="#facs_2_region_1666614732211_865l4" n="N004"/>tische Auffassung. Die Musik zum „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ enthält zwar
+      <lb facs="#facs_2_region_1666614732211_865l3" n="N003"/>Componisten scheint uns geringer als das Talent für drama      
+      <lb facs="#facs_2_region_1666614732211_865l4" n="N004" break="no"/>tische Auffassung. Die Musik zum „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ enthält zwar
       <lb facs="#facs_2_region_1666614732211_865l5" n="N005"/>einzelne sehr hübsche melodische Momente, im Ganzen kann
       <lb facs="#facs_2_region_1666614732211_865l6" n="N006"/>man ihr besondere Originalität und schöpferische Kraft nicht
-      <lb facs="#facs_2_region_1666614732211_865l7" n="N007"/>zugestehen. Reminiscenzen an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_106">Halevy</rs></hi>
+      <lb facs="#facs_2_region_1666614732211_865l7" n="N007"/>zugestehen. Reminiscenzen an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_106">Halevy</rs></hi><space quantity="1"/>
       <lb facs="#facs_2_region_1666614732211_865l8" n="N008"/>sind nicht selten, auch Anwandlungen von „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“-Me
       <lb facs="#facs_2_region_1666614732211_865l9" n="N009" break="no"/>lodien regen sich ein- oder zweimal. „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ hält sich in
       <lb facs="#facs_2_region_1666614732211_865l10" n="N010"/>seinem Zuschnitt und der ganzen Ausdrucksweise sichtlich an das
-      <lb facs="#facs_2_region_1666614732211_865l11" n="N011"/>Vorbild der <rs type="place" ref="#hsl_place_id_21">französischen</rs> Großen Oper, wie sie in <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>,
+      <lb facs="#facs_2_region_1666614732211_865l11" n="N011"/>Vorbild der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Großen Oper, wie sie in <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>,
       <lb facs="#facs_2_region_1666614732211_865l12" n="N012"/>und <rs type="person" ref="#hsl_person_id_106">Halevy</rs> gipfelt. Die Eigenheiten dieser Muster vereinigen
       <lb facs="#facs_2_region_1666614732211_865l13" n="N013"/>sich hier mit der Unruhe und Maßlosigkeit, die in jedem an
-      <lb facs="#facs_2_region_1666614732211_865l14" n="N014" break="no"/>gehenden Operncomponisten steckt.</p>
- <p>  <lb facs="#facs_2_region_1666614732211_865l15" n="N015"/>Von der <rs type="place" ref="#hsl_place_id_21">französischen</rs> Oper hat <rs type="person" ref="#hsl_person_id_166">Löwe</rs> das Leidenschaft
-      <lb facs="#facs_2_region_1666614732211_865l16" n="N016" break="no"/>liche, aber Uebertriebene, Grelle des dramatischen Ausdrucks,
+      <lb facs="#facs_2_region_1666614732211_865l14" n="N014" break="no"/>gehenden Operncomponisten steckt.
+            </p><p>  
+      <lb facs="#facs_2_region_1666614732211_865l15" n="N015"/>Von der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Oper hat <rs type="person" ref="#hsl_person_id_166">Löwe</rs> das Leidenschaft
+      <lb facs="#facs_2_region_1666614732211_865l16" n="N016" break="no"/>liche, aber Uebertriebene, Grelle des dramatischen Ausdrucks.
       <lb facs="#facs_2_region_1666614732211_865l17" n="N017"/>Die größte Furcht junger Componisten, mißverstanden zu wer
       <lb facs="#facs_2_region_1666614732211_865l18" n="N018" break="no"/>den, läßt ihn überall zu viel des Guten thun. So kommt
       <lb facs="#facs_2_region_1666614732211_865l19" n="N019"/>zu der aufs Aeußerste gespannten Exaltation der Gesangs
@@ -1234,18 +1235,18 @@
       <lb facs="#facs_2_region_1666614732211_865l25" n="N025"/>bald mahnen die geheimnißvoll tiefen Töne der Holzbläser,
       <lb facs="#facs_2_region_1666614732211_865l26" n="N026"/>dann flimmern die Geiger tremolirend in höchster Lage, um
       <lb facs="#facs_2_region_1666614732211_865l27" n="N027"/>wieder schnell düstern Posaunenklängen mit Paukenwirbel Platz
-      <lb facs="#facs_2_region_1666614732211_865l28" n="N028"/>zu machen <choice><abbr>u. s. f.</abbr><expan>und so fort</expan></choice>Eine bedeutende Effectkenntniß in Behand
+      <lb facs="#facs_2_region_1666614732211_865l28" n="N028"/>zu machen u. s. f. Eine bedeutende Effectkenntniß in Behand
       <lb facs="#facs_2_region_1666614732211_865l29" n="N029" break="no"/>lung des Orchesters ist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_166">Löwe</rs></hi> jedenfalls nachzurühmen,
-      <lb facs="#facs_2_region_1666614732211_865l30" n="N030"/>wie denn überhaupt sein Geschick für das Technische un¬
-      <lb facs="#facs_2_region_1666614732211_865l31" n="N031"/>zweifelhaft, ja für einen jungen Componisten erstaunlich
-      <lb facs="#facs_2_region_1666614732211_865l32" n="N032"/>ist. Er bringt überraschende Orchester-Effecte, aber einer</p>
- <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-   <cb n="9"/>
-    <p prev="true">
+      <lb facs="#facs_2_region_1666614732211_865l30" n="N030"/>wie denn überhaupt sein Geschick für das Technische un      
+      <lb facs="#facs_2_region_1666614732211_865l31" n="N031" break="no"/>zweifelhaft, ja für einen jungen Componisten erstaunlich
+      <lb facs="#facs_2_region_1666614732211_865l32" n="N032"/>ist. Er bringt überraschende Orchester-Effecte, aber einer<space quantity="1"/></p>
+            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
       <lb facs="#facs_3_region_1666614757324_873l1" n="N001"/>reibt den andern auf. Die Klangmischungen wechseln zu
-      <lb facs="#facs_3_region_1666614757324_873l2" n="N002"/>oft, die Bläser herrschen zu sehr man sehnt sich nach dem
+      <lb facs="#facs_3_region_1666614757324_873l2" n="N002"/>oft, die Bläser herrschen zu sehr, man sehnt sich nach dem
       <lb facs="#facs_3_region_1666614757324_873l3" n="N003"/>Streichquartett, das doch Grundlage und Hauptinhalt des Or
-      <lb facs="#facs_3_region_1666614757324_873l4" n="N004" break="no"/>chesters bleiben soll. Dieselbe Unruhe wie in<rs type="person" ref="#hsl_person_id_166"> Löwe</rs>ʼs Instru
+      <lb facs="#facs_3_region_1666614757324_873l4" n="N004" break="no"/>chesters bleiben soll. Dieselbe Unruhe wie in <rs type="person" ref="#hsl_person_id_166">Löwe</rs>ʼs Instru
       <lb facs="#facs_3_region_1666614757324_873l5" n="N005" break="no"/>mentirung herrscht in seiner Harmonik: offenbar fließt dies
       <lb facs="#facs_3_region_1666614757324_873l6" n="N006"/>unersättliche Moduliren aus der gleichen Quelle: dem Drang
       <lb facs="#facs_3_region_1666614757324_873l7" n="N007"/>immer und überall charakteristisch zu sein. Dieser Drang
@@ -1258,8 +1259,9 @@
       <lb facs="#facs_3_region_1666614757324_873l14" n="N014"/>Tacten ihren ganzen Umfang von Oben bis Unten (am lieb
       <lb facs="#facs_3_region_1666614757324_873l15" n="N015" break="no"/>sten in den Intervallen des verminderten Septaccords) durch
       <lb facs="#facs_3_region_1666614757324_873l16" n="N016" break="no"/>messen, eine Manier, die wie manches Melodische bei <rs type="person" ref="#hsl_person_id_166">Löwe</rs> zu
-      <lb facs="#facs_3_region_1666614757324_873l17" n="N017"/>sehr an das Raffinement der <rs type="place" ref="#hsl_place_id_21">französischen</rs> Oper erinnert.</p>
-  <p> <lb facs="#facs_3_region_1666614757324_873l18" n="N018"/>Um einige Einzelheiten zu nennen, heben wir aus dem
+      <lb facs="#facs_3_region_1666614757324_873l17" n="N017"/>sehr an das Raffinement der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Oper erinnert.
+            </p><p> 
+      <lb facs="#facs_3_region_1666614757324_873l18" n="N018"/>Um einige Einzelheiten zu nennen, heben wir aus dem
       <lb facs="#facs_3_region_1666614757324_873l19" n="N019"/>1. Act <rs type="person" ref="#hsl_person_id_650">Robert</rs>ʼs Erzählung „Durch ferne Lande“ hervor, deren
       <lb facs="#facs_3_region_1666614757324_873l20" n="N020"/>lebhafte und anmuthig beginnende Melodie leider von dem er
       <lb facs="#facs_3_region_1666614757324_873l21" n="N021" break="no"/>zählenden Theil zu schnell und anhaltend unterbrochen wird.
@@ -1272,9 +1274,9 @@
       <lb facs="#facs_3_region_1666614757324_873l28" n="N028" break="no"/>cini</rs>ʼs, deren gequälte und doch banale Melodie à la Bertram
       <lb facs="#facs_3_region_1666614757324_873l29" n="N029"/>wir ganz verwerfen müssen. Den beiden Duetten (<rs type="person" ref="#hsl_person_id_467">Concini</rs> und
       <lb facs="#facs_3_region_1666614757324_873l30" n="N030"/><rs type="person" ref="#hsl_person_id_624">Margarethe</rs>, <rs type="person" ref="#hsl_person_id_650">Robert</rs> und <rs type="person" ref="#hsl_person_id_623">Vitry</rs>) ist Feuer und Leidenschaft
-      <lb facs="#facs_3_region_1666614757324_873l31" n="N031"/>nicht abzusprechen. Das Quartett in E („Des Sieges Stunde</p>
-  <cb n="10"/>
-   <p prev="true">
+      <lb facs="#facs_3_region_1666614757324_873l31" n="N031"/>nicht abzusprechen. Das Quartett in E („Des Sieges Stunde<space quantity="1"/></p>
+            <cb n="8"/>
+            <p prev="true">
       <lb facs="#facs_3_region_1666614774315_876l1" n="N001"/>gut geschlagen“) ist gut geformt, einheitlicher und übersichtli
       <lb facs="#facs_3_region_1666614774315_876l2" n="N002" break="no"/>cher als die meisten übrigen Ensembles — wäre nur die Be
       <lb facs="#facs_3_region_1666614774315_876l3" n="N003" break="no"/>gleitung etwas maßvoller! Der Einzugsmarsch hat ein hüb
@@ -1295,8 +1297,9 @@
       <lb facs="#facs_3_region_1666614774315_876l18" n="N018" break="no"/>migen Viertelnoten-Rhythmus und Harfen-Accorden (nicht ohne
       <lb facs="#facs_3_region_1666614774315_876l19" n="N019"/>Einwirkung der „<rs type="bibl" ref="#hsl_work_id_113">Propheten</rs>-Hymne“ erdacht), scheint vornehm
       <lb facs="#facs_3_region_1666614774315_876l20" n="N020" break="no"/>lich auf populäre Wirkung berechnet, die wir dem Stück, so
-      <lb facs="#facs_3_region_1666614774315_876l21" n="N021"/>wenig wir davon erbaut sind, nicht absprechen wollen.</p>
- <p>  <lb facs="#facs_3_region_1666614774315_876l22" n="N022"/>Alles in Allem ist „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ weder das Werk eines fer
+      <lb facs="#facs_3_region_1666614774315_876l21" n="N021"/>wenig wir davon erbaut sind, nicht absprechen wollen.
+            </p><p>  
+      <lb facs="#facs_3_region_1666614774315_876l22" n="N022"/>Alles in Allem ist „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ weder das Werk eines fer
       <lb facs="#facs_3_region_1666614774315_876l23" n="N023" break="no"/>tigen Meisters noch einer genialen Schöpferkraft, aber er ist
       <lb facs="#facs_3_region_1666614774315_876l24" n="N024"/>ein sehr achtbarer Anfang eines für dieses Fach begabten, mit
       <lb facs="#facs_3_region_1666614774315_876l25" n="N025"/>Geschick und Kenntniß ausgerüsteten, redlich strebenden jungen
@@ -1305,9 +1308,9 @@
       <lb facs="#facs_3_region_1666614774315_876l28" n="N028" break="no"/>oper wird er mehr gelernt haben, als in fünf Jahren theoreti
       <lb facs="#facs_3_region_1666614774315_876l29" n="N029" break="no"/>schen Studiums. Wir hoffen überdies, daß nicht blos seine prak
       <lb facs="#facs_3_region_1666614774315_876l30" n="N030" break="no"/>tische Gewandtheit und Erfahrung, sondern auch die schöpferische
-      <lb facs="#facs_3_region_1666614774315_876l31" n="N031"/>Kraft seines musikalischen Talentes sich in seinen nächsten</p>
-  <cb n="11"/>
-   <p prev="true">
+      <lb facs="#facs_3_region_1666614774315_876l31" n="N031"/>Kraft seines musikalischen Talentes sich in seinen nächsten<space quantity="1"/></p>
+            <cb n="9"/>
+            <p prev="true">
       <lb facs="#facs_3_region_1666614793886_879l1" n="N001"/>Werken noch bedeutender entfalten werde. In der Musik hängt
       <lb facs="#facs_3_region_1666614793886_879l2" n="N002"/>Technisches und Geistiges, Kern und Fülle sehr innig zusam
       <lb facs="#facs_3_region_1666614793886_879l3" n="N003" break="no"/>men. Indem Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_166">Löwe</rs></hi> künftig ohne Zweifel maßvoller in
@@ -1317,14 +1320,20 @@
       <lb facs="#facs_3_region_1666614793886_879l7" n="N007"/><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> und <rs type="person" ref="#hsl_person_id_106">Halevy</rs> emancipiren und den Muth haben, auf
       <lb facs="#facs_3_region_1666614793886_879l8" n="N008"/>eigenen Füßen zu stehen. Eine schönere Aufmunterung konnte
       <lb facs="#facs_3_region_1666614793886_879l9" n="N009"/>dem jungen Künstler kaum werden, als die beifällige Auf
-      <lb facs="#facs_3_region_1666614793886_879l10" n="N010" break="no"/>nahme seines „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. *) Viele Musikstücke wurden
+      <lb facs="#facs_3_region_1666614793886_879l10" n="N010" break="no"/>nahme seines „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. 
+                  <note type="footnote" n="*)">
+                        <lb facs="#facs_3_region_1666614793886_879l29" n="N029"/><rs type="person" ref="#hsl_person_id_166">Löwe</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ wurde auch bereits in <rs type="place" ref="#hsl_place_id_45">Prag</rs> mit vielem
+                  <lb facs="#facs_3_region_1666614793886_879l30" n="N030"/>Beifall gegeben und von der dortigen Kritik mit großer Achtung be
+                  <lb facs="#facs_3_region_1666614793886_879l31" n="N031" break="no"/>handelt.</note>
+                  Viele Musikstücke wurden
       <lb facs="#facs_3_region_1666614793886_879l11" n="N011"/>durch anhaltenden Beifall ausgezeichnet und der Componist
-      <lb facs="#facs_3_region_1666614793886_879l12" n="N012"/>selbst durch wiederholten Hervorruf nach jedem Acte.</p>
-   <p><lb facs="#facs_3_region_1666614793886_879l13" n="N013"/>Um die Aufführung machte sich in erster Linie Herr
+      <lb facs="#facs_3_region_1666614793886_879l12" n="N012"/>selbst durch wiederholten Hervorruf nach jedem Acte.
+            </p><p>
+      <lb facs="#facs_3_region_1666614793886_879l13" n="N013"/>Um die Aufführung machte sich in erster Linie Herr
       <lb facs="#facs_3_region_1666614793886_879l14" n="N014"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> verdient, der die Titelrolle mit siegreicher Frische und
       <lb facs="#facs_3_region_1666614793886_879l15" n="N015"/>Energie durchführte. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_318">Wachtel</rs></hi> hatte keinen glücklichen
       <lb facs="#facs_3_region_1666614793886_879l16" n="N016"/>Abend, er übernahm sich und distonirte häufig. (Ueberhaupt
-      <lb facs="#facs_3_region_1666614793886_879l17" n="N017"/>war das Distoniren an diesem Abend epidemisch.) <rs type="person" ref="#hsl_person_id_624">Margarethe</rs>
+      <lb facs="#facs_3_region_1666614793886_879l17" n="N017"/>war das Distoniren an diesem Abend epidemisch.) <rs type="person" ref="#hsl_person_id_624">Margarethe</rs><space quantity="1"/>
       <lb facs="#facs_3_region_1666614793886_879l18" n="N018"/>ist die beste Leistung, die wir, namentlich in dramatischer Hin
       <lb facs="#facs_3_region_1666614793886_879l19" n="N019" break="no"/>sicht, von Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_57">Destinn</rs></hi> gesehen. Ihr Gesang ließ zwar
       <lb facs="#facs_3_region_1666614793886_879l20" n="N020"/>hier wie überall an künstlerischer Schulung sehr viel zu wün
@@ -1334,11 +1343,9 @@
       <lb facs="#facs_3_region_1666614793886_879l24" n="N024"/>Genugthuung hervorheben, bei aller Leidenschaftlichkeit weit
       <lb facs="#facs_3_region_1666614793886_879l25" n="N025"/>maßvoller und edler als gewöhnlich; ihr nicht historisches, aber
       <lb facs="#facs_3_region_1666614793886_879l26" n="N026"/>geschmackvolles Costüm trug sie mit vielem Vortheil. Die Herren
-      <lb facs="#facs_3_region_1666614793886_879l27" n="N027"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_184">Mayerhofer</rs></hi><hi rendition="#em"><rs type="person" ref="#hsl_person_id_130">Hrabanek</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_155">Lay</rs></hi> wirkten verdienstlich
-      <lb facs="#facs_3_region_1666614793886_879l28" n="N028"/>zum guten Erfolge des Ganzen mit. Das Haus war überfüllt.</p>
-   <p><lb facs="#facs_3_region_1666614793886_879l29" n="N029"/>*) <rs type="person" ref="#hsl_person_id_166">Löwe</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_247">Concini</rs>“ wurde auch bereits in Prag mit vielem
-      <lb facs="#facs_3_region_1666614793886_879l30" n="N030"/>Beifall gegeben und von der dortigen Kritik mit großer Achtung be
-      <lb facs="#facs_3_region_1666614793886_879l31" n="N031" break="no"/>handelt.</p>
+      <lb facs="#facs_3_region_1666614793886_879l27" n="N027"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_184">Mayerhofer</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_130">Hrabanek</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_155">Lay</rs></hi> wirkten verdienstlich
+      <lb facs="#facs_3_region_1666614793886_879l28" n="N028"/>zum guten Erfolge des Ganzen mit. Das Haus war überfüllt.
+            </p>
          </div>
       </body>
    </text>

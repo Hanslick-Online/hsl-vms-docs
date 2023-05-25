@@ -136,8 +136,8 @@
             <funder xmlns="http://www.tei-c.org/ns/1.0">
                 <name>FWF Der Wissenschaftsfond.</name>
                 <address>
-                    <street>Sensengasse 1</street>
-                    <postCode>1090 Wien</postCode>
+                    <street>Georg-Coch-Platz 2</street>
+                    <postCode>1010 Wien</postCode>
                     <placeName>
                         <country>Österreich</country>
                         <settlement>Wien</settlement>
