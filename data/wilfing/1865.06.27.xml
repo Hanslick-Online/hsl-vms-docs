@@ -109,6 +109,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change who="kbamer" when="2023-05-18">personen, daten, werke, orte ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -774,84 +775,76 @@
             <p/>
             <cb n="3"/>
             <p>
-               <lb facs="#facs_1_region_1672682330772_23_tl_1" n="N001"/>Feuilleton.
-      <lb facs="#facs_1_region_1672682330772_23_tl_2" n="N002"/>Musikalische Plauderei.
+              
+      <lb facs="#facs_1_region_1672682330772_23_tl_2" n="N002"/><head type="h1">Musikalische Plauderei.</head>
       <lb facs="#facs_1_region_1672682330772_23_tl_3" n="N003"/>Ed. H. Wir hätten keine Musik im Sommer? Welche
-      <lb facs="#facs_1_region_1672682330772_23_tl_4" n="N004"/>Täuschung. Allerdings keine Musik, über die man schrei¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_5" n="N005"/>ben muß, keine „<rs type="bibl">Afrikanerin</rs>“ oder „<rs type="bibl">Isolde</rs>“, aber Musik,
-      <lb facs="#facs_1_region_1672682330772_23_tl_6" n="N006"/>die man hören muß, mag man wollen oder nicht. Sie wu¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_7" n="N007"/>chert im Sommer wie ein giftiges Unkraut in Südamerika.
+      <lb facs="#facs_1_region_1672682330772_23_tl_4" n="N004"/>Täuschung. Allerdings keine Musik, über die man schrei
+      <lb facs="#facs_1_region_1672682330772_23_tl_5" n="N005" break="no"/>ben muß, keine „<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ oder „<rs type="bibl" ref="#hsl_work_id_417">Isolde</rs>“, aber Musik,
+      <lb facs="#facs_1_region_1672682330772_23_tl_6" n="N006"/>die man hören muß, mag man wollen oder nicht. Sie wu
+      <lb facs="#facs_1_region_1672682330772_23_tl_7" n="N007" break="no"/>chert im Sommer wie ein giftiges Unkraut in <rs type="place" ref="#hsl_place_id_84">Südamerika</rs>.
       <lb facs="#facs_1_region_1672682330772_23_tl_8" n="N008"/>O Leierkasten! Ihr privilegirten Peiniger des menschlichen
       <lb facs="#facs_1_region_1672682330772_23_tl_9" n="N009"/>Gehörs, ihr gesetzlich befugten Quäler aller Ruhebedürftigen
       <lb facs="#facs_1_region_1672682330772_23_tl_10" n="N010"/>und Kranken, Aller, die da studiren und geistig arbeiten—
       <lb facs="#facs_1_region_1672682330772_23_tl_11" n="N011"/>wie lange noch werdet ihr uns vom Morgen bis zur Nacht
-      <lb facs="#facs_1_region_1672682330772_23_tl_12" n="N012"/>mißhandeln dürfen? Zehn Jahre sind es, seit wir, und An¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_13" n="N013"/>dere vor uns, das letztemal mit Spott und bitterem Ernst
+      <lb facs="#facs_1_region_1672682330772_23_tl_12" n="N012"/>mißhandeln dürfen? Zehn Jahre sind es, seit wir, und An
+      <lb facs="#facs_1_region_1672682330772_23_tl_13" n="N013" break="no"/>dere vor uns, das letztemal mit Spott und bitterem Ernst
       <lb facs="#facs_1_region_1672682330772_23_tl_14" n="N014"/>gegen diese einer Residenzstadt so unwürdige Stadtplage
       <lb facs="#facs_1_region_1672682330772_23_tl_15" n="N015"/>loszogen. Wir thaten es ziemlich hoffnungslos, denn, wie
-      <lb facs="#facs_1_region_1672682330772_23_tl_16" n="N016"/>vorherzusehen, wehrten sich die Ritter jedes durch Alter „eh¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_17" n="N017"/>würdig“ gewordenen Scandals für ihre lieben Drehorgeln,
-      <lb facs="#facs_1_region_1672682330772_23_tl_18" n="N018"/>und ereiferten sich unsere Humanitätsbolde gegen die Abstel¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_19" n="N019"/>lung einer Ohrenqual, welche wenigstens 10 bis 12 Fami¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_20" n="N020"/>lien zugleich peinigt, aber 4 bis 5 Köchinnen amüsirt. Daß
-      <lb facs="#facs_1_region_1672682330772_23_tl_21" n="N021"/>unsere lange zurückgedrängten Seufzer jetzt wieder Luft be¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_22" n="N022"/>kommen, daran ist niemand Anderer Schuld als der Statt¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_23" n="N023"/>halter von <rs type="place">Böhmen</rs>. Dieser einsichtsvolle Menschenfreund
+      <lb facs="#facs_1_region_1672682330772_23_tl_16" n="N016"/>vorherzusehen, wehrten sich die Ritter jedes durch Alter „eh
+      <lb facs="#facs_1_region_1672682330772_23_tl_17" n="N017" break="no"/>würdig“ gewordenen Scandals für ihre lieben Drehorgeln,
+      <lb facs="#facs_1_region_1672682330772_23_tl_18" n="N018"/>und ereiferten sich unsere Humanitätsbolde gegen die Abstel
+      <lb facs="#facs_1_region_1672682330772_23_tl_19" n="N019" break="no"/>lung einer Ohrenqual, welche wenigstens 10 bis 12 Fami
+      <lb facs="#facs_1_region_1672682330772_23_tl_20" n="N020" break="no"/>lien zugleich peinigt, aber 4 bis 5 Köchinnen amüsirt. Daß
+      <lb facs="#facs_1_region_1672682330772_23_tl_21" n="N021"/>unsere lange zurückgedrängten Seufzer jetzt wieder Luft be
+      <lb facs="#facs_1_region_1672682330772_23_tl_22" n="N022" break="no"/>kommen, daran ist niemand Anderer Schuld als der Statt
+      <lb facs="#facs_1_region_1672682330772_23_tl_23" n="N023" break="no"/>halter von <rs type="place" ref="#hsl_place_id_1">Böhmen</rs>. Dieser einsichtsvolle Menschenfreund
       <lb facs="#facs_1_region_1672682330772_23_tl_24" n="N024"/>(„ein zweiter Daniel!“) soll nämlich beschlossen haben, die
-      <lb facs="#facs_1_region_1672682330772_23_tl_26" n="N025"/>Zahl der orgelnden Gehörsmörder in <rs type="place">Prag</rs> zu vermindern
+      <lb facs="#facs_1_region_1672682330772_23_tl_26" n="N025"/>Zahl der orgelnden Gehörsmörder in <rs type="place" ref="#hsl_place_id_45">Prag</rs> zu vermindern
       <lb facs="#facs_1_region_1672682330772_23_tl_27" n="N026"/>und mit Schonung der bestehenden „Rechte“ keine weiteren
       <lb facs="#facs_1_region_1672682330772_23_tl_29" n="N027"/>zu ertheilen. So soll dieses mittelalterliche Institut allmälig
-      <lb facs="#facs_1_region_1672682330772_23_tl_30" n="N028"/>einfrieren. <rs type="place">Böhmen</rs>, du Conservatorium von <rs type="place">Europa</rs>, möge
+      <lb facs="#facs_1_region_1672682330772_23_tl_30" n="N028"/>einfrieren. <rs type="place" ref="#hsl_place_id_1">Böhmen</rs>, du Conservatorium von <rs type="place" ref="#hsl_place_id_19">Europa</rs>, möge
       <lb facs="#facs_1_region_1672682330772_23_tl_31" n="N029"/>dein Beispiel fruchtbar sein! Das Land, welches unsere
-      <lb facs="#facs_1_region_1672682330772_23_tl_32" n="N030"/>Musik und unsere Musikantenschaar seit jeher so reichlich ver¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_33" n="N031"/>mehrte, würde sich um uns kaum weniger verdient
+      <lb facs="#facs_1_region_1672682330772_23_tl_32" n="N030"/>Musik und unsere Musikantenschaar seit jeher so reichlich ver
+      <lb facs="#facs_1_region_1672682330772_23_tl_33" n="N031" break="no"/>mehrte, würde sich um uns kaum weniger verdient
       <lb facs="#facs_1_region_1672682330772_23_tl_34" n="N032"/>machen, gäbe es diesmal das Signal zur <hi rendition="#em">Verminderung</hi>
-               <lb facs="#facs_1_region_1672682330772_23_tl_35" n="N033"/>unserer musikalischen Zwangsgenüsse.
-      <lb facs="#facs_1_region_1672682330772_23_tl_36" n="N034"/>Ich weiß nicht, ob die Quantität unserer <rs type="place">Wiener</rs> Dreh¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_37" n="N035"/>orgeln sich von Jahr zu Jahr vermehrt, ihre Qualität aber
-      <lb facs="#facs_1_region_1672682330772_23_tl_38" n="N036"/>wird immer gefährlicher. Was waren jene ehemaligen klei¬
-      <lb facs="#facs_1_region_1672682330772_23_tl_39" n="N037"/>nen Flötenwerke, jene tragbaren Vorrathskäschen alter <rs type="person" continued="true">
-                  <rs type="bibl">Lan¬ </rs>
-               </rs>
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1672682339625_26_tl_1" n="N001"/>
-               <rs type="bibl">
-                  <rs type="person" continued="true">ner</rs>ʼscher Walzer</rs> gegen die jetzigen mauererschütternden Dreh¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_2" n="N002"/>kolosse, die auf vier Rädern in Begleitung eines Directors
-      <lb facs="#facs_1_region_1672682339625_26_tl_3" n="N003"/>und mehrerer Regisseure ihren musikalischen Großhandel trei¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_4" n="N004"/>ben! Die vormärzlichen Leierkästen verhielten sich zu den 
+      <lb facs="#facs_1_region_1672682330772_23_tl_35" n="N033"/>unserer musikalischen Zwangsgenüsse.</p>
+   <p><lb facs="#facs_1_region_1672682330772_23_tl_36" n="N034"/>Ich weiß nicht, ob die Quantität unserer <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Dreh
+      <lb facs="#facs_1_region_1672682330772_23_tl_37" n="N035" break="no"/>orgeln sich von Jahr zu Jahr vermehrt, ihre Qualität aber
+      <lb facs="#facs_1_region_1672682330772_23_tl_38" n="N036"/>wird immer gefährlicher. Was waren jene ehemaligen klei
+      <lb facs="#facs_1_region_1672682330772_23_tl_39" n="N037" break="no"/>nen Flötenwerke, jene tragbaren Vorrathskäschen alter <rs type="person" ref="#hsl_person_id_724">Lan </rs>
+   </p>
+   <cb n="4"/>
+    <p prev="true">
+      <lb facs="#facs_1_region_1672682339625_26_tl_1" n="N001" break="no"/><rs type="person" ref="#hsl_person_id_724">ner</rs>ʼscher Walzer gegen die jetzigen mauererschütternden Dreh
+      <lb facs="#facs_1_region_1672682339625_26_tl_2" n="N002" break="no"/>kolosse, die auf vier Rädern in Begleitung eines Directors
+      <lb facs="#facs_1_region_1672682339625_26_tl_3" n="N003"/>und mehrerer Regisseure ihren musikalischen Großhandel trei
+      <lb facs="#facs_1_region_1672682339625_26_tl_4" n="N004" break="no"/>ben! Die vormärzlichen Leierkästen verhielten sich zu den 
       <lb facs="#facs_1_region_1672682339625_26_tl_5" n="N005"/>„vervollkommten“ von heute, wie Stubenfliegen zu giftige
       <lb facs="#facs_1_region_1672682339625_26_tl_6" n="N006"/>Scorpionen. Ein erschütterndes Klaggeschrei bringt plötzlich
       <lb facs="#facs_1_region_1672682339625_26_tl_7" n="N007"/>wie ein Schwert in mein Ohr. Es ist der Sturm aus der 
-      <lb facs="#facs_1_region_1672682339625_26_tl_9" n="N008"/>Wilhelm-Tell-Ouverture, den ein sehr „vervollkommter“
-      <lb facs="#facs_1_region_1672682339625_26_tl_10" n="N009"/>Leierkasten mit riesigem „vollem Werk“ und sechs Trompe¬
-      <lb facs="#facs_1_line_1672685182730_365" n="N010"/>ten im Leib vor meinem Fenster andreht. Ich eile, das
-      <lb facs="#facs_1_region_1672682339625_26_tl_13" n="N011"/>Fenster zu schließen — zweimal täglich erscheint diese musi¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_14" n="N012"/>kalische Guillotine mit ihrem <rs type="bibl">Tell-Sturm</rs>, ihrer <rs type="bibl">Don-Juan-</rs>
-               <lb facs="#facs_1_region_1672682339625_26_tl_15" n="N013"/>
-               <rs type="bibl">Ouverture</rs>, ihrem <rs type="bibl">Tannhäuser-Marsch</rs>! Ich kenne das
-      <lb facs="#facs_1_region_1672682339625_26_tl_16" n="N014"/>wüste, alte Weib, das mit gleichgiltiger Bulldoggmiene fort¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_17" n="N015"/>orgelt, während der „Director“, rechts und links die Kappe
+      <lb facs="#facs_1_region_1672682339625_26_tl_9" n="N008"/><rs type="bibl" ref="#hsl_work_id_687">Wilhelm-Tell-Ouverture</rs>, den ein sehr „vervollkommter“
+      <lb facs="#facs_1_region_1672682339625_26_tl_10" n="N009"/>Leierkasten mit riesigem „vollem Werk“ und sechs Trompe
+      <lb facs="#facs_1_line_1672685182730_365" n="N010" break="no"/>ten im Leib vor meinem Fenster andreht. Ich eile, das
+      <lb facs="#facs_1_region_1672682339625_26_tl_13" n="N011"/>Fenster zu schließen — zweimal täglich erscheint diese musi
+      <lb facs="#facs_1_region_1672682339625_26_tl_14" n="N012" break="no"/>kalische Guillotine mit ihrem <rs type="bibl" ref="#hsl_work_id_687">Tell-Sturm</rs>, ihrer <rs type="bibl" ref="#hsl_work_id_174">Don-Juan-
+      <lb facs="#facs_1_region_1672682339625_26_tl_15" n="N013"/>Ouverture</rs>, ihrem <rs type="bibl" ref="#hsl_work_id_426">Tannhäuser-Marsch</rs>! Ich kenne das
+      <lb facs="#facs_1_region_1672682339625_26_tl_16" n="N014"/>wüste, alte Weib, das mit gleichgiltiger Bulldoggmiene fort
+      <lb facs="#facs_1_region_1672682339625_26_tl_17" n="N015" break="no"/>orgelt, während der „Director“, rechts und links die Kappe
       <lb facs="#facs_1_region_1672682339625_26_tl_18" n="N016"/>ziehend, nach allen Fenstern hinauf begehrende Bücklinge
-      <lb facs="#facs_1_region_1672682339625_26_tl_19" n="N017"/>schneidet! Wenn, wie zu erwarten steht, die Vervollkomm¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_20" n="N018"/>nung dieser Torturwerkzeuge so weit gediehen sein wird, daß
-      <lb facs="#facs_1_region_1672682339625_26_tl_21" n="N019"/>sie uns das <rs type="bibl">
-                  <rs type="person">Mozart</rs>ʼsche Requiem</rs> und <rs type="bibl">
-                  <rs type="person">Beethoven</rs>ʼs C-moll-</rs>
-               <lb facs="#facs_1_region_1672682339625_26_tl_22" n="N020"/>
-               <rs type="bibl">Symphonie</rs> ins Haus bringen, dann wird jeder Mensch von 
-      <lb facs="#facs_1_region_1672682339625_26_tl_23" n="N021"/>einigem Gehör und Ehrgefühl auswandern müssen.
-      <lb facs="#facs_1_region_1672682339625_26_tl_24" n="N022"/>Will und kann man die Leierkästen nicht geradezu auf¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_25" n="N023"/>heben, so möge man sie wenigstens in der inneren Stadt
+      <lb facs="#facs_1_region_1672682339625_26_tl_19" n="N017"/>schneidet! Wenn, wie zu erwarten steht, die Vervollkomm
+      <lb facs="#facs_1_region_1672682339625_26_tl_20" n="N018" break="no"/>nung dieser Torturwerkzeuge so weit gediehen sein wird, daß
+      <lb facs="#facs_1_region_1672682339625_26_tl_21" n="N019"/>sie uns das <rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼsche <rs type="bibl" ref="#hsl_work_id_427">Requiem</rs> und <rs type="person" ref="#hsl_person_id_25">Beethovenʼs</rs> <rs type="bibl" ref="#hsl_work_id_278">C-moll-
+      <lb facs="#facs_1_region_1672682339625_26_tl_22" n="N020"/>Symphonie</rs> ins Haus bringen, dann wird jeder Mensch von 
+      <lb facs="#facs_1_region_1672682339625_26_tl_23" n="N021"/>einigem Gehör und Ehrgefühl auswandern müssen.</p>
+   <p><lb facs="#facs_1_region_1672682339625_26_tl_24" n="N022"/>Will und kann man die Leierkästen nicht geradezu auf
+      <lb facs="#facs_1_region_1672682339625_26_tl_25" n="N023" break="no"/>heben, so möge man sie wenigstens in der inneren Stadt
       <lb facs="#facs_1_region_1672682339625_26_tl_26" n="N024"/>verbieten oder außerordentlich beschränken. Hier bringt es
       <lb facs="#facs_1_region_1672682339625_26_tl_27" n="N025"/>die Enge der Straßen mit sich, daß man immer mehrere
-      <lb facs="#facs_1_region_1672682339625_26_tl_28" n="N026"/>Drehorgeln, ein halb Dutzend Claviere und verschiedene Ge¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_29" n="N027"/>sangsübungen <hi rendition="#em">zugleich</hi> hört. Es ist thatsächlich so weit ge¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_30" n="N028"/>kommen, daß man in der innern Stadt den Frühling und
-      <lb facs="#facs_1_region_1672682339625_26_tl_31" n="N029"/>Sommer bei festverschlossenen Fenstern zubringen muß. Leier¬
-      <lb facs="#facs_1_region_1672682339625_26_tl_32" n="N030"/>kästen sollten im engeren Sinn des Wortes eine <hi rendition="#em">Land</hi>plage
+      <lb facs="#facs_1_region_1672682339625_26_tl_28" n="N026"/>Drehorgeln, ein halb Dutzend Claviere und verschiedene Ge
+      <lb facs="#facs_1_region_1672682339625_26_tl_29" n="N027" break="no"/>sangsübungen <hi rendition="#em">zugleich</hi> hört. Es ist thatsächlich so weit ge
+      <lb facs="#facs_1_region_1672682339625_26_tl_30" n="N028" break="no"/>kommen, daß man in der innern Stadt den Frühling und
+      <lb facs="#facs_1_region_1672682339625_26_tl_31" n="N029"/>Sommer bei festverschlossenen Fenstern zubringen muß. Leier
+      <lb facs="#facs_1_region_1672682339625_26_tl_32" n="N030" break="no"/>kästen sollten im engeren Sinn des Wortes eine <hi rendition="#em">Land</hi>plage
       <lb facs="#facs_1_region_1672682339625_26_tl_33" n="N031"/>sein. Wie auf flachem Lande das Hausiren überhaupt einen
       <lb facs="#facs_1_region_1672682339625_26_tl_34" n="N032"/>Sinn hat, so auch das Hausiren mit Musik. Dorfbewohnern,
       <lb facs="#facs_1_region_1672682339625_26_tl_35" n="N033"/>die nur des Sonntags Musik hören, mag es willkommen
@@ -860,12 +853,12 @@
       <lb facs="#facs_1_region_1672682339625_26_tl_38" n="N036"/>Da jubeln die Kinder, da tanzen die Mägde und ich weiß
       <lb facs="#facs_1_region_1672682339625_26_tl_39" n="N037"/>nichts Wichtiges, was dadurch gestört würde. Anders im
       <lb facs="#facs_1_region_1672682339625_26_tl_40" n="N038"/>Innern einer Residenzstadt. Hier quillt, ohnehin von Früh
-      <lb facs="#facs_1_line_1672687856514_409" n="N039"/>bis in die späte Nacht Musik aus allen Thüren, allen Fen¬</p>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_1_region_1672682352440_29_tl_1" n="N001"/>stern. Aus jeder Kneipe, jedem öffentlichen Garten ertönt
-      <lb facs="#facs_1_region_1672682352440_29_tl_2" n="N002"/>Abends Gesang und Musik, treffliche Militärbanden durch¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_3" n="N003"/>ziehen die Stadt, die häusliche Musik-Consumtion ist ins
+      <lb facs="#facs_1_line_1672687856514_409" n="N039"/>bis in die späte Nacht Musik aus allen Thüren, allen Fen</p>
+  <cb n="5"/>
+   <p prev="true">
+      <lb facs="#facs_1_region_1672682352440_29_tl_1" n="N001" break="no"/>stern. Aus jeder Kneipe, jedem öffentlichen Garten ertönt
+      <lb facs="#facs_1_region_1672682352440_29_tl_2" n="N002"/>Abends Gesang und Musik, treffliche Militärbanden durch
+      <lb facs="#facs_1_region_1672682352440_29_tl_3" n="N003" break="no"/>ziehen die Stadt, die häusliche Musik-Consumtion ist ins
       <lb facs="#facs_1_line_1672687959257_419" n="N004"/>Ungeheuerliche angewachsen. Und nun privilegiert man noch
       <lb facs="#facs_1_region_1672682352440_29_tl_4" n="N005"/>eine Unzahl ohrenmörderischer Drehorgeln, die nach Belieben
       <lb facs="#facs_1_region_1672682352440_29_tl_5" n="N006"/>zu zweien und dreien sich in einer engen Straße aufpflanzen
@@ -875,61 +868,51 @@
       <lb facs="#facs_1_region_1672682352440_29_tl_9" n="N010"/>wird, ist: daß diese Musikhausirer ja <hi rendition="#em">Erwerbsteuer</hi> zahlen.
       <lb facs="#facs_1_region_1672682352440_29_tl_10" n="N011"/>Desto schlimmer. Bettler fertigt man mit einem Almosen
       <lb facs="#facs_1_region_1672682352440_29_tl_11" n="N012"/>ab, oder nimmt keine Notiz von ihnen, falls man nicht will.
-      <lb facs="#facs_1_region_1672682352440_29_tl_12" n="N013"/>Wer kann aber von dem aufdringlichen Geheul der „vervoll¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_13" n="N014"/>kommten“ Leiermänner keine Notiz nehmen? Das sind <hi rendition="#em">be¬</hi>
-               <lb facs="#facs_1_region_1672682352440_29_tl_14" n="N015"/>
-               <hi rendition="#em">waffnete</hi> Bettler. Würde man Leute gegen Erlag einer
+      <lb facs="#facs_1_region_1672682352440_29_tl_12" n="N013"/>Wer kann aber von dem aufdringlichen Geheul der „vervoll
+      <lb facs="#facs_1_region_1672682352440_29_tl_13" n="N014" break="no"/>kommten“ Leiermänner keine Notiz nehmen? Das sind <hi rendition="#em">be
+      <lb facs="#facs_1_region_1672682352440_29_tl_14" n="N015" break="no"/>waffnete</hi> Bettler. Würde man Leute gegen Erlag einer
       <lb facs="#facs_1_region_1672682352440_29_tl_15" n="N016"/>Erwerbsteuer etwa berechtigen, Jeden, der ihnen begegnet, zu
-      <lb facs="#facs_1_region_1672682352440_29_tl_16" n="N017"/>kitzeln oder zu zwicken? Ich finde keinen erheblichen Unter¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_17" n="N018"/>schied zwischen diesem und dem wirklichen Privilegium der
+      <lb facs="#facs_1_region_1672682352440_29_tl_16" n="N017"/>kitzeln oder zu zwicken? Ich finde keinen erheblichen Unter
+      <lb facs="#facs_1_region_1672682352440_29_tl_17" n="N018" break="no"/>schied zwischen diesem und dem wirklichen Privilegium der
       <lb facs="#facs_1_region_1672682352440_29_tl_18" n="N019"/>Leierzunft, einer ganzen Residenzbevölkerung das (ohnehin
-      <lb facs="#facs_1_line_1672688196073_443" n="N020"/>so lärmgequälte) Gehör vollends zermatern zu dürfen.
-      <lb facs="#facs_1_region_1672682352440_29_tl_19" n="N021"/>Schreiber dieser Zeilen wohnt in einer Straße der in¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_20" n="N022"/>neren Stadt, welche als eine „ruhige und angenehme“ ge¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_21" n="N023"/>rühmt wird. Wol wäre sie ruhig und angenehm, hätte nicht
-      <lb facs="#facs_1_region_1672682352440_29_tl_22" n="N024"/>der Musikdämon sie zu einem seiner beliebtesten Stations¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_23" n="N025"/>plätze erkoren. Von den Leierkasten will ich nicht mehr reden,
+      <lb facs="#facs_1_line_1672688196073_443" n="N020"/>so lärmgequälte) Gehör vollends zermatern zu dürfen.</p>
+  <p> <lb facs="#facs_1_region_1672682352440_29_tl_19" n="N021"/>Schreiber dieser Zeilen wohnt in einer Straße der in
+      <lb facs="#facs_1_region_1672682352440_29_tl_20" n="N022" break="no"/>neren Stadt, welche als eine „ruhige und angenehme“ ge
+      <lb facs="#facs_1_region_1672682352440_29_tl_21" n="N023" break="no"/>rühmt wird. Wol wäre sie ruhig und angenehm, hätte nicht
+      <lb facs="#facs_1_region_1672682352440_29_tl_22" n="N024"/>der Musikdämon sie zu einem seiner beliebtesten Stations
+      <lb facs="#facs_1_region_1672682352440_29_tl_23" n="N025" break="no"/>plätze erkoren. Von den Leierkasten will ich nicht mehr reden,
       <lb facs="#facs_1_region_1672682352440_29_tl_24" n="N026"/>die sich hier regelmäßig ablösen, oder auch gleichzeitig auf
-      <lb facs="#facs_1_region_1672682352440_29_tl_25" n="N027"/>geringe Distanz “werkeln“, der eine die <rs type="bibl">Wilhelm-Tell-Ouver¬</rs>
-               <lb facs="#facs_1_region_1672682352440_29_tl_26" n="N028"/>
-               <rs type="bibl">ture</rs> mit Trompeten-Register, der andere den „<rs type="bibl">Trovatore</rs>“
+      <lb facs="#facs_1_region_1672682352440_29_tl_25" n="N027"/>geringe Distanz “werkeln“, der eine die <rs type="bibl" ref="#hsl_work_id_687">Wilhelm-Tell-Ouver
+      <lb facs="#facs_1_region_1672682352440_29_tl_26" n="N028" break="no"/>ture</rs> mit Trompeten-Register, der andere den „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“
       <lb facs="#facs_1_region_1672682352440_29_tl_27" n="N029"/>mit fortwährendem „Tremolo“ auch einer neuen sauberen
       <lb facs="#facs_1_region_1672682352440_29_tl_28" n="N030"/>„Vervollkommnung“. Vor ihnen ist keine Rettung, <hi rendition="#em">sie</hi> haben
-      <lb facs="#facs_1_region_1672682352440_29_tl_29" n="N031"/>kein Gefühl.
-      <lb facs="#facs_1_region_1672682352440_29_tl_30" n="N032"/>Aber mit den nicht steuerpflichtigen, vornehmeren Wer¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_31" n="N033"/>kelmännern im ersten und zweiten Stock meiner unglücklichen
+      <lb facs="#facs_1_region_1672682352440_29_tl_29" n="N031"/>kein Gefühl.</p>
+  <p> <lb facs="#facs_1_region_1672682352440_29_tl_30" n="N032"/>Aber mit den nicht steuerpflichtigen, vornehmeren Wer
+      <lb facs="#facs_1_region_1672682352440_29_tl_31" n="N033" break="no"/>kelmännern im ersten und zweiten Stock meiner unglücklichen
       <lb facs="#facs_1_region_1672682352440_29_tl_32" n="N034"/>Gasse möchte ich noch ein bescheidenes freundnachbarliches
-      <lb facs="#facs_1_region_1672682352440_29_tl_33" n="N035"/>Wort sprechen. Eigentlich sind es Werkefräulein, musika¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_34" n="N036"/>lische Satanellas, ohne Zweifel jung und hübsch, überaus ge¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_35" n="N037"/>bildet, aber von sehr weitem musikalischen Gewissen, libera¬
-      <lb facs="#facs_1_region_1672682352440_29_tl_36" n="N038"/>stem Gehör und stets verstimmtem Clavier. Während die
-      <lb facs="#facs_1_line_1672688577028_478" n="N039"/>Fräulein mir gegenüber den ganzen lieben Tag alle <rs type="person">
-                  <rs type="bibl">Offen¬</rs>
-               </rs>
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1672682379151_35_tl_1" n="N001"/>
-               <rs type="bibl">
-                  <rs type="person">bach</rs>ʼschen Operetten</rs>, <rs type="person">Beethoven</rs>ʼs „<rs type="bibl">Sonate pathétique</rs>“
-      <lb facs="#facs_2_region_1672682379151_35_tl_2" n="N002"/>
-               <rs type="bibl">
-                  <rs type="person">Strauß</rs>ʼsche Walzer</rs>, den <rs type="bibl">Bacio</rs> und die <rs type="bibl">Zampa-Ouverture</rs>
-               <lb facs="#facs_2_region_1672682379151_35_tl_3" n="N003"/>nacheinander abthun, blutet über ihnen ein junges Opfer
-      <lb facs="#facs_2_region_1672682379151_35_tl_4" n="N004"/>musikalischer Dressur unter langsamen Tonleitern und Uebun¬
-      <lb facs="#facs_2_region_1672682379151_35_tl_5" n="N005"/>gen. Rechts von mir begrüßt ein Fräulein mit (leider aus¬
-      <lb facs="#facs_2_region_1672682379151_35_tl_6" n="N006"/>giebiger) Sopranstimme den anbrechenden Morgen mit <rs type="place">italie¬</rs>
-               <lb facs="#facs_2_region_1672682379151_35_tl_7" n="N007"/>
-               <rs type="place">nischen</rs> Arien aus „<rs type="bibl">Lucia</rs>“ und „<rs type="bibl">Lucrezia</rs>". Es scheint ihr Appetit
-      <lb facs="#facs_2_region_1672682379151_35_tl_8" n="N008"/>zum Frühstück zu machen, und <rs type="person">Donizetti</rs> ist ja ohnedies schon
-      <lb facs="#facs_2_region_1672682379151_35_tl_9" n="N009"/>todt. Einige Häuser weiter wird das Familiensouper regel¬
-      <lb facs="#facs_2_region_1672682379151_35_tl_10" n="N010"/>mäßig durch vierhändiges Abschlachten von Ouverturen ein¬
-      <lb facs="#facs_2_region_1672682379151_35_tl_11" n="N011"/>geleitet. Ist gerade Mondschein, so stöhnt auch eine Phys¬
-      <lb facs="#facs_2_region_1672682379151_35_tl_12" n="N012"/>harmonika ihren Weltschmerz in dies liebliche Ensemble. Das
+      <lb facs="#facs_1_region_1672682352440_29_tl_33" n="N035"/>Wort sprechen. Eigentlich sind es Werkefräulein, musika
+      <lb facs="#facs_1_region_1672682352440_29_tl_34" n="N036" break="no"/>lische Satanellas, ohne Zweifel jung und hübsch, überaus ge
+      <lb facs="#facs_1_region_1672682352440_29_tl_35" n="N037" break="no"/>bildet, aber von sehr weitem musikalischen Gewissen, libera
+      <lb facs="#facs_1_region_1672682352440_29_tl_36" n="N038" break="no"/>stem Gehör und stets verstimmtem Clavier. Während die
+      <lb facs="#facs_1_line_1672688577028_478" n="N039"/>Fräulein mir gegenüber den ganzen lieben Tag alle <rs type="person" ref="#hsl_person_id_202">Offen</rs></p>
+  <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+   <cb n="6"/>
+    <p prev="true">
+      <lb facs="#facs_2_region_1672682379151_35_tl_1" n="N001" break="no"/><rs type="person" ref="#hsl_person_id_202">bach</rs>ʼschen Operetten, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_429">Sonate pathétique</rs>“
+      <lb facs="#facs_2_region_1672682379151_35_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_1152 #hsl_person_id_299 #hsl_person_id_1150 #hsl_person_id_1151">Strauß</rs>ʼsche Walzer, den <rs type="bibl" ref="#hsl_work_id_429">Bacio</rs> und die <rs type="bibl" ref="#hsl_work_id_28">Zampa-Ouverture</rs>
+      <lb facs="#facs_2_region_1672682379151_35_tl_3" n="N003"/>nacheinander abthun, blutet über ihnen ein junges Opfer
+      <lb facs="#facs_2_region_1672682379151_35_tl_4" n="N004"/>musikalischer Dressur unter langsamen Tonleitern und Uebun
+      <lb facs="#facs_2_region_1672682379151_35_tl_5" n="N005" break="no"/>gen. Rechts von mir begrüßt ein Fräulein mit (leider aus
+      <lb facs="#facs_2_region_1672682379151_35_tl_6" n="N006" break="no"/>giebiger) Sopranstimme den anbrechenden Morgen mit <rs type="place" ref="#hsl_place_id_28">italie
+      <lb facs="#facs_2_region_1672682379151_35_tl_7" n="N007" break="no"/>nisch</rs>en Arien aus „<rs type="bibl" ref="#hsl_work_id_95">Lucia</rs>“ und „<rs type="bibl" ref="#hsl_work_id_386">Lucrezia</rs>". Es scheint ihr Appetit
+      <lb facs="#facs_2_region_1672682379151_35_tl_8" n="N008"/>zum Frühstück zu machen, und <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> ist ja ohnedies schon
+      <lb facs="#facs_2_region_1672682379151_35_tl_9" n="N009"/>todt. Einige Häuser weiter wird das Familiensouper regel
+      <lb facs="#facs_2_region_1672682379151_35_tl_10" n="N010" break="no"/>mäßig durch vierhändiges Abschlachten von Ouverturen ein
+      <lb facs="#facs_2_region_1672682379151_35_tl_11" n="N011" break="no"/>geleitet. Ist gerade Mondschein, so stöhnt auch eine Phys
+      <lb facs="#facs_2_region_1672682379151_35_tl_12" n="N012" break="no"/>harmonika ihren Weltschmerz in dies liebliche Ensemble. Das
       <lb facs="#facs_2_region_1672682379151_35_tl_13" n="N013"/>wäre nun Alles recht und gut — bei geschlossenen Fenstern.
-      <lb facs="#facs_2_region_1672682379151_35_tl_14" n="N014"/>Aber warum kommt solchen gebildeten und kunstsinnigen Ge¬
-      <lb facs="#facs_2_region_1672682379151_35_tl_15" n="N015"/>müthern niemals, gar niemals der Gedanke, es könnten diese
+      <lb facs="#facs_2_region_1672682379151_35_tl_14" n="N014"/>Aber warum kommt solchen gebildeten und kunstsinnigen Ge
+      <lb facs="#facs_2_region_1672682379151_35_tl_15" n="N015" break="no"/>müthern niemals, gar niemals der Gedanke, es könnten diese
       <lb facs="#facs_2_region_1672682379151_35_tl_16" n="N016"/>außerordentlichen Musikproductionen andern Leuten in der 
       <lb facs="#facs_2_region_1672682379151_35_tl_17" n="N017"/>Straße doch vielleicht nicht immer erwünscht sein? Liegt nicht
       <lb facs="#facs_2_region_1672682379151_35_tl_18" n="N018"/>in diesem unaufhörlichen Musiciren bei offenen Fenstern
@@ -942,84 +925,67 @@
       <lb facs="#facs_2_region_1672682379151_35_tl_25" n="N025"/>Stock ein Adagio in C-moll spielt, während unten eine
       <lb facs="#facs_2_region_1672682379151_35_tl_26" n="N026"/>Drehorgel von 20 Pferdekraft ihn mit einem H-moll-Csardas
       <lb facs="#facs_2_region_1672682379151_35_tl_27" n="N027"/>übertönt und vis-à-vis aus gleichfalls weitgeöffnetem Fenster
-      <lb facs="#facs_2_region_1672682379151_35_tl_28" n="N028"/>eine kräftige Sängerin ihr Verlangen nach einem „<rs type="bibl">Bacio</rs>“
+      <lb facs="#facs_2_region_1672682379151_35_tl_28" n="N028"/>eine kräftige Sängerin ihr Verlangen nach einem „<rs type="bibl" ref="#hsl_work_id_383">Bacio</rs>“
       <lb facs="#facs_2_region_1672682379151_35_tl_29" n="N029"/>in Des-dur proclamirt? Meine werthen Fräulein, bedenken
-      <lb facs="#facs_2_region_1672682379151_35_tl_30" n="N030"/>Sie doch!
-      <lb facs="#facs_2_region_1672682379151_35_tl_31" n="N031"/>Am verflossenen Samstag Abend — es war obendrein
+      <lb facs="#facs_2_region_1672682379151_35_tl_30" n="N030"/>Sie doch!</p>
+  <p> <lb facs="#facs_2_region_1672682379151_35_tl_31" n="N031"/>Am verflossenen Samstag Abend — es war obendrein
       <lb facs="#facs_2_region_1672682379151_35_tl_32" n="N032"/>ein prachtvoller, warmer Abend — hörte ich ausnahmsweise
       <lb facs="#facs_2_region_1672682379151_35_tl_33" n="N033"/>keinen Ton in meiner Gasse. Das kam daher, weil ich mich
       <lb facs="#facs_2_region_1672682379151_35_tl_34" n="N034"/>zu Hietzing in der „Neuen Welt“ befand. Die Sommer-
-      <lb facs="#facs_2_region_1672682379151_35_tl_35" n="N035"/>Liedertafel, welche der <hi rendition="#em">Akademische Gesangverein</hi> alljähr¬
-      <lb facs="#facs_2_region_1672682379151_35_tl_36" n="N036"/>lich in dem schönen Garten der „Neuen Welt“ abhält, hat
-      <lb facs="#facs_2_region_1672682379151_35_tl_37" n="N037"/>sich bereits guten Ruf gemacht und übt eine bedeutende An¬
-      <lb facs="#facs_2_region_1672682379151_35_tl_38" n="N038"/>ziehungskraft auf das musikalische Wien. Es geht da immer
+      <lb facs="#facs_2_region_1672682379151_35_tl_35" n="N035"/>Liedertafel, welche der <hi rendition="#em">Akademische Gesangverein</hi> alljähr
+      <lb facs="#facs_2_region_1672682379151_35_tl_36" n="N036" break="no"/>lich in dem schönen Garten der „Neuen Welt“ abhält, hat
+      <lb facs="#facs_2_region_1672682379151_35_tl_37" n="N037"/>sich bereits guten Ruf gemacht und übt eine bedeutende An
+      <lb facs="#facs_2_region_1672682379151_35_tl_38" n="N038" break="no"/>ziehungskraft auf das musikalische Wien. Es geht da immer
       <lb facs="#facs_2_region_1672682379151_35_tl_39" n="N039"/>hübsch und lustig zu, die jungen, frischen Stimmen jubeln noch
       <lb facs="#facs_2_region_1672682379151_35_tl_40" n="N040"/>einmal so fröhlich durch die würzige Abendluft, und sind sie
-      <lb facs="#facs_2_region_1672682379151_35_tl_41" n="N041"/>ermüdet, so ergreift <hi rendition="#em">
-                  <rs type="person">Fahrbach</rs>
-               </hi>ʼs Militär-Capelle, in ihre
+      <lb facs="#facs_2_region_1672682379151_35_tl_41" n="N041"/>ermüdet, so ergreift <hi rendition="#em"><rs type="person" ref="#hsl_person_id_725">Fahrbachʼs</rs></hi> Militär-Capelle, in ihre
       <lb facs="#facs_2_region_1672682379151_35_tl_42" n="N042"/>Weise nicht minder beredt, das Wort. Die Production von
-      <lb facs="#facs_2_region_1672682379151_35_tl_43" n="N043"/>Samstag Abend, welche mehrere Novitäten, einige tiefgemüth¬</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1672682390233_38_tl_1" n="N001"/>liche kärntische Volkslieder, endlich Herrn <hi rendition="#em">
-                  <rs type="person">Weinwurm</rs>
-               </hi>ʼs
+      <lb facs="#facs_2_region_1672682379151_35_tl_43" n="N043"/>Samstag Abend, welche mehrere Novitäten, einige tiefgemüth</p>
+ <cb n="7"/>
+   <p prev="true">
+      <lb facs="#facs_2_region_1672682390233_38_tl_1" n="N001" break="no"/>liche kärntische Volkslieder, endlich Herrn <hi rendition="#em"><rs type="person" prev="#hsl_person_id_323">Weinwurm</rs>ʼs</hi>
       <lb facs="#facs_2_region_1672682390233_38_tl_2" n="N002"/>preisgekrönten Chor „Germania“ brachte, bewies neuerdings,
       <lb facs="#facs_2_region_1672682390233_38_tl_3" n="N003"/>daß der Akademische Gesangverein unter seinen zahlreichen
-      <lb facs="#facs_2_region_1672682390233_38_tl_4" n="N004"/>
-               <rs type="place">Wiener</rs> Rivalen sich die erste Stelle nach dem Männergesang-
-      <lb facs="#facs_2_region_1672682390233_38_tl_5" n="N005"/>Verein errungen hat.
-      <lb facs="#facs_2_region_1672682390233_38_tl_6" n="N006"/>Unter den Novitäten waren zwei Compositionen von
-      <lb facs="#facs_2_region_1672682390233_38_tl_7" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person">E. S. Engelsberg</rs>
-               </hi> die hervorragendsten. Das „<rs type="bibl">Ständ¬</rs>
-               <lb facs="#facs_2_region_1672682390233_38_tl_8" n="N008"/>
-               <rs type="bibl">chen</rs>“ ein kurzes achtzeitiges Gedicht von <rs type="person">Julius <hi rendition="#em">Mosen</hi>
-               </rs>, ist
+      <lb facs="#facs_2_region_1672682390233_38_tl_4" n="N004"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Rivalen sich die erste Stelle nach dem Männergesang-
+      <lb facs="#facs_2_region_1672682390233_38_tl_5" n="N005"/>Verein errungen hat.</p>
+  <p> <lb facs="#facs_2_region_1672682390233_38_tl_6" n="N006"/>Unter den Novitäten waren zwei Compositionen von
+      <lb facs="#facs_2_region_1672682390233_38_tl_7" n="N007"/><hi rendition="#em">E. S. <rs type="person" ref="#hsl_person_id_274">Engelsberg</rs></hi> die hervorragendsten. Das „<rs type="bibl" ref="#hsl_work_id_430">Ständ
+      <lb facs="#facs_2_region_1672682390233_38_tl_8" n="N008" break="no"/>chen</rs>“ ein kurzes achtzeiliges Gedicht von Julius <rs type="person" ref="#hsl_person_id_726"><hi rendition="#em">Mosen</hi></rs>, ist
       <lb facs="#facs_2_region_1672682390233_38_tl_9" n="N009"/>vom Componisten äußerst stimmungsvoll wiedergegeben: ein
-      <lb facs="#facs_2_region_1672682390233_38_tl_10" n="N010"/>Tenorsolo (von Herrn <rs type="person">Schultner</rs> zart vorgetragen) bewegt
-      <lb facs="#facs_2_region_1672682390233_38_tl_11" n="N011"/>sich in schöner, warm empfundener Melodie über leisen, breit¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_12" n="N012"/>gezogenen Accorden des Männerchors. Dadurch ist mit Ver¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_13" n="N013"/>meidung der abgenützten „Brummstimmen“ ein ähnlicher Effect
-      <lb facs="#facs_2_region_1672682390233_38_tl_14" n="N014"/>in edlerer Weise erzielt. Das „<rs type="bibl">Ständchen</rs>“ gefiel sehr, obwol
+      <lb facs="#facs_2_region_1672682390233_38_tl_10" n="N010"/>Tenorsolo (von Herrn <rs type="person" ref="#hsl_person_id_727">Schultner</rs> zart vorgetragen) bewegt
+      <lb facs="#facs_2_region_1672682390233_38_tl_11" n="N011"/>sich in schöner, warm empfundener Melodie über leisen, breit
+      <lb facs="#facs_2_region_1672682390233_38_tl_12" n="N012" break="no"/>gezogenen Accorden des Männerchors. Dadurch ist mit Ver
+      <lb facs="#facs_2_region_1672682390233_38_tl_13" n="N013" break="no"/>meidung der abgenützten „Brummstimmen“ ein ähnlicher Effect
+      <lb facs="#facs_2_region_1672682390233_38_tl_14" n="N014"/>in edlerer Weise erzielt. Das „<rs type="bibl" ref="#hsl_work_id_431">Ständchen</rs>“ gefiel sehr, obwol
       <lb facs="#facs_2_region_1672682390233_38_tl_15" n="N015"/>es für den Vortrag im Freien viel zu zart ist; wir hoffen
-      <lb facs="#facs_2_line_1672690183839_562" n="N016"/>es im nächsten Winter im Concertsaal zu hören. Viel um¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_16" n="N017"/>fangreicher und buntfärbiger war der zweite von <hi rendition="#em">
-                  <rs type="person" continued="true">Engels¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1672682390233_38_tl_17" n="N018"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">berg</rs>
-               </hi> gedichtete und componirte Chor „<rs type="bibl">Roman-Capitel</rs>
-               <lb facs="#facs_2_region_1672682390233_38_tl_18" n="N019"/>
-               <rs type="bibl">mit <hi rendition="#em">unpassenden</hi> Mottos</rs>“, eine Art gesungener Qua¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_19" n="N020"/>drille in sechs Sätzen. Die Antithesen der ironischen „Mot¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_20" n="N021"/>tos“, die im Zusammenhang mit den „<rs type="bibl">Roman-Capiteln</rs>“
-      <lb facs="#facs_2_region_1672682390233_38_tl_21" n="N022"/>selbst gesungen werden, sind witzig, allerdings auch etwas ge¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_22" n="N023"/>wagt und ohne gedrucktes Programm kaum verständlich.*) Um
-      <lb facs="#facs_2_region_1672682390233_38_tl_23" n="N024"/>so erfreulicher war der glänzende Erfolg der ebenso frisch er¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_24" n="N025"/>fundenen als effectvoll gearbeiteten Composition.
-      <lb facs="#facs_2_region_1672682390233_38_tl_25" n="N026"/>Das Publicum, das keinen der guten Witze und keine
+      <lb facs="#facs_2_line_1672690183839_562" n="N016"/>es im nächsten Winter im Concertsaal zu hören. Viel um
+      <lb facs="#facs_2_region_1672682390233_38_tl_16" n="N017" break="no"/>fangreicher und buntfärbiger war der zweite von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_274">Engels
+      <lb facs="#facs_2_region_1672682390233_38_tl_17" n="N018" break="no"/>berg</rs></hi> gedichtete und componirte Chor „<rs type="bibl" ref="#hsl_work_id_432">Roman-Capitel
+      <lb facs="#facs_2_region_1672682390233_38_tl_18" n="N019"/>mit <hi rendition="#em">unpassenden</hi> Mottos</rs>“, eine Art gesungener Qua
+      <lb facs="#facs_2_region_1672682390233_38_tl_19" n="N020" break="no"/>drille in sechs Sätzen. Die Antithesen der ironischen „Mot
+      <lb facs="#facs_2_region_1672682390233_38_tl_20" n="N021" break="no"/>tos“, die im Zusammenhang mit den „<rs type="bibl" ref="#hsl_work_id_432">Roman-Capiteln</rs>“
+      <lb facs="#facs_2_region_1672682390233_38_tl_21" n="N022"/>selbst gesungen werden, sind witzig, allerdings auch etwas ge
+      <lb facs="#facs_2_region_1672682390233_38_tl_22" n="N023" break="no"/>wagt und ohne gedrucktes Programm kaum verständlich.*) Um
+      <lb facs="#facs_2_region_1672682390233_38_tl_23" n="N024"/>so erfreulicher war der glänzende Erfolg der ebenso frisch er
+      <lb facs="#facs_2_region_1672682390233_38_tl_24" n="N025" break="no"/>fundenen als effectvoll gearbeiteten Composition.</p>
+   <p><lb facs="#facs_2_region_1672682390233_38_tl_25" n="N026"/>Das Publikum, das keinen der guten Witze und keine
       <lb facs="#facs_2_region_1672682390233_38_tl_26" n="N027"/>der allerliebsten Melodien sich entgehen ließ, verlangte die
-      <lb facs="#facs_2_region_1672682390233_38_tl_27" n="N028"/>Wiederholung der „<rs type="bibl">Roman-Capitel</rs>“, welche wie ihre Vorgän¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_29" n="N029"/>ger, die „<rs type="bibl">Ballscenen</rs>“, „<rs type="bibl">Narren- Quadrille</rs>“ und „<rs type="bibl">Doctor</rs>
-               <lb facs="#facs_2_region_1672682390233_38_tl_31" n="N030"/>
-               <rs type="bibl">Heine</rs>“, bei den deutschen Gesangvereinen bald heimisch wer¬
-      <lb facs="#facs_2_region_1672682390233_38_tl_32" n="N031"/>den dürften.
-      <lb facs="#facs_2_region_1672682390233_38_tl_33" n="N032"/>Das „<rs type="bibl">Jagdlied</rs>“ trägt folgendes Motto:
-      <lb facs="#facs_2_region_1672682390233_38_tl_34" n="N033"/>„Nichts Schönʼres an sonnigen Tagen,
-      <lb facs="#facs_2_region_1672682390233_38_tl_36" n="N034"/>Als muthig den Adler zu jagen!
-      <lb facs="#facs_2_line_1672683313107_211" n="N035"/>Mein letzter, ich glaubʼ,
-      <lb facs="#facs_2_region_1672682390233_38_tl_39" n="N036"/>War mit Eichenlaub
-      <lb facs="#facs_2_line_1672683357121_215" n="N037"/>Ein rother der vierzehnten Classe.“
-      <lb facs="#facs_2_region_1672682390233_38_tl_40" n="N038"/>*) So setzt Engelsberg vor ein zärtliches Liebeslied das Motto:
-      <lb facs="#facs_2_line_1672692651945_647" n="N039"/>(frei nach Darvin):
-      <lb facs="#facs_2_line_1672683431671_244" n="N040"/>„Diese Gans ist meine Schwester,
-      <lb facs="#facs_2_line_1672683439387_247" n="N041"/>Dieses Schaf ein Vetter dein,
-      <lb facs="#facs_2_line_1672683445207_250" n="N042"/>Und mit jenem Hirsch, mein Bester,
-      <lb facs="#facs_2_line_1672683452687_253" n="N043"/>Dürftest du verschwägert sein.“</p>
+      <lb facs="#facs_2_region_1672682390233_38_tl_27" n="N028"/>Wiederholung der „<rs type="bibl" ref="#hsl_work_id_432">Roman-Capitel</rs>“, welche wie ihre Vorgän
+      <lb facs="#facs_2_region_1672682390233_38_tl_29" n="N029" break="no"/>ger, die „<rs type="bibl" ref="#hsl_work_id_435">Ballscenen</rs>“, „<rs type="bibl" ref="#hsl_work_id_434">Narren- Quadrille</rs>“ und „<rs type="bibl" ref="#hsl_work_id_210">Doctor
+      <lb facs="#facs_2_region_1672682390233_38_tl_31" n="N030" break="no"/>Heine</rs>“, bei den deutschen Gesangvereinen bald heimisch wer
+      <lb facs="#facs_2_region_1672682390233_38_tl_32" n="N031" break="no"/>den dürften.</p>
+   <p><lb facs="#facs_2_region_1672682390233_38_tl_33" n="N032"/>Das „<rs type="bibl" ref="#hsl_work_id_164">Jagdlied</rs>“ trägt folgendes Motto:
+      <lb facs="#facs_2_region_1672682390233_38_tl_34" n="N033"/><lg><l>„Nichts Schönʼres an sonnigen Tagen,</l>
+      <lb facs="#facs_2_region_1672682390233_38_tl_36" n="N034"/><l>Als muthig den Adler zu jagen!</l>
+      <lb facs="#facs_2_line_1672683313107_211" n="N035"/><l>Mein letzter, ich glaubʼ,</l>
+      <lb facs="#facs_2_region_1672682390233_38_tl_39" n="N036"/><l>War mit Eichenlaub</l>
+      <lb facs="#facs_2_line_1672683357121_215" n="N037"/><l>Ein rother der vierzehnten Classe.“</l></lg></p>
+   <p><lb facs="#facs_2_region_1672682390233_38_tl_40" n="N038"/><note type="footnote">*) So setzt <rs type="person" ref="#hsl_person_id_274">Engelsberg</rs> vor ein zärtliches Liebeslied das Motto:
+      <lb facs="#facs_2_line_1672692651945_647" n="N039"/>(frei nach <rs type="person" ref="#hsl_person_id_1153">Darvin</rs>):
+      <lb facs="#facs_2_line_1672683431671_244" n="N040"/><lg><l>„Diese Gans ist meine Schwester,</l>
+      <lb facs="#facs_2_line_1672683439387_247" n="N041"/><l>Dieses Schaf ein Vetter dein,</l>
+      <lb facs="#facs_2_line_1672683445207_250" n="N042"/><l>Und mit jenem Hirsch, mein Bester,</l>
+      <lb facs="#facs_2_line_1672683452687_253" n="N043"/><l>Dürftest du verschwägert sein.“</l></lg></note></p>
          </div>
       </body>
    </text>
