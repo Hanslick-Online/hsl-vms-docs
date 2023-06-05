@@ -139,6 +139,21 @@
             </attList>
           </elementSpec>
           
+          <!-- element head -->
+          <elementSpec ident="head" module="header" mode="change">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="h1"/>
+                  <valItem ident="h2"/>
+                  <valItem ident="h3"/>
+                  <valItem ident="h4"/>
+                  <valItem ident="h5"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <!-- element change -->
           <elementSpec ident="change" module="header" mode="change">
             <attList>
