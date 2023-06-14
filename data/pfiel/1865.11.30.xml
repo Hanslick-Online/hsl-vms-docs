@@ -109,6 +109,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2023-06-10" who="ampfiel">Zeilenumbrüche, Absätze korrigieren</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -647,7 +648,6 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
             <p>
-               <lb facs="#facs_1_region_1681899783032_1487_tl_1" n="N001"/>Feuilleton.
       <lb facs="#facs_1_region_1681899783032_1487_tl_2" n="N002"/>Das erste „<rs type="person">Patti</rs>-Concert“.
       <lb facs="#facs_1_region_1681899783032_1487_tl_3" n="N003"/>Ed. H. Indem wir in unserem letzten Feuilleton die
       <lb facs="#facs_1_region_1681899783032_1487_tl_4" n="N004"/>neue Erscheinung der <rs type="person">Ullman</rs>’schen Associations-Concerte ganz
@@ -655,110 +655,105 @@
       <lb facs="#facs_1_region_1681899783032_1487_tl_6" n="N006"/>von den Personen trennen. Letztere haben wir erst in dem
       <lb facs="#facs_1_region_1681899783032_1487_tl_7" n="N007"/>
                <rs type="person">Patti</rs>-Concert von gestern Abends, also nach Abfassung jenes
-      <lb facs="#facs_1_region_1681899783032_1487_tl_8" n="N008"/>Artikels, kennen gelernt. Die Thatsache des ungemeinen Er¬
-      <lb facs="#facs_1_region_1681899783032_1487_tl_9" n="N009"/>folges ward von uns in einer kurzen Nachschrift gemeldet;
+      <lb facs="#facs_1_region_1681899783032_1487_tl_8" n="N008"/>Artikels, kennen gelernt. Die Thatsache des ungemeinen Er
+      <lb facs="#facs_1_region_1681899783032_1487_tl_9" break="no" n="N009"/>folges ward von uns in einer kurzen Nachschrift gemeldet;
       <lb facs="#facs_1_region_1681899783032_1487_tl_10" n="N010"/>über die Production selbst sind wir dem Leser noch genaueren
-      <lb facs="#facs_1_region_1681899783032_1487_tl_11" n="N011"/>Bericht schuldig.
+      <lb facs="#facs_1_region_1681899783032_1487_tl_11" n="N011"/>Bericht schuldig.</p>
+               <p>
       <lb facs="#facs_1_region_1681899783032_1487_tl_12" n="N012"/>Gleich beim Eintritt in den glänzend beleuchteten Saal
-      <lb facs="#facs_1_region_1681899783032_1487_tl_13" n="N013"/>war Jedermann von dem zweckmäßigen Arrangement ange-
-      <lb facs="#facs_1_line_1682857441921_314" n="N014"/>nehm überrascht. Herr <hi rendition="#em">
-                  <rs type="person">Ullman</rs>
-               </hi> hat die zahlreichen Seiten¬
-      <lb facs="#facs_1_region_1681899783032_1487_tl_15" n="N015"/>öffnungen und Loggien zu beiden Seiten des Saales und der
-      <lb facs="#facs_1_region_1681899783032_1487_tl_16" n="N016"/>Galerie — dem Ballbesucher als Pforten zum Souper be-
-      <lb facs="#facs_1_region_1681899783032_1487_tl_17" n="N017"/>kannt — durch Holzwände verschließen lassen, um eine günstigere
+      <lb facs="#facs_1_region_1681899783032_1487_tl_13" n="N013"/>war Jedermann von dem zweckmäßigen Arrangement ange
+      <lb facs="#facs_1_line_1682857441921_314" break="no" n="N014"/>nehm überrascht. Herr <hi rendition="#em">
+                  <rs type="person">Ullman</rs></hi> hat die zahlreichen Seiten
+      <lb facs="#facs_1_region_1681899783032_1487_tl_15" break="no" n="N015"/>öffnungen und Loggien zu beiden Seiten des Saales und der
+      <lb facs="#facs_1_region_1681899783032_1487_tl_16" n="N016"/>Galerie — dem Ballbesucher als Pforten zum Souper be
+      <lb facs="#facs_1_region_1681899783032_1487_tl_17" break="no" n="N017"/>kannt — durch Holzwände verschließen lassen, um eine günstigere
       <lb facs="#facs_1_region_1681899783032_1487_tl_18" n="N018"/>Akustik zu erzielen. Die Eintheilung der Sitzreihen, sowie die
       <lb facs="#facs_1_region_1681899783032_1487_tl_19" n="N019"/>Ordnung bei Anweisung der Plätze war musterhaft — möge
       <lb facs="#facs_1_region_1681899783032_1487_tl_20" n="N020"/>sie auch thatsächlich ein Muster sein für unsere Redoutensaal-
       <lb facs="#facs_1_region_1681899783032_1487_tl_21" n="N021"/>Concerte, in welchen selbst ergraute Stammgäste nur mit
       <lb facs="#facs_1_region_1681899783032_1487_tl_22" n="N022"/>Mühe und Gefahr ihre Sitze auffinden. Dadurch, daß die
-      <lb facs="#facs_1_region_1681899783032_1487_tl_23" n="N023"/>Stühle mittelst Holzleisten befestigt waren, sah sich der dank-
-      <lb facs="#facs_1_region_1681899783032_1487_tl_24" n="N024"/>bare Zuhörer von der üblichen Barbarei des Rutschens er¬
-      <lb facs="#facs_1_region_1681899783032_1487_tl_25" n="N025"/>löst. Rühmen wir noch, daß selbst die Zuhörer auf den nicht-
-      <lb facs="#facs_1_region_1681899783032_1487_tl_26" n="N026"/>nummerirten Plätzen des Parterres und der Galerie voll-
-      <lb facs="#facs_1_region_1681899783032_1487_tl_27" n="N027"/>kommen bequem und ungedrängt waren, so wird man gerne
-      <lb facs="#facs_1_region_1681899783032_1487_tl_28" n="N028"/>dem Lob zustimmen, das einhellig über Herrn <rs type="person">Ullman</rs>’s Ar¬
-      <lb facs="#facs_1_region_1681899783032_1487_tl_29" n="N029"/>rangirtalent laut wurde.
-      <lb facs="#facs_1_region_1681899783032_1487_tl_30" n="N030"/>Was die gefeierte <hi rendition="#em">Carlotta <rs type="person">Patti</rs>
-               </hi> betrifft, so will
+      <lb facs="#facs_1_region_1681899783032_1487_tl_23" n="N023"/>Stühle mittelst Holzleisten befestigt waren, sah sich der dank
+      <lb facs="#facs_1_region_1681899783032_1487_tl_24" break="no" n="N024"/>bare Zuhörer von der üblichen Barbarei des Rutschens er
+      <lb facs="#facs_1_region_1681899783032_1487_tl_25" break="no" n="N025"/>löst. Rühmen wir noch, daß selbst die Zuhörer auf den nicht-
+      <lb facs="#facs_1_region_1681899783032_1487_tl_26" n="N026"/>nummerirten Plätzen des Parterres und der Galerie voll
+      <lb facs="#facs_1_region_1681899783032_1487_tl_27" break="no" n="N027"/>kommen bequem und ungedrängt waren, so wird man gerne
+      <lb facs="#facs_1_region_1681899783032_1487_tl_28" n="N028"/>dem Lob zustimmen, das einhellig über Herrn 
+                     <rs type="person">Ullman</rs>’s Ar
+      <lb facs="#facs_1_region_1681899783032_1487_tl_29" break="no" n="N029"/>rangirtalent laut wurde.</p>
+               <p>
+      <lb facs="#facs_1_region_1681899783032_1487_tl_30" n="N030"/>Was die gefeierte <hi rendition="#em">Carlotta 
+            <rs type="person">Patti</rs></hi> betrifft, so will
       <lb facs="#facs_1_region_1681899783032_1487_tl_31" n="N031"/>sie mit einem eigenen Maßstab gemessen sein. Die abnorme
-      <lb facs="#facs_1_region_1681899783032_1487_tl_32" n="N032"/>Höhe ihrer Stimme und mehr noch die erstaunliche Leichtig-
-      <lb facs="#facs_1_region_1681899783032_1487_tl_33" n="N033"/>keit und Sicherheit, mit der sie sich in dieser dreigestrichenen
+      <lb facs="#facs_1_region_1681899783032_1487_tl_32" n="N032"/>Höhe ihrer Stimme und mehr noch die erstaunliche Leichtig
+      <lb facs="#facs_1_region_1681899783032_1487_tl_33" break="no" n="N033"/>keit und Sicherheit, mit der sie sich in dieser dreigestrichenen
       <lb facs="#facs_1_region_1681899783032_1487_tl_34" n="N034"/>Schneeregion des Gesanges bewegt, in welcher selbst einer
-      <lb facs="#facs_1_region_1681899783032_1487_tl_35" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Malibran</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Catalani</rs>
-               </hi> jeder Athemzug vergangen wäre,
+      <lb facs="#facs_1_region_1681899783032_1487_tl_35" n="N035"/><hi rendition="#em">
+                  <rs type="person">Malibran</rs></hi> und <hi rendition="#em">
+                  <rs type="person">Catalani</rs></hi> jeder Athemzug vergangen wäre,
       <lb facs="#facs_1_region_1681899783032_1487_tl_36" n="N036"/>stempeln Carlotta <hi rendition="#em">
-                  <rs type="person">Patti</rs>
-               </hi> zu einer bisher nicht vorgekommenen
-      <lb facs="#facs_1_region_1681899783032_1487_tl_37" n="N037"/>und vielleicht niemals wiederkehrenden Specialität, also schlecht-
-      <lb facs="#facs_1_region_1681899783032_1487_tl_38" n="N038"/>hin zu einem Unicum in der Gesangswelt. Sie erreicht Töne,
-      <lb facs="#facs_1_line_1682857967958_367" n="N039"/>wie das dreigestrichene d, e, f, nicht etwa in gewagtem, blitz-</p>
+                  <rs type="person">Patti</rs></hi> zu einer bisher nicht vorgekommenen
+      <lb facs="#facs_1_region_1681899783032_1487_tl_37" n="N037"/>und vielleicht niemals wiederkehrenden Specialität, also schlecht
+      <lb facs="#facs_1_region_1681899783032_1487_tl_38" break="no" n="N038"/>hin zu einem Unicum in der Gesangswelt. Sie erreicht Töne,
+      <lb facs="#facs_1_line_1682857967958_367" n="N039"/>wie das dreigestrichene d, e, f, nicht etwa in gewagtem, blitz
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1681899790893_1490_tl_1" n="N001"/>artigem Sprung oder vorbereitendem Anlauf, sondern setzt sie
-      <lb facs="#facs_1_region_1681899790893_1490_tl_2" n="N002"/>nach einer Pause pianissimo oder mezza-voce frei, mit vollen-
-      <lb facs="#facs_1_region_1681899790893_1490_tl_3" n="N003"/>deter Reinheit und Ruhe ein, schwellt sie bis zum fortissimo
+               <lb facs="#facs_1_region_1681899790893_1490_tl_1" break="no" n="N001"/>artigem Sprung oder vorbereitendem Anlauf, sondern setzt sie
+      <lb facs="#facs_1_region_1681899790893_1490_tl_2" n="N002"/>nach einer Pause pianissimo oder mezza-voce frei, mit vollen
+      <lb facs="#facs_1_region_1681899790893_1490_tl_3" break="no" n="N003"/>deter Reinheit und Ruhe ein, schwellt sie bis zum fortissimo
       <lb facs="#facs_1_region_1681899790893_1490_tl_4" n="N004"/>und läßt sie allmälig wieder zum Hauch verklingen. In der
       <lb facs="#facs_1_region_1681899790893_1490_tl_5" n="N005"/>
                <rs type="person">Linda</rs>-Arie hörten wir Triller auf dem hohen des und es, im
-      <lb facs="#facs_1_region_1681899790893_1490_tl_6" n="N006"/>„<rs type="bibl">Carneval von Venedig</rs>“ ein lang und kraftvoll ausgehaltenes
+      <lb facs="#facs_1_region_1681899790893_1490_tl_6" n="N006"/>„
+                     <rs type="bibl">Carneval von Venedig</rs>“ ein lang und kraftvoll ausgehaltenes
       <lb facs="#facs_1_region_1681899790893_1490_tl_7" n="N007"/>e, in dem (nach Es-dur transponirten) „Schattenwalzer“
       <lb facs="#facs_1_region_1681899790893_1490_tl_8" n="N008"/>der <rs type="bibl">Dinorah</rs> Echo-Effecte in den höchsten Lagen, einmal sogar
-      <lb facs="#facs_1_region_1681899790893_1490_tl_9" n="N009"/>in schönstem Klang das dreigestrichene ges!
+      <lb facs="#facs_1_region_1681899790893_1490_tl_9" n="N009"/>in schönstem Klang das dreigestrichene ges!</p>
+               <p>
       <lb facs="#facs_1_region_1681899790893_1490_tl_10" n="N010"/>Durch diese wahrhaft außerordentliche Kehle und durch
       <lb facs="#facs_1_region_1681899790893_1490_tl_11" n="N011"/>die Virtuosität in Allem, was auf jenem ihr allein gehörigen
       <lb facs="#facs_1_region_1681899790893_1490_tl_12" n="N012"/>Höhengebiete sich bewegt, ist Carlotta <hi rendition="#em">
-                  <rs type="person">Patti</rs>
-               </hi> unstreitig eine
-      <lb facs="#facs_1_region_1681899790893_1490_tl_13" n="N013"/>Erscheinung ohnegleichen.
+                  <rs type="person">Patti</rs></hi> unstreitig eine
+      <lb facs="#facs_1_region_1681899790893_1490_tl_13" n="N013"/>Erscheinung ohnegleichen.</p>
+               <p>
       <lb facs="#facs_1_region_1681899790893_1490_tl_14" n="N014"/>Ihre Intonation ist stets haarscharf, ihre Virtuosität
-      <lb facs="#facs_1_region_1681899790893_1490_tl_15" n="N015"/>nach einigen Richtungen sehr ausgebildet, vor Allem im Stac¬
-      <lb facs="#facs_1_line_1682857441921_313" n="N016"/>cato, das man nicht glänzender hervorbringen kann, als sie
+      <lb facs="#facs_1_region_1681899790893_1490_tl_15" n="N015"/>nach einigen Richtungen sehr ausgebildet, vor Allem im Stac
+      <lb facs="#facs_1_line_1682857441921_313" break="no" n="N016"/>cato, das man nicht glänzender hervorbringen kann, als sie
       <lb facs="#facs_1_region_1681899790893_1490_tl_16" n="N017"/>es in den Sextensprüngen der <rs type="person">Linda</rs>-Arie und am Schluß
       <lb facs="#facs_1_region_1681899790893_1490_tl_17" n="N018"/>der Lachcouplets thut. Der Triller ist leicht und flüssig, aber
-      <lb facs="#facs_1_region_1681899790893_1490_tl_18" n="N019"/>nicht immer von tadelloser Gleichheit; am wenigsten befrie-
-      <lb facs="#facs_1_region_1681899790893_1490_tl_19" n="N020"/>digte die Verbindung der Töne im Legato, namentlich bei
+      <lb facs="#facs_1_region_1681899790893_1490_tl_18" n="N019"/>nicht immer von tadelloser Gleichheit; am wenigsten befrie
+      <lb facs="#facs_1_region_1681899790893_1490_tl_19" break="no" n="N020"/>digte die Verbindung der Töne im Legato, namentlich bei
       <lb facs="#facs_1_region_1681899790893_1490_tl_20" n="N021"/>herabsteigender Scala. Als <hi rendition="#em">vollendete</hi> Gesangskünstlerin
-      <lb facs="#facs_1_region_1681899790893_1490_tl_21" n="N022"/>erscheint uns demnach Carlotta <rs type="person">Patti</rs> trotz all ihrer blenden-
-      <lb facs="#facs_1_region_1681899790893_1490_tl_22" n="N023"/>den Kunststücke nicht, und wir können sie, auch vom blos
-      <lb facs="#facs_1_region_1681899790893_1490_tl_23" n="N024"/>technischen Standpunkt, unmöglich in Eine Reihe mit <hi rendition="#em">Ade-</hi>
-               <lb facs="#facs_1_region_1681899790893_1490_tl_24" n="N025"/>
-               <hi rendition="#em">lina <rs type="person">Patti</rs>
-               </hi> oder <hi rendition="#em">Désirée <rs type="person">Artôt</rs>
-               </hi> stellen. Der Klang die-
-      <lb facs="#facs_1_region_1681899790893_1490_tl_25" n="N026"/>ser phänomenalen Stimme ist nicht ohne eigenthümlichen Reiz
+      <lb facs="#facs_1_region_1681899790893_1490_tl_21" n="N022"/>erscheint uns demnach Carlotta <rs type="person">Patti</rs> trotz all ihrer blenden
+      <lb facs="#facs_1_region_1681899790893_1490_tl_22" break="no" n="N023"/>den Kunststücke nicht, und wir können sie, auch vom blos
+      <lb facs="#facs_1_region_1681899790893_1490_tl_23" n="N024"/>technischen Standpunkt, unmöglich in Eine Reihe mit <hi rendition="#em">Ade
+      <lb facs="#facs_1_region_1681899790893_1490_tl_24" n="N025"/>
+               lina <rs type="person">Patti</rs></hi> oder <hi rendition="#em">Désirée 
+                     <rs type="person">Artôt</rs></hi> stellen. Der Klang die
+      <lb facs="#facs_1_region_1681899790893_1490_tl_25" break="no" n="N026"/>ser phänomenalen Stimme ist nicht ohne eigenthümlichen Reiz
       <lb facs="#facs_1_region_1681899790893_1490_tl_26" n="N027"/>— die Höhe silberglöckchenartig — hat aber weder Größe
       <lb facs="#facs_1_region_1681899790893_1490_tl_27" n="N028"/>noch Wärme. Sie ist von einem kalten gläsernen Glanz, der
       <lb facs="#facs_1_region_1681899790893_1490_tl_28" n="N029"/>im Passagenwerk an Sterngeflimmer, in ruhiger Ausbreitung
       <lb facs="#facs_1_line_1682857753416_339" n="N030"/>auf den höchsten Noten an das weiße Licht des Magnesiums
       <lb facs="#facs_1_region_1681899790893_1490_tl_29" n="N031"/>erinnert. Eine gewisse Familienähnlichkeit herrscht zwischen
-      <lb facs="#facs_1_region_1681899790893_1490_tl_30" n="N032"/>den Stimmen <rs type="person">Carlotta</rs>’s und ihrer jüngeren Schwester, un¬
-      <lb facs="#facs_1_region_1681899790893_1490_tl_31" n="N033"/>gefähr wie zwischen ihren Gesichtszügen, doch ist <hi rendition="#em">
-                  <rs type="person">Adelina</rs>
-               </hi>’s
+      <lb facs="#facs_1_region_1681899790893_1490_tl_30" n="N032"/>den Stimmen <rs type="person">Carlotta</rs>’s und ihrer jüngeren Schwester, un
+      <lb facs="#facs_1_region_1681899790893_1490_tl_31" break="no" n="N033"/>gefähr wie zwischen ihren Gesichtszügen, doch ist <hi rendition="#em">
+                  <rs type="person">Adelina</rs>’s</hi>
       <lb facs="#facs_1_line_1682857877698_351" n="N034"/>Organ voller, wärmer und vor Allem empfänglicher für alle
       <lb facs="#facs_1_region_1681899790893_1490_tl_32" n="N035"/>Schattirungen des Ausdrucks. Die mittleren und tiefen Töne
-      <lb facs="#facs_1_region_1681899790893_1490_tl_33" n="N036"/>
-               <hi rendition="#em">
-                  <rs type="person">Carlotta</rs>
-               </hi>’s haben wenig Körper und Rundung; wenn sie
+      <lb facs="#facs_1_region_1681899790893_1490_tl_33" n="N036"/><hi rendition="#em">
+                  <rs type="person">Carlotta</rs>’s</hi> haben wenig Körper und Rundung; wenn sie
       <lb facs="#facs_1_region_1681899790893_1490_tl_34" n="N037"/>eine Cantilene in gewöhnlicher Gefangslage anhebt (wie gleich
-      <lb facs="#facs_1_region_1681899790893_1490_tl_35" n="N038"/>anfangs in der <rs type="person">Linda</rs>-Arie), so glaubt man fast eine Kinder-
-      <lb facs="#facs_1_region_1681899790893_1490_tl_36" n="N039"/>stimme zu vernehmen und lauscht ihr mehr befremdet als be¬
-      <lb facs="#facs_1_region_1681899790893_1490_tl_37" n="N040"/>friedigt. Wir mußten den Timbre dieser Stimme erst förm¬
-      <lb facs="#facs_1_line_1682857967957_366" n="N041"/>lich gewöhnen, er sagte uns in der dritten Nummer besser</p>
+      <lb facs="#facs_1_region_1681899790893_1490_tl_35" n="N038"/>anfangs in der <rs type="person">Linda</rs>-Arie), so glaubt man fast eine Kinder
+      <lb facs="#facs_1_region_1681899790893_1490_tl_36" break="no" n="N039"/>stimme zu vernehmen und lauscht ihr mehr befremdet als be
+      <lb facs="#facs_1_region_1681899790893_1490_tl_37" break="no" n="N040"/>friedigt. Wir mußten den Timbre dieser Stimme erst förm
+      <lb facs="#facs_1_line_1682857967957_366" break="no" n="N041"/>lich gewöhnen, er sagte uns in der dritten Nummer besser
             <cb n="3"/>
-            <p>
                <lb facs="#facs_1_region_1681899794136_1493_tl_1" n="N001"/>zu, als in der zweiten und ersten, und am besten in der
-      <lb facs="#facs_1_line_1682860493847_489" n="N002"/>letzten.
-      <lb facs="#facs_1_region_1681899794136_1493_tl_2" n="N003"/>Wenn uns, was leicht möglich ist, Stimme und Aus¬
-      <lb facs="#facs_1_region_1681899794136_1493_tl_3" n="N004"/>druck <rs type="person">Carlotta</rs>’s in gleicher Progression von Concert zu Con¬
-      <lb facs="#facs_1_region_1681899794136_1493_tl_4" n="N005"/>cert, wie gestern von Nummer zu Nummer, schöner vorkom-
-      <lb facs="#facs_1_region_1681899794136_1493_tl_5" n="N006"/>men sollte, werden wir nicht zögern, es mit Freuden zu
+      <lb facs="#facs_1_line_1682860493847_489" n="N002"/>letzten.</p>
+               <p>
+      <lb facs="#facs_1_region_1681899794136_1493_tl_2" n="N003"/>Wenn uns, was leicht möglich ist, Stimme und Aus
+      <lb facs="#facs_1_region_1681899794136_1493_tl_3" break="no" n="N004"/>druck <rs type="person">Carlotta</rs>’s in gleicher Progression von Concert zu Con
+      <lb facs="#facs_1_region_1681899794136_1493_tl_4" break="no" n="N005"/>cert, wie gestern von Nummer zu Nummer, schöner vorkom
+      <lb facs="#facs_1_region_1681899794136_1493_tl_5" break="no" n="N006"/>men sollte, werden wir nicht zögern, es mit Freuden zu
       <lb facs="#facs_1_region_1681899794136_1493_tl_6" n="N007"/>gestehen. Und ihr Vortrag? Er gleicht frappant der Stimme.
       <lb facs="#facs_1_region_1681899794136_1493_tl_7" n="N008"/>Strahlend, elegant, sogar graziös, läßt der Gesang <rs type="person">Carlotta</rs>’s
       <lb facs="#facs_1_region_1681899794136_1493_tl_8" n="N009"/>die weite, reiche Welt des Gedankens und der Empfindung
@@ -767,111 +762,100 @@
       <lb facs="#facs_1_region_1681899794136_1493_tl_11" n="N012"/>vielleicht, aber zum Herzen findet er keinen Weg. Aus diesen
       <lb facs="#facs_1_region_1681899794136_1493_tl_12" n="N013"/>Tönen dringt nicht Blumenduft noch Frühlingswärme zu
       <lb facs="#facs_1_region_1681899794136_1493_tl_13" n="N014"/>uns; kein Druck einer geliebten Hand, kein Blick eines
-      <lb facs="#facs_1_region_1681899794136_1493_tl_14" n="N015"/>seelenvollen Auges — wir sind allein unter geschliffenen Kry-
-      <lb facs="#facs_1_region_1681899794136_1493_tl_15" n="N016"/>stallen und hellpolirtem Marmor. Der Hörer kommt aus dem
-      <lb facs="#facs_1_region_1681899794136_1493_tl_16" n="N017"/>Bewundern nicht heraus, der Kritiker nicht über die Bewun¬
-      <lb facs="#facs_1_region_1681899794136_1493_tl_17" n="N018"/>derung. <hi rendition="#em">Carlotta <rs type="person">Patti</rs>
-               </hi>
-               <rs type="person"/> ist eine eminente Merkwürdigkeit,
+      <lb facs="#facs_1_region_1681899794136_1493_tl_14" n="N015"/>seelenvollen Auges — wir sind allein unter geschliffenen Kry
+      <lb facs="#facs_1_region_1681899794136_1493_tl_15" break="no" n="N016"/>stallen und hellpolirtem Marmor. Der Hörer kommt aus dem
+      <lb facs="#facs_1_region_1681899794136_1493_tl_16" n="N017"/>Bewundern nicht heraus, der Kritiker nicht über die Bewun
+      <lb facs="#facs_1_region_1681899794136_1493_tl_17" break="no" n="N018"/>derung. <hi rendition="#em">Carlotta 
+            <rs type="person">Patti</rs></hi> ist eine eminente Merkwürdigkeit,
       <lb facs="#facs_1_region_1681899794136_1493_tl_18" n="N019"/>man muß sie <hi rendition="#em">gehört haben</hi>. Wie mächtig man sich hierauf
       <lb facs="#facs_1_region_1681899794136_1493_tl_19" n="N020"/>gedrängt fühle, sie oft und wieder zu hören, das mag die
       <lb facs="#facs_1_region_1681899794136_1493_tl_20" n="N021"/>Empfindung jedes Einzelnen entscheiden. Am meisten erstaunt
-      <lb facs="#facs_1_region_1681899794136_1493_tl_21" n="N022"/>hat uns unter <rs type="person">Carlotta</rs>’s Vorträgen der „<rs type="bibl">Carneval von</rs>
-               <lb facs="#facs_1_region_1681899794136_1493_tl_22" n="N023"/>
-               <rs type="bibl">Venedig</rs>“, am aufrichtigsten erfreuten die Couplets (<rs type="bibl">l’éclat</rs>
-               <lb facs="#facs_1_region_1681899794136_1493_tl_23" n="N024"/>
-               <rs type="bibl">de rire</rs>) von <hi rendition="#em">
-                  <rs type="person">Auber</rs>
-               </hi>. Dieser anspruchslose Scherz schien
+      <lb facs="#facs_1_region_1681899794136_1493_tl_21" n="N022"/>hat uns unter <rs type="person">Carlotta</rs>’s Vorträgen der „<rs type="bibl">Carneval von
+      <lb facs="#facs_1_region_1681899794136_1493_tl_22" n="N023"/>
+               Venedig</rs>“, am aufrichtigsten erfreuten die Couplets (
+                     <rs type="bibl">l’éclat
+      <lb facs="#facs_1_region_1681899794136_1493_tl_23" n="N024"/>
+               de rire</rs>) von <hi rendition="#em">
+                  <rs type="person">Auber</rs></hi>. Dieser anspruchslose Scherz schien
       <lb facs="#facs_1_region_1681899794136_1493_tl_24" n="N025"/>uns, so wie er äußerlich die schönen, statuarischen Züge der
-      <lb facs="#facs_1_region_1681899794136_1493_tl_25" n="N026"/>Sängerin plötzlich belebte, auch ihrem Gesang ein eigen¬
-      <lb facs="#facs_1_region_1681899794136_1493_tl_26" n="N027"/>thümliches Leben einzuhauchen. Dieses Lied singt Carlotta
+      <lb facs="#facs_1_region_1681899794136_1493_tl_25" n="N026"/>Sängerin plötzlich belebte, auch ihrem Gesang ein eigen
+      <lb facs="#facs_1_region_1681899794136_1493_tl_26" break="no" n="N027"/>thümliches Leben einzuhauchen. Dieses Lied singt Carlotta
       <lb facs="#facs_1_region_1681899794136_1493_tl_27" n="N028"/>
                <rs type="person">Patti</rs> nicht blos mit Bravour, sondern in der That mit
       <lb facs="#facs_1_region_1681899794136_1493_tl_28" n="N029"/>Esprit und liebenswürdigem Humor. Das Publicum schien
-      <lb facs="#facs_1_line_1682857753415_338" n="N030"/>derselben Ansicht, es steigerte den Beifall, den es der Künst¬
-      <lb facs="#facs_1_region_1681899794136_1493_tl_30" n="N031"/>lerin nach jeder Nummer so reichlich gespendet, nach den
+      <lb facs="#facs_1_line_1682857753415_338" n="N030"/>derselben Ansicht, es steigerte den Beifall, den es der Künst
+      <lb facs="#facs_1_region_1681899794136_1493_tl_30" break="no" n="N031"/>lerin nach jeder Nummer so reichlich gespendet, nach den
       <lb facs="#facs_1_region_1681899794136_1493_tl_31" n="N032"/>Lach Couplets zum vollständigen Sturm. Ueberdies wirkt
       <lb facs="#facs_1_region_1681899794136_1493_tl_32" n="N033"/>das gesungene Lachen ansteckend; es war zu ergötzlich, nichts
       <lb facs="#facs_1_line_1682857877698_350" n="N034"/>als lächelnde und lachende Gesichter im ganzen Saale
-      <lb facs="#facs_1_region_1681899794136_1493_tl_34" n="N035"/>zu sehen.
+      <lb facs="#facs_1_region_1681899794136_1493_tl_34" n="N035"/>zu sehen.</p>
+               <p>
       <lb facs="#facs_1_region_1681899794136_1493_tl_35" n="N036"/>Die Clavierbegleitung aller Solostücke wurde von Herrn
       <lb facs="#facs_1_region_1681899794136_1493_tl_36" n="N037"/>Ed. <hi rendition="#em">
-                  <rs type="person">Franck</rs>
-               </hi> in jener vorlauten und schleuderischen Weise
+                  <rs type="person">Franck</rs></hi> in jener vorlauten und schleuderischen Weise
       <lb facs="#facs_1_region_1681899794136_1493_tl_37" n="N038"/>abgehämmert, welche unsern Walzerspielern auf Hausbällen
-      <lb facs="#facs_1_region_1681899794136_1493_tl_38" n="N039"/>eigen ist.
+      <lb facs="#facs_1_region_1681899794136_1493_tl_38" n="N039"/>eigen ist.</p>
+               <p>
       <lb facs="#facs_1_region_1681899794136_1493_tl_39" n="N040"/>Die berühmten drei Instrumental-Virtuosen, welche an
       <lb facs="#facs_1_line_1682857966388_362" n="N041"/>dem Abend auftraten (<hi rendition="#em">
-                  <rs type="person">Jaell</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Vieuxtemps</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Piatti</rs>
-               </hi>),</p>
+                  <rs type="person">Jaell</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Vieuxtemps</rs></hi> und <hi rendition="#em">
+                  <rs type="person">Piatti</rs></hi>),
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
                <lb facs="#facs_2_region_1674577477944_2020_tl_1" n="N001"/>sind unserem Publicum aus früheren Zeiten bekannt und
-      <lb facs="#facs_2_region_1674577477944_2020_tl_2" n="N002"/>lieb; wir können uns daher über sie kürzer fassen. Die Er¬
-      <lb facs="#facs_2_region_1674577477944_2020_tl_3" n="N003"/>öffnungsnummer spielten sie zusammen: <rs type="person">Mendelssohn</rs>’s
+      <lb facs="#facs_2_region_1674577477944_2020_tl_2" n="N002"/>lieb; wir können uns daher über sie kürzer fassen. Die Er
+      <lb facs="#facs_2_region_1674577477944_2020_tl_3" break="no" n="N003"/>öffnungsnummer spielten sie zusammen: 
+                     <rs type="person">Mendelssohn</rs>’s
       <lb facs="#facs_2_region_1674577477944_2020_tl_4" n="N004"/>
                <rs type="bibl">C-moll-Trio</rs>, welches uns bereits stark frostig und formell
       <lb facs="#facs_2_region_1674577477944_2020_tl_5" n="N005"/>klingt. Die Ausführung war virtuos, in jedem Sinn, also
-      <lb facs="#facs_2_region_1674577477944_2020_tl_6" n="N006"/>nicht blos im lobenden; sie kam uns gar zu glatt im Aus-
-      <lb facs="#facs_2_region_1674577477944_2020_tl_7" n="N007"/>druck, gar zu rapid im Zeitmaß vor. Es wäre kein Wunder,
+      <lb facs="#facs_2_region_1674577477944_2020_tl_6" n="N006"/>nicht blos im lobenden; sie kam uns gar zu glatt im Aus
+      <lb facs="#facs_2_region_1674577477944_2020_tl_7" break="no" n="N007"/>druck, gar zu rapid im Zeitmaß vor. Es wäre kein Wunder,
       <lb facs="#facs_2_region_1674577477944_2020_tl_8" n="N008"/>wenn die Herren nicht in bester Stimmung waren, drückte
-      <lb facs="#facs_2_region_1674577477944_2020_tl_9" n="N009"/>sie doch die doppelte Wahrnehmung, in einem für Kammer¬
-      <lb facs="#facs_2_region_1674577477944_2020_tl_10" n="N010"/>musik viel zu großen Raum und vor einem aus lauter <rs type="person">Patti</rs>-
+      <lb facs="#facs_2_region_1674577477944_2020_tl_9" n="N009"/>sie doch die doppelte Wahrnehmung, in einem für Kammer
+      <lb facs="#facs_2_region_1674577477944_2020_tl_10" break="no" n="N010"/>musik viel zu großen Raum und vor einem aus lauter <rs type="person">Patti</rs>-
       <lb facs="#facs_2_region_1674577477944_2020_tl_11" n="N011"/>Neugierde zerstreuten Publicum zu spielen. Sobald letztere
       <lb facs="#facs_2_region_1674577477944_2020_tl_12" n="N012"/>befriedigt war und die drei Künstler sich einzeln producirten,
       <lb facs="#facs_2_region_1674577477944_2020_tl_13" n="N013"/>war ihr Erfolg auch der allergünstigste. Herr <hi rendition="#em">
-                  <rs type="person">Jaell</rs>
-               </hi> ist als
+                  <rs type="person">Jaell</rs></hi> ist als
       <lb facs="#facs_2_region_1674577477944_2020_tl_14" n="N014"/>der vollendete Salonspieler zurückgekehrt, der uns vor zwei
       <lb facs="#facs_2_region_1674577477944_2020_tl_15" n="N015"/>Jahren verlassen, ja wir möchten behaupten, er habe sein
       <lb facs="#facs_2_region_1674577477944_2020_tl_16" n="N016"/>„Home, sweet home“ diesmal noch eleganter und perlender
       <lb facs="#facs_2_region_1674577477944_2020_tl_17" n="N017"/>vorgetragen als je, wenn wir selbst das für möglich hielten.
       <lb facs="#facs_2_region_1674577477944_2020_tl_18" n="N018"/>Herr Alfred <hi rendition="#em">
-                  <rs type="person">Piatti</rs>
-               </hi> gilt unbestritten für den ersten lebenden
+                  <rs type="person">Piatti</rs></hi> gilt unbestritten für den ersten lebenden
       <lb facs="#facs_2_region_1674577477944_2020_tl_19" n="N019"/>Violoncell-Virtuosen. Sein Ton ist von entzückender Fülle
       <lb facs="#facs_2_region_1674577477944_2020_tl_20" n="N020"/>und Reinheit, sein Vortrag vornehm und gesangvoll, die linke
       <lb facs="#facs_2_region_1674577477944_2020_tl_21" n="N021"/>Hand thut Wunder an Behendigkeit, während die rechte den
       <lb facs="#facs_2_region_1674577477944_2020_tl_22" n="N022"/>Bogen bald leicht wie auf einer Violine, bald wuchtig wie
       <lb facs="#facs_2_region_1674577477944_2020_tl_23" n="N023"/>auf dem Contrabaß führt. Blos das Eine war zu bedauern,
       <lb facs="#facs_2_region_1674577477944_2020_tl_24" n="N024"/>daß Herr <hi rendition="#em">
-                  <rs type="person">Piatti</rs>
-               </hi> seiner Kunst keine besseren Objecte ge-
-      <lb facs="#facs_2_region_1674577477944_2020_tl_25" n="N025"/>wählt hatte, als die beiden veralteten Solostücke von <hi rendition="#em">
-                  <rs type="person" continued="true">Mo¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1674577477944_2020_tl_26" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">lique</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Kummer</rs>
-               </hi>.
+                  <rs type="person">Piatti</rs></hi> seiner Kunst keine besseren Objecte ge
+      <lb facs="#facs_2_region_1674577477944_2020_tl_25" break="no" n="N025"/>wählt hatte, als die beiden veralteten Solostücke von <hi rendition="#em">
+                  <rs type="person">Mo
+      <lb facs="#facs_2_region_1674577477944_2020_tl_26" n="N026"/>
+                  lique</rs></hi> und <hi rendition="#em">
+                        <rs type="person">Kummer</rs></hi>.</p>
+             <p>
       <lb facs="#facs_2_region_1674577477944_2020_tl_27" n="N027"/>Ueber Herrn <hi rendition="#em">
-                  <rs type="person">Vieuxtemps</rs>
-               </hi> kommt uns das Urtheil
-      <lb facs="#facs_2_region_1674577477944_2020_tl_28" n="N028"/>etwas schwerer an, denn fast erkannten wir in ihm den herr¬
-      <lb facs="#facs_2_region_1674577477944_2020_tl_29" n="N029"/>lichen Meister vom Jahre <date month="0" day="0" year="0">1852</date> nicht wieder, für den kaum
-      <lb facs="#facs_2_region_1674577477944_2020_tl_30" n="N030"/>ein Kritiker mehr geschwärmt hat, als Schreiber dieser Zei-
-      <lb facs="#facs_2_region_1674577477944_2020_tl_31" n="N031"/>len. Der <hi rendition="#em">
-                  <rs type="person">Vieuxtemps</rs>
-               </hi> vom gestrigen <rs type="person">Patti</rs>-Concert glänzt
+                  <rs type="person">Vieuxtemps</rs></hi> kommt uns das Urtheil
+      <lb facs="#facs_2_region_1674577477944_2020_tl_28" n="N028"/>etwas schwerer an, denn fast erkannten wir in ihm den herr
+      <lb facs="#facs_2_region_1674577477944_2020_tl_29" break="no" n="N029"/>lichen Meister vom Jahre <date when="1852">1852</date> nicht wieder, für den kaum
+      <lb facs="#facs_2_region_1674577477944_2020_tl_30" n="N030"/>ein Kritiker mehr geschwärmt hat, als Schreiber dieser Zei
+      <lb facs="#facs_2_region_1674577477944_2020_tl_31" break="no" n="N031"/>len. Der <hi rendition="#em">
+                  <rs type="person">Vieuxtemps</rs></hi> vom gestrigen 
+                   <rs type="person">Patti</rs>-Concert glänzt
       <lb facs="#facs_2_region_1674577477944_2020_tl_32" n="N032"/>noch immer als ein Virtuose voll Bravour und prickelnder
       <lb facs="#facs_2_region_1674577477944_2020_tl_33" n="N033"/>Effecte, aber es ist nicht mehr jener große, edle Geiger, der
       <lb facs="#facs_2_region_1674577477944_2020_tl_34" n="N034"/>die blühenden Töne mit der Wurzel herauszog, und dessen
       <lb facs="#facs_2_region_1674577477944_2020_tl_35" n="N035"/>gewaltiger Sang jedes Herz bewegte. Eine gewisse Flachheit
       <lb facs="#facs_2_region_1674577477944_2020_tl_36" n="N036"/>und leere Leichtigkeit, ein bequemes Prunken mit kleinlichen
-      <lb facs="#facs_2_region_1674577477944_2020_tl_37" n="N037"/>Flageolett-Effecten und Aehnlichem hat sein ehemals impo¬
-      <lb facs="#facs_2_region_1674577477944_2020_tl_38" n="N038"/>santes Spiel verwinzigt. Möglich, daß besondere, ungünstige
-      <lb facs="#facs_2_region_1674577477944_2020_tl_39" n="N039"/>Einflüsse gerade an dem Abend ihn gehemmt oder uns ge¬
-      <lb facs="#facs_2_region_1674577477944_2020_tl_40" n="N040"/>täuscht haben — nichts könnte uns lebhafter freuen, als wenn
-      <lb facs="#facs_2_region_1674577477944_2020_tl_41" n="N041"/>
-               <rs type="person">Vieuxtemps</rs> selbst unsere Meinung demnächst widerlegen und
+      <lb facs="#facs_2_region_1674577477944_2020_tl_37" n="N037"/>Flageolett-Effecten und Aehnlichem hat sein ehemals impo
+      <lb facs="#facs_2_region_1674577477944_2020_tl_38" break="no" n="N038"/>santes Spiel verwinzigt. Möglich, daß besondere, ungünstige
+      <lb facs="#facs_2_region_1674577477944_2020_tl_39" n="N039"/>Einflüsse gerade an dem Abend ihn gehemmt oder uns ge
+      <lb facs="#facs_2_region_1674577477944_2020_tl_40" break="no" n="N040"/>täuscht haben — nichts könnte uns lebhafter freuen, als wenn
+      <lb facs="#facs_2_region_1674577477944_2020_tl_41" n="N041"/><rs type="person">Vieuxtemps</rs> selbst unsere Meinung demnächst widerlegen und
       <lb facs="#facs_2_region_1674577477944_2020_tl_42" n="N042"/>unbarmherzig niedergeigen würde. Eine alte Liebe wäre uns
       <lb facs="#facs_2_region_1674577477944_2020_tl_43" n="N043"/>zurückgegeben.</p>
          </div>

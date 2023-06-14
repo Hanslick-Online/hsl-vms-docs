@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="1865">1865</date>
+                        <date when="1865-11-29">29.11.1865</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -109,6 +109,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2023-06-10" who="ampfiel">Zeilenumbrüche, Absätze korrigieren</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1041,29 +1042,23 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
             <p>
-               <lb facs="#facs_1_region_1681900310255_1546_tl_1" n="N001"/>Feuilleton.
       <lb facs="#facs_1_region_1681900310255_1546_tl_2" n="N002"/>Die <rs type="person">Ullman</rs>’schen Concerte und Carlotta <rs type="person">Patti</rs>.
       <lb facs="#facs_1_region_1681900310255_1546_tl_3" n="N003"/>Ed. H. So wären denn auch bei uns die berühmten
       <lb facs="#facs_1_line_1682530797089_619" n="N004"/>
                <rs type="person">Ullman</rs>’schen Wanderconcerte ins Leben getreten. Außer ihrem
-      <lb facs="#facs_1_region_1681900310255_1546_tl_5" n="N005"/>Leitstern, <hi rendition="#em">Carlotta <rs type="person">Patti</rs>
-               </hi>, und den ihm folgenden heiligen
+      <lb facs="#facs_1_region_1681900310255_1546_tl_5" n="N005"/>Leitstern, <hi rendition="#em">Carlotta 
+            <rs type="person">Patti</rs></hi>, und den ihm folgenden heiligen
       <lb facs="#facs_1_region_1681900310255_1546_tl_6" n="N006"/>drei Königen der Instrumental-Virtuosität, <hi rendition="#em">
-                  <rs type="person">Vieuxtemps</rs>
-               </hi>,
-      <lb facs="#facs_1_region_1681900310255_1546_tl_7" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person">Piatti</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Jaëll</rs>
-               </hi>, interessirt uns noch die ganze Form
+                  <rs type="person">Vieuxtemps</rs></hi>,
+      <lb facs="#facs_1_region_1681900310255_1546_tl_7" n="N007"/><hi rendition="#em">
+                  <rs type="person">Piatti</rs></hi> und <hi rendition="#em">
+                  <rs type="person">Jaëll</rs></hi>, interessirt uns noch die ganze Form
       <lb facs="#facs_1_region_1681900310255_1546_tl_8" n="N008"/>dieser Unternehmung an sich. Sie ist etwas durchaus Neues
       <lb facs="#facs_1_region_1681900310255_1546_tl_9" n="N009"/>und Fremdartiges. Durch ihren eminent geschäftlichen, also
       <lb facs="#facs_1_region_1681900310255_1546_tl_10" n="N010"/>ungemüthlichen Charakter und das große Geräusch, mit dem
       <lb facs="#facs_1_region_1681900310255_1546_tl_11" n="N011"/>sie allerorten einzieht, hat Herrn <hi rendition="#em">
-                  <rs type="person">Ullman</rs>
-               </hi>’s Concertgesell¬
-      <lb facs="#facs_1_region_1681900310255_1546_tl_12" n="N012"/>schaft sich in <rs type="place">Deutschland</rs> zahlreiche Gegner gemacht. Auch
+                  <rs type="person">Ullman</rs></hi>’s Concertgesell
+      <lb facs="#facs_1_region_1681900310255_1546_tl_12" break="no" n="N012"/>schaft sich in <rs type="place">Deutschland</rs> zahlreiche Gegner gemacht. Auch
       <lb facs="#facs_1_region_1681900310255_1546_tl_13" n="N013"/>hier hörten wir sie täglich mit den Schlagworten „Schwindel“
       <lb facs="#facs_1_region_1681900310255_1546_tl_14" n="N014"/>und „Humbug“ von vornherein und ungehört verdammen.
       <lb facs="#facs_1_line_1682530993020_658" n="N015"/>Die Sache ist wol werth, ruhiger betrachtet zu werden. Wir
@@ -1074,352 +1069,354 @@
       <lb facs="#facs_1_region_1681900310255_1546_tl_20" n="N020"/>Concert-Unternehmen vorgekommen, das dem Publicum für
       <lb facs="#facs_1_region_1681900310255_1546_tl_21" n="N021"/>so geringes Geld eine solche Serie glänzender Namen und
       <lb facs="#facs_1_region_1681900310255_1546_tl_22" n="N022"/>Leistungen geboten hätte. An Einem Abend genießen wir die
-      <lb facs="#facs_1_region_1681900310255_1546_tl_23" n="N023"/>vereinten Kunstleistungen von vier bis fünf Virtuosen <rs type="place">euro-</rs>
-               <lb facs="#facs_1_region_1681900310255_1546_tl_24" n="N024"/>
-               <rs type="place">päisch</rs>en Rufes, welche einzeln zu hören das Publicum sich
-      <lb facs="#facs_1_region_1681900310255_1546_tl_25" n="N025"/>sonst glücklich genug schätzte; an ihrer Spitze eine neue glän¬
-      <lb facs="#facs_1_region_1681900310255_1546_tl_26" n="N026"/>zende Berühmtheit, welche von Director <hi rendition="#em">
-                  <rs type="person">Hye</rs>
-               </hi> in <rs type="place">London</rs> für
+      <lb facs="#facs_1_region_1681900310255_1546_tl_23" n="N023"/>vereinten Kunstleistungen von vier bis fünf Virtuosen <rs type="place">euro
+      <lb facs="#facs_1_region_1681900310255_1546_tl_24" n="N024"/>
+                  päisch</rs>en Rufes, welche einzeln zu hören das Publicum sich
+      <lb facs="#facs_1_region_1681900310255_1546_tl_25" n="N025"/>sonst glücklich genug schätzte; an ihrer Spitze eine neue glän
+      <lb facs="#facs_1_region_1681900310255_1546_tl_26" break="no" n="N026"/>zende Berühmtheit, welche von Director <hi rendition="#em">
+                  <rs type="person">Hye</rs></hi> in 
+                  <rs type="place">London</rs> für
       <lb facs="#facs_1_region_1681900310255_1546_tl_27" n="N027"/>eine einzige Concertsaison die Kleinigkeit von 3000 Guineen
       <lb facs="#facs_1_region_1681900310255_1546_tl_28" n="N028"/>erhält. Wenn Herr <hi rendition="#em">
-                  <rs type="person">Ullman</rs>
-               </hi> uns diesen Reiz und jene Treff-
-      <lb facs="#facs_1_region_1681900310255_1546_tl_29" n="N029"/>lichkeit durch verdoppelte und verdreifachte Eintrittspreise ent-
-      <lb facs="#facs_1_region_1681900310255_1546_tl_30" n="N030"/>gelten ließe, dann könnte man — noch immer nicht von
-      <lb facs="#facs_1_region_1681900310255_1546_tl_31" n="N031"/>Schwindel sprechen, höchstens von einer Ausnützung des Pu-
-      <lb facs="#facs_1_region_1681900310255_1546_tl_32" n="N032"/>blicums. Nun hört aber das Publicum bei Herrn <rs type="person">Ullman</rs>
-               <lb facs="#facs_1_line_1682530692680_594" n="N033"/>die ganze illustre Künstlergesellschaft um den gewöhnlichen,</p>
+                  <rs type="person">Ullman</rs></hi> uns diesen Reiz und jene Treff
+      <lb facs="#facs_1_region_1681900310255_1546_tl_29" break="no" n="N029"/>lichkeit durch verdoppelte und verdreifachte Eintrittspreise ent
+      <lb facs="#facs_1_region_1681900310255_1546_tl_30" break="no" n="N030"/>gelten ließe, dann könnte man — noch immer nicht von
+      <lb facs="#facs_1_region_1681900310255_1546_tl_31" n="N031"/>Schwindel sprechen, höchstens von einer Ausnützung des Pu
+      <lb facs="#facs_1_region_1681900310255_1546_tl_32" break="no" n="N032"/>blicums. Nun hört aber das Publicum bei Herrn <rs type="person">Ullman</rs>
+               <lb facs="#facs_1_line_1682530692680_594" n="N033"/>die ganze illustre Künstlergesellschaft um den gewöhnlichen,
             <cb n="2"/>
-            <p>
                <lb facs="#facs_1_region_1681900313223_1549_tl_1" n="N001"/>einfachen Preis, den auch der mittelmäßigste Concertgeber
-      <lb facs="#facs_1_line_1682531193488_692" n="N002"/>für seine Person hier prätendirt. In diesem Zusammen¬
-      <lb facs="#facs_1_region_1681900313223_1549_tl_2" n="N003"/>wirken auserlesener Künstler liegt aber noch ein eigener, ein
+      <lb facs="#facs_1_line_1682531193488_692" n="N002"/>für seine Person hier prätendirt. In diesem Zusammen
+      <lb facs="#facs_1_region_1681900313223_1549_tl_2" break="no" n="N003"/>wirken auserlesener Künstler liegt aber noch ein eigener, ein
       <lb facs="#facs_1_region_1681900313223_1549_tl_3" n="N004"/>höherer Reiz, als dieser blos finanzielle. So oft noch zwei
       <lb facs="#facs_1_region_1681900313223_1549_tl_4" n="N005"/>berühmte Virtuosen gleichzeitig in <rs type="place">Wien</rs> concertirten, vernahm
-      <lb facs="#facs_1_line_1682530797088_618" n="N006"/>man auf Schritt und Tritt den Wunsch: Würden doch ein¬
-      <lb facs="#facs_1_region_1681900313223_1549_tl_5" n="N007"/>mal Beide zusammenspielen! In den seltenen Fällen, daß
-      <lb facs="#facs_1_region_1681900313223_1549_tl_6" n="N008"/>dies ausnahmsweise geschah, und <rs type="person">Liszt</rs> mit <rs type="person">Ernst</rs>, Clara
+      <lb facs="#facs_1_line_1682530797088_618" n="N006"/>man auf Schritt und Tritt den Wunsch: Würden doch ein
+      <lb facs="#facs_1_region_1681900313223_1549_tl_5" break="no" n="N007"/>mal Beide zusammenspielen! In den seltenen Fällen, daß
+      <lb facs="#facs_1_region_1681900313223_1549_tl_6" n="N008"/>dies ausnahmsweise geschah, und 
+                  <rs type="person">Liszt</rs> mit 
+                  <rs type="person">Ernst</rs>, Clara
       <lb facs="#facs_1_region_1681900313223_1549_tl_7" n="N009"/>
-               <rs type="person">Schumann</rs> mit Jenny <rs type="person">Lind</rs>, <rs type="person">Vieuxtemps</rs> mit <rs type="person">Dreyschock</rs> aus
+               <rs type="person">Schumann</rs> mit Jenny 
+                  <rs type="person">Lind</rs>, 
+               <rs type="person">Vieuxtemps</rs> mit 
+                  <rs type="person">Dreyschock</rs> aus
       <lb facs="#facs_1_region_1681900313223_1549_tl_8" n="N010"/>Collegialität oder zu wohlthätigen Zwecken einmal ein Duo
       <lb facs="#facs_1_region_1681900313223_1549_tl_9" n="N011"/>ausführten, wurde der Saal förmlich gestürmt. Der Grund,
       <lb facs="#facs_1_region_1681900313223_1549_tl_10" n="N012"/>weßhalb sich trotzdem niemals zwei Virtuosen zu gemeinsamen
       <lb facs="#facs_1_region_1681900313223_1549_tl_11" n="N013"/>Concertreisen verbanden, war: ihr Stolz. Wer mochte Gold
-      <lb facs="#facs_1_region_1681900313223_1549_tl_12" n="N014"/>und Beifall mit einem Nebenbuhler theilen? Eine Folge die-
-      <lb facs="#facs_1_region_1681900313223_1549_tl_13" n="N015"/>ser Isolirung war, daß man bei jedem Concert eines be-
-      <lb facs="#facs_1_region_1681900313223_1549_tl_14" n="N016"/>rühmten Virtuosen stets eine Anzahl sogenannter Zwischen-
-      <lb facs="#facs_1_line_1682530993020_657" n="N017"/>oder Ausfüllnummern in den Kauf bekam, welche durch ihre
+      <lb facs="#facs_1_region_1681900313223_1549_tl_12" n="N014"/>und Beifall mit einem Nebenbuhler theilen? Eine Folge die
+      <lb facs="#facs_1_region_1681900313223_1549_tl_13" break="no" n="N015"/>ser Isolirung war, daß man bei jedem Concert eines be
+      <lb facs="#facs_1_region_1681900313223_1549_tl_14" break="no" n="N016"/>rühmten Virtuosen stets eine Anzahl sogenannter Zwischen-
+      <lb facs="#facs_1_line_1682530993020_657"  n="N017"/>oder Ausfüllnummern in den Kauf bekam, welche durch ihre
       <lb facs="#facs_1_region_1681900313223_1549_tl_15" n="N018"/>Mittelmäßigkeit gehörig abstechen mußten. Dieses von den
       <lb facs="#facs_1_region_1681900313223_1549_tl_16" n="N019"/>Concertgebern so schwer zu beschaffende und von den Hörern
       <lb facs="#facs_1_region_1681900313223_1549_tl_17" n="N020"/>so wenig geachtete Füllwerk ist in <hi rendition="#em">
-                  <rs type="person">Ullman</rs>
-               </hi>’s Concerten
+                  <rs type="person">Ullman</rs></hi>’s Concerten
       <lb facs="#facs_1_line_1682531475228_726" n="N021"/>gänzlich beseitigt, da jede Nummer von einem ausgezeichneten
-      <lb facs="#facs_1_region_1681900313223_1549_tl_18" n="N022"/>Künstler ausgeführt wird, so daß wenigstens die gleich vor¬
-      <lb facs="#facs_1_region_1681900313223_1549_tl_19" n="N023"/>treffliche Exequirung <hi rendition="#em">aller</hi> Musikstücke eine gewisse Har¬
-      <lb facs="#facs_1_region_1681900313223_1549_tl_20" n="N024"/>monie über das etwas bunte Programm breitet. Die Associa¬
-      <lb facs="#facs_1_region_1681900313223_1549_tl_21" n="N025"/>tion berühmter Virtuosen hat ihre Zukunft; die „Gesammt-
+      <lb facs="#facs_1_region_1681900313223_1549_tl_18" n="N022"/>Künstler ausgeführt wird, so daß wenigstens die gleich vor
+      <lb facs="#facs_1_region_1681900313223_1549_tl_19" break="no" n="N023"/>treffliche Exequirung <hi rendition="#em">aller</hi> Musikstücke eine gewisse Har
+      <lb facs="#facs_1_region_1681900313223_1549_tl_20" break="no" n="N024"/>monie über das etwas bunte Programm breitet. Die Associa
+      <lb facs="#facs_1_region_1681900313223_1549_tl_21" break="no" n="N025"/>tion berühmter Virtuosen hat ihre Zukunft; die „Gesammt-
       <lb facs="#facs_1_region_1681900313223_1549_tl_22" n="N026"/>gastspiele“ namhafter Schauspieler sind eine analoge moderne
-      <lb facs="#facs_1_region_1681900313223_1549_tl_23" n="N027"/>Erscheinung.
-      <lb facs="#facs_1_region_1681900313223_1549_tl_24" n="N028"/>Ein Umstand, der viele Musikfreunde gegen die <rs type="person" continued="true">Ull¬</rs>
-               <lb facs="#facs_1_region_1681900313223_1549_tl_25" n="N029"/>
-               <rs type="person" continued="true">man</rs>’sche Unternehmung einnimmt, ist die eigenthümliche Haft
+      <lb facs="#facs_1_region_1681900313223_1549_tl_23" n="N027"/>Erscheinung.</p>
+               <p>
+      <lb facs="#facs_1_region_1681900313223_1549_tl_24" n="N028"/>Ein Umstand, der viele Musikfreunde gegen die <rs type="person">Ull
+      <lb facs="#facs_1_region_1681900313223_1549_tl_25" n="N029"/>
+                  man</rs>’sche Unternehmung einnimmt, ist die eigenthümliche Haft
       <lb facs="#facs_1_region_1681900313223_1549_tl_26" n="N030"/>des Erwerbes, das schnelle Reisetempo, in dem die Gesellschaft
       <lb facs="#facs_1_region_1681900313223_1549_tl_27" n="N031"/>
                <rs type="place">Deutschland</rs> nach allen Richtungen überzieht, in einem Monat
       <lb facs="#facs_1_region_1681900313223_1549_tl_28" n="N032"/>mehr Concerte gebend, als früher ein Virtuose in der ganzen
-      <lb facs="#facs_1_region_1681900313223_1549_tl_29" n="N033"/>Saison. Das hat allerdings wenig Gemüthliches und mög¬
-      <lb facs="#facs_1_region_1681900313223_1549_tl_30" n="N034"/>licherweise viel Unangenehmes — für die <hi rendition="#em">Künstler</hi>. Bleiben
-      <lb facs="#facs_1_line_1682530692680_593" n="N035"/>wir aber beim Publicum. Was verliert dieses durch den</p>
+      <lb facs="#facs_1_region_1681900313223_1549_tl_29" n="N033"/>Saison. Das hat allerdings wenig Gemüthliches und mög
+      <lb facs="#facs_1_region_1681900313223_1549_tl_30" break="no" n="N034"/>licherweise viel Unangenehmes — für die <hi rendition="#em">Künstler</hi>. Bleiben
+      <lb facs="#facs_1_line_1682530692680_593" n="N035"/>wir aber beim Publicum. Was verliert dieses durch den
             <cb n="3"/>
-            <p>
                <lb facs="#facs_1_region_1681900316006_1552_tl_1" n="N001"/>Umstand, daß die Künstler, welche es heute entzücken, vor
-      <lb facs="#facs_1_line_1682531193488_691" n="N002"/>wenig Tagen noch in <rs type="place">Berlin</rs> oder <rs type="place">München</rs> concertirt haben
-      <lb facs="#facs_1_region_1681900316006_1552_tl_3" n="N003"/>und bereits für die nächste Woche in <rs type="place">Graz</rs> oder <rs type="place">Pest</rs> ange¬
-      <lb facs="#facs_1_region_1681900316006_1552_tl_4" n="N004"/>kündigt sind? Das sind heutzutage Spazierfahrten, vor wenig
-      <lb facs="#facs_1_region_1681900316006_1552_tl_5" n="N005"/>Decennien waren es Reisen. Wenn wir in der Jugend¬
-      <lb facs="#facs_1_region_1681900316006_1552_tl_6" n="N006"/>geschichte, der patriarchalischen eisenbahnlosen, des Virtuo-
-      <lb facs="#facs_1_region_1681900316006_1552_tl_7" n="N007"/>senthums blättern und die unaufhörlichen weiten Reisen eines
-      <lb facs="#facs_1_region_1681900316006_1552_tl_8" n="N008"/>
-               <hi rendition="#em">
-                  <rs type="person">Lolly</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Tarnovich</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Steibelt</rs>
-               </hi>, später noch eines <hi rendition="#em">
-                  <rs type="person">Hummel</rs>
-               </hi>
-               <lb facs="#facs_1_region_1681900316006_1552_tl_9" n="N009"/>und <hi rendition="#em">
-                  <rs type="person">Paganini</rs>
-               </hi> bedenken, so werden wir kaum zweifelhaft
-      <lb facs="#facs_1_region_1681900316006_1552_tl_10" n="N010"/>sein, wer um des Concertirens willen mehr Reiseplagen er¬
-      <lb facs="#facs_1_region_1681900316006_1552_tl_11" n="N011"/>duldet habe, die Alten oder die Jungen.
+      <lb facs="#facs_1_line_1682531193488_691" n="N002"/>wenig Tagen noch in 
+                     <rs type="place">Berlin</rs> oder 
+                        <rs type="place">München</rs> concertirt haben
+      <lb facs="#facs_1_region_1681900316006_1552_tl_3" n="N003"/>und bereits für die nächste Woche in 
+                     <rs type="place">Graz</rs> oder 
+                        <rs type="place">Pest</rs> ange
+      <lb facs="#facs_1_region_1681900316006_1552_tl_4" break="no" n="N004"/>kündigt sind? Das sind heutzutage Spazierfahrten, vor wenig
+      <lb facs="#facs_1_region_1681900316006_1552_tl_5" n="N005"/>Decennien waren es Reisen. Wenn wir in der Jugend
+      <lb facs="#facs_1_region_1681900316006_1552_tl_6" break="no" n="N006"/>geschichte, der patriarchalischen eisenbahnlosen, des Virtuo
+      <lb facs="#facs_1_region_1681900316006_1552_tl_7" break="no" n="N007"/>senthums blättern und die unaufhörlichen weiten Reisen eines
+      <lb facs="#facs_1_region_1681900316006_1552_tl_8" n="N008"/><hi rendition="#em">
+                  <rs type="person">Lolly</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Tarnovich</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Steibelt</rs></hi>, später noch eines <hi rendition="#em">
+                  <rs type="person">Hummel</rs></hi>
+      <lb facs="#facs_1_region_1681900316006_1552_tl_9" n="N009"/>und <hi rendition="#em">
+                  <rs type="person">Paganini</rs></hi> bedenken, so werden wir kaum zweifelhaft
+      <lb facs="#facs_1_region_1681900316006_1552_tl_10" n="N010"/>sein, wer um des Concertirens willen mehr Reiseplagen er
+      <lb facs="#facs_1_region_1681900316006_1552_tl_11" break="no" n="N011"/>duldet habe, die Alten oder die Jungen.</p>
+               <p>
       <lb facs="#facs_1_region_1681900316006_1552_tl_12" n="N012"/>Aber die entsetzlichen Reclamen dieses Herrn <hi rendition="#em">
-                  <rs type="person">Ullman</rs>
-               </hi>!
+                  <rs type="person">Ullman</rs></hi>!
       <lb facs="#facs_1_region_1681900316006_1552_tl_13" n="N013"/>Auch damit ist’s nicht so arg. Wir haben bis jetzt in den
       <lb facs="#facs_1_region_1681900316006_1552_tl_14" n="N014"/>
                <rs type="bibl">Wiener Blättern</rs> zwar eine Unmasse Anzeigen und Inserate
-      <lb facs="#facs_1_region_1681900316006_1552_tl_15" n="N015"/>des Herrn <rs type="person">Ullman</rs>, aber keine einzige unbescheidene Anprei¬
-      <lb facs="#facs_1_region_1681900316006_1552_tl_16" n="N016"/>sung seiner Künstler angetroffen. Herr <rs type="person">Ullman</rs> braucht, um
+      <lb facs="#facs_1_region_1681900316006_1552_tl_15" n="N015"/>des Herrn <rs type="person">Ullman</rs>, aber keine einzige unbescheidene Anprei
+      <lb facs="#facs_1_region_1681900316006_1552_tl_16" break="no" n="N016"/>sung seiner Künstler angetroffen. Herr 
+                     <rs type="person">Ullman</rs> braucht, um
       <lb facs="#facs_1_region_1681900316006_1552_tl_17" n="N017"/>auch nur seine Kosten zu decken, ein außerordentlich großes
-      <lb facs="#facs_1_region_1681900316006_1552_tl_18" n="N018"/>Publicum, und ein solches läßt sich ohne zahlreiche und auf-
-      <lb facs="#facs_1_region_1681900316006_1552_tl_19" n="N019"/>fallende Annoncen nicht herbeilocken. Eine für Concertzwecke
+      <lb facs="#facs_1_region_1681900316006_1552_tl_18" n="N018"/>Publicum, und ein solches läßt sich ohne zahlreiche und auf
+      <lb facs="#facs_1_region_1681900316006_1552_tl_19" break="no" n="N019"/>fallende Annoncen nicht herbeilocken. Eine für Concertzwecke
       <lb facs="#facs_1_region_1681900316006_1552_tl_20" n="N020"/>bisher unerhörte Benützung der Publicität ist noch immer
       <lb facs="#facs_1_line_1682531475228_725" n="N021"/>keine „Reclame“ im tadelnden Sinn. Wir wollen dies gar
       <lb facs="#facs_1_region_1681900316006_1552_tl_22" n="N022"/>nicht der Tugend des schlauen Impresario zugute schreiben,
       <lb facs="#facs_1_region_1681900316006_1552_tl_23" n="N023"/>offenbar kennt er <rs type="place">Deutschland</rs> hinlänglich, um zu wissen, daß
-      <lb facs="#facs_1_region_1681900316006_1552_tl_24" n="N024"/>man mit <rs type="place">englisch</rs>en und <rs type="place">amerikanisch</rs>en Puffs die Meinung
-      <lb facs="#facs_1_region_1681900316006_1552_tl_25" n="N025"/>des Publicums und der Kritik in <rs type="place">Wien</rs>, <rs type="place">Berlin</rs>, <rs type="place">München</rs>
-               <lb facs="#facs_1_region_1681900316006_1552_tl_26" n="N026"/>nicht gewinnt, vielmehr sich sie entfremdet. Von <rs type="person">Ullman</rs>’s
-      <lb facs="#facs_1_region_1681900316006_1552_tl_27" n="N027"/>sogenannten Reclamen kennen wir blos eine in <rs type="place">Berlin</rs> ge¬
-      <lb facs="#facs_1_region_1681900316006_1552_tl_28" n="N028"/>druckte Broschüre von wenig Seiten: eine kleine Sammlung
-      <lb facs="#facs_1_region_1681900316006_1552_tl_29" n="N029"/>von Recensionen über <hi rendition="#em">Carlotta <rs type="person">Patti</rs>
-               </hi>, größtentheils aus
+      <lb facs="#facs_1_region_1681900316006_1552_tl_24" n="N024"/>man mit 
+                     <rs type="place">englisch</rs>en und 
+                        <rs type="place">amerikanisch</rs>en Puffs die Meinung
+      <lb facs="#facs_1_region_1681900316006_1552_tl_25" n="N025"/>des Publicums und der Kritik in 
+                     <rs type="place">Wien</rs>, 
+                     <rs type="place">Berlin</rs>, 
+                     <rs type="place">München</rs>
+      <lb facs="#facs_1_region_1681900316006_1552_tl_26" n="N026"/>nicht gewinnt, vielmehr sich sie entfremdet. Von <rs type="person">Ullman</rs>’s
+      <lb facs="#facs_1_region_1681900316006_1552_tl_27" n="N027"/>sogenannten Reclamen kennen wir blos eine in <rs type="place">Berlin</rs> ge
+      <lb facs="#facs_1_region_1681900316006_1552_tl_28" break="no" n="N028"/>druckte Broschüre von wenig Seiten: eine kleine Sammlung
+      <lb facs="#facs_1_region_1681900316006_1552_tl_29" n="N029"/>von Recensionen über <hi rendition="#em">Carlotta 
+            <rs type="person">Patti</rs></hi>, größtentheils aus
       <lb facs="#facs_1_region_1681900316006_1552_tl_30" n="N030"/>der Feder bekannter und allgemein geachteter Kritiker. In
       <lb facs="#facs_1_region_1681900316006_1552_tl_31" n="N031"/>einigen einleitenden Worten spricht Herr <rs type="person">Ullman</rs> den Wunsch
       <lb facs="#facs_1_region_1681900316006_1552_tl_32" n="N032"/>aus, der Hörer möge, um seine Erwartungen nicht getäuscht
       <lb facs="#facs_1_line_1682532174782_811" n="N033"/>zu sehen, von dieser Sängerin ja nicht Vorzüge erwarten,
       <lb facs="#facs_1_line_1682532191198_815" n="N034"/>welche ihr versagt sind. „Leidenschaftlicher Ausdruck“ sei ihr
-      <lb facs="#facs_1_line_1682530691248_587" n="N035"/>fremd, sie sei „keine dramatische Sängerin“ und habe ihren</p>
+      <lb facs="#facs_1_line_1682530691248_587" n="N035"/>fremd, sie sei „keine dramatische Sängerin“ und habe ihren
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
                <lb facs="#facs_2_region_1681900335624_1567_tl_1" n="N001"/>großen Ruf „nicht durch das, was die strenge Kritik veredelte
       <lb facs="#facs_2_line_1682535665333_830" n="N002"/>Kunst nennt, wie eine <hi rendition="#em">
-                  <rs type="person">Sonntag</rs>
-               </hi> oder <hi rendition="#em">Jenny <rs type="person">Lind</rs>
-               </hi>“, son-
-      <lb facs="#facs_2_region_1681900335624_1567_tl_4" n="N003"/>dern als eine Specialität erlangt. Das ist gewiß nichts we-
-      <lb facs="#facs_2_region_1681900335624_1567_tl_5" n="N004"/>niger als eine freche Schönfärberei.
-      <lb facs="#facs_2_region_1681900335624_1567_tl_6" n="N005"/>In <rs type="place">England</rs> und <rs type="place">Amerika</rs>, wo die öffentliche Aufmerk¬
-      <lb facs="#facs_2_region_1681900335624_1567_tl_7" n="N006"/>samkeit, gewohnt, mit Schüreifen und Thorbalken gekitzelt zu
+                  <rs type="person">Sonntag</rs></hi> oder <hi rendition="#em">Jenny 
+                        <rs type="person">Lind</rs></hi>“, son
+      <lb facs="#facs_2_region_1681900335624_1567_tl_4" break="no" n="N003"/>dern als eine Specialität erlangt. Das ist gewiß nichts we
+      <lb facs="#facs_2_region_1681900335624_1567_tl_5" break="no" n="N004"/>niger als eine freche Schönfärberei.</p>
+               <p>
+      <lb facs="#facs_2_region_1681900335624_1567_tl_6" n="N005"/>In <rs type="place">England</rs> und <rs type="place">Amerika</rs>, wo die öffentliche Aufmerk
+      <lb facs="#facs_2_region_1681900335624_1567_tl_7" break="no" n="N006"/>samkeit, gewohnt, mit Schüreifen und Thorbalken gekitzelt zu
       <lb facs="#facs_2_line_1682535722997_841" n="N007"/>werden, die gröbsten Mittel der Reclame erwartet, wo selbst
       <lb facs="#facs_2_region_1681900335624_1567_tl_9" n="N008"/>der Gebildete den Champagner nicht ohne Branntweinzusatz
       <lb facs="#facs_2_region_1681900335624_1567_tl_10" n="N009"/>mag, geschweige denn den Concertzettel — dort versteht Herr
       <lb facs="#facs_2_line_1682535812317_867" n="N010"/>
                <rs type="person">Ullman</rs> allerdings stärkere Register aufzuziehen. In <hi rendition="#em">
-                  <rs type="place">Amerika</rs>
-               </hi>
-               <lb facs="#facs_2_region_1681900335624_1567_tl_12" n="N011"/>fand sein Erfindungsgeist das richtige Terrain; was er dort
+                  <rs type="place">Amerika</rs></hi>
+      <lb facs="#facs_2_region_1681900335624_1567_tl_12" n="N011"/>fand sein Erfindungsgeist das richtige Terrain; was er dort
       <lb facs="#facs_2_region_1681900335624_1567_tl_13" n="N012"/>Alles ausheckte, um Geld und Ruhm zu machen, erscheint
       <lb facs="#facs_2_region_1681900335624_1567_tl_14" n="N013"/>uns Kindern der alten Welt mitunter geradezu unglaublich.
       <lb facs="#facs_2_region_1681900335624_1567_tl_15" n="N014"/>Als die berühmte <hi rendition="#em">
-                  <rs type="person">Sonntag</rs>
-               </hi>, welche von <rs type="person">Ullman</rs> nach
+                  <rs type="person">Sonntag</rs></hi>, welche von 
+                     <rs type="person">Ullman</rs> nach
       <lb facs="#facs_2_region_1681900335624_1567_tl_16" n="N015"/>
-               <rs type="place">Amerika</rs> engagirt war, in <rs type="place">Newyork</rs> eintreffen sollte, beschlossen
+               <rs type="place">Amerika</rs> engagirt war, in 
+                     <rs type="place">Newyork</rs> eintreffen sollte, beschlossen
       <lb facs="#facs_2_region_1681900335624_1567_tl_17" n="N016"/>die Musiker dieser Stadt, ihr eine Serenade zu bringen.
       <lb facs="#facs_2_region_1681900335624_1567_tl_18" n="N017"/>
                <rs type="person">Ullman</rs> erbot sich dem Comité dieser Musiker, die Serenade
-      <lb facs="#facs_2_region_1681900335624_1567_tl_19" n="N018"/>selbst leiten und die Kosten tragen zu wollen. Er verkün-
-      <lb facs="#facs_2_region_1681900335624_1567_tl_20" n="N019"/>digte sofort durch Inserate und Placate an den Straßenecken,
+      <lb facs="#facs_2_region_1681900335624_1567_tl_19" n="N018"/>selbst leiten und die Kosten tragen zu wollen. Er verkün
+      <lb facs="#facs_2_region_1681900335624_1567_tl_20" break="no" n="N019"/>digte sofort durch Inserate und Placate an den Straßenecken,
       <lb facs="#facs_2_region_1681900335624_1567_tl_21" n="N020"/>daß die von den <rs type="place">Newyork</rs>er Musikern zur Begrüßung der
       <lb facs="#facs_2_region_1681900335624_1567_tl_22" n="N021"/>großen Sängerin vorbereitete Serenade um Mitternacht bei
       <lb facs="#facs_2_region_1681900335624_1567_tl_23" n="N022"/>Fackelschein mit einem Orchester von 400 Musikern und
       <lb facs="#facs_2_region_1681900335624_1567_tl_24" n="N023"/>1000 Sängern stattfinden werde. Die Herren vom Comité
       <lb facs="#facs_2_region_1681900335624_1567_tl_25" n="N024"/>eröffneten ganz erschreckt Herrn <rs type="place">Ullman</rs>, daß man in ganz
       <lb facs="#facs_2_region_1681900335624_1567_tl_26" n="N025"/>
-               <rs type="place">Newyork</rs> kaum ein Orchester von 150 Mann zusammenbrin-
-      <lb facs="#facs_2_region_1681900335624_1567_tl_27" n="N026"/>gen könne und daß seine Annonce sie Alle der Lächerlichkeit
-      <lb facs="#facs_2_region_1681900335624_1567_tl_28" n="N027"/>preisgebe. <rs type="person">Ullman</rs> beschwichtigt das Comité mit der Mit¬
-      <lb facs="#facs_2_region_1681900335624_1567_tl_29" n="N028"/>theilung, er habe die sämmtlichen Orchester von <rs type="place">Boston</rs>,
+               <rs type="place">Newyork</rs> kaum ein Orchester von 150 Mann zusammenbrin
+      <lb facs="#facs_2_region_1681900335624_1567_tl_27" break="no" n="N026"/>gen könne und daß seine Annonce sie Alle der Lächerlichkeit
+      <lb facs="#facs_2_region_1681900335624_1567_tl_28" n="N027"/>preisgebe. <rs type="person">Ullman</rs> beschwichtigt das Comité mit der Mit
+      <lb facs="#facs_2_region_1681900335624_1567_tl_29" break="no" n="N028"/>theilung, er habe die sämmtlichen Orchester von 
+                     <rs type="place">Boston</rs>,
       <lb facs="#facs_2_region_1681900335624_1567_tl_30" n="N029"/>
-               <rs type="place">Baltimore</rs> und <rs type="place">Philadelphia</rs> telegraphisch verschrieben und
-      <lb facs="#facs_2_region_1681900335624_1567_tl_31" n="N030"/>scheue für den gedachten Zweck gar keine Unkosten. Das Re¬
-      <lb facs="#facs_2_region_1681900335624_1567_tl_32" n="N031"/>sultat dieses Manövers war, daß 200,000 Menschen, begierig,
-      <lb facs="#facs_2_region_1681900335624_1567_tl_33" n="N032"/>dies Gratisconcert zu hören, zusammenliefen und alle Zu¬
-      <lb facs="#facs_2_region_1681900335624_1567_tl_34" n="N033"/>gänge zum Unionplatz, an welchem die <rs type="person">Sonntag</rs> wohnte, der-
-      <lb facs="#facs_2_region_1681900335624_1567_tl_35" n="N034"/>maßen verstopften, daß nicht einmal die 80 wirklich engagir-
-      <lb facs="#facs_2_region_1681900335624_1567_tl_36" n="N035"/>ten Musiker sich hindurchdrängen konnten. Es entstand ein
+               <rs type="place">Baltimore</rs> und 
+                     <rs type="place">Philadelphia</rs> telegraphisch verschrieben und
+      <lb facs="#facs_2_region_1681900335624_1567_tl_31" n="N030"/>scheue für den gedachten Zweck gar keine Unkosten. Das Re
+      <lb facs="#facs_2_region_1681900335624_1567_tl_32" break="no" n="N031"/>sultat dieses Manövers war, daß 200,000 Menschen, begierig,
+      <lb facs="#facs_2_region_1681900335624_1567_tl_33" n="N032"/>dies Gratisconcert zu hören, zusammenliefen und alle Zu
+      <lb facs="#facs_2_region_1681900335624_1567_tl_34" break="no" n="N033"/>gänge zum Unionplatz, an welchem die <rs type="person">Sonntag</rs> wohnte, der
+      <lb facs="#facs_2_region_1681900335624_1567_tl_35" break="no" n="N034"/>maßen verstopften, daß nicht einmal die 80 wirklich engagir
+      <lb facs="#facs_2_region_1681900335624_1567_tl_36" break="no" n="N035"/>ten Musiker sich hindurchdrängen konnten. Es entstand ein
       <lb facs="#facs_2_region_1681900335624_1567_tl_37" n="N036"/>fürchterliches Geschrei und Gepfeife, aber Herr <rs type="person">Ullman</rs> hatte
-      <lb facs="#facs_2_line_1682536043104_921" n="N037"/>seinen Zweck erreicht, er hatte 200.000 Menschen auf die</p>
+      <lb facs="#facs_2_line_1682536043104_921" n="N037"/>seinen Zweck erreicht, er hatte 200.000 Menschen auf die
             <cb n="5"/>
-            <p>
                <lb facs="#facs_2_region_1681900338672_1570_tl_1" n="N001"/>Beine gebracht, die von der <rs type="person">Sonntag</rs> redeten. Solche Spässe,
-      <lb facs="#facs_2_region_1681900338672_1570_tl_2" n="N002"/>in <rs type="place">Amerika</rs> bewundert, sind bei uns gottlob unmöglich.
+      <lb facs="#facs_2_region_1681900338672_1570_tl_2" n="N002"/>in <rs type="place">Amerika</rs> bewundert, sind bei uns gottlob unmöglich.</p>
+               <p>
       <lb facs="#facs_2_region_1681900338672_1570_tl_3" n="N003"/>Wie kommt es nur, wird man fragen, daß die als
-      <lb facs="#facs_2_region_1681900338672_1570_tl_4" n="N004"/>Dame und Künstlerin so vornehme <rs type="person">Sonntag</rs>, daß die ausge¬
-      <lb facs="#facs_2_region_1681900338672_1570_tl_5" n="N005"/>zeichnetsten Virtuosen nach ihr sich gern diesem Unternehmer
-      <lb facs="#facs_2_region_1681900338672_1570_tl_6" n="N006"/>engagirten? Diese zweite Frage, das Verhältniß der con¬
-      <lb facs="#facs_2_line_1682535722997_840" n="N007"/>certirenden Künstler zu einem mit ihrem Talent speculirenden
+      <lb facs="#facs_2_region_1681900338672_1570_tl_4" n="N004"/>Dame und Künstlerin so vornehme <rs type="person">Sonntag</rs>, daß die ausge
+      <lb facs="#facs_2_region_1681900338672_1570_tl_5" break="no" n="N005"/>zeichnetsten Virtuosen nach ihr sich gern diesem Unternehmer
+      <lb facs="#facs_2_region_1681900338672_1570_tl_6" n="N006"/>engagirten? Diese zweite Frage, das Verhältniß der con
+      <lb facs="#facs_2_line_1682535722997_840" break="no" n="N007"/>certirenden Künstler zu einem mit ihrem Talent speculirenden
       <lb facs="#facs_2_region_1681900338672_1570_tl_7" n="N008"/>Unternehmer, ist etwas bedenklicher, als die früher beleuchtete
       <lb facs="#facs_2_region_1681900338672_1570_tl_8" n="N009"/>über das Interesse des Publicums. Wir gestehen unverholen,
       <lb facs="#facs_2_line_1682535812317_866" n="N010"/>daß diese Art künstlerischer Leibeigenschaft uns stets einen
-      <lb facs="#facs_2_region_1681900338672_1570_tl_9" n="N011"/>unangenehmen Eindruck gemacht hat, und daß wir diese sub-
-      <lb facs="#facs_2_region_1681900338672_1570_tl_10" n="N012"/>jective Empfindung niemals ganz verloren haben, noch ver-
-      <lb facs="#facs_2_region_1681900338672_1570_tl_11" n="N013"/>lieren werden. Gerade deßhalb hielten wir es eben für
+      <lb facs="#facs_2_region_1681900338672_1570_tl_9" n="N011"/>unangenehmen Eindruck gemacht hat, und daß wir diese sub
+      <lb facs="#facs_2_region_1681900338672_1570_tl_10" break="no" n="N012"/>jective Empfindung niemals ganz verloren haben, noch ver
+      <lb facs="#facs_2_region_1681900338672_1570_tl_11" break="no" n="N013"/>lieren werden. Gerade deßhalb hielten wir es eben für
       <lb facs="#facs_2_region_1681900338672_1570_tl_12" n="N014"/>Pflicht, die durch ihre Neuheit uns frappirende und dadurch
       <lb facs="#facs_2_region_1681900338672_1570_tl_13" n="N015"/>vielleicht ungerecht stimmende Erscheinung der modernen
       <lb facs="#facs_2_line_1682536190336_952" n="N016"/>Associations-Concerte möglichst unbefangen von beiden Seiten
       <lb facs="#facs_2_region_1681900338672_1570_tl_15" n="N017"/>zu betrachten. Fragt man die engagirten Künstler selbst, so
       <lb facs="#facs_2_region_1681900338672_1570_tl_16" n="N018"/>vernimmt man fast durchhaus, daß sie sich dabei wohl und
-      <lb facs="#facs_2_region_1681900338672_1570_tl_17" n="N019"/>zufrieden befinden. Sie beziehen, unabhängig von den Tages-
-      <lb facs="#facs_2_region_1681900338672_1570_tl_18" n="N020"/>einnahmen, einen sehr namhaften fixen Gehalt und den voll¬
-      <lb facs="#facs_2_region_1681900338672_1570_tl_19" n="N021"/>ständigen Ersatz der Reisekosten. In unserer Zeit, wo die
+      <lb facs="#facs_2_region_1681900338672_1570_tl_17" n="N019"/>zufrieden befinden. Sie beziehen, unabhängig von den Tages
+      <lb facs="#facs_2_region_1681900338672_1570_tl_18" break="no" n="N020"/>einnahmen, einen sehr namhaften fixen Gehalt und den voll
+      <lb facs="#facs_2_region_1681900338672_1570_tl_19" break="no" n="N021"/>ständigen Ersatz der Reisekosten. In unserer Zeit, wo die
       <lb facs="#facs_2_region_1681900338672_1570_tl_20" n="N022"/>Virtuosen-Concerte längst eine undankbare und mißliche
       <lb facs="#facs_2_region_1681900338672_1570_tl_21" n="N023"/>Speculation geworden sind, muß dem Künstler ein sicheres
       <lb facs="#facs_2_region_1681900338672_1570_tl_22" n="N024"/>Budget sehr willkommen sein. Es ist für den einzelnen
       <lb facs="#facs_2_region_1681900338672_1570_tl_23" n="N025"/>Virtuosen gar kostspielig, gegenwärtig Concerte zu geben, es
-      <lb facs="#facs_2_region_1681900338672_1570_tl_24" n="N026"/>ist aber auch nebenbei sehr mühevoll, zeitraubend und ver-
-      <lb facs="#facs_2_region_1681900338672_1570_tl_25" n="N027"/>drießlich, all die nothwendigen Vorbereitungen dazu selbst zu
+      <lb facs="#facs_2_region_1681900338672_1570_tl_24" n="N026"/>ist aber auch nebenbei sehr mühevoll, zeitraubend und ver
+      <lb facs="#facs_2_region_1681900338672_1570_tl_25" break="no" n="N027"/>drießlich, all die nothwendigen Vorbereitungen dazu selbst zu
       <lb facs="#facs_2_region_1681900338672_1570_tl_26" n="N028"/>treffen. „Ich würde mit Vergnügen jedes Concert dreimal
       <lb facs="#facs_2_region_1681900338672_1570_tl_27" n="N029"/>hinter einander spielen,“ so sagte uns mehr als Ein Virtuose,
       <lb facs="#facs_2_region_1681900338672_1570_tl_28" n="N030"/>„wäre ich dadurch der Mühen und Sorgen enthoben, die mir
       <lb facs="#facs_2_region_1681900338672_1570_tl_29" n="N031"/>das Arrangement eines einzigen verursacht.“ Diesen Wunsch
       <lb facs="#facs_2_region_1681900338672_1570_tl_30" n="N032"/>erfüllt die <rs type="person">Ullman</rs>’sche Unternehmung vollständig; die Künstler
-      <lb facs="#facs_2_region_1681900338672_1570_tl_31" n="N033"/>spielen etwas öfter als sonst, sind aber aller Sorgen ent-
-      <lb facs="#facs_2_line_1682536378762_989" n="N034"/>hoben. Der Unternehmer ist ihr Reisemarschall, Secretär
-      <lb facs="#facs_2_region_1681900338672_1570_tl_32" n="N035"/>und Bankier.
+      <lb facs="#facs_2_region_1681900338672_1570_tl_31" n="N033"/>spielen etwas öfter als sonst, sind aber aller Sorgen ent
+      <lb facs="#facs_2_line_1682536378762_989" break="no" n="N034"/>hoben. Der Unternehmer ist ihr Reisemarschall, Secretär
+      <lb facs="#facs_2_region_1681900338672_1570_tl_32" n="N035"/>und Bankier.</p>
+               <p>
       <lb facs="#facs_2_region_1681900338672_1570_tl_33" n="N036"/>Die in <rs type="place">englisch</rs>em Geist und lakonischer Kürze abgefaßten
-      <lb facs="#facs_2_line_1682536441043_1004" n="N037"/>Contracte kommen uns Deutschen etwas seltsam vor. „Herr</p>
+      <lb facs="#facs_2_line_1682536441043_1004" n="N037"/>Contracte kommen uns Deutschen etwas seltsam vor. „Herr
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1681900341554_1573_tl_1" n="N001"/>
-               <hi rendition="#em">
-                  <rs type="person">Vieuxtemps</rs>
-               </hi> oder Herr <hi rendition="#em">
-                  <rs type="person">Jaëll</rs>
-               </hi> verpflichtet sich für sechs
+               <lb facs="#facs_2_region_1681900341554_1573_tl_1" n="N001"/><hi rendition="#em">
+                  <rs type="person">Vieuxtemps</rs></hi> oder Herr <hi rendition="#em">
+                  <rs type="person">Jaëll</rs></hi> verpflichtet sich für sechs
       <lb facs="#facs_2_region_1681900341554_1573_tl_2" n="N002"/>Monate oder ein Jahr in Herrn <rs type="person">Ullman</rs>’s Concerten zu
       <lb facs="#facs_2_region_1681900341554_1573_tl_3" n="N003"/>spielen, wo und wann es diesem zweckmäßig erscheint, gegen
       <lb facs="#facs_2_region_1681900341554_1573_tl_4" n="N004"/>ein monatliches Honorar von so und so viel tausend Francs
       <lb facs="#facs_2_region_1681900341554_1573_tl_5" n="N005"/>und Vergütung der Reisekosten.“ Fiele es Herrn <rs type="person">Ullman</rs>
-               <lb facs="#facs_2_region_1681900341554_1573_tl_6" n="N006"/>ein, drei Concerte an einem Tag zu geben, so hätten Herr
+      <lb facs="#facs_2_region_1681900341554_1573_tl_6" n="N006"/>ein, drei Concerte an einem Tag zu geben, so hätten Herr
       <lb facs="#facs_2_region_1681900341554_1573_tl_7" n="N007"/>
-               <rs type="person">Vieuxtemps</rs> und Herr <rs type="person">Jaëll</rs> nicht das leiseste Recht, dagegen
-      <lb facs="#facs_2_region_1681900341554_1573_tl_8" n="N008"/>zu protestiren. Hier muß das persönliche Vertrauen eintre¬
-      <lb facs="#facs_2_region_1681900341554_1573_tl_9" n="N009"/>ten und sich vor die gefährlichen Mündungen des Contractes
+               <rs type="person">Vieuxtemps</rs> und Herr 
+                     <rs type="person">Jaëll</rs> nicht das leiseste Recht, dagegen
+      <lb facs="#facs_2_region_1681900341554_1573_tl_8" n="N008"/>zu protestiren. Hier muß das persönliche Vertrauen eintre
+      <lb facs="#facs_2_region_1681900341554_1573_tl_9" break="no" n="N009"/>ten und sich vor die gefährlichen Mündungen des Contractes
       <lb facs="#facs_2_region_1681900341554_1573_tl_10" n="N010"/>stellen. Der Künstler weiß eben, daß dieser nicht so scharf
       <lb facs="#facs_2_region_1681900341554_1573_tl_11" n="N011"/>geladen ist, und daß Herr <rs type="person">Ullman</rs> unbillige Forderungen
-      <lb facs="#facs_2_region_1681900341554_1573_tl_12" n="N012"/>
-               <hi rendition="#em">nicht</hi> stellen wird. Er weiß überdies, daß, wenn er durch
+      <lb facs="#facs_2_region_1681900341554_1573_tl_12" n="N012"/><hi rendition="#em">nicht</hi> stellen wird. Er weiß überdies, daß, wenn er durch
       <lb facs="#facs_2_region_1681900341554_1573_tl_13" n="N013"/>Krankheit verhindert würde, an einem oder an zehn und
-      <lb facs="#facs_2_region_1681900341554_1573_tl_14" n="N014"/>zwölf Concerten mitzuwirken, seine Gage ungeschmälert fort¬
-      <lb facs="#facs_2_region_1681900341554_1573_tl_15" n="N015"/>läuft. Vor zwei Jahren hatte Herr <rs type="person">Ullman</rs> einen berühm-
-      <lb facs="#facs_2_line_1682536190336_951" n="N016"/>ten <rs type="place">deutsch</rs>en Cellisten für drei Monate engagirt; nach den
-      <lb facs="#facs_2_region_1681900341554_1573_tl_16" n="N017"/>ersten 14 Tagen wurde dieser durch einen Schlaganfall ge-
-      <lb facs="#facs_2_region_1681900341554_1573_tl_17" n="N018"/>lähmt, erhielt aber trotzdem seinen Gehalt für die ganze Zeit
-      <lb facs="#facs_2_region_1681900341554_1573_tl_18" n="N019"/>ausbezahlt. In <rs type="place">Berlin</rs> sollen Herrn <rs type="person">Ullman</rs> durch ein län¬
-      <lb facs="#facs_2_region_1681900341554_1573_tl_19" n="N020"/>geres Unwohlsein <rs type="person">Carlotta Patti</rs>’s Tausende von Gulden
+      <lb facs="#facs_2_region_1681900341554_1573_tl_14" n="N014"/>zwölf Concerten mitzuwirken, seine Gage ungeschmälert fort
+      <lb facs="#facs_2_region_1681900341554_1573_tl_15" break="no" n="N015"/>läuft. Vor zwei Jahren hatte Herr <rs type="person">Ullman</rs> einen berühm
+      <lb facs="#facs_2_line_1682536190336_951" break="no" n="N016"/>ten 
+                     <rs type="place">deutsch</rs>en Cellisten für drei Monate engagirt; nach den
+      <lb facs="#facs_2_region_1681900341554_1573_tl_16" n="N017"/>ersten 14 Tagen wurde dieser durch einen Schlaganfall ge
+      <lb facs="#facs_2_region_1681900341554_1573_tl_17" break="no" n="N018"/>lähmt, erhielt aber trotzdem seinen Gehalt für die ganze Zeit
+      <lb facs="#facs_2_region_1681900341554_1573_tl_18" n="N019"/>ausbezahlt. In 
+                     <rs type="place">Berlin</rs> sollen Herrn 
+                     <rs type="person">Ullman</rs> durch ein län
+      <lb facs="#facs_2_region_1681900341554_1573_tl_19" break="no" n="N020"/>geres Unwohlsein Carlotta <rs type="person">Patti</rs>’s Tausende von Gulden
       <lb facs="#facs_2_region_1681900341554_1573_tl_20" n="N021"/>entgangen sein, der Sängerin entging kein Heller. Das sind,
       <lb facs="#facs_2_region_1681900341554_1573_tl_21" n="N022"/>meinen wir, für den reisenden Künstler Dinge von Werth
-      <lb facs="#facs_2_region_1681900341554_1573_tl_22" n="N023"/>und Wichtigkeit.
-      <lb facs="#facs_2_region_1681900341554_1573_tl_23" n="N024"/>Die Gewohnheit macht, daß wir im Bühnenwesen, ins¬
-      <lb facs="#facs_2_region_1681900341554_1573_tl_24" n="N025"/>besondere bei den <rs type="place">italienisch</rs>en Opern-Gesellschaften, dasjenige
+      <lb facs="#facs_2_region_1681900341554_1573_tl_22" n="N023"/>und Wichtigkeit.</p>
+               <p>
+      <lb facs="#facs_2_region_1681900341554_1573_tl_23" n="N024"/>Die Gewohnheit macht, daß wir im Bühnenwesen, ins
+      <lb facs="#facs_2_region_1681900341554_1573_tl_24" break="no" n="N025"/>besondere bei den <rs type="place">italienisch</rs>en Opern-Gesellschaften, dasjenige
       <lb facs="#facs_2_region_1681900341554_1573_tl_25" n="N026"/>kaum mehr bemerken, was uns an den Concert-Associationen
-      <lb facs="#facs_2_region_1681900341554_1573_tl_26" n="N027"/>noch so sehr befremdet. Auch dort dasselbe Princip des ge¬
-      <lb facs="#facs_2_region_1681900341554_1573_tl_27" n="N028"/>meinschaftlichen Reisens und Producirens, der Herrschaft des
+      <lb facs="#facs_2_region_1681900341554_1573_tl_26" n="N027"/>noch so sehr befremdet. Auch dort dasselbe Princip des ge
+      <lb facs="#facs_2_region_1681900341554_1573_tl_27" break="no" n="N028"/>meinschaftlichen Reisens und Producirens, der Herrschaft des
       <lb facs="#facs_2_region_1681900341554_1573_tl_28" n="N029"/>zahlenden Unternehmers über seine Künstler. In <rs type="place">London</rs>
-               <lb facs="#facs_2_region_1681900341554_1573_tl_29" n="N030"/>verwendet der Director der <rs type="place">italienisch</rs>en Oper von Her
+      <lb facs="#facs_2_region_1681900341554_1573_tl_29" n="N030"/>verwendet der Director der <rs type="place">italienisch</rs>en Oper von Her
       <lb facs="#facs_2_region_1681900341554_1573_tl_30" n="N031"/>Majesty’s theatre seine Opernsänger nach Belieben in den
       <lb facs="#facs_2_region_1681900341554_1573_tl_31" n="N032"/>verschiedensten Städten <rs type="place">Großbritannien</rs>s auf der Bühne und
       <lb facs="#facs_2_region_1681900341554_1573_tl_32" n="N033"/>im Concertsaal, und hat das Recht, ihnen jede Mitwirkung
       <lb facs="#facs_2_line_1682536378762_988" n="N034"/>in öffentlichen oder Privat-Akademien zu untersagen. Von
-      <lb facs="#facs_2_region_1681900341554_1573_tl_34" n="N035"/>allen Kunstzweigen hat aber von jeher das musikalische Vir-
-      <lb facs="#facs_2_region_1681900341554_1573_tl_35" n="N036"/>tuosenthum die geschäftliche Seite, die Tendenz nach Geld¬
-      <lb facs="#facs_2_line_1682536441043_1003" n="N037"/>gewinn, am wenigsten verleugnet. Schon der alte <hi rendition="#em">
-                  <rs type="person">Forkel</rs>
-               </hi>,</p>
+      <lb facs="#facs_2_region_1681900341554_1573_tl_34" n="N035"/>allen Kunstzweigen hat aber von jeher das musikalische Vir
+      <lb facs="#facs_2_region_1681900341554_1573_tl_35" break="no" n="N036"/>tuosenthum die geschäftliche Seite, die Tendenz nach Geld
+      <lb facs="#facs_2_line_1682536441043_1003" break="no" n="N037"/>gewinn, am wenigsten verleugnet. Schon der alte <hi rendition="#em">
+                  <rs type="person">Forkel</rs></hi>,
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
-            <p>
                <lb facs="#facs_3_region_1681900361745_1586_tl_1" n="N001"/>der im Allgemeinen den Concerten eine große künstlerische
-      <lb facs="#facs_3_region_1681900361745_1586_tl_2" n="N002"/>Mission zugesteht, definirt (<date month="0" day="0" year="0">1783</date>) die Virtuosen-Concerte als
+      <lb facs="#facs_3_region_1681900361745_1586_tl_2" n="N002"/>Mission zugesteht, definirt (<datewhen="1783">1783</date>) die Virtuosen-Concerte als
       <lb facs="#facs_3_line_1682854334829_148" n="N003"/>solche, „die blos zum Gelderwerb gegeben werden“. Der
-      <lb facs="#facs_3_region_1681900361745_1586_tl_3" n="N004"/>Virtuose reist in der Regel, um Geld zu verdienen.
-      <lb facs="#facs_3_region_1681900361745_1586_tl_4" n="N005"/>Die musikalischen Institute, bei welchen der tiefere künft-
-      <lb facs="#facs_3_region_1681900361745_1586_tl_5" n="N006"/>lerische Gehalt als Hauptsache, die echte Kunstpflege als
+      <lb facs="#facs_3_region_1681900361745_1586_tl_3" n="N004"/>Virtuose reist in der Regel, um Geld zu verdienen.</p>
+               <p>
+      <lb facs="#facs_3_region_1681900361745_1586_tl_4" n="N005"/>Die musikalischen Institute, bei welchen der tiefere künft
+      <lb facs="#facs_3_region_1681900361745_1586_tl_5" break="no" n="N006"/>lerische Gehalt als Hauptsache, die echte Kunstpflege als
       <lb facs="#facs_3_region_1681900361745_1586_tl_6" n="N007"/>Selbstzweck erscheint, sind die stehenden Orchester-, Chor- und
       <lb facs="#facs_3_region_1681900361745_1586_tl_7" n="N008"/>Kammer-Concerte. Die Virtuosen-Concerte als solche waren es
       <lb facs="#facs_3_region_1681900361745_1586_tl_8" n="N009"/>niemals. Nur vereinzelte Virtuosen gab es und wird es hoffentlich
       <lb facs="#facs_3_region_1681900361745_1586_tl_9" n="N010"/>immer geben, welche die höchsten Ziele der Kunst verfolgen,
       <lb facs="#facs_3_region_1681900361745_1586_tl_10" n="N011"/>und diese werden auch künftig allein reisen. Die <hi rendition="#em">
-                  <rs type="person">Ullman</rs>
-               </hi>’schen
+                  <rs type="person">Ullman</rs></hi>’schen
       <lb facs="#facs_3_region_1681900361745_1586_tl_11" n="N012"/>Concerte haben das leichte, glänzende Genre, die Virtuosität
-      <lb facs="#facs_3_region_1681900361745_1586_tl_12" n="N013"/>par excellence, somit die Unterhaltung eines größeren Publi¬
-      <lb facs="#facs_3_region_1681900361745_1586_tl_13" n="N014"/>cums im Auge. Wenn sich jetzt mehr als früher die geschäft-
-      <lb facs="#facs_3_region_1681900361745_1586_tl_14" n="N015"/>liche Tendenz des Virtuosenthums bemerkbar macht, so liegt
-      <lb facs="#facs_3_region_1681900361745_1586_tl_15" n="N016"/>dies theils in dem allgemeinen praktischen Zug der Gegen¬
-      <lb facs="#facs_3_region_1681900361745_1586_tl_16" n="N017"/>wart, theils in den stark gesunkenen Cursen des ehemals
+      <lb facs="#facs_3_region_1681900361745_1586_tl_12" n="N013"/>par excellence, somit die Unterhaltung eines größeren Publi
+      <lb facs="#facs_3_region_1681900361745_1586_tl_13" break="no" n="N014"/>cums im Auge. Wenn sich jetzt mehr als früher die geschäft
+      <lb facs="#facs_3_region_1681900361745_1586_tl_14" break="no" n="N015"/>liche Tendenz des Virtuosenthums bemerkbar macht, so liegt
+      <lb facs="#facs_3_region_1681900361745_1586_tl_15" n="N016"/>dies theils in dem allgemeinen praktischen Zug der Gegen
+      <lb facs="#facs_3_region_1681900361745_1586_tl_16" break="no" n="N017"/>wart, theils in den stark gesunkenen Cursen des ehemals
       <lb facs="#facs_3_region_1681900361745_1586_tl_17" n="N018"/>florirenden Virtuosenthums. Diese Blüthenzeit (die <rs type="person">Liszt</rs>-
       <lb facs="#facs_3_region_1681900361745_1586_tl_18" n="N019"/>
                <rs type="person">Thalberg</rs>’sche Epoche) währte nicht lange, noch weniger war
-      <lb facs="#facs_3_region_1681900361745_1586_tl_19" n="N020"/>sie von Anbeginn da. Wenn wir in einer <rs type="place">Wien</rs>er Correspon¬
-      <lb facs="#facs_3_region_1681900361745_1586_tl_20" n="N021"/>denz der <rs type="place">Leipzig</rs>er Musikzeitung vom Jahre <date month="0" day="0" year="0">1803</date> lesen: „Die
+      <lb facs="#facs_3_region_1681900361745_1586_tl_19" n="N020"/>sie von Anbeginn da. Wenn wir in einer <rs type="place">Wien</rs>er Correspon
+      <lb facs="#facs_3_region_1681900361745_1586_tl_20" break="no" n="N021"/>denz der 
+                     <rs type="place">Leipzig</rs>er Musikzeitung vom Jahre <date when="1803">1803</date> lesen: „Die
       <lb facs="#facs_3_region_1681900361745_1586_tl_21" n="N022"/>Künstler haben hier einen bitteren Kampf zu bestehen; oft
-      <lb facs="#facs_3_region_1681900361745_1586_tl_22" n="N023"/>hilft ein Theil des kunstliebenden Publicums und das Wohl-
-      <lb facs="#facs_3_region_1681900361745_1586_tl_23" n="N024"/>wollen einiger Fürsten dem Bedrängten durch Subscription
+      <lb facs="#facs_3_region_1681900361745_1586_tl_22" n="N023"/>hilft ein Theil des kunstliebenden Publicums und das Wohl
+      <lb facs="#facs_3_region_1681900361745_1586_tl_23" break="no" n="N024"/>wollen einiger Fürsten dem Bedrängten durch Subscription
       <lb facs="#facs_3_region_1681900361745_1586_tl_24" n="N025"/>aus der Klemme,“ so ist damit ein alter, langwährender
       <lb facs="#facs_3_line_1682856102890_203" n="N026"/>Zustand bezeichnet, der das ältere Virtuosenthum nicht in
       <lb facs="#facs_3_region_1681900361745_1586_tl_25" n="N027"/>beneidenswerthem Lichte zeigt. Zu Anfang dieses und im
       <lb facs="#facs_3_region_1681900361745_1586_tl_26" n="N028"/>Verlauf des vorigen Jahrhunderts mußten selbst große und
       <lb facs="#facs_3_line_1682856195248_224" n="N029"/>berühmte Künstler sich dazu bequemen, wochenlang vor ihrem
-      <lb facs="#facs_3_region_1681900361745_1586_tl_27" n="N030"/>Auftreten in allen möglichen Soiréen zu spielen, um sich da¬
-      <lb facs="#facs_3_region_1681900361745_1586_tl_28" n="N031"/>durch Zuhörer für ihr eigenes Concert zu sichern. Dann
-      <lb facs="#facs_3_region_1681900361745_1586_tl_29" n="N032"/>gingen sie mit den Eintrittskarten oder dem Subscriptions-
-      <lb facs="#facs_3_region_1681900361745_1586_tl_30" n="N033"/>bogen in den Häusern der Adeligen und Reichen förmlich
+      <lb facs="#facs_3_region_1681900361745_1586_tl_27" n="N030"/>Auftreten in allen möglichen Soiréen zu spielen, um sich da
+      <lb facs="#facs_3_region_1681900361745_1586_tl_28" break="no" n="N031"/>durch Zuhörer für ihr eigenes Concert zu sichern. Dann
+      <lb facs="#facs_3_region_1681900361745_1586_tl_29" n="N032"/>gingen sie mit den Eintrittskarten oder dem Subscriptions
+      <lb facs="#facs_3_region_1681900361745_1586_tl_30" break="no" n="N033"/>bogen in den Häusern der Adeligen und Reichen förmlich
       <lb facs="#facs_3_region_1681900361745_1586_tl_31" n="N034"/>hausieren. Dies war die Gepflogenheit der „guten, alter
       <lb facs="#facs_3_region_1681900361745_1586_tl_32" n="N035"/>Zeit“ — wir finden sie mühseliger und demüthigender, als
       <lb facs="#facs_3_region_1681900361745_1586_tl_33" n="N036"/>die Stellung von <rs type="person">Ullman</rs>’s engagirten Künstlern, die nur an
       <lb facs="#facs_3_region_1681900361745_1586_tl_34" n="N037"/>die Trefflichkeit ihrer Leistungen zu denken und sonst um
-      <lb facs="#facs_3_region_1681900361745_1586_tl_35" n="N038"/>nichts und um Niemanden sich zu kümmern haben. An die</p>
+      <lb facs="#facs_3_region_1681900361745_1586_tl_35" n="N038"/>nichts und um Niemanden sich zu kümmern haben. An die
             <cb n="8"/>
-            <p>
                <lb facs="#facs_3_region_1681900367184_1589_tl_1" n="N001"/>Stelle der großmüthigen Aristokraten und Bankiers ist jetzt
       <lb facs="#facs_3_region_1681900367184_1589_tl_2" n="N002"/>das große Publicum getreten, und alle geschäftliche Thätigkeit
-      <lb facs="#facs_3_line_1682854334828_147" n="N003"/>und Berechnung concentrirt sich in der Person des Unter-
-      <lb facs="#facs_3_region_1681900367184_1589_tl_4" n="N004"/>nehmers. Indem dieser, als Geschäftsmann von Fach, seine
+      <lb facs="#facs_3_line_1682854334828_147" n="N003"/>und Berechnung concentrirt sich in der Person des Unter
+      <lb facs="#facs_3_region_1681900367184_1589_tl_4" break="no" n="N004"/>nehmers. Indem dieser, als Geschäftsmann von Fach, seine
       <lb facs="#facs_3_region_1681900367184_1589_tl_5" n="N005"/>Aufgabe überdies mit mehr Geschick und Erfolg löst, als der
       <lb facs="#facs_3_region_1681900367184_1589_tl_6" n="N006"/>Künstler es vermöchte, so befördert er gleichzeitig das Interesse
       <lb facs="#facs_3_region_1681900367184_1589_tl_7" n="N007"/>seines Geschäfts, der Virtuosen und des Publicums.
+               <p>
       <lb facs="#facs_3_region_1681900367184_1589_tl_8" n="N008"/>Dies wären etwa die Gesichtspunkte, welche <hi rendition="#em">für</hi> die viel
       <lb facs="#facs_3_region_1681900367184_1589_tl_9" n="N009"/>angefeindete Form der Associations-Concerte sprechen. Wir
-      <lb facs="#facs_3_region_1681900367184_1589_tl_10" n="N010"/>geben sie lediglich als Thatsachen und ohne einen ungebühr-
-      <lb facs="#facs_3_region_1681900367184_1589_tl_11" n="N011"/>lichen Nachdruck darauf zu legen; der Leser möge sie nach
+      <lb facs="#facs_3_region_1681900367184_1589_tl_10" n="N010"/>geben sie lediglich als Thatsachen und ohne einen ungebühr
+      <lb facs="#facs_3_region_1681900367184_1589_tl_11" break="no" n="N011"/>lichen Nachdruck darauf zu legen; der Leser möge sie nach
       <lb facs="#facs_3_region_1681900367184_1589_tl_12" n="N012"/>Gefallen abwägen, allein <hi rendition="#em">erwägen</hi> muß sie, wer über das
       <lb facs="#facs_3_region_1681900367184_1589_tl_13" n="N013"/>Ganze urtheilen will. Wir erblicken in diesen Associations¬
-      <lb facs="#facs_3_region_1681900367184_1589_tl_14" n="N014"/>Concerten eine neue, interessante Culturerscheinung, die aller-
-      <lb facs="#facs_3_region_1681900367184_1589_tl_15" n="N015"/>dings nur aus dem leidigen Geschäftsgeist der Gegenwart sich
-      <lb facs="#facs_3_region_1681900367184_1589_tl_16" n="N016"/>herausgebildet hat, aber auch erst bei der jetzigen Vervollkomm¬
-      <lb facs="#facs_3_region_1681900367184_1589_tl_17" n="N017"/>nung des Weltverkehrs und der imposanten Masse des mo-
-      <lb facs="#facs_3_region_1681900367184_1589_tl_18" n="N018"/>dernen Publicums möglich ward. Sie tritt mit einer Sicher-
-      <lb facs="#facs_3_region_1681900367184_1589_tl_19" n="N019"/>heit und einem Erfolg auf, die ihren Einfluß auf die künftige
-      <lb facs="#facs_3_region_1681900367184_1589_tl_20" n="N020"/>Gestaltung der Virtuosen-Concerte außer Zweifel setzen.
-      <lb facs="#facs_3_region_1681900367184_1589_tl_21" n="N021"/>
-               <hi rendition="#em">Nachschrift</hi>. Soeben hat das erste „<rs type="person">Patti</rs>-Concert“
+      <lb facs="#facs_3_region_1681900367184_1589_tl_14" n="N014"/>Concerten eine neue, interessante Culturerscheinung, die aller
+      <lb facs="#facs_3_region_1681900367184_1589_tl_15" break="no" n="N015"/>dings nur aus dem leidigen Geschäftsgeist der Gegenwart sich
+      <lb facs="#facs_3_region_1681900367184_1589_tl_16" n="N016"/>herausgebildet hat, aber auch erst bei der jetzigen Vervollkomm
+      <lb facs="#facs_3_region_1681900367184_1589_tl_17" break="no" n="N017"/>nung des Weltverkehrs und der imposanten Masse des mo
+      <lb facs="#facs_3_region_1681900367184_1589_tl_18" break="no" n="N018"/>dernen Publicums möglich ward. Sie tritt mit einer Sicher
+      <lb facs="#facs_3_region_1681900367184_1589_tl_19" break="no" n="N019"/>heit und einem Erfolg auf, die ihren Einfluß auf die künftige
+      <lb facs="#facs_3_region_1681900367184_1589_tl_20" n="N020"/>Gestaltung der Virtuosen-Concerte außer Zweifel setzen.</p>
+                     <p>
+      <lb facs="#facs_3_region_1681900367184_1589_tl_21" n="N021"/><hi rendition="#em">Nachschrift</hi>. Soeben hat das erste „
+                           <rs type="person">Patti</rs>-Concert“
       <lb facs="#facs_3_region_1681900367184_1589_tl_22" n="N022"/>einen großen Erfolg errungen. Die dichtgefüllten Räume des
       <lb facs="#facs_3_region_1681900367184_1589_tl_23" n="N023"/>großen, vortrefflich hergerichteten Dianasaales boten einen
-      <lb facs="#facs_3_region_1681900367184_1589_tl_24" n="N024"/>festlichen Anblick. <hi rendition="#em">Carlotta <rs type="person">Patti</rs>
-               </hi> eroberte na-
+      <lb facs="#facs_3_region_1681900367184_1589_tl_24" n="N024"/>festlichen Anblick. <hi rendition="#em">Carlotta 
+            <rs type="person">Patti</rs></hi> eroberte na-
       <lb facs="#facs_3_region_1681900367184_1589_tl_25" n="N025"/>mentlich mit dem Schattenwalzer aus „<rs type="bibl">Dinorah</rs>“ das
       <lb facs="#facs_3_line_1682856102889_202" n="N026"/>Publicum im Sturm. Noch größere Sensation erregten die
       <lb facs="#facs_3_region_1681900367184_1589_tl_27" n="N027"/>Lachcouplets aus <hi rendition="#em">
-                  <rs type="person">Auber</rs>
-               </hi>’s „<rs type="bibl">Manon Lescaut</rs>“, welche die
+                  <rs type="person">Auber</rs></hi>’s „
+                           <rs type="bibl">Manon Lescaut</rs>“, welche die
       <lb facs="#facs_3_region_1681900367184_1589_tl_28" n="N028"/>Künstlerin am Schlusse zugab. Carlotta <hi rendition="#em">
-                  <rs type="person">Patti</rs>
-               </hi> steht durch
+                  <rs type="person">Patti</rs></hi> steht durch
       <lb facs="#facs_3_line_1682856195248_223" n="N029"/>wunderbare Naturgaben und eine blendende, wenn auch sehr
       <lb facs="#facs_3_region_1681900367184_1589_tl_30" n="N030"/>einseitige Virtuosität als ein Unicum in der Gesangswelt
       <lb facs="#facs_3_region_1681900367184_1589_tl_31" n="N031"/>da, mit unleugbaren Mängeln nach der idealen, seelischen Seite
       <lb facs="#facs_3_region_1681900367184_1589_tl_32" n="N032"/>der Kunst hin, mit unerhörten Eigenthümlichkeiten in deren
       <lb facs="#facs_3_region_1681900367184_1589_tl_33" n="N033"/>sinnlichem Elemente. Wir müssen uns für heute mit der
       <lb facs="#facs_3_region_1681900367184_1589_tl_34" n="N034"/>Constatirung des großen Erfolgs begnügen, den Carlotta
-      <lb facs="#facs_3_region_1681900367184_1589_tl_35" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Patti</rs>
-               </hi> und ihre trefflichen Collegen, <hi rendition="#em">
-                  <rs type="person">Vieuxtemps</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Jaëll</rs>
-               </hi>
-               <lb facs="#facs_3_region_1681900367184_1589_tl_36" n="N036"/>und <hi rendition="#em">
-                  <rs type="person">Piatti</rs>
-               </hi>, fanden, uns ein eingehenderes Urtheil für den
+      <lb facs="#facs_3_region_1681900367184_1589_tl_35" n="N035"/><hi rendition="#em">
+                  <rs type="person">Patti</rs></hi> und ihre trefflichen Collegen, <hi rendition="#em">
+                  <rs type="person">Vieuxtemps</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Jaëll</rs></hi>
+      <lb facs="#facs_3_region_1681900367184_1589_tl_36" n="N036"/>und <hi rendition="#em">
+                  <rs type="person">Piatti</rs></hi>, fanden, uns ein eingehenderes Urtheil für den
       <lb facs="#facs_3_region_1681900367184_1589_tl_37" n="N037"/>nächsten Bericht vorbehaltend.</p>
          </div>
       </body>
