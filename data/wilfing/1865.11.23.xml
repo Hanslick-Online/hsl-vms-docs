@@ -111,6 +111,7 @@
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-06-10" who="ampfiel">Zeilenumbrüche, Absätze korrigieren</change>
          <change when="2023-06-20" who="ampfiel">ref ausfüllen</change>
+         <change when="2023-07-01" who="ampfiel">head formatieren</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -815,9 +816,9 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-      <lb facs="#facs_1_region_1681899648237_1421_tl_2" n="N002"/>Concerte
-      <lb facs="#facs_1_region_1681899648237_1421_tl_3" n="N003"/>Ed. H. Zu den genußreichsten Concerten, welche die
+            
+      <lb facs="#facs_1_region_1681899648237_1421_tl_2" n="N002"/><head type="h1">Concerte</head>
+      <p><lb facs="#facs_1_region_1681899648237_1421_tl_3" n="N003"/>Ed. H. Zu den genußreichsten Concerten, welche die
       <lb facs="#facs_1_line_1681909938432_2811" n="N004"/>rasch anschwellende Saison bereits gebracht, zählen wir das
       <lb facs="#facs_1_region_1681899648237_1421_tl_5" n="N005"/>„zweite Philharmonische“. Fräulein Auguste <hi rendition="#em">
                   <rs ref="#hsl_person_id_1252" type="person">Kolar</rs></hi> — sie

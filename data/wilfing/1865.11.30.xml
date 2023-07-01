@@ -111,6 +111,7 @@
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-06-10" who="ampfiel">Zeilenumbrüche, Absätze korrigieren</change>
          <change when="2023-06-26" who="ampfiel">ref ausfüllen</change>
+         <change when="2023-07-01" who="ampfiel">head formatieren</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -648,9 +649,9 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-      <lb facs="#facs_1_region_1681899783032_1487_tl_2" n="N002"/>Das erste „<rs ref="#hsl_person_id_1209" type="person">Patti</rs>-Concert“.
-      <lb facs="#facs_1_region_1681899783032_1487_tl_3" n="N003"/>Ed. H. Indem wir in unserem letzten Feuilleton die
+      <lb facs="#facs_1_region_1681899783032_1487_tl_2" n="N002"/><head type="h1">Das erste „<rs ref="#hsl_person_id_1209" type="person">Patti</rs>-Concert“.</head>
+      <p>
+            <lb facs="#facs_1_region_1681899783032_1487_tl_3" n="N003"/>Ed. H. Indem wir in unserem letzten Feuilleton die
       <lb facs="#facs_1_region_1681899783032_1487_tl_4" n="N004"/>neue Erscheinung der 
                   <rs ref="#hsl_person_id_1064" type="person">Ullman</rs>’schen Associations-Concerte ganz
       <lb facs="#facs_1_region_1681899783032_1487_tl_5" n="N005"/>im Allgemeinen, als Form, betrachteten, wollten wir die Sache

@@ -110,6 +110,7 @@
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-06-10" who="ampfiel">Zeilenumbrüche, Absätze korrigieren</change>
          <change when="2023-06-14" who="ampfiel">ref ausfüllen</change>
+         <change when="2023-07-01" who="ampfiel">head formatieren</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -614,10 +615,9 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-      <lb facs="#facs_1_region_1681898674401_1008_tl_2" n="N002"/>Musik.
-      <lb facs="#facs_1_region_1681898674401_1008_tl_3" n="N003"/>(Philharmonisches Concert. Männergesang-Verein.)
-      <lb facs="#facs_1_region_1681898674401_1008_tl_4" n="N004"/>Ed. H. Die musikalische Saison ist soeben mit Gesang
+      <lb facs="#facs_1_region_1681898674401_1008_tl_2" n="N002"/><head type="h1">Musik.</head>
+      <lb facs="#facs_1_region_1681898674401_1008_tl_3" n="N003"/><head type="h2">(Philharmonisches Concert. Männergesang-Verein.)</head>
+      <p><lb facs="#facs_1_region_1681898674401_1008_tl_4" n="N004"/>Ed. H. Die musikalische Saison ist soeben mit Gesang
       <lb facs="#facs_1_region_1681898674401_1008_tl_5" n="N005"/>und Spiel durch den Männergesang-Verein und die Phil
       <lb facs="#facs_1_region_1681898674401_1008_tl_6" break="no" n="N006"/>harmoniker förmlich eröffnet worden. Letztere introducirten ihr
       <lb facs="#facs_1_region_1681898674401_1008_tl_7" n="N007"/>erstes Concert mit <hi rendition="#em">
