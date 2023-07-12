@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">Morgenblatt</title>
+            <title level="a">Nr. 13081. Wien, Mittwoch, den 23. Januar 1901.</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -36,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2023">2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -72,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt.</title>
+                     <title>Nr. 13081. Wien, Mittwoch, den 23. Januar 1901.</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse.</title>
+                     <title type="sub">Morgenblatt.</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1901-01-23">23.01.1901</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,6 +106,7 @@
       <revisionDesc status="draft">
             <change who="awilfing" when="2023-06-01">Transkribus OCR und Lektorat.</change>
             <change who="dstoxreiter" when="2023-06-12">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change who="awilfing" when="2023-07-12">Formatierung und Referenzen eingefügt.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -807,194 +806,174 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_line_1685688756186_1111" n="N001"/>Nr. 13081. <rs type="place">Wien</rs>, Mittwoch, den 23. Januar <date month="0" day="0" year="0">1901</date>.</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684524755573_205_tl_2" n="N001"/>Hofoperntheater.
-      <lb facs="#facs_1_region_1684524755573_205_tl_3" n="N002"/>(Richard <rs type="person">Wagner</rs>’s „<hi rendition="#em">
-                  <rs type="bibl">Rienzi</rs>
-               </hi>“, neu einstudirt.)
-      <lb facs="#facs_1_region_1684524755573_205_tl_4" n="N003"/>Ed. H. „<rs type="bibl">Rienzi</rs>’s“ Schicksale in <rs type="place">Wien</rs> sehen sich recht
-      <lb facs="#facs_1_region_1684524755573_205_tl_5" n="N004"/>wunderlich an. Volle dreißig Jahre lang nach seiner Erstauf-
-      <lb facs="#facs_1_region_1684524755573_205_tl_6" n="N005"/>führung in <rs type="place">Dresden</rs> mußte der „<rs type="bibl">Rienzi</rs>“ warten, bevor er Ein-
-      <lb facs="#facs_1_region_1684524755573_205_tl_7" n="N006"/>laß erhielt ins <rs type="place">Wien</rs>er Hofoperntheater. Seit dreizehn Jahren
-      <lb facs="#facs_1_region_1684524755573_205_tl_8" n="N007"/>kannte <rs type="place">Wien</rs> bereits den „<rs type="bibl">Lohengrin</rs>“, seit zwölf Jahren
-      <lb facs="#facs_1_region_1684524755573_205_tl_9" n="N008"/>den „<rs type="bibl">Tannhäuser</rs>“, seit zehn den „<rs type="bibl">Fliegenden Holländer</rs>“,
-      <lb facs="#facs_1_region_1684524755573_205_tl_10" n="N009"/>bevor es „<rs type="bibl">Rienzi</rs>“ zu hören bekam. Diese Entdeckung oder
+            <lb facs="#facs_1_region_1684524755573_205_tl_2" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1684524755573_205_tl_3" n="N002"/><head type="h2">(Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs></hi>“, neu einstudirt.)</head>
+            <p>    
+      <lb facs="#facs_1_region_1684524755573_205_tl_4" n="N003"/>Ed. H. „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>’s“ Schicksale in <rs type="place" ref="#hsl_place_id_55">Wien</rs> sehen sich recht
+      <lb facs="#facs_1_region_1684524755573_205_tl_5" n="N004"/>wunderlich an. Volle dreißig Jahre lang nach seiner Erstauf
+      <lb facs="#facs_1_region_1684524755573_205_tl_6" n="N005" break="no"/>führung in <rs type="place" ref="#hsl_place_id_15">Dresden</rs> mußte der „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ warten, bevor er Ein
+      <lb facs="#facs_1_region_1684524755573_205_tl_7" n="N006" break="no"/>laß erhielt ins <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofoperntheater. Seit dreizehn Jahren
+      <lb facs="#facs_1_region_1684524755573_205_tl_8" n="N007"/>kannte <rs type="place" ref="#hsl_place_id_55">Wien</rs> bereits den „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“, seit zwölf Jahren
+      <lb facs="#facs_1_region_1684524755573_205_tl_9" n="N008"/>den „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“, seit zehn den „<rs type="bibl" ref="#hsl_work_id_237">Fliegenden Holländer</rs>“,
+      <lb facs="#facs_1_region_1684524755573_205_tl_10" n="N009"/>bevor es „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ zu hören bekam. Diese Entdeckung oder
       <lb facs="#facs_1_region_1684524755573_205_tl_11" n="N010"/>Eroberung verdankte man nur der rückwirkenden Kraft von
-      <lb facs="#facs_1_region_1684524755573_205_tl_12" n="N011"/>
-               <rs type="person">Wagner</rs>’s Ruhm. Hat ein Künstler mit mehreren Werken
-      <lb facs="#facs_1_region_1684524755573_205_tl_13" n="N012"/>nachhaltige Wirkung erzielt, so regt sich hinterdrein die Neu-
-      <lb facs="#facs_1_region_1684524755573_205_tl_14" n="N013"/>gierde nach Allem, was er früher geschaffen. Als Erstlingswerk
+      <lb facs="#facs_1_region_1684524755573_205_tl_12" n="N011"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Ruhm. Hat ein Künstler mit mehreren Werken
+      <lb facs="#facs_1_region_1684524755573_205_tl_13" n="N012"/>nachhaltige Wirkung erzielt, so regt sich hinterdrein die Neu
+      <lb facs="#facs_1_region_1684524755573_205_tl_14" n="N013" break="no"/>gierde nach Allem, was er früher geschaffen. Als Erstlingswerk
       <lb facs="#facs_1_region_1684524755573_205_tl_15" n="N014"/>eines unbekannten jungen Componisten — denn zwei verschollene
-      <lb facs="#facs_1_region_1684524755573_205_tl_16" n="N015"/>Jugendopern, „<rs type="bibl">Die Feen</rs>“ und das „<rs type="bibl">Liebesverbot</rs>“, zählen
-      <lb facs="#facs_1_line_1685688834650_1172" n="N016"/>nicht mit — war „<rs type="bibl">Rienzi</rs>“ durch die Bemühungen der
-      <lb facs="#facs_1_region_1684524755573_205_tl_17" n="N017"/>
-               <rs type="person">Schröder-Devrient</rs> im Jahre <hi rendition="#em">1841</hi> in <rs type="place">Dresden</rs> zur ersten
+      <lb facs="#facs_1_region_1684524755573_205_tl_16" n="N015"/>Jugendopern, „<rs type="bibl" ref="#hsl_work_id_1020">Die Feen</rs>“ und das „<rs type="bibl" ref="#hsl_work_id_1021">Liebesverbot</rs>“, zählen
+      <lb facs="#facs_1_line_1685688834650_1172" n="N016"/>nicht mit — war „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ durch die Bemühungen der
+      <lb facs="#facs_1_region_1684524755573_205_tl_17" n="N017"/><rs type="person" ref="#hsl_person_id_267">Schröder-Devrient</rs> im Jahre <hi rendition="#em">1841</hi> in <rs type="place" ref="#hsl_place_id_15">Dresden</rs> zur ersten
       <lb facs="#facs_1_region_1684524755573_205_tl_18" n="N018"/>Aufführung gelangt. Der Erfolg übertraf alle Erwartungen.
       <lb facs="#facs_1_region_1684524755573_205_tl_19" n="N019"/>Aber die abschreckenden Berichte über ganz enorme Kosten,
       <lb facs="#facs_1_region_1684524755573_205_tl_20" n="N020"/>Mühen und Schwierigkeiten der Aufführung stimmten alle
       <lb facs="#facs_1_region_1684524755573_205_tl_21" n="N021"/>übrigen Bühnen bedenklich. Ueberdies präsentirte sich die
       <lb facs="#facs_1_region_1684524755573_205_tl_22" n="N022"/>Partitur in einem so abenteuerlichen Umfang, daß man in
-      <lb facs="#facs_1_region_1684524755573_205_tl_23" n="N023"/>
-               <rs type="place">Dresden</rs> zu dem verzweifelten Auskunftsmittel griff, die
+      <lb facs="#facs_1_region_1684524755573_205_tl_23" n="N023"/><rs type="place" ref="#hsl_place_id_15">Dresden</rs> zu dem verzweifelten Auskunftsmittel griff, die
       <lb facs="#facs_1_region_1684524755573_205_tl_24" n="N024"/>Oper auf zwei Abende zu vertheilen. (Ein hübsches, einziges
-      <lb facs="#facs_1_region_1684524755573_205_tl_25" n="N025"/>Gegenstück zu <rs type="person">Cimarosa</rs>’s „<rs type="bibl">Heimlicher Ehe</rs>“, welche be-
-      <lb facs="#facs_1_region_1684524755573_205_tl_26" n="N026"/>kanntlich Kaiser <rs type="person">Leopold</rs> am selben Abend zweimal sich vor-
-      <lb facs="#facs_1_line_1685688785506_1134" n="N027"/>singen ließ.) Die <rs type="place">Dresden</rs>er bekamen, bei aller ange-
-      <lb facs="#facs_1_region_1684524755573_205_tl_28" n="N028"/>borenen Höflichkeit, es doch bald satt, heute zwei Acte
+      <lb facs="#facs_1_region_1684524755573_205_tl_25" n="N025"/>Gegenstück zu <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s „<rs type="bibl" ref="#hsl_work_id_546">Heimlicher Ehe</rs>“, welche be
+      <lb facs="#facs_1_region_1684524755573_205_tl_26" n="N026" break="no"/>kanntlich Kaiser <rs type="person" ref="#hsl_person_id_961">Leopold</rs> am selben Abend zweimal sich vor
+      <lb facs="#facs_1_line_1685688785506_1134" n="N027" break="no"/>singen ließ.) Die <rs type="place" ref="#hsl_place_id_15">Dresden</rs>er bekamen, bei aller ange
+      <lb facs="#facs_1_region_1684524755573_205_tl_28" n="N028" break="no"/>borenen Höflichkeit, es doch bald satt, heute zwei Acte
       <lb facs="#facs_1_region_1684524755573_205_tl_29" n="N029"/>und morgen erst die drei letzten zu hören. Da kam
       <lb facs="#facs_1_region_1684524755573_205_tl_30" n="N030"/>denn der Prophet zum Berge und kürzte die Oper
-      <lb facs="#facs_1_line_1685688796585_1143" n="N031"/>auf die Dauer Eines Theaterabends. In dieser redu-</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1685688809849_1155" n="N001"/>cirten, noch überlebensgroßen Gestalt gewann „<rs type="bibl">Rienzi</rs>“
-      <lb facs="#facs_1_line_1685688855618_1186" n="N002"/>nach und nach auch andere <rs type="place">deutsch</rs>e Bühnen. Man hatte
+      <lb facs="#facs_1_line_1685688796585_1143" n="N031"/>auf die Dauer Eines Theaterabends. In dieser redu</p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1685688809849_1155" n="N001" break="no"/>cirten, noch überlebensgroßen Gestalt gewann „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“
+      <lb facs="#facs_1_line_1685688855618_1186" n="N002"/>nach und nach auch andere <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Bühnen. Man hatte
       <lb facs="#facs_1_region_1684524761798_208_tl_2" n="N003"/>keine Eile; ein sonderlich guter Ruf ging dem Werke
-      <lb facs="#facs_1_region_1684524761798_208_tl_3" n="N004"/>nicht voran. Erst nachdem „<rs type="bibl">Tannhäuser</rs>“, „<rs type="bibl">Lohengrin</rs>“,
-      <lb facs="#facs_1_region_1684524761798_208_tl_4" n="N005"/>„<rs type="bibl">Holländer</rs>“ ihren Siegeszug angetreten und immer weiter
+      <lb facs="#facs_1_region_1684524761798_208_tl_3" n="N004"/>nicht voran. Erst nachdem „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“, „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“,
+      <lb facs="#facs_1_region_1684524761798_208_tl_4" n="N005"/>„<rs type="bibl" ref="#hsl_work_id_237">Holländer</rs>“ ihren Siegeszug angetreten und immer weiter
       <lb facs="#facs_1_region_1684524761798_208_tl_5" n="N006"/>ausgedehnt hatten, verlangte die allgemeine Neugierde auch
-      <lb facs="#facs_1_region_1684524761798_208_tl_6" n="N007"/>nach dem „<rs type="bibl">Rienzi</rs>“. Das Glück seiner vom Publicum
+      <lb facs="#facs_1_region_1684524761798_208_tl_6" n="N007"/>nach dem „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“. Das Glück seiner vom Publicum
       <lb facs="#facs_1_region_1684524761798_208_tl_7" n="N008"/>bevorzugten Vorläufer wollte ihm jedoch niemals und
-      <lb facs="#facs_1_region_1684524761798_208_tl_8" n="N009"/>nirgends blühen. In <rs type="place">Wien</rs> erreichte „<rs type="bibl">Rienzi</rs>“ in den beiden
-      <lb facs="#facs_1_line_1685688868673_1195" n="N010"/>ersten Jahren (<date month="0" day="0" year="0">1871</date> und <date month="0" day="0" year="0">1872</date>) wol zehn Aufführungen;
+      <lb facs="#facs_1_region_1684524761798_208_tl_8" n="N009"/>nirgends blühen. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> erreichte „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ in den beiden
+      <lb facs="#facs_1_line_1685688868673_1195" n="N010"/>ersten Jahren (<date>1871</date> und <date>1872</date>) wol zehn Aufführungen;
       <lb facs="#facs_1_region_1684524761798_208_tl_9" n="N011"/>im nächsten Jahre nur mehr fünf. Dann ging es
       <lb facs="#facs_1_region_1684524761798_208_tl_10" n="N012"/>rapid abwärts auf drei und zwei Wiederholungen;
       <lb facs="#facs_1_region_1684524761798_208_tl_11" n="N013"/>endlich begnügte man sich mit einer einzigen und in
       <lb facs="#facs_1_line_1685688819742_1160" n="N014"/>gar manchem Jahre mit gar keiner. Im Laufe
-      <lb facs="#facs_1_line_1685688826618_1166" n="N015"/>von vierundzwanzig Jahren hat „<rs type="bibl">Rienzi</rs>“ in <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1684524761798_208_tl_16" n="N016"/>nur sechzig Aufführungen erlebt. Was hat das zu bedeuten
-      <lb facs="#facs_1_region_1684524761798_208_tl_17" n="N017"/>gegen die zweihundert Wiederholungen des „<rs type="bibl">Tannhäuser</rs>“,
-      <lb facs="#facs_1_region_1684524761798_208_tl_18" n="N018"/>die zweihundertfünfzig des „<rs type="bibl">Lohengrin</rs>“ in gleichem Zeit-
-      <lb facs="#facs_1_region_1684524761798_208_tl_19" n="N019"/>raume! Das Publicum war eben besseren Geschmacks ge-
-      <lb facs="#facs_1_region_1684524761798_208_tl_20" n="N020"/>worden, indem es den „<rs type="bibl">Rienzi</rs>“ an <rs type="person">Wagner</rs>’s späteren
+      <lb facs="#facs_1_line_1685688826618_1166" n="N015"/>von vierundzwanzig Jahren hat „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1"/>
+      <lb facs="#facs_1_region_1684524761798_208_tl_16" n="N016"/>nur sechzig Aufführungen erlebt. Was hat das zu bedeuten
+      <lb facs="#facs_1_region_1684524761798_208_tl_17" n="N017"/>gegen die zweihundert Wiederholungen des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“,
+      <lb facs="#facs_1_region_1684524761798_208_tl_18" n="N018"/>die zweihundertfünfzig des „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ in gleichem Zeit
+      <lb facs="#facs_1_region_1684524761798_208_tl_19" n="N019" break="no"/>raume! Das Publicum war eben besseren Geschmacks ge
+      <lb facs="#facs_1_region_1684524761798_208_tl_20" n="N020" break="no"/>worden, indem es den „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ an <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s späteren
       <lb facs="#facs_1_line_1685688836329_1175" n="N021"/>Opern messen gelernt hatte. Heute will die Aristokratie der
       <lb facs="#facs_1_region_1684524761798_208_tl_22" n="N022"/>Wagnerianer eigentlich nichts mehr davon wissen, und der
-      <lb facs="#facs_1_region_1684524761798_208_tl_23" n="N023"/>Meister selbst theilte ihre Meinung. „Den <hi rendition="#em">
-                  <rs type="bibl">Rienzi</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684524761798_208_tl_24" n="N024"/>geben wir Ihnen preis,“ schrieb <hi rendition="#em">
-                  <rs type="person">Bülow</rs>
-               </hi> schon im Jahre
-      <lb facs="#facs_1_line_1685688904977_1204" n="N025"/>
-               <date month="0" day="0" year="0">1851</date> (!) in einer von <rs type="person">Wagner</rs>-Fanatismus glühenden
+      <lb facs="#facs_1_region_1684524761798_208_tl_23" n="N023"/>Meister selbst theilte ihre Meinung. „Den <hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs></hi><space quantity="1"/>
+      <lb facs="#facs_1_region_1684524761798_208_tl_24" n="N024"/>geben wir Ihnen preis,“ schrieb <hi rendition="#em"><rs type="person" ref="#hsl_person_id_44">Bülow</rs></hi> schon im Jahre
+      <lb facs="#facs_1_line_1685688904977_1204" n="N025"/><date>1851</date> (!) in einer von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Fanatismus glühenden
       <lb facs="#facs_1_region_1684524761798_208_tl_25" n="N026"/>Polemik gegen die „Grenzboten“.
-      <lb facs="#facs_1_region_1684524761798_208_tl_26" n="N027"/>Was Herrn Director <rs type="person">Mahler</rs> dazu bewog, an die
+            </p><p>
+      <lb facs="#facs_1_region_1684524761798_208_tl_26" n="N027"/>Was Herrn Director <rs type="person" ref="#hsl_person_id_977">Mahler</rs> dazu bewog, an die
       <lb facs="#facs_1_region_1684524761798_208_tl_27" n="N028"/>Auferweckung dieser halbvergessenen Oper so aufreibende
       <lb facs="#facs_1_region_1684524761798_208_tl_28" n="N029"/>Mühe und Sorgfalt zu wenden? Zunächst wol die zärtliche
-      <lb facs="#facs_1_region_1684524761798_208_tl_29" n="N030"/>Rücksicht auf das zur eminenten <rs type="person">Wagner</rs>stadt gediehene
-      <lb facs="#facs_1_region_1684524761798_208_tl_30" n="N031"/>
-               <rs type="place">Wien</rs>, welches, ungesättigt von der stolzen Vor- und Ueber-
-      <lb facs="#facs_1_line_1685688787162_1137" n="N032"/>herrschaft <rs type="person">Wagner</rs>’s — mit <hi rendition="#em">neun</hi> Repertoire-Opern!
-      <lb facs="#facs_1_line_1685688847418_1180" n="N033"/>— auch noch als zehnte den „<rs type="bibl">Rienzi</rs>“ herbeisehnen
+      <lb facs="#facs_1_region_1684524761798_208_tl_29" n="N030"/>Rücksicht auf das zur eminenten <rs type="person" ref="#hsl_person_id_319">Wagner</rs>stadt gediehene
+      <lb facs="#facs_1_region_1684524761798_208_tl_30" n="N031"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>, welches, ungesättigt von der stolzen Vor- und Ueber
+      <lb facs="#facs_1_line_1685688787162_1137" n="N032" break="no"/>herrschaft <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s — mit <hi rendition="#em">neun</hi> Repertoire-Opern!
+      <lb facs="#facs_1_line_1685688847418_1180" n="N033"/>— auch noch als zehnte den „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ herbeisehnen
       <lb facs="#facs_1_region_1684524761798_208_tl_34" n="N034"/>mochte. Interessant ist es immerhin, den Anfängen
       <lb facs="#facs_1_region_1684524761798_208_tl_35" n="N035"/>eines Componisten zu lauschen, welcher durch seine
-      <lb facs="#facs_1_line_1685688798674_1146" n="N036"/>späteren Schöpfungen so bedeutend gewirkt hat; über-</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684524767267_211_tl_1" n="N001"/>raschend obendrein, ihn weitab von seinem späteren hohen
+      <lb facs="#facs_1_line_1685688798674_1146" n="N036"/>späteren Schöpfungen so bedeutend gewirkt hat; über</p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684524767267_211_tl_1" n="N001" break="no"/>raschend obendrein, ihn weitab von seinem späteren hohen
       <lb facs="#facs_1_line_1685688857234_1189" n="N002"/>Isolierschemel in großer Gesellschaft auf der breitesten
       <lb facs="#facs_1_region_1684524767267_211_tl_3" n="N003"/>Fahrstraße anzutreffen. Schon vor dreißig Jahren nannte
       <lb facs="#facs_1_region_1684524767267_211_tl_4" n="N004"/>ich dieses biographische Interesse „so ziemlich das einzige,
-      <lb facs="#facs_1_region_1684524767267_211_tl_5" n="N005"/>welches <rs type="bibl">Rienzi</rs> uns einflößt“. Wie viel mehr erst heute!
-      <lb facs="#facs_1_region_1684524767267_211_tl_6" n="N006"/>Schwerlich möchte ein Theater-Director <date month="0" day="0" year="0">1901</date> diese Oper zur
-      <lb facs="#facs_1_region_1684524767267_211_tl_7" n="N007"/>Aufführung annehmen, wäre sie von einem ganz unbe-
-      <lb facs="#facs_1_region_1684524767267_211_tl_8" n="N008"/>kannten Componisten eingeschickt. Der Name <rs type="person">Wagner</rs> bildet
-      <lb facs="#facs_1_region_1684524767267_211_tl_9" n="N009"/>den Schwimmgürtel, auf dem sich „<rs type="bibl">Rienzi</rs>“ derzeit noch über
-      <lb facs="#facs_1_line_1685688870122_1198" n="N010"/>dem Wasser erhält. Der <hi rendition="#em">Name</hi>
-               <rs type="person">Wagner</rs>, wohlverstanden
+      <lb facs="#facs_1_region_1684524767267_211_tl_5" n="N005"/>welches <rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs> uns einflößt“. Wie viel mehr erst heute!
+      <lb facs="#facs_1_region_1684524767267_211_tl_6" n="N006"/>Schwerlich möchte ein Theater-Director <date>1901</date> diese Oper zur
+      <lb facs="#facs_1_region_1684524767267_211_tl_7" n="N007"/>Aufführung annehmen, wäre sie von einem ganz unbe
+      <lb facs="#facs_1_region_1684524767267_211_tl_8" n="N008" break="no"/>kannten Componisten eingeschickt. Der Name <rs type="person" ref="#hsl_person_id_319">Wagner</rs> bildet
+      <lb facs="#facs_1_region_1684524767267_211_tl_9" n="N009"/>den Schwimmgürtel, auf dem sich „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ derzeit noch über
+      <lb facs="#facs_1_line_1685688870122_1198" n="N010"/>dem Wasser erhält. Der <hi rendition="#em">Name</hi><space quantity="1"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>, wohlverstanden
       <lb facs="#facs_1_region_1684524767267_211_tl_11" n="N011"/>— denn von dem Manne selbst, dem leibhaftigen Richard
-      <lb facs="#facs_1_region_1684524767267_211_tl_12" n="N012"/>
-               <rs type="person">Wagner</rs>, ist darin blutwenig zu entdecken. Kaum erkennen
-      <lb facs="#facs_1_region_1684524767267_211_tl_13" n="N013"/>wir den Componisten des <rs type="bibl">Lohengrin</rs>, geschweige den der
-      <lb facs="#facs_1_region_1684524767267_211_tl_14" n="N014"/>
-               <rs type="bibl">Meistersinger</rs>, und wo ihn dennoch irgend eine Eigen-
-      <lb facs="#facs_1_region_1684524767267_211_tl_15" n="N015"/>thümlichkeit verräth, ist es keine von seinen guten.
-      <lb facs="#facs_1_region_1684524767267_211_tl_16" n="N016"/>
-               <rs type="bibl">Rienzi</rs> bedeutet im Großen und Ganzen das gerade
-      <lb facs="#facs_1_region_1684524767267_211_tl_17" n="N017"/>Gegentheil von <rs type="person">Wagner</rs>’s späterer Musik. In <rs type="bibl">Rienzi</rs>
-               <lb facs="#facs_1_region_1684524767267_211_tl_18" n="N018"/>herrscht die Gesangsmelodie, am liebsten die bedenklich popu-
-      <lb facs="#facs_1_region_1684524767267_211_tl_19" n="N019"/>läre, das Orchester liefert nur eine „Begleitung“, eine recht
+      <lb facs="#facs_1_region_1684524767267_211_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>, ist darin blutwenig zu entdecken. Kaum erkennen
+      <lb facs="#facs_1_region_1684524767267_211_tl_13" n="N013"/>wir den Componisten des <rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>, geschweige den der
+      <lb facs="#facs_1_region_1684524767267_211_tl_14" n="N014"/><rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>, und wo ihn dennoch irgend eine Eigen
+      <lb facs="#facs_1_region_1684524767267_211_tl_15" n="N015" break="no"/>thümlichkeit verräth, ist es keine von seinen guten.
+      <lb facs="#facs_1_region_1684524767267_211_tl_16" n="N016"/><rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs> bedeutet im Großen und Ganzen das gerade
+      <lb facs="#facs_1_region_1684524767267_211_tl_17" n="N017"/>Gegentheil von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s späterer Musik. In <rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs><space quantity="1"/>
+      <lb facs="#facs_1_region_1684524767267_211_tl_18" n="N018"/>herrscht die Gesangsmelodie, am liebsten die bedenklich popu
+      <lb facs="#facs_1_region_1684524767267_211_tl_19" n="N019" break="no"/>läre, das Orchester liefert nur eine „Begleitung“, eine recht
       <lb facs="#facs_1_region_1684524767267_211_tl_20" n="N020"/>lärmende, im herkömmlichen Sinn; der Bau gliedert sich
       <lb facs="#facs_1_region_1684524767267_211_tl_21" n="N021"/>übersichtlich symmetrisch, die Modulation, noch unberührt von
-      <lb facs="#facs_1_region_1684524767267_211_tl_22" n="N022"/>harmonischen Mysterien, erlaubt sich kein Wagstück, die her-
-      <lb facs="#facs_1_region_1684524767267_211_tl_23" n="N023"/>kömmlichen Formen (Ouvertüre, Arie, Duett, Terzett) sind
-      <lb facs="#facs_1_region_1684524767267_211_tl_24" n="N024"/>im Wesentlichen beibehalten. „Ist das wirklich <rs type="person">Wagner</rs>?“
-      <lb facs="#facs_1_line_1685688906777_1207" n="N025"/>flüstern die mit „<rs type="bibl">Rienzi</rs>“ noch ungekannten jüngeren Zuhörer.
-      <lb facs="#facs_1_region_1684524767267_211_tl_26" n="N026"/>Nein, es ist ein Gemisch von <rs type="person">Spontini</rs>, <rs type="person">Donizetti</rs> und <rs type="person" continued="true">Meyer-</rs>
-               <lb facs="#facs_1_region_1684524767267_211_tl_27" n="N027"/>
-               <rs type="person" continued="true">beer</rs> mit einigem Zusatz aus <rs type="person">Weber</rs> und <rs type="person">Marschner</rs>. Vieles
+      <lb facs="#facs_1_region_1684524767267_211_tl_22" n="N022"/>harmonischen Mysterien, erlaubt sich kein Wagstück, die her
+      <lb facs="#facs_1_region_1684524767267_211_tl_23" n="N023" break="no"/>kömmlichen Formen (Ouvertüre, Arie, Duett, Terzett) sind
+      <lb facs="#facs_1_region_1684524767267_211_tl_24" n="N024"/>im Wesentlichen beibehalten. „Ist das wirklich <rs type="person" ref="#hsl_person_id_319">Wagner</rs>?“
+      <lb facs="#facs_1_line_1685688906777_1207" n="N025"/>flüstern die mit „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ noch ungekannten jüngeren Zuhörer.
+      <lb facs="#facs_1_region_1684524767267_211_tl_26" n="N026"/>Nein, es ist ein Gemisch von <rs type="person" ref="#hsl_person_id_294">Spontini</rs>, <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> und <rs type="person" ref="#hsl_person_id_182">Meyer
+      <lb facs="#facs_1_region_1684524767267_211_tl_27" n="N027" break="no"/>beer</rs> mit einigem Zusatz aus <rs type="person" ref="#hsl_person_id_321">Weber</rs> und <rs type="person" ref="#hsl_person_id_174">Marschner</rs>. Vieles
       <lb facs="#facs_1_region_1684524767267_211_tl_28" n="N028"/>in den Formen jener Operncomponisten ist veraltet, und
-      <lb facs="#facs_1_region_1684524767267_211_tl_29" n="N029"/>
-               <rs type="person">Wagner</rs> selbst hat am meisten dazu beigetragen, daß wir
+      <lb facs="#facs_1_region_1684524767267_211_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> selbst hat am meisten dazu beigetragen, daß wir
       <lb facs="#facs_1_region_1684524767267_211_tl_30" n="N030"/>sie heute als veraltet empfinden. An den alten Formen
-      <lb facs="#facs_1_region_1684524767267_211_tl_31" n="N031"/>liegt es aber nicht, daß uns „<rs type="bibl">Rienzi</rs>“ widerstrebt. Im „<rs type="bibl">Tell</rs>“,
-      <lb facs="#facs_1_region_1684524767267_211_tl_32" n="N032"/>den „<rs type="bibl">Hugenotten</rs>“, der „<rs type="bibl">Stummen</rs>“ (vom „<rs type="bibl">Freischütz</rs>“ ganz zu
+      <lb facs="#facs_1_region_1684524767267_211_tl_31" n="N031"/>liegt es aber nicht, daß uns „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ widerstrebt. Im „<rs type="bibl" ref="#hsl_work_id_186">Tell</rs>“,
+      <lb facs="#facs_1_region_1684524767267_211_tl_32" n="N032"/>den „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“, der „<rs type="bibl" ref="#hsl_work_id_128">Stummen</rs>“ (vom „<rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>“ ganz zu
       <lb facs="#facs_1_region_1684524767267_211_tl_33" n="N033"/>schweigen) quillt als ein Frisches, Eigenes, Ursprüngliches,
-      <lb facs="#facs_1_region_1684524767267_211_tl_34" n="N034"/>was in „<rs type="bibl">Rienzi</rs>“ als schwache mühselige Nachahmung sickert.
+      <lb facs="#facs_1_region_1684524767267_211_tl_34" n="N034"/>was in „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ als schwache mühselige Nachahmung sickert.
       <lb facs="#facs_1_region_1684524767267_211_tl_35" n="N035"/>Auf letzterem drückt eine Mittelmäßigkeit, die nur durch eine
-      <lb facs="#facs_1_line_1685688800353_1149" n="N036"/>erstaunlich kühne Anhäufung materielle Effect zu blenden</p>
+      <lb facs="#facs_1_line_1685688800353_1149" n="N036"/>erstaunlich kühne Anhäufung materielle Effect zu blenden<space quantity="1"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684524779783_217_tl_1" n="N001"/>vermag. Wer sich darüber der kürzesten Täuschung hingab,
+            <cb n="4"/>
+            <p prev="true">      
+      <lb facs="#facs_2_region_1684524779783_217_tl_1" n="N001"/>vermag. Wer sich darüber der kürzesten Täuschung hingab,
       <lb facs="#facs_2_region_1684524779783_217_tl_2" n="N002"/>war der Componist selbst. Ein so feiner kritischer Geist wie
-      <lb facs="#facs_2_region_1684524779783_217_tl_3" n="N003"/>Richard <rs type="person">Wagner</rs> mußte trotz des „<rs type="bibl">Rienzi</rs>“-Erfolges in
-      <lb facs="#facs_2_region_1684524779783_217_tl_4" n="N004"/>
-               <rs type="place">Dresden</rs> bald einsehen, daß ihm auf <hi rendition="#em">diesem</hi> Felde keine
+      <lb facs="#facs_2_region_1684524779783_217_tl_3" n="N003"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> mußte trotz des „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“-Erfolges in
+      <lb facs="#facs_2_region_1684524779783_217_tl_4" n="N004"/><rs type="place" ref="#hsl_place_id_15">Dresden</rs> bald einsehen, daß ihm auf <hi rendition="#em">diesem</hi> Felde keine
       <lb facs="#facs_2_region_1684524779783_217_tl_5" n="N005"/>weiteren Lorbeern sprießen. Im Schaugepränge und
       <lb facs="#facs_2_region_1684524779783_217_tl_6" n="N006"/>Orchesterlärm noch weiter zu gehen, war unmöglich; in den
       <lb facs="#facs_2_region_1684524779783_217_tl_7" n="N007"/>alten Formen durch Reichthum und Schönheit musikalischer
       <lb facs="#facs_2_region_1684524779783_217_tl_8" n="N008"/>Ideen zu entzücken, erlaubten seine Mittel nicht — was
       <lb facs="#facs_2_region_1684524779783_217_tl_9" n="N009"/>blieb übrig, als einen neuen Weg zu suchen? Wie er diesen
       <lb facs="#facs_2_region_1684524779783_217_tl_10" n="N010"/>gefunden und mit Erfolg behauptet hat, ist bekannt. Seinen
-      <lb facs="#facs_2_region_1684524779783_217_tl_11" n="N011"/>„<rs type="bibl">Rienzi</rs>“ hat er später selbst als einen Irrthum bezeichnet;
-      <lb facs="#facs_2_region_1684524779783_217_tl_12" n="N012"/>wir dürfen also ein Gleiches thun. Nur hat <rs type="person">Wagner</rs>
-               <lb facs="#facs_2_region_1684524779783_217_tl_13" n="N013"/>diese Oper verworfen, weil sie einer angeblich überwundenen
-      <lb facs="#facs_2_region_1684524779783_217_tl_14" n="N014"/>Kunstgattung angehöre; wir, weil sie ein überwundenes Indi-
-      <lb facs="#facs_2_region_1684524779783_217_tl_15" n="N015"/>viduum dieser Gattung, weil sie schlechte Musik ist. Das nach
-      <lb facs="#facs_2_region_1684524779783_217_tl_16" n="N016"/>
-               <rs type="person">Bulwer</rs>’s <rs type="bibl">Roman</rs> von <rs type="person">Wagner</rs> selbst verfaßte Textbuch ver-
-      <lb facs="#facs_2_region_1684524779783_217_tl_17" n="N017"/>dient das Lob geschickter Mache, insoferne es den Stoff
+      <lb facs="#facs_2_region_1684524779783_217_tl_11" n="N011"/>„<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ hat er später selbst als einen Irrthum bezeichnet;
+      <lb facs="#facs_2_region_1684524779783_217_tl_12" n="N012"/>wir dürfen also ein Gleiches thun. Nur hat <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1"/>
+      <lb facs="#facs_2_region_1684524779783_217_tl_13" n="N013"/>diese Oper verworfen, weil sie einer angeblich überwundenen
+      <lb facs="#facs_2_region_1684524779783_217_tl_14" n="N014"/>Kunstgattung angehöre; wir, weil sie ein überwundenes Indi
+      <lb facs="#facs_2_region_1684524779783_217_tl_15" n="N015" break="no"/>viduum dieser Gattung, weil sie schlechte Musik ist. Das nach
+      <lb facs="#facs_2_region_1684524779783_217_tl_16" n="N016"/><rs type="person" ref="#hsl_person_id_1625">Bulwer</rs>’s <rs type="bibl" ref="#hsl_work_id_1022">Roman</rs> von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> selbst verfaßte Textbuch ver
+      <lb facs="#facs_2_region_1684524779783_217_tl_17" n="N017" break="no"/>dient das Lob geschickter Mache, insoferne es den Stoff
       <lb facs="#facs_2_region_1684524779783_217_tl_18" n="N018"/>zweckmäßig gliedert und eine Reihe effectvoller Situationen
       <lb facs="#facs_2_region_1684524779783_217_tl_19" n="N019"/>herbeiführt. Die vorwiegende Absicht auf diese Masseneffecte
-      <lb facs="#facs_2_region_1684524779783_217_tl_20" n="N020"/>vereitelte aber jede feinere Motivirung; nicht nur die psycho-
-      <lb facs="#facs_2_region_1684524779783_217_tl_21" n="N021"/>logische der handelnden Personen, sondern auch die logisch-
-      <lb facs="#facs_2_region_1684524779783_217_tl_22" n="N022"/>pragmatische der Handlung. Wer <rs type="person">Bulwer</rs>’s <rs type="bibl">Roman</rs> nicht in
-      <lb facs="#facs_2_region_1684524779783_217_tl_23" n="N023"/>sicherem Gedächtniß bewahrt hat, bleibt über manche Haupt-
-      <lb facs="#facs_2_region_1684524779783_217_tl_24" n="N024"/>wendung der Oper vollständig im Unklaren.
+      <lb facs="#facs_2_region_1684524779783_217_tl_20" n="N020"/>vereitelte aber jede feinere Motivirung; nicht nur die psycho
+      <lb facs="#facs_2_region_1684524779783_217_tl_21" n="N021" break="no"/>logische der handelnden Personen, sondern auch die logisch-
+      <lb facs="#facs_2_region_1684524779783_217_tl_22" n="N022"/>pragmatische der Handlung. Wer <rs type="person" ref="#hsl_person_id_1625">Bulwer</rs>’s <rs type="bibl" ref="#hsl_work_id_1022">Roman</rs> nicht in
+      <lb facs="#facs_2_region_1684524779783_217_tl_23" n="N023"/>sicherem Gedächtniß bewahrt hat, bleibt über manche Haupt
+      <lb facs="#facs_2_region_1684524779783_217_tl_24" n="N024" break="no"/>wendung der Oper vollständig im Unklaren.
+            </p><p>
       <lb facs="#facs_2_line_1685689157762_1243" n="N025"/>Die Musik hat uns auch in der heutigen Aufführung
-      <lb facs="#facs_2_region_1684524779783_217_tl_25" n="N026"/>keinen besseren Eindruck gemacht, als damals in ihrer ge-
-      <lb facs="#facs_2_region_1684524779783_217_tl_26" n="N027"/>kürzten Form vor dreißig Jahren. Mit Ausnahme der Panto-
-      <lb facs="#facs_2_region_1684524779783_217_tl_27" n="N028"/>mime der Frauen vor dem Waffentanz wird jetzt kein
+      <lb facs="#facs_2_region_1684524779783_217_tl_25" n="N026"/>keinen besseren Eindruck gemacht, als damals in ihrer ge
+      <lb facs="#facs_2_region_1684524779783_217_tl_26" n="N027" break="no"/>kürzten Form vor dreißig Jahren. Mit Ausnahme der Panto
+      <lb facs="#facs_2_region_1684524779783_217_tl_27" n="N028" break="no"/>mime der Frauen vor dem Waffentanz wird jetzt kein
       <lb facs="#facs_2_region_1684524779783_217_tl_28" n="N029"/>Musikstück gestrichen. Die überlange Oper entläßt uns
-      <lb facs="#facs_2_region_1684524779783_217_tl_29" n="N030"/>ermüdet und betäubt. Wo <rs type="bibl">Rienzi</rs> Effect macht (und
+      <lb facs="#facs_2_region_1684524779783_217_tl_29" n="N030"/>ermüdet und betäubt. Wo <rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs> Effect macht (und
       <lb facs="#facs_2_region_1684524779783_217_tl_30" n="N031"/>dies gelingt ihm häufig in den ersten drei Acten),
-      <lb facs="#facs_2_region_1684524779783_217_tl_31" n="N032"/>da ist er die von <rs type="person">Wagner</rs> witzig definirte „Wirkung ohne
+      <lb facs="#facs_2_region_1684524779783_217_tl_31" n="N032"/>da ist er die von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> witzig definirte „Wirkung ohne
       <lb facs="#facs_2_region_1684524779783_217_tl_32" n="N033"/>Ursache“. Alltäglichen, zum Theile ganz trivialen Ideen wird
-      <lb facs="#facs_2_region_1684524779783_217_tl_33" n="N034"/>hier durch derbste sinnliche Mittel der Schein des Groß-
-      <lb facs="#facs_2_region_1684524779783_217_tl_34" n="N035"/>artigen angetäuscht. Solch unausgesetztes Brüllen von
+      <lb facs="#facs_2_region_1684524779783_217_tl_33" n="N034"/>hier durch derbste sinnliche Mittel der Schein des Groß
+      <lb facs="#facs_2_region_1684524779783_217_tl_34" n="N035" break="no"/>artigen angetäuscht. Solch unausgesetztes Brüllen von
       <lb facs="#facs_2_region_1684524779783_217_tl_35" n="N036"/>Posaunen und Tuba, so unermüdliches Trommeln und
-      <lb facs="#facs_2_line_1685689115011_1216" n="N037"/>Beckenschlagen. So erbarmungslose Anstrengung der Chor-</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684524783809_220_tl_1" n="N001"/>und Solosänger verlangt keine zweite Oper. Der Hörer
-      <lb facs="#facs_2_region_1684524783809_220_tl_2" n="N002"/>wird förmlich niedergeworfen und der Triumph des Com-
-      <lb facs="#facs_2_region_1684524783809_220_tl_3" n="N003"/>ponisten zur totalen Niederlage des Zuhörers. Gleich in der
+      <lb facs="#facs_2_line_1685689115011_1216" n="N037"/>Beckenschlagen. So erbarmungslose Anstrengung der Chor-<space quantity="1"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684524783809_220_tl_1" n="N001"/>und Solosänger verlangt keine zweite Oper. Der Hörer
+      <lb facs="#facs_2_region_1684524783809_220_tl_2" n="N002"/>wird förmlich niedergeworfen und der Triumph des Com
+      <lb facs="#facs_2_region_1684524783809_220_tl_3" n="N003" break="no"/>ponisten zur totalen Niederlage des Zuhörers. Gleich in der
       <lb facs="#facs_2_region_1684524783809_220_tl_4" n="N004"/>Ouvertüre, diesem Monstre-Potpourri mit der Prätension
       <lb facs="#facs_2_region_1684524783809_220_tl_5" n="N005"/>eines einheitlichen Charakterbildes, sehen wir unter der
       <lb facs="#facs_2_region_1684524783809_220_tl_6" n="N006"/>sinnlichen Gewalt der Töne den Geist erliegen. Bessere
-      <lb facs="#facs_2_line_1685689129497_1225" n="N007"/>Hoffnungen erregt die Introduction (Entführung der <rs type="person">Irene</rs>
-               <lb facs="#facs_2_region_1684524783809_220_tl_8" n="N008"/>mit dem Dazwischentreten <rs type="person">Adriano</rs>’s und dem Streite
-      <lb facs="#facs_2_region_1684524783809_220_tl_9" n="N009"/>zwischen <rs type="person">Orsini</rs> und <rs type="person">Colonna</rs>); sie ist mehr im Tone der Spiel-
-      <lb facs="#facs_2_region_1684524783809_220_tl_10" n="N010"/>oper gehalten und meines Erachtens die werthvollste Nummer
+      <lb facs="#facs_2_line_1685689129497_1225" n="N007"/>Hoffnungen erregt die Introduction (Entführung der <rs type="person" ref="#hsl_person_id_1626">Irene</rs><space quantity="1"/>
+      <lb facs="#facs_2_region_1684524783809_220_tl_8" n="N008"/>mit dem Dazwischentreten <rs type="person" ref="#hsl_person_id_1627">Adriano</rs>’s und dem Streite
+      <lb facs="#facs_2_region_1684524783809_220_tl_9" n="N009"/>zwischen <rs type="person" ref="#hsl_person_id_1628">Orsini</rs> und <rs type="person" ref="#hsl_person_id_1629">Colonna</rs>); sie ist mehr im Tone der Spiel
+      <lb facs="#facs_2_region_1684524783809_220_tl_10" n="N010" break="no"/>oper gehalten und meines Erachtens die werthvollste Nummer
       <lb facs="#facs_2_line_1685689139281_1234" n="N011"/>des Ganzen. Was nun folgt, kann man abgesehen von
       <lb facs="#facs_2_region_1684524783809_220_tl_12" n="N012"/>einigen flüchtig vorüberleuchtenden Stellen, füglich unter zwei
-      <lb facs="#facs_2_region_1684524783809_220_tl_13" n="N013"/>Kategorien zusammenfassen: lärmende Trivialität und senti-
-      <lb facs="#facs_2_region_1684524783809_220_tl_14" n="N014"/>mentale Trivialität. Zur ersten Classe gehören alle „Glanz-
-      <lb facs="#facs_2_region_1684524783809_220_tl_15" n="N015"/>nummern“ der Oper: das erste Finale, der große Einzugs-
-      <lb facs="#facs_2_region_1684524783809_220_tl_16" n="N016"/>marsch, die Balletmusik, endlich der Schlußchor im zweiten
+      <lb facs="#facs_2_region_1684524783809_220_tl_13" n="N013"/>Kategorien zusammenfassen: lärmende Trivialität und senti
+      <lb facs="#facs_2_region_1684524783809_220_tl_14" n="N014" break="no"/>mentale Trivialität. Zur ersten Classe gehören alle „Glanz
+      <lb facs="#facs_2_region_1684524783809_220_tl_15" n="N015" break="no"/>nummern“ der Oper: das erste Finale, der große Einzugs
+      <lb facs="#facs_2_region_1684524783809_220_tl_16" n="N016" break="no"/>marsch, die Balletmusik, endlich der Schlußchor im zweiten
       <lb facs="#facs_2_region_1684524783809_220_tl_17" n="N017"/>Act. Man glaubt nicht, daß der Lärm des Finales noch
       <lb facs="#facs_2_region_1684524783809_220_tl_18" n="N018"/>steigerungsfähig sei; er wird aber noch weit übertroffen von
       <lb facs="#facs_2_region_1684524783809_220_tl_19" n="N019"/>dem Marsch und Schlachtgesang im dritten Act. Da
@@ -1009,77 +988,51 @@
       <lb facs="#facs_2_region_1684524783809_220_tl_28" n="N028"/>der sentimentalen. Sie sehen einander erschreckend ähnlich
       <lb facs="#facs_2_region_1684524783809_220_tl_29" n="N029"/>mit ihrer flachen süßlichen Melodie und steifen, dürftigen
       <lb facs="#facs_2_region_1684524783809_220_tl_30" n="N030"/>Harmonisirung. Das B-dur-Terzett im ersten Act mit dem
-      <lb facs="#facs_2_region_1684524783809_220_tl_31" n="N031"/>sich anschließenden Liebesduett, die empfindsamen mordent-
-      <lb facs="#facs_2_region_1684524783809_220_tl_32" n="N032"/>gezierten Cantilenen des Helden <rs type="person">Rienzi</rs> — wie kleinlich,
+      <lb facs="#facs_2_region_1684524783809_220_tl_31" n="N031"/>sich anschließenden Liebesduett, die empfindsamen mordent
+      <lb facs="#facs_2_region_1684524783809_220_tl_32" n="N032" break="no"/>gezierten Cantilenen des Helden <rs type="person" ref="#hsl_person_id_1630">Rienzi</rs> — wie kleinlich,
       <lb facs="#facs_2_region_1684524783809_220_tl_33" n="N033"/>kraftlos und abgetragen klingt das Alles! Was uns heute
-      <lb facs="#facs_2_region_1684524783809_220_tl_34" n="N034"/>noch theilweise mit dieser Musik versöhnt, ist ihr jugend-
-      <lb facs="#facs_2_region_1684524783809_220_tl_35" n="N035"/>liches Feuer und ihre zukunftverheißende dramatische Energie.
-      <lb facs="#facs_2_region_1684524783809_220_tl_36" n="N036"/>„<rs type="bibl">Rienzi</rs>“ ging bei gedrängt vollem Hause, unter tod-
-      <lb facs="#facs_2_line_1685689118170_1219" n="N037"/>müdem Enthusiasmus des Publicums in Scene. Die Vor-</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684524790035_223_tl_1" n="N001"/>stellung währte bis gegen ½12 Uhr Nachts. In noch
-      <lb facs="#facs_2_region_1684524790035_223_tl_2" n="N002"/>höherem Grade sehens- als hörenswerth wirkte sie vornehm-
-      <lb facs="#facs_2_region_1684524790035_223_tl_3" n="N003"/>lich durch die Pracht der neuen Decorationen von <rs type="person">Broschi</rs>,
+      <lb facs="#facs_2_region_1684524783809_220_tl_34" n="N034"/>noch theilweise mit dieser Musik versöhnt, ist ihr jugend
+      <lb facs="#facs_2_region_1684524783809_220_tl_35" n="N035" break="no"/>liches Feuer und ihre zukunftverheißende dramatische Energie.
+      <lb facs="#facs_2_region_1684524783809_220_tl_36" n="N036"/>„<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ ging bei gedrängt vollem Hause, unter tod
+      <lb facs="#facs_2_line_1685689118170_1219" n="N037" break="no"/>müdem Enthusiasmus des Publicums in Scene. Die Vor</p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684524790035_223_tl_1" n="N001" break="no"/>stellung währte bis gegen ½12 Uhr Nachts. In noch
+      <lb facs="#facs_2_region_1684524790035_223_tl_2" n="N002"/>höherem Grade sehens- als hörenswerth wirkte sie vornehm
+      <lb facs="#facs_2_region_1684524790035_223_tl_3" n="N003" break="no"/>lich durch die Pracht der neuen Decorationen von <rs type="person" ref="#hsl_person_id_1631">Broschi</rs>,
       <lb facs="#facs_2_region_1684524790035_223_tl_4" n="N004"/>durch die blinkenden Costüme und das effectvolle Ballet.
-      <lb facs="#facs_2_region_1684524790035_223_tl_5" n="N005"/>Herr <hi rendition="#em">
-                  <rs type="person">Schmedes</rs>
-               </hi>, der als Volkstribun, umgeben von
+      <lb facs="#facs_2_region_1684524790035_223_tl_5" n="N005"/>Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1242">Schmedes</rs></hi>, der als Volkstribun, umgeben von
       <lb facs="#facs_2_region_1684524790035_223_tl_6" n="N006"/>lauter bärtigen Männern, viel zu jugendlich aussah mit
-      <lb facs="#facs_2_line_1685689131273_1228" n="N007"/>seinem glattrasirten, rosigen Gesicht, war ein tüchtiger <rs type="person">Rienzi</rs>.
-      <lb facs="#facs_2_region_1684524790035_223_tl_7" n="N008"/>An <hi rendition="#em">
-                  <rs type="person">Niemann</rs>
-               </hi> durfte man freilich nicht denken, trotz-
-      <lb facs="#facs_2_region_1684524790035_223_tl_8" n="N009"/>dem dachte man nur zu viel an ihn. Herr <hi rendition="#em">
-                  <rs type="person">Winkelmann</rs>
-               </hi>,
-      <lb facs="#facs_2_region_1684524790035_223_tl_9" n="N010"/>welcher den <rs type="person">Rienzi</rs> singen sollte, war vor der Aufführung
-      <lb facs="#facs_2_line_1685689140761_1237" n="N011"/>heiser geworden, Herr <rs type="person">Schmedes</rs> wurde es erst während
-      <lb facs="#facs_2_region_1684524790035_223_tl_10" n="N012"/>derselben. <rs type="person">Wagner</rs>, der männermordende <rs type="person">Achill</rs> unter den
+      <lb facs="#facs_2_line_1685689131273_1228" n="N007"/>seinem glattrasirten, rosigen Gesicht, war ein tüchtiger <rs type="person" ref="#hsl_person_id_1630">Rienzi</rs>.
+      <lb facs="#facs_2_region_1684524790035_223_tl_7" n="N008"/>An <hi rendition="#em"><rs type="person" ref="#hsl_person_id_194">Niemann</rs></hi> durfte man freilich nicht denken, trotz
+      <lb facs="#facs_2_region_1684524790035_223_tl_8" n="N009" break="no"/>dem dachte man nur zu viel an ihn. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_370">Winkelmann</rs></hi>,
+      <lb facs="#facs_2_region_1684524790035_223_tl_9" n="N010"/>welcher den <rs type="person" ref="#hsl_person_id_1630">Rienzi</rs> singen sollte, war vor der Aufführung
+      <lb facs="#facs_2_line_1685689140761_1237" n="N011"/>heiser geworden, Herr <rs type="person" ref="#hsl_person_id_1242">Schmedes</rs> wurde es erst während
+      <lb facs="#facs_2_region_1684524790035_223_tl_10" n="N012"/>derselben. <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, der männermordende <rs type="person" ref="#hsl_person_id_1632">Achill</rs> unter den
       <lb facs="#facs_2_region_1684524790035_223_tl_11" n="N013"/>Operncomponisten, verlangt stets vorsichtige Doppelbesetzungen.
-      <lb facs="#facs_2_region_1684524790035_223_tl_12" n="N014"/>Irene fand in Fräulein v. <hi rendition="#em">
-                  <rs type="person">Mildenburg</rs>
-               </hi> eine herrliche
+      <lb facs="#facs_2_region_1684524790035_223_tl_12" n="N014"/><rs type="person" ref="#hsl_person_id_1626">Irene</rs> fand in Fräulein v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1079">Mildenburg</rs></hi> eine herrliche
       <lb facs="#facs_2_region_1684524790035_223_tl_13" n="N015"/>Repräsentantin; neben ihrer imposanten Gestalt schrumpfte
-      <lb facs="#facs_2_region_1684524790035_223_tl_14" n="N016"/>ihr Geliebter <rs type="person">Adriano</rs> recht kümmerlich zusammen. Für diesen
-      <lb facs="#facs_2_region_1684524790035_223_tl_15" n="N017"/>Heldenjüngling ist Fräulein <hi rendition="#em">
-                  <rs type="person">Walker</rs>
-               </hi> unzureichend, nicht blos
+      <lb facs="#facs_2_region_1684524790035_223_tl_14" n="N016"/>ihr Geliebter <rs type="person" ref="#hsl_person_id_1627">Adriano</rs> recht kümmerlich zusammen. Für diesen
+      <lb facs="#facs_2_region_1684524790035_223_tl_15" n="N017"/>Heldenjüngling ist Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_974">Walker</rs></hi> unzureichend, nicht blos
       <lb facs="#facs_2_region_1684524790035_223_tl_16" n="N018"/>durch ihre Erscheinung. Musterhaft geschulte, correcte Sängerin,
-      <lb facs="#facs_2_region_1684524790035_223_tl_17" n="N019"/>vermag sie doch keine Empfindung stark und über-
-      <lb facs="#facs_2_region_1684524790035_223_tl_18" n="N020"/>zeugend auf den Zuhörer überzuleiten; ihr Gesang erweckt
+      <lb facs="#facs_2_region_1684524790035_223_tl_17" n="N019"/>vermag sie doch keine Empfindung stark und über
+      <lb facs="#facs_2_region_1684524790035_223_tl_18" n="N020" break="no"/>zeugend auf den Zuhörer überzuleiten; ihr Gesang erweckt
       <lb facs="#facs_2_region_1684524790035_223_tl_19" n="N021"/>weder Liebe noch Zorn, verkündet weder Segen noch Fluch.
       <lb facs="#facs_2_region_1684524790035_223_tl_20" n="N022"/>Gedenken wir mit gebührender Anerkennung der Herren
-      <lb facs="#facs_2_region_1684524790035_223_tl_21" n="N023"/>
-               <hi rendition="#em">
-                  <rs type="person">Neidl</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Reichenberg</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Hesch</rs>
-               </hi>, sowie des „<rs type="person">Friedens-</rs>
-               <lb facs="#facs_2_region_1684524790035_223_tl_22" n="N024"/>
-               <rs type="person">boten</rs>“ Fräulein <hi rendition="#em">
-                  <rs type="person">Pohlner</rs>
-               </hi>, so bleibt uns nur noch
-      <lb facs="#facs_2_region_1684524790035_223_tl_23" n="N025"/>Director <hi rendition="#em">
-                  <rs type="person">Mahler</rs>
-               </hi> zu preisen, die Seele der ganzen Auf-
-      <lb facs="#facs_2_region_1684524790035_223_tl_24" n="N026"/>führung. Die enorme Anstrengung schien seine Kräfte ver-
-      <lb facs="#facs_2_region_1684524790035_223_tl_25" n="N027"/>zehnfacht zu haben; wol auch der Ehrgeiz, dem halbver-
-      <lb facs="#facs_2_region_1684524790035_223_tl_26" n="N028"/>gessenen „<rs type="bibl">Rienzi</rs>“ eine glanzvolle Auferstehung zu bereiten.
-      <lb facs="#facs_2_region_1684524790035_223_tl_27" n="N029"/>Würde <rs type="person">Wagner</rs> diese erlebt haben, wie hätte er sich gefreut
+      <lb facs="#facs_2_region_1684524790035_223_tl_21" n="N023"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1428">Neidl</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1633">Reichenberg</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1433">Hesch</rs></hi>, sowie des „<rs type="person" ref="#hsl_person_id_1634">Friedens
+      <lb facs="#facs_2_region_1684524790035_223_tl_22" n="N024" break="no"/>boten</rs>“ Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1532">Pohlner</rs></hi>, so bleibt uns nur noch
+      <lb facs="#facs_2_region_1684524790035_223_tl_23" n="N025"/>Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_977">Mahler</rs></hi> zu preisen, die Seele der ganzen Auf
+      <lb facs="#facs_2_region_1684524790035_223_tl_24" n="N026" break="no"/>führung. Die enorme Anstrengung schien seine Kräfte ver
+      <lb facs="#facs_2_region_1684524790035_223_tl_25" n="N027" break="no"/>zehnfacht zu haben; wol auch der Ehrgeiz, dem halbver
+      <lb facs="#facs_2_region_1684524790035_223_tl_26" n="N028" break="no"/>gessenen „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“ eine glanzvolle Auferstehung zu bereiten.
+      <lb facs="#facs_2_region_1684524790035_223_tl_27" n="N029"/>Würde <rs type="person" ref="#hsl_person_id_319">Wagner</rs> diese erlebt haben, wie hätte er sich gefreut
       <lb facs="#facs_2_region_1684524790035_223_tl_28" n="N030"/>— nein, geärgert und erzürnt! Hat er nicht dreißig Jahre
-      <lb facs="#facs_2_region_1684524790035_223_tl_29" n="N031"/>lang mit aller Kraft gearbeitet, den „<hi rendition="#em">
-                  <rs type="bibl">Rienzi</rs>
-               </hi>“ vergessen zu
-      <lb facs="#facs_2_region_1684524790035_223_tl_30" n="N032"/>machen und die ganze Gattung der fünfactigen Spectakel-
-      <lb facs="#facs_2_region_1684524790035_223_tl_31" n="N033"/>oper als einen Irrthum und Unfug hinwegzufegen! Hoffent-
-      <lb facs="#facs_2_region_1684524790035_223_tl_32" n="N034"/>lich bekommen wir eines Tages nicht auch „<hi rendition="#em">
-                  <rs type="bibl">Die Feen</rs>
-               </hi>“ zu
+      <lb facs="#facs_2_region_1684524790035_223_tl_29" n="N031"/>lang mit aller Kraft gearbeitet, den „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs></hi>“ vergessen zu
+      <lb facs="#facs_2_region_1684524790035_223_tl_30" n="N032"/>machen und die ganze Gattung der fünfactigen Spectakel
+      <lb facs="#facs_2_region_1684524790035_223_tl_31" n="N033" break="no"/>oper als einen Irrthum und Unfug hinwegzufegen! Hoffent
+      <lb facs="#facs_2_region_1684524790035_223_tl_32" n="N034" break="no"/>lich bekommen wir eines Tages nicht auch „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1020">Die Feen</rs></hi>“ zu
       <lb facs="#facs_2_region_1684524790035_223_tl_33" n="N035"/>sehen. Eine noch prächtiger drapirte, noch musikärmere Puppe.
-      <lb facs="#facs_2_region_1684524790035_223_tl_34" n="N036"/>Aber — von <rs type="person">Wagner</rs>.</p>
+      <lb facs="#facs_2_region_1684524790035_223_tl_34" n="N036"/>Aber — von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>.</p>
          </div>
       </body>
    </text>
