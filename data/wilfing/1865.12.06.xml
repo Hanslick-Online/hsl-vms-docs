@@ -109,6 +109,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2023-08-04" who="kbamer">komplette Kritik: Personen, Daten, Orte, Werke ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -783,272 +784,203 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1675938215086_32_tl_2_1" n="N001"/>Concerte.
-      <lb facs="#facs_1_region_1675938215086_32_tl_3_1" n="N002"/>Ed. H. Es gibt interessante Concertprogramme, die sich
+            
+           <lb facs="#facs_1_region_1675938215086_32_tl_2_1" n="N001"/><head type="h1">Concerte.</head>
+  <p> <lb facs="#facs_1_region_1675938215086_32_tl_3_1" n="N002"/>Ed. H. Es gibt interessante Concertprogramme, die sich
       <lb facs="#facs_1_region_1675938215086_32_tl_4" n="N003"/>auf dem Anschlagzettel ungleich effectvoller ausnehmen, als sie
       <lb facs="#facs_1_region_1675938215086_32_tl_5" n="N004"/>uns nach der Aufführung erscheinen. Dahin gehörte das
-      <lb facs="#facs_1_region_1675938215086_32_tl_6" n="N005"/>„<hi rendition="#em">zweite Gesellschaftsconcert</hi>“ mit seiner <hi rendition="#em">
-                  <rs type="person" continued="true">Cheru¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1675938215086_32_tl_7" n="N006"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bini</rs>
-               </hi>ʼschen <rs type="bibl">Symphonie</rs> und <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>ʼs „<rs type="bibl">Stephansmusik</rs>“.
-      <lb facs="#facs_1_region_1675938215086_32_tl_8" n="N007"/>Wer wollte Herrn Hofkapellmeister <hi rendition="#em">Herbeck</hi> nicht Recht und
+      <lb facs="#facs_1_region_1675938215086_32_tl_6" n="N005"/>„<hi rendition="#em">zweite Gesellschaftsconcert</hi>“ mit seiner <hi rendition="#em"><rs type="person" ref="#hsl_person_id_47">Cheru
+      <lb facs="#facs_1_region_1675938215086_32_tl_7" n="N006" break="no"/>bini</rs></hi>ʼschen <rs type="bibl" ref="#hsl_work_id_522">Symphonie</rs> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_526">Stephansmusik</rs>“.
+      <lb facs="#facs_1_region_1675938215086_32_tl_8" n="N007"/>Wer wollte Herrn Hofkapellmeister <rs type="person" ref="#hsl_person_id_121"><hi rendition="#em">Herbeck</hi></rs> nicht Recht und
       <lb facs="#facs_1_region_1675938215086_32_tl_9" n="N008"/>Dank zollen, daß er zwei Werke großer Tonmeister zum
       <lb facs="#facs_1_region_1675938215086_32_tl_10" n="N009"/>erstenmal vollständig zur Aufführung brachte? Aber er selbst
       <lb facs="#facs_1_region_1675938215086_32_tl_11" n="N010"/>dürfte mit dem Publicum kaum ernstlich schmollen, weil er
       <lb facs="#facs_1_region_1675938215086_32_tl_12" n="N011"/>von der einen Composition gar nicht, von der andern nur
-      <lb facs="#facs_1_region_1675938215086_32_tl_13" n="N012"/>ehen mäßig entzückt nach Hause ging.
-      <lb facs="#facs_1_region_1675938215086_32_tl_14" n="N013"/>Eine große Symphonie <rs type="place">italienischer</rs> Herkunft ist an sich
-      <lb facs="#facs_1_region_1675938215086_32_tl_15" n="N014"/>schon etwas Seltenes, die <rs type="person">Cherubini</rs>ʼsche war obendrein bis
+      <lb facs="#facs_1_region_1675938215086_32_tl_13" n="N012"/>ehen mäßig entzückt nach Hause ging.</p>
+   <p><lb facs="#facs_1_region_1675938215086_32_tl_14" n="N013"/>Eine große Symphonie <rs type="place" ref="#hsl_place_id_28">italienisch</rs>er Herkunft ist an sich
+      <lb facs="#facs_1_region_1675938215086_32_tl_15" n="N014"/>schon etwas Seltenes, die <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>ʼsche war obendrein bis
       <lb facs="#facs_1_region_1675938215086_32_tl_17" n="N015"/>heute in ein fast undurchdringliches Incognito gehüllt. Die
-      <lb facs="#facs_1_region_1675938215086_32_tl_18" n="N016"/>„Museums-Gesellschaft“ in <rs type="place">Frankfurt</rs> hat das Manuscript
+      <lb facs="#facs_1_region_1675938215086_32_tl_18" n="N016"/>„Museums-Gesellschaft“ in <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs> hat das Manuscript
       <lb facs="#facs_1_region_1675938215086_32_tl_20" n="N017"/>von der Philharmonic Society in London erhalten und
-      <lb facs="#facs_1_region_1675938215086_32_tl_21" n="N018"/>Herrn <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> zum Behuf der Aufführung mitgetheilt. Die
+      <lb facs="#facs_1_region_1675938215086_32_tl_21" n="N018"/>Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> zum Behuf der Aufführung mitgetheilt. Die
       <lb facs="#facs_1_region_1675938215086_32_tl_22" n="N019"/>authentische Geschichte jener philharmonischen Gesellschaft
-      <lb facs="#facs_1_region_1675938215086_32_tl_23" n="N020"/>(von <rs type="person">G. Hogarth</rs>) weiß gar nichts von einer <hi rendition="#em">
-                  <rs type="person">Cherubini</rs>
-               </hi>¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_24" n="N021"/>schen Symphonie, sondern nur von einigen Ouverturen und
-      <lb facs="#facs_1_region_1675938215086_32_tl_25" n="N022"/>einer Cantate, welche <rs type="person">Cherubini</rs> für die Gesellschaft compo¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_26" n="N023"/>nirt hat. Aus anderen zweifellosen Daten läßt sich übrigens
-      <lb facs="#facs_1_region_1675938215086_32_tl_27" n="N024"/>fast mit Gewißheit folgern, daß die hier aufgeführte <rs type="bibl">Sym¬</rs>
-               <lb facs="#facs_1_region_1675938215086_32_tl_28" n="N025"/>
-               <rs type="bibl">phonie in D-dur</rs>, die einzige von <rs type="person">Cherubini</rs> componirte, von
-      <lb facs="#facs_1_region_1675938215086_32_tl_29" n="N026"/>ihm für die Philharmonie Society geschrieben und im Früh¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_30" n="N027"/>ling <date month="0" day="0" year="0">1815</date> in <rs type="place">London</rs> dirigirt worden sei. Gedruckt ist sie
+      <lb facs="#facs_1_region_1675938215086_32_tl_23" n="N020"/>(von G. <rs type="person" ref="#hsl_person_id_923">Hogarth</rs>) weiß gar nichts von einer <hi rendition="#em"><rs type="person" ref="#hsl_person_id_47">Cherubini</rs></hi>
+      <lb facs="#facs_1_region_1675938215086_32_tl_24" n="N021" break="no"/>schen Symphonie, sondern nur von einigen Ouverturen und
+      <lb facs="#facs_1_region_1675938215086_32_tl_25" n="N022"/>einer Cantate, welche <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> für die Gesellschaft compo
+      <lb facs="#facs_1_region_1675938215086_32_tl_26" n="N023" break="no"/>nirt hat. Aus anderen zweifellosen Daten läßt sich übrigens
+      <lb facs="#facs_1_region_1675938215086_32_tl_27" n="N024"/>fast mit Gewißheit folgern, daß die hier aufgeführte <rs type="bibl" ref="#hsl_work_id_522">Sym
+      <lb facs="#facs_1_region_1675938215086_32_tl_28" n="N025" break="no"/>phonie in D-dur</rs>, die einzige von <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> componirte, von
+      <lb facs="#facs_1_region_1675938215086_32_tl_29" n="N026"/>ihm für die Philharmonie Society geschrieben und im Früh
+      <lb facs="#facs_1_region_1675938215086_32_tl_30" n="N027" break="no"/>ling <date when="1815">1815</date> in <rs type="place" ref="#hsl_place_id_34">London</rs> dirigirt worden sei. Gedruckt ist sie
       <lb facs="#facs_1_region_1675938215086_32_tl_31" n="N028"/>niemals worden, doch hat der Componist ihren wesentlichen
       <lb facs="#facs_1_region_1675938215086_32_tl_32" n="N029"/>Inhalt noch einmal — wir wissen nicht, ob früher oder
-      <lb facs="#facs_1_region_1675938215086_32_tl_33" n="N030"/>später — in einem Streichquartett verwendet. Wer mit gro¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_34" n="N031"/>ßen Erwartungen an diese <rs type="bibl">Symphonie</rs> ging, wird eine an¬ 
-      <lb facs="#facs_1_line_1675940985786_424" n="N032"/>sehnliche Enttäuschung erlebt haben. Es bedarf der ganzen</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1675938215086_32_tl_1_3" n="N001"/>Pietät für den Namen des großen Opern-Componisten, um
+      <lb facs="#facs_1_region_1675938215086_32_tl_33" n="N030"/>später — in einem Streichquartett verwendet. Wer mit gro
+      <lb facs="#facs_1_region_1675938215086_32_tl_34" n="N031" break="no"/>ßen Erwartungen an diese <rs type="bibl" ref="#hsl_work_id_522">Symphonie</rs> ging, wird eine an
+      <lb facs="#facs_1_line_1675940985786_424" n="N032" break="no"/>sehnliche Enttäuschung erlebt haben. Es bedarf der ganzen</p>
+   <cb n="2"/>
+    <p prev="true">
+      <lb facs="#facs_1_region_1675938215086_32_tl_1_3" n="N001"/>Pietät für den Namen des großen Opern-Componisten, um
       <lb facs="#facs_1_region_1675938215086_32_tl_2_2" n="N002"/>der Abwicklung dieses zopfigen Gebildes theilnahmsvoll bis
       <lb facs="#facs_1_region_1675938215086_32_tl_3_2" n="N003"/>zu Ende zu folgen. Kunstvoll geflochten, sorgfältig gebunden,
       <lb facs="#facs_1_region_1675938215086_32_tl_4_1" n="N004"/>vornehm getragen — aber doch ein Zopf. Hoffe Niemand
-      <lb facs="#facs_1_region_1675938215086_32_tl_5_1" n="N005"/>der Ideenfülle und schwungvollen Energie aus <rs type="person">Cherubini</rs>ʼs be¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_6_1" n="N006"/>sten Opern hier zu begegnen. Er findet eine <rs type="person">Haydn</rs>ʼsche
-      <lb facs="#facs_1_region_1675938215086_32_tl_7_1" n="N007"/>Symphonie mit künstlich vergrößerten Gliedmaßen und ver¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_8_1" n="N008"/>trockneter Seele. Unser <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi>, den <rs type="person">Cherubini</rs> selbst als
-      <lb facs="#facs_1_region_1675938215086_32_tl_9_1" n="N009"/>seinen musikalischen Vater verehrte, hat auch zu dieser <rs type="bibl">Sym¬</rs>
-               <lb facs="#facs_1_region_1675938215086_32_tl_10_1" n="N010"/>
-               <rs type="bibl">phonie</rs> einen sehr bedeutenden Alimentations Beitrag gezahlt.
-      <lb facs="#facs_1_region_1675938215086_32_tl_11_1" n="N011"/>Aber so sehr der ganze Bau und unzählige melodische Wen¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_12_1" n="N012"/>dungen an <rs type="person">Haydn</rs> erinnern, von seiner Frische und seinem
+      <lb facs="#facs_1_region_1675938215086_32_tl_5_1" n="N005"/>der Ideenfülle und schwungvollen Energie aus <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>ʼs be
+      <lb facs="#facs_1_region_1675938215086_32_tl_6_1" n="N006" break="no"/>sten Opern hier zu begegnen. Er findet eine <rs type="person" ref="#hsl_person_id_114">Haydn</rs>ʼsche
+      <lb facs="#facs_1_region_1675938215086_32_tl_7_1" n="N007"/>Symphonie mit künstlich vergrößerten Gliedmaßen und ver
+      <lb facs="#facs_1_region_1675938215086_32_tl_8_1" n="N008" break="no"/>trockneter Seele. Unser <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi>, den <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> selbst als
+      <lb facs="#facs_1_region_1675938215086_32_tl_9_1" n="N009"/>seinen musikalischen Vater verehrte, hat auch zu dieser <rs type="bibl" ref="#hsl_work_id_522">Sym
+      <lb facs="#facs_1_region_1675938215086_32_tl_10_1" n="N010" break="no"/>phonie</rs> einen sehr bedeutenden Alimentations Beitrag gezahlt.
+      <lb facs="#facs_1_region_1675938215086_32_tl_11_1" n="N011"/>Aber so sehr der ganze Bau und unzählige melodische Wen
+      <lb facs="#facs_1_region_1675938215086_32_tl_12_1" n="N012" break="no"/>dungen an <rs type="person" ref="#hsl_person_id_114">Haydn</rs> erinnern, von seiner Frische und seinem
       <lb facs="#facs_1_region_1675938215086_32_tl_13_1" n="N013"/>schalkhaften Humor ist nichts geblieben. Der Ernst des allzeit
-      <lb facs="#facs_1_region_1675938215086_32_tl_14_1" n="N014"/>pathetischen <rs type="place">Florentiner</rs>s wird hier, wo die Größe und Un¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_15_1" n="N015"/>gewohntheit der Aufgabe ihm einen gewissen Zwang anlegten,
+      <lb facs="#facs_1_region_1675938215086_32_tl_14_1" n="N014"/>pathetischen <rs type="place" ref="#hsl_place_id_103">Florent</rs>iners wird hier, wo die Größe und Un
+      <lb facs="#facs_1_region_1675938215086_32_tl_15_1" n="N015" break="no"/>gewohntheit der Aufgabe ihm einen gewissen Zwang anlegten,
       <lb facs="#facs_1_region_1675938215086_32_tl_16_1" n="N016"/>zur Trockenheit und künstelnden Pedanterie. Unverkennbar
-      <lb facs="#facs_1_region_1675938215086_32_tl_17_1" n="N017"/>ist seine Anstrengung, sich aus dem wirklichen und dem Adop¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_18_1" n="N018"/>tiv-Vaterland seiner Muse, <rs type="place">Italien</rs> und <rs type="place">Frankreich</rs>, zu deut¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_19_1" n="N019"/>schem Styl herauszuarbeiten; die Spontaneität, die naive
-      <lb facs="#facs_1_region_1675938215086_32_tl_20_1" n="N020"/>Ursprünglichkeit des Schaffens ging darüber verloren. Ein¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_21_1" n="N021"/>zelne interessante Stellen laben den Hörer von Zeit zu Zeit,
-      <lb facs="#facs_1_region_1675938215086_32_tl_22_1" n="N022"/>am Schlusse hat er trotzdem das Gefühl, beinahe ver¬
-      <lb facs="#facs_1_line_1675941433434_464" n="N023"/>schmachtet zu sein. Welche Erfrischung breitete sich mit den
-      <lb facs="#facs_1_region_1675938215086_32_tl_23_1" n="N024"/>ersten Tacten von <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi>ʼs „<rs type="bibl">Concertstück</rs>“ über den Saal!
-      <lb facs="#facs_1_region_1675938215086_32_tl_24_1" n="N025"/>Herr <hi rendition="#em">
-                  <rs type="person">Tausig</rs>
-               </hi> spielte die reizvolle Composition, und zwar
-      <lb facs="#facs_1_region_1675938215086_32_tl_25_1" n="N026"/>— wie nicht anders zu erwarten — mit vollendeter Virtuo¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_26_1" n="N027"/>sität. Er spielte mit den Schwierigkeiten, aber auch ein we¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_27_1" n="N028"/>nig mit der Sache selbst: der Vortrag, geistreich und eigen¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_28_1" n="N029"/>thümlich, hatte mitunter etwas Zerrissenes, überlegen Bla¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_29_1" n="N030"/>sirtes. Was das Schweighoferʼsche Instrument betrifft, so
+      <lb facs="#facs_1_region_1675938215086_32_tl_17_1" n="N017"/>ist seine Anstrengung, sich aus dem wirklichen und dem Adop
+      <lb facs="#facs_1_region_1675938215086_32_tl_18_1" n="N018" break="no"/>tiv-Vaterland seiner Muse, <rs type="place" ref="#hsl_place_id_28">Italien</rs> und <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>, zu <rs type="place" ref="#hsl_place_id_14">deut
+      <lb facs="#facs_1_region_1675938215086_32_tl_19_1" n="N019" break="no"/>sch</rs>em Styl herauszuarbeiten; die Spontaneität, die naive
+      <lb facs="#facs_1_region_1675938215086_32_tl_20_1" n="N020"/>Ursprünglichkeit des Schaffens ging darüber verloren. Ein
+      <lb facs="#facs_1_region_1675938215086_32_tl_21_1" n="N021" break="no"/>zelne interessante Stellen laben den Hörer von Zeit zu Zeit,
+      <lb facs="#facs_1_region_1675938215086_32_tl_22_1" n="N022"/>am Schlusse hat er trotzdem das Gefühl, beinahe ver
+      <lb facs="#facs_1_line_1675941433434_464" n="N023" break="no"/>schmachtet zu sein. Welche Erfrischung breitete sich mit den
+      <lb facs="#facs_1_region_1675938215086_32_tl_23_1" n="N024"/>ersten Tacten von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_524">Concertstück</rs>“ über den Saal!
+      <lb facs="#facs_1_region_1675938215086_32_tl_24_1" n="N025"/>Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_303">Tausig</rs></hi> spielte die reizvolle Composition, und zwar
+      <lb facs="#facs_1_region_1675938215086_32_tl_25_1" n="N026"/>— wie nicht anders zu erwarten — mit vollendeter Virtuo
+      <lb facs="#facs_1_region_1675938215086_32_tl_26_1" n="N027" break="no"/>sität. Er spielte mit den Schwierigkeiten, aber auch ein we
+      <lb facs="#facs_1_region_1675938215086_32_tl_27_1" n="N028" break="no"/>nig mit der Sache selbst: der Vortrag, geistreich und eigen
+      <lb facs="#facs_1_region_1675938215086_32_tl_28_1" n="N029" break="no"/>thümlich, hatte mitunter etwas Zerrissenes, überlegen Bla
+      <lb facs="#facs_1_region_1675938215086_32_tl_29_1" n="N030" break="no"/>sirtes. Was das Schweighoferʼsche Instrument betrifft, so
       <lb facs="#facs_1_region_1675938215086_32_tl_30_1" n="N031"/>gewährte es ein schönes Piano, aber keine große Schallkraft;
-      <lb facs="#facs_1_region_1675938215086_32_tl_31_1" n="N032"/>überdies ließ es, ohne Schuld des Spielers, durch ungenü¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_32_1" n="N033"/>gende Dämpfung die Töne nachhallen. Herr <rs type="person">Tausig</rs> erntete
-      <lb facs="#facs_1_region_1675938215086_32_tl_33_1" n="N034"/>stürmischen Beifall.
-      <lb facs="#facs_1_line_1675941867771_492" n="N035"/>Zwei Vocalchöre, ein nicht bedeutender, aber klangvoller</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1675938215086_32_tl_1_4" n="N001"/>des verdienstvollen <rs type="place">Münchener</rs> Archivars <rs type="person">Julius <hi rendition="#em">Mayer</hi>
-               </rs> und
-      <lb facs="#facs_1_region_1675938215086_32_tl_2_3" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>
-               </hi>ʼs „<rs type="bibl">Primel</rs>“ (zur Wiederholung verlangt),
+      <lb facs="#facs_1_region_1675938215086_32_tl_31_1" n="N032"/>überdies ließ es, ohne Schuld des Spielers, durch ungenü
+      <lb facs="#facs_1_region_1675938215086_32_tl_32_1" n="N033" break="no"/>gende Dämpfung die Töne nachhallen. Herr <rs type="person" ref="#hsl_person_id_303">Tausig</rs> erntete
+      <lb facs="#facs_1_region_1675938215086_32_tl_33_1" n="N034"/>stürmischen Beifall.</p>
+  <p> <lb facs="#facs_1_line_1675941867771_492" n="N035"/>Zwei Vocalchöre, ein nicht bedeutender, aber klangvoller</p>
+  <cb n="3"/>
+   <p prev="true">
+      <lb facs="#facs_1_region_1675938215086_32_tl_1_4" n="N001"/>des verdienstvollen <rs type="place" ref="#hsl_place_id_39">München</rs>er Archivars Julius <rs type="person" ref="#hsl_person_id_924"><hi rendition="#em">Mayer</hi></rs> und
+      <lb facs="#facs_1_region_1675938215086_32_tl_2_3" n="N002"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_525">Primel</rs>“ (zur Wiederholung verlangt),
       <lb facs="#facs_1_region_1675938215086_32_tl_3_3" n="N003"/>wurden überaus schön gesungen. Der „<hi rendition="#em">Singverein</hi>“ prangt
       <lb facs="#facs_1_region_1675938215086_32_tl_4_2" n="N004"/>wirklich in vollster Blüthe und ist nach Seite der Execution
-      <lb facs="#facs_1_region_1675938215086_32_tl_5_2" n="N005"/>die werthvollste Stütze der Gesellschafts-Concerte. Das Or¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_6_2" n="N006"/>chester stand am Sonntag weit dagegen zurück. Die Bläser
+      <lb facs="#facs_1_region_1675938215086_32_tl_5_2" n="N005"/>die werthvollste Stütze der Gesellschafts-Concerte. Das Or
+      <lb facs="#facs_1_region_1675938215086_32_tl_6_2" n="N006" break="no"/>chester stand am Sonntag weit dagegen zurück. Die Bläser
       <lb facs="#facs_1_region_1675938215086_32_tl_7_2" n="N007"/>stimmten nicht nur empfindlich unrein, sondern trugen auch
-      <lb facs="#facs_1_region_1675938215086_32_tl_8_2" n="N008"/>die zahlreichen kleinen Soli in der<rs type="bibl">
-                  <rs type="person">Cherubini</rs>ʼschen Sympho¬</rs>
-               <lb facs="#facs_1_region_1675938215086_32_tl_9_2" n="N009"/>
-               <rs type="bibl">nie</rs> und der <rs type="bibl">Stephansmusik</rs> von <rs type="person">Beethoven</rs> ohne alle Fein¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_10_2" n="N010"/>heit vor. Daran ist Herr <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> nicht schuld, der auch
+      <lb facs="#facs_1_region_1675938215086_32_tl_8_2" n="N008"/>die zahlreichen kleinen Soli in der<rs type="bibl" ref="#hsl_work_id_522">Cherubiniʼschen Sympho
+      <lb facs="#facs_1_region_1675938215086_32_tl_9_2" n="N009"/>nie</rs> und der <rs type="bibl" ref="#hsl_work_id_526">Stephansmusik</rs> von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> ohne alle Fein
+      <lb facs="#facs_1_region_1675938215086_32_tl_10_2" n="N010" break="no"/>heit vor. Daran ist Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> nicht schuld, der auch
       <lb facs="#facs_1_region_1675938215086_32_tl_11_2" n="N011"/>in diesem Concerte den von seiner Aufgabe ganz erfüllten
-      <lb facs="#facs_1_region_1675938215086_32_tl_12_2" n="N012"/>und sie ganz erfüllenden energischen Dirigenten bewährte.
-      <lb facs="#facs_1_region_1675938215086_32_tl_13_2" n="N013"/>Von besonderem Interesse war die Schlußnummer:
-      <lb facs="#facs_1_region_1675938215086_32_tl_14_2" n="N014"/>
-               <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>ʼs Musik zu dem <hi rendition="#em">
-                  <rs type="person">Kotzebue</rs>
-               </hi>ʼschen Festspiel „<rs type="bibl">Kö¬</rs>
-               <lb facs="#facs_1_region_1675938215086_32_tl_15_2" n="N015"/>
-               <rs type="bibl">nig Stephan</rs>“, oder wie der ursprüngliche Titel lautete:
-      <lb facs="#facs_1_region_1675938215086_32_tl_16_2" n="N016"/>„<rs type="bibl">Ungarns erster Wohlthäter</rs>“. Wir verdanken, wie gesagt,
-      <lb facs="#facs_1_region_1675938215086_32_tl_17_2" n="N017"/>Herrn <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> die erste vollständige Concertaufführung die¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_18_2" n="N018"/>ses Werkes, von dem bisher nur einzelne Bruchstücke aufge¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_19_2" n="N019"/>führt und nur zwei Nummern (Ouverture und Festmarsch)
-      <lb facs="#facs_1_region_1675938215086_32_tl_20_2" n="N020"/>gedruckt waren. Erst in der neuen Gesammt-Ausgabe <rs type="person" continued="true">Beetho¬</rs>
-               <lb facs="#facs_1_region_1675938215086_32_tl_21_2" n="N021"/>
-               <rs type="person" continued="true">ven</rs>ʼs (von Breitkopf und Härtel) hat nun auch dies Festspiel
+      <lb facs="#facs_1_region_1675938215086_32_tl_12_2" n="N012"/>und sie ganz erfüllenden energischen Dirigenten bewährte.</p>
+   <p><lb facs="#facs_1_region_1675938215086_32_tl_13_2" n="N013"/>Von besonderem Interesse war die Schlußnummer:
+      <lb facs="#facs_1_region_1675938215086_32_tl_14_2" n="N014"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs</hi> Musik zu dem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_925">Kotzebue</rs></hi>ʼschen Festspiel „<rs type="bibl" ref="#hsl_work_id_526">Kö
+      <lb facs="#facs_1_region_1675938215086_32_tl_15_2" n="N015" break="no"/>nig Stephan</rs>“, oder wie der ursprüngliche Titel lautete:
+      <lb facs="#facs_1_region_1675938215086_32_tl_16_2" n="N016"/>„<rs type="bibl" ref="#hsl_work_id_526">Ungarns erster Wohlthäter</rs>“. Wir verdanken, wie gesagt,
+      <lb facs="#facs_1_region_1675938215086_32_tl_17_2" n="N017"/>Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> die erste vollständige Concertaufführung die
+      <lb facs="#facs_1_region_1675938215086_32_tl_18_2" n="N018" break="no"/>ses Werkes, von dem bisher nur einzelne Bruchstücke aufge
+      <lb facs="#facs_1_region_1675938215086_32_tl_19_2" n="N019" break="no"/>führt und nur zwei Nummern (Ouverture und Festmarsch)
+      <lb facs="#facs_1_region_1675938215086_32_tl_20_2" n="N020"/>gedruckt waren. Erst in der neuen Gesammt-Ausgabe <rs type="person" ref="#hsl_person_id_25">Beetho
+      <lb facs="#facs_1_region_1675938215086_32_tl_21_2" n="N021" break="no"/>ven</rs>ʼs (von Breitkopf und Härtel) hat nun auch dies Festspiel
       <lb facs="#facs_1_region_1675938215086_32_tl_22_2" n="N022"/>seinen ihm gebührenden Platz gefunden. Die Veranlassung
-      <lb facs="#facs_1_line_1675938455419_82" n="N023"/>dazu war bekanntlich die Eröffnung des <rs type="place">deutschen</rs> Theaters
-      <lb facs="#facs_1_region_1675938215086_32_tl_24_2" n="N024"/>in <rs type="place">Pest</rs> im Jahre <date month="0" day="0" year="0">1812</date>. Man hatte <hi rendition="#em">
-                  <rs type="person">Kotzebue</rs>
-               </hi> mit der
-      <lb facs="#facs_1_region_1675938215086_32_tl_25_2" n="N025"/>Abfassung einer Trilogie aus der <rs type="place">ungarischen</rs> Geschichte be¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_26_2" n="N026"/>auftragt, und <rs type="person">Beethoven</rs> mit der Composition der Musikstücke
+      <lb facs="#facs_1_line_1675938455419_82" n="N023"/>dazu war bekanntlich die Eröffnung des <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Theaters
+      <lb facs="#facs_1_region_1675938215086_32_tl_24_2" n="N024"/>in <rs type="place" ref="#hsl_place_id_108">Pest</rs> im Jahre <date when="1812">1812</date>. Man hatte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_925">Kotzebue</rs></hi> mit der
+      <lb facs="#facs_1_region_1675938215086_32_tl_25_2" n="N025"/>Abfassung einer Trilogie aus der <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en Geschichte be
+      <lb facs="#facs_1_region_1675938215086_32_tl_26_2" n="N026" break="no"/>auftragt, und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> mit der Composition der Musikstücke
       <lb facs="#facs_1_region_1675938215086_32_tl_27_2" n="N027"/>im Vor- und Nachspiel. Das einactige <hi rendition="#em">Vorspiel</hi> mit Chören,
-      <lb facs="#facs_1_region_1675938215086_32_tl_28_2" n="N028"/>das die Festvorstellung am <date month="0" day="0" year="0">9. Februar 1812</date> eröffnete, war
-      <lb facs="#facs_1_region_1675938215086_32_tl_29_2" n="N029"/>„<hi rendition="#em">
-                  <rs type="bibl">Ungarns erster Wohlthäter</rs>
-               </hi>“ und stellte <rs type="person" continued="true">König Ste¬</rs>
-               <lb facs="#facs_1_region_1675938215086_32_tl_30_2" n="N030"/>
-               <rs type="person" continued="true">phan I.</rs> in den wichtigsten Momenten seiner Regierung dar.
-      <lb facs="#facs_1_region_1675938215086_32_tl_31_2" n="N031"/>Das eigentliche Drama, welches <rs type="person">Kotzebue</rs> unter dem Titel
-      <lb facs="#facs_1_region_1675938215086_32_tl_32_2" n="N032"/>„<rs type="bibl">Belaʼs Flucht</rs>“ verfaßt hatte, konnte aus verschiedenen Rück¬
-      <lb facs="#facs_1_region_1675938215086_32_tl_34_1" n="N033"/>sichten nicht gegeben werden; es wurde dafür „<hi rendition="#em">
-                  <rs type="bibl">Die Erhe¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1675938215086_32_tl_36" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="bibl">bung von <rs type="place">Pest</rs> zur königlichen Freistadt</rs>
-               </hi>“ (aus der 
-      <lb facs="#facs_1_line_1675938445356_77" n="N035"/>Geschichte des Jahres <date month="0" day="0" year="0">1244</date>) substituirt. Hierauf folgte das</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1675938282231_47_tl_1" n="N001"/>
-               <hi rendition="#em">Nachspiel</hi> mit Gesängen und Chören, „<rs type="bibl">Die Ruinen von</rs>
-               <lb facs="#facs_2_region_1675938282231_47_tl_2" n="N002"/>
-               <rs type="bibl">Athen</rs>“. Die Musik zu letzterem, durch häufige Concertauf¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_3" n="N003"/>führungen bekannt, steht nicht nur an äußerem Umfange,
-      <lb facs="#facs_2_region_1675938282231_47_tl_4" n="N004"/>sondern auch an musikalischem Werthe hoch über dem „<rs type="bibl">König</rs>
-               <lb facs="#facs_2_region_1675938282231_47_tl_5" n="N005"/>
-               <rs type="bibl">Stephan</rs>“. Stücke von der hinreißenden Wirkung des Der¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_6" n="N006"/>wisch-Chores oder des Türkenmarsches aus den „<rs type="bibl">Ruinen von</rs>
-               <lb facs="#facs_2_region_1675938282231_47_tl_7" n="N007"/>
-               <rs type="bibl">Athen</rs>“ wird man in „<rs type="bibl">König Stephan</rs>“ vergeblich suchen.
-      <lb facs="#facs_2_region_1675938282231_47_tl_8" n="N008"/>
-               <rs type="person">Beethoven</rs> hat das Vorspiel ungleich flüchtiger behandelt, die
+      <lb facs="#facs_1_region_1675938215086_32_tl_28_2" n="N028"/>das die Festvorstellung am <date when="1812-02-09">9. Februar 1812</date> eröffnete, war
+      <lb facs="#facs_1_region_1675938215086_32_tl_29_2" n="N029"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_526">Ungarns erster Wohlthäter</rs></hi>“ und stellte <rs type="person" ref="#hsl_person_id_926">König Ste
+      <lb facs="#facs_1_region_1675938215086_32_tl_30_2" n="N030" break="no"/>phan I.</rs> in den wichtigsten Momenten seiner Regierung dar.
+      <lb facs="#facs_1_region_1675938215086_32_tl_31_2" n="N031"/>Das eigentliche Drama, welches <rs type="person" ref="#hsl_person_id_925">Kotzebue</rs> unter dem Titel
+      <lb facs="#facs_1_region_1675938215086_32_tl_32_2" n="N032"/>„<rs type="bibl" ref="#hsl_work_id_527">Belaʼs Flucht</rs>“ verfaßt hatte, konnte aus verschiedenen Rück
+      <lb facs="#facs_1_region_1675938215086_32_tl_34_1" n="N033" break="no"/>sichten nicht gegeben werden; es wurde dafür „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_528">Die Erhe
+      <lb facs="#facs_1_region_1675938215086_32_tl_36" n="N034" break="no"/>bung von Pest zur königlichen Freistadt</rs></hi>“ (aus der 
+      <lb facs="#facs_1_line_1675938445356_77" n="N035"/>Geschichte des Jahres <date when="1244">1244</date>) substituirt. Hierauf folgte das</p>
+  <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+   <cb n="4"/>
+    <p prev="true">
+      <lb facs="#facs_2_region_1675938282231_47_tl_1" n="N001"/><hi rendition="#em">Nachspiel</hi> mit Gesängen und Chören, „<rs type="bibl" ref="#hsl_work_id_529">Die Ruinen von
+      <lb facs="#facs_2_region_1675938282231_47_tl_2" n="N002"/>Athen</rs>“. Die Musik zu letzterem, durch häufige Concertauf
+      <lb facs="#facs_2_region_1675938282231_47_tl_3" n="N003" break="no"/>führungen bekannt, steht nicht nur an äußerem Umfange,
+      <lb facs="#facs_2_region_1675938282231_47_tl_4" n="N004"/>sondern auch an musikalischem Werthe hoch über dem „<rs type="bibl" ref="#hsl_work_id_526">König
+      <lb facs="#facs_2_region_1675938282231_47_tl_5" n="N005"/>Stephan</rs>“. Stücke von der hinreißenden Wirkung des Der
+      <lb facs="#facs_2_region_1675938282231_47_tl_6" n="N006" break="no"/>wisch-Chores oder des Türkenmarsches aus den „<rs type="bibl" ref="#hsl_work_id_529">Ruinen von
+      <lb facs="#facs_2_region_1675938282231_47_tl_7" n="N007" break="no"/>Athen</rs>“ wird man in „<rs type="bibl" ref="#hsl_work_id_526">König Stephan</rs>“ vergeblich suchen.
+      <lb facs="#facs_2_region_1675938282231_47_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> hat das Vorspiel ungleich flüchtiger behandelt, die
       <lb facs="#facs_2_region_1675938282231_47_tl_9" n="N009"/>Musik mehr decorativ als selbstständig verwendend; seine
       <lb facs="#facs_2_region_1675938282231_47_tl_10" n="N010"/>volle Kraft sparte er für die lohnenderen Aufgaben des Nachspiels.
-      <lb facs="#facs_2_region_1675938282231_47_tl_11" n="N011"/>Im „<rs type="bibl">König Stephan</rs>“ sehen wir nur die Tatze des musikalischen
-      <lb facs="#facs_2_region_1675938282231_47_tl_12" n="N012"/>Löwen, im Nachspiel diesen selbst. Um <rs type="person">Beethoven</rs>ʼs Musik zu
-      <lb facs="#facs_2_region_1675938282231_47_tl_13" n="N013"/>„<rs type="bibl">König Stephan</rs>“ gerecht zu beurtheilen, darf man keinen Augen¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_14" n="N014"/>blick auf deren bestimmten<hi rendition="#em"> theatralischen</hi> Zweck vergessen.
-      <lb facs="#facs_2_region_1675938282231_47_tl_15" n="N015"/>Die Musik mußte sich hier in kleinen und möglichst
+      <lb facs="#facs_2_region_1675938282231_47_tl_11" n="N011"/>Im „<rs type="bibl" ref="#hsl_work_id_526">König Stephan</rs>“ sehen wir nur die Tatze des musikalischen
+      <lb facs="#facs_2_region_1675938282231_47_tl_12" n="N012"/>Löwen, im Nachspiel diesen selbst. Um <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Musik zu
+      <lb facs="#facs_2_region_1675938282231_47_tl_13" n="N013"/>„<rs type="bibl" ref="#hsl_work_id_526">König Stephan</rs>“ gerecht zu beurtheilen, darf man keinen Augen¬
+      <lb facs="#facs_2_region_1675938282231_47_tl_14" n="N014"/>blick auf deren bestimmten<hi rendition="#em"> theatralischen</hi> Zweck vergessen.</p>
+   <p><lb facs="#facs_2_region_1675938282231_47_tl_15" n="N015"/>Die Musik mußte sich hier in kleinen und möglichst
       <lb facs="#facs_2_region_1675938282231_47_tl_16" n="N016"/>populären Formen bewegen und hatte mehr die Bestimmung,
       <lb facs="#facs_2_region_1675938282231_47_tl_17" n="N017"/>eine Reihe rasch aufeinanderfolgender tableauartiger Scenen
-      <lb facs="#facs_2_region_1675938282231_47_tl_18" n="N018"/>zu illustriren, als eine eigentlich dramatische Entwicklung mit vol¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_19" n="N019"/>lem Lebenshauch zu erfüllen. Die abscheulichen Verse <rs type="person" continued="true">Kotze¬</rs>
-               <lb facs="#facs_2_region_1675938282231_47_tl_20" n="N020"/>
-               <rs type="person" continued="true">bue</rs>ʼs konnten den Componisten unmöglich begeistern, und der
-      <lb facs="#facs_2_region_1675938282231_47_tl_21" n="N021"/>Inhalt des „<rs type="bibl">König Stephan</rs>“ war so ausschließlich <rs type="place">ungarisch</rs>,
-      <lb facs="#facs_2_region_1675938282231_47_tl_22" n="N022"/>daß <rs type="person">Beethoven</rs> gar nicht hoffen durfte, es werde seine Arbeit
-      <lb facs="#facs_2_region_1675938282231_47_tl_23" n="N023"/>über jenen Festabend hinaus und vor dem <rs type="place">nicht-ungarischen</rs>
-               <lb facs="#facs_2_region_1675938282231_47_tl_24" n="N024"/>Publicum <rs type="place">Europas</rs> ihr Leben selbstständig fortsetzen. Wir
-      <lb facs="#facs_2_region_1675938282231_47_tl_25" n="N025"/>müssen uns also bescheiden, eine rasch hingeworfene Gelegen¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_26" n="N026"/>heitsmusik <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>ʼs zu hören, und das bleibt unter
-      <lb facs="#facs_2_region_1675938282231_47_tl_27" n="N027"/>allen Umständen ein nicht zu verschmähender Schatz. Oben¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_28" n="N028"/>drein stammt diese Gelegenheitsmusik aus der frischesten, üppig¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_29" n="N029"/>reichsten Periode des Meisters (<rs type="bibl">sechste</rs> und <rs type="bibl">siebente Symphonie</rs>).
-      <lb facs="#facs_2_region_1675938282231_47_tl_30" n="N030"/>In der Ouverture pulsirt ein rasches, kühnes Blut, die wun¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_31" n="N031"/>derlich zerhackte Form läßt aber keine einheitliche Wirkung
+      <lb facs="#facs_2_region_1675938282231_47_tl_18" n="N018"/>zu illustriren, als eine eigentlich dramatische Entwicklung mit vol
+      <lb facs="#facs_2_region_1675938282231_47_tl_19" n="N019" break="no"/>lem Lebenshauch zu erfüllen. Die abscheulichen Verse <rs type="person" ref="#hsl_person_id_925">Kotze
+      <lb facs="#facs_2_region_1675938282231_47_tl_20" n="N020" break="no"/>bue</rs>ʼs konnten den Componisten unmöglich begeistern, und der
+      <lb facs="#facs_2_region_1675938282231_47_tl_21" n="N021"/>Inhalt des „<rs type="bibl" ref="#hsl_work_id_526">König Stephan</rs>“ war so ausschließlich <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>,
+      <lb facs="#facs_2_region_1675938282231_47_tl_22" n="N022"/>daß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> gar nicht hoffen durfte, es werde seine Arbeit
+      <lb facs="#facs_2_region_1675938282231_47_tl_23" n="N023"/>über jenen Festabend hinaus und vor dem nicht-<rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en
+      <lb facs="#facs_2_region_1675938282231_47_tl_24" n="N024"/>Publicum <rs type="place" ref="#hsl_place_id_19">Europas</rs> ihr Leben selbstständig fortsetzen. Wir
+      <lb facs="#facs_2_region_1675938282231_47_tl_25" n="N025"/>müssen uns also bescheiden, eine rasch hingeworfene Gelegen
+      <lb facs="#facs_2_region_1675938282231_47_tl_26" n="N026" break="no"/>heitsmusik <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs</hi> zu hören, und das bleibt unter
+      <lb facs="#facs_2_region_1675938282231_47_tl_27" n="N027"/>allen Umständen ein nicht zu verschmähender Schatz. Oben
+      <lb facs="#facs_2_region_1675938282231_47_tl_28" n="N028" break="no"/>drein stammt diese Gelegenheitsmusik aus der frischesten, üppig
+      <lb facs="#facs_2_region_1675938282231_47_tl_29" n="N029" break="no"/>reichsten Periode des Meisters (<rs type="bibl" ref="#hsl_work_id_408">sechste</rs> und <rs type="bibl" ref="#hsl_work_id_593">siebente Symphonie</rs>).
+      <lb facs="#facs_2_region_1675938282231_47_tl_30" n="N030"/>In der Ouverture pulsirt ein rasches, kühnes Blut, die wun
+      <lb facs="#facs_2_region_1675938282231_47_tl_31" n="N031" break="no"/>derlich zerhackte Form läßt aber keine einheitliche Wirkung
       <lb facs="#facs_2_region_1675938282231_47_tl_32" n="N032"/>aufkommen. Einfach, wol zu einfach, treten die beiden erster
       <lb facs="#facs_2_region_1675938282231_47_tl_33" n="N033"/>Männerchöre auf, kleinste Abschnitzel von Beethovenʼs Purpur.
-      <lb facs="#facs_2_region_1675938282231_47_tl_34" n="N034"/>Der Frauenchor hingegen mit seinen zierlichen Flöten-Guir¬
-      <lb facs="#facs_2_line_1675938473503_91" n="N035"/>landen ist von bezaubernder Lieblichkeit. Der Festmarsch im¬</p>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1675938282231_47_tl_1_1" n="N001"/>ponirt nicht durch Neuheit der Motive, aber durch eine
+      <lb facs="#facs_2_region_1675938282231_47_tl_34" n="N034"/>Der Frauenchor hingegen mit seinen zierlichen Flöten-Guir
+      <lb facs="#facs_2_line_1675938473503_91" n="N035" break="no"/>landen ist von bezaubernder Lieblichkeit. Der Festmarsch im</p>
+  <cb n="5"/>
+   <p prev="true">
+      <lb facs="#facs_2_region_1675938282231_47_tl_1_1" n="N001" break="no"/>ponirt nicht durch Neuheit der Motive, aber durch eine
       <lb facs="#facs_2_line_1675944873185_612" n="N002"/>gewisse großartige Popularität, wie sie neben Beethoven kein
       <lb facs="#facs_2_region_1675938282231_47_tl_2_1" n="N003"/>Zweiter in seiner Gewalt hatte. Der sehr kurze „religiöse
-      <lb facs="#facs_2_region_1675938282231_47_tl_3_1" n="N004"/>Marsch“ fällt daneben beträchtlich ab. Was in der Concert¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_4_1" n="N005"/>aufführung am unwirksamsten bleibt, sind die rein melodramati¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_5_1" n="N006"/>schen Partien; an Ort und Stelle muß die musikalische Be¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_6_1" n="N007"/>gleitung der „Vision Stephanʼs“ sehr bedeutend wirken. Der
+      <lb facs="#facs_2_region_1675938282231_47_tl_3_1" n="N004"/>Marsch“ fällt daneben beträchtlich ab. Was in der Concert
+      <lb facs="#facs_2_region_1675938282231_47_tl_4_1" n="N005" break="no"/>aufführung am unwirksamsten bleibt, sind die rein melodramati
+      <lb facs="#facs_2_region_1675938282231_47_tl_5_1" n="N006" break="no"/>schen Partien; an Ort und Stelle muß die musikalische Be
+      <lb facs="#facs_2_region_1675938282231_47_tl_6_1" n="N007" break="no"/>gleitung der „Vision Stephanʼs“ sehr bedeutend wirken. Der
       <lb facs="#facs_2_region_1675938282231_47_tl_7_1" n="N008"/>in charakteristischen Csardas-Rhythmen aufjubelnde, beinahe
-      <lb facs="#facs_2_region_1675938282231_47_tl_8_1" n="N009"/>
-               <rs type="place">ungarisch-deutsch</rs> declamirende Schlußchor mit seinen gellend
+      <lb facs="#facs_2_region_1675938282231_47_tl_8_1" n="N009"/><rs type="place" ref="#hsl_place_id_53">ungarisch</rs>-<rs type="place" ref="#hsl_place_id_14">deutsch</rs> declamirende Schlußchor mit seinen gellend
       <lb facs="#facs_2_region_1675938282231_47_tl_9_1" n="N010"/>hohen Soprantönen und rauschendem Orchester schlägt tüchtig
-      <lb facs="#facs_2_region_1675938282231_47_tl_10_1" n="N011"/>ein; wir können uns den Enthusiasmus des <rs type="place">magyarischen</rs>
-               <lb facs="#facs_2_region_1675938282231_47_tl_11_1" n="N012"/>Publicums von <date month="0" day="0" year="0">1812</date> lebhaft vorstellen.
-      <lb facs="#facs_2_region_1675938282231_47_tl_12_1" n="N013"/>Bei aller bewundernden Anerkennung der <hi rendition="#em">theatrali¬</hi>
-               <lb facs="#facs_2_region_1675938282231_47_tl_13_1" n="N014"/>
-               <hi rendition="#em">schen</hi> Zweckmäßigkeit dieser Festmusik wird man doch nicht
-      <lb facs="#facs_2_region_1675938282231_47_tl_14_1" n="N015"/>leugnen können, daß sie im Concertsaal nur geringen Ein¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_15_1" n="N016"/>druck macht. Bei ihrer jüngsten Aufführung in <rs type="place">Köln</rs> (unter
-      <lb facs="#facs_2_region_1675938282231_47_tl_16_1" n="N017"/>
-               <rs type="person">F. Hiller</rs>) ging sie fast spurlos vorüber; hier in <rs type="place">Wien</rs> ver¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_17_1" n="N018"/>mochten wenigstens Einzelheiten das Publicum zu erwärmen.
+      <lb facs="#facs_2_region_1675938282231_47_tl_10_1" n="N011"/>ein; wir können uns den Enthusiasmus des <rs type="place" ref="#hsl_place_id_53">magyarischen</rs>
+      <lb facs="#facs_2_region_1675938282231_47_tl_11_1" n="N012"/>Publicums von <date when="1812">1812</date> lebhaft vorstellen.</p>
+   <p><lb facs="#facs_2_region_1675938282231_47_tl_12_1" n="N013"/>Bei aller bewundernden Anerkennung der <hi rendition="#em">theatrali
+      <lb facs="#facs_2_region_1675938282231_47_tl_13_1" n="N014" break="no"/>schen</hi> Zweckmäßigkeit dieser Festmusik wird man doch nicht
+      <lb facs="#facs_2_region_1675938282231_47_tl_14_1" n="N015"/>leugnen können, daß sie im Concertsaal nur geringen Ein
+      <lb facs="#facs_2_region_1675938282231_47_tl_15_1" n="N016" break="no"/>druck macht. Bei ihrer jüngsten Aufführung in <rs type="place" ref="#hsl_place_id_68">Köln</rs> (unter
+      <lb facs="#facs_2_region_1675938282231_47_tl_16_1" n="N017"/>F. <rs type="person" ref="#hsl_person_id_124">Hiller</rs>) ging sie fast spurlos vorüber; hier in <rs type="place" ref="#hsl_place_id_55">Wien</rs> ver
+      <lb facs="#facs_2_region_1675938282231_47_tl_17_1" n="N018" break="no"/>mochten wenigstens Einzelheiten das Publicum zu erwärmen.
       <lb facs="#facs_2_region_1675938282231_47_tl_18_1" n="N019"/>Den Damen vom Singverein votiren wir für ihre heroische
-      <lb facs="#facs_2_region_1675938282231_47_tl_19_1" n="N020"/>Ausdauer im Schlußchor einen speciellen Dank.
-      <lb facs="#facs_2_region_1675938282231_47_tl_20_1" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Hellmesberger</rs>
-               </hi>ʼs dritte Quartett-Soirée war die
+      <lb facs="#facs_2_region_1675938282231_47_tl_19_1" n="N020"/>Ausdauer im Schlußchor einen speciellen Dank.</p>
+   <p><lb facs="#facs_2_region_1675938282231_47_tl_20_1" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>ʼs</hi> dritte Quartett-Soirée war die
       <lb facs="#facs_2_region_1675938282231_47_tl_21_1" n="N022"/>hundertfünfzigste seit der Gründung dieses schönen, für das
-      <lb facs="#facs_2_region_1675938282231_47_tl_22_1" n="N023"/>Musikleben Wiens so hochverdienten Unternehmens. Das
-      <lb facs="#facs_2_region_1675938282231_47_tl_23_1" n="N024"/>Publicum bewies Herrn <rs type="person">Hellmesberger</rs> durch einen unge¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_24_1" n="N025"/>wöhnlich langen und lebhaften Empfang, daß es von dieser
+      <lb facs="#facs_2_region_1675938282231_47_tl_22_1" n="N023"/>Musikleben <rs type="place" ref="#hsl_place_id_55">Wien</rs>s so hochverdienten Unternehmens. Das
+      <lb facs="#facs_2_region_1675938282231_47_tl_23_1" n="N024"/>Publicum bewies Herrn <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs> durch einen unge
+      <lb facs="#facs_2_region_1675938282231_47_tl_24_1" n="N025" break="no"/>wöhnlich langen und lebhaften Empfang, daß es von dieser
       <lb facs="#facs_2_region_1675938282231_47_tl_25_1" n="N026"/>Thatsache Kenntniß nehme und sich freue, seine Verdienste
-      <lb facs="#facs_2_region_1675938282231_47_tl_26_1" n="N027"/>von ganzem Herzen laut anzuerkennen. Wir hörten an die¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_27_1" n="N028"/>sem Abend <rs type="person">Mendelssohn</rs>ʼs <rs type="bibl">E-moll-Concert</rs>, bekanntlich eine
-      <lb facs="#facs_2_region_1675938282231_47_tl_28_1" n="N029"/>der zierlichsten Cabinetsstücke <rs type="person">Hellmesberger</rs>ʼs und seiner Ge¬
-      <lb facs="#facs_2_line_1675945533690_660" n="N030"/>nossen, <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>ʼs <rs type="bibl">Es-dur Quartett, op. 127</rs>, und unter
-      <lb facs="#facs_2_region_1675938282231_47_tl_29_1" n="N031"/>Mitwirkung des Herrn <hi rendition="#em">
-                  <rs type="person">Dachs</rs>
-               </hi> ein neues <rs type="bibl">Clavier-Quartett</rs>
-               <lb facs="#facs_2_line_1675938496695_105" n="N032"/>von <hi rendition="#em">
-                  <rs type="person">Rubinstein</rs>
-               </hi> (<rs type="bibl">C-dur, op. 66</rs>). Das Thema des ersten
+      <lb facs="#facs_2_region_1675938282231_47_tl_26_1" n="N027"/>von ganzem Herzen laut anzuerkennen. Wir hörten an die
+      <lb facs="#facs_2_region_1675938282231_47_tl_27_1" n="N028" break="no"/>sem Abend <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>ʼs <rs type="bibl" ref="#hsl_work_id_531">E-moll-Concert</rs>, bekanntlich eine
+      <lb facs="#facs_2_region_1675938282231_47_tl_28_1" n="N029"/>der zierlichsten Cabinetsstücke <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>ʼs und seiner Ge
+      <lb facs="#facs_2_line_1675945533690_660" n="N030" break="no"/>nossen, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs</hi> <rs type="bibl" ref="#hsl_work_id_532">Es-dur Quartett, op. 127</rs>, und unter
+      <lb facs="#facs_2_region_1675938282231_47_tl_29_1" n="N031"/>Mitwirkung des Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_343">Dachs</rs></hi> ein neues <rs type="bibl" ref="#hsl_work_id_155">Clavier-Quartett</rs>
+      <lb facs="#facs_2_line_1675938496695_105" n="N032"/>von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_244">Rubinstein</rs></hi> (<rs type="bibl" ref="#hsl_work_id_155">C-dur, op. 66</rs>). Das Thema des ersten
       <lb facs="#facs_2_region_1675938282231_47_tl_31_1" n="N033"/>Satzes ist von hinreißender Schönheit. Von allen lebenden
       <lb facs="#facs_2_region_1675938282231_47_tl_32_1" n="N034"/>Componisten wüßten wir keinen, dem noch so etwas einfällt.
       <lb facs="#facs_2_line_1675945921553_687" n="N035"/>In der Ausführung macht der Componist beiweitem nicht</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1675938282231_47_tl_1_2" n="N001"/>daraus, was man erwarten durfte, trotzdem bleibt der Total-
+  <cb n="6"/>
+   <p prev="true">
+      <lb facs="#facs_2_region_1675938282231_47_tl_1_2" n="N001"/>daraus, was man erwarten durfte, trotzdem bleibt der Total-
       <lb facs="#facs_2_line_1675938522599_116" n="N002"/>Eindruck des Satzes, der nach mancherlei Stockungen und
-      <lb facs="#facs_2_region_1675938282231_47_tl_3_2" n="N003"/>unbedeutenden Phrasen sich zum Schluß wieder aufzuschwin¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_4_2" n="N004"/>gen weiß, ein günstiger.
-      <lb facs="#facs_2_region_1675938282231_47_tl_5_2" n="N005"/>Minder bedeutend, doch von raschem Zug und prickeln¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_6_2" n="N006"/>dem Esprit ist das Scherzo. Von da geht es, wie gewöhnlich
-      <lb facs="#facs_2_region_1675938282231_47_tl_7_2" n="N007"/>bei <rs type="person">Rubinstein</rs>, stufen- und terrassenweise abwärts. Das
+      <lb facs="#facs_2_region_1675938282231_47_tl_3_2" n="N003"/>unbedeutenden Phrasen sich zum Schluß wieder aufzuschwin
+      <lb facs="#facs_2_region_1675938282231_47_tl_4_2" n="N004" break="no"/>gen weiß, ein günstiger.</p>
+   <p><lb facs="#facs_2_region_1675938282231_47_tl_5_2" n="N005"/>Minder bedeutend, doch von raschem Zug und prickeln
+      <lb facs="#facs_2_region_1675938282231_47_tl_6_2" n="N006" break="no"/>dem Esprit ist das Scherzo. Von da geht es, wie gewöhnlich
+      <lb facs="#facs_2_region_1675938282231_47_tl_7_2" n="N007"/>bei <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>, stufen- und terrassenweise abwärts. Das
       <lb facs="#facs_2_region_1675938282231_47_tl_8_2" n="N008"/>Auditorium, das die beiden ersten Sätze lebhaft beklatschte,
       <lb facs="#facs_2_region_1675938282231_47_tl_9_2" n="N009"/>nahm die beiden letzten mit eisiger Kälte auf. Hätte Herr
-      <lb facs="#facs_2_region_1675938282231_47_tl_10_2" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="person">Hellmesberger</rs>
-               </hi> dieselben nicht tüchtig abgekürzt, so würde
+      <lb facs="#facs_2_region_1675938282231_47_tl_10_2" n="N010"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs></hi> dieselben nicht tüchtig abgekürzt, so würde
       <lb facs="#facs_2_region_1675938282231_47_tl_11_2" n="N011"/>die Mißstimmung ohne Zweifel noch viel größer geworden
-      <lb facs="#facs_2_region_1675938282231_47_tl_12_2" n="N012"/>sein. Das langgestreckte Adagio gleicht einer Wüste, in wel¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_13_2" n="N013"/>cher uns nur selten und von fern der warme Ton einer
+      <lb facs="#facs_2_region_1675938282231_47_tl_12_2" n="N012"/>sein. Das langgestreckte Adagio gleicht einer Wüste, in wel
+      <lb facs="#facs_2_region_1675938282231_47_tl_13_2" n="N013" break="no"/>cher uns nur selten und von fern der warme Ton einer
       <lb facs="#facs_2_region_1675938282231_47_tl_14_2" n="N014"/>menschlichen Stimme grüßt. Doch ist es immerhin noch von
       <lb facs="#facs_2_region_1675938282231_47_tl_15_2" n="N015"/>einer gewissen düster-melancholischen Stimmung angehaucht.
       <lb facs="#facs_2_region_1675938282231_47_tl_16_2" n="N016"/>In dem Finale aber finden wir gar nichts mehr, an das wir
@@ -1056,20 +988,20 @@
       <lb facs="#facs_2_region_1675938282231_47_tl_18_2" n="N018"/>poetische Stimmung, weder glückliche melodische Einfälle, noch
       <lb facs="#facs_2_region_1675938282231_47_tl_19_2" n="N019"/>kunstvolle Arbeit. Das Ganze ist roh und reizlos, wie in
       <lb facs="#facs_2_region_1675938282231_47_tl_20_2" n="N020"/>verdrießlicher Eile hingeworfen, damit doch das Quartett in
-      <lb facs="#facs_2_region_1675938282231_47_tl_21_2" n="N021"/>Gottes Namen einen Schluß habe. Mit diesem kurzen Be¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_22_2" n="N022"/>richt über <rs type="person">Rubinstein</rs>ʼs neuestes Werk haben wir leider die
-      <lb facs="#facs_2_region_1675938282231_47_tl_23_2" n="N023"/>Biographie fast aller seiner mehrsätzigen Compositionen ge¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_24_2" n="N024"/>schrieben. Wir kennen keine einzige daraus, die, durchaus auf
+      <lb facs="#facs_2_region_1675938282231_47_tl_21_2" n="N021"/>Gottes Namen einen Schluß habe. Mit diesem kurzen Be
+      <lb facs="#facs_2_region_1675938282231_47_tl_22_2" n="N022" break="no"/>richt über <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>ʼs neuestes Werk haben wir leider die
+      <lb facs="#facs_2_region_1675938282231_47_tl_23_2" n="N023"/>Biographie fast aller seiner mehrsätzigen Compositionen ge
+      <lb facs="#facs_2_region_1675938282231_47_tl_24_2" n="N024" break="no"/>schrieben. Wir kennen keine einzige daraus, die, durchaus auf
       <lb facs="#facs_2_region_1675938282231_47_tl_25_2" n="N025"/>gleicher Höhe schwebend, als <hi rendition="#em">Ganzes</hi> schön und bedeutend
-      <lb facs="#facs_2_region_1675938282231_47_tl_26_2" n="N026"/>heißen dürfte. <rs type="person">Rubinstein</rs>ʼs Erfindung gleicht einem rasch
+      <lb facs="#facs_2_region_1675938282231_47_tl_26_2" n="N026"/>heißen dürfte. <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>ʼs Erfindung gleicht einem rasch
       <lb facs="#facs_2_region_1675938282231_47_tl_27_2" n="N027"/>und glänzend auflodernden Feuer, das schnell erlischt. Seine
       <lb facs="#facs_2_region_1675938282231_47_tl_28_2" n="N028"/>Kunst und Ausdauer reichen niemals aus, dies Erlöschen zu
       <lb facs="#facs_2_region_1675938282231_47_tl_29_2" n="N029"/>hindern, und seine Selbstkritik sagt ihm niemals, daß es
       <lb facs="#facs_2_line_1675938505987_111" n="N030"/>längst nur glimmendes Gebälk oder todte Asche ist, was er,
       <lb facs="#facs_2_region_1675938282231_47_tl_31_2" n="N031"/>unbekümmert fortschreibend, dem anfangs entzückten Hörer
-      <lb facs="#facs_2_line_1675946167105_729" n="N032"/>bietet. Wie schade, daß <rs type="person">Rubinstein</rs> Alles immer nur dem
-      <lb facs="#facs_2_region_1675938282231_47_tl_32_2" n="N033"/>„Genie“ anheimstellt, das er wild und willkürlich umher¬
-      <lb facs="#facs_2_region_1675938282231_47_tl_33_1" n="N034"/>jagen läßt. Das Genie muß das Kunstwerk beginnen, aber
+      <lb facs="#facs_2_line_1675946167105_729" n="N032"/>bietet. Wie schade, daß <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs> Alles immer nur dem
+      <lb facs="#facs_2_region_1675938282231_47_tl_32_2" n="N033"/>„Genie“ anheimstellt, das er wild und willkürlich umher
+      <lb facs="#facs_2_region_1675938282231_47_tl_33_1" n="N034" break="no"/>jagen läßt. Das Genie muß das Kunstwerk beginnen, aber
       <lb facs="#facs_2_line_1675946224129_743" n="N035"/>nur die Arbeit vollendet es.</p>
          </div>
       </body>
