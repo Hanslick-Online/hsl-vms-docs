@@ -109,6 +109,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2023-08-04" who="kbamer">seite 1: personen, werke, daten, orte ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -963,189 +964,148 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1674561507044_153_tl_1_2" n="N001"/>Feuilleton.
-      <lb facs="#facs_1_region_1674561507044_153_tl_2_1" n="N002"/>„<rs type="bibl">Des Sängers Fluch</rs>.“
-      <lb facs="#facs_1_region_1674561507044_153_tl_3_1" n="N003"/>Oper in 3 Acten von <rs type="person">August <hi rendition="#em">Langert</hi>
-               </rs>.
-      <lb facs="#facs_1_region_1674561507044_153_tl_4" n="N004"/>(Erste Aufführung im k. k. Hofoperntheater am <date month="0" day="0" year="0">1. December</date> d. J.)
-      <lb facs="#facs_1_region_1674561507044_153_tl_5" n="N005"/>Ed. H. Der Inhalt der neuen Oper ist identisch mit
-      <lb facs="#facs_1_region_1674561507044_153_tl_6" n="N006"/>dem Stoff der gleichnamigen Ballade von <hi rendition="#em">
-                  <rs type="person">Uhland</rs>
-               </hi>. Jeder
-      <lb facs="#facs_1_region_1674561507044_153_tl_7" n="N007"/>mann kennt und liebt sie. Aber nur einem <rs type="place">allerdeutschesten</rs>
-               <lb facs="#facs_1_region_1674561507044_153_tl_8" n="N008"/>jungen Componisten kann es einfallen, sie für ein treffliches
+      <lb facs="#facs_1_region_1674561507044_153_tl_1_2" n="N001"/>Feuilleton.
+      <lb facs="#facs_1_region_1674561507044_153_tl_2_1" n="N002"/><head type="h1">„<rs type="bibl" ref="#hsl_work_id_507">Des Sängers Fluch</rs>.“</head>
+      <lb facs="#facs_1_region_1674561507044_153_tl_3_1" n="N003"/><head type="h2">Oper in 3 Acten von August <rs type="person" ref="#hsl_person_id_878"><hi rendition="#em">Langert.</hi></rs></head>
+      <lb facs="#facs_1_region_1674561507044_153_tl_4" n="N004"/><head type="h3">(Erste Aufführung im k. k. Hofoperntheater am <date when="1865-12-01">1. December</date> d. J.)</head>
+   
+   <p><lb facs="#facs_1_region_1674561507044_153_tl_5" n="N005"/>Ed. H. Der Inhalt der neuen Oper ist identisch mit
+      <lb facs="#facs_1_region_1674561507044_153_tl_6" n="N006"/>dem Stoff der gleichnamigen Ballade von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_310">Uhland</rs></hi>. Jeder
+      <lb facs="#facs_1_region_1674561507044_153_tl_7" n="N007"/>mann kennt und liebt sie. Aber nur einem aller<rs type="place" ref="#hsl_place_id_14">deutsch</rs>esten
+      <lb facs="#facs_1_region_1674561507044_153_tl_8" n="N008"/>jungen Componisten kann es einfallen, sie für ein treffliches
       <lb facs="#facs_1_region_1674561507044_153_tl_9" n="N009"/>Textbuch zu einer dreiactigen Oper anzusehen. In anderen
       <lb facs="#facs_1_region_1674561507044_153_tl_10" n="N010"/>Formen ist die Ballade, deren musikalisches Element so frei
       <lb facs="#facs_1_region_1674561507044_153_tl_11" n="N011"/>und lockend vor Augen liegt, wiederholt componirt worden.
-      <lb facs="#facs_1_region_1674561507044_153_tl_12" n="N012"/>
-               <rs type="person">Esser</rs> hat einen effectvollen, luxuriös begleiteten Einzelgesang
+      <lb facs="#facs_1_region_1674561507044_153_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_74"><hi rendition="#em">Esser</hi></rs> hat einen effectvollen, luxuriös begleiteten Einzelgesang
       <lb facs="#facs_1_region_1674561507044_153_tl_13" n="N013"/>daraus gemacht, der schon mitunter einer ganz kleinen großen
-      <lb facs="#facs_1_region_1674561507044_153_tl_14" n="N014"/>Oper ähnlich sieht. Noch weiter ging <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>, der
-      <lb facs="#facs_1_region_1674561507044_153_tl_15" n="N015"/>„<rs type="bibl">Des Sängers Fluch</rs>“ als große Concert-Cantate für Soli,
+      <lb facs="#facs_1_region_1674561507044_153_tl_14" n="N014"/>Oper ähnlich sieht. Noch weiter ging <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>, der
+      <lb facs="#facs_1_region_1674561507044_153_tl_15" n="N015"/>„<rs type="bibl" ref="#hsl_work_id_507">Des Sängers Fluch</rs>“ als große Concert-Cantate für Soli,
       <lb facs="#facs_1_region_1674561507044_153_tl_16" n="N016"/>Chor und Orchester bearbeitete. Die einzelnen Personen sind
       <lb facs="#facs_1_region_1674561507044_153_tl_17" n="N017"/>darin dramatisch behandelt, zwischen ihren Gesängen spinnt
       <lb facs="#facs_1_region_1674561507044_153_tl_18" n="N018"/>eine „erzählende Stimme“ nach Evangelisten-Art den epischen
-      <lb facs="#facs_1_region_1674561507044_153_tl_19" n="N019"/>Faden, Diese <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>ʼsche Bearbeitung (welche zum Be¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_20" n="N020"/>huf einer stattlicheren Ausdehnung eine Menge anderer Uhland¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_21" n="N021"/>scher Balladen und Lieder verschlucken mußte) erwies sich
+      <lb facs="#facs_1_region_1674561507044_153_tl_19" n="N019"/>Faden, Diese <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>ʼsche Bearbeitung (welche zum Be¬
+      <lb facs="#facs_1_region_1674561507044_153_tl_20" n="N020" break="no"/>huf einer stattlicheren Ausdehnung eine Menge anderer <rs type="person" ref="#hsl_person_id_310">Uhland</rs>
+      <lb facs="#facs_1_region_1674561507044_153_tl_21" n="N021" break="no"/>scher Balladen und Lieder verschlucken mußte) erwies sich
       <lb facs="#facs_1_region_1674561507044_153_tl_22" n="N022"/>nicht als glücklich. Das poetische Dämmerlicht, das die wie
-      <lb facs="#facs_1_region_1674561507044_153_tl_23" n="N023"/>ein Traum aus fernsten Zeiten herausklingende Sage um¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_24" n="N024"/>webt, entfloh vor dieser nur halbtheatralischen und dennoch
+      <lb facs="#facs_1_region_1674561507044_153_tl_23" n="N023"/>ein Traum aus fernsten Zeiten herausklingende Sage um
+      <lb facs="#facs_1_region_1674561507044_153_tl_24" n="N024" break="no"/>webt, entfloh vor dieser nur halbtheatralischen und dennoch
       <lb facs="#facs_1_region_1674561507044_153_tl_25" n="N025"/>schon „gemeinen Wirtlichkeit der Dinge“. Nun denke man
       <lb facs="#facs_1_region_1674561507044_153_tl_26" n="N026"/>sich vollends die arme Ballade auf einen ganzen Theaterabend
-      <lb facs="#facs_1_region_1674561507044_153_tl_27" n="N027"/>ausgestreckt und ausgezogen!
-      <lb facs="#facs_1_region_1674561507044_153_tl_28" n="N028"/>Der erste Art der <rs type="person">Langert</rs>ʼschen Oper beginnt mit
+      <lb facs="#facs_1_region_1674561507044_153_tl_27" n="N027"/>ausgestreckt und ausgezogen!</p>
+   <p><lb facs="#facs_1_region_1674561507044_153_tl_28" n="N028"/>Der erste Art der <rs type="person" ref="#hsl_person_id_878">Langert</rs>ʼschen Oper beginnt mit
       <lb facs="#facs_1_region_1674561507044_153_tl_29" n="N029"/>einem altnordischen Tempeldienst im Walde; Volk und Priester
-      <lb facs="#facs_1_region_1674561507044_153_tl_30" n="N030"/>singen einen Chor, in welchem natürlich von <rs type="person">Thor</rs>, <rs type="person">Odin</rs>,
-      <lb facs="#facs_1_region_1674561507044_153_tl_31" n="N031"/>
-               <rs type="person">Braga</rs>, <rs type="person">Freia</rs>, <rs type="person">Iduna</rs> und anderen dem Publicum sehr geläu¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_32" n="N032"/>figen Gottheiten die Rede ist. Die beiden fremden Sänger
-      <lb facs="#facs_1_region_1674561507044_153_tl_33" n="N033"/>treten hinzu, bald nach ihnen die <rs type="person">Königin Ella</rs>, welche den
-      <lb facs="#facs_1_region_1674561507044_153_tl_34" n="N034"/>
-               <rs type="person">jungen Sänger</rs> augenblicklich in Ekstase versetzt und ihn ein¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_35" n="N035"/>ladet, Abends in ihrem Garten zu singen, „was das Herz
+      <lb facs="#facs_1_region_1674561507044_153_tl_30" n="N030"/>singen einen Chor, in welchem natürlich von <rs type="person" ref="#hsl_person_id_880">Thor</rs>, <rs type="person" ref="#hsl_person_id_879">Odin</rs>,
+      <lb facs="#facs_1_region_1674561507044_153_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_881">Braga</rs>, <rs type="person" ref="#hsl_person_id_882">Freia</rs>, <rs type="person" ref="#hsl_person_id_883">Iduna</rs> und anderen dem Publicum sehr geläu
+      <lb facs="#facs_1_region_1674561507044_153_tl_32" n="N032" break="no"/>figen Gottheiten die Rede ist. Die beiden fremden Sänger
+      <lb facs="#facs_1_region_1674561507044_153_tl_33" n="N033"/>treten hinzu, bald nach ihnen die <rs type="person" ref="#hsl_person_id_884">Königin Ella</rs>, welche den
+      <lb facs="#facs_1_region_1674561507044_153_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_886">jungen Sänger</rs> augenblicklich in Ekstase versetzt und ihn ein
+      <lb facs="#facs_1_region_1674561507044_153_tl_35" n="N035" break="no"/>ladet, Abends in ihrem Garten zu singen, „was das Herz
       <lb facs="#facs_1_region_1674561507044_153_tl_36" n="N036"/>begehrt“. Sie gehen ab, um einer Triumph- und Rache-Arie
-      <lb facs="#facs_1_region_1674561507044_153_tl_37" n="N037"/>der sie belauschenden „<rs type="person">Gisella</rs>“ Platz zu machen. Diese in
-      <lb facs="#facs_1_region_1674561507044_153_tl_38" n="N038"/>den <rs type="person">Uhland</rs>ʼschen Soff hineincomponirte Person ist ein
-      <lb facs="#facs_1_region_1674561507044_153_tl_39" n="N039"/>schwacher Abklatsch der <rs type="person">Weber</rs>ʼschen „<rs type="person">Eglantine</rs>“ und der
-      <lb facs="#facs_1_region_1674561507044_153_tl_40" n="N040"/>
-               <hi rendition="#em">
-                  <rs type="person">Ortrud</rs>
-               </hi>
-               <rs type="person">R. <hi rendition="#em">Wagner</hi>
-               </rs>
-               <hi rendition="#em"/>ʼs. Vom Könige früher geliebt, nun
-      <lb facs="#facs_1_region_1674561507044_153_tl_41" n="N041"/>ob seiner Gemalin vernachlässigt, lechzt Gisella nach Rache
-      <lb facs="#facs_1_region_1674561507044_153_tl_42" n="N042"/>und Wiedereinsetzung in den früheren Stand. Auf das Er¬
-      <lb facs="#facs_1_line_1674563919781_316" n="N043"/>scheinen des jungen Sängers baut sie ihren Plan, die „mond¬</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_line_1674561823969_220" n="N001"/>scheinbleiche Königin“ zu verderben. Sie vertraut dem <hi rendition="#em">
-                  <rs type="person">Elfried</rs>
-               </hi>
-               <lb facs="#facs_1_region_1674561507044_153_tl_1_3" n="N002"/>— so heißt der <rs type="person">junge Sänger</rs>, der alte heißt nur schlechtweg
-      <lb facs="#facs_1_region_1674561507044_153_tl_2_2" n="N003"/>„<rs type="person">alter Sänger</rs>“ — daß die <rs type="person">Königin</rs> ihren tyrannischen Gemal
-      <lb facs="#facs_1_region_1674561507044_153_tl_3_2" n="N004"/>nicht liebe und ihr Herz vielleicht für <rs type="person">Elfried</rs> nicht immer
+      <lb facs="#facs_1_region_1674561507044_153_tl_37" n="N037"/>der sie belauschenden „<rs type="person" ref="#hsl_person_id_885">Gisella</rs>“ Platz zu machen. Diese in
+      <lb facs="#facs_1_region_1674561507044_153_tl_38" n="N038"/>den <rs type="person" ref="#hsl_person_id_310">Uhland</rs>ʼschen Soff hineincomponirte Person ist ein
+      <lb facs="#facs_1_region_1674561507044_153_tl_39" n="N039"/>schwacher Abklatsch der <rs type="person" ref="#hsl_person_id_321">Weber</rs>ʼschen „<rs type="person" ref="#hsl_person_id_832">Eglantine</rs>“ und der
+      <lb facs="#facs_1_region_1674561507044_153_tl_40" n="N040"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_834">Ortrud</rs></hi> R. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼs</hi>. Vom Könige früher geliebt, nun
+      <lb facs="#facs_1_region_1674561507044_153_tl_41" n="N041"/>ob seiner Gemalin vernachlässigt, lechzt <rs type="person" ref="#hsl_person_id_885">Gisella</rs> nach Rache
+      <lb facs="#facs_1_region_1674561507044_153_tl_42" n="N042"/>und Wiedereinsetzung in den früheren Stand. Auf das Er
+      <lb facs="#facs_1_line_1674563919781_316" n="N043" break="no"/>scheinen des <rs type="person" ref="#hsl_person_id_886">jungen Sängers</rs> baut sie ihren Plan, die „mond</p>
+   <cb n="2"/>
+     <p prev="true">
+      <lb facs="#facs_1_line_1674561823969_220" n="N001" break="no"/>scheinbleiche Königin“ zu verderben. Sie vertraut dem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_886">Elfried</rs></hi>
+      <lb facs="#facs_1_region_1674561507044_153_tl_1_3" n="N002"/>— so heißt der <rs type="person" ref="#hsl_person_id_886">junge Sänger</rs>, der alte heißt nur schlechtweg
+      <lb facs="#facs_1_region_1674561507044_153_tl_2_2" n="N003"/>„<rs type="person" ref="#hsl_person_id_887">alter Sänger</rs>“ — daß die <rs type="person" ref="#hsl_person_id_884">Königin</rs> ihren tyrannischen Gemal
+      <lb facs="#facs_1_region_1674561507044_153_tl_3_2" n="N004"/>nicht liebe und ihr Herz vielleicht für <rs type="person" ref="#hsl_person_id_886">Elfried</rs> nicht immer
       <lb facs="#facs_1_region_1674561507044_153_tl_4_1" n="N005"/>unempfindlich bleiben würde. Der tugendhafte Jüngling
-      <lb facs="#facs_1_region_1674561507044_153_tl_5_1" n="N006"/>geräth über diese Andeutung in egyptisch-josephinische Ent¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_6_1" n="N007"/>rüstung und stürzt ab.
-      <lb facs="#facs_1_region_1674561507044_153_tl_7_1" n="N008"/>Den zweiten Act eröffnet der <rs type="person">König</rs>, indem er sich mit
-      <lb facs="#facs_1_region_1674561507044_153_tl_8_1" n="N009"/>den <rs type="person">Uhland</rs>ʼschen Worten: „Was ich blick, ist Schrecken, und
-      <lb facs="#facs_1_region_1674561507044_153_tl_9_1" n="N010"/>was ich sinnʼ, ist Blut“, selbst einführt. <rs type="person">Gisella</rs> bringt ihre
-      <lb facs="#facs_1_region_1674561507044_153_tl_10_1" n="N011"/>Verdächtigungen glücklich an Mann und bestimmt den eifer¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_11_1" n="N012"/>süchtigen <rs type="person">König</rs>, sich Abends im Garten zu verstecken. Dort,
-      <lb facs="#facs_1_region_1674561507044_153_tl_12_1" n="N013"/>wo <rs type="person">Ella</rs> sich von ihren Damen den „Elfenreigen“ vorsingen
-      <lb facs="#facs_1_region_1674561507044_153_tl_13_1" n="N014"/>und vortanzen läßt, erscheint nun pünktlich Elfried mit seinem
-      <lb facs="#facs_1_region_1674561507044_153_tl_14_1" n="N015"/>Saitenspiel und zärtlichen Gesang, erscheint aber auch das all¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_15_1" n="N016"/>zeit wüthende Staatsoberhaupt. Trotz der vollständigen
+      <lb facs="#facs_1_region_1674561507044_153_tl_5_1" n="N006"/>geräth über diese Andeutung in egyptisch-josephinische Ent
+      <lb facs="#facs_1_region_1674561507044_153_tl_6_1" n="N007" break="no"/>rüstung und stürzt ab.</p>
+   <p><lb facs="#facs_1_region_1674561507044_153_tl_7_1" n="N008"/>Den zweiten Act eröffnet der <rs type="person" ref="#hsl_person_id_888">König</rs>, indem er sich mit
+      <lb facs="#facs_1_region_1674561507044_153_tl_8_1" n="N009"/>den <rs type="person" ref="#hsl_person_id_310">Uhland</rs>ʼschen Worten: „Was ich blick, ist Schrecken, und
+      <lb facs="#facs_1_region_1674561507044_153_tl_9_1" n="N010"/>was ich sinnʼ, ist Blut“, selbst einführt. <rs type="person" ref="#hsl_person_id_885">Gisella</rs> bringt ihre
+      <lb facs="#facs_1_region_1674561507044_153_tl_10_1" n="N011"/>Verdächtigungen glücklich an Mann und bestimmt den eifer
+      <lb facs="#facs_1_region_1674561507044_153_tl_11_1" n="N012" break="no"/>süchtigen <rs type="person" ref="#hsl_person_id_888">König</rs>, sich Abends im Garten zu verstecken. Dort,
+      <lb facs="#facs_1_region_1674561507044_153_tl_12_1" n="N013"/>wo <rs type="person" ref="#hsl_person_id_884">Ella</rs> sich von ihren Damen den „Elfenreigen“ vorsingen
+      <lb facs="#facs_1_region_1674561507044_153_tl_13_1" n="N014"/>und vortanzen läßt, erscheint nun pünktlich <rs type="person" ref="#hsl_person_id_886"></rs>Elfried mit seinem
+      <lb facs="#facs_1_region_1674561507044_153_tl_14_1" n="N015"/>Saitenspiel und zärtlichen Gesang, erscheint aber auch das all
+      <lb facs="#facs_1_region_1674561507044_153_tl_15_1" n="N016" break="no"/>zeit wüthende Staatsoberhaupt. Trotz der vollständigen
       <lb facs="#facs_1_region_1674561507044_153_tl_16_1" n="N017"/>Unverfänglichkeit der ganzen Scene — selbst die harmlose
-      <lb facs="#facs_1_region_1674561507044_153_tl_17_1" n="N018"/>Rose wird erst im dritten Act geworfen — läßt der <rs type="person">König</rs>
-               <lb facs="#facs_1_region_1674561507044_153_tl_18_1" n="N019"/>den jungen Barden unverzüglich zum Tode abführen. „<rs type="person" continued="true">Alter</rs>
-               <lb facs="#facs_1_region_1674561507044_153_tl_19_1" n="N020"/>
-               <rs type="person" continued="true">Sänger</rs>“ tritt dazwischen und bestürmt den König mit
+      <lb facs="#facs_1_region_1674561507044_153_tl_17_1" n="N018"/>Rose wird erst im dritten Act geworfen — läßt der <rs type="person" ref="#hsl_person_id_888">König</rs>
+      <lb facs="#facs_1_region_1674561507044_153_tl_18_1" n="N019"/>den <rs type="person" ref="#hsl_person_id_886">jungen Barden</rs> unverzüglich zum Tode abführen. „<rs type="person" ref="#hsl_person_id_887">Alter
+      <lb facs="#facs_1_region_1674561507044_153_tl_19_1" n="N020"/>Sänger</rs>“ tritt dazwischen und bestürmt den <rs type="person" ref="#hsl_person_id_888">König</rs> mit
       <lb facs="#facs_1_region_1674561507044_153_tl_20_1" n="N021"/>Bitten und Drohungen. Er erreicht damit nur so viel,
-      <lb facs="#facs_1_region_1674561507044_153_tl_21_1" n="N022"/>daß der Tyrann, à la <rs type="person">Geßler</rs>, den Beiden eine Art musika¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_22_1" n="N023"/>lischen Apfelschuß bewilligt: wenn sie ihn durch Gesang zu
+      <lb facs="#facs_1_region_1674561507044_153_tl_21_1" n="N022"/>daß der Tyrann, à la <rs type="person" ref="#hsl_person_id_889">Geßler</rs>, den Beiden eine Art musika
+      <lb facs="#facs_1_region_1674561507044_153_tl_22_1" n="N023" break="no"/>lischen Apfelschuß bewilligt: wenn sie ihn durch Gesang zu
       <lb facs="#facs_1_region_1674561507044_153_tl_23_1" n="N024"/>rühren vermöchten, so wolle er sie frei ziehen lassen, „ja,
-      <lb facs="#facs_1_region_1674561507044_153_tl_24_1" n="N025"/>
-               <hi rendition="#em">lindert</hi> ihr mir nur die Wuth, soll mir verhaßt sein
-      <lb facs="#facs_1_region_1674561507044_153_tl_25_1" n="N026"/>alles Blut!“ Zur feierlichen Ausführung dieses Monarchen¬
+      <lb facs="#facs_1_region_1674561507044_153_tl_24_1" n="N025"/><hi rendition="#em">lindert</hi> ihr mir nur die Wuth, soll mir verhaßt sein
+      <lb facs="#facs_1_region_1674561507044_153_tl_25_1" n="N026"/>alles Blut!“ Zur feierlichen Ausführung dieses Monarchen-
       <lb facs="#facs_1_region_1674561507044_153_tl_26_1" n="N027"/>Zähmungsversuches ist der dritte Art bestimmt. Abwechselnd
-      <lb facs="#facs_1_line_1674561810519_214" n="N028"/>singen der <rs type="person">alte</rs> und der <rs type="person">junge Sänger</rs>. Letzterer wird zuvor
-      <lb facs="#facs_1_region_1674561507044_153_tl_27_1" n="N029"/>von <hi rendition="#em">
-                  <rs type="person">Gisella</rs>
-               </hi> gewarnt, sie drängt ihn zu schleuniger Flucht,
+      <lb facs="#facs_1_line_1674561810519_214" n="N028"/>singen der <rs type="person" ref="#hsl_person_id_887">alte</rs> und der <rs type="person" ref="#hsl_person_id_886">junge Sänger</rs>. Letzterer wird zuvor
+      <lb facs="#facs_1_region_1674561507044_153_tl_27_1" n="N029"/>von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_885">Gisella</rs></hi> gewarnt, sie drängt ihn zu schleuniger Flucht,
       <lb facs="#facs_1_region_1674561507044_153_tl_28_1" n="N030"/>denn von seinem Gesange bezaubert, <hi rendition="#em">liebe sie ihn</hi>, nur
       <lb facs="#facs_1_region_1674561507044_153_tl_29_1" n="N031"/>ihn allein! Dies Geständniß bereitet zwar dem Publicum
-      <lb facs="#facs_1_region_1674561507044_153_tl_30_1" n="N032"/>die größte Ueberraschung, macht aber auf den für die <rs type="person" continued="true">Köni¬</rs>
-               <lb facs="#facs_1_line_1674561801718_209" n="N033"/>
-               <rs type="person" continued="true">gin</rs> schwärmenden <rs type="person">Jüngling</rs> keinen Eindruck. Er siegt von
+      <lb facs="#facs_1_region_1674561507044_153_tl_30_1" n="N032"/>die größte Ueberraschung, macht aber auf den für die <rs type="person" ref="#hsl_person_id_884">Köni
+      <lb facs="#facs_1_line_1674561801718_209" n="N033" break="no"/>gin</rs> schwärmenden <rs type="person" ref="#hsl_person_id_886">Jüngling</rs> keinen Eindruck. Er singt von
       <lb facs="#facs_1_region_1674561507044_153_tl_31_1" n="N034"/>Liebe (natürlich nur von entsagender, die ihre Erwiderung
-      <lb facs="#facs_1_region_1674561507044_153_tl_32_1" n="N035"/>„jenseits“ erwartet), der <hi rendition="#em">alte Sänger</hi> ruft: „Halt ein, o
-      <lb facs="#facs_1_line_1674561792349_204" n="N036"/>weh!“ die <rs type="person">Königin</rs> wirft die Rose, der <rs type="person">König</rs> durchbohrt den
-      <lb facs="#facs_1_region_1674561507044_153_tl_33_1" n="N037"/>
-               <rs type="person">Jüngling</rs>. Alles stiebt auseinander, der <rs type="person">alte Sänger</rs> spricht
+      <lb facs="#facs_1_region_1674561507044_153_tl_32_1" n="N035"/>„jenseits“ erwartet), der <rs type="person" ref="#hsl_person_id_887"><hi rendition="#em">alte Sänger</hi></rs> ruft: „Halt ein, o
+      <lb facs="#facs_1_line_1674561792349_204" n="N036"/>weh!“ die <rs type="person" ref="#hsl_person_id_884">Königin</rs> wirft die Rose, der <rs type="person" ref="#hsl_person_id_888">König</rs> durchbohrt den
+      <lb facs="#facs_1_region_1674561507044_153_tl_33_1" n="N037"/><rs type="person" ref="#hsl_person_id_886">Jüngling</rs>. Alles stiebt auseinander, der <rs type="person" ref="#hsl_person_id_887">alte Sänger</rs> spricht
       <lb facs="#facs_1_region_1674561507044_153_tl_34_1" n="N038"/>seinen Fluch, und unter Donner und Blitz stürzt das ganze
-      <lb facs="#facs_1_region_1674561507044_153_tl_35_1" n="N039"/>Schloß in Trümmer.
-      <lb facs="#facs_1_region_1674561507044_153_tl_36_1" n="N040"/>Der monotone Eindruck dieses Textes, der es weder
-      <lb facs="#facs_1_region_1674561507044_153_tl_37_1" n="N041"/>zu einer Entwicklung der Charaktere, noch zu einer Verwick¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_38_1" n="N042"/>lung der Handlung bringt, ist ohneweiters klar. Dazu treten
+      <lb facs="#facs_1_region_1674561507044_153_tl_35_1" n="N039"/>Schloß in Trümmer.</p>
+   <p><lb facs="#facs_1_region_1674561507044_153_tl_36_1" n="N040"/>Der monotone Eindruck dieses Textes, der es weder
+      <lb facs="#facs_1_region_1674561507044_153_tl_37_1" n="N041"/>zu einer Entwicklung der Charaktere, noch zu einer Verwick
+      <lb facs="#facs_1_region_1674561507044_153_tl_38_1" n="N042" break="no"/>lung der Handlung bringt, ist ohneweiters klar. Dazu treten
       <lb facs="#facs_1_region_1674561507044_153_tl_39_1" n="N043"/>noch mancherlei Fehler in der dramatischen Oekonomie, wie
-      <lb facs="#facs_1_region_1674561507044_153_tl_40_1" n="N044"/>z. B. daß den ganzen ersten Act hindurch jede der vorkom¬
-      <lb facs="#facs_1_line_1674565143595_389" n="N045"/>menden Personen immer allein singt, bis endlich am Schluß</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1674561823969_219" n="N001"/>die beiden Frauen sich zu einem Stückchen Duett vereinigen.
-      <lb facs="#facs_1_region_1674561507044_153_tl_2_3" n="N002"/>Mit dem Höhenpunkt des zweiten Actes, wo der <rs type="person">König</rs>
-               <lb facs="#facs_1_region_1674561507044_153_tl_3_3" n="N003"/>wüthend gegen den <rs type="person">jungen Sänger</rs> stürzt, ist die Handlung
+      <lb facs="#facs_1_region_1674561507044_153_tl_40_1" n="N044"/>z. B. daß den ganzen ersten Act hindurch jede der vorkom
+      <lb facs="#facs_1_line_1674565143595_389" n="N045" break="no"/>menden Personen immer allein singt, bis endlich am Schluß</p>
+  <cb n="3"/>
+    <p prev="true">
+      <lb facs="#facs_1_line_1674561823969_219" n="N001"/>die beiden Frauen sich zu einem Stückchen Duett vereinigen.
+      <lb facs="#facs_1_region_1674561507044_153_tl_2_3" n="N002"/>Mit dem Höhenpunkt des zweiten Actes, wo der <rs type="person" ref="#hsl_person_id_888">König</rs>
+      <lb facs="#facs_1_region_1674561507044_153_tl_3_3" n="N003"/>wüthend gegen den <rs type="person" ref="#hsl_person_id_886">jungen Sänger</rs> stürzt, ist die Handlung
       <lb facs="#facs_1_region_1674561507044_153_tl_4_2" n="N004"/>zur Katastrophe vollständig reif, fast gewaltsam wird sie vom
       <lb facs="#facs_1_region_1674561507044_153_tl_5_2" n="N005"/>Dichter abgelenkt, um einen ganzen dritten Act zu füllen. Der Fluch
-      <lb facs="#facs_1_region_1674561507044_153_tl_6_2" n="N006"/>des <rs type="person">alten Sänger</rs>s, in der Ballade so ergreifend, wird auf
+      <lb facs="#facs_1_region_1674561507044_153_tl_6_2" n="N006"/>des <rs type="person" ref="#hsl_person_id_887">alten Sänger</rs>s, in der Ballade so ergreifend, wird auf
       <lb facs="#facs_1_region_1674561507044_153_tl_7_2" n="N007"/>der Bühne durch den damit verbundenen scenischen Spectakel
-      <lb facs="#facs_1_region_1674561507044_153_tl_8_2" n="N008"/>zum derben Theater Effect.
-      <lb facs="#facs_1_region_1674561507044_153_tl_9_2" n="N009"/>Die Personen sind lauter körperlose, ideale Schatten,
-      <lb facs="#facs_1_region_1674561507044_153_tl_10_2" n="N010"/>die mit ihrer unmäßigen Empfindungsschwelgerei, ihrem fort¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_11_2" n="N011"/>währenden Harfnen und Singen uns nicht die mindeste Theil¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_12_2" n="N012"/>nahme einflößen. Die ganze Handlung bekommt dadurch
+      <lb facs="#facs_1_region_1674561507044_153_tl_8_2" n="N008"/>zum derben Theater Effect.</p>
+   <p><lb facs="#facs_1_region_1674561507044_153_tl_9_2" n="N009"/>Die Personen sind lauter körperlose, ideale Schatten,
+      <lb facs="#facs_1_region_1674561507044_153_tl_10_2" n="N010"/>die mit ihrer unmäßigen Empfindungsschwelgerei, ihrem fort
+      <lb facs="#facs_1_region_1674561507044_153_tl_11_2" n="N011" break="no"/>währenden Harfnen und Singen uns nicht die mindeste Theil
+      <lb facs="#facs_1_region_1674561507044_153_tl_12_2" n="N012" break="no"/>nahme einflößen. Die ganze Handlung bekommt dadurch
       <lb facs="#facs_1_region_1674561507044_153_tl_13_2" n="N013"/>etwas unleidlich Vages, Leeres, Unpersönliches. Dem Stoffe
       <lb facs="#facs_1_region_1674561507044_153_tl_14_2" n="N014"/>war möglicherweise nur aufzuhelfen, indem man ihn aus der
-      <lb facs="#facs_1_region_1674561507044_153_tl_15_2" n="N015"/>mythischen Zeit heraus in eine uns nähere historische mit be¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_16_2" n="N016"/>stimmtem nationalen Costüm rückte und durch einige ge¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_17_2" n="N017"/>schichtlich realistische Züge belebte. Der überwiegend lyrische,
-      <lb facs="#facs_1_region_1674561507044_153_tl_18_2" n="N018"/>weichlich ideale Charakter des Textbuches scheint den Compo¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_19_2" n="N019"/>nisten sympathisch angezogen zu haben. <hi rendition="#em">
-                  <rs type="person">Langert</rs>
-               </hi>ʼs Talent
-      <lb facs="#facs_1_region_1674561507044_153_tl_20_2" n="N020"/>scheint uns edel geartet, sanft und weiblich, doch von gerin¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_21_2" n="N021"/>ger Gestaltungskraft und Energie. Seine Absichten sind offen¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_22_2" n="N022"/>bar die lobenswerthesten, auf edlen, poetischen Ausdruck ge¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_23_2" n="N023"/>richtet; auch in Verwendung der technischen Mittel, insbeson¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_24_2" n="N024"/>dere der Instrumentirung, zeigt sich der Componist gewandt
+      <lb facs="#facs_1_region_1674561507044_153_tl_15_2" n="N015"/>mythischen Zeit heraus in eine uns nähere historische mit be
+      <lb facs="#facs_1_region_1674561507044_153_tl_16_2" n="N016" break="no"/>stimmtem nationalen Costüm rückte und durch einige ge
+      <lb facs="#facs_1_region_1674561507044_153_tl_17_2" n="N017" break="no"/>schichtlich realistische Züge belebte. Der überwiegend lyrische,
+      <lb facs="#facs_1_region_1674561507044_153_tl_18_2" n="N018"/>weichlich ideale Charakter des Textbuches scheint den Compo
+      <lb facs="#facs_1_region_1674561507044_153_tl_19_2" n="N019" break="no"/>nisten sympathisch angezogen zu haben. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_878">Langert</rs>ʼs</hi> Talent
+      <lb facs="#facs_1_region_1674561507044_153_tl_20_2" n="N020"/>scheint uns edel geartet, sanft und weiblich, doch von gerin
+      <lb facs="#facs_1_region_1674561507044_153_tl_21_2" n="N021" break="no"/>ger Gestaltungskraft und Energie. Seine Absichten sind offen
+      <lb facs="#facs_1_region_1674561507044_153_tl_22_2" n="N022" break="no"/>bar die lobenswerthesten, auf edlen, poetischen Ausdruck ge
+      <lb facs="#facs_1_region_1674561507044_153_tl_23_2" n="N023" break="no"/>richtet; auch in Verwendung der technischen Mittel, insbeson
+      <lb facs="#facs_1_region_1674561507044_153_tl_24_2" n="N024" break="no"/>dere der Instrumentirung, zeigt sich der Componist gewandt
       <lb facs="#facs_1_region_1674561507044_153_tl_25_2" n="N025"/>und erfahren. Aber nicht Ein Zug von genialer Kraft und
       <lb facs="#facs_1_region_1674561507044_153_tl_26_2" n="N026"/>schöpferischer Originalität ist in ihm. Seine Musik, um sie
-      <lb facs="#facs_1_region_1674561507044_153_tl_27_2" n="N027"/>mit Einem Worte zu charakterisiren, repräsentirt sich als ver¬
-      <lb facs="#facs_1_line_1674561810519_213" n="N028"/>wässerte Copie <rs type="person">Richard Wagner</rs>ʼs. „<rs type="bibl">Des Sängers Fluch</rs>“ ist
-      <lb facs="#facs_1_region_1674561507044_153_tl_29_2" n="N029"/>die directeite Nachbildung des <rs type="person">Wagner</rs>ʼschen Styls, welche
-      <lb facs="#facs_1_region_1674561507044_153_tl_30_2" n="N030"/>unseres Wissens die <rs type="place">deutsche</rs> Oper bisher aufzuweisen hat.
+      <lb facs="#facs_1_region_1674561507044_153_tl_27_2" n="N027"/>mit Einem Worte zu charakterisiren, repräsentirt sich als ver
+      <lb facs="#facs_1_line_1674561810519_213" n="N028" break="no"/>wässerte Copie Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼs. „<rs type="bibl" ref="#hsl_work_id_507">Des Sängers Fluch</rs>“ ist
+      <lb facs="#facs_1_region_1674561507044_153_tl_29_2" n="N029"/>die directeite Nachbildung des <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼschen Styls, welche
+      <lb facs="#facs_1_region_1674561507044_153_tl_30_2" n="N030"/>unseres Wissens die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Oper bisher aufzuweisen hat.
       <lb facs="#facs_1_region_1674561507044_153_tl_31_2" n="N031"/>Da haben wir zunächst den declamatorischen Syl, welcher
       <lb facs="#facs_1_region_1674561507044_153_tl_32_2" n="N032"/>zwischen Recitativ und Arioso unbestimmt zerfließend, über
-      <lb facs="#facs_1_line_1674561801718_208" n="N033"/>einer fortwährend malenden und mitsingenden Orchester Be¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_34_2" n="N034"/>gleitung die ganze Oper beherrscht. In kleinen Gaben, wie
-      <lb facs="#facs_1_region_1674561507044_153_tl_35_2" n="N035"/>sie <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>
-               </hi> mit wählerischer und sparsamer Hand zu
-      <lb facs="#facs_1_line_1674561792349_203" n="N036"/>bringen wußte, ist diese Vermischung oder Verbindung mit¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_37_2" n="N037"/>unter von großem Reize, als Methode auf eine ganze Oper
-      <lb facs="#facs_1_region_1674561507044_153_tl_38_2" n="N038"/>angewendet, wird sie zur gleichzeitig aufreizenden und ein¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_39_2" n="N039"/>schläfernden Ohrenpein.
-      <lb facs="#facs_1_region_1674561507044_153_tl_40_2" n="N040"/>Die Geschichte der Musik rühmt doch einhellig <rs type="person" continued="true">Alessandro</rs>
-               <lb facs="#facs_1_region_1674561507044_153_tl_41_1" n="N041"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">Scarlatti</rs>
-               </hi> ob des großen Verdienstes, das Recitativ von
+      <lb facs="#facs_1_line_1674561801718_208" n="N033"/>einer fortwährend malenden und mitsingenden Orchester Be
+      <lb facs="#facs_1_region_1674561507044_153_tl_34_2" n="N034" break="no"/>gleitung die ganze Oper beherrscht. In kleinen Gaben, wie
+      <lb facs="#facs_1_region_1674561507044_153_tl_35_2" n="N035"/>sie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> mit wählerischer und sparsamer Hand zu
+      <lb facs="#facs_1_line_1674561792349_203" n="N036"/>bringen wußte, ist diese Vermischung oder Verbindung mit
+      <lb facs="#facs_1_region_1674561507044_153_tl_37_2" n="N037" break="no"/>unter von großem Reize, als Methode auf eine ganze Oper
+      <lb facs="#facs_1_region_1674561507044_153_tl_38_2" n="N038"/>angewendet, wird sie zur gleichzeitig aufreizenden und ein
+      <lb facs="#facs_1_region_1674561507044_153_tl_39_2" n="N039" break="no"/>schläfernden Ohrenpein.</p>
+   <p><lb facs="#facs_1_region_1674561507044_153_tl_40_2" n="N040"/>Die Geschichte der Musik rühmt doch einhellig Alessandro
+      <lb facs="#facs_1_region_1674561507044_153_tl_41_1" n="N041"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_890">Scarlatti</rs></hi> ob des großen Verdienstes, das Recitativ von
       <lb facs="#facs_1_region_1674561507044_153_tl_42_1" n="N042"/>der Arienform definitiv geschieden zu haben. Sie erblickt doch
-      <lb facs="#facs_1_region_1674561507044_153_tl_43" n="N043"/>in dieser naturgemäßen Trennung den entscheidenden Fort¬
-      <lb facs="#facs_1_region_1674561507044_153_tl_44" n="N044"/>schritt über die Opern eines <hi rendition="#em">
-                  <rs type="person">Cesti</rs>
-               </hi> oder gar eines <hi rendition="#em">
-                  <rs type="person" continued="true">Cac¬</rs>
-               </hi>
-               <lb facs="#facs_1_line_1674566125854_450" n="N045"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">cini</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Monteverde</rs>
-               </hi>. Und nun kommt die <rs type="place">neudeutsche</rs>
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1674561591467_170_tl_1" n="N001"/>oder Wagner'sche Schule daher und preist es als eine neue
+      <lb facs="#facs_1_region_1674561507044_153_tl_43" n="N043"/>in dieser naturgemäßen Trennung den entscheidenden Fort
+      <lb facs="#facs_1_region_1674561507044_153_tl_44" n="N044" break="no"/>schritt über die Opern eines <hi rendition="#em"><rs type="person" ref="#hsl_person_id_891">Cesti</rs></hi> oder gar eines <hi rendition="#em"><rs type="person" ref="#hsl_person_id_892">Cac
+      <lb facs="#facs_1_line_1674566125854_450" n="N045" break="no"/>cini</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_893">Monteverde</rs></hi>. Und nun kommt die neu<rs type="place" ref="#hsl_place_id_14">deutsch</rs>e</p>
+  <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+    <cb n="4"/>
+    <p prev="true">
+      <lb facs="#facs_2_region_1674561591467_170_tl_1" n="N001"/>oder <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼsche Schule daher und preist es als eine neue
       <lb facs="#facs_2_region_1674561591467_170_tl_2" n="N002"/>segensreiche Erfindung, als den höchsten Fortschritt, wieder zu
       <lb facs="#facs_2_line_1674561691878_182" n="N003"/>jener formlosen Vermischung zurückzukehren, und proclamirt
       <lb facs="#facs_2_line_1674561691878_181" n="N004"/>im Interesse seines Stylprincipes, verschlungen werden.
