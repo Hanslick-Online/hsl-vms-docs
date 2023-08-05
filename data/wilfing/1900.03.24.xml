@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt.</title>
+            <title level="a">Nr. 12781. Wien, Samstag, den 24. März 1900</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2023">2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt.</title>
+                     <title>Nr. 12781. Wien, Samstag, den 24. März 1900</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1900-03-24">24.03.1900</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,10 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="final">
          <change who="awilfing" when="2023-07-14">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-07-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-08-05">Formatierung und Referenzen eingefügt.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -696,132 +694,119 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684525486482_458_tl_2" n="N002"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1684525486482_458_tl_3" n="N003"/><head type="h1">„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_730">Jolanthe</rs></hi>“, lyrische Oper in einem Aufzuge von P. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs></hi>.</head>
             <p>
-               <lb facs="#facs_1_line_1689327030638_2088" n="N001"/>Nr. 12781. Wien, Samstag, den 24. März 1900.</p>
-            <cb n="2"/>
-            <p>
-      <lb facs="#facs_1_region_1684525486482_458_tl_2" n="N002"/>Hofoperntheater.
-      <lb facs="#facs_1_region_1684525486482_458_tl_3" n="N003"/>„<hi rendition="#em">
-                  <rs type="bibl">Jolanthe</rs>
-               </hi>“, lyrische Oper in einem Aufzuge von P. <hi rendition="#em">
-                  <rs type="person">Tschaikowsky</rs>
-               </hi>.
       <lb facs="#facs_1_region_1684525486482_458_tl_4" n="N004"/>Ed. H. Berückt von dem poetischen Zauber der
-      <lb facs="#facs_1_region_1684525486482_458_tl_5" n="N005"/>Königstochter <rs type="person">Jolanthe</rs>, geblendet von einer Blinden, hat
-      <lb facs="#facs_1_region_1684525486482_458_tl_6" n="N006"/>
-               <hi rendition="#em">
-                  <rs type="person">Tschaikowsky</rs>
-               </hi> Henrik <rs type="person">Hertz</rs>’s <rs type="bibl">Drama</rs> zur Oper um¬
-      <lb facs="#facs_1_region_1684525486482_458_tl_7" n="N007"/>geschaffen. Er ist der Erste nicht. Vor 50 Jahren ist im
-      <lb facs="#facs_1_region_1684525486482_458_tl_8" n="N008"/>alten Kärntnerthor-Theater eine Oper „<rs type="bibl">Jolanthe</rs>“ von
-      <lb facs="#facs_1_region_1684525486482_458_tl_9" n="N009"/>Johannes <hi rendition="#em">
-                  <rs type="person">Hager</rs>
-               </hi> aufgeführt und trotz mancher glücklicher
+      <lb facs="#facs_1_region_1684525486482_458_tl_5" n="N005"/>Königstochter <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs>, geblendet von einer Blinden, hat
+      <lb facs="#facs_1_region_1684525486482_458_tl_6" n="N006"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs></hi> Henrik <rs type="person" ref="#hsl_person_id_1848">Hertz</rs>’s <rs type="bibl" ref="#hsl_work_id_1192">Drama</rs> zur Oper um
+      <lb facs="#facs_1_region_1684525486482_458_tl_7" n="N007" break="no"/>geschaffen. Er ist der Erste nicht. Vor 50 Jahren ist im
+      <lb facs="#facs_1_region_1684525486482_458_tl_8" n="N008"/>alten Kärntnerthor-Theater eine Oper „<rs type="bibl" ref="#hsl_work_id_159">Jolanthe</rs>“ von
+      <lb facs="#facs_1_region_1684525486482_458_tl_9" n="N009"/>Johannes <hi rendition="#em"><rs type="person" ref="#hsl_person_id_909">Hager</rs></hi> aufgeführt und trotz mancher glücklicher
       <lb facs="#facs_1_region_1684525486482_458_tl_10" n="N010"/>Scenen rasch wieder beseitigt worden. Das war, als ganz
-      <lb facs="#facs_1_region_1684525486482_458_tl_11" n="N011"/>
-               <rs type="place">Deutschland</rs> von dem rührenden Idyll des <rs type="place">dänisch</rs>en Dichters
-      <lb facs="#facs_1_region_1684525486482_458_tl_12" n="N012"/>schwärmte. Nur zu leicht mochte ein junger gefühlvoller Com¬
-      <lb facs="#facs_1_region_1684525486482_458_tl_13" n="N013"/>ponist in der blinden <rs type="person">Jolanthe</rs> eine Opernideal erblicken. Es hatten
-      <lb facs="#facs_1_region_1684525486482_458_tl_14" n="N014"/>sogar namhafte Kritiker in ihrer Beurtheilung oder Verur¬
-      <lb facs="#facs_1_region_1684525486482_458_tl_15" n="N015"/>theilung des <rs type="person">Hertz</rs>’schen <rs type="bibl">Drama</rs>s auf das Operngebiet hinge¬
-      <lb facs="#facs_1_region_1684525486482_458_tl_16" n="N016"/>wiesen, indem <rs type="person">Jolanthe</rs> kein dramatischer Charakter sei, sondern
+      <lb facs="#facs_1_region_1684525486482_458_tl_11" n="N011"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs> von dem rührenden Idyll des <rs type="place" ref="#hsl_place_id_12">dänisch</rs>en Dichters
+      <lb facs="#facs_1_region_1684525486482_458_tl_12" n="N012"/>schwärmte. Nur zu leicht mochte ein junger gefühlvoller Com
+      <lb facs="#facs_1_region_1684525486482_458_tl_13" n="N013" break="no"/>ponist in der blinden <rs type="person" ref="#hsl_person_id_1849">Jolanthe</rs> eine Opernideal erblicken. Es hatten
+      <lb facs="#facs_1_region_1684525486482_458_tl_14" n="N014"/>sogar namhafte Kritiker in ihrer Beurtheilung oder Verur
+      <lb facs="#facs_1_region_1684525486482_458_tl_15" n="N015" break="no"/>theilung des <rs type="person" ref="#hsl_person_id_1848">Hertz</rs>’schen <rs type="bibl" ref="#hsl_work_id_1192">Drama</rs>s auf das Operngebiet hinge
+      <lb facs="#facs_1_region_1684525486482_458_tl_16" n="N016" break="no"/>wiesen, indem <rs type="person" ref="#hsl_person_id_1849">Jolanthe</rs> kein dramatischer Charakter sei, sondern
       <lb facs="#facs_1_region_1684525486482_458_tl_17" n="N017"/>eine musikalische Seele. Sollte — so hieß es — die so
       <lb facs="#facs_1_region_1684525486482_458_tl_18" n="N018"/>rührende Geschichte nicht durch Musik unendlich gewinnen?
       <lb facs="#facs_1_region_1684525486482_458_tl_19" n="N019"/>Ja, drängt sie nicht geradezu nach musikalischer Verstärkung
       <lb facs="#facs_1_region_1684525486482_458_tl_20" n="N020"/>und Verklärung? Man übersah nur Eines: daß die süße
       <lb facs="#facs_1_region_1684525486482_458_tl_21" n="N021"/>himmelblaue Monotonie, die auf dem Schauspiel lastet, gerade
-      <lb facs="#facs_1_region_1684525486482_458_tl_22" n="N022"/>für die Oper verhängnißvoll werden müßte. Nach peinlicher
+      <lb facs="#facs_1_region_1684525486482_458_tl_22" n="N022"/>für die Oper verhängnißvoll werden müßte. Noch peinlicher
       <lb facs="#facs_1_region_1684525486482_458_tl_23" n="N023"/>empfinden wir hier den Mangel an kräftigen Gegensätzen,
       <lb facs="#facs_1_region_1684525486482_458_tl_24" n="N024"/>an vorwärtsdrängender Handlung. Die Musik braucht zur
       <lb facs="#facs_1_region_1684525486482_458_tl_25" n="N025"/>Entfaltung eines Dialogs oder Monologs doppelt so viel
-      <lb facs="#facs_1_region_1684525486482_458_tl_26" n="N026"/>Zeit, als die gesprochene Rede; überdies wird der Com¬
-      <lb facs="#facs_1_line_1689327120765_2128" n="N027"/>ponist gar nicht loskommen aus dem langsamen Zeitmaß</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1689327059460_2097" n="N001"/>und der gleichmäßigen Rhythmik. Was an dem Drama des
-      <lb facs="#facs_1_region_1684525491084_461_tl_2" n="N002"/>
-               <rs type="place">dänisch</rs>en Poeten uns zumeist fesselt, sind die sinnigen Reden
+      <lb facs="#facs_1_region_1684525486482_458_tl_26" n="N026"/>Zeit, als die gesprochene Rede; überdies wird der Com
+      <lb facs="#facs_1_line_1689327120765_2128" n="N027" break="no"/>ponist gar nicht loskommen aus dem langsamen Zeitmaß<space quantity="1"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1689327059460_2097" n="N001"/>und der gleichmäßigen Rhythmik. Was an dem Drama des
+      <lb facs="#facs_1_region_1684525491084_461_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_12">dänisch</rs>en Poeten uns zumeist fesselt, sind die sinnigen Reden
       <lb facs="#facs_1_region_1684525491084_461_tl_3" n="N003"/>und Erörterungen über das Licht, das Sehen — geistreiche,
       <lb facs="#facs_1_region_1684525491084_461_tl_4" n="N004"/>poetische Gedanken, welche dieses Thema sowol nach der
       <lb facs="#facs_1_region_1684525491084_461_tl_5" n="N005"/>Gefühlsseite, wie nach der psychologischen und pathologischen
-      <lb facs="#facs_1_region_1684525491084_461_tl_6" n="N006"/>beleuchten. Davon kann das Wenigste in Musik rein auf¬
-      <lb facs="#facs_1_region_1684525491084_461_tl_7" n="N007"/>gehen und wird das Meiste im Gesangsvortrag undeutlich
+      <lb facs="#facs_1_region_1684525491084_461_tl_6" n="N006"/>beleuchten. Davon kann das Wenigste in Musik rein auf
+      <lb facs="#facs_1_region_1684525491084_461_tl_7" n="N007" break="no"/>gehen und wird das Meiste im Gesangsvortrag undeutlich
       <lb facs="#facs_1_region_1684525491084_461_tl_8" n="N008"/>verschwimmen.
-      <lb facs="#facs_1_region_1684525491084_461_tl_9" n="N009"/>Da hätten wir vorläufig und voreilig schon Entschul¬
-      <lb facs="#facs_1_region_1684525491084_461_tl_10" n="N010"/>digungsgründe vorgebracht, warum die Oper „<rs type="bibl">Jolanthe</rs>“
+            </p><p>
+      <lb facs="#facs_1_region_1684525491084_461_tl_9" n="N009"/>Da hätten wir vorläufig und voreilig schon Entschul
+      <lb facs="#facs_1_region_1684525491084_461_tl_10" n="N010" break="no"/>digungsgründe vorgebracht, warum die Oper „<rs type="bibl" ref="#hsl_work_id_730">Jolanthe</rs>“
       <lb facs="#facs_1_region_1684525491084_461_tl_11" n="N011"/>keinen großen Erfolg erzielen kann. Keinen Erfolg wie
-      <lb facs="#facs_1_region_1684525491084_461_tl_12" n="N012"/>
-               <rs type="person">Tschaikowsky</rs>’s „<rs type="bibl">Eugen Onegin</rs>“. Für diesen hege ich eine
+      <lb facs="#facs_1_region_1684525491084_461_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs>’s „<rs type="bibl" ref="#hsl_work_id_729">Eugen Onegin</rs>“. Für diesen hege ich eine
       <lb facs="#facs_1_region_1684525491084_461_tl_13" n="N013"/>besondere Vorliebe; trotz der sehr ungleichen Erfindung und
       <lb facs="#facs_1_region_1684525491084_461_tl_14" n="N014"/>dem unglücklichen letzten Act, der das Werk nicht abschließt,
-      <lb facs="#facs_1_region_1684525491084_461_tl_15" n="N015"/>sondern abbricht. In „<rs type="bibl">Onegin</rs>“ erscheint uns der Componist
-      <lb facs="#facs_1_region_1684525491084_461_tl_16" n="N016"/>als eine geprägte Individualität, eine geistvolle, liebens¬
-      <lb facs="#facs_1_line_1689327080916_2108" n="N017"/>würdige Natur, deren west<rs type="place">europäisch</rs>e Bildung die <rs type="place">russisch</rs>e
-      <lb facs="#facs_1_region_1684525491084_461_tl_17" n="N018"/>Nationalität trotzdem nicht verleugnet. Diese reizvollen natio¬
-      <lb facs="#facs_1_region_1684525491084_461_tl_18" n="N019"/>nalen Anklänge, welche der Musik zu „<rs type="bibl">Onegin</rs>“ ihre charak¬
-      <lb facs="#facs_1_region_1684525491084_461_tl_19" n="N020"/>teristische Farbe geben, müssen wir in der provencalischen
-      <lb facs="#facs_1_region_1684525491084_461_tl_20" n="N021"/>„<rs type="bibl">Jolanthe</rs>“ entbehren, und wir entbehren sie schwer. Gerne
+      <lb facs="#facs_1_region_1684525491084_461_tl_15" n="N015"/>sondern abbricht. In „<rs type="bibl" ref="#hsl_work_id_729">Onegin</rs>“ erscheint uns der Componist
+      <lb facs="#facs_1_region_1684525491084_461_tl_16" n="N016"/>als eine geprägte Individualität, eine geistvolle, liebens
+      <lb facs="#facs_1_line_1689327080916_2108" n="N017" break="no"/>würdige Natur, deren west<rs type="place" ref="#hsl_place_id_19">europäisch</rs>e Bildung die <rs type="place" ref="#hsl_place_id_48">russisch</rs>e
+      <lb facs="#facs_1_region_1684525491084_461_tl_17" n="N018"/>Nationalität trotzdem nicht verleugnet. Diese reizvollen natio
+      <lb facs="#facs_1_region_1684525491084_461_tl_18" n="N019" break="no"/>nalen Anklänge, welche der Musik zu „<rs type="bibl" ref="#hsl_work_id_729">Onegin</rs>“ ihre charak
+      <lb facs="#facs_1_region_1684525491084_461_tl_19" n="N020" break="no"/>teristische Farbe geben, müssen wir in der provencalischen
+      <lb facs="#facs_1_region_1684525491084_461_tl_20" n="N021"/>„<rs type="bibl" ref="#hsl_work_id_730">Jolanthe</rs>“ entbehren, und wir entbehren sie schwer. Gerne
       <lb facs="#facs_1_region_1684525491084_461_tl_21" n="N022"/>hätten wir der neuen Oper einen ähnlichen tiefen Eindruck
       <lb facs="#facs_1_region_1684525491084_461_tl_22" n="N023"/>verdankt und nachgerühmt, wie jener älteren. Aber das will
-      <lb facs="#facs_1_region_1684525491084_461_tl_23" n="N024"/>uns trotz mancher schönen Einzelheit in „<rs type="bibl">Jolanthe</rs>“ nicht
+      <lb facs="#facs_1_region_1684525491084_461_tl_23" n="N024"/>uns trotz mancher schönen Einzelheit in „<rs type="bibl" ref="#hsl_work_id_730">Jolanthe</rs>“ nicht
       <lb facs="#facs_1_region_1684525491084_461_tl_24" n="N025"/>gelingen. Es ist dem Componisten diesmal nicht viel Neues
       <lb facs="#facs_1_region_1684525491084_461_tl_25" n="N026"/>eingefallen; wohl uns, daß er diesem Mangel nicht durch
       <lb facs="#facs_1_region_1684525491084_461_tl_26" n="N027"/>Rohheit und Bizarrerie abzuhelfen sucht, wie so viele seiner
-      <lb facs="#facs_1_region_1684525491084_461_tl_27" n="N028"/>Landsleute. In <rs type="person">Tschaikowsky</rs>’s „<rs type="bibl">Jolanthe</rs>“ herrschen über¬
-      <lb facs="#facs_1_region_1684525491084_461_tl_28" n="N029"/>wiegend Natürlichkeit und zarte Empfindung, die manchmal
+      <lb facs="#facs_1_region_1684525491084_461_tl_27" n="N028"/>Landsleute. In <rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs>’s „<rs type="bibl" ref="#hsl_work_id_730">Jolanthe</rs>“ herrschen über
+      <lb facs="#facs_1_region_1684525491084_461_tl_28" n="N029" break="no"/>wiegend Natürlichkeit und zarte Empfindung, die manchmal
       <lb facs="#facs_1_region_1684525491084_461_tl_29" n="N030"/>zum Gewöhnlichen herabsinkt, manchmal aber sich zu schöner
       <lb facs="#facs_1_region_1684525491084_461_tl_30" n="N031"/>Anmuth erhebt.
+            </p><p>
       <lb facs="#facs_1_region_1684525491084_461_tl_31" n="N032"/>Man höre gleich die einleitenden idyllischen Scenen im
-      <lb facs="#facs_1_region_1684525491084_461_tl_32" n="N033"/>Garten. Ein Gespräch <rs type="person">Jolanthe</rs>’s mit ihrer <rs type="person">Amme</rs>, zwischen
-      <lb facs="#facs_1_region_1684525491084_461_tl_33" n="N034"/>Recitativ und Cantilene schwankend, wird von einer un¬
-      <lb facs="#facs_1_region_1684525491084_461_tl_34" n="N035"/>gemein einfachen lieblichen G-dur-Melodie der Violinen und
+      <lb facs="#facs_1_region_1684525491084_461_tl_32" n="N033"/>Garten. Ein Gespräch <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs>’s mit ihrer <rs type="person" ref="#hsl_person_id_1850">Amme</rs>, zwischen
+      <lb facs="#facs_1_region_1684525491084_461_tl_33" n="N034"/>Recitativ und Cantilene schwankend, wird von einer un
+      <lb facs="#facs_1_region_1684525491084_461_tl_34" n="N035" break="no"/>gemein einfachen lieblichen G-dur-Melodie der Violinen und
       <lb facs="#facs_1_line_1689327107643_2119" n="N036"/>Harfen getragen. Daran schließt sich ein zartes Arioso der
-      <lb facs="#facs_1_line_1689327122644_2131" n="N037"/>
-               <rs type="person">Jolanthe</rs>: „Warum kannte in früheren Tagen weder Thränen</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_line_1689327061820_2100" n="N001"/>noch Kummer mein Sinn?“ und ein heiterer Mädchenchor
+      <lb facs="#facs_1_line_1689327122644_2131" n="N037"/><rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs>: „Warum kannte in früheren Tagen weder Thränen<space quantity="1"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1689327061820_2100" n="N001"/>noch Kummer mein Sinn?“ und ein heiterer Mädchenchor
       <lb facs="#facs_1_region_1684525496168_464_tl_1" n="N002"/>„Bringen die Blumen“. Die naive, herzliche Melodie mit
       <lb facs="#facs_1_region_1684525496168_464_tl_2" n="N003"/>den jubelnden Vogelstimmen im Orchester wirkt in ihrer
-      <lb facs="#facs_1_region_1684525496168_464_tl_3" n="N004"/>Reinheit ebenso köstlich wie das darauf folgende Schlummer¬
-      <lb facs="#facs_1_region_1684525496168_464_tl_4" n="N005"/>lied in Es-dur. Es wird abwechselnd erst von zwei Solo¬
-      <lb facs="#facs_1_region_1684525496168_464_tl_5" n="N006"/>stimmen gesungen, denen sich dann die tiefere dritte und ein
+      <lb facs="#facs_1_region_1684525496168_464_tl_3" n="N004"/>Reinheit ebenso köstlich wie das darauf folgende Schlummer
+      <lb facs="#facs_1_region_1684525496168_464_tl_4" n="N005" break="no"/>lied in Es-dur. Es wird abwechselnd erst von zwei Solo
+      <lb facs="#facs_1_region_1684525496168_464_tl_5" n="N006" break="no"/>stimmen gesungen, denen sich dann die tiefere dritte und ein
       <lb facs="#facs_1_region_1684525496168_464_tl_6" n="N007"/>leise verhallender Mädchenchor anfügt. In diesen einleitenden
-      <lb facs="#facs_1_region_1684525496168_464_tl_7" n="N008"/>idyllischen Scenen zeigt sich <rs type="person">Tschaikowsky</rs>’s lyrisches Talent
+      <lb facs="#facs_1_region_1684525496168_464_tl_7" n="N008"/>idyllischen Scenen zeigt sich <rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs>’s lyrisches Talent
       <lb facs="#facs_1_region_1684525496168_464_tl_8" n="N009"/>in voller sanfter Leuchtkraft. Alles etwas breit ausgesponnen,
       <lb facs="#facs_1_region_1684525496168_464_tl_9" n="N010"/>aber stimmungsvoll, in musikalisch schön gerundeter Form.
       <lb facs="#facs_1_region_1684525496168_464_tl_10" n="N011"/>Nun sind wir aber beinahe fertig mit den Scenen, die wir
       <lb facs="#facs_1_region_1684525496168_464_tl_11" n="N012"/>uneingeschränkt, so recht von Herzen loben können.
-      <lb facs="#facs_1_region_1684525496168_464_tl_12" n="N013"/>Jagdhörner verkünden das Nahen des <rs type="person">König</rs>s, der in
-      <lb facs="#facs_1_region_1684525496168_464_tl_13" n="N014"/>Begleitung des maurischen Arztes <rs type="person">Ebn-Jahia</rs> auftritt. Die
-      <lb facs="#facs_1_region_1684525496168_464_tl_14" n="N015"/>Arie, in welcher der <rs type="person">König</rs> das Unglück seiner Tochter be¬
-      <lb facs="#facs_1_region_1684525496168_464_tl_15" n="N016"/>klagt, ist dankbar für den Sänger, aber stark an <rs type="place">italienisch</rs>e
-      <lb facs="#facs_1_line_1689327082915_2111" n="N017"/>Muster ausklingend, von geringer Originalität. Charakteristi¬
-      <lb facs="#facs_1_region_1684525496168_464_tl_17" n="N018"/>scher erscheint unmittelbar darauf die Arie des <rs type="person">Arzt</rs>es in
+            </p><p>
+      <lb facs="#facs_1_region_1684525496168_464_tl_12" n="N013"/>Jagdhörner verkünden das Nahen des <rs type="person" ref="#hsl_person_id_1851">König</rs>s, der in
+      <lb facs="#facs_1_region_1684525496168_464_tl_13" n="N014"/>Begleitung des maurischen Arztes <rs type="person" ref="#hsl_person_id_1852">Ebn-Jahia</rs> auftritt. Die
+      <lb facs="#facs_1_region_1684525496168_464_tl_14" n="N015"/>Arie, in welcher der <rs type="person" ref="#hsl_person_id_1851">König</rs> das Unglück seiner Tochter be
+      <lb facs="#facs_1_region_1684525496168_464_tl_15" n="N016" break="no"/>klagt, ist dankbar für den Sänger, aber stark an <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e
+      <lb facs="#facs_1_line_1689327082915_2111" n="N017"/>Muster ausklingend, von geringer Originalität. Charakteristi
+      <lb facs="#facs_1_region_1684525496168_464_tl_17" n="N018" break="no"/>scher erscheint unmittelbar darauf die Arie des <rs type="person" ref="#hsl_person_id_1852">Arzt</rs>es in
       <lb facs="#facs_1_region_1684525496168_464_tl_18" n="N019"/>ihrer wunderlichen Monotonie. Das etwas steife Pathos der
       <lb facs="#facs_1_region_1684525496168_464_tl_19" n="N020"/>beiden Bassisten wird erfreulich abgelöst durch die kühn
-      <lb facs="#facs_1_region_1684525496168_464_tl_20" n="N021"/>eindringenden jungen Freunde <rs type="person">Tristan</rs> und <rs type="person">Robert</rs>, deren
+      <lb facs="#facs_1_region_1684525496168_464_tl_20" n="N021"/>eindringenden jungen Freunde <rs type="person" ref="#hsl_person_id_1853">Tristan</rs> und <rs type="person" ref="#hsl_person_id_1854">Robert</rs>, deren
       <lb facs="#facs_1_region_1684525496168_464_tl_21" n="N022"/>Entzücken beim Anblick des herrlichen Gartens in reizenden
-      <lb facs="#facs_1_region_1684525496168_464_tl_22" n="N023"/>Orchester-Effecten ausklingt. Ritter <rs type="person">Robert</rs> preist in einer
+      <lb facs="#facs_1_region_1684525496168_464_tl_22" n="N023"/>Orchester-Effecten ausklingt. Ritter <rs type="person" ref="#hsl_person_id_1854">Robert</rs> preist in einer
       <lb facs="#facs_1_region_1684525496168_464_tl_23" n="N024"/>recht banalen Arie die Schönheit einer gewissen
       <lb facs="#facs_1_region_1684525496168_464_tl_24" n="N025"/>Mathilde, die wir leider nicht zu sehen bekommen:
       <lb facs="#facs_1_region_1684525496168_464_tl_25" n="N026"/>„Wer kann mit Mathilden sich messen an Macht, mit
       <lb facs="#facs_1_region_1684525496168_464_tl_26" n="N027"/>ihres schwarzblickenden Augenpaars Pracht?“ Von der
       <lb facs="#facs_1_region_1684525496168_464_tl_27" n="N028"/>schrecklichen „Umdichtung“ des Originals durch Herrn Hans
-      <lb facs="#facs_1_region_1684525496168_464_tl_28" n="N029"/>
-               <rs type="person">Schmidt</rs> geben wir aufs Gerathewohl noch zwei weitere
-      <lb facs="#facs_1_region_1684525496168_464_tl_29" n="N030"/>Proben. <rs type="person">Jolanthe</rs> singt: „O, um zu retten ihn, will gerne
-      <lb facs="#facs_1_region_1684525496168_464_tl_30" n="N031"/>ich ertragen Alles, denn mir werth ist er.“ Worauf der <rs type="person">König</rs>
-               <lb facs="#facs_1_line_1689328759211_2403" n="N032"/>die großartige Entscheidung fällt: „So sei sie dein, mein
+      <lb facs="#facs_1_region_1684525496168_464_tl_28" n="N029"/><rs type="person" ref="#hsl_person_id_1855">Schmidt</rs> geben wir aufs Gerathewohl noch zwei weitere
+      <lb facs="#facs_1_region_1684525496168_464_tl_29" n="N030"/>Proben. <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs> singt: „O, um zu retten ihn, will gerne
+      <lb facs="#facs_1_region_1684525496168_464_tl_30" n="N031"/>ich ertragen Alles, denn mir werth ist er.“ Worauf der <rs type="person" ref="#hsl_person_id_1851">König</rs><space quantity="1"/>
+      <lb facs="#facs_1_line_1689328759211_2403" n="N032"/>die großartige Entscheidung fällt: „So sei sie dein, mein
       <lb facs="#facs_1_region_1684525496168_464_tl_33" n="N033"/>Sohn, denn!“
-      <lb facs="#facs_1_region_1684525496168_464_tl_34" n="N034"/>Der Ritter <rs type="person">Tristan</rs> (das ist nämlich „mein Sohn
-      <lb facs="#facs_1_region_1684525496168_464_tl_35" n="N035"/>denn“) hat die schlafende <rs type="person">Jolanthe</rs> erweckt. Nach einer stür¬
-      <lb facs="#facs_1_line_1689327109788_2122" n="N036"/>mischen Liebeserklärung entdeckt er allmälig, daß <rs type="person">Jolanthe</rs>
-               <lb facs="#facs_1_line_1689327124244_2134" n="N037"/>blind ist. Durch seine Fragen wird die bisher Ahnungslose</p>
+            </p><p>
+      <lb facs="#facs_1_region_1684525496168_464_tl_34" n="N034"/>Der Ritter <rs type="person" ref="#hsl_person_id_1853">Tristan</rs> (das ist nämlich „mein Sohn
+      <lb facs="#facs_1_region_1684525496168_464_tl_35" n="N035"/>denn“) hat die schlafende <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs> erweckt. Nach einer stür
+      <lb facs="#facs_1_line_1689327109788_2122" n="N036" break="no"/>mischen Liebeserklärung entdeckt er allmälig, daß <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs><space quantity="1"/>
+      <lb facs="#facs_1_line_1689327124244_2134" n="N037"/>blind ist. Durch seine Fragen wird die bisher Ahnungslose<space quantity="1"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_line_1689327158717_2152" n="N001"/>zum erstenmale ihres Gebrechens inne. In dem ermüdend
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1689327158717_2152" n="N001"/>zum erstenmale ihres Gebrechens inne. In dem ermüdend
       <lb facs="#facs_2_line_1689327148163_2143" n="N002"/>langen Duett der Beiden leuchten einige feine Wendungen
       <lb facs="#facs_2_region_1684525511534_470_tl_2" n="N003"/>auf; wo aber die Melodie endlich in festem, breitem Bett
       <lb facs="#facs_2_region_1684525511534_470_tl_3" n="N004"/>sich zu sammeln beginnt („Ist des Schöpfers erstes Werk“),
@@ -829,112 +814,79 @@
       <lb facs="#facs_2_region_1684525511534_470_tl_5" n="N006"/>die Scene hier auf ihrem Höhepunkt, wie der Componist
       <lb facs="#facs_2_line_1689327166236_2161" n="N007"/>durch eine spätere Wiederholung des Themas bekräftigt. Wo
       <lb facs="#facs_2_line_1689327173924_2170" n="N008"/>aber die Kraft der originellen Melodie fehlt, da helfen alle Harfen
-      <lb facs="#facs_2_region_1684525511534_470_tl_8" n="N009"/>der Welt nichts. Der <rs type="person">König</rs> mit dem <rs type="person">Arzte</rs> und den
-      <lb facs="#facs_2_region_1684525511534_470_tl_9" n="N010"/>Dienerinnen <rs type="person">Jolanthe</rs>’s eilen herbei, erschreckt über die
+      <lb facs="#facs_2_region_1684525511534_470_tl_8" n="N009"/>der Welt nichts. Der <rs type="person" ref="#hsl_person_id_1851">König</rs> mit dem <rs type="person" ref="#hsl_person_id_1852">Arzt</rs>e und den
+      <lb facs="#facs_2_region_1684525511534_470_tl_9" n="N010"/>Dienerinnen <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs>’s eilen herbei, erschreckt über die
       <lb facs="#facs_2_region_1684525511534_470_tl_10" n="N011"/>Anwesenheit eines Fremden. Ein breiter, allmälig sich
       <lb facs="#facs_2_region_1684525511534_470_tl_11" n="N012"/>steigender Ensemblesatz („Er sprach zu mir vom Strahl der
       <lb facs="#facs_2_region_1684525511534_470_tl_12" n="N013"/>Sonne“) legt sich beruhigend auf die Erschütterung der
-      <lb facs="#facs_2_region_1684525511534_470_tl_13" n="N014"/>Anwesenden. Dann fleht <rs type="person">Jolanthe</rs> in einem leidenschaft¬
-      <lb facs="#facs_2_region_1684525511534_470_tl_14" n="N015"/>lichen Allegro um Gnade für <rs type="person">Tristan</rs>. Der <rs type="person">Arzt</rs> entfernt
-      <lb facs="#facs_2_region_1684525511534_470_tl_15" n="N016"/>sich mit <rs type="person">Jolanthe</rs>, um ihre Heilung zu versuchen. Nach sehr
+      <lb facs="#facs_2_region_1684525511534_470_tl_13" n="N014"/>Anwesenden. Dann fleht <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs> in einem leidenschaft
+      <lb facs="#facs_2_region_1684525511534_470_tl_14" n="N015" break="no"/>lichen Allegro um Gnade für <rs type="person" ref="#hsl_person_id_1853">Tristan</rs>. Der <rs type="person" ref="#hsl_person_id_1852">Arzt</rs> entfernt
+      <lb facs="#facs_2_region_1684525511534_470_tl_15" n="N016"/>sich mit <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs>, um ihre Heilung zu versuchen. Nach sehr
       <lb facs="#facs_2_line_1689327183698_2178" n="N017"/>kurzer Zeit kehren sie zurück; ein jubelnder Ausruf des
-      <lb facs="#facs_2_line_1689327187669_2183" n="N018"/>Chors „<rs type="person">Jolanthe</rs> sieht das Licht!“ begrüßt die glücklich
-      <lb facs="#facs_2_region_1684525511534_470_tl_20" n="N019"/>Errettete. Eine große dramatische Scene <rs type="person">Jolanthe</rs>’s, welche
+      <lb facs="#facs_2_line_1689327187669_2183" n="N018"/>Chors „<rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs> sieht das Licht!“ begrüßt die glücklich
+      <lb facs="#facs_2_region_1684525511534_470_tl_20" n="N019"/>Errettete. Eine große dramatische Scene <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs>’s, welche
       <lb facs="#facs_2_region_1684525511534_470_tl_21" n="N020"/>allmälig ihre Umgebung erkennt, gipfelt in ihrem Gebet
-      <lb facs="#facs_2_region_1684525511534_470_tl_22" n="N021"/>„O Herr zu dir!“, worauf ein kurzer Dank- und Preis¬
-      <lb facs="#facs_2_region_1684525511534_470_tl_23" n="N022"/>chor die Oper beschließt.
+      <lb facs="#facs_2_region_1684525511534_470_tl_22" n="N021"/>„O Herr zu dir!“, worauf ein kurzer Dank- und Preis
+      <lb facs="#facs_2_region_1684525511534_470_tl_23" n="N022" break="no"/>chor die Oper beschließt.
+            </p><p>
       <lb facs="#facs_2_region_1684525511534_470_tl_24" n="N023"/>Das Publicum folgte der Oper sehr aufmerksam, mit
       <lb facs="#facs_2_region_1684525511534_470_tl_25" n="N024"/>mehr Andacht als Begeisterung. Das liegt in der Natur
       <lb facs="#facs_2_region_1684525511534_470_tl_26" n="N025"/>dieser Musik. Weder Meisterwerk noch Effectstück, wol aber
       <lb facs="#facs_2_region_1684525511534_470_tl_27" n="N026"/>sorgfältige Arbeit eines vornehmen Künstlers. Die ersten
       <lb facs="#facs_2_region_1684525511534_470_tl_28" n="N027"/>Scenen mit den Mädchenchören, zahlreiche Feinheiten im
-      <lb facs="#facs_2_region_1684525511534_470_tl_29" n="N028"/>Dialog, vor Allem die Reize der charakteristischen Instru¬
-      <lb facs="#facs_2_region_1684525511534_470_tl_30" n="N029"/>mentirung konnten von unserm Publicum nicht übersehen,
-      <lb facs="#facs_2_region_1684525511534_470_tl_31" n="N030"/>nicht unterschätzt werden. Der Erfolg von „<rs type="bibl">Eugen Onegin</rs>“
-      <lb facs="#facs_2_region_1684525511534_470_tl_32" n="N031"/>hat der <rs type="place">Wien</rs>er Hofoper das Recht, wol auch die Pflicht
-      <lb facs="#facs_2_region_1684525511534_470_tl_33" n="N032"/>gegeben, dem <rs type="place">russisch</rs>en Componisten nochmals ihre Pforten
-      <lb facs="#facs_2_region_1684525511534_470_tl_34" n="N033"/>zu öffnen. <rs type="person">Tschaikowsky</rs> hat kaum ein halbes Dutzend Opern
-      <lb facs="#facs_2_region_1684525511534_470_tl_35" n="N034"/>geschrieben; sehr wenig, wenn man seine enorme Fruchtbar¬
-      <lb facs="#facs_2_region_1684525511534_470_tl_36" n="N035"/>keit auf dem Gebiete der Symphonie, der Kammermusik,
-      <lb facs="#facs_2_region_1684525511534_470_tl_37" n="N036"/>des Liedes und des Clavierstückes dagegen hält. Für die Auf¬
-      <lb facs="#facs_2_region_1684525511534_470_tl_38" n="N037"/>führung der „<rs type="bibl">Jolanthe</rs>“ sprach der Vorgang anderer <rs type="place">deutsch</rs>er
-      <lb facs="#facs_2_region_1684525511534_470_tl_39" n="N038"/>Bühnen und die frühere Beliebtheit der <rs type="person">Hetz</rs>’schen Dichtung. Zwei</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1689327160604_2155" n="N001"/>große Opern: „<hi rendition="#em">
-                  <rs type="bibl">Der Opritschnik</rs>
-               </hi>“ (nach einer Tragödie
-      <lb facs="#facs_2_line_1689327150148_2146" n="N002"/>von <rs type="person">Lajetschnikow</rs>) und „<hi rendition="#em">
-                  <rs type="bibl">Wakula, der Schmied</rs>
-               </hi>“ (nach
-      <lb facs="#facs_2_region_1684525516084_473_tl_2" n="N003"/>einem Märchen von <rs type="person">Gogol</rs>) haben selbst in <rs type="place">Petersburg</rs> nur
-      <lb facs="#facs_2_region_1684525516084_473_tl_3" n="N004"/>ein kurzes Leben gefristet; für <rs type="place">deutsch</rs>e Bühnen macht schon
-      <lb facs="#facs_2_region_1684525516084_473_tl_4" n="N005"/>ihr Stoff sie unmöglich. Auch eine Einbürgerung von <rs type="person" continued="true">Tschai¬</rs>
-               <lb facs="#facs_2_region_1684525516084_473_tl_5" n="N006"/>
-               <rs type="person" continued="true">kowsky</rs>’s „<hi rendition="#em">
-                  <rs type="bibl">Pique-Dame</rs>
-               </hi>“ auf <rs type="place">deutsch</rs>en Bühnen wird
+      <lb facs="#facs_2_region_1684525511534_470_tl_29" n="N028"/>Dialog, vor Allem die Reize der charakteristischen Instru
+      <lb facs="#facs_2_region_1684525511534_470_tl_30" n="N029" break="no"/>mentirung konnten von unserm Publicum nicht übersehen,
+      <lb facs="#facs_2_region_1684525511534_470_tl_31" n="N030"/>nicht unterschätzt werden. Der Erfolg von „<rs type="bibl" ref="#hsl_work_id_729">Eugen Onegin</rs>“
+      <lb facs="#facs_2_region_1684525511534_470_tl_32" n="N031"/>hat der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofoper das Recht, wol auch die Pflicht
+      <lb facs="#facs_2_region_1684525511534_470_tl_33" n="N032"/>gegeben, dem <rs type="place" ref="#hsl_place_id_48">russisch</rs>en Componisten nochmals ihre Pforten
+      <lb facs="#facs_2_region_1684525511534_470_tl_34" n="N033"/>zu öffnen. <rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs> hat kaum ein halbes Dutzend Opern
+      <lb facs="#facs_2_region_1684525511534_470_tl_35" n="N034"/>geschrieben; sehr wenig, wenn man seine enorme Fruchtbar
+      <lb facs="#facs_2_region_1684525511534_470_tl_36" n="N035" break="no"/>keit auf dem Gebiete der Symphonie, der Kammermusik,
+      <lb facs="#facs_2_region_1684525511534_470_tl_37" n="N036"/>des Liedes und des Clavierstückes dagegen hält. Für die Auf
+      <lb facs="#facs_2_region_1684525511534_470_tl_38" n="N037" break="no"/>führung der „<rs type="bibl" ref="#hsl_work_id_730">Jolanthe</rs>“ sprach der Vorgang anderer <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er
+      <lb facs="#facs_2_region_1684525511534_470_tl_39" n="N038"/>Bühnen und die frühere Beliebtheit der <rs type="person" ref="#hsl_person_id_1848">Hertz</rs>’schen Dichtung. Zwei<space quantity="1"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1689327160604_2155" n="N001"/>große Opern: „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_732">Der Opritschnik</rs></hi>“ (nach einer <rs type="bibl" ref="#hsl_work_id_854">Tragödie</rs>
+      <lb facs="#facs_2_line_1689327150148_2146" n="N002"/>von <rs type="person" ref="#hsl_person_id_1224">Lajetschnikow</rs>) und „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_731">Wakula, der Schmied</rs></hi>“ (nach
+      <lb facs="#facs_2_region_1684525516084_473_tl_2" n="N003"/>einem <rs type="bibl" ref="#hsl_work_id_1194">Märchen</rs> von <rs type="person" ref="#hsl_person_id_1223">Gogol</rs>) haben selbst in <rs type="place" ref="#hsl_place_id_50">Petersburg</rs> nur
+      <lb facs="#facs_2_region_1684525516084_473_tl_3" n="N004"/>ein kurzes Leben gefristet; für <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Bühnen macht schon
+      <lb facs="#facs_2_region_1684525516084_473_tl_4" n="N005"/>ihr Stoff sie unmöglich. Auch eine Einbürgerung von <rs type="person" ref="#hsl_person_id_1014">Tschai
+      <lb facs="#facs_2_region_1684525516084_473_tl_5" n="N006" break="no"/>kowsky</rs>’s „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_728">Pique-Dame</rs></hi>“ auf <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen wird
       <lb facs="#facs_2_line_1689327168262_2164" n="N007"/>durch das Textbuch sehr erschwert. Der Stoff, einer sehr
-      <lb facs="#facs_2_line_1689327176323_2173" n="N008"/>wunderlichen <rs type="bibl">Novelle</rs> von <hi rendition="#em">
-                  <rs type="person">Puschkin</rs>
-               </hi> entnommen, ist durch
+      <lb facs="#facs_2_line_1689327176323_2173" n="N008"/>wunderlichen <rs type="bibl" ref="#hsl_work_id_746">Novelle</rs> von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1220">Puschkin</rs></hi> entnommen, ist durch
       <lb facs="#facs_2_region_1684525516084_473_tl_6" n="N009"/>die Opern-Bearbeitung noch unverständlicher und gewaltsamer
       <lb facs="#facs_2_region_1684525516084_473_tl_7" n="N010"/>geworden. Das ist sehr zu bedauern, denn die Musik zur
-      <lb facs="#facs_2_region_1684525516084_473_tl_8" n="N011"/>„<rs type="bibl">Pique-Dame</rs>“ enthält große Schönheiten und ungleich mehr
-      <lb facs="#facs_2_region_1684525516084_473_tl_9" n="N012"/>dramatisches Leben, als <rs type="bibl">Jolanthe</rs>.*) Was von den hier
-      <lb facs="#facs_2_region_1684525516084_473_tl_10" n="N013"/>noch unbekannten Bühnenwerken <rs type="person">Tschaikowsky</rs>’s die meiste
+      <lb facs="#facs_2_region_1684525516084_473_tl_8" n="N011"/>„<rs type="bibl" ref="#hsl_work_id_728">Pique-Dame</rs>“ enthält große Schönheiten und ungleich mehr
+      <lb facs="#facs_2_region_1684525516084_473_tl_9" n="N012"/>dramatisches Leben, als <rs type="bibl" ref="#hsl_work_id_730">Jolanthe</rs>.
+            <note type="footnote" n="*)"><lb facs="#facs_2_region_1684525516084_473_tl_32" n="N035"/>Ein Vierteljahrhundert vor <rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs> hat <hi rendition="#em"><rs type="person" ref="#hsl_person_id_106">Halévy</rs></hi> den
+            <lb facs="#facs_2_line_1689327230924_2205" n="N036" break="no"/>selben, von <rs type="person" ref="#hsl_person_id_284">Scribe</rs> bearbeiteten Stoff componirt für die <rs type="place" ref="#hsl_place_id_44">Paris</rs>er
+            <lb facs="#facs_2_line_1689327234084_2208" n="N037"/>Komische Oper. „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1195">La Dame de pique</rs></hi>“ hatte jedoch keinen
+            <lb facs="#facs_2_region_1684525516084_473_tl_36" n="N038"/>Erfolg und verschwand nach wenigen Aufführungen.</note>
+            Was von den hier
+      <lb facs="#facs_2_region_1684525516084_473_tl_10" n="N013"/>noch unbekannten Bühnenwerken <rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs>’s die meiste
       <lb facs="#facs_2_region_1684525516084_473_tl_11" n="N014"/>Aussicht auf Erfolg hätte, das sind seine <hi rendition="#em">Ballette</hi>:
-      <lb facs="#facs_2_region_1684525516084_473_tl_12" n="N015"/>„<rs type="bibl">Nußknacker</rs>“, „<rs type="bibl">Der Schwanensee</rs>“ und vor Allem das
-      <lb facs="#facs_2_region_1684525516084_473_tl_13" n="N016"/>reizvolle, graziöse Tanzmärchen „<hi rendition="#em">
-                  <rs type="bibl">Dornröschen</rs>
-               </hi>“.
-      <lb facs="#facs_2_region_1684525516084_473_tl_14" n="N017"/>Die <rs type="place">Wien</rs>er Aufführung und Ausstattung der neuen Oper
-      <lb facs="#facs_2_region_1684525516084_473_tl_15" n="N018"/>verdient das wärmste Lob. Fräulein Selma <hi rendition="#em">
-                  <rs type="person">Kurz</rs>
-               </hi> besitzt
-      <lb facs="#facs_2_region_1684525516084_473_tl_16" n="N019"/>für die <rs type="person">Jolanthe</rs> die richtige Gestalt, Stimme und Vor¬
-      <lb facs="#facs_2_region_1684525516084_473_tl_17" n="N020"/>tragsweise. Das nicht leichte schauspielerische Problem, die
+      <lb facs="#facs_2_region_1684525516084_473_tl_12" n="N015"/>„<rs type="bibl" ref="#hsl_work_id_1196">Nußknacker</rs>“, „<rs type="bibl" ref="#hsl_work_id_1197">Der Schwanensee</rs>“ und vor Allem das
+      <lb facs="#facs_2_region_1684525516084_473_tl_13" n="N016"/>reizvolle, graziöse Tanzmärchen „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1198">Dornröschen</rs></hi>“.
+            </p><p>
+      <lb facs="#facs_2_region_1684525516084_473_tl_14" n="N017"/>Die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Aufführung und Ausstattung der neuen Oper
+      <lb facs="#facs_2_region_1684525516084_473_tl_15" n="N018"/>verdient das wärmste Lob. Fräulein Selma <hi rendition="#em"><rs type="person" ref="#hsl_person_id_995">Kurz</rs></hi> besitzt
+      <lb facs="#facs_2_region_1684525516084_473_tl_16" n="N019"/>für die <rs type="person" ref="#hsl_person_id_1847">Jolanthe</rs> die richtige Gestalt, Stimme und Vor
+      <lb facs="#facs_2_region_1684525516084_473_tl_17" n="N020" break="no"/>tragsweise. Das nicht leichte schauspielerische Problem, die
       <lb facs="#facs_2_region_1684525516084_473_tl_18" n="N021"/>Blindheit des Mädchens unverkennbar anzudeuten, ohne sie
       <lb facs="#facs_2_region_1684525516084_473_tl_19" n="N022"/>störend vorzudrängen, löst sie mit feinem Verständniß.
-      <lb facs="#facs_2_region_1684525516084_473_tl_20" n="N023"/>Fräulein <rs type="person">Kurz</rs> wird vortrefflich unterstützt von den Herren
-      <lb facs="#facs_2_region_1684525516084_473_tl_21" n="N024"/>
-               <hi rendition="#em">
-                  <rs type="person">Naval</rs>
-               </hi> (<rs type="person">Tristan</rs>), <hi rendition="#em">
-                  <rs type="person">Demuth</rs>
-               </hi> (<rs type="person">Robert</rs>), <hi rendition="#em">
-                  <rs type="person">Neidl</rs>
-               </hi> (<rs type="person">Ebn-</rs>
-               <lb facs="#facs_2_region_1684525516084_473_tl_22" n="N025"/>
-               <rs type="person">Jahia</rs>) und <hi rendition="#em">
-                  <rs type="person">Hesch</rs>
-               </hi> (König <rs type="person">René</rs>). Nur allzu gebrechlich
+      <lb facs="#facs_2_region_1684525516084_473_tl_20" n="N023"/>Fräulein <rs type="person" ref="#hsl_person_id_995">Kurz</rs> wird vortrefflich unterstützt von den Herren
+      <lb facs="#facs_2_region_1684525516084_473_tl_21" n="N024"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_980">Naval</rs></hi> (<rs type="person" ref="#hsl_person_id_1853">Tristan</rs>), <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1080">Demuth</rs></hi> (<rs type="person" ref="#hsl_person_id_1854">Robert</rs>), <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1428">Neidl</rs></hi> (<rs type="person" ref="#hsl_person_id_1852">Ebn
+      <lb facs="#facs_2_region_1684525516084_473_tl_22" n="N025"/>Jahia</rs>) und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1433">Hesch</rs></hi> (König <rs type="person" ref="#hsl_person_id_1851">René</rs>). Nur allzu gebrechlich
       <lb facs="#facs_2_region_1684525516084_473_tl_23" n="N026"/>und greisenhaft wollte uns Letzterer erscheinen in Maske
       <lb facs="#facs_2_region_1684525516084_473_tl_24" n="N027"/>und Bewegung. Wenn man so aussieht, hat man schwerlich
       <lb facs="#facs_2_region_1684525516084_473_tl_25" n="N028"/>ein sechzehnjähriges Töchterlein und geht auch nicht mehr
       <lb facs="#facs_2_region_1684525516084_473_tl_26" n="N029"/>auf die Jagd. Die kleineren Frauenrollen, welche in dem
       <lb facs="#facs_2_region_1684525516084_473_tl_27" n="N030"/>Ensemble der ersten Scenen tüchtige musikalische Sicherheit
-      <lb facs="#facs_2_region_1684525516084_473_tl_28" n="N031"/>erfordern, werden von den Damen <hi rendition="#em">
-                  <rs type="person">Rellé</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Pohlner</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684525516084_473_tl_29" n="N032"/>und <hi rendition="#em">
-                  <rs type="person">Kusmitsch</rs>
-               </hi> tadellos durchgeführt. Dem vom Director
-      <lb facs="#facs_2_region_1684525516084_473_tl_30" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person">Mahler</rs>
-               </hi> geleiteten Orchester bot die <rs type="person">Tschaikowsky</rs>’sche
-      <lb facs="#facs_2_region_1684525516084_473_tl_31" n="N034"/>Partitur eine lohnende, hier glänzend gelöste Aufgabe.
-      <lb facs="#facs_2_region_1684525516084_473_tl_32" n="N035"/>Ein Vierteljahrhundert vor <rs type="person">Tschaikowsky</rs> hat <hi rendition="#em">
-                  <rs type="person">Halévy</rs>
-               </hi> den¬
-      <lb facs="#facs_2_line_1689327230924_2205" n="N036"/>selben, von <rs type="person">Scribe</rs> bearbeiteten Stoff componirt für die <rs type="place">Paris</rs>er
-      <lb facs="#facs_2_line_1689327234084_2208" n="N037"/>Komische Oper. „<hi rendition="#em">
-                  <rs type="bibl">La Dame de pique</rs>
-               </hi>“ hatte jedoch keinen
-      <lb facs="#facs_2_region_1684525516084_473_tl_36" n="N038"/>Erfolg und verschwand nach wenigen Aufführungen.</p>
+      <lb facs="#facs_2_region_1684525516084_473_tl_28" n="N031"/>erfordern, werden von den Damen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1856">Rellé</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1532">Pohlner</rs></hi><space quantity="1"/>
+      <lb facs="#facs_2_region_1684525516084_473_tl_29" n="N032"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1426">Kusmitsch</rs></hi> tadellos durchgeführt. Dem vom Director
+      <lb facs="#facs_2_region_1684525516084_473_tl_30" n="N033"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_977">Mahler</rs></hi> geleiteten Orchester bot die <rs type="person" ref="#hsl_person_id_1014">Tschaikowsky</rs>’sche
+      <lb facs="#facs_2_region_1684525516084_473_tl_31" n="N034"/>Partitur eine lohnende, hier glänzend gelöste Aufgabe.</p>
          </div>
       </body>
    </text>
