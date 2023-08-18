@@ -113,6 +113,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2023-08-10" who="ampfiel">Zeilen- und Absatzumbrüche, refs auffüllen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -890,307 +891,329 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
                <lb facs="#facs_1_region_1681901105259_1675_tl_2" n="N001"/><head type="h1">
-               <rs type="person">Meyerbeer</rs>'s „<rs type="bibl">Afrikanerin</rs>“.</head>
+               <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>'s „<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“.</head>
       <lb facs="#facs_1_line_1687798014914_24" n="N002"/><head type="h2">I.</head>
       <p>
-      <lb facs="#facs_1_region_1681901105259_1675_tl_3" n="N003"/>Ed. H. <hi rendition="#em">Henri <rs type="person">Murger</rs>
-               </hi>
-               <rs type="person"/>, der humoristische Poet des
-      <lb facs="#facs_1_region_1681901105259_1675_tl_4" n="N004"/>„<rs type="bibl">Kunst-Zigeunerthums</rs>“ in <rs type="place">Paris</rs>, führt uns in einem seiner
-      <lb facs="#facs_1_region_1681901105259_1675_tl_5" n="N005"/>Gedichte an das Bett eines genußmüden <rs type="person">Roué</rs>, der sein Te¬
-      <lb facs="#facs_1_region_1681901105259_1675_tl_6" n="N006"/>stament machen will. Es liege ihm nichts am Leben, versi¬
-      <lb facs="#facs_1_region_1681901105259_1675_tl_7" n="N007"/>chert er dictirend seinem Notar, nur Eines beklage er: „Je
-      <lb facs="#facs_1_region_1681901105259_1675_tl_8" n="N008"/>suis de ceux, qui ne verront plus <rs type="bibl">l'Africaine</rs>!“
-      <lb facs="#facs_1_region_1681901105259_1675_tl_9" n="N009"/>Wir freuen uns, daß endlich der 27. Februar <date month="0" day="0" year="0">1866</date> ähnliche
-      <lb facs="#facs_1_region_1681901105259_1675_tl_10" n="N010"/>betrübende Scenen in <rs type="place">Wien</rs> unmöglich gemacht hat. Die
-      <lb facs="#facs_1_region_1681901105259_1675_tl_11" n="N011"/>„<rs type="bibl">Afrikanerin</rs>“ ist leibhaftig sammt Linienschiff, Giftbaum und
+            <lb facs="#facs_1_region_1681901105259_1675_tl_3" n="N003"/>Ed. H. <hi rendition="#em">Henri <rs type="person" ref="#hsl_person_id_992">Murger</rs>
+               </hi>, der humoristische Poet des
+            <lb facs="#facs_1_region_1681901105259_1675_tl_4" n="N004"/>„<rs type="bibl" ref="#hsl_work_id_1247">Kunst-Zigeunerthums</rs>“ in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, führt uns in einem seiner
+      <lb facs="#facs_1_region_1681901105259_1675_tl_5" n="N005"/>Gedichte an das Bett eines genußmüden Roué, der sein Te
+      <lb facs="#facs_1_region_1681901105259_1675_tl_6" n="N006" break="no"/>stament machen will. Es liege ihm nichts am Leben, versi
+      <lb facs="#facs_1_region_1681901105259_1675_tl_7" n="N007" break="no"/>chert er dictirend seinem Notar, nur Eines beklage er: „Je
+            <lb facs="#facs_1_region_1681901105259_1675_tl_8" n="N008"/>suis de ceux, qui ne verront plus <rs type="bibl" ref="#hsl_work_id_142">l'Africaine</rs>!“
+      <lb facs="#facs_1_region_1681901105259_1675_tl_9" n="N009"/>Wir freuen uns, daß endlich der <date when="1866-02-27">27. Februar 1866</date> ähnliche
+            <lb facs="#facs_1_region_1681901105259_1675_tl_10" n="N010"/>betrübende Scenen in <rs type="place" ref="#hsl_place_id_55">Wien</rs> unmöglich gemacht hat. Die
+            <lb facs="#facs_1_region_1681901105259_1675_tl_11" n="N011"/>„<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ ist leibhaftig sammt Linienschiff, Giftbaum und
       <lb facs="#facs_1_region_1681901105259_1675_tl_12" n="N012"/>allem übrigen Zubehör im Hofoperntheater erschienen und
       <lb facs="#facs_1_region_1681901105259_1675_tl_13" n="N013"/>hat, wie vorauszusetzen, entschieden durchgeschlagen. Es war
       <lb facs="#facs_1_region_1681901105259_1675_tl_14" n="N014"/>ein colossaler Genuß, den wir an diesem Abend überstanden
       <lb facs="#facs_1_region_1681901105259_1675_tl_15" n="N015"/>haben, so colossal, daß wir ihn in gleicher Ausdehnung uns
       <lb facs="#facs_1_region_1681901105259_1675_tl_16" n="N016"/>kein zweitesmal verlangen. Oder ist es eine Kleinigkeit, von
-      <lb facs="#facs_1_region_1681901105259_1675_tl_17" n="N017"/>halb sieben Uhr bis ein Viertel vor Elf in der drücken-
-      <lb facs="#facs_1_region_1681901105259_1675_tl_18" n="N018"/>den Hitze eines vollgepfropften Theaters ununterbrochen der
+      <lb facs="#facs_1_region_1681901105259_1675_tl_17" n="N017"/>halb sieben Uhr bis ein Viertel vor Elf in der drücken
+      <lb facs="#facs_1_region_1681901105259_1675_tl_18" n="N018" break="no"/>den Hitze eines vollgepfropften Theaters ununterbrochen der
       <lb facs="#facs_1_region_1681901105259_1675_tl_19" n="N019"/>rauschendsten Musik, den bewegtesten Scenen, dem blendendsten
       <lb facs="#facs_1_region_1681901105259_1675_tl_20" n="N020"/>Wechsel neuer Decorationen, Costüme und Aufzüge ungebeugt
-      <lb facs="#facs_1_region_1681901105259_1675_tl_21" n="N021"/>Stand zu halten?
+      <lb facs="#facs_1_region_1681901105259_1675_tl_21" n="N021"/>Stand zu halten?</p>
+               <p>
       <lb facs="#facs_1_region_1681901105259_1675_tl_22" n="N022"/>Von einem ästhetischen Aufnehmen und Genießen kann
       <lb facs="#facs_1_region_1681901105259_1675_tl_23" n="N023"/>man kaum mehr sprechen, wo es sich in erster Linie um die
       <lb facs="#facs_1_region_1681901105259_1675_tl_24" n="N024"/>Frage des „Aushaltens“ handelt, und deßhalb beeilen wir
-      <lb facs="#facs_1_region_1681901105259_1675_tl_25" n="N025"/>uns, um eine ausgiebige Kürzung der „<rs type="bibl">Afrikanerin</rs>“ dringend
+                     <lb facs="#facs_1_region_1681901105259_1675_tl_25" n="N025"/>uns, um eine ausgiebige Kürzung der „<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ dringend
       <lb facs="#facs_1_line_1687798620794_71" n="N026"/>zu bitten. Die Componisten der großen fünfactigen Opern
       <lb facs="#facs_1_region_1681901105259_1675_tl_26" n="N027"/>wüthen gegen ihr eigens Fleisch; trotz aller nachträglichen
-      <lb facs="#facs_1_line_1687798624170_74" n="N028"/>Reductionen bewirken sie doch nur, daß das Publicum ent-
-      <lb facs="#facs_1_region_1681901105259_1675_tl_27" n="N029"/>weder erst zum zweiten Act erscheint, wie in <rs type="place">Paris</rs>, oder vor
-      <lb facs="#facs_1_region_1681901105259_1675_tl_28" n="N030"/>dem fünften fortgeht, wie in <rs type="place">Wien</rs>. Mitunter werden sogar
+      <lb facs="#facs_1_line_1687798624170_74" n="N028"/>Reductionen bewirken sie doch nur, daß das Publicum ent
+                     <lb facs="#facs_1_region_1681901105259_1675_tl_27" n="N029" break="no"/>weder erst zum zweiten Act erscheint, wie in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, oder vor
+                     <lb facs="#facs_1_region_1681901105259_1675_tl_28" n="N030"/>dem fünften fortgeht, wie in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Mitunter werden sogar
       <lb facs="#facs_1_region_1681901105259_1675_tl_29" n="N031"/>beide Mittel combinirt. Nun ist aber ein vorzeitiges Ermü-
-      <lb facs="#facs_1_region_1681901105259_1675_tl_30" n="N032"/>den und Abstumpfen der Zuhörer in der „<rs type="bibl">Afrikanerin</rs>“ von
+                     <lb facs="#facs_1_region_1681901105259_1675_tl_30" n="N032"/>den und Abstumpfen der Zuhörer in der „<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ von
       <lb facs="#facs_1_region_1681901105259_1675_tl_31" n="N033"/>ganz besonderem Nachtheil, weil gerade die beiden letzten Acte
       <lb facs="#facs_1_region_1681901105259_1675_tl_32" n="N034"/>dieser Oper die weitaus besten sind. Man wird sich zu einer
       <lb facs="#facs_1_region_1681901105259_1675_tl_33" n="N035"/>recht heroischen Operation der drei ersten Acte entschließen
       <lb facs="#facs_1_region_1681901105259_1675_tl_34" n="N036"/>
                <hi rendition="#em">müssen</hi>, wenn man den Eindruck der beiden letzten retten
-      <lb facs="#facs_1_region_1681901105259_1675_tl_35" n="N037"/>will, und deßhalb entschließe man sich lieber rasch. Im ersten</p>
+      <lb facs="#facs_1_region_1681901105259_1675_tl_35" n="N037"/>will, und deßhalb entschließe man sich lieber rasch. Im ersten
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1681901107787_1678_tl_1" n="N001"/>Art sind zahlreiche kleinere Striche möglich, im zweiten wür-
-      <lb facs="#facs_1_region_1681901107787_1678_tl_2" n="N002"/>den wir ohneweiters das „Schlummerlied“ opfern, als einen
+               <lb facs="#facs_1_region_1681901107787_1678_tl_1" n="N001"/>Art sind zahlreiche kleinere Striche möglich, im zweiten wür
+      <lb facs="#facs_1_region_1681901107787_1678_tl_2" n="N002" break="no"/>den wir ohneweiters das „Schlummerlied“ opfern, als einen
       <lb facs="#facs_1_region_1681901107787_1678_tl_3" n="N003"/>der schwächsten Momente der Partitur, sowie unserer sonst
-      <lb facs="#facs_1_region_1681901107787_1678_tl_4" n="N004"/>so verdienstvollen „<rs type="person">Selica</rs>“. Auch das darauffolgende See-
+                     <lb facs="#facs_1_region_1681901107787_1678_tl_4" n="N004"/>so verdienstvollen „<rs type="person" ref="#hsl_person_id_1866">Selica</rs>“. Auch das darauffolgende See-
       <lb facs="#facs_1_region_1681901107787_1678_tl_5" n="N005"/>und Landkarten-Duett vertrüge ein verkleinertes Format. Der
-      <lb facs="#facs_1_region_1681901107787_1678_tl_6" n="N006"/>drittte Act könnte mit dem Gebet „O grand saint Domini-
-      <lb facs="#facs_1_region_1681901107787_1678_tl_7" n="N007"/>que“ beginnen, gleich zur Ballade <rs type="person">Nelusco</rs>’s übergehen und
-      <lb facs="#facs_1_region_1681901107787_1678_tl_8" n="N008"/>von dem Duett zwischen <rs type="person">Vasco</rs> und <rs type="person">Diego</rs> blos den Einlei-
-      <lb facs="#facs_1_region_1681901107787_1678_tl_9" n="N009"/>tungs- und den Schlußsatz bringen. Im vierten Acte kann
-      <lb facs="#facs_1_region_1681901107787_1678_tl_10" n="N010"/>kaum etwas wegbleiben, wol aber im fünften der sehr ge¬
-      <lb facs="#facs_1_line_1687799023105_142" n="N011"/>quälte Cis-moll-Satz des Frauen-Duetts. Durch diese Am¬
-      <lb facs="#facs_1_region_1681901107787_1678_tl_12" n="N012"/>putationen wäre die „<rs type="bibl">Afrikanerin</rs>“ etwa um eine Stunde ge-
-      <lb facs="#facs_1_region_1681901107787_1678_tl_13" n="N013"/>kürzt und ihre Lebenskraft um Jahre verlängert.
+      <lb facs="#facs_1_region_1681901107787_1678_tl_6" n="N006"/>drittte Act könnte mit dem Gebet „O grand saint Domini
+      <lb facs="#facs_1_region_1681901107787_1678_tl_7" n="N007" break="no"/>que“ beginnen, gleich zur Ballade <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs>’s übergehen und
+      <lb facs="#facs_1_region_1681901107787_1678_tl_8" n="N008"/>von dem Duett zwischen 
+                     <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> und 
+                     <rs type="person" ref="#hsl_person_id_1926">Diego</rs> blos den Einlei
+      <lb facs="#facs_1_region_1681901107787_1678_tl_9" n="N009" break="no"/>tungs- und den Schlußsatz bringen. Im vierten Acte kann
+      <lb facs="#facs_1_region_1681901107787_1678_tl_10" n="N010"/>kaum etwas wegbleiben, wol aber im fünften der sehr ge
+      <lb facs="#facs_1_line_1687799023105_142" n="N011" break="no"/>quälte Cis-moll-Satz des Frauen-Duetts. Durch diese Am
+                     <lb facs="#facs_1_region_1681901107787_1678_tl_12" n="N012" break="no"/>putationen wäre die „<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ etwa um eine Stunde ge
+      <lb facs="#facs_1_region_1681901107787_1678_tl_13" n="N013" break="no"/>kürzt und ihre Lebenskraft um Jahre verlängert.</p>
+               <p>
       <lb facs="#facs_1_region_1681901107787_1678_tl_14" n="N014"/>Vergegenwärtigen wir uns die Handlung der Oper in
-      <lb facs="#facs_1_region_1681901107787_1678_tl_15" n="N015"/>ihren wesentlichsten Umrissen. Der Dichter (<rs type="person">Scribe</rs>) knüpft
+      <lb facs="#facs_1_region_1681901107787_1678_tl_15" n="N015"/>ihren wesentlichsten Umrissen. Der Dichter (<rs type="person" ref="#hsl_person_id_284">Scribe</rs>) knüpft
       <lb facs="#facs_1_region_1681901107787_1678_tl_16" n="N016"/>sie an die welthistorischen Entdeckungsfahrten der Portugiesen
-      <lb facs="#facs_1_line_1687799256429_188" n="N017"/>längs der Küste von <rs type="place">Afrika</rs>, welche, bereits im Anfang des
+      <lb facs="#facs_1_line_1687799256429_188" n="N017"/>längs der Küste von <rs type="place" ref="#hsl_place_id_233">Afrika</rs>, welche, bereits im Anfang des
       <lb facs="#facs_1_region_1681901107787_1678_tl_18" n="N018"/>
-               <date month="0" day="0" year="0">15. Jahrhunderts</date> begonnen, durch <hi rendition="#em">Bartolomeo <rs type="person">Diaz</rs>
+               <date from="1400" to="1499">15. Jahrhunderts</date> begonnen, durch <hi rendition="#em">Bartolomeo 
+                     <rs type="person" ref="#hsl_person_id_1927">Diaz</rs>
                </hi>
-               <lb facs="#facs_1_region_1681901107787_1678_tl_19" n="N019"/>und <hi rendition="#em">Vasco de <rs type="person">Gama</rs>
-               </hi>
-               <rs type="person"/> ihren höchsten Glanz erreichten.
+      <lb facs="#facs_1_region_1681901107787_1678_tl_19" n="N019"/>und <hi rendition="#em">Vasco de <rs type="person" ref="#hsl_person_id_1930">Gama</rs>
+               </hi> ihren höchsten Glanz erreichten.
       <lb facs="#facs_1_line_1687799574368_209" n="N020"/>
-               <date month="0" day="0" year="0">1486</date> kam <rs type="person">Diaz</rs> an das südliche Vorgebirge von <rs type="place">Afrika</rs>, das
-      <lb facs="#facs_1_region_1681901107787_1678_tl_21" n="N021"/>er von seinen gefährlichen Stürmen das „stürmische Vorge-
-      <lb facs="#facs_1_line_1687799634000_235" n="N022"/>birge“ nannte. <date month="0" day="0" year="0">1495</date> rüstete König <rs type="person">Emanuel</rs> der Große ein
-      <lb facs="#facs_1_region_1681901107787_1678_tl_22" n="N023"/>neues Geschwader aus. Am 7. Juli <date month="0" day="0" year="0">1497</date> fuhr <hi rendition="#em">Vasco de</hi>
-               <lb facs="#facs_1_region_1681901107787_1678_tl_23" n="N024"/>
+                     <date when="1486">1486</date> kam <rs type="person" ref="#hsl_person_id_1927">Diaz</rs> an das südliche Vorgebirge von <rs type="place" ref="#hsl_place_id_233">Afrika</rs>, das
+      <lb facs="#facs_1_region_1681901107787_1678_tl_21" n="N021"/>er von seinen gefährlichen Stürmen das „stürmische Vorge
+      <lb facs="#facs_1_line_1687799634000_235" n="N022" break="no"/>birge“ nannte. <date when="1495">1495</date> rüstete König 
+                     <rs type="person" ref="#hsl_person_id_1928">Emanuel</rs> der Große ein
+      <lb facs="#facs_1_region_1681901107787_1678_tl_22" n="N023"/>neues Geschwader aus. Am <date when="1497-07-07">7. Juli 1497</date> fuhr <hi rendition="#em">Vasco de</hi>
+      <lb facs="#facs_1_region_1681901107787_1678_tl_23" n="N024"/>
                <hi rendition="#em">
-                  <rs type="person">Gama</rs>
-               </hi> mit drei kleinen Schiffen aus dem Hafen von <rs type="place">Lissa-</rs>
-               <lb facs="#facs_1_region_1681901107787_1678_tl_24" n="N025"/>
-               <rs type="place">bon</rs>; im November kam er um das stürmische Cap, dem er
-      <lb facs="#facs_1_region_1681901107787_1678_tl_25" n="N026"/>im Vorgefühl der nahen Entdeckung <rs type="place">Indien</rs>s den Namen
-      <lb facs="#facs_1_line_1687799746305_259" n="N027"/>der „guten Hoffnung“ gab. Er segelte die Ostküste <rs type="place">Afrika</rs>s
-      <lb facs="#facs_1_region_1681901107787_1678_tl_27" n="N028"/>entlang, kam nach <rs type="place">Melinda</rs>, wo er <rs type="place">europäisch</rs>e Cultur, einen
+                     <rs type="person" ref="#hsl_person_id_1930">Gama</rs></hi> mit drei kleinen Schiffen aus dem Hafen von <rs type="place" ref="#hsl_place_id_33">Lissa
+      <lb facs="#facs_1_region_1681901107787_1678_tl_24" n="N025" break="no"/>bon</rs>; im November kam er um das stürmische Cap, dem er
+                     <lb facs="#facs_1_region_1681901107787_1678_tl_25" n="N026"/>im Vorgefühl der nahen Entdeckung <rs type="place" ref="#hsl_place_id_83">Indien</rs>s den Namen
+                     <lb facs="#facs_1_line_1687799746305_259" n="N027"/>der „guten Hoffnung“ gab. Er segelte die Ostküste <rs type="place" ref="#hsl_place_id_233">Afrika</rs>s
+      <lb facs="#facs_1_region_1681901107787_1678_tl_27" n="N028"/>entlang, kam nach <rs type="place" ref="#hsl_place_id_234">Melinda</rs>, wo er 
+                     <rs type="place" ref="#hsl_place_id_19">europäisch</rs>e Cultur, einen
       <lb facs="#facs_1_region_1681901107787_1678_tl_28" n="N029"/>
-               <rs type="place">asiatisch</rs>en Menschenschlag und <rs type="place">indisch</rs>e Schiffe fand. Von
-      <lb facs="#facs_1_region_1681901107787_1678_tl_29" n="N030"/>hier führte ihn ein mohammedanischer Pilot über den <rs type="place">indisch</rs>en
-      <lb facs="#facs_1_region_1681901107787_1678_tl_30" n="N031"/>Ocean nach <rs type="place">Calecut</rs> auf der Küste von <rs type="place">Malabar</rs> (<rs type="place">Vorder-</rs>
-               <lb facs="#facs_1_region_1681901107787_1678_tl_31" n="N032"/>
-               <rs type="place">indien</rs>), wo er im Mai <date month="0" day="0" year="0">1498</date> seine Anker warf. Die Hand-
-      <lb facs="#facs_1_region_1681901107787_1678_tl_32" n="N033"/>lung der <rs type="person">Scribe</rs>’schen „<rs type="bibl">Afrikanerin</rs>“ lehnt sich an diese Vor¬
-      <lb facs="#facs_1_region_1681901107787_1678_tl_33" n="N034"/>gänge und fällt in die Jahre <date month="0" day="0" year="0">1497</date> und <date month="0" day="0" year="0">1498</date>. Bartolomeo
+                     <rs type="place" ref="#hsl_place_id_80">asiatisch</rs>en Menschenschlag und <rs type="place" ref="#hsl_place_id_83">indisch</rs>e Schiffe fand. Von
+                     <lb facs="#facs_1_region_1681901107787_1678_tl_29" n="N030"/>hier führte ihn ein mohammedanischer Pilot über den <rs type="place" ref="#hsl_place_id_83">indisch</rs>en
+      <lb facs="#facs_1_region_1681901107787_1678_tl_30" n="N031"/>Ocean nach <rs type="place" ref="#hsl_place_id_235">Calecut</rs> auf der Küste von 
+                     <rs type="place" ref="#hsl_place_id_236">Malabar</rs> (Vorder-
+               <lb facs="#facs_1_region_1681901107787_1678_tl_31" n="N032"/><rs type="place" ref="#hsl_place_id_83">indien</rs>), wo er im 
+                           <date when="1498-05">Mai 1498</date> seine Anker warf. Die Hand
+      <lb facs="#facs_1_region_1681901107787_1678_tl_32" n="N033" break="no"/>lung der <rs type="person" ref="#hsl_person_id_184">Scribe</rs>’schen „
+                     <rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ lehnt sich an diese Vor
+      <lb facs="#facs_1_region_1681901107787_1678_tl_33" n="N034" break="no"/>gänge und fällt in die Jahre 
+                           <date when="1497">1497</date> und <date when="1498">1498</date>. Bartolomeo
       <lb facs="#facs_1_line_1687799958595_288" n="N035"/>
-               <rs type="person">Diaz</rs> ist gescheitert, Vasco de <rs type="person">Gama</rs> kehrt allein von der
+                     <rs type="person" ref="#hsl_person_id_1927">Diaz</rs> ist gescheitert, Vasco de <rs type="person" ref="#hsl_person_id_1930">Gama</rs> kehrt allein von der
       <lb facs="#facs_1_region_1681901107787_1678_tl_35" n="N036"/>Fahrt zurück und verlangt neue Unterstützung. Der königliche
-      <lb facs="#facs_1_region_1681901107787_1678_tl_36" n="N037"/>Rath in <rs type="place">Lissabon</rs> verhandelt über dieses Begehren; der erste
-      <lb facs="#facs_1_region_1681901107787_1678_tl_37" n="N038"/>Act führt uns mitten in die feierliche Berathung. <rs type="person">Vasco</rs>
+      <lb facs="#facs_1_region_1681901107787_1678_tl_36" n="N037"/>Rath in <rs type="place" ref="#hsl_place_id_33">Lissabon</rs> verhandelt über dieses Begehren; der erste
+      <lb facs="#facs_1_region_1681901107787_1678_tl_37" n="N038"/>Act führt uns mitten in die feierliche Berathung. <rs type="person" ref="#hsl_person_id_1925">Vasco</rs>
                <lb facs="#facs_1_line_1687800009707_303" n="N039"/>(Herr <hi rendition="#em">
-                  <rs type="person">Walter</rs>
-               </hi>) erzählt seine Erlebnisse und führt als le¬
-      <lb facs="#facs_1_line_1687800047804_318" n="N040"/>bendige Beweise zwei Sklaven, Selica (Fräulein <hi rendition="#em">
-                  <rs type="person" continued="true">Bettel-</rs>
-               </hi>
-            </p>
+                  <rs type="person" ref="#hsl_person_id_320">Walter</rs>
+               </hi>) erzählt seine Erlebnisse und führt als le
+                     <lb facs="#facs_1_line_1687800047804_318" n="N040" break="no"/>bendige Beweise zwei Sklaven, <rs type="person" ref="#hsl_person_id_1866">Selica</rs> (Fräulein <hi rendition="#em">
+                           <rs type="person" ref="#hsl_person_id_31">Bettel
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1681901109909_1681_tl_1" n="N001"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">heim</rs>
-               </hi>) und <rs type="person">Nelusco</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi>), aus jenen unbekannten
+               <lb facs="#facs_1_region_1681901109909_1681_tl_1" n="N001" break="no"/>heim</rs>
+                     </hi>) und <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs> (Herr <hi rendition="#em">
+                           <rs type="person" ref="#hsl_person_id_24">Beck</rs></hi>), aus jenen unbekannten
       <lb facs="#facs_1_region_1681901109909_1681_tl_2" n="N002"/>Ländern vor. Durch die Intrigue seiner mächtigen Gegner,
-      <lb facs="#facs_1_region_1681901109909_1681_tl_3" n="N003"/>des Senats-Präsidenten Don <rs type="person">Pedro</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Hrabanek</rs>
-               </hi>)
-      <lb facs="#facs_1_region_1681901109909_1681_tl_4" n="N004"/>und des Admirals <rs type="person">Diego</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Rokitansky</rs>
-               </hi>), wird
+      <lb facs="#facs_1_region_1681901109909_1681_tl_3" n="N003"/>des Senats-Präsidenten <rs type="person" ref="#hsl_person_id_1931">Don Pedro</rs> (Herr <hi rendition="#em">
+            <rs type="person" ref="#hsl_person_id_130">Hrabanek</rs></hi>)
+      <lb facs="#facs_1_region_1681901109909_1681_tl_4" n="N004"/>und des Admirals <rs type="person" ref="#hsl_person_id_1926">Diego</rs> (Herr <hi rendition="#em">
+            <rs type="person" ref="#hsl_person_id_240">Rokitansky</rs></hi>), wird
       <lb facs="#facs_1_region_1681901109909_1681_tl_5" n="N005"/>
-               <rs type="person">Vasco</rs> mit seinen Plänen vom königlichen Rath zurückgewie¬
-      <lb facs="#facs_1_region_1681901109909_1681_tl_6" n="N006"/>sen. Don <rs type="person">Diego</rs> haßt in ihm den bevorzugten Liebling von
+               <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> mit seinen Plänen vom königlichen Rath zurückgewie
+      <lb facs="#facs_1_region_1681901109909_1681_tl_6" n="N006" break="no"/>sen. Don <rs type="person" ref="#hsl_person_id_1926">Diego</rs> haßt in ihm den bevorzugten Liebling von
       <lb facs="#facs_1_region_1681901109909_1681_tl_7" n="N007"/>
-               <rs type="person">Pedro</rs>’s schöner Tochter <rs type="person">Ines</rs> (Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs>
-               </hi>), um
-      <lb facs="#facs_1_region_1681901109909_1681_tl_8" n="N008"/>deren Hand er selbst sich bewirbt. Der <rs type="person">Groß-Inquisitor</rs> (Herr
-      <lb facs="#facs_1_region_1681901109909_1681_tl_9" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person">Draxler</rs>
-               </hi>) und die hohe Geistlichkeit schlagen sich aus or¬
-      <lb facs="#facs_1_region_1681901109909_1681_tl_10" n="N010"/>thodoxen Gründen mit Fanatismus auf Seite dieser Gegner:
-      <lb facs="#facs_1_line_1687799023104_141" n="N011"/>weil <rs type="person">Vasco</rs> behauptet, es gebe auch jenseits von <rs type="place">Afrika</rs> Län¬
-      <lb facs="#facs_1_region_1681901109909_1681_tl_11" n="N012"/>der und Menschen, wird er von der Inquisition mit dem
-      <lb facs="#facs_1_region_1681901109909_1681_tl_12" n="N013"/>Banne belegt und ins Gefängniß geworfen.
-      <lb facs="#facs_1_region_1681901109909_1681_tl_13" n="N014"/>Der zweite Act spielt im Kerker. <rs type="person">Vasco</rs> schlummert;
+               <rs type="person" ref="#hsl_person_id_1931">Pedro</rs>’s schöner Tochter <rs type="person" ref="#hsl_person_id_1929">Ines</rs> (Fräulein <hi rendition="#em">
+                     <rs type="person" ref="#hsl_person_id_190">Murska</rs></hi>), um
+      <lb facs="#facs_1_region_1681901109909_1681_tl_8" n="N008"/>deren Hand er selbst sich bewirbt. Der <rs type="person" ref="#hsl_person_id_1932">Groß-Inquisitor</rs> (Herr
+      <lb facs="#facs_1_region_1681901109909_1681_tl_9" n="N009"/><hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_7">Draxler</rs></hi>) und die hohe Geistlichkeit schlagen sich aus or
+      <lb facs="#facs_1_region_1681901109909_1681_tl_10" n="N010" break="no"/>thodoxen Gründen mit Fanatismus auf Seite dieser Gegner:
+      <lb facs="#facs_1_line_1687799023104_141" n="N011"/>weil <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> behauptet, es gebe auch jenseits von 
+                           <rs type="place" ref="#hsl_place_id_233">Afrika</rs> Län
+      <lb facs="#facs_1_region_1681901109909_1681_tl_11" n="N012" break="no"/>der und Menschen, wird er von der Inquisition mit dem
+      <lb facs="#facs_1_region_1681901109909_1681_tl_12" n="N013"/>Banne belegt und ins Gefängniß geworfen.</p>
+               <p>
+      <lb facs="#facs_1_region_1681901109909_1681_tl_13" n="N014"/>Der zweite Act spielt im Kerker. <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> schlummert;
       <lb facs="#facs_1_region_1681901109909_1681_tl_14" n="N015"/>
-               <rs type="person">Selica</rs>, die ihn leidenschaftlich liebt, wacht bei ihm und ver¬
-      <lb facs="#facs_1_region_1681901109909_1681_tl_15" n="N016"/>hindert den Meuchelmord, den der wilde <rs type="person">Nelusco</rs> an seinem
-      <lb facs="#facs_1_line_1687799256429_187" n="N017"/>weißen Nebenbuhler begehen will. Da tritt <rs type="person">Ines</rs> ein, von
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs>, die ihn leidenschaftlich liebt, wacht bei ihm und ver
+                     <lb facs="#facs_1_region_1681901109909_1681_tl_15" n="N016" break="no"/>hindert den Meuchelmord, den der wilde <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs> an seinem
+      <lb facs="#facs_1_line_1687799256429_187" n="N017"/>weißen Nebenbuhler begehen will. Da tritt <rs type="person" ref="#hsl_person_id_1929">Ines</rs> ein, von
       <lb facs="#facs_1_region_1681901109909_1681_tl_16" n="N018"/>
-               <rs type="person">Diego</rs> begleitet, und überbringt <rs type="person">Vasco</rs>’s Begnadigung; sie
-      <lb facs="#facs_1_region_1681901109909_1681_tl_17" n="N019"/>hat die Freiheit des Geliebten mit dem schwersten Opfer er-
-      <lb facs="#facs_1_line_1687799574368_208" n="N020"/>kauft, durch ihre Vermälung mit <rs type="person">Diego</rs>. Dieser hat sich der
-      <lb facs="#facs_1_region_1681901109909_1681_tl_18" n="N021"/>Pläne <rs type="person">Vasco</rs>’s bemächtigt und verkündigt triumphirend, daß
-      <lb facs="#facs_1_line_1687799634000_234" n="N022"/>der <rs type="person">König</rs>
-               <hi rendition="#em">ihm</hi> drei Schiffe zu der Entdeckungsreise bewil¬
-      <lb facs="#facs_1_region_1681901109909_1681_tl_20" n="N023"/>ligt habe. <rs type="person">Vasco</rs> bleibt verzweifelnd und allein zurück, nach¬
-      <lb facs="#facs_1_region_1681901109909_1681_tl_21" n="N024"/>dem er in voreiliger Großmuth <rs type="person">Selica</rs> und <rs type="person">Nelusco</rs> als
-      <lb facs="#facs_1_region_1681901109909_1681_tl_22" n="N025"/>Sklaven an <rs type="person">Ines</rs> verschenkt hat
+               <rs type="person" ref="#hsl_person_id_1926">Diego</rs> begleitet, und überbringt <rs type="person" ref="#hsl_person_id_1925">Vasco</rs>’s Begnadigung; sie
+      <lb facs="#facs_1_region_1681901109909_1681_tl_17" n="N019"/>hat die Freiheit des Geliebten mit dem schwersten Opfer er
+      <lb facs="#facs_1_line_1687799574368_208" n="N020" break="no"/>kauft, durch ihre Vermälung mit <rs type="person" ref="#hsl_person_id_1926">Diego</rs>. Dieser hat sich der
+      <lb facs="#facs_1_region_1681901109909_1681_tl_18" n="N021"/>Pläne <rs type="person" ref="#hsl_person_id_1925">Vasco</rs>’s bemächtigt und verkündigt triumphirend, daß
+      <lb facs="#facs_1_line_1687799634000_234" n="N022"/>der König <hi rendition="#em">ihm</hi> drei Schiffe zu der Entdeckungsreise bewil
+      <lb facs="#facs_1_region_1681901109909_1681_tl_20" n="N023" break="no"/>ligt habe. 
+                     <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> bleibt verzweifelnd und allein zurück, nach
+      <lb facs="#facs_1_region_1681901109909_1681_tl_21" n="N024" break="no"/>dem er in voreiliger Großmuth 
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs> und 
+                     <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs> als
+      <lb facs="#facs_1_region_1681901109909_1681_tl_22" n="N025"/>Sklaven an <rs type="person" ref="#hsl_person_id_1929">Ines</rs> verschenkt hat.</p>
+               <p>
       <lb facs="#facs_1_region_1681901109909_1681_tl_23" n="N026"/>Der dritte Act spielt auf hoher See, in den Cajüten
-      <lb facs="#facs_1_line_1687799746305_258" n="N027"/>und auf dem Verdeck von <rs type="person">Diego</rs>’s Schiff. Es ist das letzte
+      <lb facs="#facs_1_line_1687799746305_258" n="N027"/>und auf dem Verdeck von <rs type="person" ref="#hsl_person_id_1926">Diego</rs>’s Schiff. Es ist das letzte
       <lb facs="#facs_1_region_1681901109909_1681_tl_24" n="N028"/>von den drei Fahrzeugen, das ihm geblieben ist; der treulose
       <lb facs="#facs_1_region_1681901109909_1681_tl_25" n="N029"/>
-               <rs type="person">Nelusco</rs>, dessen Führerschaft <rs type="person">Diego</rs> sich anvertraut hat, lenkt
-      <lb facs="#facs_1_region_1681901109909_1681_tl_26" n="N030"/>es den Klippen der ihm bekannten Insel (<rs type="place">Madagascar</rs>?) ent¬
-      <lb facs="#facs_1_region_1681901109909_1681_tl_27" n="N031"/>gegen. <rs type="person">Vasco</rs> hat inzwischen ein Schiff auf eigene Hand
-      <lb facs="#facs_1_region_1681901109909_1681_tl_28" n="N032"/>ausgerüstet und dem <rs type="person">Admiral</rs> einen Vorsprung abgewonnen;
-      <lb facs="#facs_1_region_1681901109909_1681_tl_29" n="N033"/>er eilt zu <rs type="person">Diego</rs>, ihn vor dem unvermeidlichen Schiffbruch
-      <lb facs="#facs_1_region_1681901109909_1681_tl_30" n="N034"/>zu warnen. Eben will <rs type="person">Diego</rs> seinen großmüthigen Neben¬
-      <lb facs="#facs_1_line_1687799958595_287" n="N035"/>buhler zum Dank für dessen Warnung erschießen lassen, als
+                     <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs>, dessen Führerschaft <rs type="person" ref="#hsl_person_id_1926">Diego</rs> sich anvertraut hat, lenkt
+      <lb facs="#facs_1_region_1681901109909_1681_tl_26" n="N030"/>es den Klippen der ihm bekannten Insel (<rs type="place" ref="#hsl_place_id_237">Madagascar</rs>?) ent
+      <lb facs="#facs_1_region_1681901109909_1681_tl_27" n="N031" break="no"/>gegen. <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> hat inzwischen ein Schiff auf eigene Hand
+                     <lb facs="#facs_1_region_1681901109909_1681_tl_28" n="N032"/>ausgerüstet und dem <rs type="person" ref="#hsl_person_id_1926">Admiral</rs> einen Vorsprung abgewonnen;
+      <lb facs="#facs_1_region_1681901109909_1681_tl_29" n="N033"/>er eilt zu <rs type="person" ref="#hsl_person_id_1926">Diego</rs>, ihn vor dem unvermeidlichen Schiffbruch
+      <lb facs="#facs_1_region_1681901109909_1681_tl_30" n="N034"/>zu warnen. Eben will <rs type="person" ref="#hsl_person_id_1926">Diego</rs> seinen großmüthigen Neben
+      <lb facs="#facs_1_line_1687799958595_287" n="N035" break="no"/>buhler zum Dank für dessen Warnung erschießen lassen, als
       <lb facs="#facs_1_region_1681901109909_1681_tl_31" n="N036"/>das Schiff krachend auf eine Klippe auffährt und zahllose
       <lb facs="#facs_1_region_1681901109909_1681_tl_32" n="N037"/>Indianer mit wildem Kriegsgeschrei den Bord erklimmen, die
       <lb facs="#facs_1_region_1681901109909_1681_tl_33" n="N038"/>ganze Besatzung theils niedermetzelnd, theils gefangen nehmend.
-      <lb facs="#facs_1_line_1687800009707_302" n="N039"/>In <rs type="person">Selica</rs> erkennen sie ihre Königin und tragen sie triumphi-
-      <lb facs="#facs_1_line_1687800047803_317" n="N040"/>rend ans Land.</p>
+                     <lb facs="#facs_1_line_1687800009707_302" n="N039"/>In <rs type="person" ref="#hsl_person_id_1866">Selica</rs> erkennen sie ihre Königin und tragen sie triumphi
+      <lb facs="#facs_1_line_1687800047803_317" n="N040" break="no"/>rend ans Land.</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p>
-               <lb facs="#facs_2_region_1681901123828_1687_tl_1" n="N001"/>Im vierten Acte sehen wir die Eingeborenen der räthsel¬
-      <lb facs="#facs_2_region_1681901123828_1687_tl_2" n="N002"/>haften Insel ihrer jungen <rs type="person">Königin</rs> huldigen. <rs type="person">Vasco</rs>, der
-      <lb facs="#facs_2_region_1681901123828_1687_tl_3" n="N003"/>einzige von den noch übriggebliebenen <rs type="place">portugiesisch</rs>en Män¬
-      <lb facs="#facs_2_region_1681901123828_1687_tl_4" n="N004"/>nern, soll geopfert werden; <rs type="person">Selica</rs> rettet ihn vor dem bar-
-      <lb facs="#facs_2_region_1681901123828_1687_tl_5" n="N005"/>barischen Fremdengesetz, indem sie sich als seine Gattin erklärt
-      <lb facs="#facs_2_region_1681901123828_1687_tl_6" n="N006"/>und <rs type="person">Nelusco</rs> zur Beschwörung dieser Angabe zwingt. Die
+               <lb facs="#facs_2_region_1681901123828_1687_tl_1" n="N001"/>Im vierten Acte sehen wir die Eingeborenen der räthsel
+      <lb facs="#facs_2_region_1681901123828_1687_tl_2" n="N002" break="no"/>haften Insel ihrer jungen 
+                  <rs type="person" ref="#hsl_person_id_1866">Königin</rs> huldigen. 
+                  <rs type="person" ref="#hsl_person_id_1925">Vasco</rs>, der
+      <lb facs="#facs_2_region_1681901123828_1687_tl_3" n="N003"/>einzige von den noch übriggebliebenen <rs type="place" ref="#hsl_place_id_232">portugiesisch</rs>en Män
+                  <lb facs="#facs_2_region_1681901123828_1687_tl_4" n="N004" break="no"/>nern, soll geopfert werden; <rs type="person" ref="#hsl_person_id_1866">Selica</rs> rettet ihn vor dem bar
+      <lb facs="#facs_2_region_1681901123828_1687_tl_5" n="N005" break="no"/>barischen Fremdengesetz, indem sie sich als seine Gattin erklärt
+      <lb facs="#facs_2_region_1681901123828_1687_tl_6" n="N006"/>und <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs> zur Beschwörung dieser Angabe zwingt. Die
       <lb facs="#facs_2_region_1681901123828_1687_tl_7" n="N007"/>
-               <rs type="person">Königin</rs> will hierauf <rs type="person">Vasco</rs> frei von dannen ziehen lassen,
+                  <rs type="person" ref="#hsl_person_id_1866">Königin</rs> will hierauf <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> frei von dannen ziehen lassen,
       <lb facs="#facs_2_region_1681901123828_1687_tl_8" n="N008"/>er aber schwört ihr ewige Liebe und Treue und führt sie,
       <lb facs="#facs_2_region_1681901123828_1687_tl_9" n="N009"/>von Priestern und Bajadèren geleitet, zur Hochzeitsfeier,
-      <lb facs="#facs_2_region_1681901123828_1687_tl_10" n="N010"/>während aus der Ferne die Stimme <rs type="person">Ines</rs>’ und der <rs type="place">portu-</rs>
-               <lb facs="#facs_2_region_1681901123828_1687_tl_11" n="N011"/>
-               <rs type="place">giesisch</rs>en Frauen ertönt, welche zum Opfertod geführt werden.
-      <lb facs="#facs_2_region_1681901123828_1687_tl_12" n="N012"/>Im Anfang des fünften Actes stehen sich die beiden Neben-
-      <lb facs="#facs_2_region_1681901123828_1687_tl_13" n="N013"/>buhlerinnen, <rs type="person">Ines</rs> und <rs type="person">Selica</rs>, gegenüber, in großmüthiger
-      <lb facs="#facs_2_region_1681901123828_1687_tl_14" n="N014"/>Resignation wetteifernd. <rs type="person">Ines</rs>, die im Garten eine heimliche
-      <lb facs="#facs_2_region_1681901123828_1687_tl_15" n="N015"/>Zusammenkunft mit <rs type="person">Vasco</rs> gehabt, kann es <rs type="person">Selica</rs> nicht ver-
-      <lb facs="#facs_2_region_1681901123828_1687_tl_16" n="N016"/>hehlen, daß dieser nur durch Pflicht und Dankbarkeit sich an
-      <lb facs="#facs_2_region_1681901123828_1687_tl_17" n="N017"/>die <rs type="person">Königin</rs> gefesselt fühle. <rs type="person">Selica</rs> gibt großmüthig <rs type="person">Ines</rs>
-               <lb facs="#facs_2_region_1681901123828_1687_tl_18" n="N018"/>und <rs type="person">Vasco</rs> frei und läßt sie durch <rs type="person">Nelusco</rs> nach dem <rs type="place">portu-</rs>
-               <lb facs="#facs_2_region_1681901123828_1687_tl_19" n="N019"/>
-               <rs type="place">giesisch</rs>en Schiffe geleiten, das noch vor Anker liegt. Sie selbst
+      <lb facs="#facs_2_region_1681901123828_1687_tl_10" n="N010"/>während aus der Ferne die Stimme 
+                  <rs type="person" ref="#hsl_person_id_1929">Ines</rs>’ und der 
+                  <rs type="place" ref="#hsl_place_id_232">portu
+               <lb facs="#facs_2_region_1681901123828_1687_tl_11" n="N011" break="no"/>giesisch</rs>en Frauen ertönt, welche zum Opfertod geführt werden.</p>
+               <p>
+      <lb facs="#facs_2_region_1681901123828_1687_tl_12" n="N012"/>Im Anfang des fünften Actes stehen sich die beiden Neben
+      <lb facs="#facs_2_region_1681901123828_1687_tl_13" n="N013" break="no"/>buhlerinnen, 
+                     <rs type="person" ref="#hsl_person_id_1929">Ines</rs> und 
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs>, gegenüber, in großmüthiger
+      <lb facs="#facs_2_region_1681901123828_1687_tl_14" n="N014"/>Resignation wetteifernd. <rs type="person" ref="#hsl_person_id_1929">Ines</rs>, die im Garten eine heimliche
+      <lb facs="#facs_2_region_1681901123828_1687_tl_15" n="N015"/>Zusammenkunft mit 
+                     <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> gehabt, kann es 
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs> nicht ver
+      <lb facs="#facs_2_region_1681901123828_1687_tl_16" n="N016" break="no"/>hehlen, daß dieser nur durch Pflicht und Dankbarkeit sich an
+                     <lb facs="#facs_2_region_1681901123828_1687_tl_17" n="N017"/>die <rs type="person" ref="#hsl_person_id_1866">Königin</rs> gefesselt fühle. 
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs> gibt großmüthig 
+                     <rs type="person" ref="#hsl_person_id_1929">Ines</rs>
+               <lb facs="#facs_2_region_1681901123828_1687_tl_18" n="N018"/>und 
+                     <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> frei und läßt sie durch 
+                     <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs> nach dem 
+                     <rs type="place" ref="#hsl_place_id_232">portu
+               <lb facs="#facs_2_region_1681901123828_1687_tl_19" n="N019" break="no"/>giesisch</rs>en Schiffe geleiten, das noch vor Anker liegt. Sie selbst
       <lb facs="#facs_2_region_1681901123828_1687_tl_20" n="N020"/>beschließt zu sterben, und begibt sich auf das Vorgebirge, wo
       <lb facs="#facs_2_region_1681901123828_1687_tl_21" n="N021"/>der Blüthenduft des Manzenillobaumes sein tödtliches Gift
-      <lb facs="#facs_2_region_1681901123828_1687_tl_22" n="N022"/>aushaucht. Während am Horizont die Flagge von <rs type="person">Vasco</rs>’s
-      <lb facs="#facs_2_region_1681901123828_1687_tl_23" n="N023"/>absegelndem Schiff auftaucht, kehrt <rs type="person">Nelusco</rs> zu <rs type="person">Selica</rs> zurück,
+      <lb facs="#facs_2_region_1681901123828_1687_tl_22" n="N022"/>aushaucht. Während am Horizont die Flagge von <rs type="person" ref="#hsl_person_id_1925">Vasco</rs>’s
+      <lb facs="#facs_2_region_1681901123828_1687_tl_23" n="N023"/>absegelndem Schiff auftaucht, kehrt 
+                     <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs> zu 
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs> zurück,
       <lb facs="#facs_2_region_1681901123828_1687_tl_24" n="N024"/>zu spät, um sie zu retten. Er gibt sich den Tod zu ihren
-      <lb facs="#facs_2_region_1681901123828_1687_tl_25" n="N025"/>Füßen.
-      <lb facs="#facs_2_region_1681901123828_1687_tl_26" n="N026"/>Wer von dem Textbuch einer großen Oper Höheres ver¬
-      <lb facs="#facs_2_region_1681901123828_1687_tl_27" n="N027"/>langt, als die Geschicklichkeit musikalischer und decorativer
-      <lb facs="#facs_2_region_1681901123828_1687_tl_28" n="N028"/>Gelegenheitsmacherei, der muß <rs type="person">Scribe</rs>’s „<rs type="bibl">Afrikanerin</rs>“ entschie¬
-      <lb facs="#facs_2_region_1681901123828_1687_tl_29" n="N029"/>den für ein mittelmäßiges Werk erklären. Gegenüber den hand-
-      <lb facs="#facs_2_region_1681901123828_1687_tl_30" n="N030"/>greiflichen Mängeln und Schwächen dieses Librettos kommt
+      <lb facs="#facs_2_region_1681901123828_1687_tl_25" n="N025"/>Füßen.</p>
+               <p>
+      <lb facs="#facs_2_region_1681901123828_1687_tl_26" n="N026"/>Wer von dem Textbuch einer großen Oper Höheres ver
+      <lb facs="#facs_2_region_1681901123828_1687_tl_27" n="N027" break="no"/>langt, als die Geschicklichkeit musikalischer und decorativer
+      <lb facs="#facs_2_region_1681901123828_1687_tl_28" n="N028"/>Gelegenheitsmacherei, der muß 
+                     <rs type="person" ref="#hsl_person_id_284">Scribe</rs>’s „
+                     <rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ entschie
+      <lb facs="#facs_2_region_1681901123828_1687_tl_29" n="N029" break="no"/>den für ein mittelmäßiges Werk erklären. Gegenüber den hand
+      <lb facs="#facs_2_region_1681901123828_1687_tl_30" n="N030" break="no"/>greiflichen Mängeln und Schwächen dieses Librettos kommt
       <lb facs="#facs_2_region_1681901123828_1687_tl_31" n="N031"/>die Kritik höchstens in die Verlegenheit, wo anzufangen. Die
-      <lb facs="#facs_2_region_1681901123828_1687_tl_32" n="N032"/>früheren Textbücher <rs type="person">Meyerbeer</rs>’s trugen allerdings auch schwer
+                     <lb facs="#facs_2_region_1681901123828_1687_tl_32" n="N032"/>früheren Textbücher <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s trugen allerdings auch schwer
       <lb facs="#facs_2_region_1681901123828_1687_tl_33" n="N033"/>unter der Last unmotivirter äußerlicher Effecte und innerer
       <lb facs="#facs_2_region_1681901123828_1687_tl_34" n="N034"/>Widersprüche, aber es lag ihnen doch eine bestimmte leitende
-      <lb facs="#facs_2_region_1681901123828_1687_tl_35" n="N035"/>Idee zu Grunde, sie arbeiteten, gleichviel mit welchen Mit-
-      <lb facs="#facs_2_region_1681901123828_1687_tl_36" n="N036"/>teln, von einem Centrum zur Peripherie hin. In der „<rs type="bibl">Afri¬</rs>
-               <lb facs="#facs_2_region_1681901123828_1687_tl_37" n="N037"/>
-               <rs type="bibl">kanerin</rs>“ wird augenscheinlich von einer bunten Peripherie aus
+      <lb facs="#facs_2_region_1681901123828_1687_tl_35" n="N035"/>Idee zu Grunde, sie arbeiteten, gleichviel mit welchen Mit
+      <lb facs="#facs_2_region_1681901123828_1687_tl_36" n="N036" break="no"/>teln, von einem Centrum zur Peripherie hin. In der „
+                     <rs type="bibl" ref="#hsl_work_id_142">Afri
+               <lb facs="#facs_2_region_1681901123828_1687_tl_37" n="N037" break="no"/>kanerin</rs>“ wird augenscheinlich von einer bunten Peripherie aus
       <lb facs="#facs_2_region_1681901123828_1687_tl_38" n="N038"/>— der Schilderung exotischer Länder und Menschen — das
       <lb facs="#facs_2_region_1681901123828_1687_tl_39" n="N039"/>Centrum gesucht. Die Handlung hat keine zusammenhaltende
-      <lb facs="#facs_2_line_1687872725918_29" n="N040"/>ideelle Einheit. Die Oper exponirt sich in großen historischen</p>
+      <lb facs="#facs_2_line_1687872725918_29" n="N040"/>ideelle Einheit. Die Oper exponirt sich in großen historischen
             <cb n="5"/>
-            <p>
                <lb facs="#facs_2_region_1681901126761_1690_tl_1" n="N001"/>Verhältnissen; die Interessen des Staates, der Wissenschaft,
       <lb facs="#facs_2_region_1681901126761_1690_tl_2" n="N002"/>der Weltcultur stehen allein im Vordergrund und machen
-      <lb facs="#facs_2_region_1681901126761_1690_tl_3" n="N003"/>sich gegen den Fanatismus der Unwissenheit und Ortho¬
-      <lb facs="#facs_2_region_1681901126761_1690_tl_4" n="N004"/>doxie geltend. Noch im zweiten und dritten Acte ist <rs type="person">Vasco</rs>
+      <lb facs="#facs_2_region_1681901126761_1690_tl_3" n="N003"/>sich gegen den Fanatismus der Unwissenheit und Ortho
+      <lb facs="#facs_2_region_1681901126761_1690_tl_4" n="N004" break="no"/>doxie geltend. Noch im zweiten und dritten Acte ist 
+                     <rs type="person" ref="#hsl_person_id_1925">Vasco</rs>
                <lb facs="#facs_2_region_1681901126761_1690_tl_5" n="N005"/>der kühne Seefahrer, wenngleich sein Heldenthum durch
       <lb facs="#facs_2_region_1681901126761_1690_tl_6" n="N006"/>jämmerliche Nebenumstände schon einen gemischten Eindruck
       <lb facs="#facs_2_region_1681901126761_1690_tl_7" n="N007"/>macht. Zwischen den drei ersten und den beiden letzten Acten
       <lb facs="#facs_2_region_1681901126761_1690_tl_8" n="N008"/>klafft aber in der dramatischen Entwicklung ein förmlicher
       <lb facs="#facs_2_region_1681901126761_1690_tl_9" n="N009"/>Riß. Die weltgeschichtlichen und nationalen Interessen sind
-      <lb facs="#facs_2_region_1681901126761_1690_tl_10" n="N010"/>abgethan, wie die Portugiesen in <rs type="person">Diego</rs>’s Schiff, und die
+      <lb facs="#facs_2_region_1681901126761_1690_tl_10" n="N010"/>abgethan, wie die Portugiesen in <rs type="person" ref="#hsl_person_id_1926">Diego</rs>’s Schiff, und die
       <lb facs="#facs_2_region_1681901126761_1690_tl_11" n="N011"/>Handlung verschrumpft zu einer rein individuellen Liebes- und
       <lb facs="#facs_2_region_1681901126761_1690_tl_12" n="N012"/>Großmuthsgeschichte. Den Charakteren fehlt Energie, logische
-      <lb facs="#facs_2_region_1681901126761_1690_tl_13" n="N013"/>und sittliche Wahrheit. Der historische Vasco de <rs type="person">Gama</rs> ist
+                     <lb facs="#facs_2_region_1681901126761_1690_tl_13" n="N013"/>und sittliche Wahrheit. Der historische Vasco de <rs type="person" ref="#hsl_person_id_1930">Gama</rs> ist
       <lb facs="#facs_2_region_1681901126761_1690_tl_14" n="N014"/>zum gewöhnlichen Opernhelden zugerichtet und benimmt sich
       <lb facs="#facs_2_region_1681901126761_1690_tl_15" n="N015"/>selbst als solcher ungewöhnlich gewöhnlich. Er wird weniger
       <lb facs="#facs_2_region_1681901126761_1690_tl_16" n="N016"/>zwischen zwei Welttheilen als zwischen zwei Frauen hin- und
       <lb facs="#facs_2_line_1687873887592_163" n="N017"/>hergeworfen, von denen er stets diejenige liebt, mit welcher er
       <lb facs="#facs_2_region_1681901126761_1690_tl_18" n="N018"/>sich gerade allein befindet. Schon im Kerker behandelt er
       <lb facs="#facs_2_region_1681901126761_1690_tl_19" n="N019"/>
-               <rs type="person">Selica</rs> mit einer leidenschaftlich erhitzten Dankbarkeit —
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs> mit einer leidenschaftlich erhitzten Dankbarkeit —
       <lb facs="#facs_2_region_1681901126761_1690_tl_20" n="N020"/>„Du bleibst bei mir in Leid und Freude, bald wird
-      <lb facs="#facs_2_region_1681901126761_1690_tl_21" n="N021"/>uns lachen die glücklichste Zeit,“ ruft er aus, <rs type="person">Selica</rs>
+                     <lb facs="#facs_2_region_1681901126761_1690_tl_21" n="N021"/>uns lachen die glücklichste Zeit,“ ruft er aus, <rs type="person" ref="#hsl_person_id_1866">Selica</rs>
                <lb facs="#facs_2_line_1687873142301_78" n="N022"/>ans Herz drückend. Zwei Minuten später verschenkt der
-      <lb facs="#facs_2_line_1687873183060_94" n="N023"/>Edle seine <rs type="person">Selica</rs> ohneweiters und unaufgefordert als
-      <lb facs="#facs_2_region_1681901126761_1690_tl_22" n="N024"/>Sklavin an <rs type="person">Ines</rs>. Im dritten Acte betritt er tollkühn
-      <lb facs="#facs_2_region_1681901126761_1690_tl_23" n="N025"/>das Schiff seines Feindes, nur um die blauäugige <rs type="person">Ines</rs>
+                     <lb facs="#facs_2_line_1687873183060_94" n="N023"/>Edle seine <rs type="person" ref="#hsl_person_id_1866">Selica</rs> ohneweiters und unaufgefordert als
+      <lb facs="#facs_2_region_1681901126761_1690_tl_22" n="N024"/>Sklavin an <rs type="person" ref="#hsl_person_id_1929">Ines</rs>. Im dritten Acte betritt er tollkühn
+      <lb facs="#facs_2_region_1681901126761_1690_tl_23" n="N025"/>das Schiff seines Feindes, nur um die blauäugige <rs type="person" ref="#hsl_person_id_1929">Ines</rs>
                <lb facs="#facs_2_region_1681901126761_1690_tl_24" n="N026"/>zu retten. Der vierte gehört wieder den schwarzen Augen.
-      <lb facs="#facs_2_region_1681901126761_1690_tl_25" n="N027"/>Da taumelt <rs type="person">Vasco</rs> förmlich in Liebesgluth für <rs type="person">Selica</rs>. „Nur
+      <lb facs="#facs_2_region_1681901126761_1690_tl_25" n="N027"/>Da taumelt <rs type="person" ref="#hsl_person_id_1925">Vasco</rs> förmlich in Liebesgluth für 
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs>. „Nur
       <lb facs="#facs_2_region_1681901126761_1690_tl_26" n="N028"/>mein! Ewiglich! Vor meinem Gott, vor deinem Gott!“ und
       <lb facs="#facs_2_region_1681901126761_1690_tl_27" n="N029"/>was der schönen Dinge mehr sind. Am selben Tage fährt er
-      <lb facs="#facs_2_region_1681901126761_1690_tl_28" n="N030"/>sans adieux mit <rs type="person">Ines</rs> ab und überläßt <rs type="person">Selica</rs> ihrem Schick¬
-      <lb facs="#facs_2_region_1681901126761_1690_tl_29" n="N031"/>sal. Edler und verständiger ist jedenfalls die zweite Haupt-
-      <lb facs="#facs_2_region_1681901126761_1690_tl_30" n="N032"/>person, <rs type="person">Selica</rs>, die aber erst am Schluß handelnd eingreift,
-      <lb facs="#facs_2_region_1681901126761_1690_tl_31" n="N033"/>eine thränenreiche Personification passiver Liebe und Groß-
-      <lb facs="#facs_2_region_1681901126761_1690_tl_32" n="N034"/>muth. Dieser Charakter stürzte den <rs type="person">Dichter</rs> und noch mehr
-      <lb facs="#facs_2_region_1681901126761_1690_tl_33" n="N035"/>den <rs type="person">Componisten</rs> in einen andern ungelösten Widerspruch.
-      <lb facs="#facs_2_region_1681901126761_1690_tl_34" n="N036"/>Die „<rs type="bibl">Afrikanerin</rs>“ soll in ihrem ganzen Wesen als Gegensatz
+      <lb facs="#facs_2_region_1681901126761_1690_tl_28" n="N030"/>sans adieux mit <rs type="person" ref="#hsl_person_id_1929">Ines</rs> ab und überläßt 
+                     <rs type="person" ref="#hsl_person_id_1866">Selica</rs> ihrem Schick
+      <lb facs="#facs_2_region_1681901126761_1690_tl_29" n="N031" break="no"/>sal. Edler und verständiger ist jedenfalls die zweite Haupt
+                     <lb facs="#facs_2_region_1681901126761_1690_tl_30" n="N032" break="no"/>person, <rs type="person" ref="#hsl_person_id_1866">Selica</rs>, die aber erst am Schluß handelnd eingreift,
+      <lb facs="#facs_2_region_1681901126761_1690_tl_31" n="N033"/>eine thränenreiche Personification passiver Liebe und Groß
+                     <lb facs="#facs_2_region_1681901126761_1690_tl_32" n="N034" break="no"/>muth. Dieser Charakter stürzte den <rs type="person" ref="#hsl_person_id_284">Dichter</rs> und noch mehr
+                     <lb facs="#facs_2_region_1681901126761_1690_tl_33" n="N035"/>den <rs type="person" ref="#hsl_person_id_182">Componisten</rs> in einen andern ungelösten Widerspruch.
+                     <lb facs="#facs_2_region_1681901126761_1690_tl_34" n="N036"/>Die „<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ soll in ihrem ganzen Wesen als Gegensatz
       <lb facs="#facs_2_region_1681901126761_1690_tl_35" n="N037"/>zu den Europäern erscheinen, ein ungebändigtes Naturkind,
       <lb facs="#facs_2_region_1681901126761_1690_tl_36" n="N038"/>naiv, großherzig, exotisch. In der Ausführung reducirt sich
-      <lb facs="#facs_2_region_1681901126761_1690_tl_37" n="N039"/>diese Charakteristik beinahe auf die braune Schminke <rs type="person">Selica</rs>’s
-      <lb facs="#facs_2_line_1687872725918_28" n="N040"/>und den wallenden Federschmuck; was sie thut, spricht und singt,</p>
+                     <lb facs="#facs_2_region_1681901126761_1690_tl_37" n="N039"/>diese Charakteristik beinahe auf die braune Schminke <rs type="person" ref="#hsl_person_id_1866">Selica</rs>’s
+      <lb facs="#facs_2_line_1687872725918_28" n="N040"/>und den wallenden Federschmuck; was sie thut, spricht und singt,
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1681901130068_1693_tl_1" n="N001"/>ist im Grunde so <rs type="place">europäisch</rs> als möglich, so sentimental und
-      <lb facs="#facs_2_region_1681901130068_1693_tl_2" n="N002"/>modern wie <rs type="person">Fides</rs>, <rs type="person">Bertha</rs>, <rs type="person">Valentine</rs> und ihre andern Schwestern
+                     <lb facs="#facs_2_region_1681901130068_1693_tl_1" n="N001"/>ist im Grunde so <rs type="place" ref="#hsl_place_id_19">europäisch</rs> als möglich, so sentimental und
+      <lb facs="#facs_2_region_1681901130068_1693_tl_2" n="N002"/>modern wie 
+                     <rs type="person" ref="#hsl_person_id_533">Fides</rs>, 
+                     <rs type="person" ref="#hsl_person_id_1074">Bertha</rs>, 
+                     <rs type="person" ref="#hsl_person_id_666">Valentine</rs> und ihre andern Schwestern
       <lb facs="#facs_2_region_1681901130068_1693_tl_3" n="N003"/>aus der Rue Lepelletier. Schärfer individualisirt ist von allen
       <lb facs="#facs_2_region_1681901130068_1693_tl_4" n="N004"/>Personen nur <hi rendition="#em">
-                  <rs type="person">Nelusco</rs>
-               </hi>, treu und zartfühlend gegen seine
+                  <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs></hi>, treu und zartfühlend gegen seine
       <lb facs="#facs_2_region_1681901130068_1693_tl_5" n="N005"/>Herrin, tückisch und grausam gegen alle Uebrigen, eine Art
-      <lb facs="#facs_2_region_1681901130068_1693_tl_6" n="N006"/>tätowirter <rs type="person">Marcell</rs>. An die Charakteristik des alten <rs type="person" continued="true">Huge¬</rs>
-               <lb facs="#facs_2_region_1681901130068_1693_tl_7" n="N007"/>
-               <rs type="person" continued="true">notten</rs> reicht aber <rs type="person">Nelusco</rs> nicht entfernt hinan, er bleibt
+      <lb facs="#facs_2_region_1681901130068_1693_tl_6" n="N006"/>tätowirter 
+                     <rs type="person" ref="#hsl_person_id_621">Marcell</rs>. An die Charakteristik des alten Huge
+      <lb facs="#facs_2_region_1681901130068_1693_tl_7" n="N007" break="no"/>notten reicht aber 
+                     <rs type="person" ref="#hsl_person_id_1924">Nelusco</rs> nicht entfernt hinan, er bleibt
       <lb facs="#facs_2_region_1681901130068_1693_tl_8" n="N008"/>vielmehr bei allem Ansatz zur Originalität ein Zwitter, in
-      <lb facs="#facs_2_region_1681901130068_1693_tl_9" n="N009"/>welchem die Elemente <rs type="place">afrikanisch</rs>er Bestialität und modern
+                     <lb facs="#facs_2_region_1681901130068_1693_tl_9" n="N009"/>welchem die Elemente <rs type="place" ref="#hsl_place_id_233">afrikanisch</rs>er Bestialität und modern
       <lb facs="#facs_2_region_1681901130068_1693_tl_10" n="N010"/>hinschmelzender Empfindsamkeit unvermittelt neben einander
       <lb facs="#facs_2_region_1681901130068_1693_tl_11" n="N011"/>liegen und wie zwei verschiedene Instrumente von demselben
       <lb facs="#facs_2_region_1681901130068_1693_tl_12" n="N012"/>Spieler willkürlich gewechselt werden. <hi rendition="#em">
-                  <rs type="person">Ines</rs>
-               </hi> ist ein ganz all-
-      <lb facs="#facs_2_region_1681901130068_1693_tl_13" n="N013"/>gemein gehaltener, passiver Charakter rein musikalischer Natur.
+                  <rs type="person" ref="#hsl_person_id_1929">Ines</rs></hi> ist ein ganz all
+      <lb facs="#facs_2_region_1681901130068_1693_tl_13" n="N013" break="no"/>gemein gehaltener, passiver Charakter rein musikalischer Natur.
       <lb facs="#facs_2_region_1681901130068_1693_tl_14" n="N014"/>Was die Uebrigen betrifft, so sind sie an ihren rechten Platz
       <lb facs="#facs_2_region_1681901130068_1693_tl_15" n="N015"/>gestellt, aber mehr ausfüllende als selbstständige Figuren, die
       <lb facs="#facs_2_region_1681901130068_1693_tl_16" n="N016"/>im Verlauf der ersten drei Acte sämmtlich aus dem Stück
-      <lb facs="#facs_2_line_1687873887591_162" n="N017"/>verschwinden.
+      <lb facs="#facs_2_line_1687873887591_162" n="N017"/>verschwinden.</p>
+               <p>
       <lb facs="#facs_2_region_1681901130068_1693_tl_17" n="N018"/>Allen Charakteren, wie der ganzen Handlung sieht man
-      <lb facs="#facs_2_region_1681901130068_1693_tl_18" n="N019"/>auf den ersten Blick an, wie der <rs type="person">Dichter</rs> sie keineswegs aus
+                     <lb facs="#facs_2_region_1681901130068_1693_tl_18" n="N019"/>auf den ersten Blick an, wie der <rs type="person" ref="#hsl_person_id_284">Dichter</rs> sie keineswegs aus
       <lb facs="#facs_2_region_1681901130068_1693_tl_19" n="N020"/>einem lebendigen Keime wahr und einfach entwickeln wollte,
       <lb facs="#facs_2_region_1681901130068_1693_tl_20" n="N021"/>sondern nur darauf bedacht war, möglichst viele contrastirende
       <lb facs="#facs_2_line_1687873142301_77" n="N022"/>Situationen, aufregende Momente und spannende, raffinirte
-      <lb facs="#facs_2_line_1687873183060_93" n="N023"/>Details aneinanderzureihen. Was bleibt also an der gan¬
-      <lb facs="#facs_2_region_1681901130068_1693_tl_23" n="N024"/>zen dramatischen Dichtung? Eine Anzahl effectvoller, bunt
-      <lb facs="#facs_2_region_1681901130068_1693_tl_24" n="N025"/>wechselnder Scenen, geschickt verbunden und hübsch versifi¬
-      <lb facs="#facs_2_region_1681901130068_1693_tl_25" n="N026"/>cirt *) — also das geringste Maß dessen, was wir überhaupt
-      <lb facs="#facs_2_region_1681901130068_1693_tl_26" n="N027"/>von erprobten Bühnentalenten fordern können und müssen.
-      <lb facs="#facs_2_line_1687873982669_184" n="N028"/>*) Manche Stellen des Originals haben mehr Wärme und
-      <lb facs="#facs_2_line_1687873988187_188" n="N029"/>Wohlklang, als man gewöhnlich Operntexten antrifft. Dies gilt
-      <lb facs="#facs_2_line_1687873992163_192" n="N030"/>namentlich von <rs type="person">Selica</rs>’s letzter Scene, der wir folgende Verse ent¬
-      <lb facs="#facs_2_line_1687874079263_212" n="N031"/>nehmen:
-      <lb facs="#facs_2_region_1681901130068_1693_tl_34" n="N032"/>„O temple magnifique, o dôme du feuillage,
-      <lb facs="#facs_2_region_1681901130068_1693_tl_35" n="N033"/>Qui balancez au loin vos funèbres rameaux,
-      <lb facs="#facs_2_line_1687874097448_219" n="N034"/>Je viens chez vous, je viens cherche l’orage
-      <lb facs="#facs_2_line_1687874101201_223" n="N035"/>Le calme, le sommeil et l’oubli de mes maux, —
-      <lb facs="#facs_2_line_1687874110881_227" n="N036"/>Car votre ombre éternelle est l’ombre des tombeaux.
-      <lb facs="#facs_2_line_1687874115674_231" n="N037"/>La haine m’ abandonne; mon coeur est désarmé.
-      <lb facs="#facs_2_line_1687874120178_235" n="N038"/>Adieu, je te pardonne! Adieu, mon bien-aimé!“
-      <lb facs="#facs_2_line_1687874136938_241" n="N039"/>Schade, daß die Schlußworte des unsichtbaren Chors in der
-      <lb facs="#facs_2_line_1687874155851_245" n="N040"/>deutschen Uebersetzung gar so zauberflötend davon abstechen:
-      <lb facs="#facs_2_line_1687874175363_252" n="N041"/>„In der Liebe ew’gem Reich
-      <lb facs="#facs_2_line_1687874177675_255" n="N042"/>Sind sich Alle, Alle gleich!“ —</p>
+      <lb facs="#facs_2_line_1687873183060_93" n="N023"/>Details aneinanderzureihen. Was bleibt also an der gan
+      <lb facs="#facs_2_region_1681901130068_1693_tl_23" n="N024" break="no"/>zen dramatischen Dichtung? Eine Anzahl effectvoller, bunt
+      <lb facs="#facs_2_region_1681901130068_1693_tl_24" n="N025"/>wechselnder Scenen, geschickt verbunden und hübsch versifi
+      <lb facs="#facs_2_region_1681901130068_1693_tl_25" n="N026" break="no"/>cirt
+                     <note type="footnote" n="*)">
+                        <lb facs="#facs_2_line_1687873982669_184" n="N028"/>Manche Stellen des Originals haben mehr Wärme und
+                        <lb facs="#facs_2_line_1687873988187_188" n="N029"/>Wohlklang, als man gewöhnlich Operntexten antrifft. Dies gilt
+                           <lb facs="#facs_2_line_1687873992163_192" n="N030"/>namentlich von <rs type="person" ref="#hsl_person_id_1866">Selica</rs>’s letzter Scene, der wir folgende Verse ent
+                        <lb facs="#facs_2_line_1687874079263_212" n="N031" break="no"/>nehmen:
+                        <lb facs="#facs_2_region_1681901130068_1693_tl_34" n="N032"/><l>„O temple magnifique, o dôme du feuillage,</l>
+                        <lb facs="#facs_2_region_1681901130068_1693_tl_35" n="N033"/><l>Qui balancez au loin vos funèbres rameaux,</l>
+                        <lb facs="#facs_2_line_1687874097448_219" n="N034"/><l>Je viens chez vous, je viens cherche l’orage</l>
+                        <lb facs="#facs_2_line_1687874101201_223" n="N035"/><l>Le calme, le sommeil et l’oubli de mes maux, —</l>
+                        <lb facs="#facs_2_line_1687874110881_227" n="N036"/><l>Car votre ombre éternelle est l’ombre des tombeaux.</l>
+                        <lb facs="#facs_2_line_1687874115674_231" n="N037"/><l>La haine m’ abandonne; mon coeur est désarmé.</l>
+                        <lb facs="#facs_2_line_1687874120178_235" n="N038"/><l>Adieu, je te pardonne! Adieu, mon bien-aimé!“</l>
+                        <lb facs="#facs_2_line_1687874136938_241" n="N039"/>Schade, daß die Schlußworte des unsichtbaren Chors in der
+                        <lb facs="#facs_2_line_1687874155851_245" n="N040"/>deutschen Uebersetzung gar so zauberflötend davon abstechen:
+                        <lb facs="#facs_2_line_1687874175363_252" n="N041"/>„In der Liebe ew’gem Reich
+                        <lb facs="#facs_2_line_1687874177675_255" n="N042"/>Sind sich Alle, Alle gleich!“ —
+                     </note> — also das geringste Maß dessen, was wir überhaupt
+      <lb facs="#facs_2_region_1681901130068_1693_tl_26" n="N027"/>von erprobten Bühnentalenten fordern können und müssen.</p>
          </div>
       </body>
    </text>

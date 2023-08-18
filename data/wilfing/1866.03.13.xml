@@ -109,6 +109,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2023-08-17" who="ampfiel">Zeilen- und Absatzumbrüche, refs ausfüllen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -821,278 +822,298 @@
             <cb n="1"/>
             
                <lb facs="#facs_1_region_1681901313950_1805_tl_2" n="N001"/>
-               <head type="h1"><hi rendition="#em">Salomon <rs type="person">Sulzer</rs>
+               <head type="h1"><hi rendition="#em">Salomon <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>
                </hi>.</head>
            <p>
-      <lb facs="#facs_1_region_1681901313950_1805_tl_3" n="N002"/>Ed. H. Während bereits der letzte Schnee des Concert-
-      <lb facs="#facs_1_region_1681901313950_1805_tl_4" n="N003"/>winters vor den Strahlen der Ostersonne schmitzt, geht durch
-      <lb facs="#facs_1_region_1681901313950_1805_tl_5" n="N004"/>die musikalischen Kreise <rs type="place">Wien</rs>s noch eine fröhliche Geschäftig-
-      <lb facs="#facs_1_region_1681901313950_1805_tl_6" n="N005"/>keit und Bewegung ganz eigener Art. Sie gilt dem in wenig
+      <lb facs="#facs_1_region_1681901313950_1805_tl_3" n="N002"/>Ed. H. Während bereits der letzte Schnee des Concert
+      <lb facs="#facs_1_region_1681901313950_1805_tl_4" n="N003" break="no"/>winters vor den Strahlen der Ostersonne schmitzt, geht durch
+                 <lb facs="#facs_1_region_1681901313950_1805_tl_5" n="N004"/>die musikalischen Kreise <rs type="place" ref="#hsl_place_id_55">Wien</rs>s noch eine fröhliche Geschäftig
+      <lb facs="#facs_1_region_1681901313950_1805_tl_6" n="N005" break="no"/>keit und Bewegung ganz eigener Art. Sie gilt dem in wenig
       <lb facs="#facs_1_region_1681901313950_1805_tl_7" n="N006"/>Tagen stattfindenden 50jährigen Jubiläum des Ober-Cantors
-      <lb facs="#facs_1_region_1681901313950_1805_tl_8" n="N007"/>am <rs type="place">israelitisch</rs>en Bethause, <hi rendition="#em">Salomon <rs type="person">Sulzer</rs>
+                 <lb facs="#facs_1_region_1681901313950_1805_tl_8" n="N007"/>am <rs type="place" ref="#hsl_place_id_169">israelitisch</rs>en Bethause, <hi rendition="#em">Salomon 
+            <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>
                </hi>. Die Kunst
       <lb facs="#facs_1_region_1681901313950_1805_tl_9" n="N008"/>des Jubilars wirkt, abseits von weltlichen Erfolgen, nur für
-      <lb facs="#facs_1_region_1681901313950_1805_tl_10" n="N009"/>den speciellen Zweck des Gottesdienstes — einer Minoritäts¬
+      <lb facs="#facs_1_region_1681901313950_1805_tl_10" n="N009"/>den speciellen Zweck des Gottesdienstes — einer Minoritäts-
       <lb facs="#facs_1_region_1681901313950_1805_tl_11" n="N010"/>Religion obendrein — und dennoch darf man behaupten, daß
-      <lb facs="#facs_1_region_1681901313950_1805_tl_12" n="N011"/>ganz <rs type="place">Wien</rs> sich in dem Augenblick für den Ehrentag des
-      <lb facs="#facs_1_region_1681901313950_1805_tl_13" n="N012"/>„alten <rs type="person">Sulzer</rs>“ interessire. So hört man ihn am liebsten und
-      <lb facs="#facs_1_region_1681901313950_1805_tl_14" n="N013"/>häufigsten nennen, denn „der alte <rs type="person">Sulzer</rs>“ ist eine der popu-
-      <lb facs="#facs_1_region_1681901313950_1805_tl_15" n="N014"/>lärsten Persönlichkeiten von <rs type="place">Wien</rs>. Wer kennt ihn nicht, den
+                 <lb facs="#facs_1_region_1681901313950_1805_tl_12" n="N011"/>ganz <rs type="place" ref="#hsl_place_id_55">Wien</rs> sich in dem Augenblick für den Ehrentag des
+      <lb facs="#facs_1_region_1681901313950_1805_tl_13" n="N012"/>„alten <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>“ interessire. So hört man ihn am liebsten und
+      <lb facs="#facs_1_region_1681901313950_1805_tl_14" n="N013"/>häufigsten nennen, denn „der alte <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>“ ist eine der popu
+                 <lb facs="#facs_1_region_1681901313950_1805_tl_15" n="N014" break="no"/>lärsten Persönlichkeiten von <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Wer kennt ihn nicht, den
       <lb facs="#facs_1_region_1681901313950_1805_tl_16" n="N015"/>merkwürdigen Charakterkopf mit dem graugelockten Haar, den
       <lb facs="#facs_1_region_1681901313950_1805_tl_17" n="N016"/>runden, feurigen Augen und dem energischen breiten Mund,
       <lb facs="#facs_1_region_1681901313950_1805_tl_18" n="N017"/>über welchem die haftig gekrümmte Nase das Inventar der
-      <lb facs="#facs_1_region_1681901313950_1805_tl_19" n="N018"/>orientalischen Physiognomik vollendet und hier zu sprechend-
-      <lb facs="#facs_1_region_1681901313950_1805_tl_20" n="N019"/>stem Ausdruck zusammenfaßt? Der Mann, welcher vor einem
+      <lb facs="#facs_1_region_1681901313950_1805_tl_19" n="N018"/>orientalischen Physiognomik vollendet und hier zu sprechend
+      <lb facs="#facs_1_region_1681901313950_1805_tl_20" n="N019" break="no"/>stem Ausdruck zusammenfaßt? Der Mann, welcher vor einem
       <lb facs="#facs_1_region_1681901313950_1805_tl_21" n="N020"/>halben Jahrhundert, kaum siebzehnjährig, die Gemeinde seiner
-      <lb facs="#facs_1_region_1681901313950_1805_tl_22" n="N021"/>Vaterstadt (<rs type="place">Hohenems</rs> in Vorarlberg) als Cantor zum Gebet
-      <lb facs="#facs_1_region_1681901313950_1805_tl_23" n="N022"/>geführt, hierauf an 40 Jahre lang das musikalische <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1681901313950_1805_tl_24" n="N023"/>durch die Pracht seiner Stimme und die Gluth seines Vor-
-      <lb facs="#facs_1_line_1688141804317_760" n="N024"/>trages entzückt hat, er wirkt noch in ungebrochener Rüstig¬
-      <lb facs="#facs_1_region_1681901313950_1805_tl_26" n="N025"/>keit, weder seiner Stimme noch seines Jugendfeuers verlustig.
+      <lb facs="#facs_1_region_1681901313950_1805_tl_22" n="N021"/>Vaterstadt (<rs type="place" ref="#hsl_place_id_229">Hohenems</rs> in Vorarlberg) als Cantor zum Gebet
+                 <lb facs="#facs_1_region_1681901313950_1805_tl_23" n="N022"/>geführt, hierauf an 40 Jahre lang das musikalische <rs type="place" ref="#hsl_place_id_55">Wien</rs>
+               <lb facs="#facs_1_region_1681901313950_1805_tl_24" n="N023"/>durch die Pracht seiner Stimme und die Gluth seines Vor
+      <lb facs="#facs_1_line_1688141804317_760" n="N024" break="no"/>trages entzückt hat, er wirkt noch in ungebrochener Rüstig
+      <lb facs="#facs_1_region_1681901313950_1805_tl_26" n="N025" break="no"/>keit, weder seiner Stimme noch seines Jugendfeuers verlustig.
       <lb facs="#facs_1_region_1681901313950_1805_tl_27" n="N026"/>Noch heute wie vor 30 und 40 Jahren scheidet kaum ein
-      <lb facs="#facs_1_region_1681901313950_1805_tl_28" n="N027"/>fremder Tonkünstler von <rs type="place">Wien</rs>, ohne dem berühmten Cantor
-      <lb facs="#facs_1_region_1681901313950_1805_tl_29" n="N028"/>einmal gelauscht zu haben.
-      <lb facs="#facs_1_region_1681901313950_1805_tl_30" n="N029"/>Ich selbst habe <rs type="person">Sulzer</rs> nicht mehr in der Blüthenzeit
+                 <lb facs="#facs_1_region_1681901313950_1805_tl_28" n="N027"/>fremder Tonkünstler von <rs type="place" ref="#hsl_place_id_55">Wien</rs>, ohne dem berühmten Cantor
+      <lb facs="#facs_1_region_1681901313950_1805_tl_29" n="N028"/>einmal gelauscht zu haben.</p>
+               <p>
+      <lb facs="#facs_1_region_1681901313950_1805_tl_30" n="N029"/>Ich selbst habe <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs> nicht mehr in der Blüthenzeit
       <lb facs="#facs_1_region_1681901313950_1805_tl_31" n="N030"/>seiner Stimme und überhaupt nur zweimal gehört: bei der
-      <lb facs="#facs_1_region_1681901313950_1805_tl_32" n="N031"/>Einweihung des neuen Tempels in der <rs type="place">Leopoldstadt</rs> und bei
-      <lb facs="#facs_1_region_1681901313950_1805_tl_33" n="N032"/>der Hochzeit der schönen Fanny <rs type="person">Todesco</rs>. Beidemale machte
-      <lb facs="#facs_1_line_1688142063154_789" n="N033"/>mir sein noch immer klangreicher Bariton und seine schwung¬</p>
+      <lb facs="#facs_1_region_1681901313950_1805_tl_32" n="N031"/>Einweihung des neuen Tempels in der <rs type="place" ref="#hsl_place_is_230">Leopoldstadt</rs> und bei
+      <lb facs="#facs_1_region_1681901313950_1805_tl_33" n="N032"/>der Hochzeit der schönen Fanny <rs type="person" ref="#hsl_person_id_1938">Todesco</rs>. Beidemale machte
+      <lb facs="#facs_1_line_1688142063154_789" n="N033"/>mir sein noch immer klangreicher Bariton und seine schwung
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1681901317600_1808_tl_1" n="N001"/>volle Vortragsweise einen tiefen Eindruck. Dieser Vortrag, in
-      <lb facs="#facs_1_region_1681901317600_1808_tl_2" n="N002"/>welchem vom leisesten Atemzug bis zum mächtigsten Ton-
-      <lb facs="#facs_1_region_1681901317600_1808_tl_3" n="N003"/>sturm jede Note — jede Pause möchte man fast sagen — tief
+               <lb facs="#facs_1_region_1681901317600_1808_tl_1" n="N001" break="no"/>volle Vortragsweise einen tiefen Eindruck. Dieser Vortrag, in
+      <lb facs="#facs_1_region_1681901317600_1808_tl_2" n="N002"/>welchem vom leisesten Atemzug bis zum mächtigsten Ton
+      <lb facs="#facs_1_region_1681901317600_1808_tl_3" n="N003" break="no"/>sturm jede Note — jede Pause möchte man fast sagen — tief
       <lb facs="#facs_1_region_1681901317600_1808_tl_4" n="N004"/>aus dem Innersten kam, den Reiz des Fremdartigen mit der
       <lb facs="#facs_1_region_1681901317600_1808_tl_5" n="N005"/>Ueberzeugungskraft wahrer, glühender Andacht verbindend, er
       <lb facs="#facs_1_region_1681901317600_1808_tl_6" n="N006"/>mußte Jedermann, weß Glaubens und Vaterlandes immer,
       <lb facs="#facs_1_region_1681901317600_1808_tl_7" n="N007"/>unwiderstehlich fesseln und erregen. Das war tönendes Feuer,
       <lb facs="#facs_1_region_1681901317600_1808_tl_8" n="N008"/>etwas überlodernd und qualmend vielleicht — jedenfalls der
-      <lb facs="#facs_1_region_1681901317600_1808_tl_9" n="N009"/>lebendigste Gegensatz zu jenem mechanisch gleichmäßigen Ab-
-      <lb facs="#facs_1_region_1681901317600_1808_tl_10" n="N010"/>singen ritueller Formeln, das in anderen Culten Styl und
-      <lb facs="#facs_1_region_1681901317600_1808_tl_11" n="N011"/>Vorschrift geworden. Ein zerknirschtes Aufseufzen, ein begei-
-      <lb facs="#facs_1_region_1681901317600_1808_tl_12" n="N012"/>stertes Emporjubeln zu Gott, stets mit dem vollen Aufgebot,
+      <lb facs="#facs_1_region_1681901317600_1808_tl_9" n="N009"/>lebendigste Gegensatz zu jenem mechanisch gleichmäßigen Ab
+      <lb facs="#facs_1_region_1681901317600_1808_tl_10" n="N010" break="no"/>singen ritueller Formeln, das in anderen Culten Styl und
+      <lb facs="#facs_1_region_1681901317600_1808_tl_11" n="N011"/>Vorschrift geworden. Ein zerknirschtes Aufseufzen, ein begei
+      <lb facs="#facs_1_region_1681901317600_1808_tl_12" n="N012" break="no"/>stertes Emporjubeln zu Gott, stets mit dem vollen Aufgebot,
       <lb facs="#facs_1_region_1681901317600_1808_tl_13" n="N013"/>der Empfindung und gleichsam gespornt durch den Gedanken,
-      <lb facs="#facs_1_region_1681901317600_1808_tl_14" n="N014"/>mit der Wahrheit jedes einzelnen Tones für die ganze Ge¬
-      <lb facs="#facs_1_region_1681901317600_1808_tl_15" n="N015"/>meinde, ja für ganz <rs type="place">Israel</rs> einzustehen. <rs type="person">Sulzer</rs> hatte damals
+      <lb facs="#facs_1_region_1681901317600_1808_tl_14" n="N014"/>mit der Wahrheit jedes einzelnen Tones für die ganze Ge
+      <lb facs="#facs_1_region_1681901317600_1808_tl_15" n="N015" break="no"/>meinde, ja für ganz 
+                     <rs type="place" ref="#hsl_place_id_169">Israel</rs> einzustehen. 
+                     <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs> hatte damals
       <lb facs="#facs_1_region_1681901317600_1808_tl_16" n="N016"/>ein wunderbar ergänzendes und erläuterndes Seitenstück an
       <lb facs="#facs_1_region_1681901317600_1808_tl_17" n="N017"/>dem seither verstorbenen Prediger <hi rendition="#em">
-                  <rs type="person">Mannheimer</rs>
+                  <rs type="person" ref="#hsl_person_id_1940">Mannheimer</rs>
                </hi>. Der alte
       <lb facs="#facs_1_region_1681901317600_1808_tl_18" n="N018"/>
-               <rs type="person">Mannheimer</rs> — noch sehe ich seinen hageren, geistvollen
-      <lb facs="#facs_1_region_1681901317600_1808_tl_19" n="N019"/>Kopf mit den flatternden Haaren — predigte, wie <rs type="person">Sulzer</rs>
+                     <rs type="person" ref="#hsl_person_id_1940">Mannheimer</rs> — noch sehe ich seinen hageren, geistvollen
+      <lb facs="#facs_1_region_1681901317600_1808_tl_19" n="N019"/>Kopf mit den flatternden Haaren — predigte, wie <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>
                <lb facs="#facs_1_region_1681901317600_1808_tl_20" n="N020"/>sang. Dieselbe Gewalt über das Material, dieselbe fremdartige
-      <lb facs="#facs_1_region_1681901317600_1808_tl_21" n="N021"/>und doch Alles fortreißende Leidenschaftlichkeit, dasselbe begei-
-      <lb facs="#facs_1_region_1681901317600_1808_tl_22" n="N022"/>sterte Aufleuchten des Auges und der Stimme. Es war die
+      <lb facs="#facs_1_region_1681901317600_1808_tl_21" n="N021"/>und doch Alles fortreißende Leidenschaftlichkeit, dasselbe begei
+      <lb facs="#facs_1_region_1681901317600_1808_tl_22" n="N022" break="no"/>sterte Aufleuchten des Auges und der Stimme. Es war die
       <lb facs="#facs_1_region_1681901317600_1808_tl_23" n="N023"/>glühendste Kanzelberedtsamkeit, die ich erlebt, hier in Worten,
-      <lb facs="#facs_1_region_1681901317600_1808_tl_24" n="N024"/>dort in Tönen.
+      <lb facs="#facs_1_region_1681901317600_1808_tl_24" n="N024"/>dort in Tönen.</p>
+               <p>
       <lb facs="#facs_1_region_1681901317600_1808_tl_25" n="N025"/>
                <hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi> erzählt in seinem Buche „<rs type="bibl">Des Bohémiens et de</rs>
-               <lb facs="#facs_1_region_1681901317600_1808_tl_26" n="N026"/>
-               <rs type="bibl">leur musique</rs>“, er habe bei <hi rendition="#em">
-                  <rs type="person">Sulzer</rs>’s</hi> Tempelgesang zum
-      <lb facs="#facs_1_line_1688141804317_759" n="N027"/>ersten- und einzigenmal den Eindruck von einer wirklich na¬
-      <lb facs="#facs_1_region_1681901317600_1808_tl_27" n="N028"/>tional-jüdischen Kunst empfangen, während alle anderen, selbst
+                     <rs type="person" ref="#hsl_person_id_164">Liszt</rs>
+               </hi> erzählt in seinem Buche „<rs type="bibl" ref="#hsl_work_id_1271">Des Bohémiens et de
+               <lb facs="#facs_1_region_1681901317600_1808_tl_26" n="N026"/>leur musique</rs>“, er habe bei <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’s</hi> Tempelgesang zum
+      <lb facs="#facs_1_line_1688141804317_759" n="N027"/>ersten- und einzigenmal den Eindruck von einer wirklich na
+      <lb facs="#facs_1_region_1681901317600_1808_tl_27" n="N028" break="no"/>tional-jüdischen Kunst empfangen, während alle anderen, selbst
       <lb facs="#facs_1_region_1681901317600_1808_tl_28" n="N029"/>trefflichsten Leistungen jüdischer Tondichter, Poeten und Maler
-      <lb facs="#facs_1_region_1681901317600_1808_tl_29" n="N030"/>doch nur ein Nachbilden und Wiederholen christlich-abendländ-
-      <lb facs="#facs_1_region_1681901317600_1808_tl_30" n="N031"/>discher Kunst seien. Ich habe den treffenden Ausspruch <hi rendition="#em">
-                  <rs type="person">Liszt</rs>’s</hi>
-               <lb facs="#facs_1_region_1681901317600_1808_tl_31" n="N032"/>in seiner vollen Wahrheit empfunden, als ich <rs type="person">Sulzer</rs> zum
-      <lb facs="#facs_1_region_1681901317600_1808_tl_32" n="N033"/>erstenmal hörte.
+      <lb facs="#facs_1_region_1681901317600_1808_tl_29" n="N030"/>doch nur ein Nachbilden und Wiederholen christlich-abendländ
+      <lb facs="#facs_1_region_1681901317600_1808_tl_30" n="N031" break="no"/>discher Kunst seien. Ich habe den treffenden Ausspruch <hi rendition="#em">
+            <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s</hi>
+               <lb facs="#facs_1_region_1681901317600_1808_tl_31" n="N032"/>in seiner vollen Wahrheit empfunden, als ich <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs> zum
+      <lb facs="#facs_1_region_1681901317600_1808_tl_32" n="N033"/>erstenmal hörte.</p>
+               <p>
       <lb facs="#facs_1_region_1681901317600_1808_tl_33" n="N034"/>Die Wirkungen des Sängers, wie alle höchstpersönlichen,
       <lb facs="#facs_1_region_1681901317600_1808_tl_34" n="N035"/>erlöschen mit dem Individuum; nur in der Erinnerung der
-      <lb facs="#facs_1_line_1688142083335_796" n="N036"/>Zeitgenossen und den Bestrebungen der Schüler schlummern</p>
+      <lb facs="#facs_1_line_1688142083335_796" n="N036"/>Zeitgenossen und den Bestrebungen der Schüler schlummern
             <cb n="3"/>
-            <p>
                <lb facs="#facs_1_region_1681901320207_1811_tl_1" n="N001"/>sie wie unter einem Schleier fort. <hi rendition="#em">
-                  <rs type="person">Sulzer</rs>
+                  <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>
                </hi> hat dafür gesorgt,
       <lb facs="#facs_1_region_1681901320207_1811_tl_2" n="N002"/>daß sein Name nicht zugleich mit seiner Stimme verklingen
-      <lb facs="#facs_1_region_1681901320207_1811_tl_3" n="N003"/>wird. Als Schöpfer und Verbreiter eines geregelten Synago-
-      <lb facs="#facs_1_region_1681901320207_1811_tl_4" n="N004"/>gen-Gesangs hat er sich ein bleibendes Verdienst geschaffen, des¬
-      <lb facs="#facs_1_region_1681901320207_1811_tl_5" n="N005"/>sen sichtbares Document, der „<rs type="bibl">Schir-Zion</rs>“, vor mir aufge¬
-      <lb facs="#facs_1_region_1681901320207_1811_tl_6" n="N006"/>schlagen liegt. Ueber den früheren jüdischen Synagogal-Gesang
-      <lb facs="#facs_1_region_1681901320207_1811_tl_7" n="N007"/>und die einschlägigen Reformen <rs type="person">Sulzer</rs>’s zu urtheilen, fehlt
+      <lb facs="#facs_1_region_1681901320207_1811_tl_3" n="N003"/>wird. Als Schöpfer und Verbreiter eines geregelten Synago
+      <lb facs="#facs_1_region_1681901320207_1811_tl_4" n="N004" break="no"/>gen-Gesangs hat er sich ein bleibendes Verdienst geschaffen, des
+      <lb facs="#facs_1_region_1681901320207_1811_tl_5" n="N005" break="no"/>sen sichtbares Document, der „<rs type="bibl" ref="#hsl_work_id_1272">Schir-Zion</rs>“, vor mir aufge
+      <lb facs="#facs_1_region_1681901320207_1811_tl_6" n="N006" break="no"/>schlagen liegt. Ueber den früheren jüdischen Synagogal-Gesang
+      <lb facs="#facs_1_region_1681901320207_1811_tl_7" n="N007"/>und die einschlägigen Reformen <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’s zu urtheilen, fehlt
       <lb facs="#facs_1_region_1681901320207_1811_tl_8" n="N008"/>mir die innere wie die äußere Berechtigung. Die literarische
-      <lb facs="#facs_1_region_1681901320207_1811_tl_9" n="N009"/>Belehrung über den ersteren ist mehr als dürftig; das Ge¬
-      <lb facs="#facs_1_region_1681901320207_1811_tl_10" n="N010"/>wicht der letzteren muß ich auf Treu’ und Glauben annehmen.
+      <lb facs="#facs_1_region_1681901320207_1811_tl_9" n="N009"/>Belehrung über den ersteren ist mehr als dürftig; das Ge
+      <lb facs="#facs_1_region_1681901320207_1811_tl_10" n="N010" break="no"/>wicht der letzteren muß ich auf Treu’ und Glauben annehmen.
       <lb facs="#facs_1_region_1681901320207_1811_tl_11" n="N011"/>Anerkannt fand ich <hi rendition="#em">
-                  <rs type="person">Sulzer</rs>’s</hi> Verdienst von Freund und
-      <lb facs="#facs_1_region_1681901320207_1811_tl_12" n="N012"/>Feind. Sachkundige bezeugen, daß <rs type="person">Sulzer</rs> der musikalischen
+                  <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’s</hi> Verdienst von Freund und
+      <lb facs="#facs_1_region_1681901320207_1811_tl_12" n="N012"/>Feind. Sachkundige bezeugen, daß <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs> der musikalischen
       <lb facs="#facs_1_region_1681901320207_1811_tl_13" n="N013"/>Liturgie der Juden Ordnung, Würde und ästhetische Form
       <lb facs="#facs_1_region_1681901320207_1811_tl_14" n="N014"/>gegeben, daß er sie aus einem wüsten Zustande der Willkür
       <lb facs="#facs_1_region_1681901320207_1811_tl_15" n="N015"/>und Verwahrlosung gerissen. Es sei <hi rendition="#em">
-                  <rs type="person">Sulzer</rs>’s</hi> Einfluß, wenn
+                  <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’s</hi> Einfluß, wenn
       <lb facs="#facs_1_region_1681901320207_1811_tl_16" n="N016"/>Gemeinden, in welchen man ehemals Psalmen auf profane
       <lb facs="#facs_1_region_1681901320207_1811_tl_17" n="N017"/>Opern- und Liedermelodien vortragen und den Cantor das
       <lb facs="#facs_1_region_1681901320207_1811_tl_18" n="N018"/>häßlichste Schnörkelwerk improvisiren hörte, sich gegenwärtig
       <lb facs="#facs_1_region_1681901320207_1811_tl_19" n="N019"/>in musikalisch würdigen, wohlgeregelten Formen bewegen. Für
       <lb facs="#facs_1_region_1681901320207_1811_tl_20" n="N020"/>die rein musikalische Seite dieser Reform haben wir einen
-      <lb facs="#facs_1_region_1681901320207_1811_tl_21" n="N021"/>entscheidenden Anhaltspunkt an dem „<rs type="bibl">Schir-Zion</rs>“, der von
+                     <lb facs="#facs_1_region_1681901320207_1811_tl_21" n="N021"/>entscheidenden Anhaltspunkt an dem „<rs type="bibl" ref="#hsl_work_id_1272">Schir-Zion</rs>“, der von
       <lb facs="#facs_1_region_1681901320207_1811_tl_22" n="N022"/>
                <hi rendition="#em">
-                  <rs type="person">Sulzer</rs>
+                  <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>
                </hi> herausgegebenen großen Sammlung von Gesängen
       <lb facs="#facs_1_region_1681901320207_1811_tl_23" n="N023"/>für den gesammten jüdischen Cultus. Von diesem Werke ist
-      <lb facs="#facs_1_region_1681901320207_1811_tl_24" n="N024"/>vor Kurzem der zweite Theil erschienen, welcher wol den er¬
-      <lb facs="#facs_1_region_1681901320207_1811_tl_25" n="N025"/>sten nicht so sehr zu ergänzen als zu ersetzen beabsichtigt. Er
-      <lb facs="#facs_1_region_1681901320207_1811_tl_26" n="N026"/>ist dem „ersten Theil“, welcher sich sehr überwiegend in deut¬
-      <lb facs="#facs_1_region_1681901320207_1811_tl_27" n="N027"/>schem Musikstyl, theils <rs type="person">Haydn</rs>-<rs type="person">Mozart</rs>isch, theils noch viel
+      <lb facs="#facs_1_region_1681901320207_1811_tl_24" n="N024"/>vor Kurzem der zweite Theil erschienen, welcher wol den er
+      <lb facs="#facs_1_region_1681901320207_1811_tl_25" n="N025" break="no"/>sten nicht so sehr zu ergänzen als zu ersetzen beabsichtigt. Er
+      <lb facs="#facs_1_region_1681901320207_1811_tl_26" n="N026"/>ist dem „ersten Theil“, welcher sich sehr überwiegend in <rs type="place" ref="#hsl_place_id_14">deut
+      <lb facs="#facs_1_region_1681901320207_1811_tl_27" n="N027" break="no"/>sch</rs>em Musikstyl, theils 
+                     <rs type="person" ref="#hsl_person_id_114">Haydn</rs>-
+                     <rs type="person" ref="#hsl_person_id_189">Mozart</rs>isch, theils noch viel
       <lb facs="#facs_1_region_1681901320207_1811_tl_28" n="N028"/>moderner bewegt, unvergleichlich überlegen. (Der erste Theil
       <lb facs="#facs_1_region_1681901320207_1811_tl_29" n="N029"/>enthielt unter Anderm viele Compositionen von <hi rendition="#em">
-                  <rs type="person">Seyfried</rs>
+                  <rs type="person" ref="#hsl_person_id_1941">Seyfried</rs>
                </hi>,
       <lb facs="#facs_1_region_1681901320207_1811_tl_30" n="N030"/>
                <hi rendition="#em">
-                  <rs type="person">Schubert</rs>
+                  <rs type="person" ref="#hsl_person_id_179">Schubert</rs>
                </hi>, <hi rendition="#em">
-                  <rs type="person">Fischhof</rs>
+                     <rs type="person" ref="#hsl_person_id_1173">Fischhof</rs>
                </hi>, <hi rendition="#em">
-                  <rs type="person">Würfel</rs>
+                  <rs type="person" ref="#hsl_person_id_1942">Würfel</rs>
                </hi>, <hi rendition="#em">
-                  <rs type="person">Drexler</rs>
+                  <rs type="person" ref="#hsl_person_id_1943">Drexler</rs>
                </hi> und <hi rendition="#em">
-                  <rs type="person">Volkert</rs>
+                  <rs type="person" ref="#hsl_person_id_1944">Volkert</rs>
                </hi>.)
-      <lb facs="#facs_1_region_1681901320207_1811_tl_31" n="N031"/>Die Gesänge der neuen Sammlung klingen nicht nur kräfti-
-      <lb facs="#facs_1_region_1681901320207_1811_tl_32" n="N032"/>ger, origineller und kirchlicher, sie tragen auch — worauf ein
-      <lb facs="#facs_1_region_1681901320207_1811_tl_33" n="N033"/>großes Gewicht zu legen — ungleich mehr das Gepräge jü-
-      <lb facs="#facs_1_region_1681901320207_1811_tl_34" n="N034"/>disch-orientalischer Musik. „<rs type="bibl">Schir-Zion</rs>“ ist nicht etwa eine
-      <lb facs="#facs_1_region_1681901320207_1811_tl_35" n="N035"/>Compilation oder Bearbeitung älterer Gesänge, sondern durch-
-      <lb facs="#facs_1_line_1688142083335_795" n="N036"/>aus eigene, freie Composition <rs type="person">Sulzer</rs>’s. Nur in einigen we-</p>
+      <lb facs="#facs_1_region_1681901320207_1811_tl_31" n="N031"/>Die Gesänge der neuen Sammlung klingen nicht nur kräfti
+      <lb facs="#facs_1_region_1681901320207_1811_tl_32" n="N032" break="no"/>ger, origineller und kirchlicher, sie tragen auch — worauf ein
+      <lb facs="#facs_1_region_1681901320207_1811_tl_33" n="N033"/>großes Gewicht zu legen — ungleich mehr das Gepräge jü
+                     <lb facs="#facs_1_region_1681901320207_1811_tl_34" n="N034" break="no"/>disch-orientalischer Musik. „<rs type="bibl" ref="#hsl_work_id_1272">Schir-Zion</rs>“ ist nicht etwa eine
+      <lb facs="#facs_1_region_1681901320207_1811_tl_35" n="N035"/>Compilation oder Bearbeitung älterer Gesänge, sondern durch
+      <lb facs="#facs_1_line_1688142083335_795" n="N036" break="no"/>aus eigene, freie Composition <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’s. Nur in einigen we
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_line_1688143078206_909" n="N001"/>nigen Chören, sowie in vielen der recitativartigen Einzelge-
-      <lb facs="#facs_2_region_1681901344994_1823_tl_2" n="N002"/>sänge des Cantors hat der Componist ältere, im jüdischen
+               <lb facs="#facs_2_line_1688143078206_909" n="N001" break="no"/>nigen Chören, sowie in vielen der recitativartigen Einzelge
+      <lb facs="#facs_2_region_1681901344994_1823_tl_2" n="N002" break="no"/>sänge des Cantors hat der Componist ältere, im jüdischen
       <lb facs="#facs_2_region_1681901344994_1823_tl_3" n="N003"/>Gottesdienst zu besonderer Bedeutung gelangte Melodien zu
-      <lb facs="#facs_2_region_1681901344994_1823_tl_4" n="N004"/>Grunde gelegt. *)
+      <lb facs="#facs_2_region_1681901344994_1823_tl_4" n="N004"/>Grunde gelegt.
+                     <note type="footnote" n="*)">
+                           <lb facs="#facs_2_line_1688143432619_973" n="N030"/>Bei einem der ältesten Themen gibt uns <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs> eine An
+                           <lb facs="#facs_2_region_1681901344994_1823_tl_32" n="N031" break="no"/>schauung der altjüdischen Notirungsweise („Neginah“), die, in Form
+                           <lb facs="#facs_2_line_1688143489755_1020" n="N032"/>von kleinen Hälchen, Punkten und Strichen über den Wörtern an
+                           <lb facs="#facs_2_line_1688143492562_1023" n="N033" break="no"/>gebracht, die größte Verwandtschaft mit den altchritlichen <hi rendition="#em">Neumen</hi>
+                           <lb facs="#facs_2_line_1688143496308_1026" n="N034"/>hat. Indem das Hebräische zeilenweise von rechts nach links gelesen
+                           <lb facs="#facs_2_line_1688143499356_1029" n="N035"/>wird, so ist es einer Notirung nach unserem Musiksystem eigentlich
+                           <lb facs="#facs_2_region_1681901344994_1823_tl_38" n="N036"/>unzugänglich. Im „<rs type="bibl" ref="#hsl_work_id_1272">Schir-Zion</rs>“ sind deßhalb nur die Ueberschriften
+                           <lb facs="#facs_2_line_1688143503417_1032" n="N037"/>in hebräischen, der ganze gesungene Text hingegen in lateinischen Buch
+                           <lb facs="#facs_2_line_1688143505758_1035" n="N038" break="no"/>staben ausgesetzt.
+                     </note></p>
+               <p>
       <lb facs="#facs_2_region_1681901344994_1823_tl_5" n="N005"/>Ein hohes Alter nehmen übrigens selbst diese Reliquien
       <lb facs="#facs_2_region_1681901344994_1823_tl_6" n="N006"/>nicht in Anspruch; die ältesten jüdischen Melodien reichen
-      <lb facs="#facs_2_region_1681901344994_1823_tl_7" n="N007"/>nicht über 400 Jahre. Bei dem hohen Alter und der stren-
-      <lb facs="#facs_2_region_1681901344994_1823_tl_8" n="N008"/>gen Zucht der jüdischen Traditionen, zumal im Gottesdienste,
-      <lb facs="#facs_2_region_1681901344994_1823_tl_9" n="N009"/>wäre es gerade kein Wunder, wollten die Juden ihre älte¬
-      <lb facs="#facs_2_region_1681901344994_1823_tl_10" n="N010"/>sten Melodien bis zu <rs type="person">David</rs>, dem Gründer der hebräischen
+      <lb facs="#facs_2_region_1681901344994_1823_tl_7" n="N007"/>nicht über 400 Jahre. Bei dem hohen Alter und der stren
+      <lb facs="#facs_2_region_1681901344994_1823_tl_8" n="N008" break="no"/>gen Zucht der jüdischen Traditionen, zumal im Gottesdienste,
+      <lb facs="#facs_2_region_1681901344994_1823_tl_9" n="N009"/>wäre es gerade kein Wunder, wollten die Juden ihre älte
+      <lb facs="#facs_2_region_1681901344994_1823_tl_10" n="N010" break="no"/>sten Melodien bis zu <rs type="person" ref="#hsl_person_id_1945">David</rs>, dem Gründer der hebräischen
       <lb facs="#facs_2_region_1681901344994_1823_tl_11" n="N011"/>Tempelmusik, zurückgeführt wissen. Um so rühmlicher und
       <lb facs="#facs_2_region_1681901344994_1823_tl_12" n="N012"/>redlicher handelt <hi rendition="#em">
-                  <rs type="person">Sulzer</rs>
-               </hi>, indem er jede derartige Träu¬
-      <lb facs="#facs_2_region_1681901344994_1823_tl_13" n="N013"/>merei oder Fiction verschmäht, sogar gegen einige Gesang-
-      <lb facs="#facs_2_region_1681901344994_1823_tl_14" n="N014"/>weisen ausdrücklich polemisirend, „welche in ganz unberechtig¬
-      <lb facs="#facs_2_region_1681901344994_1823_tl_15" n="N015"/>ter Weise den Schutz des Alterthums für sich in Anspruch
-      <lb facs="#facs_2_region_1681901344994_1823_tl_16" n="N016"/>nehmen“.
-      <lb facs="#facs_2_region_1681901344994_1823_tl_17" n="N017"/>Eine ins Einzelne gehende Würdigung des <rs type="person">Sulzer</rs>’schen
+                  <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>
+               </hi>, indem er jede derartige Trä
+      <lb facs="#facs_2_region_1681901344994_1823_tl_13" n="N013" break="no"/>merei oder Fiction verschmäht, sogar gegen einige Gesang
+      <lb facs="#facs_2_region_1681901344994_1823_tl_14" n="N014" break="no"/>weisen ausdrücklich polemisirend, „welche in ganz unberechtig
+      <lb facs="#facs_2_region_1681901344994_1823_tl_15" n="N015" break="no"/>ter Weise den Schutz des Alterthums für sich in Anspruch
+      <lb facs="#facs_2_region_1681901344994_1823_tl_16" n="N016"/>nehmen“.</p>
+               <p>
+      <lb facs="#facs_2_region_1681901344994_1823_tl_17" n="N017"/>Eine ins Einzelne gehende Würdigung des <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’schen
       <lb facs="#facs_2_region_1681901344994_1823_tl_18" n="N018"/>Werkes müssen wir uns an dieser Stelle versagen, wäre sie
       <lb facs="#facs_2_region_1681901344994_1823_tl_19" n="N019"/>doch ohne Notenbeispiele auch kaum von Nutzen. Nur einige
       <lb facs="#facs_2_region_1681901344994_1823_tl_20" n="N020"/>allgemeinere Bemerkungen seien hier noch gestattet. Der
-      <lb facs="#facs_2_region_1681901344994_1823_tl_21" n="N021"/>zweite Theil des <rs type="person">Sulzer</rs>’schen „<rs type="bibl">Schir-Zion</rs>“, obwol natürlich
+      <lb facs="#facs_2_region_1681901344994_1823_tl_21" n="N021"/>zweite Theil des <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’schen „
+                     <rs type="bibl" ref="#hsl_work_id_1272">Schir-Zion</rs>“, obwol natürlich
       <lb facs="#facs_2_region_1681901344994_1823_tl_22" n="N022"/>dem modernen Ton- und Modulations-System angehörig,
       <lb facs="#facs_2_region_1681901344994_1823_tl_23" n="N023"/>läßt ein eigenthümliches orientalisch-jüdisches Gepräge nirgends
       <lb facs="#facs_2_region_1681901344994_1823_tl_24" n="N024"/>vermissen. Mit voller Anschaulichkeit tritt dasselbe allerdings
-      <lb facs="#facs_2_region_1681901344994_1823_tl_25" n="N025"/>erst heraus, wenn die Note durch den charakteristischen na-
-      <lb facs="#facs_2_region_1681901344994_1823_tl_26" n="N026"/>tionalen Vortrag belebt und individualisirt wird. Aber auch die
+      <lb facs="#facs_2_region_1681901344994_1823_tl_25" n="N025"/>erst heraus, wenn die Note durch den charakteristischen na
+      <lb facs="#facs_2_region_1681901344994_1823_tl_26" n="N026" break="no"/>tionalen Vortrag belebt und individualisirt wird. Aber auch die
       <lb facs="#facs_2_region_1681901344994_1823_tl_27" n="N027"/>Rote an sich trägt diesen Typus: wir finden ihn in dem
       <lb facs="#facs_2_region_1681901344994_1823_tl_28" n="N028"/>Vorwiegen des Recitativischen, das im Munde eines Cantors,
-      <lb facs="#facs_2_region_1681901344994_1823_tl_29" n="N029"/>wie <rs type="person">Sulzer</rs>, den Charakter begeisterten Improvisirens an-
-      <lb facs="#facs_2_line_1688143432619_973" n="N030"/>*) Bei einem der ältesten Themen gibt uns <rs type="person">Sulzer</rs> eine An-
-      <lb facs="#facs_2_region_1681901344994_1823_tl_32" n="N031"/>schauung der altjüdischen Notirungsweise („Neginah“), die, in Form
-      <lb facs="#facs_2_line_1688143489755_1020" n="N032"/>von kleinen Hälchen, Punkten und Strichen über den Wörtern an-
-      <lb facs="#facs_2_line_1688143492562_1023" n="N033"/>gebracht, die größte Verwandtschaft mit den altchritlichen <hi rendition="#em">Neumen</hi>
-               <lb facs="#facs_2_line_1688143496308_1026" n="N034"/>hat. Indem das Hebräische zeilenweise von rechts nach links gelesen
-      <lb facs="#facs_2_line_1688143499356_1029" n="N035"/>wird, so ist es einer Notirung nach unserem Musiksystem eigentlich
-      <lb facs="#facs_2_region_1681901344994_1823_tl_38" n="N036"/>unzugänglich. Im „<rs type="bibl">Schir-Zion</rs>“ sind deßhalb nur die Ueberschriften
-      <lb facs="#facs_2_line_1688143503417_1032" n="N037"/>in hebräischen, der ganze gesungene Text hingegen in lateinischen Buch-
-      <lb facs="#facs_2_line_1688143505758_1035" n="N038"/>staben ausgesetzt.</p>
+      <lb facs="#facs_2_region_1681901344994_1823_tl_29" n="N029"/>wie <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>, den Charakter begeisterten Improvisirens an
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_line_1688143078206_908" n="N001"/>nimmt; in gewissen rhythmischen, harmonischen, vorzüglich
+               <lb facs="#facs_2_line_1688143078206_908" n="N001" break="no"/>nimmt; in gewissen rhythmischen, harmonischen, vorzüglich
       <lb facs="#facs_2_line_1688143722493_1060" n="N002"/>aber melodischen Grundzügen, wiederkehrenden Cadenzen und
       <lb facs="#facs_2_region_1681901348611_1826_tl_2" n="N003"/>Schlußformeln. Ein namhafter neuerer Musik-Historiker geht
       <lb facs="#facs_2_region_1681901348611_1826_tl_3" n="N004"/>offenbar zu weit, wenn er dem jüdischen Synagogal-Gesang
       <lb facs="#facs_2_region_1681901348611_1826_tl_4" n="N005"/>einen original-jüdischen Charakter aus dem Grunde abspricht,
       <lb facs="#facs_2_region_1681901348611_1826_tl_5" n="N006"/>weil die Juden seit ihrer Zerstreuung über den Occident
       <lb facs="#facs_2_region_1681901348611_1826_tl_6" n="N007"/>überall dem modernen Adoptivlande sich assimiliren, so daß
-      <lb facs="#facs_2_region_1681901348611_1826_tl_7" n="N008"/>die Musik der <rs type="place">spanisch</rs>en Juden <rs type="place">spanisch</rs>, der <rs type="place">deutsch</rs>en <rs type="place">deutsch</rs>,
-      <lb facs="#facs_2_region_1681901348611_1826_tl_8" n="N009"/>der <rs type="place">polnisch</rs>en <rs type="place">polnisch</rs> sei. Man braucht aber nur einmal
-      <lb facs="#facs_2_line_1688143897738_1089" n="N010"/>dem Gottesdienste der <rs type="place">deutsch</rs>en, <rs type="place">portugiesisch</rs>en und <rs type="place">polnisch</rs>en
-      <lb facs="#facs_2_region_1681901348611_1826_tl_9" n="N011"/>Juden beizuwohnen (in <rs type="place">Wien</rs> hat man das Alles ganz nahe),
-      <lb facs="#facs_2_region_1681901348611_1826_tl_10" n="N012"/>um durch alle Verschiedenheiten hindurch das überwiegend Ge¬
-      <lb facs="#facs_2_region_1681901348611_1826_tl_11" n="N013"/>meinsame in ihrem Gesange wahrzunehmen. Und dies Ge¬
-      <lb facs="#facs_2_region_1681901348611_1826_tl_12" n="N014"/>meinsame ist eben der specifisch orientalische Typus, der weit
-      <lb facs="#facs_2_region_1681901348611_1826_tl_13" n="N015"/>mehr an arabische, <rs type="place">türkisch</rs>e, <rs type="place">persisch</rs>e Weisen erinnert, als
+      <lb facs="#facs_2_region_1681901348611_1826_tl_7" n="N008"/>die Musik der 
+                     <rs type="place" ref="#hsl_place_id_2">spanisch</rs>en Juden 
+                     <rs type="place" ref="#hsl_place_id_2">spanisch</rs>, der 
+                     <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en 
+                     <rs type="place" ref="#hsl_place_id_14">deutsch</rs>,
+      <lb facs="#facs_2_region_1681901348611_1826_tl_8" n="N009"/>der 
+                     <rs type="place" ref="#hsl_place_id_231">polnisch</rs>en 
+                     <rs type="place" ref="#hsl_place_id_231">polnisch</rs> sei. Man braucht aber nur einmal
+      <lb facs="#facs_2_line_1688143897738_1089" n="N010"/>dem Gottesdienste der 
+                     <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en, 
+                     <rs type="place" ref="#hsl_place_id_232">portugiesisch</rs>en und 
+                     <rs type="place" ref="#hsl_place_id_231">polnisch</rs>en
+      <lb facs="#facs_2_region_1681901348611_1826_tl_9" n="N011"/>Juden beizuwohnen (in <rs type="place" ref="#hsl_place_id_55">Wien</rs> hat man das Alles ganz nahe),
+      <lb facs="#facs_2_region_1681901348611_1826_tl_10" n="N012"/>um durch alle Verschiedenheiten hindurch das überwiegend Ge
+      <lb facs="#facs_2_region_1681901348611_1826_tl_11" n="N013" break="no"/>meinsame in ihrem Gesange wahrzunehmen. Und dies Ge
+      <lb facs="#facs_2_region_1681901348611_1826_tl_12" n="N014" break="no"/>meinsame ist eben der specifisch orientalische Typus, der weit
+      <lb facs="#facs_2_region_1681901348611_1826_tl_13" n="N015"/>mehr an arabische, 
+                     <rs type="place" ref="#hsl_place_id_180">türkisch</rs>e, 
+                     <rs type="place" ref="#hsl_place_id_181">persisch</rs>e Weisen erinnert, als
       <lb facs="#facs_2_region_1681901348611_1826_tl_14" n="N016"/>an die Nationalmusik der Deutschen, Portugiesen und
-      <lb facs="#facs_2_region_1681901348611_1826_tl_15" n="N017"/>Polen. *)
+      <lb facs="#facs_2_region_1681901348611_1826_tl_15" n="N017"/>Polen.
+                     <note type="footnote" n="*)">
+                           <lb facs="#facs_2_line_1688144394662_1170" n="N033"/>Wie sehr erinnert z. B. das <rs type="bibl" ref="#hsl_work_id_1273">Klagelied Nr. 345</rs> und Aehn
+                           <lb facs="#facs_2_line_1688144398586_1173" n="N034" break="no"/>liches bei <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs> an den Ruf des Muezzin bei den Türken! Die nahe
+                           <lb facs="#facs_2_line_1688144403088_1176" n="N035"/>Verwandtschaft der jüdischen mit der arabischen Gesangweise bestätigt
+                           <lb facs="#facs_2_line_1688144408014_1179" n="N036"/>uns (von älteren Sammlungen abgesehen) ganz neuerdings das Werk
+                           <lb facs="#facs_2_region_1681901348611_1826_tl_38" n="N037"/>von <hi rendition="#em">Alexandre 
+                                 <rs type="person" ref="#hsl_person_id_1946">Christianowitsch</rs></hi>, „
+                                    <rs type="bibl" ref="#hsl_work_id_1246">Esquisse historique de la
+                           <lb facs="#facs_2_region_1681901348611_1826_tl_39" n="N038"/>Musique Arabe</rs>“ (<date when="1863">1863</date>).
+                     </note>
       <lb facs="#facs_2_region_1681901348611_1826_tl_16" n="N018"/>Lebt doch im jüdischen Volke neben dem Charakterzug der
       <lb facs="#facs_2_line_1688144095505_1118" n="N019"/>Assimilirung der noch stärkere eines zähen Festhaltens an den
       <lb facs="#facs_2_region_1681901348611_1826_tl_18" n="N020"/>nationalen Sitten und Traditionen. Am stärksten wirkte er
       <lb facs="#facs_2_region_1681901348611_1826_tl_19" n="N021"/>in den unteren Volksclassen, und diese sind überall die treue,
       <lb facs="#facs_2_region_1681901348611_1826_tl_20" n="N022"/>alte Garde der Religiosität. So dürfen wir denn auch im
-      <lb facs="#facs_2_region_1681901348611_1826_tl_21" n="N023"/>„<rs type="bibl">Schir-Zion</rs>“, dem Repräsentanten des modernen Synagogal-
-      <lb facs="#facs_2_region_1681901348611_1826_tl_22" n="N024"/>Gesangs, einen nationalen Grundton anerkennen. Die Ge¬
-      <lb facs="#facs_2_region_1681901348611_1826_tl_23" n="N025"/>sänge sind durchaus vocal, ohne Instrumental-Begleitung,
+                     <lb facs="#facs_2_region_1681901348611_1826_tl_21" n="N023"/>„<rs type="bibl" ref="#hsl_work_id_1272">Schir-Zion</rs>“, dem Repräsentanten des modernen Synagogal-
+      <lb facs="#facs_2_region_1681901348611_1826_tl_22" n="N024"/>Gesangs, einen nationalen Grundton anerkennen. Die Ge
+      <lb facs="#facs_2_region_1681901348611_1826_tl_23" n="N025" break="no"/>sänge sind durchaus vocal, ohne Instrumental-Begleitung,
       <lb facs="#facs_2_region_1681901348611_1826_tl_24" n="N026"/>und werden vom Cantor theils allein, theils gemeinsam mit
       <lb facs="#facs_2_region_1681901348611_1826_tl_25" n="N027"/>dem Chor vorgetragen. Letzterer ist ein geschulter Sängerchor
-      <lb facs="#facs_2_region_1681901348611_1826_tl_26" n="N028"/>von Männern und Knaben; die Nichtbetheiligung der Ge¬
-      <lb facs="#facs_2_region_1681901348611_1826_tl_27" n="N029"/>meinde, sowie die Ausschließung der Frauen vom Tempelge¬
-      <lb facs="#facs_2_region_1681901348611_1826_tl_28" n="N030"/>sang steht in strenger Uebereinstimmung mit dem alten salo¬
-      <lb facs="#facs_2_region_1681901348611_1826_tl_29" n="N031"/>monischen Gottesdienst zu <rs type="place">Jerusalem</rs>. Von schöner, ergrei¬
-      <lb facs="#facs_2_region_1681901348611_1826_tl_30" n="N032"/>fender Wirkung sind die (an unsere katholischen Responsorien
-      <lb facs="#facs_2_line_1688144394662_1170" n="N033"/>*) Wie sehr erinnert z. B. das <rs type="bibl">Klagelied</rs> Nr. 345 und Aehn-
-      <lb facs="#facs_2_line_1688144398586_1173" n="N034"/>liches bei <rs type="person">Sulzer</rs> an den Ruf des Muezzin bei den Türken! Die nahe
-      <lb facs="#facs_2_line_1688144403088_1176" n="N035"/>Verwandtschaft der jüdischen mit der arabischen Gesangweise bestätigt
-      <lb facs="#facs_2_line_1688144408014_1179" n="N036"/>uns (von älteren Sammlungen abgesehen) ganz neuerdings das Werk
-      <lb facs="#facs_2_region_1681901348611_1826_tl_38" n="N037"/>von <hi rendition="#em">Alexandre <rs type="person">Christianowitsch</rs>
-               </hi>
-               <rs type="person"/>, „<rs type="bibl">Requise historique de la</rs>
-               <lb facs="#facs_2_region_1681901348611_1826_tl_39" n="N038"/>
-               <rs type="bibl">Musique Arabe</rs>“ (<date month="0" day="0" year="0">1863</date>).</p>
+      <lb facs="#facs_2_region_1681901348611_1826_tl_26" n="N028"/>von Männern und Knaben; die Nichtbetheiligung der Ge
+      <lb facs="#facs_2_region_1681901348611_1826_tl_27" n="N029" break="no"/>meinde, sowie die Ausschließung der Frauen vom Tempelge
+      <lb facs="#facs_2_region_1681901348611_1826_tl_28" n="N030" break="no"/>sang steht in strenger Uebereinstimmung mit dem alten salo
+      <lb facs="#facs_2_region_1681901348611_1826_tl_29" n="N031" break="no"/>monischen Gottesdienst zu <rs type="place" ref="#hsl_place_id_63">Jerusalem</rs>. Von schöner, ergrei
+      <lb facs="#facs_2_region_1681901348611_1826_tl_30" n="N032" break="no"/>fender Wirkung sind die (an unsere katholischen Responsorien
             <cb n="6"/>
-            <p>
                <lb facs="#facs_2_region_1681901351733_1829_tl_1" n="N001"/>mahnenden) Wechselgesänge zwischen dem Cantor und dem
       <lb facs="#facs_2_line_1688143722493_1059" n="N002"/>Chor; jener beginnt allein mit einem kräftigen Motiv —
-      <lb facs="#facs_2_region_1681901351733_1829_tl_2" n="N003"/>die häufigen Intonationen vom Grundton in die Quinte ge¬
-      <lb facs="#facs_2_region_1681901351733_1829_tl_3" n="N004"/>ben ihm den Charakter des Rufenden, Emporschwingenden — der
+      <lb facs="#facs_2_region_1681901351733_1829_tl_2" n="N003"/>die häufigen Intonationen vom Grundton in die Quinte ge
+      <lb facs="#facs_2_region_1681901351733_1829_tl_3" n="N004" break="no"/>ben ihm den Charakter des Rufenden, Emporschwingenden — der
       <lb facs="#facs_2_region_1681901351733_1829_tl_4" n="N005"/>Chor erwidert in kürzeren oder längeren vierstimmigen Sätzen.
-      <lb facs="#facs_2_region_1681901351733_1829_tl_5" n="N006"/>Einige Chöre hat <rs type="person">Sulzer</rs> mit Orgelbegleitung versehen und
+      <lb facs="#facs_2_region_1681901351733_1829_tl_5" n="N006"/>Einige Chöre hat <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs> mit Orgelbegleitung versehen und
       <lb facs="#facs_2_region_1681901351733_1829_tl_6" n="N007"/>damit thatsächlich gegen allzu orthodoxe Stimmen für das
-      <lb facs="#facs_2_region_1681901351733_1829_tl_7" n="N008"/>Recht der Orgel in der Synagoge plaidirt. In großen Räu-
-      <lb facs="#facs_2_region_1681901351733_1829_tl_8" n="N009"/>men ist dies Instrument zur Unterstützung und Ausfüllung
-      <lb facs="#facs_2_line_1688143897738_1088" n="N010"/>reiner Vocalmusik nahezu unentbehrlich; sein universal reli¬
-      <lb facs="#facs_2_region_1681901351733_1829_tl_10" n="N011"/>giöser Charakter eignet es für jeden monotheistischen Cultus.
+      <lb facs="#facs_2_region_1681901351733_1829_tl_7" n="N008"/>Recht der Orgel in der Synagoge plaidirt. In großen Räu
+      <lb facs="#facs_2_region_1681901351733_1829_tl_8" n="N009" break="no"/>men ist dies Instrument zur Unterstützung und Ausfüllung
+      <lb facs="#facs_2_line_1688143897738_1088" n="N010"/>reiner Vocalmusik nahezu unentbehrlich; sein universal reli
+      <lb facs="#facs_2_region_1681901351733_1829_tl_10" n="N011" break="no"/>giöser Charakter eignet es für jeden monotheistischen Cultus.
       <lb facs="#facs_2_region_1681901351733_1829_tl_11" n="N012"/>Historisch dürfen die Juden überdies auf ihre „Magrepha“
       <lb facs="#facs_2_region_1681901351733_1829_tl_12" n="N013"/>und „Maschrokita“ pochen, die, primitiv und bald überwunden,
       <lb facs="#facs_2_region_1681901351733_1829_tl_13" n="N014"/>doch immerhin Orgeln waren. Dem christlichen Abendlande
       <lb facs="#facs_2_region_1681901351733_1829_tl_14" n="N015"/>verdankt die Orgel ihre Ausbildung, aber nicht ihre Herkunft.
-      <lb facs="#facs_2_region_1681901351733_1829_tl_15" n="N016"/>Das musikalische Verdienst <rs type="person">Sulzer</rs>’s erscheint in den Augen
+      <lb facs="#facs_2_region_1681901351733_1829_tl_15" n="N016"/>Das musikalische Verdienst <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’s erscheint in den Augen
       <lb facs="#facs_2_region_1681901351733_1829_tl_16" n="N017"/>des Kenners gesteigert durch viele eigenthümliche, in der
-      <lb facs="#facs_2_region_1681901351733_1829_tl_17" n="N018"/>Sprache wie im Ritus begründete Schwierigkeiten. Die Me¬
-      <lb facs="#facs_2_line_1688144095505_1117" n="N019"/>lodie muß allezeit dominiren, die Stimme des Cantors dem
-      <lb facs="#facs_2_region_1681901351733_1829_tl_18" n="N020"/>Chor stets voraus und überlegen sein, kein Wort darf wieder¬
-      <lb facs="#facs_2_region_1681901351733_1829_tl_19" n="N021"/>holt werden. Die Texte entbehren jeglicher Strophen-Architek-
-      <lb facs="#facs_2_region_1681901351733_1829_tl_20" n="N022"/>tonik und fügen sich schwer dem musikalischen Tact und
+      <lb facs="#facs_2_region_1681901351733_1829_tl_17" n="N018"/>Sprache wie im Ritus begründete Schwierigkeiten. Die Me
+      <lb facs="#facs_2_line_1688144095505_1117" n="N019" break="no"/>lodie muß allezeit dominiren, die Stimme des Cantors dem
+      <lb facs="#facs_2_region_1681901351733_1829_tl_18" n="N020"/>Chor stets voraus und überlegen sein, kein Wort darf wieder
+      <lb facs="#facs_2_region_1681901351733_1829_tl_19" n="N021" break="no"/>holt werden. Die Texte entbehren jeglicher Strophen-Architek
+      <lb facs="#facs_2_region_1681901351733_1829_tl_20" n="N022" break="no"/>tonik und fügen sich schwer dem musikalischen Tact und
       <lb facs="#facs_2_region_1681901351733_1829_tl_21" n="N023"/>Periodenbau; dazu treten die strengsten Ansprüche auf die
-      <lb facs="#facs_2_region_1681901351733_1829_tl_22" n="N024"/>Beachtung der überaus schwierigen Prosodie des Hebräischen.
+      <lb facs="#facs_2_region_1681901351733_1829_tl_22" n="N024"/>Beachtung der überaus schwierigen Prosodie des Hebräischen.</p>
+               <p>
       <lb facs="#facs_2_region_1681901351733_1829_tl_23" n="N025"/>Wir glauben, daß kein Musiker den neuen Band des
       <lb facs="#facs_2_region_1681901351733_1829_tl_24" n="N026"/>
                <hi rendition="#em">
-                  <rs type="person">Sulzer</rs>
-               </hi>’schen „<rs type="bibl">Schir-Zion</rs>“ ohne lebhaftes Interesse durch-
-      <lb facs="#facs_2_region_1681901351733_1829_tl_25" n="N027"/>gehen wird. Der sich immer weiter ausbreitende reformirende
-      <lb facs="#facs_2_region_1681901351733_1829_tl_26" n="N028"/>Einfluß dieses Werkes (man benützt es bereits in <rs type="place">amerikani¬</rs>
-               <lb facs="#facs_2_region_1681901351733_1829_tl_27" n="N029"/>
-               <rs type="place">sch</rs>en Synagogen) verleiht ihm überdies eine culturhistorische
+                  <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>
+               </hi>’schen „<rs type="bibl" ref="#hsl_work_id_1272">Schir-Zion</rs>“ ohne lebhaftes Interesse durch
+      <lb facs="#facs_2_region_1681901351733_1829_tl_25" n="N027" break="no"/>gehen wird. Der sich immer weiter ausbreitende reformirende
+      <lb facs="#facs_2_region_1681901351733_1829_tl_26" n="N028"/>Einfluß dieses Werkes (man benützt es bereits in 
+                     <rs type="place" ref="#hsl_place_id_176">amerikani
+               <lb facs="#facs_2_region_1681901351733_1829_tl_27" n="N029" break="no"/>sch</rs>en Synagogen) verleiht ihm überdies eine culturhistorische
       <lb facs="#facs_2_region_1681901351733_1829_tl_28" n="N030"/>Bedeutung. Kein Wunder, wenn selbst aus fernen Ländern,
       <lb facs="#facs_2_region_1681901351733_1829_tl_29" n="N031"/>wo man nie den Eindruck von <hi rendition="#em">
-                  <rs type="person">Sulzer</rs>’s</hi> Stimme erlebte,
+                  <rs type="person" ref="#hsl_person_id_1937">Sulzer</rs>’s</hi> Stimme erlebte,
       <lb facs="#facs_2_region_1681901351733_1829_tl_30" n="N032"/>Huldigungen und Ehrengeschenke an den Jubilar in Menge
       <lb facs="#facs_2_region_1681901351733_1829_tl_31" n="N033"/>hier eintreffen. <hi rendition="#em">
-                  <rs type="place">Wien</rs>
-               </hi> aber, die Stätte seines langen, rühm-
-      <lb facs="#facs_2_region_1681901351733_1829_tl_32" n="N034"/>lichen Wirkens, besitzt das erste Anrecht, den greisen Cantor
-      <lb facs="#facs_2_region_1681901351733_1829_tl_33" n="N035"/>zu feiern, der als Künstler weit über den Tempeldienst hin¬
-      <lb facs="#facs_2_region_1681901351733_1829_tl_34" n="N036"/>ausgereicht und als Priester durch die Läuterung <hi rendition="#em">seines</hi>
+                  <rs type="place" ref="#hsl_place_id_55">Wien</rs>
+               </hi> aber, die Stätte seines langen, rühm
+      <lb facs="#facs_2_region_1681901351733_1829_tl_32" n="N034" break="no"/>lichen Wirkens, besitzt das erste Anrecht, den greisen Cantor
+      <lb facs="#facs_2_region_1681901351733_1829_tl_33" n="N035"/>zu feiern, der als Künstler weit über den Tempeldienst hin
+      <lb facs="#facs_2_region_1681901351733_1829_tl_34" n="N036" break="no"/>ausgereicht und als Priester durch die Läuterung <hi rendition="#em">seines</hi>
                <lb facs="#facs_2_region_1681901351733_1829_tl_35" n="N037"/>Gottesdienstes für die Idee einer weihevollen und menschlich
       <lb facs="#facs_2_region_1681901351733_1829_tl_36" n="N038"/>schönen Andacht überhaupt gewirkt hat.</p>
          </div>
