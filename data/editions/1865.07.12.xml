@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -103,7 +103,7 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
+      <revisionDesc status="final">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="ampfiel" when="2023-04-07">Worttrennungen ausbessern</change>
@@ -956,11 +956,13 @@
    <text>
       <body>
          <div>
-         <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-         <cb n="1"/>
-         <lb facs="#facs_1_region_1673371451554_799_tl_2" n="N002"/><head type="h1"><rs ref="#hsl_place_id_21" type="place">Französisch</rs>e Schriftsteller über <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>.</head>
-         <p>
-      <lb facs="#facs_1_region_1673371451554_799_tl_3" n="N003"/>Ed. H. Unter den vielen Talenten, welche die Fran
+            <pb facs="#facs_1" n="1" xml:id="img_0001"/>
+            <cb n="1"/>
+            <lb facs="#facs_1_region_1673371451554_799_tl_2" n="N002"/>
+            <head type="h1">
+               <rs ref="#hsl_place_id_21" type="place">Französisch</rs>e Schriftsteller über <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>.</head>
+            <p>
+               <lb facs="#facs_1_region_1673371451554_799_tl_3" n="N003"/>Ed. H. Unter den vielen Talenten, welche die Fran
       <lb facs="#facs_1_region_1673371451554_799_tl_4" break="no" n="N004"/>zosen besitzen, erfreut eines sich einer ganz eminenten Aus
       <lb facs="#facs_1_region_1673371451554_799_tl_5" break="no" n="N005"/>bildung und Verwerthung: das Talent der Charlatanerie. Wir
       <lb facs="#facs_1_region_1673371451554_799_tl_6" n="N006"/>wollen das Wort nicht in dem plumpen und grellen Sinne
@@ -981,36 +983,55 @@
       <lb facs="#facs_1_region_1673371451554_799_tl_21" break="no" n="N021"/>lichen Gegenständen angepaßt. Auf musikalischem Gebiet
       <lb facs="#facs_1_region_1673371451554_799_tl_22" n="N022"/>grassirt dieses <rs ref="#hsl_place_id_21" type="place">französisch</rs>e Talent seit Jahren mit erschreckender
       <lb facs="#facs_1_region_1673371451554_799_tl_23" n="N023"/>Ungenirtheit. Proben davon haben wir unseren Lesern in der
-      <lb facs="#facs_1_region_1673371451554_799_tl_24" n="N024"/>Anzeige von <hi rendition="#em"><rs ref="#hsl_person_id_807" type="person">Scudo</rs>’s</hi> „<rs ref="#hsl_work_id_475" type="bibl">Chevalier Sarti</rs>“, <hi rendition="#em"><rs ref="#hsl_person_id_808" type="person">Escudier</rs>’s</hi><space quantity="1"/>
-      <lb facs="#facs_1_line_1673968495404_241" n="N025"/>„<rs ref="#hsl_work_id_476" type="bibl">Souvenirs</rs>“ u. a. geliefert. Das neueste Kind dieser Methode
-      <lb facs="#facs_1_region_1673371451554_799_tl_26" n="N026"/>heißt „<hi rendition="#em"><rs ref="#hsl_work_id_477" type="bibl">Meyerbeer und seine Zeit</rs></hi>“ und stammt aus
-      <lb facs="#facs_1_region_1673371451554_799_tl_27" n="N027"/>der Feder des Herrn Henri <hi rendition="#em"><rs ref="#hsl_person_id_809" type="person">Blaze de Bury</rs></hi><space quantity="1"/>
-         <note type="footnote" n="*)">
-         <lb facs="#facs_1_line_1673968587235_278" n="N001"/>„<rs ref="#hsl_work_id_477" type="bibl">Meyerbeer et son temps</rs>“ de Henry <hi rendition="#em"><rs ref="#hsl_person_id_809" type="person">Blaze de
-         <lb facs="#facs_1_region_1673371451554_799_tl_41" n="N002"/>Bury</rs></hi>. (<rs ref="#hsl_place_id_44" type="place">Paris</rs>, Michel <rs ref="#hsl_person_id_810" type="person">Lévy</rs>, <date>1865</date>.)</note>
+      <lb facs="#facs_1_region_1673371451554_799_tl_24" n="N024"/>Anzeige von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_807" type="person">Scudo</rs>’s</hi> „<rs ref="#hsl_work_id_475" type="bibl">Chevalier Sarti</rs>“, <hi rendition="#em">
+                  <rs ref="#hsl_person_id_808" type="person">Escudier</rs>’s</hi>
+               <space quantity="1"/>
+               <lb facs="#facs_1_line_1673968495404_241" n="N025"/>„<rs ref="#hsl_work_id_476" type="bibl">Souvenirs</rs>“ u. a. geliefert. Das neueste Kind dieser Methode
+      <lb facs="#facs_1_region_1673371451554_799_tl_26" n="N026"/>heißt „<hi rendition="#em">
+                  <rs ref="#hsl_work_id_477" type="bibl">Meyerbeer und seine Zeit</rs>
+               </hi>“ und stammt aus
+      <lb facs="#facs_1_region_1673371451554_799_tl_27" n="N027"/>der Feder des Herrn Henri <hi rendition="#em">
+                  <rs ref="#hsl_person_id_809" type="person">Blaze de Bury</rs>
+               </hi>
+               <space quantity="1"/>
+               <note type="footnote" n="*)">
+                  <lb facs="#facs_1_line_1673968587235_278" n="N001"/>„<rs ref="#hsl_work_id_477" type="bibl">Meyerbeer et son temps</rs>“ de Henry <hi rendition="#em">
+                     <rs ref="#hsl_person_id_809" type="person">Blaze de
+         <lb facs="#facs_1_region_1673371451554_799_tl_41" n="N002"/>Bury</rs>
+                  </hi>. (<rs ref="#hsl_place_id_44" type="place">Paris</rs>, Michel <rs ref="#hsl_person_id_810" type="person">Lévy</rs>, <date>1865</date>.)</note>
          .
-         </p><p>
-      <lb facs="#facs_1_region_1673371451554_799_tl_28" n="N028"/>Seit längerer Zeit als wichtiges Ereigniß annoncirt, er
+         </p>
+            <p>
+               <lb facs="#facs_1_region_1673371451554_799_tl_28" n="N028"/>Seit längerer Zeit als wichtiges Ereigniß annoncirt, er
       <lb facs="#facs_1_region_1673371451554_799_tl_29" break="no" n="N029"/>freut sich dieses Buch der ausgiebigsten Reclamen in <rs ref="#hsl_place_id_21" type="place">franzö
       <lb facs="#facs_1_region_1673371451554_799_tl_30" break="no" n="N030"/>sisch</rs>en und <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Blättern. Es hat auch uns die größte
       <lb facs="#facs_1_region_1673371451554_799_tl_31" n="N031"/>Bewunderung abgenöthigt. Denn bewunderungswürdig finden
       <lb facs="#facs_1_region_1673371451554_799_tl_32" n="N032"/>wir, wie ein Autor, der außer einigen unerheblichen Anekdo
-      <lb facs="#facs_1_region_1673371451554_799_tl_33" break="no" n="N033"/>ten auch nicht <hi rendition="#em">ein</hi> neues oder treffendes Wort über <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyer
-      <lb facs="#facs_1_region_1673371451554_799_tl_34" break="no" n="N034"/>beer</rs></hi> und seine Musik vorzubringen weiß, ein Buch von bei
+      <lb facs="#facs_1_region_1673371451554_799_tl_33" break="no" n="N033"/>ten auch nicht <hi rendition="#em">ein</hi> neues oder treffendes Wort über <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyer
+      <lb facs="#facs_1_region_1673371451554_799_tl_34" break="no" n="N034"/>beer</rs>
+               </hi> und seine Musik vorzubringen weiß, ein Buch von bei
       <lb facs="#facs_1_region_1673371451554_799_tl_35" break="no" n="N035"/>nahe 400 Seiten über diesen Componisten zu Stande bringt.
       <lb facs="#facs_1_region_1673371451554_799_tl_36" n="N036"/>Diese paar Anekdoten, Aeußerungen und Charakterzüge, die
       <lb facs="#facs_1_line_1673968539699_266" n="N037"/>der Verfasser recht lebhaft erzählt, sind bequem in einem
       <lb facs="#facs_1_region_1673371451554_799_tl_38" n="N038"/>Feuilleton unterzubringen.</p>
-         <cb n="2"/>
-         <p>
-      <lb facs="#facs_1_line_1673968636051_293" n="N001"/>Mr. <hi rendition="#em"><rs ref="#hsl_person_id_809" type="person">Blaze de Bury</rs></hi> ist der Sohn des bekannten
-      <lb facs="#facs_1_region_1673371455146_802_tl_1" n="N002"/>Musikschriftstellers <hi rendition="#em"><rs ref="#hsl_person_id_811" type="person">Castil-Blaze</rs></hi>, der durch eine Reihe
+            <cb n="2"/>
+            <p>
+               <lb facs="#facs_1_line_1673968636051_293" n="N001"/>Mr. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_809" type="person">Blaze de Bury</rs>
+               </hi> ist der Sohn des bekannten
+      <lb facs="#facs_1_region_1673371455146_802_tl_1" n="N002"/>Musikschriftstellers <hi rendition="#em">
+                  <rs ref="#hsl_person_id_811" type="person">Castil-Blaze</rs>
+               </hi>, der durch eine Reihe
       <lb facs="#facs_1_region_1673371455146_802_tl_2" n="N003"/>von Werken über <rs ref="#hsl_place_id_21" type="place">französisch</rs>e Musik sich unleugbare Verdienste
       <lb facs="#facs_1_region_1673371455146_802_tl_3" n="N004"/>erworben hat. Er hatte die seltene Eigenschaft, musikalische
       <lb facs="#facs_1_region_1673371455146_802_tl_4" n="N005"/>Kenntnisse zu besitzen und nur dann ein Buch zu schreiben,
-      <lb facs="#facs_1_line_1673968671677_306" n="N006"/>wenn er uns irgend etwas zu sagen wußte. Sein Sohn <rs ref="#hsl_person_id_809" type="person">Henri</rs><space quantity="1"/>
-      <lb facs="#facs_1_region_1673371455146_802_tl_6" n="N007"/>— als Gesandtschafts-Attaché decorirt und mit dem Prädicat
-      <lb facs="#facs_1_region_1673371455146_802_tl_7" n="N008"/><hi rendition="#em">de Bury</hi> geadelt — hat von seinem Vater keine dieser bei
+      <lb facs="#facs_1_line_1673968671677_306" n="N006"/>wenn er uns irgend etwas zu sagen wußte. Sein Sohn <rs ref="#hsl_person_id_809" type="person">Henri</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_1_region_1673371455146_802_tl_6" n="N007"/>— als Gesandtschafts-Attaché decorirt und mit dem Prädicat
+      <lb facs="#facs_1_region_1673371455146_802_tl_7" n="N008"/>
+               <hi rendition="#em">de Bury</hi> geadelt — hat von seinem Vater keine dieser bei
       <lb facs="#facs_1_region_1673371455146_802_tl_8" break="no" n="N009"/>den Eigenschaften, sondern blos die musikalische Passion ge
       <lb facs="#facs_1_region_1673371455146_802_tl_9" break="no" n="N010"/>erbt. Gründliche Kenntnisse in diesem Fach fehlen ihm durch
       <lb facs="#facs_1_region_1673371455146_802_tl_10" break="no" n="N011"/>aus; er schreibt und urtheilt mit der Zuversicht und Ober
@@ -1035,143 +1056,249 @@
       <lb facs="#facs_1_region_1673371455146_802_tl_26" n="N030"/>Urtheile, die in <rs ref="#hsl_place_id_14" type="place">Deutschland</rs> längst geistige Scheidemünze ge
       <lb facs="#facs_1_region_1673371455146_802_tl_27" break="no" n="N031"/>worden sind, ihnen für neue, eigenthümliche Gedanken auf
       <lb facs="#facs_1_region_1673371455146_802_tl_28" break="no" n="N032"/>tischen.
-         </p><p>
-      <lb facs="#facs_1_region_1673371455146_802_tl_29" n="N033"/>Diese Quelle kann nicht versiegen, wenn der <rs ref="#hsl_place_id_21" type="place">französisch</rs>e
+         </p>
+            <p>
+               <lb facs="#facs_1_region_1673371455146_802_tl_29" n="N033"/>Diese Quelle kann nicht versiegen, wenn der <rs ref="#hsl_place_id_21" type="place">französisch</rs>e
       <lb facs="#facs_1_region_1673371455146_802_tl_30" n="N034"/>Causeur sich auch nur an das Auffallendste und Zugänglichste
       <lb facs="#facs_1_region_1673371455146_802_tl_31" n="N035"/>der <rs ref="#hsl_place_id_14" type="place">deutsch</rs>en Literatur hält. Auf Schritt und Tritt begegnen
       <lb facs="#facs_1_region_1673371455146_802_tl_32" n="N036"/>wir bei Herrn v. <rs ref="#hsl_person_id_809" type="person">Blaze</rs> den Namen <rs ref="#hsl_person_id_100" type="person">Goethe</rs>, <rs ref="#hsl_person_id_378" type="person">Hegel</rs>, <rs ref="#hsl_person_id_132" type="person">Hum
-      <lb facs="#facs_1_region_1673371455146_802_tl_33" break="no" n="N037"/>boldt</rs>, <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>, <rs ref="#hsl_person_id_812" type="person">Kaulbach</rs> etc. Hier prunkt eine <hi rendition="#em"><rs ref="#hsl_person_id_378" type="person">Hegel</rs></hi>’sche
+      <lb facs="#facs_1_region_1673371455146_802_tl_33" break="no" n="N037"/>boldt</rs>, <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>, <rs ref="#hsl_person_id_812" type="person">Kaulbach</rs> etc. Hier prunkt eine <hi rendition="#em">
+                  <rs ref="#hsl_person_id_378" type="person">Hegel</rs>
+               </hi>’sche
       <lb facs="#facs_1_region_1673371455146_802_tl_34" n="N038"/>Rhapsodie über die „Idee“, die allein das Kunstwerk hervor
-      <lb facs="#facs_1_line_1673968539699_265" break="no" n="N039"/>bringe und seine Bedeutung entscheide, dort eine <hi rendition="#em"><rs ref="#hsl_person_id_410" type="person">Riehl</rs></hi>’sche
+      <lb facs="#facs_1_line_1673968539699_265" break="no" n="N039"/>bringe und seine Bedeutung entscheide, dort eine <hi rendition="#em">
+                  <rs ref="#hsl_person_id_410" type="person">Riehl</rs>
+               </hi>’sche
       <lb facs="#facs_1_region_1673371455146_802_tl_35" n="N040"/>Reminiscenz von dem Zusammenhang der Musik mit der
       <lb facs="#facs_1_region_1673371455146_802_tl_36" n="N041"/>Politik, mit der Philosophie und was noch sonst Allem, bald
-      <lb facs="#facs_1_line_1673968855718_404" n="N042"/>klingt eine schwärmerische Metapher <hi rendition="#em"><rs ref="#hsl_person_id_116" type="person">Heine</rs>’s</hi>, bald ein Witz</p>
-         <cb n="3"/>
-         <p prev="true">
-      <lb facs="#facs_1_line_1673968886893_413" break="no" n="N001"/>wort von <hi rendition="#em"><rs ref="#hsl_person_id_40" type="person">Börne</rs></hi> an — und dies Alles so funkelnagelneu
+      <lb facs="#facs_1_line_1673968855718_404" n="N042"/>klingt eine schwärmerische Metapher <hi rendition="#em">
+                  <rs ref="#hsl_person_id_116" type="person">Heine</rs>’s</hi>, bald ein Witz</p>
+            <cb n="3"/>
+            <p prev="true">
+               <lb facs="#facs_1_line_1673968886893_413" break="no" n="N001"/>wort von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_40" type="person">Börne</rs>
+               </hi> an — und dies Alles so funkelnagelneu
       <lb facs="#facs_1_region_1673371458242_805_tl_1" n="N002"/>und originell für die Leser des Herrn v. <rs ref="#hsl_person_id_809" type="person">Blaze</rs>!
-         </p><p>
-      <lb facs="#facs_1_region_1673371458242_805_tl_2" n="N003"/>Das Buch beginnt mit einer Einleitung über den „Geist
+         </p>
+            <p>
+               <lb facs="#facs_1_region_1673371458242_805_tl_2" n="N003"/>Das Buch beginnt mit einer Einleitung über den „Geist
       <lb facs="#facs_1_region_1673371458242_805_tl_3" n="N004"/>der Zeit“, d. h. mit einigen ästhetisirenden Phrasen über
       <lb facs="#facs_1_region_1673371458242_805_tl_4" n="N005"/>Musik, <rs ref="#hsl_person_id_189" type="person">Mozart</rs>, <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>, <rs ref="#hsl_person_id_815" type="person">Michel-Angelo</rs>, <rs ref="#hsl_person_id_816" type="person">Rafael</rs>, <rs ref="#hsl_person_id_817" type="person">Franz</rs> I.,
       <lb facs="#facs_1_line_1673968671677_305" n="N006"/>Leonardo da <rs ref="#hsl_person_id_1109" type="person">Vinci</rs> u. s. w. In diese illustre Gesellschaft fällt
-      <lb facs="#facs_1_region_1673371458242_805_tl_5" n="N007"/>nun plötzlich <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi>, von dessen Jugend und Studien
+      <lb facs="#facs_1_region_1673371458242_805_tl_5" n="N007"/>nun plötzlich <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi>, von dessen Jugend und Studien
       <lb facs="#facs_1_region_1673371458242_805_tl_6" break="no" n="N008"/>zeit uns die altbekannten Dinge erzählt werden, hie und da
       <lb facs="#facs_1_region_1673371458242_805_tl_7" n="N009"/>von einem kleinen Feuerwerk des Gefühls oder der Geistreich
       <lb facs="#facs_1_region_1673371458242_805_tl_8" break="no" n="N010"/>heit unterbrochen. Der Aufenthalt bei Abbé <rs ref="#hsl_person_id_818" type="person">Vogler</rs> wird ge
-      <lb facs="#facs_1_region_1673371458242_805_tl_9" break="no" n="N011"/>schildert und dabei Karl Maria <rs ref="#hsl_person_id_321" type="person">Weber</rs> für einen <hi rendition="#em">Bruder</hi><space quantity="1"/>
-      <lb facs="#facs_1_region_1673371458242_805_tl_10" n="N012"/>des Theoretikers <hi rendition="#em">Gottfried</hi><space quantity="1"/><rs ref="#hsl_person_id_398" type="person">Weber</rs> gehalten. Von einer
+      <lb facs="#facs_1_region_1673371458242_805_tl_9" break="no" n="N011"/>schildert und dabei Karl Maria <rs ref="#hsl_person_id_321" type="person">Weber</rs> für einen <hi rendition="#em">Bruder</hi>
+               <space quantity="1"/>
+               <lb facs="#facs_1_region_1673371458242_805_tl_10" n="N012"/>des Theoretikers <hi rendition="#em">Gottfried</hi>
+               <space quantity="1"/>
+               <rs ref="#hsl_person_id_398" type="person">Weber</rs> gehalten. Von einer
       <lb facs="#facs_1_region_1673371458242_805_tl_11" n="N013"/>strengeren chronologischen Anordnung, von logischem Zusam
       <lb facs="#facs_1_region_1673371458242_805_tl_12" break="no" n="N014"/>menhang des Stoffes ist bei Herrn v. <rs ref="#hsl_person_id_809" type="person">Blaze</rs> kaum die Rede,
       <lb facs="#facs_1_region_1673371458242_805_tl_13" n="N015"/>Früheres oder Späteres wird fortwährend durcheinanderge
       <lb facs="#facs_1_line_1673968701708_327" break="no" n="N016"/>mischt und bei jedem lockenden Stichwort das Entlegenste her
       <lb facs="#facs_1_region_1673371458242_805_tl_14" break="no" n="N017"/>beigeholt. So müssen wir bei Gelegenheit des „<rs ref="#hsl_work_id_58" type="bibl">Robert</rs>“ die
-      <lb facs="#facs_1_line_1673968989702_440" n="N018"/>Biographie („la légende“) von <hi rendition="#em"><rs ref="#hsl_person_id_196" type="person">Nourrit</rs></hi> und der <hi rendition="#em"><rs ref="#hsl_person_id_819" type="person">Mali
-      <lb facs="#facs_1_region_1673371458242_805_tl_17" break="no" n="N019"/>bran</rs></hi> hören, das Stichwort „<rs ref="#hsl_place_id_9" type="place">Berlin</rs>“ zieht einen langen
-      <lb facs="#facs_1_region_1673371458242_805_tl_18" n="N020"/>Excurs über <hi rendition="#em">Jenny <rs ref="#hsl_person_id_163" type="person">Lind</rs></hi> nach sich, welche nach Herrn v.
-      <lb facs="#facs_1_region_1673371458242_805_tl_19" n="N021"/><rs ref="#hsl_person_id_809" type="person">Blaze</rs><space quantity="1"/><hi rendition="#em">als Gesangskünstlerin von Fräulein <rs ref="#hsl_person_id_820" type="person">Lucca</rs></hi><space quantity="1"/>
-      <lb facs="#facs_1_region_1673371458242_805_tl_20" n="N022"/><hi rendition="#em">übertroffen</hi> wird! Und so ins Unabsehbare weiter.
-         </p><p>
-      <lb facs="#facs_1_region_1673371458242_805_tl_21" n="N023"/>Herrn v. <hi rendition="#em"><rs ref="#hsl_person_id_809" type="person">Blaze</rs>’s</hi> Urtheil über <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi> ist einfach
+      <lb facs="#facs_1_line_1673968989702_440" n="N018"/>Biographie („la légende“) von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_196" type="person">Nourrit</rs>
+               </hi> und der <hi rendition="#em">
+                  <rs ref="#hsl_person_id_819" type="person">Mali
+      <lb facs="#facs_1_region_1673371458242_805_tl_17" break="no" n="N019"/>bran</rs>
+               </hi> hören, das Stichwort „<rs ref="#hsl_place_id_9" type="place">Berlin</rs>“ zieht einen langen
+      <lb facs="#facs_1_region_1673371458242_805_tl_18" n="N020"/>Excurs über <hi rendition="#em">Jenny <rs ref="#hsl_person_id_163" type="person">Lind</rs>
+               </hi> nach sich, welche nach Herrn v.
+      <lb facs="#facs_1_region_1673371458242_805_tl_19" n="N021"/>
+               <rs ref="#hsl_person_id_809" type="person">Blaze</rs>
+               <space quantity="1"/>
+               <hi rendition="#em">als Gesangskünstlerin von Fräulein <rs ref="#hsl_person_id_820" type="person">Lucca</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb facs="#facs_1_region_1673371458242_805_tl_20" n="N022"/>
+               <hi rendition="#em">übertroffen</hi> wird! Und so ins Unabsehbare weiter.
+         </p>
+            <p>
+               <lb facs="#facs_1_region_1673371458242_805_tl_21" n="N023"/>Herrn v. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_809" type="person">Blaze</rs>’s</hi> Urtheil über <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi> ist einfach
       <lb facs="#facs_1_region_1673371458242_805_tl_22" n="N024"/>und consequent, es besteht in enthusiastischer Vergötterung.
       <lb facs="#facs_1_line_1673968751789_353" n="N025"/>Wie kritiklos unser <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>-Priester selbst innerhalb dieses
-      <lb facs="#facs_1_line_1673968792621_365" n="N026"/>Tempelbaues vorgeht, beweist er, indem er den „<hi rendition="#em"><rs ref="#hsl_work_id_113" type="bibl">Propheten</rs></hi>“
-      <lb facs="#facs_1_region_1673371458242_805_tl_23" n="N027"/>für <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s</hi> bestes Werk erklärt! Daneben hat er
+      <lb facs="#facs_1_line_1673968792621_365" n="N026"/>Tempelbaues vorgeht, beweist er, indem er den „<hi rendition="#em">
+                  <rs ref="#hsl_work_id_113" type="bibl">Propheten</rs>
+               </hi>“
+      <lb facs="#facs_1_region_1673371458242_805_tl_23" n="N027"/>für <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s</hi> bestes Werk erklärt! Daneben hat er
       <lb facs="#facs_1_region_1673371458242_805_tl_24" n="N028"/>natürlich auch für „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ und den „<rs ref="#hsl_work_id_139" type="bibl">Nordstern</rs>“ nur die
-      <lb facs="#facs_1_region_1673371458242_805_tl_25" n="N029"/>ungemessenste Bewunderung, erklärt den „<hi rendition="#em"><rs ref="#hsl_work_id_9" type="bibl">Schillermarsch</rs></hi>“
+      <lb facs="#facs_1_region_1673371458242_805_tl_25" n="N029"/>ungemessenste Bewunderung, erklärt den „<hi rendition="#em">
+                  <rs ref="#hsl_work_id_9" type="bibl">Schillermarsch</rs>
+               </hi>“
       <lb facs="#facs_1_region_1673371458242_805_tl_26" n="N030"/>für ein unsterbliches Meisterwerk und setzt die <rs ref="#hsl_work_id_10" type="bibl">Struensee</rs>-Ouver
-      <lb facs="#facs_1_region_1673371458242_805_tl_27" break="no" n="N031"/>ture an die Seite der Fresken von <hi rendition="#em"><rs ref="#hsl_person_id_821" type="person">Cornelius</rs></hi> im Campo
-      <lb facs="#facs_1_region_1673371458242_805_tl_28" break="no" n="N032"/>santo zu <rs ref="#hsl_place_id_9" type="place">Berlin</rs>. In seinem Urtheil über <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi> ist
-      <lb facs="#facs_1_region_1673371458242_805_tl_29" n="N033"/>Herr v. <rs ref="#hsl_person_id_809" type="person"><hi rendition="#em">Blaze</hi></rs> gänzlich unzurechnungsfähig, es ist als hörte
+      <lb facs="#facs_1_region_1673371458242_805_tl_27" break="no" n="N031"/>ture an die Seite der Fresken von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_821" type="person">Cornelius</rs>
+               </hi> im Campo
+      <lb facs="#facs_1_region_1673371458242_805_tl_28" break="no" n="N032"/>santo zu <rs ref="#hsl_place_id_9" type="place">Berlin</rs>. In seinem Urtheil über <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi> ist
+      <lb facs="#facs_1_region_1673371458242_805_tl_29" n="N033"/>Herr v. <rs ref="#hsl_person_id_809" type="person">
+                  <hi rendition="#em">Blaze</hi>
+               </rs> gänzlich unzurechnungsfähig, es ist als hörte
       <lb facs="#facs_1_region_1673371458242_805_tl_30" n="N034"/>man einen Theater-Enthusiasten gewöhnlichster Sorte reden.
-         </p><p>
-      <lb facs="#facs_1_region_1673371458242_805_tl_31" n="N035"/>Wir verzichten demnach auf jede weitere Bemerkung
+         </p>
+            <p>
+               <lb facs="#facs_1_region_1673371458242_805_tl_31" n="N035"/>Wir verzichten demnach auf jede weitere Bemerkung
       <lb facs="#facs_1_region_1673371458242_805_tl_32" n="N036"/>über den musikalisch kritischen Theil des Buches, wenn man
       <lb facs="#facs_1_region_1673371458242_805_tl_33" n="N037"/>eine Anhäufung verhimmelnder Superlative und Metaphern
       <lb facs="#facs_1_region_1673371458242_805_tl_34" n="N038"/>so nennen darf.
-         </p><p>
-      <lb facs="#facs_1_region_1673371458242_805_tl_35" n="N039"/>Einigermaßen versöhnt uns mit dieser kritischen Unmün
+         </p>
+            <p>
+               <lb facs="#facs_1_region_1673371458242_805_tl_35" n="N039"/>Einigermaßen versöhnt uns mit dieser kritischen Unmün
       <lb facs="#facs_1_region_1673371458242_805_tl_36" break="no" n="N040"/>digkeit des Verfassers seine warme, freundschaftliche Hingebung
       <lb facs="#facs_1_region_1673371458242_805_tl_37" n="N041"/>an die Person <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s. Er spricht mit der größten Ver
-      <lb facs="#facs_1_line_1673968855717_403" break="no" n="N042"/>ehrung von <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s Charakter und darf hierin auf die<space quantity="1"/></p>
-         <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-         <cb n="4"/>
-         <p prev="true">
-      <lb facs="#facs_2_region_1673371469610_811_tl_1" n="N001"/>Zustimmung Aller zählen, die den Meister persönlich kannten.
+      <lb facs="#facs_1_line_1673968855717_403" break="no" n="N042"/>ehrung von <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s Charakter und darf hierin auf die<space quantity="1"/>
+            </p>
+            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1673371469610_811_tl_1" n="N001"/>Zustimmung Aller zählen, die den Meister persönlich kannten.
       <lb facs="#facs_2_region_1673371469610_811_tl_2" n="N002"/>Manche Mittheilung des Verfassers aus seinem persönlichen
       <lb facs="#facs_2_region_1673371469610_811_tl_3" n="N003"/>Verkehr mit dem berühmten Componisten ist recht anziehend.
-      <lb facs="#facs_2_region_1673371469610_811_tl_4" n="N004"/><hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi>, höchst bescheiden bezüglich seiner eigenen Lei
+      <lb facs="#facs_2_region_1673371469610_811_tl_4" n="N004"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi>, höchst bescheiden bezüglich seiner eigenen Lei
       <lb facs="#facs_2_region_1673371469610_811_tl_5" break="no" n="N005"/>stungen, ließ auch jedes andere Talent gelten, war voll war
       <lb facs="#facs_2_region_1673371469610_811_tl_6" break="no" n="N006"/>mer, werkthätiger Anerkennung, selbst solcher Componisten,
       <lb facs="#facs_2_region_1673371469610_811_tl_7" n="N007"/>die ihm stets feindselig gesinnt waren. Einer dieser heimlichen
       <lb facs="#facs_2_region_1673371469610_811_tl_8" n="N008"/>Neider und Gegner <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s begegnet einmal Herrn v.
-      <lb facs="#facs_2_region_1673371469610_811_tl_9" n="N009"/><rs ref="#hsl_person_id_809" type="person">Blaze</rs> auf dem Boulevard, hält ihn fest und äußert in den
+      <lb facs="#facs_2_region_1673371469610_811_tl_9" n="N009"/>
+               <rs ref="#hsl_person_id_809" type="person">Blaze</rs> auf dem Boulevard, hält ihn fest und äußert in den
       <lb facs="#facs_2_region_1673371469610_811_tl_10" n="N010"/>überschwenglichsten Phrasen seine Bewunderung für <rs ref="#hsl_person_id_182" type="person">Meyer
-      <lb facs="#facs_2_region_1673371469610_811_tl_11" break="no" n="N011"/>beer</rs>’s Genie. Herr v. <rs ref="#hsl_person_id_809" type="person"><hi rendition="#em">Blaze</hi></rs> erzählt bei Tische diese Aeuße
+      <lb facs="#facs_2_region_1673371469610_811_tl_11" break="no" n="N011"/>beer</rs>’s Genie. Herr v. <rs ref="#hsl_person_id_809" type="person">
+                  <hi rendition="#em">Blaze</hi>
+               </rs> erzählt bei Tische diese Aeuße
       <lb facs="#facs_2_region_1673371469610_811_tl_12" break="no" n="N012"/>rungen <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> wieder, der freudig lauscht und ganz stolz
       <lb facs="#facs_2_region_1673371469610_811_tl_13" n="N013"/>darüber aussieht. „Ja, glauben Sie denn wirklich,“ frägt ihn
-      <lb facs="#facs_2_region_1673371469610_811_tl_14" n="N014"/><rs ref="#hsl_person_id_809" type="person">Blaze</rs> erstaunt, „daß dies Alles auch aufrichtig gemeint sei?“
+      <lb facs="#facs_2_region_1673371469610_811_tl_14" n="N014"/>
+               <rs ref="#hsl_person_id_809" type="person">Blaze</rs> erstaunt, „daß dies Alles auch aufrichtig gemeint sei?“
       <lb facs="#facs_2_line_1673975103303_753" n="N015"/>„Gewiß nicht,“ erwidert <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> gutmüthig; „von all’
       <lb facs="#facs_2_region_1673371469610_811_tl_17" n="N016"/>diesem Lob glaubt unser Ehrenmann kein Wort, er wollte
       <lb facs="#facs_2_line_1673975119536_759" n="N017"/>nur, daß Sie mir es wiedersagen, und diese gute Absicht ist
       <lb facs="#facs_2_region_1673371469610_811_tl_19" n="N018"/>es, wofür ich ihm dankbar bin.“
-         </p><p>
-      <lb facs="#facs_2_line_1673975206436_785" n="N019"/>Ein einziger Name hatte das Privilegium, <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371469610_811_tl_21" n="N020"/>zu reizen: der Name Richard <hi rendition="#em"><rs ref="#hsl_person_id_319" type="person">Wagner</rs>’s</hi>. Er konnte ihn
+         </p>
+            <p>
+               <lb facs="#facs_2_line_1673975206436_785" n="N019"/>Ein einziger Name hatte das Privilegium, <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371469610_811_tl_21" n="N020"/>zu reizen: der Name Richard <hi rendition="#em">
+                  <rs ref="#hsl_person_id_319" type="person">Wagner</rs>’s</hi>. Er konnte ihn
       <lb facs="#facs_2_region_1673371469610_811_tl_22" n="N021"/>nicht aussprechen hören, ohne für einen Augenblick eine unan
       <lb facs="#facs_2_region_1673371469610_811_tl_23" break="no" n="N022"/>genehme Erregung zu empfinden, etwas wie eine Dissonanz.
-      <lb facs="#facs_2_region_1673371469610_811_tl_24" n="N023"/>Wir können diese von <hi rendition="#em"><rs ref="#hsl_person_id_809" type="person">Blaze</rs></hi> treffend ausgedrückte Wahrneh
+      <lb facs="#facs_2_region_1673371469610_811_tl_24" n="N023"/>Wir können diese von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_809" type="person">Blaze</rs>
+               </hi> treffend ausgedrückte Wahrneh
       <lb facs="#facs_2_region_1673371469610_811_tl_25" break="no" n="N024"/>mung aus eigener Erfahrung bestätigen; <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> pflegte
       <lb facs="#facs_2_region_1673371469610_811_tl_26" n="N025"/>dann das Gespräch sofort abzulenken, da sein vornehmes, zart
       <lb facs="#facs_2_region_1673371469610_811_tl_27" break="no" n="N026"/>fühlendes Wesen sich dagegen sträubte, Nachtheiliges über den
       <lb facs="#facs_2_region_1673371469610_811_tl_28" n="N027"/>Mann zu äußern, dessen künstlerische Richtung ihm in der
       <lb facs="#facs_2_region_1673371469610_811_tl_29" n="N028"/>Seele verhaßt war, und der überdies in so heftiger Weise
       <lb facs="#facs_2_region_1673371469610_811_tl_30" n="N029"/>gegen <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> geschrieben hatte.
-         </p><p>
-      <lb facs="#facs_2_region_1673371469610_811_tl_31" n="N030"/><hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi> war unermüdlich im Arbeiten, Nachdenken,
+         </p>
+            <p>
+               <lb facs="#facs_2_region_1673371469610_811_tl_31" n="N030"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi> war unermüdlich im Arbeiten, Nachdenken,
       <lb facs="#facs_2_region_1673371469610_811_tl_32" n="N031"/>Lesen. Mehrere Dichtungen ergriffen ihn so mächtig bei der
       <lb facs="#facs_2_region_1673371469610_811_tl_33" n="N032"/>Lectüre, daß er gleich an eine musikalische Bearbeitung der
       <lb facs="#facs_2_region_1673371469610_811_tl_34" break="no" n="N033"/>selben dachte. Freilich ist im Strudel seiner übrigen Arbeiten
       <lb facs="#facs_2_region_1673371469610_811_tl_35" n="N034"/>manches dieser Projecte zu Wasser geworden. So wollte er
       <lb facs="#facs_2_region_1673371469610_811_tl_36" n="N035"/>die Sage von <rs ref="#hsl_person_id_861" type="person">Hero</rs> und <rs ref="#hsl_person_id_860" type="person">Leander</rs> nach Art eines Zwischen
       <lb facs="#facs_2_region_1673371469610_811_tl_37" break="no" n="N036"/>spiels für zwei Personen componiren; er dachte dabei an die
-      <lb facs="#facs_2_region_1673371469610_811_tl_38" n="N037"/><hi rendition="#em"><rs ref="#hsl_person_id_862" type="person">Grisi</rs></hi> und <hi rendition="#em"><rs ref="#hsl_person_id_863" type="person">Mario</rs></hi>. Längere Zeit trug sich <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> mit
+      <lb facs="#facs_2_region_1673371469610_811_tl_38" n="N037"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_862" type="person">Grisi</rs>
+               </hi> und <hi rendition="#em">
+                  <rs ref="#hsl_person_id_863" type="person">Mario</rs>
+               </hi>. Längere Zeit trug sich <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> mit
       <lb facs="#facs_2_region_1673371469610_811_tl_39" n="N038"/>dem Gedanken einer Composition des „<rs ref="#hsl_work_id_500" type="bibl">Zauberlehrling</rs>s“ von
-      <lb facs="#facs_2_region_1673371469610_811_tl_40" n="N039"/><hi rendition="#em"><rs ref="#hsl_person_id_100" type="person">Goethe</rs></hi>. <hi rendition="#em"><rs ref="#hsl_person_id_809" type="person">Blaze</rs></hi> sollte mit einigen Aenderungen der Fabel
+      <lb facs="#facs_2_region_1673371469610_811_tl_40" n="N039"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_100" type="person">Goethe</rs>
+               </hi>. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_809" type="person">Blaze</rs>
+               </hi> sollte mit einigen Aenderungen der Fabel
       <lb facs="#facs_2_region_1673371469610_811_tl_41" n="N040"/>das Gedicht als einactige Oper behandeln. Eine noch wunder
-      <lb facs="#facs_2_region_1673371469610_811_tl_42" break="no" n="N041"/>lichere Idee dünkt uns die Composition von <hi rendition="#em"><rs ref="#hsl_person_id_864" type="person">Molière</rs>’s</hi><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371469610_811_tl_43" n="N042"/>„<rs ref="#hsl_work_id_501" type="bibl">Tartüffe</rs>“, welche <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> beabsichtigte; die Zeichnung der
+      <lb facs="#facs_2_region_1673371469610_811_tl_42" break="no" n="N041"/>lichere Idee dünkt uns die Composition von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_864" type="person">Molière</rs>’s</hi>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371469610_811_tl_43" n="N042"/>„<rs ref="#hsl_work_id_501" type="bibl">Tartüffe</rs>“, welche <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> beabsichtigte; die Zeichnung der
       <lb facs="#facs_2_region_1673371469610_811_tl_44" n="N043"/>Charaktere reizte ihn. <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s Freunde sprachen ihm oft
-      <lb facs="#facs_2_line_1673975295551_824" n="N044"/>von <hi rendition="#em"><rs ref="#hsl_person_id_100" type="person">Goethe</rs>’s</hi> „<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“ als Opernstoff. Gewissermaßen war
+      <lb facs="#facs_2_line_1673975295551_824" n="N044"/>von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_100" type="person">Goethe</rs>’s</hi> „<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“ als Opernstoff. Gewissermaßen war
       <lb facs="#facs_2_line_1673975317192_831" n="N045"/>er authentisch dazu berechtigt, da <rs ref="#hsl_person_id_100" type="person">Goethe</rs> bekanntlich geäußert
-      <lb facs="#facs_2_line_1673975332154_836" n="N046"/>hatte, die vollkommenste musikalische Behandlung seines „<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“<space quantity="1"/></p>
-         <cb n="5"/>
-         <p prev="true">
-      <lb facs="#facs_2_line_1673975479599_870" n="N001"/>würde <hi rendition="#em"><rs ref="#hsl_person_id_189" type="person">Mozart</rs></hi> geliefert haben; da dieser todt sei, wäre auf
-      <lb facs="#facs_2_region_1673371472659_814_tl_3" n="N002"/><hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi> das meiste Vertrauen zu setzen.
-         <note type="footnote" n="*)"><lb facs="#facs_2_line_1673975586481_918" n="N001"/>Herr v. <rs ref="#hsl_person_id_809" type="person"><hi rendition="#em">Blaze</hi></rs> findet noch einen dritten Componisten in
+      <lb facs="#facs_2_line_1673975332154_836" n="N046"/>hatte, die vollkommenste musikalische Behandlung seines „<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“<space quantity="1"/>
+            </p>
+            <cb n="5"/>
+            <p prev="true">
+               <lb facs="#facs_2_line_1673975479599_870" n="N001"/>würde <hi rendition="#em">
+                  <rs ref="#hsl_person_id_189" type="person">Mozart</rs>
+               </hi> geliefert haben; da dieser todt sei, wäre auf
+      <lb facs="#facs_2_region_1673371472659_814_tl_3" n="N002"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi> das meiste Vertrauen zu setzen.
+         <note type="footnote" n="*)">
+                  <lb facs="#facs_2_line_1673975586481_918" n="N001"/>Herr v. <rs ref="#hsl_person_id_809" type="person">
+                     <hi rendition="#em">Blaze</hi>
+                  </rs> findet noch einen dritten Componisten in
          <lb facs="#facs_2_line_1673975600066_924" n="N002"/>gleichem Maße wie <rs ref="#hsl_person_id_189" type="person">Mozart</rs> und <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> zur Composition des
-         <lb facs="#facs_2_line_1673975629682_935" n="N003"/>„<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“ berufen, und dies ist — <hi rendition="#em"><rs ref="#hsl_person_id_241" type="person">Rossini</rs></hi>! <hi rendition="#em"><rs ref="#hsl_person_id_241" type="person">Rossini</rs></hi> hätte, nach
-         <lb facs="#facs_2_line_1673975655675_940" n="N004"/><rs ref="#hsl_person_id_809" type="person">Blaze</rs>’s Meinung, das <hi rendition="#em"><rs ref="#hsl_person_id_100" type="person">Goethe</rs></hi>’sche Gedicht von der meist vernach
+         <lb facs="#facs_2_line_1673975629682_935" n="N003"/>„<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“ berufen, und dies ist — <hi rendition="#em">
+                     <rs ref="#hsl_person_id_241" type="person">Rossini</rs>
+                  </hi>! <hi rendition="#em">
+                     <rs ref="#hsl_person_id_241" type="person">Rossini</rs>
+                  </hi> hätte, nach
+         <lb facs="#facs_2_line_1673975655675_940" n="N004"/>
+                  <rs ref="#hsl_person_id_809" type="person">Blaze</rs>’s Meinung, das <hi rendition="#em">
+                     <rs ref="#hsl_person_id_100" type="person">Goethe</rs>
+                  </hi>’sche Gedicht von der meist vernach
          <lb facs="#facs_2_line_1673975685612_948" break="no" n="N005"/>lässigten Seite, nämlich <hi rendition="#em">vom Geiste aus</hi> (par l’esprit) gefaßt, und
-         <lb facs="#facs_2_line_1673975422165_855" n="N006"/>vor Allem aus dem <hi rendition="#em"><rs ref="#hsl_person_id_629" type="person">Mephisto</rs></hi> (!) eine, selbst von <rs ref="#hsl_person_id_189" type="person">Mozart</rs> und
-         <lb facs="#facs_2_line_1673975404596_848" n="N007"/><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> unerreichbare Schöpfung gemacht! Wir trauten unsern Augen
+         <lb facs="#facs_2_line_1673975422165_855" n="N006"/>vor Allem aus dem <hi rendition="#em">
+                     <rs ref="#hsl_person_id_629" type="person">Mephisto</rs>
+                  </hi> (!) eine, selbst von <rs ref="#hsl_person_id_189" type="person">Mozart</rs> und
+         <lb facs="#facs_2_line_1673975404596_848" n="N007"/>
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> unerreichbare Schöpfung gemacht! Wir trauten unsern Augen
          <lb facs="#facs_2_line_1673975332154_835" n="N008"/>kaum, als wir die Stelle (p. 261) zum zweiten- und drittenmal lasen.</note>
-         </p><p>
-      <lb facs="#facs_2_region_1673371472659_814_tl_4" n="N003"/>So mächtig sich <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> von diesem Ausspruch und
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1673371472659_814_tl_4" n="N003"/>So mächtig sich <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> von diesem Ausspruch und
       <lb facs="#facs_2_region_1673371472659_814_tl_5" n="N004"/>vom Stoffe selbst zum „<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“ hingedrängt fühlte, so hielt
       <lb facs="#facs_2_region_1673371472659_814_tl_6" n="N005"/>ihn doch stets eine heilige Scheu zurück. Die großen Mei
       <lb facs="#facs_2_region_1673371472659_814_tl_7" break="no" n="N006"/>sterwerke, dachte er mit Recht, sollen unverändert so bleiben,
-      <lb facs="#facs_2_region_1673371472659_814_tl_8" n="N007"/>wie sie geschaffen wurden. Dazu kam noch, daß er <hi rendition="#em"><rs ref="#hsl_person_id_293" type="person">Spohr</rs></hi>,
-      <lb facs="#facs_2_region_1673371472659_814_tl_9" n="N008"/>den er hochschätzte, und später <hi rendition="#em"><rs ref="#hsl_person_id_102" type="person">Gounod</rs></hi>, dem er sehr be
+      <lb facs="#facs_2_region_1673371472659_814_tl_8" n="N007"/>wie sie geschaffen wurden. Dazu kam noch, daß er <hi rendition="#em">
+                  <rs ref="#hsl_person_id_293" type="person">Spohr</rs>
+               </hi>,
+      <lb facs="#facs_2_region_1673371472659_814_tl_9" n="N008"/>den er hochschätzte, und später <hi rendition="#em">
+                  <rs ref="#hsl_person_id_102" type="person">Gounod</rs>
+               </hi>, dem er sehr be
       <lb facs="#facs_2_region_1673371472659_814_tl_10" break="no" n="N009"/>freundet war, nicht als Rival entgegentreten wollte. Dennoch
-      <lb facs="#facs_2_region_1673371472659_814_tl_11" n="N010"/>bewog Herr <hi rendition="#em"><rs ref="#hsl_person_id_809" type="person">Blaze</rs></hi><space quantity="1"/><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> dazu, einzelne Scenen aus
-      <lb facs="#facs_2_region_1673371472659_814_tl_12" n="N011"/><rs ref="#hsl_person_id_100" type="person">Goethe</rs>’s „<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“ in kleinerem Rahmen als dem einer Oper
-      <lb facs="#facs_2_region_1673371472659_814_tl_13" n="N012"/>zu componiren. Der Hergang, dessen Erzählung bei <rs ref="#hsl_person_id_809" type="person">Blaze</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371472659_814_tl_14" n="N013"/>einen großen Raum einnimmt, war folgender: Herr v. <rs ref="#hsl_person_id_809" type="person"><hi rendition="#em">Blaze</hi></rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371472659_814_tl_15" n="N014"/>hatte ein Schauspiel, „<rs ref="#hsl_work_id_502" type="bibl">Goethe’s Jugend</rs>“, geschrieben, dessen
+      <lb facs="#facs_2_region_1673371472659_814_tl_11" n="N010"/>bewog Herr <hi rendition="#em">
+                  <rs ref="#hsl_person_id_809" type="person">Blaze</rs>
+               </hi>
+               <space quantity="1"/>
+               <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> dazu, einzelne Scenen aus
+      <lb facs="#facs_2_region_1673371472659_814_tl_12" n="N011"/>
+               <rs ref="#hsl_person_id_100" type="person">Goethe</rs>’s „<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“ in kleinerem Rahmen als dem einer Oper
+      <lb facs="#facs_2_region_1673371472659_814_tl_13" n="N012"/>zu componiren. Der Hergang, dessen Erzählung bei <rs ref="#hsl_person_id_809" type="person">Blaze</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371472659_814_tl_14" n="N013"/>einen großen Raum einnimmt, war folgender: Herr v. <rs ref="#hsl_person_id_809" type="person">
+                  <hi rendition="#em">Blaze</hi>
+               </rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371472659_814_tl_15" n="N014"/>hatte ein Schauspiel, „<rs ref="#hsl_work_id_502" type="bibl">Goethe’s Jugend</rs>“, geschrieben, dessen
       <lb facs="#facs_2_region_1673371472659_814_tl_16" n="N015"/>Aufführung am Odeon-Theater in <rs ref="#hsl_place_id_44" type="place">Paris</rs> vorbereitet wurde.
-      <lb facs="#facs_2_region_1673371472659_814_tl_17" n="N016"/><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> wollte eine Zwischenact-Musik und „<rs ref="#hsl_person_id_868" type="person">Mignon</rs>’s Lied“
+      <lb facs="#facs_2_region_1673371472659_814_tl_17" n="N016"/>
+               <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> wollte eine Zwischenact-Musik und „<rs ref="#hsl_person_id_868" type="person">Mignon</rs>’s Lied“
       <lb facs="#facs_2_line_1673975119535_758" n="N017"/>dafür componiren. Dichter und Theater-Director kamen aber
       <lb facs="#facs_2_region_1673371472659_814_tl_18" n="N018"/>auf den Gedanken, ob nicht <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> noch mehr für das
       <lb facs="#facs_2_line_1673975206435_784" n="N019"/>Werk zu interessiren und zu einer größeren, selbstständigern
@@ -1181,70 +1308,129 @@
       <lb facs="#facs_2_region_1673371472659_814_tl_22" n="N023"/>welcher <rs ref="#hsl_person_id_100" type="person">Goethe</rs>’s poetische Gestalten, „<rs ref="#hsl_person_id_868" type="person">Mignon</rs>“, „<rs ref="#hsl_person_id_710" type="person">Gret
       <lb facs="#facs_2_region_1673371472659_814_tl_23" break="no" n="N024"/>chen</rs>“, „<rs ref="#hsl_person_id_869" type="person">Erlkönig</rs>“ u. s. w. geisterhaft erscheinen. Mehrere
       <lb facs="#facs_2_region_1673371472659_814_tl_24" n="N025"/>Scenen aus „<rs ref="#hsl_work_id_197" type="bibl">Faust</rs>“ unter andern „<rs ref="#hsl_person_id_710" type="person">Gretchen</rs> im Dom“, sind
-      <lb facs="#facs_2_region_1673371472659_814_tl_25" n="N026"/>eingefügt. <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi>, der die Composition dieses Inter
+      <lb facs="#facs_2_region_1673371472659_814_tl_25" n="N026"/>eingefügt. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi>, der die Composition dieses Inter
       <lb facs="#facs_2_region_1673371472659_814_tl_26" break="no" n="N027"/>mezzo mit großer Liebe erfaßt haben soll, beendigte sie im
-      <lb facs="#facs_2_region_1673371472659_814_tl_27" n="N028"/>Jahre <date>1860</date>, wo er in <rs ref="#hsl_place_id_93" type="place">Ems</rs> dem Dichter die <hi rendition="#em">vollständige</hi><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371472659_814_tl_28" n="N029"/><hi rendition="#em">Partitur</hi> zeigte. Aeußere Hindernisse verzögerten bis heute
+      <lb facs="#facs_2_region_1673371472659_814_tl_27" n="N028"/>Jahre <date>1860</date>, wo er in <rs ref="#hsl_place_id_93" type="place">Ems</rs> dem Dichter die <hi rendition="#em">vollständige</hi>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371472659_814_tl_28" n="N029"/>
+               <hi rendition="#em">Partitur</hi> zeigte. Aeußere Hindernisse verzögerten bis heute
       <lb facs="#facs_2_region_1673371472659_814_tl_29" n="N030"/>die Aufführung der „<rs ref="#hsl_work_id_502" type="bibl">Jeunesse de Goethe</rs>“ am Odeon-
       <lb facs="#facs_2_region_1673371472659_814_tl_30" n="N031"/>Theater. Ein interessantes Werk des Meisters soll also der
       <lb facs="#facs_2_region_1673371472659_814_tl_31" n="N032"/>musikalischen Welt noch bekannt werden.
-         </p><p>
-      <lb facs="#facs_2_region_1673371472659_814_tl_32" n="N033"/>Ein anderer Plan <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s, der aber nicht zur Aus
-      <lb facs="#facs_2_region_1673371472659_814_tl_33" break="no" n="N034"/>führung kam, war die Vollendung einer von C. M. <rs ref="#hsl_person_id_321" type="person"><hi rendition="#em">Weber</hi></rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371472659_814_tl_34" n="N035"/>begonnenen komischen Oper. Der erste Act, von <hi rendition="#em"><rs ref="#hsl_person_id_321" type="person">Weber</rs></hi><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371472659_814_tl_35" n="N036"/>vollständig componirt, soll von dessen Witwe an <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371472659_814_tl_36" n="N037"/>mit der Bitte gesendet worden sein, den zweiten Act hinzu
+         </p>
+            <p>
+               <lb facs="#facs_2_region_1673371472659_814_tl_32" n="N033"/>Ein anderer Plan <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s, der aber nicht zur Aus
+      <lb facs="#facs_2_region_1673371472659_814_tl_33" break="no" n="N034"/>führung kam, war die Vollendung einer von C. M. <rs ref="#hsl_person_id_321" type="person">
+                  <hi rendition="#em">Weber</hi>
+               </rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371472659_814_tl_34" n="N035"/>begonnenen komischen Oper. Der erste Act, von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_321" type="person">Weber</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371472659_814_tl_35" n="N036"/>vollständig componirt, soll von dessen Witwe an <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371472659_814_tl_36" n="N037"/>mit der Bitte gesendet worden sein, den zweiten Act hinzu
       <lb facs="#facs_2_region_1673371472659_814_tl_37" break="no" n="N038"/>zucomponiren. Die inneren Schwierigkeiten, sowie die äuße
       <lb facs="#facs_2_region_1673371472659_814_tl_38" break="no" n="N039"/>ren Inconvenienzen einer solchen Mit- und Nacharbeiter</p>
-         <cb n="6"/>
-         <p prev="true">
-      <lb facs="#facs_2_region_1673371475594_817_tl_1" break="no" n="N001"/>schaft trugen jedoch über <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s guten Willen den Sieg
+            <cb n="6"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1673371475594_817_tl_1" break="no" n="N001"/>schaft trugen jedoch über <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s guten Willen den Sieg
       <lb facs="#facs_2_line_1673975765462_970" n="N002"/>davon.
-         <note type="footnote" n="*)"><lb facs="#facs_2_line_1673975895160_1016" n="N001"/>Die Angabe des Herrn v. <rs ref="#hsl_person_id_809" type="person"><hi rendition="#em">Blaze</hi></rs> rücksichtlich der <rs ref="#hsl_person_id_321" type="person">Weber</rs><space quantity="1"/>
-         <lb facs="#facs_2_line_1673975909209_1023" break="no" n="N002"/>schen Oper ist nicht ganz richtig. Es kann nur die von Th. <rs ref="#hsl_person_id_877" type="person"><hi rendition="#em">Hell</hi></rs><space quantity="1"/>
-         <lb facs="#facs_2_line_1673975923873_1027" n="N003"/>gedichtete komische Oper: „<rs ref="#hsl_work_id_505" type="bibl">Die drei Pintos</rs>“ gemeint sein, deren Com
-         <lb facs="#facs_2_region_1673371475594_817_tl_41" break="no" n="N004"/>position <hi rendition="#em"><rs ref="#hsl_person_id_321" type="person">Weber</rs></hi> vom Jahre <date>1820</date> bis an sein Lebensende beschäf
-         <lb facs="#facs_2_line_1673976025747_1092" break="no" n="N005"/>tigte. In <hi rendition="#em"><rs ref="#hsl_person_id_321" type="person">Weber</rs>’s</hi> Kopf war die Oper beinahe fertig, aber die
+         <note type="footnote" n="*)">
+                  <lb facs="#facs_2_line_1673975895160_1016" n="N001"/>Die Angabe des Herrn v. <rs ref="#hsl_person_id_809" type="person">
+                     <hi rendition="#em">Blaze</hi>
+                  </rs> rücksichtlich der <rs ref="#hsl_person_id_321" type="person">Weber</rs>
+                  <space quantity="1"/>
+                  <lb facs="#facs_2_line_1673975909209_1023" break="no" n="N002"/>schen Oper ist nicht ganz richtig. Es kann nur die von Th. <rs ref="#hsl_person_id_877" type="person">
+                     <hi rendition="#em">Hell</hi>
+                  </rs>
+                  <space quantity="1"/>
+                  <lb facs="#facs_2_line_1673975923873_1027" n="N003"/>gedichtete komische Oper: „<rs ref="#hsl_work_id_505" type="bibl">Die drei Pintos</rs>“ gemeint sein, deren Com
+         <lb facs="#facs_2_region_1673371475594_817_tl_41" break="no" n="N004"/>position <hi rendition="#em">
+                     <rs ref="#hsl_person_id_321" type="person">Weber</rs>
+                  </hi> vom Jahre <date>1820</date> bis an sein Lebensende beschäf
+         <lb facs="#facs_2_line_1673976025747_1092" break="no" n="N005"/>tigte. In <hi rendition="#em">
+                     <rs ref="#hsl_person_id_321" type="person">Weber</rs>’s</hi> Kopf war die Oper beinahe fertig, aber die
          <lb facs="#facs_2_line_1673976029411_1095" n="N006"/>von ihm hinterlassenen Skizzen waren so fragmentarisch, daß sowol
-         <lb facs="#facs_2_line_1673976032499_1098" n="N007"/><hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi> als <hi rendition="#em"><rs ref="#hsl_person_id_174" type="person">Marschner</rs></hi>, welche doch Beide das Meiste aus
+         <lb facs="#facs_2_line_1673976032499_1098" n="N007"/>
+                  <hi rendition="#em">
+                     <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+                  </hi> als <hi rendition="#em">
+                     <rs ref="#hsl_person_id_174" type="person">Marschner</rs>
+                  </hi>, welche doch Beide das Meiste aus
          <lb facs="#facs_2_line_1673976035251_1101" n="N008"/>der Oper von <rs ref="#hsl_person_id_321" type="person">Weber</rs> selbst hatten vortragen hören, es für unmög
-         <lb facs="#facs_2_line_1673976038363_1104" break="no" n="N009"/>lich erklärten, das Werk <hi rendition="#em"><rs ref="#hsl_person_id_321" type="person">Weber</rs>’s</hi>, oder vielmehr die skizzierten
-         <lb facs="#facs_2_line_1673976041667_1107" n="N010"/>Theile, herzustellen und aufzuschreiben. Von einem <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi><space quantity="1"/>
-         <lb facs="#facs_2_line_1673976044971_1110" n="N011"/>überreichten „fertigen ersten Act“ konnte also unmöglich die Rede
-         <lb facs="#facs_2_region_1673371475594_817_tl_58" n="N012"/>sein. (Vergl. <hi rendition="#em"><rs ref="#hsl_person_id_321" type="person">Weber</rs>’s</hi><space quantity="1"/><rs ref="#hsl_work_id_1115" type="bibl">Biographie</rs> von Max M. v. <rs ref="#hsl_person_id_838" type="person"><hi rendition="#em">Weber</hi></rs>,
+         <lb facs="#facs_2_line_1673976038363_1104" break="no" n="N009"/>lich erklärten, das Werk <hi rendition="#em">
+                     <rs ref="#hsl_person_id_321" type="person">Weber</rs>’s</hi>, oder vielmehr die skizzierten
+         <lb facs="#facs_2_line_1673976041667_1107" n="N010"/>Theile, herzustellen und aufzuschreiben. Von einem <hi rendition="#em">
+                     <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+                  </hi>
+                  <space quantity="1"/>
+                  <lb facs="#facs_2_line_1673976044971_1110" n="N011"/>überreichten „fertigen ersten Act“ konnte also unmöglich die Rede
+         <lb facs="#facs_2_region_1673371475594_817_tl_58" n="N012"/>sein. (Vergl. <hi rendition="#em">
+                     <rs ref="#hsl_person_id_321" type="person">Weber</rs>’s</hi>
+                  <space quantity="1"/>
+                  <rs ref="#hsl_work_id_1115" type="bibl">Biographie</rs> von Max M. v. <rs ref="#hsl_person_id_838" type="person">
+                     <hi rendition="#em">Weber</hi>
+                  </rs>,
          <lb facs="#facs_2_line_1673975738573_962" n="N013"/>II. p. 242, 459.)</note>
-         </p><p>
-      <lb facs="#facs_2_region_1673371475594_817_tl_2" n="N003"/>Auch an eine Oper „<rs ref="#hsl_person_id_875" type="person"><hi rendition="#em">Karl V.</hi></rs>“ dachte <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>. Er
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1673371475594_817_tl_2" n="N003"/>Auch an eine Oper „<rs ref="#hsl_person_id_875" type="person">
+                  <hi rendition="#em">Karl V.</hi>
+               </rs>“ dachte <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>. Er
       <lb facs="#facs_2_region_1673371475594_817_tl_3" n="N004"/>malte sich in Gedanken den pompösen fünften Act aus, wie
       <lb facs="#facs_2_region_1673371475594_817_tl_4" n="N005"/>der <rs ref="#hsl_person_id_875" type="person">Kaiser</rs>, dessen Scheinbegräbniß man feiert, einem Ge
       <lb facs="#facs_2_region_1673371475594_817_tl_5" break="no" n="N006"/>spenste gleich sich vor der entsetzten Versammlung aufrichtet.
       <lb facs="#facs_2_region_1673371475594_817_tl_6" n="N007"/>Auch eine „<rs ref="#hsl_work_id_504" type="bibl">Orestie</rs>“ soll <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> nicht blos projectirt,
       <lb facs="#facs_2_region_1673371475594_817_tl_7" n="N008"/>sondern wirklich componirt haben — der Verfasser vergißt
       <lb facs="#facs_2_region_1673371475594_817_tl_8" n="N009"/>in seiner liebenswürdigen Zerstreutheit, uns irgend etwas
-      <lb facs="#facs_2_region_1673371475594_817_tl_9" n="N010"/>Näheres darüber zu sagen. <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s</hi> letzter Plan war,
-      <lb facs="#facs_2_region_1673371475594_817_tl_10" n="N011"/>eine leichte komische Oper eigens für <hi rendition="#em">Adelina <rs ref="#hsl_person_id_209" type="person">Patti</rs></hi> zu
+      <lb facs="#facs_2_region_1673371475594_817_tl_9" n="N010"/>Näheres darüber zu sagen. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s</hi> letzter Plan war,
+      <lb facs="#facs_2_region_1673371475594_817_tl_10" n="N011"/>eine leichte komische Oper eigens für <hi rendition="#em">Adelina <rs ref="#hsl_person_id_209" type="person">Patti</rs>
+               </hi> zu
       <lb facs="#facs_2_region_1673371475594_817_tl_11" n="N012"/>schreiben, von der er nie ohne den größten Enthusiasmus
       <lb facs="#facs_2_region_1673371475594_817_tl_12" n="N013"/>sprechen konnte. Schon in dem projectirten „<rs ref="#hsl_work_id_500" type="bibl">Zauberlehrling</rs>“
       <lb facs="#facs_2_region_1673371475594_817_tl_13" n="N014"/>war die weibliche Hauptrolle „à cette jolie petite mer
-      <lb facs="#facs_2_region_1673371475594_817_tl_14" break="no" n="N015"/>veille“, nämlich der <hi rendition="#em"><rs ref="#hsl_person_id_209" type="person">Patti</rs></hi> zugedacht.
-         </p><p>
-      <lb facs="#facs_2_region_1673371475594_817_tl_15" n="N016"/>Den Schluß des Buches bildet eine ausführliche Ge
-      <lb facs="#facs_2_region_1673371475594_817_tl_16" break="no" n="N017"/>schichte und Kritik der „<hi rendition="#em"><rs ref="#hsl_work_id_142" type="bibl">Afrikanerin</rs></hi>“. Herr v. <rs ref="#hsl_person_id_809" type="person">Blaze</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371475594_817_tl_17" n="N018"/>sieht in letzterer Oper die „<rs ref="#hsl_work_id_105" type="bibl">Hugenotten</rs>“ noch übertroffen und
+      <lb facs="#facs_2_region_1673371475594_817_tl_14" break="no" n="N015"/>veille“, nämlich der <hi rendition="#em">
+                  <rs ref="#hsl_person_id_209" type="person">Patti</rs>
+               </hi> zugedacht.
+         </p>
+            <p>
+               <lb facs="#facs_2_region_1673371475594_817_tl_15" n="N016"/>Den Schluß des Buches bildet eine ausführliche Ge
+      <lb facs="#facs_2_region_1673371475594_817_tl_16" break="no" n="N017"/>schichte und Kritik der „<hi rendition="#em">
+                  <rs ref="#hsl_work_id_142" type="bibl">Afrikanerin</rs>
+               </hi>“. Herr v. <rs ref="#hsl_person_id_809" type="person">Blaze</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371475594_817_tl_17" n="N018"/>sieht in letzterer Oper die „<rs ref="#hsl_work_id_105" type="bibl">Hugenotten</rs>“ noch übertroffen und
       <lb facs="#facs_2_region_1673371475594_817_tl_18" n="N019"/>windet sich förmlich in Anbetung.
-         </p><p>
-      <lb facs="#facs_2_region_1673371475594_817_tl_19" n="N020"/>Es freut uns, diese Zeilen mit der Anerkennung einer
+         </p>
+            <p>
+               <lb facs="#facs_2_region_1673371475594_817_tl_19" n="N020"/>Es freut uns, diese Zeilen mit der Anerkennung einer
       <lb facs="#facs_2_region_1673371475594_817_tl_20" n="N021"/>andern <rs ref="#hsl_place_id_21" type="place">französisch</rs>en <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>-Abhandlung schließen zu kön
       <lb facs="#facs_2_region_1673371475594_817_tl_21" break="no" n="N022"/>nen, die uns soeben zu Handen kommt. Sie ist von Joseph
-      <lb facs="#facs_2_region_1673371475594_817_tl_22" n="N023"/><rs ref="#hsl_person_id_876" type="person"><hi rendition="#em">d’Ortigues</hi></rs> und findet sich im zweiten Heft der in <rs ref="#hsl_place_id_44" type="place">Paris</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1673371475594_817_tl_23" n="N024"/>erscheinenden Zeitschrift <rs ref="#hsl_work_id_509" type="bibl">Le Correspondant</rs> unter dem Titel:
-      <lb facs="#facs_2_region_1673371475594_817_tl_24" n="N025"/>„<hi rendition="#em"><rs ref="#hsl_work_id_1116" type="bibl">La vérité sur Meyerbeer à propos de l’Africaine</rs></hi>.“
+      <lb facs="#facs_2_region_1673371475594_817_tl_22" n="N023"/>
+               <rs ref="#hsl_person_id_876" type="person">
+                  <hi rendition="#em">d’Ortigues</hi>
+               </rs> und findet sich im zweiten Heft der in <rs ref="#hsl_place_id_44" type="place">Paris</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1673371475594_817_tl_23" n="N024"/>erscheinenden Zeitschrift <rs ref="#hsl_work_id_509" type="bibl">Le Correspondant</rs> unter dem Titel:
+      <lb facs="#facs_2_region_1673371475594_817_tl_24" n="N025"/>„<hi rendition="#em">
+                  <rs ref="#hsl_work_id_1116" type="bibl">La vérité sur Meyerbeer à propos de l’Africaine</rs>
+               </hi>.“
       <lb facs="#facs_2_region_1673371475594_817_tl_25" n="N026"/>Der Titel ist etwas auffallend, der Aufsatz selbst aber gehört
       <lb facs="#facs_2_region_1673371475594_817_tl_26" n="N027"/>zu dem Gründlichsten, Unbefangensten und Besonnensten,
-      <lb facs="#facs_2_region_1673371475594_817_tl_27" n="N028"/>was wir bisher von einem <rs ref="#hsl_place_id_21" type="place">französisch</rs>en Autor über <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyer
-      <lb facs="#facs_2_region_1673371475594_817_tl_28" break="no" n="N029"/>beer</rs></hi> gelesen. So wird die Ehre der <rs ref="#hsl_place_id_21" type="place">französisch</rs>en Musik
-      <lb facs="#facs_2_region_1673371475594_817_tl_29" break="no" n="N030"/>kritik, die — rücksichtlich <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s</hi> von jeher unzurech
-      <lb facs="#facs_2_region_1673371475594_817_tl_30" break="no" n="N031"/>nungsfähig — durch das Buch des Herrn v. <rs ref="#hsl_person_id_809" type="person"><hi rendition="#em">Blaze</hi></rs> eine
+      <lb facs="#facs_2_region_1673371475594_817_tl_27" n="N028"/>was wir bisher von einem <rs ref="#hsl_place_id_21" type="place">französisch</rs>en Autor über <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyer
+      <lb facs="#facs_2_region_1673371475594_817_tl_28" break="no" n="N029"/>beer</rs>
+               </hi> gelesen. So wird die Ehre der <rs ref="#hsl_place_id_21" type="place">französisch</rs>en Musik
+      <lb facs="#facs_2_region_1673371475594_817_tl_29" break="no" n="N030"/>kritik, die — rücksichtlich <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s</hi> von jeher unzurech
+      <lb facs="#facs_2_region_1673371475594_817_tl_30" break="no" n="N031"/>nungsfähig — durch das Buch des Herrn v. <rs ref="#hsl_person_id_809" type="person">
+                  <hi rendition="#em">Blaze</hi>
+               </rs> eine
       <lb facs="#facs_2_region_1673371475594_817_tl_31" n="N032"/>neueste Schlappe erlitten hat, wenigstens einigermaßen von
       <lb facs="#facs_2_region_1673371475594_817_tl_32" n="N033"/>einem Autor wieder gerettet, der etwas von der Sache ver
       <lb facs="#facs_2_region_1673371475594_817_tl_33" break="no" n="N034"/>steht, über die er schreibt, und der ein <hi rendition="#em">Urtheil</hi> versucht, wo

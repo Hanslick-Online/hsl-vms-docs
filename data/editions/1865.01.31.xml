@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -103,14 +103,15 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
+      <revisionDesc status="final">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="ampfiel" when="2023-03-21">Worttrennungen ausbessern, ref Links in rs ausfüllen</change>
          <change who="ampfiel" when="2023-03-28">Fußnote *) auflösen</change>
-         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change></revisionDesc>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
+      </revisionDesc>
    </teiHeader>
- <facsimile>
+   <facsimile>
       <surface ulx="0" uly="0" lrx="2479" lry="3508" xml:id="facs_1">
          <graphic url="1865.01.31-0001.jpg" width="2479px" height="3508px"/>
          <zone points="907,395 1256,395 1256,460 907,460"
@@ -795,9 +796,10 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-      <lb n="N002"/><head type="h1">Concerte.</head>
+            <lb n="N002"/>
+            <head type="h1">Concerte.</head>
             <p>
-      <lb n="N003"/>Ed. H. Unsere diesjährige Concertsaison charakterisirt ein
+               <lb n="N003"/>Ed. H. Unsere diesjährige Concertsaison charakterisirt ein
       <lb n="N004"/>auffallendes Zurücktreten der Virtuosen- und Einzel-Concerte
       <lb n="N005"/>hinter die großen cyclischen Productionen der Orchester- und
       <lb n="N006"/>Kammermusik. Sie spiegelt hierin im Kleinen nur den Cha
@@ -814,8 +816,15 @@
       <lb n="N017"/>Theilnahme an größeren, ernsten Kunstleistungen störend beein
       <lb break="no" n="N018"/>trächtigten. Nach längerer Pause sind jüngst zwei Concert
       <lb break="no" n="N019"/>geber aufgetreten, jeder mit einem einzigen Concert: der Sänger
-      <lb n="N020"/><hi rendition="#em"><rs ref="#hsl_person_id_232" type="person">Reichardt</rs></hi> und die Pianistin <hi rendition="#em"><rs ref="#hsl_person_id_113" type="person">Hauffe</rs></hi>. Es sind zwanzig
-      <lb n="N021"/>Jahre her, seit Herr Alexander <rs ref="#hsl_person_id_232" type="person"><hi rendition="#em">Reichardt</hi></rs> am Hofopern
+      <lb n="N020"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_232" type="person">Reichardt</rs>
+               </hi> und die Pianistin <hi rendition="#em">
+                  <rs ref="#hsl_person_id_113" type="person">Hauffe</rs>
+               </hi>. Es sind zwanzig
+      <lb n="N021"/>Jahre her, seit Herr Alexander <rs ref="#hsl_person_id_232" type="person">
+                  <hi rendition="#em">Reichardt</hi>
+               </rs> am Hofopern
       <lb break="no" n="N022"/>theater engagirt war; nach seinem Austritt aus demselben be
       <lb break="no" n="N023"/>suchte er uns noch einmal (<date>1850</date>) als Liedersänger. Die Zeit,
       <lb n="N024"/>welche an Herrn <rs ref="#hsl_person_id_232" type="person">Reichardt</rs>’s Aeußern fast spurlos vorüber
@@ -828,37 +837,59 @@
       <lb n="N031"/>eigenthümlichen Kehl- und Nasenlaut auf das unwillkommenste vor
       <lb break="no" n="N032"/>zudrängen. Herr <rs ref="#hsl_person_id_232" type="person">Reichardt</rs> hatte sein Programm vorsichtig gewählt:
       <lb n="N033"/>auf dem Gebiete zärtlicher Lyrik und virtuoser Coloratur. Sein
-      <lb n="N034"/>Liedervortrag ist nicht ohne Empfindung und Eleganz, wenn auch<space quantity="1"/></p>
+      <lb n="N034"/>Liedervortrag ist nicht ohne Empfindung und Eleganz, wenn auch<space quantity="1"/>
+            </p>
             <cb n="2"/>
             <p prev="true">
-      <lb n="N001"/>mitunter, wie in <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s „<rs ref="#hsl_work_id_234" type="bibl">Neugierigen</rs>“, ans Süßliche und
+               <lb n="N001"/>mitunter, wie in <rs ref="#hsl_person_id_279" type="person">Schubert</rs>’s „<rs ref="#hsl_work_id_234" type="bibl">Neugierigen</rs>“, ans Süßliche und
       <lb n="N002"/>Manierirte streifend. Wirksamer erschien uns <rs ref="#hsl_person_id_232" type="person">Reichardt</rs>’s an
       <lb break="no" n="N003"/>dere Specialität, die leichte, flüssige Coloratur, für welche ihn
       <lb n="N004"/>eine ungemeine Schmiegsamkeit der Kehle und günstige Ver
       <lb break="no" n="N005"/>bindung des Brustregisters mit der Kopfstimme vorzüglich be
-      <lb break="no" n="N006"/>fähigen. Herr <hi rendition="#em"><rs ref="#hsl_person_id_232" type="person">Reichardt</rs></hi> glänzte mit seinem Passagenwerk in
-      <lb n="N007"/>dem reichcolorirten Duett aus <hi rendition="#em"><rs ref="#hsl_person_id_241" type="person">Rossini</rs>’s</hi> „<rs ref="#hsl_work_id_134" type="bibl">Cenerentola</rs>,“ das
-      <lb n="N008"/>er mit Fräulein <hi rendition="#em"><rs ref="#hsl_person_id_31" type="person">Bettelheim</rs></hi> vortrug. Die Fortschritte dieser
+      <lb break="no" n="N006"/>fähigen. Herr <hi rendition="#em">
+                  <rs ref="#hsl_person_id_232" type="person">Reichardt</rs>
+               </hi> glänzte mit seinem Passagenwerk in
+      <lb n="N007"/>dem reichcolorirten Duett aus <hi rendition="#em">
+                  <rs ref="#hsl_person_id_241" type="person">Rossini</rs>’s</hi> „<rs ref="#hsl_work_id_134" type="bibl">Cenerentola</rs>,“ das
+      <lb n="N008"/>er mit Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_31" type="person">Bettelheim</rs>
+               </hi> vortrug. Die Fortschritte dieser
       <lb n="N009"/>begabten jungen Künstlerin in der Ausbildung des Mezzavoce
       <lb n="N010"/>und in der Coloratur sind uns dabei auf das angenehmste
-      <lb n="N011"/>aufgefallen. Herr <hi rendition="#em"><rs ref="#hsl_person_id_232" type="person">Reichardt</rs></hi> wurde von dem Publicum sehr
+      <lb n="N011"/>aufgefallen. Herr <hi rendition="#em">
+                  <rs ref="#hsl_person_id_232" type="person">Reichardt</rs>
+               </hi> wurde von dem Publicum sehr
       <lb n="N012"/>freundlich begrüßt und nach jeder Nummer gerufen. Von den
-      <lb n="N013"/>sogenannten „Zwischennummern“ hörten wir <hi rendition="#em"><rs ref="#hsl_person_id_234" type="person">Reinecke</rs>’s</hi> gra
-      <lb break="no" n="N014"/>ziöses <rs ref="#hsl_work_id_170" type="bibl">Impromptu</rs> (über ein Motiv aus <hi rendition="#em"><rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s</hi><space quantity="1"/>
-      <lb n="N015"/>„<rs ref="#hsl_work_id_92" type="bibl">Manfred</rs>“) für 2 Claviere. Die Schwestern <hi rendition="#em"><rs ref="#hsl_person_id_308" type="person">Malwina</rs></hi><space quantity="1"/>
-      <lb n="N016"/>und <hi rendition="#em"><rs ref="#hsl_person_id_307" type="person">Caroline Tietz</rs></hi> führten es mit ziemlich schwachem An
+      <lb n="N013"/>sogenannten „Zwischennummern“ hörten wir <hi rendition="#em">
+                  <rs ref="#hsl_person_id_234" type="person">Reinecke</rs>’s</hi> gra
+      <lb break="no" n="N014"/>ziöses <rs ref="#hsl_work_id_170" type="bibl">Impromptu</rs> (über ein Motiv aus <hi rendition="#em">
+                  <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s</hi>
+               <space quantity="1"/>
+               <lb n="N015"/>„<rs ref="#hsl_work_id_92" type="bibl">Manfred</rs>“) für 2 Claviere. Die Schwestern <hi rendition="#em">
+                  <rs ref="#hsl_person_id_308" type="person">Malwina</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb n="N016"/>und <hi rendition="#em">
+                  <rs ref="#hsl_person_id_307" type="person">Caroline Tietz</rs>
+               </hi> führten es mit ziemlich schwachem An
       <lb break="no" n="N017"/>schlag, aber so correct, sauber und zierlich durch, daß sie leb
       <lb break="no" n="N018"/>haftesten und wohlverdienten Beifall ernteten. Wenn jedes der
       <lb n="N019"/>beiden Mädchen für sich kaum bedeutende Wirkung zu erzielen
       <lb n="N020"/>vermag, so ist doch ihr überraschend präcises Zusammenspiel
       <lb n="N021"/>von bestem Effect, und sie thun wohl, sich hierin, nach dem
-      <lb n="N022"/>Vorbilde der Schwestern <hi rendition="#em"><rs ref="#hsl_person_id_1101 #hsl_person_id_1128" type="person">Ferni</rs></hi>, eine Specialität zu schaffen.
-            </p><p>
-      <lb n="N023"/>Den rühmlichen Erfolg Fräulein <hi rendition="#em"><rs ref="#hsl_person_id_113" type="person">Hauffe</rs>’s</hi> im letzten
+      <lb n="N022"/>Vorbilde der Schwestern <hi rendition="#em">
+                  <rs ref="#hsl_person_id_1101 #hsl_person_id_1128" type="person">Ferni</rs>
+               </hi>, eine Specialität zu schaffen.
+            </p>
+            <p>
+               <lb n="N023"/>Den rühmlichen Erfolg Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_113" type="person">Hauffe</rs>’s</hi> im letzten
       <lb n="N024"/>philharmonischen Concert haben wir bereits gemeldet. Gerecht
       <lb n="N025"/>und vollständig konnte man diese Künstlerin jedoch erst in dem
       <lb n="N026"/>Concerte würdigen, das sie Samstag Abends im Musikvereins
-      <lb break="no" n="N027"/>saal gab. Ihr Vortrag des <hi rendition="#em"><rs ref="#hsl_person_id_282" type="person">Schumann</rs></hi>’schen <rs ref="#hsl_work_id_642" type="bibl">Concerts</rs> bei den
+      <lb break="no" n="N027"/>saal gab. Ihr Vortrag des <hi rendition="#em">
+                  <rs ref="#hsl_person_id_282" type="person">Schumann</rs>
+               </hi>’schen <rs ref="#hsl_work_id_642" type="bibl">Concerts</rs> bei den
       <lb n="N028"/>Philharmonikern ließ weder schöne Einzelheiten, noch tüchtige
       <lb n="N029"/>musikalische Bildung im Allgemeinen vermissen, aber er schien
       <lb n="N030"/>uns in den beiden ersten Sätzen beeinträchtigt durch eine allzu
@@ -866,26 +897,36 @@
       <lb break="no" n="N032"/>dos sich wiegende Auffassung. Die künstlerische Verwandtschaft
       <lb n="N033"/>Louise <rs ref="#hsl_person_id_113" type="person">Hauffe</rs>’s mit Clara <rs ref="#hsl_person_id_281" type="person">Schumann</rs>, welche, durch physiogno
       <lb break="no" n="N034"/>mische Aehnlichkeit unterstützt, sich unwillkürlich aufdrängt und
-      <lb n="N035"/>in Fräulein <hi rendition="#em"><rs ref="#hsl_person_id_113" type="person">Hauffe</rs>’s</hi> Concert im besten Sinne sich bewährte,
-      <lb n="N036"/>hielt gerade an jenem Mittag im Kärntnerthor-Theater nicht<space quantity="1"/></p>
+      <lb n="N035"/>in Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_113" type="person">Hauffe</rs>’s</hi> Concert im besten Sinne sich bewährte,
+      <lb n="N036"/>hielt gerade an jenem Mittag im Kärntnerthor-Theater nicht<space quantity="1"/>
+            </p>
             <cb n="3"/>
             <p prev="true">
-      <lb n="N001"/>Stich. Clara <rs ref="#hsl_person_id_281" type="person">Schumann</rs> spielt das <rs ref="#hsl_work_id_642" type="bibl">C-moll-Concert</rs> ihres
+               <lb n="N001"/>Stich. Clara <rs ref="#hsl_person_id_281" type="person">Schumann</rs> spielt das <rs ref="#hsl_work_id_642" type="bibl">C-moll-Concert</rs> ihres
       <lb n="N002"/>Gatten vollständig im Tact, das „Andantino gracioso“ leb
       <lb break="no" n="N003"/>hafter, das Ganze mit jener gleichmäßig feinen und scharfen
       <lb n="N004"/>Rhythmik, die alles Verschwommene ausschließt. Der musika
       <lb break="no" n="N005"/>lische Charakter eines Stückes spricht sich keineswegs mit solcher
       <lb n="N006"/>Schärfe aus, daß der ausübende Künstler nicht Spielraum
       <lb n="N007"/>fände für seine eigenthümliche Auffassung, ohne jenen zu ver
-      <lb break="no" n="N008"/>letzen. Clara <rs ref="#hsl_person_id_281" type="person"><hi rendition="#em">Schumann</hi></rs><hi rendition="#em"/> nahm den ästhetischen Gehalt jener
-      <lb n="N009"/>Composition vorzugsweise mit dem Geiste auf, Fräulein <hi rendition="#em"><rs ref="#hsl_person_id_113" type="person">Hauffe</rs></hi><space quantity="1"/>
-      <lb n="N010"/>überwiegend mit dem Gemüthe. Bei dem überwiegend zarten,
+      <lb break="no" n="N008"/>letzen. Clara <rs ref="#hsl_person_id_281" type="person">
+                  <hi rendition="#em">Schumann</hi>
+               </rs>
+               <hi rendition="#em"/> nahm den ästhetischen Gehalt jener
+      <lb n="N009"/>Composition vorzugsweise mit dem Geiste auf, Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_113" type="person">Hauffe</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb n="N010"/>überwiegend mit dem Gemüthe. Bei dem überwiegend zarten,
       <lb n="N011"/>weichen Charakter des <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’schen Stückes scheint uns
       <lb n="N012"/>letzteres wenigstens gefährlicher. Daß dieser leichte Schatten
       <lb n="N013"/>die Gesammtleistung keineswegs verdunkelte, bewies der
       <lb n="N014"/>reichliche Beifall, — daß er mehr in gefälliger Stimmung
-      <lb n="N015"/>als in der eigentlichen Kunstanschauung Fräulein <hi rendition="#em"><rs ref="#hsl_person_id_113" type="person">Hauffe</rs>’s</hi><space quantity="1"/>
-      <lb n="N016"/>seinen Grund hatte, ihr eigenes Concert. Hier leuchteten
+      <lb n="N015"/>als in der eigentlichen Kunstanschauung Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_113" type="person">Hauffe</rs>’s</hi>
+               <space quantity="1"/>
+               <lb n="N016"/>seinen Grund hatte, ihr eigenes Concert. Hier leuchteten
       <lb n="N017"/>die reichen Vorzüge der Künstlerin ungetrübt im reinsten Licht.
       <lb n="N018"/>Die Schönheit ihres kraftvollen und bei aller Kraft doch
       <lb n="N019"/>weichen, gesangvollen Anschlags, die sichere, durchgebildete
@@ -895,13 +936,24 @@
       <lb n="N023"/>Empfindung, eine echt künstlerische, wahrhaft musikalische Natur
       <lb n="N024"/>vor sich zu haben, die ebenso fern von Koketterie und puppen
       <lb break="no" n="N025"/>hafter Dressur, als von genialthuender Nachlässigkeit steht.
-      <lb n="N026"/>Fräulein <hi rendition="#em"><rs ref="#hsl_person_id_113" type="person">Hauffe</rs></hi> spielte <hi rendition="#em"><rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s</hi><space quantity="1"/><rs ref="#hsl_work_id_610" type="bibl">E-dur-Quartett</rs>,
-      <lb n="N027"/><hi rendition="#em"><rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s</hi><space quantity="1"/><rs ref="#hsl_work_id_152 #hsl_work_id_667" type="bibl">B-dur-Trio</rs> und die „<rs ref="#hsl_work_id_32" type="bibl">Variations sérieuses</rs>“
-      <lb n="N028"/>von <hi rendition="#em"><rs ref="#hsl_person_id_21" type="person">Mendelssohn</rs></hi> (ein Programm ohne jedwede gefallsüchtige
+      <lb n="N026"/>Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_113" type="person">Hauffe</rs>
+               </hi> spielte <hi rendition="#em">
+                  <rs ref="#hsl_person_id_282" type="person">Schumann</rs>’s</hi>
+               <space quantity="1"/>
+               <rs ref="#hsl_work_id_610" type="bibl">E-dur-Quartett</rs>,
+      <lb n="N027"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s</hi>
+               <space quantity="1"/>
+               <rs ref="#hsl_work_id_152 #hsl_work_id_667" type="bibl">B-dur-Trio</rs> und die „<rs ref="#hsl_work_id_32" type="bibl">Variations sérieuses</rs>“
+      <lb n="N028"/>von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_21" type="person">Mendelssohn</rs>
+               </hi> (ein Programm ohne jedwede gefallsüchtige
       <lb n="N029"/>Concession) durchaus vorzüglich. Nur die Variationen hätten
       <lb n="N030"/>wir etwas gemäßigter im Tempo gewünscht.
                <note type="footnote" n="*)">
-               <lb n="N001"/>Wir wiederholen dringend den Wunsch, daß bei Clavier-
+                  <lb n="N001"/>Wir wiederholen dringend den Wunsch, daß bei Clavier-
                <lb n="N002"/>Productionen im Musikvereinssaal der Deckel des Pianos <hi rendition="#em">ganz</hi> ab
                <lb break="no" n="N003"/>genommen und nicht blos aufgestützt werde. In dieser hier üblichen
                <lb n="N004"/>Praxis wird der unter einem Winkel von 45 Graden geneigte Deckel
@@ -909,34 +961,73 @@
                <lb n="N006"/>und die Zuhörer im Cercle auf den verdumpften und verschwommenen
                <lb n="N007"/>Hall reducirt.
                </note>
-               Frau <hi rendition="#em"><rs ref="#hsl_person_id_208" type="person">Passy-</rs></hi></p>
-               <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-               <cb n="4"/>
-               <p prev="true">
-      <lb n="N001"/><hi rendition="#em"><rs ref="#hsl_person_id_208" type="person">Cornet</rs></hi> sang einige ihrer Vortragsweise sehr fernliegende
-      <lb n="N002"/>Lieder von <hi rendition="#em"><rs ref="#hsl_person_id_282" type="person">Schumann</rs></hi> und die oft gehörte <rs ref="#hsl_place_id_48" type="place">russisch</rs>e „<rs ref="#hsl_work_id_661" type="bibl">Nachti
+               Frau <hi rendition="#em">
+                  <rs ref="#hsl_person_id_208" type="person">Passy-</rs>
+               </hi>
+            </p>
+            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+               <lb n="N001"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_208" type="person">Cornet</rs>
+               </hi> sang einige ihrer Vortragsweise sehr fernliegende
+      <lb n="N002"/>Lieder von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_282" type="person">Schumann</rs>
+               </hi> und die oft gehörte <rs ref="#hsl_place_id_48" type="place">russisch</rs>e „<rs ref="#hsl_work_id_661" type="bibl">Nachti
       <lb break="no" n="N003"/>gall</rs>,“ letztere mit vollständigem Erfolg. Den Ensemblestücken
-      <lb n="N004"/>kam die treffliche Mitwirkung der Herren <hi rendition="#em"><rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs></hi>,
-      <lb n="N005"/><hi rendition="#em"><rs ref="#hsl_person_id_62" type="person">Dobihal</rs></hi> und <hi rendition="#em"><rs ref="#hsl_person_id_243" type="person">Röver</rs></hi> zu statten. Fräulein <hi rendition="#em"><rs ref="#hsl_person_id_113" type="person">Hauffe</rs></hi> erfreute
+      <lb n="N004"/>kam die treffliche Mitwirkung der Herren <hi rendition="#em">
+                  <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>
+               </hi>,
+      <lb n="N005"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_62" type="person">Dobihal</rs>
+               </hi> und <hi rendition="#em">
+                  <rs ref="#hsl_person_id_243" type="person">Röver</rs>
+               </hi> zu statten. Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_113" type="person">Hauffe</rs>
+               </hi> erfreute
       <lb n="N006"/>sich eines zahlreichen Auditoriums und einer Aufnahme, wie
       <lb n="N007"/>sie so schmeichelhaft seit lange kein Pianist hier gefunden.
-               </p><p>
-      <lb n="N008"/>Aus der Zahl der kleineren Productionen von halbpri
+               </p>
+            <p>
+               <lb n="N008"/>Aus der Zahl der kleineren Productionen von halbpri
       <lb break="no" n="N009"/>vatem Charakter nennen wir die im Salon des Hofclavier
-      <lb break="no" n="N010"/>machers <hi rendition="#em"><rs ref="#hsl_person_id_68" type="person">Ehrbar</rs></hi> stattfindenden Compagnie-Concerte der Her
-      <lb break="no" n="N011"/>ren <hi rendition="#em"><rs ref="#hsl_person_id_150" type="person">Kremser</rs></hi> (Piano) und <hi rendition="#em"><rs ref="#hsl_person_id_127" type="person">Hofmann</rs></hi> (Violine), die sich
+      <lb break="no" n="N010"/>machers <hi rendition="#em">
+                  <rs ref="#hsl_person_id_68" type="person">Ehrbar</rs>
+               </hi> stattfindenden Compagnie-Concerte der Her
+      <lb break="no" n="N011"/>ren <hi rendition="#em">
+                  <rs ref="#hsl_person_id_150" type="person">Kremser</rs>
+               </hi> (Piano) und <hi rendition="#em">
+                  <rs ref="#hsl_person_id_127" type="person">Hofmann</rs>
+               </hi> (Violine), die sich
       <lb n="N012"/>vielen Beifalls erfreuen, dann das Concert der talentvollen
-      <lb n="N013"/>Geschwister <rs ref="#hsl_person_id_225" type="person">Sophie</rs> und <rs ref="#hsl_person_id_224" type="person">Friedrich <hi rendition="#em">Raczek</hi></rs>, deren bedeutende
+      <lb n="N013"/>Geschwister <rs ref="#hsl_person_id_225" type="person">Sophie</rs> und <rs ref="#hsl_person_id_224" type="person">Friedrich <hi rendition="#em">Raczek</hi>
+               </rs>, deren bedeutende
       <lb n="N014"/>Fertigkeit auf der Violine Aufmunterung und Anerkennung
       <lb n="N015"/>verdient.
-               </p><p>
-      <lb n="N016"/>Die Quartettcyklen von <hi rendition="#em"><rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs></hi> und von
-      <lb n="N017"/><hi rendition="#em"><rs ref="#hsl_person_id_152" type="person">Laub</rs></hi> nähern sich ihrem Ende. Beide Künstler scheinen ihrem
-      <lb n="N018"/>Hörerkreise den Abschied recht schwer machen zu wollen. <hi rendition="#em"><rs ref="#hsl_person_id_152" type="person">Laub</rs></hi><space quantity="1"/>
-      <lb n="N019"/>sind wir für die Vorführung von <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s <rs ref="#hsl_work_id_1 #hsl_work_id_2" type="bibl">Quartetten</rs>
-      <lb n="N020"/>opus 95 und 132 zu besonderem Dank verpflichtet. <hi rendition="#em"><rs ref="#hsl_person_id_47" type="person">Cheru
-      <lb break="no" n="N021"/>bini</rs>’s</hi><space quantity="1"/><rs ref="#hsl_work_id_276" type="bibl">Es-dur-Quartett</rs> interessirt mehr als es erfreut und
-      <lb n="N022"/>befriedigt. <rs ref="#hsl_person_id_47" type="person">Cherubini</rs>’s vergöttertes Vorbild <hi rendition="#em"><rs ref="#hsl_person_id_114" type="person">Haydn</rs></hi> erscheint
+               </p>
+            <p>
+               <lb n="N016"/>Die Quartettcyklen von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>
+               </hi> und von
+      <lb n="N017"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_152" type="person">Laub</rs>
+               </hi> nähern sich ihrem Ende. Beide Künstler scheinen ihrem
+      <lb n="N018"/>Hörerkreise den Abschied recht schwer machen zu wollen. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_152" type="person">Laub</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb n="N019"/>sind wir für die Vorführung von <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s <rs ref="#hsl_work_id_1 #hsl_work_id_2" type="bibl">Quartetten</rs>
+               <lb n="N020"/>opus 95 und 132 zu besonderem Dank verpflichtet. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_47" type="person">Cheru
+      <lb break="no" n="N021"/>bini</rs>’s</hi>
+               <space quantity="1"/>
+               <rs ref="#hsl_work_id_276" type="bibl">Es-dur-Quartett</rs> interessirt mehr als es erfreut und
+      <lb n="N022"/>befriedigt. <rs ref="#hsl_person_id_47" type="person">Cherubini</rs>’s vergöttertes Vorbild <hi rendition="#em">
+                  <rs ref="#hsl_person_id_114" type="person">Haydn</rs>
+               </hi> erscheint
       <lb n="N023"/>hier mit den Elementen einer neuern Romantik, der Quartett
       <lb break="no" n="N024"/>styl mit dem dramatischen in einer Mischung vereinigt, die
       <lb n="N025"/>nicht den Eindruck des Organischen, Ursprünglichen macht. Be
@@ -944,52 +1035,88 @@
       <lb n="N027"/>Entwicklungsgang fremden Genre zu geben, fühlt sich <rs ref="#hsl_person_id_47" type="person">Cheru
       <lb break="no" n="N028"/>bini</rs> trotzdem durch diese Form genirt. Die lange Ausdehnung
       <lb n="N029"/>der Sätze, besonders des Adagio, spricht hier eher für als
-      <lb n="N030"/>gegen diese Vermuthung. <hi rendition="#em"><rs ref="#hsl_person_id_152" type="person">Laub</rs></hi> dürfte das Werk wahrschein
+      <lb n="N030"/>gegen diese Vermuthung. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_152" type="person">Laub</rs>
+               </hi> dürfte das Werk wahrschein
       <lb break="no" n="N031"/>lich des Scherzo halber gewählt haben, das er und seine
       <lb n="N032"/>drei Genossen mit wahrhaft glänzender Bravour vortrugen
-      <lb n="N033"/>und auf Verlangen wiederholten. Fräulein Marie <rs ref="#hsl_person_id_97" type="person"><hi rendition="#em">Geisler</hi></rs><space quantity="1"/>
-      <lb n="N034"/>spielte mit <hi rendition="#em"><rs ref="#hsl_person_id_152" type="person">Laub</rs></hi> eine <hi rendition="#em"><rs ref="#hsl_person_id_189" type="person">Mozart</rs></hi>’sche Sonate. Kein glücklicher
-      <lb n="N035"/>Gedanke war es, dies Stück statt des versprochenen <rs ref="#hsl_work_id_150" type="bibl">D-moll-</rs></p>
+      <lb n="N033"/>und auf Verlangen wiederholten. Fräulein Marie <rs ref="#hsl_person_id_97" type="person">
+                  <hi rendition="#em">Geisler</hi>
+               </rs>
+               <space quantity="1"/>
+               <lb n="N034"/>spielte mit <hi rendition="#em">
+                  <rs ref="#hsl_person_id_152" type="person">Laub</rs>
+               </hi> eine <hi rendition="#em">
+                  <rs ref="#hsl_person_id_189" type="person">Mozart</rs>
+               </hi>’sche Sonate. Kein glücklicher
+      <lb n="N035"/>Gedanke war es, dies Stück statt des versprochenen <rs ref="#hsl_work_id_150" type="bibl">D-moll-</rs>
+            </p>
             <cb n="5"/>
             <p prev="true">
-      <lb n="N001"/><rs ref="#hsl_work_id_150" type="bibl">Trio</rs>’s von <hi rendition="#em"><rs ref="#hsl_person_id_282" type="person">Schumann</rs></hi> einzuschieben, hört es sich doch in seiner
+               <lb n="N001"/>
+               <rs ref="#hsl_work_id_150" type="bibl">Trio</rs>’s von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_282" type="person">Schumann</rs>
+               </hi> einzuschieben, hört es sich doch in seiner
       <lb n="N002"/>planen, spielseligen Weise gar zu veraltet an. Der Virtuosität
       <lb n="N003"/>bietet diese Hausmusik überdies nicht die geringste Aufgabe.
-      <lb n="N004"/>Fräulein <hi rendition="#em"><rs ref="#hsl_person_id_97" type="person">Geisler</rs></hi> konnte demnach nur eine klare, correcte
+      <lb n="N004"/>Fräulein <hi rendition="#em">
+                  <rs ref="#hsl_person_id_97" type="person">Geisler</rs>
+               </hi> konnte demnach nur eine klare, correcte
       <lb n="N005"/>Auffassung und einige Passagen-Geläufigkeit zeigen; dies that
-      <lb n="N006"/>sie redlich. Auch mit <hi rendition="#em"><rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs></hi> möchten wir
+      <lb n="N006"/>sie redlich. Auch mit <hi rendition="#em">
+                  <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>
+               </hi> möchten wir
       <lb n="N007"/>schmollen, daß er uns statt des versprochenen neuen <rs ref="#hsl_work_id_155" type="bibl">Clavierquartett</rs>s
-      <lb n="N008"/>von <hi rendition="#em"><rs ref="#hsl_person_id_244" type="person">Rubinstein</rs></hi> dessen oftgehörtes <rs ref="#hsl_work_id_151" type="bibl">B-dur-Trio</rs> gab. Das neue
-      <lb n="N009"/><rs ref="#hsl_work_id_155" type="bibl">Quartett</rs> wurde in verschiedenen Städten mit großem Beifall gege
+      <lb n="N008"/>von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_244" type="person">Rubinstein</rs>
+               </hi> dessen oftgehörtes <rs ref="#hsl_work_id_151" type="bibl">B-dur-Trio</rs> gab. Das neue
+      <lb n="N009"/>
+               <rs ref="#hsl_work_id_155" type="bibl">Quartett</rs> wurde in verschiedenen Städten mit großem Beifall gege
       <lb break="no" n="N010"/>ben, und falls es diesen Beifall nicht verdiente oder in <rs ref="#hsl_place_id_55" type="place">Wien</rs> nicht fände,
       <lb n="N011"/>so kann man die Verantwortung ruhig dem Componisten aufbür
       <lb break="no" n="N012"/>den. <rs ref="#hsl_person_id_244" type="person">Rubinstein</rs>’s Ruf und unsere Armuth an Novitäten sind
       <lb n="N013"/>dafür wol groß genug. Lobende Erwähnung verdient Herrn
-      <lb n="N014"/><hi rendition="#em"><rs ref="#hsl_person_id_53" type="person">Derffel</rs>’s</hi> sehr beifällig aufgenommener Vortrag der <rs ref="#hsl_person_id_279" type="person">Schu
+      <lb n="N014"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_53" type="person">Derffel</rs>’s</hi> sehr beifällig aufgenommener Vortrag der <rs ref="#hsl_person_id_279" type="person">Schu
       <lb break="no" n="N015"/>bert</rs>’schen <rs ref="#hsl_work_id_271 #hsl_work_id_676 #hsl_work_id_677" type="bibl">A-moll Sonate</rs> in <rs ref="#hsl_person_id_120" type="person">Hellmesberger</rs>’s siebenter Soirée.
-      <lb n="N016"/>An diesem Abend hörten wir auch ein älteres <rs ref="#hsl_work_id_1008" type="bibl">Streichquartett</rs><space quantity="1"/>
-      <lb n="N017"/>von <hi rendition="#em"><rs ref="#hsl_person_id_121" type="person">Herbeck</rs></hi>, das zum erstenmal von derselben Gesellschaft
+      <lb n="N016"/>An diesem Abend hörten wir auch ein älteres <rs ref="#hsl_work_id_1008" type="bibl">Streichquartett</rs>
+               <space quantity="1"/>
+               <lb n="N017"/>von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_121" type="person">Herbeck</rs>
+               </hi>, das zum erstenmal von derselben Gesellschaft
       <lb n="N018"/>im Jahre <date>1857</date> vorgeführt worden ist. Wir können uns kurz
       <lb n="N019"/>auf dasjenige berufen, was wir damals zum Lobe dieser geist
       <lb break="no" n="N020"/>reichen charakteristischen Composition ausgesprochen. <rs ref="#hsl_person_id_121" type="person">Herbeck</rs>’s
-      <lb n="N021"/><rs ref="#hsl_work_id_1008" type="bibl">Quartett</rs> hat (besonders in den zwei mittleren Sätzen) wahr
+      <lb n="N021"/>
+               <rs ref="#hsl_work_id_1008" type="bibl">Quartett</rs> hat (besonders in den zwei mittleren Sätzen) wahr
       <lb break="no" n="N022"/>haft bedeutende Partien, gegen welche einige raffinirte Stellen,
       <lb n="N023"/>die vielleicht aus <rs ref="#hsl_person_id_121" type="person">Herbeck</rs>’s anhaltender Beschäftigung mit
-      <lb n="N024"/><rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s letzten Quartetten zu erklären sind, wenig in Be
+      <lb n="N024"/>
+               <rs ref="#hsl_person_id_25" type="person">Beethoven</rs>’s letzten Quartetten zu erklären sind, wenig in Be
       <lb break="no" n="N025"/>tracht kommen. Das <rs ref="#hsl_work_id_1008" type="bibl">Quartett</rs>, ganz meisterhaft gespielt, fand
-      <lb n="N026"/>verdiente Anerkennung. Hoffentlich hören wir <hi rendition="#em"><rs ref="#hsl_person_id_121" type="person">Herbeck</rs>’s</hi><space quantity="1"/><hi rendition="#em">neues</hi><space quantity="1"/>
-      <lb n="N027"/><rs ref="#hsl_work_id_1009" type="bibl">Quartett</rs>, das ursprünglich angesagt war, im nächsten Winter.
+      <lb n="N026"/>verdiente Anerkennung. Hoffentlich hören wir <hi rendition="#em">
+                  <rs ref="#hsl_person_id_121" type="person">Herbeck</rs>’s</hi>
+               <space quantity="1"/>
+               <hi rendition="#em">neues</hi>
+               <space quantity="1"/>
+               <lb n="N027"/>
+               <rs ref="#hsl_work_id_1009" type="bibl">Quartett</rs>, das ursprünglich angesagt war, im nächsten Winter.
       <lb n="N028"/>Die Last von musikalischer Beschäftigung, welche auf dem für
       <lb n="N029"/>das <rs ref="#hsl_place_id_55" type="place">Wien</rs>er Musikleben so rastlos thätigen Componisten
       <lb n="N030"/>ruht, hat ihn an dem letzten Abschluß des Werkes gehindert.
       <lb n="N031"/>Wäre es nicht grausam, ihm noch einen größeren Wirkungs
       <lb break="no" n="N032"/>kreis zuzumuthen? Und dennoch haben wir einen derartigen
       <lb n="N033"/>Wunsch. Er betrifft die Leitung der Kirchenmusik in der Hof
-      <lb break="no" n="N034"/>burgcapelle. <hi rendition="#em"><rs ref="#hsl_person_id_121" type="person">Herbeck</rs></hi> ist bekanntlich durch die Gnade des
-      <lb n="N035"/><rs ref="#hsl_person_id_1130" type="person">Kaiser</rs>s zum Vice-Hof-Capellmeister ernannt, aber so viel wir<space quantity="1"/></p>
+      <lb break="no" n="N034"/>burgcapelle. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_121" type="person">Herbeck</rs>
+               </hi> ist bekanntlich durch die Gnade des
+      <lb n="N035"/>
+               <rs ref="#hsl_person_id_1130" type="person">Kaiser</rs>s zum Vice-Hof-Capellmeister ernannt, aber so viel wir<space quantity="1"/>
+            </p>
             <cb n="6"/>
             <p prev="true">
-      <lb n="N001"/>wissen, ist sein Einfluß auf die Hofcapelle ein sehr unter
+               <lb n="N001"/>wissen, ist sein Einfluß auf die Hofcapelle ein sehr unter
       <lb break="no" n="N002"/>geordneter und zufälliger. Nun scheint uns dieses mit den besten
       <lb n="N003"/>Kräften ausgestattete Institut bezüglich seiner kirchlichen Aufgabe
       <lb n="N004"/>einer Reform in echt künstlerischem Geist bedürftig. Bekanntlich ge
@@ -1006,16 +1133,21 @@
       <lb n="N015"/>Compositionen zu spielen, welche bei den hiesigen Musikern
       <lb n="N016"/>unter dem schelmischen Titel „Eisenbahnmessen“ bekannt sind,
       <lb n="N017"/>da ihr Verfasser sie auf seinen täglichen Sommerfahrten zwi
-      <lb break="no" n="N018"/>schen <rs ref="#hsl_place_id_5" type="place">Baden</rs> und <rs ref="#hsl_place_id_55" type="place">Wien</rs> zu schreiben pflegt. Zwischen <rs ref="#hsl_place_id_5" type="place">Baden</rs><space quantity="1"/>
-      <lb n="N019"/>und <rs ref="#hsl_place_id_38" type="place">Mödling</rs> soll gewöhnlich ein Satz, zwischen <rs ref="#hsl_place_id_38" type="place">Mödling</rs> und
-      <lb n="N020"/><rs ref="#hsl_place_id_26" type="place">Hetzendorf</rs> ein zweiter fertig werden, besonders boshafte Leute
+      <lb break="no" n="N018"/>schen <rs ref="#hsl_place_id_5" type="place">Baden</rs> und <rs ref="#hsl_place_id_55" type="place">Wien</rs> zu schreiben pflegt. Zwischen <rs ref="#hsl_place_id_5" type="place">Baden</rs>
+               <space quantity="1"/>
+               <lb n="N019"/>und <rs ref="#hsl_place_id_38" type="place">Mödling</rs> soll gewöhnlich ein Satz, zwischen <rs ref="#hsl_place_id_38" type="place">Mödling</rs> und
+      <lb n="N020"/>
+               <rs ref="#hsl_place_id_26" type="place">Hetzendorf</rs> ein zweiter fertig werden, besonders boshafte Leute
       <lb n="N021"/>behaupten sogar, der Componist habe eine eigene Kyrie-Sta
       <lb break="no" n="N022"/>tion, eine Credo-Station u. s. w. Dies halten wir jedoch für
       <lb n="N023"/>eine neidische Erfindung schwerfälligerer Tonsetzer. Keine Er
       <lb break="no" n="N024"/>findung ist aber die Geschichte mit dem Flügelhorn und der
       <lb n="N025"/>von unsern witzigen Orchestermitgliedern erfundene neue Gat
-      <lb break="no" n="N026"/>tungsbegriff „Cavalleriemessen“. Hof-Capellmeister <hi rendition="#em"><rs ref="#hsl_person_id_121" type="person">Herbeck</rs></hi><space quantity="1"/>
-      <lb n="N027"/>hat durch längeren praktischen Kirchendienst, durch mehrere sehr
+      <lb break="no" n="N026"/>tungsbegriff „Cavalleriemessen“. Hof-Capellmeister <hi rendition="#em">
+                  <rs ref="#hsl_person_id_121" type="person">Herbeck</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb n="N027"/>hat durch längeren praktischen Kirchendienst, durch mehrere sehr
       <lb n="N028"/>gediegene Kirchen-Compositionen, endlich durch die besten Ora
       <lb break="no" n="N029"/>torien-Aufführungen, deren sich <rs ref="#hsl_place_id_55" type="place">Wien</rs> rühmen kann, seinen
       <lb n="N030"/>Beruf dargethan, große kirchliche Aufgaben in echt künstleri

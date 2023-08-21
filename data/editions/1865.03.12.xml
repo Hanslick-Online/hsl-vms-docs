@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -103,7 +103,7 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
+      <revisionDesc status="final">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="ampfiel" when="2023-03-28">Worttrennungen ausbessern, Fußnoten *) auflösen</change>
@@ -111,7 +111,7 @@
          <change who="awilfing" when="2023-06-02">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
-<facsimile>
+   <facsimile>
       <surface ulx="0" uly="0" lrx="2479" lry="3508" xml:id="facs_1">
          <graphic url="1865.03.12-0001.jpg" width="2479px" height="3508px"/>
          <zone points="909,403 1236,403 1236,462 909,462"
@@ -879,24 +879,41 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-      <lb n="N002"/><head type="h1">„<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ oder „<rs ref="#hsl_work_id_211" type="bibl">Die Wallfahrt nach Ploërmel</rs>.“</head>
-               <lb n="N003"/><head type="h2">Komische Oper in drei Acten von M. <rs ref="#hsl_person_id_84" type="person"><hi rendition="#em">Carré</hi></rs> und J. <rs ref="#hsl_person_id_90" type="person"><hi rendition="#em">Barbier</hi></rs>. Musik von <hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi>. I.</head>
-      <lb n="N004"/><head type="h3">(Im Hofoperntheater zum erstenmal aufgeführt am 11. März <date>1865</date>.)</head>
+            <lb n="N002"/>
+            <head type="h1">„<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ oder „<rs ref="#hsl_work_id_211" type="bibl">Die Wallfahrt nach Ploërmel</rs>.“</head>
+            <lb n="N003"/>
+            <head type="h2">Komische Oper in drei Acten von M. <rs ref="#hsl_person_id_84" type="person">
+                  <hi rendition="#em">Carré</hi>
+               </rs> und J. <rs ref="#hsl_person_id_90" type="person">
+                  <hi rendition="#em">Barbier</hi>
+               </rs>. Musik von <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi>. I.</head>
+            <lb n="N004"/>
+            <head type="h3">(Im Hofoperntheater zum erstenmal aufgeführt am 11. März <date>1865</date>.)</head>
             <p>
-            <note type="footnote" n="*)">
-            <lb n="N001"/>Die erste Aufführung der „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ ging heute mit dem
+               <note type="footnote" n="*)">
+                  <lb n="N001"/>Die erste Aufführung der „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ ging heute mit dem
             <lb n="N002"/>günstigsten Erfolge vor sich. Die treffliche Scenirung und die vorzüg
-            <lb break="no" n="N003"/>lichen Leistungen von Frl. <hi rendition="#em"><rs ref="#hsl_person_id_190" type="person">Murska</rs></hi> (<rs ref="#hsl_person_id_473" type="person">Dinorah</rs>), Hr. <hi rendition="#em"><rs ref="#hsl_person_id_24" type="person">Beck</rs></hi> (<rs ref="#hsl_person_id_592" type="person">Hoël</rs>) und
-            <lb n="N004"/>Hr. <hi rendition="#em"><rs ref="#hsl_person_id_91" type="person">Eppich</rs></hi> (<rs ref="#hsl_person_id_468" type="person">Corentin</rs>) dürfen sich wol das größte Verdienst an die
+            <lb break="no" n="N003"/>lichen Leistungen von Frl. <hi rendition="#em">
+                     <rs ref="#hsl_person_id_190" type="person">Murska</rs>
+                  </hi> (<rs ref="#hsl_person_id_473" type="person">Dinorah</rs>), Hr. <hi rendition="#em">
+                     <rs ref="#hsl_person_id_24" type="person">Beck</rs>
+                  </hi> (<rs ref="#hsl_person_id_592" type="person">Hoël</rs>) und
+            <lb n="N004"/>Hr. <hi rendition="#em">
+                     <rs ref="#hsl_person_id_91" type="person">Eppich</rs>
+                  </hi> (<rs ref="#hsl_person_id_468" type="person">Corentin</rs>) dürfen sich wol das größte Verdienst an die
             <lb break="no" n="N005"/>sem Succeß zuschreiben. Wir kommen am Schlusse unseres zweiten
             <lb n="N006"/>Artikels ausführlicher auf die Darstellung im Hofoperntheater zurück.
-            </note>     
-      <lb n="N006"/>Ed. H. <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ hat endlich ihren stark
+            </note>
+               <lb n="N006"/>Ed. H. <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ hat endlich ihren stark
       <lb n="N007"/>verspäteten Einzug in <rs ref="#hsl_place_id_55" type="place">Wien</rs> gehalten. Fünf volle Jahre sind
       <lb n="N008"/>es beinahe, seit „<rs ref="#hsl_work_id_211" type="bibl">Le Pardon de Ploërmel</rs>“ am 4. April
-      <lb n="N009"/><date>1859</date> in der <rs ref="#hsl_place_id_44" type="place">Paris</rs>er Opéra Comique zuerst das Lampenlicht
-      <lb n="N010"/>erblickte. Die rührende Ammensorgfalt, mit welcher <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs><space quantity="1"/>
-      <lb n="N011"/>jedes seiner Kinder persönlich in die Welt einführte, konnte sich
+      <lb n="N009"/>
+               <date>1859</date> in der <rs ref="#hsl_place_id_44" type="place">Paris</rs>er Opéra Comique zuerst das Lampenlicht
+      <lb n="N010"/>erblickte. Die rührende Ammensorgfalt, mit welcher <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               <space quantity="1"/>
+               <lb n="N011"/>jedes seiner Kinder persönlich in die Welt einführte, konnte sich
       <lb n="N012"/>damals mit dem Personale des Kärntnerthor-Theaters nicht zu
       <lb break="no" n="N013"/>friedengeben, und er hat zeitlebens „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ dieser Bühne
       <lb n="N014"/>ängstlich vorenthalten. Seither sind die beiden Coloratur-Sän
@@ -907,20 +924,27 @@
       <lb n="N019"/>denn auch die Direction nicht mit der verbotenen Frucht, die
       <lb n="N020"/>sie jahrelang mit Schmerz an den Repertoires unserer Provinz
       <lb break="no" n="N021"/>bühnen hatte hangen sehen.
-            </p><p>
-      <lb n="N022"/>Die Handlung der Oper ist in Kurzem folgende: <hi rendition="#em"><rs ref="#hsl_person_id_473" type="person">Di
-      <lb break="no" n="N023"/>norah</rs></hi> und ihr Bräutigam <hi rendition="#em"><rs ref="#hsl_person_id_592" type="person">Hoël</rs></hi>, beide ihres Zeichens Zie
+            </p>
+            <p>
+               <lb n="N022"/>Die Handlung der Oper ist in Kurzem folgende: <hi rendition="#em">
+                  <rs ref="#hsl_person_id_473" type="person">Di
+      <lb break="no" n="N023"/>norah</rs>
+               </hi> und ihr Bräutigam <hi rendition="#em">
+                  <rs ref="#hsl_person_id_592" type="person">Hoël</rs>
+               </hi>, beide ihres Zeichens Zie
       <lb break="no" n="N024"/>genhirten in der <rs ref="#hsl_place_id_57" type="place">Bretagne</rs>, wollen eben in der Wallfahrtskirche
       <lb n="N025"/>zu <rs ref="#hsl_place_id_59" type="place">Ploërmel</rs> ihre Vermälung vollziehen lassen, als ein furcht
       <lb break="no" n="N026"/>barer Orcan losbricht. Das Ungewitter treibt nicht nur den
       <lb n="N027"/>zum Altar der Madonna schreitenden Hochzeitszug auseinander,
       <lb n="N028"/>sondern trifft auch mit einem Blitzstrahl die Maierei von
-      <lb n="N029"/><rs ref="#hsl_person_id_473" type="person">Dinorah</rs>’s Vater. Die Aussicht auf eine an Mühsal und Ent
+      <lb n="N029"/>
+               <rs ref="#hsl_person_id_473" type="person">Dinorah</rs>’s Vater. Die Aussicht auf eine an Mühsal und Ent
       <lb break="no" n="N030"/>behrungen reiche Zukunft bestimmt <rs ref="#hsl_person_id_592" type="person">Hoël</rs>, wenigstens vorderhand
-      <lb n="N031"/>die Verbindung aufzugeben, umsomehr, als ihm durch einen<space quantity="1"/></p>
+      <lb n="N031"/>die Verbindung aufzugeben, umsomehr, als ihm durch einen<space quantity="1"/>
+            </p>
             <cb n="2"/>
             <p prev="true">
-      <lb n="N001"/>Hexenmeister des Dorfes die Möglichkeit, einen großen, von
+               <lb n="N001"/>Hexenmeister des Dorfes die Möglichkeit, einen großen, von
       <lb n="N002"/>Kobolden und Zwergen bewachten Schatz zu heben, so plausibel
       <lb n="N003"/>als möglich gemacht wird. Um für diese That gefeit zu sein,
       <lb n="N004"/>muß er zuvor, fern von jeder menschlichen Berührung, ein
@@ -933,12 +957,15 @@
       <lb break="no" n="N011"/>fahren wir durch — die Ouverture, oder vielmehr durch das
       <lb n="N012"/>ihr vorgedruckte Programm, welches die Vorhandlung des
       <lb n="N013"/>Stückes erzählt.
-            </p><p>
-      <lb n="N014"/>Die Oper selbst (welche in drei Acte, „der Abend,“ „die
+            </p>
+            <p>
+               <lb n="N014"/>Die Oper selbst (welche in drei Acte, „der Abend,“ „die
       <lb n="N015"/>Nacht“ und „der Morgen“, zerfällt) führt uns gleich anfangs
       <lb n="N016"/>die wahnsinnige <rs ref="#hsl_person_id_473" type="person">Dinorah</rs> vor. Die Situationen, in welche die
       <lb n="N017"/>umherschweifende Braut mit ihrem Schatten, mit Bella, dann
-      <lb n="N018"/>mit <rs ref="#hsl_person_id_592" type="person">Hoël</rs> selbst und dem Sackpfeifer <hi rendition="#em"><rs ref="#hsl_person_id_468" type="person">Corentin</rs></hi> geräth, bil
+      <lb n="N018"/>mit <rs ref="#hsl_person_id_592" type="person">Hoël</rs> selbst und dem Sackpfeifer <hi rendition="#em">
+                  <rs ref="#hsl_person_id_468" type="person">Corentin</rs>
+               </hi> geräth, bil
       <lb break="no" n="N019"/>den die größere Hälfte der äußerst dürftigen Handlung. <rs ref="#hsl_person_id_468" type="person">Coren
       <lb break="no" n="N020"/>tin</rs> ist es, der dem schatzgierigen <rs ref="#hsl_person_id_592" type="person">Hoël</rs> die Kastanien aus dem
       <lb n="N021"/>Feuer holen soll. Mit der Hebung des Schatzes hat es näm
@@ -960,10 +987,12 @@
       <lb n="N037"/>ihrer Ziege und will ihr nacheilen. Eben als sie sich auf dem
       <lb n="N038"/>schwanken Steg in vollem Lauf befindet, schlägt ein Blitz in
       <lb n="N039"/>denselben, die Schleußen der Schlucht werden von dem plötzlich
-      <lb n="N040"/>entfesselten Wogenschwall durchbrochen und die irre Heldin von<space quantity="1"/></p>
+      <lb n="N040"/>entfesselten Wogenschwall durchbrochen und die irre Heldin von<space quantity="1"/>
+            </p>
             <cb n="3"/>
             <p prev="true">
-      <lb n="N001"/><rs ref="#hsl_place_id_59" type="place">Ploërmel</rs> stürzt hinab in die Fluth. Dieser scheinbar tödtliche
+               <lb n="N001"/>
+               <rs ref="#hsl_place_id_59" type="place">Ploërmel</rs> stürzt hinab in die Fluth. Dieser scheinbar tödtliche
       <lb n="N002"/>Sturz erweist sich aber im dritten Act als ein absolut glück
       <lb break="no" n="N003"/>licher. Nicht nur wird <rs ref="#hsl_person_id_473" type="person">Dinorah</rs> von <rs ref="#hsl_person_id_592" type="person">Hoël</rs> den Wellen ent
       <lb break="no" n="N004"/>rissen und ein Leben gerettet, der außerordentliche Schreck
@@ -977,9 +1006,11 @@
       <lb break="no" n="N012"/>gend <rs ref="#hsl_person_id_468" type="person">Corentin</rs>. „Ist dahin! doch ihr Herz ersetzt mir ihn!“
       <lb n="N013"/>Gerade als die Procession am Tage des feierlichen Ablasses zu
       <lb n="N014"/>Ploërmel wieder nach der Marienkapelle zieht, feiern nun
-      <lb n="N015"/><rs ref="#hsl_person_id_473" type="person">Dinorah</rs> und <rs ref="#hsl_person_id_592" type="person">Hoël</rs> ihre wirkliche Vermälung.
-            </p><p>
-      <lb n="N016"/>Diese kurze, aber vollständige Erzählung dürfte Jedermann
+      <lb n="N015"/>
+               <rs ref="#hsl_person_id_473" type="person">Dinorah</rs> und <rs ref="#hsl_person_id_592" type="person">Hoël</rs> ihre wirkliche Vermälung.
+            </p>
+            <p>
+               <lb n="N016"/>Diese kurze, aber vollständige Erzählung dürfte Jedermann
       <lb n="N017"/>ohneweiters mit den gerechtesten Bedenken gegen das Libretto,
       <lb n="N018"/>zugleich mit dem lebhaftesten Bedauern erfüllen, daß ein Künst
       <lb break="no" n="N019"/>ler von der eminenten Begabung und dem unberechenbaren
@@ -1007,7 +1038,7 @@
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb break="no" n="N001"/>schen Klangeffect. Der Wahnsinn und — die Ziege, das sind
+               <lb break="no" n="N001"/>schen Klangeffect. Der Wahnsinn und — die Ziege, das sind
       <lb n="N002"/>die beiden saubern Attribute, durch welche „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ dem Pu
       <lb break="no" n="N003"/>blicum pikant und originell erscheinen soll. Droht die Hand
       <lb break="no" n="N004"/>lung zu stocken, so läßt <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> die Ziege über die Bühne
@@ -1015,8 +1046,11 @@
       <lb break="no" n="N006"/>lieben das Ziegen- oder das Zügenglöckchen der dramatischen
       <lb n="N007"/>Musik heißen. Die beiden Männer, welche neben <rs ref="#hsl_person_id_473" type="person">Dinorah</rs> das
       <lb n="N008"/>ganze Personal der Handlung bilden, befinden sich gleichfalls
-      <lb n="N009"/>in der tiefsten Diätenclasse der Menschheit. Der herzlose <hi rendition="#em"><rs ref="#hsl_person_id_592" type="person">Hoël</rs></hi><space quantity="1"/>
-      <lb n="N010"/>verläßt seine Braut am Hochzeitstage, um auf eine abergläu
+      <lb n="N009"/>in der tiefsten Diätenclasse der Menschheit. Der herzlose <hi rendition="#em">
+                  <rs ref="#hsl_person_id_592" type="person">Hoël</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb n="N010"/>verläßt seine Braut am Hochzeitstage, um auf eine abergläu
       <lb break="no" n="N011"/>bische Vorspiegelung hin für ein volles Jahr zu verschwinden.
       <lb n="N012"/>Er denkt nur an Gold, das er aber nicht erwerben, sondern
       <lb n="N013"/>finden will, und wenn er beiläufig versichert, er wolle den
@@ -1024,12 +1058,15 @@
       <lb n="N015"/>so gutmüthig, ihm das zu glauben. Dieser habsüchtige Pa
       <lb break="no" n="N016"/>tron, der seine Braut der Noth und Verzweiflung überläßt,
       <lb n="N017"/>ist auch schlecht genug, einen schwachsinnigen armen Teufel für
-      <lb n="N018"/>seine Zwecke zu opfern. <hi rendition="#em"><rs ref="#hsl_person_id_468" type="person">Corentin</rs></hi> soll sich den Tod holen,
+      <lb n="N018"/>seine Zwecke zu opfern. <hi rendition="#em">
+                  <rs ref="#hsl_person_id_468" type="person">Corentin</rs>
+               </hi> soll sich den Tod holen,
       <lb n="N019"/>damit <rs ref="#hsl_person_id_592" type="person">Hoël</rs> reich werde; als er sich dieser Zumuthung wehrt,
       <lb n="N020"/>heißt ihn <rs ref="#hsl_person_id_592" type="person">Hoël</rs> entrüstet einen „feigen Wicht“. <rs ref="#hsl_person_id_592" type="person">Hoël</rs> ist aber
       <lb break="no" n="N021"/>gläubisch und schlecht, trotzdem wird er vom Dichter und Com
       <lb break="no" n="N022"/>ponisten im Ton unverkennbarer Werthschätzung behandelt. In
-      <lb n="N023"/><rs ref="#hsl_person_id_468" type="person">Corentin</rs> präsentirt sich uns ein halber Cretin, der an Dumm
+      <lb n="N023"/>
+               <rs ref="#hsl_person_id_468" type="person">Corentin</rs> präsentirt sich uns ein halber Cretin, der an Dumm
       <lb break="no" n="N024"/>heit und Furchtsamkeit seinen Freund <rs ref="#hsl_person_id_592" type="person">Hoël</rs> noch unendlich über
       <lb break="no" n="N025"/>trifft, während dieser hingegen ihm in der Nichtswürdigkeit
       <lb n="N026"/>voraus ist. Der Sackpfeifer freut sich in einigen Couplets
@@ -1040,27 +1077,34 @@
       <lb n="N031"/>todbringenden Schatzes überredet. Das sind die Personen, deren
       <lb n="N032"/>Gedanken und Gefühle uns ein ganzes Drama hindurch er
       <lb break="no" n="N033"/>freuen und bewegen sollen, das der Ideenkreis, für welchen ein
-      <lb n="N034"/><hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi> auf der Höhe seines Ruhmes sich begeistert!
+      <lb n="N034"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi> auf der Höhe seines Ruhmes sich begeistert!
       <lb n="N035"/>Und ein einziger Blitzstrahl, der zufällig in einen Baumstamm
       <lb n="N036"/>schlägt, entzündet diese ganze Misère zu einer reinen, idealen
       <lb n="N037"/>Flamme: er heilt den Wahnsinn und adelt die Schufte.
-            </p><p>
-      <lb n="N038"/>Man nenne unsere Verurtheilung des „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“-Stoffes
+            </p>
+            <p>
+               <lb n="N038"/>Man nenne unsere Verurtheilung des „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“-Stoffes
       <lb n="N039"/>nicht zu hart: kaum wäre sie es gegenüber einem rathlosen
       <lb n="N040"/>Anfänger, geschweige denn gegen den Meister, dem jederzeit
-      <lb n="N041"/>Hunderte von Stoffen sammt den dazu gehörigen Poeten zu<space quantity="1"/></p>
+      <lb n="N041"/>Hunderte von Stoffen sammt den dazu gehörigen Poeten zu<space quantity="1"/>
+            </p>
             <cb n="5"/>
             <p prev="true">
-      <lb n="N001"/>Füßen lagen. Es ist ein unverlierbarer Fortschritt und ein
+               <lb n="N001"/>Füßen lagen. Es ist ein unverlierbarer Fortschritt und ein
       <lb n="N002"/>Axiom des heutigen ästhetischen Bewußtseins, daß der Opern-
       <lb n="N003"/>Componist für die von ihm gewählte Dichtung verantwortlich
       <lb n="N004"/>sei; er steht ein, nicht für ihre technischen Eigenschaften, aber
       <lb n="N005"/>für ihren sittlichen und künstlerischen Kern.
-            </p><p>
-      <lb n="N006"/>Was konnte aber <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>, den Beherrscher der Großen
+            </p>
+            <p>
+               <lb n="N006"/>Was konnte aber <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>, den Beherrscher der Großen
       <lb n="N007"/>Oper, verleiten, sich nach seinen grandiösen, historischen Schau
-      <lb break="no" n="N008"/>spielen plötzlich auf die einfältigen Ziegenhirten der <rs ref="#hsl_place_id_57" type="place">Bretagne</rs><space quantity="1"/>
-      <lb n="N009"/>zu werfen? Für dies seltsame Umschlagen bietet sich eine
+      <lb break="no" n="N008"/>spielen plötzlich auf die einfältigen Ziegenhirten der <rs ref="#hsl_place_id_57" type="place">Bretagne</rs>
+               <space quantity="1"/>
+               <lb n="N009"/>zu werfen? Für dies seltsame Umschlagen bietet sich eine
       <lb n="N010"/>psychologische Erklärung, sie liegt in dem Reiz des <hi rendition="#em">Con
       <lb break="no" n="N011"/>trastes</hi>. Das scheinbar Naturzuständliche, Idyllische dieses
       <lb n="N012"/>einfachen Stoffes mochte gerade den ruhmerdrückten Compo
@@ -1072,8 +1116,9 @@
       <lb break="no" n="N018"/>rung wie das äußere Hör- und Schaugepränge sind darin auf
       <lb n="N019"/>eine Spitze getrieben, die zu übergipfeln selbst <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> sich
       <lb n="N020"/>nicht mehr zutrauen durfte. Der „<rs ref="#hsl_work_id_139" type="bibl">Nordstern</rs>“ folgt nur in
-      <lb n="N021"/>seiner jetzigen, für <rs ref="#hsl_place_id_44" type="place">Paris</rs> verübten Zurichtung (<date>1854</date>) <hi rendition="#em">nach</hi><space quantity="1"/>
-      <lb n="N022"/>dem „<rs ref="#hsl_work_id_113" type="bibl">Propheten</rs>.“ Was in dieser Musik noch frisch und
+      <lb n="N021"/>seiner jetzigen, für <rs ref="#hsl_place_id_44" type="place">Paris</rs> verübten Zurichtung (<date>1854</date>) <hi rendition="#em">nach</hi>
+               <space quantity="1"/>
+               <lb n="N022"/>dem „<rs ref="#hsl_work_id_113" type="bibl">Propheten</rs>.“ Was in dieser Musik noch frisch und
       <lb n="N023"/>würdig und auf der Höhe von <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s Talent ist, stammt
       <lb n="N024"/>aus dem „<rs ref="#hsl_work_id_8" type="bibl">Feldlager von Schlesien</rs>“, das bekanntlich schon im
       <lb n="N025"/>Jahre <date>1844</date> in <rs ref="#hsl_place_id_9" type="place">Berlin</rs> zur Aufführung kam. Aber aus die
@@ -1081,10 +1126,12 @@
       <lb break="no" n="N027"/>sisch</rs>e, eine Weltoper werden. Die Umgestaltung des „<rs ref="#hsl_work_id_8" type="bibl">Feld
       <lb break="no" n="N028"/>lagers</rs>“ in den „<rs ref="#hsl_work_id_139" type="bibl">Nordstern</rs>“ gehört zu den merkwürdigsten und
       <lb n="N029"/>traurigsten Documenten für die letzte Entwicklungsphase von
-      <lb n="N030"/><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s Talent. Welche Carrière bergab liegt in diesen
+      <lb n="N030"/>
+               <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s Talent. Welche Carrière bergab liegt in diesen
       <lb n="N031"/>zehn Jahren <date>1844</date>—<date>1854 </date>! Aus <rs ref="#hsl_person_id_83" type="person">Friedrich</rs> dem Großen mußte
       <lb n="N032"/>ein flötenblasender Tischlergeselle, aus dem biedern General
-      <lb n="N033"/><rs ref="#hsl_person_id_654" type="person">Seldorf</rs> ein besoffener <rs ref="#hsl_person_id_1147" type="person">Czar</rs>, aus dem volksthümlichen Dessauer
+      <lb n="N033"/>
+               <rs ref="#hsl_person_id_654" type="person">Seldorf</rs> ein besoffener <rs ref="#hsl_person_id_1147" type="person">Czar</rs>, aus dem volksthümlichen Dessauer
       <lb break="no" n="N034"/>marsch ein „heiliger Marsch der Russen“ werden — Trun
       <lb break="no" n="N035"/>kenheit, Mord, Wahnsinn und viel schlechte Musik mußten in
       <lb n="N036"/>das nationale Genrebild hinein damit es nicht blos den
@@ -1092,10 +1139,13 @@
       <lb n="N038"/>müßte selbst das specifische <rs ref="#hsl_place_id_46" type="place">Preußen</rs>thum immer noch lieber
       <lb n="N039"/>sein, als Unschönheit und Widersinn im Allgemeinen. Auch
       <lb n="N040"/>auf der Bahn des „<rs ref="#hsl_work_id_139" type="bibl">Nordstern</rs>“ konnte der alternde <rs ref="#hsl_person_id_182" type="person">Meyer
-      <lb break="no" n="N041"/>beer</rs> nicht mehr hoffen, sich ein zweitesmal einzuholen. „<rs ref="#hsl_work_id_139" type="bibl">L’étoile</rs><space quantity="1"/></p>
+      <lb break="no" n="N041"/>beer</rs> nicht mehr hoffen, sich ein zweitesmal einzuholen. „<rs ref="#hsl_work_id_139" type="bibl">L’étoile</rs>
+               <space quantity="1"/>
+            </p>
             <cb n="6"/>
             <p prev="true">
-      <lb break="no" n="N001"/><rs ref="#hsl_work_id_139" type="bibl">du Nord</rs>“ war dem Namen nach eine „komische Oper“, näm
+               <lb break="no" n="N001"/>
+               <rs ref="#hsl_work_id_139" type="bibl">du Nord</rs>“ war dem Namen nach eine „komische Oper“, näm
       <lb break="no" n="N002"/>lich ein von Heroismus, Verbrechen und Wahnsinn triefendes
       <lb n="N003"/>Stück, das aber kein Ballet enthielt, gesprochenen Dialog ver
       <lb break="no" n="N004"/>wendete und auf der Bühne der Opéra Comique zur
@@ -1109,32 +1159,40 @@
       <lb n="N012"/>handelnde Personen, und hinter diesen statt des historischen
       <lb n="N013"/>Hintergrundes und der <rs ref="#hsl_place_id_48" type="place">russisch</rs>en Armeen — nichts als
       <lb n="N014"/>eine Ziege!
-            </p><p>         
-      <lb n="N015"/><hi rendition="#em"><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs></hi> kommt uns in seiner „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ vor, wie
+            </p>
+            <p>
+               <lb n="N015"/>
+               <hi rendition="#em">
+                  <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>
+               </hi> kommt uns in seiner „<rs ref="#hsl_work_id_211" type="bibl">Dinorah</rs>“ vor, wie
       <lb n="N016"/>ein verwöhnter, blasirter Großstädter, der zur Abwechslung
       <lb n="N017"/>einmal für ein abgelegenes Gebirgsdorf schwärmt, wohin er
       <lb n="N018"/>natürlich all seine Parfüms und Prätensionen, seine luxuriösen
       <lb n="N019"/>Diners, Spielpartien und sonstigen Leidenschaften mitimmt.
       <lb n="N020"/>Der Genius loci flieht vor dem eleganten Treiben, und die
       <lb n="N021"/>stille waldgrüne Einsamkeit ist nicht mehr zu erkennen. Daß
-      <lb n="N022"/><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> in dem Hirtenleben nicht die herbe Kraft des Natur
+      <lb n="N022"/>
+               <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> in dem Hirtenleben nicht die herbe Kraft des Natur
       <lb break="no" n="N023"/>gemäßen, sondern den Hautgoût des Ungewohnten suchen werde,
       <lb n="N024"/>ließ sich am Ende gerade <hi rendition="#em">dieser</hi> theatralischen Laufbahn wol
       <lb n="N025"/>voraussetzen. In der That haben die giftigen Stoffe, die in
-      <lb n="N026"/><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s früheren Opern sich meist in effectvollen Aeußer
+      <lb n="N026"/>
+               <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs>’s früheren Opern sich meist in effectvollen Aeußer
       <lb break="no" n="N027"/>lichkeiten Luft machten, sich hier ganz in den innern Orga
       <lb break="no" n="N028"/>nismus gezogen: in Melodie, Harmonie und Rhythmus. Es
       <lb n="N029"/>herrscht darin eine unersättliche Künstelei und Ueberladung,
       <lb n="N030"/>sentimentales Prahlen, wo wir herzliche Innigkeit, trockene
       <lb n="N031"/>Spaßmacherei, wo wir behagliche Komik erwarten. Geistreiche
       <lb n="N032"/>Combination und glänzende Behandlung des Effectes entfaltet
-      <lb n="N033"/><rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> natürlich hier wie überall, das bedarf bei diesem
+      <lb n="N033"/>
+               <rs ref="#hsl_person_id_182" type="person">Meyerbeer</rs> natürlich hier wie überall, das bedarf bei diesem
       <lb n="N034"/>Meister der Technik kaum der Erwähnung. Auch einzelne gra
       <lb break="no" n="N035"/>ciöse Nummern und allerliebste musikalische Einfälle fehlen
       <lb n="N036"/>nicht, selbst einige schnell verhallende Anklänge von Wahrheit
       <lb n="N037"/>und Innigkeit grüßen wie von ferne. Aber sobald sie sich
       <lb n="N038"/>zeigen, flüchtet der Componist ängstlich, als fürchte er wie
-      <lb n="N039"/><rs ref="#hsl_person_id_592" type="person">Hoël</rs> durch das Ergreifen gediegenen Goldes sein Leben zu
+      <lb n="N039"/>
+               <rs ref="#hsl_person_id_592" type="person">Hoël</rs> durch das Ergreifen gediegenen Goldes sein Leben zu
       <lb n="N040"/>verwirken.</p>
          </div>
       </body>

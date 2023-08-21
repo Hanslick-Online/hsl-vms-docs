@@ -14,10 +14,10 @@
                   <street>Georg-Coch-Platz 2</street>
                   <postCode>1010 Wien</postCode>
                   <placeName>
-                  <country>Österreich</country>
-                  <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                     <settlement>Wien</settlement>
                   </placeName>
-                </address>
+               </address>
             </funder>
          </titleStmt>
          <editionStmt>
@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
                <name ref="https://orcid.org/0009-0006-5723-8978">Picej, Cornelia</name>
             </respStmt>
          </editionStmt>
@@ -104,8 +104,8 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
-            <change who="cpicej" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+      <revisionDesc status="final">
+         <change who="cpicej" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="awilfing" when="2023-05-17">Annotationen eingetragen</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease</change>
@@ -982,10 +982,12 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-      <lb n="N002"/><head type="h1">„<rs type="bibl" ref="#hsl_work_id_554">Die Bohème</rs>“ von G. <rs type="person" ref="#hsl_person_id_976">Puccini</rs>.</head>
-      <lb n="N003"/><head type="h2">(Erste Aufführung im Hofoperntheater am 25. November <date>1903</date>.)</head>
-             <p>
-      <lb n="N004"/>Ed. H. Als Direktor <rs type="person" ref="#hsl_person_id_977">Mahler</rs>, von seiner <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en
+            <lb n="N002"/>
+            <head type="h1">„<rs type="bibl" ref="#hsl_work_id_554">Die Bohème</rs>“ von G. <rs type="person" ref="#hsl_person_id_976">Puccini</rs>.</head>
+            <lb n="N003"/>
+            <head type="h2">(Erste Aufführung im Hofoperntheater am 25. November <date>1903</date>.)</head>
+            <p>
+               <lb n="N004"/>Ed. H. Als Direktor <rs type="person" ref="#hsl_person_id_977">Mahler</rs>, von seiner <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en
       <lb n="N005"/>Entdeckungsreise zurückgekehrt, dringend interpelliert wurde,
       <lb n="N006"/>welche von den beiden <rs type="bibl" ref="#hsl_work_id_554 #hsl_work_id_555">Bohème</rs>-Opern, die <rs type="person" ref="#hsl_person_id_976">Puccini</rs>sche
       <lb n="N007"/>oder die <rs type="person" ref="#hsl_person_id_978">Leoncavallo</rs>s, besser sei, soll er mit einem <rs type="person" ref="#hsl_person_id_116">Heine</rs>schen
@@ -993,11 +995,16 @@
       <lb n="N009"/>alle beide stinken.“ Neben seinem berühmt feinen Ohr
       <lb n="N010"/>bewies er damit eine ebenso wunderbare Nase. Trotzdem
       <lb n="N011"/>hat er <rs type="person" ref="#hsl_person_id_978">Leoncavallo</rs>s „<rs type="bibl" ref="#hsl_work_id_555">Bohème</rs>“ aufgeführt, eine Erbschafts
-      <lb n="N012" break="no"/>last nach seinem Vorgänger <hi rendition="#em"><rs type="person" ref="#hsl_person_id_979">Jahn</rs></hi>. Kurz vorher hatten
-      <lb n="N013"/>wir (<date>1897</date>) im Theater an der Wien die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_976">Puccini</rs>sche</hi><space quantity="1"/>
-      <lb n="N014"/>„<rs type="bibl" ref="#hsl_work_id_554">Bohème</rs>“ genossen, mit <rs type="person" ref="#hsl_person_id_980">Naval</rs> und der <rs type="person" ref="#hsl_person_id_981">Saville</rs> in den
+      <lb n="N012" break="no"/>last nach seinem Vorgänger <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_979">Jahn</rs>
+               </hi>. Kurz vorher hatten
+      <lb n="N013"/>wir (<date>1897</date>) im Theater an der Wien die <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_976">Puccini</rs>sche</hi>
+               <space quantity="1"/>
+               <lb n="N014"/>„<rs type="bibl" ref="#hsl_work_id_554">Bohème</rs>“ genossen, mit <rs type="person" ref="#hsl_person_id_980">Naval</rs> und der <rs type="person" ref="#hsl_person_id_981">Saville</rs> in den
       <lb n="N015"/>Hauptrollen. Aber beiden rivalisierenden Opern blühte in
-      <lb n="N016"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> nur ein kurzer Frühling; man war ihrer schnell
+      <lb n="N016"/>
+               <rs type="place" ref="#hsl_place_id_55">Wien</rs> nur ein kurzer Frühling; man war ihrer schnell
       <lb n="N017"/>überdrüssig. Dem ungeachtet taucht jetzt die <rs type="person" ref="#hsl_person_id_976">Puccini</rs>sche
       <lb n="N018"/>„<rs type="bibl" ref="#hsl_work_id_554">Bohème</rs>“ im Hofoperntheater wieder auf. Von den
       <lb n="N019"/>beiden Stinkzwillingen ist der <rs type="person" ref="#hsl_person_id_976">Puccini</rs>sche jedenfalls der
@@ -1008,27 +1015,38 @@
       <lb n="N024"/>um alle Wohlgerüche seiner Kabinettsmusik hübsch bei      
       <lb n="N025" break="no"/>sammen zu halten. Von der Ankündigung der uns schon
       <lb n="N026"/>bekannten <rs type="person" ref="#hsl_person_id_976">Puccini</rs>-<rs type="bibl" ref="#hsl_work_id_554">Bohème</rs> im Hofoperntheater fühlten wir
-      <lb n="N027"/>uns mehr betroffen als befriedigt. Daß Gustav <rs type="person" ref="#hsl_person_id_977">Mahler</rs><space quantity="1"/>
-      <lb n="N028"/>von dieser und ähnlichen Opern nicht entzückt ist, wissen
+      <lb n="N027"/>uns mehr betroffen als befriedigt. Daß Gustav <rs type="person" ref="#hsl_person_id_977">Mahler</rs>
+               <space quantity="1"/>
+               <lb n="N028"/>von dieser und ähnlichen Opern nicht entzückt ist, wissen
       <lb n="N029"/>wir ja. Zwei Seelen wohnen, ach, in seiner Brust. Der
       <lb n="N030"/>nach hohen Idealen ausblickende Symphoniekomponist
-      <lb n="N031"/><rs type="person" ref="#hsl_person_id_977">Mahler</rs> ist vorläufig dem großen Publikum noch
+      <lb n="N031"/>
+               <rs type="person" ref="#hsl_person_id_977">Mahler</rs> ist vorläufig dem großen Publikum noch
       <lb n="N032"/>„a distinguished foreigner“. Seine andere Seele, die des
       <lb n="N033"/>Theaterdirektors, schwingt nicht so hoch, aber um so
-      <lb n="N034"/>heftiger, denn seine Abonnenten verlangen Neues und<space quantity="1"/></p>
+      <lb n="N034"/>heftiger, denn seine Abonnenten verlangen Neues und<space quantity="1"/>
+            </p>
             <cb n="2"/>
             <p prev="true">
-      <lb n="N001"/>wieder Neues. So wählt denn <rs type="person" ref="#hsl_person_id_977">Mahler</rs>, dessen moderne
+               <lb n="N001"/>wieder Neues. So wählt denn <rs type="person" ref="#hsl_person_id_977">Mahler</rs>, dessen moderne
       <lb n="N002"/>Sympathien kaum über die „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>“ hinausreichen,
       <lb n="N003"/>aus den Novitäten diejenigen, welche sich bereits an anderen
       <lb n="N004"/>Bühnen durchgesetzt haben. So brachte er uns die in
-      <lb n="N005"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> durch hundert Reprisen gefeierte „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_556">Louise</rs></hi>“, deren
+      <lb n="N005"/>
+               <rs type="place" ref="#hsl_place_id_44">Paris</rs> durch hundert Reprisen gefeierte „<hi rendition="#em">
+                  <rs type="bibl" ref="#hsl_work_id_556">Louise</rs>
+               </hi>“, deren
       <lb n="N006"/>langweiliges Familienelend bei uns bald ausgespielt hatte.
-      <lb n="N007"/>Er präsentierte uns das in <rs type="place" ref="#hsl_place_id_45">Prag</rs> beliebte Ballet „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_557">Der
-      <lb n="N008"/>faule Hans</rs></hi>“, in welchem mit Ausnahme der glänzenden
+      <lb n="N007"/>Er präsentierte uns das in <rs type="place" ref="#hsl_place_id_45">Prag</rs> beliebte Ballet „<hi rendition="#em">
+                  <rs type="bibl" ref="#hsl_work_id_557">Der
+      <lb n="N008"/>faule Hans</rs>
+               </hi>“, in welchem mit Ausnahme der glänzenden
       <lb n="N009"/>Ausstattung wirklich alles faul ist, Dichtung und Musik.
-      <lb n="N010"/>Und jetzt beglückt er uns mit der bereits an der <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1"/>
-      <lb n="N011"/>verkosteten „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_554">Bohème</rs></hi>“ von <rs type="person" ref="#hsl_person_id_976">Puccini</rs>. Man darf wohl sagen:
+      <lb n="N010"/>Und jetzt beglückt er uns mit der bereits an der <rs type="place" ref="#hsl_place_id_55">Wien</rs>
+               <space quantity="1"/>
+               <lb n="N011"/>verkosteten „<hi rendition="#em">
+                  <rs type="bibl" ref="#hsl_work_id_554">Bohème</rs>
+               </hi>“ von <rs type="person" ref="#hsl_person_id_976">Puccini</rs>. Man darf wohl sagen:
       <lb n="N012"/>faute de mieux. Befindet sich doch die Produktion der Italiener
       <lb n="N013"/>und Franzosen derzeit in trostlosem Stillstand oder auf
       <lb n="N014"/>falscher Fährte. Beide Nationen haben ihre liebenswürdige
@@ -1043,25 +1061,30 @@
       <lb n="N023"/>Mittelmäßigkeiten das relativ Anständigste und Erfolg      
       <lb n="N024" break="no"/>reichste hervor — seine Hand muß zugreifen, wovon seine
       <lb n="N025"/>Nase ihm abrät. Um so rühmenswerter ist die vor keiner
-      <lb n="N026"/>Mühsal zurückweichende Hingebung, mit welcher <rs type="person" ref="#hsl_person_id_977">Mahler</rs><space quantity="1"/>
-      <lb n="N027"/>solche Werke studiert und bis ins Feinste ausarbeitet. Hat
+      <lb n="N026"/>Mühsal zurückweichende Hingebung, mit welcher <rs type="person" ref="#hsl_person_id_977">Mahler</rs>
+               <space quantity="1"/>
+               <lb n="N027"/>solche Werke studiert und bis ins Feinste ausarbeitet. Hat
       <lb n="N028"/>er einmal eine Novität angenommen, so sorgt er für die
       <lb n="N029"/>kleinste Putzmacherin so väterlich, wie für die größte der
       <lb n="N030"/>gepanzerten Walküren.
-            </p><p>         
-      <lb n="N031"/>Von den beiden einander bekämpfenden „<rs type="bibl" ref="#hsl_work_id_554 #hsl_work_id_555">Bohème</rs>“-
+            </p>
+            <p>
+               <lb n="N031"/>Von den beiden einander bekämpfenden „<rs type="bibl" ref="#hsl_work_id_554 #hsl_work_id_555">Bohème</rs>“-
       <lb n="N032"/>Komponisten, dem Rabbiner <rs type="person" ref="#hsl_person_id_978">Leoncavallo</rs> und dem Kapuziner
-      <lb n="N033"/><rs type="person" ref="#hsl_person_id_976">Puccini</rs>, ist letzterer ohne Frage der ungleich begabtere und
+      <lb n="N033"/>
+               <rs type="person" ref="#hsl_person_id_976">Puccini</rs>, ist letzterer ohne Frage der ungleich begabtere und
       <lb n="N034"/>seine Oper die weitaus bessere. Da die Mehrzahl unserer
       <lb n="N035"/>Leser sich schwerlich des Inhalts der Novität noch erinnert,
       <lb n="N036"/>darf ich ihn wohl in Kürze rekapitulieren; jene Szenen
       <lb n="N037"/>zumal, die bei <rs type="person" ref="#hsl_person_id_978">Leoncavallo</rs> nicht vorkommen.
-            </p><p>
-      <lb n="N038"/>Schon mit dem ersten Akt setzt sich <rs type="person" ref="#hsl_person_id_976">Puccini</rs> in ent
-      <lb n="N039" break="no"/>schiedenen Vorteil gegen <rs type="person" ref="#hsl_person_id_978">Leoncavallo</rs>. Dieser beginnt sein<space quantity="1"/></p>
+            </p>
+            <p>
+               <lb n="N038"/>Schon mit dem ersten Akt setzt sich <rs type="person" ref="#hsl_person_id_976">Puccini</rs> in ent
+      <lb n="N039" break="no"/>schiedenen Vorteil gegen <rs type="person" ref="#hsl_person_id_978">Leoncavallo</rs>. Dieser beginnt sein<space quantity="1"/>
+            </p>
             <cb n="3"/>
             <p prev="true">
-      <lb n="N001"/>Stück gleich im Café Momus, wo sich der ganze erste
+               <lb n="N001"/>Stück gleich im Café Momus, wo sich der ganze erste
       <lb n="N002"/>Akt mit unerträglicher Schwerfälligkeit und Prätension
       <lb n="N003"/>abspielt. Bei <rs type="person" ref="#hsl_person_id_976">Puccini</rs> beginnt der erste Akt recht gemütlich
       <lb n="N004"/>heiter in dem Dachstübchen, das der Maler <rs type="person" ref="#hsl_person_id_985">Marcell</rs> mit
@@ -1075,9 +1098,11 @@
       <lb n="N012" break="no"/>nard</rs>, aufgehalten, der den rückständigen Mietzins fordert
       <lb n="N013"/>und dafür zur Tür hinausgeworfen wird. Drei von den
       <lb n="N014"/>Freunden begeben sich hierauf ins Kaffeehaus, während
-      <lb n="N015"/><rs type="person" ref="#hsl_person_id_986">Rudolf</rs> noch einen Journalartikel beenden will. Da klopft
-      <lb n="N016"/>es an seiner Tür; die junge hübsche Nachbarin <rs type="person" ref="#hsl_person_id_989">Mimi</rs><space quantity="1"/>
-      <lb n="N017"/>bittet, ihre vom Zugwind ausgeblasene Kerze bei ihm an
+      <lb n="N015"/>
+               <rs type="person" ref="#hsl_person_id_986">Rudolf</rs> noch einen Journalartikel beenden will. Da klopft
+      <lb n="N016"/>es an seiner Tür; die junge hübsche Nachbarin <rs type="person" ref="#hsl_person_id_989">Mimi</rs>
+               <space quantity="1"/>
+               <lb n="N017"/>bittet, ihre vom Zugwind ausgeblasene Kerze bei ihm an
       <lb n="N018" break="no"/>zünden zu dürfen. Auch seine Kerze verlischt, und im
       <lb n="N019"/>Dunkel finden sich ihre Hände, ihre Lippen. Eine hübsche,
       <lb n="N020"/>auch musikalisch zart empfundene Szene. Nach einer kurzen
@@ -1085,37 +1110,44 @@
       <lb n="N022"/>führen. Dort treffen sie, zu Anfang des zweiten Aktes, die Freunde,
       <lb n="N023"/>umschwirrt von Kaffeehausgästen, Ausrufern und Ver
       <lb n="N024" break="no"/>käufern. Die zweite Heldin des Stückes, die schöne eitle
-      <lb n="N025"/><rs type="person" ref="#hsl_person_id_990">Musette</rs>, erscheint am Arm eines reichen Gecken. Sie weiß
+      <lb n="N025"/>
+               <rs type="person" ref="#hsl_person_id_990">Musette</rs>, erscheint am Arm eines reichen Gecken. Sie weiß
       <lb n="N026"/>ihn bald listig zu entfernen, um ihrem früheren, zeitweilig
-      <lb n="N027"/>immer neu zu Gnaden aufgenommenen Geliebten <rs type="person" ref="#hsl_person_id_985">Marcell</rs><space quantity="1"/>
-      <lb n="N028"/>um den Hals zu fallen. Unter den grellen Klängen einer
+      <lb n="N027"/>immer neu zu Gnaden aufgenommenen Geliebten <rs type="person" ref="#hsl_person_id_985">Marcell</rs>
+               <space quantity="1"/>
+               <lb n="N028"/>um den Hals zu fallen. Unter den grellen Klängen einer
       <lb n="N029"/>vorbeiziehenden Musikbande und dem Gejohle der Straßen
       <lb n="N030" break="no"/>jugend fällt der Vorhang. Der <hi rendition="#em">dritte</hi> Akt spielt vor
       <lb n="N031"/>einer ärmlichen Kneipe an der Linie, bei Morgengrauen.
-      <lb n="N032"/><rs type="person" ref="#hsl_person_id_989">Mimi</rs> schleicht fröstelnd heran und erlauscht hinter einem
+      <lb n="N032"/>
+               <rs type="person" ref="#hsl_person_id_989">Mimi</rs> schleicht fröstelnd heran und erlauscht hinter einem
       <lb n="N033"/>Versteck, wie ihr geliebter <rs type="person" ref="#hsl_person_id_986">Rudolf</rs> zu <rs type="person" ref="#hsl_person_id_985">Marcell</rs> die Absicht
       <lb n="N034"/>äußert, sich von ihr zu trennen, da <rs type="person" ref="#hsl_person_id_989">Mimi</rs>, unrettbar lungenkrank,
       <lb n="N035"/>dem Tode verfallen sei. Weinend nimmt sie von <rs type="person" ref="#hsl_person_id_986">Rudolf</rs> Abschied,
       <lb n="N036"/>während gleichzeitig eine heftige Zank- und Entzweiungs
       <lb n="N037" break="no"/>szene zwischen <rs type="person" ref="#hsl_person_id_990">Musette</rs> und <rs type="person" ref="#hsl_person_id_985">Marcell</rs> sich abspielt. Der
       <lb n="N038"/>Vorhang hebt sich zum vierten- und letztenmale über dem
-      <lb n="N039"/>bekannten Dachstübchen, in welchem <rs type="person" ref="#hsl_person_id_985">Marcell</rs> vor der<space quantity="1"/></p>
+      <lb n="N039"/>bekannten Dachstübchen, in welchem <rs type="person" ref="#hsl_person_id_985">Marcell</rs> vor der<space quantity="1"/>
+            </p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb n="N001"/>Staffelei, <rs type="person" ref="#hsl_person_id_986">Rudolf</rs> am Schreibtisch sitzt. Beide sind unfähig
+               <lb n="N001"/>Staffelei, <rs type="person" ref="#hsl_person_id_986">Rudolf</rs> am Schreibtisch sitzt. Beide sind unfähig
       <lb n="N002"/>zu arbeiten; ihre Gedanken weilen ferne bei <rs type="person" ref="#hsl_person_id_989">Mimi</rs> und
-      <lb n="N003"/><rs type="person" ref="#hsl_person_id_990">Musette</rs>, welche inzwischen reichere Verehrer eingetauscht
+      <lb n="N003"/>
+               <rs type="person" ref="#hsl_person_id_990">Musette</rs>, welche inzwischen reichere Verehrer eingetauscht
       <lb n="N004"/>haben. <rs type="person" ref="#hsl_person_id_991">Collin</rs> und <rs type="person" ref="#hsl_person_id_987">Schaunard</rs> bringen nun ein höchst
       <lb n="N005"/>frugales Abendmal herbei, das die Freunde mit wider
       <lb n="N006" break="no"/>wärtigem Galgenhumor und schließlich mit einer impro
       <lb n="N007" break="no"/>visierten tollen Quadrille würzen. Da stürzt atemlos
-      <lb n="N008"/><rs type="person" ref="#hsl_person_id_990">Musette</rs> herein mit der Meldung, <rs type="person" ref="#hsl_person_id_989">Mimi</rs> sei todkrank auf
+      <lb n="N008"/>
+               <rs type="person" ref="#hsl_person_id_990">Musette</rs> herein mit der Meldung, <rs type="person" ref="#hsl_person_id_989">Mimi</rs> sei todkrank auf
       <lb n="N009"/>der Treppe hingesunken. Man trägt die Arme herein und
       <lb n="N010"/>legt sie auf das Bett, wo sie, von <rs type="person" ref="#hsl_person_id_986">Rudolf</rs> zärtlich Abschied
       <lb n="N011"/>nehmend, verscheidet.
-            </p><p>
-      <lb n="N012"/>Ein langes, peinliches Sterben, recht grausam aus
+            </p>
+            <p>
+               <lb n="N012"/>Ein langes, peinliches Sterben, recht grausam aus
       <lb n="N013" break="no"/>gedehnt und ausgestattet mit allem pathologischen Jammer.
       <lb n="N014"/>Dazu noch die nackte Armut und Hilflosigkeit dieser das
       <lb n="N015"/>Sterbelager umstehenden Kunstproletarier. Daß unmittelbar
@@ -1128,8 +1160,9 @@
       <lb n="N022"/>schmerzhaft in unser Herz. Finden die Zuschauer wirklich
       <lb n="N023"/>Freude und Erhebung in Opern dieses Schlages, um so
       <lb n="N024"/>besser für sie und den Theaterdirektor.
-            </p><p>
-      <lb n="N025"/>Die Musik spielt in dieser Oper eigentlich eine sekun
+            </p>
+            <p>
+               <lb n="N025"/>Die Musik spielt in dieser Oper eigentlich eine sekun
       <lb n="N026" break="no"/>däre Rolle, mag sie an einzelnen Stellen auch noch so
       <lb n="N027"/>anspruchsvoll und lärmend sich vordrängen. Liest man vor
       <lb n="N028"/>der Aufführung die vier bis fünf ersten Seiten des eng
@@ -1143,10 +1176,11 @@
       <lb n="N036"/>Grundierung alltäglicher Konversation. Also die vorletzte
       <lb n="N037"/>Stufe der im Herabsteigen begriffenen Musik: die nächste,
       <lb n="N038"/>letzte, ist das unverhüllte Melodram. Eigentlich vernehmen
-      <lb n="N039"/>wir schon in der „<rs type="bibl" ref="#hsl_work_id_554">Bohème</rs>“, weniger ein Singen als ein<space quantity="1"/></p>
+      <lb n="N039"/>wir schon in der „<rs type="bibl" ref="#hsl_work_id_554">Bohème</rs>“, weniger ein Singen als ein<space quantity="1"/>
+            </p>
             <cb n="5"/>
             <p prev="true">
-      <lb n="N001"/>Sprechen dieser Personen über charakteristischen Orchester
+               <lb n="N001"/>Sprechen dieser Personen über charakteristischen Orchester
       <lb n="N002" break="no"/>klängen. Obendrein bei dem raschen Tempo so enormer
       <lb n="N003"/>Wortmassen ein undeutliches, unverständliches Sprechen.
       <lb n="N004"/>Sehr begreiflich, daß bei dieser Ueberflutung mit redseli
@@ -1165,9 +1199,11 @@
       <lb n="N017"/>Diese ein musikalisches Schaffen und Gestalten beinahe
       <lb n="N018"/>verdrängenden Reizmittel gehören ja ganz eigentlich unserer
       <lb n="N019"/>neuesten Schule an, sogar der neuesten <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en. Was
-      <lb n="N020"/><rs type="person" ref="#hsl_person_id_976">Puccini</rs> gänzlich fehlt, ist eine Eigenschaft, die uns <rs type="person" ref="#hsl_person_id_992">Murger</rs>s
+      <lb n="N020"/>
+               <rs type="person" ref="#hsl_person_id_976">Puccini</rs> gänzlich fehlt, ist eine Eigenschaft, die uns <rs type="person" ref="#hsl_person_id_992">Murger</rs>s
       <lb n="N021"/>Schilderungen so anziehend macht: der Humor. Die Szenen in
-      <lb n="N022"/><rs type="person" ref="#hsl_person_id_985">Marcell</rs>s Dachstube zu Anfang des ersten wie des vierten
+      <lb n="N022"/>
+               <rs type="person" ref="#hsl_person_id_985">Marcell</rs>s Dachstube zu Anfang des ersten wie des vierten
       <lb n="N023"/>Aktes sind trocken, gequält und langweilig, trotz oder wegen
       <lb n="N024"/>der großen Anstrengung des Komponisten, humoristisch zu
       <lb n="N025"/>wirken. Dasselbe gilt vom zweiten Akt, der zur Illustra
@@ -1184,10 +1220,11 @@
       <lb n="N036"/>darf man sich gerade in <rs type="place" ref="#hsl_place_id_55">Wien</rs> nicht sehen lassen. War
       <lb n="N037"/>dieser zweite Akt trivial und langweilig, so ist der dritte
       <lb n="N038"/>sentimental und langweilig. Das erste Bild (Zollwächter und
-      <lb n="N039"/>Marktleute an der Barriere) entbehrt jeden Zusammenhanges<space quantity="1"/></p>
+      <lb n="N039"/>Marktleute an der Barriere) entbehrt jeden Zusammenhanges<space quantity="1"/>
+            </p>
             <cb n="6"/>
             <p prev="true">
-      <lb n="N001"/>mit den folgenden. Unwillkürlich denkt man an die analoge
+               <lb n="N001"/>mit den folgenden. Unwillkürlich denkt man an die analoge
       <lb n="N002"/>Szene an der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Barriere in <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>s „<rs type="bibl" ref="#hsl_work_id_559">Wasser
       <lb n="N003" break="no"/>träger</rs>“, welche so spannend die ganze Entwicklung des
       <lb n="N004"/>Dramas vorbereitet. Auf einige zart empfundene, nur
@@ -1200,15 +1237,19 @@
       <lb n="N011"/>Gegenstück ermessen, wie wenig <rs type="person" ref="#hsl_person_id_976">Puccini</rs> das verstanden,
       <lb n="N012"/>so vergleiche man damit das Quartett am Schluß von
       <lb n="N013"/>„<rs type="bibl" ref="#hsl_work_id_59">Rigoletto</rs>“. Wie geistreich und ungezwungen stellt hier
-      <lb n="N014"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs> die beiden scherzenden Stimmen den schmerzlich
+      <lb n="N014"/>
+               <rs type="person" ref="#hsl_person_id_312">Verdi</rs> die beiden scherzenden Stimmen den schmerzlich
       <lb n="N015"/>klagenden gegenüber; wie formschön und klangvoll vereinigt
       <lb n="N016"/>er sie zu musikalischer Einheit! Bei <rs type="person" ref="#hsl_person_id_976">Puccini</rs> sondern sich
       <lb n="N017"/>die beiden Hälften des Quartetts wie Oel vom
       <lb n="N018"/>Wasser; man könnte jede von ihnen streichen, ohne
       <lb n="N019"/>daß die andere wesentlich dadurch verlieren oder gewinnen
       <lb n="N020"/>würde.
-            </p><p>
-      <lb n="N021"/>Wie schnell hat doch der junge <hi rendition="#em"><rs type="person" ref="#hsl_person_id_993">Mascagni</rs></hi> Schule
+            </p>
+            <p>
+               <lb n="N021"/>Wie schnell hat doch der junge <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_993">Mascagni</rs>
+               </hi> Schule
       <lb n="N022"/>gemacht! Speziell mit seinen rhythmischen und harmoni
       <lb n="N023" break="no"/>schen Bizarrerien, der melodischen Unnatur und Willkür.
       <lb n="N024"/>Von <rs type="person" ref="#hsl_person_id_993">Mascagni</rs> rührt der in „<rs type="bibl" ref="#hsl_work_id_554">La Bohème</rs>“ herrschende
@@ -1226,11 +1267,12 @@
       <lb n="N036"/>den Hörer losstechen. Ein leichter Scherz gegen die
       <lb n="N037"/>harmonischen Scheußlichkeiten bei <rs type="person" ref="#hsl_person_id_976">Puccini</rs>. Da erheben
       <lb n="N038"/>sich in den verschiedensten Szenen Kolonnen auf- und
-      <lb n="N039"/>niedersteigender paralleler Quinten von so aufdringlicher<space quantity="1"/></p>
+      <lb n="N039"/>niedersteigender paralleler Quinten von so aufdringlicher<space quantity="1"/>
+            </p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p prev="true">
-      <lb n="N001"/>Häßlichkeit — am liebsten „marcantissimo“ von Trompeten
+               <lb n="N001"/>Häßlichkeit — am liebsten „marcantissimo“ von Trompeten
       <lb n="N002"/>geblasen! — daß man sich vergebens fragt, was denn der
       <lb n="N003"/>Komponist mit diesen ungezogenen Scheusälchen bezwecken
       <lb n="N004"/>mochte? Der Text bietet dafür nicht die entfernteste
@@ -1259,11 +1301,18 @@
       <lb n="N027" break="no"/>lang fortdauern, wohl auch noch anschwellen. Je prosaischer,
       <lb n="N028"/>je unsauberer, desto besser. Die Musik ist heute auf das
       <lb n="N029"/>alles bestens eingerichtet.
-            </p><p>
-      <lb n="N030"/>Die sehr günstige Aufnahme der Oper, die effektvolle
+            </p>
+            <p>
+               <lb n="N030"/>Die sehr günstige Aufnahme der Oper, die effektvolle
       <lb n="N031"/>Szenierung und die treffliche Besetzung der Hauptrollen
-      <lb n="N032"/>mit Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_994">Gutheil-Schoder</rs></hi>, Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_995">Kurz</rs></hi> und
-      <lb n="N033"/>Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_276">Schrödter</rs></hi> wurden bereits in einer kurzen
+      <lb n="N032"/>mit Frau <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_994">Gutheil-Schoder</rs>
+               </hi>, Fräulein <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_995">Kurz</rs>
+               </hi> und
+      <lb n="N033"/>Herr <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_276">Schrödter</rs>
+               </hi> wurden bereits in einer kurzen
       <lb n="N034"/>Notiz gewürdigt. Ganz besondere Anerkennung schulden
       <lb n="N035"/>wir dem vortrefflichen Orchester, dem <rs type="person" ref="#hsl_person_id_976">Puccini</rs> eine wich
       <lb n="N036" break="no"/>tigere und jedenfalls angenehmere Rolle zugeteilt als den

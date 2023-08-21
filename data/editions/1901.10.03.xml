@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -103,12 +103,12 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
-            <change who="awilfing" when="2023-06-01">Transkribus OCR und Lektorat.</change>
-            <change who="dstoxreiter" when="2023-06-12">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change who="awilfing" when="2023-06-25">Formatierung und Referenzen eingefügt.</change>
-            <change who="awilfing" when="2023-07-30">Letztkorrektur für Zwischenrelease.</change>
-         </revisionDesc>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2023-06-01">Transkribus OCR und Lektorat.</change>
+         <change who="dstoxreiter" when="2023-06-12">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-06-25">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2023-07-30">Letztkorrektur für Zwischenrelease.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface ulx="0" uly="0" lrx="2479" lry="3508" xml:id="facs_1">
@@ -988,10 +988,12 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-               <lb facs="#facs_1_region_1684479694099_1230_tl_2" n="N001"/><head type="h1">„<rs type="bibl" ref="#hsl_work_id_893">Hoffmann’s Erzählungen</rs>“ von <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>.</head>
-               <lb facs="#facs_1_region_1684479694099_1230_tl_3" n="N002"/><head type="h2">(Ein Vorwort zur Aufführung.)</head>
+            <lb facs="#facs_1_region_1684479694099_1230_tl_2" n="N001"/>
+            <head type="h1">„<rs type="bibl" ref="#hsl_work_id_893">Hoffmann’s Erzählungen</rs>“ von <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>.</head>
+            <lb facs="#facs_1_region_1684479694099_1230_tl_3" n="N002"/>
+            <head type="h2">(Ein Vorwort zur Aufführung.)</head>
             <p>
-      <lb facs="#facs_1_region_1684479694099_1230_tl_4" n="N003"/>Ed. H. Zwanzig Jahre sind verflossen, seit <rs type="person" ref="#hsl_person_id_202">Offen
+               <lb facs="#facs_1_region_1684479694099_1230_tl_4" n="N003"/>Ed. H. Zwanzig Jahre sind verflossen, seit <rs type="person" ref="#hsl_person_id_202">Offen
       <lb facs="#facs_1_region_1684479694099_1230_tl_5" n="N004" break="no"/>bach</rs>’s „Phantastische Oper“ zum ersten- und letztenmal
       <lb facs="#facs_1_region_1684479694099_1230_tl_6" n="N005"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> aufgetaucht ist. Wir wollen heute nicht an jene
       <lb facs="#facs_1_region_1684479694099_1230_tl_7" n="N006"/>Feuerbestattung im Ringtheater erinnern, welche die Première
@@ -1011,33 +1013,44 @@
       <lb facs="#facs_1_region_1684479694099_1230_tl_19" n="N020"/>denn von den Wenigen, die vor 20 Jahren dieser einzigen
       <lb facs="#facs_1_region_1684479694099_1230_tl_20" n="N021"/>Aufführung beigewohnt, sind heute wol nur Wenige am
       <lb facs="#facs_1_region_1684479694099_1230_tl_21" n="N022"/>Leben. Wir können Director <rs type="person" ref="#hsl_person_id_977">Mahler</rs>’s Entschluß, die
-      <lb facs="#facs_1_region_1684479694099_1230_tl_22" n="N023"/><rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’sche Oper aufzuführen, nur billigen. Dazu
+      <lb facs="#facs_1_region_1684479694099_1230_tl_22" n="N023"/>
+               <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’sche Oper aufzuführen, nur billigen. Dazu
       <lb facs="#facs_1_region_1684479694099_1230_tl_23" n="N024"/>brauchen wir nicht einmal die Klage über den andauernden
       <lb facs="#facs_1_region_1684479694099_1230_tl_24" n="N025"/>Mißwachs in der Opern-Production neuerdings zu er
-      <lb facs="#facs_1_line_1685373764009_3405" n="N026" break="no"/>wecken. Ebensowenig die Erinnerung an das armselige<space quantity="1"/></p>
+      <lb facs="#facs_1_line_1685373764009_3405" n="N026" break="no"/>wecken. Ebensowenig die Erinnerung an das armselige<space quantity="1"/>
+            </p>
             <cb n="2"/>
             <p prev="true">
-      <lb facs="#facs_1_line_1685373781610_3422" n="N001"/>Novitäten-Erträgniß der vorigen Saison unserer Hofoper.
+               <lb facs="#facs_1_line_1685373781610_3422" n="N001"/>Novitäten-Erträgniß der vorigen Saison unserer Hofoper.
       <lb facs="#facs_1_region_1684479697805_1233_tl_2" n="N002"/>Welchen Eindruck <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s „<rs type="bibl" ref="#hsl_work_id_893">Hoffmann</rs>“ heute auf das
-      <lb facs="#facs_1_region_1684479697805_1233_tl_3" n="N003"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum machen werde, müssen wir abwarten.
+      <lb facs="#facs_1_region_1684479697805_1233_tl_3" n="N003"/>
+               <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum machen werde, müssen wir abwarten.
       <lb facs="#facs_1_region_1684479697805_1233_tl_4" n="N004"/>Jedenfalls ist er ein höchst eigenartiges, interessantes Werk,
       <lb facs="#facs_1_region_1684479697805_1233_tl_5" n="N005"/>dem überdies keine andere Bühne eine so glänzende Besetzung
       <lb facs="#facs_1_region_1684479697805_1233_tl_6" n="N006"/>der Hauptrollen zu bieten vermag, wie gerade jetzt die
-      <lb facs="#facs_1_region_1684479697805_1233_tl_7" n="N007"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofoper.
-            </p><p>
-      <lb facs="#facs_1_region_1684479697805_1233_tl_8" n="N008"/>Die Handlung der <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’schen Oper ist nicht leicht
+      <lb facs="#facs_1_region_1684479697805_1233_tl_7" n="N007"/>
+               <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofoper.
+            </p>
+            <p>
+               <lb facs="#facs_1_region_1684479697805_1233_tl_8" n="N008"/>Die Handlung der <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’schen Oper ist nicht leicht
       <lb facs="#facs_1_region_1684479697805_1233_tl_9" n="N009"/>zu verstehen und noch schwerer nachzuerzählen. Ich will es
       <lb facs="#facs_1_region_1684479697805_1233_tl_10" n="N010"/>mit Hilfe eines früheren, im Rauch des Ringtheaters er
       <lb facs="#facs_1_region_1684479697805_1233_tl_11" n="N011" break="no"/>stickten Feuilletons versuchen und Einiges über die Musik
       <lb facs="#facs_1_region_1684479697805_1233_tl_12" n="N012"/>beifügen, zur vorläufigen Orientirung der Opernbesucher.
-      <lb facs="#facs_1_region_1684479697805_1233_tl_13" n="N013"/>Also die Handlung! Jules <hi rendition="#em"><rs type="person" ref="#hsl_person_id_90">Barbier</rs></hi>, der Librettist
-      <lb facs="#facs_1_region_1684479697805_1233_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s, verfährt seltsam genug. Er dramatisirt einige
-      <lb facs="#facs_1_region_1684479697805_1233_tl_15" n="N015"/>von E. Th. A. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’s</hi> bekannten Erzählungen
+      <lb facs="#facs_1_region_1684479697805_1233_tl_13" n="N013"/>Also die Handlung! Jules <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_90">Barbier</rs>
+               </hi>, der Librettist
+      <lb facs="#facs_1_region_1684479697805_1233_tl_14" n="N014"/>
+               <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s, verfährt seltsam genug. Er dramatisirt einige
+      <lb facs="#facs_1_region_1684479697805_1233_tl_15" n="N015"/>von E. Th. A. <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’s</hi> bekannten Erzählungen
       <lb facs="#facs_1_region_1684479697805_1233_tl_16" n="N016"/>und bringt den Dichter selbst in allerlei unglückliche Liebes
       <lb facs="#facs_1_region_1684479697805_1233_tl_17" n="N017" break="no"/>verhältnisse zu den Heldinnen jener Geschichten. Das ge
       <lb facs="#facs_1_region_1684479697805_1233_tl_18" n="N018" break="no"/>schieht in ungewöhnlich phantastischer, sprunghafter Weise.
       <lb facs="#facs_1_region_1684479697805_1233_tl_19" n="N019"/>Die dramatische Methode des Librettisten erinnert an die
-                  <lb facs="#facs_1_region_1684479697805_1233_tl_20" n="N020"/>Art, wie der Rath <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1445">Krespel</rs></hi> in <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’s „<rs type="bibl" ref="#hsl_work_id_913">Serapions
+                  <lb facs="#facs_1_region_1684479697805_1233_tl_20" n="N020"/>Art, wie der Rath <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1445">Krespel</rs>
+               </hi> in <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’s „<rs type="bibl" ref="#hsl_work_id_913">Serapions
       <lb facs="#facs_1_region_1684479697805_1233_tl_21" n="N021" break="no"/>brüdern</rs>“, sich ein neues Haus baut. Er läßt zuerst vier
       <lb facs="#facs_1_region_1684479697805_1233_tl_22" n="N022"/>Mauern ohne alle Oeffnungen und Gliederungen auf
       <lb facs="#facs_1_region_1684479697805_1233_tl_23" n="N023" break="no"/>richten, dann an beliebigen Orten Fenster hineinbrechen,
@@ -1052,15 +1065,17 @@
       <lb facs="#facs_1_region_1684479697805_1233_tl_33" n="N032"/>Juan</rs>“ kommt. <rs type="person" ref="#hsl_person_id_202">Offenbach</rs> erinnert hier durch einige sinnig
       <lb facs="#facs_1_region_1684479697805_1233_tl_34" n="N033"/>verwendete Tacte aus „<rs type="bibl" ref="#hsl_work_id_174">Don Juan</rs>“ an <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’s Be
       <lb facs="#facs_1_region_1684479697805_1233_tl_35" n="N034" break="no"/>geisterung für <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, die ihn ja veranlaßt hatte, sich
-      <lb facs="#facs_1_region_1684479697805_1233_tl_36" n="N035"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s Taufnamen Amadeus willkürlich beizulegen. Der
+      <lb facs="#facs_1_region_1684479697805_1233_tl_36" n="N035"/>
+               <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s Taufnamen Amadeus willkürlich beizulegen. Der
       <lb facs="#facs_1_region_1684479697805_1233_tl_37" n="N036"/>Studentenchor, welcher, sehr verschieden von den zahlreichen
       <lb facs="#facs_1_region_1684479697805_1233_tl_38" n="N037"/>Trinkliedern <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s, mit einer fast renommistischen
       <lb facs="#facs_1_region_1684479697805_1233_tl_39" n="N038"/>Kraft einherschreitet, schweigt endlich, und <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> singt
       <lb facs="#facs_1_region_1684479697805_1233_tl_40" n="N039"/>ein schnurriges Lied vom „<rs type="person" ref="#hsl_person_id_1446">Klein-Zack</rs>“, womit der Zwerg
-      <lb facs="#facs_1_line_1685373766049_3408" n="N040"/>des Märchens „<rs type="bibl" ref="#hsl_work_id_914">Klein-Zaches“, genannt „Zinnober</rs>“, gemeint<space quantity="1"/></p>
+      <lb facs="#facs_1_line_1685373766049_3408" n="N040"/>des Märchens „<rs type="bibl" ref="#hsl_work_id_914">Klein-Zaches“, genannt „Zinnober</rs>“, gemeint<space quantity="1"/>
+            </p>
             <cb n="3"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1684479701392_1236_tl_1" n="N001"/>ist. Das Lied, in dessen krachende Reime die Studenten
+               <lb facs="#facs_1_region_1684479701392_1236_tl_1" n="N001"/>ist. Das Lied, in dessen krachende Reime die Studenten
       <lb facs="#facs_1_region_1684479701392_1236_tl_2" n="N002"/>verstärkend einfallen, ist von jener verwegenen Originalität
       <lb facs="#facs_1_line_1685373820577_3436" n="N003"/>und satanisch angefachten Lustigkeit, welche <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs> sich
       <lb facs="#facs_1_line_1685373826985_3443" n="N004"/>aus dem Punschglase zu holen pflegte. Mit spöttischem Ge
@@ -1069,21 +1084,26 @@
       <lb facs="#facs_1_region_1684479701392_1236_tl_9" n="N007"/>unglückliche Liebschaften durchgemacht, von deren Heldinnen
       <lb facs="#facs_1_region_1684479701392_1236_tl_10" n="N008"/>ich euch erzählen will.“ Alles rückt erwartungsvoll im Kreise
       <lb facs="#facs_1_region_1684479701392_1236_tl_11" n="N009"/>näher, und <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> beginnt: „Meine erste Geliebte hieß
-      <lb facs="#facs_1_region_1684479701392_1236_tl_12" n="N010"/><rs type="person" ref="#hsl_person_id_1421">Olympia</rs>.“ Hier fällt der Vorhang. Es ist der merkwür
+      <lb facs="#facs_1_region_1684479701392_1236_tl_12" n="N010"/>
+               <rs type="person" ref="#hsl_person_id_1421">Olympia</rs>.“ Hier fällt der Vorhang. Es ist der merkwür
       <lb facs="#facs_1_line_1685373841242_3451" n="N011" break="no"/>digste Actschluß, der uns je vorgekommen, bizarr und
       <lb facs="#facs_1_region_1684479701392_1236_tl_15" n="N012"/>spannend wie das ganze Werk.
-            </p><p>
-      <lb facs="#facs_1_region_1684479701392_1236_tl_16" n="N013"/>Die folgenden Acte führen nun scenisch aus, was
-      <lb facs="#facs_1_region_1684479701392_1236_tl_17" n="N014"/><rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> in der Weinstube von seinen drei Geliebten,
-      <lb facs="#facs_1_region_1684479701392_1236_tl_18" n="N015"/><rs type="person" ref="#hsl_person_id_1421">Olympia</rs>, <rs type="person" ref="#hsl_person_id_1424">Antonia</rs> und <rs type="person" ref="#hsl_person_id_1423">Giulietta</rs>, erzählt. Wir befinden
+            </p>
+            <p>
+               <lb facs="#facs_1_region_1684479701392_1236_tl_16" n="N013"/>Die folgenden Acte führen nun scenisch aus, was
+      <lb facs="#facs_1_region_1684479701392_1236_tl_17" n="N014"/>
+               <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> in der Weinstube von seinen drei Geliebten,
+      <lb facs="#facs_1_region_1684479701392_1236_tl_18" n="N015"/>
+               <rs type="person" ref="#hsl_person_id_1421">Olympia</rs>, <rs type="person" ref="#hsl_person_id_1424">Antonia</rs> und <rs type="person" ref="#hsl_person_id_1423">Giulietta</rs>, erzählt. Wir befinden
       <lb facs="#facs_1_region_1684479701392_1236_tl_19" n="N016"/>uns zu Anfang des zweiten Actes in einem glänzenden
       <lb facs="#facs_1_region_1684479701392_1236_tl_20" n="N017"/>Empfangssaal. Eine große Gesellschaft in drolligen Rococo-
       <lb facs="#facs_1_region_1684479701392_1236_tl_21" n="N018"/>Costümen tritt mit einem hübschen, ebenso rococo klingenden
       <lb facs="#facs_1_region_1684479701392_1236_tl_22" n="N019"/>Chor ein; der berühmte Dr. <rs type="person" ref="#hsl_person_id_1422">Spalanzani</rs> will den Gästen
       <lb facs="#facs_1_region_1684479701392_1236_tl_23" n="N020"/>seine Tochter <rs type="person" ref="#hsl_person_id_1421">Olympia</rs> vorstellen. Diese ist ein kunstvoll
       <lb facs="#facs_1_region_1684479701392_1236_tl_24" n="N021"/>verfertigter Automat, der nicht blos Kopf und Arme be
-      <lb facs="#facs_1_region_1684479701392_1236_tl_25" n="N022" break="no"/>wegen, sondern sogar tanzen und singen kann. <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs><space quantity="1"/>
-      <lb facs="#facs_1_region_1684479701392_1236_tl_26" n="N023"/>hält die reizende <rs type="person" ref="#hsl_person_id_1421">Olympia</rs> für ein lebendiges Wesen und
+      <lb facs="#facs_1_region_1684479701392_1236_tl_25" n="N022" break="no"/>wegen, sondern sogar tanzen und singen kann. <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_1_region_1684479701392_1236_tl_26" n="N023"/>hält die reizende <rs type="person" ref="#hsl_person_id_1421">Olympia</rs> für ein lebendiges Wesen und
       <lb facs="#facs_1_region_1684479701392_1236_tl_27" n="N024"/>verliebt sich augenblicklich. Seine Romanze („Ah, vivre
       <lb facs="#facs_1_region_1684479701392_1236_tl_28" n="N025"/>deux“), eine monoton begleitete, anfangs mehr declamirte
       <lb facs="#facs_1_region_1684479701392_1236_tl_29" n="N026"/>als gesungene Musik, jedoch zu vollaustönendem Schluß
@@ -1100,17 +1120,19 @@
       <lb facs="#facs_1_region_1684479701392_1236_tl_41" n="N037"/>hierauf zu einem gemächlichen, ländlerartigen Walzer an,
       <lb facs="#facs_1_region_1684479701392_1236_tl_42" n="N038"/>dessen anmuthig wiegende Melodie durch einige kühne
       <lb facs="#facs_1_region_1684479701392_1236_tl_43" n="N039"/>Harmonisirungen gewürzt wird. Die ganze Sieg- und
-      <lb facs="#facs_1_line_1685373768169_3411" n="N040"/>Tanzscene <rs type="person" ref="#hsl_person_id_1421">Olympia</rs>’s ist echter <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>, doch von der<space quantity="1"/></p>
+      <lb facs="#facs_1_line_1685373768169_3411" n="N040"/>Tanzscene <rs type="person" ref="#hsl_person_id_1421">Olympia</rs>’s ist echter <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>, doch von der<space quantity="1"/>
+            </p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1685534521302_118" n="N001"/>feinsten Sorte. <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> wälzt entzückt mit <rs type="person" ref="#hsl_person_id_1421">Olympia</rs> und
+               <lb facs="#facs_2_line_1685534521302_118" n="N001"/>feinsten Sorte. <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> wälzt entzückt mit <rs type="person" ref="#hsl_person_id_1421">Olympia</rs> und
       <lb facs="#facs_2_region_1684479711271_1242_tl_2" n="N002"/>wird von ihr, deren Räderwerk nicht stillstehen will, fast
       <lb facs="#facs_2_line_1685534546700_125" n="N003"/>zu Tode getanzt. Athemlos sinkt er in einen Sessel, wäh
       <lb facs="#facs_2_line_1685534559947_130" n="N004" break="no"/>rend sie solo zur Thür hinauswirbelt. Da hört man von
       <lb facs="#facs_2_region_1684479711271_1242_tl_7" n="N005"/>draußen einen furchtbaren Krach — <rs type="person" ref="#hsl_person_id_1421">Olympia</rs> liegt zer
       <lb facs="#facs_2_line_1685534581187_136" n="N006" break="no"/>trümmert. Der boshafte alte Optiker <rs type="person" ref="#hsl_person_id_1431">Coppelius</rs>, der für
-      <lb facs="#facs_2_line_1685534592707_141" n="N007"/><rs type="person" ref="#hsl_person_id_1421">Olympia</rs>’s so täuschend verfertigte Augen seine Bezahlung
+      <lb facs="#facs_2_line_1685534592707_141" n="N007"/>
+               <rs type="person" ref="#hsl_person_id_1421">Olympia</rs>’s so täuschend verfertigte Augen seine Bezahlung
       <lb facs="#facs_2_region_1684479711271_1242_tl_12" n="N008"/>nicht erhalten, rächt sich an <rs type="person" ref="#hsl_person_id_1422">Spalanzani</rs>, indem er die
       <lb facs="#facs_2_region_1684479711271_1242_tl_13" n="N009"/>kostbare Puppe zerbricht. Die Geschichte mit dem schönen
       <lb facs="#facs_2_region_1684479711271_1242_tl_14" n="N010"/>Automaten (auch in <rs type="person" ref="#hsl_person_id_1447">Délibes</rs>’ Ballet „<rs type="bibl" ref="#hsl_work_id_916">Coppelia</rs>“ benützt)
@@ -1119,10 +1141,12 @@
       <lb facs="#facs_2_region_1684479711271_1242_tl_17" n="N013" break="no"/>chaniker am Schluß dieses Actes scheint dem Librettisten
       <lb facs="#facs_2_region_1684479711271_1242_tl_18" n="N014"/>das noch seltsamere Duell zwischen den Physikern <rs type="person" ref="#hsl_person_id_1449">Liuven
       <lb facs="#facs_2_region_1684479711271_1242_tl_19" n="N015" break="no"/>hoek</rs> und <rs type="person" ref="#hsl_person_id_1448">Swammerdam</rs> vorgeschwebt zu haben, die bei
-      <lb facs="#facs_2_region_1684479711271_1242_tl_20" n="N016"/><rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs> statt mit Pistolen mit concentrirten Lichteffecten
+      <lb facs="#facs_2_region_1684479711271_1242_tl_20" n="N016"/>
+               <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs> statt mit Pistolen mit concentrirten Lichteffecten
       <lb facs="#facs_2_region_1684479711271_1242_tl_21" n="N017"/>gegen einander losgehen.
-            </p><p>
-      <lb facs="#facs_2_region_1684479711271_1242_tl_22" n="N018"/>Der folgende Act versinnlicht uns die <hi rendition="#em">zweite</hi> Liebes
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1684479711271_1242_tl_22" n="N018"/>Der folgende Act versinnlicht uns die <hi rendition="#em">zweite</hi> Liebes
       <lb facs="#facs_2_region_1684479711271_1242_tl_23" n="N019" break="no"/>geschichte. Sie spielt in <rs type="place" ref="#hsl_place_id_183">Cremona</rs>, wo <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> die junge
       <lb facs="#facs_2_region_1684479711271_1242_tl_24" n="N020"/>Sängerin <rs type="person" ref="#hsl_person_id_1424">Antonia</rs> nach langen Irrfahrten wiedergefunden
       <lb facs="#facs_2_region_1684479711271_1242_tl_25" n="N021"/>hat. Er liebt sie und will sie heiraten. Mit schmerzlicher
@@ -1130,11 +1154,13 @@
       <lb facs="#facs_2_line_1685534774463_166" n="N023"/>eben ihrem Vater (<rs type="person" ref="#hsl_person_id_1434">Krespel</rs>) geloben müssen, nie mehr zu
       <lb facs="#facs_2_region_1684479711271_1242_tl_28" n="N024"/>singen und jeden Gedanken an die Bühne für immer auf
       <lb facs="#facs_2_line_1685534805987_177" n="N025" break="no"/>zugeben. <rs type="person" ref="#hsl_person_id_1424">Antonia</rs>’s Romanze von der Turteltaube kleidet
-      <lb facs="#facs_2_line_1685534822802_182" n="N026"/>eine gewisse äußere Eleganz; ihr Duett mit <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1684479711271_1242_tl_33" n="N027"/>enthält neben einigen gezwungenen Phrasen auch manche
+      <lb facs="#facs_2_line_1685534822802_182" n="N026"/>eine gewisse äußere Eleganz; ihr Duett mit <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1684479711271_1242_tl_33" n="N027"/>enthält neben einigen gezwungenen Phrasen auch manche
       <lb facs="#facs_2_region_1684479711271_1242_tl_34" n="N028"/>sehr ausdrucksvolle. Da taucht plötzlich die gespenstische
       <lb facs="#facs_2_region_1684479711271_1242_tl_35" n="N029"/>Gestalt des Doctors <rs type="person" ref="#hsl_person_id_1429">Miracle</rs> auf, welcher, feindselig gegen
-      <lb facs="#facs_2_region_1684479711271_1242_tl_36" n="N030"/><rs type="person" ref="#hsl_person_id_1434">Krespel</rs> und eifersüchtig auf <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs>, deren Pläne durch
+      <lb facs="#facs_2_region_1684479711271_1242_tl_36" n="N030"/>
+               <rs type="person" ref="#hsl_person_id_1434">Krespel</rs> und eifersüchtig auf <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs>, deren Pläne durch
       <lb facs="#facs_2_region_1684479711271_1242_tl_37" n="N031" break="no"/>kreuzt. Bei dem Terzett der drei Männer gleitet uns eine
       <lb facs="#facs_2_line_1685534878642_201" n="N032"/>kalte Schlangenhaut über den Rücken. Die Musik ist von
       <lb facs="#facs_2_region_1684479711271_1242_tl_39" n="N033"/>einer phantastischen Aufgeregtheit und dämonischer Gewalt,
@@ -1145,10 +1171,11 @@
       <lb facs="#facs_2_region_1684479711271_1242_tl_45" n="N038"/>Er streicht wüthend seine Geige, belebt endlich gar das lebens
       <lb facs="#facs_2_region_1684479711271_1242_tl_46" n="N039" break="no"/>große Porträt von <rs type="person" ref="#hsl_person_id_1424">Antonia</rs>’s verstorbener Mutter, welche,
       <lb facs="#facs_2_region_1684479711271_1242_tl_47" n="N040"/>nun mitsingend, das dämonische Duett zu einem Terzett
-      <lb facs="#facs_2_line_1685534978537_232" n="N041"/>macht, das immer stärker, immer leidenschaftlicher anschwillt,<space quantity="1"/></p>
+      <lb facs="#facs_2_line_1685534978537_232" n="N041"/>macht, das immer stärker, immer leidenschaftlicher anschwillt,<space quantity="1"/>
+            </p>
             <cb n="5"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684479714776_1245_tl_1" n="N001"/>bis endlich <rs type="person" ref="#hsl_person_id_1424">Antonia</rs> im Singen todt zur Erde fällt. Zu
+               <lb facs="#facs_2_region_1684479714776_1245_tl_1" n="N001"/>bis endlich <rs type="person" ref="#hsl_person_id_1424">Antonia</rs> im Singen todt zur Erde fällt. Zu
       <lb facs="#facs_2_region_1684479714776_1245_tl_2" n="N002"/>spät dringen Vater <rs type="person" ref="#hsl_person_id_1434">Krespel</rs> und <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> herein. Während
       <lb facs="#facs_2_line_1685534994146_245" n="N003"/>sie an <rs type="person" ref="#hsl_person_id_1424">Antonia</rs>’s Leiche niederstürzen, fällt der Vorhang.
       <lb facs="#facs_2_region_1684479714776_1245_tl_3" n="N004"/>Ueber diese Scene des Grauens breitet sich mildernd, ver
@@ -1156,44 +1183,57 @@
       <lb facs="#facs_2_region_1684479714776_1245_tl_5" n="N006"/>Wiederholung der Barcarole: „Belle nuit, belle nuit
       <lb facs="#facs_2_region_1684479714776_1245_tl_6" n="N007"/>d’amour“, welche — zweistimmig mit Chor hinter der
       <lb facs="#facs_2_region_1684479714776_1245_tl_7" n="N008"/>Scene gesungen — den Act lieblich eingeleitet hatte.
-            </p><p>
-      <lb facs="#facs_2_region_1684479714776_1245_tl_8" n="N009"/>Nach kurzer Pause hebt sich zum letztenmal der Vor
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1684479714776_1245_tl_8" n="N009"/>Nach kurzer Pause hebt sich zum letztenmal der Vor
       <lb facs="#facs_2_region_1684479714776_1245_tl_9" n="N010" break="no"/>hang: wir befinden uns wieder in Lutter’s Weinstube,
       <lb facs="#facs_2_region_1684479714776_1245_tl_10" n="N011"/>ganz wie am Schlusse des ersten Actes. <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs>, um
       <lb facs="#facs_2_region_1684479714776_1245_tl_11" n="N012" break="no"/>ringt von seinen Zuhörern, hat auserzählt, die Studenten
       <lb facs="#facs_2_region_1684479714776_1245_tl_12" n="N013"/>intoniren noch einmal ihren Trinkchor. Die kokette Sängerin
-      <lb facs="#facs_2_region_1684479714776_1245_tl_13" n="N014"/><rs type="person" ref="#hsl_person_id_1451">Stella</rs> und der Rath <rs type="person" ref="#hsl_person_id_1452">Lindorf</rs>, auch ein dämonisch räthsel
+      <lb facs="#facs_2_region_1684479714776_1245_tl_13" n="N014"/>
+               <rs type="person" ref="#hsl_person_id_1451">Stella</rs> und der Rath <rs type="person" ref="#hsl_person_id_1452">Lindorf</rs>, auch ein dämonisch räthsel
       <lb facs="#facs_2_region_1684479714776_1245_tl_14" n="N015" break="no"/>hafter Mensch, kommen mit einander aus dem Theater.
-      <lb facs="#facs_2_region_1684479714776_1245_tl_15" n="N016"/><rs type="person" ref="#hsl_person_id_1451">Stella</rs>, eine frühere Flamme <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs>’s, drängt sich
+      <lb facs="#facs_2_region_1684479714776_1245_tl_15" n="N016"/>
+               <rs type="person" ref="#hsl_person_id_1451">Stella</rs>, eine frühere Flamme <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs>’s, drängt sich
       <lb facs="#facs_2_region_1684479714776_1245_tl_16" n="N017"/>schmeichelnd an diesen, der sie aber zurückstößt und „dem
-                  <lb facs="#facs_2_region_1684479714776_1245_tl_17" n="N018"/><rs type="person" ref="#hsl_person_id_664">Satan</rs><space quantity="1"/><space quantity="1"/><rs type="person" ref="#hsl_person_id_1452">Lindorf</rs>“ überläßt. Einsam in der Schänke zurück
+                  <lb facs="#facs_2_region_1684479714776_1245_tl_17" n="N018"/>
+               <rs type="person" ref="#hsl_person_id_664">Satan</rs>
+               <space quantity="1"/>
+               <space quantity="1"/>
+               <rs type="person" ref="#hsl_person_id_1452">Lindorf</rs>“ überläßt. Einsam in der Schänke zurück
       <lb facs="#facs_2_region_1684479714776_1245_tl_18" n="N019" break="no"/>bleibend, wird <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs> in seinen melancholischen Träumen
       <lb facs="#facs_2_region_1684479714776_1245_tl_19" n="N020"/>von einer auftauchenden Muse getröstet und zu unsterb
       <lb facs="#facs_2_region_1684479714776_1245_tl_20" n="N021" break="no"/>lichem poetischen Schaffen aufgemuntert. Ende.
-            </p><p>
-      <lb facs="#facs_2_region_1684479714776_1245_tl_21" n="N022"/>Eigentlich war uns, wie ich erwähnte, die Erzählung
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1684479714776_1245_tl_21" n="N022"/>Eigentlich war uns, wie ich erwähnte, die Erzählung
       <lb facs="#facs_2_line_1685534776186_169" n="N023"/>von <hi rendition="#em">drei</hi> Liebschaften <rs type="person" ref="#hsl_person_id_1419">Hoffmann</rs>’s versprochen; auf den
       <lb facs="#facs_2_region_1684479714776_1245_tl_22" n="N024"/>zweiten Act mit dem Automaten <rs type="person" ref="#hsl_person_id_1421">Olympia</rs> und dem dritten
       <lb facs="#facs_2_region_1684479714776_1245_tl_23" n="N025"/>mit der Sängerin <rs type="person" ref="#hsl_person_id_1424">Antonia</rs> folgt auch wirklich in <rs type="person" ref="#hsl_person_id_202">Offen
-      <lb facs="#facs_2_region_1684479714776_1245_tl_24" n="N026" break="no"/>bach</rs>’s Original-Partitur ein vierter, welcher in <rs type="place" ref="#hsl_place_id_89">Venedig</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1684479714776_1245_tl_25" n="N027"/>spielt und von der schönen Sünderin <rs type="person" ref="#hsl_person_id_1423">Giulietta</rs> handelt.
-      <lb facs="#facs_2_region_1684479714776_1245_tl_26" n="N028"/>Dieser vierte Act wird wie in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, so auch in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1684479714776_1245_tl_27" n="N029"/>weggelassen. Seltsam, wie das ganze Stück, ist gewiß der
+      <lb facs="#facs_2_region_1684479714776_1245_tl_24" n="N026" break="no"/>bach</rs>’s Original-Partitur ein vierter, welcher in <rs type="place" ref="#hsl_place_id_89">Venedig</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1684479714776_1245_tl_25" n="N027"/>spielt und von der schönen Sünderin <rs type="person" ref="#hsl_person_id_1423">Giulietta</rs> handelt.
+      <lb facs="#facs_2_region_1684479714776_1245_tl_26" n="N028"/>Dieser vierte Act wird wie in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, so auch in <rs type="place" ref="#hsl_place_id_55">Wien</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1684479714776_1245_tl_27" n="N029"/>weggelassen. Seltsam, wie das ganze Stück, ist gewiß der
       <lb facs="#facs_2_region_1684479714776_1245_tl_28" n="N030"/>Umstand, daß der Ausfall eines Actes den dramatischen
       <lb facs="#facs_2_region_1684479714776_1245_tl_29" n="N031"/>Zusammenhang keineswegs alterirt; es könnten ebenso gut
       <lb facs="#facs_2_line_1685534880274_204" n="N032"/>zwei Acte hinzugefügt, als einer weggenommen werden.
       <lb facs="#facs_2_region_1684479714776_1245_tl_30" n="N033"/>Die Grundlage dieser Oper bildet nicht sowol eine
       <lb facs="#facs_2_region_1684479714776_1245_tl_31" n="N034"/>organisch entwickelte Handlung, als ein Potpourri aus
-      <lb facs="#facs_2_region_1684479714776_1245_tl_32" n="N035"/><rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’s Erzählungen; man kann dergleichen beliebig
+      <lb facs="#facs_2_region_1684479714776_1245_tl_32" n="N035"/>
+               <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’s Erzählungen; man kann dergleichen beliebig
       <lb facs="#facs_2_region_1684479714776_1245_tl_33" n="N036"/>um einige Scenen verlängern oder kürzen. Keine Frage,
       <lb facs="#facs_2_region_1684479714776_1245_tl_34" n="N037"/>daß gerade das Sprunghafte, Willkürliche in diesem
       <lb facs="#facs_2_region_1684479714776_1245_tl_35" n="N038"/>Libretto, sein traumhaftes Durcheinander von wirklichen
       <lb facs="#facs_2_region_1684479714776_1245_tl_36" n="N039"/>Personen und gespenstischen Erscheinungen die Stimmung
-      <lb facs="#facs_2_region_1684479714776_1245_tl_37" n="N040"/><rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’scher Poesie merkwürdig widerspiegelt. Der
-      <lb facs="#facs_2_line_1685534980435_235" n="N041"/>beklemmende Nebel in diesem dritten Act ist ganz derselbe,<space quantity="1"/></p>
+      <lb facs="#facs_2_region_1684479714776_1245_tl_37" n="N040"/>
+               <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’scher Poesie merkwürdig widerspiegelt. Der
+      <lb facs="#facs_2_line_1685534980435_235" n="N041"/>beklemmende Nebel in diesem dritten Act ist ganz derselbe,<space quantity="1"/>
+            </p>
             <cb n="6"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684479718462_1248_tl_1" n="N001"/>welcher bei der Lectüre <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’scher Märchen sich immer
+               <lb facs="#facs_2_region_1684479718462_1248_tl_1" n="N001"/>welcher bei der Lectüre <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’scher Märchen sich immer
       <lb facs="#facs_2_region_1684479718462_1248_tl_2" n="N002"/>dichter und dichter um uns schlingt, bis wir schließlich
       <lb facs="#facs_2_line_1685534995970_248" n="N003"/>nicht mehr unterscheiden können, was Wirklichkeit und was
       <lb facs="#facs_2_region_1684479718462_1248_tl_4" n="N004"/>Hexenspuk sei. Auf den ersten Blick glaubte ich, der dritte
@@ -1205,8 +1245,9 @@
       <lb facs="#facs_2_region_1684479718462_1248_tl_10" n="N010"/>dasjenige erzielen gewollt, was sie erreicht haben: das
       <lb facs="#facs_2_region_1684479718462_1248_tl_11" n="N011"/>wilde, berückende Traumgetümmel der <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’schen
       <lb facs="#facs_2_region_1684479718462_1248_tl_12" n="N012"/>Phantasiestücke.
-            </p><p>
-      <lb facs="#facs_2_region_1684479718462_1248_tl_13" n="N013"/>Von der Musik <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s dürfte man überrascht
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1684479718462_1248_tl_13" n="N013"/>Von der Musik <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s dürfte man überrascht
       <lb facs="#facs_2_region_1684479718462_1248_tl_14" n="N014"/>sein, überrascht in günstigem Sinne. Sie streift selbst in
       <lb facs="#facs_2_region_1684479718462_1248_tl_15" n="N015"/>ihren schwächeren Nummern weder an den nachlässig schleu
       <lb facs="#facs_2_region_1684479718462_1248_tl_16" n="N016" break="no"/>dernden noch an den ausgelassenen frechen Vaudevilleton,
@@ -1214,8 +1255,9 @@
       <lb facs="#facs_2_region_1684479718462_1248_tl_18" n="N018"/>anschlägt. In ihren besten Momenten erreichen „<rs type="bibl" ref="#hsl_work_id_893">Les contes
       <lb facs="#facs_2_region_1684479718462_1248_tl_19" n="N019"/>d’Hoffmann</rs>“ eine geistreiche Charakteristik, eine Zartheit
       <lb facs="#facs_2_region_1684479718462_1248_tl_20" n="N020"/>und dramatische Verve, wie wir sie früher nur vereinzelt
-      <lb facs="#facs_2_region_1684479718462_1248_tl_21" n="N021"/>und ausnahmsweise bei ihm fanden. Daß sich <rs type="person" ref="#hsl_person_id_202">Offenbach</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1684479718462_1248_tl_22" n="N022"/>gerade <hi rendition="#em">diesem</hi> Stoff leidenschaftlich hingab, erscheint seinen
+      <lb facs="#facs_2_region_1684479718462_1248_tl_21" n="N021"/>und ausnahmsweise bei ihm fanden. Daß sich <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1684479718462_1248_tl_22" n="N022"/>gerade <hi rendition="#em">diesem</hi> Stoff leidenschaftlich hingab, erscheint seinen
       <lb facs="#facs_2_region_1684479718462_1248_tl_23" n="N023"/>Freunden nicht so unerklärlich. <rs type="person" ref="#hsl_person_id_1412">Hoffmann</rs>’s Gespensterwelt
       <lb facs="#facs_2_region_1684479718462_1248_tl_24" n="N024"/>hat stets einen starken Reiz auf <rs type="person" ref="#hsl_person_id_202">Offenbach</rs> geübt; in seinen
       <lb facs="#facs_2_region_1684479718462_1248_tl_25" n="N025"/>letzten Jahren sah der Arme selber aus wie irgend ein
@@ -1234,11 +1276,12 @@
       <lb facs="#facs_2_region_1684479718462_1248_tl_38" n="N038"/>auszureifen. Er widmete dieser Partitur seine besten Muße
       <lb facs="#facs_2_region_1684479718462_1248_tl_39" n="N039" break="no"/>stunden, feilte und besserte immer wieder daran, bis ihm
       <lb facs="#facs_2_region_1684479718462_1248_tl_40" n="N040"/>der Tod das Notenpapier unter der Feder wegzog. Das
-      <lb facs="#facs_2_line_1685534982105_238" n="N041"/>Werk lag, bis auf einige Lücken in der Instrumentirung<space quantity="1"/></p>
+      <lb facs="#facs_2_line_1685534982105_238" n="N041"/>Werk lag, bis auf einige Lücken in der Instrumentirung<space quantity="1"/>
+            </p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p prev="true">
-      <lb facs="#facs_3_region_1684479729942_1254_tl_1" n="N001"/>fertig da und wurde im Februar <date>1881</date> zum erstenmal in
+               <lb facs="#facs_3_region_1684479729942_1254_tl_1" n="N001"/>fertig da und wurde im Februar <date>1881</date> zum erstenmal in
       <lb facs="#facs_3_region_1684479729942_1254_tl_2" n="N002"/>der Opéra Comique mit großem Erfolge aufgeführt. <rs type="person" ref="#hsl_person_id_202">Offen
       <lb facs="#facs_3_region_1684479729942_1254_tl_3" n="N003" break="no"/>bach</rs> bezeichnete dasselbe als „Opéra fantastique“. Un
       <lb facs="#facs_3_region_1684479729942_1254_tl_4" n="N004" break="no"/>befangener als ehedem begannen nun die <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Kritiker,
@@ -1253,19 +1296,23 @@
       <lb facs="#facs_3_region_1684479729942_1254_tl_15" n="N013"/>die Excentricitäten des „<rs type="bibl" ref="#hsl_work_id_281">Orpheus</rs>“ und der „<rs type="bibl" ref="#hsl_work_id_280">Schönen Helena</rs>“
       <lb facs="#facs_3_line_1685535749122_442" n="N014"/>geschrieben hat. <hi rendition="#em">Ich sehe nun, daß ich mich ge
       <lb facs="#facs_3_region_1684479729942_1254_tl_18" n="N015" break="no"/>täuscht habe</hi>.“
-            </p><p>
-      <lb facs="#facs_3_region_1684479729942_1254_tl_19" n="N016"/>Ist nun dieses letzte Werk <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s wirklich sein
+            </p>
+            <p>
+               <lb facs="#facs_3_region_1684479729942_1254_tl_19" n="N016"/>Ist nun dieses letzte Werk <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s wirklich sein
       <lb facs="#facs_3_region_1684479729942_1254_tl_20" n="N017"/>bestes? Ja und Nein. Sein bestes in dem Sinne, wie —
       <lb facs="#facs_3_region_1684479729942_1254_tl_21" n="N018"/>um einen höheren Vergleich zu Hilfe zu nehmen — „<rs type="bibl" ref="#hsl_work_id_186">Wil
       <lb facs="#facs_3_region_1684479729942_1254_tl_22" n="N019" break="no"/>helm Tell</rs>“ die beste Oper von <rs type="person" ref="#hsl_person_id_241">Rossini</rs> ist. Der „<rs type="bibl" ref="#hsl_work_id_176">Barbier</rs>“
       <lb facs="#facs_3_region_1684479729942_1254_tl_23" n="N020"/>ist doch noch besser. Musikalisch bedeutender und reiner
       <lb facs="#facs_3_region_1684479729942_1254_tl_24" n="N021"/>sind „<rs type="bibl" ref="#hsl_work_id_893">Hoffmann’s Erzählungen</rs>“ als die früheren Operetten
-      <lb facs="#facs_3_region_1684479729942_1254_tl_25" n="N022"/><rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s; aber dem gespenstischen Stoffe fehlen fast
+      <lb facs="#facs_3_region_1684479729942_1254_tl_25" n="N022"/>
+               <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s; aber dem gespenstischen Stoffe fehlen fast
       <lb facs="#facs_3_region_1684479729942_1254_tl_26" n="N023"/>gänzlich diejenigen Elemente, in welchen sein eigenartiges
       <lb facs="#facs_3_line_1685535861794_468" n="N024"/>Talent unumschränkt waltete: Komik, parodirender Witz
       <lb facs="#facs_3_region_1684479729942_1254_tl_29" n="N025"/>und ausgelassene Fröhlichkeit. Wenn zum Meister macht,
       <lb facs="#facs_3_region_1684479729942_1254_tl_30" n="N026"/>was Keiner uns nachmachen kann, was ganz unser Eigen
-      <lb facs="#facs_3_region_1684479729942_1254_tl_31" n="N027"/>ist, so ist <rs type="person" ref="#hsl_person_id_202">Offenbach</rs><space quantity="1"/><rs type="person" ref="#hsl_person_id_202">Offenbach</rs> geworden durch seine Lust
+      <lb facs="#facs_3_region_1684479729942_1254_tl_31" n="N027"/>ist, so ist <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>
+               <space quantity="1"/>
+               <rs type="person" ref="#hsl_person_id_202">Offenbach</rs> geworden durch seine Lust
       <lb facs="#facs_3_line_1685535908770_482" n="N028" break="no"/>spiele und Possen, durch die „<rs type="bibl" ref="#hsl_work_id_920">Hochzeit bei Laternenschein</rs>“,
       <lb facs="#facs_3_line_1685535972945_496" n="N029"/>„<rs type="bibl" ref="#hsl_work_id_921">Fortunio’s Liebeslied</rs>“, „<rs type="bibl" ref="#hsl_work_id_280">Helena</rs>“, „<rs type="bibl" ref="#hsl_work_id_922">Pariser Leben</rs>“, „<rs type="bibl" ref="#hsl_work_id_915">Prin
       <lb facs="#facs_3_region_1684479729942_1254_tl_37" n="N030" break="no"/>zessin von Trapezunt</rs>“ etc. Diese Fülle leicht hinströmender

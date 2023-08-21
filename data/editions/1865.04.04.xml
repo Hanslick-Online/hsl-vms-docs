@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -103,7 +103,7 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
+      <revisionDesc status="final">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="kbamer" when="2023-05-05">Namen, Daten, Orte, Werke ediert und referenziert.</change>
@@ -613,39 +613,51 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-      <lb facs="#facs_1_region_1669382452805_9l4" n="N002"/><head type="h1"><rs type="place" ref="#hsl_place_id_28">Italiensch</rs>e Oper.</head>
-      <lb facs="#facs_1_region_1669382452805_9l5" n="N003"/><head type="h2">(„<rs type="bibl" ref="#hsl_work_id_144">I Lombardi</rs>“ von <rs type="person" ref="#hsl_person_id_312">Verdi</rs>.)</head>
-            <p> 
-      <lb facs="#facs_1_region_1669382452805_9l6" n="N004"/>Ed. H. Die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Sänger, sonst untrügliche
+            <lb facs="#facs_1_region_1669382452805_9l4" n="N002"/>
+            <head type="h1">
+               <rs type="place" ref="#hsl_place_id_28">Italiensch</rs>e Oper.</head>
+            <lb facs="#facs_1_region_1669382452805_9l5" n="N003"/>
+            <head type="h2">(„<rs type="bibl" ref="#hsl_work_id_144">I Lombardi</rs>“ von <rs type="person" ref="#hsl_person_id_312">Verdi</rs>.)</head>
+            <p>
+               <lb facs="#facs_1_region_1669382452805_9l6" n="N004"/>Ed. H. Die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Sänger, sonst untrügliche
       <lb facs="#facs_1_region_1669382452805_9l7" n="N005"/>Herolde von Veilchenduft und Frühlingswärme, sind heuer
       <lb facs="#facs_1_region_1669382452805_9l8" n="N006"/>zwischen Schneebarricaden frierend bei uns eingezogen. Auch
       <lb facs="#facs_1_region_1669382452805_9l9" n="N007"/>mit ihrer ersten Vorstellung, den „<rs type="bibl" ref="#hsl_work_id_144">Lombardi alla prima
       <lb facs="#facs_1_region_1669382452805_9l10" n="N008"/>crociata</rs>“, haben sie die leidige Kälte nicht besiegt. Das
-      <lb facs="#facs_1_region_1669382452805_9l11" n="N009"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum, das diesen <rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼschen Kreuzzug bereits vor
+      <lb facs="#facs_1_region_1669382452805_9l11" n="N009"/>
+               <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum, das diesen <rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼschen Kreuzzug bereits vor
       <lb facs="#facs_1_region_1669382452805_9l12" n="N010"/>mehr als einem Decennium ohne sonderliches Vergnügen mit
       <lb facs="#facs_1_region_1669382452805_9l13" n="N011" break="no"/>machte, wird sich kaum danach gesehnt haben, neuerdings unter
       <lb facs="#facs_1_region_1669382452805_9l14" n="N012"/>den Polkaklängen der Regimentsbande zum heiligen Grab zu
       <lb facs="#facs_1_region_1669382452805_9l15" n="N013"/>marschiren. Die „<rs type="bibl" ref="#hsl_work_id_144">Lombardi</rs>“ erschienen in der Scala unmit
       <lb facs="#facs_1_region_1669382452805_9l16" n="N014" break="no"/>telbar nach dem „<rs type="bibl" ref="#hsl_work_id_145">Nabucco</rs>“ und vor dem „<rs type="bibl" ref="#hsl_work_id_204">Ernani</rs>,“ also zu
-      <lb facs="#facs_1_region_1669382452805_9l17" n="N015"/>einer Zeit, wo <rs type="place" ref="#hsl_place_id_28">Italien</rs>, aber <hi rendition="#em">nur</hi><space quantity="1"/><rs type="place" ref="#hsl_place_id_28">Italien</rs>, Giuseppe <rs type="person" ref="#hsl_person_id_312">Verdi</rs><space quantity="1"/>
-      <lb facs="#facs_1_region_1669382452805_9l18" n="N016"/>als ein neues glänzend aufsteigendes Gestirn feierte — im
+      <lb facs="#facs_1_region_1669382452805_9l17" n="N015"/>einer Zeit, wo <rs type="place" ref="#hsl_place_id_28">Italien</rs>, aber <hi rendition="#em">nur</hi>
+               <space quantity="1"/>
+               <rs type="place" ref="#hsl_place_id_28">Italien</rs>, Giuseppe <rs type="person" ref="#hsl_person_id_312">Verdi</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_1_region_1669382452805_9l18" n="N016"/>als ein neues glänzend aufsteigendes Gestirn feierte — im
       <lb facs="#facs_1_region_1669382452805_9l19" n="N017"/>selben Jahre (<date>1843</date>), wo sein „<rs type="bibl" ref="#hsl_work_id_145">Nabucco</rs>“ in <rs type="place" ref="#hsl_place_id_55">Wien</rs> mißfiel
       <lb facs="#facs_1_region_1669382452805_9l20" n="N018"/>und von der Kritik mit verächtlichem Hohn zurückgewiesen
       <lb facs="#facs_1_region_1669382452805_9l21" n="N019"/>wurde.
-            </p><p> 
-      <lb facs="#facs_1_region_1669382452805_9l22" n="N020"/>Die Italiener hatten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi> gleich bei seinem ersten
+            </p>
+            <p>
+               <lb facs="#facs_1_region_1669382452805_9l22" n="N020"/>Die Italiener hatten <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_312">Verdi</rs>
+               </hi> gleich bei seinem ersten
       <lb facs="#facs_1_region_1669382452805_9l23" n="N021"/>Auftreten als eine epochemachende Erscheinung enthusiastisch
       <lb facs="#facs_1_region_1669382452805_9l24" n="N022"/>begrüßt und damit wenigstens insofern Recht gehabt, als
-      <lb facs="#facs_1_region_1669382452805_9l25" n="N023"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs Musik sich seither auf allen <rs type="place" ref="#hsl_place_id_19">europäisch</rs>en Opernbühnen
+      <lb facs="#facs_1_region_1669382452805_9l25" n="N023"/>
+               <rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs Musik sich seither auf allen <rs type="place" ref="#hsl_place_id_19">europäisch</rs>en Opernbühnen
       <lb facs="#facs_1_region_1669382452805_9l26" n="N024"/>durchsetzte und seit 20 Jahren das <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Repertoire ohne
       <lb facs="#facs_1_region_1669382452805_9l27" n="N025"/>Rivalen beherrscht. Es fiele einem Deutschen schwer, in „<rs type="bibl" ref="#hsl_work_id_145">Nabucco</rs>“
       <lb facs="#facs_1_region_1669382452805_9l28" n="N026"/>oder den „<rs type="bibl" ref="#hsl_work_id_144">Lombardi</rs>“ die Elemente jenes ganz neuen und ori
       <lb facs="#facs_1_region_1669382452805_9l29" n="N027" break="no"/>ginellen Styls herauszufinden, den die Italiener sofort daran
       <lb facs="#facs_1_region_1669382452805_9l30" n="N028"/>priesen. Wir bemerken kaum einen wesentlichen Unterschied
-      <lb facs="#facs_1_region_1669382452805_9l31" n="N029"/>zwischen diesen ersten Opern <rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs und den gleichzeitigen<space quantity="1"/></p>
+      <lb facs="#facs_1_region_1669382452805_9l31" n="N029"/>zwischen diesen ersten Opern <rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs und den gleichzeitigen<space quantity="1"/>
+            </p>
             <cb n="2"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1669382463007_12l1" n="N001"/>eines <rs type="person" ref="#hsl_person_id_333">Mercadante</rs>, <rs type="person" ref="#hsl_person_id_334">Pacini</rs>, <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>, höchstens ein derberes
+               <lb facs="#facs_1_region_1669382463007_12l1" n="N001"/>eines <rs type="person" ref="#hsl_person_id_333">Mercadante</rs>, <rs type="person" ref="#hsl_person_id_334">Pacini</rs>, <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>, höchstens ein derberes
       <lb facs="#facs_1_region_1669382463007_12l2" n="N002"/>Dreinfahren, mit kecker Rhythmik und Instrumentirung. Die
       <lb facs="#facs_1_region_1669382463007_12l3" n="N003"/>Italiener, die, mit den feineren Unterschieden ihrer eigenen
       <lb facs="#facs_1_region_1669382463007_12l4" n="N004"/>Musik natürlich genauer vertraut, in zwei einem <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en
@@ -653,9 +665,11 @@
       <lb facs="#facs_1_region_1669382463007_12l6" n="N006"/>nachweisen (gerade wie die Neger sich untereinander sehr
       <lb facs="#facs_1_region_1669382463007_12l7" n="N007"/>unähnlich vorkommen, während sie für den Europäer alle Ein
       <lb facs="#facs_1_region_1669382463007_12l8" n="N008"/>Gesicht haben), die Italiener bewiesen an den ersten Ver
-      <lb facs="#facs_1_region_1669382463007_12l9" n="N009" break="no"/>suchen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs</hi> jedenfalls die feinere Spürnase. Eine <rs type="place" ref="#hsl_place_id_73">Mai
+      <lb facs="#facs_1_region_1669382463007_12l9" n="N009" break="no"/>suchen <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs</hi> jedenfalls die feinere Spürnase. Eine <rs type="place" ref="#hsl_place_id_73">Mai
       <lb facs="#facs_1_region_1669382463007_12l10" n="N010" break="no"/>länd</rs>er Correspondenz im „<rs type="bibl" ref="#hsl_work_id_147">Sammler</rs>“ vom Jahre <date>1839</date> be
-      <lb facs="#facs_1_region_1669382463007_12l11" n="N011" break="no"/>richtet über die Aufführung von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs</hi> erster Oper
+      <lb facs="#facs_1_region_1669382463007_12l11" n="N011" break="no"/>richtet über die Aufführung von <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs</hi> erster Oper
       <lb facs="#facs_1_region_1669382463007_12l12" n="N012"/>„<rs type="bibl" ref="#hsl_work_id_148">Oberto, Conte di S. Bonifacio</rs>“ in der Scala und
       <lb facs="#facs_1_region_1669382463007_12l13" n="N013"/>huldigt im Ton prophetischen Entzückens dem „neuen 
       <lb facs="#facs_1_region_1669382463007_12l14" n="N014"/>Genie.“ Die Entscheidungsgründe klingen uns ebenso
@@ -673,12 +687,18 @@
       <lb facs="#facs_1_region_1669382463007_12l27" n="N026" break="no"/>zen gelten lassen, oder wenn sie uns im Großen und Gan
       <lb facs="#facs_1_region_1669382463007_12l28" n="N027" break="no"/>zen auch abstoßen, wir müssen ihre Einzelheiten gelten lassen.
       <lb facs="#facs_1_region_1669382463007_12l29" n="N028"/>Den „<rs type="bibl" ref="#hsl_work_id_144">Lombardi</rs>“  fehlt das spätere kosmopolitische Element
-      <lb facs="#facs_1_region_1669382463007_12l30" n="N029"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs, die Rücksicht auf <rs type="place" ref="#hsl_place_id_21">französisch</rs>e und <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Hörer noch
+      <lb facs="#facs_1_region_1669382463007_12l30" n="N029"/>
+               <rs type="person" ref="#hsl_person_id_312">Verdi</rs>ʼs, die Rücksicht auf <rs type="place" ref="#hsl_place_id_21">französisch</rs>e und <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Hörer noch
       <lb facs="#facs_1_region_1669382463007_12l31" n="N030"/>gänzlich, sie sind nur von einem national-<rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Publicum
-      <lb facs="#facs_1_region_1669382463007_12l32" n="N031"/>zu genießen. Schon das Libretto — Herr <hi rendition="#em">Themistokles</hi><space quantity="1"/></p>
+      <lb facs="#facs_1_region_1669382463007_12l32" n="N031"/>zu genießen. Schon das Libretto — Herr <hi rendition="#em">Themistokles</hi>
+               <space quantity="1"/>
+            </p>
             <cb n="3"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1669382470966_15l1" n="N001"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_335">Solera</rs></hi> verdient einen Kranz von Stechpalmen dafür —
+               <lb facs="#facs_1_region_1669382470966_15l1" n="N001"/>
+               <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_335">Solera</rs>
+               </hi> verdient einen Kranz von Stechpalmen dafür —
       <lb facs="#facs_1_region_1669382470966_15l2" n="N002"/>bereitet uns in seiner Abgeschmacktheit und Unverständlichkeit eine
       <lb facs="#facs_1_region_1669382470966_15l3" n="N003"/>arge Geduldprobe. Im ersten Act war es uns unmöglich,
       <lb facs="#facs_1_region_1669382470966_15l4" n="N004"/>zu enträthseln, was der eine Bruder und was der andere
@@ -690,7 +710,8 @@
       <lb facs="#facs_1_region_1669382470966_15l10" n="N010"/>Gesellschaft in — <rs type="place" ref="#hsl_place_id_62">Antiochien</rs> wieder, ohne daß Einer (auch
       <lb facs="#facs_1_region_1669382470966_15l11" n="N011"/>nicht das Publicum) weiß, wie der Andere hingekommen.
       <lb facs="#facs_1_region_1669382470966_15l12" n="N012"/>Bruder <rs type="person" ref="#hsl_person_id_445">Arvino</rs> zieht als Kreuzritter gen <rs type="place" ref="#hsl_place_id_63">Jerusalem</rs>, Bruder
-      <lb facs="#facs_1_region_1669382470966_15l13" n="N013"/><rs type="person" ref="#hsl_person_id_638">Pagano</rs> lebt als Eremit in einer Höhle, <rs type="person" ref="#hsl_person_id_542">Giselda</rs> (des Ersteren
+      <lb facs="#facs_1_region_1669382470966_15l13" n="N013"/>
+               <rs type="person" ref="#hsl_person_id_638">Pagano</rs> lebt als Eremit in einer Höhle, <rs type="person" ref="#hsl_person_id_542">Giselda</rs> (des Ersteren
       <lb facs="#facs_1_region_1669382470966_15l14" n="N014"/>Tochter) herrscht als Favoritin im Serail des <rs type="person" ref="#hsl_person_id_660">Sultan</rs>s. Als
       <lb facs="#facs_1_region_1669382470966_15l15" n="N015"/>neue Personen erscheinen der in <rs type="person" ref="#hsl_person_id_542">Giselda</rs> verliebte <rs type="place" ref="#hsl_place_id_62">antiochisch</rs>e
       <lb facs="#facs_1_region_1669382470966_15l16" n="N016"/>Prinz <rs type="person" ref="#hsl_person_id_644">Oronte</rs> und seine <rs type="person" ref="#hsl_person_id_1249">Mutter, eine langweilige alte Dame,
@@ -699,8 +720,9 @@
       <lb facs="#facs_1_region_1669382470966_15l19" n="N019"/>Kreuzzug begriffen: der Eremit <rs type="person" ref="#hsl_person_id_638">Pagano</rs>, noch immer uner
       <lb facs="#facs_1_region_1669382470966_15l20" n="N020" break="no"/>kannt, führt <rs type="person" ref="#hsl_person_id_445">Arvino</rs> und dessen Krieger, <rs type="person" ref="#hsl_person_id_542">Giselda</rs> folgt ihnen
       <lb facs="#facs_1_region_1669382470966_15l21" n="N021"/>als Nonne, <rs type="person" ref="#hsl_person_id_644">Oronte</rs> als Kreuzritter. Während wir im 2. Act
-      <lb facs="#facs_1_region_1669382470966_15l22" n="N022"/>die christliche <rs type="person" ref="#hsl_person_id_542">Giselda</rs> als Sultanin</rs> fanden, sehen wir jetzt <rs type="person" ref="#hsl_person_id_644">Oronte</rs><space quantity="1"/>
-      <lb facs="#facs_1_region_1669382470966_15l23" n="N023"/>als christlichen Cavalier; sie haben sich für ihre Liebe neue Klei
+      <lb facs="#facs_1_region_1669382470966_15l22" n="N022"/>die christliche <rs type="person" ref="#hsl_person_id_542">Giselda</rs> als Sultanin</rs> fanden, sehen wir jetzt <rs type="person" ref="#hsl_person_id_644">Oronte</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_1_region_1669382470966_15l23" n="N023"/>als christlichen Cavalier; sie haben sich für ihre Liebe neue Klei
       <lb facs="#facs_1_region_1669382470966_15l24" n="N024" break="no"/>der, aber keine neuen Melodien beigeschafft. <rs type="person" ref="#hsl_person_id_644">Oronte</rs> wird tödtlich
       <lb facs="#facs_1_region_1669382470966_15l25" n="N025"/>verwundet, von <rs type="person" ref="#hsl_person_id_542">Giselda</rs> in eine Höhle geführt und von <rs type="person" ref="#hsl_person_id_638">Pa
       <lb facs="#facs_1_region_1669382470966_15l26" n="N026" break="no"/>gano</rs> getauft; seine Seele steigt auf einer langen und schwie
@@ -708,11 +730,12 @@
       <lb facs="#facs_1_region_1669382470966_15l28" n="N028" break="no"/>ten und letzten Act geschehen? Nur <rs type="person" ref="#hsl_person_id_638">Pagano</rs> kann noch aus
       <lb facs="#facs_1_region_1669382470966_15l29" n="N029" break="no"/>helfen, indem er sich gleichfalls verwunden läßt, stirbt und
       <lb facs="#facs_1_region_1669382470966_15l30" n="N030"/>von den Seinen — merkwürdig spät — erkannt wird. Zu
-      <lb facs="#facs_1_region_1669382470966_15l31" n="N031" break="no"/>vor hat noch <rs type="person" ref="#hsl_person_id_542">Giselda</rs> eine Vision, sie sieht himmlische Geister<space quantity="1"/></p>
+      <lb facs="#facs_1_region_1669382470966_15l31" n="N031" break="no"/>vor hat noch <rs type="person" ref="#hsl_person_id_542">Giselda</rs> eine Vision, sie sieht himmlische Geister<space quantity="1"/>
+            </p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1669382491135_21l1" n="N001"/>(durch ein Tableau dargestellt) und hört die Stimme des ver
+               <lb facs="#facs_2_region_1669382491135_21l1" n="N001"/>(durch ein Tableau dargestellt) und hört die Stimme des ver
       <lb facs="#facs_2_region_1669382491135_21l2" n="N002" break="no"/>ewigten <rs type="person" ref="#hsl_person_id_644">Oronte</rs> (von ihm selbst nach Art des <rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>-
       <lb facs="#facs_2_region_1669382491135_21l3" n="N003"/>Ständchens in der zweiten Coulisse gesungen). „Es war kein
       <lb facs="#facs_2_region_1669382491135_21l4" n="N004"/>Traum!“ ruft sie nach dem Verschwinden dieser Erscheinungen,
@@ -721,12 +744,13 @@
       <lb facs="#facs_2_region_1669382491135_21l7" n="N007"/>entgegen klingt. Wir hören also hier eine Nonne ihre reli
       <lb facs="#facs_2_region_1669382491135_21l8" n="N008" break="no"/>giösen Gefühle mit denselben Tönen ausdrücken, in welchen
       <lb facs="#facs_2_region_1669382491135_21l9" n="N009"/>die feurige <rs type="person" ref="#hsl_person_id_523">Elvira</rs> ihre Leidenschaft für den <rs type="person" ref="#hsl_person_id_516">Banditenjüngling</rs>
-      <lb facs="#facs_2_region_1669382491135_21l10" n="N010"/>austobt. Dieses Allegro ist eine der ersten Originalknospen
+               <lb facs="#facs_2_region_1669382491135_21l10" n="N010"/>austobt. Dieses Allegro ist eine der ersten Originalknospen
       <lb facs="#facs_2_region_1669382491135_21l11" n="N011"/>des späteren specifischen Verdi-Styls; es beginnt, als wenn Je
       <lb facs="#facs_2_region_1669382491135_21l12" n="N012" break="no"/>mand plötzlich durch das Fenster hereinspringend uns eine
       <lb facs="#facs_2_region_1669382491135_21l13" n="N013"/>schallende Ohrfeige versetzte.
-            </p><p> 
-      <lb facs="#facs_2_region_1669382491135_21l14" n="N014"/>Die Musik zu den „<rs type="bibl" ref="#hsl_work_id_144">Lombardi</rs>“ ist theils roh und tri
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1669382491135_21l14" n="N014"/>Die Musik zu den „<rs type="bibl" ref="#hsl_work_id_144">Lombardi</rs>“ ist theils roh und tri
       <lb facs="#facs_2_region_1669382491135_21l15" n="N015" break="no"/>vial, theils matt und langweilig, ein abgestandener Trank,
       <lb facs="#facs_2_region_1669382491135_21l16" n="N016"/>gegen den „<rs type="bibl" ref="#hsl_work_id_122">Traviata</rs>“ und „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“ wie Rheinwein schme
       <lb facs="#facs_2_region_1669382491135_21l17" n="N017" break="no"/>cken. Nur wenige Nummern heben sich vortheilhaft heraus,
@@ -738,32 +762,57 @@
       <lb facs="#facs_2_region_1669382491135_21l23" n="N023"/>Wahrhaft kannibalisch und von höchster unbeabsichtigter Komik
       <lb facs="#facs_2_region_1669382491135_21l24" n="N024"/>sind die Männerchöre mit Begleitung der Regimentsbanden.
       <lb facs="#facs_2_region_1669382491135_21l25" n="N025"/>Eine schöne „Cultur“, die diese Kreuzritter nach Osten tragen!
-            </p><p>
-      <lb facs="#facs_2_region_1669382491135_21l26" n="N026"/>Die Aufführung der Oper war sehr lobenswerth, trug
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1669382491135_21l26" n="N026"/>Die Aufführung der Oper war sehr lobenswerth, trug
       <lb facs="#facs_2_region_1669382491135_21l27" n="N027"/>jedoch mehr den Charakter des Anständigen als des Glänzen
       <lb facs="#facs_2_region_1669382491135_21l28" n="N028" break="no"/>den. Imposante Stimmmittel, Temperament und dramatische
       <lb facs="#facs_2_region_1669382491135_21l29" n="N029"/>Gestaltungskraft bringt keiner der drei Hauptdarsteller mit,
-      <lb facs="#facs_2_region_1669382491135_21l30" n="N030"/>weder Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_337">Lotti della Santa</rs></hi> (<rs type="person" ref="#hsl_person_id_542">Giselda</rs>), noch die Herren
-      <lb facs="#facs_2_region_1669382491135_21l31" n="N031"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_336">Graziani</rs></hi> (<rs type="person" ref="#hsl_person_id_644">Oronte</rs>) und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_495">Angelini</rs></hi> (<rs type="person" ref="#hsl_person_id_638">Pagano</rs>). Alle drei<space quantity="1"/></p>
+      <lb facs="#facs_2_region_1669382491135_21l30" n="N030"/>weder Frau <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_337">Lotti della Santa</rs>
+               </hi> (<rs type="person" ref="#hsl_person_id_542">Giselda</rs>), noch die Herren
+      <lb facs="#facs_2_region_1669382491135_21l31" n="N031"/>
+               <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_336">Graziani</rs>
+               </hi> (<rs type="person" ref="#hsl_person_id_644">Oronte</rs>) und <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_495">Angelini</rs>
+               </hi> (<rs type="person" ref="#hsl_person_id_638">Pagano</rs>). Alle drei<space quantity="1"/>
+            </p>
             <cb n="5"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1669382497517_24l1" n="N001"/>aber schätzen wir als tüchtig geschulte Künstler, welche ihrer
+               <lb facs="#facs_2_region_1669382497517_24l1" n="N001"/>aber schätzen wir als tüchtig geschulte Künstler, welche ihrer
       <lb facs="#facs_2_region_1669382497517_24l2" n="N002"/>Mittel vollständig Herr sind, allen Unarten und Roheiten
       <lb facs="#facs_2_region_1669382497517_24l3" n="N003"/>ferne stehen und vor Allem — singen können. Die Blüthen
       <lb facs="#facs_2_region_1669382497517_24l4" n="N004" break="no"/>zeit ihrer Stimme liegt hinter ihnen, seit dem vorigen Jahre
       <lb facs="#facs_2_region_1669382497517_24l5" n="N005"/>jedoch hat diese, wie wir mit Vergnügen bemerkten, eine wei
-      <lb facs="#facs_2_region_1669382497517_24l6" n="N006" break="no"/>tere Einbuße bei keinem von ihnen erlitten. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_336">Graziani</rs></hi><space quantity="1"/>
-      <lb facs="#facs_2_region_1669382497517_24l7" n="N007"/>nimmt in dieser Trias entschieden die erste Stelle ein; seine
+      <lb facs="#facs_2_region_1669382497517_24l6" n="N006" break="no"/>tere Einbuße bei keinem von ihnen erlitten. Herr <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_336">Graziani</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1669382497517_24l7" n="N007"/>nimmt in dieser Trias entschieden die erste Stelle ein; seine
       <lb facs="#facs_2_region_1669382497517_24l8" n="N008"/>gewinnende Persönlichkeit, sein wohllautendes Organ und die
       <lb facs="#facs_2_region_1669382497517_24l9" n="N009"/>edle, liebenswürdige Grazie seines Vortrags erzielten auch
       <lb facs="#facs_2_region_1669382497517_24l10" n="N010"/>diesmal den besten Eindruck und sicherten ihm ungetheilten
-      <lb facs="#facs_2_region_1669382497517_24l11" n="N011"/>Beifall. Unmittelbar nach den Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_77">Ferenczy</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_318">Wachtel</rs></hi><space quantity="1"/>
-      <lb facs="#facs_2_region_1669382497517_24l12" n="N012"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_298">Steger</rs></hi> klang uns <rs type="person" ref="#hsl_person_id_336">Graziani</rs>ʼs Gesang doppelt wohl
+      <lb facs="#facs_2_region_1669382497517_24l11" n="N011"/>Beifall. Unmittelbar nach den Herren <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_77">Ferenczy</rs>
+               </hi>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_318">Wachtel</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1669382497517_24l12" n="N012"/>und <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_298">Steger</rs>
+               </hi> klang uns <rs type="person" ref="#hsl_person_id_336">Graziani</rs>ʼs Gesang doppelt wohl
       <lb facs="#facs_2_region_1669382497517_24l13" n="N013" break="no"/>thuend. Schade nur, daß man den Sänger und das Ge
-      <lb facs="#facs_2_region_1669382497517_24l14" n="N014" break="no"/>sungene oft so schwer auseinanderbringt! Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_495">Angelini</rs></hi><space quantity="1"/>
-      <lb facs="#facs_2_region_1669382497517_24l15" n="N015"/>ist ganz der frühere tüchtige, starre Sänger, die rauhe Tu
-      <lb facs="#facs_2_region_1669382497517_24l16" n="N016" break="no"/>gend vom vorigen Jahr. Bei Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_337">Lotti della Santa</rs></hi><space quantity="1"/>
-      <lb facs="#facs_2_region_1669382497517_24l17" n="N017"/>machen sich die Schäden des Organs am meisten geltend; in
+      <lb facs="#facs_2_region_1669382497517_24l14" n="N014" break="no"/>sungene oft so schwer auseinanderbringt! Herr <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_495">Angelini</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1669382497517_24l15" n="N015"/>ist ganz der frühere tüchtige, starre Sänger, die rauhe Tu
+      <lb facs="#facs_2_region_1669382497517_24l16" n="N016" break="no"/>gend vom vorigen Jahr. Bei Frau <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_337">Lotti della Santa</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1669382497517_24l17" n="N017"/>machen sich die Schäden des Organs am meisten geltend; in
       <lb facs="#facs_2_region_1669382497517_24l18" n="N018"/>der Höhe klingt ihre Stimme, namentlich im Forte, scharf
       <lb facs="#facs_2_region_1669382497517_24l19" n="N019"/>und gellend, an Leidenschaft und schauspielerischem Talent
       <lb facs="#facs_2_region_1669382497517_24l20" n="N020"/>fehlt es überdies dieser Sängerin vollständig. Dennoch schla
@@ -772,9 +821,21 @@
       <lb facs="#facs_2_region_1669382497517_24l23" n="N023"/>durchgehender Zug von Anspruchslosigkeit und bescheidener
       <lb facs="#facs_2_region_1669382497517_24l24" n="N024"/>Zurückhaltung nehmen für Signora <rs type="person" ref="#hsl_person_id_337">Lotti</rs> ein, mit ihr we
       <lb facs="#facs_2_region_1669382497517_24l25" n="N025" break="no"/>nigstens versöhnend, wo sie nicht entzücken kann. Die kleineren
-      <lb facs="#facs_2_region_1669382497517_24l26" n="N026"/>Rollen wurden von Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_61">Dillner</rs></hi> und den Herren
-      <lb facs="#facs_2_region_1669382497517_24l27" n="N027"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_340">Guidotti</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_339">Milesi</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_155">Lay</rs></hi> sorgfältig durchgeführt. Herr
-      <lb facs="#facs_2_region_1669382497517_24l28" n="N028"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs></hi> erregte mit dem virtuosen Vortrag des
+      <lb facs="#facs_2_region_1669382497517_24l26" n="N026"/>Rollen wurden von Fräulein <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_61">Dillner</rs>
+               </hi> und den Herren
+      <lb facs="#facs_2_region_1669382497517_24l27" n="N027"/>
+               <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_340">Guidotti</rs>
+               </hi>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_339">Milesi</rs>
+               </hi> und <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_155">Lay</rs>
+               </hi> sorgfältig durchgeführt. Herr
+      <lb facs="#facs_2_region_1669382497517_24l28" n="N028"/>
+               <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>
+               </hi> erregte mit dem virtuosen Vortrag des
       <lb facs="#facs_2_region_1669382497517_24l29" n="N029"/>Violin-Concerts im 3. Acte (ein „Solo“ schlechtweg kann
       <lb facs="#facs_2_region_1669382497517_24l30" n="N030"/>man das kaum mehr nennen) stürmischen Beifall.</p>
          </div>

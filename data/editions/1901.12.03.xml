@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -103,11 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
-            <change who="awilfing" when="2023-06-01">Transkribus OCR und Lektorat.</change>
-            <change who="dstoxreiter" when="2023-06-12">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change who="awilfing" when="2023-06-22">Formatierung und Referenzen eingefügt.</change>
-            <change who="awilfing" when="2023-07-13">Letztkorrektur für Zwischenrelease.</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2023-06-01">Transkribus OCR und Lektorat.</change>
+         <change who="dstoxreiter" when="2023-06-12">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-06-22">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2023-07-13">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1009,15 +1009,28 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <lb facs="#facs_1_region_1684479390371_1115_tl_2" n="N001"/><head type="h1">Musik.</head>
-            <lb facs="#facs_1_region_1684479390371_1115_tl_3" n="N002"/><head type="h2">(Philharmonisches Concert. — <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s Memoiren.)</head>
+            <lb facs="#facs_1_region_1684479390371_1115_tl_2" n="N001"/>
+            <head type="h1">Musik.</head>
+            <lb facs="#facs_1_region_1684479390371_1115_tl_3" n="N002"/>
+            <head type="h2">(Philharmonisches Concert. — <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s Memoiren.)</head>
             <p>
-      <lb facs="#facs_1_region_1684479390371_1115_tl_4" n="N003"/>Ed. H. Abwechslungsreiche Programme mit glück
+               <lb facs="#facs_1_region_1684479390371_1115_tl_4" n="N003"/>Ed. H. Abwechslungsreiche Programme mit glück
       <lb facs="#facs_1_region_1684479390371_1115_tl_5" n="N004" break="no"/>licher Mischung von Altem und Neuem hat uns Director
-      <lb facs="#facs_1_region_1684479390371_1115_tl_6" n="N005"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs></hi> bis jetzt geboten. Diesmal <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi><space quantity="1"/>
-      <lb facs="#facs_1_region_1684479390371_1115_tl_7" n="N006"/><rs type="bibl" ref="#hsl_work_id_890">Es-dur-Symphonie</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’</hi><space quantity="1"/><rs type="bibl" ref="#hsl_work_id_830">Akademische Ouvertüre</rs> und
+      <lb facs="#facs_1_region_1684479390371_1115_tl_6" n="N005"/>
+               <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>
+               </hi> bis jetzt geboten. Diesmal <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi>
+               <space quantity="1"/>
+               <lb facs="#facs_1_region_1684479390371_1115_tl_7" n="N006"/>
+               <rs type="bibl" ref="#hsl_work_id_890">Es-dur-Symphonie</rs>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’</hi>
+               <space quantity="1"/>
+               <rs type="bibl" ref="#hsl_work_id_830">Akademische Ouvertüre</rs> und
       <lb facs="#facs_1_region_1684479390371_1115_tl_8" n="N007"/>dazwischen ein neues <rs type="bibl" ref="#hsl_work_id_891">Clavierconcert</rs>, componirt und gespielt
-      <lb facs="#facs_1_region_1684479390371_1115_tl_9" n="N008"/>von Emil <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1388">Sauer</rs></hi>. Bereits in verschiedenen Städten, zuletzt
+      <lb facs="#facs_1_region_1684479390371_1115_tl_9" n="N008"/>von Emil <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>
+               </hi>. Bereits in verschiedenen Städten, zuletzt
       <lb facs="#facs_1_region_1684479390371_1115_tl_10" n="N009"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, hat das Stück sehr gefallen und <hi rendition="#em">muß</hi> gefallen,
       <lb facs="#facs_1_region_1684479390371_1115_tl_11" n="N010"/>wenn <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> selbst es vorträgt. Daß ausgezeichnete Virtuosen
       <lb facs="#facs_1_region_1684479390371_1115_tl_12" n="N011"/>sich ihre Glanznummern, insbesondere Concerte, selbst ver
@@ -1027,18 +1040,23 @@
       <lb facs="#facs_1_line_1685363175297_1974" n="N015"/>immer im Vortheil gegen die Violin-Virtuosen — aber reicher
       <lb facs="#facs_1_region_1684479390371_1115_tl_16" n="N016"/>Auswahl können auch sie sich keineswegs rühmen. Zu dieser
       <lb facs="#facs_1_region_1684479390371_1115_tl_17" n="N017"/>Noth tritt für jeden bedeutenden Virtuosen die Lockung,
-      <lb facs="#facs_1_region_1684479390371_1115_tl_18" n="N018"/><hi rendition="#em">seine</hi> individuellen Vorzüge in einer eigenen Composition
+      <lb facs="#facs_1_region_1684479390371_1115_tl_18" n="N018"/>
+               <hi rendition="#em">seine</hi> individuellen Vorzüge in einer eigenen Composition
       <lb facs="#facs_1_region_1684479390371_1115_tl_19" n="N019"/>gehörig aufleuchten zu machen. So braucht er denn Concert
       <lb facs="#facs_1_region_1684479390371_1115_tl_20" n="N020" break="no"/>stücke nicht blos <hi rendition="#em">für</hi> sich, sondern <hi rendition="#em">von</hi> sich. Aus
-      <lb facs="#facs_1_region_1684479390371_1115_tl_21" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1388">Sauer</rs></hi>, der bisher als Componist nur selten und
+      <lb facs="#facs_1_region_1684479390371_1115_tl_21" n="N021"/>
+               <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>
+               </hi>, der bisher als Componist nur selten und
       <lb facs="#facs_1_region_1684479390371_1115_tl_22" n="N022"/>lediglich in kleinen Formen hervorgetreten, hat jetzt mit
       <lb facs="#facs_1_region_1684479390371_1115_tl_23" n="N023"/>einem eigenen <rs type="bibl" ref="#hsl_work_id_891">Concert in E-moll</rs> sein Repertoire glänzend
       <lb facs="#facs_1_region_1684479390371_1115_tl_24" n="N024"/>geschmückt. Wie vorauszusehen, strahlt dieser „Glanz“ mehr
-      <lb facs="#facs_1_line_1685363201432_1992" n="N025"/>vom Virtuosen aus als vom Tondichter, welcher<space quantity="1"/></p>
+      <lb facs="#facs_1_line_1685363201432_1992" n="N025"/>vom Virtuosen aus als vom Tondichter, welcher<space quantity="1"/>
+            </p>
             <cb n="2"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1684479394655_1118_tl_1" n="N001"/>Jenen willig den Ehrenplatz gönnt. <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s <rs type="bibl" ref="#hsl_work_id_891">Clavierconcert</rs>
-      <lb facs="#facs_1_line_1685363216760_2004" n="N002"/>(dem Andenken Nikolaus <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs>’s gewidmet) ist vier
+               <lb facs="#facs_1_region_1684479394655_1118_tl_1" n="N001"/>Jenen willig den Ehrenplatz gönnt. <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s <rs type="bibl" ref="#hsl_work_id_891">Clavierconcert</rs>
+               <lb facs="#facs_1_line_1685363216760_2004" n="N002"/>(dem Andenken Nikolaus <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs>’s gewidmet) ist vier
       <lb facs="#facs_1_region_1684479394655_1118_tl_2" n="N003" break="no"/>sätzig und von großer Ausdehnung. Auf ein Allegro
       <lb facs="#facs_1_region_1684479394655_1118_tl_3" n="N004"/>patetico in E-moll folgt in gleicher Tonart ein sehr rasches
       <lb facs="#facs_1_region_1684479394655_1118_tl_4" n="N005"/>Scherzo in Drei-Achtel-Tact, ein Larghetto amoroso in
@@ -1051,19 +1069,23 @@
       <lb facs="#facs_1_region_1684479394655_1118_tl_11" n="N012" break="no"/>treffliche Virtuosität hat im Philharmonischen Concert einen
       <lb facs="#facs_1_region_1684479394655_1118_tl_12" n="N013"/>neuen großen Triumph gefeiert. Es war des Beifalles
       <lb facs="#facs_1_region_1684479394655_1118_tl_13" n="N014"/>kein Ende.
-            </p><p>
-      <lb facs="#facs_1_region_1684479394655_1118_tl_14" n="N015"/>Es fügt sich hübsch, daß gerade jetzt, gleichzeitig mit
+            </p>
+            <p>
+               <lb facs="#facs_1_region_1684479394655_1118_tl_14" n="N015"/>Es fügt sich hübsch, daß gerade jetzt, gleichzeitig mit
       <lb facs="#facs_1_region_1684479394655_1118_tl_15" n="N016"/>seinem neuen Concerte, <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s Selbstbiographie auftaucht,
       <lb facs="#facs_1_region_1684479394655_1118_tl_16" n="N017"/>der berühmte Virtuose den noch unbekannten Schriftsteller
-      <lb facs="#facs_1_region_1684479394655_1118_tl_17" n="N018"/>dem Publicum vorstellt. „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_892">Meine Welt</rs></hi>“ betitelt sich
+      <lb facs="#facs_1_region_1684479394655_1118_tl_17" n="N018"/>dem Publicum vorstellt. „<hi rendition="#em">
+                  <rs type="bibl" ref="#hsl_work_id_892">Meine Welt</rs>
+               </hi>“ betitelt sich
       <lb facs="#facs_1_region_1684479394655_1118_tl_18" n="N019"/>das an 500 Seiten starke Buch, dessen anziehende, mit
       <lb facs="#facs_1_region_1684479394655_1118_tl_19" n="N020" break="no"/>unter etwas zu ausführliche Erzählungen dankbare Leser
       <lb facs="#facs_1_line_1685363231184_2013" n="N021"/>finden werden. Erstaunen dürfte mancher von ihnen, daß
       <lb facs="#facs_1_region_1684479394655_1118_tl_20" n="N022"/>der erst 40 Jahre alte Verfasser schon heute als Auto
       <lb facs="#facs_1_line_1685363243184_2022" n="N023" break="no"/>biograph größten Formates auftritt. In 20 bis 25 Jahren
       <lb facs="#facs_1_region_1684479394655_1118_tl_21" n="N024"/>gibt uns <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> hoffentlich einen zweiten Band!
-            </p><p>
-      <lb facs="#facs_1_region_1684479394655_1118_tl_22" n="N025"/>Aufs Gerathewohl schlagen wir das Buch auf, am
+            </p>
+            <p>
+               <lb facs="#facs_1_region_1684479394655_1118_tl_22" n="N025"/>Aufs Gerathewohl schlagen wir das Buch auf, am
       <lb facs="#facs_1_region_1684479394655_1118_tl_23" n="N026"/>Schlusse der Einleitung — da hat der Verfasser schon unser
       <lb facs="#facs_1_region_1684479394655_1118_tl_24" n="N027"/>Herz gewonnen. Durch die Worte über seine <rs type="person" ref="#hsl_person_id_1177">Mutter</rs>!
       <lb facs="#facs_1_region_1684479394655_1118_tl_25" n="N028"/>„Mein ganzes Leben,“ schreibt er, „stand unter dem ver
@@ -1077,30 +1099,38 @@
       <lb facs="#facs_1_region_1684479394655_1118_tl_33" n="N036"/>Besitz, an dem ich mit jeder Faser meines Herzens hänge.
       <lb facs="#facs_1_region_1684479394655_1118_tl_34" n="N037"/>Komm’, meine <rs type="person" ref="#hsl_person_id_1177">Mutter</rs>, laß uns wie im Leben, so auch
       <lb facs="#facs_1_region_1684479394655_1118_tl_35" n="N038"/>durch dieses Buch Arm in Arm weiterwandern!“ Die
-      <lb facs="#facs_1_region_1684479394655_1118_tl_36" n="N039"/><rs type="person" ref="#hsl_person_id_1177">Mutter</rs>, eine noch rüstige, feingebildete, sanfte Frau, ehedem
+      <lb facs="#facs_1_region_1684479394655_1118_tl_36" n="N039"/>
+               <rs type="person" ref="#hsl_person_id_1177">Mutter</rs>, eine noch rüstige, feingebildete, sanfte Frau, ehedem
       <lb facs="#facs_1_region_1684479394655_1118_tl_37" n="N040"/>eine der besten Pianistinnen, widmete sich bald dem Unter
-      <lb facs="#facs_1_line_1685363203760_1995" n="N041" break="no"/>richte ihres Söhnchens, dem das Ueben eine Qual, das<space quantity="1"/></p>
+      <lb facs="#facs_1_line_1685363203760_1995" n="N041" break="no"/>richte ihres Söhnchens, dem das Ueben eine Qual, das<space quantity="1"/>
+            </p>
             <cb n="3"/>
             <p prev="true">
-      <lb facs="#facs_1_line_1685365225471_2245" n="N001"/>Clavierzimmer „eine Folterkammer“ war. Wie so manchem
+               <lb facs="#facs_1_line_1685365225471_2245" n="N001"/>Clavierzimmer „eine Folterkammer“ war. Wie so manchem
       <lb facs="#facs_1_line_1685363218952_2007" n="N002"/>später berühmt gewordenen Virtuosen und Componisten!
       <lb facs="#facs_1_region_1684479415676_1121_tl_3" n="N003"/>Mußte doch der junge <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> „wie ein übellaunig
       <lb facs="#facs_1_region_1684479415676_1121_tl_4" n="N004"/>Eselein“ zum Clavier gezerrt werden! Was die brave
       <lb facs="#facs_1_region_1684479415676_1121_tl_5" n="N005"/>Frau anfangs zum Vergnügen (wie wir gesehen, nur zu
-      <lb facs="#facs_1_region_1684479415676_1121_tl_6" n="N006"/><hi rendition="#em">ihrem</hi> Vergnügen) gethan, Clavierunterricht geben, das
+      <lb facs="#facs_1_region_1684479415676_1121_tl_6" n="N006"/>
+               <hi rendition="#em">ihrem</hi> Vergnügen) gethan, Clavierunterricht geben, das
       <lb facs="#facs_1_region_1684479415676_1121_tl_7" n="N007"/>mußte sie bald in bitterem Ernst, aus Noth. <rs type="person" ref="#hsl_person_id_1388">Emil</rs>’s
-      <lb facs="#facs_1_region_1684479415676_1121_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_1408">Vater</rs>, ein wohlhabender, geachteter Kaufmann in
-      <lb facs="#facs_1_region_1684479415676_1121_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_69">Hamburg</rs>, wurde durch unglückliche Speculationen
+      <lb facs="#facs_1_region_1684479415676_1121_tl_8" n="N008"/>
+               <rs type="person" ref="#hsl_person_id_1408">Vater</rs>, ein wohlhabender, geachteter Kaufmann in
+      <lb facs="#facs_1_region_1684479415676_1121_tl_9" n="N009"/>
+               <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>, wurde durch unglückliche Speculationen
       <lb facs="#facs_1_region_1684479415676_1121_tl_10" n="N010"/>bankerott. Der Hausstand mußte auf das Noth
       <lb facs="#facs_1_region_1684479415676_1121_tl_11" n="N011" break="no"/>wendigste beschränkt, das schöne eigene Haus mit einer
       <lb facs="#facs_1_region_1684479415676_1121_tl_12" n="N012"/>kleinen Miethwohnung vertauscht werden. Da greift die
-      <lb facs="#facs_1_region_1684479415676_1121_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_1177">Mutter</rs> sofort zu dem tapferen Entschluß, Clavierstunden
+      <lb facs="#facs_1_region_1684479415676_1121_tl_13" n="N013"/>
+               <rs type="person" ref="#hsl_person_id_1177">Mutter</rs> sofort zu dem tapferen Entschluß, Clavierstunden
       <lb facs="#facs_1_region_1684479415676_1121_tl_14" n="N014"/>zu geben, und wird bald eine der gesuchtesten Lehrerinnen.
-      <lb facs="#facs_1_region_1684479415676_1121_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_1388">Emil</rs> besucht das Gymnasium und versieht nebenbei in der
+      <lb facs="#facs_1_region_1684479415676_1121_tl_15" n="N015"/>
+               <rs type="person" ref="#hsl_person_id_1388">Emil</rs> besucht das Gymnasium und versieht nebenbei in der
       <lb facs="#facs_1_region_1684479415676_1121_tl_16" n="N016"/>Capelle eines <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Vorortes den Organistendienst
       <lb facs="#facs_1_region_1684479415676_1121_tl_17" n="N017"/>— gegen den Sold von jährlich 52 Thalern! Immerhin
       <lb facs="#facs_1_region_1684479415676_1121_tl_18" n="N018"/>noch besser, als der junge <rs type="person" ref="#hsl_person_id_41">Brahms</rs>, der ganze Nächte in
-      <lb facs="#facs_1_region_1684479415676_1121_tl_19" n="N019"/><rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Kneipen zum Tanz aufspielen mußte! Aus
+      <lb facs="#facs_1_region_1684479415676_1121_tl_19" n="N019"/>
+               <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Kneipen zum Tanz aufspielen mußte! Aus
       <lb facs="#facs_1_region_1684479415676_1121_tl_20" n="N020"/>seiner musikalischen Gleichgiltigkeit wird <rs type="person" ref="#hsl_person_id_1388">Emil</rs> eines Tages
       <lb facs="#facs_1_line_1685363233032_2016" n="N021"/>wie durch ein Wunder aufgerüttelt. In einer größeren
       <lb facs="#facs_1_region_1684479415676_1121_tl_22" n="N022"/>Abendgesellschaft, und bald nachher in einem öffentlichen
@@ -1109,8 +1139,9 @@
       <lb facs="#facs_1_region_1684479415676_1121_tl_25" n="N025"/>seines Spieles in den Herzen der Zuhörer macht ihn be
       <lb facs="#facs_1_region_1684479415676_1121_tl_26" n="N026" break="no"/>herzt und glücklich. Von nun an kennt sein Eifer, sein
       <lb facs="#facs_1_region_1684479415676_1121_tl_27" n="N027"/>Fleiß keine Grenzen.
-            </p><p>
-      <lb facs="#facs_1_region_1684479415676_1121_tl_28" n="N028"/>Eine ernüchternde Abkühlung bleibt nicht lange aus.
+            </p>
+            <p>
+               <lb facs="#facs_1_region_1684479415676_1121_tl_28" n="N028"/>Eine ernüchternde Abkühlung bleibt nicht lange aus.
       <lb facs="#facs_1_region_1684479415676_1121_tl_29" n="N029"/>Sein Gymnasialzeugniß mit der Specialnote: „Das
       <lb facs="#facs_1_region_1684479415676_1121_tl_30" n="N030"/>öffentliche Auftreten <rs type="person" ref="#hsl_person_id_1388">Emil</rs>’s ist nach Paragraph so und so
       <lb facs="#facs_1_region_1684479415676_1121_tl_31" n="N031"/>der Ober-Schulbehörde nicht gestattet.“ Die nächsten
@@ -1123,29 +1154,35 @@
       <lb facs="#facs_1_region_1684479415676_1121_tl_38" n="N038" break="no"/>strichen verfolgt hat, entlockt dem jungen Künstler kein
       <lb facs="#facs_1_region_1684479415676_1121_tl_39" n="N039"/>Wort der Verwunderung oder Empörung. Er findet es
       <lb facs="#facs_1_region_1684479415676_1121_tl_40" n="N040"/>begreiflich, daß unbekannten Größen überall mit Miß
-      <lb facs="#facs_1_line_1685363205504_1998" n="N041" break="no"/>trauen begegnet wird. „Aus Mitleid besucht Niemand<space quantity="1"/></p>
-               <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-               <cb n="4"/>
-               <p prev="true">
-      <lb facs="#facs_2_region_1684479436320_1128_tl_1" n="N001"/>Concerte, am allerwenigsten ein Badepublicum, und der
+      <lb facs="#facs_1_line_1685363205504_1998" n="N041" break="no"/>trauen begegnet wird. „Aus Mitleid besucht Niemand<space quantity="1"/>
+            </p>
+            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1684479436320_1128_tl_1" n="N001"/>Concerte, am allerwenigsten ein Badepublicum, und der
       <lb facs="#facs_2_region_1684479436320_1128_tl_2" n="N002"/>Verdacht, daß Jemand seine Kunst übt, weil er es nöthig
       <lb facs="#facs_2_region_1684479436320_1128_tl_3" n="N003"/>hat, ist schon genügend, dasselbe zu verscheuchen.“ In
-      <lb facs="#facs_2_region_1684479436320_1128_tl_4" n="N004"/><rs type="place" ref="#hsl_place_id_179">Niendorf</rs> concertirt <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> vor wohlgezählten 14 Zu
+      <lb facs="#facs_2_region_1684479436320_1128_tl_4" n="N004"/>
+               <rs type="place" ref="#hsl_place_id_179">Niendorf</rs> concertirt <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> vor wohlgezählten 14 Zu
       <lb facs="#facs_2_line_1685363371184_2077" n="N005" break="no"/>hörern. „Wenigstens,“ schließt er mit gutem Humor, „hatte
       <lb facs="#facs_2_region_1684479436320_1128_tl_6" n="N006"/>dieses Trauerspiel das Gute, mich heute noch dieser Pro
       <lb facs="#facs_2_region_1684479436320_1128_tl_7" n="N007" break="no"/>duction vor 14 Köpfen rühmen zu können. <hi rendition="#em">Tiefer</hi> bin
       <lb facs="#facs_2_region_1684479436320_1128_tl_8" n="N008"/>ich nicht mehr gesunken!“ Und dennoch möchte er die Er
       <lb facs="#facs_2_region_1684479436320_1128_tl_9" n="N009" break="no"/>innerung an jene Zeit trüber Erfahrungen und bitterer
       <lb facs="#facs_2_region_1684479436320_1128_tl_10" n="N010"/>Enttäuschungen um keinen Preis missen!
-               </p><p>
-      <lb facs="#facs_2_region_1684479436320_1128_tl_11" n="N011"/>Das Jahr <date>1877</date> bedeutet einen entscheidenden Wende
-      <lb facs="#facs_2_region_1684479436320_1128_tl_12" n="N012" break="no"/>punkt in <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s Leben: Anton <hi rendition="#em"><rs type="person" ref="#hsl_person_id_244">Rubinstein</rs></hi> concertirt
+               </p>
+            <p>
+               <lb facs="#facs_2_region_1684479436320_1128_tl_11" n="N011"/>Das Jahr <date>1877</date> bedeutet einen entscheidenden Wende
+      <lb facs="#facs_2_region_1684479436320_1128_tl_12" n="N012" break="no"/>punkt in <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s Leben: Anton <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>
+               </hi> concertirt
       <lb facs="#facs_2_region_1684479436320_1128_tl_13" n="N013"/>in <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>. „Die Wirkung seines Spieles auf mich,“
       <lb facs="#facs_2_region_1684479436320_1128_tl_14" n="N014"/>erzählt <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>, „spottet jeder Beschreibung. Athemlos, vor
       <lb facs="#facs_2_region_1684479436320_1128_tl_15" n="N015"/>innerer Erregung bebend, lauschte ich der neuen Offen
       <lb facs="#facs_2_region_1684479436320_1128_tl_16" n="N016" break="no"/>barung; kein Ton, keine Schattirung entging meinen
-      <lb facs="#facs_2_region_1684479436320_1128_tl_17" n="N017"/>Ohren.“ Das schriftliche Ansuchen der <rs type="person" ref="#hsl_person_id_1177">Mutter</rs>, <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1684479436320_1128_tl_18" n="N018"/>möge ihren Sohn anhören, fand freundlichste Gewährung.
+      <lb facs="#facs_2_region_1684479436320_1128_tl_17" n="N017"/>Ohren.“ Das schriftliche Ansuchen der <rs type="person" ref="#hsl_person_id_1177">Mutter</rs>, <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1684479436320_1128_tl_18" n="N018"/>möge ihren Sohn anhören, fand freundlichste Gewährung.
       <lb facs="#facs_2_region_1684479436320_1128_tl_19" n="N019"/>Auf ihre drängende Bitte um ein strenges, rücksichtsloses
       <lb facs="#facs_2_region_1684479436320_1128_tl_20" n="N020"/>Urtheil entgegnet <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>: „Seien Sie unbesorgt, Ma
       <lb facs="#facs_2_line_1685363315641_2035" n="N021" break="no"/>dame; nichts liegt mir ferner, als Ihnen trügerische Hoff
@@ -1155,8 +1192,9 @@
       <lb facs="#facs_2_line_1685363325256_2044" n="N025"/>erringen kann, der muß als echter und rechter Musiker ge
       <lb facs="#facs_2_region_1684479436320_1128_tl_26" n="N026" break="no"/>boren sein. Ich fürchte fast, daß Sie enttäuschter von mir
       <lb facs="#facs_2_region_1684479436320_1128_tl_27" n="N027"/>gehen werden, als Sie gekommen sind.“ Nun producirt
-      <lb facs="#facs_2_region_1684479436320_1128_tl_28" n="N028"/>sich der Knabe mit Stücken von <rs type="person" ref="#hsl_person_id_18">Bach</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_48">Chopin</rs><space quantity="1"/>
-      <lb facs="#facs_2_region_1684479436320_1128_tl_29" n="N029"/>und <rs type="person" ref="#hsl_person_id_164">Liszt</rs>. Er solle sich unbedingt ganz der Musik widmen,
+      <lb facs="#facs_2_region_1684479436320_1128_tl_28" n="N028"/>sich der Knabe mit Stücken von <rs type="person" ref="#hsl_person_id_18">Bach</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_48">Chopin</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_region_1684479436320_1128_tl_29" n="N029"/>und <rs type="person" ref="#hsl_person_id_164">Liszt</rs>. Er solle sich unbedingt ganz der Musik widmen,
       <lb facs="#facs_2_region_1684479436320_1128_tl_30" n="N030"/>räth <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs>, freudig überrascht von dem Talent des
       <lb facs="#facs_2_region_1684479436320_1128_tl_31" n="N031"/>jungen <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>. Auf die schüchterne Frage der <rs type="person" ref="#hsl_person_id_1177">Mutter</rs>, ob
       <lb facs="#facs_2_region_1684479436320_1128_tl_32" n="N032"/>vielleicht <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs> selbst dereinst die Ausbildung des
@@ -1169,15 +1207,19 @@
       <lb facs="#facs_2_region_1684479436320_1128_tl_39" n="N039"/>Allem ruhig weiter das Gymnasium besuchen; es ist vorder
       <lb facs="#facs_2_region_1684479436320_1128_tl_40" n="N040" break="no"/>hand das Wichtigste. Ein Ungebildeter kann auch durch
       <lb facs="#facs_2_region_1684479436320_1128_tl_41" n="N041"/>die Sprache der Tonkunst nicht bilden. Wenn dann die
-      <lb facs="#facs_2_line_1685363407984_2101" n="N042"/>Zeit gekommen ist, soll es ihm an einer warmen Empfehlung<space quantity="1"/></p>
+      <lb facs="#facs_2_line_1685363407984_2101" n="N042"/>Zeit gekommen ist, soll es ihm an einer warmen Empfehlung<space quantity="1"/>
+            </p>
             <cb n="5"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1685363346512_2062" n="N001"/>an meinen Bruder in <rs type="place" ref="#hsl_place_id_151">Moskau</rs> nicht fehlen. Dort wird er
+               <lb facs="#facs_2_line_1685363346512_2062" n="N001"/>an meinen Bruder in <rs type="place" ref="#hsl_place_id_151">Moskau</rs> nicht fehlen. Dort wird er
       <lb facs="#facs_2_line_1685363437480_2122" n="N002"/>Alles lernen, was überhaupt gelernt werden kann.
-      <lb facs="#facs_2_region_1684479440332_1131_tl_2" n="N003"/><hi rendition="#em">Genial</hi> muß er dann später durch sich selbst werden.“
-            </p><p>
-      <lb facs="#facs_2_region_1684479440332_1131_tl_3" n="N004"/>Also auf nach <rs type="place" ref="#hsl_place_id_151">Moskau</rs>! Zu Ostern <date>1879</date> durfte
-      <lb facs="#facs_2_line_1685363359921_2071" n="N005"/><rs type="person" ref="#hsl_person_id_1388">Sauer</rs> dem Gymnasium Adieu sagen, um sich ganz der
+      <lb facs="#facs_2_region_1684479440332_1131_tl_2" n="N003"/>
+               <hi rendition="#em">Genial</hi> muß er dann später durch sich selbst werden.“
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1684479440332_1131_tl_3" n="N004"/>Also auf nach <rs type="place" ref="#hsl_place_id_151">Moskau</rs>! Zu Ostern <date>1879</date> durfte
+      <lb facs="#facs_2_line_1685363359921_2071" n="N005"/>
+               <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> dem Gymnasium Adieu sagen, um sich ganz der
       <lb facs="#facs_2_region_1684479440332_1131_tl_5" n="N006"/>Musik zu widmen. Des Latein und Griechisch war er ohnehin
       <lb facs="#facs_2_region_1684479440332_1131_tl_6" n="N007"/>längst übersatt. <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs> hatte Wort gehalten und seinem
       <lb facs="#facs_2_region_1684479440332_1131_tl_7" n="N008"/>Bruder <rs type="person" ref="#hsl_person_id_1406">Nikolaus</rs> den jungen Schützling warm empfohlen.
@@ -1189,25 +1231,31 @@
       <lb facs="#facs_2_region_1684479440332_1131_tl_13" n="N014"/>Ausrüstung und nothwendigsten ersten Bedürfnisse sorgte
       <lb facs="#facs_2_region_1684479440332_1131_tl_14" n="N015"/>ein Consortium von Wohlthätern in <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>, „dieser
       <lb facs="#facs_2_region_1684479440332_1131_tl_15" n="N016"/>Hochburg der werkthätigen Menschenliebe“!
-            </p><p>
-      <lb facs="#facs_2_region_1684479440332_1131_tl_16" n="N017"/>Die Mittheilungen über <hi rendition="#em">Nikolaus <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs></hi>,
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1684479440332_1131_tl_16" n="N017"/>Die Mittheilungen über <hi rendition="#em">Nikolaus <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs>
+               </hi>,
       <lb facs="#facs_2_region_1684479440332_1131_tl_17" n="N018"/>dessen Persönlichkeit, Charakter und Lehrmethode, gehören
       <lb facs="#facs_2_region_1684479440332_1131_tl_18" n="N019"/>zu den anziehendsten, speciell für Musiker interessantesten
       <lb facs="#facs_2_line_1685363381736_2083" n="N020"/>Capiteln des Buches. War dieser Mann, in dessen Zügen
       <lb facs="#facs_2_line_1685363317384_2038" n="N021"/>man vergeblich nach einer entfernten Aehnlichkeit mit Anton
-      <lb facs="#facs_2_region_1684479440332_1131_tl_20" n="N022"/><rs type="person" ref="#hsl_person_id_244">Rubinstein</rs> forschte, wirklich dessen leibhaftiger Bruder?
-      <lb facs="#facs_2_region_1684479440332_1131_tl_21" n="N023"/><rs type="person" ref="#hsl_person_id_1406">Nikolaus</rs> trug alle Kennzeichen des hellfarbigen orienta
+      <lb facs="#facs_2_region_1684479440332_1131_tl_20" n="N022"/>
+               <rs type="person" ref="#hsl_person_id_244">Rubinstein</rs> forschte, wirklich dessen leibhaftiger Bruder?
+      <lb facs="#facs_2_region_1684479440332_1131_tl_21" n="N023"/>
+               <rs type="person" ref="#hsl_person_id_1406">Nikolaus</rs> trug alle Kennzeichen des hellfarbigen orienta
       <lb facs="#facs_2_region_1684479440332_1131_tl_22" n="N024" break="no"/>lischen Typus; ein Blondkopf mit großen wächsernen
       <lb facs="#facs_2_line_1685363327376_2047" n="N025"/>Augen, leicht gebogener Nase und schmalen, von einem un
       <lb facs="#facs_2_region_1684479440332_1131_tl_23" n="N026" break="no"/>gepflegten Schnurrbart bedeckten Lippen; an den Schläfen
       <lb facs="#facs_2_region_1684479440332_1131_tl_24" n="N027"/>starke Zornesadern, Zeichen heißblütigen Tempera
       <lb facs="#facs_2_region_1684479440332_1131_tl_25" n="N028" break="no"/>ments. Der erste Besuch wirkte nicht sehr ermuthigend.
-      <lb facs="#facs_2_line_1685363424504_2113" n="N029"/><rs type="person" ref="#hsl_person_id_1388">Emil</rs> mußte sofort ans Piano, obschon er, erschöpft von
+      <lb facs="#facs_2_line_1685363424504_2113" n="N029"/>
+               <rs type="person" ref="#hsl_person_id_1388">Emil</rs> mußte sofort ans Piano, obschon er, erschöpft von
       <lb facs="#facs_2_region_1684479440332_1131_tl_26" n="N030"/>der mühseligen Reise, flehentlich um Aufschub bat. „Machen
       <lb facs="#facs_2_region_1684479440332_1131_tl_27" n="N031"/>Sie keine Ausflüchte!“ herrschte ihn <rs type="person" ref="#hsl_person_id_1406">Nikolaus</rs> mit durch
       <lb facs="#facs_2_region_1684479440332_1131_tl_28" n="N032" break="no"/>bohrendem Blick an; „<hi rendition="#em">Wollen</hi> und <hi rendition="#em">Können</hi> sind das
-      <lb facs="#facs_2_region_1684479440332_1131_tl_29" n="N033"/>wirksamste Schutzmittel gegen Müdigkeit.“ Aber <rs type="person" ref="#hsl_person_id_1388">Sauer</rs><space quantity="1"/>
-      <lb facs="#facs_2_line_1685363394048_2092" n="N034"/>war doch im Recht gewesen; es mißglückte ihm Alles. Er
+      <lb facs="#facs_2_region_1684479440332_1131_tl_29" n="N033"/>wirksamste Schutzmittel gegen Müdigkeit.“ Aber <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_line_1685363394048_2092" n="N034"/>war doch im Recht gewesen; es mißglückte ihm Alles. Er
       <lb facs="#facs_2_region_1684479440332_1131_tl_31" n="N035"/>hatte „verthan und verspielt“. <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs> mißt ihn mit
       <lb facs="#facs_2_region_1684479440332_1131_tl_32" n="N036"/>unverhohlenem Erstaunen: „Also <hi rendition="#em">Sie</hi> sind das große
       <lb facs="#facs_2_region_1684479440332_1131_tl_33" n="N037"/>Talent, von dem man mir berichtete? Bei uns zu Lande
@@ -1215,10 +1263,11 @@
       <lb facs="#facs_2_region_1684479440332_1131_tl_34" n="N039"/>„Talent“ umzugehen! Nun, hoffentlich gelingt es Ihnen,
       <lb facs="#facs_2_region_1684479440332_1131_tl_35" n="N040"/>mich bei nochmaligem Hören eines Besseren zu überzeugen;
       <lb facs="#facs_2_region_1684479440332_1131_tl_36" n="N041"/>denn so wäre Ihnen der Zutritt in meine Classe ohne
-      <lb facs="#facs_2_line_1685363409384_2104" n="N042" break="no"/>weiters versperrt.“ Dann trat aber dem so tief gedemüthigten<space quantity="1"/></p>
+      <lb facs="#facs_2_line_1685363409384_2104" n="N042" break="no"/>weiters versperrt.“ Dann trat aber dem so tief gedemüthigten<space quantity="1"/>
+            </p>
             <cb n="6"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1685363347984_2065" n="N001"/>armen Jungen gegenüber das weiche empfindende Herz des
+               <lb facs="#facs_2_line_1685363347984_2065" n="N001"/>armen Jungen gegenüber das weiche empfindende Herz des
       <lb facs="#facs_2_line_1685363438936_2125" n="N002"/>Meisters leuchtend zu Tage. Er erkundigt sich genau nach
       <lb facs="#facs_2_region_1684479443796_1134_tl_2" n="N003"/>dem Vorleben und den Verhältnissen <rs type="person" ref="#hsl_person_id_1388">Emil</rs>’s und nach dem
       <lb facs="#facs_2_region_1684479443796_1134_tl_3" n="N004"/>Bestand seiner Börse, welcher auf knappe 40 Rubel, kaum
@@ -1226,8 +1275,9 @@
       <lb facs="#facs_2_region_1684479443796_1134_tl_5" n="N006" break="no"/>sammengeschmolzen war. Auch <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> schmolz zusammen,
       <lb facs="#facs_2_region_1684479443796_1134_tl_6" n="N007"/>vor Rührung nämlich, als ihm <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs> das eigene
       <lb facs="#facs_2_region_1684479443796_1134_tl_7" n="N008"/>Portemonnaie zur Verfügung stellte.
-            </p><p>
-      <lb facs="#facs_2_region_1684479443796_1134_tl_8" n="N009"/>Jeden Wochentag von 2 bis 4 Uhr ließ der Meister
+            </p>
+            <p>
+               <lb facs="#facs_2_region_1684479443796_1134_tl_8" n="N009"/>Jeden Wochentag von 2 bis 4 Uhr ließ der Meister
       <lb facs="#facs_2_region_1684479443796_1134_tl_9" n="N010"/>seine Schüler antreten. Nach einem zweiten, besser ge
       <lb facs="#facs_2_region_1684479443796_1134_tl_10" n="N011" break="no"/>glückten Examen wurde <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> in <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs>’s Classe auf
       <lb facs="#facs_2_region_1684479443796_1134_tl_11" n="N012" break="no"/>genommen, unter der ausdrücklichen Clausel, beim ersten 
@@ -1242,8 +1292,9 @@
       <lb facs="#facs_2_line_1685366683918_2539" n="N021"/>vorzutragen. Seine Beherrschung des in diesen Lehr
       <lb facs="#facs_2_line_1685366758141_2607" n="N022" break="no"/>stunden verarbeiteten Materials war geradezu fabel
       <lb facs="#facs_2_line_1685366756156_2604" n="N023" break="no"/>haft: der große <rs type="person" ref="#hsl_person_id_244">Anton</rs> hätte die Programme von 
-      <lb facs="#facs_2_line_1685366754222_2601" n="N024"/>zwanzig historischen Concerten damit fristen können. <rs type="person" ref="#hsl_person_id_1388">Sauer</rs><space quantity="1"/>
-      <lb facs="#facs_2_line_1685366752494_2598" n="N025"/>ist überzeugt, daß Nikolaus <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs> als Pädagoge seines
+      <lb facs="#facs_2_line_1685366754222_2601" n="N024"/>zwanzig historischen Concerten damit fristen können. <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_2_line_1685366752494_2598" n="N025"/>ist überzeugt, daß Nikolaus <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs> als Pädagoge seines
       <lb facs="#facs_2_line_1685366748382_2595" n="N026" break="no"/>gleichen nicht gehabt — auch schwerlich so bald finden werde. 
       <lb facs="#facs_2_line_1685366746085_2592" n="N027"/>Nicht etwa eine bestimmte, von ihm erdachte Methode war 
       <lb facs="#facs_2_line_1685366743966_2589" n="N028"/>es, sondern die magnetisirende Macht seiner Persönlichkeit, 
@@ -1256,20 +1307,23 @@
       <lb facs="#facs_2_line_1685366727613_2568" n="N035" break="no"/>treffenden. N. <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs> verstand es, seine Schüler von 
       <lb facs="#facs_2_line_1685366725022_2565" n="N036"/>Anbeginn auf die wichtige Fährte <hi rendition="#em">zielbewußten</hi> Stu
       <lb facs="#facs_2_line_1685366722709_2562" n="N037" break="no"/>diums zu bringen, in der Ueberzeugung, daß man in vier 
-      <lb facs="#facs_2_line_1685366720557_2559" n="N038"/><hi rendition="#em">denkend</hi> verbrachten <hi rendition="#em">Stunden</hi> mehr lernen könne, als 
+      <lb facs="#facs_2_line_1685366720557_2559" n="N038"/>
+               <hi rendition="#em">denkend</hi> verbrachten <hi rendition="#em">Stunden</hi> mehr lernen könne, als 
       <lb facs="#facs_2_line_1685366718437_2556" n="N039"/>Andere in ebenso viel <hi rendition="#em">Tagen</hi>. „Qualität, nicht Quan
       <lb facs="#facs_2_line_1685366716134_2553" n="N040" break="no"/>tität des Uebens entscheidet,“ pflegte er zu ermahnen 
       <lb facs="#facs_2_line_1685366714102_2550" n="N041"/>„<hi rendition="#em">vier</hi> Stunden täglich, gleichmäßig auf Vor- und Nach</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p prev="true">
-      <lb facs="#facs_3_region_1684479459346_1140_tl_1" n="N001" break="no"/>mittag vertheilt, genügen vollauf. Mit maschinenmäßiger
+               <lb facs="#facs_3_region_1684479459346_1140_tl_1" n="N001" break="no"/>mittag vertheilt, genügen vollauf. Mit maschinenmäßiger
       <lb facs="#facs_3_region_1684479459346_1140_tl_2" n="N002"/>Fingerarbeit wird nichts erreicht, höchstens riskiren Sie
       <lb facs="#facs_3_region_1684479459346_1140_tl_3" n="N003"/>dabei, das bischen Geist und Verstand, das allenfalls noch
-      <lb facs="#facs_3_region_1684479459346_1140_tl_4" n="N004"/>in Ihnen steckt, gänzlich zu tödten.“ Nikolaus <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs><space quantity="1"/>
-      <lb facs="#facs_3_region_1684479459346_1140_tl_5" n="N005"/>ward von seinen Schülern aufrichtig verehrt, so hart, ja
+      <lb facs="#facs_3_region_1684479459346_1140_tl_4" n="N004"/>in Ihnen steckt, gänzlich zu tödten.“ Nikolaus <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs>
+               <space quantity="1"/>
+               <lb facs="#facs_3_region_1684479459346_1140_tl_5" n="N005"/>ward von seinen Schülern aufrichtig verehrt, so hart, ja
       <lb facs="#facs_3_region_1684479459346_1140_tl_6" n="N006"/>barbarisch er sie mitunter behandelte. Auch der junge
-      <lb facs="#facs_3_region_1684479459346_1140_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_1388">Sauer</rs> hatte unter ihm „Folterqualen“ zu erdulden. Trotz
+      <lb facs="#facs_3_region_1684479459346_1140_tl_7" n="N007"/>
+               <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> hatte unter ihm „Folterqualen“ zu erdulden. Trotz
       <lb facs="#facs_3_region_1684479459346_1140_tl_8" n="N008" break="no"/>dem trachtet er nach Möglichkeit, den Despotismus seines
       <lb facs="#facs_3_region_1684479459346_1140_tl_9" n="N009"/>Meisters zu entschuldigen und pathologisch zu erklären.
       <lb facs="#facs_3_region_1684479459346_1140_tl_10" n="N010"/>Wein, Weib und Kartenspiel hatten dessen Riesennatur
@@ -1289,9 +1343,11 @@
       <lb facs="#facs_3_line_1685363480104_2139" n="N024"/>Abgeschiedenheit an einem sonnigen Ort der <rs type="place" ref="#hsl_place_id_206">Riviera</rs> werde
       <lb facs="#facs_3_region_1684479459346_1140_tl_25" n="N025"/>dem Schwerkranken Heilung bringen. Auf langsamer, wieder
       <lb facs="#facs_3_region_1684479459346_1140_tl_26" n="N026" break="no"/>holt unterbrochener Reise gelangte <rs type="person" ref="#hsl_person_id_1406">Rubinstein</rs> nur bis nach
-      <lb facs="#facs_3_region_1684479459346_1140_tl_27" n="N027"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>, wo er im März <date>1881</date> seinen Qualen erlag.
-            </p><p>
-      <lb facs="#facs_3_region_1684479459346_1140_tl_28" n="N028"/>Bei <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s <rs type="place" ref="#hsl_place_id_151">Moskau</rs>er Studienzeit glaubte ich etwas
+      <lb facs="#facs_3_region_1684479459346_1140_tl_27" n="N027"/>
+               <rs type="place" ref="#hsl_place_id_44">Paris</rs>, wo er im März <date>1881</date> seinen Qualen erlag.
+            </p>
+            <p>
+               <lb facs="#facs_3_region_1684479459346_1140_tl_28" n="N028"/>Bei <rs type="person" ref="#hsl_person_id_1388">Sauer</rs>’s <rs type="place" ref="#hsl_place_id_151">Moskau</rs>er Studienzeit glaubte ich etwas
       <lb facs="#facs_3_line_1685363487784_2145" n="N029"/>länger verweilen zu dürfen, weil sie, musikalisch besonders
       <lb facs="#facs_3_line_1685367366053_2729" n="N030"/>inhaltsreich, für Clavierspieler einen reichen Schatz von
       <lb facs="#facs_3_region_1684479459346_1140_tl_31" n="N031"/>Beobachtungen birgt. Viele Leser dürften die zweite
@@ -1300,9 +1356,11 @@
       <lb facs="#facs_3_region_1684479459346_1140_tl_34" n="N034" break="no"/>reich</rs>, <rs type="place" ref="#hsl_place_id_17">England</rs>, die bunten Schilderungen von Land und
       <lb facs="#facs_3_region_1684479459346_1140_tl_35" n="N035"/>Leuten in der <rs type="place" ref="#hsl_place_id_180">Türkei</rs>, in <rs type="place" ref="#hsl_place_id_181">Persien</rs>, <rs type="place" ref="#hsl_place_id_23">Griechenland</rs> und <rs type="place" ref="#hsl_place_id_176">Ame
       <lb facs="#facs_3_region_1684479459346_1140_tl_36" n="N036" break="no"/>rika</rs>; sein Verkehr mit <rs type="person" ref="#hsl_person_id_41">Brahms</rs>, <rs type="person" ref="#hsl_person_id_44">Bülow</rs>, <rs type="person" ref="#hsl_person_id_164">Liszt</rs>, der Fürstin
-      <lb facs="#facs_3_region_1684479459346_1140_tl_37" n="N037"/><rs type="person" ref="#hsl_person_id_328">Wittgenstein</rs> und vielen anderen Berühmtheiten der Kunst
+      <lb facs="#facs_3_region_1684479459346_1140_tl_37" n="N037"/>
+               <rs type="person" ref="#hsl_person_id_328">Wittgenstein</rs> und vielen anderen Berühmtheiten der Kunst
       <lb facs="#facs_3_region_1684479459346_1140_tl_38" n="N038"/>und hohen Aristokratie. Rühmenswerth erscheint mir, daß
-      <lb facs="#facs_3_region_1684479459346_1140_tl_39" n="N039"/><rs type="person" ref="#hsl_person_id_1388">Sauer</rs> von seiner Person in dem Maße weniger spricht,
+      <lb facs="#facs_3_region_1684479459346_1140_tl_39" n="N039"/>
+               <rs type="person" ref="#hsl_person_id_1388">Sauer</rs> von seiner Person in dem Maße weniger spricht,
       <lb facs="#facs_3_region_1684479459346_1140_tl_40" n="N040"/>als seine Erfolge sich steigern, sein Ansehen wächst. Was
       <lb facs="#facs_3_region_1684479459346_1140_tl_41" n="N041"/>er beobachtet und erlebt, wird ihm fortan wichtiger, als
       <lb facs="#facs_3_region_1684479459346_1140_tl_42" n="N042"/>was er selbst leistet.</p>

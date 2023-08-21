@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
                <name ref="https://orcid.org/0009-0006-5723-8978">Picej, Cornelia</name>
             </respStmt>
          </editionStmt>
@@ -104,14 +104,14 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
+      <revisionDesc status="final">
          <change who="cpicej" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="awilfing" when="2023-05-18">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="2023-05-21">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
-<facsimile>
+   <facsimile>
       <surface ulx="0" uly="0" lrx="2479" lry="3508" xml:id="facs_1">
          <graphic url="1903.10.30-0001.jpg" width="2479px" height="3508px"/>
          <zone points="98,572 2087,572 2087,675 98,675"
@@ -862,17 +862,20 @@
    <text>
       <body>
          <div>
-         <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-         <cb n="1"/>
-      <lb n="N001"/><head type="h1">Hektor <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>.</head>
-      <lb n="N002"/><head type="h2">(Zu seinem hundertsten Geburtstag.) I.</head>
+            <pb facs="#facs_1" n="1" xml:id="img_0001"/>
+            <cb n="1"/>
+            <lb n="N001"/>
+            <head type="h1">Hektor <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>.</head>
+            <lb n="N002"/>
+            <head type="h2">(Zu seinem hundertsten Geburtstag.) I.</head>
             <p>
-      <lb n="N004"/>Ed. H. So mißmutig hohes Alter uns auch stimmen
+               <lb n="N004"/>Ed. H. So mißmutig hohes Alter uns auch stimmen
       <lb n="N005"/>mag, ich denke doch mit Freuden daran zurück, daß ich
       <lb n="N006"/>vor nahezu sechzig Jahren <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> kennen gelernt und
       <lb n="N007"/>eine volle Woche hindurch von früh bis abends sein
-      <lb n="N008"/>willkommener täglicher Begleiter gewesen bin. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs><space quantity="1"/>
-      <lb n="N009"/>erschien damals in <rs type="place" ref="#hsl_place_id_45">Prag</rs> als ein strammer, tatkräftiger
+      <lb n="N008"/>willkommener täglicher Begleiter gewesen bin. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>
+               <space quantity="1"/>
+               <lb n="N009"/>erschien damals in <rs type="place" ref="#hsl_place_id_45">Prag</rs> als ein strammer, tatkräftiger
       <lb n="N010"/>Vierziger mit buschigem dunklem Löwenhaupt; mitteilsam,
       <lb n="N011"/>unternehmend, hoffnungsfroh. Von diesem will ich in diesen
       <lb n="N012"/>Blättern erzählen. Diejenigen gewiß nicht zahlreichen
@@ -881,11 +884,14 @@
       <lb n="N015"/>entschuldigen, daß gerade ein Jubiläumsartikel eine mög
       <lb n="N016" break="no"/>lichst vollständige zusammenfassende Darstellung erheischt.
       <lb n="N017"/>Eine Charakteristik und Würdigung der Tondichtungen
-      <lb n="N018"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ soll später nachfolgen.
-            </p><p>
-      <lb n="N019"/>Hektor <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> war im Januar <date>1846</date> nach <rs type="place" ref="#hsl_place_id_45">Prag</rs> ge
+      <lb n="N018"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ soll später nachfolgen.
+            </p>
+            <p>
+               <lb n="N019"/>Hektor <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> war im Januar <date>1846</date> nach <rs type="place" ref="#hsl_place_id_45">Prag</rs> ge
       <lb n="N020" break="no"/>kommen und gab da eine Reihe von Konzerten. Der Name
-      <lb n="N021"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> war dem <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Publikum so gut wie unbekannt.
+      <lb n="N021"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> war dem <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Publikum so gut wie unbekannt.
       <lb n="N022"/>Nur unser kleiner Kreis, dessen Brevier <rs type="person" ref="#hsl_person_id_282">Schumann</rs>s Auf
       <lb n="N023"/>sätze in der <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>er „<rs type="bibl" ref="#hsl_work_id_553">Neuen Zeitschrift für Musik</rs>“
       <lb n="N024"/>bildeten, schwärmte im vorhinein für den genialen Fran
@@ -896,13 +902,16 @@
       <lb n="N029" break="no"/>ment</rs> der „<rs type="bibl" ref="#hsl_work_id_318">Lear</rs>“-Ouvertüre und die <rs type="person" ref="#hsl_person_id_164">Liszt</rs>sche <rs type="bibl" ref="#hsl_work_id_574">Klavier
       <lb n="N030" break="no"/>bearbeitung</rs> der <rs type="bibl" ref="#hsl_work_id_65">Sinfonie fantastique</rs>, welche unermüdlich
       <lb n="N031"/>durchgepaukt wurden. <rs type="person" ref="#hsl_person_id_717">Ambros</rs> und ich kamen täglich zu
-      <lb n="N032"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in den Gasthof „zum blauen Stern“ und beglei
+      <lb n="N032"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in den Gasthof „zum blauen Stern“ und beglei
       <lb n="N033" break="no"/>teten ihn in die Proben; wir waren willkommen als
-      <lb n="N034"/>enthusiastische Anhänger, ich überdies als brauchbarer<space quantity="1"/></p>
+      <lb n="N034"/>enthusiastische Anhänger, ich überdies als brauchbarer<space quantity="1"/>
+            </p>
             <cb n="2"/>
             <p prev="true">
-      <lb n="N001"/>Dolmetsch und Uebersetzer. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> verstand kein Wort
-      <lb n="N002"/><rs type="place" ref="#hsl_place_id_14">Deutsch</rs> und das <rs type="place" ref="#hsl_place_id_21">Französisch</rs>e war damals unter den
+               <lb n="N001"/>Dolmetsch und Uebersetzer. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> verstand kein Wort
+      <lb n="N002"/>
+               <rs type="place" ref="#hsl_place_id_14">Deutsch</rs> und das <rs type="place" ref="#hsl_place_id_21">Französisch</rs>e war damals unter den
       <lb n="N003"/>Musikern <rs type="place" ref="#hsl_place_id_45">Prag</rs>s sehr wenig verbreitet. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> kam in
       <lb n="N004"/>Begleitung einer schönen, glutäugigen Spanierin, Mari
       <lb n="N005" break="no"/>quita <rs type="person" ref="#hsl_person_id_1011">Rezio</rs>, die er für seine Frau ausgab. Es war daher
@@ -912,9 +921,11 @@
       <lb n="N009"/>bei der ersten Begegnung seine Freude darüber aussprach,
       <lb n="N010"/>neben <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> auch das Urbild der „Double idée fixe“
       <lb n="N011"/>aus der <rs type="bibl" ref="#hsl_work_id_65">Phantastischen Symphonie</rs>, nämlich Miß
-      <lb n="N012"/><rs type="person" ref="#hsl_person_id_1003">Smithson</rs>, zu erblicken, erhielt er mit einem strafenden
+      <lb n="N012"/>
+               <rs type="person" ref="#hsl_person_id_1003">Smithson</rs>, zu erblicken, erhielt er mit einem strafenden
       <lb n="N013"/>Blick die Antwort: „Die hier ist meine zweite Frau; Miß
-      <lb n="N014"/><rs type="person" ref="#hsl_person_id_1003">Smithson</rs> ist gestorben.“ In Wahrheit lebte seine Frau,
+      <lb n="N014"/>
+               <rs type="person" ref="#hsl_person_id_1003">Smithson</rs> ist gestorben.“ In Wahrheit lebte seine Frau,
       <lb n="N015"/>lebte lange noch, während <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> mit seiner schönen
       <lb n="N016"/>Spanierin <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> und <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> durchzog. Der
       <lb n="N017"/>Mann mit der Löwenmähne und dem gewaltigen Adler
@@ -939,30 +950,36 @@
       <lb n="N036"/>dem Tode seiner Frau die <rs type="person" ref="#hsl_person_id_1011">Rezio</rs> heiratete, litt er un
       <lb n="N037" break="no"/>säglich unter der unheilbaren, entsetzlichen Krankheit,
       <lb n="N038"/>welche langsam, wie mit stumpfer Säge, ihr Leben zerschnitt.
-            </p><p>
-      <lb n="N039"/>Während seines <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Aufenthaltes war <rs type="person" ref="#hsl_person_id_28">Berlioz</rs><space quantity="1"/>
-      <lb n="N040"/>unser einziger Gedanke, unsere einzige Beschäftigung. Ich<space quantity="1"/></p>
+            </p>
+            <p>
+               <lb n="N039"/>Während seines <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Aufenthaltes war <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>
+               <space quantity="1"/>
+               <lb n="N040"/>unser einziger Gedanke, unsere einzige Beschäftigung. Ich<space quantity="1"/>
+            </p>
             <cb n="3"/>
             <p prev="true">
-      <lb n="N001"/>führte ihn auch zu meinem Meister <rs type="person" ref="#hsl_person_id_951">Tomaschek</rs>, dem Musik
+               <lb n="N001"/>führte ihn auch zu meinem Meister <rs type="person" ref="#hsl_person_id_951">Tomaschek</rs>, dem Musik
       <lb n="N002" break="no"/>papst von <rs type="place" ref="#hsl_place_id_45">Prag</rs>, den zu besuchen jeder fremde Tonkünstler
       <lb n="N003"/>für Pflicht hielt. Als wäre es gestern, sehe ich mich mit
-      <lb n="N004"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in sonnig glitzerndem Wintermorgen über die
+      <lb n="N004"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in sonnig glitzerndem Wintermorgen über die
       <lb n="N005"/>Moldaubrücke wandern, jenseits welcher der Generalbaß
       <lb n="N006"/>in Person residierte. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> hatte sich fest in mich „ein
       <lb n="N007" break="no"/>gehängt“; ich litt unter dem vernichtenden Bewußtsein
       <lb n="N008"/>dieser Auszeichnung so sehr, daß ich förmlich fürchtete,
       <lb n="N009"/>Bekannten zu begegnen.
-            </p><p>
-      <lb n="N010"/>Wenige Schritte vor der kontrapunktischen Residenz
+            </p>
+            <p>
+               <lb n="N010"/>Wenige Schritte vor der kontrapunktischen Residenz
       <lb n="N011"/>eröffnete mir <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> mit liebenswürdiger Nonchalance, er
       <lb n="N012"/>habe in seinem Leben den Namen „<rs type="person" ref="#hsl_person_id_951">Tomaschek</rs>“ nicht ge
       <lb n="N013" break="no"/>hört, noch weniger kenne er eine Note dieses Autors. Jetzt
       <lb n="N014"/>galt es, in gedrängtester Kürze meinem Fremden das ihm
       <lb n="N015"/>fehlende musikgeschichtliche Kapitel „<rs type="person" ref="#hsl_person_id_951">Tomaschek</rs>“ beizu
       <lb n="N016" break="no"/>bringen. Um ihn nicht durch die vielen Titel zu verwirren,
-      <lb n="N017"/>wiederholte ich ihm schließlich mit Nachdruck, daß <rs type="person" ref="#hsl_person_id_951">Tomaschek</rs><space quantity="1"/>
-      <lb n="N018"/>auf ein (in der Tat vortreffliches) <rs type="bibl" ref="#hsl_work_id_638">Requiem</rs> besonderen
+      <lb n="N017"/>wiederholte ich ihm schließlich mit Nachdruck, daß <rs type="person" ref="#hsl_person_id_951">Tomaschek</rs>
+               <space quantity="1"/>
+               <lb n="N018"/>auf ein (in der Tat vortreffliches) <rs type="bibl" ref="#hsl_work_id_638">Requiem</rs> besonderen
       <lb n="N019"/>Wert lege. Wir traten ein, und es spielte sich eine jener
       <lb n="N020"/>halb peinlichen, halb komischen Szenen ab, welche man
       <lb n="N021"/>„Dolmetschen“ nennt. Dies brockenweise Hinüber- und
@@ -970,7 +987,8 @@
       <lb n="N023" break="no"/>zugebender Sätze wurde durch die etwas verlegene Span
       <lb n="N024" break="no"/>nung zwischen dem Altkonservativen und dem Kunstrevolu
       <lb n="N025" break="no"/>tionär gerade nicht erfreulicher. Glücklicherweise vergaß
-      <lb n="N026"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> sein Stichwort nicht, und rühmte sofort die beson
+      <lb n="N026"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> sein Stichwort nicht, und rühmte sofort die beson
       <lb n="N027" break="no"/>dere Genugtuung, den Schöpfer des „herrlichen <rs type="bibl" ref="#hsl_work_id_638">Requiem</rs>s“
       <lb n="N028"/>persönlich kennen zu lernen. Der durch Vereinsamung etwas
       <lb n="N029"/>schroff gewordene alte Herr nahm diese Huldigung mit
@@ -978,20 +996,25 @@
       <lb n="N031"/>Konzert besuchen zu wollen. „Il a l’air bien enchante
       <lb n="N032"/>de lui-même“, war das Einzige, was <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> nach einigem
       <lb n="N033"/>Nachdenken über die neue Bekanntschaft äußerte.
-            </p><p>
-      <lb n="N034"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ Konzerte erregten in <rs type="place" ref="#hsl_place_id_45">Prag</rs> einen unerhörten
+            </p>
+            <p>
+               <lb n="N034"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ Konzerte erregten in <rs type="place" ref="#hsl_place_id_45">Prag</rs> einen unerhörten
       <lb n="N035"/>Enthusiasmus. Das letzte Konzert, in welchem <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> den
       <lb n="N036"/>(sonst überall unterdrückten) fünften Satz der <rs type="bibl" ref="#hsl_work_id_65">Sinfonie
       <lb n="N037"/>fantastique</rs> aufführte, habe ich trotzdem versäumt. Ich
       <lb n="N038"/>wollte — da sich mir gerade jetzt die Gelegenheit bot —
       <lb n="N039"/>doch noch lieber <rs type="place" ref="#hsl_place_id_55">Wien</rs> kennen lernen, als die <rs type="bibl" ref="#hsl_work_id_65">Ronde de
-            <lb n="N040"/>Sabbat</rs> von <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> hatte ich die freudige<space quantity="1"/></p>
+            <lb n="N040"/>Sabbat</rs> von <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> hatte ich die freudige<space quantity="1"/>
+            </p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb n="N001"/>Ueberraschung, folgende darauf bezügliche Zeilen von
-      <lb n="N002"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> zu erhalten: „<rs type="person" ref="#hsl_person_id_1001">Henri IV.</rs> écrivait: Pends toi,
-      <lb n="N003"/><rs type="person" ref="#hsl_person_id_1135">Crillon</rs>, nous avons vaincu à <rs type="place" ref="#hsl_place_id_137">Arques</rs> et
+               <lb n="N001"/>Ueberraschung, folgende darauf bezügliche Zeilen von
+      <lb n="N002"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> zu erhalten: „<rs type="person" ref="#hsl_person_id_1001">Henri IV.</rs> écrivait: Pends toi,
+      <lb n="N003"/>
+               <rs type="person" ref="#hsl_person_id_1135">Crillon</rs>, nous avons vaincu à <rs type="place" ref="#hsl_place_id_137">Arques</rs> et
       <lb n="N004"/>tu n’y étais pas. Notre Sabbat a été exécuté
       <lb n="N005"/>mardi dernier; cependant je ne vous engage pas à vous
       <lb n="N006"/>pendre, car il peut aller beaucoup mieux. Mille amitiés,
@@ -1021,18 +1044,23 @@
       <lb n="N030"/>stark abgekühlt, ja förmlich auf Eis gestellt. Schon im
       <lb n="N031"/>Jahre <date>1847</date>, als ich <rs type="person" ref="#hsl_person_id_282">Schumann</rs> in <rs type="place" ref="#hsl_place_id_15">Dresden</rs> besuchte,
       <lb n="N032"/>äußerte er, sarkastisch lächelnd: „Ihr Prager ward ja über
-      <lb n="N033"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> ganz aus dem Häuschen!“ Ja, durfte ich ent
+      <lb n="N033"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> ganz aus dem Häuschen!“ Ja, durfte ich ent
       <lb n="N034" break="no"/>gegnen, wer hat denn angefangen?
-            </p><p>
-      <lb n="N035"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> selbst habe ich fünfzehn Jahre später, im Sommer
-      <lb n="N036"/><date>1860</date>, in Paris besucht. Diese kräftig aufrechte Gestalt, dieses
+            </p>
+            <p>
+               <lb n="N035"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> selbst habe ich fünfzehn Jahre später, im Sommer
+      <lb n="N036"/>
+               <date>1860</date>, in Paris besucht. Diese kräftig aufrechte Gestalt, dieses
       <lb n="N037"/>königliche Haupt mit den Adleraugen — ich sollte sie sehr
       <lb n="N038"/>verändert wiederfinden. Hätte ich <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> irgendwo anders
       <lb n="N039"/>als in seiner entlegenen Wohnung, Rue du Calais 4,
-      <lb n="N040"/>wiedergefunden, ich würde ihn schwerlich erkannt haben.<space quantity="1"/></p>
+      <lb n="N040"/>wiedergefunden, ich würde ihn schwerlich erkannt haben.<space quantity="1"/>
+            </p>
             <cb n="5"/>
             <p prev="true">
-      <lb n="N001"/>Zwar hob die Blässe seines eingesunkenen Gesichts und
+               <lb n="N001"/>Zwar hob die Blässe seines eingesunkenen Gesichts und
       <lb n="N002"/>das gänzlich erbleichte Haar den feinen Schnitt seiner Züge
       <lb n="N003"/>noch plastischer hervor, aber die Kraft und Frische von
       <lb n="N004"/>ehemals waren geschwunden. Trüb und leidend blickte sein
@@ -1044,7 +1072,8 @@
       <lb n="N010"/>tiefe Verstimmung des Gemüts, eine zunehmende Ver
       <lb n="N011" break="no"/>bitterung und Vereinsamung. Hielt doch nur sein glänzendes
       <lb n="N012"/>Wirken als Kritiker die <rs type="place" ref="#hsl_place_id_44">Paris</rs>er in Respekt; der Komponist
-      <lb n="N013"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> blieb ignoriert und verspottet. Wollte er seine
+      <lb n="N013"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> blieb ignoriert und verspottet. Wollte er seine
       <lb n="N014"/>Kompositionen hören, so mußte er nach <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> gehen.
       <lb n="N015"/>Die Tage in <rs type="place" ref="#hsl_place_id_45">Prag</rs> und <rs type="place" ref="#hsl_place_id_55">Wien</rs> dünkten ihn ein goldener
       <lb n="N016"/>Traum. Eben von seinem alljährlichen Sommerausflug
@@ -1066,16 +1095,19 @@
       <lb n="N032"/>ihn dort zu feiern, wobei man jetzt beinahe von einem
       <lb n="N033"/>Extrem ins andere, von Mißachtung in Vergötterung
       <lb n="N034"/>verfällt.
-            </p><p>
-      <lb n="N035"/>Es war im Dezember <date>1866</date>, als <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> auf Anregung
-      <lb n="N036"/><rs type="person" ref="#hsl_person_id_121">Herbeck</rs>s in <rs type="place" ref="#hsl_place_id_55">Wien</rs> eintraf, um sein hier noch unbekanntes
+            </p>
+            <p>
+               <lb n="N035"/>Es war im Dezember <date>1866</date>, als <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> auf Anregung
+      <lb n="N036"/>
+               <rs type="person" ref="#hsl_person_id_121">Herbeck</rs>s in <rs type="place" ref="#hsl_place_id_55">Wien</rs> eintraf, um sein hier noch unbekanntes
       <lb n="N037"/>Hauptwerk „<rs type="bibl" ref="#hsl_work_id_132">Faust’s Verdammung</rs>“ zu dirigieren. Der Anblick
       <lb n="N038"/>des Mannes schnitt seinen Freunden ins Herz. Er hatte in
       <lb n="N039"/>den letzten Jahren erschreckend gealtert. Die ehedem kräftige
-      <lb n="N040"/>und elastische Gestalt war von physischen und moralischen<space quantity="1"/></p>
+      <lb n="N040"/>und elastische Gestalt war von physischen und moralischen<space quantity="1"/>
+            </p>
             <cb n="6"/>
             <p prev="true">
-      <lb n="N001"/>Leiden gebrochen; das sonst so feurige Adlerauge blickte
+               <lb n="N001"/>Leiden gebrochen; das sonst so feurige Adlerauge blickte
       <lb n="N002"/>matt und resigniert unter dem grauen Haarwald; mit
       <lb n="N003"/>sichtlicher Anstrengung dirigierte er das von <rs type="person" ref="#hsl_person_id_121">Herbeck</rs> sorg
       <lb n="N004" break="no"/>fältig vorbereitete Werk. Sein Blick erhellte sich, als
@@ -1085,15 +1117,19 @@
       <lb n="N008" break="no"/>rühmten Tondichters zu gelten als dem Werke selbst. Hätte
       <lb n="N009"/>sonst dieses durch volle <hi rendition="#em">zwanzig</hi> Jahre hier unwieder
       <lb n="N010" break="no"/>holt, ja gänzlich verschollen bleiben können?
-            </p><p>
-      <lb n="N011"/>Noch einmal sollte ich <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in <rs type="place" ref="#hsl_place_id_44">Paris</rs> wiedersehen:
+            </p>
+            <p>
+               <lb n="N011"/>Noch einmal sollte ich <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in <rs type="place" ref="#hsl_place_id_44">Paris</rs> wiedersehen:
       <lb n="N012"/>im Frühling <date>1867</date>. Als musikalischer Juror zur Welt
       <lb n="N013" break="no"/>ausstellung dahin abgesendet, hatte ich auch an den
       <lb n="N014"/>Sitzungen über die beste der eingesandten Friedens
-      <lb n="N015" break="no"/>hymnen teilzunehmen. Der 85jährige <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs></hi> präsidierte.
+      <lb n="N015" break="no"/>hymnen teilzunehmen. Der 85jährige <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_16">Auber</rs>
+               </hi> präsidierte.
       <lb n="N016"/>Ich kam neben <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> zu sitzen, der mir noch grollender,
       <lb n="N017"/>düsterer erschien, als bei meinem letzten Besuch im Jahre
-      <lb n="N018"/><date>1860</date>. Der Tod seines einzigen Sohnes <rs type="person" ref="#hsl_person_id_1012">Louis</rs>, der fern
+      <lb n="N018"/>
+               <date>1860</date>. Der Tod seines einzigen Sohnes <rs type="person" ref="#hsl_person_id_1012">Louis</rs>, der fern
       <lb n="N019"/>von der Heimat auf einem Ostindienfahrer sein Ende ge
       <lb n="N020"/>funden hatte, war dem Vater schmerzlich tief in die Seele
       <lb n="N021"/>gedrungen; gleichzeitig erregten die sich täglich erneuernden
@@ -1106,15 +1142,25 @@
       <lb n="N028" break="no"/>positionen schüttelte <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> sein graues Löwenhaupt, schlug
       <lb n="N029"/>auf den Tisch und rief: „Wir sind nicht da, um Gassen
       <lb n="N030" break="no"/>hauer zu krönen!“ <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> lebte völlig einsam. Er be
-      <lb n="N031" break="no"/>hauptete, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi> niemals gesprochen zu haben. „C’est
+      <lb n="N031" break="no"/>hauptete, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_241">Rossini</rs>
+               </hi> niemals gesprochen zu haben. „C’est
       <lb n="N032"/>un viel homme, qui rit de tout et se moque de tout.“
-            </p><p>
-      <lb n="N033"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs></hi> nannte er den größten Egoisten; „ce n’est pas
-      <lb n="N034"/>un artiste“. Von R. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>, der (mit <rs type="person" ref="#hsl_person_id_1013">Klindworth</rs>)
+            </p>
+            <p>
+               <lb n="N033"/>
+               <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_16">Auber</rs>
+               </hi> nannte er den größten Egoisten; „ce n’est pas
+      <lb n="N034"/>un artiste“. Von R. <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_319">Wagner</rs>
+               </hi>, der (mit <rs type="person" ref="#hsl_person_id_1013">Klindworth</rs>)
       <lb n="N035"/>ihm den ersten Akt von „<rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>“ vorgespielt hatte, äußerte
-      <lb n="N036"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> nur: „Il est fou, totalement fou!“
-            </p><p>
-      <lb n="N037"/>Ich habe <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ echter, tiefer Künstlernatur, seinem
+      <lb n="N036"/>
+               <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> nur: „Il est fou, totalement fou!“
+            </p>
+            <p>
+               <lb n="N037"/>Ich habe <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ echter, tiefer Künstlernatur, seinem
       <lb n="N038"/>warmen, trotz unsäglichen Leidens und zunehmender Ver
       <lb n="N039" break="no"/>bitterung weichen, ehrlichen Gemüt stets ein pietätvolles
       <lb n="N040"/>dankbares Andenken bewahrt.</p>

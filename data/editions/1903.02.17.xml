@@ -30,7 +30,7 @@
                <resp>Projektmitarbeiterinnen</resp>
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476">Stoxreiter, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
                <name ref="https://orcid.org/0009-0006-5723-8978">Picej, Cornelia</name>
             </respStmt>
          </editionStmt>
@@ -104,14 +104,14 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-         <revisionDesc status="final">
+      <revisionDesc status="final">
          <change who="cpicej" when="2023-02-20">Transkribus OCR und Lektorat.</change>
          <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="awilfing" when="2023-05-21">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="2023-05-24">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
-<facsimile>
+   <facsimile>
       <surface ulx="0" uly="0" lrx="2479" lry="3508" xml:id="facs_1">
          <graphic url="1903.02.17-0001.jpg" width="2479px" height="3508px"/>
          <zone points="906,491 1230,491 1230,570 906,570"
@@ -917,21 +917,24 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-      <head type="h1">Concerte und Oper.</head>
-      <head type="h2">(Sechstes Philharmonisches Concert — Rosé-Quartett — <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs>“.)</head>
+            <head type="h1">Concerte und Oper.</head>
+            <head type="h2">(Sechstes Philharmonisches Concert — Rosé-Quartett — <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs>“.)</head>
             <p>
-      <lb n="N005"/>Ed. H. „<rs type="bibl" ref="#hsl_work_id_590">Irrungen und Wirrungen</rs>“, lautet der Titel
+               <lb n="N005"/>Ed. H. „<rs type="bibl" ref="#hsl_work_id_590">Irrungen und Wirrungen</rs>“, lautet der Titel
       <lb n="N006"/>eines Romanes von Theodor <rs type="person" ref="#hsl_person_id_1032">Fontane</rs>. Er fiel uns ein in
       <lb n="N007"/>den zwei letzten philharmonischen Concerten, deren un
       <lb n="N008" break="no"/>vermuthet abgeändertes Programm einige Confusion im
       <lb n="N009"/>Publicum hervorbrachte. Wurde doch im fünften Concert
       <lb n="N010"/>statt <rs type="person" ref="#hsl_person_id_1033">Grädener</rs>’s lange vorher angezeigter neuer Symphonie
-      <lb n="N011"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s <rs type="bibl" ref="#hsl_work_id_203">Es-dur-Symphonie</rs> gespielt; in dem gestrigen
+      <lb n="N011"/>
+               <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s <rs type="bibl" ref="#hsl_work_id_203">Es-dur-Symphonie</rs> gespielt; in dem gestrigen
       <lb n="N012"/>sechsten Concert fehlten sogar <hi rendition="#em">zwei</hi> an allen Straßenecken
-      <lb n="N013"/>wochenlang angekündigte Nummern: <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s</hi> hier noch
+      <lb n="N013"/>wochenlang angekündigte Nummern: <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s</hi> hier noch
       <lb n="N014"/>nie gehörte Symphonie „<rs type="bibl" ref="#hsl_work_id_591">Le midi</rs>“ und <rs type="person" ref="#hsl_person_id_101">Goldmark</rs>’s
       <lb n="N015"/>Ouvertüre „<rs type="bibl" ref="#hsl_work_id_592">Penthesilea</rs>“. An ihrer Stelle überraschte uns
-      <lb n="N016"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="bibl" ref="#hsl_work_id_593">A-dur-Symphonie</rs> — ein Wunderwerk, aber
+      <lb n="N016"/>
+               <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="bibl" ref="#hsl_work_id_593">A-dur-Symphonie</rs> — ein Wunderwerk, aber
       <lb n="N017"/>ein allbekanntes, das seit seiner ersten Aufführung (<date>1813</date>)
       <lb n="N018"/>im Verlaufe von achtzig Jahren weit über hundertmal hier
       <lb n="N019"/>gefeiert worden ist. Keine Frage, daß plötzliche Programm
@@ -942,24 +945,35 @@
       <lb n="N024"/>dürfen wol hoffen, daß künftighin an den veröffentlichten
       <lb n="N025"/>Programmen nicht plötzlich ohne Noth gerüttelt werde. „Ver
       <lb n="N026" break="no"/>sprechen muß man halten,“ singt schon <rs type="person" ref="#hsl_person_id_1138">Robert</rs> der Teufel.
-            </p><p>
-      <lb n="N027"/>Das Concert begann mit Hermann <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1033">Grädener</rs>’s</hi><space quantity="1"/>
-      <lb n="N028"/>neuer <rs type="bibl" ref="#hsl_work_id_594">Es-dur-Symphonie</rs>. Sie hat weder Titel noch Pro
+            </p>
+            <p>
+               <lb n="N027"/>Das Concert begann mit Hermann <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1033">Grädener</rs>’s</hi>
+               <space quantity="1"/>
+               <lb n="N028"/>neuer <rs type="bibl" ref="#hsl_work_id_594">Es-dur-Symphonie</rs>. Sie hat weder Titel noch Pro
       <lb n="N029" break="no"/>gramm — gottlob, möchten wir beifügen, sind wir doch
-      <lb n="N030"/>bereits der wunderlichen Ausschriften überdrüssig, mit welchen<space quantity="1"/></p>
+      <lb n="N030"/>bereits der wunderlichen Ausschriften überdrüssig, mit welchen<space quantity="1"/>
+            </p>
             <cb n="2"/>
             <p prev="true">
-      <lb n="N001"/>die neuesten Orchesterwerke sich in fremdes Gebiet, in
-      <lb n="N002"/>Malerei und Dichtkunst einbetteln. Nachdem Richard <rs type="person" ref="#hsl_person_id_1035">Strauß</rs><space quantity="1"/>
-      <lb n="N003"/>einer Symphonie den athemversetzenden Titel „<rs type="bibl" ref="#hsl_work_id_595">Also sprach
+               <lb n="N001"/>die neuesten Orchesterwerke sich in fremdes Gebiet, in
+      <lb n="N002"/>Malerei und Dichtkunst einbetteln. Nachdem Richard <rs type="person" ref="#hsl_person_id_1035">Strauß</rs>
+               <space quantity="1"/>
+               <lb n="N003"/>einer Symphonie den athemversetzenden Titel „<rs type="bibl" ref="#hsl_work_id_595">Also sprach
       <lb n="N004"/>Zarathustra</rs>“ aufgeladen hatte, wissen die Jüngeren kaum 
       <lb n="N005"/>mehr, wie sie es dem Titelmeister nach- oder zuvorthun
-      <lb n="N006"/>sollen. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1642">Glitz</rs></hi> schreibt eine Symphonie „<rs type="bibl" ref="#hsl_work_id_596">Venus und
-      <lb n="N007"/>Bellona</rs>“, Hans <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1036">Huber</rs></hi> eine „<rs type="bibl" ref="#hsl_work_id_678">Carvis</rs>“. Unter diesem
+      <lb n="N006"/>sollen. <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1642">Glitz</rs>
+               </hi> schreibt eine Symphonie „<rs type="bibl" ref="#hsl_work_id_596">Venus und
+      <lb n="N007"/>Bellona</rs>“, Hans <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1036">Huber</rs>
+               </hi> eine „<rs type="bibl" ref="#hsl_work_id_678">Carvis</rs>“. Unter diesem
       <lb n="N008"/>unverständlichen Titel vollzieht sich die Verwandlung eines
       <lb n="N009"/>Mädchens in einen jungen Mann oder auch der Melodie in
       <lb n="N010"/>einen Orchesterklang-Effect. Die neueste Symphonie des
-      <lb n="N011" break="no"/>selben Hans <rs type="person" ref="#hsl_person_id_1036">Huber</rs> heißt „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_597">Böcklin</rs></hi>“. Gewiß das Aller
+      <lb n="N011" break="no"/>selben Hans <rs type="person" ref="#hsl_person_id_1036">Huber</rs> heißt „<hi rendition="#em">
+                  <rs type="bibl" ref="#hsl_work_id_597">Böcklin</rs>
+               </hi>“. Gewiß das Aller
       <lb n="N012" break="no"/>modernste. Unsere <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Symphoniker haben sich von
       <lb n="N013"/>dieser Titelmode auffallend ferngehalten. Wie wäre es mit
       <lb n="N014"/>einer symphonischen Dichtung „<rs type="person" ref="#hsl_person_id_1040">Lueger</rs>“? Das gäbe auf
@@ -977,10 +991,11 @@
       <lb n="N026" break="no"/>bination. Der Contrapunktiker überragt den Erfinder oder,
       <lb n="N027"/>wie es vor Zeiten hieß, der „Setzer“ den „Sänger“. Man
       <lb n="N028"/>ist nicht ungestraft ein berühmter Professor der Musik
-      <lb n="N029"  break="no"/>theorie am Conservatorium. Im Großen und Ganzen
+      <lb n="N029" break="no"/>theorie am Conservatorium. Im Großen und Ganzen
       <lb n="N030"/>mahnt die Ausdrucksweise an <rs type="person" ref="#hsl_person_id_41">Brahms</rs> und <rs type="person" ref="#hsl_person_id_282">Schumann</rs>;
-      <lb n="N031"/>im Einzelnen verfällt sie keiner Reminiscenz. <rs type="person" ref="#hsl_person_id_1033">Grädener</rs><space quantity="1"/>
-      <lb n="N032"/>bleibt allzeit selbstständig. Nur selten mit einem größeren
+      <lb n="N031"/>im Einzelnen verfällt sie keiner Reminiscenz. <rs type="person" ref="#hsl_person_id_1033">Grädener</rs>
+               <space quantity="1"/>
+               <lb n="N032"/>bleibt allzeit selbstständig. Nur selten mit einem größeren
       <lb n="N033"/>Werk hervortretend, widmet er ihm dann die musterhafteste
       <lb n="N034"/>Sorgfalt in der Ausführung. Am meisten gefiel von den
       <lb n="N035"/>vier Sätzen das Scherzo mit seinem geheimnißvoll auf
@@ -992,22 +1007,30 @@
       <lb n="N041"/>Wüthen der Blechinstrumente und Pauken jede feinere
       <lb n="N042"/>Zeichnung. Wir müssen leider vorläufig darauf verzichten,
       <lb n="N043"/>in die Einzelheiten der interessanten Novität einzugehen.
-      <lb n="N044"/>Wenn der geschätzte Componist sich entschließen kann, jeden<space quantity="1"/></p>
+      <lb n="N044"/>Wenn der geschätzte Componist sich entschließen kann, jeden<space quantity="1"/>
+            </p>
             <cb n="3"/>
             <p prev="true">
-      <lb n="N001"/>der vier Sätze zu kürzen und das beklemmende Dickicht
+               <lb n="N001"/>der vier Sätze zu kürzen und das beklemmende Dickicht
       <lb n="N002"/>seines Orchesters zu lichten, dann werden die Vorzüge
       <lb n="N003"/>seiner Symphonie noch ungleich stärker und unmittelbarer
       <lb n="N004"/>wirken. Die Novität wurde lebhaft applaudirt und der
       <lb n="N005"/>Componist nach dem Scherzo und dem Finale wiederholt
-      <lb n="N006"/>gerufen. Herr Hofopern-Capellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1038">Schalk</rs></hi>, der in
-      <lb n="N007"/>Vertretung des plötzlich erkrankten Directors <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs><space quantity="1"/>
-      <lb n="N008"/>von <rs type="person" ref="#hsl_person_id_1033">Grädener</rs>’s schwieriger Symphonie, wie wir hören,
+      <lb n="N006"/>gerufen. Herr Hofopern-Capellmeister <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1038">Schalk</rs>
+               </hi>, der in
+      <lb n="N007"/>Vertretung des plötzlich erkrankten Directors <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>
+               <space quantity="1"/>
+               <lb n="N008"/>von <rs type="person" ref="#hsl_person_id_1033">Grädener</rs>’s schwieriger Symphonie, wie wir hören,
       <lb n="N009"/>nur Eine Gesammtprobe abhalten konnte, hat sich damit
       <lb n="N010"/>neuerdings als ausgezeichneter Dirigent bewährt.
-            </p><p>
-      <lb n="N011"/>Alte Liebe rostet nicht. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s</hi> mehr als
-      <lb n="N012"/>hundert Jahre altes <hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_598">Septett</rs></hi> lockt und entzückt noch
+            </p>
+            <p>
+               <lb n="N011"/>Alte Liebe rostet nicht. <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s</hi> mehr als
+      <lb n="N012"/>hundert Jahre altes <hi rendition="#em">
+                  <rs type="bibl" ref="#hsl_work_id_598">Septett</rs>
+               </hi> lockt und entzückt noch
       <lb n="N013"/>heute jeden Musikfreund. Wir hören es in der Regel
       <lb n="N014"/>einmal im Jahre als Hauptnummer eines <hi rendition="#em">Rosé</hi>’schen
       <lb n="N015"/>Extraconcerts; trefflich ausgeführt und mit freudigster
@@ -1019,8 +1042,11 @@
       <lb n="N021"/>heute keine Resonanz mehr im Publicum, und die zarte
       <lb n="N022"/>Composition hat schließlich vor den Reizen moderner
       <lb n="N023"/>Liederkunst capituliren müssen. Außer dem <rs type="bibl" ref="#hsl_work_id_598">Septett</rs> erfreute
-      <lb n="N024"/>uns noch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s</hi> köstliches <rs type="bibl" ref="#hsl_work_id_600">Clavierquintett in Es</rs>.
-      <lb n="N025"/>Ein vorzüglicher Pianist, Herr Joseph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1040">Lhévinne</rs></hi>, spielte
+      <lb n="N024"/>uns noch <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s</hi> köstliches <rs type="bibl" ref="#hsl_work_id_600">Clavierquintett in Es</rs>.
+      <lb n="N025"/>Ein vorzüglicher Pianist, Herr Joseph <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1040">Lhévinne</rs>
+               </hi>, spielte
       <lb n="N026"/>es mit unserem bewährten Rosé-Quartett voll Feuer
       <lb n="N027"/>und Verständniß. Daß sie es „zu voller Geltung
       <lb n="N028"/>brachten“, wie die beliebte Reporterphrase heißt, kann man
@@ -1032,32 +1058,42 @@
       <lb n="N034"/>schwächer, in Wahrheit hat es nur schwächer geklungen.
       <lb n="N035"/>Am leichtesten über die Ungunst des Saales siegt noch die
       <lb n="N036"/>Singstimme; auch die zarteste, wenn sie so kunstvoll be
-      <lb n="N037" break="no"/>handelt wird, wie von Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1041">Bricht-Pyllemann</rs></hi>.
+      <lb n="N037" break="no"/>handelt wird, wie von Frau <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1041">Bricht-Pyllemann</rs>
+               </hi>.
       <lb n="N038"/>Durch den Reiz ihrer silberhellen Kopftöne verhalf sie
-      <lb n="N039"/><rs type="person" ref="#hsl_person_id_1042">Grieg</rs>’s wunderlichem „<rs type="bibl" ref="#hsl_work_id_601">Solveigslied</rs>“ zu einer fast unge
+      <lb n="N039"/>
+               <rs type="person" ref="#hsl_person_id_1042">Grieg</rs>’s wunderlichem „<rs type="bibl" ref="#hsl_work_id_601">Solveigslied</rs>“ zu einer fast unge
       <lb n="N040" break="no"/>ahnten Wirkung. Für Hugo <rs type="person" ref="#hsl_person_id_329">Wolf</rs>’s „<rs type="bibl" ref="#hsl_work_id_603">Gärtner</rs>“ hätten wir
-      <lb n="N041"/>nicht ungern die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>’sche <rs type="bibl" ref="#hsl_work_id_681">Composition</rs> desselben
+      <lb n="N041"/>nicht ungern die <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_282">Schumann</rs>
+               </hi>’sche <rs type="bibl" ref="#hsl_work_id_681">Composition</rs> desselben
       <lb n="N042"/>Gedichtes eingetauscht (<rs type="bibl" ref="#hsl_work_id_602">op. 107</rs>), die wir öffentlich noch nie
       <lb n="N043"/>zu hören bekamen. Frau <rs type="person" ref="#hsl_person_id_1041">Bricht-Pyllemann</rs> darf sich eines
       <lb n="N044"/>echten großen Erfolges rühmen.</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p>
-      <lb n="N001"/>Vor einigen Tagen lockte mich eine alte Liebe ins
-      <lb n="N002"/>Hofoperntheater: <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs></hi>“. Man
-      <lb n="N003"/>feierte die 100. Aufführung dieser Oper in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. <hi rendition="#em">Schon</hi><space quantity="1"/>
-      <lb n="N004"/>die hundertste? Im Laufe von 57 Jahren! Armer <rs type="bibl" ref="#hsl_work_id_184">Hans
+               <lb n="N001"/>Vor einigen Tagen lockte mich eine alte Liebe ins
+      <lb n="N002"/>Hofoperntheater: <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<hi rendition="#em">
+                  <rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs>
+               </hi>“. Man
+      <lb n="N003"/>feierte die 100. Aufführung dieser Oper in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. <hi rendition="#em">Schon</hi>
+               <space quantity="1"/>
+               <lb n="N004"/>die hundertste? Im Laufe von 57 Jahren! Armer <rs type="bibl" ref="#hsl_work_id_184">Hans
       <lb n="N005"/>Heiling</rs>. Schäme dich vor dem „<rs type="bibl" ref="#hsl_work_id_604">Rastelbinder</rs>“, der jetzt 
       <lb n="N006"/>nach drei Monaten seine 50. Wiederholung erlebt! Ver
       <lb n="N007" break="no"/>krieche dich vollends vor dem „<rs type="bibl" ref="#hsl_work_id_605">Süßen Mädel</rs>“, das in einem
       <lb n="N008"/>halben Jahre es so weit gebracht hat, wie du in einem
       <lb n="N009"/>halben Jahrhundert — zu 100 Aufführungen! Die erste
-      <lb n="N010"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Vorstellung von „<rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs>“ (Januar <date>1846</date>)
+      <lb n="N010"/>
+               <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Vorstellung von „<rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs>“ (Januar <date>1846</date>)
       <lb n="N011"/>war, ohne Sensation zu machen, doch so günstig auf
       <lb n="N012" break="no"/>genommen worden, daß der Componist im Sommer des
       <lb n="N013" break="no"/>selben Jahres nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> reiste, um seine Oper einmal selbst
       <lb n="N014"/>zu dirigiren. Er hatte dafür ein Duett zwischen <rs type="person" ref="#hsl_person_id_1045">Anna</rs> und
-      <lb n="N015"/><rs type="person" ref="#hsl_person_id_611">Conrad</rs> im dritten Acte hinzucomponirt, das jetzt noch ganz
+      <lb n="N015"/>
+               <rs type="person" ref="#hsl_person_id_611">Conrad</rs> im dritten Acte hinzucomponirt, das jetzt noch ganz
       <lb n="N016"/>besonderen Beifall erntet. Um sich damit bei den <rs type="place" ref="#hsl_place_id_55">Wien</rs>ern
       <lb n="N017"/>„ein Bildel einzulegen“, verließ <rs type="person" ref="#hsl_person_id_174">Marschner</rs> hier den düsteren,
       <lb n="N018"/>schweren Ton, die unruhige, überfüllte Instrumentirung
@@ -1065,46 +1101,78 @@
       <lb n="N020"/>einfachere Begleitung. Seither hat dieses Einlagestück sich
       <lb n="N021"/>überall erfolgreich erhalten. Entschiedenen Gewinn für
       <lb n="N022"/>„<rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs>“ brachte dessen Uebersiedlung ins neue
-      <lb n="N023"/>Opernhaus; wir finden da im Januar <date>1871</date> schon <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi><space quantity="1"/>
-      <lb n="N024"/>als <rs type="person" ref="#hsl_person_id_1046">Heiling</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi> als <rs type="person" ref="#hsl_person_id_611">Conrad</rs>, Minnie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1047">Hauck</rs></hi> als
-      <lb n="N025"/><rs type="person" ref="#hsl_person_id_1045">Anna</rs>, die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1031">Materna</rs></hi> als <rs type="person" ref="#hsl_person_id_1048">Gnomenkönigin</rs>. Die Wieder
+      <lb n="N023"/>Opernhaus; wir finden da im Januar <date>1871</date> schon <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_24">Beck</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb n="N024"/>als <rs type="person" ref="#hsl_person_id_1046">Heiling</rs>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_320">Walter</rs>
+               </hi> als <rs type="person" ref="#hsl_person_id_611">Conrad</rs>, Minnie <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1047">Hauck</rs>
+               </hi> als
+      <lb n="N025"/>
+               <rs type="person" ref="#hsl_person_id_1045">Anna</rs>, die <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1031">Materna</rs>
+               </hi> als <rs type="person" ref="#hsl_person_id_1048">Gnomenkönigin</rs>. Die Wieder
       <lb n="N026" break="no"/>holungen sickerten trotzdem noch immer spärlich. Vom Jahre
-      <lb n="N027"/><date>1871</date> bis heute, also in mehr als dreißig Jahren, ist die
+      <lb n="N027"/>
+               <date>1871</date> bis heute, also in mehr als dreißig Jahren, ist die
       <lb n="N028"/>Oper <hi rendition="#em">65mal</hi> gegeben worden. Ein Hauptverdienst an der
       <lb n="N029"/>gesteigerten Anziehungskraft des „<rs type="bibl" ref="#hsl_work_id_184">Heiling</rs>“ gebührt Herrn
-      <lb n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1049">Reichmann</rs></hi>, der, ein warmer Verehrer und prädestinirter
+      <lb n="N030"/>
+               <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1049">Reichmann</rs>
+               </hi>, der, ein warmer Verehrer und prädestinirter
       <lb n="N031"/>Darsteller der <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’schen Baritonpartien, neben
       <lb n="N032"/>„<rs type="bibl" ref="#hsl_work_id_184">Heiling</rs>“ auch dem „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ und dem „<rs type="bibl" ref="#hsl_hsl_work_id_606">Vampyr</rs>“ hier
       <lb n="N033"/>zu neuen Ehren verholfen hat.
-            </p><p>
-      <lb n="N034"/>Dem „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“, diesem Werke voll dramatischer
-      <lb n="N035"/>Gluth und zartem melodischen Reiz, sollte es in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1"/>
-      <lb n="N036"/>nicht so gut ergehen — eigentlich herzlich schlecht. Die
-      <lb n="N037"/><hi rendition="#em">erste</hi> Aufführung von „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ im alten
+            </p>
+            <p>
+               <lb n="N034"/>Dem „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“, diesem Werke voll dramatischer
+      <lb n="N035"/>Gluth und zartem melodischen Reiz, sollte es in <rs type="place" ref="#hsl_place_id_55">Wien</rs>
+               <space quantity="1"/>
+               <lb n="N036"/>nicht so gut ergehen — eigentlich herzlich schlecht. Die
+      <lb n="N037"/>
+               <hi rendition="#em">erste</hi> Aufführung von „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ im alten
       <lb n="N038"/>Opernhause hat im Jahre <date>1849</date> stattgefunden, die letzte
       <lb n="N039"/>im Jahre <date>1862</date>. In diesen <hi rendition="#em">dreizehn</hi> Jahren erlebte
       <lb n="N040"/>der „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ 3, sage <hi rendition="#em">drei</hi> Aufführungen! Die Oper
       <lb n="N041"/>war eben nicht nach dem Geschmack der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er. Ich hatte
       <lb n="N042"/>den „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ in <rs type="place" ref="#hsl_place_id_45">Prag</rs> liebgewonnen, wo er, sowie
       <lb n="N043"/>„<rs type="bibl" ref="#hsl_work_id_184">Heiling</rs>“ als unfehlbares Repertoirestück beliebt war, ehe
-      <lb n="N044"/>man in <rs type="place" ref="#hsl_place_id_55">Wien</rs> etwas von <rs type="person" ref="#hsl_person_id_174">Marschner</rs> wußte. „Der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er<space quantity="1"/></p>
+      <lb n="N044"/>man in <rs type="place" ref="#hsl_place_id_55">Wien</rs> etwas von <rs type="person" ref="#hsl_person_id_174">Marschner</rs> wußte. „Der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er<space quantity="1"/>
+            </p>
             <cb n="5"/>
             <p prev="true">
-      <lb n="N001"/>Mißerfolg“ — so schrieb ich damals in der „<rs type="bibl" ref="#hsl_work_id_156">Wiener
+               <lb n="N001"/>Mißerfolg“ — so schrieb ich damals in der „<rs type="bibl" ref="#hsl_work_id_156">Wiener
       <lb n="N002"/>Zeitung</rs>“ — „mußte Jedermann schmerzen, der in <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s
       <lb n="N003"/>„<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ ein Werk zu ehren glaubte, dessen Fall unmög
       <lb n="N004" break="no"/>lich ist. Der 10. Januar <date>1849</date> hat diesem Glauben ein Ende
       <lb n="N005"/>gemacht, und die letzte Stadt, welche den „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ zur
-      <lb n="N006"/>Aufführung gebracht, <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi>, ist auch die erste, die ihn
+      <lb n="N006"/>Aufführung gebracht, <hi rendition="#em">
+                  <rs type="place" ref="#hsl_place_id_55">Wien</rs>
+               </hi>, ist auch die erste, die ihn
       <lb n="N007"/>fallen ließ. Zur theilweisen Entlastung des Publicums
       <lb n="N008"/>war nur zu bemerken, daß die Aufführung kaum ein ge
       <lb n="N009" break="no"/>treues Bild des Werkes zu bieten vermochte. Vortrefflich
-      <lb n="N010"/>erschien nur <hi rendition="#em"><rs type="person" ref="#hsl_person_id_296">Staudigl</rs></hi> als Waldbruder <rs type="person" ref="#hsl_person_id_1050">Tuck</rs>. Die letzte
+      <lb n="N010"/>erschien nur <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_296">Staudigl</rs>
+               </hi> als Waldbruder <rs type="person" ref="#hsl_person_id_1050">Tuck</rs>. Die letzte
       <lb n="N011"/>Aufführung von „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ im alten Opern
-      <lb n="N012" break="no"/>hause (<date>1862</date>) glänzte in musterhafter Besetzung. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> als
-      <lb n="N013"/><rs type="person" ref="#hsl_person_id_1052">Templer</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_14">Ander</rs></hi> als <rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs>, die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_67">Dustmann</rs></hi> als
-      <lb n="N014"/><rs type="person" ref="#hsl_person_id_1051">Rebekka</rs> lebten begeistert in ihren Rollen. Vortrefflich war
-      <lb n="N015"/>auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_129">Hölzl</rs></hi> als <rs type="person" ref="#hsl_person_id_1050">Tuck</rs>; dennoch hat er die Oper für lange
+      <lb n="N012" break="no"/>hause (<date>1862</date>) glänzte in musterhafter Besetzung. <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_24">Beck</rs>
+               </hi> als
+      <lb n="N013"/>
+               <rs type="person" ref="#hsl_person_id_1052">Templer</rs>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_14">Ander</rs>
+               </hi> als <rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs>, die <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_67">Dustmann</rs>
+               </hi> als
+      <lb n="N014"/>
+               <rs type="person" ref="#hsl_person_id_1051">Rebekka</rs> lebten begeistert in ihren Rollen. Vortrefflich war
+      <lb n="N015"/>auch <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_129">Hölzl</rs>
+               </hi> als <rs type="person" ref="#hsl_person_id_1050">Tuck</rs>; dennoch hat er die Oper für lange
       <lb n="N016"/>Zeit umgebracht und die Oper ihn. Ein aufregendes
       <lb n="N017"/>Theater-Ereigniß. Es war Herrn <rs type="person" ref="#hsl_person_id_129">Hölzl</rs> von der Theater
       <lb n="N018" break="no"/>censur untersagt worden, als <rs type="person" ref="#hsl_person_id_1050">Tuck</rs> mönchische Kleidung
@@ -1120,42 +1188,55 @@
       <lb n="N028"/>deren erbärmlicher Effect ihn offenbar stark herabgemuntert
       <lb n="N029"/>hatte. Er wagte es also, in der Abendvorstellung die ver
       <lb n="N030" break="no"/>botenen Worte „Ora pro nobis“ zu singen, die sogar in
-      <lb n="N031"/><rs type="place" ref="#hsl_place_id_39">München</rs> und auf verschiedenen <rs type="place" ref="#hsl_place_id_43">österreich</rs>ischen Bühnen un
+      <lb n="N031"/>
+               <rs type="place" ref="#hsl_place_id_39">München</rs> und auf verschiedenen <rs type="place" ref="#hsl_place_id_43">österreich</rs>ischen Bühnen un
       <lb n="N032" break="no"/>behelligt erklangen. Die Folge war, daß <rs type="person" ref="#hsl_person_id_129">Hölzl</rs> sofort seine
       <lb n="N033"/>Entlassung erhielt und nie wieder die Räume des Hof
-      <lb n="N034" break="no"/>operntheaters betreten durfte. Nun war dem armen <rs type="person" ref="#hsl_person_id_129">Hölzel</rs><space quantity="1"/>
-      <lb n="N035"/>für immer und der <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’schen Oper für viele Jahre
+      <lb n="N034" break="no"/>operntheaters betreten durfte. Nun war dem armen <rs type="person" ref="#hsl_person_id_129">Hölzel</rs>
+               <space quantity="1"/>
+               <lb n="N035"/>für immer und der <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’schen Oper für viele Jahre
       <lb n="N036"/>das Hofoperntheater versperrt. Heute liest sich das gottlob
       <lb n="N037"/>wie ein Märchen, ist aber doch erst 40 Jahre alt.
-            </p><p>
-      <lb n="N038"/>Erst im November <date>1883</date>, also nach vollen 20 Jahren,
+            </p>
+            <p>
+               <lb n="N038"/>Erst im November <date>1883</date>, also nach vollen 20 Jahren,
       <lb n="N039"/>bekamen wir „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ wieder zu hören —
       <lb n="N040"/>im <hi rendition="#em">Neuen</hi> Opernhause. Leider hat der „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ auch
       <lb n="N041"/>hier bis auf den heutigen Tag, also in 20 Jahren, nur
       <lb n="N042"/>28 Vorstellungen erlebt. Die Wiederaufnahme der Oper
-      <lb n="N043"/>geschah hauptsächlich auf Betreiben <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1049">Reichmann</rs>’s</hi>, welcher
-      <lb n="N044"/>den <rs type="person" ref="#hsl_person_id_1052">Templer</rs> zu seinen Glanzrollen zählt. Neben ihm<space quantity="1"/></p>
+      <lb n="N043"/>geschah hauptsächlich auf Betreiben <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1049">Reichmann</rs>’s</hi>, welcher
+      <lb n="N044"/>den <rs type="person" ref="#hsl_person_id_1052">Templer</rs> zu seinen Glanzrollen zählt. Neben ihm<space quantity="1"/>
+            </p>
             <cb n="6"/>
             <p prev="true">
-      <lb n="N001"/>finden wir schon Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_370">Winkelmann</rs></hi> als <rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs>.
+               <lb n="N001"/>finden wir schon Herrn <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_370">Winkelmann</rs>
+               </hi> als <rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs>.
       <lb n="N002"/>Diese beiden trefflichen Künstler, bis zur Stunde die festen
       <lb n="N003"/>Säulen unseres Operntheaters, verhalfen auch der dritten
-      <lb n="N004"/>von <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s Opern, dem „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_606">Vampyr</rs></hi>“, zu einer wenn
+      <lb n="N004"/>von <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s Opern, dem „<hi rendition="#em">
+                  <rs type="bibl" ref="#hsl_work_id_606">Vampyr</rs>
+               </hi>“, zu einer wenn
       <lb n="N005" break="no"/>gleich nur kurzen Wirksamkeit in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Allerdings hat
-      <lb n="N006"/><rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s Styl sich im „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“, noch mehr im
+      <lb n="N006"/>
+               <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s Styl sich im „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“, noch mehr im
       <lb n="N007"/>„<rs type="bibl" ref="#hsl_work_id_184">Heiling</rs>“ geläutert, seine Gestaltungskraft sich gefestigt.
       <lb n="N008"/>Aber auch dort, wo man diese weit besseren Werke
-      <lb n="N009"/><rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s pflegt, weiß sein „<rs type="bibl" ref="#hsl_work_id_606">Vampyr</rs>“ sich noch immer
+      <lb n="N009"/>
+               <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s pflegt, weiß sein „<rs type="bibl" ref="#hsl_work_id_606">Vampyr</rs>“ sich noch immer
       <lb n="N010"/>leidlich zu erhalten. Das dankt er dem unzerstörbaren
       <lb n="N011"/>Eindrucke seiner Priorität und der Macht der Tradition.
       <lb n="N012"/>Den späteren „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ und „<rs type="bibl" ref="#hsl_work_id_184">Heiling</rs>“ erkannte das
-      <lb n="N013"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Publicum sofort als die zweite und dritte Ver
+      <lb n="N013"/>
+               <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Publicum sofort als die zweite und dritte Ver
       <lb n="N014" break="no"/>gleichungsstufe von <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s Talent, ohne darum den
       <lb n="N015"/>roheren „<rs type="bibl" ref="#hsl_work_id_606">Vampyr</rs>“ ganz zu verbannen. Er war eine erste
       <lb n="N016"/>Liebe gewesen, und zu dieser kehrt man gerne wieder
       <lb n="N017"/>zurück. Anders bei uns in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Nachdem wir den
       <lb n="N018"/>„<rs type="bibl" ref="#hsl_work_id_606">Vampyr</rs>“ um ein Halbjahrhundert verspätet und lange
-      <lb n="N019"/><hi rendition="#em">nach</hi> dem „<rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs>“ kennen gelernt, mußte
+      <lb n="N019"/>
+               <hi rendition="#em">nach</hi> dem „<rs type="bibl" ref="#hsl_work_id_184">Hans Heiling</rs>“ kennen gelernt, mußte
       <lb n="N020"/>er uns da nicht wie eine wüste Vorstudie zum „<rs type="bibl" ref="#hsl_work_id_184">Heiling</rs>“
       <lb n="N021"/>vorkommen und neben diesem fast überflüssig? So war
       <lb n="N022"/>denn auch der Erfolg des „<rs type="bibl" ref="#hsl_work_id_606">Vampyr</rs>“ bei seiner <rs type="place" ref="#hsl_place_id_55">Wien</rs>er
@@ -1167,18 +1248,36 @@
       <lb n="N028" break="no"/>deutenden Composition hängt gewiß nicht an der Minute
       <lb n="N029"/>— was du aber vor fünfzig Jahren ausgeschlagen, das
       <lb n="N030"/>bringt keine Ewigkeit zurück.
-            </p><p>
-      <lb n="N031"/>Die hundertste Aufführung des „<rs type="bibl" ref="#hsl_work_id_184">Heiling</rs>“, um wieder zu
+            </p>
+            <p>
+               <lb n="N031"/>Die hundertste Aufführung des „<rs type="bibl" ref="#hsl_work_id_184">Heiling</rs>“, um wieder zu
       <lb n="N032"/>rem Anfang einzubiegen, spielte vor einem überaus
       <lb n="N033"/>empfänglichen, dankbaren Publicum, das vollzählig wie zu
-      <lb n="N034"/>einer Première sich eingefunden hatte. Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1055">Forster</rs></hi>,
-      <lb n="N035"/>noch immer die liebenswürdigste <rs type="person" ref="#hsl_person_id_1045">Anna</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1049">Reichmann</rs></hi>,
-      <lb n="N036"/>noch heute der beste <rs type="person" ref="#hsl_person_id_1046">Heiling</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_276">Schrödter</rs></hi>, noch un
+      <lb n="N034"/>einer Première sich eingefunden hatte. Frau <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1055">Forster</rs>
+               </hi>,
+      <lb n="N035"/>noch immer die liebenswürdigste <rs type="person" ref="#hsl_person_id_1045">Anna</rs>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1049">Reichmann</rs>
+               </hi>,
+      <lb n="N036"/>noch heute der beste <rs type="person" ref="#hsl_person_id_1046">Heiling</rs>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_276">Schrödter</rs>
+               </hi>, noch un
       <lb n="N037" break="no"/>verändert der klang- und gemüthvollste <rs type="person" ref="#hsl_person_id_611">Conrad</rs>, entzückten
-      <lb n="N038"/>wie vor Jahren. Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1056">Sedlmair</rs></hi>, Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1057">Kaulich</rs></hi>,
-      <lb n="N039"/>die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1058">Schittenhelm</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1059">Felix</rs></hi> standen ihnen
-      <lb n="N040"/>als willkommene Partner zur Seite, und Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1038">Schalk</rs></hi><space quantity="1"/>
-      <lb n="N041"/>als energisch dirigirendes Oberhaupt. So bewahren wir
+      <lb n="N038"/>wie vor Jahren. Frau <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1056">Sedlmair</rs>
+               </hi>, Frau <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1057">Kaulich</rs>
+               </hi>,
+      <lb n="N039"/>die Herren <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1058">Schittenhelm</rs>
+               </hi> und <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1059">Felix</rs>
+               </hi> standen ihnen
+      <lb n="N040"/>als willkommene Partner zur Seite, und Herr <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_1038">Schalk</rs>
+               </hi>
+               <space quantity="1"/>
+               <lb n="N041"/>als energisch dirigirendes Oberhaupt. So bewahren wir
       <lb n="N042"/>denn dieser Jubiläums-Vorstellung die dankbarste Er
       <lb n="N043" break="no"/>innerung.</p>
          </div>
