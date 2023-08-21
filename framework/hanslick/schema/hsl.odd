@@ -61,7 +61,7 @@
           <moduleRef key="tei"/>
           <moduleRef key="textstructure" include="TEI text body div"/>
           <moduleRef key="textcrit" include="listWit witness"/>
-          <moduleRef key="transcr" include="fw space facsimile surface damage"/>
+          <moduleRef key="transcr" include="fw space facsimile surface damage zone"/>
           <moduleRef key="linking" include="ab"/>
         
           <!-- element availability -->
@@ -265,36 +265,6 @@
               </attDef>
             </attList>
           </elementSpec>
-          
-          <!-- element div -->
-          <!--<elementSpec ident="div" module="textstructure" mode="change">
-            <attList>
-              <attDef ident="xmlns" mode="change" usage="req">
-                <valList type="closed" mode="replace">
-                  <valItem ident="http://www.tei-c.org/ns/1.0"/>
-                </valList>
-              </attDef>
-              <attDef ident="xml:id" mode="change" usage="req"/>
-              <attDef ident="type" mode="change" usage="opt"/>
-              <attDef ident="n" mode="change" usage="opt"/>
-            </attList>
-          </elementSpec>-->
-          
-          <!-- element fw -->
-          <!--<elementSpec ident="fw" module="transcr" mode="change">
-            <attList>
-              <attDef ident="type" mode="change" usage="req">
-                <valList type="closed" mode="replace">
-                  <valItem ident="pageNum"/>
-                </valList>
-              </attDef>
-              <attDef ident="xml:id" mode="change" usage="opt">
-                <datatype>
-                  <dataRef key="ID"/>
-                </datatype>
-              </attDef>
-            </attList>
-          </elementSpec>-->
           
           <!-- element rs -->
           <elementSpec ident="rs" module="core" mode="change">
