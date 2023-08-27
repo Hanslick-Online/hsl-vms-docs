@@ -105,7 +105,9 @@
       </profileDesc>
       <revisionDesc status="draft">
          <change who="athell" when="2023-07-18">Transkribus OCR und Lektorat.</change>
+         <change who="dstoxreiter" when="2023-07-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="athell" when="2023-07-28">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2023-08-">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1135,7 +1137,7 @@
       <lb facs="#facs_1_region_1684526084419_652_tl_9" n="N011"/>eine unaufschiebbar sein. Wie die <rs type="person" ref="#hsl_person_id_293">Spohr</rs>’sche Ouvertüre ist
       <lb facs="#facs_1_region_1684526084419_652_tl_10" n="N012"/>auch <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="bibl" ref="#hsl_work_id_408">Pastoral-Symphonie</rs> vorzüglich gespielt
       <lb facs="#facs_1_region_1684526084419_652_tl_11" n="N013"/>worden. In <hi rendition="#em">jedem</hi> der vier ersten Concerte hat Director
-      <lb facs="#facs_1_line_1688459789391_172" n="N014"/><rs type="person" ref="#hsl_person_id_977">Mahler</rs>, der angeblich radicale Secessionist, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi><space quantity="1"/>
+      <lb facs="#facs_1_line_1688459789391_172" n="N014"/><rs type="person" ref="#hsl_person_id_977">Mahler</rs>, der angeblich radicale Secessionist, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684526084419_652_tl_13" n="N015"/>den Ehrenplatz eingeräumt. Dazwischen spielte Frau Marie
       <lb facs="#facs_1_region_1684526084419_652_tl_14" n="N016"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1382">Soldat-Roeger</rs></hi> das <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’sche <rs type="bibl" ref="#hsl_work_id_578">Violinconcert</rs>. Längst
       <lb facs="#facs_1_region_1684526084419_652_tl_15" n="N017"/>in ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> anerkannt als eine der ersten Künstle
@@ -1146,7 +1148,7 @@
       <lb facs="#facs_1_region_1684526084419_652_tl_20" n="N022"/>rauschenden Beifall begrüßt, der sich am Schlusse zu einer
       <lb facs="#facs_1_region_1684526084419_652_tl_21" n="N023"/>förmlichen Ovation steigerte. Hätte sie vor Allem durch ihre
       <lb facs="#facs_1_region_1684526084419_652_tl_22" n="N024"/>Virtuosität blenden wollen, dann sicherten andere Concert
-      <lb facs="#facs_1_region_1684526084419_652_tl_23" n="N025" break="no"/>stücke ihr einen leichteren Sieg. <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ <rs type="bibl" ref="#hsl_work_id_578">Violinconcert</rs><space quantity="1"/>
+      <lb facs="#facs_1_region_1684526084419_652_tl_23" n="N025" break="no"/>stücke ihr einen leichteren Sieg. <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ <rs type="bibl" ref="#hsl_work_id_578">Violinconcert</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684526084419_652_tl_24" n="N026"/>spricht nicht die unmittelbar verständliche, einschmeichelnde
       <lb facs="#facs_1_region_1684526084419_652_tl_25" n="N027"/>Sprache, mit welcher sonst Concert-Compositionen, auch
       <lb facs="#facs_1_region_1684526084419_652_tl_26" n="N028"/>die unserer classischen Meister, dem Spieler wie dem
@@ -1158,7 +1160,7 @@
       <lb facs="#facs_1_region_1684526084419_652_tl_31" n="N034"/>unterirdische, die nicht, laut Beifall commandirend, an die
       <lb facs="#facs_1_region_1684526084419_652_tl_32" n="N035"/>Oberfläche dringen. Leicht und makellos wollen sie trotzdem
       <lb facs="#facs_1_line_1688471569758_91" n="N036"/>besiegt sein, ohne dem Zuhörer etwas von ihrer gefährlichen
-      <lb facs="#facs_1_line_1688471576191_94" n="N037"/>Natur zu verrathen. Das paßte so ganz zu <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ sich nie<space quantity="1"/></p>
+      <lb facs="#facs_1_line_1688471576191_94" n="N037"/>Natur zu verrathen. Das paßte so ganz zu <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ sich nie<space quantity="1" unit="char"/></p>
             <cb n="2"/>
             <p prev="true">
       <lb facs="#facs_1_region_1684526089004_655_tl_1" n="N001"/>verleugnendem weltabgewandten Wesen. Marie <rs type="person" ref="#hsl_person_id_1382">Soldat</rs> hat das
@@ -1201,7 +1203,7 @@
       <lb facs="#facs_1_region_1684526089004_655_tl_34" n="N036"/>wirkenden berühmten Clarinettisten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1573">Hermstädt</rs></hi> geschrieben.
       <lb facs="#facs_1_region_1684526089004_655_tl_35" n="N037"/>Fräulein Mathilde <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1613">v. Hochmeister</rs></hi> sang die drei gemüth
       <lb facs="#facs_1_region_1684526089004_655_tl_36" n="N038" break="no"/>vollen Lieder („<rs type="bibl" ref="#hsl_work_id_1010">Zwiegesang</rs>“, „<rs type="bibl" ref="#hsl_work_id_1010">Wiegenlied</rs>“ und „<rs type="bibl" ref="#hsl_work_id_1010">Wach auf</rs>“)
-      <lb facs="#facs_1_line_1688459826282_193" n="N039"/>mit weicher klangvoller Stimme und trefflicher Aussprache,<space quantity="1"/></p>
+      <lb facs="#facs_1_line_1688459826282_193" n="N039"/>mit weicher klangvoller Stimme und trefflicher Aussprache,<space quantity="1" unit="char"/></p>
             <cb n="3"/>
             <p prev="true">
       <lb facs="#facs_1_region_1684526110109_664_tl_1" n="N001"/>etwas zurückhaltend im Ausdruck. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1576">Mühlfeld</rs></hi>, der unver
@@ -1244,7 +1246,7 @@
       <lb facs="#facs_1_line_1688459749526_146" n="N036"/>und Tiefe, nur wenige sich ungezwungen dem Gesange
       <lb facs="#facs_1_line_1688459765529_156" n="N037"/>öffnen. Während ihr schlichter Volkston einen ermüdenden,
       <lb facs="#facs_1_region_1684526110109_664_tl_42" n="N038"/>einförmigen Rhythmus hervorruft, verleiten andererseits ihre
-      <lb facs="#facs_1_line_1688459844398_202" n="N039"/>meist schmerzvoll einsinkenden Schlußverse zu einer den<space quantity="1"/></p>
+      <lb facs="#facs_1_line_1688459844398_202" n="N039"/>meist schmerzvoll einsinkenden Schlußverse zu einer den<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
@@ -1269,7 +1271,7 @@
       <lb facs="#facs_2_region_1688475972751_582_tl_17" n="N019"/>Auch <hi rendition="#em">Marcella <rs type="person" ref="#hsl_person_id_1605">Pregi</rs></hi> hat in <rs type="place" ref="#hsl_place_id_55">Wien</rs> einige neue Lieder
       <lb facs="#facs_2_region_1688475972751_582_tl_18" n="N020"/><rs type="person" ref="#hsl_person_id_1403">Rückauf</rs>’s aus dem „<rs type="bibl" ref="#hsl_work_id_1099">Spanischen Liederbuch</rs>“ eingeführt, die
       <lb facs="#facs_2_region_1688475972751_582_tl_19" n="N021"/>jetzt (mit der effectvollsten Schlußnummer „<rs type="bibl" ref="#hsl_work_id_1098">Mögen alle bösen
-      <lb facs="#facs_2_region_1688475972751_582_tl_20" n="N022"/>Zungen</rs>“) als <rs type="bibl" ref="#hsl_work_id_1098">op. 24</rs> erschienen sind. So gut es <rs type="person" ref="#hsl_person_id_1403">Rückauf</rs><space quantity="1"/>
+      <lb facs="#facs_2_region_1688475972751_582_tl_20" n="N022"/>Zungen</rs>“) als <rs type="bibl" ref="#hsl_work_id_1098">op. 24</rs> erschienen sind. So gut es <rs type="person" ref="#hsl_person_id_1403">Rückauf</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1688475972751_582_tl_21" n="N023"/>trifft, auch „einmal <rs type="place" ref="#hsl_place_id_2">Spanisch</rs> zu kommen“, wir sehen ihn
       <lb facs="#facs_2_region_1688475972751_582_tl_22" n="N024"/>doch noch lieber Hand in Hand mit Klaus <rs type="person" ref="#hsl_person_id_1603">Groth</rs>, der für
       <lb facs="#facs_2_region_1688475972751_582_tl_23" n="N025"/>sein „<rs type="bibl" ref="#hsl_work_id_1100">Trauliches Heim</rs>“ und das ergreifende Gedicht „<rs type="bibl" ref="#hsl_work_id_1097">Ver
@@ -1282,7 +1284,7 @@
       <lb facs="#facs_2_region_1688475972751_582_tl_29" n="N031"/>Abende geschenkt. „Von <rs type="person" ref="#hsl_person_id_140">Joachim</rs> spricht man nicht mehr,“
       <lb facs="#facs_2_region_1688475972751_582_tl_30" n="N032"/>bemerkt der Berliner Correspondent der „<rs type="bibl" ref="#hsl_work_id_361">Allgemeinen Zeitung</rs>“,
       <lb facs="#facs_2_region_1688475972751_582_tl_31" n="N033"/>nachdem er von anderen Künstlern recht ausführlich ge
-      <lb facs="#facs_2_region_1688475972751_582_tl_32" n="N034" break="no"/>sprochen. In der That, über <rs type="person" ref="#hsl_person_id_140">Joachim</rs> und für <rs type="person" ref="#hsl_person_id_140">Joachim</rs><space quantity="1"/>
+      <lb facs="#facs_2_region_1688475972751_582_tl_32" n="N034" break="no"/>sprochen. In der That, über <rs type="person" ref="#hsl_person_id_140">Joachim</rs> und für <rs type="person" ref="#hsl_person_id_140">Joachim</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1688475972751_582_tl_33" n="N035"/>braucht sich kein Kritiker mehr anzustrengen. Aber wem die
       <lb facs="#facs_2_region_1688475972751_582_tl_34" n="N036"/>Musik am Herzen liegt, den freut es jedesmal, wenn er
       <lb facs="#facs_2_region_1688475972751_582_tl_35" n="N037"/>in einem guten Buch unversehens auf ein Capitel „Joseph
@@ -1296,12 +1298,12 @@
       <lb facs="#facs_2_region_1688475983501_585_tl_3" n="N003"/>Dr. Bernhard <rs type="person" ref="#hsl_person_id_1608">Scholz</rs>, der als junger Mann nach
       <lb facs="#facs_2_region_1688475983501_585_tl_4" n="N004"/><rs type="place" ref="#hsl_place_id_25">Hannover</rs> kam und dort als Dirigent, Componist und
       <lb facs="#facs_2_region_1688475983501_585_tl_5" n="N005"/>Musikschriftsteller eine rühmliche Thätigkeit entwickelt hat,
-      <lb facs="#facs_2_region_1688475983501_585_tl_6" n="N006"/>erzählt uns seine Erinnerungen aus den Jahren <date>1859</date><space quantity="1"/>
+      <lb facs="#facs_2_region_1688475983501_585_tl_6" n="N006"/>erzählt uns seine Erinnerungen aus den Jahren <date>1859</date><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1688475983501_585_tl_7" n="N007"/>bis <date>1866</date>. Sie beginnen mit Amalie <rs type="person" ref="#hsl_person_id_1075">Weiß</rs> (der
       <lb facs="#facs_2_region_1688475983501_585_tl_8" n="N008"/>späteren Frau <rs type="person" ref="#hsl_person_id_140">Joachim</rs>), die nach ihren <rs type="place" ref="#hsl_place_id_55">Wien</rs>er An
-      <lb facs="#facs_2_line_1688478807477_877" n="N009" break="no"/>fängen ihre eigentliche Künstlerlaufbahn in <rs type="place" ref="#hsl_place_id_25">Hannover</rs><space quantity="1"/>
+      <lb facs="#facs_2_line_1688478807477_877" n="N009" break="no"/>fängen ihre eigentliche Künstlerlaufbahn in <rs type="place" ref="#hsl_place_id_25">Hannover</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1688475983501_585_tl_10" n="N010"/>eröffnet und als Opernsängerin leider auch beschlossen
-      <lb facs="#facs_2_region_1688475983501_585_tl_11" n="N011"/>hat. Sie lernte dort den jungen Concertmeister <rs type="person" ref="#hsl_person_id_140">Joachim</rs><space quantity="1"/>
+      <lb facs="#facs_2_region_1688475983501_585_tl_11" n="N011"/>hat. Sie lernte dort den jungen Concertmeister <rs type="person" ref="#hsl_person_id_140">Joachim</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1688475983501_585_tl_12" n="N012"/>kennen, heiratete ihn und entsagte der Bühne. Sehr
       <lb facs="#facs_2_line_1688479880375_978" n="N013"/>hübsch schildert <rs type="person" ref="#hsl_person_id_1608">Scholz</rs> die Musikabende beim König, deren
       <lb facs="#facs_2_line_1688478991411_899" n="N014"/>Seele <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs></hi> war. König <rs type="person" ref="#hsl_person_id_1610">Georg</rs> konnte als geborener
@@ -1329,7 +1331,7 @@
       <lb facs="#facs_2_region_1688475983501_585_tl_35" n="N036"/>diese ebenso einsichtsvoll wie muthig urtheilenden <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-
       <lb facs="#facs_2_line_1688480199224_1016" n="N037"/>Aufsätze und ihren Epilog: „Wohin treiben wir?“ möchte
       <lb facs="#facs_2_line_1688480335108_1037" n="N038"/>ich bei einer anderen Gelegenheit zurückkommen. Heute gilt
-      <lb facs="#facs_2_line_1688480413124_1054" n="N039"/>es noch, dem Dr. Georg <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1723">Fischer</rs></hi> gerecht zu werden, dessen<space quantity="1"/></p>
+      <lb facs="#facs_2_line_1688480413124_1054" n="N039"/>es noch, dem Dr. Georg <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1723">Fischer</rs></hi> gerecht zu werden, dessen<space quantity="1" unit="char"/></p>
             <cb n="6"/>
             <p prev="true">
       <lb facs="#facs_2_line_1688480458441_1060" n="N001"/>mächtiger Band <rs type="place" ref="#hsl_place_id_25">hannover</rs>’scher Musikgeschichte wie ein Riese
@@ -1346,7 +1348,7 @@
       <lb facs="#facs_2_region_1688475992784_588_tl_11" n="N012"/>Auskunft erhielten. Diese streng sachliche Tendenz hat jedoch
       <lb facs="#facs_2_line_1688479880374_977" n="N013"/>den Verfasser nicht gehindert, über manche Vorgänge von
       <lb facs="#facs_2_region_1688475992784_588_tl_12" n="N014"/>allgemeinem Culturinteresse sich behaglicher zu verbreiten.
-      <lb facs="#facs_2_region_1688475992784_588_tl_13" n="N015"/>Es dürfte den meisten Lesern neu sein, daß König <rs type="person" ref="#hsl_person_id_1610">Georg V.</rs><space quantity="1"/>
+      <lb facs="#facs_2_region_1688475992784_588_tl_13" n="N015"/>Es dürfte den meisten Lesern neu sein, daß König <rs type="person" ref="#hsl_person_id_1610">Georg V.</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1688475992784_588_tl_14" n="N016"/>schon als Kronprinz an 200 Musikstücke componirt und
       <lb facs="#facs_2_region_1688475992784_588_tl_15" n="N017"/>Abhandlungen über Musik geschrieben hat. Aus seinem 20. Jahr
       <lb facs="#facs_2_region_1688475992784_588_tl_16" n="N018"/>stammt eine kleine Schrift: „<rs type="bibl" ref="#hsl_work_id_1103">Ideen und Betrachtungen über
@@ -1370,13 +1372,13 @@
       <lb facs="#facs_2_region_1688475992784_588_tl_36" n="N036"/>So geschah es, daß unter seiner Herrschaft die kleine Stadt
       <lb facs="#facs_2_line_1688480199224_1015" n="N037"/><rs type="place" ref="#hsl_place_id_25">Hannover</rs> als ein Haupt- und Vorort der Musik in <rs type="place" ref="#hsl_place_id_14">Deutsch
       <lb facs="#facs_2_line_1688480335108_1036" n="N038" break="no"/>land</rs> glänzte. Dazu hatte nebst <rs type="person" ref="#hsl_person_id_194">Niemann</rs><hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs></hi> am
-      <lb facs="#facs_2_line_1688718455110_157" n="N039"/>meisten beigetragen, der zweiundzwanzigjährige Concertmeister.<space quantity="1"/></p>
+      <lb facs="#facs_2_line_1688718455110_157" n="N039"/>meisten beigetragen, der zweiundzwanzigjährige Concertmeister.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p prev="true">
       <lb facs="#facs_3_region_1684526146242_682_tl_1" n="N001"/>„Mit <rs type="person" ref="#hsl_person_id_140">Joachim</rs> begann eine bis dahin unbekannte Blüthezeit
       <lb facs="#facs_3_region_1684526146242_682_tl_2" n="N002"/>der Concerte.“  Er stand in voller Thätigkeit, als für das
-      <lb facs="#facs_3_line_1688476341771_610" n="N003"/>Königreich <rs type="place" ref="#hsl_place_id_25">Hannover</rs> die letzte Stunde schlug. Dr. <rs type="person" ref="#hsl_person_id_1723">Fischer</rs><space quantity="1"/>
+      <lb facs="#facs_3_line_1688476341771_610" n="N003"/>Königreich <rs type="place" ref="#hsl_place_id_25">Hannover</rs> die letzte Stunde schlug. Dr. <rs type="person" ref="#hsl_person_id_1723">Fischer</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_3_region_1684526146242_682_tl_4" n="N004"/>erzählt noch von dem Hofconcerte am 14. Juni <date>1866</date>, in
       <lb facs="#facs_3_region_1684526146242_682_tl_5" n="N005"/>welchem Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> und <rs type="person" ref="#hsl_person_id_140">Joachim</rs> mitwirkten. Während
       <lb facs="#facs_3_region_1684526146242_682_tl_6" n="N006"/>des Musicirens traf eine Depesche aus <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs> mit der
@@ -1416,7 +1418,7 @@
       <lb facs="#facs_3_region_1684526146242_682_tl_33" n="N033"/>seinem Lieblingsschüler (<rs type="person" ref="#hsl_person_id_44">Bülow</rs>) hin und her fliegen, habe
       <lb facs="#facs_3_region_1684526146242_682_tl_34" n="N034"/>ich nichts gefunden, was mehr als die Dauer weniger
       <lb facs="#facs_3_region_1684526146242_682_tl_36" n="N035"/>Augenblicke beanspruchte.“ Die vorliegende Sammlung von
-      <lb facs="#facs_3_region_1684526146242_682_tl_38" n="N036"/>361 Briefen umfaßt die Zeit von <date>1847</date> bis Ende <date>1859</date>,<space quantity="1"/></p>
+      <lb facs="#facs_3_region_1684526146242_682_tl_38" n="N036"/>361 Briefen umfaßt die Zeit von <date>1847</date> bis Ende <date>1859</date>,<space quantity="1" unit="char"/></p>
             <cb n="8"/>
             <p prev="true">
       <lb facs="#facs_3_region_1684526150077_685_tl_1" n="N001"/>dürfte also, da <rs type="person" ref="#hsl_person_id_164">Liszt </rs>und die Fürstin noch ein Viertel
