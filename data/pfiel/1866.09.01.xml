@@ -107,6 +107,7 @@
          <change who="kbamer ampfiel" when="2023-08-27">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-09-01" who="ampfiel">Zeilen- und Absatzumbrüche, dates</change>
+         <change when="2023-09-07" who="ampfiel">space einfügen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -826,7 +827,7 @@
                <rs type="person">Liszt</rs> hat seit seiner Priesterweihe ziemlich viel Clavier-
       <lb facs="#facs_1_region_1684578351013_715_tl_4" n="N004"/>stücke publicirt: Transscriptionen aus <rs type="person">Mozart</rs>’s <hi rendition="#em">
                   <rs type="bibl">Requiem</rs>
-               </hi>
+      </hi><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684578351013_715_tl_5" n="N005"/>und aus <hi rendition="#em">
                   <rs type="person">Pergolese</rs>’s</hi> geistlichen Melodien, eine Hymne an
       <lb facs="#facs_1_region_1684578351013_715_tl_6" n="N006"/>den <rs type="person">Papst</rs>, endlich zwei „<rs type="bibl">Legenden</rs>“ für Clavier, die uns be
@@ -952,7 +953,7 @@
       <lb facs="#facs_2_region_1684578371300_727_tl_6" n="N006"/>Wundermann, seinen Gegnern ein geistreicher Charlatan.
       <lb facs="#facs_2_region_1684578371300_727_tl_7" n="N007"/>
                <hi rendition="#em">
-                  <rs type="person">Vogler</rs>’s</hi> Erfolge in <rs type="place">Wien</rs> in den Jahren <date when="1803">1803</date> und <date when="1804">1804</date>
+                     <rs type="person">Vogler</rs>’s</hi> Erfolge in <rs type="place">Wien</rs> in den Jahren <date when="1803">1803</date> und <date when="1804">1804</date><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684578371300_727_tl_8" n="N008"/>repräsentirten für jene Zeit ungefähr den <rs type="person">Liszt</rs>-Enthusiasmus
       <lb facs="#facs_2_region_1684578371300_727_tl_9" n="N009"/>unserer Tage. Da dirigirte er heute ein Oratorium im Wie
       <lb facs="#facs_2_region_1684578371300_727_tl_10" n="N010" break="no"/>dener Theater, gab morgen ein Orgelconcert und celebrirte

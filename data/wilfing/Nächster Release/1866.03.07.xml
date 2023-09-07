@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="1866">1866</date>
+                        <date when="1866-03-07">07.03.1866</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -109,7 +109,8 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
             <change who="dstoxreiter" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change when="2023-08-16" who="ampfiel">Zeilen- und Absatzumbrüche, refs ausfüllen (Lachners "Suite" noch unklar)</change>
+            <change when="2023-08-16" who="ampfiel">Zeilen- und Absatzumbrüche, refs ausfüllen</change>
+            <change when="2023-09-07" who="ampfiel">space einfügen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1010,7 +1011,7 @@
       <lb facs="#facs_1_region_1681901247195_1763_tl_13" n="N013"/>Original besteht aus etwa zwanzig kurzen, nach Suiten-Art
       <lb facs="#facs_1_region_1681901247195_1763_tl_14" n="N014"/>aneinandergereihten Stücken. Herr Capellmeister <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_56">Dessoff</rs>
-               </hi>
+      </hi><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1681901247195_1763_tl_15" n="N015"/>hat mit richtigem Tacte die besten und wirksamsten Stücke
       <lb facs="#facs_1_region_1681901247195_1763_tl_16" n="N016"/>(Ouverture, Adagio, Bourrée, Andante, Menuett, Allegro)
       <lb facs="#facs_1_region_1681901247195_1763_tl_17" n="N017"/>aus dieser obsoleten Masse herausgesucht. Bei Anhörung der
@@ -1060,12 +1061,12 @@
       <lb facs="#facs_1_region_1681901250029_1766_tl_11" n="N011" break="no"/>geisterung aufgenommen. Stimmprächtig und ausdrucksvoll
       <lb facs="#facs_1_line_1688124949846_176" n="N012"/>sang Herr Dr. <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_271">Schmid</rs>
-               </hi>
+      </hi><space quantity="1" unit="char"/>
             <rs type="person" ref="#hsl_person_id_424">Stradella</rs>’s bekannte Arie: „<rs type="bibl" ref="#hsl_work_id_1251">O del
                <lb facs="#facs_1_line_1688124956260_180" n="N013"/>mio dolce ardor</rs>“ — eine echt <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Schönheit.</p>
                <p>
       <lb facs="#facs_1_region_1681901250029_1766_tl_16" n="N014"/>Den Schluß bildete <hi rendition="#em">
-            <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s</hi>
+            <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s</hi><space quantity="1" unit="char"/>
                <rs type="bibl" ref="#hsl_work_id_800">B-dur-Symphonie</rs>,
       <lb facs="#facs_1_region_1681901250029_1766_tl_17" n="N015"/>die, bereits ein Lieblingsstück unseres Publicums, mit jeder
       <lb facs="#facs_1_region_1681901250029_1766_tl_18" n="N016"/>Wiederholung noch lebhafter und tiefer zu wirken scheint.
@@ -1087,7 +1088,7 @@
             <rs type="person" ref="#hsl_person_id_45">Catel</rs>’s</hi> Zeit- und Gesinnungsgenossen <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> und
       <lb facs="#facs_1_region_1681901250029_1766_tl_29" n="N028"/>
                      <rs type="person" ref="#hsl_person_id_294">Spontini</rs>. Der „<hi rendition="#em">Singverein</hi>“ trug <hi rendition="#em">
-                           <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s</hi>
+                           <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s</hi><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1681901250029_1766_tl_30" n="N029"/>43. Psalm („<rs type="bibl" ref="#hsl_work_id_1253">Richte mich, Gott</rs>“) und <hi rendition="#em">
                      <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s</hi> reizen
       <lb facs="#facs_1_region_1681901250029_1766_tl_31" n="N030" break="no"/>des Chorlied „<rs type="bibl" ref="#hsl_work_id_1254">Schön Rothtraut</rs>“ so ausgezeichnet vor, daß
@@ -1102,7 +1103,7 @@
                <hi rendition="#em">
                      <rs type="person" ref="#hsl_person_id_151">Lachner</rs>
                </hi> aus <rs type="place" ref="#hsl_place_id_39">München</rs>. Zum drittenmal und mit einer
-      <lb facs="#facs_1_region_1681901250029_1766_tl_38" n="N037"/>dritten „<rs type="bibl">Suite</rs>“ erschien der jugendlich frische Veteran in
+      <lb facs="#facs_1_region_1681901250029_1766_tl_38" n="N037"/>dritten „<rs ref="#hsl_work_id_1324" type="bibl">Suite</rs>“ erschien der jugendlich frische Veteran in
       <lb facs="#facs_1_region_1681901250029_1766_tl_39" n="N038"/>
                      <rs type="place" ref="#hsl_place_id_55">Wien</rs>, um sein der „Gesellschaft der Musikfreunde“ gewid
       <lb facs="#facs_1_region_1681901250029_1766_tl_40" n="N039" break="no"/>metes neuestes Werk selbst vorzuführen. Das Publicum be
@@ -1111,16 +1112,16 @@
                      <rs type="bibl" ref="#hsl_work_id_1256">Suite in
                <lb facs="#facs_1_region_1681901250029_1766_tl_43" n="N042"/>Es-dur</rs> (die vierte in der Reihe; eine 
                      <rs type="bibl" ref="#hsl_work_id_1955">dritte 
-                     in F-<choice><sic>dur</sic><corr>moll</corr></choice></rs> ist
+                     in F-<choice><sic>dur</sic></choice></rs> ist
       <lb facs="#facs_1_region_1681901250029_1766_tl_44" n="N043"/>hier noch unaufgeführt) theilt die glänzenden technischen und
                      <lb facs="#facs_1_region_1681901250029_1766_tl_45" n="N044"/>formellen Vorzüge ihrer in <rs type="place" ref="#hsl_place_id_55">Wien</rs> so beifällig aufgenommenen
       <lb facs="#facs_1_region_1681901250029_1766_tl_46" n="N045"/>Vorgängerinnen in 
                      <rs type="bibl" ref="#hsl_work_id_45">D-moll</rs> und 
-                     <rs type="bibl" ref="#hsl_work_id_26">E-<choice><sic>dur</sic><corr>moll</corr></choice></rs>. In der Kunst stren
+                     <rs type="bibl" ref="#hsl_work_id_26">E-<choice><sic>dur</sic></choice></rs>. In der Kunst stren
       <lb facs="#facs_1_line_1688124665789_137" n="N046" break="no"/>ger und doch wohlklingender Polyphonie, reicher Figuration
             <cb n="3"/>
                <lb facs="#facs_1_line_1688136493604_281" n="N001"/>und Contrapunktik, endlich in der Meisterschaft der Instru
-                     <lb facs="#facs_1_region_1681901252913_1769_tl_2" n="N002" break="no"/>mentirung steht die neue <rs type="person" ref="#hsl_person_id_151">Lachner</rs>’sche <rs type="bibl">Suite</rs> jenen beiden
+                     <lb facs="#facs_1_region_1681901252913_1769_tl_2" n="N002" break="no"/>mentirung steht die neue <rs type="person" ref="#hsl_person_id_151">Lachner</rs>’sche <rs ref="#hsl_work_id_1324" type="bibl">Suite</rs> jenen beiden
       <lb facs="#facs_1_region_1681901252913_1769_tl_3" n="N003"/>nicht nach. An Frische und Eigenart der Ideen bleibt sie
       <lb facs="#facs_1_region_1681901252913_1769_tl_4" n="N004"/>hingegen zurück. Die „Arbeit“ herrscht in manchen Partien
       <lb facs="#facs_1_region_1681901252913_1769_tl_5" n="N005"/>(besonders dem ersten und vierten Satz) allzu merklich vor
@@ -1163,7 +1164,7 @@
       <lb facs="#facs_1_region_1681901252913_1769_tl_39" n="N040"/>endlich in kräftigem und beschleunigtem Aufschwung zu schlie
       <lb facs="#facs_1_region_1681901252913_1769_tl_40" n="N041" break="no"/>ßen. Eine contrapunktische Meisterarbeit voll anziehender De
       <lb facs="#facs_1_region_1681901252913_1769_tl_41" n="N042" break="no"/>tails, wirkt diese „Gigue" schließlich doch etwas ermüdend.
-      <lb facs="#facs_1_region_1681901252913_1769_tl_42" n="N043"/>Der lärmende Beifall am Schluß der <rs type="bibl">Suite</rs> dürfte, so weit
+      <lb facs="#facs_1_region_1681901252913_1769_tl_42" n="N043"/>Der lärmende Beifall am Schluß der <rs ref="#hsl_work_id_1324" type="bibl">Suite</rs> dürfte, so weit
       <lb facs="#facs_1_region_1681901252913_1769_tl_43" n="N044"/>wir das Publicum beobachten konnten, noch mehr der ver
                      <lb facs="#facs_1_region_1681901252913_1769_tl_44" n="N045" break="no"/>ehrten Persönlichkeit des <rs type="person" ref="#hsl_person_id_151">Componisten</rs>, als dem Werke selbst
       <lb facs="#facs_1_line_1688124665789_136" n="N046"/>gegolten haben — daß die zwei ersten Suiten ungleich auf
@@ -1179,6 +1180,7 @@
       <lb facs="#facs_2_region_1681901267139_1776_tl_5" n="N005"/>Sätzen herabgegangen, nachdem früher beide Componisten ihre
       <lb facs="#facs_2_region_1681901267139_1776_tl_6" n="N006"/>Suiten fünf- und sechssätzig schrieben. Wie die Zahl der Sätze,
                      <lb facs="#facs_2_region_1681901267139_1776_tl_7" n="N007"/>so ist auch deren ursprünglicher Tanzcharakter bei <rs type="person" ref="#hsl_person_id_151">Lachner</rs>
+                     <space quantity="1" unit="char"/>
                      <lb facs="#facs_2_region_1681901267139_1776_tl_8" n="N008"/>und <rs type="person" ref="#hsl_person_id_74">Esser</rs> auf ein Minimum reducirt. Endlich erscheint auch
       <lb facs="#facs_2_region_1681901267139_1776_tl_9" n="N009"/>das dritte Gesetz der alten Suitenform, die Einheit der Ton
       <lb facs="#facs_2_region_1681901267139_1776_tl_10" n="N010" break="no"/>art in sämmtlichen Sätzen, definitiv beseitigt. Wir sehen hierin
@@ -1221,7 +1223,7 @@
       <lb facs="#facs_2_region_1681901267139_1776_tl_38" n="N039"/>und Tiefe des Ausdrucks noch gewonnen hat, scheint uns
                      <lb facs="#facs_2_region_1681901267139_1776_tl_39" n="N040"/>zweifellos. Man kann das kurze Andante aus <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s
       <lb facs="#facs_2_region_1681901267139_1776_tl_40" n="N041"/>
-               <rs type="bibl" ref="#hsl_work_id_1258">Es-dur-Sonate, op. 27</rs> (es ist unter Anderm auch als
+              <rs type="bibl" ref="#hsl_work_id_1258">Es-dur-Sonate, op. 27</rs> (es ist unter Anderm auch als
       <lb facs="#facs_2_line_1688138979236_447" n="N042"/>„Kyrie“ arrangirt), nicht inniger und stylvoller vortragen.
       <lb facs="#facs_2_line_1688139004071_454" n="N043"/>Der phantastische Flug der „<rs type="bibl" ref="#hsl_work_id_1259">Kreisleriana</rs>“, das leichte Ge
       <lb facs="#facs_2_line_1688139008290_458" n="N044" break="no"/>flatter des <hi rendition="#em">
@@ -1231,7 +1233,7 @@
       <lb facs="#facs_2_line_1688139015209_462" n="N045"/>Conversation „<rs type="bibl" ref="#hsl_work_id_957">zur Guitarre</rs>“, die klare Grazie des <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_21">Men
                <lb facs="#facs_2_line_1688139019607_466" n="N046" break="no"/>delssohn</rs></hi>’schen Capricio — Alles gab Frau 
-                     <rs type="person" ref="#hsl_person_id_281">Schumann</rs>
+                     <rs type="person" ref="#hsl_person_id_281">Schumann</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_2_line_1688139577382_491" n="N047"/>mit gleicher Wahrheit und Schönheit wieder. Daß es der ver
             <cb n="5"/>
                <lb facs="#facs_2_region_1681901270684_1779_tl_1" n="N001" break="no"/>ehrten Künstlerin, schon ihrem Geschlechte gemäß, mitunter
@@ -1313,7 +1315,7 @@
       <lb facs="#facs_2_region_1681901273476_1782_tl_15" n="N012"/>letzte Concertprogramm den „<rs type="bibl" ref="#hsl_work_id_1268">Nußbaum</rs>“ ankündigte, eines
       <lb facs="#facs_2_region_1681901273476_1782_tl_16" n="N013"/>der wunderbarsten Lieder 
                      <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s, das seit <hi rendition="#em">Jenny 
-                           <rs type="person" ref="#hsl_person_id_163">Lind</rs></hi>
+                           <rs type="person" ref="#hsl_person_id_163">Lind</rs></hi><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1681901273476_1782_tl_17" n="N014"/>Niemand hier gesungen hat. Leider war Herr <hi rendition="#em">
                      <rs type="person" ref="#hsl_person_id_320">Walter</rs>
                </hi> durch
@@ -1330,13 +1332,12 @@
                      <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="bibl" ref="#hsl_work_id_1270">G-dur-Quartett</rs>, op. 18 (etwas minder Abge
       <lb facs="#facs_2_region_1681901273476_1782_tl_27" n="N024" break="no"/>spieltes hätte man für diesen Anlaß wol spendiren können),
       <lb facs="#facs_2_region_1681901273476_1782_tl_28" n="N025"/>und schloß mit <hi rendition="#em">
-            <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>
-               </hi>’s „Moto perpetuo“, von zwölf
+            <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>’s</hi> „Moto perpetuo“, von zwölf
       <lb facs="#facs_2_region_1681901273476_1782_tl_29" n="N026"/>Schülern <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>’s</hi> in kräftigem, tadellosem
       <lb facs="#facs_2_region_1681901273476_1782_tl_30" n="N027"/>Unisono vorgetragen. Der kleinste Geiger mit der klein
       <lb facs="#facs_2_region_1681901273476_1782_tl_31" n="N028" break="no"/>sten Geige war <hi rendition="#em">
-            <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>’s</hi>
+            <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>’s</hi><space quantity="1" unit="char"/>
                      <rs type="person" ref="#hsl_person_id_1283">Söhnchen</rs>, dem
       <lb facs="#facs_2_region_1681901273476_1782_tl_32" n="N029"/>es hoffentlich beschieden ist, die Ehre seines Familien
       <lb facs="#facs_2_region_1681901273476_1782_tl_33" n="N030" break="no"/>namens auch in der dritten Generation zu repräsentiren. Fräu
