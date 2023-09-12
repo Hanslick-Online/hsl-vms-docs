@@ -108,6 +108,7 @@
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-09-01" who="ampfiel">Zeilen- und Absatzumbrüche, notes, dates</change>
          <change when="2023-09-07" who="ampfiel">space einfügen</change>
+         <change when="2023-09-12" who="ampfiel">rs refs ausfüllen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1222,14 +1223,14 @@
       <lb facs="#facs_1_region_1684578536614_784_tl_8" n="N008"/>wohlthätigen Zwecken gegebenen Concerte auffallen. In der
       <lb facs="#facs_1_region_1684578536614_784_tl_9" n="N009"/>That bilden seit dem Anfang dieses Jahrhunderts die <hi rendition="#em">Wohl
                <lb facs="#facs_1_region_1684578536614_784_tl_10" n="N010" break="no"/>thätigkeits-Akademien</hi> einen integrirenden Bestandtheil
-      <lb facs="#facs_1_region_1684578536614_784_tl_11" n="N011"/>des <rs type="place">Wien</rs>er Concertlebens. Sie haben nicht immer durch
+      <lb facs="#facs_1_region_1684578536614_784_tl_11" n="N011"/>des <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Concertlebens. Sie haben nicht immer durch
       <lb facs="#facs_1_region_1684578536614_784_tl_12" n="N012"/>ihren künstlerischen Werth, wol aber durch ihre eigenthüm
       <lb facs="#facs_1_region_1684578536614_784_tl_13" n="N013" break="no"/>liche Physiognomie, durch die Stabilität ihrer Widmungen,
       <lb facs="#facs_1_region_1684578536614_784_tl_14" n="N014"/>durch Besonderheiten des Ortes und der Zeit Anspruch auf
       <lb facs="#facs_1_region_1684578536614_784_tl_15" n="N015"/>einige Beachtung.</p>
                <p>
       <lb facs="#facs_1_region_1684578536614_784_tl_16" n="N016"/>Als eines der erfolgreichsten Mittel, die allgemeine
-      <lb facs="#facs_1_region_1684578536614_784_tl_17" n="N017"/>Mildthätigkeit in Anspruch zu nehmen, hat man in <rs type="place">Wien</rs>
+      <lb facs="#facs_1_region_1684578536614_784_tl_17" n="N017"/>Mildthätigkeit in Anspruch zu nehmen, hat man in <rs type="place" ref="#hsl_place_id_55">Wien</rs>
                <lb facs="#facs_1_region_1684578536614_784_tl_18" n="N018"/>seit jeher auch die Concerte verwendet. Wir erinnern, daß
       <lb facs="#facs_1_region_1684578536614_784_tl_19" n="N019"/>bei der Gründung der „Gesellschaft der Musikfreunde“ diese den
       <lb facs="#facs_1_region_1684578536614_784_tl_20" n="N020"/>humanitären Zweck ihrer Bestrebungen fast ebenso stark als den
@@ -1243,7 +1244,7 @@
       <lb facs="#facs_1_region_1684578536614_784_tl_27" n="N028"/>Vereins für den Witwen- und Waisenfonds der Musiker
       <lb facs="#facs_1_region_1684578536614_784_tl_28" n="N029"/>waren die ersten <hi rendition="#em">stehenden</hi> („festgesetzten“) Concerte in
       <lb facs="#facs_1_region_1684578536614_784_tl_29" n="N030"/>
-               <rs type="place">Wien</rs> und blieben es über das erste Decennium dieses Jahr
+               <rs type="place" ref="#hsl_place_id_55">Wien</rs> und blieben es über das erste Decennium dieses Jahr
       <lb facs="#facs_1_region_1684578536614_784_tl_30" n="N031" break="no"/>hunderts hinaus. Kaum hatte ein öffentliches Concertleben
       <lb facs="#facs_1_region_1684578536614_784_tl_31" n="N032"/>sich zu bilden besonnen, als einzelne, besonders begünstigte
       <lb facs="#facs_1_region_1684578536614_784_tl_32" n="N033"/>Wohlthätigkeits-Institute das Vorrecht errangen, alljähr
@@ -1260,7 +1261,7 @@
       <lb facs="#facs_1_region_1684578540970_787_tl_7" n="N007"/>oder verunglückter Mitglieder des untergeordneten Personals
       <lb facs="#facs_1_region_1684578540970_787_tl_8" n="N008"/>der beiden Hofbühnen. Die erste Akademie für diesen Fonds
       <lb facs="#facs_1_region_1684578540970_787_tl_9" n="N009"/>wurde am <date when="1796-12-25">25. December 1796</date>, und zwar im großen Redou
-      <lb facs="#facs_1_region_1684578540970_787_tl_10" n="N010" break="no"/>tensaale gegeben; auf Befehl des <rs type="person">Kaiser</rs>s hatte sie alljährlich
+      <lb facs="#facs_1_region_1684578540970_787_tl_10" n="N010" break="no"/>tensaale gegeben; auf Befehl des <rs type="person" ref="#hsl_person_id_1183">Kaiser</rs>s hatte sie alljährlich
       <lb facs="#facs_1_region_1684578540970_787_tl_11" n="N011"/>stattzufinden. Seit dem Jahre <date when="1800">1800</date> ungäfahr begegnen wir
       <lb facs="#facs_1_line_1692828356094_125" n="N012"/>dieser Akademie im Burgtheater zur Fostenzeit und ein
       <lb facs="#facs_1_region_1684578540970_787_tl_12" n="N013"/>halbes Jahrhundert später im <hi rendition="#em">Hofopern</hi>theater mit der
@@ -1268,38 +1269,38 @@
       <lb facs="#facs_1_region_1684578540970_787_tl_14" n="N015" break="no"/>stens in vermehrter Ausgabe von <hi rendition="#em">zwei</hi> bis <hi rendition="#em">drei</hi> Vor
       <lb facs="#facs_1_region_1684578540970_787_tl_15" n="N016" break="no"/>stellungen. Nach dem Vorgange der Hoftheater gab auch das
       <lb facs="#facs_1_region_1684578540970_787_tl_16" n="N017"/>
-               <hi rendition="#em">Theater an der Wien</hi> vom Jahre <date month="0" day="0" year="0">1805</date> an bis in die
+               <hi rendition="#em">Theater an der Wien</hi> vom Jahre <date when="1805">1805</date> an bis in die
       <lb facs="#facs_1_line_1692828940538_152" n="N018"/>
-               <date month="0" day="0" year="0">Zwanziger Jahre</date> eine oder zwei Akademien jährlich für seinen
+               <date from="1820" to="1829">Zwanziger Jahre</date> eine oder zwei Akademien jährlich für seinen
       <lb facs="#facs_1_region_1684578540970_787_tl_18" n="N019"/>eigenen „Theater-Armenfonds“. Sie hielten in den ersten
       <lb facs="#facs_1_region_1684578540970_787_tl_19" n="N020"/>Jahren eine entschieden classische Richtung fest, indem größ
       <lb facs="#facs_1_region_1684578540970_787_tl_20" n="N021" break="no"/>tentheils ein ganzes Oratorium das Programm bildete. (In
       <lb facs="#facs_1_region_1684578540970_787_tl_21" n="N022"/>den Jahren <date when="1805">1805</date> bis <date when="1809">1809</date>
                <hi rendition="#em">
-                  <rs type="person">Mozart</rs>’s</hi>, „<rs type="bibl">Davidde penitente</rs>“
-      <lb facs="#facs_1_region_1684578540970_787_tl_22" n="N023"/>und „<rs type="bibl">Requiem</rs>“, <hi rendition="#em">
-                  <rs type="person">Händel</rs>’s</hi> „<rs type="bibl">Messias</rs>“, „<rs type="bibl">Timotheus</rs>“ etc.) Auch
+                  <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi>, „<rs type="bibl" ref="#hsl_work_id_1042">Davidde penitente</rs>“
+      <lb facs="#facs_1_region_1684578540970_787_tl_22" n="N023"/>und „<rs type="bibl" ref="#hsl_work_id_427">Requiem</rs>“, <hi rendition="#em">
+            <rs type="person" ref="#hsl_person_id_108">Händel</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_463">Messias</rs>“, „<rs type="bibl" ref="#hsl_work_id_709">Timotheus</rs>“ etc.) Auch
       <lb facs="#facs_1_line_1688220999387_46" n="N024"/>die Aufführung ganzer <hi rendition="#em">Opern</hi> (in Concertform) war
       <lb facs="#facs_1_region_1684578540970_787_tl_24" n="N025"/>für Wohlthätigkeitszwecke an Normatagen erlaubt und zu
                      <lb facs="#facs_1_region_1684578540970_787_tl_25" n="N026"/>Anfang des Jahrhunderts beliebt. (<date when="1801">1801</date><space quantity="1" unit="char"/>
-               <rs type="person">Mozart</rs>’s „<rs type="bibl">Titus</rs>“,
+               <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s „<rs type="bibl" ref="#hsl_work_id_934">Titus</rs>“,
       <lb facs="#facs_1_region_1684578540970_787_tl_26" n="N027"/>
                <date when="1805">1805</date>
-               <rs type="person">Winter</rs>’s „<rs type="bibl">Tamerlan</rs>“ etc.)</p>
+               <rs type="person" ref="#hsl_person_id_2198">Winter</rs>’s „<rs type="bibl" ref="#hsl_work_id_1345">Tamerlan</rs>“ etc.)</p>
                <p>
       <lb facs="#facs_1_region_1684578540970_787_tl_27" n="N028"/>Für den „<hi rendition="#em">Bürgerspitalsfonds</hi>“ (Versorgungs-
-      <lb facs="#facs_1_region_1684578540970_787_tl_28" n="N029"/>haus zu <rs type="place">St. Marx</rs>) fand seit Beginn dieses Jahrhunderts
+      <lb facs="#facs_1_region_1684578540970_787_tl_28" n="N029"/>haus zu <rs type="place" ref="#hsl_place_id_153">St. Marx</rs>) fand seit Beginn dieses Jahrhunderts
       <lb facs="#facs_1_region_1684578540970_787_tl_29" n="N030"/>jährlich eine Akademie statt; die erste im Jahre <date when="1801">1801</date>, wobei
       <lb facs="#facs_1_region_1684578540970_787_tl_30" n="N031"/>Joseph <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> die „<rs type="bibl">Schöpfung</rs>“ dirigirte. Sie hing mit
+                  <rs type="person" ref="#hsl_person_id_114">Haydn</rs>
+               </hi> die „<rs type="bibl" ref="#hsl_work_id_243">Schöpfung</rs>“ dirigirte. Sie hing mit
       <lb facs="#facs_1_region_1684578540970_787_tl_31" n="N032"/>der Errichtung der neuen „Bürgerspitals-Wirthschafts-Com
       <lb facs="#facs_1_region_1684578540970_787_tl_32" n="N033" break="no"/>mission“ zusammen, die im Jahre <date when="1800">1800</date> (als starke Passiva
       <lb facs="#facs_1_region_1684578540970_787_tl_33" n="N034"/>den alten Bürgerspitalsfonds gefährdeten) sich über Aufruf
-      <lb facs="#facs_1_region_1684578540970_787_tl_34" n="N035"/>des Kaisers <rs type="person">Franz</rs> bildete und für freiwillige Beiträge Sorge
+      <lb facs="#facs_1_region_1684578540970_787_tl_34" n="N035"/>des Kaisers <rs type="person" ref="#hsl_person_id_1183">Franz</rs> bildete und für freiwillige Beiträge Sorge
       <lb facs="#facs_1_region_1684578540970_787_tl_35" n="N036"/>trug. Diese Akademie, anfangs im großen Redoutensaal, und
       <lb facs="#facs_1_region_1684578540970_787_tl_36" n="N037"/>zwar stets am 25. December abgehalten, verlor zu Anfang
-      <lb facs="#facs_1_line_1692825764449_91" n="N038"/>der <date month="0" day="0" year="0">Dreißiger Jahre</date> wahrscheinlich in Folge strengeren Kir
+      <lb facs="#facs_1_line_1692825764449_91" n="N038"/>der <date from="1830" to="1839">Dreißiger Jahre</date> wahrscheinlich in Folge strengeren Kir
             <cb n="3"/>
                <lb facs="#facs_1_region_1684578545235_790_tl_1" n="N001" break="no"/>chenregiments den lange innegehabten ersten Weihnachtsfeier-
       <lb facs="#facs_1_region_1684578545235_790_tl_2" n="N002"/>tag; nach verschiedenen Provisorien ist sie jetzt definitiv in das
@@ -1307,21 +1308,21 @@
       <lb facs="#facs_1_region_1684578545235_790_tl_4" n="N004"/>Mariä Verkündigung verlegt. Die Concerte für das Bürger-
       <lb facs="#facs_1_region_1684578545235_790_tl_5" n="N005"/>versorgungshaus standen in großem Ansehen und erfreuten sich
       <lb facs="#facs_1_region_1684578545235_790_tl_6" n="N006"/>in künstlerischer wie in pecuniärer Hinsicht vieler Berücksichti
-      <lb facs="#facs_1_region_1684578545235_790_tl_7" n="N007" break="no"/>gung. Der <rs type="place">Wien</rs>er Magistrat ertheilte mitunter auf Antrag
+      <lb facs="#facs_1_region_1684578545235_790_tl_7" n="N007" break="no"/>gung. Der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Magistrat ertheilte mitunter auf Antrag
       <lb facs="#facs_1_region_1684578545235_790_tl_8" n="N008"/>der unaussprechlichen „Bürgerspitals-Wirthschafts-Commis
       <lb facs="#facs_1_region_1684578545235_790_tl_9" n="N009" break="no"/>sion“ besondere Auszeichnungen an Künstler, deren Mitwir
       <lb facs="#facs_1_region_1684578545235_790_tl_10" n="N010" break="no"/>kung bei diesen Akademien sich vorzugsweise ersprießlich ge
       <lb facs="#facs_1_region_1684578545235_790_tl_11" n="N011" break="no"/>zeigt hatte; so erhielt der Hofopernsänger <hi rendition="#em">
-                  <rs type="person">Weinmüller</rs>
+                  <rs type="person" ref="#hsl_person_id_2199">Weinmüller</rs>
                </hi> das
       <lb facs="#facs_1_line_1692828356094_124" n="N012"/>Bürgerdiplom, die Sängerin Anna <hi rendition="#em">
-                  <rs type="person">Milder</rs>
+                  <rs type="person" ref="#hsl_person_id_185">Milder</rs>
                </hi> den goldenen
       <lb facs="#facs_1_region_1684578545235_790_tl_13" n="N013"/>Salvatorpfennig, Joseph <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
+            <rs type="person" ref="#hsl_person_id_114">Haydn</rs>
                </hi> (<date when="1803">1803</date>) die zwölffache gol
       <lb facs="#facs_1_region_1684578545235_790_tl_14" n="N014" break="no"/>dene Ehrenmedaille. Sein überaus bescheidenes Dankschrei
-      <lb facs="#facs_1_region_1684578545235_790_tl_15" n="N015" break="no"/>ben für diese „großmüthige Behandlung“ beginnt <rs type="person">Haydn</rs> mit
+      <lb facs="#facs_1_region_1684578545235_790_tl_15" n="N015" break="no"/>ben für diese „großmüthige Behandlung“ beginnt <rs type="person" ref="#hsl_person_id_114">Haydn</rs> mit
       <lb facs="#facs_1_region_1684578545235_790_tl_16" n="N016"/>der Versicherung, er schätze sich sehr glücklich, „zur Erquickung
       <lb facs="#facs_1_region_1684578545235_790_tl_17" n="N017"/>der verarmten Bürger und Bürgerinnen etwas durch seine
       <lb facs="#facs_1_line_1692828940538_151" n="N018"/>Kenntnisse in der Tonkunst beizutragen“.</p>
@@ -1338,7 +1339,7 @@
       <lb facs="#facs_1_region_1684578545235_790_tl_27" n="N028"/>Monopol auf den Leopoldstag ging auf die Akademie für das
       <lb facs="#facs_1_region_1684578545235_790_tl_28" n="N029"/>Spital der <hi rendition="#em">Barmherzigen Schwestern</hi> über; mit dem Tode
       <lb facs="#facs_1_region_1684578545235_790_tl_29" n="N030"/>des Unternehmers dieser Akademien, Dr. <hi rendition="#em">
-                  <rs type="person">Wache</rs>
+                  <rs type="person" ref="#hsl_person_id_2200">Wache</rs>
                </hi> (<date when="1862">1862</date>), hör
       <lb facs="#facs_1_region_1684578545235_790_tl_30" n="N031" break="no"/>ten letztere auf.</p>
                <p>
@@ -1354,14 +1355,14 @@
                <lb facs="#facs_2_region_1684578555528_796_tl_1" n="N001" break="no"/>tionen. „Die Gesellschaft der adeligen Frauen zur Beförde
       <lb facs="#facs_2_region_1684578555528_796_tl_2" n="N002" break="no"/>rung des Guten und Nützlichen“ (so lautete ihr voller Titel)
       <lb facs="#facs_2_region_1684578555528_796_tl_3" n="N003"/>wurde im Jahre <date when="1811">1811</date> nach einem von Joseph <hi rendition="#em">
-                  <rs type="person">Sonnleith
+                  <rs type="person" ref="#hsl_person_id_2104">Sonnleith
                <lb facs="#facs_2_region_1684578555528_796_tl_4" n="N004" break="no"/>ner</rs>
                </hi> gemachten Plan gegründet. Die Fürstinnen Caroline
       <lb facs="#facs_2_region_1684578555528_796_tl_5" n="N005"/>
                <hi rendition="#em">
-                  <rs type="person">Lobkowitz</rs>
+                  <rs type="person" ref="#hsl_person_id_2201">Lobkowitz</rs>
                </hi> und <hi rendition="#em">
-                  <rs type="person">Odescalchi</rs>
+                  <rs type="person" ref="#hsl_person_id_2202">Odescalchi</rs>
                </hi> stellten sich an die Spitze und
       <lb facs="#facs_2_region_1684578555528_796_tl_6" n="N006"/>hatten binnen wenigen Wochen 160 Damen vom hohen und
       <lb facs="#facs_2_region_1684578555528_796_tl_7" n="N007"/>höchsten Adel zusammengebracht. Anfangs rein aristokratischen
@@ -1379,7 +1380,7 @@
       <lb facs="#facs_2_region_1684578555528_796_tl_19" n="N019" break="no"/>breitung der <hi rendition="#em">Bienenzucht</hi>. Almosen an einzelne Per
       <lb facs="#facs_2_region_1684578555528_796_tl_20" n="N020" break="no"/>sonen waren gänzlich ausgeschlossen. Die Concerte dieses Ver
       <lb facs="#facs_2_region_1684578555528_796_tl_21" n="N021" break="no"/>eins, an dem ein eigenthümlicher poetischer Zug nicht zu
-      <lb facs="#facs_2_region_1684578555528_796_tl_22" n="N022"/>verkennen ist, verlieren wir um die Mitte der <date month="0" day="0" year="0" continued="true">Zwanziger-
+      <lb facs="#facs_2_region_1684578555528_796_tl_22" n="N022"/>verkennen ist, verlieren wir um die Mitte der <date when="1820" to="1829">Zwanziger-
                <lb facs="#facs_2_region_1684578555528_796_tl_23" n="N023"/>Jahre</date> aus den Augen, jedenfalls hörte um diese Zeit ihre
       <lb facs="#facs_2_region_1684578555528_796_tl_24" n="N024"/>
                <hi rendition="#em">regelmäßige</hi> Abhaltung auf. Ob das gleichzeitige Ver
@@ -1390,9 +1391,9 @@
       <lb facs="#facs_2_region_1684578555528_796_tl_29" n="N029" break="no"/>dung der „<hi rendition="#em">Gesellschaft der österreichischen Musik-
                <lb facs="#facs_2_region_1684578555528_796_tl_30" n="N030"/>freunde</hi>“ gaben, indem sie die großartige Aufführung des
       <lb facs="#facs_2_region_1684578555528_796_tl_31" n="N031"/>
-               <rs type="person">Händel</rs>’schen Oratoriums „<rs type="bibl">Timotheus</rs>“ durch Dilettanten (am
+                     <rs type="person" ref="#hsl_person_id_108">Händel</rs>’schen Oratoriums „<rs type="bibl" ref="#hsl_work_id_709">Timotheus</rs>“ durch Dilettanten (am
       <lb facs="#facs_2_region_1684578555528_796_tl_32" n="N032"/>
-               <date when="1812-11-29">29. November 1812</date> in der <rs type="person">Winter</rs>-Reitschule) veranlaßten.</p>
+               <date when="1812-11-29">29. November 1812</date> in der Winter-Reitschule) veranlaßten.</p>
                <p>
       <lb facs="#facs_2_region_1684578555528_796_tl_33" n="N033"/>Die gewöhnlichen Locale für die größeren Wohlthätig
       <lb facs="#facs_2_region_1684578555528_796_tl_34" n="N034" break="no"/>keits-Akademien waren die beiden Hoftheater und die Redou
@@ -1406,9 +1407,9 @@
       <lb facs="#facs_2_region_1684578559237_799_tl_2" n="N002"/>von Mitgliedern der <hi rendition="#em">juridischen</hi> Facultät“, meist von Di
       <lb facs="#facs_2_region_1684578559237_799_tl_3" n="N003" break="no"/>lettanten ausgeführt und in der Regel vom Hofsekretär I.
       <lb facs="#facs_2_region_1684578559237_799_tl_4" n="N004"/>
-               <rs type="person">Mosel</rs> dirigirt. Ihre Programme zeichneten sich vor jenen
+               <rs type="person" ref="#hsl_person_id_386">Mosel</rs> dirigirt. Ihre Programme zeichneten sich vor jenen
       <lb facs="#facs_2_region_1684578559237_799_tl_5" n="N005"/>anderer Wohlthätigkeits-Akademien durch ein ernsteres Prin
-      <lb facs="#facs_2_region_1684578559237_799_tl_6" n="N006" break="no"/>cip aus; insbesondere cultivirten sie <rs type="person">Beethoven</rs>, der einige
+      <lb facs="#facs_2_region_1684578559237_799_tl_6" n="N006" break="no"/>cip aus; insbesondere cultivirten sie <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, der einige
       <lb facs="#facs_2_region_1684578559237_799_tl_7" n="N007" break="no"/>male auch persönlich als Dirigent mitwirkte. Die letzte die
       <lb facs="#facs_2_region_1684578559237_799_tl_8" n="N008" break="no"/>ser „juridischen“ Akademien fand <date when="1840">1840</date> statt.</p>
                <p>
@@ -1447,7 +1448,7 @@
                <lb facs="#facs_2_line_1692830745926_339" n="N039" break="no"/>ler-Societät</hi>“ herbeiführte. Dieses Institut hatte seit
             <cb n="6"/>
                <lb facs="#facs_2_region_1684578563258_802_tl_1" n="N001"/>seiner Gründung (<date when="1772">1772</date>) bis zum Jahre <date when="1826">1826</date> jährlich vier
-                     <lb facs="#facs_2_region_1684578563258_802_tl_2" n="N002"/>Akademien gegeben, und zwar an den von <rs type="person">Maria Theresia</rs><space quantity="1" unit="char"/>
+                     <lb facs="#facs_2_region_1684578563258_802_tl_2" n="N002"/>Akademien gegeben, und zwar an den von <rs type="person" ref="#hsl_person_id_1184">Maria Theresia</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684578563258_802_tl_3" n="N003"/>ihm ausdrücklich zugesicherten theaterfreien Tagen des Palm-
       <lb facs="#facs_2_region_1684578563258_802_tl_4" n="N004"/>sonntag und -Montag, des 22. und 23. December.
       <lb facs="#facs_2_region_1684578563258_802_tl_5" n="N005"/>Da kam der Societät aus heiterem Himmel eine a. d.
@@ -1455,18 +1456,18 @@
                <lb facs="#facs_2_region_1684578563258_802_tl_7" n="N007" break="no"/>demien an Normatagen verbot</hi>, und dazu gehörten
       <lb facs="#facs_2_region_1684578563258_802_tl_8" n="N008"/>jene der Societät erb- und eigenthümlichen vier Concerttage.
       <lb facs="#facs_2_line_1693156761927_189" n="N009"/>Ad majorem Dei gloriam mußten gleich die beiden Weih
-                     <lb facs="#facs_2_region_1684578563258_802_tl_10" n="N010" break="no"/>nachts-Akademien von <date when="1826">1826</date> unterbleiben, und der <rs type="person">Kaiser</rs><space quantity="1" unit="char"/>
+                     <lb facs="#facs_2_region_1684578563258_802_tl_10" n="N010" break="no"/>nachts-Akademien von <date when="1826">1826</date> unterbleiben, und der <rs type="person" ref="#hsl_person_id_1183">Kaiser</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684578563258_802_tl_11" n="N011"/>zahlte als Entschädigung dafür 1480 fl.
       <lb facs="#facs_2_region_1684578563258_802_tl_12" n="N012"/>Nach mehreren Audienzen der Vorstände bei dem Kai
-      <lb facs="#facs_2_region_1684578563258_802_tl_13" n="N013" break="no"/>ser <rs type="person">Franz</rs> wurden der Societät die zwei Hofnormatage (Sterbe-
-      <lb facs="#facs_2_region_1684578563258_802_tl_14" n="N014"/>tag des Kaisers <rs type="person">Leopold</rs> und der Kaiserin <rs type="person">Ludovica</rs>) einge
+      <lb facs="#facs_2_region_1684578563258_802_tl_13" n="N013" break="no"/>ser <rs type="person" ref="#hsl_person_id_1183">Franz</rs> wurden der Societät die zwei Hofnormatage (Sterbe-
+      <lb facs="#facs_2_region_1684578563258_802_tl_14" n="N014"/>tag des Kaisers <rs type="person" ref="#hsl_person_id_961">Leopold</rs> und der Kaiserin <rs type="person" ref="#hsl_person_id_2203">Ludovica</rs>) einge
       <lb facs="#facs_2_region_1684578563258_802_tl_15" n="N015" break="no"/>räumt, so daß die PensionsGesellschaft durch <hi rendition="#em">volle zehn
                <lb facs="#facs_2_region_1684578563258_802_tl_16" n="N016"/>Jahre</hi> (<date when="1826">1826</date> bis <date when="1835">1835</date>) statt der ihr zugesicherten vier Aka
       <lb facs="#facs_2_region_1684578563258_802_tl_17" n="N017" break="no"/>demien nur zwei geben durfte, und diese an weit ungünsti
       <lb facs="#facs_2_region_1684578563258_802_tl_18" n="N018" break="no"/>geren Tagen. 
                      <note type="footnote" n="*)">
                            <lb facs="#facs_2_region_1684578563258_802_tl_32" n="N032"/>Manchmal, doch nicht immer, erhielt die „Tonkünstler-Societät“
-                           <lb facs="#facs_2_line_1692830824876_355" n="N033"/>vom <rs type="person">Kaiser</rs> eine Entschädigung für die ohne ihr Verschulden verlo
+                           <lb facs="#facs_2_line_1692830824876_355" n="N033"/>vom <rs type="person" ref="#hsl_person_id_1183">Kaiser</rs> eine Entschädigung für die ohne ihr Verschulden verlo
                            <lb facs="#facs_2_line_1692830828727_358" n="N034" break="no"/>renen Akademien. So erhielt sie im Jahre <date when="1827">1827</date> für den Palmsonn
                            <lb facs="#facs_2_line_1692830832946_361" n="N035" break="no"/>tag und -Montag 1480 fl., für die zwei Weihnachtstage jedoch nichts.
                            <lb facs="#facs_2_line_1692830837746_364" n="N036"/>Im Jahre <date when="1828">1828</date> wurde sie für die unterbliebenen Akademien mit
@@ -1477,18 +1478,18 @@
                      </note></p>
                <p>
       <lb facs="#facs_2_region_1684578563258_802_tl_19" n="N019"/>Gleich nach der Thronbesteigung des Kaisers <hi rendition="#em">
-                  <rs type="person">Ferdi
+                  <rs type="person" ref="#hsl_person_id_1171">Ferdi
                <lb facs="#facs_2_region_1684578563258_802_tl_20" n="N020" break="no"/>nand</rs>
                </hi> wendete sich die „Tonkünstler-Societät“ an diesen Mon
       <lb facs="#facs_2_region_1684578563258_802_tl_21" n="N021" break="no"/>archen mit einem Majestätsgesuch, worin sie betonte, es seien
-      <lb facs="#facs_2_region_1684578563258_802_tl_22" n="N022"/>ihr die vier Normatage „zu einer Zeit (unter <rs type="person">Maria The
+      <lb facs="#facs_2_region_1684578563258_802_tl_22" n="N022"/>ihr die vier Normatage „zu einer Zeit (unter <rs type="person" ref="#hsl_person_id_1184">Maria The
                <lb facs="#facs_2_region_1684578563258_802_tl_23" n="N023" break="no"/>resia</rs>) bewilligt worden, wo die Moralität und Religiosität ge
       <lb facs="#facs_2_region_1684578563258_802_tl_24" n="N024" break="no"/>wiß auf keiner niedrigeren Stufe standen als jetzt“. Die vier
-                     <lb facs="#facs_2_region_1684578563258_802_tl_25" n="N025"/>ursprünglichen Akademie-Tage wurden vom Kaiser <rs type="person">Ferdinand</rs><space quantity="1" unit="char"/>
+                     <lb facs="#facs_2_region_1684578563258_802_tl_25" n="N025"/>ursprünglichen Akademie-Tage wurden vom Kaiser <rs type="person" ref="#hsl_person_id_1171">Ferdinand</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684578563258_802_tl_26" n="N026"/>sofort dem Vereine zurückgegeben, und so lauschte denn am
       <lb facs="#facs_2_region_1684578563258_802_tl_27" n="N027"/>
                <date when="1835-12-22">22.</date> und <date when="1835-12-23">23. December 1835</date>, nach zehn Jahren wieder, das
-      <lb facs="#facs_2_region_1684578563258_802_tl_28" n="N028"/>Burgtheater den musikalischen Wundern der „<rs type="bibl">Schöpfung</rs>“.</p>
+      <lb facs="#facs_2_region_1684578563258_802_tl_28" n="N028"/>Burgtheater den musikalischen Wundern der „<rs type="bibl" ref="#hsl_work_id_243">Schöpfung</rs>“.</p>
                <p>
       <lb facs="#facs_2_region_1684578563258_802_tl_29" n="N029"/>Was die <hi rendition="#em">künstlerische</hi> Physiognomie der Wohlthätig
       <lb facs="#facs_2_region_1684578563258_802_tl_30" n="N030" break="no"/>keits-Concerte betrifft, so charakterisirte sie sich weniger durch
@@ -1501,7 +1502,7 @@
                <lb facs="#facs_3_region_1684578575487_808_tl_3" n="N003"/>ren</date> das übliche Maß eines solchen Programms. Es begann
       <lb facs="#facs_3_region_1684578575487_808_tl_4" n="N004"/>mit einer Orchester-Ouverture, darauf folgten in buntem Ge
       <lb facs="#facs_3_region_1684578575487_808_tl_5" n="N005" break="no"/>misch mehrere Declamations-Stücke, vier bis sechs Gesangs
-      <lb facs="#facs_3_region_1684578575487_808_tl_6" n="N006" break="no"/>nummern, meist <rs type="place">italienisch</rs>e Arien und Duette, ebenso viel
+      <lb facs="#facs_3_region_1684578575487_808_tl_6" n="N006" break="no"/>nummern, meist <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Arien und Duette, ebenso viel
       <lb facs="#facs_3_region_1684578575487_808_tl_7" n="N007"/>Solo-Concertstücke für Clavier, Geige, Cello, Flöte oder Horn;
       <lb facs="#facs_3_region_1684578575487_808_tl_8" n="N008"/>zum Schlusse endlich wieder eine Ouverture, seltener ein oder
       <lb facs="#facs_3_region_1684578575487_808_tl_9" n="N009"/>zwei Symphoniesätze oder ein Chor.</p>
@@ -1510,59 +1511,59 @@
       <lb facs="#facs_3_region_1684578575487_808_tl_10" n="N011"/>„Mimisch-plastische Darstellungen“ einen fast unentbehrlichen
       <lb facs="#facs_3_region_1684578575487_808_tl_11" n="N012"/>Bestandtheil solcher Akademien. Die „Gesellschaft adeliger
       <lb facs="#facs_3_region_1684578575487_808_tl_12" n="N013"/>Damen“ wählte hiezu (<date when="1811">1811</date>) zum erstenmal Tableaux nach
-      <lb facs="#facs_3_region_1684578575487_808_tl_13" n="N014"/>berühmten Gemälden: „<rs type="bibl">Die Königin von Saba</rs>“ nach <hi rendition="#em">
-                  <rs type="person">Ra
+      <lb facs="#facs_3_region_1684578575487_808_tl_13" n="N014"/>berühmten Gemälden: „<rs type="bibl" ref="#hsl_work_id_1346">Die Königin von Saba</rs>“ nach <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_816">Ra
                <lb facs="#facs_3_line_1692834683589_428" n="N015" break="no"/>fael</rs>
-               </hi>, „<rs type="bibl">Die Ohnmacht der Esther</rs>“ nach <hi rendition="#em">
-                  <rs type="person">Poussin</rs>
-               </hi>, „<rs type="bibl">Die Ver
+               </hi>, „<rs type="bibl" ref="#hsl_work_id_1347">Die Ohnmacht der Esther</rs>“ nach <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_381">Poussin</rs>
+               </hi>, „<rs type="bibl" ref="#hsl_work_id_1348">Die Ver
                <lb facs="#facs_3_region_1684578575487_808_tl_16" n="N016" break="no"/>haftung des Haman</rs>“ nach Vincenz <hi rendition="#em">
-                  <rs type="person">Troyes</rs>
+                  <rs type="person" ref="#hsl_person_id_2204">Troyes</rs>
                </hi> — „ein Schau
       <lb facs="#facs_3_region_1684578575487_808_tl_17" n="N017" break="no"/>spiel, das auf der hiesigen Bühne zum erstenmal gegeben und
       <lb facs="#facs_3_region_1684578575487_808_tl_18" n="N018"/>für den größten Theil der Zuseher ganz neu war“, wie der
       <lb facs="#facs_3_region_1684578575487_808_tl_19" n="N019"/>„<hi rendition="#em">
-                  <rs type="bibl">Sammler</rs></hi>“ berichtet.</p>
+                  <rs type="bibl" ref="#hsl_work_id_147">Sammler</rs></hi>“ berichtet.</p>
                <p>
       <lb facs="#facs_3_region_1684578575487_808_tl_20" n="N020"/>„Diese Bilder — wie sie <hi rendition="#em">
-                  <rs type="person">Goethe</rs>
-               </hi> in den „<rs type="bibl">Wahlver
+                  <rs type="person" ref="#hsl_person_id_100">Goethe</rs>
+            </hi> in den „<rs type="bibl" ref="#hsl_work_id_1352">Wahlver
                <lb facs="#facs_3_region_1684578575487_808_tl_21" n="N021" break="no"/>wandtschaften</rs>“ beschreibt — gewährten einen herrlichen Genuß,“
       <lb facs="#facs_3_region_1684578575487_808_tl_22" n="N022"/>schreibt Theodor <hi rendition="#em">
-                  <rs type="person">Körner</rs>
-               </hi> aus <rs type="place">Wien</rs>. Es wurde nun aller
+                  <rs type="person" ref="#hsl_person_id_2205">Körner</rs>
+               </hi> aus <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Es wurde nun aller
       <lb facs="#facs_3_region_1684578575487_808_tl_23" n="N023" break="no"/>dings bald ein wahrer Unfug mit derlei Tableaux getrieben,
       <lb facs="#facs_3_region_1684578575487_808_tl_24" n="N024"/>am meisten in den zahlreichen patriotischen Concerten während
       <lb facs="#facs_3_region_1684578575487_808_tl_25" n="N025"/>des Befreiungskrieges und der Congreßzeit. Der Mißbrauch
       <lb facs="#facs_3_region_1684578575487_808_tl_26" n="N026"/>kann indeß nicht die Sache selbst ganz verwerfen machen.
       <lb facs="#facs_3_region_1684578575487_808_tl_27" n="N027"/>Das „Mimisch-Plastische“ war ein Element, das, künstlerisch
-      <lb facs="#facs_3_region_1684578575487_808_tl_28" n="N028"/>behandelt, immerhin einen Reiz der früheren <rs type="place">Wien</rs>er Con
+      <lb facs="#facs_3_region_1684578575487_808_tl_28" n="N028"/>behandelt, immerhin einen Reiz der früheren <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Con
       <lb facs="#facs_3_region_1684578575487_808_tl_29" n="N029" break="no"/>certe bildete, der uns gänzlich abhanden gekommen ist. Der
       <lb facs="#facs_3_region_1684578575487_808_tl_30" n="N030" break="no"/>selben Richtung gehörten die mimischen Darstellungen an,
       <lb facs="#facs_3_region_1684578575487_808_tl_31" n="N031"/>welche Madame <hi rendition="#em">
-                  <rs type="person">Hendel-Schütz</rs>
+                  <rs type="person" ref="#hsl_person_id_2206">Hendel-Schütz</rs>
                </hi> und die große Sophie
       <lb facs="#facs_3_region_1684578575487_808_tl_32" n="N032"/>
                <hi rendition="#em">
-                  <rs type="person">Schröder</rs>
-               </hi> mit ungemeinem Erfolg in <rs type="place">Wien</rs> wiederholt gaben.
+                  <rs type="person" ref="#hsl_person_id_2207">Schröder</rs>
+               </hi> mit ungemeinem Erfolg in <rs type="place" ref="#hsl_place_id_55">Wien</rs> wiederholt gaben.
       <lb facs="#facs_3_region_1684578575487_808_tl_33" n="N033"/>Erstere schien dabei die schöne Form, Letztere den psychologi
       <lb facs="#facs_3_region_1684578575487_808_tl_34" n="N034" break="no"/>schen Ausdruck stärker zu betonen. Madame <hi rendition="#em">
-                  <rs type="person">Hendel</rs>
+                  <rs type="person" ref="#hsl_person_id_2206">Hendel</rs>
                </hi> gab
       <lb facs="#facs_3_region_1684578575487_808_tl_35" n="N035"/>ihre „Kunstdarstellungen“ <date when="1809">1809</date> im kleinen Redoutensaale.
       <lb facs="#facs_3_region_1684578575487_808_tl_36" n="N036"/>Mit einer weißen Tunica bekleidet und abwechselnd einen
       <lb facs="#facs_3_region_1684578575487_808_tl_37" n="N037"/>weißen und grünen Shawl zur Drapirung verwendend,
       <lb facs="#facs_3_region_1684578575487_808_tl_38" n="N038"/>stellte die schöne Frau plastische Meisterwerke aller Schulen
-      <lb facs="#facs_3_line_1692837047475_665" n="N039"/>und Zeiten dar. Der „<rs type="bibl">Sammler</rs>“ nannte es eine kurze Ge
+      <lb facs="#facs_3_line_1692837047475_665" n="N039"/>und Zeiten dar. Der „<rs type="bibl" ref="#hsl_work_id_147">Sammler</rs>“ nannte es eine kurze Ge
             <cb n="8"/>
                <lb facs="#facs_3_line_1692834471127_389" n="N001"/>schichte der bildenden Künste. Die <hi rendition="#em">
-                  <rs type="person">Schröder</rs>
+                  <rs type="person" ref="#hsl_person_id_2207">Schröder</rs>
                </hi> führte in einer
       <lb facs="#facs_3_region_1684578579507_811_tl_1" n="N002"/>von ihr veranstalteten „declamatorisch-dramatisch-mimisch-pla
       <lb facs="#facs_3_region_1684578579507_811_tl_2" n="N003" break="no"/>stischen Mittagsunterhaltung“ am <date when="1816-11-03">3. November 1816</date> im
-      <lb facs="#facs_3_region_1684578579507_811_tl_3" n="N004"/>Kärntnerthor-Theater die <rs type="person">Medea</rs>, <rs type="person">Agrippina</rs>, 
-                     <rs type="person">Niobe</rs> etc. in pla
+      <lb facs="#facs_3_region_1684578579507_811_tl_3" n="N004"/>Kärntnerthor-Theater die <rs type="person" ref="#hsl_person_id_2257">Medea</rs>, <rs type="person" ref="#hsl_person_id_2258">Agrippina</rs>, 
+                     <rs type="person" ref="#hsl_person_id_2259">Niobe</rs> etc. in pla
       <lb facs="#facs_3_region_1684578579507_811_tl_4" n="N005" break="no"/>stischen Tableaux vor; im selben Jahre und später brachte
       <lb facs="#facs_3_region_1684578579507_811_tl_5" n="N006"/>sie in einigen Wohlthätigkeits-Concerten ihre „mimisch-plasti
       <lb facs="#facs_3_region_1684578579507_811_tl_6" n="N007" break="no"/>sche Darstellung verschiedener <hi rendition="#em">Gemüthsbewegun
@@ -1570,8 +1571,8 @@
                      <date from="1840" to="1849">Vierziger-Jahre</date> finden
       <lb facs="#facs_3_region_1684578579507_811_tl_8" n="N009"/>wir in Wohlthätigkeits-Akademien „Tableaux“; seit zwanzig
       <lb facs="#facs_3_line_1692834802460_478" n="N010"/>Jahren haben sie gänzlich aufgehört, wenn wir nicht etwa
-      <lb facs="#facs_3_region_1684578579507_811_tl_10" n="N011"/>als letzten Rest davon die lebenden Bilder zu <rs type="person">Schiller</rs>’s
-      <lb facs="#facs_3_region_1684578579507_811_tl_11" n="N012"/>„<rs type="bibl">Glocke</rs>“ im Burgtheater ansehen wollen.</p>
+      <lb facs="#facs_3_region_1684578579507_811_tl_10" n="N011"/>als letzten Rest davon die lebenden Bilder zu <rs type="person" ref="#hsl_person_id_248">Schiller</rs>’s
+      <lb facs="#facs_3_region_1684578579507_811_tl_11" n="N012"/>„<rs type="bibl" ref="#hsl_work_id_1349">Glocke</rs>“ im Burgtheater ansehen wollen.</p>
                <p>
       <lb facs="#facs_3_region_1684578579507_811_tl_12" n="N013"/>
                <hi rendition="#em">Declamationsstücke</hi> waren früher ein unentbehrlicher
@@ -1579,32 +1580,33 @@
       <lb facs="#facs_3_region_1684578579507_811_tl_14" n="N015" break="no"/>demie. In dem Zeitraum von <date when="1808">1808</date> bis <date when="1816">1816</date> wurde in
       <lb facs="#facs_3_region_1684578579507_811_tl_15" n="N016"/>allen Akademien so viel declamirt, daß das Publicum dessen
       <lb facs="#facs_3_line_1692834889675_506" n="N017"/>müde war. „Gottlob, endlich einmal eine Akademie ohne
-      <lb facs="#facs_3_line_1692834893386_510" n="N018"/>Kunstredner!“ ruft die <rs type="bibl">Wiener Modezeitung</rs> nach dem Con
+      <lb facs="#facs_3_line_1692834893386_510" n="N018"/>Kunstredner!“ ruft die <rs type="bibl" ref="#hsl_work_id_1353">Wiener Modezeitung</rs> nach dem Con
       <lb facs="#facs_3_region_1684578579507_811_tl_20" n="N019" break="no"/>cert des Violinspielers <hi rendition="#em">
-                  <rs type="person">Pixis</rs>
+                  <rs type="person" ref="#hsl_person_id_2251">Pixis</rs>
                </hi> (<date when="1816">1816</date>) aus. Mit dem Er
       <lb facs="#facs_3_region_1684578579507_811_tl_21" n="N020" break="no"/>scheinen <hi rendition="#em">
-                  <rs type="person">Saphir</rs>’s</hi> stieg der Anwerth der Declamations-
+                  <rs type="person" ref="#hsl_person_id_2252">Saphir</rs>’s</hi> stieg der Anwerth der Declamations-
       <lb facs="#facs_3_region_1684578579507_811_tl_22" n="N021"/>Nummern wieder bedeutend, einerseits durch die Beliebtheit
-      <lb facs="#facs_3_region_1684578579507_811_tl_23" n="N022"/>der <rs type="person">Saphir</rs>’schen Prunk-Rhetorik und seine Fruchtbarkeit in
+      <lb facs="#facs_3_region_1684578579507_811_tl_23" n="N022"/>der <rs type="person" ref="#hsl_person_id_2252">Saphir</rs>’schen Prunk-Rhetorik und seine Fruchtbarkeit in
       <lb facs="#facs_3_region_1684578579507_811_tl_24" n="N023"/>Prologen, andererseits durch die trefflichen Künstler, welche
       <lb facs="#facs_3_region_1684578579507_811_tl_25" n="N024"/>(wie <hi rendition="#em">
-                  <rs type="person">Anschütz</rs>
+            <rs type="person" ref="#hsl_person_id_1286">Anschütz</rs>
                </hi>, <hi rendition="#em">
-                  <rs type="person">Löwe</rs>
+                     <rs type="person" ref="#hsl_person_id_1287">Löwe</rs>
                </hi>, Julie <hi rendition="#em">
-                  <rs type="person">Rettich</rs>
+                  <rs type="person" ref="#hsl_person_id_2253">Rettich</rs>
                </hi>, Louise <hi rendition="#em">
-                  <rs type="person">Neu
+                  <rs type="person" ref="#hsl_person_id_2254">Neu
                <lb facs="#facs_3_region_1684578579507_811_tl_26" n="N025" break="no"/>mann</rs>
                </hi>, Amalie <hi rendition="#em">
-                  <rs type="person">Haizinger</rs>
+                  <rs type="person" ref="#hsl_person_id_1951">Haizinger</rs>
                </hi>) damals die Kunst der Decla
       <lb facs="#facs_3_region_1684578579507_811_tl_27" n="N026" break="no"/>mation so meisterhaft übten und damit Hunderte von Wohl
       <lb facs="#facs_3_region_1684578579507_811_tl_28" n="N027" break="no"/>thätigkeits-Akademien unterstützten. Gegen Ausgang der 
-                     <date when="">Vier
+                     <date from="1840" to="1849">Vier
                <lb facs="#facs_3_region_1684578579507_811_tl_29" n="N028"/>ziger-Jahre</date> trat abermals eine Reaction ein, sei es aus Ueber
-      <lb facs="#facs_3_region_1684578579507_811_tl_30" n="N029" break="no"/>druß an den Poesien (den <rs type="person">Saphir</rs>’schen zumal), sei es aus
+      <lb facs="#facs_3_region_1684578579507_811_tl_30" n="N029" break="no"/>druß an den Poesien (den 
+                     <rs type="person" ref="#hsl_person_id_2252">Saphir</rs>’schen zumal), sei es aus
       <lb facs="#facs_3_region_1684578579507_811_tl_31" n="N030"/>Mitleid mit den wahrhaft ungebührlich geplagten Declama
       <lb facs="#facs_3_region_1684578579507_811_tl_32" n="N031" break="no"/>toren des Burgtheaters.</p>
                <p>
@@ -1613,14 +1615,14 @@
       <lb facs="#facs_3_region_1684578579507_811_tl_35" n="N034"/>Wohlthätigkeits-Akademien nur sehr mäßig vertreten. Decla
       <lb facs="#facs_3_region_1684578579507_811_tl_36" n="N035" break="no"/>matoren, welche als solche Akademien geben, wie ehemals
       <lb facs="#facs_3_region_1684578579507_811_tl_37" n="N036"/>Theodor v. <hi rendition="#em">
-                  <rs type="person">Sydow</rs>
+                  <rs type="person" ref="#hsl_person_id_2255">Sydow</rs>
                </hi>, sind seit dreißig bis vierzig Jahren
       <lb facs="#facs_3_region_1684578579507_811_tl_38" n="N037"/>nicht mehr gang und gäbe; der treffliche <hi rendition="#em">
-                  <rs type="person">Holtei</rs>
+                  <rs type="person" ref="#hsl_person_id_2256">Holtei</rs>
                </hi> war ein
       <lb facs="#facs_3_region_1684578579507_811_tl_39" n="N038"/>vereinzelter Nachzügler. Erst in neuester Zeit hat der Hofschau
       <lb facs="#facs_3_line_1692837047475_664" n="N039" break="no"/>spieler <hi rendition="#em">
-                  <rs type="person">Lewinsky</rs>
+                  <rs type="person" ref="#hsl_person_id_162">Lewinsky</rs>
                </hi>, unser Declamator par exellence, etwas
             <cb n="9"/>
                <lb facs="#facs_3_region_1684578586122_814_tl_1" n="N001"/>Aehnliches mit der „Vorlesung“ eingeführt, die er alljährlich
@@ -1630,32 +1632,32 @@
       <lb facs="#facs_3_region_1684578586122_814_tl_4" n="N004"/>So sehr auch die Wohlthätigkeits-Akademien jederzeit auf
       <lb facs="#facs_3_region_1684578586122_814_tl_5" n="N005"/>bunte Zusammenstellung bedacht waren, so brachten sie doch
       <lb facs="#facs_3_region_1684578586122_814_tl_6" n="N006"/>in den Jahren <date when="1800">1800</date> bis <date when="1825">1825</date> auch vieles Gediegene, ja sie
-      <lb facs="#facs_3_region_1684578586122_814_tl_7" n="N007"/>bildeten mitunter die Stätte, wo neue Werke <rs type="person">Beethoven</rs>’s
+      <lb facs="#facs_3_region_1684578586122_814_tl_7" n="N007"/>bildeten mitunter die Stätte, wo neue Werke <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s
       <lb facs="#facs_3_region_1684578586122_814_tl_8" n="N008"/>ihren ersten Einzug in die Welt hielten oder ihn zuerst wie
       <lb facs="#facs_3_region_1684578586122_814_tl_9" n="N009" break="no"/>derholten. 
                      <note type="footnote" n="*)">
-                           <lb facs="#facs_3_line_1692835209424_572" n="N032"/><rs type="person">Beethoven</rs>’s <rs type="bibl">Es-dur-Concert</rs> wurde zuerst (von <hi rendition="#em">
-                                 <rs type="person">Czerny</rs></hi>) in
+                           <lb facs="#facs_3_line_1692835209424_572" n="N032"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="bibl" ref="#hsl_work_id_879">Es-dur-Concert</rs> wurde zuerst (von <hi rendition="#em">
+                                 <rs type="person" ref="#hsl_person_id_1823">Czerny</rs></hi>) in
                            <lb facs="#facs_3_line_1692835220412_576" n="N033"/>einer Akademie der „Adeligen Frauen“ (<date when="1812">1812</date>) gespielt; in einer Aka
                            <lb facs="#facs_3_region_1684578586122_814_tl_36" n="N034" break="no"/>demie für die öffentlichen Wohlthätigkeits-Anstalten (<date when="1808-11-15">15. November
                            <lb facs="#facs_3_region_1684578586122_814_tl_37" n="N035"/>1808</date>) finden wir eine Symphonie, eine Ouverture und ein Clavier-
-                           <lb facs="#facs_3_line_1692835299602_582" n="N036"/>concert von <rs type="person">Beethoven</rs>, sämmtlich von ihm selbst dirigirt; für die
-                           <lb facs="#facs_3_line_1692835335069_586" n="N037"/>„Theater-Armen“ dirigirte <rs type="person">Beethoven</rs> (<date when="1814-05-26">26. Mai 1814</date>) seine „
-                              <rs type="bibl">Eg
-                           <lb facs="#facs_3_region_1684578586122_814_tl_42" n="N038" break="no"/>mont</rs>“-Ouverture und „<rs type="bibl">Schlacht bei Vittoria</rs>“, für das Bürgerspital
-                           <lb facs="#facs_3_region_1684578586122_814_tl_43" n="N039"/><date when="1818">1818</date> seine <rs type="bibl">achte Symphonie</rs> u. s. w.   
+                           <lb facs="#facs_3_line_1692835299602_582" n="N036"/>concert von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, sämmtlich von ihm selbst dirigirt; für die
+                           <lb facs="#facs_3_line_1692835335069_586" n="N037"/>„Theater-Armen“ dirigirte <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> (<date when="1814-05-26">26. Mai 1814</date>) seine „
+                              <rs type="bibl" ref="#hsl_work_id_21">Eg
+                           <lb facs="#facs_3_region_1684578586122_814_tl_42" n="N038" break="no"/>mont</rs>“-Ouverture und „<rs type="bibl" ref="#hsl_work_id_1354">Schlacht bei Vittoria</rs>“, für das Bürgerspital
+                           <lb facs="#facs_3_region_1684578586122_814_tl_43" n="N039"/><date when="1818">1818</date> seine <rs type="bibl" ref="#hsl_work_id_273">achte Symphonie</rs> u. s. w.   
                      </note>
                      Um die Einführung <hi rendition="#em">
-                  <rs type="person">Schubert</rs>’s</hi> in die Oef
+                  <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s</hi> in die Oef
       <lb facs="#facs_3_region_1684578586122_814_tl_10" n="N010" break="no"/>fentlichkeit hatten die „Adeligen Damen“ wesentliche Ver
       <lb facs="#facs_3_region_1684578586122_814_tl_11" n="N011" break="no"/>dienste; durch den Einfluß ihres ständigen Secretärs, J. 
-                     <rs type="person">Sonn
+                     <rs type="person" ref="#hsl_person_id_2104">Sonn
                <lb facs="#facs_3_region_1684578586122_814_tl_12" n="N012" break="no"/>leithner</rs>, kamen in der Akademie vom 
-                     <date when="1921-03-07">7. März 1821</date> der „<rs type="bibl">Erl
-               <lb facs="#facs_3_region_1684578586122_814_tl_13" n="N013" break="no"/>könig</rs>“ und später noch andere Compositionen <rs type="person">Schubert</rs>’s zu
+                     <date when="1921-03-07">7. März 1821</date> der „<rs type="bibl" ref="#hsl_work_id_1355">Erl
+               <lb facs="#facs_3_region_1684578586122_814_tl_13" n="N013" break="no"/>könig</rs>“ und später noch andere Compositionen <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s zu
       <lb facs="#facs_3_region_1684578586122_814_tl_14" n="N014"/>ersten Aufführung.</p>
                <p>
-      <lb facs="#facs_3_region_1684578586122_814_tl_15" n="N015"/>So lange es in <rs type="place">Wien</rs> noch keine oder erst aufkeimende
+      <lb facs="#facs_3_region_1684578586122_814_tl_15" n="N015"/>So lange es in <rs type="place" ref="#hsl_place_id_55">Wien</rs> noch keine oder erst aufkeimende
       <lb facs="#facs_3_region_1684578586122_814_tl_16" n="N016"/>stabile <hi rendition="#em">Orchester-Concerte</hi> gab (Gesellschafts- und
       <lb facs="#facs_3_region_1684578586122_814_tl_17" n="N017"/>Spirituel-Concerte, philharmonische) hatten die Wohlthätig
       <lb facs="#facs_3_region_1684578586122_814_tl_18" n="N018" break="no"/>keits-Akademien eine weit größere musikalische Bedeutung.
@@ -1670,8 +1672,9 @@
       <lb facs="#facs_3_region_1684578586122_814_tl_27" n="N027"/>Concerte auf das äußerlich Lockende, Leichte und Bunte;
       <lb facs="#facs_3_region_1684578586122_814_tl_28" n="N028"/>glänzende Oberflächlichkeit wurde ihnen nunmehr Princip und
       <lb facs="#facs_3_region_1684578586122_814_tl_29" n="N029"/>Specialität. In diesem Genre erlebten sie ihre Glanzperiode
-      <lb facs="#facs_3_region_1684578586122_814_tl_30" n="N030"/>in den <date month="0" day="0" year="0">Dreißiger Jahren</date>, unter der vereinten Pathenschaft der
-      <lb facs="#facs_3_region_1684578586122_814_tl_31" n="N031"/>Virtuosen, der <rs type="place">italienisch</rs>en Sänger und der <rs type="person">Saphir</rs>’schen Poesie.</p>
+      <lb facs="#facs_3_region_1684578586122_814_tl_30" n="N030"/>in den <date from="1830" to="1839">Dreißiger Jahren</date>, unter der vereinten Pathenschaft der
+      <lb facs="#facs_3_region_1684578586122_814_tl_31" n="N031"/>Virtuosen, der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Sänger und der 
+                     <rs type="person" ref="#hsl_person_id_2252">Saphir</rs>’schen Poesie.</p>
           </div>
       </body>
    </text>
