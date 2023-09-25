@@ -106,6 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2023-09-14">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-09-16">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-09-25">Formatierung und Referenzen eingefügt.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -998,160 +999,164 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <lb facs="#facs_1_region_1684567282385_1486_tl_1" n="N001"/>Zur <rs type="person">Donizetti</rs>-Feier in <rs type="place">Bergamo</rs>. I.
+            <lb facs="#facs_1_region_1684567282385_1486_tl_1" n="N001"/><head type="h1">Zur <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>-Feier in <rs type="place" ref="#hsl_place_id_282">Bergamo</rs>. I.</head>
             <p>
-      <lb facs="#facs_1_region_1684567282385_1486_tl_2" n="N002"/>Ed. H. Das entzückende Landschaftsbild <rs type="place">Bergamo</rs>s ver¬
-      <lb facs="#facs_1_line_1693292322983_613" n="N003"/>gißt nicht so leicht Jemand, der, sei es auch nur auf der
-      <lb facs="#facs_1_region_1684567282385_1486_tl_3" n="N004"/>Durchreise, hingeschaut hat. J. V. <rs type="person">Widmann</rs>, aller <rs type="place">italienisch</rs>en
+      <lb facs="#facs_1_region_1684567282385_1486_tl_2" n="N002"/>Ed. H. Das entzückende Landschaftsbild <rs type="place" ref="#hsl_place_id_282">Bergamo</rs>s ver
+      <lb facs="#facs_1_line_1693292322983_613" n="N003" break="no"/>gißt nicht so leicht Jemand, der, sei es auch nur auf der
+      <lb facs="#facs_1_region_1684567282385_1486_tl_3" n="N004"/>Durchreise, hingeschaut hat. J. V. <rs type="person" ref="#hsl_person_id_1088">Widmann</rs>, aller <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en
       <lb facs="#facs_1_region_1684567282385_1486_tl_4" n="N005"/>Städte und Städtchen bester Kenner und Schätzer, ruft
-      <lb facs="#facs_1_region_1684567282385_1486_tl_5" n="N006"/>beim Anblick von <rs type="place">Bergamo</rs> aus: da möchte er den Rest
-      <lb facs="#facs_1_line_1693292292478_593" n="N007"/>seines Lebens zubringen! Dabei erzählt er uns (in „<rs type="bibl">Jen¬</rs>
-      <lb facs="#facs_1_line_1693292286671_586" n="N008"/><rs type="bibl">seits des Gotthard</rs>“), wie ein <rs type="place">französisch</rs>er General durch
-      <lb facs="#facs_1_region_1684567282385_1486_tl_9" n="N009"/>einen Act der Barbarei zugleich ein Zeugniß für die reiz¬
-      <lb facs="#facs_1_region_1684567282385_1486_tl_10" n="N010"/>volle Lage der Stadt abgelegt hat. Auf einem wunderschönen
-      <lb facs="#facs_1_region_1684567282385_1486_tl_11" n="N011"/>Gemälde von Lorenzo <rs type="person">Lotto</rs>, das jetzt noch eine Hauptzierde
-      <lb facs="#facs_1_region_1684567282385_1486_tl_12" n="N012"/>der Bildergalerie <rs type="place">Bergamo</rs>s bildet, ist die <rs type="person">Madonna</rs> mit
+      <lb facs="#facs_1_region_1684567282385_1486_tl_5" n="N006"/>beim Anblick von <rs type="place" ref="#hsl_place_id_282">Bergamo</rs> aus: da möchte er den Rest
+      <lb facs="#facs_1_line_1693292292478_593" n="N007"/>seines Lebens zubringen! Dabei erzählt er uns (in „<rs type="bibl" ref="#hsl_work_id_1489">Jen
+      <lb facs="#facs_1_line_1693292286671_586" n="N008" break="no"/>seits des Gotthard</rs>“), wie ein <rs type="place" ref="#hsl_place_id_21">französisch</rs>er General durch
+      <lb facs="#facs_1_region_1684567282385_1486_tl_9" n="N009"/>einen Act der Barbarei zugleich ein Zeugniß für die reiz
+      <lb facs="#facs_1_region_1684567282385_1486_tl_10" n="N010" break="no"/>volle Lage der Stadt abgelegt hat. Auf einem wunderschönen
+      <lb facs="#facs_1_region_1684567282385_1486_tl_11" n="N011"/>Gemälde von Lorenzo <rs type="person" ref="#hsl_person_id_2527">Lotto</rs>, das jetzt noch eine Hauptzierde
+      <lb facs="#facs_1_region_1684567282385_1486_tl_12" n="N012"/>der Bildergalerie <rs type="place" ref="#hsl_place_id_282">Bergamo</rs>s bildet, ist die Madonna mit
       <lb facs="#facs_1_region_1684567282385_1486_tl_13" n="N013"/>den Heiligen dargestellt; im Hintergrunde war die Stadt
-      <lb facs="#facs_1_region_1684567282385_1486_tl_14" n="N014"/><rs type="place">Bergamo</rs> hingemalt. Der General, welcher daheim den
+      <lb facs="#facs_1_region_1684567282385_1486_tl_14" n="N014"/><rs type="place" ref="#hsl_place_id_282">Bergamo</rs> hingemalt. Der General, welcher daheim den
       <lb facs="#facs_1_line_1693292307855_602" n="N015"/>Seinigen gern zeigen mochte, wie märchenhaft schön die
       <lb facs="#facs_1_line_1693292312950_607" n="N016"/>Stadt daliegt — Photographien gab es noch nicht zur Zeit
-      <lb facs="#facs_1_region_1684567282385_1486_tl_19" n="N017"/>der <rs type="person">napoleonisch</rs>en Kriege — schnitt kurzweg den ganzen
+      <lb facs="#facs_1_region_1684567282385_1486_tl_19" n="N017"/>der <rs type="person" ref="#hsl_person_id_39">napoleonisch</rs>en Kriege — schnitt kurzweg den ganzen
       <lb facs="#facs_1_region_1684567282385_1486_tl_20" n="N018"/>landschaftlichen Hintergrund aus dem Gemälde heraus und
       <lb facs="#facs_1_region_1684567282385_1486_tl_21" n="N019"/>nahm ihn mit. Man hat dann ein neues Stück Leinwand
       <lb facs="#facs_1_region_1684567282385_1486_tl_22" n="N020"/>eingesetzt und es einfach mit dunklen Farben überstrichen. Jetzt
       <lb facs="#facs_1_region_1684567282385_1486_tl_23" n="N021"/>werden die zahlreichen Fremden sich leichter und anständiger
       <lb facs="#facs_1_region_1684567282385_1486_tl_24" n="N022"/>ein Bildniß der Stadt verschaffen können, in welcher vor
-      <lb facs="#facs_1_region_1684567282385_1486_tl_25" n="N023"/>hundert Jahren, am 29. November <date month="0" day="0" year="0">1797</date>, Gaëtano <rs type="person" continued="true">Doni¬</rs>
-      <lb facs="#facs_1_region_1684567282385_1486_tl_26" n="N024"/><rs type="person" continued="true">zetti</rs> geboren wurde. Sein <rs type="person">Vater</rs> wollte ihn zum Advocaten
+      <lb facs="#facs_1_region_1684567282385_1486_tl_25" n="N023"/>hundert Jahren, am 29. November <date>1797</date>, Gaëtano <rs type="person" ref="#hsl_person_id_63">Doni
+      <lb facs="#facs_1_region_1684567282385_1486_tl_26" n="N024" break="no"/>zetti</rs> geboren wurde. Sein <rs type="person" ref="#hsl_person_id_2528">Vater</rs> wollte ihn zum Advocaten
       <lb facs="#facs_1_region_1684567282385_1486_tl_27" n="N025"/>bestimmen, der Sohn hatte Lust zum Architekten — und so
       <lb facs="#facs_1_region_1684567282385_1486_tl_28" n="N026"/>wurde er denn keines von beiden, sondern Componist.
-      <lb facs="#facs_1_region_1684567282385_1486_tl_29" n="N027"/>Musiker und Musikfreunde gedenken in <rs type="place">Bergamo</rs> nicht
-      <lb facs="#facs_1_region_1684567282385_1486_tl_30" n="N028"/>blos <rs type="person">Donizetti</rs>’s, sondern auch seines Meisters <hi rendition="#em">Simon</hi>
-      <lb facs="#facs_1_region_1684567282385_1486_tl_31" n="N029"/><hi rendition="#em"><rs type="person">Mayr</rs></hi>. Dieser einst gefeierte Componist zahlloser <rs type="place">italienisch</rs>er
+            </p><p>
+      <lb facs="#facs_1_region_1684567282385_1486_tl_29" n="N027"/>Musiker und Musikfreunde gedenken in <rs type="place" ref="#hsl_place_id_282">Bergamo</rs> nicht
+      <lb facs="#facs_1_region_1684567282385_1486_tl_30" n="N028"/>blos <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s, sondern auch seines Meisters <hi rendition="#em">Simon
+      <lb facs="#facs_1_region_1684567282385_1486_tl_31" n="N029"/><rs type="person" ref="#hsl_person_id_2529">Mayr</rs></hi>. Dieser einst gefeierte Componist zahlloser <rs type="place" ref="#hsl_place_id_28">italienisch</rs>er
       <lb facs="#facs_1_region_1684567282385_1486_tl_32" n="N030"/>Opern war ein guter Deutscher, ein Organistensohn aus
-      <lb facs="#facs_1_region_1684567282385_1486_tl_33" n="N031"/><rs type="place">Ingolstadt</rs> in <rs type="place">Bayern</rs>. Mit 23 Jahren finden wir ihn in
-      <lb facs="#facs_1_region_1684567282385_1486_tl_34" n="N032"/><rs type="place">Venedig</rs> als Schüler <rs type="person">Bertoni</rs>’s; 18 Jahre später als Capell¬
-      <lb facs="#facs_1_line_1693292339950_624" n="N033"/>meister der Basilica di Santa Maria Maggiore in <rs type="place">Ber¬</rs>
-      <lb facs="#facs_1_region_1684567282385_1486_tl_35" n="N034"/><rs type="place">gamo</rs>, wo er als Stifter der Unione Filarmonica, Director
+      <lb facs="#facs_1_region_1684567282385_1486_tl_33" n="N031"/><rs type="place" ref="#hsl_place_id_283">Ingolstadt</rs> in <rs type="place" ref="#hsl_place_id_7">Bayern</rs>. Mit 23 Jahren finden wir ihn in
+      <lb facs="#facs_1_region_1684567282385_1486_tl_34" n="N032"/><rs type="place" ref="#hsl_place_id_89">Venedig</rs> als Schüler <rs type="person" ref="#hsl_person_id_30">Bertoni</rs>’s; 18 Jahre später als Capell
+      <lb facs="#facs_1_line_1693292339950_624" n="N033" break="no"/>meister der Basilica di Santa Maria Maggiore in <rs type="place" ref="#hsl_place_id_282">Ber
+      <lb facs="#facs_1_region_1684567282385_1486_tl_35" n="N034" break="no"/>gamo</rs>, wo er als Stifter der Unione Filarmonica, Director
       <lb facs="#facs_1_region_1684567282385_1486_tl_36" n="N035"/>der Musikschule und unermüdlicher Componist bis an sein
       <lb facs="#facs_1_region_1684567282385_1486_tl_37" n="N036"/>Lebensende thätig war. Er starb daselbst fast erblindet,
-      <lb facs="#facs_1_line_1693292392398_675" n="N037"/>82 Jahre alt, im December <date month="0" day="0" year="0">1845</date>. Die dankbare Stadt</p>
+      <lb facs="#facs_1_line_1693292392398_675" n="N037"/>82 Jahre alt, im December <date>1845</date>. Die dankbare Stadt<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-      <lb facs="#facs_1_region_1684567285754_1489_tl_1" n="N001"/><rs type="place">Bergamo</rs> hat ihm ein schönes Denkmal gesetzt. <rs type="place">Italienisch</rs>e
+            <p prev="true">
+      <lb facs="#facs_1_region_1684567285754_1489_tl_1" n="N001"/><rs type="place" ref="#hsl_place_id_282">Bergamo</rs> hat ihm ein schönes Denkmal gesetzt. <rs type="place" ref="#hsl_place_id_28">Italienisch</rs>e
       <lb facs="#facs_1_region_1684567285754_1489_tl_2" n="N002"/>Opern zu schreiben war noch zu Anfang dieses Jahrhunderts
-      <lb facs="#facs_1_line_1693292349118_634" n="N003"/>ein besonders geschätzter und einträglicher Beruf <rs type="place">deutsch</rs>er
-      <lb facs="#facs_1_region_1684567285754_1489_tl_3" n="N004"/>Musiker. Man braucht nicht an <rs type="person">Händel</rs> und <rs type="person">Gluck</rs> zurück¬
-      <lb facs="#facs_1_region_1684567285754_1489_tl_4" n="N005"/>zudenken — nur an unsere älteren Zeitgenossen <rs type="person">Weigl</rs>,
-      <lb facs="#facs_1_region_1684567285754_1489_tl_5" n="N006"/><rs type="person">Winter</rs>, <rs type="person">Gyrowetz</rs>, Otto <rs type="person">Nicolai</rs>. Simon <rs type="person">Mayr</rs>, dessen
-      <lb facs="#facs_1_line_1693292324543_616" n="N007"/><rs type="place">italienisch</rs>e Opern — 46 große und 17 kleinere — längst
-      <lb facs="#facs_1_region_1684567285754_1489_tl_7" n="N008"/>vergessen sind, ja mit dem Auftreten <rs type="person">Rossini</rs>’s so gut wie
+      <lb facs="#facs_1_line_1693292349118_634" n="N003"/>ein besonders geschätzter und einträglicher Beruf <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er
+      <lb facs="#facs_1_region_1684567285754_1489_tl_3" n="N004"/>Musiker. Man braucht nicht an <rs type="person" ref="#hsl_person_id_108">Händel</rs> und <rs type="person" ref="#hsl_person_id_99">Gluck</rs> zurück
+      <lb facs="#facs_1_region_1684567285754_1489_tl_4" n="N005" break="no"/>zudenken — nur an unsere älteren Zeitgenossen <rs type="person" ref="#hsl_person_id_341">Weigl</rs>,
+      <lb facs="#facs_1_region_1684567285754_1489_tl_5" n="N006"/><rs type="person" ref="#hsl_person_id_2198">Winter</rs>, <rs type="person" ref="#hsl_person_id_942">Gyrowetz</rs>, Otto <rs type="person" ref="#hsl_person_id_193">Nicolai</rs>. Simon <rs type="person" ref="#hsl_person_id_2529">Mayr</rs>, dessen
+      <lb facs="#facs_1_line_1693292324543_616" n="N007"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Opern — 46 große und 17 kleinere — längst
+      <lb facs="#facs_1_region_1684567285754_1489_tl_7" n="N008"/>vergessen sind, ja mit dem Auftreten <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s so gut wie
       <lb facs="#facs_1_region_1684567285754_1489_tl_8" n="N009"/>abgethan waren, galt den Italienern als ein hochbegabter,
       <lb facs="#facs_1_region_1684567285754_1489_tl_9" n="N010"/>gediegener Meister. Auch unsere Nachschlagebücher, die gern
       <lb facs="#facs_1_line_1693292299006_596" n="N011"/>aus jedem Verstorbenen einen Unsterblichen machen, sprechen
-      <lb facs="#facs_1_region_1684567285754_1489_tl_11" n="N012"/>von S. <rs type="person">Mayr</rs> wie von einem Classiker. <hi rendition="#em"><rs type="person">Stendhal</rs></hi>, der
+      <lb facs="#facs_1_region_1684567285754_1489_tl_11" n="N012"/>von S. <rs type="person" ref="#hsl_person_id_2529">Mayr</rs> wie von einem Classiker. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_931">Stendhal</rs></hi>, der
       <lb facs="#facs_1_region_1684567285754_1489_tl_12" n="N013"/>lobpreisend oder schimpfend fast immer übertreibt, sobald er
-      <lb facs="#facs_1_region_1684567285754_1489_tl_13" n="N014"/>von <rs type="place">italienisch</rs>er Musik spricht, nennt <rs type="person">Mayr</rs> „un voleur
+      <lb facs="#facs_1_region_1684567285754_1489_tl_13" n="N014"/>von <rs type="place" ref="#hsl_place_id_28">italienisch</rs>er Musik spricht, nennt <rs type="person" ref="#hsl_person_id_2529">Mayr</rs> „un voleur
       <lb facs="#facs_1_region_1684567285754_1489_tl_14" n="N015"/>effronté“. Er war das nicht mehr oder weniger, als die
       <lb facs="#facs_1_region_1684567285754_1489_tl_15" n="N016"/>meisten seiner Collegen, deren auf Dreiklängen wiegende
       <lb facs="#facs_1_region_1684567285754_1489_tl_16" n="N017"/>Cantilenen und Rouladen einander zum Verwechseln ähnlich
-      <lb facs="#facs_1_region_1684567285754_1489_tl_17" n="N018"/>sahen. Viel Neues wußte <rs type="person">Mayr</rs> freilich nicht zu sagen, aber
-      <lb facs="#facs_1_region_1684567285754_1489_tl_18" n="N019"/>er sagte es in correcter, logisch geordneter und wohlklin¬
-      <lb facs="#facs_1_region_1684567285754_1489_tl_19" n="N020"/>gender Sprache. Unstreitig hat er aus seiner <rs type="place">deutsch</rs>en
+      <lb facs="#facs_1_region_1684567285754_1489_tl_17" n="N018"/>sahen. Viel Neues wußte <rs type="person" ref="#hsl_person_id_2529">Mayr</rs> freilich nicht zu sagen, aber
+      <lb facs="#facs_1_region_1684567285754_1489_tl_18" n="N019"/>er sagte es in correcter, logisch geordneter und wohlklin
+      <lb facs="#facs_1_region_1684567285754_1489_tl_19" n="N020" break="no"/>gender Sprache. Unstreitig hat er aus seiner <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en
       <lb facs="#facs_1_region_1684567285754_1489_tl_20" n="N021"/>Heimat einen ernsteren musikalischen Geschmack und (wie
       <lb facs="#facs_1_region_1684567285754_1489_tl_21" n="N022"/>seine Kirchen-Compositionen zeigen) eine solidere Schulung
       <lb facs="#facs_1_region_1684567285754_1489_tl_22" n="N023"/>und Technik mitgebracht.
-      <lb facs="#facs_1_region_1684567285754_1489_tl_23" n="N024"/>Eine mäßige Transfusion verdünnten <rs type="place">deutsch</rs>en Blutes
-      <lb facs="#facs_1_line_1693292360246_644" n="N025"/>hat denn auch auf den jungen <rs type="person">Donizetti</rs> eingewirkt, als er
-      <lb facs="#facs_1_region_1684567285754_1489_tl_24" n="N026"/>bei Simon <rs type="person">Mayr</rs> studirte und vorzugsweise Messen schrieb.
-      <lb facs="#facs_1_region_1684567285754_1489_tl_25" n="N027"/>Mit zwanzig Jahren brachte er seine erste Oper zur Auf¬
-      <lb facs="#facs_1_region_1684567285754_1489_tl_26" n="N028"/>führung. Sie siegte ebensowenig wie die zwanzig nachfol¬
-      <lb facs="#facs_1_line_1693292371190_654" n="N029"/>genden. Unter diesen war auch „<rs type="bibl">Sancia di Castiglia</rs>“ mit
+            </p><p>
+      <lb facs="#facs_1_region_1684567285754_1489_tl_23" n="N024"/>Eine mäßige Transfusion verdünnten <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Blutes
+      <lb facs="#facs_1_line_1693292360246_644" n="N025"/>hat denn auch auf den jungen <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> eingewirkt, als er
+      <lb facs="#facs_1_region_1684567285754_1489_tl_24" n="N026"/>bei Simon <rs type="person" ref="#hsl_person_id_2529">Mayr</rs> studirte und vorzugsweise Messen schrieb.
+      <lb facs="#facs_1_region_1684567285754_1489_tl_25" n="N027"/>Mit zwanzig Jahren brachte er seine erste Oper zur Auf
+      <lb facs="#facs_1_region_1684567285754_1489_tl_26" n="N028" break="no"/>führung. Sie siegte ebensowenig wie die zwanzig nachfol
+      <lb facs="#facs_1_line_1693292371190_654" n="N029" break="no"/>genden. Unter diesen war auch „<rs type="bibl" ref="#hsl_work_id_1490">Sancia di Castiglia</rs>“ mit
       <lb facs="#facs_1_region_1684567285754_1489_tl_27" n="N030"/>der pietätvollen Widmung „al celebre Sign. Maëstro
-      <lb facs="#facs_1_region_1684567285754_1489_tl_28" n="N031"/><hi rendition="#em">Simone <rs type="person">Mayr</rs></hi>“. Diese Tragedia lirica zeichnet sich
-      <lb facs="#facs_1_region_1684567285754_1489_tl_29" n="N032"/>durch athemversetzende <rs type="person">Rossini</rs>’sche Coloraturen und höchst
+      <lb facs="#facs_1_region_1684567285754_1489_tl_28" n="N031"/><hi rendition="#em">Simone <rs type="person" ref="#hsl_person_id_2529">Mayr</rs></hi>“. Diese Tragedia lirica zeichnet sich
+      <lb facs="#facs_1_region_1684567285754_1489_tl_29" n="N032"/>durch athemversetzende <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’sche Coloraturen und höchst
       <lb facs="#facs_1_region_1684567285754_1489_tl_30" n="N033"/>kindische, terzenweis auf und ab hüpfende Chöre aus. Endlich
-      <lb facs="#facs_1_region_1684567285754_1489_tl_31" n="N034"/>gelangt <rs type="person">Donizetti</rs> zu seinem ersten entschiedenen Erfolg in
-      <lb facs="#facs_1_region_1684567285754_1489_tl_32" n="N035"/><rs type="place">Italien</rs> mit der Oper „<rs type="bibl">L’Esule di Roma</rs>“. Ueber die
+      <lb facs="#facs_1_region_1684567285754_1489_tl_31" n="N034"/>gelangt <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> zu seinem ersten entschiedenen Erfolg in
+      <lb facs="#facs_1_region_1684567285754_1489_tl_32" n="N035"/><rs type="place" ref="#hsl_place_id_28">Italien</rs> mit der Oper „<rs type="bibl" ref="#hsl_work_id_1492">L’Esule di Roma</rs>“. Ueber die
       <lb facs="#facs_1_region_1684567285754_1489_tl_33" n="N036"/>Grenzen seiner Heimat verbreitet sich sein Ruhm erst seit
-      <lb facs="#facs_1_line_1693292341575_627" n="N037"/><date month="0" day="0" year="0">1831</date> mit „<rs type="bibl">Anna Bolena</rs>“. Eine <rs type="place">Prag</rs>er Aufführung dieser
-      <lb facs="#facs_1_region_1684567285754_1489_tl_35" n="N038"/>Oper mit <hi rendition="#em">Jenny <rs type="person">Lutzer</rs></hi> in der Titelrolle gehört zu meinen
+      <lb facs="#facs_1_line_1693292341575_627" n="N037"/><date>1831</date> mit „<rs type="bibl" ref="#hsl_work_id_1493">Anna Bolena</rs>“. Eine <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Aufführung dieser
+      <lb facs="#facs_1_region_1684567285754_1489_tl_35" n="N038"/>Oper mit <hi rendition="#em">Jenny <rs type="person" ref="#hsl_person_id_2531">Lutzer</rs></hi> in der Titelrolle gehört zu meinen
       <lb facs="#facs_1_region_1684567285754_1489_tl_36" n="N039"/>frühesten Theater-Erinnerungen. Ich weiß davon nur, daß
       <lb facs="#facs_1_region_1684567285754_1489_tl_37" n="N040"/>ich vor Herzweh über die unglückliche Königin weinend
-      <lb facs="#facs_1_line_1693292394094_678" n="N041"/>einschlief. „<rs type="bibl">Anna Bolena</rs>“ war <rs type="person">Donizetti</rs>’s 32. Oper, und</p>
+      <lb facs="#facs_1_line_1693292394094_678" n="N041"/>einschlief. „<rs type="bibl" ref="#hsl_work_id_1493">Anna Bolena</rs>“ war <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s 32. Oper, und<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_1_region_1684567289438_1492_tl_1" n="N001"/>doch hatte der allzu leicht schaffende Componist bis dahin
-      <lb facs="#facs_1_region_1684567289438_1492_tl_2" n="N002"/>nichts geliefert, was sich mit <hi rendition="#em"><rs type="person">Bellini</rs>’s</hi> Opern zweiten
-      <lb facs="#facs_1_line_1693292350958_637" n="N003"/>Ranges messen konnte. Ganze und halbe Erfolge, auch ent¬
-      <lb facs="#facs_1_region_1684567289438_1492_tl_4" n="N004"/>schiedene Mißerfolge wechseln nun mit einander. Zu
-      <lb facs="#facs_1_region_1684567289438_1492_tl_5" n="N005"/>letzteren gehörte die Oper „<rs type="bibl">Il Diluvio universale</rs>“. <rs type="person">Donizetti</rs>
+      <lb facs="#facs_1_region_1684567289438_1492_tl_2" n="N002"/>nichts geliefert, was sich mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_26">Bellini</rs>’s</hi> Opern zweiten
+      <lb facs="#facs_1_line_1693292350958_637" n="N003"/>Ranges messen konnte. Ganze und halbe Erfolge, auch ent
+      <lb facs="#facs_1_region_1684567289438_1492_tl_4" n="N004" break="no"/>schiedene Mißerfolge wechseln nun mit einander. Zu
+      <lb facs="#facs_1_region_1684567289438_1492_tl_5" n="N005"/>letzteren gehörte die Oper „<rs type="bibl" ref="#hsl_work_id_1494">Il Diluvio universale</rs>“. <rs type="person" ref="#hsl_person_id_63">Donizetti</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684567289438_1492_tl_6" n="N006"/>tröstete sich über ihr Fiasco, indem er sich sogleich vornahm,
       <lb facs="#facs_1_region_1684567289438_1492_tl_7" n="N007"/>alle Musikstücke aus dieser Partitur, ohne Ausnahme, in
       <lb facs="#facs_1_region_1684567289438_1492_tl_8" n="N008"/>seine folgenden Opern allmälig einzuschalten. Die Oper
       <lb facs="#facs_1_region_1684567289438_1492_tl_9" n="N009"/>ward ja in Einzelheiten applaudirt und nur als Ganzes
-      <lb facs="#facs_1_region_1684567289438_1492_tl_10" n="N010"/>ausgepfiffen. <rs type="person">Donizetti</rs> hielt Wort: <rs type="bibl">il Diluvio universale</rs>
+      <lb facs="#facs_1_region_1684567289438_1492_tl_10" n="N010"/>ausgepfiffen. <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> hielt Wort: <rs type="bibl" ref="#hsl_work_id_1494">il Diluvio universale</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684567289438_1492_tl_11" n="N011"/>steckt vollständig in den zehn oder zwölf danach componirten
-      <lb facs="#facs_1_region_1684567289438_1492_tl_12" n="N012"/>Opern. Höchst charakteristisch für eine entschwundene Opern¬
-      <lb facs="#facs_1_region_1684567289438_1492_tl_13" n="N013"/>epoche, ist diese Thatsache doch keineswegs herabwürdigend
-      <lb facs="#facs_1_region_1684567289438_1492_tl_14" n="N014"/>für <rs type="person">Donizetti</rs>, welcher nur die laxe ästhetische Moral seiner
-      <lb facs="#facs_1_region_1684567289438_1492_tl_15" n="N015"/>gesammten Umgebung theilte. <rs type="person">Händel</rs> und <rs type="person">Gluck</rs> hatten in
+      <lb facs="#facs_1_region_1684567289438_1492_tl_12" n="N012"/>Opern. Höchst charakteristisch für eine entschwundene Opern
+      <lb facs="#facs_1_region_1684567289438_1492_tl_13" n="N013" break="no"/>epoche, ist diese Thatsache doch keineswegs herabwürdigend
+      <lb facs="#facs_1_region_1684567289438_1492_tl_14" n="N014"/>für <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>, welcher nur die laxe ästhetische Moral seiner
+      <lb facs="#facs_1_region_1684567289438_1492_tl_15" n="N015"/>gesammten Umgebung theilte. <rs type="person" ref="#hsl_person_id_108">Händel</rs> und <rs type="person" ref="#hsl_person_id_99">Gluck</rs> hatten in
       <lb facs="#facs_1_region_1684567289438_1492_tl_16" n="N016"/>diesem Punkte auch nicht scrupulöser gehandelt.
-      <lb facs="#facs_1_region_1684567289438_1492_tl_17" n="N017"/>Ich beabsichtige nicht, den Lebenslauf <rs type="person">Donizetti</rs>’s hier
+            </p><p>
+      <lb facs="#facs_1_region_1684567289438_1492_tl_17" n="N017"/>Ich beabsichtige nicht, den Lebenslauf <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s hier
       <lb facs="#facs_1_region_1684567289438_1492_tl_18" n="N018"/>Schritt für Schritt, Oper für Oper zu beschreiben; von
       <lb facs="#facs_1_region_1684567289438_1492_tl_19" n="N019"/>den Hauptwerken soll ohnehin später noch die Rede sein.
-      <lb facs="#facs_1_region_1684567289438_1492_tl_20" n="N020"/>Mit „<rs type="bibl">Lucrezia Borgia</rs>“ (<date month="0" day="0" year="0">1833</date>) stand <rs type="person">Donizetti</rs> im Zenith
+      <lb facs="#facs_1_region_1684567289438_1492_tl_20" n="N020"/>Mit „<rs type="bibl" ref="#hsl_work_id_386">Lucrezia Borgia</rs>“ (<date>1833</date>) stand <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> im Zenith
       <lb facs="#facs_1_region_1684567289438_1492_tl_21" n="N021"/>seines Talentes und Ruhmes. Noch immer steigerte sich
-      <lb facs="#facs_1_region_1684567289438_1492_tl_22" n="N022"/>seine fabelhafte Productivität. Ein Vertrag mit <rs type="person">Barbaja</rs>
-      <lb facs="#facs_1_region_1684567289438_1492_tl_23" n="N023"/>verpflichtete <rs type="person">Donizetti</rs>, alljährlich <hi rendition="#em">vier</hi> Opern für die
-      <lb facs="#facs_1_region_1684567289438_1492_tl_24" n="N024"/>königlichen Theater in <rs type="place">Neapel</rs> zu schreiben. Zur Composition
-      <lb facs="#facs_1_line_1693292363102_647" n="N025"/>des „<rs type="bibl">Liebestrank</rs>“ brauchte er nur vierzehn Tage; für „<rs type="bibl">Don</rs>
-      <lb facs="#facs_1_region_1684567289438_1492_tl_26" n="N026"/><rs type="bibl">Pasquale</rs>“ einen Tag weniger. Vom Jahre <date month="0" day="0" year="0">1834</date> an, wo
-      <lb facs="#facs_1_region_1684567289438_1492_tl_27" n="N027"/>er nach <rs type="place">Paris</rs> zur Aufführung seiner „<rs type="bibl">Märtyrer</rs>“ berufen
-      <lb facs="#facs_1_region_1684567289438_1492_tl_28" n="N028"/>wurde, bereicherte <rs type="person">Donizetti</rs> das <rs type="place">italienisch</rs>e Theater noch
-      <lb facs="#facs_1_line_1693292372734_657" n="N029"/>mit fünfzehn neuen Opern, worunter „<rs type="bibl">Lucia</rs>“, „<rs type="bibl">Gemma di</rs>
-      <lb facs="#facs_1_region_1684567289438_1492_tl_30" n="N030"/><rs type="bibl">Vergy</rs>“, „<rs type="bibl">Belisario</rs>“ u. A. Zum kaiserlich <rs type="place">österreichisch</rs>en
-      <lb facs="#facs_1_line_1693292380559_664" n="N031"/>Kammer-Componisten ernannt, ließ er noch für die <rs type="place">Wien</rs>er
-      <lb facs="#facs_1_line_1693292384918_669" n="N032"/>Hofoper „<rs type="bibl">Linda</rs>“ und „<rs type="bibl">Maria di Rohan</rs>“ folgen. Im
-      <lb facs="#facs_1_region_1684567289438_1492_tl_35" n="N033"/>selben Jahre (<date month="0" day="0" year="0">1843</date>) gab er der <rs type="place">Paris</rs>er Großen Oper, für
-      <lb facs="#facs_1_region_1684567289438_1492_tl_36" n="N034"/>die er bereits „<rs type="bibl">La Favorite</rs>“ geschrieben hatte, seinen „<rs type="bibl">Dom</rs>
-      <lb facs="#facs_1_region_1684567289438_1492_tl_37" n="N035"/><rs type="bibl">Sebastian</rs>“. Im Laufe von sechsundzwanzig Jahren hatte
-      <lb facs="#facs_1_region_1684567289438_1492_tl_38" n="N036"/><rs type="person">Donizetti</rs> vierundsechzig Opern geschrieben. Ja, wäre mit
+      <lb facs="#facs_1_region_1684567289438_1492_tl_22" n="N022"/>seine fabelhafte Productivität. Ein Vertrag mit <rs type="person" ref="#hsl_person_id_839">Barbaja</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684567289438_1492_tl_23" n="N023"/>verpflichtete <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>, alljährlich <hi rendition="#em">vier</hi> Opern für die
+      <lb facs="#facs_1_region_1684567289438_1492_tl_24" n="N024"/>königlichen Theater in <rs type="place" ref="#hsl_place_id_40">Neapel</rs> zu schreiben. Zur Composition
+      <lb facs="#facs_1_line_1693292363102_647" n="N025"/>des „<rs type="bibl" ref="#hsl_work_id_451">Liebestrank</rs>“ brauchte er nur vierzehn Tage; für „<rs type="bibl" ref="#hsl_work_id_207">Don
+      <lb facs="#facs_1_region_1684567289438_1492_tl_26" n="N026"/>Pasquale</rs>“ einen Tag weniger. Vom Jahre <date>1834</date> an, wo
+      <lb facs="#facs_1_region_1684567289438_1492_tl_27" n="N027"/>er nach <rs type="place" ref="#hsl_place_id_44">Paris</rs> zur Aufführung seiner „<rs type="bibl" ref="#hsl_work_id_1491">Märtyrer</rs>“ berufen
+      <lb facs="#facs_1_region_1684567289438_1492_tl_28" n="N028"/>wurde, bereicherte <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> das <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Theater noch
+      <lb facs="#facs_1_line_1693292372734_657" n="N029"/>mit fünfzehn neuen Opern, worunter „<rs type="bibl" ref="#hsl_work_id_95">Lucia</rs>“, „<rs type="bibl" ref="#hsl_work_id_1495">Gemma di
+      <lb facs="#facs_1_region_1684567289438_1492_tl_30" n="N030"/>Vergy</rs>“, „<rs type="bibl" ref="#hsl_work_id_1496">Belisario</rs>“ u. A. Zum kaiserlich <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en
+      <lb facs="#facs_1_line_1693292380559_664" n="N031"/>Kammer-Componisten ernannt, ließ er noch für die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er
+      <lb facs="#facs_1_line_1693292384918_669" n="N032"/>Hofoper „<rs type="bibl" ref="#hsl_work_id_98">Linda</rs>“ und „<rs type="bibl" ref="#hsl_work_id_90">Maria di Rohan</rs>“ folgen. Im
+      <lb facs="#facs_1_region_1684567289438_1492_tl_35" n="N033"/>selben Jahre (<date>1843</date>) gab er der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Großen Oper, für
+      <lb facs="#facs_1_region_1684567289438_1492_tl_36" n="N034"/>die er bereits „<rs type="bibl" ref="#hsl_work_id_380">La Favorite</rs>“ geschrieben hatte, seinen „<rs type="bibl" ref="#hsl_work_id_1499">Dom
+      <lb facs="#facs_1_region_1684567289438_1492_tl_37" n="N035"/>Sebastian</rs>“. Im Laufe von sechsundzwanzig Jahren hatte
+      <lb facs="#facs_1_region_1684567289438_1492_tl_38" n="N036"/><rs type="person" ref="#hsl_person_id_63">Donizetti</rs> vierundsechzig Opern geschrieben. Ja, wäre mit
       <lb facs="#facs_1_region_1684567289438_1492_tl_39" n="N037"/>dieser aufreibenden Geistesthätigkeit nur Alles gethan gewesen!
-      <lb facs="#facs_1_region_1684567289438_1492_tl_40" n="N038"/>In <rs type="place">Italien</rs> muß aber der Componist stets an Ort und
+      <lb facs="#facs_1_region_1684567289438_1492_tl_40" n="N038"/>In <rs type="place" ref="#hsl_place_id_28">Italien</rs> muß aber der Componist stets an Ort und
       <lb facs="#facs_1_region_1684567289438_1492_tl_41" n="N039"/>Stelle kommen, die Stimmen seiner Sänger studiren und
-      <lb facs="#facs_1_region_1684567289438_1492_tl_42" n="N040"/>die Oper dirigiren. Als Simon <hi rendition="#em"><rs type="person">Mayr</rs></hi> in <rs type="place">Neapel</rs> (wo er
-      <lb facs="#facs_1_line_1693292395895_681" n="N041"/>die Eröffnungscantate für San Carlo aufführte) die Aeuße¬</p>
+      <lb facs="#facs_1_region_1684567289438_1492_tl_42" n="N040"/>die Oper dirigiren. Als Simon <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2529">Mayr</rs></hi> in <rs type="place" ref="#hsl_place_id_40">Neapel</rs> (wo er
+      <lb facs="#facs_1_line_1693292395895_681" n="N041"/>die Eröffnungscantate für San Carlo aufführte) die Aeuße</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-      <lb facs="#facs_2_region_1684567299955_1498_tl_1" n="N001"/>rung that, er wolle nicht mehr reisen, so hieß das: er werde
+            <p prev="true">
+      <lb facs="#facs_2_region_1684567299955_1498_tl_1" n="N001" break="no"/>rung that, er wolle nicht mehr reisen, so hieß das: er werde
       <lb facs="#facs_2_line_1693292411870_691" n="N002"/>keine Oper mehr componiren. Einige Jahre früher bot die
-      <lb facs="#facs_2_line_1693292419287_700" n="N003"/>Administration der Scala dem berühmten <rs type="person">Païsiello</rs> 10,000
+      <lb facs="#facs_2_line_1693292419287_700" n="N003"/>Administration der Scala dem berühmten <rs type="person" ref="#hsl_person_id_929">Païsiello</rs> 10,000
       <lb facs="#facs_2_line_1693292426943_709" n="N004"/>Francs für eine neue Oper; er antwortete: mit 80 Jahren
       <lb facs="#facs_2_region_1684567299955_1498_tl_5" n="N005"/>könne man nicht mehr herumreisen, er wolle jedoch seine
-      <lb facs="#facs_2_region_1684567299955_1498_tl_6" n="N006"/>Musik einsenden. Man lehnte dankend ab. Auch <rs type="person">Donizetti</rs>
-      <lb facs="#facs_2_region_1684567299955_1498_tl_7" n="N007"/>mußte, um eine neue Oper heute in <rs type="place">Rom</rs>, dann eine
-      <lb facs="#facs_2_region_1684567299955_1498_tl_8" n="N008"/>andere in <rs type="place">Florenz</rs>, eine dritte in <rs type="place">Neapel</rs> oder <rs type="place">Mailand</rs> ein¬
-      <lb facs="#facs_2_region_1684567299955_1498_tl_9" n="N009"/>zustudiren und zu dirigiren, die <rs type="place">italienisch</rs>e Halbinsel von
+      <lb facs="#facs_2_region_1684567299955_1498_tl_6" n="N006"/>Musik einsenden. Man lehnte dankend ab. Auch <rs type="person" ref="#hsl_person_id_63">Donizetti</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684567299955_1498_tl_7" n="N007"/>mußte, um eine neue Oper heute in <rs type="place" ref="#hsl_place_id_47">Rom</rs>, dann eine
+      <lb facs="#facs_2_region_1684567299955_1498_tl_8" n="N008"/>andere in <rs type="place" ref="#hsl_place_id_103">Florenz</rs>, eine dritte in <rs type="place" ref="#hsl_place_id_40">Neapel</rs> oder <rs type="place" ref="#hsl_place_id_73">Mailand</rs> ein
+      <lb facs="#facs_2_region_1684567299955_1498_tl_9" n="N009" break="no"/>zustudiren und zu dirigiren, die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Halbinsel von
       <lb facs="#facs_2_line_1693292437724_719" n="N010"/>einem Ende zum andern durchfahren — im Postwagen,
-      <lb facs="#facs_2_region_1684567299955_1498_tl_11" n="N011"/>denn Eisenbahnen gab es dort noch keine. Und kein Aus¬
-      <lb facs="#facs_2_region_1684567299955_1498_tl_12" n="N012"/>ruhen zwischen all diesen Reisen, Arbeiten, Gesellschaften
-      <lb facs="#facs_2_region_1684567299955_1498_tl_13" n="N013"/>und Vergnügungen. <rs type="person">Donizetti</rs> wollte von Allem haben und
+      <lb facs="#facs_2_region_1684567299955_1498_tl_11" n="N011"/>denn Eisenbahnen gab es dort noch keine. Und kein Aus
+      <lb facs="#facs_2_region_1684567299955_1498_tl_12" n="N012" break="no"/>ruhen zwischen all diesen Reisen, Arbeiten, Gesellschaften
+      <lb facs="#facs_2_region_1684567299955_1498_tl_13" n="N013"/>und Vergnügungen. <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> wollte von Allem haben und
       <lb facs="#facs_2_region_1684567299955_1498_tl_14" n="N014"/>überall dabei sein. So rastlose Thätigkeit und Genußfreude
-      <lb facs="#facs_2_region_1684567299955_1498_tl_15" n="N015"/>mußten allmälig seine Gesundheit untergraben. <rs type="person">Donizetti</rs>
-      <lb facs="#facs_2_region_1684567299955_1498_tl_16" n="N016"/>wurde im Jahre <date month="0" day="0" year="0">1844</date> wahnsinnig.
-      <lb facs="#facs_2_line_1693292478230_754" n="N017"/>Nach <rs type="person">Escudier</rs>’s Erzählung waren die ersten Anzeichen
-      <lb facs="#facs_2_region_1684567299955_1498_tl_17" n="N018"/>von Geistesstörung an <rs type="person">Donizetti</rs> während einer Aufführung
-      <lb facs="#facs_2_region_1684567299955_1498_tl_18" n="N019"/>seines „<hi rendition="#em"><rs type="bibl">Dom Sebastian</rs></hi>“ in <rs type="place">Paris</rs> bemerkt worden.
-      <lb facs="#facs_2_region_1684567299955_1498_tl_19" n="N020"/>Madame <rs type="person">Stolz</rs>, welche als launenhafte, unumschränkte
+      <lb facs="#facs_2_region_1684567299955_1498_tl_15" n="N015"/>mußten allmälig seine Gesundheit untergraben. <rs type="person" ref="#hsl_person_id_63">Donizetti</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684567299955_1498_tl_16" n="N016"/>wurde im Jahre <date>1844</date> wahnsinnig.
+            </p><p>
+      <lb facs="#facs_2_line_1693292478230_754" n="N017"/>Nach <rs type="person" ref="#hsl_person_id_808">Escudier</rs>’s Erzählung waren die ersten Anzeichen
+      <lb facs="#facs_2_region_1684567299955_1498_tl_17" n="N018"/>von Geistesstörung an <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> während einer Aufführung
+      <lb facs="#facs_2_region_1684567299955_1498_tl_18" n="N019"/>seines „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1499">Dom Sebastian</rs></hi>“ in <rs type="place" ref="#hsl_place_id_44">Paris</rs> bemerkt worden.
+      <lb facs="#facs_2_region_1684567299955_1498_tl_19" n="N020"/>Madame <rs type="person" ref="#hsl_person_id_2533">Stolz</rs>, welche als launenhafte, unumschränkte
       <lb facs="#facs_2_region_1684567299955_1498_tl_20" n="N021"/>Primadonna damals die Große Oper tyrannisirte, wollte
-      <lb facs="#facs_2_region_1684567299955_1498_tl_21" n="N022"/>nicht (wie es die Handlung erfordert) auf der Scene blei¬
-      <lb facs="#facs_2_region_1684567299955_1498_tl_22" n="N023"/>ben, während <rs type="person">Camoëns</rs> hinter der Coulisse seine Barcarole
+      <lb facs="#facs_2_region_1684567299955_1498_tl_21" n="N022"/>nicht (wie es die Handlung erfordert) auf der Scene blei
+      <lb facs="#facs_2_region_1684567299955_1498_tl_22" n="N023" break="no"/>ben, während <rs type="person" ref="#hsl_person_id_2534">Camoëns</rs> hinter der Coulisse seine Barcarole
       <lb facs="#facs_2_region_1684567299955_1498_tl_23" n="N024"/>singt. Als man sie endlich dazu bewogen hatte, verlangte
-      <lb facs="#facs_2_region_1684567299955_1498_tl_24" n="N025"/>sie, geärgert von dem Beifalle, der dem Sänger des <rs type="person">Ca¬</rs>
-      <lb facs="#facs_2_region_1684567299955_1498_tl_25" n="N026"/><rs type="person">moëns</rs> nach der Barcarole zu Theil wurde, wenigstens die
-      <lb facs="#facs_2_region_1684567299955_1498_tl_26" n="N027"/>Kürzung dieses Gesangstückes. <rs type="person">Donizetti</rs>, der sonst sanfte
+      <lb facs="#facs_2_region_1684567299955_1498_tl_24" n="N025"/>sie, geärgert von dem Beifalle, der dem Sänger des <rs type="person" ref="#hsl_person_id_2534">Ca
+      <lb facs="#facs_2_region_1684567299955_1498_tl_25" n="N026" break="no"/>moëns</rs> nach der Barcarole zu Theil wurde, wenigstens die
+      <lb facs="#facs_2_region_1684567299955_1498_tl_26" n="N027"/>Kürzung dieses Gesangstückes. <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>, der sonst sanfte
       <lb facs="#facs_2_region_1684567299955_1498_tl_27" n="N028"/>und freundliche Mann, ergriff wüthend seine Partitur und
       <lb facs="#facs_2_region_1684567299955_1498_tl_28" n="N029"/>schleuderte sie unter den heftigsten Invectiven der Sängerin
       <lb facs="#facs_2_region_1684567299955_1498_tl_29" n="N030"/>vor die Füße. Schäumend vor Wuth und seiner nicht mehr
@@ -1159,15 +1164,16 @@
       <lb facs="#facs_2_line_1693292452678_732" n="N032"/>werden. Er erholte sich bald, und durch lange Zeit fanden
       <lb facs="#facs_2_line_1693292487846_764" n="N033"/>seine Freunde nicht das mindeste Anzeichen einer drohenden
       <lb facs="#facs_2_region_1684567299955_1498_tl_32" n="N034"/>Krankheit an ihm.
-      <lb facs="#facs_2_region_1684567299955_1498_tl_33" n="N035"/>Eines Morgens, als <rs type="person">Donizetti</rs> gegen seine Gewohnheit
+            </p><p>
+      <lb facs="#facs_2_region_1684567299955_1498_tl_33" n="N035"/>Eines Morgens, als <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> gegen seine Gewohnheit
       <lb facs="#facs_2_region_1684567299955_1498_tl_34" n="N036"/>seinem Diener noch immer nicht geläutet hatte, drang dieser,
       <lb facs="#facs_2_region_1684567299955_1498_tl_35" n="N037"/>geängstigt, ungerufen ein und fand seinen Herrn bewußtlos
       <lb facs="#facs_2_region_1684567299955_1498_tl_36" n="N038"/>auf der Erde hingestreckt. Man rief eiligst mehrere Aerzte.
-      <lb facs="#facs_2_line_1693292500342_774" n="N039"/><rs type="person">Donizetti</rs> kam bald zu sich und antwortete auf die</p>
+      <lb facs="#facs_2_line_1693292500342_774" n="N039"/><rs type="person" ref="#hsl_person_id_63">Donizetti</rs> kam bald zu sich und antwortete auf die<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-      <lb facs="#facs_2_line_1693292467022_744" n="N001"/>Fragen der Aerzte mit ungewöhnlicher, befremdender Red¬
-      <lb facs="#facs_2_line_1693292413766_694" n="N002"/>seligkeit. Er erklärte ihnen unter Anderm, daß er zwei
+            <p prev="true">
+      <lb facs="#facs_2_line_1693292467022_744" n="N001"/>Fragen der Aerzte mit ungewöhnlicher, befremdender Red
+      <lb facs="#facs_2_line_1693292413766_694" n="N002" break="no"/>seligkeit. Er erklärte ihnen unter Anderm, daß er zwei
       <lb facs="#facs_2_line_1693292421807_703" n="N003"/>Quellen der Begeisterung in sich habe, deren Sitz er ganz
       <lb facs="#facs_2_line_1693292428807_712" n="N004"/>genau fühle: links wäre die Quelle für seine heitere Musik,
       <lb facs="#facs_2_region_1684567303237_1501_tl_2" n="N005"/>rechts die andere für die tragische. Sobald er zu componiren
@@ -1176,116 +1182,122 @@
       <lb facs="#facs_2_region_1684567303237_1501_tl_5" n="N008"/>und nach einem arbeitsvollen Tag fühle er sich stundenlang
       <lb facs="#facs_2_region_1684567303237_1501_tl_6" n="N009"/>entweder an der rechten oder an der linken Seite seines
       <lb facs="#facs_2_line_1693292439142_722" n="N010"/>Körpers schmerzlich ermüdet.
-      <lb facs="#facs_2_region_1684567303237_1501_tl_7" n="N011"/>Nach einiger Zeit schien <rs type="person">Donizetti</rs> wieder geistig und
+            </p><p>
+      <lb facs="#facs_2_region_1684567303237_1501_tl_7" n="N011"/>Nach einiger Zeit schien <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> wieder geistig und
       <lb facs="#facs_2_region_1684567303237_1501_tl_8" n="N012"/>körperlich sich zu erholen, die Lust zur Arbeit erwachte
       <lb facs="#facs_2_region_1684567303237_1501_tl_9" n="N013"/>wieder, und er beschäftigte sich lebhafter als je mit seinem
-      <lb facs="#facs_2_region_1684567303237_1501_tl_10" n="N014"/>Lieblingsproject, den „<hi rendition="#em"><rs type="bibl">Sganarelle</rs></hi>“ von <rs type="person">Molière</rs> (von
-      <lb facs="#facs_2_region_1684567303237_1501_tl_11" n="N015"/><hi rendition="#em"><rs type="person">Giraud</rs></hi><space unit="char" quantity="1"/><rs type="place">italienisch</rs> bearbeitet) für die Komische Oper zu
+      <lb facs="#facs_2_region_1684567303237_1501_tl_10" n="N014"/>Lieblingsproject, den „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1500">Sganarelle</rs></hi>“ von <rs type="person" ref="#hsl_person_id_864">Molière</rs> (von
+      <lb facs="#facs_2_region_1684567303237_1501_tl_11" n="N015"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2535">Giraud</rs></hi><space unit="char" quantity="1"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs> bearbeitet) für die Komische Oper zu
       <lb facs="#facs_2_region_1684567303237_1501_tl_12" n="N016"/>componiren. Aber der fruchtbare Componist, der den
-      <lb facs="#facs_2_line_1693292479886_757" n="N017"/>„<rs type="bibl">Liebestrank</rs>“ in vierzehn Tagen geschrieben hatte, war nicht
+      <lb facs="#facs_2_line_1693292479886_757" n="N017"/>„<rs type="bibl" ref="#hsl_work_id_451">Liebestrank</rs>“ in vierzehn Tagen geschrieben hatte, war nicht
       <lb facs="#facs_2_region_1684567303237_1501_tl_14" n="N018"/>mehr im Stande, auch nur mit Einer Scene fertig zu
-      <lb facs="#facs_2_region_1684567303237_1501_tl_15" n="N019"/>werden. Die Aerzte constatirten eine gefährliche Ueber¬
-      <lb facs="#facs_2_region_1684567303237_1501_tl_16" n="N020"/>reizung der Nerven bei <rs type="person">Donizetti</rs> und untersagten ihm das
+      <lb facs="#facs_2_region_1684567303237_1501_tl_15" n="N019"/>werden. Die Aerzte constatirten eine gefährliche Ueber
+      <lb facs="#facs_2_region_1684567303237_1501_tl_16" n="N020" break="no"/>reizung der Nerven bei <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> und untersagten ihm das
       <lb facs="#facs_2_region_1684567303237_1501_tl_17" n="N021"/>Arbeiten. Sein Zustand verschlimmerte sich rasch; man
       <lb facs="#facs_2_region_1684567303237_1501_tl_18" n="N022"/>erkannte für unumgänglich nothwendig, den Kranken in
       <lb facs="#facs_2_region_1684567303237_1501_tl_19" n="N023"/>eine Irrenanstalt zu bringen, am besten in jene des Dr.
-      <lb facs="#facs_2_region_1684567303237_1501_tl_20" n="N024"/><rs type="person">Moreau</rs> zu <hi rendition="#em"><rs type="place">Ivry</rs></hi>. Allein wie <rs type="person">Donizetti</rs> dazu bewegen?
-      <lb facs="#facs_2_region_1684567303237_1501_tl_21" n="N025"/>Wie ihn überhaupt von <rs type="place">Paris</rs> fortbringen? Die Freund¬
-      <lb facs="#facs_2_region_1684567303237_1501_tl_22" n="N026"/>schaft macht erfinderisch. Man fingirte einen Brief aus
-      <lb facs="#facs_2_region_1684567303237_1501_tl_23" n="N027"/><rs type="place">Wien</rs>, der unter dem Couvert der Gesandtschaft <rs type="person">Donizetti</rs>
-      <lb facs="#facs_2_region_1684567303237_1501_tl_24" n="N028"/>zugestellt wurde. Der <rs type="person">Kaiser</rs> von <rs type="place">Oesterreich</rs> beauftragte
-      <lb facs="#facs_2_region_1684567303237_1501_tl_25" n="N029"/>darin den Maëstro, nach <rs type="place">Wien</rs> zurückzukehren und seine
-      <lb facs="#facs_2_region_1684567303237_1501_tl_26" n="N030"/>Functionen als k. k. Hof-Compositeur aufzunehmen. Die¬
-      <lb facs="#facs_2_region_1684567303237_1501_tl_27" n="N031"/>sen ausgezeichneten Posten, welcher <rs type="person">Donizetti</rs>, bekanntlich
-      <lb facs="#facs_2_line_1693292454558_735" n="N032"/>nach der ersten Vorstellung der „<rs type="bibl">Linda von Chamounix</rs>“
-      <lb facs="#facs_2_line_1693292489758_767" n="N033"/>verliehen wurde, soll er nach <rs type="person">Escudier</rs>’s Mittheilungen der
-      <lb facs="#facs_2_region_1684567303237_1501_tl_29" n="N034"/>Verwendung <hi rendition="#em"><rs type="person">Rossini</rs>’s</hi>, der in freundschaftlicher Corre¬
-      <lb facs="#facs_2_region_1684567303237_1501_tl_30" n="N035"/>spondenz mit <rs type="person">Metternich</rs> stand, verdankt haben.
+      <lb facs="#facs_2_region_1684567303237_1501_tl_20" n="N024"/><rs type="person" ref="#hsl_person_id_2536">Moreau</rs> zu <hi rendition="#em"><rs type="place" ref="#hsl_place_id_284">Ivry</rs></hi>. Allein wie <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> dazu bewegen?
+      <lb facs="#facs_2_region_1684567303237_1501_tl_21" n="N025"/>Wie ihn überhaupt von <rs type="place" ref="#hsl_place_id_44">Paris</rs> fortbringen? Die Freund
+      <lb facs="#facs_2_region_1684567303237_1501_tl_22" n="N026" break="no"/>schaft macht erfinderisch. Man fingirte einen Brief aus
+      <lb facs="#facs_2_region_1684567303237_1501_tl_23" n="N027"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>, der unter dem Couvert der Gesandtschaft <rs type="person" ref="#hsl_person_id_63">Donizetti</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684567303237_1501_tl_24" n="N028"/>zugestellt wurde. Der <rs type="person" ref="#hsl_person_id_1171">Kaiser</rs> von <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> beauftragte
+      <lb facs="#facs_2_region_1684567303237_1501_tl_25" n="N029"/>darin den Maëstro, nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> zurückzukehren und seine
+      <lb facs="#facs_2_region_1684567303237_1501_tl_26" n="N030"/>Functionen als k. k. Hof-Compositeur aufzunehmen. Die
+      <lb facs="#facs_2_region_1684567303237_1501_tl_27" n="N031" break="no"/>sen ausgezeichneten Posten, welcher <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>, bekanntlich
+      <lb facs="#facs_2_line_1693292454558_735" n="N032"/>nach der ersten Vorstellung der „<rs type="bibl" ref="#hsl_work_id_98">Linda von Chamounix</rs>“
+      <lb facs="#facs_2_line_1693292489758_767" n="N033"/>verliehen wurde, soll er nach <rs type="person" ref="#hsl_person_id_808">Escudier</rs>’s Mittheilungen der
+      <lb facs="#facs_2_region_1684567303237_1501_tl_29" n="N034"/>Verwendung <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s</hi>, der in freundschaftlicher Corre
+      <lb facs="#facs_2_region_1684567303237_1501_tl_30" n="N035" break="no"/>spondenz mit <rs type="person" ref="#hsl_person_id_2537">Metternich</rs> stand, verdankt haben.
+            </p><p>
       <lb facs="#facs_2_region_1684567303237_1501_tl_31" n="N036"/>Der arme Kranke ging vollständig in die Falle. Er
-      <lb facs="#facs_2_region_1684567303237_1501_tl_32" n="N037"/>vergaß auf sein Leiden und gab seinem Diener <rs type="person">Antonio</rs>
-      <lb facs="#facs_2_region_1684567303237_1501_tl_33" n="N038"/>Befehl, die Koffer zu hacken. <rs type="person">Donizetti</rs>’s Wagen, mit zwei
-      <lb facs="#facs_2_line_1693292501886_777" n="N039"/>Postpferden bespannt, rollte fort. Ein anderer Wagen folgte</p>
+      <lb facs="#facs_2_region_1684567303237_1501_tl_32" n="N037"/>vergaß auf sein Leiden und gab seinem Diener <rs type="person" ref="#hsl_person_id_2540">Antonio</rs><space unit="char" quantity="1"/>
+      <lb facs="#facs_2_region_1684567303237_1501_tl_33" n="N038"/>Befehl, die Koffer zu hacken. <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s Wagen, mit zwei
+      <lb facs="#facs_2_line_1693292501886_777" n="N039"/>Postpferden bespannt, rollte fort. Ein anderer Wagen folgte<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-      <lb facs="#facs_2_line_1693292468854_747" n="N001"/>in einiger Entfernung. Der <rs type="person">Neffe</rs><rs type="person">Donizetti</rs>’s, ein oder
-      <lb facs="#facs_2_region_1684567306985_1504_tl_1" n="N002"/>zwei Freunde und der treue <rs type="person">Antonio</rs> saßen darin. In <rs type="place">Ivry</rs>
+            <p prev="true">
+      <lb facs="#facs_2_line_1693292468854_747" n="N001"/>in einiger Entfernung. Der <rs type="person" ref="#hsl_person_id_2539">Neffe</rs><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s, ein oder
+      <lb facs="#facs_2_region_1684567306985_1504_tl_1" n="N002"/>zwei Freunde und der treue <rs type="person" ref="#hsl_person_id_2540">Antonio</rs> saßen darin. In <rs type="place" ref="#hsl_place_id_284">Ivry</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684567306985_1504_tl_2" n="N003"/>angelangt, macht der Postillon die Pferde plötzlich bäumen,
-      <lb facs="#facs_2_region_1684567306985_1504_tl_3" n="N004"/>springt, lästerlich fluchend, vom Kutschbock und weckt den ein¬
-      <lb facs="#facs_2_region_1684567306985_1504_tl_4" n="N005"/>geschlummerten <rs type="person">Donizetti</rs> mit der Meldung, es sei die Achse
+      <lb facs="#facs_2_region_1684567306985_1504_tl_3" n="N004"/>springt, lästerlich fluchend, vom Kutschbock und weckt den ein
+      <lb facs="#facs_2_region_1684567306985_1504_tl_4" n="N005" break="no"/>geschlummerten <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> mit der Meldung, es sei die Achse
       <lb facs="#facs_2_region_1684567306985_1504_tl_5" n="N006"/>gebrochen und es bleibe jetzt, mitten in der Nacht, nichts
       <lb facs="#facs_2_region_1684567306985_1504_tl_6" n="N007"/>Anderes übrig, als sich in das glücklicherweise ganz nahe
       <lb facs="#facs_2_region_1684567306985_1504_tl_7" n="N008"/>Hotel zu verfügen. Halbverschlafen steigt unser Maëstro
-      <lb facs="#facs_2_region_1684567306985_1504_tl_8" n="N009"/>aus, der Director des Irrenhauses, M. <rs type="person">Moreau</rs>, den Wirth
+      <lb facs="#facs_2_region_1684567306985_1504_tl_8" n="N009"/>aus, der Director des Irrenhauses, M. <rs type="person" ref="#hsl_person_id_2536">Moreau</rs>, den Wirth
       <lb facs="#facs_2_region_1684567306985_1504_tl_9" n="N010"/>spielend, empfängt ihn mit den gasthausüblichen Begrüßungen.
-      <lb facs="#facs_2_region_1684567306985_1504_tl_10" n="N011"/>Man richtet <rs type="person">Donizetti</rs> in einem bequemen Zimmer ein.
-      <lb facs="#facs_2_region_1684567306985_1504_tl_11" n="N012"/>Am folgenden Tage erscheinen der <rs type="person">Neffe</rs>, die Freunde
-      <lb facs="#facs_2_region_1684567306985_1504_tl_12" n="N013"/>und <rs type="person">Antonio</rs>, angeblich in Folge einer ihnen den Unfall
-      <lb facs="#facs_2_region_1684567306985_1504_tl_13" n="N014"/>berichtenden Depesche, um <rs type="person">Donizetti</rs> zu besuchen. Man be¬
-      <lb facs="#facs_2_region_1684567306985_1504_tl_14" n="N015"/>stimmt ihn, noch einen Tag zu verweilen, dann noch einen,
-      <lb facs="#facs_2_region_1684567306985_1504_tl_15" n="N016"/>und einen dritten und vierten, bis endlich der Doctor voll¬
-      <lb facs="#facs_2_region_1684567306985_1504_tl_16" n="N017"/>ständig Herr des Patienten und von einem Fortgehen keine
-      <lb facs="#facs_2_region_1684567306985_1504_tl_17" n="N018"/>Rede mehr ist. Die sorgfältigste ärztliche Behandlung ver¬
-      <lb facs="#facs_2_region_1684567306985_1504_tl_18" n="N019"/>mochte aber leider nicht mehr, das zur Gehirn-Erweichung
+      <lb facs="#facs_2_region_1684567306985_1504_tl_10" n="N011"/>Man richtet <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> in einem bequemen Zimmer ein.
+      <lb facs="#facs_2_region_1684567306985_1504_tl_11" n="N012"/>Am folgenden Tage erscheinen der <rs type="person" ref="#hsl_person_id_2539">Neffe</rs>, die Freunde
+      <lb facs="#facs_2_region_1684567306985_1504_tl_12" n="N013"/>und <rs type="person" ref="#hsl_person_id_2540">Antonio</rs>, angeblich in Folge einer ihnen den Unfall
+      <lb facs="#facs_2_region_1684567306985_1504_tl_13" n="N014"/>berichtenden Depesche, um <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> zu besuchen. Man be
+      <lb facs="#facs_2_region_1684567306985_1504_tl_14" n="N015" break="no"/>stimmt ihn, noch einen Tag zu verweilen, dann noch einen,
+      <lb facs="#facs_2_region_1684567306985_1504_tl_15" n="N016"/>und einen dritten und vierten, bis endlich der Doctor voll
+      <lb facs="#facs_2_region_1684567306985_1504_tl_16" n="N017" break="no"/>ständig Herr des Patienten und von einem Fortgehen keine
+      <lb facs="#facs_2_region_1684567306985_1504_tl_17" n="N018"/>Rede mehr ist. Die sorgfältigste ärztliche Behandlung ver
+      <lb facs="#facs_2_region_1684567306985_1504_tl_18" n="N019" break="no"/>mochte aber leider nicht mehr, das zur Gehirn-Erweichung
       <lb facs="#facs_2_region_1684567306985_1504_tl_19" n="N020"/>vorgeschrittene Uebel zu heilen. Aus dem Irrenhause zu
-      <lb facs="#facs_2_region_1684567306985_1504_tl_20" n="N021"/><rs type="place">Ivry</rs> brachte man den armen, unheilbar Kranken zuerst in
-      <lb facs="#facs_2_region_1684567306985_1504_tl_21" n="N022"/>ein freundliches Landhaus bei den <rs type="place">Champs Elysées</rs>, von da
-      <lb facs="#facs_2_region_1684567306985_1504_tl_22" n="N023"/>endlich nach <rs type="place">Bergamo</rs>, seiner Vaterstadt. Sein Neffe <rs type="person">Andrea</rs>
-      <lb facs="#facs_2_region_1684567306985_1504_tl_23" n="N024"/>hatte die größten Schwierigkeiten, diese Heimkehr zu ermög¬
-      <lb facs="#facs_2_region_1684567306985_1504_tl_24" n="N025"/>lichen. Obgleich die Mehrzahl der zum Consilium berufenen
+      <lb facs="#facs_2_region_1684567306985_1504_tl_20" n="N021"/><rs type="place" ref="#hsl_place_id_284">Ivry</rs> brachte man den armen, unheilbar Kranken zuerst in
+      <lb facs="#facs_2_region_1684567306985_1504_tl_21" n="N022"/>ein freundliches Landhaus bei den <rs type="place" ref="#hsl_place_id_248">Champs Elysées</rs>, von da
+      <lb facs="#facs_2_region_1684567306985_1504_tl_22" n="N023"/>endlich nach <rs type="place" ref="#hsl_place_id_282">Bergamo</rs>, seiner Vaterstadt. Sein Neffe <rs type="person" ref="#hsl_person_id_2539">Andrea</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684567306985_1504_tl_23" n="N024"/>hatte die größten Schwierigkeiten, diese Heimkehr zu ermög
+      <lb facs="#facs_2_region_1684567306985_1504_tl_24" n="N025" break="no"/>lichen. Obgleich die Mehrzahl der zum Consilium berufenen
       <lb facs="#facs_2_region_1684567306985_1504_tl_25" n="N026"/>Aerzte die Reise für ungefährlich erklärte, wurde sie von
-      <lb facs="#facs_2_region_1684567306985_1504_tl_26" n="N027"/>der <rs type="place">Paris</rs>er Polizei kurzweg verboten. Unter dem Vorwand,
-      <lb facs="#facs_2_region_1684567306985_1504_tl_27" n="N028"/><rs type="person">Andrea</rs> wolle seinen kranken Oheim heimlich entführen,
+      <lb facs="#facs_2_region_1684567306985_1504_tl_26" n="N027"/>der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Polizei kurzweg verboten. Unter dem Vorwand,
+      <lb facs="#facs_2_region_1684567306985_1504_tl_27" n="N028"/><rs type="person" ref="#hsl_person_id_2539">Andrea</rs> wolle seinen kranken Oheim heimlich entführen,
       <lb facs="#facs_2_region_1684567306985_1504_tl_28" n="N029"/>schreckte die Behörde nicht vor der Brutalität zurück, bei
-      <lb facs="#facs_2_region_1684567306985_1504_tl_29" n="N030"/><rs type="person">Donizetti</rs>’s Portier Polizeimannschaft einzuquartieren, welche
+      <lb facs="#facs_2_region_1684567306985_1504_tl_29" n="N030"/><rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s Portier Polizeimannschaft einzuquartieren, welche
       <lb facs="#facs_2_region_1684567306985_1504_tl_30" n="N031"/>sogar eine vom Arzt angeordnete Spazierfahrt des Kranken
-      <lb facs="#facs_2_region_1684567306985_1504_tl_31" n="N032"/>verhinderte. <rs type="person">Andrea</rs> wendete sich zur Abwehr dieser Eigen¬
-      <lb facs="#facs_2_region_1684567306985_1504_tl_32" n="N033"/>mächtigkeit an drei der berühmtesten <rs type="place">Paris</rs>er Advocaten,
-      <lb facs="#facs_2_region_1684567306985_1504_tl_33" n="N034"/><hi rendition="#em"><rs type="person">Marié</rs></hi>, <hi rendition="#em"><rs type="person">Cremieux</rs></hi> und <hi rendition="#em"><rs type="person">Berryer</rs></hi>. Die Autorität
-      <lb facs="#facs_2_region_1684567306985_1504_tl_34" n="N035"/>dieser Männer und die Bemühungen seines eigens herbei¬
-      <lb facs="#facs_2_region_1684567306985_1504_tl_35" n="N036"/>geeilten Bruders <rs type="person">Francesco</rs> scheinen <rs type="person">Donizetti</rs>’s Ueber¬
-      <lb facs="#facs_2_region_1684567306985_1504_tl_36" n="N037"/>führung nach <rs type="place">Bergamo</rs> endlich ermöglicht zu haben.*)
-      <lb facs="#facs_2_line_1693292519310_795" n="N038"/>*) Nach Briefen Andrea <rs type="person">Donizetti</rs>’s an Dr. L. <rs type="person">Herz</rs> in <rs type="place">Wien</rs>,
-      <lb facs="#facs_2_line_1693292521365_798" n="N039"/>veröffentlicht von Angelo <hi rendition="#em"><rs type="person">Eisner v. Eisenhof</rs></hi>. <date month="0" day="0" year="0">1897</date>.</p>
+      <lb facs="#facs_2_region_1684567306985_1504_tl_31" n="N032"/>verhinderte. <rs type="person" ref="#hsl_person_id_2539">Andrea</rs> wendete sich zur Abwehr dieser Eigen
+      <lb facs="#facs_2_region_1684567306985_1504_tl_32" n="N033" break="no"/>mächtigkeit an drei der berühmtesten <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Advocaten,
+      <lb facs="#facs_2_region_1684567306985_1504_tl_33" n="N034"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2542">Marié</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2538">Cremieux</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2541">Berryer</rs></hi>. Die Autorität
+      <lb facs="#facs_2_region_1684567306985_1504_tl_34" n="N035"/>dieser Männer und die Bemühungen seines eigens herbei
+      <lb facs="#facs_2_region_1684567306985_1504_tl_35" n="N036" break="no"/>geeilten Bruders <rs type="person" ref="#hsl_person_id_2543">Francesco</rs> scheinen <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s Ueber
+      <lb facs="#facs_2_region_1684567306985_1504_tl_36" n="N037" break="no"/>führung nach <rs type="place" ref="#hsl_place_id_282">Bergamo</rs> endlich ermöglicht zu haben.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_2_line_1693292519310_795" n="N038"/>Nach Briefen Andrea <rs type="person" ref="#hsl_person_id_2539">Donizetti</rs>’s an Dr. L. <rs type="person" ref="#hsl_person_id_123">Herz</rs> in <rs type="place" ref="#hsl_place_id_55">Wien</rs>,
+            <lb facs="#facs_2_line_1693292521365_798" n="N039"/>veröffentlicht von Angelo <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1553">Eisner v. Eisenhof</rs></hi>. <date>1897</date>.
+            </note><space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
-            <p>
-      <lb facs="#facs_3_region_1684567317644_1510_tl_1" n="N001"/>Wenige Minuten vor seinem Tode — <rs type="person">Donizetti</rs> hatte seit
+            <p prev="true">
+      <lb facs="#facs_3_region_1684567317644_1510_tl_1" n="N001"/>Wenige Minuten vor seinem Tode — <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> hatte seit
       <lb facs="#facs_3_region_1684567317644_1510_tl_2" n="N002"/>Langem theilnahmslos und ohne Jemanden wieder zu erkennen,
       <lb facs="#facs_3_region_1684567317644_1510_tl_3" n="N003"/>hingeträumt — spielte eine Straßenorgel vor seinem Fenster
-      <lb facs="#facs_3_region_1684567317644_1510_tl_4" n="N004"/>das Final-Sextett aus der „<rs type="bibl">Lucia</rs>“. Eine plötzliche Klarheit
+      <lb facs="#facs_3_region_1684567317644_1510_tl_4" n="N004"/>das Final-Sextett aus der „<rs type="bibl" ref="#hsl_work_id_95">Lucia</rs>“. Eine plötzliche Klarheit
       <lb facs="#facs_3_region_1684567317644_1510_tl_5" n="N005"/>leuchtete aus dem erloschenen Auge des Kranken, ein leises
       <lb facs="#facs_3_region_1684567317644_1510_tl_6" n="N006"/>Lächeln glitt über seine Züge, sein Kopf sank auf das Kissen
-      <lb facs="#facs_3_region_1684567317644_1510_tl_7" n="N007"/>zurück, und <rs type="person">Donizetti</rs> hatte aufgehört zu leben.
-      <lb facs="#facs_3_region_1684567317644_1510_tl_8" n="N008"/>In <rs type="place">Wien</rs> machte der Tod <rs type="person">Donizetti</rs>’s keinen Eindruck.
-      <lb facs="#facs_3_region_1684567317644_1510_tl_9" n="N009"/>Kein Todtenamt, keine Gedächtnißfeier, kaum ein Zeitungs¬
-      <lb facs="#facs_3_region_1684567317644_1510_tl_10" n="N010"/>artikel. Der Mann, der an vielhundert Abenden vieltausend
+      <lb facs="#facs_3_region_1684567317644_1510_tl_7" n="N007"/>zurück, und <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> hatte aufgehört zu leben.
+            </p><p>
+      <lb facs="#facs_3_region_1684567317644_1510_tl_8" n="N008"/>In <rs type="place" ref="#hsl_place_id_55">Wien</rs> machte der Tod <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s keinen Eindruck.
+      <lb facs="#facs_3_region_1684567317644_1510_tl_9" n="N009"/>Kein Todtenamt, keine Gedächtnißfeier, kaum ein Zeitungs
+      <lb facs="#facs_3_region_1684567317644_1510_tl_10" n="N010" break="no"/>artikel. Der Mann, der an vielhundert Abenden vieltausend
       <lb facs="#facs_3_region_1684567317644_1510_tl_11" n="N011"/>Menschen entzückt hatte, wie ein Triumphator von einer
       <lb facs="#facs_3_region_1684567317644_1510_tl_12" n="N012"/>Huldigung zur andern ziehend, er ist still und unbemerkt
-      <lb facs="#facs_3_region_1684567317644_1510_tl_13" n="N013"/>gestorben. Man erfuhr in <rs type="place">Wien</rs> die Todesnachricht spät,
+      <lb facs="#facs_3_region_1684567317644_1510_tl_13" n="N013"/>gestorben. Man erfuhr in <rs type="place" ref="#hsl_place_id_55">Wien</rs> die Todesnachricht spät,
       <lb facs="#facs_3_region_1684567317644_1510_tl_14" n="N014"/>durch ein Journal, das man zufällig zur Hand nahm, oder
       <lb facs="#facs_3_region_1684567317644_1510_tl_15" n="N015"/>durch eine flüchtige Erwähnung, unter dem Lärm der Waffen,
       <lb facs="#facs_3_region_1684567317644_1510_tl_16" n="N016"/>in dem Gedränge einer Volksversammlung. Ein Jahr vorher
       <lb facs="#facs_3_region_1684567317644_1510_tl_17" n="N017"/>freilich, als noch die Tagespresse wöchentliche Bulletins
-      <lb facs="#facs_3_region_1684567317644_1510_tl_18" n="N018"/>brachte, welche das Publicum von <rs type="place">Europa</rs> von dem Be¬
-      <lb facs="#facs_3_region_1684567317644_1510_tl_19" n="N019"/>finden des armen Wahnsinnigen in Kenntniß erhielten, da
+      <lb facs="#facs_3_region_1684567317644_1510_tl_18" n="N018"/>brachte, welche das Publicum von <rs type="place" ref="#hsl_place_id_19">Europa</rs> von dem Be
+      <lb facs="#facs_3_region_1684567317644_1510_tl_19" n="N019" break="no"/>finden des armen Wahnsinnigen in Kenntniß erhielten, da
       <lb facs="#facs_3_region_1684567317644_1510_tl_20" n="N020"/>hätte es Niemand für möglich gehalten, daß der Gefeierte
       <lb facs="#facs_3_region_1684567317644_1510_tl_21" n="N021"/>bald darauf ohne die mindeste Sensation sterben könne!
-      <lb facs="#facs_3_region_1684567317644_1510_tl_22" n="N022"/>Das Räthsel ist leicht gelöst: <rs type="person">Donizetti</rs> verschied am 8. April
-      <lb facs="#facs_3_region_1684567317644_1510_tl_23" n="N023"/><date month="0" day="0" year="0">1848</date>. — Er hatte eine ungünstige Zeit gewählt. Die Zeit
+      <lb facs="#facs_3_region_1684567317644_1510_tl_22" n="N022"/>Das Räthsel ist leicht gelöst: <rs type="person" ref="#hsl_person_id_63">Donizetti</rs> verschied am 8. April
+      <lb facs="#facs_3_region_1684567317644_1510_tl_23" n="N023"/><date>1848</date>. — Er hatte eine ungünstige Zeit gewählt. Die Zeit
       <lb facs="#facs_3_region_1684567317644_1510_tl_24" n="N024"/>war gut zum Leben, doch nicht zum Sterben. Es waren
-      <lb facs="#facs_3_region_1684567317644_1510_tl_25" n="N025"/>die Flitterwochen nach dem großen <rs type="place">deutsch</rs>en Freiheitsfeste,
+      <lb facs="#facs_3_region_1684567317644_1510_tl_25" n="N025"/>die Flitterwochen nach dem großen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Freiheitsfeste,
       <lb facs="#facs_3_region_1684567317644_1510_tl_26" n="N026"/>und wenn man mit Millionen Brüdern in begeistertem
-      <lb facs="#facs_3_region_1684567317644_1510_tl_27" n="N027"/>Hochzeitsjubel schweigt, so übersieht man wol leicht den ein¬
-      <lb facs="#facs_3_region_1684567317644_1510_tl_28" n="N028"/>zelnen Sarg, der indeß still vorübergetragen wird.
-      <lb facs="#facs_3_region_1684567317644_1510_tl_29" n="N029"/>Jetzt trachtet eine politisch beruhigtere Generation gut¬
-      <lb facs="#facs_3_region_1684567317644_1510_tl_30" n="N030"/>zumachen, was wir im Frühjahre <date month="0" day="0" year="0">1848</date> unfreiwillig ver¬
-      <lb facs="#facs_3_region_1684567317644_1510_tl_31" n="N031"/>säumen mußten. Seine schönsten Melodien — das wissen
+      <lb facs="#facs_3_region_1684567317644_1510_tl_27" n="N027"/>Hochzeitsjubel schweigt, so übersieht man wol leicht den ein
+      <lb facs="#facs_3_region_1684567317644_1510_tl_28" n="N028" break="no"/>zelnen Sarg, der indeß still vorübergetragen wird.
+            </p><p>
+      <lb facs="#facs_3_region_1684567317644_1510_tl_29" n="N029"/>Jetzt trachtet eine politisch beruhigtere Generation gut
+      <lb facs="#facs_3_region_1684567317644_1510_tl_30" n="N030" break="no"/>zumachen, was wir im Frühjahre <date>1848</date> unfreiwillig ver
+      <lb facs="#facs_3_region_1684567317644_1510_tl_31" n="N031" break="no"/>säumen mußten. Seine schönsten Melodien — das wissen
       <lb facs="#facs_3_region_1684567317644_1510_tl_32" n="N032"/>wir jetzt — haben manches Ideal überlebt, wofür wir jungen
-      <lb facs="#facs_3_region_1684567317644_1510_tl_33" n="N033"/>Achtundvierziger geschwärmt haben. In <rs type="place">Bergamo</rs> werden
-      <lb facs="#facs_3_region_1684567317644_1510_tl_34" n="N034"/>sich von Nah und Fern, auch aus <rs type="place">Wien</rs>, Abgesandte ein¬
-      <lb facs="#facs_3_region_1684567317644_1510_tl_35" n="N035"/>finden, das Andenken des einst so hellstrahlenden und viel¬
-      <lb facs="#facs_3_region_1684567317644_1510_tl_36" n="N036"/>geliebten Künstlers zu feiern. Wer nur Eine Melodie
-      <lb facs="#facs_3_region_1684567317644_1510_tl_37" n="N037"/><rs type="person">Donizetti</rs>’s je im Herzen gehegt, sie in Leid oder Freud’
+      <lb facs="#facs_3_region_1684567317644_1510_tl_33" n="N033"/>Achtundvierziger geschwärmt haben. In <rs type="place" ref="#hsl_place_id_282">Bergamo</rs> werden
+      <lb facs="#facs_3_region_1684567317644_1510_tl_34" n="N034"/>sich von Nah und Fern, auch aus <rs type="place" ref="#hsl_place_id_55">Wien</rs>, Abgesandte ein
+      <lb facs="#facs_3_region_1684567317644_1510_tl_35" n="N035" break="no"/>finden, das Andenken des einst so hellstrahlenden und viel
+      <lb facs="#facs_3_region_1684567317644_1510_tl_36" n="N036" break="no"/>geliebten Künstlers zu feiern. Wer nur Eine Melodie
+      <lb facs="#facs_3_region_1684567317644_1510_tl_37" n="N037"/><rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s je im Herzen gehegt, sie in Leid oder Freud’
       <lb facs="#facs_3_region_1684567317644_1510_tl_38" n="N038"/>vor sich hingesungen, der steht in seiner Schuld und wird
       <lb facs="#facs_3_line_1693292542526_808" n="N039"/>diese Schuld gern abtragen durch ein dankbares Erinnern.</p>
          </div>
