@@ -106,6 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2023-08-25">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-09-16">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-10-03">Formatierung und Referenzen eingefügt.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -817,234 +818,237 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <lb facs="#facs_1_region_1684565994235_997_tl_1" n="N001"/>Hofoperntheater.
-            <lb facs="#facs_1_region_1684565994235_997_tl_2" n="N002"/>(<hi rendition="#em"><rs type="person">Bizet</rs>’s</hi> einactige Oper „<hi rendition="#em"><rs type="bibl">Djamileh</rs></hi>“.)
+            <lb facs="#facs_1_region_1684565994235_997_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+               <lb facs="#facs_1_region_1684565994235_997_tl_2" n="N002"/><head type="h2">(<hi rendition="#em"><rs type="person" ref="#hsl_person_id_1298">Bizet</rs>’s</hi> einactige Oper „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs></hi>“.)</head>
             <p>
-      <lb facs="#facs_1_region_1684565994235_997_tl_3" n="N003"/>Ed. H. <rs type="person">Bizet</rs>’s „<rs type="bibl">Djamileh</rs>“ spielt im Orient, einem
+                  <lb facs="#facs_1_region_1684565994235_997_tl_3" n="N003"/>Ed. H. <rs type="person" ref="#hsl_person_id_1298">Bizet</rs>’s „<rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>“ spielt im Orient, einem
       <lb facs="#facs_1_region_1684565994235_997_tl_4" n="N004"/>Gebiet, das, von Operncomponisten des vorigen Jahrhunderts
       <lb facs="#facs_1_region_1684565994235_997_tl_5" n="N005"/>sehr fleißig betreten, seit siebzig Jahren immer mehr aus
-      <lb facs="#facs_1_region_1684565994235_997_tl_6" n="N006"/>der Mode gekommen ist. Am wenigsten fühlte <rs type="place">Deutschland</rs>
-      <lb facs="#facs_1_region_1684565994235_997_tl_7" n="N007"/>sich zu einem Welttheil hingezogen, mit dem es, im Gegen¬
-      <lb facs="#facs_1_region_1684565994235_997_tl_8" n="N008"/>satz zu <rs type="place">Frankreich</rs> und <rs type="place">Italien</rs>, nur spärliche Beziehungen
-      <lb facs="#facs_1_region_1684565994235_997_tl_9" n="N009"/>hatte. Vielleicht gewinnen wir eines Tages aus <rs type="place">Kiaotschau</rs>
-      <lb facs="#facs_1_region_1684565994235_997_tl_10" n="N010"/>neue <rs type="place">chinesisch</rs>e Opernstoffe. Nach <rs type="person">Mozart</rs>’s „<rs type="bibl">Entführung</rs>“
-      <lb facs="#facs_1_region_1684565994235_997_tl_11" n="N011"/>und <rs type="person">Winter</rs>’s „<rs type="bibl">Opferfest</rs>“, war über ein Vierteljahrhundert
-      <lb facs="#facs_1_region_1684565994235_997_tl_12" n="N012"/>verflossen bis zu <rs type="person">Spohr</rs>’s <rs type="place">indisch</rs>er „<rs type="bibl">Jessonda</rs>“, und seit
+      <lb facs="#facs_1_region_1684565994235_997_tl_6" n="N006"/>der Mode gekommen ist. Am wenigsten fühlte <rs type="place" ref="#hsl_place_id_14">Deutschland</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684565994235_997_tl_7" n="N007"/>sich zu einem Welttheil hingezogen, mit dem es, im Gegen
+      <lb facs="#facs_1_region_1684565994235_997_tl_8" n="N008" break="no"/>satz zu <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> und <rs type="place" ref="#hsl_place_id_28">Italien</rs>, nur spärliche Beziehungen
+      <lb facs="#facs_1_region_1684565994235_997_tl_9" n="N009"/>hatte. Vielleicht gewinnen wir eines Tages aus <rs type="place" ref="#hsl_place_id_309">Kiaotschau</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684565994235_997_tl_10" n="N010"/>neue <rs type="place" ref="#hsl_place_id_82">chinesisch</rs>e Opernstoffe. Nach <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s „<rs type="bibl" ref="#hsl_work_id_1292">Entführung</rs>“
+      <lb facs="#facs_1_region_1684565994235_997_tl_11" n="N011"/>und <rs type="person" ref="#hsl_person_id_2198">Winter</rs>’s „<rs type="bibl" ref="#hsl_work_id_1609">Opferfest</rs>“, war über ein Vierteljahrhundert
+      <lb facs="#facs_1_region_1684565994235_997_tl_12" n="N012"/>verflossen bis zu <rs type="person" ref="#hsl_person_id_293">Spohr</rs>’s <rs type="place" ref="#hsl_place_id_83">indisch</rs>er „<rs type="bibl" ref="#hsl_work_id_162">Jessonda</rs>“, und seit
       <lb facs="#facs_1_region_1684565994235_997_tl_13" n="N013"/>dieser vor siebzig Jahren erschienenen Oper haben nur
-      <lb facs="#facs_1_region_1684565994235_997_tl_14" n="N014"/><rs type="person">Goldmark</rs> und <rs type="person">Cornelius</rs> vorübergehend den Orient aufge¬
-      <lb facs="#facs_1_region_1684565994235_997_tl_15" n="N015"/>sucht. <rs type="place">Italienisch</rs>e Operncomponisten benützen den Orien¬
-      <lb facs="#facs_1_line_1692344241613_1373" n="N016"/>talen, speciell den Türken, gern als komische Figur; wie
-      <lb facs="#facs_1_region_1684565994235_997_tl_17" n="N017"/>viel ist nicht gelacht worden in <rs type="person">Rossini</rs>’s „<rs type="bibl">Italienerin in</rs>
-      <lb facs="#facs_1_region_1684565994235_997_tl_18" n="N018"/><rs type="bibl">Algier</rs>“, seinem „<rs type="bibl">Türken in Italien</rs>“ und deren späterem
-      <lb facs="#facs_1_region_1684565994235_997_tl_19" n="N019"/>Nachzügler „<rs type="bibl">Tutti in maschera</rs>“ von <rs type="person">Pedrotti</rs>! Mit einer
-      <lb facs="#facs_1_region_1684565994235_997_tl_20" n="N020"/>einzigen hervorragenden Ausnahme („<rs type="bibl">Aïda</rs>“) zogen alle diese
-      <lb facs="#facs_1_region_1684565994235_997_tl_21" n="N021"/><rs type="place">italienisch</rs>en Opern ihre Hauptwirkung aus dem Gegensatz
+      <lb facs="#facs_1_region_1684565994235_997_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_101">Goldmark</rs> und <rs type="person" ref="#hsl_person_id_821">Cornelius</rs> vorübergehend den Orient aufge
+      <lb facs="#facs_1_region_1684565994235_997_tl_15" n="N015" break="no"/>sucht. <rs type="place" ref="#hsl_place_id_28">Italienisch</rs>e Operncomponisten benützen den Orien
+      <lb facs="#facs_1_line_1692344241613_1373" n="N016" break="no"/>talen, speciell den Türken, gern als komische Figur; wie
+      <lb facs="#facs_1_region_1684565994235_997_tl_17" n="N017"/>viel ist nicht gelacht worden in <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s „<rs type="bibl" ref="#hsl_work_id_449">Italienerin in
+      <lb facs="#facs_1_region_1684565994235_997_tl_18" n="N018"/>Algier</rs>“, seinem „<rs type="bibl" ref="#hsl_work_id_448">Türken in Italien</rs>“ und deren späterem
+      <lb facs="#facs_1_region_1684565994235_997_tl_19" n="N019"/>Nachzügler „<rs type="bibl" ref="#hsl_work_id_381">Tutti in maschera</rs>“ von <rs type="person" ref="#hsl_person_id_497">Pedrotti</rs>! Mit einer
+      <lb facs="#facs_1_region_1684565994235_997_tl_20" n="N020"/>einzigen hervorragenden Ausnahme („<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“) zogen alle diese
+      <lb facs="#facs_1_region_1684565994235_997_tl_21" n="N021"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Opern ihre Hauptwirkung aus dem Gegensatz
       <lb facs="#facs_1_line_1692344276404_1404" n="N022"/>zwischen Europäern und Orientalen. Dieses Motiv beherrscht
-      <lb facs="#facs_1_region_1684565994235_997_tl_22" n="N023"/>auch die <rs type="place">französisch</rs>e Opern-Production, welche relativ noch
+      <lb facs="#facs_1_region_1684565994235_997_tl_22" n="N023"/>auch die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Opern-Production, welche relativ noch
       <lb facs="#facs_1_region_1684565994235_997_tl_23" n="N024"/>am häufigsten zurückgekehrt ist zu orientalischen Stoffen.
-      <lb facs="#facs_1_line_1692344253033_1383" n="N025"/><rs type="person">Auber</rs>’s „<rs type="bibl">Premier jour de bonheur</rs>“ und der „<rs type="bibl">Kadi</rs>“ von
-      <lb facs="#facs_1_line_1692344262292_1393" n="N026"/>Ambroise <rs type="person">Thomas</rs> bringen orientalische Sitten in komischen
-      <lb facs="#facs_1_region_1684565994235_997_tl_26" n="N027"/>Contrast zu <rs type="place">französisch</rs>er Cultur; <rs type="person">Delibes</rs>’ „<rs type="bibl">Lakmé</rs>“ spielt
-      <lb facs="#facs_1_region_1684565994235_997_tl_27" n="N028"/>Engländer und Indier gegen einander aus. Félicien <rs type="person">David</rs>,
+      <lb facs="#facs_1_line_1692344253033_1383" n="N025"/><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s „<rs type="bibl" ref="#hsl_work_id_1610">Premier jour de bonheur</rs>“ und der „<rs type="bibl" ref="#hsl_work_id_1611">Kadi</rs>“ von
+      <lb facs="#facs_1_line_1692344262292_1393" n="N026"/>Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs> bringen orientalische Sitten in komischen
+      <lb facs="#facs_1_region_1684565994235_997_tl_26" n="N027"/>Contrast zu <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Cultur; <rs type="person" ref="#hsl_person_id_1447">Delibes</rs>’ „<rs type="bibl" ref="#hsl_work_id_1612">Lakmé</rs>“ spielt
+      <lb facs="#facs_1_region_1684565994235_997_tl_27" n="N028"/>Engländer und Indier gegen einander aus. Félicien <rs type="person" ref="#hsl_person_id_969">David</rs>,
       <lb facs="#facs_1_region_1684565994235_997_tl_28" n="N029"/>unter den Franzosen der musikalische Generalpächter des
-      <lb facs="#facs_1_region_1684565994235_997_tl_29" n="N030"/>Orients, verzichtet in seiner <rs type="place">indisch</rs>en „<rs type="bibl">Lalla Rookh</rs>“ auf
-      <lb facs="#facs_1_region_1684565994235_997_tl_30" n="N031"/>diesen Contrast, und gleicherweise behilft sich <rs type="person">Bizet</rs>’s kleine
+      <lb facs="#facs_1_region_1684565994235_997_tl_29" n="N030"/>Orients, verzichtet in seiner <rs type="place" ref="#hsl_place_id_83">indisch</rs>en „<rs type="bibl" ref="#hsl_work_id_645">Lalla Rookh</rs>“ auf
+      <lb facs="#facs_1_region_1684565994235_997_tl_30" n="N031"/>diesen Contrast, und gleicherweise behilft sich <rs type="person" ref="#hsl_person_id_1298">Bizet</rs>’s kleine
       <lb facs="#facs_1_region_1684565994235_997_tl_31" n="N032"/>Oper, bei der wir nun wieder angelangt wären, ohne
       <lb facs="#facs_1_region_1684565994235_997_tl_32" n="N033"/>Europäer.</p>
             <cb n="2"/>
             <p>
       <lb facs="#facs_1_line_1692344301380_1427" n="N001"/>Nur drei Personen bewegen die einfache Handlung von
-      <lb facs="#facs_1_line_1692344309733_1437" n="N002"/>„<rs type="bibl">Djamileh</rs>“: ein reicher junger Türke, Namens <rs type="person">Harun</rs>,
-      <lb facs="#facs_1_region_1684565997631_1000_tl_1" n="N003"/>dann sein Hausverwalter und ehemaliger Erzieher <rs type="person">Splendiano</rs>,
-      <lb facs="#facs_1_region_1684565997631_1000_tl_2" n="N004"/>endlich die Sklavin <rs type="person">Djamileh</rs>. <rs type="person">Harun</rs> lebt ein lustiges, ver¬
-      <lb facs="#facs_1_region_1684565997631_1000_tl_3" n="N005"/>schwenderisches Junggesellenleben. Gewarnt durch die unglück¬
-      <lb facs="#facs_1_region_1684565997631_1000_tl_4" n="N006"/>liche Ehe seines Vaters, hütet er sich ängstlich, von einem
+      <lb facs="#facs_1_line_1692344309733_1437" n="N002"/>„<rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>“: ein reicher junger Türke, Namens <rs type="person" ref="#hsl_person_id_2750">Harun</rs>,
+      <lb facs="#facs_1_region_1684565997631_1000_tl_1" n="N003"/>dann sein Hausverwalter und ehemaliger Erzieher <rs type="person" ref="#hsl_person_id_2751">Splendiano</rs>,
+      <lb facs="#facs_1_region_1684565997631_1000_tl_2" n="N004"/>endlich die Sklavin <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>. <rs type="person" ref="#hsl_person_id_2750">Harun</rs> lebt ein lustiges, ver
+      <lb facs="#facs_1_region_1684565997631_1000_tl_3" n="N005" break="no"/>schwenderisches Junggesellenleben. Gewarnt durch die unglück
+      <lb facs="#facs_1_region_1684565997631_1000_tl_4" n="N006" break="no"/>liche Ehe seines Vaters, hütet er sich ängstlich, von einem
       <lb facs="#facs_1_region_1684565997631_1000_tl_5" n="N007"/>Weibe gefesselt zu werden. Daher sein streng eingehaltenes
       <lb facs="#facs_1_region_1684565997631_1000_tl_6" n="N008"/>Princip, keine Sklavin länger als einen Monat in seinem
-      <lb facs="#facs_1_region_1684565997631_1000_tl_7" n="N009"/>Dienst zu behalten. Seine letzte Sklavin, <rs type="person">Djamileh</rs>, eine
-      <lb facs="#facs_1_region_1684565997631_1000_tl_8" n="N010"/>sinnige, tief empfindende Natur, verhehlt mühsam die leiden¬
-      <lb facs="#facs_1_region_1684565997631_1000_tl_9" n="N011"/>schaftliche Liebe für ihren Herrn. <rs type="person">Harun</rs>, der nichts
+      <lb facs="#facs_1_region_1684565997631_1000_tl_7" n="N009"/>Dienst zu behalten. Seine letzte Sklavin, <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>, eine
+      <lb facs="#facs_1_region_1684565997631_1000_tl_8" n="N010"/>sinnige, tief empfindende Natur, verhehlt mühsam die leiden
+      <lb facs="#facs_1_region_1684565997631_1000_tl_9" n="N011" break="no"/>schaftliche Liebe für ihren Herrn. <rs type="person" ref="#hsl_person_id_2750">Harun</rs>, der nichts
       <lb facs="#facs_1_region_1684565997631_1000_tl_10" n="N012"/>davon ahnt, behandelt sie gleichgiltig. Um so sicherer
-      <lb facs="#facs_1_region_1684565997631_1000_tl_11" n="N013"/>rechnet <rs type="person">Splendiano</rs> darauf, die Schöne für sich zu ge¬
-      <lb facs="#facs_1_region_1684565997631_1000_tl_12" n="N014"/>winnen. Er erinnert seinen Gebieter, daß der festgesetzte
-      <lb facs="#facs_1_region_1684565997631_1000_tl_13" n="N015"/>Tag der Verabschiedung <rs type="person">Djamileh</rs>’s gekommen sei, und
-      <lb facs="#facs_1_line_1692344375819_1448" n="N016"/><rs type="person">Harun</rs> bestellt unverzüglich den Sklavenhändler, der ihm
-      <lb facs="#facs_1_region_1684565997631_1000_tl_14" n="N017"/>neue Waare bringen soll. Während <rs type="person">Harun</rs> mit seinen
-      <lb facs="#facs_1_region_1684565997631_1000_tl_15" n="N018"/>Freunden sich am Würfelspiel ergötzt, verkündet <rs type="person">Splendiano</rs>
-      <lb facs="#facs_1_region_1684565997631_1000_tl_16" n="N019"/>der armen <rs type="person">Djamileh</rs>, was ihr bevorsteht. Sie erbittet sich
-      <lb facs="#facs_1_line_1692344243568_1376" n="N020"/>nur das Eine: daß sie noch einmal an Stelle der neuge¬
-      <lb facs="#facs_1_region_1684565997631_1000_tl_17" n="N021"/>wählten Sklavin, in deren Tracht verkleidet, <rs type="person">Harun</rs> bedienen
-      <lb facs="#facs_1_line_1692344385772_1458" n="N022"/>dürfe. Vielleicht gelänge es ihr, in dieser Täuschung <rs type="person">Harun</rs>’s
-      <lb facs="#facs_1_region_1684565997631_1000_tl_18" n="N023"/>Herz zu rühren. <rs type="person">Splendiano</rs> geht darauf ein, verrechnet sich
-      <lb facs="#facs_1_region_1684565997631_1000_tl_19" n="N024"/>aber in seinen Erwartungen. In dem entscheidenden Augen¬
-      <lb facs="#facs_1_region_1684565997631_1000_tl_20" n="N025"/>blick fühlt <rs type="person">Harun</rs> von <rs type="person">Djamileh</rs>’s treuer Hingebung sich
+      <lb facs="#facs_1_region_1684565997631_1000_tl_11" n="N013"/>rechnet <rs type="person" ref="#hsl_person_id_2751">Splendiano</rs> darauf, die Schöne für sich zu ge
+      <lb facs="#facs_1_region_1684565997631_1000_tl_12" n="N014" break="no"/>winnen. Er erinnert seinen Gebieter, daß der festgesetzte
+      <lb facs="#facs_1_region_1684565997631_1000_tl_13" n="N015"/>Tag der Verabschiedung <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>’s gekommen sei, und
+      <lb facs="#facs_1_line_1692344375819_1448" n="N016"/><rs type="person" ref="#hsl_person_id_2750">Harun</rs> bestellt unverzüglich den Sklavenhändler, der ihm
+      <lb facs="#facs_1_region_1684565997631_1000_tl_14" n="N017"/>neue Waare bringen soll. Während <rs type="person" ref="#hsl_person_id_2750">Harun</rs> mit seinen
+      <lb facs="#facs_1_region_1684565997631_1000_tl_15" n="N018"/>Freunden sich am Würfelspiel ergötzt, verkündet <rs type="person" ref="#hsl_person_id_2751">Splendiano</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684565997631_1000_tl_16" n="N019"/>der armen <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>, was ihr bevorsteht. Sie erbittet sich
+      <lb facs="#facs_1_line_1692344243568_1376" n="N020"/>nur das Eine: daß sie noch einmal an Stelle der neuge
+      <lb facs="#facs_1_region_1684565997631_1000_tl_17" n="N021" break="no"/>wählten Sklavin, in deren Tracht verkleidet, <rs type="person" ref="#hsl_person_id_2750">Harun</rs> bedienen
+      <lb facs="#facs_1_line_1692344385772_1458" n="N022"/>dürfe. Vielleicht gelänge es ihr, in dieser Täuschung <rs type="person" ref="#hsl_person_id_2750">Harun</rs>’s
+      <lb facs="#facs_1_region_1684565997631_1000_tl_18" n="N023"/>Herz zu rühren. <rs type="person" ref="#hsl_person_id_2751">Splendiano</rs> geht darauf ein, verrechnet sich
+      <lb facs="#facs_1_region_1684565997631_1000_tl_19" n="N024"/>aber in seinen Erwartungen. In dem entscheidenden Augen
+      <lb facs="#facs_1_region_1684565997631_1000_tl_20" n="N025" break="no"/>blick fühlt <rs type="person" ref="#hsl_person_id_2750">Harun</rs> von <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>’s treuer Hingebung sich
       <lb facs="#facs_1_line_1692344278203_1407" n="N026"/>mächtig bewegt; er erkennt, wo das wahre Lebensglück ihm
       <lb facs="#facs_1_region_1684565997631_1000_tl_22" n="N027"/>winke, und denkt nicht mehr an eine Trennung.
-      <lb facs="#facs_1_region_1684565997631_1000_tl_23" n="N028"/>Das Textbuch ist nach Alfred de <rs type="person">Musset</rs>’s „<rs type="bibl">Namouna</rs>“
-      <lb facs="#facs_1_line_1692344254984_1386" n="N029"/>von L. <hi rendition="#em"><rs type="person">Gallet</rs></hi> geschickt bearbeitet. Dem Uebersetzer Herrn
-      <lb facs="#facs_1_line_1692344264284_1396" n="N030"/>Ludwig <hi rendition="#em"><rs type="person">Hartmann</rs></hi> gebührt das Verdienst, die halbver¬
-      <lb facs="#facs_1_region_1684565997631_1000_tl_24" n="N031"/>gessene Oper <rs type="person">Bizet</rs>’s der <rs type="place">deutsch</rs>en Bühne erobert zu haben.
-      <lb facs="#facs_1_region_1684565997631_1000_tl_25" n="N032"/>Die Handlung zeigt in ihrem Hauptmotiv eine starke Ver¬
-      <lb facs="#facs_1_region_1684565997631_1000_tl_26" n="N033"/>wandtschaft mit „<rs type="bibl">Freund Fritz</rs>“. Auch hier der ehescheue
-      <lb facs="#facs_1_region_1684565997631_1000_tl_27" n="N034"/>reiche Junggeselle, der, von der echten Liebe seiner <rs type="person">Susel</rs>
-      <lb facs="#facs_1_region_1684565997631_1000_tl_28" n="N035"/>gerührt, sie schließlich heiratet. Allein so wie das <rs type="place">Elsaß</rs>
-      <lb facs="#facs_1_region_1684565997631_1000_tl_29" n="N036"/>unseren Schritten, so liegen auch <rs type="person">Fritz</rs> und <rs type="person">Susel</rs> unserem
-      <lb facs="#facs_1_line_1692344292292_1417" n="N037"/>Herzen näher, als die beiden seltsamen <rs type="place">egyptisch</rs>en Leutchen.</p>
+            </p><p>
+      <lb facs="#facs_1_region_1684565997631_1000_tl_23" n="N028"/>Das Textbuch ist nach Alfred de <rs type="person" ref="#hsl_person_id_2752">Musset</rs>’s „<rs type="bibl" ref="#hsl_work_id_1613">Namouna</rs>“
+      <lb facs="#facs_1_line_1692344254984_1386" n="N029"/>von L. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1999">Gallet</rs></hi> geschickt bearbeitet. Dem Uebersetzer Herrn
+      <lb facs="#facs_1_line_1692344264284_1396" n="N030"/>Ludwig <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2585">Hartmann</rs></hi> gebührt das Verdienst, die halbver
+      <lb facs="#facs_1_region_1684565997631_1000_tl_24" n="N031" break="no"/>gessene Oper <rs type="person" ref="#hsl_person_id_1298">Bizet</rs>’s der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühne erobert zu haben.
+      <lb facs="#facs_1_region_1684565997631_1000_tl_25" n="N032"/>Die Handlung zeigt in ihrem Hauptmotiv eine starke Ver
+      <lb facs="#facs_1_region_1684565997631_1000_tl_26" n="N033" break="no"/>wandtschaft mit „<rs type="bibl" ref="#hsl_work_id_560">Freund Fritz</rs>“. Auch hier der ehescheue
+      <lb facs="#facs_1_region_1684565997631_1000_tl_27" n="N034"/>reiche Junggeselle, der, von der echten Liebe seiner <rs type="person" ref="#hsl_person_id_2753">Susel</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684565997631_1000_tl_28" n="N035"/>gerührt, sie schließlich heiratet. Allein so wie das <rs type="place" ref="#hsl_place_id_221">Elsaß</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684565997631_1000_tl_29" n="N036"/>unseren Schritten, so liegen auch <rs type="person" ref="#hsl_person_id_2754">Fritz</rs> und <rs type="person" ref="#hsl_person_id_2753">Susel</rs> unserem
+      <lb facs="#facs_1_line_1692344292292_1417" n="N037"/>Herzen näher, als die beiden seltsamen <rs type="place" ref="#hsl_place_id_175">egyptisch</rs>en Leutchen.<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-      <lb facs="#facs_1_line_1692344303164_1430" n="N001"/>Auch fühlen wir uns ob der Zukunft des <rs type="place">schwäbisch</rs>en Braut¬
-      <lb facs="#facs_1_line_1692344311428_1440" n="N002"/>paares ungleich beruhigter, als über <rs type="person">Harun</rs>’s treue Be¬
-      <lb facs="#facs_1_region_1684566000934_1003_tl_3" n="N003"/>ständigkeit. <rs type="person">Bizet</rs>’s einactige Oper bietet uns in engem
-      <lb facs="#facs_1_region_1684566000934_1003_tl_4" n="N004"/>Rahmen ein mit minutiöser Sorgfalt ausgeführtes an¬
-      <lb facs="#facs_1_region_1684566000934_1003_tl_5" n="N005"/>muthiges Genrebild. Aus „<rs type="bibl">Carmen</rs>“ und der Musik zu
-      <lb facs="#facs_1_region_1684566000934_1003_tl_6" n="N006"/><rs type="person">Daudet</rs>’s „<rs type="bibl">Arlésienne</rs>“ kennen wir <rs type="person">Bizet</rs> als geistreichen,
-      <lb facs="#facs_1_region_1684566000934_1003_tl_7" n="N007"/>feinen, in exotischem Musikstyle besonders glücklichen Com¬
-      <lb facs="#facs_1_region_1684566000934_1003_tl_8" n="N008"/>ponisten; gerade für sein Talent war <rs type="bibl">Djamileh</rs> eine
-      <lb facs="#facs_1_region_1684566000934_1003_tl_9" n="N009"/>lockende Aufgabe. „<rs type="bibl">Carmen</rs>“ ist blendender, effectvoller, mit
+            <p prev="true">
+      <lb facs="#facs_1_line_1692344303164_1430" n="N001"/>Auch fühlen wir uns ob der Zukunft des <rs type="place" ref="#hsl_place_id_138">schwäbisch</rs>en Braut
+      <lb facs="#facs_1_line_1692344311428_1440" n="N002" break="no"/>paares ungleich beruhigter, als über <rs type="person" ref="#hsl_person_id_2750">Harun</rs>’s treue Be
+      <lb facs="#facs_1_region_1684566000934_1003_tl_3" n="N003" break="no"/>ständigkeit. <rs type="person" ref="#hsl_person_id_1298">Bizet</rs>’s einactige Oper bietet uns in engem
+      <lb facs="#facs_1_region_1684566000934_1003_tl_4" n="N004"/>Rahmen ein mit minutiöser Sorgfalt ausgeführtes an
+      <lb facs="#facs_1_region_1684566000934_1003_tl_5" n="N005" break="no"/>muthiges Genrebild. Aus „<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“ und der Musik zu
+      <lb facs="#facs_1_region_1684566000934_1003_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_2755">Daudet</rs>’s „<rs type="bibl" ref="#hsl_work_id_1614">Arlésienne</rs>“ kennen wir <rs type="person" ref="#hsl_person_id_1298">Bizet</rs> als geistreichen,
+      <lb facs="#facs_1_region_1684566000934_1003_tl_7" n="N007"/>feinen, in exotischem Musikstyle besonders glücklichen Com
+      <lb facs="#facs_1_region_1684566000934_1003_tl_8" n="N008" break="no"/>ponisten; gerade für sein Talent war <rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs> eine
+      <lb facs="#facs_1_region_1684566000934_1003_tl_9" n="N009"/>lockende Aufgabe. „<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“ ist blendender, effectvoller, mit
       <lb facs="#facs_1_region_1684566000934_1003_tl_10" n="N010"/>satteren Farben und breiterem Pinsel gemalt; doch
-      <lb facs="#facs_1_region_1684566000934_1003_tl_11" n="N011"/>scheint uns manche Scene in „<rs type="bibl">Djamileh</rs>“ noch zartere
+      <lb facs="#facs_1_region_1684566000934_1003_tl_11" n="N011"/>scheint uns manche Scene in „<rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>“ noch zartere
       <lb facs="#facs_1_region_1684566000934_1003_tl_12" n="N012"/>Schattirungen, noch eigenthümlichere Züge aufzuweisen.
       <lb facs="#facs_1_region_1684566000934_1003_tl_13" n="N013"/>Diese kleine Partitur enthält reizvolle Musikstücke;
       <lb facs="#facs_1_region_1684566000934_1003_tl_14" n="N014"/>dabei eine wohlthuende Harmonie und Styleinheit des
       <lb facs="#facs_1_region_1684566000934_1003_tl_15" n="N015"/>Ganzen, welche durch keinen Einbruch in die Große Oper,
       <lb facs="#facs_1_line_1692344377564_1451" n="N016"/>noch durch ein Herabsingen zur Posse zerstört wird. Mit
-      <lb facs="#facs_1_region_1684566000934_1003_tl_17" n="N017"/>der Ouvertüre pflegen sich Componisten der <rs type="place">französisch</rs>en
-      <lb facs="#facs_1_region_1684566000934_1003_tl_18" n="N018"/>Opéra Comique nicht anzustrengen; auch die zur „<rs type="bibl">Djalimeh</rs>“
+      <lb facs="#facs_1_region_1684566000934_1003_tl_17" n="N017"/>der Ouvertüre pflegen sich Componisten der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
+      <lb facs="#facs_1_region_1684566000934_1003_tl_18" n="N018"/>Opéra Comique nicht anzustrengen; auch die zur „<rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>“
       <lb facs="#facs_1_region_1684566000934_1003_tl_19" n="N019"/>wiegt nicht schwer als selbstständiges Musikstück. Aber in
-      <lb facs="#facs_1_region_1684566000934_1003_tl_20" n="N020"/>ihrem leichten frohbewegten Gang versetzt sie uns unmittel¬
-      <lb facs="#facs_1_region_1684566000934_1003_tl_21" n="N021"/>bar in den Localcharakter der Oper und fesselt trotz häufiger
+      <lb facs="#facs_1_region_1684566000934_1003_tl_20" n="N020"/>ihrem leichten frohbewegten Gang versetzt sie uns unmittel
+      <lb facs="#facs_1_region_1684566000934_1003_tl_21" n="N021" break="no"/>bar in den Localcharakter der Oper und fesselt trotz häufiger
       <lb facs="#facs_1_line_1692344387572_1461" n="N022"/>Wiederholungen unser Interesse. Daß wir auf melodisch
       <lb facs="#facs_1_region_1684566000934_1003_tl_23" n="N023"/>Seltsames, auf harmonisch Gewagtes gefaßt sein
-      <lb facs="#facs_1_region_1684566000934_1003_tl_24" n="N024"/>mögen, das sagt uns die Erinnerung an „<rs type="bibl">Carmen</rs>“ und
-      <lb facs="#facs_1_region_1684566000934_1003_tl_25" n="N025"/>„<rs type="bibl">Arlésienne</rs>“ voraus; hier tritt noch verführerisch zu der
+      <lb facs="#facs_1_region_1684566000934_1003_tl_24" n="N024"/>mögen, das sagt uns die Erinnerung an „<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“ und
+      <lb facs="#facs_1_region_1684566000934_1003_tl_25" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_1614">Arlésienne</rs>“ voraus; hier tritt noch verführerisch zu der
       <lb facs="#facs_1_region_1684566000934_1003_tl_26" n="N026"/>Eigenart des Tondichters das orientalische Sujet. Schon im
-      <lb facs="#facs_1_region_1684566000934_1003_tl_27" n="N027"/>ersten Tact der Ouvertüre zupft eine harmonische Gewalt¬
-      <lb facs="#facs_1_region_1684566000934_1003_tl_28" n="N028"/>samkeit uns am Ohr. Unwillkürlich erinnerte sie mich an
-      <lb facs="#facs_1_region_1684566000934_1003_tl_29" n="N029"/>den reactionären <rs type="place">Paris</rs>er Musikkritiker <hi rendition="#em"><rs type="person">Scudo</rs></hi> und die
+      <lb facs="#facs_1_region_1684566000934_1003_tl_27" n="N027"/>ersten Tact der Ouvertüre zupft eine harmonische Gewalt
+      <lb facs="#facs_1_region_1684566000934_1003_tl_28" n="N028" break="no"/>samkeit uns am Ohr. Unwillkürlich erinnerte sie mich an
+      <lb facs="#facs_1_region_1684566000934_1003_tl_29" n="N029"/>den reactionären <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Musikkritiker <hi rendition="#em"><rs type="person" ref="#hsl_person_id_807">Scudo</rs></hi> und die
       <lb facs="#facs_1_region_1684566000934_1003_tl_30" n="N030"/>drollige Anekdote, die von ihm vor zwanzig Jahren Hugo
-      <lb facs="#facs_1_region_1684566000934_1003_tl_31" n="N031"/><rs type="person">Wittmann</rs> in diesem Blatte erzählt hat. Bei der Première von
-      <lb facs="#facs_1_region_1684566000934_1003_tl_32" n="N032"/><rs type="person">Bizet</rs>’s Oper „<rs type="bibl">Die Perlenfischer</rs>“ im Théâtre Lyrique beginnt
-      <lb facs="#facs_1_region_1684566000934_1003_tl_33" n="N033"/>mitten in der Vorstellung der alte <rs type="person">Scudo</rs> auf seinem Balconsitz
+      <lb facs="#facs_1_region_1684566000934_1003_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_2756">Wittmann</rs> in diesem Blatte erzählt hat. Bei der Première von
+      <lb facs="#facs_1_region_1684566000934_1003_tl_32" n="N032"/><rs type="person" ref="#hsl_person_id_1298">Bizet</rs>’s Oper „<rs type="bibl" ref="#hsl_work_id_1615">Die Perlenfischer</rs>“ im Théâtre Lyrique beginnt
+      <lb facs="#facs_1_region_1684566000934_1003_tl_33" n="N033"/>mitten in der Vorstellung der alte <rs type="person" ref="#hsl_person_id_807">Scudo</rs> auf seinem Balconsitz
       <lb facs="#facs_1_region_1684566000934_1003_tl_34" n="N034"/>laut zu brummen, zu schimpfen und ruft, als sich Alles
       <lb facs="#facs_1_region_1684566000934_1003_tl_35" n="N035"/>nach ihm umwendet, laut ins Parterre hinab: „Ich werde
-      <lb facs="#facs_1_region_1684566000934_1003_tl_36" n="N036"/>nicht durch meine Anwesenheit solche Scheußlichkeiten recht¬
-      <lb facs="#facs_1_line_1692344294077_1420" n="N037"/>fertigen!“ Und stürmt über seine Sitznachbarn hinweg ge¬</p>
+      <lb facs="#facs_1_region_1684566000934_1003_tl_36" n="N036"/>nicht durch meine Anwesenheit solche Scheußlichkeiten recht
+      <lb facs="#facs_1_line_1692344294077_1420" n="N037" break="no"/>fertigen!“ Und stürmt über seine Sitznachbarn hinweg ge</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-      <lb facs="#facs_2_region_1684566010843_1009_tl_1" n="N001"/>räuschvoll zur Thür hinaus. Wahrscheinlich wäre dieses weiße
+            <p prev="true">
+      <lb facs="#facs_2_region_1684566010843_1009_tl_1" n="N001" break="no"/>räuschvoll zur Thür hinaus. Wahrscheinlich wäre dieses weiße
       <lb facs="#facs_2_region_1684566010843_1009_tl_2" n="N002"/>Hermelin der alten Schule schon nach den ersten Tacten
-      <lb facs="#facs_2_region_1684566010843_1009_tl_3" n="N003"/>der <rs type="bibl">Djamileh</rs>-Ouvertüre abgefahren. Lassen wir das Stück
+      <lb facs="#facs_2_region_1684566010843_1009_tl_3" n="N003"/>der <rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>-Ouvertüre abgefahren. Lassen wir das Stück
       <lb facs="#facs_2_region_1684566010843_1009_tl_4" n="N004"/>ohne ihn beginnen. Gleich die erste Scene ist erfüllt von
-      <lb facs="#facs_2_line_1692344420908_1474" n="N005"/>poetischem Duft. Während <rs type="person">Harun</rs> auf seinem Divan träu¬
-      <lb facs="#facs_2_region_1684566010843_1009_tl_5" n="N006"/>mend und rauchend ausgestreckt liegt, ertönt von ferne der melan¬
-      <lb facs="#facs_2_region_1684566010843_1009_tl_6" n="N007"/>cholische Gesang der Nilschiffer. Ihn durchbricht nach den ersten
+      <lb facs="#facs_2_line_1692344420908_1474" n="N005"/>poetischem Duft. Während <rs type="person" ref="#hsl_person_id_2750">Harun</rs> auf seinem Divan träu
+      <lb facs="#facs_2_region_1684566010843_1009_tl_5" n="N006" break="no"/>mend und rauchend ausgestreckt liegt, ertönt von ferne der melan
+      <lb facs="#facs_2_region_1684566010843_1009_tl_6" n="N007" break="no"/>cholische Gesang der Nilschiffer. Ihn durchbricht nach den ersten
       <lb facs="#facs_2_region_1684566010843_1009_tl_7" n="N008"/>Strophen ein kurzes, leises Orchester-Intermezzo, während
-      <lb facs="#facs_2_region_1684566010843_1009_tl_8" n="N009"/>dessen <rs type="person">Djamileh</rs>, den Blick auf <rs type="person">Harun</rs> gerichtet, langsam
+      <lb facs="#facs_2_region_1684566010843_1009_tl_8" n="N009"/>dessen <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>, den Blick auf <rs type="person" ref="#hsl_person_id_2750">Harun</rs> gerichtet, langsam
       <lb facs="#facs_2_region_1684566010843_1009_tl_9" n="N010"/>das Gemach durchschreitet. Diesen träumerischen, eigenartig
-      <lb facs="#facs_2_region_1684566010843_1009_tl_10" n="N011"/>schwebenden Charakter bewahrt die Musik in allen Solo¬
-      <lb facs="#facs_2_region_1684566010843_1009_tl_11" n="N012"/>scenen der <rs type="person">Djamileh</rs>. Das Duett zwischen <rs type="person">Harun</rs> und
-      <lb facs="#facs_2_region_1684566010843_1009_tl_12" n="N013"/><rs type="person">Splendiano</rs> erinnert in dem Ges-dur-Andantino („Sei das
-      <lb facs="#facs_2_region_1684566010843_1009_tl_13" n="N014"/>Weib ein Engel“) an <rs type="person">Gounod</rs> und erhebt sich nicht
+      <lb facs="#facs_2_region_1684566010843_1009_tl_10" n="N011"/>schwebenden Charakter bewahrt die Musik in allen Solo
+      <lb facs="#facs_2_region_1684566010843_1009_tl_11" n="N012" break="no"/>scenen der <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>. Das Duett zwischen <rs type="person" ref="#hsl_person_id_2750">Harun</rs> und
+      <lb facs="#facs_2_region_1684566010843_1009_tl_12" n="N013"/><rs type="person" ref="#hsl_person_id_2751">Splendiano</rs> erinnert in dem Ges-dur-Andantino („Sei das
+      <lb facs="#facs_2_region_1684566010843_1009_tl_13" n="N014"/>Weib ein Engel“) an <rs type="person" ref="#hsl_person_id_102">Gounod</rs> und erhebt sich nicht
       <lb facs="#facs_2_region_1684566010843_1009_tl_14" n="N015"/>merklich über das beliebte Niveau der Opéra comique.
-      <lb facs="#facs_2_region_1684566010843_1009_tl_15" n="N016"/>Die nächste Scene zwischen <rs type="person">Harun</rs> und <rs type="person">Djamileh</rs> beginnt
+      <lb facs="#facs_2_region_1684566010843_1009_tl_15" n="N016"/>Die nächste Scene zwischen <rs type="person" ref="#hsl_person_id_2750">Harun</rs> und <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs> beginnt
       <lb facs="#facs_2_region_1684566010843_1009_tl_16" n="N017"/>im Orchester mit dem schwermüthigen Andante, welches das
-      <lb facs="#facs_2_region_1684566010843_1009_tl_17" n="N018"/>erste stumme Auftreten <rs type="person">Djamileh</rs>’s begleitet hat. Die Stim¬
-      <lb facs="#facs_2_region_1684566010843_1009_tl_18" n="N019"/>mung erheitert sich in dem von leichter Fröhlichkeit ange¬
-      <lb facs="#facs_2_region_1684566010843_1009_tl_19" n="N020"/>hauchten Terzett, mit welchem die Drei sich zu Tische
-      <lb facs="#facs_2_region_1684566010843_1009_tl_20" n="N021"/>setzen. Der sich anschließende Gesang <rs type="person">Diamileh</rs>’s zur
+      <lb facs="#facs_2_region_1684566010843_1009_tl_17" n="N018"/>erste stumme Auftreten <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>’s begleitet hat. Die Stim
+      <lb facs="#facs_2_region_1684566010843_1009_tl_18" n="N019" break="no"/>mung erheitert sich in dem von leichter Fröhlichkeit ange
+      <lb facs="#facs_2_region_1684566010843_1009_tl_19" n="N020" break="no"/>hauchten Terzett, mit welchem die Drei sich zu Tische
+      <lb facs="#facs_2_region_1684566010843_1009_tl_20" n="N021"/>setzen. Der sich anschließende Gesang <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>’s zur
       <lb facs="#facs_2_region_1684566010843_1009_tl_21" n="N022"/>Mandoline biegt wieder in den ernst sinnenden Ton
-      <lb facs="#facs_2_region_1684566010843_1009_tl_22" n="N023"/>orientalischer Musikweise ein. Das Stück ist origi¬
-      <lb facs="#facs_2_region_1684566010843_1009_tl_23" n="N024"/>nell, nur die Benennung „Ghazel“ ist falsch. Diese
-      <lb facs="#facs_2_region_1684566010843_1009_tl_24" n="N025"/>Ballade vom König <rs type="person">Nurredin</rs> hat in Form und Inhalt nichts
+      <lb facs="#facs_2_region_1684566010843_1009_tl_22" n="N023"/>orientalischer Musikweise ein. Das Stück ist origi
+      <lb facs="#facs_2_region_1684566010843_1009_tl_23" n="N024" break="no"/>nell, nur die Benennung „Ghazel“ ist falsch. Diese
+      <lb facs="#facs_2_region_1684566010843_1009_tl_24" n="N025"/>Ballade vom König <rs type="person" ref="#hsl_person_id_2757">Nurredin</rs> hat in Form und Inhalt nichts
       <lb facs="#facs_2_region_1684566010843_1009_tl_25" n="N026"/>gemein mit der lyrischen Gattung des „Ghazel“, das bekanntlich
       <lb facs="#facs_2_region_1684566010843_1009_tl_26" n="N027"/>aus zweizeiligen Strophen besteht, welche durch einen gleichen
       <lb facs="#facs_2_region_1684566010843_1009_tl_27" n="N028"/>Reim der zweiten Zeile miteinander verbunden sind. Es
       <lb facs="#facs_2_region_1684566010843_1009_tl_28" n="N029"/>folgt ein gleichfalls zart empfundenes und interessantes
-      <lb facs="#facs_2_region_1684566010843_1009_tl_29" n="N030"/>Melodram (<rs type="person">Harun</rs> hängt der <rs type="person">Djamileh</rs> einen Schmuck
+      <lb facs="#facs_2_region_1684566010843_1009_tl_29" n="N030"/>Melodram (<rs type="person" ref="#hsl_person_id_2750">Harun</rs> hängt der <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs> einen Schmuck
       <lb facs="#facs_2_region_1684566010843_1009_tl_30" n="N031"/>um den Hals) und hierauf der lebensfrische Chor der
-      <lb facs="#facs_2_region_1684566010843_1009_tl_31" n="N032"/>Spieler, „<rs type="person">Djamileh</rs>’s Klage“, mehr declamatorischen als
-      <lb facs="#facs_2_region_1684566010843_1009_tl_32" n="N033"/>melodiösen Charakters, würde durch ein weniger schleppen¬
-      <lb facs="#facs_2_region_1684566010843_1009_tl_33" n="N034"/>des Tempo gewinnen. Die Maschen dieses Gewebes
+      <lb facs="#facs_2_region_1684566010843_1009_tl_31" n="N032"/>Spieler, „<rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>’s Klage“, mehr declamatorischen als
+      <lb facs="#facs_2_region_1684566010843_1009_tl_32" n="N033"/>melodiösen Charakters, würde durch ein weniger schleppen
+      <lb facs="#facs_2_region_1684566010843_1009_tl_33" n="N034" break="no"/>des Tempo gewinnen. Die Maschen dieses Gewebes
       <lb facs="#facs_2_region_1684566010843_1009_tl_34" n="N035"/>sind an sich zu weit, um ohne Nachtheil noch ausgedehnt zu
       <lb facs="#facs_2_region_1684566010843_1009_tl_35" n="N036"/>werden. Den Einzug des Sklavenhändlers mit den neuen
-      <lb facs="#facs_2_line_1692344446524_1493" n="N037"/>Sklavinnen begleitet das pikante Marschmotiv aus der</p>
+      <lb facs="#facs_2_line_1692344446524_1493" n="N037"/>Sklavinnen begleitet das pikante Marschmotiv aus der<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-      <lb facs="#facs_2_region_1684566014593_1012_tl_1" n="N001"/>Ouvertüre. Eine Perle ist der „Tanz der Almer“ mit be¬
-      <lb facs="#facs_2_region_1684566014593_1012_tl_2" n="N002"/>gleitendem Männerchor; echt orientalisch klingt die zwischen
+            <p prev="true">
+      <lb facs="#facs_2_region_1684566014593_1012_tl_1" n="N001"/>Ouvertüre. Eine Perle ist der „Tanz der Almer“ mit be
+      <lb facs="#facs_2_region_1684566014593_1012_tl_2" n="N002" break="no"/>gleitendem Männerchor; echt orientalisch klingt die zwischen
       <lb facs="#facs_2_region_1684566014593_1012_tl_3" n="N003"/>Dur und Moll sich klagend durchwindende Melodie über der
       <lb facs="#facs_2_region_1684566014593_1012_tl_4" n="N004"/>im Baß festgehaltenen leeren Quinte a—e. Wie die Musik
       <lb facs="#facs_2_line_1692344422540_1477" n="N005"/>sich dann dem beschleunigten Tanz anschmiegt, ihn anfeuert
       <lb facs="#facs_2_region_1684566014593_1012_tl_6" n="N006"/>und schließlich wieder lethargisch zusammensinkt, das Alles
       <lb facs="#facs_2_region_1684566014593_1012_tl_7" n="N007"/>ist mit einer genial zu nennenden Technik gemacht. Es folgt
-      <lb facs="#facs_2_region_1684566014593_1012_tl_8" n="N008"/>nunmehr noch ein unbedeutendes komisches Lied des <rs type="person">Splen¬</rs>
-      <lb facs="#facs_2_region_1684566014593_1012_tl_9" n="N009"/><rs type="person">diano</rs> und das große Schlußduett zwischen <rs type="person">Harun</rs> und
-      <lb facs="#facs_2_region_1684566014593_1012_tl_10" n="N010"/><rs type="person">Djamileh</rs>, das nicht frei von Anklängen an <rs type="place">französisch</rs>e und
-      <lb facs="#facs_2_line_1692344456237_1503" n="N011"/><rs type="place">italienisch</rs>e Opernmotive, doch in seinem Schlußtheil („Aus
+      <lb facs="#facs_2_region_1684566014593_1012_tl_8" n="N008"/>nunmehr noch ein unbedeutendes komisches Lied des <rs type="person" ref="#hsl_person_id_2751">Splen
+      <lb facs="#facs_2_region_1684566014593_1012_tl_9" n="N009" break="no"/>diano</rs> und das große Schlußduett zwischen <rs type="person" ref="#hsl_person_id_2750">Harun</rs> und
+      <lb facs="#facs_2_region_1684566014593_1012_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_2748">Djamileh</rs>, das nicht frei von Anklängen an <rs type="place" ref="#hsl_place_id_21">französisch</rs>e und
+      <lb facs="#facs_2_line_1692344456237_1503" n="N011"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Opernmotive, doch in seinem Schlußtheil („Aus
       <lb facs="#facs_2_region_1684566014593_1012_tl_11" n="N012"/>deinem süßen Munde“) durch die lieblich auf und nieder
       <lb facs="#facs_2_region_1684566014593_1012_tl_12" n="N013"/>gleitende Violinfigur interessirt und mit seinem glänzenden
-      <lb facs="#facs_2_region_1684566014593_1012_tl_13" n="N014"/>Aufschwung der Singstimmen effectvoll abschließt. Die eigen¬
-      <lb facs="#facs_2_region_1684566014593_1012_tl_14" n="N015"/>thümlichsten, werthvollsten Nummern der Oper sind diejenigen,
+      <lb facs="#facs_2_region_1684566014593_1012_tl_13" n="N014"/>Aufschwung der Singstimmen effectvoll abschließt. Die eigen
+      <lb facs="#facs_2_region_1684566014593_1012_tl_14" n="N015" break="no"/>thümlichsten, werthvollsten Nummern der Oper sind diejenigen,
       <lb facs="#facs_2_line_1692344434412_1483" n="N016"/>welche der Componist aus der Seele des Orients heraus
       <lb facs="#facs_2_region_1684566014593_1012_tl_16" n="N017"/>empfunden und gestaltet hat — eine Vereinigung von Geist,
       <lb facs="#facs_2_line_1692344467308_1514" n="N018"/>Feinheit und Charakteristik, welche dicht an der Schwelle des
       <lb facs="#facs_2_region_1684566014593_1012_tl_17" n="N019"/>Schönen steht.
-      <lb facs="#facs_2_region_1684566014593_1012_tl_18" n="N020"/>George <rs type="person">Bizet</rs> war im Leben wenig von Glück begünstigt.
+            </p><p>
+      <lb facs="#facs_2_region_1684566014593_1012_tl_18" n="N020"/>George <rs type="person" ref="#hsl_person_id_1298">Bizet</rs> war im Leben wenig von Glück begünstigt.
       <lb facs="#facs_2_region_1684566014593_1012_tl_19" n="N021"/>Als Wunderkind angestaunt, dann mit dem ersten Preise
-      <lb facs="#facs_2_region_1684566014593_1012_tl_20" n="N022"/>des <rs type="place">Paris</rs>er Conservatoriums gekrönt, vermochte er doch mit
-      <lb facs="#facs_2_region_1684566014593_1012_tl_21" n="N023"/>keinem Werke durchzudringen. Zwei komische Opern, „<rs type="bibl">Die</rs>
-      <lb facs="#facs_2_region_1684566014593_1012_tl_22" n="N024"/><rs type="bibl">Perlenfischer</rs>“ (<date month="0" day="0" year="0">1863</date>) und „<rs type="bibl">Das schöne Mädchen von Perth</rs>“
-      <lb facs="#facs_2_region_1684566014593_1012_tl_23" n="N025"/>(<date month="0" day="0" year="0">1867</date>) wanderten nach wenigen Vorstellungen ins Archiv.
-      <lb facs="#facs_2_region_1684566014593_1012_tl_24" n="N026"/>Man verurtheilte sie als „<rs type="person">Wagner</rs>isch“, obwol kein Tact
-      <lb facs="#facs_2_region_1684566014593_1012_tl_25" n="N027"/>darin an <rs type="person">Wagner</rs> erinnert. Seltsames Volk! Jetzt kann es
-      <lb facs="#facs_2_region_1684566014593_1012_tl_26" n="N028"/>sich an <rs type="person">Wagner</rs> gar nicht satttrinken, im Theater und im
-      <lb facs="#facs_2_region_1684566014593_1012_tl_27" n="N029"/>Concert. Von seinen beiden letzten Opern, „<rs type="bibl">Djamileh</rs>“
-      <lb facs="#facs_2_region_1684566014593_1012_tl_28" n="N030"/>(<date month="0" day="0" year="0">1872</date>) und „<rs type="bibl">Carmen</rs>“ (<date month="0" day="0" year="0">1875</date>), hat <rs type="person">Bizet</rs> zwar die erste
+      <lb facs="#facs_2_region_1684566014593_1012_tl_20" n="N022"/>des <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Conservatoriums gekrönt, vermochte er doch mit
+      <lb facs="#facs_2_region_1684566014593_1012_tl_21" n="N023"/>keinem Werke durchzudringen. Zwei komische Opern, „<rs type="bibl" ref="#hsl_work_id_1615">Die
+      <lb facs="#facs_2_region_1684566014593_1012_tl_22" n="N024"/>Perlenfischer</rs>“ (<date>1863</date>) und „<rs type="bibl" ref="#hsl_work_id_1616">Das schöne Mädchen von Perth</rs>“
+      <lb facs="#facs_2_region_1684566014593_1012_tl_23" n="N025"/>(<date>1867</date>) wanderten nach wenigen Vorstellungen ins Archiv.
+      <lb facs="#facs_2_region_1684566014593_1012_tl_24" n="N026"/>Man verurtheilte sie als „<rs type="person" ref="#hsl_person_id_319">Wagner</rs>isch“, obwol kein Tact
+      <lb facs="#facs_2_region_1684566014593_1012_tl_25" n="N027"/>darin an <rs type="person" ref="#hsl_person_id_319">Wagner</rs> erinnert. Seltsames Volk! Jetzt kann es
+      <lb facs="#facs_2_region_1684566014593_1012_tl_26" n="N028"/>sich an <rs type="person" ref="#hsl_person_id_319">Wagner</rs> gar nicht satttrinken, im Theater und im
+      <lb facs="#facs_2_region_1684566014593_1012_tl_27" n="N029"/>Concert. Von seinen beiden letzten Opern, „<rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>“
+      <lb facs="#facs_2_region_1684566014593_1012_tl_28" n="N030"/>(<date>1872</date>) und „<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“ (<date>1875</date>), hat <rs type="person" ref="#hsl_person_id_1298">Bizet</rs> zwar die erste
       <lb facs="#facs_2_region_1684566014593_1012_tl_29" n="N031"/>Vorstellung erlebt, aber nicht das letzte Wort. Dieses wurde
-      <lb facs="#facs_2_region_1684566014593_1012_tl_30" n="N032"/>erst nach seinem Tode vom Publicum und der Kritik ge¬
-      <lb facs="#facs_2_region_1684566014593_1012_tl_31" n="N033"/>sprochen, und zwar in <rs type="place">deutsch</rs>er Sprache. Die <hi rendition="#em"><rs type="place">Wien</rs>er</hi>
-      <lb facs="#facs_2_region_1684566014593_1012_tl_32" n="N034"/>Oper ging (unter <rs type="person">Jauner</rs>’s Direction) mit „<rs type="bibl">Carmen</rs>“
-      <lb facs="#facs_2_region_1684566014593_1012_tl_33" n="N035"/>voran; durch Pauline <hi rendition="#em"><rs type="person">Lucca</rs></hi>, an die keine frühere oder
-      <lb facs="#facs_2_region_1684566014593_1012_tl_34" n="N036"/>spätere <rs type="person">Carmen</rs> hinanreichte, gewann diese Oper den Höhen¬
-      <lb facs="#facs_2_line_1692344448265_1496" n="N037"/>punkt ihrer Erfolge. Anfangs zögernd, betroffen von der</p>
+      <lb facs="#facs_2_region_1684566014593_1012_tl_30" n="N032"/>erst nach seinem Tode vom Publicum und der Kritik ge
+      <lb facs="#facs_2_region_1684566014593_1012_tl_31" n="N033" break="no"/>sprochen, und zwar in <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Sprache. Die <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs>er</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684566014593_1012_tl_32" n="N034"/>Oper ging (unter <rs type="person" ref="#hsl_person_id_1028">Jauner</rs>’s Direction) mit „<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“
+      <lb facs="#facs_2_region_1684566014593_1012_tl_33" n="N035"/>voran; durch Pauline <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi>, an die keine frühere oder
+      <lb facs="#facs_2_region_1684566014593_1012_tl_34" n="N036"/>spätere <rs type="person" ref="#hsl_person_id_1884">Carmen</rs> hinanreichte, gewann diese Oper den Höhen
+      <lb facs="#facs_2_line_1692344448265_1496" n="N037" break="no"/>punkt ihrer Erfolge. Anfangs zögernd, betroffen von der<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_2_region_1684566019189_1015_tl_1" n="N001"/>Frivolität der Titelrolle, folgten dann immer eifriger alle
-      <lb facs="#facs_2_region_1684566019189_1015_tl_2" n="N002"/><rs type="place">deutsch</rs>en Bühnen nach. Aehnlich dürfte es, in bescheidenerem
-      <lb facs="#facs_2_region_1684566019189_1015_tl_3" n="N003"/>Maßstabe, „<rs type="bibl">Djamileh</rs>“ ergehen, seitdem <rs type="place">Berlin</rs> mit der
-      <lb facs="#facs_2_region_1684566019189_1015_tl_4" n="N004"/>Wiederausgrabung dieses in <rs type="place">Paris</rs> verschütteten kleinen Juwels
+      <lb facs="#facs_2_region_1684566019189_1015_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen nach. Aehnlich dürfte es, in bescheidenerem
+      <lb facs="#facs_2_region_1684566019189_1015_tl_3" n="N003"/>Maßstabe, „<rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>“ ergehen, seitdem <rs type="place" ref="#hsl_place_id_9">Berlin</rs> mit der
+      <lb facs="#facs_2_region_1684566019189_1015_tl_4" n="N004"/>Wiederausgrabung dieses in <rs type="place" ref="#hsl_place_id_44">Paris</rs> verschütteten kleinen Juwels
       <lb facs="#facs_2_region_1684566019189_1015_tl_5" n="N005"/>den Anfang gemacht hat. Eine hinreißende Wirkung vermag
-      <lb facs="#facs_2_region_1684566019189_1015_tl_6" n="N006"/>nach allem bereits Gesagten „<rs type="bibl">Djamileh</rs>“ nicht hervorzu¬
-      <lb facs="#facs_2_region_1684566019189_1015_tl_7" n="N007"/>bringen; darauf sind weder die Handlung noch die Musik
+      <lb facs="#facs_2_region_1684566019189_1015_tl_6" n="N006"/>nach allem bereits Gesagten „<rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>“ nicht hervorzu
+      <lb facs="#facs_2_region_1684566019189_1015_tl_7" n="N007" break="no"/>bringen; darauf sind weder die Handlung noch die Musik
       <lb facs="#facs_2_region_1684566019189_1015_tl_8" n="N008"/>angelegt. An die Stelle von populären Melodien und
-      <lb facs="#facs_2_region_1684566019189_1015_tl_9" n="N009"/>schlagend dramatischen Effecten treten hier feine charakte¬
-      <lb facs="#facs_2_region_1684566019189_1015_tl_10" n="N010"/>ristische Züge, reizvolle Wendungen, entzückende Orchester¬
-      <lb facs="#facs_2_line_1692344457980_1506" n="N011"/>klänge, einheitlich zusammengehalten von einer geistreichen,
-      <lb facs="#facs_2_region_1684566019189_1015_tl_12" n="N012"/>meisterlichen Technik. „<rs type="bibl">Djamileh</rs>“ ist mehr eine Oper für
+      <lb facs="#facs_2_region_1684566019189_1015_tl_9" n="N009"/>schlagend dramatischen Effecten treten hier feine charakte
+      <lb facs="#facs_2_region_1684566019189_1015_tl_10" n="N010" break="no"/>ristische Züge, reizvolle Wendungen, entzückende Orchester
+      <lb facs="#facs_2_line_1692344457980_1506" n="N011" break="no"/>klänge, einheitlich zusammengehalten von einer geistreichen,
+      <lb facs="#facs_2_region_1684566019189_1015_tl_12" n="N012"/>meisterlichen Technik. „<rs type="bibl" ref="#hsl_work_id_1608">Djamileh</rs>“ ist mehr eine Oper für
       <lb facs="#facs_2_region_1684566019189_1015_tl_13" n="N013"/>musikalische Feinschmecker, als für ein großes Publicum;
-      <lb facs="#facs_2_region_1684566019189_1015_tl_14" n="N014"/>aber auch dieses hat, wie die Erfahrung lehrt, nach wieder¬
-      <lb facs="#facs_2_region_1684566019189_1015_tl_15" n="N015"/>holtem Hören oft an dergleichen Leckerbissen Geschmack ge¬
-      <lb facs="#facs_2_line_1692344435748_1486" n="N016"/>funden und ihn beibehalten.
+      <lb facs="#facs_2_region_1684566019189_1015_tl_14" n="N014"/>aber auch dieses hat, wie die Erfahrung lehrt, nach wieder
+      <lb facs="#facs_2_region_1684566019189_1015_tl_15" n="N015" break="no"/>holtem Hören oft an dergleichen Leckerbissen Geschmack ge
+      <lb facs="#facs_2_line_1692344435748_1486" n="N016" break="no"/>funden und ihn beibehalten.
+            </p><p>
       <lb facs="#facs_2_region_1684566019189_1015_tl_16" n="N017"/>Die Novität wurde im Hofoperntheater ohne lärmenden
       <lb facs="#facs_2_line_1692344469276_1517" n="N018"/>Enthusiasmus, aber durchaus freundlich, antheilvoll begrüßt.
-      <lb facs="#facs_2_region_1684566019189_1015_tl_18" n="N019"/>Ueberaus dankbar erwies sich das Publicum gegen die ge¬
-      <lb facs="#facs_2_region_1684566019189_1015_tl_19" n="N020"/>lungene Aufführung. Fräulein <hi rendition="#em"><rs type="person">Renard</rs></hi>, die als <rs type="person">Djamileh</rs>
+      <lb facs="#facs_2_region_1684566019189_1015_tl_18" n="N019"/>Ueberaus dankbar erwies sich das Publicum gegen die ge
+      <lb facs="#facs_2_region_1684566019189_1015_tl_19" n="N020" break="no"/>lungene Aufführung. Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_235">Renard</rs></hi>, die als <rs type="person" ref="#hsl_person_id_2748">Djamileh</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684566019189_1015_tl_20" n="N021"/>bezaubernd aussieht, vornehm singt und spielt, überraschte
       <lb facs="#facs_2_region_1684566019189_1015_tl_21" n="N022"/>obendrein als graziöse Tänzerin in der großen Balletscene.
       <lb facs="#facs_2_region_1684566019189_1015_tl_22" n="N023"/>Sie übernimmt höchst persönlich den Tanz, der auf allen
       <lb facs="#facs_2_region_1684566019189_1015_tl_23" n="N024"/>anderen Bühnen einer Prima ballerina zugetheilt ist. Der
       <lb facs="#facs_2_region_1684566019189_1015_tl_24" n="N025"/>Absicht des Textdichters entspricht dies nicht, aber der Erfolg
-      <lb facs="#facs_2_region_1684566019189_1015_tl_25" n="N026"/>ist auf Seite der <rs type="person">Renard</rs>. Herr <hi rendition="#em"><rs type="person">Schrödter</rs></hi> leiht dem
-      <lb facs="#facs_2_region_1684566019189_1015_tl_26" n="N027"/><rs type="person">Harun</rs> erfolgreich seine unverwüstlich frischquellende Stimme.
-      <lb facs="#facs_2_region_1684566019189_1015_tl_27" n="N028"/>Der immer fleißige und überall verwendbare <hi rendition="#em"><rs type="person" continued="true">Schitten¬</rs></hi>
-      <lb facs="#facs_2_region_1684566019189_1015_tl_28" n="N029"/><hi rendition="#em"><rs type="person" continued="true">helm</rs></hi> strebt als <rs type="person">Splendiano</rs> unausgesetzt nach komischer
+      <lb facs="#facs_2_region_1684566019189_1015_tl_25" n="N026"/>ist auf Seite der <rs type="person" ref="#hsl_person_id_235">Renard</rs>. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_276">Schrödter</rs></hi> leiht dem
+      <lb facs="#facs_2_region_1684566019189_1015_tl_26" n="N027"/><rs type="person" ref="#hsl_person_id_2750">Harun</rs> erfolgreich seine unverwüstlich frischquellende Stimme.
+      <lb facs="#facs_2_region_1684566019189_1015_tl_27" n="N028"/>Der immer fleißige und überall verwendbare <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1058">Schitten
+      <lb facs="#facs_2_region_1684566019189_1015_tl_28" n="N029" break="no"/>helm</rs></hi> strebt als <rs type="person" ref="#hsl_person_id_2751">Splendiano</rs> unausgesetzt nach komischer
       <lb facs="#facs_2_region_1684566019189_1015_tl_29" n="N030"/>Wirkung. Weniger würde hier mehr sein. Er wird sich in
       <lb facs="#facs_2_region_1684566019189_1015_tl_30" n="N031"/>den nächsten Reprisen gewiß mäßigen. Denn gar so albern
       <lb facs="#facs_2_region_1684566019189_1015_tl_31" n="N032"/>und gehirnerweicht darf doch der Mann nicht erscheinen,
-      <lb facs="#facs_2_region_1684566019189_1015_tl_32" n="N033"/>welchen <rs type="person">Harun</rs> seinen „Freund und Erzieher“ nennt. Herr
-      <lb facs="#facs_2_region_1684566019189_1015_tl_33" n="N034"/>Director <hi rendition="#em"><rs type="person">Mahler</rs></hi> hat sich durch die Aufführung von
-      <lb facs="#facs_2_region_1684566019189_1015_tl_34" n="N035"/><rs type="person">Bizet</rs>’s Oper, die er persönlich dirigirte, ein neues Verdienst
+      <lb facs="#facs_2_region_1684566019189_1015_tl_32" n="N033"/>welchen <rs type="person" ref="#hsl_person_id_2750">Harun</rs> seinen „Freund und Erzieher“ nennt. Herr
+      <lb facs="#facs_2_region_1684566019189_1015_tl_33" n="N034"/>Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_977">Mahler</rs></hi> hat sich durch die Aufführung von
+      <lb facs="#facs_2_region_1684566019189_1015_tl_34" n="N035"/><rs type="person" ref="#hsl_person_id_1298">Bizet</rs>’s Oper, die er persönlich dirigirte, ein neues Verdienst
       <lb facs="#facs_2_line_1692344484932_1523" n="N036"/>erworben.</p>
          </div>
       </body>
