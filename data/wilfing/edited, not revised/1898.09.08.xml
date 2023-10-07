@@ -106,6 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2023-08-21">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-09-16">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-10-07">Formatierung und Referenzen eingefügt.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1043,311 +1044,322 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <lb facs="#facs_1_region_1684564807301_619_tl_1" n="N001"/>Richard <rs type="person">Wagner</rs> und Wendelin <rs type="person">Weißheimer</rs>.
+               <lb facs="#facs_1_region_1684564807301_619_tl_1" n="N001"/><head type="h1">Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> und Wendelin <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>.</head>
             <p>
       <lb facs="#facs_1_line_1692024813330_687" n="N002"/>Ed. H. In einem eben erschienenen Buch von
       <lb facs="#facs_1_region_1684564807301_619_tl_2" n="N003"/>vierhundert Seiten erzählt uns der Componist und
-      <lb facs="#facs_1_region_1684564807301_619_tl_3" n="N004"/>Musikdirector Wendelin <rs type="person">Weißheimer</rs> seine Erlebnisse mit
-      <lb facs="#facs_1_region_1684564807301_619_tl_4" n="N005"/>Richard <rs type="person">Wagner</rs>.*) Man kennt den Verfasser als einen der
+      <lb facs="#facs_1_region_1684564807301_619_tl_3" n="N004"/>Musikdirector Wendelin <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> seine Erlebnisse mit
+      <lb facs="#facs_1_region_1684564807301_619_tl_4" n="N005"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>.
+            <note type="footnote" n="*)">
+      <lb facs="#facs_1_line_1692024777585_664" n="N034"/>„<rs type="bibl" ref="#hsl_work_id_1679"><hi rendition="#em">Erlebnisse mit R. Wagner, Liszt</hi> und vielen
+      <lb facs="#facs_1_line_1692024780226_667" n="N035"/>anderen Zeitgenossen nebst deren Briefen</rs>.“ Mit Facsimiles von
+      <lb facs="#facs_1_line_1692024782985_670" n="N036"/>Briefen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s, <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s und <rs type="person" ref="#hsl_person_id_44">Bülow</rs>’s. Von W. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs></hi>.
+                  <lb facs="#facs_1_line_1692024785426_673" n="N037"/>(Deutsche Verlagsanstalt in <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs>. <date>1898</date>. Zweite Auflage.)
+            </note>
+            Man kennt den Verfasser als einen der
       <lb facs="#facs_1_region_1684564807301_619_tl_5" n="N006"/>werkthätigsten Anhänger und Bewunderer des Meisters von
-      <lb facs="#facs_1_region_1684564807301_619_tl_6" n="N007"/><rs type="place">Bayreuth</rs>. Trotzdem wird sein ungemein interessantes Buch
+      <lb facs="#facs_1_region_1684564807301_619_tl_6" n="N007"/><rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>. Trotzdem wird sein ungemein interessantes Buch
       <lb facs="#facs_1_region_1684564807301_619_tl_7" n="N008"/>die Wagnerianer verdrießen, weil es Thatsachen enthält, die
-      <lb facs="#facs_1_region_1684564807301_619_tl_8" n="N009"/>wieder einmal ein unerfreuliches Licht auf <rs type="person">Wagner</rs>’s Cha¬
-      <lb facs="#facs_1_region_1684564807301_619_tl_9" n="N010"/>rakter werfen. Warum, so fragen wir, hat Mr. <rs type="person" continued="true">Chamber¬</rs>
-      <lb facs="#facs_1_region_1684564807301_619_tl_10" n="N011"/><rs type="person" continued="true">lain</rs>, der streitbare Bischof der <rs type="person">Wagner</rs>-Gemeinde, das Buch
-      <lb facs="#facs_1_region_1684564807301_619_tl_11" n="N012"/>nicht einstampfen lassen, wie Ferdinand <hi rendition="#em"><rs type="person">Präger</rs>’s</hi>
-      <lb facs="#facs_1_region_1684564807301_619_tl_12" n="N013"/>„<rs type="bibl">Wagner, wie ich ihn kannte</rs>“? Das war ja die einfachste, handlichste
-      <lb facs="#facs_1_region_1684564807301_619_tl_13" n="N014"/>Methode, einen Bericht aus der Welt zu schaffen, der Un¬
-      <lb facs="#facs_1_region_1684564807301_619_tl_14" n="N015"/>günstiges, angeblich Irriges über <rs type="person">Wagner</rs> enthielt. Die
+      <lb facs="#facs_1_region_1684564807301_619_tl_8" n="N009"/>wieder einmal ein unerfreuliches Licht auf <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Cha
+      <lb facs="#facs_1_region_1684564807301_619_tl_9" n="N010" break="no"/>rakter werfen. Warum, so fragen wir, hat Mr. <rs type="person" ref="#hsl_person_id_1790">Chamber
+      <lb facs="#facs_1_region_1684564807301_619_tl_10" n="N011" break="no"/>lain</rs>, der streitbare Bischof der <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Gemeinde, das Buch
+      <lb facs="#facs_1_region_1684564807301_619_tl_11" n="N012"/>nicht einstampfen lassen, wie Ferdinand <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2866">Präger</rs>’s</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684564807301_619_tl_12" n="N013"/>„<rs type="bibl" ref="#hsl_work_id_1680">Wagner, wie ich ihn kannte</rs>“? Das war ja die einfachste, handlichste
+      <lb facs="#facs_1_region_1684564807301_619_tl_13" n="N014"/>Methode, einen Bericht aus der Welt zu schaffen, der Un
+      <lb facs="#facs_1_region_1684564807301_619_tl_14" n="N015" break="no"/>günstiges, angeblich Irriges über <rs type="person" ref="#hsl_person_id_319">Wagner</rs> enthielt. Die
       <lb facs="#facs_1_region_1684564807301_619_tl_15" n="N016"/>literarisch correcteste, nobelste Art der Widerlegung ist das
-      <lb facs="#facs_1_region_1684564807301_619_tl_16" n="N017"/>freilich kaum. Nicht einmal die vortheilhafteste. Das <rs type="person">Wagner</rs>-
+      <lb facs="#facs_1_region_1684564807301_619_tl_16" n="N017"/>freilich kaum. Nicht einmal die vortheilhafteste. Das <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-
       <lb facs="#facs_1_region_1684564807301_619_tl_17" n="N018"/>Syndicat hätte doch besser gethan, alle Unrichtigkeiten in
-      <lb facs="#facs_1_region_1684564807301_619_tl_18" n="N019"/><rs type="person">Präger</rs>’s Buch standhaft zu widerlegen und das Endurtheil
+      <lb facs="#facs_1_region_1684564807301_619_tl_18" n="N019"/><rs type="person" ref="#hsl_person_id_2866">Präger</rs>’s Buch standhaft zu widerlegen und das Endurtheil
       <lb facs="#facs_1_region_1684564807301_619_tl_19" n="N020"/>dem Publicum zu überlassen. Warum ein Buch mit der
-      <lb facs="#facs_1_region_1684564807301_619_tl_20" n="N021"/>Stampfmühle vernichten, wenn man es mit der Feder ver¬
-      <lb facs="#facs_1_region_1684564807301_619_tl_21" n="N022"/>mochte? Unwillkürlich denken wir an <hi rendition="#em"><rs type="person">Heine</rs>’s</hi> Klage:
+      <lb facs="#facs_1_region_1684564807301_619_tl_20" n="N021"/>Stampfmühle vernichten, wenn man es mit der Feder ver
+      <lb facs="#facs_1_region_1684564807301_619_tl_21" n="N022" break="no"/>mochte? Unwillkürlich denken wir an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_116">Heine</rs>’s</hi> Klage:
       <lb facs="#facs_1_region_1684564807301_619_tl_22" n="N023"/>„Schließlich stopft man mir den Mund mit einer Handvoll
       <lb facs="#facs_1_region_1684564807301_619_tl_23" n="N024"/>Erde — <hi rendition="#em">Aber ist das eine Antwort</hi>?“
-      <lb facs="#facs_1_line_1692024859146_705" n="N025"/>Herr <rs type="person">Weißheimer</rs>, gegenwärtig in <rs type="place">Freiburg</rs> i. Br. an¬
-      <lb facs="#facs_1_region_1684564807301_619_tl_24" n="N026"/>sässig, war als Student in <rs type="place">Darmstadt</rs> durch die Auf¬
-      <lb facs="#facs_1_line_1692024751610_639" n="N027"/>führungen von „<rs type="bibl">Tannhäuser</rs>“ und „<rs type="bibl">Lohengrin</rs>“, „in ein
-      <lb facs="#facs_1_line_1692024756546_644" n="N028"/>völliges <rs type="person">Wagner</rs>-Delirium gerathen“. Nur schwer erlangte
+            </p><p>
+      <lb facs="#facs_1_line_1692024859146_705" n="N025"/>Herr <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>, gegenwärtig in <rs type="place" ref="#hsl_place_id_322">Freiburg</rs> i. Br. an
+      <lb facs="#facs_1_region_1684564807301_619_tl_24" n="N026" break="no"/>sässig, war als Student in <rs type="place" ref="#hsl_place_id_13">Darmstadt</rs> durch die Auf
+      <lb facs="#facs_1_line_1692024751610_639" n="N027" break="no"/>führungen von „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ und „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“, „in ein
+      <lb facs="#facs_1_line_1692024756546_644" n="N028"/>völliges <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Delirium gerathen“. Nur schwer erlangte
       <lb facs="#facs_1_region_1684564807301_619_tl_29" n="N029"/>er die Zustimmung seiner Eltern, sich ganz der Musik
-      <lb facs="#facs_1_region_1684564807301_619_tl_30" n="N030"/>widmen zu dürfen. Nach absolvirten Studien am <rs type="place">Leip¬</rs>
-      <lb facs="#facs_1_region_1684564807301_619_tl_31" n="N031"/><rs type="place">zig</rs>er Conservatorium reiste er im Sommer <date month="0" day="0" year="0">1858</date> mit einer
-      <lb facs="#facs_1_region_1684564807301_619_tl_32" n="N032"/>Empfehlung <rs type="person">Schindelmeisser</rs>’s zu <rs type="person">Wagner</rs> nach <rs type="place">Zürich</rs>. Zum
-      <lb facs="#facs_1_region_1684564807301_619_tl_33" n="N033"/>letztenmale hat er <rs type="person">Wagner</rs> im Juni <date month="0" day="0" year="0">1868</date> in <rs type="place">München</rs> in
-      <lb facs="#facs_1_line_1692024777585_664" n="N034"/>*) „<rs type="bibl"><hi rendition="#em">Erlebnisse mit R. Wagner, Liszt</hi> und vielen</rs>
-      <lb facs="#facs_1_line_1692024780226_667" n="N035"/><rs type="bibl">anderen Zeitgenossen nebst deren Briefen</rs>.“ Mit Facsimiles von
-      <lb facs="#facs_1_line_1692024782985_670" n="N036"/>Briefen <rs type="person">Wagner</rs>’s, <rs type="person">Liszt</rs>’s und <rs type="person">Bülow</rs>’s. Von W. <hi rendition="#em"><rs type="person">Weißheimer</rs></hi>.
-      <lb facs="#facs_1_line_1692024785426_673" n="N037"/>(Deutsche Verlagsanstalt in <rs type="place">Stuttgart</rs>. <date month="0" day="0" year="0">1898</date>. Zweite Auflage.)</p>
+      <lb facs="#facs_1_region_1684564807301_619_tl_30" n="N030"/>widmen zu dürfen. Nach absolvirten Studien am <rs type="place" ref="#hsl_place_id_32">Leip
+      <lb facs="#facs_1_region_1684564807301_619_tl_31" n="N031" break="no"/>zig</rs>er Conservatorium reiste er im Sommer <date>1858</date> mit einer
+      <lb facs="#facs_1_region_1684564807301_619_tl_32" n="N032"/>Empfehlung <rs type="person" ref="#hsl_person_id_2867">Schindelmeisser</rs>’s zu <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nach <rs type="place" ref="#hsl_place_id_98">Zürich</rs>. Zum
+      <lb facs="#facs_1_region_1684564807301_619_tl_33" n="N033"/>letztenmale hat er <rs type="person" ref="#hsl_person_id_319">Wagner</rs> im Juni <date>1868</date> in <rs type="place" ref="#hsl_place_id_39">München</rs> in<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_1_region_1684564810802_622_tl_1" n="N001"/>der Königsloge des Hoftheaters gesehen. Den Inhalt dieser
-      <lb facs="#facs_1_region_1684564810802_622_tl_2" n="N002"/>zehn Jahre bildete für <rs type="person">Weißheimer</rs> die unermüdlichste, fast
-      <lb facs="#facs_1_region_1684564810802_622_tl_3" n="N003"/>ausschließliche Thätigkeit im Interesse <rs type="person">Wagner</rs>’s. Wir wollen
+      <lb facs="#facs_1_region_1684564810802_622_tl_2" n="N002"/>zehn Jahre bildete für <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> die unermüdlichste, fast
+      <lb facs="#facs_1_region_1684564810802_622_tl_3" n="N003"/>ausschließliche Thätigkeit im Interesse <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s. Wir wollen
       <lb facs="#facs_1_region_1684564810802_622_tl_4" n="N004"/>hier in Kürze und möglichst wortgetreu das Wichtigste
-      <lb facs="#facs_1_region_1684564810802_622_tl_5" n="N005"/>aus <rs type="person">Weißheimer</rs>’s Erlebnissen mit <rs type="person">Wagner</rs> nacherzählen.
-      <lb facs="#facs_1_region_1684564810802_622_tl_6" n="N006"/>Zunächst beginnt <rs type="person">Weißheimer</rs> seine Thätigkeit mit einer
-      <lb facs="#facs_1_region_1684564810802_622_tl_7" n="N007"/>Reihe von Aufsätzen über „<rs type="bibl">Tristan und Isolde</rs>“ für
-      <lb facs="#facs_1_line_1692024815546_690" n="N008"/><rs type="person">Brendel</rs>’s <rs type="bibl">Musikzeitschrift</rs>. Dann hilft er dem von <rs type="place">Paris</rs>
-      <lb facs="#facs_1_region_1684564810802_622_tl_9" n="N009"/>nach <rs type="place">Deutschland</rs> zurückgekehrten <rs type="person">Wagner</rs> bei dessen Ueber¬
-      <lb facs="#facs_1_region_1684564810802_622_tl_10" n="N010"/>siedlung von <rs type="place">Mainz</rs> nach <rs type="place">Biebrich</rs>. Das war keine Kleinig¬
-      <lb facs="#facs_1_region_1684564810802_622_tl_11" n="N011"/>keit, denn eine ganze Wagenburg kam angefahren mit
-      <lb facs="#facs_1_region_1684564810802_622_tl_12" n="N012"/><rs type="person">Wagner</rs>’s Kisten und Koffern. Nicht die Hälfte davon fand
-      <lb facs="#facs_1_region_1684564810802_622_tl_13" n="N013"/>Raum in <rs type="person">Wagner</rs>’s aus drei Zimmern bestehender Woh¬
-      <lb facs="#facs_1_line_1692024908545_751" n="N014"/>nung. Im ganzen Hause war kein Platz, und so brachte
-      <lb facs="#facs_1_region_1684564810802_622_tl_14" n="N015"/>denn <rs type="person">Weißheimer</rs> mit Hilfe des Wirthes die Kisten in einem
-      <lb facs="#facs_1_region_1684564810802_622_tl_15" n="N016"/>benachbarten geräumigen Kelterhaus unter. <rs type="person">Wagner</rs> ließ
-      <lb facs="#facs_1_line_1692024918218_761" n="N017"/>von einem Tapezierer die Fenster seiner Wohnung mit Vor¬
-      <lb facs="#facs_1_region_1684564810802_622_tl_16" n="N018"/>hängen und die Thüren mit Portièren versehen, schlüpfte
+      <lb facs="#facs_1_region_1684564810802_622_tl_5" n="N005"/>aus <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>’s Erlebnissen mit <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nacherzählen.
+            </p><p>
+      <lb facs="#facs_1_region_1684564810802_622_tl_6" n="N006"/>Zunächst beginnt <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> seine Thätigkeit mit einer
+      <lb facs="#facs_1_region_1684564810802_622_tl_7" n="N007"/>Reihe von Aufsätzen über „<rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs>“ für
+      <lb facs="#facs_1_line_1692024815546_690" n="N008"/><rs type="person" ref="#hsl_person_id_1745">Brendel</rs>’s <rs type="bibl" ref="#hsl_work_id_553">Musikzeitschrift</rs>. Dann hilft er dem von <rs type="place" ref="#hsl_place_id_44">Paris</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684564810802_622_tl_9" n="N009"/>nach <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> zurückgekehrten <rs type="person" ref="#hsl_person_id_319">Wagner</rs> bei dessen Ueber
+      <lb facs="#facs_1_region_1684564810802_622_tl_10" n="N010" break="no"/>siedlung von <rs type="place" ref="#hsl_place_id_314">Mainz</rs> nach <rs type="place" ref="#hsl_place_id_217">Biebrich</rs>. Das war keine Kleinig
+      <lb facs="#facs_1_region_1684564810802_622_tl_11" n="N011" break="no"/>keit, denn eine ganze Wagenburg kam angefahren mit
+      <lb facs="#facs_1_region_1684564810802_622_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Kisten und Koffern. Nicht die Hälfte davon fand
+      <lb facs="#facs_1_region_1684564810802_622_tl_13" n="N013"/>Raum in <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s aus drei Zimmern bestehender Woh
+      <lb facs="#facs_1_line_1692024908545_751" n="N014" break="no"/>nung. Im ganzen Hause war kein Platz, und so brachte
+      <lb facs="#facs_1_region_1684564810802_622_tl_14" n="N015"/>denn <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> mit Hilfe des Wirthes die Kisten in einem
+      <lb facs="#facs_1_region_1684564810802_622_tl_15" n="N016"/>benachbarten geräumigen Kelterhaus unter. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> ließ
+      <lb facs="#facs_1_line_1692024918218_761" n="N017"/>von einem Tapezierer die Fenster seiner Wohnung mit Vor
+      <lb facs="#facs_1_region_1684564810802_622_tl_16" n="N018" break="no"/>hängen und die Thüren mit Portièren versehen, schlüpfte
       <lb facs="#facs_1_region_1684564810802_622_tl_17" n="N019"/>in einen seiner berühmten Sammtschlafröcke, setzte ein dazu
-      <lb facs="#facs_1_region_1684564810802_622_tl_18" n="N020"/>passendes Barett auf und begann an den „<rs type="bibl">Meister¬</rs>
-      <lb facs="#facs_1_region_1684564810802_622_tl_19" n="N021"/><rs type="bibl">singern</rs>“ zu arbeiten. Mitten in dieser erregten
+      <lb facs="#facs_1_region_1684564810802_622_tl_18" n="N020"/>passendes Barett auf und begann an den „<rs type="bibl" ref="#hsl_work_id_217">Meister
+      <lb facs="#facs_1_region_1684564810802_622_tl_19" n="N021" break="no"/>singern</rs>“ zu arbeiten. Mitten in dieser erregten
       <lb facs="#facs_1_region_1684564810802_622_tl_20" n="N022"/>Productionszeit wurde er durch den Besuch seiner
-      <lb facs="#facs_1_region_1684564810802_622_tl_21" n="N023"/>Frau überrascht. Die gute <rs type="person">Minna</rs> wollte ihm eine Freude
-      <lb facs="#facs_1_region_1684564810802_622_tl_22" n="N024"/>machen und kam unvermuthet aus <rs type="place">Dresden</rs> an, wo er seit
-      <lb facs="#facs_1_region_1684564810802_622_tl_23" n="N025"/>einiger Zeit sie bei <rs type="person">Tichatscheks</rs> untergebracht hatte. <rs type="person">Wagner</rs>
+      <lb facs="#facs_1_region_1684564810802_622_tl_21" n="N023"/>Frau überrascht. Die gute <rs type="person" ref="#hsl_person_id_2868">Minna</rs> wollte ihm eine Freude
+      <lb facs="#facs_1_region_1684564810802_622_tl_22" n="N024"/>machen und kam unvermuthet aus <rs type="place" ref="#hsl_place_id_15">Dresden</rs> an, wo er seit
+      <lb facs="#facs_1_region_1684564810802_622_tl_23" n="N025"/>einiger Zeit sie bei <rs type="person" ref="#hsl_person_id_1806">Tichatschek</rs>s untergebracht hatte. <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564810802_622_tl_24" n="N026"/>verhehlte nicht, wie ungelegen dieser gutgemeinte Ueberfall
       <lb facs="#facs_1_region_1684564810802_622_tl_25" n="N027"/>ihm komme. Was bei der großen Verschiedenartigkeit beider
       <lb facs="#facs_1_region_1684564810802_622_tl_26" n="N028"/>Ehehälften vorauszusehen war: schon nach Verlauf einer
-      <lb facs="#facs_1_region_1684564810802_622_tl_27" n="N029"/>Woche reiste Frau <rs type="person">Minna</rs> wieder zurück nach <rs type="place">Dresden</rs>,
-      <lb facs="#facs_1_region_1684564810802_622_tl_28" n="N030"/>um sich nie wieder sehen zu lassen. In <rs type="place">Mainz</rs>
-      <lb facs="#facs_1_line_1692024861041_708" n="N031"/>besorgt <rs type="person">Weißheimer</rs> alle erdenklichen Commissionen
-      <lb facs="#facs_1_region_1684564810802_622_tl_30" n="N032"/>für <rs type="person">Wagner</rs>, der in zahlreichen Briefchen ihn stets
+      <lb facs="#facs_1_region_1684564810802_622_tl_27" n="N029"/>Woche reiste Frau <rs type="person" ref="#hsl_person_id_2868">Minna</rs> wieder zurück nach <rs type="place" ref="#hsl_place_id_15">Dresden</rs>,
+      <lb facs="#facs_1_region_1684564810802_622_tl_28" n="N030"/>um sich nie wieder sehen zu lassen. In <rs type="place" ref="#hsl_place_id_314">Mainz</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1692024861041_708" n="N031"/>besorgt <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> alle erdenklichen Commissionen
+      <lb facs="#facs_1_region_1684564810802_622_tl_30" n="N032"/>für <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, der in zahlreichen Briefchen ihn stets
       <lb facs="#facs_1_region_1684564810802_622_tl_31" n="N033"/>mit Liebster Wendelin, Liebster Freund, anredet.
-      <lb facs="#facs_1_region_1684564810802_622_tl_32" n="N034"/><rs type="person">Weißheimer</rs> arbeitet für <rs type="person">Wagner</rs> einen vierhändigen Clavier¬
-      <lb facs="#facs_1_region_1684564810802_622_tl_33" n="N035"/>auszug des „<rs type="bibl">Meistersinger</rs>“-Vorspiels aus, begleitet bei dem
-      <lb facs="#facs_1_region_1684564810802_622_tl_34" n="N036"/>Besuch des Sängers <rs type="person">Schnorr</rs> die <rs type="bibl">Tristan</rs>-Scene aus der
-      <lb facs="#facs_1_region_1684564810802_622_tl_35" n="N037"/>Partitur und was es sonst noch gab an musikalischen Freund¬
-      <lb facs="#facs_1_line_1692024936418_771" n="N038"/>schaftsdiensten. Aber diese waren noch die geringsten. <rs type="person">Wagner</rs>
+      <lb facs="#facs_1_region_1684564810802_622_tl_32" n="N034"/><rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> arbeitet für <rs type="person" ref="#hsl_person_id_319">Wagner</rs> einen vierhändigen Clavier
+      <lb facs="#facs_1_region_1684564810802_622_tl_33" n="N035" break="no"/>auszug des „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“-Vorspiels aus, begleitet bei dem
+      <lb facs="#facs_1_region_1684564810802_622_tl_34" n="N036"/>Besuch des Sängers <rs type="person" ref="#hsl_person_id_1137">Schnorr</rs> die <rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>-Scene aus der
+      <lb facs="#facs_1_region_1684564810802_622_tl_35" n="N037"/>Partitur und was es sonst noch gab an musikalischen Freund
+      <lb facs="#facs_1_line_1692024936418_771" n="N038" break="no"/>schaftsdiensten. Aber diese waren noch die geringsten. <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564810802_622_tl_36" n="N039"/>befand sich fortwährend in Geldverlegenheit, was ihn freilich
       <lb facs="#facs_1_region_1684564810802_622_tl_37" n="N040"/>nicht hinderte, Champagner aufzutischen, dem Kutscher für
       <lb facs="#facs_1_region_1684564810802_622_tl_38" n="N041"/>eine Spazierfahrt einen Louisd’or zu geben u. s. w. Als
-      <lb facs="#facs_1_region_1684564810802_622_tl_39" n="N042"/><rs type="person">Wagner</rs> nach <rs type="place">Karlsruhe</rs> reist, um dort dem <rs type="person">Großherzog</rs>
-      <lb facs="#facs_1_line_1692024869570_715" n="N043"/>die <rs type="bibl">Meistersinger</rs>-Dichtung vorzulesen, schüttet ihm <rs type="person" continued="true">Weiß¬</rs></p>
+      <lb facs="#facs_1_region_1684564810802_622_tl_39" n="N042"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> nach <rs type="place" ref="#hsl_place_id_29">Karlsruhe</rs> reist, um dort dem <rs type="person" ref="#hsl_person_id_2869">Großherzog</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1692024869570_715" n="N043"/>die <rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>-Dichtung vorzulesen, schüttet ihm <rs type="person" ref="#hsl_person_id_2863">Weiß</rs></p>
             <cb n="3"/>
-            <p>
-      <lb facs="#facs_1_region_1684564823663_625_tl_1" n="N001"/><rs type="person" continued="true">heimer</rs> beim Einsteigen vorsichtshalber den ganzen Inhalt
-      <lb facs="#facs_1_region_1684564823663_625_tl_2" n="N002"/>seines Portemonnaies in den Hut. Der Verleger <rs type="person">Schott</rs>
-      <lb facs="#facs_1_region_1684564823663_625_tl_3" n="N003"/>war des ewigen Vorauszahlens müde geworden und <rs type="person">Wagner</rs>
-      <lb facs="#facs_1_region_1684564823663_625_tl_4" n="N004"/>saß bald auf dem Trockenen. <rs type="person">Weißheimer</rs>, der ihm wieder¬
-      <lb facs="#facs_1_region_1684564823663_625_tl_5" n="N005"/>holt mit kleineren Beträgen ausgeholfen, sollte es nun mit
-      <lb facs="#facs_1_line_1692024879610_724" n="N006"/>einer größeren Summe. „<rs type="person">Wagner</rs> wünscht eine General-
+            <p prev="true">
+      <lb facs="#facs_1_region_1684564823663_625_tl_1" n="N001" break="no"/><rs type="person" ref="#hsl_person_id_2863">heimer</rs> beim Einsteigen vorsichtshalber den ganzen Inhalt
+      <lb facs="#facs_1_region_1684564823663_625_tl_2" n="N002"/>seines Portemonnaies in den Hut. Der Verleger <rs type="person" ref="#hsl_person_id_2870">Schott</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684564823663_625_tl_3" n="N003"/>war des ewigen Vorauszahlens müde geworden und <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684564823663_625_tl_4" n="N004"/>saß bald auf dem Trockenen. <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>, der ihm wieder
+      <lb facs="#facs_1_region_1684564823663_625_tl_5" n="N005" break="no"/>holt mit kleineren Beträgen ausgeholfen, sollte es nun mit
+      <lb facs="#facs_1_line_1692024879610_724" n="N006"/>einer größeren Summe. „<rs type="person" ref="#hsl_person_id_319">Wagner</rs> wünscht eine General-
       <lb facs="#facs_1_line_1692024886322_730" n="N007"/>Anleihe von 5000 fl.“ „Zunächst, liebster Freund,“ schreibt
-      <lb facs="#facs_1_region_1684564823663_625_tl_10" n="N008"/>er an <rs type="person">Weißheimer</rs>, „bedarf ich auf das dringendste 1500 fl.
+      <lb facs="#facs_1_region_1684564823663_625_tl_10" n="N008"/>er an <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>, „bedarf ich auf das dringendste 1500 fl.
       <lb facs="#facs_1_line_1692024892673_736" n="N009"/>Sehen Sie, was Sie über ihren lieben Vater vermögen!
-      <lb facs="#facs_1_line_1692024900571_744" n="N010"/>Strengen Sie das Aeußerste an!“ <rs type="person">Weißheimer</rs> reist eiligst
-      <lb facs="#facs_1_region_1684564823663_625_tl_15" n="N011"/>nach Osthofen zu seinem <rs type="person">Vater</rs>, dann nach <rs type="place">Worms</rs> zu
-      <lb facs="#facs_1_region_1684564823663_625_tl_16" n="N012"/>seinem <rs type="person">Onkel</rs>; Beide können diesmal nicht aushelfen. Endlich
+      <lb facs="#facs_1_line_1692024900571_744" n="N010"/>Strengen Sie das Aeußerste an!“ <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> reist eiligst
+      <lb facs="#facs_1_region_1684564823663_625_tl_15" n="N011"/>nach Osthofen zu seinem <rs type="person" ref="#hsl_person_id_2871">Vater</rs>, dann nach <rs type="place" ref="#hsl_place_id_323">Worms</rs> zu
+      <lb facs="#facs_1_region_1684564823663_625_tl_16" n="N012"/>seinem Onkel; Beide können diesmal nicht aushelfen. Endlich
       <lb facs="#facs_1_region_1684564823663_625_tl_17" n="N013"/>erhält er zum Glück das Gewünschte von dem Bankier
-      <lb facs="#facs_1_line_1692024910090_754" n="N014"/><rs type="person">Bamberger</rs> und eilt nach <rs type="place">Mainz</rs> zurück, wo bereits <rs type="person">Wagner</rs>
+      <lb facs="#facs_1_line_1692024910090_754" n="N014"/><rs type="person" ref="#hsl_person_id_2872">Bamberger</rs> und eilt nach <rs type="place" ref="#hsl_place_id_314">Mainz</rs> zurück, wo bereits <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564823663_625_tl_19" n="N015"/>ungeduldig im Café Paris seiner harrt. Bei Empfang
       <lb facs="#facs_1_region_1684564823663_625_tl_20" n="N016"/>des Geldes fällt er seinem jungen Freunde weinend um den
-      <lb facs="#facs_1_line_1692024920881_764" n="N017"/>Hals. Zunächst mußte <rs type="person">Wagner</rs> seine Wohnung in <rs type="place">Biebrich</rs>
+      <lb facs="#facs_1_line_1692024920881_764" n="N017"/>Hals. Zunächst mußte <rs type="person" ref="#hsl_person_id_319">Wagner</rs> seine Wohnung in <rs type="place" ref="#hsl_place_id_217">Biebrich</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564823663_625_tl_22" n="N018"/>bezahlen, denn <hi rendition="#em">ohne</hi> Zahlung durfte er in dieselbe nicht
-      <lb facs="#facs_1_region_1684564823663_625_tl_23" n="N019"/>wieder hinein. Aber jede Summe zerrann in <rs type="person">Wagner</rs>’s
-      <lb facs="#facs_1_region_1684564823663_625_tl_24" n="N020"/>Händen. Kaum acht Tage später dringt er in <rs type="person">Weißheimer</rs>,
+      <lb facs="#facs_1_region_1684564823663_625_tl_23" n="N019"/>wieder hinein. Aber jede Summe zerrann in <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
+      <lb facs="#facs_1_region_1684564823663_625_tl_24" n="N020"/>Händen. Kaum acht Tage später dringt er in <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>,
       <lb facs="#facs_1_region_1684564823663_625_tl_25" n="N021"/>ihm um Himmelswillen noch etwa 300 fl. vorzustrecken;
-      <lb facs="#facs_1_region_1684564823663_625_tl_26" n="N022"/>auch <hi rendition="#em"><rs type="person">Bülow</rs></hi> solle ein paar hundert Gulden auftreiben.
-      <lb facs="#facs_1_region_1684564823663_625_tl_27" n="N023"/><rs type="person">Weißheimer</rs> reist nach <rs type="place">Wiesbaden</rs> zu wohlhabenden Freunden
-      <lb facs="#facs_1_region_1684564823663_625_tl_28" n="N024"/>(<rs type="person">Wilhelmy</rs> und <rs type="person">Rosenträger</rs>), welche geneigt schienen, <rs type="person">Wagner</rs>
+      <lb facs="#facs_1_region_1684564823663_625_tl_26" n="N022"/>auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_44">Bülow</rs></hi> solle ein paar hundert Gulden auftreiben.
+      <lb facs="#facs_1_region_1684564823663_625_tl_27" n="N023"/><rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> reist nach <rs type="place" ref="#hsl_place_id_267">Wiesbaden</rs> zu wohlhabenden Freunden
+      <lb facs="#facs_1_region_1684564823663_625_tl_28" n="N024"/>(<rs type="person" ref="#hsl_person_id_2873">Wilhelmy</rs> und <rs type="person" ref="#hsl_person_id_2874">Rosenträger</rs>), welche geneigt schienen, <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564823663_625_tl_29" n="N025"/>zu helfen, falls er nicht zu hohe Anforderungen stellen würde.
-      <lb facs="#facs_1_region_1684564823663_625_tl_30" n="N026"/>„Einmal in <rs type="place">Wiesbaden</rs>,“ berichtet <rs type="person">Weißheimer</rs>, „wollte ich
+      <lb facs="#facs_1_region_1684564823663_625_tl_30" n="N026"/>„Einmal in <rs type="place" ref="#hsl_place_id_267">Wiesbaden</rs>,“ berichtet <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>, „wollte ich
       <lb facs="#facs_1_region_1684564823663_625_tl_31" n="N027"/>es nicht versäumen, <hi rendition="#em">Alles</hi> aufzubieten und auf gut Glück
-      <lb facs="#facs_1_region_1684564823663_625_tl_32" n="N028"/>für <rs type="person">Wagner</rs> sogar auf den — <hi rendition="#em">Bettel zu gehen</hi>.“ So
-      <lb facs="#facs_1_region_1684564823663_625_tl_33" n="N029"/>schwer es ihm wurde, <rs type="person">Weißheimer</rs> sprach in der Nähe des
+      <lb facs="#facs_1_region_1684564823663_625_tl_32" n="N028"/>für <rs type="person" ref="#hsl_person_id_319">Wagner</rs> sogar auf den — <hi rendition="#em">Bettel zu gehen</hi>.“ So
+      <lb facs="#facs_1_region_1684564823663_625_tl_33" n="N029"/>schwer es ihm wurde, <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> sprach in der Nähe des
       <lb facs="#facs_1_region_1684564823663_625_tl_34" n="N030"/>Curhauses allerhand distinguirt aussehende Persönlichkeiten
-      <lb facs="#facs_1_region_1684564823663_625_tl_35" n="N031"/>zu Gunsten <rs type="person">Wagner</rs>’s an — holte sich aber lauter Körbe.
-      <lb facs="#facs_1_region_1684564823663_625_tl_36" n="N032"/>Hierauf faßt er die Idee zu einer <hi rendition="#em">National-Sub¬</hi>
-      <lb facs="#facs_1_region_1684564823663_625_tl_37" n="N033"/><hi rendition="#em">scription</hi> für <rs type="person">Wagner</rs> und correspondirt darüber eifrig
-      <lb facs="#facs_1_region_1684564823663_625_tl_38" n="N034"/>mit <hi rendition="#em"><rs type="person">Bülow</rs></hi>. Dieser verhehlt sich nicht die vielen Bedenk¬
-      <lb facs="#facs_1_region_1684564823663_625_tl_39" n="N035"/>lichkeiten der Sache, sieht aber doch keinen andern Ausweg
-      <lb facs="#facs_1_region_1684564823663_625_tl_40" n="N036"/>und verspricht seine Mitwirkung. Inzwischen hilft <rs type="person">Weißheimer</rs>
+      <lb facs="#facs_1_region_1684564823663_625_tl_35" n="N031"/>zu Gunsten <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s an — holte sich aber lauter Körbe.
+      <lb facs="#facs_1_region_1684564823663_625_tl_36" n="N032"/>Hierauf faßt er die Idee zu einer <hi rendition="#em">National-Sub
+      <lb facs="#facs_1_region_1684564823663_625_tl_37" n="N033" break="no"/>scription</hi> für <rs type="person" ref="#hsl_person_id_319">Wagner</rs> und correspondirt darüber eifrig
+      <lb facs="#facs_1_region_1684564823663_625_tl_38" n="N034"/>mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_44">Bülow</rs></hi>. Dieser verhehlt sich nicht die vielen Bedenk
+      <lb facs="#facs_1_region_1684564823663_625_tl_39" n="N035" break="no"/>lichkeiten der Sache, sieht aber doch keinen andern Ausweg
+      <lb facs="#facs_1_region_1684564823663_625_tl_40" n="N036"/>und verspricht seine Mitwirkung. Inzwischen hilft <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564823663_625_tl_41" n="N037"/>immer wieder aus. „Sie sind wahrlich der Einzige,“ schreibt
-      <lb facs="#facs_1_line_1692024938426_774" n="N038"/>ihm <rs type="person">Wagner</rs>, „der sich noch um mich bekümmert! Selbst
-      <lb facs="#facs_1_region_1684564823663_625_tl_43" n="N039"/>Hans (<rs type="person">Bülow</rs>) scheint’s aufgegeben zu haben.“ Letzterer hatte
+      <lb facs="#facs_1_line_1692024938426_774" n="N038"/>ihm <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, „der sich noch um mich bekümmert! Selbst
+      <lb facs="#facs_1_region_1684564823663_625_tl_43" n="N039"/>Hans (<rs type="person" ref="#hsl_person_id_44">Bülow</rs>) scheint’s aufgegeben zu haben.“ Letzterer hatte
       <lb facs="#facs_1_region_1684564823663_625_tl_44" n="N040"/>ihn keineswegs aufgegeben, stand aber den unaufhörlichen
-      <lb facs="#facs_1_region_1684564823663_625_tl_45" n="N041"/>Geldforderungen <rs type="person">Wagner</rs>’s rathlos gegenüber und nennt
-      <lb facs="#facs_1_region_1684564823663_625_tl_46" n="N042"/>es <hi rendition="#em">unglaublich</hi>, was <rs type="person">Wagner</rs> in vierzehn Tagen
-      <lb facs="#facs_1_line_1692024871115_718" n="N043"/>an Geld consumiren kann! „Haben Sie denn keine</p>
+      <lb facs="#facs_1_region_1684564823663_625_tl_45" n="N041"/>Geldforderungen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s rathlos gegenüber und nennt
+      <lb facs="#facs_1_region_1684564823663_625_tl_46" n="N042"/>es <hi rendition="#em">unglaublich</hi>, was <rs type="person" ref="#hsl_person_id_319">Wagner</rs> in vierzehn Tagen
+      <lb facs="#facs_1_line_1692024871115_718" n="N043"/>an Geld consumiren kann! „Haben Sie denn keine<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-      <lb facs="#facs_2_region_1684564835163_631_tl_1" n="N001"/>Idee,“ fragt <rs type="person">Bülow</rs>, „wo er das Geld, das er sich
+            <p prev="true">
+      <lb facs="#facs_2_region_1684564835163_631_tl_1" n="N001"/>Idee,“ fragt <rs type="person" ref="#hsl_person_id_44">Bülow</rs>, „wo er das Geld, das er sich
       <lb facs="#facs_2_region_1684564835163_631_tl_2" n="N002"/>immer im Nothfalle zu verschaffen weiß, so schnell hinbringt?“
-      <lb facs="#facs_2_region_1684564835163_631_tl_3" n="N003"/><rs type="person">Weißheimer</rs> gesteht, es nicht zu begreifen. Heute sei <rs type="person">Wagner</rs>
-      <lb facs="#facs_2_region_1684564835163_631_tl_4" n="N004"/>im Besitze von mehreren hundert Gulden und im Hand¬
-      <lb facs="#facs_2_region_1684564835163_631_tl_5" n="N005"/>umdrehen seien sie fort. Seine Kunst im Geldausgeben sei
-      <lb facs="#facs_2_region_1684564835163_631_tl_6" n="N006"/>räthselhaft. „Und mir ist räthselhaft,“ fährt <rs type="person">Bülow</rs> fort,
+      <lb facs="#facs_2_region_1684564835163_631_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> gesteht, es nicht zu begreifen. Heute sei <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684564835163_631_tl_4" n="N004"/>im Besitze von mehreren hundert Gulden und im Hand
+      <lb facs="#facs_2_region_1684564835163_631_tl_5" n="N005" break="no"/>umdrehen seien sie fort. Seine Kunst im Geldausgeben sei
+      <lb facs="#facs_2_region_1684564835163_631_tl_6" n="N006"/>räthselhaft. „Und mir ist räthselhaft,“ fährt <rs type="person" ref="#hsl_person_id_44">Bülow</rs> fort,
       <lb facs="#facs_2_region_1684564835163_631_tl_7" n="N007"/>„daß er sich allemal das Nöthige wieder zu verschaffen weiß.
       <lb facs="#facs_2_region_1684564835163_631_tl_8" n="N008"/>Am Ende ist er ein noch größeres Finanzgenie, als er
       <lb facs="#facs_2_region_1684564835163_631_tl_9" n="N009"/>Dichter- und Musikgenie ist.“ Zunächst erprobt sich das
-      <lb facs="#facs_2_region_1684564835163_631_tl_10" n="N010"/>Finanzgenie allerdings wieder an <rs type="person">Weißheimer</rs>. „Machen Sie
-      <lb facs="#facs_2_line_1692024964714_791" n="N011"/>ihre Sachen gut,“ schreibt ihm <rs type="person">Wagner</rs>, „erleichtern Sie
+      <lb facs="#facs_2_region_1684564835163_631_tl_10" n="N010"/>Finanzgenie allerdings wieder an <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>. „Machen Sie
+      <lb facs="#facs_2_line_1692024964714_791" n="N011"/>ihre Sachen gut,“ schreibt ihm <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, „erleichtern Sie
       <lb facs="#facs_2_line_1692024969802_796" n="N012"/>mein Herz und beschweren Sie meinen Beutel!“ Durch
-      <lb facs="#facs_2_region_1684564835163_631_tl_16" n="N013"/><rs type="person">Weißheimer</rs>, der seinen <rs type="person">Vater</rs> neuerdings für <rs type="person">Wagner</rs> an¬
-      <lb facs="#facs_2_region_1684564835163_631_tl_17" n="N014"/>pumpt, erhält er schnell hundert Thaler, mit denen er nach
-      <lb facs="#facs_2_region_1684564835163_631_tl_18" n="N015"/><rs type="place">Leipzig</rs> abreist, zur Veranstaltung eines Concertes Anfangs
-      <lb facs="#facs_2_region_1684564835163_631_tl_19" n="N016"/>November <date month="0" day="0" year="0">1862</date>.
-      <lb facs="#facs_2_line_1692024983731_803" n="N017"/>Nun folgt als interessante Episode <rs type="person">Wagner</rs>’s Besuch in
-      <lb facs="#facs_2_region_1684564835163_631_tl_20" n="N018"/><hi rendition="#em"><rs type="place">Wien</rs></hi>. Hier gilt es, die Aufführung von „<rs type="bibl">Tristan und</rs>
-      <lb facs="#facs_2_region_1684564835163_631_tl_21" n="N019"/><rs type="bibl">Isolde</rs>“ und gleichzeitig ein paar Orchester-Concerte im
-      <lb facs="#facs_2_region_1684564835163_631_tl_22" n="N020"/>Theater an der Wien vorzubereiten. <rs type="person">Wagner</rs> braucht Geld
+      <lb facs="#facs_2_region_1684564835163_631_tl_16" n="N013"/><rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>, der seinen <rs type="person" ref="#hsl_person_id_2871">Vater</rs> neuerdings für <rs type="person" ref="#hsl_person_id_319">Wagner</rs> an
+      <lb facs="#facs_2_region_1684564835163_631_tl_17" n="N014" break="no"/>pumpt, erhält er schnell hundert Thaler, mit denen er nach
+      <lb facs="#facs_2_region_1684564835163_631_tl_18" n="N015"/><rs type="place" ref="#hsl_place_id_32">Leipzig</rs> abreist, zur Veranstaltung eines Concertes Anfangs
+      <lb facs="#facs_2_region_1684564835163_631_tl_19" n="N016"/>November <date>1862</date>.
+            </p><p>
+      <lb facs="#facs_2_line_1692024983731_803" n="N017"/>Nun folgt als interessante Episode <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Besuch in
+      <lb facs="#facs_2_region_1684564835163_631_tl_20" n="N018"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi>. Hier gilt es, die Aufführung von „<rs type="bibl" ref="#hsl_work_id_417">Tristan und
+      <lb facs="#facs_2_region_1684564835163_631_tl_21" n="N019"/>Isolde</rs>“ und gleichzeitig ein paar Orchester-Concerte im
+      <lb facs="#facs_2_region_1684564835163_631_tl_22" n="N020"/>Theater an der Wien vorzubereiten. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> braucht Geld
       <lb facs="#facs_2_region_1684564835163_631_tl_23" n="N021"/>und immer wieder Geld! Aus dem Hotel „Kaiserin
-      <lb facs="#facs_2_region_1684564835163_631_tl_24" n="N022"/>Elisabeth“ schreibt er an <rs type="person">Weißheimer</rs>, der in <rs type="place">Leipzig</rs> die
+      <lb facs="#facs_2_region_1684564835163_631_tl_24" n="N022"/>Elisabeth“ schreibt er an <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>, der in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs> die
       <lb facs="#facs_2_region_1684564835163_631_tl_25" n="N023"/>Copiaturen für ihn besorgt: „<hi rendition="#em">Geld</hi> kann ich bis dahin
       <lb facs="#facs_2_region_1684564835163_631_tl_26" n="N024"/>nicht zur Bezahlung der Copisten schicken. Sehen Sie doch
       <lb facs="#facs_2_region_1684564835163_631_tl_27" n="N025"/>um des Himmelswillen, wie Sie das machen!“
-      <lb facs="#facs_2_region_1684564835163_631_tl_28" n="N026"/><rs type="person">Wendelin</rs>’s <rs type="person">Vater</rs> muß abermals Geld schaffen, und der
-      <lb facs="#facs_2_region_1684564835163_631_tl_29" n="N027"/><rs type="person">Sohn</rs> reist Ende December <date month="0" day="0" year="0">1862</date> selbst nach <rs type="place">Wien</rs>,
-      <lb facs="#facs_2_region_1684564835163_631_tl_30" n="N028"/>um <rs type="person">Wagner</rs> von Früh bis Abends behilflich zu sein.
-      <lb facs="#facs_2_region_1684564835163_631_tl_31" n="N029"/>Er studirt täglich mit <hi rendition="#em"><rs type="person">Ander</rs></hi> die Partie des <rs type="person">Tristan</rs> und
-      <lb facs="#facs_2_region_1684564835163_631_tl_32" n="N030"/>zugleich heimlich mit <hi rendition="#em"><rs type="person">Walter</rs></hi>; denn <rs type="person">Ander</rs>’s schwankende
+      <lb facs="#facs_2_region_1684564835163_631_tl_28" n="N026"/><rs type="person" ref="#hsl_person_id_2863">Wendelin</rs>’s <rs type="person" ref="#hsl_person_id_2871">Vater</rs> muß abermals Geld schaffen, und der
+      <lb facs="#facs_2_region_1684564835163_631_tl_29" n="N027"/><rs type="person" ref="#hsl_person_id_2863">Sohn</rs> reist Ende December <date>1862</date> selbst nach <rs type="place" ref="#hsl_place_id_55">Wien</rs>,
+      <lb facs="#facs_2_region_1684564835163_631_tl_30" n="N028"/>um <rs type="person" ref="#hsl_person_id_319">Wagner</rs> von Früh bis Abends behilflich zu sein.
+      <lb facs="#facs_2_region_1684564835163_631_tl_31" n="N029"/>Er studirt täglich mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_14">Ander</rs></hi> die Partie des <rs type="person" ref="#hsl_person_id_1025">Tristan</rs> und
+      <lb facs="#facs_2_region_1684564835163_631_tl_32" n="N030"/>zugleich heimlich mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi>; denn <rs type="person" ref="#hsl_person_id_14">Ander</rs>’s schwankende
       <lb facs="#facs_2_region_1684564835163_631_tl_33" n="N031"/>Gesundheit machte eine Doppelbesetzung nothwendig, von
-      <lb facs="#facs_2_region_1684564835163_631_tl_34" n="N032"/>welcher er aber nichts erfahren dürfe. Auch mit <hi rendition="#em"><rs type="person">Hrabanek</rs></hi>
-      <lb facs="#facs_2_region_1684564835163_631_tl_35" n="N033"/>studirt er den <rs type="person">Kurvenal</rs> und soll <hi rendition="#em"><rs type="person">Beck</rs></hi> in den König <rs type="person">Marke</rs>
-      <lb facs="#facs_2_region_1684564835163_631_tl_36" n="N034"/>einweihen. <rs type="person">Beck</rs> ahnt aber, daß aus der „<rs type="bibl">Tristan</rs>“-
+      <lb facs="#facs_2_region_1684564835163_631_tl_34" n="N032"/>welcher er aber nichts erfahren dürfe. Auch mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_130">Hrabanek</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684564835163_631_tl_35" n="N033"/>studirt er den <rs type="person" ref="#hsl_person_id_2875">Kurvenal</rs> und soll <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> in den König <rs type="person" ref="#hsl_person_id_2876">Marke</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684564835163_631_tl_36" n="N034"/>einweihen. <rs type="person" ref="#hsl_person_id_24">Beck</rs> ahnt aber, daß aus der „<rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>“-
       <lb facs="#facs_2_region_1684564835163_631_tl_37" n="N035"/>Aufführung nichts würde und ist nie zu Hause
-      <lb facs="#facs_2_region_1684564835163_631_tl_38" n="N036"/>oder läßt sich verleugnen. Die beiden Concerte <rs type="person">Wagner</rs>’s
+      <lb facs="#facs_2_region_1684564835163_631_tl_38" n="N036"/>oder läßt sich verleugnen. Die beiden Concerte <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
       <lb facs="#facs_2_region_1684564835163_631_tl_39" n="N037"/>erregten unbeschreiblichen Jubel und brachten ihm
       <lb facs="#facs_2_region_1684564835163_631_tl_40" n="N038"/>eine Einnahme von 3000 Gulden. Außerdem schickte
-      <lb facs="#facs_2_region_1684564835163_631_tl_41" n="N039"/>ihm die Kaiserin auf Veranlassung Dr. <rs type="person">Standhartner</rs>’s
+      <lb facs="#facs_2_region_1684564835163_631_tl_41" n="N039"/>ihm die Kaiserin auf Veranlassung Dr. <rs type="person" ref="#hsl_person_id_2877">Standhartner</rs>’s
       <lb facs="#facs_2_region_1684564835163_631_tl_42" n="N040"/>1000 Gulden. Und immer jammert er noch: „Ich armer,
-      <lb facs="#facs_2_region_1684564835163_631_tl_43" n="N041"/>geplagter Mann!“ Da <rs type="person">Ander</rs>’s Erkrankung den „<rs type="bibl">Tristan</rs>“
-      <lb facs="#facs_2_line_1692025009105_823" n="N042"/>ins Unbestimmte hinausschob, reiste <rs type="person">Wagner</rs> nach <rs type="place">Peters¬</rs></p>
+      <lb facs="#facs_2_region_1684564835163_631_tl_43" n="N041"/>geplagter Mann!“ Da <rs type="person" ref="#hsl_person_id_14">Ander</rs>’s Erkrankung den „<rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>“
+      <lb facs="#facs_2_line_1692025009105_823" n="N042"/>ins Unbestimmte hinausschob, reiste <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nach <rs type="place" ref="#hsl_place_id_50">Peters</rs></p>
             <cb n="5"/>
-            <p>
-      <lb facs="#facs_2_region_1684564838011_634_tl_1" n="N001"/><rs type="place">burg</rs>, wo seine Aufführungen von glänzendstem künstlerischen
-      <lb facs="#facs_2_region_1684564838011_634_tl_2" n="N002"/>und pecuniären Erfolg gekrönt waren. Auch <rs type="person">Wagner</rs>’s Con¬
-      <lb facs="#facs_2_region_1684564838011_634_tl_3" n="N003"/>certe in <rs type="place">Prag</rs> und in <rs type="place">Pest</rs> (er selbst rühmt ihren „un¬
-      <lb facs="#facs_2_region_1684564838011_634_tl_4" n="N004"/>glaublichen Erfolg“) hatten große Summen eingebracht.
+            <p prev="true">
+      <lb facs="#facs_2_region_1684564838011_634_tl_1" n="N001" break="no"/><rs type="place" ref="#hsl_place_id_50">burg</rs>, wo seine Aufführungen von glänzendstem künstlerischen
+      <lb facs="#facs_2_region_1684564838011_634_tl_2" n="N002"/>und pecuniären Erfolg gekrönt waren. Auch <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Con
+      <lb facs="#facs_2_region_1684564838011_634_tl_3" n="N003" break="no"/>certe in <rs type="place" ref="#hsl_place_id_45">Prag</rs> und in <rs type="place" ref="#hsl_place_id_108">Pest</rs> (er selbst rühmt ihren „un
+      <lb facs="#facs_2_region_1684564838011_634_tl_4" n="N004" break="no"/>glaublichen Erfolg“) hatten große Summen eingebracht.
       <lb facs="#facs_2_region_1684564838011_634_tl_5" n="N005"/>„Aber eine Summe, mit welcher jeder Andere einige Jahre
-      <lb facs="#facs_2_region_1684564838011_634_tl_6" n="N006"/>sorgenfrei leben und schaffen konnte, ward von <rs type="person">Wagner</rs> in
-      <lb facs="#facs_2_region_1684564838011_634_tl_7" n="N007"/>wenigen Wochen verbraucht.“ Von <rs type="place">Petersburg</rs> wendet sich
-      <lb facs="#facs_2_region_1684564838011_634_tl_8" n="N008"/><rs type="person">Wagner</rs> wieder nach <rs type="place">Wien</rs> oder genauer: nach <hi rendition="#em"><rs type="place">Penzing</rs></hi>.
-      <lb facs="#facs_2_region_1684564838011_634_tl_9" n="N009"/>Dort miethet er die leerstehende Villa des Baron <rs type="person">Rochow</rs>
+      <lb facs="#facs_2_region_1684564838011_634_tl_6" n="N006"/>sorgenfrei leben und schaffen konnte, ward von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> in
+      <lb facs="#facs_2_region_1684564838011_634_tl_7" n="N007"/>wenigen Wochen verbraucht.“ Von <rs type="place" ref="#hsl_place_id_50">Petersburg</rs> wendet sich
+      <lb facs="#facs_2_region_1684564838011_634_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> wieder nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> oder genauer: nach <hi rendition="#em"><rs type="place" ref="#hsl_place_id_320">Penzing</rs></hi>.
+      <lb facs="#facs_2_region_1684564838011_634_tl_9" n="N009"/>Dort miethet er die leerstehende Villa des Baron <rs type="person" ref="#hsl_person_id_2878">Rochow</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684564838011_634_tl_10" n="N010"/>und läßt sie vollständig neu einrichten. Inzwischen ist der
-      <lb facs="#facs_2_region_1684564838011_634_tl_11" n="N011"/>treue <rs type="person">Wendelin</rs> unausgesetzt für ihn thätig, in <rs type="place">Frank¬</rs>
-      <lb facs="#facs_2_region_1684564838011_634_tl_12" n="N012"/><rs type="place">furt</rs>, in <rs type="place">Darmstadt</rs>, in <rs type="place">Rotterdam</rs>, um in Vorberei¬
-      <lb facs="#facs_2_region_1684564838011_634_tl_13" n="N013"/>tung von Concerten den Boden für <rs type="person">Wagner</rs> zu ebnen.
-      <lb facs="#facs_2_region_1684564838011_634_tl_14" n="N014"/>Noch wähnt er diesen in <rs type="place">Penzing</rs> ruhig bei der Arbeit,
-      <lb facs="#facs_2_region_1684564838011_634_tl_15" n="N015"/>als ihn (in <rs type="place">Leipzig</rs>) ein Telegramm <rs type="person">Wagner</rs>’s plötzlich
-      <lb facs="#facs_2_region_1684564838011_634_tl_16" n="N016"/>nach <rs type="place">Stuttgart</rs> beruft. <rs type="person">Wagner</rs> war im März <date month="0" day="0" year="0">1864</date> heimlich
-      <lb facs="#facs_2_line_1692024985402_806" n="N017"/>von <rs type="place">Penzing</rs> geflüchtet. Den Miethzins, die kostspielige Ein¬
-      <lb facs="#facs_2_region_1684564838011_634_tl_18" n="N018"/>richtung und sonstige Schulden für ihn zu bezahlen, überließ
+      <lb facs="#facs_2_region_1684564838011_634_tl_11" n="N011"/>treue <rs type="person" ref="#hsl_person_id_2863">Wendelin</rs> unausgesetzt für ihn thätig, in <rs type="place" ref="#hsl_place_id_20">Frank
+      <lb facs="#facs_2_region_1684564838011_634_tl_12" n="N012" break="no"/>furt</rs>, in <rs type="place" ref="#hsl_place_id_13">Darmstadt</rs>, in <rs type="place" ref="#hsl_place_id_321">Rotterdam</rs>, um in Vorberei
+      <lb facs="#facs_2_region_1684564838011_634_tl_13" n="N013" break="no"/>tung von Concerten den Boden für <rs type="person" ref="#hsl_person_id_319">Wagner</rs> zu ebnen.
+      <lb facs="#facs_2_region_1684564838011_634_tl_14" n="N014"/>Noch wähnt er diesen in <rs type="place" ref="#hsl_place_id_320">Penzing</rs> ruhig bei der Arbeit,
+      <lb facs="#facs_2_region_1684564838011_634_tl_15" n="N015"/>als ihn (in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>) ein Telegramm <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s plötzlich
+      <lb facs="#facs_2_region_1684564838011_634_tl_16" n="N016"/>nach <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs> beruft. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> war im März <date>1864</date> heimlich
+      <lb facs="#facs_2_line_1692024985402_806" n="N017"/>von <rs type="place" ref="#hsl_place_id_320">Penzing</rs> geflüchtet. Den Miethzins, die kostspielige Ein
+      <lb facs="#facs_2_region_1684564838011_634_tl_18" n="N018" break="no"/>richtung und sonstige Schulden für ihn zu bezahlen, überließ
       <lb facs="#facs_2_region_1684564838011_634_tl_19" n="N019"/>er ohneweiters seinen ahnungslosen Freunden, die, wie
-      <lb facs="#facs_2_region_1684564838011_634_tl_20" n="N020"/>z. B. Karl <hi rendition="#em"><rs type="person">Tausig</rs></hi>, für ihn Bürgschaft geleistet hatten.
+      <lb facs="#facs_2_region_1684564838011_634_tl_20" n="N020"/>z. B. Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_303">Tausig</rs></hi>, für ihn Bürgschaft geleistet hatten.
       <lb facs="#facs_2_region_1684564838011_634_tl_21" n="N021"/>Von da an wird die Geschichte immer romanhafter; die
       <lb facs="#facs_2_line_1692025025826_836" n="N022"/>Begebenheiten überstürzen sich in immer schnellerem Tempo.
-      <lb facs="#facs_2_region_1684564838011_634_tl_22" n="N023"/><rs type="person">Wagner</rs> eilt von <rs type="place">Wien</rs> zunächst nach <rs type="place">Zürich</rs> zu Frau <rs type="person">Wille</rs>,
-      <lb facs="#facs_2_region_1684564838011_634_tl_23" n="N024"/>von da nach <rs type="place">Stuttgart</rs>. Ihm nach — nicht seine Gläubiger,
-      <lb facs="#facs_2_region_1684564838011_634_tl_24" n="N025"/>sondern sein Retter: der <rs type="place">bayrisch</rs>e Hofsekretär v. <hi rendition="#em"><rs type="person" continued="true">Pfister¬</rs></hi>
-      <lb facs="#facs_2_line_1692025036458_846" n="N026"/><hi rendition="#em"><rs type="person" continued="true">meister</rs></hi>, der im Auftrage des jungen Königs <rs type="person">Ludwig II.</rs>
-      <lb facs="#facs_2_line_1692025046737_857" n="N027"/><rs type="person">Wagner</rs> ausfindig machen und nach <rs type="place">München</rs> bringen soll. Er
-      <lb facs="#facs_2_region_1684564838011_634_tl_25" n="N028"/>sucht den Flüchtling vergebens in <rs type="place">Wien</rs>, vergebens in <rs type="place">Zürich</rs>;
-      <lb facs="#facs_2_region_1684564838011_634_tl_26" n="N029"/>endlich erhascht er ihn in <rs type="place">Stuttgart</rs>, gerade als <rs type="person">Weißheimer</rs>
+      <lb facs="#facs_2_region_1684564838011_634_tl_22" n="N023"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> eilt von <rs type="place" ref="#hsl_place_id_55">Wien</rs> zunächst nach <rs type="place" ref="#hsl_place_id_98">Zürich</rs> zu Frau <rs type="person" ref="#hsl_person_id_2879">Wille</rs>,
+      <lb facs="#facs_2_region_1684564838011_634_tl_23" n="N024"/>von da nach <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs>. Ihm nach — nicht seine Gläubiger,
+      <lb facs="#facs_2_region_1684564838011_634_tl_24" n="N025"/>sondern sein Retter: der <rs type="place" ref="#hsl_place_id_7">bayrisch</rs>e Hofsekretär v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2880">Pfister
+      <lb facs="#facs_2_line_1692025036458_846" n="N026" break="no"/>meister</rs></hi>, der im Auftrage des jungen Königs <rs type="person" ref="#hsl_person_id_1026">Ludwig II.</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1692025046737_857" n="N027"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> ausfindig machen und nach <rs type="place" ref="#hsl_place_id_39">München</rs> bringen soll. Er
+      <lb facs="#facs_2_region_1684564838011_634_tl_25" n="N028"/>sucht den Flüchtling vergebens in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, vergebens in <rs type="place" ref="#hsl_place_id_98">Zürich</rs>;
+      <lb facs="#facs_2_region_1684564838011_634_tl_26" n="N029"/>endlich erhascht er ihn in <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs>, gerade als <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684564838011_634_tl_27" n="N030"/>ihm die Koffer packen hilft zur raschen Weiterreise. „Ich
-      <lb facs="#facs_2_region_1684564838011_634_tl_28" n="N031"/>bin am Ende,“ sagt <rs type="person">Wagner</rs>, „ich muß irgendwo von der
-      <lb facs="#facs_2_region_1684564838011_634_tl_29" n="N032"/>Welt verschwinden. Können <hi rendition="#em">Sie</hi> mich nicht davor be¬
-      <lb facs="#facs_2_line_1692079696998_351" n="N033"/>wahren?“ Diesmal ist es <rs type="person">Weißheimer</rs> zu seinem Leidwesen
-      <lb facs="#facs_2_region_1684564838011_634_tl_32" n="N034"/>unmöglich, da er noch nicht in dem Besitz seines zu er¬
-      <lb facs="#facs_2_region_1684564838011_634_tl_33" n="N035"/>wartenden Vermögens und sein <rs type="person">Vater</rs> der vielen Opfer
-      <lb facs="#facs_2_line_1692024997730_812" n="N036"/>müde geworden war. „Nun, so muß ich auf einige Zeit ver¬
-      <lb facs="#facs_2_line_1692025002010_817" n="N037"/>schwinden, aber Sie müssen mich begleiten!“ <rs type="person">Wendelin</rs> sagt
-      <lb facs="#facs_2_region_1684564838011_634_tl_38" n="N038"/>dies zu; <rs type="person">Wagner</rs> möge unter allen Umständen auf ihn
+      <lb facs="#facs_2_region_1684564838011_634_tl_28" n="N031"/>bin am Ende,“ sagt <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, „ich muß irgendwo von der
+      <lb facs="#facs_2_region_1684564838011_634_tl_29" n="N032"/>Welt verschwinden. Können <hi rendition="#em">Sie</hi> mich nicht davor be
+      <lb facs="#facs_2_line_1692079696998_351" n="N033" break="no"/>wahren?“ Diesmal ist es <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> zu seinem Leidwesen
+      <lb facs="#facs_2_region_1684564838011_634_tl_32" n="N034"/>unmöglich, da er noch nicht in dem Besitz seines zu er
+      <lb facs="#facs_2_region_1684564838011_634_tl_33" n="N035" break="no"/>wartenden Vermögens und sein <rs type="person" ref="#hsl_person_id_2871">Vater</rs> der vielen Opfer
+      <lb facs="#facs_2_line_1692024997730_812" n="N036"/>müde geworden war. „Nun, so muß ich auf einige Zeit ver
+      <lb facs="#facs_2_line_1692025002010_817" n="N037" break="no"/>schwinden, aber Sie müssen mich begleiten!“ <rs type="person" ref="#hsl_person_id_2863">Wendelin</rs> sagt
+      <lb facs="#facs_2_region_1684564838011_634_tl_38" n="N038"/>dies zu; <rs type="person" ref="#hsl_person_id_319">Wagner</rs> möge unter allen Umständen auf ihn
       <lb facs="#facs_2_region_1684564838011_634_tl_39" n="N039"/>rechnen. „Nun so verschwinden wir in die Rauhe Alb!“ —
       <lb facs="#facs_2_region_1684564838011_634_tl_40" n="N040"/>Da erscheint als rettender Engel der königliche Abgesandte
-      <lb facs="#facs_2_region_1684564838011_634_tl_41" n="N041"/>und nimmt <rs type="person">Wagner</rs> sofort nach <rs type="place">München</rs> mit. Noch in der
-      <lb facs="#facs_2_line_1692025011593_826" n="N042"/>Abschiedsstunde vermag <rs type="person">Wendelin</rs> ihm einen letzten Dienst</p>
+      <lb facs="#facs_2_region_1684564838011_634_tl_41" n="N041"/>und nimmt <rs type="person" ref="#hsl_person_id_319">Wagner</rs> sofort nach <rs type="place" ref="#hsl_place_id_39">München</rs> mit. Noch in der
+      <lb facs="#facs_2_line_1692025011593_826" n="N042"/>Abschiedsstunde vermag <rs type="person" ref="#hsl_person_id_2863">Wendelin</rs> ihm einen letzten Dienst<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-      <lb facs="#facs_2_region_1684564842220_637_tl_1" n="N001"/>zu erweisen. <rs type="person">Wagner</rs> war nämlich eiligst in den Waggon
+            <p prev="true">
+      <lb facs="#facs_2_region_1684564842220_637_tl_1" n="N001"/>zu erweisen. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> war nämlich eiligst in den Waggon
       <lb facs="#facs_2_region_1684564842220_637_tl_2" n="N002"/>eingestiegen, ohne eine Fahrkarte gelöst zu haben; da rennt
-      <lb facs="#facs_2_region_1684564842220_637_tl_3" n="N003"/><rs type="person">Wendelin</rs> zur Kasse, löst das Billet nach <rs type="place">München</rs> und reicht
-      <lb facs="#facs_2_region_1684564842220_637_tl_4" n="N004"/>es noch rechtzeitig <rs type="person">Wagner</rs> durchs Waggonfenster.
-      <lb facs="#facs_2_region_1684564842220_637_tl_5" n="N005"/>Wir finden <rs type="person">Wagner</rs> als allmächtigen Günstling des
-      <lb facs="#facs_2_region_1684564842220_637_tl_6" n="N006"/>jungen <rs type="person">König</rs>s wieder. Nun hat er die Dienste seines treuen
-      <lb facs="#facs_2_region_1684564842220_637_tl_7" n="N007"/><rs type="person">Wendelin</rs> nicht mehr nöthig, und so ist denn auch schnell
-      <lb facs="#facs_2_region_1684564842220_637_tl_8" n="N008"/>vergessen, was dieser durch volle zehn Jahre in unermüd¬
-      <lb facs="#facs_2_region_1684564842220_637_tl_9" n="N009"/>licher Aufopferung für ihn geleistet. Als <rs type="person">Wendelin</rs> seinen
-      <lb facs="#facs_2_region_1684564842220_637_tl_10" n="N010"/>Besuch in <rs type="place">Starnberg</rs> anzeigt, antwortet ihm <rs type="person">Wagner</rs>, er
+      <lb facs="#facs_2_region_1684564842220_637_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_2863">Wendelin</rs> zur Kasse, löst das Billet nach <rs type="place" ref="#hsl_place_id_39">München</rs> und reicht
+      <lb facs="#facs_2_region_1684564842220_637_tl_4" n="N004"/>es noch rechtzeitig <rs type="person" ref="#hsl_person_id_319">Wagner</rs> durchs Waggonfenster.
+            </p><p>
+      <lb facs="#facs_2_region_1684564842220_637_tl_5" n="N005"/>Wir finden <rs type="person" ref="#hsl_person_id_319">Wagner</rs> als allmächtigen Günstling des
+      <lb facs="#facs_2_region_1684564842220_637_tl_6" n="N006"/>jungen <rs type="person" ref="#hsl_person_id_1026">König</rs>s wieder. Nun hat er die Dienste seines treuen
+      <lb facs="#facs_2_region_1684564842220_637_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_2863">Wendelin</rs> nicht mehr nöthig, und so ist denn auch schnell
+      <lb facs="#facs_2_region_1684564842220_637_tl_8" n="N008"/>vergessen, was dieser durch volle zehn Jahre in unermüd
+      <lb facs="#facs_2_region_1684564842220_637_tl_9" n="N009" break="no"/>licher Aufopferung für ihn geleistet. Als <rs type="person" ref="#hsl_person_id_2863">Wendelin</rs> seinen
+      <lb facs="#facs_2_region_1684564842220_637_tl_10" n="N010"/>Besuch in <rs type="place" ref="#hsl_place_id_215">Starnberg</rs> anzeigt, antwortet ihm <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, er
       <lb facs="#facs_2_region_1684564842220_637_tl_11" n="N011"/>könne ihn nicht aufnehmen, da seine Gasträume in den
-      <lb facs="#facs_2_region_1684564842220_637_tl_12" n="N012"/>nächsten Tagen besetzt sein würden. Zu <rs type="person">Weißheimer</rs>’s Hoch¬
-      <lb facs="#facs_2_region_1684564842220_637_tl_13" n="N013"/>zeit verspricht <rs type="person">Wagner</rs> nach <rs type="place">Augsburg</rs> zu kommen; ja er will
+      <lb facs="#facs_2_region_1684564842220_637_tl_12" n="N012"/>nächsten Tagen besetzt sein würden. Zu <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>’s Hoch
+      <lb facs="#facs_2_region_1684564842220_637_tl_13" n="N013" break="no"/>zeit verspricht <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nach <rs type="place" ref="#hsl_place_id_3">Augsburg</rs> zu kommen; ja er will
       <lb facs="#facs_2_region_1684564842220_637_tl_14" n="N014"/>nach der Trauung sogleich mit dem jungen Ehepaare nach
-      <lb facs="#facs_2_region_1684564842220_637_tl_15" n="N015"/><rs type="place">München</rs> fahren und ihm hier das Hochzeitsdiner geben.
-      <lb facs="#facs_2_region_1684564842220_637_tl_16" n="N016"/><rs type="person">Wendelin</rs> ist entzückt über diese Auszeichnung, erhält aber
-      <lb facs="#facs_2_region_1684564842220_637_tl_17" n="N017"/>im letzten Augenblicke ein Telegramm von <rs type="person">Wagner</rs>, daß er
-      <lb facs="#facs_2_region_1684564842220_637_tl_18" n="N018"/>nicht kommen könne, und daß auch das versprochene Hoch¬
-      <lb facs="#facs_2_region_1684564842220_637_tl_19" n="N019"/>zeitsdiner in <rs type="place">München</rs> unmöglich sei. So schmerzlich <rs type="person" continued="true">Weiß¬</rs>
-      <lb facs="#facs_2_region_1684564842220_637_tl_20" n="N020"/><rs type="person" continued="true">heimer</rs> diese grausame Ueberraschung treffen mußte, er unter¬
-      <lb facs="#facs_2_region_1684564842220_637_tl_21" n="N021"/>drückt jede Empfindlichkeit, hofft er doch, <rs type="person">Wagner</rs> werde ihm
+      <lb facs="#facs_2_region_1684564842220_637_tl_15" n="N015"/><rs type="place" ref="#hsl_place_id_39">München</rs> fahren und ihm hier das Hochzeitsdiner geben.
+      <lb facs="#facs_2_region_1684564842220_637_tl_16" n="N016"/><rs type="person" ref="#hsl_person_id_2863">Wendelin</rs> ist entzückt über diese Auszeichnung, erhält aber
+      <lb facs="#facs_2_region_1684564842220_637_tl_17" n="N017"/>im letzten Augenblicke ein Telegramm von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, daß er
+      <lb facs="#facs_2_region_1684564842220_637_tl_18" n="N018"/>nicht kommen könne, und daß auch das versprochene Hoch
+      <lb facs="#facs_2_region_1684564842220_637_tl_19" n="N019" break="no"/>zeitsdiner in <rs type="place" ref="#hsl_place_id_39">München</rs> unmöglich sei. So schmerzlich <rs type="person" ref="#hsl_person_id_2863">Weiß
+      <lb facs="#facs_2_region_1684564842220_637_tl_20" n="N020" break="no"/>heimer</rs> diese grausame Ueberraschung treffen mußte, er unter
+      <lb facs="#facs_2_region_1684564842220_637_tl_21" n="N021" break="no"/>drückt jede Empfindlichkeit, hofft er doch, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> werde ihm
       <lb facs="#facs_2_line_1692025027809_839" n="N022"/>wenigstens einen einzigen, für seine ganze Zukunft entscheidenden
       <lb facs="#facs_2_region_1684564842220_637_tl_23" n="N023"/>Freundschaftsdienst nicht versagen. Es handelte sich um die
-      <lb facs="#facs_2_region_1684564842220_637_tl_24" n="N024"/>Annahme seiner Oper „<rs type="bibl">Theodor Körner</rs>“ am <rs type="place">München</rs>er
-      <lb facs="#facs_2_region_1684564842220_637_tl_25" n="N025"/>Hoftheater. Eine einfache Empfehlung <rs type="person">Wagner</rs>’s hätte hin¬
-      <lb facs="#facs_2_line_1692025038346_849" n="N026"/>gereicht, um vom <rs type="person">König</rs> den gewünschten Auftrag zu er¬
-      <lb facs="#facs_2_line_1692025049017_860" n="N027"/>wirken. Ein Wort von <rs type="person">Wagner</rs> war genügend, um <rs type="person" continued="true">Weiß¬</rs>
-      <lb facs="#facs_2_region_1684564842220_637_tl_28" n="N028"/><rs type="person" continued="true">heimer</rs> wenigstens eine Audienz beim <rs type="person">König</rs> zu ver¬
-      <lb facs="#facs_2_region_1684564842220_637_tl_29" n="N029"/>schaffen. <rs type="person">Wagner</rs> hat beides abgelehnt. Ja, er ließ
-      <lb facs="#facs_2_region_1684564842220_637_tl_30" n="N030"/>sich nicht einmal herbei, sich von <rs type="person">Weißheimer</rs>
+      <lb facs="#facs_2_region_1684564842220_637_tl_24" n="N024"/>Annahme seiner Oper „<rs type="bibl" ref="#hsl_work_id_1681">Theodor Körner</rs>“ am <rs type="place" ref="#hsl_place_id_39">München</rs>er
+      <lb facs="#facs_2_region_1684564842220_637_tl_25" n="N025"/>Hoftheater. Eine einfache Empfehlung <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s hätte hin
+      <lb facs="#facs_2_line_1692025038346_849" n="N026" break="no"/>gereicht, um vom <rs type="person" ref="#hsl_person_id_1026">König</rs> den gewünschten Auftrag zu er
+      <lb facs="#facs_2_line_1692025049017_860" n="N027" break="no"/>wirken. Ein Wort von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> war genügend, um <rs type="person" ref="#hsl_person_id_2863">Weiß
+      <lb facs="#facs_2_region_1684564842220_637_tl_28" n="N028" break="no"/>heimer</rs> wenigstens eine Audienz beim <rs type="person" ref="#hsl_person_id_1026">König</rs> zu ver
+      <lb facs="#facs_2_region_1684564842220_637_tl_29" n="N029" break="no"/>schaffen. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat beides abgelehnt. Ja, er ließ
+      <lb facs="#facs_2_region_1684564842220_637_tl_30" n="N030"/>sich nicht einmal herbei, sich von <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684564842220_637_tl_31" n="N031"/>einige Hauptpartien der Oper vorspielen zu lassen.
       <lb facs="#facs_2_region_1684564842220_637_tl_32" n="N032"/>Nur in das Textbuch hatte er Einsicht genommen und
       <lb facs="#facs_2_region_1684564842220_637_tl_33" n="N033"/>dessen „revolutionäre Tendenz“ getadelt. Und doch muß
-      <lb facs="#facs_2_region_1684564842220_637_tl_34" n="N034"/><rs type="person">Wagner</rs>, wie zahlreiche Stellen in seinen Briefen beweisen,
-      <lb facs="#facs_2_region_1684564842220_637_tl_35" n="N035"/>von dem Talent <rs type="person">Weißheimer</rs>’s eine sehr günstige Meinung
-      <lb facs="#facs_2_region_1684564842220_637_tl_36" n="N036"/>gehegt haben. Als <rs type="person">Liszt</rs> die Oper auf das wärmste an die
-      <lb facs="#facs_2_region_1684564842220_637_tl_37" n="N037"/><rs type="place">Berlin</rs>er General-Intendanz empfiehlt, schreibt <rs type="person">Wagner</rs> am
-      <lb facs="#facs_2_region_1684564842220_637_tl_38" n="N038"/>15. Januar <date month="0" day="0" year="0">1868</date>: „Herzlichen Dank, lieber <rs type="person">Wendelin</rs>!
-      <lb facs="#facs_2_region_1684564842220_637_tl_39" n="N039"/><hi rendition="#em">Alles Glück sei mit Ihnen und Herrn <rs type="person">Körner</rs></hi>.
+      <lb facs="#facs_2_region_1684564842220_637_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>, wie zahlreiche Stellen in seinen Briefen beweisen,
+      <lb facs="#facs_2_region_1684564842220_637_tl_35" n="N035"/>von dem Talent <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>’s eine sehr günstige Meinung
+      <lb facs="#facs_2_region_1684564842220_637_tl_36" n="N036"/>gehegt haben. Als <rs type="person" ref="#hsl_person_id_164">Liszt</rs> die Oper auf das wärmste an die
+      <lb facs="#facs_2_region_1684564842220_637_tl_37" n="N037"/><rs type="place" ref="#hsl_place_id_9">Berlin</rs>er General-Intendanz empfiehlt, schreibt <rs type="person" ref="#hsl_person_id_319">Wagner</rs> am
+      <lb facs="#facs_2_region_1684564842220_637_tl_38" n="N038"/>15. Januar <date>1868</date>: „Herzlichen Dank, lieber <rs type="person" ref="#hsl_person_id_2863">Wendelin</rs>!
+      <lb facs="#facs_2_region_1684564842220_637_tl_39" n="N039"/><hi rendition="#em">Alles Glück sei mit Ihnen und Herrn <rs type="bibl" ref="#hsl_work_id_1681">Körner</rs></hi>.
       <lb facs="#facs_2_region_1684564842220_637_tl_40" n="N040"/>Es kann ein sehr glücklicher Fall sein und — ich hoffe es!“
       <lb facs="#facs_2_region_1684564842220_637_tl_41" n="N041"/>Selbst rührte er aber keinen Finger für seinen früheren
-      <lb facs="#facs_2_line_1692025013922_829" n="N042"/>Wohlthäter. Wir wollen hier nicht dem ganzen Leidens¬</p>
+      <lb facs="#facs_2_line_1692025013922_829" n="N042"/>Wohlthäter. Wir wollen hier nicht dem ganzen Leidens</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
-            <p>
-      <lb facs="#facs_3_region_1684564865228_649_tl_1" n="N001"/>weg des immer von neuem hingehaltenen und getäuschten
-      <lb facs="#facs_3_region_1684564865228_649_tl_2" n="N002"/>armen <rs type="person">Wendelin</rs> schrittweise nachgehen — genug, daß er
-      <lb facs="#facs_3_region_1684564865228_649_tl_3" n="N003"/>nach unsäglicher Mühe und Zeitverlust von Frau <rs type="person">Cosima</rs>
-      <lb facs="#facs_3_region_1684564865228_649_tl_4" n="N004"/>schließlich die gnädige Entscheidung empfing: <rs type="person">Wagner</rs> werde,
-      <lb facs="#facs_3_region_1684564865228_649_tl_5" n="N005"/>falls der <rs type="person">König</rs> die Aufführung der Oper aus freien
+            <p prev="true">
+      <lb facs="#facs_3_region_1684564865228_649_tl_1" n="N001" break="no"/>weg des immer von neuem hingehaltenen und getäuschten
+      <lb facs="#facs_3_region_1684564865228_649_tl_2" n="N002"/>armen <rs type="person" ref="#hsl_person_id_2863">Wendelin</rs> schrittweise nachgehen — genug, daß er
+      <lb facs="#facs_3_region_1684564865228_649_tl_3" n="N003"/>nach unsäglicher Mühe und Zeitverlust von Frau <rs type="person" ref="#hsl_person_id_1672">Cosima</rs>
+      <lb facs="#facs_3_region_1684564865228_649_tl_4" n="N004"/>schließlich die gnädige Entscheidung empfing: <rs type="person" ref="#hsl_person_id_319">Wagner</rs> werde,
+      <lb facs="#facs_3_region_1684564865228_649_tl_5" n="N005"/>falls der <rs type="person" ref="#hsl_person_id_1026">König</rs> die Aufführung der Oper aus freien
       <lb facs="#facs_3_region_1684564865228_649_tl_6" n="N006"/>Stücken bewilligen sollte, <hi rendition="#em">nicht dagegen sprechen</hi>!
-      <lb facs="#facs_3_region_1684564865228_649_tl_7" n="N007"/>Thatsache ist, daß <rs type="person">Weißheimer</rs>’s Werk, das an einer andern
-      <lb facs="#facs_3_region_1684564865228_649_tl_8" n="N008"/>Bühne einen guten Erfolg errungen, in <rs type="place">München</rs><hi rendition="#em">nicht</hi>
+      <lb facs="#facs_3_region_1684564865228_649_tl_7" n="N007"/>Thatsache ist, daß <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>’s Werk, das an einer andern
+      <lb facs="#facs_3_region_1684564865228_649_tl_8" n="N008"/>Bühne einen guten Erfolg errungen, in <rs type="place" ref="#hsl_place_id_39">München</rs><space unit="char" quantity="1"/><hi rendition="#em">nicht</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_3_region_1684564865228_649_tl_9" n="N009"/>zur Aufführung gelangt ist. Das also war der Lohn für
-      <lb facs="#facs_3_region_1684564865228_649_tl_10" n="N010"/><rs type="person">Weißheimer</rs>’s zehnjährige unermüdliche Aufopferung.
-      <lb facs="#facs_3_region_1684564865228_649_tl_11" n="N011"/>Er sah nunmehr ein, daß von dem mächtig ge¬
-      <lb facs="#facs_3_region_1684564865228_649_tl_12" n="N012"/>wordenen <rs type="person">Wagner</rs> durchaus nichts zu hoffen sei, und verließ
-      <lb facs="#facs_3_region_1684564865228_649_tl_13" n="N013"/><rs type="place">München</rs>, um eine Capellmeisterstelle in <rs type="place">Augsburg</rs>, dann in
-      <lb facs="#facs_3_region_1684564865228_649_tl_14" n="N014"/><rs type="place">Berlin</rs> (bei <rs type="person">Kroll</rs>), in <rs type="place">Düsseldorf</rs> und <rs type="place">Würzburg</rs> anzu¬
-      <lb facs="#facs_3_region_1684564865228_649_tl_15" n="N015"/>nehmen. In jeder dieser Stellungen galt sein schönster Eifer
-      <lb facs="#facs_3_region_1684564865228_649_tl_16" n="N016"/>der Aufführung von <rs type="person">Wagner</rs>’s Opern! Von <rs type="person">Wagner</rs> selbst
+      <lb facs="#facs_3_region_1684564865228_649_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>’s zehnjährige unermüdliche Aufopferung.
+      <lb facs="#facs_3_region_1684564865228_649_tl_11" n="N011"/>Er sah nunmehr ein, daß von dem mächtig ge
+      <lb facs="#facs_3_region_1684564865228_649_tl_12" n="N012" break="no"/>wordenen <rs type="person" ref="#hsl_person_id_319">Wagner</rs> durchaus nichts zu hoffen sei, und verließ
+      <lb facs="#facs_3_region_1684564865228_649_tl_13" n="N013"/><rs type="place" ref="#hsl_place_id_39">München</rs>, um eine Capellmeisterstelle in <rs type="place" ref="#hsl_place_id_3">Augsburg</rs>, dann in
+      <lb facs="#facs_3_region_1684564865228_649_tl_14" n="N014"/><rs type="place" ref="#hsl_place_id_9">Berlin</rs> (bei <rs type="person" ref="#hsl_person_id_2881">Kroll</rs>), in <rs type="place" ref="#hsl_place_id_16">Düsseldorf</rs> und <rs type="place" ref="#hsl_place_id_325">Würzburg</rs> anzu
+      <lb facs="#facs_3_region_1684564865228_649_tl_15" n="N015" break="no"/>nehmen. In jeder dieser Stellungen galt sein schönster Eifer
+      <lb facs="#facs_3_region_1684564865228_649_tl_16" n="N016"/>der Aufführung von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Opern! Von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> selbst
       <lb facs="#facs_3_region_1684564865228_649_tl_17" n="N017"/>empfing er nie wieder ein Lebenszeichen, seit er diesen zuletzt
-      <lb facs="#facs_3_region_1684564865228_649_tl_18" n="N018"/><date month="0" day="0" year="0">1868</date> flüchtig in <rs type="person">München</rs> gesehen — neben dem <rs type="person">König</rs> in
-      <lb facs="#facs_3_region_1684564865228_649_tl_19" n="N019"/>der Hofloge bei der Première der „<rs type="bibl">Meistersinger</rs>“.
-      <lb facs="#facs_3_region_1684564865228_649_tl_20" n="N020"/>Verschiedene Kritiker rügen an <rs type="person">Weißheimer</rs>, daß er auch
-      <lb facs="#facs_3_region_1684564865228_649_tl_21" n="N021"/>von seinen eigenen Compositionen spricht und von der Aner¬
-      <lb facs="#facs_3_region_1684564865228_649_tl_22" n="N022"/>kennung, die Männer wie <rs type="person">Liszt</rs>, <rs type="person">Bülow</rs>, <rs type="person">Tausig</rs>, <rs type="person">Cornelius</rs>,
-      <lb facs="#facs_3_region_1684564865228_649_tl_23" n="N023"/><rs type="person">Dräsecke</rs> und <rs type="person">Perfall</rs> ihnen gezollt haben. Es ist ihm, nach
+      <lb facs="#facs_3_region_1684564865228_649_tl_18" n="N018"/><date>1868</date> flüchtig in <rs type="person" ref="#hsl_place_id_39">München</rs> gesehen — neben dem <rs type="person" ref="#hsl_person_id_1026">König</rs> in
+      <lb facs="#facs_3_region_1684564865228_649_tl_19" n="N019"/>der Hofloge bei der Première der „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“.
+            </p><p>
+      <lb facs="#facs_3_region_1684564865228_649_tl_20" n="N020"/>Verschiedene Kritiker rügen an <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>, daß er auch
+      <lb facs="#facs_3_region_1684564865228_649_tl_21" n="N021"/>von seinen eigenen Compositionen spricht und von der Aner
+      <lb facs="#facs_3_region_1684564865228_649_tl_22" n="N022" break="no"/>kennung, die Männer wie <rs type="person" ref="#hsl_person_id_164">Liszt</rs>, <rs type="person" ref="#hsl_person_id_44">Bülow</rs>, <rs type="person" ref="#hsl_person_id_303">Tausig</rs>, <rs type="person" ref="#hsl_person_id_821">Cornelius</rs>,
+      <lb facs="#facs_3_region_1684564865228_649_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_2865">Dräsecke</rs> und <rs type="person" ref="#hsl_person_id_2864">Perfall</rs> ihnen gezollt haben. Es ist ihm, nach
       <lb facs="#facs_3_line_1692025073522_871" n="N024"/>meiner Empfindung, die einzige bescheidene Genugthuung
-      <lb facs="#facs_3_line_1692025077889_876" n="N025"/>vom Herzen zu gönnen;*) ja, die Berufung auf das Lob
+      <lb facs="#facs_3_line_1692025077889_876" n="N025"/>vom Herzen zu gönnen;
+            <note type="footnote" n="*)">
+            <lb facs="#facs_3_line_1692025095673_902" n="N038"/>Eine zweite Oper <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs>’s „<rs type="bibl" ref="#hsl_work_id_1682">Meister Martin und seine
+            <lb facs="#facs_3_line_1692025098642_905" n="N039"/>Gesellen</rs>“, hat in <rs type="person" ref="#hsl_place_id_20">Frankfurt</rs> am Main einen großen Erfolg errungen
+            <lb facs="#facs_3_line_1692025101483_908" n="N040"/>unter der Leitung <hi rendition="#em"><rs type="person" ref="#hsl_person_id_56">Dessoff</rs>’s</hi>, der die Novität seinerzeit angelegent
+            <lb facs="#facs_3_line_1692025104226_911" n="N041" break="no"/>lich zur Aufführung in <rs type="place" ref="#hsl_place_id_55">Wien</rs> empfahl.
+            </note>
+            ja, die Berufung auf das Lob
       <lb facs="#facs_3_region_1684564865228_649_tl_28" n="N026"/>der genannten Künstler war fast nothwendig, um den Leser
-      <lb facs="#facs_3_region_1684564865228_649_tl_29" n="N027"/>vor dem Irrthum zu bewahren, <rs type="person">Weißheimer</rs> sei eben nicht mehr
-      <lb facs="#facs_3_region_1684564865228_649_tl_30" n="N028"/>und nichts Anderes gewesen, als in Einer Person der Lohn¬
-      <lb facs="#facs_3_region_1684564865228_649_tl_31" n="N029"/>diener und der Geldgeber <rs type="person">Wagner</rs>’s. Die geschworene
-      <lb facs="#facs_3_region_1684564865228_649_tl_32" n="N030"/>Parteigänger des Letzteren werden tadelnde Worte voraus¬
-      <lb facs="#facs_3_region_1684564865228_649_tl_33" n="N031"/>sichtlich nur gegen <rs type="person">Weißheimer</rs> erheben. Für sie bleibt ja
-      <lb facs="#facs_3_region_1684564865228_649_tl_34" n="N032"/><rs type="person">Wagner</rs> der Idealmensch, ja nach Zeugniß des Herrn
-      <lb facs="#facs_3_region_1684564865228_649_tl_35" n="N033"/>v. <rs type="person">Wizewa</rs> schlechtweg der <hi rendition="#em">Heiland</hi>. Sie ignoriren den
+      <lb facs="#facs_3_region_1684564865228_649_tl_29" n="N027"/>vor dem Irrthum zu bewahren, <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> sei eben nicht mehr
+      <lb facs="#facs_3_region_1684564865228_649_tl_30" n="N028"/>und nichts Anderes gewesen, als in Einer Person der Lohn
+      <lb facs="#facs_3_region_1684564865228_649_tl_31" n="N029" break="no"/>diener und der Geldgeber <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s. Die geschworene
+      <lb facs="#facs_3_region_1684564865228_649_tl_32" n="N030"/>Parteigänger des Letzteren werden tadelnde Worte voraus
+      <lb facs="#facs_3_region_1684564865228_649_tl_33" n="N031" break="no"/>sichtlich nur gegen <rs type="person" ref="#hsl_person_id_2863">Weißheimer</rs> erheben. Für sie bleibt ja
+      <lb facs="#facs_3_region_1684564865228_649_tl_34" n="N032"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> der Idealmensch, ja nach Zeugniß des Herrn
+      <lb facs="#facs_3_region_1684564865228_649_tl_35" n="N033"/>v. <rs type="person" ref="#hsl_person_id_2855">Wizewa</rs> schlechtweg der <hi rendition="#em">Heiland</hi>. Sie ignoriren den
       <lb facs="#facs_3_region_1684564865228_649_tl_36" n="N034"/>kleinen Unterschied, daß dieser „Heiland“ immer Andere sein
       <lb facs="#facs_3_region_1684564865228_649_tl_37" n="N035"/>Kreuz schleppen und die Dornenkrone tragen läßt, ohne daß
-      <lb facs="#facs_3_region_1684564865228_649_tl_38" n="N036"/>es ihm beifiel, die armen Schächer dann mit sich ins Para¬
-      <lb facs="#facs_3_region_1684564865228_649_tl_39" n="N037"/>dies zu nehmen.
-      <lb facs="#facs_3_line_1692025095673_902" n="N038"/>*) Eine zweite Oper <rs type="person">Weißheimer</rs>’s „<rs type="bibl">Meister Martin und seine</rs>
-      <lb facs="#facs_3_line_1692025098642_905" n="N039"/><rs type="bibl">Gesellen</rs>“, hat in <rs type="person">Frankfurt</rs> am Main einen großen Erfolg errungen
-      <lb facs="#facs_3_line_1692025101483_908" n="N040"/>unter der Leitung <hi rendition="#em"><rs type="person">Dessoff</rs>’s</hi>, der die Novität seinerzeit angelegent¬
-      <lb facs="#facs_3_line_1692025104226_911" n="N041"/>lich zur Aufführung in <rs type="place">Wien</rs> empfahl.</p>
+      <lb facs="#facs_3_region_1684564865228_649_tl_38" n="N036"/>es ihm beifiel, die armen Schächer dann mit sich ins Para
+      <lb facs="#facs_3_region_1684564865228_649_tl_39" n="N037" break="no"/>dies zu nehmen.</p>
          </div>
       </body>
    </text>
