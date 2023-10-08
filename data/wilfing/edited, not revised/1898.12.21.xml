@@ -106,6 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2023-08-19">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-09-16">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-10-08">Formatierung und Referenzen eingefügt.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1013,300 +1014,309 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <lb facs="#facs_1_line_1691904856687_30" n="N001"/>Das <rs type="place">Wien</rs>er Hofoperntheater in den letzten fünfzig Jahren.
+            <lb facs="#facs_1_line_1691904856687_30" n="N001"/><head type="h1">Das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofoperntheater in den letzten fünfzig Jahren.</head>
             <p>
-      <lb facs="#facs_1_region_1684564215393_423_tl_3" n="N002"/>Ed. H. Unter dem Titel „<rs type="bibl">Fünfzig Jahre Hoftheater</rs>“ ist
-      <lb facs="#facs_1_region_1684564215393_423_tl_4" n="N003"/>soeben eines der prächtigsten und inhaltsreichsten Jubiläums¬
-      <lb facs="#facs_1_region_1684564215393_423_tl_5" n="N004"/>werke erschienen. Es besteht aus drei Theilen: der Geschichte
-      <lb facs="#facs_1_region_1684564215393_423_tl_6" n="N005"/>des <hi rendition="#em">Burgtheaters</hi> (von R. <rs type="person">Lothar</rs>), der Geschichte des
-      <lb facs="#facs_1_region_1684564215393_423_tl_7" n="N006"/><hi rendition="#em">Hofoperntheaters</hi> (von Julius <rs type="person">Stern</rs>) und dem
+      <lb facs="#facs_1_region_1684564215393_423_tl_3" n="N002"/>Ed. H. Unter dem Titel „<rs type="bibl" ref="#hsl_work_id_1694">Fünfzig Jahre Hoftheater</rs>“ ist
+      <lb facs="#facs_1_region_1684564215393_423_tl_4" n="N003"/>soeben eines der prächtigsten und inhaltsreichsten Jubiläums
+      <lb facs="#facs_1_region_1684564215393_423_tl_5" n="N004" break="no"/>werke erschienen. Es besteht aus drei Theilen: der Geschichte
+      <lb facs="#facs_1_region_1684564215393_423_tl_6" n="N005"/>des <hi rendition="#em">Burgtheaters</hi> (von R. <rs type="person" ref="#hsl_person_id_2925">Lothar</rs>), der Geschichte des
+      <lb facs="#facs_1_region_1684564215393_423_tl_7" n="N006"/><hi rendition="#em">Hofoperntheaters</hi> (von Julius <rs type="person" ref="#hsl_person_id_2924">Stern</rs>) und dem
       <lb facs="#facs_1_region_1684564215393_423_tl_8" n="N007"/><hi rendition="#em">Künstleralbum</hi> mit biographisch-kritischen Aufsätzen
-      <lb facs="#facs_1_region_1684564215393_423_tl_9" n="N008"/>verschiedener Autoren über die hervorragendsten <rs type="place">Wien</rs>er
+      <lb facs="#facs_1_region_1684564215393_423_tl_9" n="N008"/>verschiedener Autoren über die hervorragendsten <rs type="place" ref="#hsl_place_id_55">Wien</rs>er
       <lb facs="#facs_1_region_1684564215393_423_tl_10" n="N009"/>Hofschauspieler und Opernmitglieder. Uns beschäftigt heute
-      <lb facs="#facs_1_region_1684564215393_423_tl_11" n="N010"/>nur die <hi rendition="#em">Hofoper</hi>. Ihr ist der größte Raum des monu¬
-      <lb facs="#facs_1_region_1684564215393_423_tl_12" n="N011"/>mentalen Werkes gewidmet. Welche Fülle neuen historischen
+      <lb facs="#facs_1_region_1684564215393_423_tl_11" n="N010"/>nur die <hi rendition="#em">Hofoper</hi>. Ihr ist der größte Raum des monu
+      <lb facs="#facs_1_region_1684564215393_423_tl_12" n="N011" break="no"/>mentalen Werkes gewidmet. Welche Fülle neuen historischen
       <lb facs="#facs_1_region_1684564215393_423_tl_13" n="N012"/>Stoffes! Welcher Reichthum an Künstlerbildnissen! Freunde
       <lb facs="#facs_1_region_1684564215393_423_tl_14" n="N013"/>quellenmäßiger Theatergeschichte zehren so vergnügt an
       <lb facs="#facs_1_region_1684564215393_423_tl_15" n="N014"/>ersterem, daß sie allenfalls der Porträts entbehren könnten;
       <lb facs="#facs_1_region_1684564215393_423_tl_16" n="N015"/>Anderen wieder dürften gerade die Bilder die reizvollste
       <lb facs="#facs_1_region_1684564215393_423_tl_17" n="N016"/>Unterhaltung bieten, auch ohne den geschichtlichen Text. Am
       <lb facs="#facs_1_region_1684564215393_423_tl_18" n="N017"/>besten also, daß wir Beides besitzen. Für den Verfasser,
-      <lb facs="#facs_1_region_1684564215393_423_tl_19" n="N018"/>Herrn Julius <rs type="person">Stern</rs>, war das keine kleine Aufgabe. Zwei
-      <lb facs="#facs_1_region_1684564215393_423_tl_20" n="N019"/>Jahre anhaltender Arbeit in den Bibliotheken und Hof¬
-      <lb facs="#facs_1_region_1684564215393_423_tl_21" n="N020"/>archiven, um das colossale, schwer zugängliche Material zu
+      <lb facs="#facs_1_region_1684564215393_423_tl_19" n="N018"/>Herrn Julius <rs type="person" ref="#hsl_person_id_2924">Stern</rs>, war das keine kleine Aufgabe. Zwei
+      <lb facs="#facs_1_region_1684564215393_423_tl_20" n="N019"/>Jahre anhaltender Arbeit in den Bibliotheken und Hof
+      <lb facs="#facs_1_region_1684564215393_423_tl_21" n="N020" break="no"/>archiven, um das colossale, schwer zugängliche Material zu
       <lb facs="#facs_1_line_1691904885972_41" n="N021"/>sammeln und zu sichten! In dem großen Folioband können
       <lb facs="#facs_1_region_1684564215393_423_tl_22" n="N022"/>wir für unseren Zweck heute nur blättern und den Leser
       <lb facs="#facs_1_line_1691904898229_50" n="N023"/>neugierig machen auf einige der interessantesten Geschichten.
+            </p><p>
       <lb facs="#facs_1_region_1684564215393_423_tl_23" n="N024"/>Wir überspringen das einleitende Capitel, welches die
-      <lb facs="#facs_1_region_1684564215393_423_tl_24" n="N025"/><rs type="place">Wien</rs>er Oper von ihren Anfängen in der „Mehlmarkthütte“
-      <lb facs="#facs_1_region_1684564215393_423_tl_25" n="N026"/>bis zum alten Kärntnerthor-Theater (<date month="0" day="0" year="0">1709</date> bis <date month="0" day="0" year="0">1848</date>), dann
+      <lb facs="#facs_1_region_1684564215393_423_tl_24" n="N025"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Oper von ihren Anfängen in der „Mehlmarkthütte“
+      <lb facs="#facs_1_region_1684564215393_423_tl_25" n="N026"/>bis zum alten Kärntnerthor-Theater (<date>1709</date> bis <date>1848</date>), dann
       <lb facs="#facs_1_region_1684564215393_423_tl_26" n="N027"/>das Revolutionsjahr behandelt. Doch können wir nicht ganz
       <lb facs="#facs_1_region_1684564215393_423_tl_27" n="N028"/>vorübergehen an dem <hi rendition="#em">Gagen</hi>-Etat, wie ihn Director
-      <lb facs="#facs_1_region_1684564215393_423_tl_28" n="N029"/>v. <hi rendition="#em"><rs type="person">Holbein</rs></hi> für das Jahr <date month="0" day="0" year="0">1850/51</date> vorgelegt hat. Da¬
-      <lb facs="#facs_1_region_1684564215393_423_tl_29" n="N030"/>mals erhielt die erste dramatische Sängerin Frau v. <hi rendition="#em"><rs type="person" continued="true">Hasselt-</rs></hi>
-      <lb facs="#facs_1_region_1684564215393_423_tl_30" n="N031"/><hi rendition="#em"><rs type="person" continued="true">Barth</rs></hi> nur 6000 fl., der erste Tenorist Alois <hi rendition="#em"><rs type="person">Ander</rs></hi> nur
-      <lb facs="#facs_1_region_1684564215393_423_tl_31" n="N032"/>5000 fl. jährlich. Heute beziehen die Darsteller von Neben¬
-      <lb facs="#facs_1_region_1684564215393_423_tl_32" n="N033"/>partien mehr, als damals die berühmtesten ersten Künstler!
-      <lb facs="#facs_1_line_1691904911317_61" n="N034"/>Freilich bildeten die sogenannten <hi rendition="#em">Benefice</hi>-Vorstellungen</p>
+      <lb facs="#facs_1_region_1684564215393_423_tl_28" n="N029"/>v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_128">Holbein</rs></hi> für das Jahr <date>1850/51</date> vorgelegt hat. Da
+      <lb facs="#facs_1_region_1684564215393_423_tl_29" n="N030" break="no"/>mals erhielt die erste dramatische Sängerin Frau v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_111">Hasselt-
+      <lb facs="#facs_1_region_1684564215393_423_tl_30" n="N031"/>Barth</rs></hi> nur 6000 fl., der erste Tenorist Alois <hi rendition="#em"><rs type="person" ref="#hsl_person_id_14">Ander</rs></hi> nur
+      <lb facs="#facs_1_region_1684564215393_423_tl_31" n="N032"/>5000 fl. jährlich. Heute beziehen die Darsteller von Neben
+      <lb facs="#facs_1_region_1684564215393_423_tl_32" n="N033" break="no"/>partien mehr, als damals die berühmtesten ersten Künstler!
+      <lb facs="#facs_1_line_1691904911317_61" n="N034"/>Freilich bildeten die sogenannten <hi rendition="#em">Benefice</hi>-Vorstellungen<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-      <lb facs="#facs_1_region_1684564218503_426_tl_1" n="N001"/>ein Nebeneinkommen der bedeutenderen Sänger und Sänge¬
-      <lb facs="#facs_1_region_1684564218503_426_tl_2" n="N002"/>rinnen. Fast Alle hatten sie contractmäßig ihre Benefice-
-      <lb facs="#facs_1_region_1684564218503_426_tl_3" n="N003"/>Vorstellung gesichert. Sollten Repertoire-Störungen diese ver¬
-      <lb facs="#facs_1_region_1684564218503_426_tl_4" n="N004"/>eiteln, so war die Direction verpflichtet, dem betreffenden
+            <p prev="true">
+      <lb facs="#facs_1_region_1684564218503_426_tl_1" n="N001"/>ein Nebeneinkommen der bedeutenderen Sänger und Sänge
+      <lb facs="#facs_1_region_1684564218503_426_tl_2" n="N002" break="no"/>rinnen. Fast Alle hatten sie contractmäßig ihre Benefice-
+      <lb facs="#facs_1_region_1684564218503_426_tl_3" n="N003"/>Vorstellung gesichert. Sollten Repertoire-Störungen diese ver
+      <lb facs="#facs_1_region_1684564218503_426_tl_4" n="N004" break="no"/>eiteln, so war die Direction verpflichtet, dem betreffenden
       <lb facs="#facs_1_region_1684564218503_426_tl_5" n="N005"/>Künstler 500 fl. oder 600 fl. „als Ablösung“ zu bezahlen.
       <lb facs="#facs_1_region_1684564218503_426_tl_6" n="N006"/>Dadurch kamen aber die Künstler meistens zu Schaden;
       <lb facs="#facs_1_region_1684564218503_426_tl_7" n="N007"/>denn sie pflegten die Billette zur Benefice-Vorstellung selbst
-      <lb facs="#facs_1_region_1684564218503_426_tl_8" n="N008"/>an die Abonnenten zu verkaufen und sich für „gütige Ueber¬
-      <lb facs="#facs_1_region_1684564218503_426_tl_9" n="N009"/>zahlung“ gern zu bedanken. Dem vornehmen Sinn des
-      <lb facs="#facs_1_region_1684564218503_426_tl_10" n="N010"/>Grafen <rs type="person">Lanckoronski</rs> war diese Praxis ein Gräuel. Er er¬
-      <lb facs="#facs_1_region_1684564218503_426_tl_11" n="N011"/>klärte es „einer kaiserlichen Anstalt nicht würdig, daß die
+      <lb facs="#facs_1_region_1684564218503_426_tl_8" n="N008"/>an die Abonnenten zu verkaufen und sich für „gütige Ueber
+      <lb facs="#facs_1_region_1684564218503_426_tl_9" n="N009" break="no"/>zahlung“ gern zu bedanken. Dem vornehmen Sinn des
+      <lb facs="#facs_1_region_1684564218503_426_tl_10" n="N010"/>Grafen <rs type="person" ref="#hsl_person_id_2926">Lanckoronski</rs> war diese Praxis ein Gräuel. Er er
+      <lb facs="#facs_1_region_1684564218503_426_tl_11" n="N011" break="no"/>klärte es „einer kaiserlichen Anstalt nicht würdig, daß die
       <lb facs="#facs_1_region_1684564218503_426_tl_12" n="N012"/>ersten Mitglieder von Abonnenten zu Abonnenten betteln
       <lb facs="#facs_1_region_1684564218503_426_tl_13" n="N013"/>gehen“, und der früher allgemein herrschende Unfug hatte
-      <lb facs="#facs_1_region_1684564218503_426_tl_14" n="N014"/>ein Ende. Ein Verdienst <hi rendition="#em"><rs type="person">Holbein</rs>’s</hi> ist die Einführung
+      <lb facs="#facs_1_region_1684564218503_426_tl_14" n="N014"/>ein Ende. Ein Verdienst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_128">Holbein</rs>’s</hi> ist die Einführung
       <lb facs="#facs_1_region_1684564218503_426_tl_15" n="N015"/>der <hi rendition="#em">Tantièmen</hi>, wie die großen ausländischen Theater
-      <lb facs="#facs_1_region_1684564218503_426_tl_16" n="N016"/>sie bezahlten. <rs type="person">Holbein</rs> selbst war so zartfühlend, seit Einführung
+      <lb facs="#facs_1_region_1684564218503_426_tl_16" n="N016"/>sie bezahlten. <rs type="person" ref="#hsl_person_id_128">Holbein</rs> selbst war so zartfühlend, seit Einführung
       <lb facs="#facs_1_region_1684564218503_426_tl_17" n="N017"/>der Tantièmen keines seiner Stücke am Burgtheater mehr
-      <lb facs="#facs_1_region_1684564218503_426_tl_18" n="N018"/>aufführen zu lassen. Ueber die frühere complicirte bureau¬
-      <lb facs="#facs_1_region_1684564218503_426_tl_19" n="N019"/>kratische Verwaltung der Hoftheater gibt uns das Buch inter¬
-      <lb facs="#facs_1_region_1684564218503_426_tl_20" n="N020"/>essante Aufschlüsse. Nicht weniger als <hi rendition="#em">vier</hi> Behörden, theils
+      <lb facs="#facs_1_region_1684564218503_426_tl_18" n="N018"/>aufführen zu lassen. Ueber die frühere complicirte bureau
+      <lb facs="#facs_1_region_1684564218503_426_tl_19" n="N019" break="no"/>kratische Verwaltung der Hoftheater gibt uns das Buch inter
+      <lb facs="#facs_1_region_1684564218503_426_tl_20" n="N020" break="no"/>essante Aufschlüsse. Nicht weniger als <hi rendition="#em">vier</hi> Behörden, theils
       <lb facs="#facs_1_region_1684564218503_426_tl_21" n="N021"/>Ministerien, theils untergeordnete Aemter, hatten die einzelnen
-      <lb facs="#facs_1_region_1684564218503_426_tl_22" n="N022"/>Posten des vom Oberstkämmerer und dem Director vorge¬
-      <lb facs="#facs_1_region_1684564218503_426_tl_23" n="N023"/>legten Voranschlages zu beurtheilen, bevor er genehmigt wurde.
+      <lb facs="#facs_1_region_1684564218503_426_tl_22" n="N022"/>Posten des vom Oberstkämmerer und dem Director vorge
+      <lb facs="#facs_1_region_1684564218503_426_tl_23" n="N023" break="no"/>legten Voranschlages zu beurtheilen, bevor er genehmigt wurde.
       <lb facs="#facs_1_region_1684564218503_426_tl_24" n="N024"/>Und in diesen vier Aemtern saß kein einziger Theatermann;
       <lb facs="#facs_1_region_1684564218503_426_tl_25" n="N025"/>ausschließlich Juristen urtheilten über die Bedürfnisse des
       <lb facs="#facs_1_region_1684564218503_426_tl_26" n="N026"/>Kunstinstituts. Das Hauptvotum über das Opern-Budget
       <lb facs="#facs_1_region_1684564218503_426_tl_27" n="N027"/>hatte das Ministerium des Innern; nach ihm kamen das
-      <lb facs="#facs_1_line_1691904887965_44" n="N028"/>Finanzministerium, die oberste Polizei-Direction und gewöhn¬
-      <lb facs="#facs_1_region_1684564218503_426_tl_29" n="N029"/>lich auch noch die Finanz-Procuratur. Welch lästiger Schriften-
+      <lb facs="#facs_1_line_1691904887965_44" n="N028"/>Finanzministerium, die oberste Polizei-Direction und gewöhn
+      <lb facs="#facs_1_region_1684564218503_426_tl_29" n="N029" break="no"/>lich auch noch die Finanz-Procuratur. Welch lästiger Schriften-
       <lb facs="#facs_1_line_1691904900413_53" n="N030"/>wechsel! In dem System der Opernverwaltung gewahren
       <lb facs="#facs_1_region_1684564218503_426_tl_31" n="N031"/>wir ein unablässiges Schaukeln zwischen der Verpachtung des
       <lb facs="#facs_1_line_1691904950997_81" n="N032"/>Theaters und der Direction in eigener Regie. Endlich scheint
       <lb facs="#facs_1_region_1684564218503_426_tl_32" n="N033"/>letzteres System sich endgiltig consolidirt zu haben, obgleich
-      <lb facs="#facs_1_region_1684564218503_426_tl_33" n="N034"/>noch der Finanzminister v. <hi rendition="#em"><rs type="person">Plener</rs></hi><date month="0" day="0" year="0">1861</date> dringend für die
+      <lb facs="#facs_1_region_1684564218503_426_tl_33" n="N034"/>noch der Finanzminister v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2920">Plener</rs></hi><space unit="char" quantity="1"/><date>1861</date> dringend für die
       <lb facs="#facs_1_region_1684564218503_426_tl_34" n="N035"/>Verpachtung eintrat.
-      <lb facs="#facs_1_region_1684564218503_426_tl_35" n="N036"/>„<hi rendition="#em">Diplomaten im Dienste des Hofopern¬</hi>
-      <lb facs="#facs_1_region_1684564218503_426_tl_36" n="N037"/><hi rendition="#em">theaters</hi>“, lautet die Ueberschrift eines an merkwürdigen
+            </p><p>
+      <lb facs="#facs_1_region_1684564218503_426_tl_35" n="N036"/>„<hi rendition="#em">Diplomaten im Dienste des Hofopern
+      <lb facs="#facs_1_region_1684564218503_426_tl_36" n="N037" break="no"/>theaters</hi>“, lautet die Ueberschrift eines an merkwürdigen
       <lb facs="#facs_1_region_1684564218503_426_tl_37" n="N038"/>Details reichen Capitels. Die kaiserlichen Statthalter und
       <lb facs="#facs_1_region_1684564218503_426_tl_38" n="N039"/>Gesandten hatten in früherer Zeit die Annehmlichkeit, nicht
       <lb facs="#facs_1_region_1684564218503_426_tl_39" n="N040"/>nur mit den auswärtigen Regierungen, sondern auch mit
-      <lb facs="#facs_1_line_1691904913206_64" n="N041"/>den fremden Künstlern und Künstlerinnen, besonders wenn</p>
+      <lb facs="#facs_1_line_1691904913206_64" n="N041"/>den fremden Künstlern und Künstlerinnen, besonders wenn<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_1_line_1691904934110_74" n="N001"/>sie contractbrüchig waren, amtliche Verhandlungen zu pflegen.
-      <lb facs="#facs_1_region_1684564221893_429_tl_2" n="N002"/>Die Regierung eines alten soliden Staates, sagt der <rs type="person" continued="true">Ver¬</rs>
-      <lb facs="#facs_1_region_1684564221893_429_tl_3" n="N003"/><rs type="person" continued="true">fasser</rs>, ist oft leichter „umzukriegen“, als eine junge Tän¬
-      <lb facs="#facs_1_region_1684564221893_429_tl_4" n="N004"/>zerin, die nicht tanzen will, obgleich sie contractmäßig dazu
-      <lb facs="#facs_1_region_1684564221893_429_tl_5" n="N005"/>verpflichtet ist. Besonders mit <rs type="place">Italien</rs>, das vor fünf De¬
-      <lb facs="#facs_1_region_1684564221893_429_tl_6" n="N006"/>cennien den größten Theil unseres künstlerischen Bedarfes
-      <lb facs="#facs_1_region_1684564221893_429_tl_7" n="N007"/>gedeckt hat, gab es recht schwierige diplomatische Verhand¬
-      <lb facs="#facs_1_region_1684564221893_429_tl_8" n="N008"/>lungen. Wir lesen die amtlichen Zuschriften des Grafen
-      <lb facs="#facs_1_region_1684564221893_429_tl_9" n="N009"/><rs type="person">Lanckoronski</rs> an den außerordentlichen Gesandten FML.
-      <lb facs="#facs_1_region_1684564221893_429_tl_10" n="N010"/>v. <hi rendition="#em"><rs type="person">Martini</rs></hi> in <rs type="place">Neapel</rs>, welcher den säumigen Bariton
-      <lb facs="#facs_1_region_1684564221893_429_tl_11" n="N011"/><hi rendition="#em"><rs type="person">Debassini</rs></hi> zur Antwort drängen und sich über die Tänze¬
-      <lb facs="#facs_1_region_1684564221893_429_tl_12" n="N012"/>rin <hi rendition="#em"><rs type="person">Ferraris</rs></hi> äußern soll. Sodann die Correspondenz mit
-      <lb facs="#facs_1_region_1684564221893_429_tl_13" n="N013"/>dem Gesandten in <rs type="place">Madrid</rs>, Grafen G. <rs type="person">Esterhazy</rs>, über die
-      <lb facs="#facs_1_region_1684564221893_429_tl_14" n="N014"/>Tänzerin <hi rendition="#em"><rs type="person">Cerrito</rs></hi>. Der Gesandte Baron <rs type="person">Hügel</rs> mußte in
-      <lb facs="#facs_1_region_1684564221893_429_tl_15" n="N015"/><rs type="place">Neapel</rs> die Sängerin <hi rendition="#em"><rs type="person">Boschetti</rs></hi> zu sich bescheiden und
-      <lb facs="#facs_1_region_1684564221893_429_tl_16" n="N016"/>über ihre finanziellen und Herzensverhältnisse nach <rs type="place">Wien</rs>
+      <lb facs="#facs_1_region_1684564221893_429_tl_2" n="N002"/>Die Regierung eines alten soliden Staates, sagt der Ver
+      <lb facs="#facs_1_region_1684564221893_429_tl_3" n="N003" break="no"/>fasser, ist oft leichter „umzukriegen“, als eine junge Tän
+      <lb facs="#facs_1_region_1684564221893_429_tl_4" n="N004" break="no"/>zerin, die nicht tanzen will, obgleich sie contractmäßig dazu
+      <lb facs="#facs_1_region_1684564221893_429_tl_5" n="N005"/>verpflichtet ist. Besonders mit <rs type="place" ref="#hsl_place_id_28">Italien</rs>, das vor fünf De
+      <lb facs="#facs_1_region_1684564221893_429_tl_6" n="N006" break="no"/>cennien den größten Theil unseres künstlerischen Bedarfes
+      <lb facs="#facs_1_region_1684564221893_429_tl_7" n="N007"/>gedeckt hat, gab es recht schwierige diplomatische Verhand
+      <lb facs="#facs_1_region_1684564221893_429_tl_8" n="N008" break="no"/>lungen. Wir lesen die amtlichen Zuschriften des Grafen
+      <lb facs="#facs_1_region_1684564221893_429_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_2926">Lanckoronski</rs> an den außerordentlichen Gesandten FML.
+      <lb facs="#facs_1_region_1684564221893_429_tl_10" n="N010"/>v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2927">Martini</rs></hi> in <rs type="place" ref="#hsl_place_id_40">Neapel</rs>, welcher den säumigen Bariton
+      <lb facs="#facs_1_region_1684564221893_429_tl_11" n="N011"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2546">Debassini</rs></hi> zur Antwort drängen und sich über die Tänze
+      <lb facs="#facs_1_region_1684564221893_429_tl_12" n="N012" break="no"/>rin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2928">Ferraris</rs></hi> äußern soll. Sodann die Correspondenz mit
+      <lb facs="#facs_1_region_1684564221893_429_tl_13" n="N013"/>dem Gesandten in <rs type="place" ref="#hsl_place_id_92">Madrid</rs>, Grafen G. <rs type="person" ref="#hsl_person_id_2929">Esterhazy</rs>, über die
+      <lb facs="#facs_1_region_1684564221893_429_tl_14" n="N014"/>Tänzerin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2048">Cerrito</rs></hi>. Der Gesandte Baron <rs type="person" ref="#hsl_person_id_2930">Hügel</rs> mußte in
+      <lb facs="#facs_1_region_1684564221893_429_tl_15" n="N015"/><rs type="place" ref="#hsl_place_id_40">Neapel</rs> die Sängerin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2923">Boschetti</rs></hi> zu sich bescheiden und
+      <lb facs="#facs_1_region_1684564221893_429_tl_16" n="N016"/>über ihre finanziellen und Herzensverhältnisse nach <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564221893_429_tl_17" n="N017"/>berichten.
+            </p><p>
       <lb facs="#facs_1_region_1684564221893_429_tl_18" n="N018"/>Eine ziffermäßig genaue Darstellung zeigt uns, wie
-      <lb facs="#facs_1_region_1684564221893_429_tl_19" n="N019"/>stark in dem Opern-Repertoire des Decenniums <date month="0" day="0" year="0">1830</date> bis
-      <lb facs="#facs_1_region_1684564221893_429_tl_20" n="N020"/><date month="0" day="0" year="0">1840</date> die <rs type="place">französisch</rs>en und <rs type="place">italienisch</rs>en Opern an Zahl die
-      <lb facs="#facs_1_region_1684564221893_429_tl_21" n="N021"/><rs type="place">deutsch</rs>en überwogen. <hi rendition="#em"><rs type="place">Frankreich</rs></hi> war mit 35 damals
-      <lb facs="#facs_1_region_1684564221893_429_tl_22" n="N022"/>neuen Opern im <rs type="place">Wien</rs>er Repertoire vertreten, <hi rendition="#em"><rs type="place">Italien</rs></hi>
-      <lb facs="#facs_1_region_1684564221893_429_tl_23" n="N023"/>mit 21 neuen Opern. Von den damals lebenden <hi rendition="#em"><rs type="place">deutsch</rs>en</hi>
-      <lb facs="#facs_1_region_1684564221893_429_tl_24" n="N024"/>Componisten (<date month="0" day="0" year="0">1840</date> bis <date month="0" day="0" year="0">1850</date>) stammen nur 9 Werke, die
+      <lb facs="#facs_1_region_1684564221893_429_tl_19" n="N019"/>stark in dem Opern-Repertoire des Decenniums <date>1830</date> bis
+      <lb facs="#facs_1_region_1684564221893_429_tl_20" n="N020"/><date>1840</date> die <rs type="place" ref="#hsl_place_id_21">französisch</rs>en und <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Opern an Zahl die
+      <lb facs="#facs_1_region_1684564221893_429_tl_21" n="N021"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en überwogen. <hi rendition="#em"><rs type="place" ref="#hsl_place_id_21">Frankreich</rs></hi> war mit 35 damals
+      <lb facs="#facs_1_region_1684564221893_429_tl_22" n="N022"/>neuen Opern im <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Repertoire vertreten, <hi rendition="#em"><rs type="place" ref="#hsl_place_id_28">Italien</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684564221893_429_tl_23" n="N023"/>mit 21 neuen Opern. Von den damals lebenden <hi rendition="#em"><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684564221893_429_tl_24" n="N024"/>Componisten (<date>1840</date> bis <date>1850</date>) stammen nur 9 Werke, die
       <lb facs="#facs_1_region_1684564221893_429_tl_25" n="N025"/>einen festen Platz im Repertoire zu behaupten vermochten.
-      <lb facs="#facs_1_region_1684564221893_429_tl_26" n="N026"/>Von der Anziehungskraft, welche <rs type="person">Meyerbeer</rs>’s „<rs type="bibl">Prophet</rs>“
-      <lb facs="#facs_1_region_1684564221893_429_tl_27" n="N027"/>(<date month="0" day="0" year="0">1850</date>) in <rs type="place">Wien</rs> ausübte, vermag man heute sich kaum eine
+      <lb facs="#facs_1_region_1684564221893_429_tl_26" n="N026"/>Von der Anziehungskraft, welche <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s „<rs type="bibl" ref="#hsl_work_id_113">Prophet</rs>“
+      <lb facs="#facs_1_region_1684564221893_429_tl_27" n="N027"/>(<date>1850</date>) in <rs type="place" ref="#hsl_place_id_55">Wien</rs> ausübte, vermag man heute sich kaum eine
       <lb facs="#facs_1_region_1684564221893_429_tl_28" n="N028"/>Vorstellung zu machen. Die ersten 20 Aufführungen waren
       <lb facs="#facs_1_region_1684564221893_429_tl_29" n="N029"/>vollständig ausverkauft. Der Zudrang dazu war so groß,
       <lb facs="#facs_1_region_1684564221893_429_tl_30" n="N030"/>daß nach jeder Vorstellung die Zeitungen einen sogenannten
-      <lb facs="#facs_1_region_1684564221893_429_tl_31" n="N031"/>Polizeibericht über die beim Gedränge vorgekommenen Un¬
-      <lb facs="#facs_1_line_1691904956758_84" n="N032"/>fälle brachten. Auf Ersuchen des Oberstkämmerers besetzte
-      <lb facs="#facs_1_region_1684564221893_429_tl_33" n="N033"/>die Polizei jedesmal knapp vor Beginn des Karten¬
-      <lb facs="#facs_1_region_1684564221893_429_tl_34" n="N034"/>vorverkaufes alle Eingänge des Kärntnerthor-Theaters und
+      <lb facs="#facs_1_region_1684564221893_429_tl_31" n="N031"/>Polizeibericht über die beim Gedränge vorgekommenen Un
+      <lb facs="#facs_1_line_1691904956758_84" n="N032" break="no"/>fälle brachten. Auf Ersuchen des Oberstkämmerers besetzte
+      <lb facs="#facs_1_region_1684564221893_429_tl_33" n="N033"/>die Polizei jedesmal knapp vor Beginn des Karten
+      <lb facs="#facs_1_region_1684564221893_429_tl_34" n="N034" break="no"/>vorverkaufes alle Eingänge des Kärntnerthor-Theaters und
       <lb facs="#facs_1_region_1684564221893_429_tl_35" n="N035"/>durchsuchte die Gänge des Hauses, ob sich nicht Jemand
-      <lb facs="#facs_1_region_1684564221893_429_tl_36" n="N036"/>eingeschlichen habe, um früher zum Billetschalter zu ge¬
-      <lb facs="#facs_1_line_1691906584754_379" n="N037"/>langen.
+      <lb facs="#facs_1_region_1684564221893_429_tl_36" n="N036"/>eingeschlichen habe, um früher zum Billetschalter zu ge      
+      <lb facs="#facs_1_line_1691906584754_379" n="N037" break="no"/>langen.
+            </p><p>
       <lb facs="#facs_1_region_1684564221893_429_tl_37" n="N038"/>Uebergehen wir von der Verwaltung zur Kunst, von
       <lb facs="#facs_1_region_1684564221893_429_tl_38" n="N039"/>den Bureaukraten zu den Sängern und Sängerinnen. Ein
       <lb facs="#facs_1_region_1684564221893_429_tl_39" n="N040"/>wunderliches Beispiel vom Ineinanderspielen künstlerischer und
-      <lb facs="#facs_1_line_1691904915038_67" n="N041"/>politischer Motive bietet die Affaire der Kammer- und Hof¬</p>
+      <lb facs="#facs_1_line_1691904915038_67" n="N041"/>politischer Motive bietet die Affaire der Kammer- und Hof</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-      <lb facs="#facs_2_line_1691905018486_118" n="N001"/>opernsängerin Anna <hi rendition="#em"><rs type="person">Zerr</rs></hi>. Sie beging die Unvorsichtigkeit,
-      <lb facs="#facs_2_region_1684564234584_435_tl_1" n="N002"/>in <rs type="place">London</rs> ihre Mitwirkung bei einem Morgenconcert am
-      <lb facs="#facs_2_region_1684564234584_435_tl_2" n="N003"/>12. Juli <date month="0" day="0" year="0">1851</date> zuzusagen, das für den „Hungarian Fund“,
-      <lb facs="#facs_2_region_1684564234584_435_tl_3" n="N004"/>das heißt zur Unterstützung der <rs type="place">ungarisch</rs>en Flüchtlinge,
+            <p prev="true">
+      <lb facs="#facs_2_line_1691905018486_118" n="N001" break="no"/>opernsängerin Anna <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2931">Zerr</rs></hi>. Sie beging die Unvorsichtigkeit,
+      <lb facs="#facs_2_region_1684564234584_435_tl_1" n="N002"/>in <rs type="place" ref="#hsl_place_id_34">London</rs> ihre Mitwirkung bei einem Morgenconcert am
+      <lb facs="#facs_2_region_1684564234584_435_tl_2" n="N003"/>12. Juli <date>1851</date> zuzusagen, das für den „Hungarian Fund“,
+      <lb facs="#facs_2_region_1684564234584_435_tl_3" n="N004"/>das heißt zur Unterstützung der <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en Flüchtlinge,
       <lb facs="#facs_2_region_1684564234584_435_tl_4" n="N005"/>stattfand. Der eigentliche Arrangeur dieses Concertes, Karl
-      <lb facs="#facs_2_region_1684564234584_435_tl_5" n="N006"/><hi rendition="#em"><rs type="person">Formes</rs></hi>, hatte auch den <rs type="place">Wien</rs>er Violinprofessor <hi rendition="#em"><rs type="person">Jansa</rs></hi>
+      <lb facs="#facs_2_region_1684564234584_435_tl_5" n="N006"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2932">Formes</rs></hi>, hatte auch den <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Violinprofessor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1858">Jansa</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_2_line_1691904983919_93" n="N007"/>dafür gewonnen. Nach Feststellung der Thatsachen durch eine
-      <lb facs="#facs_2_region_1684564234584_435_tl_7" n="N008"/>längere diplomatische Correspondenz erließ der <rs type="person">Kaiser</rs>
+      <lb facs="#facs_2_region_1684564234584_435_tl_7" n="N008"/>längere diplomatische Correspondenz erließ der <rs type="person" ref="#hsl_person_id_1130">Kaiser</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684564234584_435_tl_8" n="N009"/>folgenden Auftrag an den Oberstkämmerer: „Der Anna
-      <lb facs="#facs_2_region_1684564234584_435_tl_9" n="N010"/><hi rendition="#em"><rs type="person">Zerr</rs></hi> ist das Decret als <hi rendition="#em">Kammersängerin</hi>,
+      <lb facs="#facs_2_region_1684564234584_435_tl_9" n="N010"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2931">Zerr</rs></hi> ist das Decret als <hi rendition="#em">Kammersängerin</hi>,
       <lb facs="#facs_2_region_1684564234584_435_tl_10" n="N011"/>welchen Titels sie verlustig ist, abzunehmen. Der bestehende
       <lb facs="#facs_2_region_1684564234584_435_tl_11" n="N012"/>Contract, demzufolge sie beim k. k. Operntheater bis
-      <lb facs="#facs_2_region_1684564234584_435_tl_12" n="N013"/>April <date month="0" day="0" year="0">1852</date> engagirt ist, bleibt bezüglich der ihr zugesicherten
-      <lb facs="#facs_2_region_1684564234584_435_tl_13" n="N014"/>Genüsse in Wirksamkeit, doch darf sie unter keinem Vor¬
-      <lb facs="#facs_2_region_1684564234584_435_tl_14" n="N015"/>wand auf diesem Hoftheater, weder in einer Oper, <hi rendition="#em">noch</hi>
-      <lb facs="#facs_2_region_1684564234584_435_tl_15" n="N016"/><hi rendition="#em">in einem Concert mehr auftreten</hi>. Daß sie in
+      <lb facs="#facs_2_region_1684564234584_435_tl_12" n="N013"/>April <date>1852</date> engagirt ist, bleibt bezüglich der ihr zugesicherten
+      <lb facs="#facs_2_region_1684564234584_435_tl_13" n="N014"/>Genüsse in Wirksamkeit, doch darf sie unter keinem Vor
+      <lb facs="#facs_2_region_1684564234584_435_tl_14" n="N015" break="no"/>wand auf diesem Hoftheater, weder in einer Oper, <hi rendition="#em">noch
+      <lb facs="#facs_2_region_1684564234584_435_tl_15" n="N016"/>in einem Concert mehr auftreten</hi>. Daß sie in
       <lb facs="#facs_2_region_1684564234584_435_tl_16" n="N017"/>dieser Zeit auf keiner anderen Bühne singe, liegt in der
       <lb facs="#facs_2_region_1684564234584_435_tl_17" n="N018"/>Macht der Administration des Operntheaters, die ihr dazu
       <lb facs="#facs_2_region_1684564234584_435_tl_18" n="N019"/>von Fall zu Fall die Erlaubniß ertheilen müßte, welche ihr
-      <lb facs="#facs_2_line_1691904996678_104" n="N020"/>natürlich in <hi rendition="#em">keinem denkbaren Fall gegeben</hi>
-      <lb facs="#facs_2_line_1691905002942_110" n="N021"/><hi rendition="#em">wird</hi>.“ Anna <rs type="person">Zerr</rs> (die erste „<rs type="person">Martha</rs>“ in <rs type="person">Flotow</rs>’s
-      <lb facs="#facs_2_region_1684564234584_435_tl_25" n="N022"/><rs type="bibl">Oper</rs>) gastirte später mit größtem Erfolg in <rs type="place">Amerika</rs> und
-      <lb facs="#facs_2_region_1684564234584_435_tl_26" n="N023"/>zog sich bereits im Jahre <date month="0" day="0" year="0">1857</date> von der Bühne zurück.
+      <lb facs="#facs_2_line_1691904996678_104" n="N020"/>natürlich in <hi rendition="#em">keinem denkbaren Fall gegeben
+      <lb facs="#facs_2_line_1691905002942_110" n="N021"/>wird</hi>.“ Anna <rs type="person" ref="#hsl_person_id_2931">Zerr</rs> (die erste „<rs type="person" ref="#hsl_person_id_613">Martha</rs>“ in <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s
+      <lb facs="#facs_2_region_1684564234584_435_tl_25" n="N022"/><rs type="bibl" ref="#hsl_work_id_89">Oper</rs>) gastirte später mit größtem Erfolg in <rs type="place" ref="#hsl_place_id_176">Amerika</rs> und
+      <lb facs="#facs_2_region_1684564234584_435_tl_26" n="N023"/>zog sich bereits im Jahre <date>1857</date> von der Bühne zurück.
+            </p><p>
       <lb facs="#facs_2_region_1684564234584_435_tl_27" n="N024"/>Mit tiefem Antheil lesen wir die Biographien zweier
-      <lb facs="#facs_2_region_1684564234584_435_tl_28" n="N025"/><rs type="place">Wien</rs>er Künstler, die durch ihre Meisterschaft, ihre beispiel¬
-      <lb facs="#facs_2_region_1684564234584_435_tl_29" n="N026"/>lose Beliebtheit und ihr tragisches Ende uns unvergeßlich
-      <lb facs="#facs_2_region_1684564234584_435_tl_30" n="N027"/>bleiben: Joseph <hi rendition="#em"><rs type="person">Staudigl</rs></hi> und Alois <hi rendition="#em"><rs type="person">Ander</rs></hi>. Beide
+      <lb facs="#facs_2_region_1684564234584_435_tl_28" n="N025"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Künstler, die durch ihre Meisterschaft, ihre beispiel
+      <lb facs="#facs_2_region_1684564234584_435_tl_29" n="N026" break="no"/>lose Beliebtheit und ihr tragisches Ende uns unvergeßlich
+      <lb facs="#facs_2_region_1684564234584_435_tl_30" n="N027"/>bleiben: Joseph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8">Staudigl</rs></hi> und Alois <hi rendition="#em"><rs type="person" ref="#hsl_person_id_14">Ander</rs></hi>. Beide
       <lb facs="#facs_2_region_1684564234584_435_tl_31" n="N028"/>endeten im Wahnsinn. Sie sind nicht die einzigen Beispiele,
-      <lb facs="#facs_2_region_1684564234584_435_tl_32" n="N029"/>daß die überwiegende Phantasiethätigkeit und nervöse Er¬
-      <lb facs="#facs_2_region_1684564234584_435_tl_33" n="N030"/>regung, welche mit der Bühnenlaufbahn verbunden ist,
+      <lb facs="#facs_2_region_1684564234584_435_tl_32" n="N029"/>daß die überwiegende Phantasiethätigkeit und nervöse Er
+      <lb facs="#facs_2_region_1684564234584_435_tl_33" n="N030" break="no"/>regung, welche mit der Bühnenlaufbahn verbunden ist,
       <lb facs="#facs_2_region_1684564234584_435_tl_34" n="N031"/>gerade zu diesem tragischen Ausgang führen können.
-      <lb facs="#facs_2_region_1684564234584_435_tl_35" n="N032"/>Als <rs type="person">Staudigl</rs> und <rs type="person">Ander</rs> sich nicht mehr darüber täuschen
+      <lb facs="#facs_2_region_1684564234584_435_tl_35" n="N032"/>Als <rs type="person" ref="#hsl_person_id_8">Staudigl</rs> und <rs type="person" ref="#hsl_person_id_14">Ander</rs> sich nicht mehr darüber täuschen
       <lb facs="#facs_2_region_1684564234584_435_tl_36" n="N033"/>konnten, daß Stimme und Gedächtniß sie völlig im Stiche
-      <lb facs="#facs_2_region_1684564234584_435_tl_37" n="N034"/>ließen, waren sie verloren. Die Schilderung von <hi rendition="#em"><rs type="person">Ander</rs>’s</hi>
-      <lb facs="#facs_2_region_1684564234584_435_tl_38" n="N035"/>Zustand in der Wasserheilanstalt zu <rs type="place">Wartenberg</rs>, sowie der
-      <lb facs="#facs_2_region_1684564234584_435_tl_39" n="N036"/>letzten Jahre <hi rendition="#em"><rs type="person">Staudigl</rs>’s</hi> bringt manches neue Detail.
-      <lb facs="#facs_2_region_1684564234584_435_tl_40" n="N037"/>Noch drei andere Sterne der <rs type="place">Wien</rs>er Oper sind in trost¬
-      <lb facs="#facs_2_region_1684564234584_435_tl_41" n="N038"/>loser Nacht, wenn auch nicht in der Zelle eines Irren¬
-      <lb facs="#facs_2_region_1684564234584_435_tl_42" n="N039"/>hauses, erloschen. Marie <hi rendition="#em"><rs type="person">Wilt</rs></hi>, deren Kunst in gleicher
-      <lb facs="#facs_2_region_1684564234584_435_tl_43" n="N040"/>Vollendung den Coloraturgesang wie die stärksten drama¬
-      <lb facs="#facs_2_line_1691905052117_136" n="N041"/>tischen Partien beherrschte, ebenso hell im Oratorium wie</p>
+      <lb facs="#facs_2_region_1684564234584_435_tl_37" n="N034"/>ließen, waren sie verloren. Die Schilderung von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_14">Ander</rs>’s</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684564234584_435_tl_38" n="N035"/>Zustand in der Wasserheilanstalt zu <rs type="place" ref="#hsl_place_id_54">Wartenberg</rs>, sowie der
+      <lb facs="#facs_2_region_1684564234584_435_tl_39" n="N036"/>letzten Jahre <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8">Staudigl</rs>’s</hi> bringt manches neue Detail.
+      <lb facs="#facs_2_region_1684564234584_435_tl_40" n="N037"/>Noch drei andere Sterne der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Oper sind in trost
+      <lb facs="#facs_2_region_1684564234584_435_tl_41" n="N038" break="no"/>loser Nacht, wenn auch nicht in der Zelle eines Irren
+      <lb facs="#facs_2_region_1684564234584_435_tl_42" n="N039" break="no"/>hauses, erloschen. Marie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_327">Wilt</rs></hi>, deren Kunst in gleicher
+      <lb facs="#facs_2_region_1684564234584_435_tl_43" n="N040"/>Vollendung den Coloraturgesang wie die stärksten drama
+      <lb facs="#facs_2_line_1691905052117_136" n="N041" break="no"/>tischen Partien beherrschte, ebenso hell im Oratorium wie<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_2_line_1691905020605_121" n="N001"/>in der Oper glänzte, hat freiwillig geendet. Sie ist an einer
       <lb facs="#facs_2_region_1684564238141_438_tl_2" n="N002"/>verspäteten, unerwiderten Leidenschaft zu Grunde gegangen;
-      <lb facs="#facs_2_line_1691905067789_148" n="N003"/><hi rendition="#em"><rs type="person">Scaria</rs></hi>, der mächtige Bassist, an dem Studium der
-      <lb facs="#facs_2_region_1684564238141_438_tl_3" n="N004"/><rs type="person">Wotan</rs>-Rolle; die <hi rendition="#em"><rs type="person">Czillagh</rs></hi>, unsere gefeierte erste <rs type="person">Fides</rs>,
+      <lb facs="#facs_2_line_1691905067789_148" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2922">Scaria</rs></hi>, der mächtige Bassist, an dem Studium der
+      <lb facs="#facs_2_region_1684564238141_438_tl_3" n="N004"/><rs type="person" ref="#hsl_person_id_1680">Wotan</rs>-Rolle; die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1073">Czillagh</rs></hi>, unsere gefeierte erste <rs type="person" ref="#hsl_person_id_533">Fides</rs>,
       <lb facs="#facs_2_region_1684564238141_438_tl_4" n="N005"/>an dem bei Bühnenkünstlern so häufigen Leichtsinn, welcher
       <lb facs="#facs_2_region_1684564238141_438_tl_5" n="N006"/>in den Tagen des Glanzes verschwendet, um dann im Alter
       <lb facs="#facs_2_line_1691904986206_96" n="N007"/>hilflos zu darben. Gerne wenden wir unseren Blick gegen die
-      <lb facs="#facs_2_region_1684564238141_438_tl_6" n="N008"/>Sonnenseite und freuen uns der gesunden, heiteren Behag¬
-      <lb facs="#facs_2_region_1684564238141_438_tl_7" n="N009"/>lichkeit, in welcher drei Collegen der oben Genannten, die
-      <lb facs="#facs_2_region_1684564238141_438_tl_8" n="N010"/>Veteranen Karl <hi rendition="#em"><rs type="person">Mayerhofer</rs></hi>, Heinrich <hi rendition="#em"><rs type="person">Kreuzer</rs></hi> und
-      <lb facs="#facs_2_region_1684564238141_438_tl_9" n="N011"/>C. M. <hi rendition="#em"><rs type="person">Wolf</rs></hi>, unter uns wandeln. <rs type="person">Mayerhofer</rs> ist in
+      <lb facs="#facs_2_region_1684564238141_438_tl_6" n="N008"/>Sonnenseite und freuen uns der gesunden, heiteren Behag
+      <lb facs="#facs_2_region_1684564238141_438_tl_7" n="N009" break="no"/>lichkeit, in welcher drei Collegen der oben Genannten, die
+      <lb facs="#facs_2_region_1684564238141_438_tl_8" n="N010"/>Veteranen Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs></hi>, Heinrich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9">Kreuzer</rs></hi> und
+      <lb facs="#facs_2_region_1684564238141_438_tl_9" n="N011"/>C. M. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2934">Wolf</rs></hi>, unter uns wandeln. <rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs> ist in
       <lb facs="#facs_2_region_1684564238141_438_tl_10" n="N012"/>seinem eigensten Rollenfache noch immer unersetzt.
-      <lb facs="#facs_2_region_1684564238141_438_tl_11" n="N013"/>Nicht blos das Sängerpersonal, auch das <hi rendition="#em">Orchester</hi>
-      <lb facs="#facs_2_region_1684564238141_438_tl_12" n="N014"/>des Hofoperntheaters findet in Herrn <rs type="person">Stern</rs> einen eifrigen
+            </p><p>
+      <lb facs="#facs_2_region_1684564238141_438_tl_11" n="N013"/>Nicht blos das Sängerpersonal, auch das <hi rendition="#em">Orchester</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684564238141_438_tl_12" n="N014"/>des Hofoperntheaters findet in Herrn <rs type="person" ref="#hsl_person_id_2924">Stern</rs> einen eifrigen
       <lb facs="#facs_2_region_1684564238141_438_tl_13" n="N015"/>Geschichtsschreiber. Vieles ist uns neu und Manches davon
       <lb facs="#facs_2_line_1691905083877_157" n="N016"/>unbegreiflich. Es klingt wie ein Märchen, daß der erste
-      <lb facs="#facs_2_region_1684564238141_438_tl_14" n="N017"/>Capellmeister <hi rendition="#em"><rs type="person">Esser</rs>,</hi> „der gute Geist des Kärntnerthor-
+      <lb facs="#facs_2_region_1684564238141_438_tl_14" n="N017"/>Capellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_74">Esser</rs>,</hi> „der gute Geist des Kärntnerthor-
       <lb facs="#facs_2_region_1684564238141_438_tl_15" n="N018"/>Theaters“, es nach langjähriger Dienstzeit zu keinem höheren
       <lb facs="#facs_2_region_1684564238141_438_tl_16" n="N019"/>Gehalte als 200 fl. monatlich gebracht hat! Erst als man
-      <lb facs="#facs_2_region_1684564238141_438_tl_17" n="N020"/><rs type="person">Esser</rs> zum musikalischen Beirath <rs type="person">Dingelstedt</rs>’s und „Musik¬
-      <lb facs="#facs_2_region_1684564238141_438_tl_18" n="N021"/>dirigenten“ des Theaters ernannt hatte, verbesserte man sein
+      <lb facs="#facs_2_region_1684564238141_438_tl_17" n="N020"/><rs type="person" ref="#hsl_person_id_74">Esser</rs> zum musikalischen Beirath <rs type="person" ref="#hsl_person_id_2595">Dingelstedt</rs>’s und „Musik
+      <lb facs="#facs_2_region_1684564238141_438_tl_18" n="N021" break="no"/>dirigenten“ des Theaters ernannt hatte, verbesserte man sein
       <lb facs="#facs_2_region_1684564238141_438_tl_19" n="N022"/>Einkommen — um ganze 50 fl. monatlich! Im Jahre
-      <lb facs="#facs_2_region_1684564238141_438_tl_20" n="N023"/><date month="0" day="0" year="0">1855</date> meldete sich der berühmte Violin-Virtuose <hi rendition="#em">Henri</hi>
-      <lb facs="#facs_2_region_1684564238141_438_tl_21" n="N024"/><hi rendition="#em"><rs type="person">Vieuxtemps</rs></hi> für eine Anstellung als „Hof-Concert¬
-      <lb facs="#facs_2_region_1684564238141_438_tl_22" n="N025"/>meister“, zugleich als Solospieler und Orchester-Director der
+      <lb facs="#facs_2_region_1684564238141_438_tl_20" n="N023"/><date>1855</date> meldete sich der berühmte Violin-Virtuose <hi rendition="#em">Henri
+      <lb facs="#facs_2_region_1684564238141_438_tl_21" n="N024"/><rs type="person" ref="#hsl_person_id_1494">Vieuxtemps</rs></hi> für eine Anstellung als „Hof-Concert
+      <lb facs="#facs_2_region_1684564238141_438_tl_22" n="N025" break="no"/>meister“, zugleich als Solospieler und Orchester-Director der
       <lb facs="#facs_2_region_1684564238141_438_tl_23" n="N026"/>Oper und erbat sich eine Besoldung von 3000 fl. jährlich.
       <lb facs="#facs_2_region_1684564238141_438_tl_24" n="N027"/>Obgleich er ein warmes Empfehlungsschreiben des Herzogs
-      <lb facs="#facs_2_region_1684564238141_438_tl_25" n="N028"/><rs type="person">Max</rs> in Bayern an den Oberstkämmerer mitbrachte
-      <lb facs="#facs_2_region_1684564238141_438_tl_26" n="N029"/>und die Direction eifrigst für <rs type="person">Vieuxtemps</rs>’ Forde¬
-      <lb facs="#facs_2_region_1684564238141_438_tl_27" n="N030"/>rungen eintrat, wurde sein Anerbieten aus fiscali¬
-      <lb facs="#facs_2_region_1684564238141_438_tl_28" n="N031"/>schen Gründen zurückgewiesen. Die finanzielle Lage
+      <lb facs="#facs_2_region_1684564238141_438_tl_25" n="N028"/><rs type="person" ref="#hsl_person_id_2935">Max</rs> in Bayern an den Oberstkämmerer mitbrachte
+      <lb facs="#facs_2_region_1684564238141_438_tl_26" n="N029"/>und die Direction eifrigst für <rs type="person" ref="#hsl_person_id_1494">Vieuxtemps</rs>’ Forde
+      <lb facs="#facs_2_region_1684564238141_438_tl_27" n="N030" break="no"/>rungen eintrat, wurde sein Anerbieten aus fiscali
+      <lb facs="#facs_2_region_1684564238141_438_tl_28" n="N031" break="no"/>schen Gründen zurückgewiesen. Die finanzielle Lage
       <lb facs="#facs_2_line_1691905035245_127" n="N032"/>der Orchestermitglieder war geradezu unwürdig. Schon im
-      <lb facs="#facs_2_region_1684564238141_438_tl_30" n="N033"/>Jahre <date month="0" day="0" year="0">1851</date> bemühte sich Regierungsrath v. <hi rendition="#em"><rs type="person">Holbein</rs></hi> in
-      <lb facs="#facs_2_region_1684564238141_438_tl_31" n="N034"/>einer amtlichen Eingabe um „die nothwendige und pflicht¬
-      <lb facs="#facs_2_region_1684564238141_438_tl_32" n="N035"/>mäßige Erhöhung der über allen Ausdruck kärglichen Be¬
-      <lb facs="#facs_2_region_1684564238141_438_tl_33" n="N036"/>soldung der Künstler des Hofopern-Orchesters, welche bei
-      <lb facs="#facs_2_region_1684564238141_438_tl_34" n="N037"/>ungleich größerer Beschäftigung noch immer <hi rendition="#em">weit hinter</hi>
-      <lb facs="#facs_2_region_1684564238141_438_tl_35" n="N038"/><hi rendition="#em">jenen des Burgtheaters zurückstehen</hi>“. <rs type="person" continued="true">Hol¬</rs>
-      <lb facs="#facs_2_region_1684564238141_438_tl_36" n="N039"/><rs type="person" continued="true">bein</rs>’s Besoldungspläne blieben ein frommer Wunsch. End¬
-      <lb facs="#facs_2_region_1684564238141_438_tl_37" n="N040"/>lich im Jahre <date month="0" day="0" year="0">1865</date> thaten sich die Mitglieder des Orchesters
-      <lb facs="#facs_2_line_1691905053949_139" n="N041"/>zu einer energischen Petition zusammen um Erhöhung ihrer</p>
+      <lb facs="#facs_2_region_1684564238141_438_tl_30" n="N033"/>Jahre <date>1851</date> bemühte sich Regierungsrath v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_128">Holbein</rs></hi> in
+      <lb facs="#facs_2_region_1684564238141_438_tl_31" n="N034"/>einer amtlichen Eingabe um „die nothwendige und pflicht
+      <lb facs="#facs_2_region_1684564238141_438_tl_32" n="N035" break="no"/>mäßige Erhöhung der über allen Ausdruck kärglichen Be
+      <lb facs="#facs_2_region_1684564238141_438_tl_33" n="N036" break="no"/>soldung der Künstler des Hofopern-Orchesters, welche bei
+      <lb facs="#facs_2_region_1684564238141_438_tl_34" n="N037"/>ungleich größerer Beschäftigung noch immer <hi rendition="#em">weit hinter
+      <lb facs="#facs_2_region_1684564238141_438_tl_35" n="N038"/>jenen des Burgtheaters zurückstehen</hi>“. <rs type="person" ref="#hsl_person_id_128">Hol
+      <lb facs="#facs_2_region_1684564238141_438_tl_36" n="N039" break="no"/>bein</rs>’s Besoldungspläne blieben ein frommer Wunsch. End
+      <lb facs="#facs_2_region_1684564238141_438_tl_37" n="N040" break="no"/>lich im Jahre <date>1865</date> thaten sich die Mitglieder des Orchesters
+      <lb facs="#facs_2_line_1691905053949_139" n="N041"/>zu einer energischen Petition zusammen um Erhöhung ihrer<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-      <lb facs="#facs_2_region_1684564241866_441_tl_1" n="N001"/>Bezüge. Ihre Argumente wurden von der Hofbehörde voll¬
-      <lb facs="#facs_2_region_1684564241866_441_tl_2" n="N002"/>kommen gewürdigt, die Gagen aber nicht erhöht, weil die
+            <p prev="true">
+      <lb facs="#facs_2_region_1684564241866_441_tl_1" n="N001"/>Bezüge. Ihre Argumente wurden von der Hofbehörde voll
+      <lb facs="#facs_2_region_1684564241866_441_tl_2" n="N002" break="no"/>kommen gewürdigt, die Gagen aber nicht erhöht, weil die
       <lb facs="#facs_2_line_1691905071421_151" n="N003"/>normale Dotation bereits überschritten sei. Auch hatten sich die
-      <lb facs="#facs_2_region_1684564241866_441_tl_4" n="N004"/>Kosten des Orchesters seit <date month="0" day="0" year="0">1850</date>, wo es 61 Spieler um¬
-      <lb facs="#facs_2_region_1684564241866_441_tl_5" n="N005"/>faßte, bis zum Jahre <date month="0" day="0" year="0">1865</date>, wo es im Ganzen 98 Mit¬
-      <lb facs="#facs_2_region_1684564241866_441_tl_6" n="N006"/>glieder zählte (jetzt ist ihre Zahl auf 107 gestiegen), be¬
-      <lb facs="#facs_2_region_1684564241866_441_tl_7" n="N007"/>deutend erhöht. Aber wie schlecht waren sie bezahlt! Die
+      <lb facs="#facs_2_region_1684564241866_441_tl_4" n="N004"/>Kosten des Orchesters seit <date>1850</date>, wo es 61 Spieler um
+      <lb facs="#facs_2_region_1684564241866_441_tl_5" n="N005" break="no"/>faßte, bis zum Jahre <date>1865</date>, wo es im Ganzen 98 Mit
+      <lb facs="#facs_2_region_1684564241866_441_tl_6" n="N006" break="no"/>glieder zählte (jetzt ist ihre Zahl auf 107 gestiegen), be
+      <lb facs="#facs_2_region_1684564241866_441_tl_7" n="N007" break="no"/>deutend erhöht. Aber wie schlecht waren sie bezahlt! Die
       <lb facs="#facs_2_region_1684564241866_441_tl_8" n="N008"/>ersten Solospieler bezogen 50 fl. monatlich, die übrigen
       <lb facs="#facs_2_region_1684564241866_441_tl_9" n="N009"/>Mitglieder begannen mit 36 fl. monatlich und stiegen bis
       <lb facs="#facs_2_region_1684564241866_441_tl_10" n="N010"/>42 fl. — Erst einer späteren Zeit blieb es vorbehalten, dem
-      <lb facs="#facs_2_region_1684564241866_441_tl_11" n="N011"/>Opernorchester zu geben, was ihm gebührte. Joh. <hi rendition="#em"><rs type="person">Herbeck</rs></hi>
-      <lb facs="#facs_2_region_1684564241866_441_tl_12" n="N012"/>und G. <hi rendition="#em"><rs type="person">Mahler</rs></hi> haben sich in dieser Hinsicht große Verdienste
-      <lb facs="#facs_2_region_1684564241866_441_tl_13" n="N013"/>erworben. Director <rs type="person">Mahler</rs> konnte in jüngster Zeit auch eine
+      <lb facs="#facs_2_region_1684564241866_441_tl_11" n="N011"/>Opernorchester zu geben, was ihm gebührte. Joh. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684564241866_441_tl_12" n="N012"/>und G. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_977">Mahler</rs></hi> haben sich in dieser Hinsicht große Verdienste
+      <lb facs="#facs_2_region_1684564241866_441_tl_13" n="N013"/>erworben. Director <rs type="person" ref="#hsl_person_id_977">Mahler</rs> konnte in jüngster Zeit auch eine
       <lb facs="#facs_2_region_1684564241866_441_tl_14" n="N014"/>Erhöhung der Choristengehalte erwirken, so daß sich die
       <lb facs="#facs_2_region_1684564241866_441_tl_15" n="N015"/>Bezahlung der Chorsänger und -Sängerinnen seit den letzten
-      <lb facs="#facs_2_line_1691905086421_160" n="N016"/>30 Jahren um nahezu 100 Percent erhöht hat. Die An¬
-      <lb facs="#facs_2_region_1684564241866_441_tl_17" n="N017"/>strengungen der Chordirectoren, eine Verstärkung und
+      <lb facs="#facs_2_line_1691905086421_160" n="N016"/>30 Jahren um nahezu 100 Percent erhöht hat. Die An
+      <lb facs="#facs_2_region_1684564241866_441_tl_17" n="N017" break="no"/>strengungen der Chordirectoren, eine Verstärkung und
       <lb facs="#facs_2_region_1684564241866_441_tl_18" n="N018"/>bessere Besoldung des Chors zu erlangen, begannen schon in
       <lb facs="#facs_2_region_1684564241866_441_tl_19" n="N019"/>den Sechziger Jahren. Ihr Gesuch wurde von der obersten
-      <lb facs="#facs_2_region_1684564241866_441_tl_20" n="N020"/>Hoftheater-Direction dem Director <hi rendition="#em"><rs type="person">Salvi</rs></hi> zur Aeußerung
-      <lb facs="#facs_2_region_1684564241866_441_tl_21" n="N021"/>zugestellt. Diese Aeußerung fiel geradezu classisch aus. <rs type="person">Salvi</rs>
+      <lb facs="#facs_2_region_1684564241866_441_tl_20" n="N020"/>Hoftheater-Direction dem Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_245">Salvi</rs></hi> zur Aeußerung
+      <lb facs="#facs_2_region_1684564241866_441_tl_21" n="N021"/>zugestellt. Diese Aeußerung fiel geradezu classisch aus. <rs type="person" ref="#hsl_person_id_245">Salvi</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684564241866_441_tl_22" n="N022"/>behauptete, der Chor sei nicht zu klein, sondern zu <hi rendition="#em">groß</hi>;
       <lb facs="#facs_2_region_1684564241866_441_tl_23" n="N023"/>„die Rückwärtsstehenden werden bequem und singen mitunter
       <lb facs="#facs_2_region_1684564241866_441_tl_24" n="N024"/>gar nicht mit“, man müsse also die Zahl der Mitglieder
       <lb facs="#facs_2_region_1684564241866_441_tl_25" n="N025"/><hi rendition="#em">verringern</hi> und die Gagen der entlassenen Chorsänger
       <lb facs="#facs_2_region_1684564241866_441_tl_26" n="N026"/>unter die verbleibenden auftheilen! Ein ins Musikalische
-      <lb facs="#facs_2_region_1684564241866_441_tl_27" n="N027"/>übersetzter Sanct <rs type="person">Crispinus</rs>, der den Reichen Leder ent¬
-      <lb facs="#facs_2_region_1684564241866_441_tl_28" n="N028"/>wendet, um den Armen Stiefel daraus zu machen.
+      <lb facs="#facs_2_region_1684564241866_441_tl_27" n="N027"/>übersetzter Sanct <rs type="person" ref="#hsl_person_id_2936">Crispinus</rs>, der den Reichen Leder ent
+      <lb facs="#facs_2_region_1684564241866_441_tl_28" n="N028" break="no"/>wendet, um den Armen Stiefel daraus zu machen.
       <lb facs="#facs_2_region_1684564241866_441_tl_29" n="N029"/>Die Eröffnung des prächtigen neuen Opernhauses machte
       <lb facs="#facs_2_region_1684564241866_441_tl_30" n="N030"/>endlich solchen unmenschlichen und unkünstlerischen Knickereien
-      <lb facs="#facs_2_region_1684564241866_441_tl_31" n="N031"/>ein Ende. <hi rendition="#em"><rs type="person">Dingelstedt</rs></hi> war nicht der Mann der klein¬
-      <lb facs="#facs_2_line_1691905037429_130" n="N032"/>bürgerlichen Engherzigkeit <rs type="person">Salvi</rs>’s.
+      <lb facs="#facs_2_region_1684564241866_441_tl_31" n="N031"/>ein Ende. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2595">Dingelstedt</rs></hi> war nicht der Mann der klein
+      <lb facs="#facs_2_line_1691905037429_130" n="N032" break="no"/>bürgerlichen Engherzigkeit <rs type="person" ref="#hsl_person_id_245">Salvi</rs>’s.
+            </p><p>
       <lb facs="#facs_2_region_1684564241866_441_tl_32" n="N033"/>Wer sich nicht blos für die schönen Sängerinnen und
-      <lb facs="#facs_2_region_1684564241866_441_tl_33" n="N034"/>schmucken Tenoristen interessirt, sondern auch für die musik¬
-      <lb facs="#facs_2_region_1684564241866_441_tl_34" n="N035"/>wissenschaftlichen und kunstpädagogischen Aufgaben des Opern¬
-      <lb facs="#facs_2_region_1684564241866_441_tl_35" n="N036"/>theaters, der wird die beiden Capitel vor der Einführung
+      <lb facs="#facs_2_region_1684564241866_441_tl_33" n="N034"/>schmucken Tenoristen interessirt, sondern auch für die musik
+      <lb facs="#facs_2_region_1684564241866_441_tl_34" n="N035" break="no"/>wissenschaftlichen und kunstpädagogischen Aufgaben des Opern
+      <lb facs="#facs_2_region_1684564241866_441_tl_35" n="N036" break="no"/>theaters, der wird die beiden Capitel vor der Einführung
       <lb facs="#facs_2_region_1684564241866_441_tl_36" n="N037"/>der neuen Orchesterstimmung (Diapason normal) und der
       <lb facs="#facs_2_region_1684564241866_441_tl_37" n="N038"/>Errichtung einer Opernschule mit Antheil und Nutzen lesen.
       <lb facs="#facs_2_region_1684564241866_441_tl_38" n="N039"/>Desgleichen — und mit erhöhter Heiterkeit — den Artikel
       <lb facs="#facs_2_region_1684564241866_441_tl_39" n="N040"/>über den Einfluß der obersten Polizei-Behörde unter Graf
-      <lb facs="#facs_2_line_1691905056061_142" n="N041"/><hi rendition="#em"><rs type="person">Sedlenitzky</rs></hi> und Baron <hi rendition="#em"><rs type="person">Kempen</rs></hi> auf das Hofopern¬</p>
+      <lb facs="#facs_2_line_1691905056061_142" n="N041"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_285">Sedlnitzky</rs></hi> und Baron <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2938">Kempen</rs></hi> auf das Hofopern</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
-            <p>
-      <lb facs="#facs_3_region_1684564255590_447_tl_1" n="N001"/>theater. Es ist, als blickten wir in frühere Jahrhunderte.
+            <p prev="true">
+      <lb facs="#facs_3_region_1684564255590_447_tl_1" n="N001" break="no"/>theater. Es ist, als blickten wir in frühere Jahrhunderte.
       <lb facs="#facs_3_region_1684564255590_447_tl_2" n="N002"/>Die Polizei hatte in Alles dreinzureden. Sie war einerseits
       <lb facs="#facs_3_region_1684564255590_447_tl_3" n="N003"/>Expertin, wenn es sich um die künstlerischen Fähigkeiten zu
-      <lb facs="#facs_3_region_1684564255590_447_tl_4" n="N004"/>engagirender Sänger oder Capellmeister handelte, anderer¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_5" n="N005"/>seits Wahrerin der öffentlichen Sittlichkeit, indem sie über
+      <lb facs="#facs_3_region_1684564255590_447_tl_4" n="N004"/>engagirender Sänger oder Capellmeister handelte, anderer
+      <lb facs="#facs_3_region_1684564255590_447_tl_5" n="N005" break="no"/>seits Wahrerin der öffentlichen Sittlichkeit, indem sie über
       <lb facs="#facs_3_region_1684564255590_447_tl_6" n="N006"/>das politische Vorleben jedes zu engagirenden Sängers und
       <lb facs="#facs_3_region_1684564255590_447_tl_7" n="N007"/>jeder Sängerin Bericht erstattete. Ohne dieses Referat durfte
       <lb facs="#facs_3_region_1684564255590_447_tl_8" n="N008"/>keine Entscheidung getroffen werden. Die Ueberwachung der
-      <lb facs="#facs_3_region_1684564255590_447_tl_9" n="N009"/>Polizei-Behörde erstreckte sich auch auf das persönliche Ver¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_10" n="N010"/>halten der Künstler unter einander und gegenüber dem
+      <lb facs="#facs_3_region_1684564255590_447_tl_9" n="N009"/>Polizei-Behörde erstreckte sich auch auf das persönliche Ver
+      <lb facs="#facs_3_region_1684564255590_447_tl_10" n="N010" break="no"/>halten der Künstler unter einander und gegenüber dem
       <lb facs="#facs_3_region_1684564255590_447_tl_11" n="N011"/>Director. Erst als die Verpachtung des Operntheaters ein
-      <lb facs="#facs_3_region_1684564255590_447_tl_12" n="N012"/>Ende nahm, ward die Herrschaft der Polizei als Theater¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_13" n="N013"/>macht gebrochen.
-      <lb facs="#facs_3_region_1684564255590_447_tl_14" n="N014"/><hi rendition="#em">Franz <rs type="person">Jauner</rs></hi>, unter dessen Direction wir im Hof¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_15" n="N015"/>operntheater die berühmtesten Gäste und die glänzendsten
+      <lb facs="#facs_3_region_1684564255590_447_tl_12" n="N012"/>Ende nahm, ward die Herrschaft der Polizei als Theater
+      <lb facs="#facs_3_region_1684564255590_447_tl_13" n="N013" break="no"/>macht gebrochen.
+            </p><p>
+      <lb facs="#facs_3_region_1684564255590_447_tl_14" n="N014"/><hi rendition="#em">Franz <rs type="person" ref="#hsl_person_id_1028">Jauner</rs></hi>, unter dessen Direction wir im Hof
+      <lb facs="#facs_3_region_1684564255590_447_tl_15" n="N015" break="no"/>operntheater die berühmtesten Gäste und die glänzendsten
       <lb facs="#facs_3_region_1684564255590_447_tl_16" n="N016"/>Aufführungen zu hören bekamen, hat auch „den Draht mit
-      <lb facs="#facs_3_region_1684564255590_447_tl_17" n="N017"/><rs type="place">Bayreuth</rs>“ wieder hergestellt. Eine bisher unbekannte Corre¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_18" n="N018"/>spondenz R. <hi rendition="#em"><rs type="person">Wagner</rs>’s</hi> mit <rs type="person">Jauner</rs>, die Aufführung der
-      <lb facs="#facs_3_region_1684564255590_447_tl_19" n="N019"/><rs type="bibl">Nibelungen-Tetralogie</rs> in <rs type="place">Wien</rs> betreffend, erregt lebhaftes
-      <lb facs="#facs_3_region_1684564255590_447_tl_20" n="N020"/>Interesse — insbesondere jene Briefe <rs type="person">Wagner</rs>’s, die nicht
-      <lb facs="#facs_3_region_1684564255590_447_tl_21" n="N021"/>blos Geldforderungen zum Inhalt haben. Zweierlei nament¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_22" n="N022"/>lich erfüllt uns mit großer Befriedigung. Erstens daß
-      <lb facs="#facs_3_region_1684564255590_447_tl_23" n="N023"/><rs type="person">Wagner</rs> immer von seiner „<hi rendition="#em">Oper</hi><rs type="bibl">Tristan</rs>“, seiner „<hi rendition="#em">Oper</hi>
-      <lb facs="#facs_3_region_1684564255590_447_tl_24" n="N024"/><rs type="bibl">Walküre</rs>“ u. s. w. spricht, während man vor seinen Jüngern
+      <lb facs="#facs_3_region_1684564255590_447_tl_17" n="N017"/><rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>“ wieder hergestellt. Eine bisher unbekannte Corre
+      <lb facs="#facs_3_region_1684564255590_447_tl_18" n="N018" break="no"/>spondenz R. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> mit <rs type="person" ref="#hsl_person_id_1028">Jauner</rs>, die Aufführung der
+      <lb facs="#facs_3_region_1684564255590_447_tl_19" n="N019"/><rs type="bibl" ref="#hsl_work_id_418">Nibelungen-Tetralogie</rs> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> betreffend, erregt lebhaftes
+      <lb facs="#facs_3_region_1684564255590_447_tl_20" n="N020"/>Interesse — insbesondere jene Briefe <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s, die nicht
+      <lb facs="#facs_3_region_1684564255590_447_tl_21" n="N021"/>blos Geldforderungen zum Inhalt haben. Zweierlei nament
+      <lb facs="#facs_3_region_1684564255590_447_tl_22" n="N022" break="no"/>lich erfüllt uns mit großer Befriedigung. Erstens daß
+      <lb facs="#facs_3_region_1684564255590_447_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> immer von seiner „<hi rendition="#em">Oper</hi><space unit="char" quantity="1"/><rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>“, seiner „<hi rendition="#em">Oper</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684564255590_447_tl_24" n="N024"/><rs type="bibl" ref="#hsl_work_id_649">Walküre</rs>“ u. s. w. spricht, während man vor seinen Jüngern
       <lb facs="#facs_3_region_1684564255590_447_tl_25" n="N025"/>das Wort „Oper“, nur bei Strafe der stillen Verachtung
-      <lb facs="#facs_3_region_1684564255590_447_tl_26" n="N026"/>aussprechen darf. Sodann, daß <rs type="person">Wagner</rs><hi rendition="#em">durchaus nicht</hi>
-      <lb facs="#facs_3_region_1684564255590_447_tl_27" n="N027"/><hi rendition="#em">auf ungekürzten Aufführungen</hi> seiner Werke
+      <lb facs="#facs_3_region_1684564255590_447_tl_26" n="N026"/>aussprechen darf. Sodann, daß <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space unit="char" quantity="1"/><hi rendition="#em">durchaus nicht
+      <lb facs="#facs_3_region_1684564255590_447_tl_27" n="N027"/>auf ungekürzten Aufführungen</hi> seiner Werke
       <lb facs="#facs_3_region_1684564255590_447_tl_28" n="N028"/>besteht. „Nein, nein!“ ruft er. „Es ist <hi rendition="#em">unsinnig</hi>, von
       <lb facs="#facs_3_region_1684564255590_447_tl_29" n="N029"/>einem städtischen Theater-Abendpublicum, selbst für seinen
       <lb facs="#facs_3_region_1684564255590_447_tl_30" n="N030"/>Genuß, Anstrengungen zu verlangen, welchen vorzubeugen
-      <lb facs="#facs_3_region_1684564255590_447_tl_31" n="N031"/>ich eben ja meine <rs type="place">Bayreuth</rs>er Bühnenfestspiele eigens er¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_32" n="N032"/>funden habe.“ Man sieht, <rs type="person">Wagner</rs> war weder so eigen¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_33" n="N033"/>sinnig noch so tyrannisch, wie es heute seine Apostel sind.
+      <lb facs="#facs_3_region_1684564255590_447_tl_31" n="N031"/>ich eben ja meine <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er Bühnenfestspiele eigens er
+      <lb facs="#facs_3_region_1684564255590_447_tl_32" n="N032" break="no"/>funden habe.“ Man sieht, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> war weder so eigen
+      <lb facs="#facs_3_region_1684564255590_447_tl_33" n="N033" break="no"/>sinnig noch so tyrannisch, wie es heute seine Apostel sind.
+            </p><p>
       <lb facs="#facs_3_region_1684564255590_447_tl_34" n="N034"/>Was diese Geschichte des Hofoperntheaters zugleich zu
       <lb facs="#facs_3_region_1684564255590_447_tl_35" n="N035"/>einem werthvollen, praktischen Nachschlagebuch macht, sind die
       <lb facs="#facs_3_region_1684564255590_447_tl_36" n="N036"/>Beilagen am Ende des Werkes: ein vollständiges Verzeichniß
-      <lb facs="#facs_3_region_1684564255590_447_tl_37" n="N037"/>aller Mitglieder von <date month="0" day="0" year="0">1848</date> bis <date month="0" day="0" year="0">1898</date> mit kurzen biographi¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_38" n="N038"/>schen Notizen und aller während dieses Halbjahrhunderts
-      <lb facs="#facs_3_region_1684564255590_447_tl_39" n="N039"/>aufgeführten Opern und Ballette. Wir konnten das um¬
-      <lb facs="#facs_3_region_1684564255590_447_tl_40" n="N040"/>fangreiche Werk hier nur flüchtig besprechen; empfehlen
+      <lb facs="#facs_3_region_1684564255590_447_tl_37" n="N037"/>aller Mitglieder von <date>1848</date> bis <date>1898</date> mit kurzen biographi
+      <lb facs="#facs_3_region_1684564255590_447_tl_38" n="N038" break="no"/>schen Notizen und aller während dieses Halbjahrhunderts
+      <lb facs="#facs_3_region_1684564255590_447_tl_39" n="N039"/>aufgeführten Opern und Ballette. Wir konnten das um
+      <lb facs="#facs_3_region_1684564255590_447_tl_40" n="N040" break="no"/>fangreiche Werk hier nur flüchtig besprechen; empfehlen
       <lb facs="#facs_3_region_1684564255590_447_tl_41" n="N041"/>können wir es aber nachdrücklich.</p>
          </div>
       </body>
