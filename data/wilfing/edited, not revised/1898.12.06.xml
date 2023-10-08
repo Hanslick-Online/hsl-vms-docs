@@ -106,6 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2023-08-19">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-09-16">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-10-07">Formatierung und Referenzen eingefügt.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -680,188 +681,194 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <lb facs="#facs_1_region_1684564438016_510_tl_1" n="N001"/>Musik.
-            <lb facs="#facs_1_region_1684564438016_510_tl_2" n="N002"/>(Philharmonisches Concert. <rs type="person">Brahms</rs> und <rs type="person">Dvořak</rs>.)
+            <lb facs="#facs_1_region_1684564438016_510_tl_1" n="N001"/><head type="h1">Musik.</head>
+            <lb facs="#facs_1_region_1684564438016_510_tl_2" n="N002"/><head type="h2">(Philharmonisches Concert. <rs type="person" ref="#hsl_person_id_41">Brahms</rs> und <rs type="person" ref="#hsl_person_id_1265">Dvořak</rs>.)</head>
             <p>
       <lb facs="#facs_1_region_1684564438016_510_tl_3" n="N003"/>Ed. H. Die Philharmoniker eröffneten ihr jüngstes
-      <lb facs="#facs_1_region_1684564438016_510_tl_4" n="N004"/>Concert mit <hi rendition="#em"><rs type="person">Brahms</rs>’</hi><rs type="bibl">D-dur-Symphonie</rs>. Zur Zeit von
-      <lb facs="#facs_1_region_1684564438016_510_tl_5" n="N005"/><rs type="person">Mendelssohn</rs>’s Direction der Gewandhaus-Concerte gab es
-      <lb facs="#facs_1_region_1684564438016_510_tl_6" n="N006"/>in <rs type="place">Leipzig</rs> viel Zeitungsstreit, ob eine Symphonie am An¬
-      <lb facs="#facs_1_region_1684564438016_510_tl_7" n="N007"/>fang oder am Ende des Programms zu stehen habe. „Zu
-      <lb facs="#facs_1_region_1684564438016_510_tl_8" n="N008"/>Anfang,“ behaupteten die Einen, weil nur da noch unver¬
-      <lb facs="#facs_1_region_1684564438016_510_tl_9" n="N009"/>brauchte Empfänglichkeit für ein großes, mehrsätziges Werk
+      <lb facs="#facs_1_region_1684564438016_510_tl_4" n="N004"/>Concert mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’</hi><space unit="char" quantity="1"/><rs type="bibl" ref="#hsl_work_id_1475">D-dur-Symphonie</rs>. Zur Zeit von
+      <lb facs="#facs_1_region_1684564438016_510_tl_5" n="N005"/><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s Direction der Gewandhaus-Concerte gab es
+      <lb facs="#facs_1_region_1684564438016_510_tl_6" n="N006"/>in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs> viel Zeitungsstreit, ob eine Symphonie am An
+      <lb facs="#facs_1_region_1684564438016_510_tl_7" n="N007" break="no"/>fang oder am Ende des Programms zu stehen habe. „Zu
+      <lb facs="#facs_1_region_1684564438016_510_tl_8" n="N008"/>Anfang,“ behaupteten die Einen, weil nur da noch unver
+      <lb facs="#facs_1_region_1684564438016_510_tl_9" n="N009" break="no"/>brauchte Empfänglichkeit für ein großes, mehrsätziges Werk
       <lb facs="#facs_1_line_1691910035385_707" n="N010"/>vorhanden sei. „Zu Ende,“ meinten die Anderen; müssen
       <lb facs="#facs_1_region_1684564438016_510_tl_10" n="N011"/>wir doch nach dem Gesetz der Steigerung vom Kleineren
       <lb facs="#facs_1_region_1684564438016_510_tl_11" n="N012"/>zum Größeren aufsteigen und den Haupteffect für den
-      <lb facs="#facs_1_region_1684564438016_510_tl_12" n="N013"/>Schluß sparen. So brachte man denn für jede Ansicht ver¬
-      <lb facs="#facs_1_region_1684564438016_510_tl_13" n="N014"/>nünftige Gründe. <hi rendition="#em"><rs type="person">Bülow</rs></hi> wußte sogar in einem excentri¬
-      <lb facs="#facs_1_region_1684564438016_510_tl_14" n="N015"/>schen Beispiel beide zu vereinigen, indem er <rs type="person">Beethoven</rs>’s
-      <lb facs="#facs_1_region_1684564438016_510_tl_15" n="N016"/><rs type="bibl">Neunte Symphonie</rs> im selben Concert als erste <hi rendition="#em">und</hi> als letzte
-      <lb facs="#facs_1_region_1684564438016_510_tl_16" n="N017"/>Nummer aufführte. Immerhin blieb es in <rs type="place">Leipzig</rs> wie
+      <lb facs="#facs_1_region_1684564438016_510_tl_12" n="N013"/>Schluß sparen. So brachte man denn für jede Ansicht ver
+      <lb facs="#facs_1_region_1684564438016_510_tl_13" n="N014" break="no"/>nünftige Gründe. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_44">Bülow</rs></hi> wußte sogar in einem excentri
+      <lb facs="#facs_1_region_1684564438016_510_tl_14" n="N015" break="no"/>schen Beispiel beide zu vereinigen, indem er <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s
+      <lb facs="#facs_1_region_1684564438016_510_tl_15" n="N016"/><rs type="bibl" ref="#hsl_work_id_272">Neunte Symphonie</rs> im selben Concert als erste <hi rendition="#em">und</hi> als letzte
+      <lb facs="#facs_1_region_1684564438016_510_tl_16" n="N017"/>Nummer aufführte. Immerhin blieb es in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs> wie
       <lb facs="#facs_1_region_1684564438016_510_tl_17" n="N018"/>anderwärts Sitte, mit der Symphonie zu schließen. Das
-      <lb facs="#facs_1_region_1684564438016_510_tl_18" n="N019"/>ist meistens richtig, nicht immer; es gilt dafür kein abso¬
-      <lb facs="#facs_1_region_1684564438016_510_tl_19" n="N020"/>lutes Gesetz. Der Charakter der einzelnen Stücke
+      <lb facs="#facs_1_region_1684564438016_510_tl_18" n="N019"/>ist meistens richtig, nicht immer; es gilt dafür kein abso
+      <lb facs="#facs_1_region_1684564438016_510_tl_19" n="N020" break="no"/>lutes Gesetz. Der Charakter der einzelnen Stücke
       <lb facs="#facs_1_region_1684564438016_510_tl_20" n="N021"/>und ihr Verhältniß zu einander muß hier von Fall
-      <lb facs="#facs_1_region_1684564438016_510_tl_21" n="N022"/>zu Fall entscheiden. Herrn Director <hi rendition="#em"><rs type="person">Mahler</rs></hi> leitete ein
-      <lb facs="#facs_1_region_1684564438016_510_tl_22" n="N023"/>richtiges Gefühl, als er mit der <rs type="person">Brahms</rs>’schen Symphonie
-      <lb facs="#facs_1_region_1684564438016_510_tl_23" n="N024"/>anfing und hierauf erst <hi rendition="#em"><rs type="person">Dvořak</rs>’s</hi> Novität „<rs type="bibl">Heldenlied</rs>“
-      <lb facs="#facs_1_region_1684564438016_510_tl_24" n="N025"/>und die Ouvertüre zum „<rs type="bibl">Sommernachtstraum</rs>“ folgen ließ.
+      <lb facs="#facs_1_region_1684564438016_510_tl_21" n="N022"/>zu Fall entscheiden. Herrn Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_977">Mahler</rs></hi> leitete ein
+      <lb facs="#facs_1_region_1684564438016_510_tl_22" n="N023"/>richtiges Gefühl, als er mit der <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’schen <rs type="bibl" ref="#hsl_work_id_1475">Symphonie</rs>
+      <lb facs="#facs_1_region_1684564438016_510_tl_23" n="N024"/>anfing und hierauf erst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1265">Dvořak</rs>’s</hi> Novität „<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“
+      <lb facs="#facs_1_region_1684564438016_510_tl_24" n="N025"/>und die Ouvertüre zum „<rs type="bibl" ref="#hsl_work_id_50">Sommernachtstraum</rs>“ folgen ließ.
       <lb facs="#facs_1_region_1684564438016_510_tl_25" n="N026"/>Es geschah im eigensten Interesse dieser Symphonie, deren
       <lb facs="#facs_1_region_1684564438016_510_tl_26" n="N027"/>edler Gedankengehalt und kunstvoller Aufbau sich immer und
-      <lb facs="#facs_1_region_1684564438016_510_tl_27" n="N028"/>überall durchsetzt, die aber an sinnlichem Reiz und glänzen¬
-      <lb facs="#facs_1_region_1684564438016_510_tl_28" n="N029"/>der Farbenwirkung zurücksteht hinter den beiden Tondich¬
-      <lb facs="#facs_1_region_1684564438016_510_tl_29" n="N030"/>tungen von <rs type="person">Dvořak</rs> und <rs type="person">Mendelssohn</rs>. <hi rendition="#em">Vor</hi> diesen gespielt,
-      <lb facs="#facs_1_region_1684564438016_510_tl_30" n="N031"/>entgeht <rs type="person">Brahms</rs>’ Orchester-Colorit jeder Vergleichung; <hi rendition="#em">nach</hi>
+      <lb facs="#facs_1_region_1684564438016_510_tl_27" n="N028"/>überall durchsetzt, die aber an sinnlichem Reiz und glänzen
+      <lb facs="#facs_1_region_1684564438016_510_tl_28" n="N029" break="no"/>der Farbenwirkung zurücksteht hinter den beiden Tondich
+      <lb facs="#facs_1_region_1684564438016_510_tl_29" n="N030" break="no"/>tungen von <rs type="person" ref="#hsl_person_id_1265">Dvořak</rs> und <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>. <hi rendition="#em">Vor</hi> diesen gespielt,
+      <lb facs="#facs_1_region_1684564438016_510_tl_30" n="N031"/>entgeht <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ Orchester-Colorit jeder Vergleichung; <hi rendition="#em">nach</hi>
       <lb facs="#facs_1_line_1691910052980_716" n="N032"/>ihnen würde es wol etwas dumpf erscheinen. So stand denn
       <lb facs="#facs_1_region_1684564438016_510_tl_31" n="N033"/>in diesem ungewöhnlich angeordneten Programm Alles an
       <lb facs="#facs_1_region_1684564438016_510_tl_32" n="N034"/>rechter Stelle und mit der größtmöglichen Wirkung.
+            </p><p>
       <lb facs="#facs_1_region_1684564438016_510_tl_33" n="N035"/>Ein glückliches Zusammentreffen oder Zusammenfügen
-      <lb facs="#facs_1_region_1684564438016_510_tl_34" n="N036"/>hat die beiden Orchesterwerke von <rs type="person">Brahms</rs> und <rs type="person">Dvořak</rs> dicht
+      <lb facs="#facs_1_region_1684564438016_510_tl_34" n="N036"/>hat die beiden Orchesterwerke von <rs type="person" ref="#hsl_person_id_41">Brahms</rs> und <rs type="person" ref="#hsl_person_id_1265">Dvořak</rs> dicht
       <lb facs="#facs_1_region_1684564438016_510_tl_35" n="N037"/>aneinandergereiht. Hand in Hand gingen hier die beiden
       <lb facs="#facs_1_line_1691910067964_725" n="N038"/>Meister, die im Leben einander so aufrichtig geschätzt und
       <lb facs="#facs_1_region_1684564438016_510_tl_36" n="N039"/>neidlos gerühmt haben. Ohne Widerspruch beherrschen sie
       <lb facs="#facs_1_region_1684564438016_510_tl_37" n="N040"/>heute alle ernsten Concertprogramme. Unsere einheimischen
-      <lb facs="#facs_1_line_1691910146349_782" n="N041"/>Quartettgesellschaften bringen <rs type="person">Brahms</rs> und <rs type="person">Dvořak</rs>; außer¬</p>
+      <lb facs="#facs_1_line_1691910146349_782" n="N041"/>Quartettgesellschaften bringen <rs type="person" ref="#hsl_person_id_41">Brahms</rs> und <rs type="person" ref="#hsl_person_id_1265">Dvořak</rs>; außer</p>
             <cb n="2"/>
-            <p>
-      <lb facs="#facs_1_line_1691910081892_734" n="N001"/>dem genießt Ersterer die Vorliebe <hi rendition="#em"><rs type="person">Joachim</rs>’s</hi>, Letz¬
-      <lb facs="#facs_1_region_1684564444416_513_tl_1" n="N002"/>terer jene des <hi rendition="#em">Böhmischen Streichquartetts</hi>.
-      <lb facs="#facs_1_region_1684564444416_513_tl_2" n="N003"/><rs type="person">Brahms</rs>’ symphonische Werke finden ihre glänzendste Ver¬
-      <lb facs="#facs_1_region_1684564444416_513_tl_3" n="N004"/>tretung in den Philharmonischen, seine Chorstücke in den
-      <lb facs="#facs_1_region_1684564444416_513_tl_4" n="N005"/>Gesellschaftsconcerten. Seine <rs type="bibl">D-dur-Symphonie</rs>, die ihre
-      <lb facs="#facs_1_region_1684564444416_513_tl_5" n="N006"/>erste Aufführung vor 20 Jahren unter Hans <rs type="person">Richter</rs> feierte,
-      <lb facs="#facs_1_region_1684564444416_513_tl_6" n="N007"/>hat seitdem nicht nachgedunkelt, im Gegentheil. <hi rendition="#em"><rs type="person">Mahler</rs></hi>
+            <p prev="true">
+      <lb facs="#facs_1_line_1691910081892_734" n="N001" break="no"/>dem genießt Ersterer die Vorliebe <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs>’s</hi>, Letz
+      <lb facs="#facs_1_region_1684564444416_513_tl_1" n="N002" break="no"/>terer jene des <hi rendition="#em">Böhmischen Streichquartetts</hi>.
+      <lb facs="#facs_1_region_1684564444416_513_tl_2" n="N003"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ symphonische Werke finden ihre glänzendste Ver
+      <lb facs="#facs_1_region_1684564444416_513_tl_3" n="N004" break="no"/>tretung in den Philharmonischen, seine Chorstücke in den
+      <lb facs="#facs_1_region_1684564444416_513_tl_4" n="N005"/>Gesellschaftsconcerten. Seine <rs type="bibl" ref="#hsl_work_id_1475">D-dur-Symphonie</rs>, die ihre
+      <lb facs="#facs_1_region_1684564444416_513_tl_5" n="N006"/>erste Aufführung vor 20 Jahren unter Hans <rs type="person" ref="#hsl_person_id_1399">Richter</rs> feierte,
+      <lb facs="#facs_1_region_1684564444416_513_tl_6" n="N007"/>hat seitdem nicht nachgedunkelt, im Gegentheil. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_977">Mahler</rs></hi>
       <lb facs="#facs_1_region_1684564444416_513_tl_7" n="N008"/>dirigirte sie mit sichtlicher Liebe und Sorgfalt, man fühlte,
       <lb facs="#facs_1_region_1684564444416_513_tl_8" n="N009"/>daß nicht blos das Werk, sondern auch der Meister ihm
-      <lb facs="#facs_1_region_1684564444416_513_tl_9" n="N010"/>ans Herz gewachsen sei. <rs type="person">Brahms</rs> hat den Dirigenten <rs type="person">Mahler</rs>
-      <lb facs="#facs_1_line_1691910097051_743" n="N011"/>überaus hochgeschätzt und seine Berufung nach <rs type="place">Wien</rs> mit
+      <lb facs="#facs_1_region_1684564444416_513_tl_9" n="N010"/>ans Herz gewachsen sei. <rs type="person" ref="#hsl_person_id_41">Brahms</rs> hat den Dirigenten <rs type="person" ref="#hsl_person_id_977">Mahler</rs>
+      <lb facs="#facs_1_line_1691910097051_743" n="N011"/>überaus hochgeschätzt und seine Berufung nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> mit
       <lb facs="#facs_1_region_1684564444416_513_tl_10" n="N012"/>überzeugtem Eifer, wenngleich ohne Erfolg, schon vor Jahren
-      <lb facs="#facs_1_line_1691910037331_710" n="N013"/>betrieben. An diese vortreffliche Aufführung der <rs type="bibl">D-dur-</rs>
-      <lb facs="#facs_1_region_1684564444416_513_tl_12" n="N014"/><rs type="bibl">Symphonie</rs> wird sich am nächsten Sonntag eine von der
-      <lb facs="#facs_1_region_1684564444416_513_tl_13" n="N015"/>Gesellschaft der Musikfreunde veranstaltete große <rs type="person">Brahms</rs>-
-      <lb facs="#facs_1_region_1684564444416_513_tl_14" n="N016"/>Aufführung reihen, die uns das „<rs type="bibl">Schicksalslied</rs>,“ das
-      <lb facs="#facs_1_region_1684564444416_513_tl_15" n="N017"/>„<rs type="bibl">Triumphlied</rs>“ und das zweite <rs type="bibl">Clavierconcert</rs> in Aussicht
+      <lb facs="#facs_1_line_1691910037331_710" n="N013"/>betrieben. An diese vortreffliche Aufführung der <rs type="bibl" ref="#hsl_work_id_1475">D-dur-
+      <lb facs="#facs_1_region_1684564444416_513_tl_12" n="N014"/>Symphonie</rs> wird sich am nächsten Sonntag eine von der
+      <lb facs="#facs_1_region_1684564444416_513_tl_13" n="N015"/>Gesellschaft der Musikfreunde veranstaltete große <rs type="person" ref="#hsl_person_id_41">Brahms</rs>-
+      <lb facs="#facs_1_region_1684564444416_513_tl_14" n="N016"/>Aufführung reihen, die uns das „<rs type="bibl" ref="#hsl_work_id_878">Schicksalslied</rs>,“ das
+      <lb facs="#facs_1_region_1684564444416_513_tl_15" n="N017"/>„<rs type="bibl" ref="#hsl_work_id_1571">Triumphlied</rs>“ und das zweite <rs type="bibl" ref="#hsl_work_id_1618">Clavierconcert</rs> in Aussicht
       <lb facs="#facs_1_region_1684564444416_513_tl_16" n="N018"/>stellt. Das Erträgniß dieser Aufführung kommt dem
-      <lb facs="#facs_1_region_1684564444416_513_tl_17" n="N019"/><rs type="person">Brahms</rs>-Denkmal zu statten. Die pietätvolle Huldigung
+      <lb facs="#facs_1_region_1684564444416_513_tl_17" n="N019"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>-Denkmal zu statten. Die pietätvolle Huldigung
       <lb facs="#facs_1_region_1684564444416_513_tl_18" n="N020"/>der Wiener, welche sich in den Sammlungen für das
-      <lb facs="#facs_1_region_1684564444416_513_tl_19" n="N021"/><rs type="person">Brahms</rs>-Denkmal ausdrückt, ist etwas so Natürliches,
+      <lb facs="#facs_1_region_1684564444416_513_tl_19" n="N021"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>-Denkmal ausdrückt, ist etwas so Natürliches,
       <lb facs="#facs_1_region_1684564444416_513_tl_20" n="N022"/>Reines und Schönes, daß zu verwundern wäre,
       <lb facs="#facs_1_region_1684564444416_513_tl_21" n="N023"/>wenn nicht irgend welche neidische Stimme sich krächzend
-      <lb facs="#facs_1_region_1684564444416_513_tl_22" n="N024"/>dagegen erhöhe. Sie kommt seltsamerweise aus <rs type="place">England</rs> und
-      <lb facs="#facs_1_region_1684564444416_513_tl_23" n="N025"/>gehört einem <rs type="place">London</rs>er Clavierlehrer und Componisten
-      <lb facs="#facs_1_region_1684564444416_513_tl_24" n="N026"/>Namens <hi rendition="#em">Algernon <rs type="person">Ashton</rs></hi><rs type="person"/>. In <rs type="place">Wien</rs> weiß man von
-      <lb facs="#facs_1_region_1684564444416_513_tl_25" n="N027"/>ihm nichts weiter, als daß er ein Heft Tänze <rs type="person">Brahms</rs> ver¬
-      <lb facs="#facs_1_region_1684564444416_513_tl_26" n="N028"/>ehrungsvoll gewidmet hat. Dieser Herr fragt nun sehr auf¬
-      <lb facs="#facs_1_region_1684564444416_513_tl_27" n="N029"/>geregt, mit welchem Recht man an ein <hi rendition="#em"><rs type="person">Brahms</rs></hi>-Monu¬
-      <lb facs="#facs_1_region_1684564444416_513_tl_28" n="N030"/>ment denken könne, bevor noch <hi rendition="#em">Richard <rs type="person">Wagner</rs></hi> und
-      <lb facs="#facs_1_region_1684564444416_513_tl_29" n="N031"/><hi rendition="#em"><rs type="person">Schumann</rs></hi>, die früher gestorben, in Marmor verewigt
-      <lb facs="#facs_1_region_1684564444416_513_tl_30" n="N032"/>sind? Ja, antworten wir ihm, wenn man mit den Stand¬
-      <lb facs="#facs_1_region_1684564444416_513_tl_31" n="N033"/>bildern streng chronologisch vorgehen und zuerst sämmtliche
+      <lb facs="#facs_1_region_1684564444416_513_tl_22" n="N024"/>dagegen erhöhe. Sie kommt seltsamerweise aus <rs type="place" ref="#hsl_place_id_17">England</rs> und
+      <lb facs="#facs_1_region_1684564444416_513_tl_23" n="N025"/>gehört einem <rs type="place" ref="#hsl_place_id_34">London</rs>er Clavierlehrer und Componisten
+      <lb facs="#facs_1_region_1684564444416_513_tl_24" n="N026"/>Namens <hi rendition="#em">Algernon <rs type="person" ref="#hsl_person_id_2908">Ashton</rs></hi>. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> weiß man von
+      <lb facs="#facs_1_region_1684564444416_513_tl_25" n="N027"/>ihm nichts weiter, als daß er ein Heft Tänze <rs type="person" ref="#hsl_person_id_41">Brahms</rs> ver
+      <lb facs="#facs_1_region_1684564444416_513_tl_26" n="N028" break="no"/>ehrungsvoll gewidmet hat. Dieser Herr fragt nun sehr auf
+      <lb facs="#facs_1_region_1684564444416_513_tl_27" n="N029" break="no"/>geregt, mit welchem Recht man an ein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>-Monu
+      <lb facs="#facs_1_region_1684564444416_513_tl_28" n="N030" break="no"/>ment denken könne, bevor noch <hi rendition="#em">Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> und
+      <lb facs="#facs_1_region_1684564444416_513_tl_29" n="N031"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>, die früher gestorben, in Marmor verewigt
+      <lb facs="#facs_1_region_1684564444416_513_tl_30" n="N032"/>sind? Ja, antworten wir ihm, wenn man mit den Stand
+      <lb facs="#facs_1_region_1684564444416_513_tl_31" n="N033" break="no"/>bildern streng chronologisch vorgehen und zuerst sämmtliche
       <lb facs="#facs_1_region_1684564444416_513_tl_32" n="N034"/>früher verstorbene große Künstler monumental erledigen
       <lb facs="#facs_1_line_1691910055011_719" n="N035"/>wollte, da bekäme die Stadt das Aussehen einer versteinerten
       <lb facs="#facs_1_region_1684564444416_513_tl_34" n="N036"/>Geschichte der Musik. Zunächst hat jedes Land, jeder Ort
-      <lb facs="#facs_1_region_1684564444416_513_tl_35" n="N037"/>an seine eigenen großen Künstler zu denken. Wenn in <rs type="place">Stettin</rs>
-      <lb facs="#facs_1_line_1691910128835_764" n="N038"/>die Statue Karl <hi rendition="#em"><rs type="person">Loewe</rs>’s</hi>, in <rs type="place">Zürich</rs> die <hi rendition="#em"><rs type="person">Nägeli</rs>’s</hi>, wenn
-      <lb facs="#facs_1_line_1691910138051_773" n="N039"/>demnächst in <rs type="place">Zittau</rs> das Standild <hi rendition="#em"><rs type="person">Marschner</rs>’s</hi>, in
-      <lb facs="#facs_1_region_1684564444416_513_tl_36" n="N040"/><rs type="place">Zwickau</rs><hi rendition="#em"><rs type="person">Schumann</rs>’s</hi> sich erheben, so rügt doch kein
+      <lb facs="#facs_1_region_1684564444416_513_tl_35" n="N037"/>an seine eigenen großen Künstler zu denken. Wenn in <rs type="place" ref="#hsl_place_id_324">Stettin</rs>
+      <lb facs="#facs_1_line_1691910128835_764" n="N038"/>die Statue Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1122">Loewe</rs>’s</hi>, in <rs type="place" ref="#hsl_place_id_98">Zürich</rs> die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_555">Nägeli</rs>’s</hi>, wenn
+      <lb facs="#facs_1_line_1691910138051_773" n="N039"/>demnächst in <rs type="place" ref="#hsl_place_id_328">Zittau</rs> das Standbild <hi rendition="#em"><rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s</hi>, in
+      <lb facs="#facs_1_region_1684564444416_513_tl_36" n="N040"/><rs type="place" ref="#hsl_place_id_146">Zwickau</rs><space unit="char" quantity="1"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s</hi> sich erheben, so rügt doch kein
       <lb facs="#facs_1_line_1691910069779_728" n="N041"/>Vernünftiger, daß man dort nicht zuvor Monumente
-      <lb facs="#facs_1_region_1684564444416_513_tl_38" n="N042"/>für <rs type="person">Mozart</rs> und <rs type="person">Beethoven</rs> errichte. In erster Linie
+      <lb facs="#facs_1_region_1684564444416_513_tl_38" n="N042"/>für <rs type="person" ref="#hsl_person_id_189">Mozart</rs> und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> errichte. In erster Linie
       <lb facs="#facs_1_region_1684564444416_513_tl_39" n="N043"/>entscheidet doch die innige locale Zusammengehörigkeit.
-      <lb facs="#facs_1_line_1691910148450_785" n="N044"/><rs type="place">Wien</rs> hat seine Ehrenschuld an die großen Meister</p>
+      <lb facs="#facs_1_line_1691910148450_785" n="N044"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> hat seine Ehrenschuld an die großen Meister<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_1_line_1691910083956_737" n="N001"/>entrichtet, welche hier gewirkt haben bis an ihr Lebensende —
-      <lb facs="#facs_1_region_1684564449709_516_tl_2" n="N002"/><rs type="person">Haydn</rs>, <rs type="person">Mozart</rs>, <rs type="person">Beethoven</rs>, <rs type="person">Schubert</rs> — nun wüßte ich
+      <lb facs="#facs_1_region_1684564449709_516_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>, <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_279">Schubert</rs> — nun wüßte ich
       <lb facs="#facs_1_region_1684564449709_516_tl_3" n="N003"/>wirklich nicht, an wenn jetzt die Reihe käme, wenn nicht an
-      <lb facs="#facs_1_region_1684564449709_516_tl_4" n="N004"/><hi rendition="#em"><rs type="person">Brahms</rs></hi>! Weder <rs type="person">Schumann</rs> noch <rs type="person">Wagner</rs> verknüpft ein
-      <lb facs="#facs_1_region_1684564449709_516_tl_5" n="N005"/>engerer persönlicher Zusammenhang mit <rs type="place">Wien</rs>. Seltsam klingt
-      <lb facs="#facs_1_region_1684564449709_516_tl_6" n="N006"/>es freilich, daß <rs type="person">Wagner</rs>, 16 Jahre nach seinem Tode, noch
+      <lb facs="#facs_1_region_1684564449709_516_tl_4" n="N004"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>! Weder <rs type="person" ref="#hsl_person_id_282">Schumann</rs> noch <rs type="person" ref="#hsl_person_id_319">Wagner</rs> verknüpft ein
+      <lb facs="#facs_1_region_1684564449709_516_tl_5" n="N005"/>engerer persönlicher Zusammenhang mit <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Seltsam klingt
+      <lb facs="#facs_1_region_1684564449709_516_tl_6" n="N006"/>es freilich, daß <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, 16 Jahre nach seinem Tode, noch
       <lb facs="#facs_1_region_1684564449709_516_tl_7" n="N007"/>immer kein Monument hat, weder in seiner Geburtsstadt
-      <lb facs="#facs_1_region_1684564449709_516_tl_8" n="N008"/><rs type="place">Leipzig</rs>, noch in den großen Vororten seiner Wirksamkeit:
-      <lb facs="#facs_1_region_1684564449709_516_tl_9" n="N009"/><rs type="place">Dresden</rs>, <rs type="place">München</rs>, <rs type="place">Bayreuth</rs>. Jede dieser Städte rühmt
+      <lb facs="#facs_1_region_1684564449709_516_tl_8" n="N008"/><rs type="place" ref="#hsl_place_id_32">Leipzig</rs>, noch in den großen Vororten seiner Wirksamkeit:
+      <lb facs="#facs_1_region_1684564449709_516_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_15">Dresden</rs>, <rs type="place" ref="#hsl_place_id_39">München</rs>, <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>. Jede dieser Städte rühmt
       <lb facs="#facs_1_region_1684564449709_516_tl_10" n="N010"/>sich ihres Vorrechtes und möchte die anderen zurückdrängen;
       <lb facs="#facs_1_line_1691910100788_746" n="N011"/>aber es wird mehr geredet als gehandelt. Wie heißt es doch
-      <lb facs="#facs_1_region_1684564449709_516_tl_12" n="N012"/>bei <rs type="person">Heine</rs>? „Und da Keiner wollte, daß der Andere für ihn
-      <lb facs="#facs_1_region_1684564449709_516_tl_13" n="N013"/>zahle — zahlte Keiner von den Beiden.“ Also Herr A. <hi rendition="#em"><rs type="person">Ashton</rs></hi>,
-      <lb facs="#facs_1_region_1684564449709_516_tl_14" n="N014"/>der beflissene Verehrer des lebenden <rs type="person">Brahms</rs>, agitirt jetzt als
-      <lb facs="#facs_1_region_1684564449709_516_tl_15" n="N015"/>Widersacher des verewigten. Wie der geschätzte <rs type="place">Wien</rs>er Corre¬
-      <lb facs="#facs_1_region_1684564449709_516_tl_16" n="N016"/>spondent der „<rs type="bibl">Musical Opinion</rs>“ und des „<rs type="bibl">Monthly</rs>
-      <lb facs="#facs_1_region_1684564449709_516_tl_17" n="N017"/><rs type="bibl">musical record</rs>“, Herr J. B. <hi rendition="#em"><rs type="person">Krall</rs></hi>, mir mittheilt,
-      <lb facs="#facs_1_region_1684564449709_516_tl_18" n="N018"/>glänzt Mr. <rs type="person">Aston</rs>, der seine musikalische Erziehung in
-      <lb facs="#facs_1_line_1691910113245_752" n="N019"/><rs type="place">Deutschland</rs> genossen, auch durch gehässige Ausfälle
-      <lb facs="#facs_1_line_1691910117899_757" n="N020"/>auf den „Musikcultus in <rs type="place">Deutschland</rs>“ — zu Gunsten
-      <lb facs="#facs_1_region_1684564449709_516_tl_23" n="N021"/>der Musik in <rs type="place">England</rs>! Wem wir in <rs type="place">Wien</rs> ein Denkmal
-      <lb facs="#facs_1_region_1684564449709_516_tl_24" n="N022"/>errichten, das geht <rs type="place">England</rs> und vollends Herrn <rs type="person">Ashton</rs> gar
+      <lb facs="#facs_1_region_1684564449709_516_tl_12" n="N012"/>bei <rs type="person" ref="#hsl_person_id_116">Heine</rs>? „Und da Keiner wollte, daß der Andere für ihn
+      <lb facs="#facs_1_region_1684564449709_516_tl_13" n="N013"/>zahle — zahlte Keiner von den Beiden.“ Also Herr A. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2908">Ashton</rs></hi>,
+      <lb facs="#facs_1_region_1684564449709_516_tl_14" n="N014"/>der beflissene Verehrer des lebenden <rs type="person" ref="#hsl_person_id_41">Brahms</rs>, agitirt jetzt als
+      <lb facs="#facs_1_region_1684564449709_516_tl_15" n="N015"/>Widersacher des verewigten. Wie der geschätzte <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Corre
+      <lb facs="#facs_1_region_1684564449709_516_tl_16" n="N016" break="no"/>spondent der „<rs type="bibl" ref="#hsl_work_id_1687">Musical Opinion</rs>“ und des „<rs type="bibl" ref="#hsl_work_id_1686">Monthly
+      <lb facs="#facs_1_region_1684564449709_516_tl_17" n="N017"/>musical record</rs>“, Herr J. B. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2909">Krall</rs></hi>, mir mittheilt,
+      <lb facs="#facs_1_region_1684564449709_516_tl_18" n="N018"/>glänzt Mr. <rs type="person" ref="#hsl_person_id_2908">Ashton</rs>, der seine musikalische Erziehung in
+      <lb facs="#facs_1_line_1691910113245_752" n="N019"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs> genossen, auch durch gehässige Ausfälle
+      <lb facs="#facs_1_line_1691910117899_757" n="N020"/>auf den „Musikcultus in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>“ — zu Gunsten
+      <lb facs="#facs_1_region_1684564449709_516_tl_23" n="N021"/>der Musik in <rs type="place" ref="#hsl_place_id_17">England</rs>! Wem wir in <rs type="place" ref="#hsl_place_id_55">Wien</rs> ein Denkmal
+      <lb facs="#facs_1_region_1684564449709_516_tl_24" n="N022"/>errichten, das geht <rs type="place" ref="#hsl_place_id_17">England</rs> und vollends Herrn <rs type="person" ref="#hsl_person_id_2908">Ashton</rs> gar
       <lb facs="#facs_1_region_1684564449709_516_tl_25" n="N023"/>nichts an. Wir werden uns gewiß auch nicht einmischen,
       <lb facs="#facs_1_region_1684564449709_516_tl_26" n="N024"/>wenn die dankbaren Engländer in Ermanglung eines Größeren
-      <lb facs="#facs_1_region_1684564449709_516_tl_27" n="N025"/>den „<rs type="bibl">Mikado</rs>“-Componisten <rs type="person">Sullivan</rs> durch eine Reiterstatue
-      <lb facs="#facs_1_region_1684564449709_516_tl_28" n="N026"/>im <rs type="place">Hydepark</rs> verewigen.
+      <lb facs="#facs_1_region_1684564449709_516_tl_27" n="N025"/>den „<rs type="bibl" ref="#hsl_work_id_1688">Mikado</rs>“-Componisten <rs type="person" ref="#hsl_person_id_2623">Sullivan</rs> durch eine Reiterstatue
+      <lb facs="#facs_1_region_1684564449709_516_tl_28" n="N026"/>im <rs type="place" ref="#hsl_place_id_327">Hydepark</rs> verewigen.
+            </p><p>
       <lb facs="#facs_1_region_1684564449709_516_tl_29" n="N027"/>Unversehens sind wir vom Wege des philharmonischen
-      <lb facs="#facs_1_region_1684564449709_516_tl_30" n="N028"/>Programms abgewichen, das uns zunächst zu <rs type="person">Dvořak</rs>’s
-      <lb facs="#facs_1_region_1684564449709_516_tl_31" n="N029"/>„<rs type="bibl">Heldenlied</rs>“ führt. <rs type="person">Mahler</rs>’s Vermittlung danken wir es,
-      <lb facs="#facs_1_region_1684564449709_516_tl_32" n="N030"/>daß <rs type="person">Dvořak</rs> die erste Aufführung seiner noch ungedruckten
-      <lb facs="#facs_1_region_1684564449709_516_tl_33" n="N031"/>neuesten Orchester-Composition <hi rendition="#em"><rs type="place">Wien</rs></hi> zugewendet hat. Die
-      <lb facs="#facs_1_region_1684564449709_516_tl_34" n="N032"/>Aufschrift „<rs type="bibl">Heldenlied</rs>“ bezeichnet Charakter und Stimmung
+      <lb facs="#facs_1_region_1684564449709_516_tl_30" n="N028"/>Programms abgewichen, das uns zunächst zu <rs type="person" ref="#hsl_person_id_1265">Dvořak</rs>’s
+      <lb facs="#facs_1_region_1684564449709_516_tl_31" n="N029"/>„<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“ führt. <rs type="person" ref="#hsl_person_id_977">Mahler</rs>’s Vermittlung danken wir es,
+      <lb facs="#facs_1_region_1684564449709_516_tl_32" n="N030"/>daß <rs type="person" ref="#hsl_person_id_1265">Dvořak</rs> die erste Aufführung seiner noch ungedruckten
+      <lb facs="#facs_1_region_1684564449709_516_tl_33" n="N031"/>neuesten Orchester-Composition <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> zugewendet hat. Die
+      <lb facs="#facs_1_region_1684564449709_516_tl_34" n="N032"/>Aufschrift „<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“ bezeichnet Charakter und Stimmung
       <lb facs="#facs_1_region_1684564449709_516_tl_35" n="N033"/>des Werkes; der Form nach ist es eine „symphonische Dichtung“
-      <lb facs="#facs_1_region_1684564449709_516_tl_36" n="N034"/>im Sinne <rs type="person">Liszt</rs>’s und spielt sich in Einem fortlaufenden Satze
-      <lb facs="#facs_1_region_1684564449709_516_tl_37" n="N035"/>ab, welcher mehrere in Tonart, Tempo und Ausdruck con¬
-      <lb facs="#facs_1_region_1684564449709_516_tl_38" n="N036"/>trastirende Theile ohne scharfe Abgrenzung in sich faßt. Eigent¬
-      <lb facs="#facs_1_region_1684564449709_516_tl_39" n="N037"/>liche Programm-Musik ist das „<rs type="bibl">Heldenlied</rs>“ ebensowenig wie
-      <lb facs="#facs_1_line_1691910130531_767" n="N038"/><rs type="person">Beethoven</rs>’s „<rs type="bibl">Eroica</rs>“, an die es durch seinen Namen erinnert.
-      <lb facs="#facs_1_line_1691910139661_776" n="N039"/><rs type="person">Dvořak</rs> zwingt dem Hörer keine detaillirte Gebrauchsanwei¬
-      <lb facs="#facs_1_region_1684564449709_516_tl_42" n="N040"/>sung auf, wie bei seinen symphonischen Dichtungen „<rs type="bibl">Wasser¬</rs>
-      <lb facs="#facs_1_region_1684564449709_516_tl_43" n="N041"/><rs type="bibl">mann</rs>“, „<rs type="bibl">Mittagshexe</rs>“, „<rs type="bibl">Spinnrad</rs>“, welche diesen Nothbehelf
-      <lb facs="#facs_1_region_1684564449709_516_tl_44" n="N042"/>leider nicht entbehren können. Das „<rs type="bibl">Heldenlied</rs>“ ist in der
+      <lb facs="#facs_1_region_1684564449709_516_tl_36" n="N034"/>im Sinne <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s und spielt sich in Einem fortlaufenden Satze
+      <lb facs="#facs_1_region_1684564449709_516_tl_37" n="N035"/>ab, welcher mehrere in Tonart, Tempo und Ausdruck con
+      <lb facs="#facs_1_region_1684564449709_516_tl_38" n="N036" break="no"/>trastirende Theile ohne scharfe Abgrenzung in sich faßt. Eigent
+      <lb facs="#facs_1_region_1684564449709_516_tl_39" n="N037" break="no"/>liche Programm-Musik ist das „<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“ ebensowenig wie
+      <lb facs="#facs_1_line_1691910130531_767" n="N038"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s „<rs type="bibl" ref="#hsl_work_id_42">Eroica</rs>“, an die es durch seinen Namen erinnert.
+      <lb facs="#facs_1_line_1691910139661_776" n="N039"/><rs type="person" ref="#hsl_person_id_1265">Dvořak</rs> zwingt dem Hörer keine detaillirte Gebrauchsanwei
+      <lb facs="#facs_1_region_1684564449709_516_tl_42" n="N040" break="no"/>sung auf, wie bei seinen symphonischen Dichtungen „<rs type="bibl" ref="#hsl_work_id_903">Wasser
+      <lb facs="#facs_1_region_1684564449709_516_tl_43" n="N041" break="no"/>mann</rs>“, „<rs type="bibl" ref="#hsl_work_id_904">Mittagshexe</rs>“, „<rs type="bibl" ref="#hsl_work_id_902">Spinnrad</rs>“, welche diesen Nothbehelf
+      <lb facs="#facs_1_region_1684564449709_516_tl_44" n="N042"/>leider nicht entbehren können. Das „<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“ ist in der
       <lb facs="#facs_1_region_1684564449709_516_tl_45" n="N043"/>Hauptsache rein musikalisch verständlich und wirksam, wenn
-      <lb facs="#facs_1_line_1691910150467_788" n="N044"/>auch einige Mittelglieder uns unklar geblieben sind. Aus¬</p>
+      <lb facs="#facs_1_line_1691910150467_788" n="N044"/>auch einige Mittelglieder uns unklar geblieben sind. Aus</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-      <lb facs="#facs_2_region_1684564463197_522_tl_1" n="N001"/>legerkünste werden sich wol auch an dem „<rs type="bibl">Heldenlied</rs>“ zu
+            <p prev="true">
+      <lb facs="#facs_2_region_1684564463197_522_tl_1" n="N001" break="no"/>legerkünste werden sich wol auch an dem „<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“ zu
       <lb facs="#facs_2_region_1684564463197_522_tl_2" n="N002"/>schaffen machen — wie viele Erklärungen hat nicht schon
-      <lb facs="#facs_2_region_1684564463197_522_tl_3" n="N003"/>die „<rs type="bibl">Eroica</rs>“ erlebt und erlitten! An einen bestimmten Helden
-      <lb facs="#facs_2_region_1684564463197_522_tl_4" n="N004"/>(wie <rs type="person">Beethoven</rs> an <rs type="person">Napoleon</rs>) will <rs type="person">Dvořak</rs>, den wir darum
+      <lb facs="#facs_2_region_1684564463197_522_tl_3" n="N003"/>die „<rs type="bibl" ref="#hsl_work_id_42">Eroica</rs>“ erlebt und erlitten! An einen bestimmten Helden
+      <lb facs="#facs_2_region_1684564463197_522_tl_4" n="N004"/>(wie <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> an <rs type="person" ref="#hsl_person_id_39">Napoleon</rs>) will <rs type="person" ref="#hsl_person_id_1265">Dvořak</rs>, den wir darum
       <lb facs="#facs_2_line_1691910179923_803" n="N005"/>befragten, durchaus nicht gedacht haben, nicht einmal an
-      <lb facs="#facs_2_line_1691910186412_808" n="N006"/>einen des <rs type="place">böhmisch</rs>en Landtages. Nach einer „authentischen
+      <lb facs="#facs_2_line_1691910186412_808" n="N006"/>einen des <rs type="place" ref="#hsl_place_id_1">böhmisch</rs>en Landtages. Nach einer „authentischen
       <lb facs="#facs_2_region_1684564463197_522_tl_9" n="N007"/>Mittheilung“ des Concertprogramms haben wir bei dem
-      <lb facs="#facs_2_region_1684564463197_522_tl_10" n="N008"/>„<rs type="bibl">Heldenlied</rs>“ (czechisch: „<rs type="bibl">Piseň bohatyrská</rs>“) weniger an
+      <lb facs="#facs_2_region_1684564463197_522_tl_10" n="N008"/>„<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“ (czechisch: „<rs type="bibl" ref="#hsl_work_id_1685">Piseň bohatyrská</rs>“) weniger an
       <lb facs="#facs_2_region_1684564463197_522_tl_11" n="N009"/>einen Kriegshelden, als an einen slavischen Rhapsoden oder
       <lb facs="#facs_2_line_1691910205316_819" n="N010"/>Barden zu denken. Die Tondichtung gemahnt also
-      <lb facs="#facs_2_region_1684564463197_522_tl_14" n="N011"/>an die Schicksale oder die Entwicklung eines Geistes¬
-      <lb facs="#facs_2_region_1684564463197_522_tl_15" n="N012"/>helden, ohne daß die wechselnden Stimmungen be¬
-      <lb facs="#facs_2_region_1684564463197_522_tl_16" n="N013"/>stimmte Vorgänge widerspiegeln müßten. Ein trotzi¬
-      <lb facs="#facs_2_region_1684564463197_522_tl_17" n="N014"/>ges, rasch abreißendes Hauptmotiv in B-moll, das wir
+      <lb facs="#facs_2_region_1684564463197_522_tl_14" n="N011"/>an die Schicksale oder die Entwicklung eines Geistes
+      <lb facs="#facs_2_region_1684564463197_522_tl_15" n="N012" break="no"/>helden, ohne daß die wechselnden Stimmungen be
+      <lb facs="#facs_2_region_1684564463197_522_tl_16" n="N013" break="no"/>stimmte Vorgänge widerspiegeln müßten. Ein trotzi
+      <lb facs="#facs_2_region_1684564463197_522_tl_17" n="N014" break="no"/>ges, rasch abreißendes Hauptmotiv in B-moll, das wir
       <lb facs="#facs_2_region_1684564463197_522_tl_18" n="N015"/>das Heldenthema nennen können, durchzieht in mancherlei
       <lb facs="#facs_2_region_1684564463197_522_tl_19" n="N016"/>Wandlungen das ganze Stück, das sich charaktervoll
       <lb facs="#facs_2_region_1684564463197_522_tl_20" n="N017"/>und farbenfrisch vor uns ausbreitet. Wie schön bettet sich
       <lb facs="#facs_2_region_1684564463197_522_tl_21" n="N018"/>das klagende Adagio zwischen zwei kampfmuthige Allegrosätze;
       <lb facs="#facs_2_region_1684564463197_522_tl_22" n="N019"/>wie wohlthuend löst sich das bis zum Zerreißen gespannte
       <lb facs="#facs_2_line_1691910232371_831" n="N020"/>Pathos in dem volksthümlich anklingenden reizenden
-      <lb facs="#facs_2_line_1691910237379_836" n="N021"/>Allegretto in E-dur! Und dann, alle Orchestermächte auf¬
-      <lb facs="#facs_2_region_1684564463197_522_tl_27" n="N022"/>jagend, die siegesfrohe Schlußstretta! Eine ausführlichere
+      <lb facs="#facs_2_line_1691910237379_836" n="N021"/>Allegretto in E-dur! Und dann, alle Orchestermächte auf
+      <lb facs="#facs_2_region_1684564463197_522_tl_27" n="N022" break="no"/>jagend, die siegesfrohe Schlußstretta! Eine ausführlichere
       <lb facs="#facs_2_region_1684564463197_522_tl_28" n="N023"/>Schilderung und Beurtheilung des Werkes vermöchte ich
       <lb facs="#facs_2_region_1684564463197_522_tl_29" n="N024"/>heute nicht zu geben, ist mir doch nach einmaligem Hören
       <lb facs="#facs_2_region_1684564463197_522_tl_30" n="N025"/>in dem packenden Gesammteindruck manche Einzelheit und
-      <lb facs="#facs_2_region_1684564463197_522_tl_31" n="N026"/>ihre Beziehung auf das Ganze entgangen. Die sanften lyri¬
-      <lb facs="#facs_2_region_1684564463197_522_tl_32" n="N027"/>schen Partien haften mir als die schönsten im Gedächtnisse.
-      <lb facs="#facs_2_region_1684564463197_522_tl_33" n="N028"/>In dem „<rs type="bibl">Heldenlied</rs>“ glänzt die Kunst contrapunktischen
+      <lb facs="#facs_2_region_1684564463197_522_tl_31" n="N026"/>ihre Beziehung auf das Ganze entgangen. Die sanften lyri
+      <lb facs="#facs_2_region_1684564463197_522_tl_32" n="N027" break="no"/>schen Partien haften mir als die schönsten im Gedächtnisse.
+      <lb facs="#facs_2_region_1684564463197_522_tl_33" n="N028"/>In dem „<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“ glänzt die Kunst contrapunktischen
       <lb facs="#facs_2_region_1684564463197_522_tl_34" n="N029"/>Verwebens mehrerer Motive, die rhythmische Abwechslung,
       <lb facs="#facs_2_region_1684564463197_522_tl_35" n="N030"/>die originelle Modulation, endlich die im Zarten wie im
       <lb facs="#facs_2_region_1684564463197_522_tl_36" n="N031"/>Starken gleich klangvolle Instrumentirung, der ich nur —
       <lb facs="#facs_2_region_1684564463197_522_tl_37" n="N032"/>um doch etwas auszustellen — eine weniger betäubende
-      <lb facs="#facs_2_region_1684564463197_522_tl_38" n="N033"/>Mitwirkung des Blechs und der Lärminstrumente ge¬
-      <lb facs="#facs_2_region_1684564463197_522_tl_39" n="N034"/>wünscht hätte.
-      <lb facs="#facs_2_region_1684564463197_522_tl_40" n="N035"/>Ohne Zweifel wird das „<rs type="bibl">Heldenlied</rs>“ als eine von
+      <lb facs="#facs_2_region_1684564463197_522_tl_38" n="N033"/>Mitwirkung des Blechs und der Lärminstrumente ge
+      <lb facs="#facs_2_region_1684564463197_522_tl_39" n="N034" break="no"/>wünscht hätte.
+            </p><p>
+      <lb facs="#facs_2_region_1684564463197_522_tl_40" n="N035"/>Ohne Zweifel wird das „<rs type="bibl" ref="#hsl_work_id_1685">Heldenlied</rs>“ als eine von
       <lb facs="#facs_2_region_1684564463197_522_tl_41" n="N036"/>echtestem Talent inspirirte und mit auserlesener Technik
-      <lb facs="#facs_2_region_1684564463197_522_tl_42" n="N037"/>gestaltete Schöpfung überall siegreich auftreten.*) Der <rs type="place">Wien</rs>er
+      <lb facs="#facs_2_region_1684564463197_522_tl_42" n="N037"/>gestaltete Schöpfung überall siegreich auftreten.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_2_line_1691910291699_850" n="N043"/>Daß <rs type="person" ref="#hsl_person_id_1265">Dvořak</rs> auch in <rs type="place" ref="#hsl_place_id_44">Paris</rs> bereits anerkannt und beliebt
+            <lb facs="#facs_2_line_1691910301347_857" n="N044"/>ist, bezeugt ein eben erschienenes Buch des bekannten Musikschrift
+            <lb facs="#facs_2_region_1684564463197_522_tl_55" n="N045" break="no"/>stellers Albert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2910">Soubies</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_1689">Histoire de la musique Bohème</rs>.“
+            </note>
+            Der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er
       <lb facs="#facs_2_region_1684564463197_522_tl_43" n="N038"/>Erfolg präludirt diesen Erwartungen. Das sehr schwierige
-      <lb facs="#facs_2_region_1684564463197_522_tl_44" n="N039"/>Stück, unter <rs type="person">Mahler</rs>’s Leitung hinreißend gespielt, machte
+      <lb facs="#facs_2_region_1684564463197_522_tl_44" n="N039"/>Stück, unter <rs type="person" ref="#hsl_person_id_977">Mahler</rs>’s Leitung hinreißend gespielt, machte
       <lb facs="#facs_2_region_1684564463197_522_tl_45" n="N040"/>große Wirkung. Der Componist, welcher persönlich anwesend
       <lb facs="#facs_2_region_1684564463197_522_tl_46" n="N041"/>war (Zde!), mußte, stürmisch gerufen, immer von neuem
-      <lb facs="#facs_2_region_1684564463197_522_tl_47" n="N042"/>vortreten und für den Beifall danken.
-      <lb facs="#facs_2_line_1691910291699_850" n="N043"/>*) Daß <rs type="person">Dvořak</rs> auch in <rs type="place">Paris</rs> bereits anerkannt und beliebt
-      <lb facs="#facs_2_line_1691910301347_857" n="N044"/>ist, bezeugt ein eben erschienenes Buch des bekannten Musikschrift¬
-      <lb facs="#facs_2_region_1684564463197_522_tl_55" n="N045"/>stellers Albert <hi rendition="#em"><rs type="person">Soubies</rs></hi>: „<rs type="bibl">Histoire de la musique Bohème</rs>.“</p>
+      <lb facs="#facs_2_region_1684564463197_522_tl_47" n="N042"/>vortreten und für den Beifall danken.</p>
          </div>
       </body>
    </text>
