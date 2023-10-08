@@ -106,6 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2023-08-28">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-09-16">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2023-10-08">Formatierung und Referenzen eingefügt.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -781,61 +782,63 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <lb facs="#facs_1_region_1684564320062_467_tl_1" n="N001"/>„<rs type="bibl">Donna Diana</rs>.“
-            <lb facs="#facs_1_region_1684564320062_467_tl_2" n="N002"/>Komische Oper in drei Acten von E. N. v. <hi rendition="#em"><rs type="person">Reznicek</rs></hi>.
-            <lb facs="#facs_1_region_1684564320062_467_tl_3" n="N003"/>(Erste Aufführung im Hofoperntheater am 9. December <date month="0" day="0" year="0">1898</date>.)
+            <lb facs="#facs_1_region_1684564320062_467_tl_1" n="N001"/><head type="h1">„<rs type="bibl" ref="#hsl_work_id_1284">Donna Diana</rs>.“</head>
+            <lb facs="#facs_1_region_1684564320062_467_tl_2" n="N002"/><head type="h2">Komische Oper in drei Acten von E. N. v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1982">Reznicek</rs></hi>.</head>
+            <lb facs="#facs_1_region_1684564320062_467_tl_3" n="N003"/><head type="h3">(Erste Aufführung im Hofoperntheater am 9. December <date>1898</date>.)</head>
             <p>
       <lb facs="#facs_1_region_1684564320062_467_tl_4" n="N004"/>Ed. H.
-      <lb facs="#facs_1_line_1690821789960_48" n="N005"/>Sie liebten sich Beide, doch Keiner
-      <lb facs="#facs_1_line_1690821791940_51" n="N006"/>Wollt’ es dem Andern gesteh’n,
-      <lb facs="#facs_1_line_1690821794155_54" n="N007"/>Sie sahen sich an so feindlich, 
-      <lb facs="#facs_1_line_1690821796244_57" n="N008"/>Und wollten vor Liebe vergeh’n.
-      <lb facs="#facs_1_region_1684564320062_467_tl_7" n="N009"/>So beginnt ein zartes Lied von Karl <rs type="person">Löwe</rs> — und
-      <lb facs="#facs_1_region_1684564320062_467_tl_8" n="N010"/>ungefähr ebenso die Handlung von „<rs type="bibl">Donna Diana</rs>“. Wir
+      <lb facs="#facs_1_line_1690821789960_48" n="N005"/><l>Sie liebten sich Beide, doch Keiner</l>
+      <lb facs="#facs_1_line_1690821791940_51" n="N006"/><l>Wollt’ es dem Andern gesteh’n,</l>
+      <lb facs="#facs_1_line_1690821794155_54" n="N007"/><l>Sie sahen sich an so feindlich,</l> 
+      <lb facs="#facs_1_line_1690821796244_57" n="N008"/><l>Und wollten vor Liebe vergeh’n.</l>
+            </p><p>
+      <lb facs="#facs_1_region_1684564320062_467_tl_7" n="N009"/>So beginnt ein zartes Lied von Karl <rs type="person" ref="#hsl_person_id_1122">Löwe</rs> — und
+      <lb facs="#facs_1_region_1684564320062_467_tl_8" n="N010"/>ungefähr ebenso die Handlung von „<rs type="bibl" ref="#hsl_work_id_1284">Donna Diana</rs>“. Wir
       <lb facs="#facs_1_region_1684564320062_467_tl_9" n="N011"/>brauchen den Stoff nicht eigens nachzuerzählen, ist doch
-      <lb facs="#facs_1_region_1684564320062_467_tl_10" n="N012"/><hi rendition="#em"><rs type="person">Moreto</rs>’s</hi> Lustspiel „<rs type="bibl">El Desden con el Desden</rs>“ hin¬
-      <lb facs="#facs_1_region_1684564320062_467_tl_11" n="N013"/>reichend bekannt. (Verachtung mit Verachtung, nämlich ge¬
-      <lb facs="#facs_1_region_1684564320062_467_tl_12" n="N014"/>heilt.) In der <rs type="person">Schreyvogel</rs>-<rs type="person">West</rs>’schen Bearbeitung als „<rs type="bibl">Donna</rs>
-      <lb facs="#facs_1_region_1684564320062_467_tl_13" n="N015"/><rs type="bibl">Diana</rs>“ hat es vierzig Jahre lang im Burgtheater geglänzt,
-      <lb facs="#facs_1_region_1684564320062_467_tl_14" n="N016"/>um erst unter <rs type="person">Laube</rs> vom Repertoire zu verschwinden. Louise
-      <lb facs="#facs_1_region_1684564320062_467_tl_15" n="N017"/><rs type="person" continued="true">Neumann</rs> als <rs type="person">Diana</rs>, <rs type="person">Fichtner</rs> als <rs type="person">Cäsar</rs>, <rs type="person">Löwe</rs> als <rs type="person">Perin</rs>
+      <lb facs="#facs_1_region_1684564320062_467_tl_10" n="N012"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1983">Moreto</rs>’s</hi> Lustspiel „<rs type="bibl" ref="#hsl_work_id_1286">El Desden con el Desden</rs>“ hin
+      <lb facs="#facs_1_region_1684564320062_467_tl_11" n="N013" break="no"/>reichend bekannt. (Verachtung mit Verachtung, nämlich ge
+      <lb facs="#facs_1_region_1684564320062_467_tl_12" n="N014" break="no"/>heilt.) In der <rs type="person" ref="#hsl_person_id_2912">Schreyvogel</rs>-<rs type="person" ref="#hsl_person_id_2912">West</rs>’schen Bearbeitung als „<rs type="bibl" ref="#hsl_work_id_1690">Donna
+      <lb facs="#facs_1_region_1684564320062_467_tl_13" n="N015"/>Diana</rs>“ hat es vierzig Jahre lang im Burgtheater geglänzt,
+      <lb facs="#facs_1_region_1684564320062_467_tl_14" n="N016"/>um erst unter <rs type="person" ref="#hsl_person_id_153">Laube</rs> vom Repertoire zu verschwinden. Louise
+      <lb facs="#facs_1_region_1684564320062_467_tl_15" n="N017"/><rs type="person" ref="#hsl_person_id_2254">Neumann</rs> als <rs type="person" ref="#hsl_person_id_2914">Diana</rs>, <rs type="person" ref="#hsl_person_id_2913">Fichtner</rs> als <rs type="person" ref="#hsl_person_id_2915">Cäsar</rs>, <rs type="person" ref="#hsl_person_id_1287">Löwe</rs> als <rs type="person" ref="#hsl_person_id_2916">Perin</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564320062_467_tl_16" n="N018"/>— ältere Theaterfreunde schwärmen heute noch von diesen
-      <lb facs="#facs_1_region_1684564320062_467_tl_17" n="N019"/>Genüssen. Trotz mancher die Musik hemmenden Schwierig¬
-      <lb facs="#facs_1_region_1684564320062_467_tl_18" n="N020"/>keiten hat der Stoff bereits Operncomponisten gelockt; vor
-      <lb facs="#facs_1_region_1684564320062_467_tl_19" n="N021"/>zwölf Jahren gelangte Heinrich <hi rendition="#em"><rs type="person">Hoffmann</rs>’s</hi> „<rs type="bibl">Donna</rs>
-      <lb facs="#facs_1_region_1684564320062_467_tl_20" n="N022"/><rs type="bibl">Diana</rs>“ (mit Lola <rs type="person">Beeth</rs> in der Titelrolle) in <rs type="place">Berlin</rs> zur
+      <lb facs="#facs_1_region_1684564320062_467_tl_17" n="N019"/>Genüssen. Trotz mancher die Musik hemmenden Schwierig
+      <lb facs="#facs_1_region_1684564320062_467_tl_18" n="N020" break="no"/>keiten hat der Stoff bereits Operncomponisten gelockt; vor
+      <lb facs="#facs_1_region_1684564320062_467_tl_19" n="N021"/>zwölf Jahren gelangte Heinrich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2917">Hoffmann</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_1691">Donna
+      <lb facs="#facs_1_region_1684564320062_467_tl_20" n="N022"/>Diana</rs>“ (mit Lola <rs type="person" ref="#hsl_person_id_1992">Beeth</rs> in der <rs type="person" ref="#hsl_person_id_2918">Titelrolle</rs>) in <rs type="place" ref="#hsl_place_id_9">Berlin</rs> zur
       <lb facs="#facs_1_region_1684564320062_467_tl_21" n="N023"/>Aufführung und wurde einigemale gern gehört. Mit ungleich
-      <lb facs="#facs_1_region_1684564320062_467_tl_22" n="N024"/>größerem Glück ist Herr v. <rs type="person">Reznicek</rs> nachgefolgt. Seine
-      <lb facs="#facs_1_line_1690821860043_95" n="N025"/>„<rs type="bibl">Donna Diana</rs>“ hat seit ihrer Erstaufführung in<rs type="place"> Prag</rs>
-            </p>
+      <lb facs="#facs_1_region_1684564320062_467_tl_22" n="N024"/>größerem Glück ist Herr v. <rs type="person" ref="#hsl_person_id_1982">Reznicek</rs> nachgefolgt. Seine
+      <lb facs="#facs_1_line_1690821860043_95" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_1284">Donna Diana</rs>“ hat seit ihrer Erstaufführung in <rs type="place" ref="#hsl_place_id_45">Prag</rs><space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-      <lb facs="#facs_1_region_1684564325235_470_tl_1" n="N001"/>(1890) sich rasch die meisten <rs type="place">deutsch</rs>en Bühnen erobert.
-      <lb facs="#facs_1_region_1684564325235_470_tl_2" n="N002"/>Director <rs type="person">Mahler</rs> erkannte es als eine Ehrenschuld, das
-      <lb facs="#facs_1_region_1684564325235_470_tl_3" n="N003"/>außerhalb unseres Vaterlandes so beliebte Werk eines Oester¬
-      <lb facs="#facs_1_region_1684564325235_470_tl_4" n="N004"/>reichers endlich auch den Wienern vorzuführen.
-      <lb facs="#facs_1_region_1684564325235_470_tl_5" n="N005"/>Das Libretto hat <rs type="person">Reznicek</rs> in getreuer Nachbildung des
-      <lb facs="#facs_1_line_1690821807043_64" n="N006"/><rs type="person">West</rs>’schen Lustspieles selbst geschrieben und zahlreiche Stellen
+            <p prev="true">
+      <lb facs="#facs_1_region_1684564325235_470_tl_1" n="N001"/>(1890) sich rasch die meisten <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen erobert.
+      <lb facs="#facs_1_region_1684564325235_470_tl_2" n="N002"/>Director <rs type="person" ref="#hsl_person_id_977">Mahler</rs> erkannte es als eine Ehrenschuld, das
+      <lb facs="#facs_1_region_1684564325235_470_tl_3" n="N003"/>außerhalb unseres Vaterlandes so beliebte Werk eines Oester
+      <lb facs="#facs_1_region_1684564325235_470_tl_4" n="N004" break="no"/>reichers endlich auch den Wienern vorzuführen.
+            </p><p>
+      <lb facs="#facs_1_region_1684564325235_470_tl_5" n="N005"/>Das Libretto hat <rs type="person" ref="#hsl_person_id_1982">Reznicek</rs> in getreuer Nachbildung des
+      <lb facs="#facs_1_line_1690821807043_64" n="N006"/><rs type="person" ref="#hsl_person_id_2912">West</rs>’schen <rs type="bibl" ref="#hsl_work_id_1690">Lustspieles</rs> selbst geschrieben und zahlreiche Stellen
       <lb facs="#facs_1_region_1684564325235_470_tl_7" n="N007"/>des Originals wörtlich beibehalten. So mancher Reiz konnte
       <lb facs="#facs_1_region_1684564325235_470_tl_8" n="N008"/>den Componisten verlocken: der romantische Vorgang, das
-      <lb facs="#facs_1_region_1684564325235_470_tl_9" n="N009"/><rs type="place">spanisch</rs>e Costüm, die prunkvollen Aufzüge, endlich drei
-      <lb facs="#facs_1_region_1684564325235_470_tl_10" n="N010"/>charakteristische Hauptfiguren: <rs type="person">Diana</rs>, <rs type="person">Cäsar</rs>, <rs type="person">Perin</rs>. Was
-      <lb facs="#facs_1_line_1690821877387_107" n="N011"/>hingegen dem vollen Einströmen der Musik sich entgegen¬
-      <lb facs="#facs_1_region_1684564325235_470_tl_11" n="N012"/>stellt, ist die klare, scharfe Kälte, das Ueberwiegen des
-      <lb facs="#facs_1_region_1684564325235_470_tl_12" n="N013"/>Geistes in <rs type="person">Moreto</rs>’s Lustspiel, was der Handlung fast den
+      <lb facs="#facs_1_region_1684564325235_470_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_2">spanisch</rs>e Costüm, die prunkvollen Aufzüge, endlich drei
+      <lb facs="#facs_1_region_1684564325235_470_tl_10" n="N010"/>charakteristische Hauptfiguren: <rs type="person" ref="#hsl_person_id_2914">Diana</rs>, <rs type="person" ref="#hsl_person_id_2915">Cäsar</rs>, <rs type="person" ref="#hsl_person_id_2916">Perin</rs>. Was
+      <lb facs="#facs_1_line_1690821877387_107" n="N011"/>hingegen dem vollen Einströmen der Musik sich entgegen
+      <lb facs="#facs_1_region_1684564325235_470_tl_11" n="N012" break="no"/>stellt, ist die klare, scharfe Kälte, das Ueberwiegen des
+      <lb facs="#facs_1_region_1684564325235_470_tl_12" n="N013"/>Geistes in <rs type="person" ref="#hsl_person_id_1983">Moreto</rs>’s Lustspiel, was der Handlung fast den
       <lb facs="#facs_1_region_1684564325235_470_tl_13" n="N014"/>Charakter eines psychologischen Experimentes aufprägt. Die
-      <lb facs="#facs_1_line_1690821819843_73" n="N015"/>Wortgefechte zwischen <rs type="person">Cäsar</rs> und <rs type="person">Diana</rs>, die im gesprochenen
+      <lb facs="#facs_1_line_1690821819843_73" n="N015"/>Wortgefechte zwischen <rs type="person" ref="#hsl_person_id_2915">Cäsar</rs> und <rs type="person" ref="#hsl_person_id_2914">Diana</rs>, die im gesprochenen
       <lb facs="#facs_1_region_1684564325235_470_tl_15" n="N016"/>Dialog sich rasch vollziehen, werden schleppend im Gesang
       <lb facs="#facs_1_region_1684564325235_470_tl_16" n="N017"/>und ebenso gefährlich wie die neckenden Wechselreden in
-      <lb facs="#facs_1_region_1684564325235_470_tl_17" n="N018"/>„<rs type="bibl">Beatrice und Benedikt</rs>“ („<rs type="bibl">Viel Lärm um Nichts</rs>“) oder
-      <lb facs="#facs_1_region_1684564325235_470_tl_18" n="N019"/>in der „<rs type="bibl">Bezähmten Widerspenstigen</rs>“. Auch diese zwei
-      <lb facs="#facs_1_region_1684564325235_470_tl_19" n="N020"/><rs type="person">Shakespeare</rs>’schen Lustspiele sind im Grunde geistreiche Zank¬
-      <lb facs="#facs_1_region_1684564325235_470_tl_20" n="N021"/>duette, und doch hat jedes einen Componisten unwiderstehlich
-      <lb facs="#facs_1_region_1684564325235_470_tl_21" n="N022"/>angelockt: <hi rendition="#em"><rs type="person">Berlioz</rs></hi> und Hermann <hi rendition="#em"><rs type="person">Götz</rs></hi>. „<rs type="bibl">Donna Diana</rs>“
+      <lb facs="#facs_1_region_1684564325235_470_tl_17" n="N018"/>„<rs type="bibl" ref="#hsl_work_id_255">Beatrice und Benedikt</rs>“ („<rs type="bibl" ref="#hsl_work_id_83">Viel Lärm um Nichts</rs>“) oder
+      <lb facs="#facs_1_region_1684564325235_470_tl_18" n="N019"/>in der „<rs type="bibl" ref="#hsl_work_id_1692">Bezähmten Widerspenstigen</rs>“. Auch diese zwei
+      <lb facs="#facs_1_region_1684564325235_470_tl_19" n="N020"/><rs type="person" ref="#hsl_person_id_287">Shakespeare</rs>’schen Lustspiele sind im Grunde geistreiche Zank
+      <lb facs="#facs_1_region_1684564325235_470_tl_20" n="N021" break="no"/>duette, und doch hat jedes einen Componisten unwiderstehlich
+      <lb facs="#facs_1_region_1684564325235_470_tl_21" n="N022"/>angelockt: <hi rendition="#em"><rs type="person" ref="#hsl_person_id_28">Berlioz</rs></hi> und Hermann <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1268">Götz</rs></hi>. „<rs type="bibl" ref="#hsl_work_id_1284">Donna Diana</rs>“
       <lb facs="#facs_1_region_1684564325235_470_tl_22" n="N023"/>ermangelt in ihrer dürftigen Handlung obendrein der starken
-      <lb facs="#facs_1_region_1684564325235_470_tl_23" n="N024"/>Contraste und Ueberraschungen. <rs type="person">Reznicek</rs> hat diesem Mangel
+      <lb facs="#facs_1_region_1684564325235_470_tl_23" n="N024"/>Contraste und Ueberraschungen. <rs type="person" ref="#hsl_person_id_1982">Reznicek</rs> hat diesem Mangel
       <lb facs="#facs_1_line_1690821894332_116" n="N025"/>des Textbuches glücklich durch Chöre, Aufzüge und vor
       <lb facs="#facs_1_region_1684564325235_470_tl_24" n="N026"/>Allem durch reizende Balleteinlagen abzuhelfen versucht.
+            </p><p>
       <lb facs="#facs_1_region_1684564325235_470_tl_25" n="N027"/>Treten wir näher an die Musik heran, so fühlen wir
       <lb facs="#facs_1_region_1684564325235_470_tl_26" n="N028"/>uns gleich von der Ouvertüre angenehm überrascht und
       <lb facs="#facs_1_region_1684564325235_470_tl_27" n="N029"/>unterhalten. Sie rollt mit außerordentlicher Lebendigkeit
@@ -843,57 +846,57 @@
       <lb facs="#facs_1_region_1684564325235_470_tl_29" n="N031"/>prickelndes Hauptmotiv in Drei-Sechzehntel-Tact beherrscht
       <lb facs="#facs_1_region_1684564325235_470_tl_30" n="N032"/>später das Ensemble am Schlusse des ersten Actes. Noch ein
       <lb facs="#facs_1_region_1684564325235_470_tl_31" n="N033"/>zweites Thema zärtlichen Charakters erfreut uns bei seiner
-      <lb facs="#facs_1_line_1690821848307_84" n="N034"/>häufigen Wiederkehr: das zuerst von <rs type="person">Perin</rs> in der Einleitungs¬
-      <lb facs="#facs_1_line_1690821853469_89" n="N035"/>scene gesungene „Ist’s Laura, ist’s Fenice?“ Für eine einzelne
-      <lb facs="#facs_1_line_1690821862011_98" n="N036"/>duftige Blume, die sich aus kargem Erdreich erhebt, sind</p>
+      <lb facs="#facs_1_line_1690821848307_84" n="N034"/>häufigen Wiederkehr: das zuerst von <rs type="person" ref="#hsl_person_id_1986">Perin</rs> in der Einleitungs
+      <lb facs="#facs_1_line_1690821853469_89" n="N035" break="no"/>scene gesungene „Ist’s Laura, ist’s Fenice?“ Für eine einzelne
+      <lb facs="#facs_1_line_1690821862011_98" n="N036"/>duftige Blume, die sich aus kargem Erdreich erhebt, sind<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_1_region_1684564329913_473_tl_1" n="N001"/>wir doppelt dankbar. Wir sind freilich bald fertig mit der
       <lb facs="#facs_1_region_1684564329913_473_tl_2" n="N002"/>Aufzählung solcher Blumen; unser Componist ist durchaus
-      <lb facs="#facs_1_region_1684564329913_473_tl_3" n="N003"/>kein Melodien<rs type="person">krösus</rs>. Aber mit seinem bescheidenen Aus¬
-      <lb facs="#facs_1_region_1684564329913_473_tl_4" n="N004"/>kommen weiß er gut Haus zu halten, auch dasselbe aus
-      <lb facs="#facs_1_region_1684564329913_473_tl_5" n="N005"/>dem <rs type="place">spanisch</rs>en Nationalschatz glücklich zu ergänzen. <rs type="person">Reznicek</rs>
+      <lb facs="#facs_1_region_1684564329913_473_tl_3" n="N003"/>kein Melodien<rs type="person" ref="#hsl_person_id_2911">krösus</rs>. Aber mit seinem bescheidenen Aus
+      <lb facs="#facs_1_region_1684564329913_473_tl_4" n="N004" break="no"/>kommen weiß er gut Haus zu halten, auch dasselbe aus
+      <lb facs="#facs_1_region_1684564329913_473_tl_5" n="N005"/>dem <rs type="place" ref="#hsl_place_id_2">spanisch</rs>en Nationalschatz glücklich zu ergänzen. <rs type="person" ref="#hsl_person_id_1982">Reznicek</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_line_1690821808955_67" n="N006"/>glänzt nicht durch reiche, originelle Erfindung, wol aber
       <lb facs="#facs_1_region_1684564329913_473_tl_6" n="N007"/>durch sein Talent für das Aeußerliche, Bühnenmäßige.
       <lb facs="#facs_1_region_1684564329913_473_tl_7" n="N008"/>Darum wirkt er auch als Instrumental-Componist weit
-      <lb facs="#facs_1_region_1684564329913_473_tl_8" n="N009"/>stärker als in seiner Vocalmusik. Die Gesangspartien, ins¬
-      <lb facs="#facs_1_region_1684564329913_473_tl_9" n="N010"/>besondere die lyrisch-sentimentalen der <rs type="person">Diana</rs> und <rs type="person">Don</rs>
-      <lb facs="#facs_1_line_1690821879156_110" n="N011"/><rs type="person">Cäsar</rs>’s, entbehren der plastischen Form, der Natürlichkeit
-      <lb facs="#facs_1_region_1684564329913_473_tl_11" n="N012"/>und Frische; sie bewegen sich zumeist in dem durch <rs type="person">Wagner</rs>
+      <lb facs="#facs_1_region_1684564329913_473_tl_8" n="N009"/>stärker als in seiner Vocalmusik. Die Gesangspartien, ins
+      <lb facs="#facs_1_region_1684564329913_473_tl_9" n="N010" break="no"/>besondere die lyrisch-sentimentalen der <rs type="person" ref="#hsl_person_id_2919">Diana</rs> und <rs type="person" ref="#hsl_person_id_1989">Don
+      <lb facs="#facs_1_line_1690821879156_110" n="N011"/>Cäsar</rs>’s, entbehren der plastischen Form, der Natürlichkeit
+      <lb facs="#facs_1_region_1684564329913_473_tl_11" n="N012"/>und Frische; sie bewegen sich zumeist in dem durch <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684564329913_473_tl_12" n="N013"/>aufgekommenen Zwittersang von Declamation und Cantilene.
-      <lb facs="#facs_1_region_1684564329913_473_tl_13" n="N014"/>Da sehnen wir uns oft ebensosehr nach einem rasch er¬
-      <lb facs="#facs_1_line_1690821822372_76" n="N015"/>klärenden Recitativ, wie nach einem selbständigen Arioso.
-      <lb facs="#facs_1_region_1684564329913_473_tl_14" n="N016"/>Schon in dem einleitenden Monolog <rs type="person">Don Cäsar</rs>’s verräth
+      <lb facs="#facs_1_region_1684564329913_473_tl_13" n="N014"/>Da sehnen wir uns oft ebensosehr nach einem rasch er
+      <lb facs="#facs_1_line_1690821822372_76" n="N015" break="no"/>klärenden Recitativ, wie nach einem selbständigen Arioso.
+      <lb facs="#facs_1_region_1684564329913_473_tl_14" n="N016"/>Schon in dem einleitenden Monolog <rs type="person" ref="#hsl_person_id_1989">Don Cäsar</rs>’s verräth
       <lb facs="#facs_1_region_1684564329913_473_tl_15" n="N017"/>sich die Neigung des Componisten zu übermäßig pathetischer
       <lb facs="#facs_1_region_1684564329913_473_tl_16" n="N018"/>Behandlung, zur Rede in Superlativen, zu starkem,
       <lb facs="#facs_1_region_1684564329913_473_tl_17" n="N019"/>den Gesang deckendem oder durchkreuzendem Accompagnement.
       <lb facs="#facs_1_region_1684564329913_473_tl_18" n="N020"/>Das widerstrebt dem Styl des Lustspieles, der komischen
-      <lb facs="#facs_1_region_1684564329913_473_tl_19" n="N021"/>Oper. Auf einen herrschenden Grundton muß jedes Bühnen¬
-      <lb facs="#facs_1_region_1684564329913_473_tl_20" n="N022"/>stück, trotz seiner mannigfaltigen Bestandtheile, gestimmt sein.
+      <lb facs="#facs_1_region_1684564329913_473_tl_19" n="N021"/>Oper. Auf einen herrschenden Grundton muß jedes Bühnen
+      <lb facs="#facs_1_region_1684564329913_473_tl_20" n="N022" break="no"/>stück, trotz seiner mannigfaltigen Bestandtheile, gestimmt sein.
       <lb facs="#facs_1_region_1684564329913_473_tl_21" n="N023"/>Die heiteren Scenen in einem ernsten Drama dürfen nicht
       <lb facs="#facs_1_region_1684564329913_473_tl_22" n="N024"/>in die Lustigkeit des Possenstyls verfallen, ebensowenig die
       <lb facs="#facs_1_line_1690821896181_119" n="N025"/>sentimentalen Nummern einer komischen Oper in das
-      <lb facs="#facs_1_region_1684564329913_473_tl_24" n="N026"/>Pathos der Tragödie. <rs type="person">Don Cäsar</rs> klagt sein Liebesweh,
-      <lb facs="#facs_1_region_1684564329913_473_tl_25" n="N027"/><rs type="person">Diana</rs> äußert ihre Eifersucht in so durchbohrenden Accenten,
+      <lb facs="#facs_1_region_1684564329913_473_tl_24" n="N026"/>Pathos der Tragödie. <rs type="person" ref="#hsl_person_id_1989">Don Cäsar</rs> klagt sein Liebesweh,
+      <lb facs="#facs_1_region_1684564329913_473_tl_25" n="N027"/><rs type="person" ref="#hsl_person_id_2919">Diana</rs> äußert ihre Eifersucht in so durchbohrenden Accenten,
       <lb facs="#facs_1_region_1684564329913_473_tl_26" n="N028"/>so gewaltsamen Modulationen, und das Orchester zollt ihnen
-      <lb facs="#facs_1_region_1684564329913_473_tl_27" n="N029"/>so stürmisches Beileid, daß wir gründlich aus jeder Lust¬
-      <lb facs="#facs_1_region_1684564329913_473_tl_28" n="N030"/>spielstimmung herausgeworfen sind. Ja, das Orchester! Das
+      <lb facs="#facs_1_region_1684564329913_473_tl_27" n="N029"/>so stürmisches Beileid, daß wir gründlich aus jeder Lust
+      <lb facs="#facs_1_region_1684564329913_473_tl_28" n="N030" break="no"/>spielstimmung herausgeworfen sind. Ja, das Orchester! Das
       <lb facs="#facs_1_region_1684564329913_473_tl_29" n="N031"/>ist die glänzendste Seite und zugleich gefährlichste dieser
-      <lb facs="#facs_1_region_1684564329913_473_tl_30" n="N032"/>Partitur. <rs type="person">Reznicek</rs>, ein Virtuose der Instrumentirung,
+      <lb facs="#facs_1_region_1684564329913_473_tl_30" n="N032"/>Partitur. <rs type="person" ref="#hsl_person_id_1982">Reznicek</rs>, ein Virtuose der Instrumentirung,
       <lb facs="#facs_1_region_1684564329913_473_tl_31" n="N033"/>entzückt und peinigt uns mit dieser Virtuosität.
       <lb facs="#facs_1_region_1684564329913_473_tl_32" n="N034"/>Seinem Werke schadet nicht blos der Lärm, sondern noch
       <lb facs="#facs_1_region_1684564329913_473_tl_33" n="N035"/>öfter die Unruhe der Orchestrierung. Der Componist hat jedem
-      <lb facs="#facs_1_line_1690821864164_101" n="N036"/>Instrument seine Geheimnisse abgelauscht, leider möchte er</p>
+      <lb facs="#facs_1_line_1690821864164_101" n="N036"/>Instrument seine Geheimnisse abgelauscht, leider möchte er<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-      <lb facs="#facs_2_region_1684564347217_479_tl_1" n="N001"/>sie am liebsten alle zugleich ausplaudern. <rs type="person">Heine</rs>’s boshaftes
-      <lb facs="#facs_2_region_1684564347217_479_tl_2" n="N002"/>Wort, daß bei Jean <rs type="person">Paul</rs> die Witze wie erhitzte Flöhe
-      <lb facs="#facs_2_region_1684564347217_479_tl_3" n="N003"/>herumspringen, paßt vollständig auf <rs type="person">Reznicek</rs>’s Orchester-
+            <p prev="true">
+      <lb facs="#facs_2_region_1684564347217_479_tl_1" n="N001"/>sie am liebsten alle zugleich ausplaudern. <rs type="person" ref="#hsl_person_id_116">Heine</rs>’s boshaftes
+      <lb facs="#facs_2_region_1684564347217_479_tl_2" n="N002"/>Wort, daß bei Jean <rs type="person" ref="#hsl_person_id_1984">Paul</rs> die Witze wie erhitzte Flöhe
+      <lb facs="#facs_2_region_1684564347217_479_tl_3" n="N003"/>herumspringen, paßt vollständig auf <rs type="person" ref="#hsl_person_id_1982">Reznicek</rs>’s Orchester-
       <lb facs="#facs_2_region_1684564347217_479_tl_4" n="N004"/>Effecte. Flötentriller, Harfenglissandos, zuckende, juckende
       <lb facs="#facs_2_region_1684564347217_479_tl_5" n="N005"/>Geigenpizzicatos, concertante Clarinettpassagen, grelle
-      <lb facs="#facs_2_line_1690821944964_140" n="N006"/>Trompetenstöße, Alles wie auf einer Treibjagd hinter¬
-      <lb facs="#facs_2_line_1690821963972_157" n="N007"/>einander her! Man kommt zu keiner einheitlichen Stimmung
+      <lb facs="#facs_2_line_1690821944964_140" n="N006"/>Trompetenstöße, Alles wie auf einer Treibjagd hinter
+      <lb facs="#facs_2_line_1690821963972_157" n="N007" break="no"/>einander her! Man kommt zu keiner einheitlichen Stimmung
       <lb facs="#facs_2_region_1684564347217_479_tl_10" n="N008"/>und möchte doch einmal acht Tacte lang aufathmen. Gewiß
       <lb facs="#facs_2_region_1684564347217_479_tl_11" n="N009"/>hat es seinen Reiz, dieses Durcheinander von Orchester-
       <lb facs="#facs_2_region_1684564347217_479_tl_12" n="N010"/>Bonmots zu verfolgen, aber der Schaden ist größer als der
@@ -907,41 +910,42 @@
       <lb facs="#facs_2_line_1690822006332_189" n="N018"/>alleiniger Herr und sofort ein liebenwürdiger Herr,
       <lb facs="#facs_2_region_1684564347217_479_tl_20" n="N019"/>während er gegen den Gesang den Haustyrannen spielt.
       <lb facs="#facs_2_region_1684564347217_479_tl_21" n="N020"/>Die reinen Instrumental-Nummern — Tänze, Aufzüge,
-      <lb facs="#facs_2_region_1684564347217_479_tl_22" n="N021"/>Zwischenspiele — bieten uns in „<rs type="bibl">Donna Diana</rs>“, was die
+      <lb facs="#facs_2_region_1684564347217_479_tl_22" n="N021"/>Zwischenspiele — bieten uns in „<rs type="bibl" ref="#hsl_work_id_1284">Donna Diana</rs>“, was die
       <lb facs="#facs_2_region_1684564347217_479_tl_23" n="N022"/>Gesangstücke an Originalität und Formschönheit uns
       <lb facs="#facs_2_region_1684564347217_479_tl_24" n="N023"/>schuldig geblieben. Da steckt vor Allem die Balletmusik voll
       <lb facs="#facs_2_region_1684564347217_479_tl_25" n="N024"/>Reiz und Leben. Daß sie fast durchgehends auf original-
-      <lb facs="#facs_2_region_1684564347217_479_tl_26" n="N025"/><rs type="place">spanisch</rs>e Volksmelodien gebaut ist; ficht uns nicht an; im
+      <lb facs="#facs_2_region_1684564347217_479_tl_26" n="N025"/><rs type="place" ref="#hsl_place_id_2">spanisch</rs>e Volksmelodien gebaut ist; ficht uns nicht an; im
       <lb facs="#facs_2_region_1684564347217_479_tl_27" n="N026"/>Gegentheil, wir danken es ihnen, daß sie Temperament und
       <lb facs="#facs_2_region_1684564347217_479_tl_28" n="N027"/>Localfarbe in die Oper bringen, welche sonst an schleichender
       <lb facs="#facs_2_region_1684564347217_479_tl_29" n="N028"/>Declamation und fieberheißen Interjectionen ersticken würde.
       <lb facs="#facs_2_line_1690821990300_178" n="N029"/>Volksweisen gelten so ziemlich überall als herrenloses Gut,
       <lb facs="#facs_2_region_1684564347217_479_tl_31" n="N030"/>und wer sie wirksam und geistreich zu verwerthen weiß, wie
-      <lb facs="#facs_2_region_1684564347217_479_tl_32" n="N031"/><rs type="person">Reznicek</rs> in „<rs type="bibl">Donna Diana</rs>“ oder <rs type="person">Bizet</rs> in „<rs type="bibl">Carmen</rs>“, der
+      <lb facs="#facs_2_region_1684564347217_479_tl_32" n="N031"/><rs type="person" ref="#hsl_person_id_1982">Reznicek</rs> in „<rs type="bibl" ref="#hsl_work_id_1284">Donna Diana</rs>“ oder <rs type="person" ref="#hsl_person_id_1298">Bizet</rs> in „<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“, der
       <lb facs="#facs_2_region_1684564347217_479_tl_33" n="N032"/>hat sein volles Occupationsrecht erwiesen. Wir rühmen
       <lb facs="#facs_2_region_1684564347217_479_tl_34" n="N033"/>außer der eigentlichen Balletmusik die feurigen Introductionen
       <lb facs="#facs_2_region_1684564347217_479_tl_35" n="N034"/>zum zweiten und dritten Act, vor Allem das bei offener
       <lb facs="#facs_2_region_1684564347217_479_tl_36" n="N035"/>Scene erklingende zarte Orchester-Zwischenspiel, das frühere
-      <lb facs="#facs_2_line_1690822020357_198" n="N036"/>Motive in einne wahren Klangzauber einfüllt. Nach dem</p>
+                  <lb facs="#facs_2_line_1690822020357_198" n="N036"/>Motive in einne wahren Klangzauber einfüllt. Nach dem<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-      <lb facs="#facs_2_line_1690822034995_210" n="N001"/>Intermezzo in der „<rs type="bibl">Cavalleria</rs>“ wol das einzige Beispiel,
-      <lb facs="#facs_2_region_1684564350436_482_tl_1" n="N002"/>daß in <rs type="place">Wien</rs> eine solche Zwischenmusik stürmisch zur Wieder¬
-      <lb facs="#facs_2_region_1684564350436_482_tl_2" n="N003"/>holung verlangt wurde. Wie unvergleichlich wird es aber
+            <p prev="true">
+      <lb facs="#facs_2_line_1690822034995_210" n="N001"/>Intermezzo in der „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria</rs>“ wol das einzige Beispiel,
+      <lb facs="#facs_2_region_1684564350436_482_tl_1" n="N002"/>daß in <rs type="place" ref="#hsl_place_id_55">Wien</rs> eine solche Zwischenmusik stürmisch zur Wieder
+      <lb facs="#facs_2_region_1684564350436_482_tl_2" n="N003" break="no"/>holung verlangt wurde. Wie unvergleichlich wird es aber
       <lb facs="#facs_2_region_1684564350436_482_tl_3" n="N004"/>auch vorgetragen!
+            </p><p>
       <lb facs="#facs_2_region_1684564350436_482_tl_4" n="N005"/>In den Gesangstücken der Oper herrscht überwiegend
-      <lb facs="#facs_2_line_1690821947283_143" n="N006"/>der aufgeregte <rs type="person">Wagner</rs>’sche Declamationsstyl; sie prunken
+      <lb facs="#facs_2_line_1690821947283_143" n="N006"/>der aufgeregte <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’sche Declamationsstyl; sie prunken
       <lb facs="#facs_2_line_1690821965923_160" n="N007"/>mit der „unendlichen Melodie“ im Orchester, weil ihnen
-      <lb facs="#facs_2_region_1684564350436_482_tl_7" n="N008"/>selber die endliche abgeht. Von diesem Styl lenkt der Com¬
-      <lb facs="#facs_2_region_1684564350436_482_tl_8" n="N009"/>ponist in der zweiten Hälfte der Oper wiederholt in popu¬
-      <lb facs="#facs_2_region_1684564350436_482_tl_9" n="N010"/>lärere Bahnen. Er entledigt sich der schweren <rs type="person">Wagner</rs>’schen
-      <lb facs="#facs_2_region_1684564350436_482_tl_10" n="N011"/>Rüstung und verkehrt fast freundschaftlich mit <rs type="person" continued="true">Nicolai</rs>,
-      <lb facs="#facs_2_line_1690821981324_172" n="N012"/><rs type="person">Kreutzer</rs>, <rs type="person">Lortzing</rs>, „Von allen Farben, denk’ ich, haben wir?
-      <lb facs="#facs_2_region_1684564350436_482_tl_12" n="N013"/>Ich hab’ <hi rendition="#em">von allen</hi>!“ sagt <rs type="person">Donna Diana</rs>. So bewegt sich
-      <lb facs="#facs_2_line_1690822053372_219" n="N014"/><rs type="person">Floretta</rs>’s Strophenlied „Mütterchen“ in einfachem Volkstone,
-      <lb facs="#facs_2_region_1684564350436_482_tl_13" n="N015"/><rs type="person">Perin</rs>’s ermüdend lange Buffo-Arie in der grünen <rs type="person">Lortzing</rs>¬
-      <lb facs="#facs_2_region_1684564350436_482_tl_14" n="N016"/>weis’. <rs type="person">Don Louis</rs> singt, blos von der Harfe begleitet, ein
-      <lb facs="#facs_2_region_1684564350436_482_tl_15" n="N017"/>gefälliges Ständchen hinter der Scene; <rs type="person">Don Gaston</rs> ein derberes
+      <lb facs="#facs_2_region_1684564350436_482_tl_7" n="N008"/>selber die endliche abgeht. Von diesem Styl lenkt der Com
+      <lb facs="#facs_2_region_1684564350436_482_tl_8" n="N009" break="no"/>ponist in der zweiten Hälfte der Oper wiederholt in popu
+      <lb facs="#facs_2_region_1684564350436_482_tl_9" n="N010" break="no"/>lärere Bahnen. Er entledigt sich der schweren <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen
+      <lb facs="#facs_2_region_1684564350436_482_tl_10" n="N011"/>Rüstung und verkehrt fast freundschaftlich mit <rs type="person" ref="#hsl_person_id_193">Nicolai</rs>,
+      <lb facs="#facs_2_line_1690821981324_172" n="N012"/><rs type="person" ref="#hsl_person_id_908">Kreutzer</rs>, <rs type="person" ref="#hsl_person_id_165">Lortzing</rs>, „Von allen Farben, denk’ ich, haben wir?
+      <lb facs="#facs_2_region_1684564350436_482_tl_12" n="N013"/>Ich hab’ <hi rendition="#em">von allen</hi>!“ sagt <rs type="person" ref="#hsl_person_id_2919">Donna Diana</rs>. So bewegt sich
+      <lb facs="#facs_2_line_1690822053372_219" n="N014"/><rs type="person" ref="#hsl_person_id_1985">Floretta</rs>’s Strophenlied „Mütterchen“ in einfachem Volkstone,
+      <lb facs="#facs_2_region_1684564350436_482_tl_13" n="N015"/><rs type="person" ref="#hsl_person_id_1986">Perin</rs>’s ermüdend lange Buffo-Arie in der grünen <rs type="person" ref="#hsl_person_id_165">Lortzing</rs>
+      <lb facs="#facs_2_region_1684564350436_482_tl_14" n="N016" break="no"/>weis’. <rs type="person" ref="#hsl_person_id_1987">Don Louis</rs> singt, blos von der Harfe begleitet, ein
+      <lb facs="#facs_2_region_1684564350436_482_tl_15" n="N017"/>gefälliges Ständchen hinter der Scene; <rs type="person" ref="#hsl_person_id_1988">Don Gaston</rs> ein derberes
       <lb facs="#facs_2_line_1690822008924_192" n="N018"/>mit Trompeten und Pauken. Es folgt ein Bolero für
       <lb facs="#facs_2_line_1690822068796_228" n="N019"/>drei Frauen- und drei Männerstimmen in Drei-Achtel-Tact.
       <lb facs="#facs_2_region_1684564350436_482_tl_17" n="N020"/>Da sie meistens unisono singen (auch die Verzierungen in
@@ -950,54 +954,55 @@
       <lb facs="#facs_2_region_1684564350436_482_tl_18" n="N023"/>Vogel, der fliegen möchte und nicht kann. Man sieht, daß
       <lb facs="#facs_2_region_1684564350436_482_tl_19" n="N024"/>der dritte Act durch lauter Lückenbüßer bei schon stockender
       <lb facs="#facs_2_region_1684564350436_482_tl_20" n="N025"/>Handlung künstlich ausgedehnt wird. Endlich explodirt ein
-      <lb facs="#facs_2_line_1690822083276_237" n="N026"/>leidenschaftlicher Monolog <rs type="person">Diana</rs>’s. Die schöne Spanierin
+      <lb facs="#facs_2_line_1690822083276_237" n="N026"/>leidenschaftlicher Monolog <rs type="person" ref="#hsl_person_id_2919">Diana</rs>’s. Die schöne Spanierin
       <lb facs="#facs_2_region_1684564350436_482_tl_21" n="N027"/>ist complete Wagnerianerin geworden. Bei allem Aufgebote
-      <lb facs="#facs_2_region_1684564350436_482_tl_22" n="N028"/>von exaltirten Aufschreien und wüthender Orchester-Figura¬
-      <lb facs="#facs_2_line_1690821992595_181" n="N029"/>tion bringt es das Stück doch zu keiner echten Empfindung.
-      <lb facs="#facs_2_region_1684564350436_482_tl_23" n="N030"/>Dieser Mangel haftet erkältend an allen Scenen (insbe¬
-      <lb facs="#facs_2_region_1684564350436_482_tl_24" n="N031"/>sondere <rs type="person">Diana</rs>’s), welche tiefe, warme Herzenstöne verlan¬
-      <lb facs="#facs_2_region_1684564350436_482_tl_25" n="N032"/>gen. Mit der sehr billigen „edlen Verachtung“ selbstständig
+      <lb facs="#facs_2_region_1684564350436_482_tl_22" n="N028"/>von exaltirten Aufschreien und wüthender Orchester-Figura
+      <lb facs="#facs_2_line_1690821992595_181" n="N029" break="no"/>tion bringt es das Stück doch zu keiner echten Empfindung.
+      <lb facs="#facs_2_region_1684564350436_482_tl_23" n="N030"/>Dieser Mangel haftet erkältend an allen Scenen (insbe
+      <lb facs="#facs_2_region_1684564350436_482_tl_24" n="N031" break="no"/>sondere <rs type="person" ref="#hsl_person_id_2919">Diana</rs>’s), welche tiefe, warme Herzenstöne verlan
+      <lb facs="#facs_2_region_1684564350436_482_tl_25" n="N032" break="no"/>gen. Mit der sehr billigen „edlen Verachtung“ selbstständig
       <lb facs="#facs_2_line_1690822099637_246" n="N033"/>schöner Melodie ist das freilich schwer zu erreichen. Darunter
       <lb facs="#facs_2_region_1684564350436_482_tl_26" n="N034"/>leiden ebenso schwer die Sänger wie die Hörer.
-      <lb facs="#facs_2_region_1684564350436_482_tl_27" n="N035"/>Dankbare Aufgaben haben in „<rs type="bibl">Donna Diana</rs>“ nur
-      <lb facs="#facs_2_line_1690822021980_201" n="N036"/>das Orchester und die Ballettänzerinnen. Ihnen wurde auch</p>
-            <cb n=6"/>
-            <p>
+            </p><p>
+      <lb facs="#facs_2_region_1684564350436_482_tl_27" n="N035"/>Dankbare Aufgaben haben in „<rs type="bibl" ref="#hsl_work_id_1284">Donna Diana</rs>“ nur
+      <lb facs="#facs_2_line_1690822021980_201" n="N036"/>das Orchester und die Ballettänzerinnen. Ihnen wurde auch<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
       <lb facs="#facs_2_line_1690822036964_213" n="N001"/>der lebhafteste Beifall zu Theil. Die schwierigsten, zugleich
       <lb facs="#facs_2_region_1684564354864_485_tl_2" n="N002"/>undankbarsten Partien sind die der beiden Hauptpersonen
-      <lb facs="#facs_2_region_1684564354864_485_tl_3" n="N003"/><rs type="person">Diana</rs> und <rs type="person">Cäsar</rs>. Sie singen — ohne Ruh’ bei Tag und
+      <lb facs="#facs_2_region_1684564354864_485_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_2919">Diana</rs> und <rs type="person" ref="#hsl_person_id_1989">Cäsar</rs>. Sie singen — ohne Ruh’ bei Tag und
       <lb facs="#facs_2_region_1684564354864_485_tl_4" n="N004"/>Nacht — nichts, was uns Vergnügen macht. Ihnen selbst
-      <lb facs="#facs_2_region_1684564354864_485_tl_5" n="N005"/>auch nicht. <rs type="person">Diana</rs>, durch die erste Hälfte der Oper steif und
+      <lb facs="#facs_2_region_1684564354864_485_tl_5" n="N005"/>auch nicht. <rs type="person" ref="#hsl_person_id_2919">Diana</rs>, durch die erste Hälfte der Oper steif und
       <lb facs="#facs_2_region_1684564354864_485_tl_6" n="N006"/>passiv, kann in der zweiten nur durch starke Ausbrüche der
-      <lb facs="#facs_2_region_1684564354864_485_tl_7" n="N007"/>Leidenschaft wirken. <rs type="person">Don Cäsar</rs>, der immer an sich halten
+      <lb facs="#facs_2_region_1684564354864_485_tl_7" n="N007"/>Leidenschaft wirken. <rs type="person" ref="#hsl_person_id_1989">Don Cäsar</rs>, der immer an sich halten
       <lb facs="#facs_2_region_1684564354864_485_tl_8" n="N008"/>muß, hat nicht einmal diese. Thatsächlich wirken beide
       <lb facs="#facs_2_region_1684564354864_485_tl_9" n="N009"/>sympathischer und stärker, wenn sie, wie in dem Lustspiele
       <lb facs="#facs_2_region_1684564354864_485_tl_10" n="N010"/>des Burgtheaters, blos gesprochen werden. Fräulein
-      <lb facs="#facs_2_region_1684564354864_485_tl_11" n="N011"/><hi rendition="#em"><rs type="person">Renard</rs></hi>, die in ihren verschiedenen kostbaren Costümen
-      <lb facs="#facs_2_region_1684564354864_485_tl_12" n="N012"/>reizend aussieht, wendet ihr volles Spiel- und Gesangs¬
-      <lb facs="#facs_2_region_1684564354864_485_tl_13" n="N013"/>talent an die Rolle der <rs type="person">Diana</rs>, in der sie keine Neben¬
-      <lb facs="#facs_2_line_1690822055500_222" n="N014"/>buhlerin zu fürchten hat. Mit gleicher Sorgfalt, vornehm
-      <lb facs="#facs_2_region_1684564354864_485_tl_15" n="N015"/>und maßvoll, gibt Herr <hi rendition="#em"><rs type="person">Naval</rs></hi> den <rs type="person">Don Cäsar</rs>. Mehr
-      <lb facs="#facs_2_region_1684564354864_485_tl_16" n="N016"/>unmittelbare Wirkung als diese beiden fürstlichen Haupt¬
-      <lb facs="#facs_2_region_1684564354864_485_tl_17" n="N017"/>personen des Stückes erzielten das Kammermädchen und
-      <lb facs="#facs_2_region_1684564354864_485_tl_18" n="N018"/>der Hofnarr. Fräulein <hi rendition="#em"><rs type="person">Michalek</rs></hi> hob die Rolle der
-      <lb facs="#facs_2_line_1690822070460_231" n="N019"/><rs type="person">Floretta</rs> durch liebenwürdige, schalkhafte Anmuth und über¬
-      <lb facs="#facs_2_region_1684564354864_485_tl_20" n="N020"/>raschte in den großen Ensembles durch Kraft und Wohllaut
+      <lb facs="#facs_2_region_1684564354864_485_tl_11" n="N011"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_235">Renard</rs></hi>, die in ihren verschiedenen kostbaren Costümen
+      <lb facs="#facs_2_region_1684564354864_485_tl_12" n="N012"/>reizend aussieht, wendet ihr volles Spiel- und Gesangs
+      <lb facs="#facs_2_region_1684564354864_485_tl_13" n="N013" break="no"/>talent an die Rolle der <rs type="person" ref="#hsl_person_id_2919">Diana</rs>, in der sie keine Neben
+      <lb facs="#facs_2_line_1690822055500_222" n="N014" break="no"/>buhlerin zu fürchten hat. Mit gleicher Sorgfalt, vornehm
+      <lb facs="#facs_2_region_1684564354864_485_tl_15" n="N015"/>und maßvoll, gibt Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_980">Naval</rs></hi> den <rs type="person" ref="#hsl_person_id_1989">Don Cäsar</rs>. Mehr
+      <lb facs="#facs_2_region_1684564354864_485_tl_16" n="N016"/>unmittelbare Wirkung als diese beiden fürstlichen Haupt
+      <lb facs="#facs_2_region_1684564354864_485_tl_17" n="N017" break="no"/>personen des Stückes erzielten das <rs type="person" ref="#hsl_person_id_1985">Kammermädchen</rs> und
+      <lb facs="#facs_2_region_1684564354864_485_tl_18" n="N018"/>der <rs type="person" ref="#hsl_person_id_1986">Hofnarr</rs>. Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1378">Michalek</rs></hi> hob die Rolle der
+      <lb facs="#facs_2_line_1690822070460_231" n="N019"/><rs type="person" ref="#hsl_person_id_1985">Floretta</rs> durch liebenwürdige, schalkhafte Anmuth und über
+      <lb facs="#facs_2_region_1684564354864_485_tl_20" n="N020" break="no"/>raschte in den großen Ensembles durch Kraft und Wohllaut
       <lb facs="#facs_2_region_1684564354864_485_tl_21" n="N021"/>ihrer hohen Töne. Von allen Mitwirkenden hat sie den
       <lb facs="#facs_2_region_1684564354864_485_tl_22" n="N022"/>größten, anhaltendsten Beifall entfesselt nach dem ganz
       <lb facs="#facs_2_region_1684564354864_485_tl_23" n="N023"/>schlicht und natürlich vorgetragenen „Schlummerlied“.
-      <lb facs="#facs_2_region_1684564354864_485_tl_24" n="N024"/>Die Rolle des <rs type="person">Perin</rs> verlangt einen ebenso gewandten
-      <lb facs="#facs_2_region_1684564354864_485_tl_25" n="N025"/>Schauspieler wie tüchtigen Sänger; Herr <hi rendition="#em"><rs type="person">Demuth</rs></hi>
+      <lb facs="#facs_2_region_1684564354864_485_tl_24" n="N024"/>Die Rolle des <rs type="person" ref="#hsl_person_id_1986">Perin</rs> verlangt einen ebenso gewandten
+      <lb facs="#facs_2_region_1684564354864_485_tl_25" n="N025"/>Schauspieler wie tüchtigen Sänger; Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1080">Demuth</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_2_line_1690822085131_240" n="N026"/>wir ihr nach beiden Seiten vollkommen gerecht.
-      <lb facs="#facs_2_region_1684564354864_485_tl_27" n="N027"/>Die Sängerinnen <hi rendition="#em"><rs type="person">Fellwock</rs></hi>, <hi rendition="#em"><rs type="person">Kusmitsch</rs></hi> und <hi rendition="#em"><rs type="person">Elizza</rs></hi>,
-      <lb facs="#facs_2_region_1684564354864_485_tl_28" n="N028"/>die Herren v. <rs type="person">Reichenberg</rs>, <rs type="person">Pascal</rs> und <rs type="person">Grengg</rs>
+      <lb facs="#facs_2_region_1684564354864_485_tl_27" n="N027"/>Die Sängerinnen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2921">Fellwock</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1426">Kusmitsch</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2893">Elizza</rs></hi>,
+      <lb facs="#facs_2_region_1684564354864_485_tl_28" n="N028"/>die Herren v. <rs type="person" ref="#hsl_person_id_1633">Reichenberg</rs>, <rs type="person" ref="#hsl_person_id_1418">Pacal</rs> und <rs type="person" ref="#hsl_person_id_1531">Grengg</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684564354864_485_tl_29" n="N029"/>tragen durch ihre vortreffliche Mitwirkung wesentlich bei zu
-      <lb facs="#facs_2_region_1684564354864_485_tl_30" n="N030"/>dem günstigen Erfolge der Novität. Daß nebst den Solo¬
-      <lb facs="#facs_2_region_1684564354864_485_tl_31" n="N031"/>sängern auch der Componist Herr v. <rs type="person">Reznicek</rs> wieder¬
-      <lb facs="#facs_2_region_1684564354864_485_tl_32" n="N032"/>holt gerufen wurde, haben wir bereits gemeldet. Es erübrigt
+      <lb facs="#facs_2_region_1684564354864_485_tl_30" n="N030"/>dem günstigen Erfolge der Novität. Daß nebst den Solo
+      <lb facs="#facs_2_region_1684564354864_485_tl_31" n="N031" break="no"/>sängern auch der Componist Herr v. <rs type="person" ref="#hsl_person_id_1982">Reznicek</rs> wieder
+      <lb facs="#facs_2_region_1684564354864_485_tl_32" n="N032" break="no"/>holt gerufen wurde, haben wir bereits gemeldet. Es erübrigt
       <lb facs="#facs_2_line_1690822101700_249" n="N033"/>nur noch, der wahrhaft glänzedem Ausstattung der Oper
       <lb facs="#facs_2_region_1684564354864_485_tl_34" n="N034"/>zu erwähnen und der großen Verdienste, welche Director
-      <lb facs="#facs_2_region_1684564354864_485_tl_35" n="N035"/><hi rendition="#em"><rs type="person">Mahler</rs></hi> um den musikalischen und scenischen Theil der
+      <lb facs="#facs_2_region_1684564354864_485_tl_35" n="N035"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_977">Mahler</rs></hi> um den musikalischen und scenischen Theil der
       <lb facs="#facs_2_line_1690822023556_204" n="N036"/>Vorstellung sich erworben hat.</p>
          </div>
       </body>
