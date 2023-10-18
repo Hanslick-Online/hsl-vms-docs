@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="18. October 1866">18. October 1866</date>
+                        <date when="1866-10-18">18. October 1866</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -107,8 +107,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+         <change who="kbamer ampfiel" when="2023-07-15">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2023-10-18" who="kbamer">Formatierung des Textes.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -915,11 +916,10 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684578046743_596_tl_1" n="N001"/>Hofoperntheater.
-      <lb facs="#facs_1_region_1684578046743_596_tl_2" n="N002"/>(„<rs type="bibl">Zampa</rs>“. — Fräulein <rs type="person">Orgeni</rs>.)
-      <lb facs="#facs_1_region_1684578046743_596_tl_3" n="N003"/>Ed. H. Das Hofoperntheater hat <hi rendition="#em">
-                  <rs type="person">Herold</rs>ʼs</hi> „<rs type="bibl">Zampa</rs>“
+            
+      <lb facs="#facs_1_region_1684578046743_596_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+      <lb facs="#facs_1_region_1684578046743_596_tl_2" n="N002"/><head type="h2">(„<rs type="bibl">Zampa</rs>“. — Fräulein <rs type="person">Orgeni</rs>.)</head>
+   <p><lb facs="#facs_1_region_1684578046743_596_tl_3" n="N003"/>Ed. H. Das Hofoperntheater hat <hi rendition="#em"><rs type="person">Herold</rs>ʼs</hi> „<rs type="bibl">Zampa</rs>“
       <lb facs="#facs_1_region_1684578046743_596_tl_4" n="N004"/>aus langjähriger Verschollenheit wieder ans Licht gezogen. Ob
       <lb facs="#facs_1_region_1684578046743_596_tl_5" n="N005"/>aus eigener Intuition, ob nach dem Vorgang der <rs type="place">Paris</rs>er
       <lb facs="#facs_1_region_1684578046743_596_tl_6" n="N006"/>Oper, welche vor zwei Jahren den halbvergessenen Corsaren
@@ -927,68 +927,62 @@
       <lb facs="#facs_1_region_1684578046743_596_tl_8" n="N008"/>wissen es nicht; in keinem Falle läßt sich, die Trefflichkeit
       <lb facs="#facs_1_region_1684578046743_596_tl_9" n="N009"/>der Aufführung vorausgesetzt, gegen diesen Repertoire-Zuwachs
       <lb facs="#facs_1_region_1684578046743_596_tl_10" n="N010"/>etwas einwenden. Es spricht für „<rs type="bibl">Zampa</rs>“, daß er bei seinem
-      <lb facs="#facs_1_region_1684578046743_596_tl_11" n="N011"/>Erscheinen viel größeres und anhaltenderes Ansehen in <rs type="place">Deutsch¬</rs>
-               <lb facs="#facs_1_region_1684578046743_596_tl_12" n="N012"/>
-               <rs type="place">land</rs> genoß als in <rs type="place">Frankreich</rs>, wo ihn die glänzenderen Er¬
-      <lb facs="#facs_1_region_1684578046743_596_tl_13" n="N013"/>folge von <hi rendition="#em">
-                  <rs type="person">Herold</rs>ʼs</hi> „<rs type="bibl">Marie</rs>“ und „<rs type="bibl">Le pré aux cleres</rs>“
+      <lb facs="#facs_1_region_1684578046743_596_tl_11" n="N011"/>Erscheinen viel größeres und anhaltenderes Ansehen in <rs type="place">Deutsch
+      <lb facs="#facs_1_region_1684578046743_596_tl_12" n="N012" break="no"/>land</rs> genoß als in <rs type="place">Frankreich</rs>, wo ihn die glänzenderen Er
+      <lb facs="#facs_1_region_1684578046743_596_tl_13" n="N013" break="no"/>folge von <hi rendition="#em"><rs type="person">Herold</rs>ʼs</hi> „<rs type="bibl">Marie</rs>“ und „<rs type="bibl">Le pré aux cleres</rs>“
       <lb facs="#facs_1_region_1684578046743_596_tl_14" n="N014"/>(<rs type="bibl">Zweikampf</rs>) in Schatten stellten. Diese beiden musikalischen
       <lb facs="#facs_1_region_1684578046743_596_tl_15" n="N015"/>Conversationsstücke, einheitlicher und ruhiger in der Form,
       <lb facs="#facs_1_region_1684578046743_596_tl_16" n="N016"/>repräsentiren auch vollständiger ihr Genre — „<rs type="bibl">Marie</rs>“ das
       <lb facs="#facs_1_region_1684578046743_596_tl_17" n="N017"/>rührende Familienbild, der „<rs type="bibl">Zweikampf</rs>“ das Intriguen-
       <lb facs="#facs_1_region_1684578046743_596_tl_18" n="N018"/>Lustspiel — während „<rs type="bibl">Zampa</rs>“ mit verwegener und nicht
-      <lb facs="#facs_1_region_1684578046743_596_tl_19" n="N019"/>immer wählerischer Hand Tragisches und Komisches durchein¬
-      <lb facs="#facs_1_region_1684578046743_596_tl_20" n="N020"/>andermischt. Uns gilt trotzdem „<rs type="bibl">Zampa</rs>“ für das musikalisch
-      <lb facs="#facs_1_region_1684578046743_596_tl_21" n="N021"/>Eigenthümlichste und Reichste, wozu <rs type="person">Herold</rs>ʼs Talent sich auf¬
-      <lb facs="#facs_1_region_1684578046743_596_tl_22" n="N022"/>geschwungen, und wenn noch heutzutage deutsche Schriftsteller
-      <lb facs="#facs_1_line_1689418554642_124" n="N023"/>die unbedeutende Vaudeville Musik der „<rs type="bibl">Marie</rs>“ und den ge¬
-      <lb facs="#facs_1_line_1689418578378_129" n="N024"/>quälten, kalten Esprit des „<rs type="bibl">Zweikampf</rs>“ auf Kosten der
+      <lb facs="#facs_1_region_1684578046743_596_tl_19" n="N019"/>immer wählerischer Hand Tragisches und Komisches durchein
+      <lb facs="#facs_1_region_1684578046743_596_tl_20" n="N020" break="no"/>andermischt. Uns gilt trotzdem „<rs type="bibl">Zampa</rs>“ für das musikalisch
+      <lb facs="#facs_1_region_1684578046743_596_tl_21" n="N021"/>Eigenthümlichste und Reichste, wozu <rs type="person">Herold</rs>ʼs Talent sich auf
+      <lb facs="#facs_1_region_1684578046743_596_tl_22" n="N022" break="no"/>geschwungen, und wenn noch heutzutage <rs type="place" ref="">deutsch</rs>e Schriftsteller
+      <lb facs="#facs_1_line_1689418554642_124" n="N023"/>die unbedeutende Vaudeville Musik der „<rs type="bibl">Marie</rs>“ und den ge
+      <lb facs="#facs_1_line_1689418578378_129" n="N024" break="no"/>quälten, kalten Esprit des „<rs type="bibl">Zweikampf</rs>“ auf Kosten der
       <lb facs="#facs_1_region_1684578046743_596_tl_27" n="N025"/>„<rs type="bibl">Zampa</rs>“ herausstreichen, so gehört das wol auf die lange
       <lb facs="#facs_1_region_1684578046743_596_tl_28" n="N026"/>Liste ihrer ererbten und nicht geprüften Kunsturtheile. Keine
-      <lb facs="#facs_1_region_1684578046743_596_tl_29" n="N027"/>der zahlreichen Partituren <hi rendition="#em">
-                  <rs type="person">Herold</rs>ʼs</hi> vermag den üppigen,
+      <lb facs="#facs_1_region_1684578046743_596_tl_29" n="N027"/>der zahlreichen Partituren <hi rendition="#em"><rs type="person">Herold</rs>ʼs</hi> vermag den üppigen,
       <lb facs="#facs_1_region_1684578046743_596_tl_30" n="N028"/>leidenschaftlichen Klängen aus „<rs type="bibl">Zampa</rs>ʼs“ dritten Act etwas
       <lb facs="#facs_1_region_1684578046743_596_tl_31" n="N029"/>an die Seite zu stellen. Ist es nur der Zauber der Jugend-
       <lb facs="#facs_1_region_1684578046743_596_tl_32" n="N030"/>Erinnerung, was uns diese Melodien noch heute vergoldet?
-      <lb facs="#facs_1_region_1684578046743_596_tl_33" n="N031"/>Das glauben wir doch nicht, so gern wir uns jenen Zau¬
-      <lb facs="#facs_1_region_1684578046743_596_tl_34" n="N032"/>der zurückrufen und manche Nacht, die wir unter dem ersten
-      <lb facs="#facs_1_region_1684578046743_596_tl_35" n="N033"/>Eindrucke des „<rs type="bibl">Zampa</rs>“ in kindischen Schauern und kin¬
-      <lb facs="#facs_1_region_1684578046743_596_tl_36" n="N034"/>dischem Entzücken verträumt. In dieser Musik strömt eine
+      <lb facs="#facs_1_region_1684578046743_596_tl_33" n="N031"/>Das glauben wir doch nicht, so gern wir uns jenen Zau
+      <lb facs="#facs_1_region_1684578046743_596_tl_34" n="N032" break="no"/>der zurückrufen und manche Nacht, die wir unter dem ersten
+      <lb facs="#facs_1_region_1684578046743_596_tl_35" n="N033"/>Eindrucke des „<rs type="bibl">Zampa</rs>“ in kindischen Schauern und kin
+      <lb facs="#facs_1_region_1684578046743_596_tl_36" n="N034" break="no"/>dischem Entzücken verträumt. In dieser Musik strömt eine
       <lb facs="#facs_1_region_1684578046743_596_tl_37" n="N035"/>reiche melodische Ader, pocht ein lebhafter dramatischer
       <lb facs="#facs_1_region_1684578046743_596_tl_38" n="N036"/>Puls. Frische, Lebendigkeit, eine gute Charakteristik für
-      <lb facs="#facs_1_region_1684578046743_596_tl_39" n="N037"/>das Schauerliche, das Schelmische und Zärtliche zeich¬
-      <lb facs="#facs_1_region_1684578046743_596_tl_40" n="N038"/>nen sie aus und lassen uns manchen dilettanti¬
-      <lb facs="#facs_1_line_1689418006876_50" n="N039"/>schen und bizarren Zug, manche leere Stelle mit </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684578050286_599_tl_1" n="N001"/>in den Kauf nehmen. In den beiden ersten Acten
+      <lb facs="#facs_1_region_1684578046743_596_tl_39" n="N037"/>das Schauerliche, das Schelmische und Zärtliche zeich
+      <lb facs="#facs_1_region_1684578046743_596_tl_40" n="N038" break="no"/>nen sie aus und lassen uns manchen dilettanti
+      <lb facs="#facs_1_line_1689418006876_50" n="N039" break="no"/>schen und bizarren Zug, manche leere Stelle mit </p>
+ <cb n="2"/>
+   <p prev="true">
+      <lb facs="#facs_1_region_1684578050286_599_tl_1" n="N001"/>in den Kauf nehmen. In den beiden ersten Acten
       <lb facs="#facs_1_region_1684578050286_599_tl_2" n="N002"/>herrscht die pikante Conversations-Musik und der glatte
-      <lb facs="#facs_1_region_1684578050286_599_tl_3" n="N003"/>
-               <rs type="place">französisch</rs>e Romanzenstyl vor; die beiden Finale, an sich von
-      <lb facs="#facs_1_region_1684578050286_599_tl_4" n="N004"/>geringem musikalischen Gehalt, machen, belebt durch Instru¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_5" n="N005"/>mentirung und Scenerie, immerhin den Eindruck des Glän¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_6" n="N006"/>zenden. Die Stimmung des dritten Actes geht tiefer: wie
+      <lb facs="#facs_1_region_1684578050286_599_tl_3" n="N003"/><rs type="place">französisch</rs>e Romanzenstyl vor; die beiden Finale, an sich von
+      <lb facs="#facs_1_region_1684578050286_599_tl_4" n="N004"/>geringem musikalischen Gehalt, machen, belebt durch Instru
+      <lb facs="#facs_1_region_1684578050286_599_tl_5" n="N005" break="no"/>mentirung und Scenerie, immerhin den Eindruck des Glän
+      <lb facs="#facs_1_region_1684578050286_599_tl_6" n="N006" break="no"/>zenden. Die Stimmung des dritten Actes geht tiefer: wie
       <lb facs="#facs_1_region_1684578050286_599_tl_7" n="N007"/>unter Thränen zittert die süße Melodie des Schifferliedes; aus
-      <lb facs="#facs_1_region_1684578050286_599_tl_8" n="N008"/>
-               <rs type="person">Zampa</rs>ʼs Flehen („O, zittre nicht“) spricht eine verführerisch
+      <lb facs="#facs_1_region_1684578050286_599_tl_8" n="N008"/><rs type="person">Zampa</rs>ʼs Flehen („O, zittre nicht“) spricht eine verführerisch
       <lb facs="#facs_1_region_1684578050286_599_tl_9" n="N009"/>weiche Zärtlichkeit, angeglüht von unterdrückter Leidenschaft,
-      <lb facs="#facs_1_region_1684578050286_599_tl_10" n="N010"/>welche endlich im Allegro des Duetts als entfesselte Sinnlich¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_11" n="N011"/>keit auflodert. Die volle Leidenschaft liegt hier allein in der
+      <lb facs="#facs_1_region_1684578050286_599_tl_10" n="N010"/>welche endlich im Allegro des Duetts als entfesselte Sinnlich
+      <lb facs="#facs_1_region_1684578050286_599_tl_11" n="N011" break="no"/>keit auflodert. Die volle Leidenschaft liegt hier allein in der
       <lb facs="#facs_1_region_1684578050286_599_tl_12" n="N012"/>Melodie, nicht in dem malenden Orchester, wie so oft bei den
       <lb facs="#facs_1_region_1684578050286_599_tl_13" n="N013"/>Neueren. Der Schluß der Oper ist matt, ein fast allgemeines
-      <lb facs="#facs_1_region_1684578050286_599_tl_14" n="N014"/>Uebel der älteren Opéra comique. Die im „<rs type="bibl">Zampa</rs>“ ge¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_15" n="N015"/>wagte neue Steigerung aller dramatischen und musikalischen
+      <lb facs="#facs_1_region_1684578050286_599_tl_14" n="N014"/>Uebel der älteren Opéra comique. Die im „<rs type="bibl">Zampa</rs>“ ge
+      <lb facs="#facs_1_region_1684578050286_599_tl_15" n="N015" break="no"/>wagte neue Steigerung aller dramatischen und musikalischen
       <lb facs="#facs_1_region_1684578050286_599_tl_16" n="N016"/>Effectmittel und Häufung von romantischen Contrasten hat
-      <lb facs="#facs_1_region_1684578050286_599_tl_17" n="N017"/>
-               <rs type="person">Herold</rs>ʼs „<rs type="bibl">Zampa</rs>“, eine kunstgeschichtliche Bedeutung verlie¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_18" n="N018"/>hen, die man ob ihren Folgen beklagen, aber nicht anzweifeln
-      <lb facs="#facs_1_line_1689418898426_168" n="N019"/>kann. „<rs type="bibl">Zampa</rs>“ im <date month="0" day="0" year="0">Mai 1830</date> zuerst aufgeführt, war der
-      <lb facs="#facs_1_line_1689418932528_173" n="N020"/>unmittelbare Vorläufer von „<rs type="bibl">Robert der Teufel</rs>“ (<date month="0" day="0" year="0">1831</date>) und
-      <lb facs="#facs_1_region_1684578050286_599_tl_24" n="N021"/>bildet mit diesem, der „<rs type="bibl">Stummen von Portici</rs>“ (<date month="0" day="0" year="0">1828</date>) und
-      <lb facs="#facs_1_region_1684578050286_599_tl_25" n="N022"/>„<rs type="bibl">Wilhelm Tell</rs>“ (<date month="0" day="0" year="0">1829</date>) das vierblätterige Kleeblatt der auf¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_26" n="N023"/>keimenden musikalischen Romantik in <rs type="place">Frankreich</rs>. Man weiß,
-      <lb facs="#facs_1_region_1684578050286_599_tl_27" n="N024"/>welche Revolution in der gesammten Opernmusik daraus er¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_28" n="N025"/>wuchs, eine Revolution, unter deren directer Einwirkung wir
+      <lb facs="#facs_1_region_1684578050286_599_tl_17" n="N017"/><rs type="person">Herold</rs>ʼs „<rs type="bibl">Zampa</rs>“, eine kunstgeschichtliche Bedeutung verlie
+      <lb facs="#facs_1_region_1684578050286_599_tl_18" n="N018" break="no"/>hen, die man ob ihren Folgen beklagen, aber nicht anzweifeln
+      <lb facs="#facs_1_line_1689418898426_168" n="N019"/>kann. „<rs type="bibl">Zampa</rs>“ im <date when="1830-05">Mai 1830</date> zuerst aufgeführt, war der
+      <lb facs="#facs_1_line_1689418932528_173" n="N020"/>unmittelbare Vorläufer von „<rs type="bibl">Robert der Teufel</rs>“ (<date when="1831">1831</date>) und
+      <lb facs="#facs_1_region_1684578050286_599_tl_24" n="N021"/>bildet mit diesem, der „<rs type="bibl">Stummen von Portici</rs>“ (<date when="1828">1828</date>) und
+      <lb facs="#facs_1_region_1684578050286_599_tl_25" n="N022"/>„<rs type="bibl">Wilhelm Tell</rs>“ (<date when="1829">1829</date>) das vierblätterige Kleeblatt der auf
+      <lb facs="#facs_1_region_1684578050286_599_tl_26" n="N023" break="no"/>keimenden musikalischen Romantik in <rs type="place">Frankreich</rs>. Man weiß,
+      <lb facs="#facs_1_region_1684578050286_599_tl_27" n="N024"/>welche Revolution in der gesammten Opernmusik daraus er
+      <lb facs="#facs_1_region_1684578050286_599_tl_28" n="N025" break="no"/>wuchs, eine Revolution, unter deren directer Einwirkung wir
       <lb facs="#facs_1_region_1684578050286_599_tl_29" n="N026"/>heute noch stehen. Dieses fast gleichzeitige Hervortreten vier
       <lb facs="#facs_1_region_1684578050286_599_tl_30" n="N027"/>verschiedener Meister mit Opern neuen Inhalts, neuen Styls
       <lb facs="#facs_1_region_1684578050286_599_tl_31" n="N028"/>und von so demagogischer Wirkung beweist für den unbewußt
@@ -999,259 +993,192 @@
       <lb facs="#facs_1_region_1684578050286_599_tl_36" n="N033"/>der <rs type="person">Beethoven</rs>ʼschen Symphonien), die politische und
       <lb facs="#facs_1_region_1684578050286_599_tl_37" n="N034"/>sociale Schwüle vor der Juli-Revolution — dies Alles
       <lb facs="#facs_1_region_1684578050286_599_tl_38" n="N035"/>hatte zusammengewirkt, um auch auf dem Gebiete der Oper
-      <lb facs="#facs_1_region_1684578050286_599_tl_39" n="N036"/>einen Bruch mit den alten Traditionen, eine neue „roman¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_40" n="N037"/>tische“ Periode hervorzurufen. In dem Einflusse dieser ro¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_41" n="N038"/>mantischen, hauptsächlich die Wirkung des Contrastes aus¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_42" n="N039"/>beutenden Doctrin findet auch das mit Recht getadelte Text¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_43" n="N040"/>buch des „<rs type="bibl">Zampa</rs>“ seine entschuldigende Erklärung. Ueber¬
-      <lb facs="#facs_1_region_1684578050286_599_tl_44" n="N041"/>dies wirkte noch direct der verführerische Reiz von <rs type="person">Mozart</rs>ʼs
-      <lb facs="#facs_1_line_1689418016361_58" n="N042"/>„<rs type="bibl">Don Juan</rs>“ auf <rs type="person">Herold</rs>ʼs Phantasie. Die Idee, den „<rs type="bibl">Don</rs>
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684578053636_602_tl_1" n="N001"/>
-               <rs type="bibl">Juan</rs>“ Stoff nach <hi rendition="#em">
-                  <rs type="person">Molière</rs>ʼs</hi> „<rs type="bibl">Festin de pierre</rs>“ zu com¬
-      <lb facs="#facs_1_region_1684578053636_602_tl_2" n="N002"/>poniren, gab <rs type="person">Herold</rs> aus Ehrfurcht vor <rs type="person">Mozart</rs> auf, aber er
-      <lb facs="#facs_1_region_1684578053636_602_tl_3" n="N003"/>drang in den Dichter <hi rendition="#em">
-                  <rs type="person">Melesville</rs>
-               </hi>, ihm ein ähnliches Sujet
-      <lb facs="#facs_1_region_1684578053636_602_tl_4" n="N004"/>für den bescheidenen Rahmen der Opéra comique zu bearbei¬
-      <lb facs="#facs_1_region_1684578053636_602_tl_5" n="N005"/>ten. <rs type="bibl">Zampa</rs> ist auch ein Dissoluto punito. Auch zu seiner
-      <lb facs="#facs_1_region_1684578053636_602_tl_6" n="N006"/>Strafe stehen die Todten auf, und wenn <hi rendition="#em">
-                  <rs type="person">Ritta</rs>
-               </hi> keine <rs type="person" continued="true">Zer¬</rs>
-               <lb facs="#facs_1_region_1684578053636_602_tl_7" n="N007"/>
-               <rs type="person" continued="true">line</rs> ist, so sehen doch <hi rendition="#em">
-                  <rs type="person">Dandolo</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Capuzzi</rs>
-               </hi> so ziemlich
-      <lb facs="#facs_1_region_1684578053636_602_tl_8" n="N008"/>den Charakteren des <rs type="person">Masetto</rs> und des <rs type="person">Leporello</rs> ähnlich. <rs type="person" continued="true">Don</rs>
-               <lb facs="#facs_1_region_1684578053636_602_tl_9" n="N009"/>
-               <rs type="person" continued="true">Juan</rs> frevelt am Grabe des Gouverneurs, indem er den Tod¬
-      <lb facs="#facs_1_region_1684578053636_602_tl_10" n="N010"/>ten zu Tische ladet; <rs type="person">Zampa</rs> frevelt an der Statue einer treu¬
-      <lb facs="#facs_1_region_1684578053636_602_tl_11" n="N011"/>los verlassenen Geliebten, der er den Trauring an den Fin¬
-      <lb facs="#facs_1_region_1684578053636_602_tl_12" n="N012"/>ger steckt. In beiden Opern versinkt der Held an der Hand
+      <lb facs="#facs_1_region_1684578050286_599_tl_39" n="N036"/>einen Bruch mit den alten Traditionen, eine neue „roman
+      <lb facs="#facs_1_region_1684578050286_599_tl_40" n="N037" break="no"/>tische“ Periode hervorzurufen. In dem Einflusse dieser ro
+      <lb facs="#facs_1_region_1684578050286_599_tl_41" n="N038" break="no"/>mantischen, hauptsächlich die Wirkung des Contrastes aus
+      <lb facs="#facs_1_region_1684578050286_599_tl_42" n="N039" break="no"/>beutenden Doctrin findet auch das mit Recht getadelte Text
+      <lb facs="#facs_1_region_1684578050286_599_tl_43" n="N040" break="no"/>buch des „<rs type="bibl">Zampa</rs>“ seine entschuldigende Erklärung. Ueber
+      <lb facs="#facs_1_region_1684578050286_599_tl_44" n="N041" break="no"/>dies wirkte noch direct der verführerische Reiz von <rs type="person">Mozart</rs>ʼs
+      <lb facs="#facs_1_line_1689418016361_58" n="N042"/>„<rs type="bibl">Don Juan</rs>“ auf <rs type="person">Herold</rs>ʼs Phantasie. Die Idee, den „<rs type="bibl">Don</rs></p>
+  <cb n="3"/>
+     <p prev="true">
+      <lb facs="#facs_1_region_1684578053636_602_tl_1" n="N001"/><rs type="bibl">Juan</rs>“ Stoff nach <hi rendition="#em"><rs type="person">Molière</rs>ʼs</hi> „<rs type="bibl">Festin de pierre</rs>“ zu com
+      <lb facs="#facs_1_region_1684578053636_602_tl_2" n="N002" break="no"/>poniren, gab <rs type="person">Herold</rs> aus Ehrfurcht vor <rs type="person">Mozart</rs> auf, aber er
+      <lb facs="#facs_1_region_1684578053636_602_tl_3" n="N003"/>drang in den Dichter <hi rendition="#em"><rs type="person">Melesville</rs></hi>, ihm ein ähnliches Sujet
+      <lb facs="#facs_1_region_1684578053636_602_tl_4" n="N004"/>für den bescheidenen Rahmen der Opéra comique zu bearbei
+      <lb facs="#facs_1_region_1684578053636_602_tl_5" n="N005" break="no"/>ten. <rs type="bibl">Zampa</rs> ist auch ein Dissoluto punito. Auch zu seiner
+      <lb facs="#facs_1_region_1684578053636_602_tl_6" n="N006"/>Strafe stehen die Todten auf, und wenn <hi rendition="#em"><rs type="person">Ritta</rs></hi> keine <rs type="person">Zer
+      <lb facs="#facs_1_region_1684578053636_602_tl_7" n="N007" break="no"/>line</rs> ist, so sehen doch <hi rendition="#em"><rs type="person">Dandolo</rs></hi> und <hi rendition="#em"><rs type="person">Capuzzi</rs></hi> so ziemlich
+      <lb facs="#facs_1_region_1684578053636_602_tl_8" n="N008"/>den Charakteren des <rs type="person">Masetto</rs> und des <rs type="person">Leporello</rs> ähnlich. <rs type="person">Don
+      <lb facs="#facs_1_region_1684578053636_602_tl_9" n="N009"/>Juan</rs> frevelt am Grabe des Gouverneurs, indem er den Tod
+      <lb facs="#facs_1_region_1684578053636_602_tl_10" n="N010" break="no"/>ten zu Tische ladet; <rs type="person">Zampa</rs> frevelt an der Statue einer treu
+      <lb facs="#facs_1_region_1684578053636_602_tl_11" n="N011" break="no"/>los verlassenen Geliebten, der er den Trauring an den Fin
+      <lb facs="#facs_1_region_1684578053636_602_tl_12" n="N012" break="no"/>ger steckt. In beiden Opern versinkt der Held an der Hand
       <lb facs="#facs_1_region_1684578053636_602_tl_13" n="N013"/>eines rächenden Geistes — mit Einem Worte: „<rs type="bibl">Zampa</rs>“ ist
       <lb facs="#facs_1_region_1684578053636_602_tl_14" n="N014"/>ein modernisirter „<rs type="bibl">Don Juan</rs>“ in sehr verkleinerter Auflage.
       <lb facs="#facs_1_region_1684578053636_602_tl_15" n="N015"/>Zum Glücke verfiel Niemand auf die kindische Idee, <rs type="person">Herold</rs>ʼs
-      <lb facs="#facs_1_region_1684578053636_602_tl_16" n="N016"/>Musik an <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> messen zu wollen, und „<rs type="bibl">Zampa</rs>“ erfreute
+      <lb facs="#facs_1_region_1684578053636_602_tl_16" n="N016"/>Musik an <hi rendition="#em"><rs type="person">Mozart</rs></hi> messen zu wollen, und „<rs type="bibl">Zampa</rs>“ erfreute
       <lb facs="#facs_1_region_1684578053636_602_tl_17" n="N017"/>das Publicum durch ein volles Vierteljahrhundert, was für
       <lb facs="#facs_1_line_1689418025938_64" n="N018"/>eine moderne Oper eine ganz anständige Lebensdauer ist.
       <lb facs="#facs_1_region_1684578053636_602_tl_19" n="N019"/>Wenn von zwei neuen Geschichtsschreibern der Musik der
-      <lb facs="#facs_1_region_1684578053636_602_tl_20" n="N020"/>eine (<hi rendition="#em">
-                  <rs type="person">Schlüter</rs>
-               </hi>) <rs type="person">Herold</rs>ʼs „<rs type="bibl">Zampa</rs>“ mit den zwei
-      <lb facs="#facs_1_region_1684578053636_602_tl_21" n="N021"/>Worten „leere Lärm-Oper“ abthut, der andere (<hi rendition="#em">
-                  <rs type="person" continued="true">Reiß¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684578053636_602_tl_22" n="N022"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi>) den Namen <rs type="person">Herold</rs> nicht einmal nennt,
+      <lb facs="#facs_1_region_1684578053636_602_tl_20" n="N020"/>eine (<hi rendition="#em"><rs type="person">Schlüter</rs></hi>) <rs type="person">Herold</rs>ʼs „<rs type="bibl">Zampa</rs>“ mit den zwei
+      <lb facs="#facs_1_region_1684578053636_602_tl_21" n="N021"/>Worten „leere Lärm-Oper“ abthut, der andere (<hi rendition="#em"><rs type="person">Reiß
+      <lb facs="#facs_1_region_1684578053636_602_tl_22" n="N022" break="no"/><hi rendition="#em"><rs type="person" continued="true">mann</rs></hi>) den Namen <rs type="person">Herold</rs> nicht einmal nennt,
       <lb facs="#facs_1_region_1684578053636_602_tl_23" n="N023"/>so wünschen wir unsererseits, wir hätten heute für unsere
       <lb facs="#facs_1_region_1684578053636_602_tl_24" n="N024"/>Bühne einige Talente wie <rs type="person">Herold</rs> und einige neue Opern
-      <lb facs="#facs_1_region_1684578053636_602_tl_25" n="N025"/>wie „<rs type="bibl">Zampa</rs>“.
-      <lb facs="#facs_1_region_1684578053636_602_tl_26" n="N026"/>Eigenthümliche Schwierigkeiten bietet die Rolle des
-      <lb facs="#facs_1_region_1684578053636_602_tl_27" n="N027"/>
-               <rs type="person">Zampa</rs> durch ihre seltsame Stimmlage: einige Nummern
+      <lb facs="#facs_1_region_1684578053636_602_tl_25" n="N025"/>wie „<rs type="bibl" ref="">Zampa</rs>“.</p>
+   <p><lb facs="#facs_1_region_1684578053636_602_tl_26" n="N026"/>Eigenthümliche Schwierigkeiten bietet die Rolle des
+      <lb facs="#facs_1_region_1684578053636_602_tl_27" n="N027"/><rs type="person">Zampa</rs> durch ihre seltsame Stimmlage: einige Nummern
       <lb facs="#facs_1_region_1684578053636_602_tl_28" n="N028"/>derselben sind entschieden in der Tenorlage, andere in jener
       <lb facs="#facs_1_region_1684578053636_602_tl_29" n="N029"/>des Baritons gesetzt, noch andere verlangen Beides. Die
-      <lb facs="#facs_1_region_1684578053636_602_tl_30" n="N030"/>
-               <rs type="place">Paris</rs>er Original-Partitur schreibt den Part dieses musikalischen
+      <lb facs="#facs_1_region_1684578053636_602_tl_30" n="N030"/><rs type="place">Paris</rs>er Original-Partitur schreibt den Part dieses musikalischen
       <lb facs="#facs_1_region_1684578053636_602_tl_31" n="N031"/>Amphibiums bald im Tenor-, bald im Baßschlüssel; ja in
-      <lb facs="#facs_1_region_1684578053636_602_tl_32" n="N032"/>dem Trinklied, dem der Baßschlüssel vorgezeichnet ist, er¬
-      <lb facs="#facs_1_region_1684578053636_602_tl_33" n="N033"/>scheint inmitten eine Stelle im Tenorschlüssel, wie man sonst
+      <lb facs="#facs_1_region_1684578053636_602_tl_32" n="N032"/>dem Trinklied, dem der Baßschlüssel vorgezeichnet ist, er
+      <lb facs="#facs_1_region_1684578053636_602_tl_33" n="N033" break="no"/>scheint inmitten eine Stelle im Tenorschlüssel, wie man sonst
       <lb facs="#facs_1_region_1684578053636_602_tl_34" n="N034"/>nur in Violoncell- oder Fagottstimmen zu sehen bekommt.
-      <lb facs="#facs_1_region_1684578053636_602_tl_35" n="N035"/>Dies Schwanken von Seite des Componisten wäre unerklär¬
-      <lb facs="#facs_1_region_1684578053636_602_tl_36" n="N036"/>lich, wüßte man nicht, daß er den <rs type="person">Zampa</rs> für den damaligen
-      <lb facs="#facs_1_region_1684578053636_602_tl_37" n="N037"/>Stern der Opéra comique, <hi rendition="#em">
-                  <rs type="person">Chollet</rs>
-               </hi>, schrieb, einen Sänger,
-      <lb facs="#facs_1_region_1684578053636_602_tl_38" n="N038"/>der eigentlich weder eine Tenor noch eine Baritonstimme be¬
-      <lb facs="#facs_1_region_1684578053636_602_tl_39" n="N039"/>saß, wahrscheinlich überhaupt keine rechte Stimme, wol aber
+      <lb facs="#facs_1_region_1684578053636_602_tl_35" n="N035"/>Dies Schwanken von Seite des Componisten wäre unerklär
+      <lb facs="#facs_1_region_1684578053636_602_tl_36" n="N036" break="no"/>lich, wüßte man nicht, daß er den <rs type="person">Zampa</rs> für den damaligen
+      <lb facs="#facs_1_region_1684578053636_602_tl_37" n="N037"/>Stern der Opéra comique, <hi rendition="#em"><rs type="person">Chollet</rs></hi>, schrieb, einen Sänger,
+      <lb facs="#facs_1_region_1684578053636_602_tl_38" n="N038"/>der eigentlich weder eine Tenor noch eine Baritonstimme be
+      <lb facs="#facs_1_region_1684578053636_602_tl_39" n="N039" break="no"/>saß, wahrscheinlich überhaupt keine rechte Stimme, wol aber
       <lb facs="#facs_1_region_1684578053636_602_tl_40" n="N040"/>ein unübertrefflich ausgebildetes Falsett und den reizendsten
       <lb facs="#facs_1_region_1684578053636_602_tl_41" n="N041"/>Vortrag. Seither haben sowol Tenoristen als Baritons
-      <lb facs="#facs_1_line_1689418016361_57" n="N042"/>den <rs type="person">Zampa</rs> gesungen, mit mehr Transponirungen und Punk¬</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684578063895_608_tl_1" n="N001"/>tirungen, als wol irgend eine andere Rolle erfahren hat.
-      <lb facs="#facs_2_region_1684578063895_608_tl_2" n="N002"/>Trotz der berühmten Leistung Wildʼs kann man nicht anste¬
-      <lb facs="#facs_2_region_1684578063895_608_tl_3" n="N003"/>hen, <rs type="person">Zampa</rs> für eine Baritonpartie zu erklären; dramatisch
+      <lb facs="#facs_1_line_1689418016361_57" n="N042"/>den <rs type="person">Zampa</rs> gesungen, mit mehr Transponirungen und Punk</p>
+  <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+  <cb n="4"/>
+    <p prev="true">
+      <lb facs="#facs_2_region_1684578063895_608_tl_1" n="N001" break="no"/>tirungen, als wol irgend eine andere Rolle erfahren hat.
+      <lb facs="#facs_2_region_1684578063895_608_tl_2" n="N002"/>Trotz der berühmten Leistung Wildʼs kann man nicht anste
+      <lb facs="#facs_2_region_1684578063895_608_tl_3" n="N003" break="no"/>hen, <rs type="person">Zampa</rs> für eine Baritonpartie zu erklären; dramatisch
       <lb facs="#facs_2_region_1684578063895_608_tl_4" n="N004"/>deutet die ganze Persönlichkeit <rs type="person">Zampa</rs>ʼs auf eine tiefe Stimme,
-      <lb facs="#facs_2_region_1684578063895_608_tl_5" n="N005"/>musikalisch bildet sie den nothwendigen Gegensatz zu dem Te¬
-      <lb facs="#facs_2_line_1689419710747_257" n="N006"/>vor <hi rendition="#em">Alfonso di <rs type="person">Monza</rs>
-               </hi>
-               <rs type="person"/>. Herrn <hi rendition="#em">
-                  <rs type="person">Bignio</rs>ʼs</hi> klangvoller, hoher 
+      <lb facs="#facs_2_region_1684578063895_608_tl_5" n="N005"/>musikalisch bildet sie den nothwendigen Gegensatz zu dem Te
+      <lb facs="#facs_2_line_1689419710747_257" n="N006" break="no"/>nor <hi rendition="#em">Alfonso di <rs type="person">Monza</rs></hi><rs type="person"/>. Herrn <hi rendition="#em"><rs type="person">Bignio</rs>ʼs</hi> klangvoller, hoher 
       <lb facs="#facs_2_region_1684578063895_608_tl_7" n="N007"/>Bariton würde sich trefflich für die Partie eignen, wenn er
       <lb facs="#facs_2_region_1684578063895_608_tl_8" n="N008"/>im Besitze einer Kopfstimme wäre — er machte wenigstens
       <lb facs="#facs_2_region_1684578063895_608_tl_9" n="N009"/>nicht einen einzigen Versuch, dieselbe zu verwenden. Dass
-      <lb facs="#facs_2_region_1684578063895_608_tl_10" n="N010"/>Herr <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi> seine Solonummern einen Ton tiefer sang,
+      <lb facs="#facs_2_region_1684578063895_608_tl_10" n="N010"/>Herr <hi rendition="#em"><rs type="person">Bignio</rs></hi> seine Solonummern einen Ton tiefer sang,
       <lb facs="#facs_2_region_1684578063895_608_tl_11" n="N011"/>verschlägt wenig, ebenso die Punktirung minder erheblicher
       <lb facs="#facs_2_region_1684578063895_608_tl_12" n="N012"/>Stellen im Ensemble, höchstens daß im ersten Quartett die
       <lb facs="#facs_2_region_1684578063895_608_tl_13" n="N013"/>Herabsetzung eines ins hohe A reichenden charakteristischen
-      <lb facs="#facs_2_region_1684578063895_608_tl_14" n="N014"/>Ganges in die tiefere Octave den Total-Effect störte.
-      <lb facs="#facs_2_region_1684578063895_608_tl_15" n="N015"/>In Nummern jedoch, wo die hohen Töne einen integri¬
-      <lb facs="#facs_2_line_1689420188397_318" n="N016"/>renden Theil des musikalischen Gedankens bilden, wie in dem
-      <lb facs="#facs_2_region_1684578063895_608_tl_18" n="N017"/>Andante „O, zittrʼe nicht“ verstümmelt eine willkürliche Punk¬
-      <lb facs="#facs_2_region_1684578063895_608_tl_19" n="N018"/>tirung eben den Gedanken selbst. Wer <hi rendition="#em">
-                  <rs type="person">Pischek</rs>ʼs</hi> meisterhaften
-      <lb facs="#facs_2_region_1684578063895_608_tl_20" n="N019"/>
-               <rs type="person">Zampa</rs> in Erinnerung hat, weiß, welchen Zauber diese bis
+      <lb facs="#facs_2_region_1684578063895_608_tl_14" n="N014"/>Ganges in die tiefere Octave den Total-Effect störte.</p>
+   <p><lb facs="#facs_2_region_1684578063895_608_tl_15" n="N015"/>In Nummern jedoch, wo die hohen Töne einen integri
+      <lb facs="#facs_2_line_1689420188397_318" n="N016" break="no"/>renden Theil des musikalischen Gedankens bilden, wie in dem
+      <lb facs="#facs_2_region_1684578063895_608_tl_18" n="N017"/>Andante „O, zittrʼe nicht“ verstümmelt eine willkürliche Punk
+      <lb facs="#facs_2_region_1684578063895_608_tl_19" n="N018" break="no"/>tirung eben den Gedanken selbst. Wer <hi rendition="#em"><rs type="person">Pischek</rs>ʼs</hi> meisterhaften
+      <lb facs="#facs_2_region_1684578063895_608_tl_20" n="N019"/><rs type="person">Zampa</rs> in Erinnerung hat, weiß, welchen Zauber diese bis
       <lb facs="#facs_2_region_1684578063895_608_tl_21" n="N020"/>ins hohe B und C reichenden Falsettstellen in der Originalgestalt
       <lb facs="#facs_2_line_1689419841549_287" n="N021"/>ausüben und welche Benachtheiligung der ganze dritte Act
       <lb facs="#facs_2_line_1689420285655_328" n="N022"/>durch das wegstreichen aller hohen Noten erleidet. Davon
-      <lb facs="#facs_2_region_1684578063895_608_tl_26" n="N023"/>abgesehen, hat Herrn <hi rendition="#em">
-                  <rs type="person">Bignio</rs>ʼs</hi> Leistung nach Seite des Ge¬
-      <lb facs="#facs_2_region_1684578063895_608_tl_27" n="N024"/>sanges und des Spieles unsere Erwartungen übertroffen. Er
-      <lb facs="#facs_2_region_1684578063895_608_tl_28" n="N025"/>sang die Arie im zweiten Art und die darauffolgende Bar¬
-      <lb facs="#facs_2_region_1684578063895_608_tl_29" n="N026"/>carole die sehr hübsch; dasselbe wäre von dem Trinklied zu rüh¬
-      <lb facs="#facs_2_region_1684578063895_608_tl_30" n="N027"/>nen, hätte es einen kühneren Flug genommen. Ueberhaupt
-      <lb facs="#facs_2_region_1684578063895_608_tl_31" n="N028"/>schien es uns, als bevorzugte Herr <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi> allzusehr das
-      <lb facs="#facs_2_region_1684578063895_608_tl_32" n="N029"/>Sanfte und Weiche auf Kosten der starken, trotzigen, ja wil¬
-      <lb facs="#facs_2_region_1684578063895_608_tl_33" n="N030"/>den Stellen und vergäße über dem einschmeichelnden Verführer,
+      <lb facs="#facs_2_region_1684578063895_608_tl_26" n="N023"/>abgesehen, hat Herrn <hi rendition="#em"><rs type="person">Bignio</rs>ʼs</hi> Leistung nach Seite des Ge
+      <lb facs="#facs_2_region_1684578063895_608_tl_27" n="N024" break="no"/>sanges und des Spieles unsere Erwartungen übertroffen. Er
+      <lb facs="#facs_2_region_1684578063895_608_tl_28" n="N025"/>sang die Arie im zweiten Art und die darauffolgende Bar
+      <lb facs="#facs_2_region_1684578063895_608_tl_29" n="N026" break="no"/>carole die sehr hübsch; dasselbe wäre von dem Trinklied zu rüh
+      <lb facs="#facs_2_region_1684578063895_608_tl_30" n="N027" break="no"/>men, hätte es einen kühneren Flug genommen. Ueberhaupt
+      <lb facs="#facs_2_region_1684578063895_608_tl_31" n="N028"/>schien es uns, als bevorzugte Herr <hi rendition="#em"><rs type="person">Bignio</rs></hi> allzusehr das
+      <lb facs="#facs_2_region_1684578063895_608_tl_32" n="N029"/>Sanfte und Weiche auf Kosten der starken, trotzigen, ja wil
+      <lb facs="#facs_2_region_1684578063895_608_tl_33" n="N030" break="no"/>den Stellen und vergäße über dem einschmeichelnden Verführer,
       <lb facs="#facs_2_region_1684578063895_608_tl_34" n="N031"/>dass <rs type="person">Zampa</rs> ein Corsar ist, der Schrecken des Meeres und
       <lb facs="#facs_2_region_1684578063895_608_tl_35" n="N032"/>der Küste. Es wäre vortheilhaft, wenn der Künstler den
-      <lb facs="#facs_2_region_1684578063895_608_tl_36" n="N033"/>
-               <rs type="person">Zampa</rs> ernster und energischer, auch weniger jugendlich nähme
+      <lb facs="#facs_2_region_1684578063895_608_tl_36" n="N033"/><rs type="person">Zampa</rs> ernster und energischer, auch weniger jugendlich nähme
       <lb facs="#facs_2_region_1684578063895_608_tl_37" n="N034"/>und sich unter Anderem vor häufigem Lächeln hütete. Gelingt
-      <lb facs="#facs_2_region_1684578063895_608_tl_38" n="N035"/>es Herrn <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi>, seine Leistung im dritten Acte auf die
+      <lb facs="#facs_2_region_1684578063895_608_tl_38" n="N035"/>es Herrn <hi rendition="#em"><rs type="person">Bignio</rs></hi>, seine Leistung im dritten Acte auf die
       <lb facs="#facs_2_region_1684578063895_608_tl_39" n="N036"/>Höhe der beiden früheren herauszuarbeiten, so wird der ihm so
       <lb facs="#facs_2_region_1684578063895_608_tl_40" n="N037"/>reichlich gespendete Applaus sich noch beträchtlich steigern. Die
       <lb facs="#facs_2_region_1684578063895_608_tl_41" n="N038"/>Rolle des <rs type="person">Alfonso</rs> stellt an den Schauspieler und Sänger
-      <lb facs="#facs_2_region_1684578063895_608_tl_42" n="N039"/>Anforderungen, denen Herr <hi rendition="#em">
-                  <rs type="person">Prott</rs>
-               </hi> zur Stunde nicht gewach¬
-      <lb facs="#facs_2_region_1684578063895_608_tl_43" n="N040"/>sen ist; danken wir ihm für den sichtlichen Eifer, mit dem er
+      <lb facs="#facs_2_region_1684578063895_608_tl_42" n="N039"/>Anforderungen, denen Herr <hi rendition="#em"><rs type="person">Prott</rs></hi> zur Stunde nicht gewach
+      <lb facs="#facs_2_region_1684578063895_608_tl_43" n="N040" break="no"/>sen ist; danken wir ihm für den sichtlichen Eifer, mit dem er
       <lb facs="#facs_2_line_1689420606749_352" n="N041"/>dies Mißverhältniß zu verbergen gemüht war. Fräulein
       <lb facs="#facs_2_line_1689419822163_282" n="N042"/>Krauss that als Camilla was ihr möglich ist; jedenfalls
-      <lb facs="#facs_2_region_1684578063895_608_tl_49" n="N043"/>hätte die Partie durch Frau <hi rendition="#em">
-                  <rs type="person">Kainz-Prause</rs>
-               </hi> sehr gewonnen,</p>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684578067495_611_tl_1" n="N001"/>die, wie wir mit Befriedigung hören, das Hofoperntheater
-      <lb facs="#facs_2_region_1684578067495_611_tl_2" n="N002"/>nicht verläßt. Ganz vorzüglich waren Fräulein <hi rendition="#em">
-                  <rs type="person" continued="true">Bettel¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684578067495_611_tl_3" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">heim</rs>
-               </hi> und Herr <hi rendition="#em">
-                  <rs type="person">Mayerhofer</rs>
-               </hi> als <rs type="person">Ritt</rs>a und <rs type="person" continued="true">Daniel Ca¬</rs>
-               <lb facs="#facs_2_region_1684578067495_611_tl_4" n="N004"/>
-               <rs type="person" continued="true">puzzi</rs>. An solchen Leistungen läßt sich erkennen, was Intelli¬
-      <lb facs="#facs_2_region_1684578067495_611_tl_5" n="N005"/>genz, Bildung und ein gewissenhafter, in jedes Detail der
+      <lb facs="#facs_2_region_1684578063895_608_tl_49" n="N043"/>hätte die Partie durch Frau <hi rendition="#em"><rs type="person">Kainz-Prause</rs></hi> sehr gewonnen,</p>
+ <cb n="5"/>
+    <p prev="true">
+      <lb facs="#facs_2_region_1684578067495_611_tl_1" n="N001"/>die, wie wir mit Befriedigung hören, das Hofoperntheater
+      <lb facs="#facs_2_region_1684578067495_611_tl_2" n="N002"/>nicht verläßt. Ganz vorzüglich waren Fräulein <hi rendition="#em"><rs type="person" continued="true">Bettel
+      <lb facs="#facs_2_region_1684578067495_611_tl_3" n="N003" break="no"/>heim</rs></hi> und Herr <hi rendition="#em"><rs type="person">Mayerhofer</rs></hi> als <rs type="person">Ritt</rs>a und <rs type="person" continued="true">Daniel Ca¬</rs>
+      <lb facs="#facs_2_region_1684578067495_611_tl_4" n="N004"/><rs type="person" continued="true">puzzi</rs>. An solchen Leistungen läßt sich erkennen, was Intelli
+      <lb facs="#facs_2_region_1684578067495_611_tl_5" n="N005" break="no"/>genz, Bildung und ein gewissenhafter, in jedes Detail der
       <lb facs="#facs_2_line_1689419710747_256" n="N006"/>Rolle eindringender Fleiß selbst dort zu Stande bringen, wo
       <lb facs="#facs_2_region_1684578067495_611_tl_6" n="N007"/>die Aufgabe eher gegen als mit dem Strome der künstlerischen
       <lb facs="#facs_2_region_1684578067495_611_tl_7" n="N008"/>Individualität schwimmt. Da in dem komischen Terzett des
-      <lb facs="#facs_2_region_1684578067495_611_tl_8" n="N009"/>zweiten Actes Herr <hi rendition="#em">
-                  <rs type="person">Campe</rs>
-               </hi> (<rs type="person">Dandolo</rs>) sich den beiden ge¬
+      <lb facs="#facs_2_region_1684578067495_611_tl_8" n="N009"/>zweiten Actes Herr <hi rendition="#em"><rs type="person">Campe</rs>
       <lb facs="#facs_2_region_1684578067495_611_tl_9" n="N010"/>nannten Künstlern wirksam anschloß, so trug thatsächlich die
       <lb facs="#facs_2_region_1684578067495_611_tl_10" n="N011"/>heitere, episodische Partie der Oper den Sieg über die Tragik
       <lb facs="#facs_2_region_1684578067495_611_tl_11" n="N012"/>davon. Die Scenirung und Ausstattung ließ Manches zu
       <lb facs="#facs_2_region_1684578067495_611_tl_12" n="N013"/>wünschen — insbesondere <rs type="person">Camilla</rs>ʼs Schlafgemach wünschten
       <lb facs="#facs_2_region_1684578067495_611_tl_13" n="N014"/>wir nie wieder zu sehen. Das Publicum kam der Aufführung
       <lb facs="#facs_2_region_1684578067495_611_tl_14" n="N015"/>offenbar in günstigster Stimmung entgegen und applaudirte
-      <lb facs="#facs_2_region_1684578067495_611_tl_15" n="N016"/>die unter Herrn <hi rendition="#em">
-                  <rs type="person">Dessoff</rs>ʼs</hi> Leitung glänzend ausgeführte
+      <lb facs="#facs_2_region_1684578067495_611_tl_15" n="N016"/>die unter Herrn <hi rendition="#em"><rs type="person">Dessoff</rs>ʼs</hi> Leitung glänzend ausgeführte
       <lb facs="#facs_2_region_1684578067495_611_tl_16" n="N017"/>Ouverture lebhaft. In den beiden ersten Acten erhielt sich die
       <lb facs="#facs_2_region_1684578067495_611_tl_17" n="N018"/>Theilnahme so ziemlich, sank aber merklich während des dritten
       <lb facs="#facs_2_region_1684578067495_611_tl_18" n="N019"/>Actes, der weder das Schifferlied noch das große Duett zu
-      <lb facs="#facs_2_region_1684578067495_611_tl_19" n="N020"/>der gewohnten Wirkung brachte.
-      <lb facs="#facs_2_region_1684578067495_611_tl_20" n="N021"/>Wir haben einige Worte über Fräulein <hi rendition="#em">
-                  <rs type="person">Orgeni</rs>
-               </hi> nach
+      <lb facs="#facs_2_region_1684578067495_611_tl_19" n="N020"/>der gewohnten Wirkung brachte.</p>
+   <p><lb facs="#facs_2_region_1684578067495_611_tl_20" n="N021"/>Wir haben einige Worte über Fräulein <hi rendition="#em"><rs type="person">Orgeni</rs></hi> nach
       <lb facs="#facs_2_region_1684578067495_611_tl_21" n="N022"/>zutragen, welche bisher zweimal (in der „<rs type="bibl">Nachtwandlerin</rs>“ un
       <lb facs="#facs_2_region_1684578067495_611_tl_22" n="N023"/>in <rs type="person">Gounod</rs>ʼs „<rs type="bibl">Faust</rs>“) als Gast aufgetreten ist. An beiden
-      <lb facs="#facs_2_region_1684578067495_611_tl_23" n="N024"/>Abenden war es im Theater bekannt, daß Fräulein <hi rendition="#em">
-                  <rs type="person">Orgeni</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684578067495_611_tl_24" n="N025"/>noch unter den Nachwirkungen eines Unwohlseins leide — ein
-      <lb facs="#facs_2_region_1684578067495_611_tl_25" n="N026"/>Umstand, welcher der Sängerin wie der Kritik das Amt be¬
-      <lb facs="#facs_2_region_1684578067495_611_tl_26" n="N027"/>trächtlich erschwert. Wir müssen Fräulein <rs type="person">Orgeni</rs> derzeit für
+      <lb facs="#facs_2_region_1684578067495_611_tl_23" n="N024"/>Abenden war es im Theater bekannt, daß Fräulein <hi rendition="#em"><rs type="person">Orgeni</rs></hi>
+      <lb facs="#facs_2_region_1684578067495_611_tl_24" n="N025"/>noch unter den Nachwirkungen eines Unwohlseins leide — ein
+      <lb facs="#facs_2_region_1684578067495_611_tl_25" n="N026"/>Umstand, welcher der Sängerin wie der Kritik das Amt be
+      <lb facs="#facs_2_region_1684578067495_611_tl_26" n="N027" break="no"/>trächtlich erschwert. Wir müssen Fräulein <rs type="person">Orgeni</rs> derzeit für
       <lb facs="#facs_2_region_1684578067495_611_tl_27" n="N028"/>ein Bild nehmen, das in seiner günstigsten Beleuchtung zu
       <lb facs="#facs_2_region_1684578067495_611_tl_28" n="N029"/>sehen uns noch nicht vergönnt war. <hi rendition="#em">Vor</hi> dem Auftreten der
-      <lb facs="#facs_2_region_1684578067495_611_tl_29" n="N030"/>Künstlerin war ihr die Beleuchtung vielleicht zu günstig ge¬
-      <lb facs="#facs_2_region_1684578067495_611_tl_30" n="N031"/>wesen, man hatte sie als eine vollendete Sängerin geschildert
-      <lb facs="#facs_2_region_1684578067495_611_tl_31" n="N032"/>und dadurch in eine schwierige Stellung gegen so hochge¬
-      <lb facs="#facs_2_region_1684578067495_611_tl_32" n="N033"/>spannte Erwartungen gedrängt. In <rs type="place">Berlin</rs>, wo Fräulein <rs type="person" continued="true">Or¬</rs>
-               <lb facs="#facs_2_region_1684578067495_611_tl_33" n="N034"/>
-               <rs type="person" continued="true">geni</rs> vor einem Jahre zum erstenmale die Bühne betrat, kam
+      <lb facs="#facs_2_region_1684578067495_611_tl_29" n="N030"/>Künstlerin war ihr die Beleuchtung vielleicht zu günstig ge
+      <lb facs="#facs_2_region_1684578067495_611_tl_30" n="N031" break="no"/>wesen, man hatte sie als eine vollendete Sängerin geschildert
+      <lb facs="#facs_2_region_1684578067495_611_tl_31" n="N032"/>und dadurch in eine schwierige Stellung gegen so hochge
+      <lb facs="#facs_2_region_1684578067495_611_tl_32" n="N033" break="no"/>spannte Erwartungen gedrängt. In <rs type="place">Berlin</rs>, wo Fräulein <rs type="person">Or
+      <lb facs="#facs_2_region_1684578067495_611_tl_33" n="N034" break="no"/>geni</rs> vor einem Jahre zum erstenmale die Bühne betrat, kam
       <lb facs="#facs_2_region_1684578067495_611_tl_34" n="N035"/>es ihr zugute, daß man von dieser Anfängerschaft billig
-      <lb facs="#facs_2_region_1684578067495_611_tl_35" n="N036"/>Notiz nahm und die ganze künftige Vervollkommnung der ta¬
-      <lb facs="#facs_2_region_1684578067495_611_tl_36" n="N037"/>lentvollen Lieblingsschülerin Madame <hi rendition="#em">
-                  <rs type="person">Viardot</rs>ʼs</hi> gleichsam
+      <lb facs="#facs_2_region_1684578067495_611_tl_35" n="N036"/>Notiz nahm und die ganze künftige Vervollkommnung der ta
+      <lb facs="#facs_2_region_1684578067495_611_tl_36" n="N037" break="no"/>lentvollen Lieblingsschülerin Madame <hi rendition="#em"><rs type="person">Viardot</rs>ʼs</hi> gleichsam
       <lb facs="#facs_2_region_1684578067495_611_tl_37" n="N038"/>escomptirte. Fräulein <rs type="person">Orgeni</rs> ist keine fertige Künstlerin,
       <lb facs="#facs_2_region_1684578067495_611_tl_38" n="N039"/>kann es auch nach so kurzer Bühnenpraxis kaum sein; was
       <lb facs="#facs_2_region_1684578067495_611_tl_39" n="N040"/>sie gibt, sind eher schöne Anfänge und Anläufe, als vollendete
       <lb facs="#facs_2_region_1684578067495_611_tl_40" n="N041"/>Leistungen. Die Natur hat Fräulein <rs type="person">Orgeni</rs> günstig, aber
       <lb facs="#facs_2_region_1684578067495_611_tl_41" n="N042"/>nach keiner Richtung Phänomenal ausgestattet. Ihre Stimme,
-      <lb facs="#facs_2_line_1689419722837_264" n="N043"/>ein leicht ansprechender Sopran von hellem Timbre, bedeuten¬</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684578074813_614_tl_1" n="N001"/>der Höhe, aber von geringer Kraft, besitzt jenen flachen Wohl¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_2" n="N002"/>klang, der mehr dem Ohre schmeichelt, als zu den Tiefen des
+      <lb facs="#facs_2_line_1689419722837_264" n="N043"/>ein leicht ansprechender Sopran von hellem Timbre, bedeuten</p>
+  <cb n="6"/>
+   <p prev="true">
+      <lb facs="#facs_2_region_1684578074813_614_tl_1" n="N001" break="no"/>der Höhe, aber von geringer Kraft, besitzt jenen flachen Wohl
+      <lb facs="#facs_2_region_1684578074813_614_tl_2" n="N002" break="no"/>klang, der mehr dem Ohre schmeichelt, als zu den Tiefen des
       <lb facs="#facs_2_region_1684578074813_614_tl_3" n="N003"/>Herzens dringt. Die correcte Stimmbildung und das sichere
       <lb facs="#facs_2_region_1684578074813_614_tl_4" n="N004"/>Feststehen jedes Tones sind große Vorzüge ihres Gesanges,
       <lb facs="#facs_2_region_1684578074813_614_tl_5" n="N005"/>dessen höchster Reiz uns in dem schönen und ausgebildeten
-      <lb facs="#facs_2_region_1684578074813_614_tl_6" n="N006"/>Mezzavoce zu liegen scheint. Vortrefflich ist ferner die Aus¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_7" n="N007"/>sprache. Was wir von Coloratur hörten, war nur theil¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_8" n="N008"/>weise gelungen und jedenfalls mehr glückliche Anlage zur Bra¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_9" n="N009"/>vour, als Bravour selbst. Es fehlt dieser die ruhige Sicher¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_10" n="N010"/>heit, Leichtigkeit und vor Allem der Glanz.
-      <lb facs="#facs_2_region_1684578074813_614_tl_11" n="N011"/>Vortrag und Spiel tragen den Charakter einer ruhigen
-      <lb facs="#facs_2_region_1684578074813_614_tl_12" n="N012"/>Passivität, welche allerdings weder das Edle noch das An¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_13" n="N013"/>muthige ausschließt. Fast durchwegs fließen die Melodien von
-      <lb facs="#facs_2_region_1684578074813_614_tl_14" n="N014"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Orgeni</rs>ʼs</hi> Lippen zögernd und sentimental; sie
+      <lb facs="#facs_2_region_1684578074813_614_tl_6" n="N006"/>Mezzavoce zu liegen scheint. Vortrefflich ist ferner die Aus
+      <lb facs="#facs_2_region_1684578074813_614_tl_7" n="N007" break="no"/>sprache. Was wir von Coloratur hörten, war nur theil
+      <lb facs="#facs_2_region_1684578074813_614_tl_8" n="N008" break="no"/>weise gelungen und jedenfalls mehr glückliche Anlage zur Bra
+      <lb facs="#facs_2_region_1684578074813_614_tl_9" n="N009" break="no"/>vour, als Bravour selbst. Es fehlt dieser die ruhige Sicher
+      <lb facs="#facs_2_region_1684578074813_614_tl_10" n="N010" break="no"/>heit, Leichtigkeit und vor Allem der Glanz.</p>
+   <p><lb facs="#facs_2_region_1684578074813_614_tl_11" n="N011"/>Vortrag und Spiel tragen den Charakter einer ruhigen
+      <lb facs="#facs_2_region_1684578074813_614_tl_12" n="N012"/>Passivität, welche allerdings weder das Edle noch das An
+      <lb facs="#facs_2_region_1684578074813_614_tl_13" n="N013" break="no"/>muthige ausschließt. Fast durchwegs fließen die Melodien von
+      <lb facs="#facs_2_region_1684578074813_614_tl_14" n="N014"/>Fräulein <hi rendition="#em"><rs type="person">Orgeni</rs>ʼs</hi> Lippen zögernd und sentimental; sie
       <lb facs="#facs_2_region_1684578074813_614_tl_15" n="N015"/>liebt es überdies, die Tempi auffallend langsam zu nehmen
       <lb facs="#facs_2_region_1684578074813_614_tl_16" n="N016"/>und den Strom der Melodie durch viele Ritardandos zu hemmen.
-      <lb facs="#facs_2_region_1684578074813_614_tl_17" n="N017"/>Der Vortrag bekommt dadurch etwas Stockendes, Verspäte¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_18" n="N018"/>tes, das den Hörer ermattet. Wie getragen und sentimental
+      <lb facs="#facs_2_region_1684578074813_614_tl_17" n="N017"/>Der Vortrag bekommt dadurch etwas Stockendes, Verspäte
+      <lb facs="#facs_2_region_1684578074813_614_tl_18" n="N018" break="no"/>tes, das den Hörer ermattet. Wie getragen und sentimental
       <lb facs="#facs_2_region_1684578074813_614_tl_19" n="N019"/>sang Fräulein <rs type="person">Orgeni</rs> die erste Begegnung mit <rs type="person">Faust</rs> und
-      <lb facs="#facs_2_region_1684578074813_614_tl_20" n="N020"/>die Gesprächsstellen im Garten („Mein Bruder ist Sol¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_21" n="N021"/>dat ec.“) Man kann Gesang und Spiel recht eigentlich
+      <lb facs="#facs_2_region_1684578074813_614_tl_20" n="N020"/>die Gesprächsstellen im Garten („Mein Bruder ist Sol
+      <lb facs="#facs_2_region_1684578074813_614_tl_21" n="N021" break="no"/>dat ec.“) Man kann Gesang und Spiel recht eigentlich
       <lb facs="#facs_2_region_1684578074813_614_tl_22" n="N022"/>„distinguirt“ nennen, vornehm mit einem Beigeschmack vom
       <lb facs="#facs_2_region_1684578074813_614_tl_23" n="N023"/>Salon. Uns wenigstens sind Fräulein <rs type="person">Orgeni</rs>ʼs <rs type="person">Amina</rs> und
-      <lb facs="#facs_2_region_1684578074813_614_tl_24" n="N024"/>
-               <rs type="person">Gretchen</rs> mitunter wie verkleidete Damen vorgekommen.
+      <lb facs="#facs_2_region_1684578074813_614_tl_24" n="N024"/><rs type="person">Gretchen</rs> mitunter wie verkleidete Damen vorgekommen.
       <lb facs="#facs_2_region_1684578074813_614_tl_25" n="N025"/>In der „<rs type="bibl">Nachtwandlerin</rs>“, schlug dieser „distinguirte“ Zug
       <lb facs="#facs_2_region_1684578074813_614_tl_26" n="N026"/>sogar bis ins Costüm hinüber: <rs type="person">Amina</rs> erschien in einem lang
       <lb facs="#facs_2_region_1684578074813_614_tl_27" n="N027"/>nachschleppenden Damen-Negligé mit herabfallenden offenen
       <lb facs="#facs_2_region_1684578074813_614_tl_28" n="N028"/>Aermeln. Diese gleichförmige ruhig sentimentale Haltung gibt
       <lb facs="#facs_2_region_1684578074813_614_tl_29" n="N029"/>den Bühnenleistungen Fräulein <rs type="person">Orgeni</rs>ʼs eine unleugbare
-      <lb facs="#facs_2_region_1684578074813_614_tl_30" n="N030"/>Einheit, aber es ist nicht jene Einheit, welche die mannich¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_31" n="N031"/>faltigen, vielfarbigen Strahlen schließlich in Eine Lichtgarbe
-      <lb facs="#facs_2_region_1684578074813_614_tl_32" n="N032"/>zusammenfaßt, sondern die monotone Einheit des weißen un¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_33" n="N033"/>gebrochenen Lichtes. Dieser Mangel an warmer, kräftigen
-      <lb facs="#facs_2_region_1684578074813_614_tl_34" n="N034"/>Farbe, an Feuer und Leidenschaft ist, was uns in den Lei¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_35" n="N035"/>stungen Fräulein <hi rendition="#em">
-                  <rs type="person">Orgeni</rs>ʼs</hi> am empfindlichsten berührt. Die
+      <lb facs="#facs_2_region_1684578074813_614_tl_30" n="N030"/>Einheit, aber es ist nicht jene Einheit, welche die mannich
+      <lb facs="#facs_2_region_1684578074813_614_tl_31" n="N031" break="no"/>faltigen, vielfarbigen Strahlen schließlich in Eine Lichtgarbe
+      <lb facs="#facs_2_region_1684578074813_614_tl_32" n="N032"/>zusammenfaßt, sondern die monotone Einheit des weißen un
+      <lb facs="#facs_2_region_1684578074813_614_tl_33" n="N033" break="no"/>gebrochenen Lichtes. Dieser Mangel an warmer, kräftigen
+      <lb facs="#facs_2_region_1684578074813_614_tl_34" n="N034"/>Farbe, an Feuer und Leidenschaft ist, was uns in den Lei
+      <lb facs="#facs_2_region_1684578074813_614_tl_35" n="N035" break="no"/>stungen Fräulein <hi rendition="#em"><rs type="person">Orgeni</rs>ʼs</hi> am empfindlichsten berührt. Die
       <lb facs="#facs_2_region_1684578074813_614_tl_36" n="N036"/>geringe Wirkung der Liebesscene im Garten, das Ausbleiben
       <lb facs="#facs_2_region_1684578074813_614_tl_37" n="N037"/>aller Wirkung in der Domscene und Anderes deuten darauf,
       <lb facs="#facs_2_region_1684578074813_614_tl_38" n="N038"/>dass jene lebendige Empfindung und überzeugende Kraft des
       <lb facs="#facs_2_region_1684578074813_614_tl_39" n="N039"/>Ausdrucks, welche die Grundbedingung dramatischer Wirkung
-      <lb facs="#facs_2_region_1684578074813_614_tl_40" n="N040"/>bilden, in Fräulein <hi rendition="#em">
-                  <rs type="person">Orgeni</rs>
-               </hi> bis jetzt nur schwach vorhanden
-      <lb facs="#facs_2_region_1684578074813_614_tl_41" n="N041"/>sind. Wir glauben darum, daß Fräulein <hi rendition="#em">
-                  <rs type="person">Orgeni</rs>
-               </hi> ihre rein¬
-      <lb facs="#facs_2_region_1684578074813_614_tl_42" n="N042"/>sten Erfolge im Concertsaal erringen werde.</p>
+      <lb facs="#facs_2_region_1684578074813_614_tl_40" n="N040"/>bilden, in Fräulein <hi rendition="#em"><rs type="person">Orgeni</rs></hi> bis jetzt nur schwach vorhanden
+      <lb facs="#facs_2_region_1684578074813_614_tl_41" n="N041"/>sind. Wir glauben darum, daß Fräulein <hi rendition="#em"><rs type="person">Orgeni</rs></hi> ihre rein
+      <lb facs="#facs_2_region_1684578074813_614_tl_42" n="N042" break="no"/>sten Erfolge im Concertsaal erringen werde.</p>
          </div>
       </body>
    </text>
