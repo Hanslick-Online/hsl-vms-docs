@@ -1,4 +1,7 @@
-[![Build and publish](https://github.com/acdh-oeaw/hanslick-vms/actions/workflows/build.yml/badge.svg)](https://github.com/acdh-oeaw/hanslick-vms/actions/workflows/build.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8366170.svg)](https://doi.org/10.5281/zenodo.8366170)
+[![Build and publish](https://github.com/acdh-oeaw/hanslick-vms/actions/workflows/build.yml/badge.svg)](https://github.com/acdh-oeaw/hanslick-vms/actions/workflows/build.yml) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10033004.svg)](https://doi.org/10.5281/zenodo.10033004)
+
+
 
 # Hanslick Digitale Edition: Hanslicks Schriften für die "Neue Freie Presse"
 
