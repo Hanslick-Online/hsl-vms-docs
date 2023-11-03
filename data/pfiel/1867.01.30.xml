@@ -108,6 +108,7 @@
          <change who="delsner" when="2023-10-09">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-10-12" who="ampfiel">Zeilenumbrüche, Fußnote auflösen</change>
          <change when="2023-10-27" who="ampfiel">ref für Place ausfüllen, und bibl angefangen</change>
+         <change when="2023-11-03" who="ampfiel">ref fertig ausgefüllt außer person: König Friedrich/Fritz und Hr. Erl</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1058,7 +1059,7 @@
             <rs type="person" ref="#hsl_person_id_163">Lind</rs>
                </hi>, das Tambourin
       <lb facs="#facs_1_region_1684576778825_164_tl_12" n="N012"/>in der Hand, als 
-                     <rs type="person">Vielka</rs>. Ja, der Weg zum „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“
+                     <rs type="person" ref="#hsl_person_id_3209">Vielka</rs>. Ja, der Weg zum „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“
       <lb facs="#facs_1_region_1684576778825_164_tl_13" n="N013"/>führt über eine geliebte Leiche, über <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s ältere und
       <lb facs="#facs_1_region_1684576778825_164_tl_14" n="N014"/>bessere Oper: „
                      <rs type="bibl" ref="#hsl_work_id_8">Das Feldlager in Schlesien</rs>“ (in 
@@ -1163,7 +1164,7 @@
       <lb facs="#facs_1_region_1684576786373_170_tl_14" n="N014"/>Bergen spielen sollte. Diese Localität dünkte ihm zu uninter
       <lb facs="#facs_1_region_1684576786373_170_tl_15" n="N015" break="no"/>essant; vor dem <rs type="place" ref="#hsl_place_id_133">schottisch</rs>en Costüme der ursprünglich zu
       <lb facs="#facs_1_region_1684576786373_170_tl_16" n="N016"/>Grunde liegenden <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>’schen Novelle scheute er sich
-      <lb facs="#facs_1_region_1684576786373_170_tl_17" n="N017"/>aber aus Furcht vor einem Vergleich mit der „<rs type="bibl">Weißen
+      <lb facs="#facs_1_region_1684576786373_170_tl_17" n="N017"/>aber aus Furcht vor einem Vergleich mit der „<rs type="bibl" ref="#hsl_work_id_1361">Weißen
                <lb facs="#facs_1_region_1684576786373_170_tl_18" n="N018"/>Frau</rs>“
                   <note type="footnote" n="*)">
                      <lb facs="#facs_1_line_1695417749231_909" n="N034"/>Auch 
@@ -1210,13 +1211,13 @@
       <lb facs="#facs_2_region_1684576797162_176_tl_8" n="N010" break="no"/>rer Scandal ist mit historischen Persönlichkeiten und Thatsachen bis
       <lb facs="#facs_2_region_1684576797162_176_tl_9" n="N011" break="no"/>her nicht getrieben worden, als in <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_284">Scribe</rs>’s</hi> Textbuch zum „<rs type="bibl" ref="#hsl_work_id_139">Nord
-               <lb facs="#facs_2_region_1684576797162_176_tl_10" n="N012" break="no"/>stern</rs>“. Dieser rohe Trunkenbold <rs type="person">Petroff</rs>, welcher fortwährend
+               <lb facs="#facs_2_region_1684576797162_176_tl_10" n="N012" break="no"/>stern</rs>“. Dieser rohe Trunkenbold <rs type="person" ref="#hsl_person_id_1147">Petroff</rs>, welcher fortwährend
       <lb facs="#facs_2_region_1684576797162_176_tl_11" n="N013"/>zwischen bestialischem Zorn und schwächlicher Sentimentalität,
       <lb facs="#facs_2_region_1684576797162_176_tl_12" n="N014"/>zwischen Axt und Flöte taumelt, hat mit dem gewaltigen Re
       <lb facs="#facs_2_region_1684576797162_176_tl_13" n="N015" break="no"/>formator <rs type="place" ref="#hsl_place_id_48">Rußland</rs>s ebensowenig gemein, als der irrsinnig ge
       <lb facs="#facs_2_region_1684576797162_176_tl_14" n="N016" break="no"/>wordene 
-                     <rs type="person">Recrut</rs> des „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ mit der nur zu verständigen
-      <lb facs="#facs_2_region_1684576797162_176_tl_15" n="N017"/>Kaiserin <rs type="person">Katharina</rs>. Die historischen und dramatischen Un
+                     <rs type="person" ref="#hsl_person_id_3210">Recrut</rs> des „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ mit der nur zu verständigen
+      <lb facs="#facs_2_region_1684576797162_176_tl_15" n="N017"/>Kaiserin <rs type="person" ref="#hsl_person_id_3211">Katharina</rs>. Die historischen und dramatischen Un
       <lb facs="#facs_2_region_1684576797162_176_tl_16" n="N018" break="no"/>wahrscheinlichkeiten häufen sich von Scene zu Scene mit einer
       <lb facs="#facs_2_region_1684576797162_176_tl_17" n="N019"/>Schnelligkeit und gipfeln im dritten Act zu einer Höhe des
       <lb facs="#facs_2_region_1684576797162_176_tl_18" n="N020"/>Unsinns, vor welcher selbst ein Köhlerglaube zurückweicht und
@@ -1231,7 +1232,7 @@
       <lb facs="#facs_2_line_1695419596332_1245" n="N026"/>mit diesen <rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>-Stücken vornehmen mußten, ist nicht min
       <lb facs="#facs_2_region_1684576797162_176_tl_23" n="N027" break="no"/>der merkwürdig, ja sie steht in der Musikgeschichte einzig da.
       <lb facs="#facs_2_region_1684576797162_176_tl_24" n="N028"/>So hat der imposante Soldatenchor in C-moll im „<rs type="bibl" ref="#hsl_work_id_8">Feld
-      <lb facs="#facs_2_region_1684576797162_176_tl_25" n="N029" break="no"/>lager</rs>“ die Begeisterung der für ihren <rs type="person" ref="#hsl_person_id_83">König</rs> kämpfenden
+      <lb facs="#facs_2_region_1684576797162_176_tl_25" n="N029" break="no"/>lager</rs>“ die Begeisterung der für ihren <rs type="person" ref="??hsl_person_id_83">König</rs> kämpfenden
       <lb facs="#facs_2_region_1684576797162_176_tl_26" n="N030"/>Truppen zum Inhalt; nach einer prachtvollen Steigerung
       <lb facs="#facs_2_region_1684576797162_176_tl_27" n="N031"/>gipfelt sich dieser Enthusiasmus in dem hellen C-dur-Trio:
       <lb facs="#facs_2_region_1684576797162_176_tl_28" n="N032"/>„Die Trommel dröhnt, die Fahnen weh’n!“ Im „<hi rendition="#em">
@@ -1271,34 +1272,36 @@
       <lb facs="#facs_2_region_1684576801500_179_tl_24" n="N024"/>eines der gefeiertesten Söhne <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s jedesmal in uns
       <lb facs="#facs_2_region_1684576801500_179_tl_25" n="N025"/>aufwühlt. Schließlich wollen wir nur noch der wesent
       <lb facs="#facs_2_region_1684576801500_179_tl_26" n="N026" break="no"/>lich veränderten Bedeutung gedenken, welche die be
-      <lb facs="#facs_2_region_1684576801500_179_tl_27" n="N027" break="no"/>rühmte <hi rendition="#em">Flöten-Arie</hi> der <rs type="person">Vielka</rs> in dem Munde
+      <lb facs="#facs_2_region_1684576801500_179_tl_27" n="N027" break="no"/>rühmte <hi rendition="#em">Flöten-Arie</hi> der <rs type="person" ref="#hsl_person_id_3209">Vielka</rs> in dem Munde
       <lb facs="#facs_2_region_1684576801500_179_tl_28" n="N028"/>
-                     <rs type="person">Katharina</rs>’s annimmt. Im „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ ist diese Scene
-      <lb facs="#facs_2_region_1684576801500_179_tl_29" n="N029"/>ein heiteres Genrebild: <rs type="person">Vielka</rs> ermuntert ihren Geliebten, das
+                     <rs type="person" ref="#hsl_person_id_3210">Katharina</rs>’s annimmt. Im „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ ist diese Scene
+      <lb facs="#facs_2_region_1684576801500_179_tl_29" n="N029"/>ein heiteres Genrebild: <rs type="person" ref="#hsl_person_id_3209">Vielka</rs> ermuntert ihren Geliebten, das
       <lb facs="#facs_2_region_1684576801500_179_tl_30" n="N030"/>aus dem Gartenzimmer des <rs type="person">König</rs>s erklingende Flöten-Concert
       <lb facs="#facs_2_region_1684576801500_179_tl_31" n="N031"/>nachzuspielen, und hilft durch Mitsingen der Melodie dem
-      <lb facs="#facs_2_region_1684576801500_179_tl_32" n="N032"/>schwächeren Musikgedächtniß <rs type="person">Conrad</rs>’s nach. Die Scene bietet
+      <lb facs="#facs_2_region_1684576801500_179_tl_32" n="N032"/>schwächeren Musikgedächtniß <rs type="person" ref="#hsl_person_id_3216">Conrad</rs>’s nach. Die Scene bietet
       <lb facs="#facs_2_region_1684576801500_179_tl_33" n="N033"/>den seltenen Fall der dramatisch motivirten Stellung eines
-      <lb facs="#facs_2_region_1684576801500_179_tl_34" n="N034"/>Virtuosenstücks in der Oper, und <rs type="person">Vielka</rs> singt die schwierigen
+      <lb facs="#facs_2_region_1684576801500_179_tl_34" n="N034"/>Virtuosenstücks in der Oper, und <rs type="person" ref="#hsl_person_id_3209">Vielka</rs> singt die schwierigen
       <lb facs="#facs_2_region_1684576801500_179_tl_35" n="N035"/>Flöten-Passagen mit jener leichten, siegesfrohen Sicherheit
       <lb facs="#facs_2_line_1695419678930_1273" n="N036"/>nach, welche den echtesten und gewinnendsten Charakterzug der
             <cb n="6"/>
                <lb facs="#facs_2_line_1695419731493_1293" n="N001"/>Virtuosität bildet. Dies reizende Flöten-Wettspiel, das im
       <lb facs="#facs_2_region_1684576805570_182_tl_1" n="N002"/>„<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ keine andere Bedeutung anspricht, als Freude
       <lb facs="#facs_2_region_1684576805570_182_tl_2" n="N003"/>am Musiciren, dient im „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ zur methodischen Heilung
-      <lb facs="#facs_2_region_1684576805570_182_tl_3" n="N004"/>einer Irrsinnigen! <rs type="person">Peter</rs> der Große und der Tischler <rs type="person">Georg</rs>
+      <lb facs="#facs_2_region_1684576805570_182_tl_3" n="N004"/>einer Irrsinnigen! 
+                     <rs type="person" ref="#hsl_person_id_1147">Peter</rs> der Große und der Tischler <rs type="person" ref="#hsl_person_id_3215">Georg</rs>
                <lb facs="#facs_2_region_1684576805570_182_tl_4" n="N005"/>blasen von beiden Seiten des Saales das Flöten-Concert,
-      <lb facs="#facs_2_region_1684576805570_182_tl_5" n="N006"/>während die geisteskranke <rs type="person">Katharina</rs>, bleich und irren Blickes,
+      <lb facs="#facs_2_region_1684576805570_182_tl_5" n="N006"/>während die geisteskranke <rs type="person" ref="#hsl_person_id_3210">Katharina</rs>, bleich und irren Blickes,
       <lb facs="#facs_2_region_1684576805570_182_tl_6" n="N007"/>die bekannten Töne in ihrem verwirrten Gedächtnisse aufsucht
       <lb facs="#facs_2_region_1684576805570_182_tl_7" n="N008"/>und nachzusingen trachtet. Mit welcher ins Widerliche ver
       <lb facs="#facs_2_region_1684576805570_182_tl_8" n="N009" break="no"/>kehrten Empfindung man die „Flöten-Arie“ in <hi rendition="#em">dieser</hi> Situa
       <lb facs="#facs_2_region_1684576805570_182_tl_9" n="N010" break="no"/>tion hört, ist nur zu einleuchtend. <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_2186">Rellstab</rs>
                </hi> hat in seinem
-      <lb facs="#facs_2_region_1684576805570_182_tl_10" n="N011"/>Text zum „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ das Flötenspiel <rs type="person">Friedrich</rs>’s des Großen
+      <lb facs="#facs_2_region_1684576805570_182_tl_10" n="N011"/>Text zum „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ das Flötenspiel 
+                     <rs type="person" ref="#hsl_person_id_83">Friedrich</rs>’s des Großen
       <lb facs="#facs_2_region_1684576805570_182_tl_11" n="N012"/>(eine weltbekannte historische Reminiscenz, welche, auf Czar
       <lb facs="#facs_2_region_1684576805570_182_tl_12" n="N013"/>
-               <rs type="person">Peter</rs> übertragen, gar keinen Sinn hat) als ein glück
+               <rs type="person" ref="#hsl_person_id_1147">Peter</rs> übertragen, gar keinen Sinn hat) als ein glück
       <lb facs="#facs_2_region_1684576805570_182_tl_13" n="N014" break="no"/>liches Auskunftsmittel benützt, die Gegenwart des gro
       <lb facs="#facs_2_region_1684576805570_182_tl_14" n="N015" break="no"/>ßen <rs type="person">Fritz</rs> anzudeuten, dessen wirkliches Erscheinen auf
       <lb facs="#facs_2_region_1684576805570_182_tl_15" n="N016"/>der Bühne durch eine strenge Etiquette verboten ist.
@@ -1306,93 +1309,96 @@
       <lb facs="#facs_2_region_1684576805570_182_tl_17" n="N018" break="no"/>sichten der Dichtkunst ein so reiches nationales Stoff
       <lb facs="#facs_2_region_1684576805570_182_tl_18" n="N019" break="no"/>gebiet und sich selbst einen so mächtigen Hebel patriotischer
       <lb facs="#facs_2_region_1684576805570_182_tl_19" n="N020"/>Begeisterung entziehen? Werden wir es noch erleben, daß
-      <lb facs="#facs_2_region_1684576805570_182_tl_20" n="N021"/>die glorreichen Gestalten unserer <rs type="person">Maria Theresia</rs> und <rs type="person">Jo
+      <lb facs="#facs_2_region_1684576805570_182_tl_20" n="N021"/>die glorreichen Gestalten unserer 
+                     <rs type="person" ref="#hsl_person_id_3225">Maria Theresia</rs> und <rs type="person" ref="#hsl_person_id_823">Jo
                <lb facs="#facs_2_region_1684576805570_182_tl_21" n="N022" break="no"/>seph</rs>’s des Zweiten vor dem begeisterten Volke lebendig werden?
       <lb facs="#facs_2_region_1684576805570_182_tl_22" n="N023"/>
                <hi rendition="#em">
-                  <rs type="person">Maria Theresia</rs>
+                     <rs type="person" ref="#hsl_person_id_3225">Maria Theresia</rs>
                </hi> ist allerdings schon einmal als Heldin
       <lb facs="#facs_2_region_1684576805570_182_tl_23" n="N024"/>einer Oper gefeiert worden. Die Geschichte ist sehr wenig be
       <lb facs="#facs_2_region_1684576805570_182_tl_24" n="N025" break="no"/>kannt und dürfte namentlich für den <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Leserkreis
       <lb facs="#facs_2_region_1684576805570_182_tl_25" n="N026"/>nicht ohne Interesse sein. Der <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Maler <hi rendition="#em">
-                  <rs type="person">Frago
+                  <rs type="person" ref="#hsl_person_id_3207">Frago
                <lb facs="#facs_2_region_1684576805570_182_tl_26" n="N027" break="no"/>nard</rs>
                </hi> hatte in den <date from="1820" to="1829">Zwanziger-Jahren</date> dieses Jahrhunderts
-      <lb facs="#facs_2_region_1684576805570_182_tl_27" n="N028"/>ein großes Bild: „<rs type="bibl">Maria Theresia mit dem kleinen Joseph</rs>
-               <lb facs="#facs_2_region_1684576805570_182_tl_28" n="N029"/>
-                     <rs type="bibl">auf dem Arme</rs>“, in <rs type="place" ref="#hsl_place_id_44">Paris</rs> ausgestellt, welches durch seinen
+      <lb facs="#facs_2_region_1684576805570_182_tl_27" n="N028"/>ein großes Bild: „<rs type="bibl" ref="#hsl_work_id_1891">Maria Theresia mit dem kleinen Joseph
+               <lb facs="#facs_2_region_1684576805570_182_tl_28" n="N029"/>auf dem Arme</rs>“, in <rs type="place" ref="#hsl_place_id_44">Paris</rs> ausgestellt, welches durch seinen
       <lb facs="#facs_2_region_1684576805570_182_tl_29" n="N030"/>dramatischen Effect den Poeten <hi rendition="#em">
-                  <rs type="person">Bernard</rs>
+                  <rs type="person" ref="#hsl_person_id_3222">Bernard</rs>
                </hi> zu einem Opern
       <lb facs="#facs_2_region_1684576805570_182_tl_30" n="N031" break="no"/>text begeisterte. Dieses nach der großen Kaiserin betitelte
       <lb facs="#facs_2_region_1684576805570_182_tl_31" n="N032"/>Libretto wurde von der Theater-Jury einstimmig approbirt,
       <lb facs="#facs_2_region_1684576805570_182_tl_32" n="N033"/>angenommen und dem durch seine Romanzen berühmt ge
       <lb facs="#facs_2_region_1684576805570_182_tl_33" n="N034" break="no"/>wordenen Tondichter Felix <hi rendition="#em">
-                  <rs type="person">Blangini</rs>
+            <rs type="person" ref="#hsl_person_id_3208">Blangini</rs>
                </hi> zur Composition anver
-      <lb facs="#facs_2_region_1684576805570_182_tl_34" n="N035" break="no"/>traut. <rs type="person">Blangini</rs> (welcher in seinen <date when="1834">1834</date> erschienenen Memoiren
+            <lb facs="#facs_2_region_1684576805570_182_tl_34" n="N035" break="no"/>traut. 
+                     <rs type="person" ref="#hsl_person_id_3208">Blangini</rs> (welcher in seinen <date when="1834">1834</date> erschienenen Memoiren
       <lb facs="#facs_2_line_1695419852318_1401" n="N036"/>ausführlich davon erzählt) componirte die Oper; Madame
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
                <lb facs="#facs_3_region_1684576816063_188_tl_1" n="N001"/>
                <hi rendition="#em">
-                  <rs type="person">Branchu</rs>
+                  <rs type="person" ref="#hsl_person_id_3218">Branchu</rs>
                </hi>, die treffliche dramatische Sängerin, sollte die
       <lb facs="#facs_3_region_1684576816063_188_tl_2" n="N002"/>
-               <rs type="person">Maria Theresia</rs> singen und studirte eifrigst die Rolle mit
+                     <rs type="person" ref="#hsl_person_id_3217">Maria Theresia</rs> singen und studirte eifrigst die Rolle mit
       <lb facs="#facs_3_region_1684576816063_188_tl_3" n="N003"/>
                <hi rendition="#em">
-                  <rs type="person">Garat</rs>
+                  <rs type="person" ref="#hsl_person_id_3219">Garat</rs>
                </hi>. Die Proben hatten unter R. <hi rendition="#em">
-                  <rs type="person">Kreutzer</rs>’s</hi> Leitung
-      <lb facs="#facs_3_region_1684576816063_188_tl_4" n="N004"/>begonnen; der Tag der Aufführung nahte. Da wird <rs type="person">Blan
+                  <rs type="person" ref="#hsl_person_id_3221">Kreutzer</rs>’s</hi> Leitung
+      <lb facs="#facs_3_region_1684576816063_188_tl_4" n="N004"/>begonnen; der Tag der Aufführung nahte. Da wird <rs type="person" ref="#hsl_person_id_3208">Blan
                <lb facs="#facs_3_region_1684576816063_188_tl_5" n="N005" break="no"/>gini</rs> plötzlich mitgetheilt, daß im Ministerrath das
-      <lb facs="#facs_3_region_1684576816063_188_tl_6" n="N006"/>Verbot von „<rs type="person">Marie-Thérèse</rs>“ beschlossen worden sei. Nie
+      <lb facs="#facs_3_region_1684576816063_188_tl_6" n="N006"/>Verbot von „<rs type="bibl" ref="#hsl_work_id_1892">Marie-Thérèse</rs>“ beschlossen worden sei. Nie
       <lb facs="#facs_3_region_1684576816063_188_tl_7" n="N007" break="no"/>mand weiß sich das Verbot zu erklären, das keinerlei Moti
       <lb facs="#facs_3_region_1684576816063_188_tl_8" n="N008" break="no"/>virung enthielt. <hi rendition="#em">
-                  <rs type="person">Blangini</rs>
+            <rs type="person" ref="#hsl_person_id_3208">Blangini</rs>
                </hi> eilt zur Censurbehörde, diese
       <lb facs="#facs_3_region_1684576816063_188_tl_9" n="N009"/>versichert, gänzlich unschuldig zu sein. Endlich erlangt der un
       <lb facs="#facs_3_region_1684576816063_188_tl_10" n="N010" break="no"/>glückliche Componist eine Audienz bei dem General-Director
       <lb facs="#facs_3_region_1684576816063_188_tl_11" n="N011"/>der Polizei, welcher ihm nach einigen ausweichenden Phrasen
       <lb facs="#facs_3_region_1684576816063_188_tl_12" n="N012"/>begütigend zuflüstert: „Die ganze Sache läßt sich noch arran
-      <lb facs="#facs_3_region_1684576816063_188_tl_13" n="N013" break="no"/>giren, wenn Sie aus dem Söhnchen, mit welchem <rs type="person">Maria 
+      <lb facs="#facs_3_region_1684576816063_188_tl_13" n="N013" break="no"/>giren, wenn Sie aus dem Söhnchen, mit welchem 
+                     <rs type="person" ref="#hsl_person_id_3225">Maria 
       <lb facs="#facs_3_region_1684576816063_188_tl_14" n="N014"/>Theresia</rs> vor dem <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en Landtag erscheint, eine <hi rendition="#em">Tochter</hi>
                <lb facs="#facs_3_region_1684576816063_188_tl_15" n="N015"/>machen.“ Man fürchtete nämlich, daß die feierliche Ansprache
       <lb facs="#facs_3_region_1684576816063_188_tl_17" n="N016"/>der Kaiserin: „Voilà l’enfant de la patrie!“ und ihr „beim
       <lb facs="#facs_3_region_1684576816063_188_tl_19" n="N017"/>Grab des Vaters und bei der Wiege des Sohnes“ geleisteter
-      <lb facs="#facs_3_region_1684576816063_188_tl_20" n="N018"/>Schwur <rs type="person">napoleon</rs>ische Demonstrationen hervorrufen und man
-      <lb facs="#facs_3_region_1684576816063_188_tl_21" n="N019"/>das Söhnlein auf dem Arm <rs type="person">Maria Theresia</rs>’s als eine An
+      <lb facs="#facs_3_region_1684576816063_188_tl_20" n="N018"/>Schwur <rs type="person" ref="#hsl_person_id_39">napoleon</rs>ische Demonstrationen hervorrufen und man
+      <lb facs="#facs_3_region_1684576816063_188_tl_21" n="N019"/>das Söhnlein auf dem Arm 
+                     <rs type="person" ref="#hsl_person_id_3225">Maria Theresia</rs>’s als eine An
       <lb facs="#facs_3_line_1695422022351_1797" n="N020" break="no"/>spielung auf den jungen 
                      <rs type="person">König</rs> von <rs type="place" ref="#hsl_place_id_47">Rom</rs> begrüßen würde.
       <lb facs="#facs_3_line_1695422025567_1800" n="N021"/>
                <hi rendition="#em">
-                  <rs type="person">Blangini</rs></hi> hatte zu viel Respect vor der Weltgeschichte, um
+                     <rs type="person" ref="#hsl_person_id_3208">Blangini</rs></hi> hatte zu viel Respect vor der Weltgeschichte, um
       <lb facs="#facs_3_line_1695422028121_1803" n="N022"/>sich zu dieser Aenderung zu bequem (<hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_139">Nord
                <lb facs="#facs_3_region_1684576816063_188_tl_23" n="N023" break="no"/>stern</rs>“ war noch nicht erschienen), und so ist denn seine
-      <lb facs="#facs_3_region_1684576816063_188_tl_24" n="N024"/>„<rs type="bibl">Marie-Thérèse</rs>“ zwar im Clavierauszug gedruckt, aber nie
+      <lb facs="#facs_3_region_1684576816063_188_tl_24" n="N024"/>„<rs type="bibl" ref="#hsl_work_id_1892">Marie-Thérèse</rs>“ zwar im Clavierauszug gedruckt, aber nie
       <lb facs="#facs_3_region_1684576816063_188_tl_25" n="N025" break="no"/>mals aufgeführt worden.</p>
                <p>
                      <lb facs="#facs_3_region_1684576816063_188_tl_26" n="N026"/>Was die Aufführung des „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ im Hofopern
       <lb facs="#facs_3_region_1684576816063_188_tl_27" n="N027" break="no"/>theater betrifft, so gebührt Herrn <hi rendition="#em">
-                  <rs type="person">Beck</rs>
+            <rs type="person" ref="#hsl_person_id_24">Beck</rs>
                </hi>, welcher die übrigen
       <lb facs="#facs_3_region_1684576816063_188_tl_28" n="N028"/>Mitspielenden weit überragte, das erste und unbeschränkteste
-      <lb facs="#facs_3_region_1684576816063_188_tl_29" n="N029"/>Lob. Sein Czar <rs type="person">Peter</rs> war schon bei den ersten Vorstellun
+      <lb facs="#facs_3_region_1684576816063_188_tl_29" n="N029"/>Lob. Sein Czar <rs type="person" ref="#hsl_person_id_1147">Peter</rs> war schon bei den ersten Vorstellun
       <lb facs="#facs_3_region_1684576816063_188_tl_30" n="N030" break="no"/>gen, also vor zehn Jahren, eine Figur voll Energie und Le
       <lb facs="#facs_3_region_1684576816063_188_tl_31" n="N031" break="no"/>bendigkeit; seither hat <hi rendition="#em">
-                  <rs type="person">Beck</rs>
+            <rs type="person" ref="#hsl_person_id_24">Beck</rs>
                </hi> die Rolle in den musikalischen
       <lb facs="#facs_3_region_1684576816063_188_tl_32" n="N032"/>Details noch sorgfältiger ausgearbeitet und (wie namentlich
       <lb facs="#facs_3_region_1684576816063_188_tl_33" n="N033"/>die Zeltscene darthat) ganz auffallende Fortschritte als Schau
       <lb facs="#facs_3_region_1684576816063_188_tl_34" n="N034" break="no"/>spieler gemacht. Kaum wird ein zweiter Sänger dieser im
       <lb facs="#facs_3_region_1684576816063_188_tl_35" n="N035"/>Grunde widerlichen Rolle so viel Wirkung und Reiz abge
       <lb facs="#facs_3_region_1684576816063_188_tl_36" n="N036" break="no"/>winnen, als Herr <hi rendition="#em">
-                  <rs type="person">Beck</rs></hi>, dem auch die Gunst des Publicums
+            <rs type="person" ref="#hsl_person_id_24">Beck</rs></hi>, dem auch die Gunst des Publicums
       <lb facs="#facs_3_region_1684576816063_188_tl_37" n="N037"/>sich im vollsten Maße zuwendete. Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs></hi> hatte
-      <lb facs="#facs_3_region_1684576816063_188_tl_38" n="N038"/>als <rs type="person">Katharina</rs> insoferne einen erschwerten Stand, als ihr die
+            <rs type="person" ref="#hsl_person_id_190">Murska</rs></hi> hatte
+      <lb facs="#facs_3_region_1684576816063_188_tl_38" n="N038"/>als <rs type="person" ref="#hsl_person_id_3210">Katharina</rs> insoferne einen erschwerten Stand, als ihr die
             <cb n="8"/>
                <lb facs="#facs_3_region_1684576819807_191_tl_1" n="N001"/>frühere Darstellerin dieser Rolle, Fräulein <hi rendition="#em">
                      <rs type="person" ref="#hsl_person_id_326">Wildauer</rs></hi>, im
@@ -1401,55 +1407,56 @@
       <lb facs="#facs_3_line_1695421931153_1714" n="N004"/>Vortrag schauspielerisches Talent und einigen Humor ver
       <lb facs="#facs_3_region_1684576819807_191_tl_4" n="N005" break="no"/>langt. Nach dieser ohne alle Wirkung verklungenen Nummer
       <lb facs="#facs_3_region_1684576819807_191_tl_5" n="N006"/>steigerte sich aber die Leistung Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs>’s</hi> bis zum
-      <lb facs="#facs_3_region_1684576819807_191_tl_6" n="N007"/>Ende. <rs type="person">Katharina</rs> ist wesentlich Coloratur-Partie, ihre zahl
+            <rs type="person" ref="#hsl_person_id_190">Murska</rs>’s</hi> bis zum
+      <lb facs="#facs_3_region_1684576819807_191_tl_6" n="N007"/>Ende. <rs type="person" ref="#hsl_person_id_3210">Katharina</rs> ist wesentlich Coloratur-Partie, ihre zahl
       <lb facs="#facs_3_region_1684576819807_191_tl_7" n="N008" break="no"/>losen Triller und Rouladen erheben gewichtigere Ansprüche,
       <lb facs="#facs_3_region_1684576819807_191_tl_8" n="N009"/>als die paar schwachen dramatischen Anläufe. Fräulein
       <lb facs="#facs_3_region_1684576819807_191_tl_9" n="N010"/>
                <hi rendition="#em">
-                  <rs type="person">Murska</rs>
+                     <rs type="person" ref="#hsl_person_id_190">Murska</rs>
                </hi> schwamm somit fast ununterbrochen in ihrem
       <lb facs="#facs_3_region_1684576819807_191_tl_10" n="N011"/>eigensten Elemente und übertraf nicht blos, wie zu vermuthen
       <lb facs="#facs_3_region_1684576819807_191_tl_11" n="N012"/>war, die Gesangs-Virtuosität ihrer Vorgängerin, son
       <lb facs="#facs_3_region_1684576819807_191_tl_12" n="N013" break="no"/>dern näherte sich in der höchsten Region ihrer Triller
       <lb facs="#facs_3_region_1684576819807_191_tl_13" n="N014"/>und Passagen mitunter den berühmtesten Künstlerinnen. In
       <lb facs="#facs_3_region_1684576819807_191_tl_14" n="N015"/>einigen Stellen des dritten Actes athmete ihr Gesang auch eine
-      <lb facs="#facs_3_region_1684576819807_191_tl_15" n="N016"/>Wärme und Empfindung, wie wir sie bei Fräulein <rs type="person">Murska</rs>
-               <lb facs="#facs_3_region_1684576819807_191_tl_16" n="N017"/>noch selten wahrgenommen. Ohne Zweifel wird ihre noch
-      <lb facs="#facs_3_region_1684576819807_191_tl_17" n="N018"/>nicht ganz ausgearbeitete „<rs type="bibl">Katharina</rs>“ im Laufe einiger Re
+      <lb facs="#facs_3_region_1684576819807_191_tl_15" n="N016"/>Wärme und Empfindung, wie wir sie bei Fräulein 
+                     <rs type="person" ref="#hsl_person_id_190">Murska</rs>
+      <lb facs="#facs_3_region_1684576819807_191_tl_16" n="N017"/>noch selten wahrgenommen. Ohne Zweifel wird ihre noch
+      <lb facs="#facs_3_region_1684576819807_191_tl_17" n="N018"/>nicht ganz ausgearbeitete „<rs type="person" ref="#hsl_person_id_3210">Katharina</rs>“ im Laufe einiger Re
       <lb facs="#facs_3_region_1684576819807_191_tl_18" n="N019" break="no"/>prisen sich noch wesentlich vervollkommnen. Dasselbe gilt von
       <lb facs="#facs_3_region_1684576819807_191_tl_19" n="N020"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Tellheim</rs>
-               </hi>, die sich als <rs type="person">Prascovia</rs> sehr niedlich
+            <rs type="person" ref="#hsl_person_id_304">Tellheim</rs>
+      </hi>, die sich als <rs type="person" ref="#hsl_person_id_3212">Prascovia</rs> sehr niedlich
       <lb facs="#facs_3_region_1684576819807_191_tl_20" n="N021"/>präsentirte, aber ihrer Aufgabe noch nicht vollkommen sicher
       <lb facs="#facs_3_region_1684576819807_191_tl_21" n="N022"/>schien. Herr <hi rendition="#em">
-                  <rs type="person">Mayerhofer</rs>
-               </hi> spielt und singt den <rs type="person">Gritzenko</rs>
+            <rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs>
+      </hi> spielt und singt den <rs type="person" ref="#hsl_person_id_3213">Gritzenko</rs>
                <lb facs="#facs_3_region_1684576819807_191_tl_22" n="N023"/>im zweiten und dritten Act vortrefflich; die Arie im ersten
       <lb facs="#facs_3_region_1684576819807_191_tl_23" n="N024"/>bietet ihm einiges Unbequeme. Die sehr unbedeutende Rolle
-      <lb facs="#facs_3_region_1684576819807_191_tl_24" n="N025"/>des <rs type="person">Georg</rs> war durch Herrn <hi rendition="#em">
-                  <rs type="person">Prott</rs>
+      <lb facs="#facs_3_region_1684576819807_191_tl_24" n="N025"/>des <rs type="person" ref="#hsl_person_id_3215">Georg</rs> war durch Herrn <hi rendition="#em">
+            <rs type="person" ref="#hsl_person_id_2950">Prott</rs>
                </hi> und die stark zusammen
-      <lb facs="#facs_3_region_1684576819807_191_tl_25" n="N026" break="no"/>gestrichene des <rs type="person">Danielowitz</rs> durch Herrn <hi rendition="#em">
+      <lb facs="#facs_3_region_1684576819807_191_tl_25" n="N026" break="no"/>gestrichene des <rs type="person" ref="#hsl_person_id_3214">Danielowitz</rs> durch Herrn <hi rendition="#em">
                   <rs type="person">Erl</rs>
                </hi> genügend besetzt;
       <lb facs="#facs_3_region_1684576819807_191_tl_26" n="N027"/>freilich würde die letztgenannte Rolle, die in den Ensembles
       <lb facs="#facs_3_region_1684576819807_191_tl_27" n="N028"/>des zweiten Actes von Wichtigkeit ist, durch eine frischere
       <lb facs="#facs_3_region_1684576819807_191_tl_28" n="N029"/>Stimme unendlich gewinnen. Das originelle Marketenderin
       <lb facs="#facs_3_region_1684576819807_191_tl_29" n="N030" break="no"/>nen-Lied wurde von den Fräulein <hi rendition="#em">
-                  <rs type="person">Benza</rs>
+            <rs type="person" ref="#hsl_person_id_2954">Benza</rs>
                </hi> und <hi rendition="#em">
-                  <rs type="person">Siegstädt</rs>
+                     <rs type="person" ref="#hsl_person_id_806">Siegstädt</rs>
                </hi>
                <lb facs="#facs_3_line_1695421908814_1702" n="N031"/>allerliebst gesungen und gespielt. Fräulein <hi rendition="#em">
-                  <rs type="person">Benza</rs>
+                     <rs type="person" ref="#hsl_person_id_2954">Benza</rs>
                </hi>, welche
       <lb facs="#facs_3_region_1684576819807_191_tl_31" n="N032"/>dem Eifer, der sie stets auszeichnete, allmälig auch die nö
       <lb facs="#facs_3_region_1684576819807_191_tl_32" n="N033" break="no"/>thige Mäßigung beizugesellen beginnt, erfreute überdies durch
       <lb facs="#facs_3_region_1684576819807_191_tl_33" n="N034"/>sehr charakteristische Haltung. Das Ensemble der von Herrn
       <lb facs="#facs_3_region_1684576819807_191_tl_34" n="N035"/>
                <hi rendition="#em">
-                  <rs type="person">Proch</rs>
+                     <rs type="person" ref="#hsl_person_id_219">Proch</rs>
                </hi> dirigirten Oper klappte vollkommen in dem schwierigen
       <lb facs="#facs_3_region_1684576819807_191_tl_35" n="N036"/>zweiten Finale; im ersten Act sündigten die Männerchöre
       <lb facs="#facs_3_region_1684576819807_191_tl_36" n="N037"/>einigemal stark gegen die Reinheit der Intonation.</p>
