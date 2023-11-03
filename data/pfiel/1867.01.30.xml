@@ -106,7 +106,8 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-09-29">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-10-09">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change when="2023-01-12" who="ampfiel">Zeilenumbrüche, Fußnote auflösen</change>
+         <change when="2023-10-12" who="ampfiel">Zeilenumbrüche, Fußnote auflösen</change>
+         <change when="2023-10-27" who="ampfiel">ref für Place ausfüllen, und bibl angefangen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1040,150 +1041,166 @@
             <cb n="1"/>
                <head type="h1"><lb facs="#facs_1_region_1684576778825_164_tl_1" n="N001"/>
                   <hi rendition="#em">Hofoperntheater</hi>.</head>
-               <head type="h2"><lb facs="#facs_1_region_1684576778825_164_tl_2" n="N002"/>(„<rs type="bibl">Der Nordstern</rs>“, von <rs type="person">Meyerbeer</rs>.)</head>
+               <head type="h2"><lb facs="#facs_1_region_1684576778825_164_tl_2" n="N002"/>(„
+                     <rs type="bibl" ref="#hsl_work_id_139">Der Nordstern</rs>“, von <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>.)</head>
                <p>
       <lb facs="#facs_1_region_1684576778825_164_tl_3" n="N003"/>Ed. H. Das Hofoperntheater hat den seit dem Rücktritte
       <lb facs="#facs_1_region_1684576778825_164_tl_4" n="N004"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Wildauer</rs>’s</hi> zurückgelegten „<rs type="bibl">Nordstern</rs>“ von <rs type="person">Meyer
+            <rs type="person" ref="#hsl_person_id_326">Wildauer</rs>’s</hi> zurückgelegten „
+                     <rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ von <rs type="person" ref="#hsl_person_id_182">Meyer
                <lb facs="#facs_1_region_1684576778825_164_tl_5" n="N005" break="no"/>beer</rs> nunmehr neu besetzt wieder auf die Scene gebracht.
       <lb facs="#facs_1_region_1684576778825_164_tl_6" n="N006"/>Jahrelang hatten wir die Oper nicht gehört, und als nun
       <lb facs="#facs_1_line_1695417590447_832" n="N007"/>die ersten Töne der Ouverture mit ihrem soldatisch-ehernen
       <lb facs="#facs_1_region_1684576778825_164_tl_8" n="N008"/>Schritte wieder an uns vorüberzogen, da weckten sie alte,
       <lb facs="#facs_1_region_1684576778825_164_tl_9" n="N009"/>liebe Erinnerungen. Wir glaubten uns über zwanzig Jahre
       <lb facs="#facs_1_region_1684576778825_164_tl_10" n="N010"/>hinweg ins Theater an der Wien versetzt, vor uns die Zelte
-      <lb facs="#facs_1_region_1684576778825_164_tl_11" n="N011"/>des <rs type="place">schlesisch</rs>en Feldlagers und <hi rendition="#em">Jenny <rs type="person">Lind</rs>
+      <lb facs="#facs_1_region_1684576778825_164_tl_11" n="N011"/>des <rs type="place" ref="#hsl_place_id_335">schlesisch</rs>en Feldlagers und <hi rendition="#em">Jenny 
+            <rs type="person" ref="#hsl_person_id_163">Lind</rs>
                </hi>, das Tambourin
-      <lb facs="#facs_1_region_1684576778825_164_tl_12" n="N012"/>in der Hand, als <rs type="person">Vielka</rs>. Ja, der Weg zum „<rs type="bibl">Nordstern</rs>“
-      <lb facs="#facs_1_region_1684576778825_164_tl_13" n="N013"/>führt über eine geliebte Leiche, über <rs type="person">Meyerbeer</rs>’s ältere und
-      <lb facs="#facs_1_region_1684576778825_164_tl_14" n="N014"/>bessere Oper: „<rs type="bibl">Das Feldlager in Schlesien</rs>“ (in <rs type="place">Wien</rs> „<rs type="bibl">Vielka</rs>“
+      <lb facs="#facs_1_region_1684576778825_164_tl_12" n="N012"/>in der Hand, als 
+                     <rs type="person">Vielka</rs>. Ja, der Weg zum „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“
+      <lb facs="#facs_1_region_1684576778825_164_tl_13" n="N013"/>führt über eine geliebte Leiche, über <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s ältere und
+      <lb facs="#facs_1_region_1684576778825_164_tl_14" n="N014"/>bessere Oper: „
+                     <rs type="bibl" ref="#hsl_work_id_8">Das Feldlager in Schlesien</rs>“ (in 
+                     <rs type="place" ref="#hsl_place_id_55">Wien</rs> „<rs type="bibl" ref="#hsl_work_id_1463">Vielka</rs>“
       <lb facs="#facs_1_region_1684576778825_164_tl_15" n="N015"/>genannt), welche der Meister hingeopfert, um mit ihrem glän
-      <lb facs="#facs_1_region_1684576778825_164_tl_16" n="N016" break="no"/>zendsten Geschmeide den „<rs type="bibl">Nordstern</rs>“ zu schmücken. <rs type="person">Meyerbeer</rs>
-               <lb facs="#facs_1_line_1695417613317_842" n="N017"/>pflegte zwar mit großem Eifer hervorzuheben, der „<rs type="bibl">Nordstern</rs>“
+      <lb facs="#facs_1_region_1684576778825_164_tl_16" n="N016" break="no"/>zendsten Geschmeide den „
+                     <rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ zu schmücken. <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>
+      <lb facs="#facs_1_line_1695417613317_842" n="N017"/>pflegte zwar mit großem Eifer hervorzuheben, der „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“
       <lb facs="#facs_1_line_1695417615410_845" n="N018"/>sei eine ganz neue, selbstständige Oper, in welche er blos neun
-      <lb facs="#facs_1_line_1695417617828_848" n="N019"/>Nummern aus dem „<rs type="bibl">Feldlager</rs>“ herübergenommen — für die
+      <lb facs="#facs_1_line_1695417617828_848" n="N019"/>Nummern aus dem „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ herübergenommen — für die
       <lb facs="#facs_1_region_1684576778825_164_tl_17" n="N020"/>Existenz des letzteren war dies zu viel und zu wenig. <hi rendition="#em">Zu</hi>
                <lb facs="#facs_1_region_1684576778825_164_tl_18" n="N021"/>
-               <hi rendition="#em">viel</hi>, als daß das „<rs type="bibl">Feldlager</rs>“ nach dem Verluste seiner be
+                     <hi rendition="#em">viel</hi>, als daß das „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ nach dem Verluste seiner be
       <lb facs="#facs_1_region_1684576778825_164_tl_19" n="N022" break="no"/>deutendsten und imposantesten Musikstücke noch fortexistiren
       <lb facs="#facs_1_region_1684576778825_164_tl_20" n="N023"/>könnte; <hi rendition="#em">zu wenig</hi>, um uns einzureden, es sei uns das ur
       <lb facs="#facs_1_region_1684576778825_164_tl_21" n="N024" break="no"/>prüngliche Werk dennoch in neuer Form erhalten. Wir geste
-      <lb facs="#facs_1_region_1684576778825_164_tl_22" n="N025" break="no"/>hen gerne unsere Vorliebe für das „<rs type="bibl">Schlesische Feldlager</rs>“.
+      <lb facs="#facs_1_region_1684576778825_164_tl_22" n="N025" break="no"/>hen gerne unsere Vorliebe für das „<rs type="bibl" ref="#hsl_work_id_8">Schlesische Feldlager</rs>“.
       <lb facs="#facs_1_region_1684576778825_164_tl_23" n="N026"/>Mögen auch Jugendeindrücke und die unaustilgbare Erinne
-      <lb facs="#facs_1_region_1684576778825_164_tl_24" n="N027" break="no"/>rung an Jenny <rs type="person">Lind</rs> einen Theil daran haben, ein größerer
+      <lb facs="#facs_1_region_1684576778825_164_tl_24" n="N027" break="no"/>rung an Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> einen Theil daran haben, ein größerer
       <lb facs="#facs_1_region_1684576778825_164_tl_25" n="N028"/>gehört doch dem Gedanken, daß an keinem anderen Werke
       <lb facs="#facs_1_region_1684576778825_164_tl_26" n="N029"/>
-               <rs type="person">Meyerbeer</rs>’s die <rs type="place">deutsch</rs>e Nation so unmittelbar interessirt war,
-      <lb facs="#facs_1_region_1684576778825_164_tl_27" n="N030"/>als eben an diesem. Das „<rs type="bibl">Feldlager</rs>“ war — abgesehen von
-      <lb facs="#facs_1_region_1684576778825_164_tl_28" n="N031"/>dem längst verschollenen Singspiel: „<rs type="bibl">Die beiden Khalifen</rs>“ —
-      <lb facs="#facs_1_region_1684576778825_164_tl_29" n="N032"/>die einzige <rs type="place">deutsch</rs>e Oper unseres berühmten Landsmannes;
+                     <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Nation so unmittelbar interessirt war,
+      <lb facs="#facs_1_region_1684576778825_164_tl_27" n="N030"/>als eben an diesem. Das „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ war — abgesehen von
+                     <lb facs="#facs_1_region_1684576778825_164_tl_28" n="N031"/>dem längst verschollenen Singspiel: „<rs type="bibl" ref="#hsl_work_id_1843">Die beiden Khalifen</rs>“ —
+      <lb facs="#facs_1_region_1684576778825_164_tl_29" n="N032"/>die einzige <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Oper unseres berühmten Landsmannes;
       <lb facs="#facs_1_region_1684576778825_164_tl_30" n="N033"/>sie war es nicht blos der Sprache, sondern auch dem Inhalt
       <lb facs="#facs_1_line_1695417664977_863" n="N034"/>und dem Geiste nach. Unglaub knapper und bescheidener als
             <cb n="2"/>
-               <lb facs="#facs_1_region_1684576782502_167_tl_1" n="N001"/>„<rs type="bibl">Robert</rs>“ und die „<rs type="bibl">Hugenotten</rs>“, enthielt das „<rs type="bibl">Feldlager</rs>“
+               <lb facs="#facs_1_region_1684576782502_167_tl_1" n="N001"/>„
+                     <rs type="bibl" ref="#hsl_work_id_58">Robert</rs>“ und die „
+                     <rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“, enthielt das „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“
       <lb facs="#facs_1_region_1684576782502_167_tl_2" n="N002"/>doch Musikstücke, deren dramatische Kraft und blendende
       <lb facs="#facs_1_region_1684576782502_167_tl_3" n="N003"/>Technik jene Opern geradezu voraussetzt. Nicht minder werth
-      <lb facs="#facs_1_region_1684576782502_167_tl_4" n="N004" break="no"/>voll aber als diese (theilweise in den „<rs type="bibl">Nordstern</rs>“ ver
+      <lb facs="#facs_1_region_1684576782502_167_tl_4" n="N004" break="no"/>voll aber als diese (theilweise in den „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ ver
       <lb facs="#facs_1_region_1684576782502_167_tl_5" n="N005" break="no"/>pflanzten) einzelnen Stücke erschien uns der biedere, gemüth
-      <lb facs="#facs_1_region_1684576782502_167_tl_6" n="N006" break="no"/>volle <rs type="place">deutsch</rs>e Ton, der einen großen Theil der Musik zum
-      <lb facs="#facs_1_region_1684576782502_167_tl_7" n="N007"/>„<rs type="bibl">Feldlager</rs>“ durchzog und welcher sonst bei <rs type="person">Meyerbeer</rs> nur
-      <lb facs="#facs_1_region_1684576782502_167_tl_8" n="N008"/>äußerst selten und leise anklingt. Im „<rs type="bibl">Feldlager</rs>“ zeigte der
+      <lb facs="#facs_1_region_1684576782502_167_tl_6" n="N006" break="no"/>volle <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Ton, der einen großen Theil der Musik zum
+      <lb facs="#facs_1_region_1684576782502_167_tl_7" n="N007"/>„
+                     <rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ durchzog und welcher sonst bei <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> nur
+      <lb facs="#facs_1_region_1684576782502_167_tl_8" n="N008"/>äußerst selten und leise anklingt. Im „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ zeigte der
       <lb facs="#facs_1_line_1695417593741_835" n="N009"/>Meister zum erstenmale unwiderleglich, daß er auch diesen
       <lb facs="#facs_1_region_1684576782502_167_tl_9" n="N010"/>Ton in seiner Gewalt habe. Gerade die einfacheren, herzliche
-      <lb facs="#facs_1_region_1684576782502_167_tl_10" n="N011" break="no"/>ren Gesänge sind aber im „<rs type="bibl">Nordstern</rs>“, sämmtlich weggeblie
-      <lb facs="#facs_1_region_1684576782502_167_tl_11" n="N012" break="no"/>ben. Dieser „<rs type="bibl">Nordstern</rs>“ ist ein zweideutiges Kind, das bei
+      <lb facs="#facs_1_region_1684576782502_167_tl_10" n="N011" break="no"/>ren Gesänge sind aber im „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“, sämmtlich weggeblie
+      <lb facs="#facs_1_region_1684576782502_167_tl_11" n="N012" break="no"/>ben. Dieser „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ ist ein zweideutiges Kind, das bei
       <lb facs="#facs_1_region_1684576782502_167_tl_12" n="N013"/>der Geburt seiner schöneren Mutter das Leben kostete. Aber,
       <lb facs="#facs_1_region_1684576782502_167_tl_13" n="N014"/>selbst abgesehen von dem rein musikalischen Verluste, bleibt
-      <lb facs="#facs_1_region_1684576782502_167_tl_14" n="N015"/>es eine Art nationaler Felonie, daß <rs type="person">Meyerbeer</rs> seine einzige
+      <lb facs="#facs_1_region_1684576782502_167_tl_14" n="N015"/>es eine Art nationaler Felonie, daß <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> seine einzige
       <lb facs="#facs_1_region_1684576782502_167_tl_15" n="N016"/>
-               <rs type="place">deutsch</rs>e Oper in Stücke hieb, um daraus, nach <rs type="person">Atreus</rs>’ Ma
+                     <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Oper in Stücke hieb, um daraus, nach <rs type="person" ref="#hsl_person_id_3041">Atreus</rs>’ Ma
       <lb facs="#facs_1_region_1684576782502_167_tl_16" n="N017" break="no"/>nier, eine pikante Schüssel für die Pariser zu bereiten.
-      <lb facs="#facs_1_region_1684576782502_167_tl_17" n="N018"/>Daß <rs type="person">Meyerbeer</rs> nach verschiedenen entmuthigenden Erfahrun
-      <lb facs="#facs_1_region_1684576782502_167_tl_18" n="N019" break="no"/>gen in <rs type="place">Deutschland</rs> sich entschloß, seine Wirksamkeit von <rs type="place">Paris</rs>
-               <lb facs="#facs_1_region_1684576782502_167_tl_19" n="N020"/>aus, dem Centralpunkte des <rs type="place">europäisch</rs>en Opernwesens, zu
+      <lb facs="#facs_1_region_1684576782502_167_tl_17" n="N018"/>Daß <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> nach verschiedenen entmuthigenden Erfahrun
+      <lb facs="#facs_1_region_1684576782502_167_tl_18" n="N019" break="no"/>gen in 
+                     <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> sich entschloß, seine Wirksamkeit von <rs type="place" ref="#hsl_place_id_44">Paris</rs>
+      <lb facs="#facs_1_region_1684576782502_167_tl_19" n="N020"/>aus, dem Centralpunkte des <rs type="place" ref="#hsl_place_id_19">europäisch</rs>en Opernwesens, zu
       <lb facs="#facs_1_region_1684576782502_167_tl_20" n="N021"/>versuchen, war ihm aus praktischem Gesichtspunkt damals nicht
       <lb facs="#facs_1_region_1684576782502_167_tl_21" n="N022"/>ganz zu verargen. Wußte er doch, daß eine dort reussirende
       <lb facs="#facs_1_region_1684576782502_167_tl_22" n="N023"/>Oper bald den Weg über alle Bühnen machen werde. Nach
       <lb facs="#facs_1_region_1684576782502_167_tl_23" n="N024" break="no"/>dem aber „<hi rendition="#em">
-                  <rs type="bibl">Robert</rs>
+            <rs type="bibl" ref="#hsl_work_id_58">Robert</rs>
                </hi>“ und „<hi rendition="#em">
-                  <rs type="bibl">Die Hugenotten</rs>
-               </hi>“ von <rs type="place">Paris</rs>
+                     <rs type="bibl" ref="#hsl_work_id_105">Die Hugenotten</rs>
+               </hi>“ von <rs type="place" ref="#hsl_place_id_44">Paris</rs>
                <lb facs="#facs_1_region_1684576782502_167_tl_24" n="N025"/>aus diese Reise um die Welt so glänzend vollbracht und die
       <lb facs="#facs_1_region_1684576782502_167_tl_25" n="N026"/>fernere Carrière ihres Schöpfers für alle Fälle sichergestellt
       <lb facs="#facs_1_region_1684576782502_167_tl_26" n="N027"/>hatten, waren seine folgenden Opern vollkommen sicher, nun
-      <lb facs="#facs_1_line_1695417740085_898" n="N028" break="no"/>mehr von <rs type="place">Berlin</rs> oder <rs type="place">Wien</rs> aus ebenso rasch den Weg in
+      <lb facs="#facs_1_line_1695417740085_898" n="N028" break="no"/>mehr von 
+                     <rs type="place" ref="#hsl_place_id_9">Berlin</rs> oder <rs type="place" ref="#hsl_place_id_55">Wien</rs> aus ebenso rasch den Weg in
       <lb facs="#facs_1_region_1684576782502_167_tl_27" n="N029"/>andere Sprachen und andere Länder zu finden. Das war der
-      <lb facs="#facs_1_region_1684576782502_167_tl_28" n="N030"/>Zeitpunkt, wo <rs type="person">Meyerbeer</rs> die Schuld an sein Vaterland hätte
+      <lb facs="#facs_1_region_1684576782502_167_tl_28" n="N030"/>Zeitpunkt, wo <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> die Schuld an sein Vaterland hätte
       <lb facs="#facs_1_region_1684576782502_167_tl_29" n="N031"/>zahlen können und sollen. Als er, durch eine besondere Fest
-      <lb facs="#facs_1_region_1684576782502_167_tl_30" n="N032" break="no"/>gelegenheit veranlaßt, für <rs type="place">Berlin</rs> „<rs type="bibl">Das Feldlager in Schle
+      <lb facs="#facs_1_region_1684576782502_167_tl_30" n="N032" break="no"/>gelegenheit veranlaßt, für 
+                  <rs type="place" ref="#hsl_place_id_9">Berlin</rs> „<rs type="bibl" ref="#hsl_work_id_8">Das Feldlager in Schle
                <lb facs="#facs_1_region_1684576782502_167_tl_31" n="N033" break="no"/>sien</rs>“ schrieb, hielt er die Münze zu dieser Zahlung in Hän
-      <lb facs="#facs_1_region_1684576782502_167_tl_32" n="N034" break="no"/>den — er ließ sie einschmelzen, um abermals <rs type="place">französisch</rs>es
+      <lb facs="#facs_1_region_1684576782502_167_tl_32" n="N034" break="no"/>den — er ließ sie einschmelzen, um abermals <rs type="place" ref="#hsl_place_id_21">französisch</rs>es
       <lb facs="#facs_1_region_1684576782502_167_tl_33" n="N035"/>Geld daraus zu prägen. Ob <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>
+            <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>
                </hi> auf dem Gipfel
-      <lb facs="#facs_1_line_1695417661302_860" n="N036"/>seines Ruhmes niemals die Sehnsucht empfand, eine <rs type="place">deutsch</rs>e
+      <lb facs="#facs_1_line_1695417661302_860" n="N036"/>seines Ruhmes niemals die Sehnsucht empfand, eine <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e
             <cb n="3"/>
                <lb facs="#facs_1_region_1684576786373_170_tl_1" n="N001"/>Oper zu schreiben? Er versicherte es mit größter Lebhaftig
       <lb facs="#facs_1_region_1684576786373_170_tl_2" n="N002" break="no"/>keit, als wir ihn einmal zu interpelliren wagten. Nur dem
-      <lb facs="#facs_1_region_1684576786373_170_tl_3" n="N003"/>Mangel an guten und bereitwilligen Textdichtern in <rs type="place">Deutsch
+      <lb facs="#facs_1_region_1684576786373_170_tl_3" n="N003"/>Mangel an guten und bereitwilligen Textdichtern in <rs type="place" ref="#hsl_place_id_14">Deutsch
                <lb facs="#facs_1_region_1684576786373_170_tl_4" n="N004" break="no"/>land</rs> gab er die Schuld des Versäumnisses. Umgekehrt klag
-      <lb facs="#facs_1_region_1684576786373_170_tl_5" n="N005" break="no"/>ten wieder diese, es sei unmöglich, mit <rs type="person">Meyerbeer</rs> zu arbei
+               <lb facs="#facs_1_region_1684576786373_170_tl_5" n="N005" break="no"/>ten wieder diese, es sei unmöglich, mit <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> zu arbei
       <lb facs="#facs_1_region_1684576786373_170_tl_6" n="N006" break="no"/>ten, unmöglich, ihn zufriedenzustellen. <hi rendition="#em">
-                  <rs type="person">Rellstab</rs>
+            <rs type="person" ref="#hsl_person_id_2186">Rellstab</rs>
                </hi> wußte,
       <lb facs="#facs_1_region_1684576786373_170_tl_7" n="N007"/>
                <hi rendition="#em">
-                  <rs type="person">Bauernfeld</rs>
+                     <rs type="person" ref="#hsl_person_id_22">Bauernfeld</rs>
                </hi> und <hi rendition="#em">
-                  <rs type="person">Holtei</rs>
+                     <rs type="person" ref="#hsl_person_id_2256">Holtei</rs>
                </hi> wissen davon zu erzählen. Letz
       <lb facs="#facs_1_region_1684576786373_170_tl_8" n="N008" break="no"/>terer insbesondere scheute keine Mühe und kein Nachdenken,
-      <lb facs="#facs_1_region_1684576786373_170_tl_9" n="N009"/>um <rs type="person">Meyerbeer</rs> durch ein <rs type="place">deutsch</rs>es Libretto anzulocken. Er
-      <lb facs="#facs_1_region_1684576786373_170_tl_10" n="N010"/>bot ihm unter Anderem das treffliche Sujet: „<rs type="bibl">Des Adlers</rs>
-               <lb facs="#facs_1_region_1684576786373_170_tl_11" n="N011"/>
-               <rs type="bibl">Horst</rs>“ an (später von <hi rendition="#em">
-                  <rs type="person">Gläser</rs>
-               </hi> componirt), aber <rs type="person">Meyerbeer</rs>,
-      <lb facs="#facs_1_region_1684576786373_170_tl_12" n="N012"/>„welcher stets ein <rs type="place">europäisch</rs>es Renommée vor Augen hatte“,
+      <lb facs="#facs_1_region_1684576786373_170_tl_9" n="N009"/>um <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> durch ein <rs type="place" ref="#hsl_place_id_14">deutsch</rs>es Libretto anzulocken. Er
+      <lb facs="#facs_1_region_1684576786373_170_tl_10" n="N010"/>bot ihm unter Anderem das treffliche Sujet: „<rs type="bibl" ref="#hsl_work_id_1844">Des Adlers
+               <lb facs="#facs_1_region_1684576786373_170_tl_11" n="N011"/>Horst</rs>“ an (später von <hi rendition="#em">
+                     <rs type="person" ref="#hsl_person_id_3195">Gläser</rs>
+               </hi> componirt), aber <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>,
+      <lb facs="#facs_1_region_1684576786373_170_tl_12" n="N012"/>„welcher stets ein <rs type="place" ref="#hsl_place_id_19">europäisch</rs>es Renommée vor Augen hatte“,
       <lb facs="#facs_1_region_1684576786373_170_tl_13" n="N013"/>stieß sich daran, daß die Handlung in den <hi rendition="#em">
-                  <rs type="place">schlesisch</rs>en</hi>
-               <lb facs="#facs_1_region_1684576786373_170_tl_14" n="N014"/>Bergen spielen sollte. Diese Localität dünkte ihm zu uninter
-      <lb facs="#facs_1_region_1684576786373_170_tl_15" n="N015" break="no"/>essant; vor dem <rs type="place">schottisch</rs>en Costüme der ursprünglich zu
-      <lb facs="#facs_1_region_1684576786373_170_tl_16" n="N016"/>Grunde liegenden <rs type="person">Schopenhauer</rs>’schen Novelle scheute er sich
-      <lb facs="#facs_1_region_1684576786373_170_tl_17" n="N017"/>aber aus Furcht vor einem Vergleich mit der „<rs type="bibl">Weißen</rs>
-               <lb facs="#facs_1_region_1684576786373_170_tl_18" n="N018"/>
-               <rs type="bibl">Frau</rs>“
+            <rs type="place" ref="#hsl_place_id_335">schlesisch</rs>en</hi>
+      <lb facs="#facs_1_region_1684576786373_170_tl_14" n="N014"/>Bergen spielen sollte. Diese Localität dünkte ihm zu uninter
+      <lb facs="#facs_1_region_1684576786373_170_tl_15" n="N015" break="no"/>essant; vor dem <rs type="place" ref="#hsl_place_id_133">schottisch</rs>en Costüme der ursprünglich zu
+      <lb facs="#facs_1_region_1684576786373_170_tl_16" n="N016"/>Grunde liegenden <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>’schen Novelle scheute er sich
+      <lb facs="#facs_1_region_1684576786373_170_tl_17" n="N017"/>aber aus Furcht vor einem Vergleich mit der „<rs type="bibl">Weißen
+               <lb facs="#facs_1_region_1684576786373_170_tl_18" n="N018"/>Frau</rs>“
                   <note type="footnote" n="*)">
-                     <lb facs="#facs_1_line_1695417749231_909" n="N034"/>Auch <rs type="person">Bürger</rs>’s „<rs type="bibl">Leonore</rs>“, begann <rs type="person">Holtei</rs> auf <rs type="person">Meyerbeer</rs>’s
+                     <lb facs="#facs_1_line_1695417749231_909" n="N034"/>Auch 
+                        <rs type="person" ref="#hsl_person_id_3002">Bürger</rs>’s „<rs type="bibl" ref="#hsl_work_id_1738">Leonore</rs>“, begann 
+                        <rs type="person" ref="#hsl_person_id_2256">Holtei</rs> auf <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s
                      <lb facs="#facs_1_line_1695417762628_913" n="N035"/>Wunsch als große phantastische Oper zu bearbeiten; machte schließ
                      <lb facs="#facs_1_region_1684576786373_170_tl_38" n="N036" break="no"/>lich sein bekanntes melodramatisches Liederspiel daraus.
-                  </note>. Der Zug ist nicht nur bezeichnend für <rs type="person">Meyerbeer</rs>,
+                  </note>. Der Zug ist nicht nur bezeichnend für <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>,
       <lb facs="#facs_1_region_1684576786373_170_tl_19" n="N019"/>er wirft auch speciell auf die Entstehung des „<hi rendition="#em">
-                  <rs type="bibl">Nordstern</rs>
+            <rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>
                </hi>“
-      <lb facs="#facs_1_region_1684576786373_170_tl_20" n="N020"/>ein erklärendes Licht. Der Grund, weßhalb <rs type="person">Meyerbeer</rs> sein
-      <lb facs="#facs_1_region_1684576786373_170_tl_21" n="N021"/>„<rs type="bibl">Feldlager</rs>“ cassirte, lag einfach in dem stark betonten <hi rendition="#em">
-                  <rs type="place">preu
-               <lb facs="#facs_1_region_1684576786373_170_tl_22" n="N022" break="no"/>ßisch</rs>en</hi> Element des Textbuches. Eine Verherrlichung <rs type="person">Fried
+      <lb facs="#facs_1_region_1684576786373_170_tl_20" n="N020"/>ein erklärendes Licht. Der Grund, weßhalb <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> sein
+      <lb facs="#facs_1_region_1684576786373_170_tl_21" n="N021"/>„<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ cassirte, lag einfach in dem stark betonten <hi rendition="#em">
+            <rs type="place" ref="#hsl_place_id_46">preu
+               <lb facs="#facs_1_region_1684576786373_170_tl_22" n="N022" break="no"/>ßisch</rs>en</hi> Element des Textbuches. Eine Verherrlichung 
+                     <rs type="person" ref="#hsl_person_id_83">Fried
                <lb facs="#facs_1_region_1684576786373_170_tl_23" n="N023" break="no"/>rich</rs>’s des Großen auf der breiten Unterlage einer Schilde
-      <lb facs="#facs_1_region_1684576786373_170_tl_24" n="N024" break="no"/>rung <rs type="place">deutsch</rs>en Kriegslebens, und verwebt mit einer einfachen
+      <lb facs="#facs_1_region_1684576786373_170_tl_24" n="N024" break="no"/>rung <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Kriegslebens, und verwebt mit einer einfachen
       <lb facs="#facs_1_region_1684576786373_170_tl_25" n="N025"/>Herzens- und Familiengeschichte, erschien ihm zu eng und in
-      <lb facs="#facs_1_region_1684576786373_170_tl_26" n="N026" break="no"/>teresselos für sein „<rs type="place">europäisch</rs>es“ Publicum. Statt <rs type="place">Preußen</rs>
-               <lb facs="#facs_1_region_1684576786373_170_tl_27" n="N027"/>wählte er <rs type="place">Rußland</rs>, ein Tausch, der uns sehr mißglückt scheint.
+      <lb facs="#facs_1_region_1684576786373_170_tl_26" n="N026" break="no"/>teresselos für sein „
+                     <rs type="place" ref="#hsl_place_id_19">europäisch</rs>es“ Publicum. Statt <rs type="place" ref="#hsl_place_id_46">Preußen</rs>
+      <lb facs="#facs_1_region_1684576786373_170_tl_27" n="N027"/>wählte er <rs type="place" ref="#hsl_place_id_48">Rußland</rs>, ein Tausch, der uns sehr mißglückt scheint.
       <lb facs="#facs_1_line_1695417737056_895" n="N028"/>Oder sollten wirklich irgend einem gebildeten Publicum Basch
       <lb facs="#facs_1_region_1684576786373_170_tl_29" n="N029" break="no"/>kiren und Kalmücken näher stehen, als die Preußen des sieben
-      <lb facs="#facs_1_region_1684576786373_170_tl_30" n="N030" break="no"/>jährigen Krieges? ein <rs type="place">russisch</rs>es Feldlager uns lebhafter in
-      <lb facs="#facs_1_region_1684576786373_170_tl_31" n="N031" break="no"/>teressiren, als ein <rs type="place">deutsch</rs>es? die Silhouette des großen <rs type="person">Fritz</rs>
-               <lb facs="#facs_1_region_1684576786373_170_tl_32" n="N032"/>unbedeutender sein, als eine Carricatur vom Czar <rs type="person">Peter</rs>?
-      <lb facs="#facs_1_region_1684576786373_170_tl_33" n="N033"/>Wir vermochten für unser Theil uns für <rs type="place">deutsch</rs>e Sitte und
+      <lb facs="#facs_1_region_1684576786373_170_tl_30" n="N030" break="no"/>jährigen Krieges? ein <rs type="place" ref="#hsl_place_id_48">russisch</rs>es Feldlager uns lebhafter in
+      <lb facs="#facs_1_region_1684576786373_170_tl_31" n="N031" break="no"/>teressiren, als ein 
+                     <rs type="place" ref="#hsl_place_id_14">deutsch</rs>es? die Silhouette des großen <rs type="person" ref="#hsl_person_id_83">Fritz</rs>
+               <lb facs="#facs_1_region_1684576786373_170_tl_32" n="N032"/>unbedeutender sein, als eine Carricatur vom Czar <rs type="person" ref="#hsl_person_id_3047">Peter</rs>?
+      <lb facs="#facs_1_region_1684576786373_170_tl_33" n="N033"/>Wir vermochten für unser Theil uns für <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Sitte und
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
                <lb facs="#facs_2_region_1684576797162_176_tl_1" n="N001"/>Geschichte selbst in dem etwas verzerrenden specifischen Preußen
-      <lb facs="#facs_2_line_1695419531127_1197" n="N002" break="no"/>thum zu erwärmen; für den Kriegsruhm der <rs type="place">Kosaken</rs> ver
+      <lb facs="#facs_2_line_1695419531127_1197" n="N002" break="no"/>thum zu erwärmen; für den Kriegsruhm der Kosaken ver
       <lb facs="#facs_2_line_1695419533983_1200" n="N003" break="no"/>mögen wir es nicht. <hi rendition="#em">
-                  <rs type="person">Rellstab</rs>’s</hi> Textbuch zum „<rs type="bibl">Feldlager</rs>“
+            <rs type="person" ref="#hsl_person_id_2186">Rellstab</rs>’s</hi> Textbuch zum „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“
       <lb facs="#facs_2_line_1695419536796_1203" n="N004"/>war nicht gut, das steht außer Frage, <hi rendition="#em">
-                  <rs type="person">Scribe</rs>’s</hi> „<rs type="bibl">Nordstern</rs>“
+            <rs type="person" ref="#hsl_person_id_284">Scribe</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“
       <lb facs="#facs_2_region_1684576797162_176_tl_3" n="N005"/>ist zehnmal schlechter.</p>
                <p>
       <lb facs="#facs_2_region_1684576797162_176_tl_4" n="N006"/>Wir haben uns daran gewöhnen müssen, in den meisten
@@ -1192,31 +1209,33 @@
       <lb facs="#facs_2_region_1684576797162_176_tl_7" n="N009"/>Kern der Handlung nach Belieben mißhandelt wird. Aber ein größe
       <lb facs="#facs_2_region_1684576797162_176_tl_8" n="N010" break="no"/>rer Scandal ist mit historischen Persönlichkeiten und Thatsachen bis
       <lb facs="#facs_2_region_1684576797162_176_tl_9" n="N011" break="no"/>her nicht getrieben worden, als in <hi rendition="#em">
-                  <rs type="person">Scribe</rs>’s</hi> Textbuch zum „<rs type="bibl">Nord
+            <rs type="person" ref="#hsl_person_id_284">Scribe</rs>’s</hi> Textbuch zum „<rs type="bibl" ref="#hsl_work_id_139">Nord
                <lb facs="#facs_2_region_1684576797162_176_tl_10" n="N012" break="no"/>stern</rs>“. Dieser rohe Trunkenbold <rs type="person">Petroff</rs>, welcher fortwährend
       <lb facs="#facs_2_region_1684576797162_176_tl_11" n="N013"/>zwischen bestialischem Zorn und schwächlicher Sentimentalität,
       <lb facs="#facs_2_region_1684576797162_176_tl_12" n="N014"/>zwischen Axt und Flöte taumelt, hat mit dem gewaltigen Re
-      <lb facs="#facs_2_region_1684576797162_176_tl_13" n="N015" break="no"/>formator <rs type="place">Rußland</rs>s ebensowenig gemein, als der irrsinnig ge
-      <lb facs="#facs_2_region_1684576797162_176_tl_14" n="N016" break="no"/>wordene <rs type="person">Recrut</rs> des „<rs type="bibl">Nordstern</rs>“ mit der nur zu verständigen
+      <lb facs="#facs_2_region_1684576797162_176_tl_13" n="N015" break="no"/>formator <rs type="place" ref="#hsl_place_id_48">Rußland</rs>s ebensowenig gemein, als der irrsinnig ge
+      <lb facs="#facs_2_region_1684576797162_176_tl_14" n="N016" break="no"/>wordene 
+                     <rs type="person">Recrut</rs> des „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ mit der nur zu verständigen
       <lb facs="#facs_2_region_1684576797162_176_tl_15" n="N017"/>Kaiserin <rs type="person">Katharina</rs>. Die historischen und dramatischen Un
       <lb facs="#facs_2_region_1684576797162_176_tl_16" n="N018" break="no"/>wahrscheinlichkeiten häufen sich von Scene zu Scene mit einer
       <lb facs="#facs_2_region_1684576797162_176_tl_17" n="N019"/>Schnelligkeit und gipfeln im dritten Act zu einer Höhe des
       <lb facs="#facs_2_region_1684576797162_176_tl_18" n="N020"/>Unsinns, vor welcher selbst ein Köhlerglaube zurückweicht und
-      <lb facs="#facs_2_region_1684576797162_176_tl_19" n="N021"/>der Antheil des willigsten Zuschauers erstirbt. <rs type="person">Scribe</rs>, der
+      <lb facs="#facs_2_region_1684576797162_176_tl_19" n="N021"/>der Antheil des willigsten Zuschauers erstirbt. <rs type="person" ref="#hsl_person_id_284">Scribe</rs>, der
       <lb facs="#facs_2_region_1684576797162_176_tl_20" n="N022"/>geistreichste Operndichter unserer Zeit, scheitert hier an der
-      <lb facs="#facs_2_region_1684576797162_176_tl_21" n="N023"/>Zumuthung <rs type="person">Meyerbeer</rs>’s, Scenen aus dem „<rs type="bibl">Schlesischen Fel
+      <lb facs="#facs_2_region_1684576797162_176_tl_21" n="N023"/>Zumuthung 
+                     <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s, Scenen aus dem „<rs type="bibl" ref="#hsl_work_id_8">Schlesischen Feld
                <lb facs="#facs_2_region_1684576797162_176_tl_22" n="N024" break="no"/>lager</rs>“ in einen völlig heterogenen Stoff gut oder übel ein
       <lb facs="#facs_2_line_1695419576418_1236" n="N025" break="no"/>zufügen. Die klägliche Maskerade, welche <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>
+            <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>
                </hi> selbst
-      <lb facs="#facs_2_line_1695419596332_1245" n="N026"/>mit diesen <rs type="bibl">Feldlager</rs>-Stücken vornehmen mußten, ist nicht min
+      <lb facs="#facs_2_line_1695419596332_1245" n="N026"/>mit diesen <rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>-Stücken vornehmen mußten, ist nicht min
       <lb facs="#facs_2_region_1684576797162_176_tl_23" n="N027" break="no"/>der merkwürdig, ja sie steht in der Musikgeschichte einzig da.
-      <lb facs="#facs_2_region_1684576797162_176_tl_24" n="N028"/>So hat der imposante Soldatenchor in C-moll im „<rs type="bibl">Feld
-               <lb facs="#facs_2_region_1684576797162_176_tl_25" n="N029" break="no"/>lager</rs>“ die Begeisterung der für ihren <rs type="person">König</rs> kämpfenden
+      <lb facs="#facs_2_region_1684576797162_176_tl_24" n="N028"/>So hat der imposante Soldatenchor in C-moll im „<rs type="bibl" ref="#hsl_work_id_8">Feld
+      <lb facs="#facs_2_region_1684576797162_176_tl_25" n="N029" break="no"/>lager</rs>“ die Begeisterung der für ihren <rs type="person" ref="#hsl_person_id_83">König</rs> kämpfenden
       <lb facs="#facs_2_region_1684576797162_176_tl_26" n="N030"/>Truppen zum Inhalt; nach einer prachtvollen Steigerung
       <lb facs="#facs_2_region_1684576797162_176_tl_27" n="N031"/>gipfelt sich dieser Enthusiasmus in dem hellen C-dur-Trio:
       <lb facs="#facs_2_region_1684576797162_176_tl_28" n="N032"/>„Die Trommel dröhnt, die Fahnen weh’n!“ Im „<hi rendition="#em">
-                  <rs type="bibl">Nord
+            <rs type="bibl" ref="#hsl_work_id_139">Nord
                <lb facs="#facs_2_region_1684576797162_176_tl_29" n="N033" break="no"/>stern</rs>
                </hi>“ ist dieser Chor zu einem „Chor der <hi rendition="#em">Verschworenen</hi>“
       <lb facs="#facs_2_region_1684576797162_176_tl_30" n="N034"/>geworden, welche, Wuth und Rache schnaubend, sich <hi rendition="#em">gegen</hi>
@@ -1224,37 +1243,37 @@
       <lb facs="#facs_2_region_1684576797162_176_tl_33" n="N036"/>assez d’affronts!“) Da jedoch der luftige Aufschwung
             <cb n="5"/>
                <lb facs="#facs_2_line_1695419720784_1289" n="N001"/>des C-dur-Trios doch gar zu schlecht zu einem
-      <lb facs="#facs_2_region_1684576801500_179_tl_2" n="N002"/>finsteren Complot paßte, wird er im „<rs type="bibl">Nordstern</rs>“ durch den
+      <lb facs="#facs_2_region_1684576801500_179_tl_2" n="N002"/>finsteren Complot paßte, wird er im „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ durch den
       <lb facs="#facs_2_region_1684576801500_179_tl_3" n="N003"/>Witz motivirt, daß ein Officier plötzlich über die Bühne eilt
       <lb facs="#facs_2_region_1684576801500_179_tl_4" n="N004"/>und den Verschworenen zuflüstert, der General nähere sich,
       <lb facs="#facs_2_region_1684576801500_179_tl_5" n="N005"/>um Revue zu halten. Da stellen sich die Verschworenen
       <lb facs="#facs_2_region_1684576801500_179_tl_6" n="N006"/>eiligst in Reih’ und Glied und singen den Generalstab mit
       <lb facs="#facs_2_region_1684576801500_179_tl_7" n="N007"/>dem C-dur-Trio an. So ist der Chor durch den neuen Text
       <lb facs="#facs_2_region_1684576801500_179_tl_8" n="N008"/>in zwei Gegensätze zerschlagen worden: finstere Rachsucht und
-      <lb facs="#facs_2_region_1684576801500_179_tl_9" n="N009"/>officiell erheuchelter Jubel — dieselbe Musik, die im „<rs type="bibl">Feld
+      <lb facs="#facs_2_region_1684576801500_179_tl_9" n="N009"/>officiell erheuchelter Jubel — dieselbe Musik, die im „<rs type="bibl" ref="#hsl_work_id_8">Feld
                <lb facs="#facs_2_region_1684576801500_179_tl_10" n="N010" break="no"/>lager</rs>“ als ungebrochener Ausdruck <hi rendition="#em">eines</hi> schönen Gefühls,
       <lb facs="#facs_2_region_1684576801500_179_tl_11" n="N011"/>der muthigen Soldatentreue, erklang. — Der Grenadier
       <lb facs="#facs_2_region_1684576801500_179_tl_12" n="N012" break="no"/>marsch mit Trommeln und Pfeifen (dessen Motiv wirklich
       <lb facs="#facs_2_region_1684576801500_179_tl_13" n="N013"/>aus dem siebenjährigen Kriege stammt und von den Garde-
-      <lb facs="#facs_2_region_1684576801500_179_tl_14" n="N014"/>Grenadieren in <rs type="place">Potsdam</rs> noch heute zu hören ist) breitete
-      <lb facs="#facs_2_region_1684576801500_179_tl_15" n="N015"/>über die Scenerie des „<rs type="bibl">Schlesischen Feldlagers</rs>“ eine histo
+      <lb facs="#facs_2_region_1684576801500_179_tl_14" n="N014"/>Grenadieren in <rs type="place" ref="#hsl_place_id_336">Potsdam</rs> noch heute zu hören ist) breitete
+      <lb facs="#facs_2_region_1684576801500_179_tl_15" n="N015"/>über die Scenerie des „<rs type="bibl" ref="#hsl_work_id_8">Schlesischen Feldlagers</rs>“ eine histo
       <lb facs="#facs_2_region_1684576801500_179_tl_16" n="N016" break="no"/>rische Färbung von unvergleichlicher Lebendigkeit. Dies so
       <lb facs="#facs_2_region_1684576801500_179_tl_17" n="N017"/>geistreich angebrachte kriegerische Rococco verliert unter
       <lb facs="#facs_2_region_1684576801500_179_tl_18" n="N018"/>Tataren und Baschkiren allen Sinn und Reiz. Was soll
       <lb facs="#facs_2_region_1684576801500_179_tl_19" n="N019"/>man aber vollends dazu sagen, wenn der biedere <hi rendition="#em">
-                  <rs type="person">Dessauer</rs>-
+            <rs type="person" ref="#hsl_person_id_751">Dessauer</rs>-
                <lb facs="#facs_2_region_1684576801500_179_tl_20" n="N020"/>marsch</hi>, dessen Melodie und Bedeutung jedes Kind in
       <lb facs="#facs_2_region_1684576801500_179_tl_21" n="N021"/>
-               <rs type="place">Deutschland</rs> kennt, im „<rs type="bibl">Nordstern</rs>“ als „<hi rendition="#em">heiliger Marsch</hi>
+            <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> kennt, im „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ als „<hi rendition="#em">heiliger Marsch</hi>
                <lb facs="#facs_2_region_1684576801500_179_tl_22" n="N022"/>
                <hi rendition="#em">der Russen</hi>“ ertönt! Wir können die peinliche Empfindung
       <lb facs="#facs_2_region_1684576801500_179_tl_23" n="N023"/>kaum beschreiben, welche dieser musikalische Vaterlandsverrath
-      <lb facs="#facs_2_region_1684576801500_179_tl_24" n="N024"/>eines der gefeiertesten Söhne <rs type="place">Deutschland</rs>s jedesmal in uns
+      <lb facs="#facs_2_region_1684576801500_179_tl_24" n="N024"/>eines der gefeiertesten Söhne <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s jedesmal in uns
       <lb facs="#facs_2_region_1684576801500_179_tl_25" n="N025"/>aufwühlt. Schließlich wollen wir nur noch der wesent
       <lb facs="#facs_2_region_1684576801500_179_tl_26" n="N026" break="no"/>lich veränderten Bedeutung gedenken, welche die be
       <lb facs="#facs_2_region_1684576801500_179_tl_27" n="N027" break="no"/>rühmte <hi rendition="#em">Flöten-Arie</hi> der <rs type="person">Vielka</rs> in dem Munde
       <lb facs="#facs_2_region_1684576801500_179_tl_28" n="N028"/>
-               <rs type="person">Katharina</rs>’s annimmt. Im „<rs type="bibl">Feldlager</rs>“ ist diese Scene
+                     <rs type="person">Katharina</rs>’s annimmt. Im „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ ist diese Scene
       <lb facs="#facs_2_region_1684576801500_179_tl_29" n="N029"/>ein heiteres Genrebild: <rs type="person">Vielka</rs> ermuntert ihren Geliebten, das
       <lb facs="#facs_2_region_1684576801500_179_tl_30" n="N030"/>aus dem Gartenzimmer des <rs type="person">König</rs>s erklingende Flöten-Concert
       <lb facs="#facs_2_region_1684576801500_179_tl_31" n="N031"/>nachzuspielen, und hilft durch Mitsingen der Melodie dem
@@ -1265,8 +1284,8 @@
       <lb facs="#facs_2_line_1695419678930_1273" n="N036"/>nach, welche den echtesten und gewinnendsten Charakterzug der
             <cb n="6"/>
                <lb facs="#facs_2_line_1695419731493_1293" n="N001"/>Virtuosität bildet. Dies reizende Flöten-Wettspiel, das im
-      <lb facs="#facs_2_region_1684576805570_182_tl_1" n="N002"/>„<rs type="bibl">Feldlager</rs>“ keine andere Bedeutung anspricht, als Freude
-      <lb facs="#facs_2_region_1684576805570_182_tl_2" n="N003"/>am Musiciren, dient im „<rs type="bibl">Nordstern</rs>“ zur methodischen Heilung
+      <lb facs="#facs_2_region_1684576805570_182_tl_1" n="N002"/>„<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ keine andere Bedeutung anspricht, als Freude
+      <lb facs="#facs_2_region_1684576805570_182_tl_2" n="N003"/>am Musiciren, dient im „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ zur methodischen Heilung
       <lb facs="#facs_2_region_1684576805570_182_tl_3" n="N004"/>einer Irrsinnigen! <rs type="person">Peter</rs> der Große und der Tischler <rs type="person">Georg</rs>
                <lb facs="#facs_2_region_1684576805570_182_tl_4" n="N005"/>blasen von beiden Seiten des Saales das Flöten-Concert,
       <lb facs="#facs_2_region_1684576805570_182_tl_5" n="N006"/>während die geisteskranke <rs type="person">Katharina</rs>, bleich und irren Blickes,
@@ -1274,9 +1293,9 @@
       <lb facs="#facs_2_region_1684576805570_182_tl_7" n="N008"/>und nachzusingen trachtet. Mit welcher ins Widerliche ver
       <lb facs="#facs_2_region_1684576805570_182_tl_8" n="N009" break="no"/>kehrten Empfindung man die „Flöten-Arie“ in <hi rendition="#em">dieser</hi> Situa
       <lb facs="#facs_2_region_1684576805570_182_tl_9" n="N010" break="no"/>tion hört, ist nur zu einleuchtend. <hi rendition="#em">
-                  <rs type="person">Rellstab</rs>
+            <rs type="person" ref="#hsl_person_id_2186">Rellstab</rs>
                </hi> hat in seinem
-      <lb facs="#facs_2_region_1684576805570_182_tl_10" n="N011"/>Text zum „<rs type="bibl">Feldlager</rs>“ das Flötenspiel <rs type="person">Friedrich</rs>’s des Großen
+      <lb facs="#facs_2_region_1684576805570_182_tl_10" n="N011"/>Text zum „<rs type="bibl" ref="#hsl_work_id_8">Feldlager</rs>“ das Flötenspiel <rs type="person">Friedrich</rs>’s des Großen
       <lb facs="#facs_2_region_1684576805570_182_tl_11" n="N012"/>(eine weltbekannte historische Reminiscenz, welche, auf Czar
       <lb facs="#facs_2_region_1684576805570_182_tl_12" n="N013"/>
                <rs type="person">Peter</rs> übertragen, gar keinen Sinn hat) als ein glück
@@ -1294,14 +1313,14 @@
                   <rs type="person">Maria Theresia</rs>
                </hi> ist allerdings schon einmal als Heldin
       <lb facs="#facs_2_region_1684576805570_182_tl_23" n="N024"/>einer Oper gefeiert worden. Die Geschichte ist sehr wenig be
-      <lb facs="#facs_2_region_1684576805570_182_tl_24" n="N025" break="no"/>kannt und dürfte namentlich für den <rs type="place">österreichisch</rs>en Leserkreis
-      <lb facs="#facs_2_region_1684576805570_182_tl_25" n="N026"/>nicht ohne Interesse sein. Der <rs type="place">französisch</rs>e Maler <hi rendition="#em">
+      <lb facs="#facs_2_region_1684576805570_182_tl_24" n="N025" break="no"/>kannt und dürfte namentlich für den <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Leserkreis
+      <lb facs="#facs_2_region_1684576805570_182_tl_25" n="N026"/>nicht ohne Interesse sein. Der <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Maler <hi rendition="#em">
                   <rs type="person">Frago
                <lb facs="#facs_2_region_1684576805570_182_tl_26" n="N027" break="no"/>nard</rs>
                </hi> hatte in den <date from="1820" to="1829">Zwanziger-Jahren</date> dieses Jahrhunderts
       <lb facs="#facs_2_region_1684576805570_182_tl_27" n="N028"/>ein großes Bild: „<rs type="bibl">Maria Theresia mit dem kleinen Joseph</rs>
                <lb facs="#facs_2_region_1684576805570_182_tl_28" n="N029"/>
-               <rs type="bibl">auf dem Arme</rs>“, in <rs type="place">Paris</rs> ausgestellt, welches durch seinen
+                     <rs type="bibl">auf dem Arme</rs>“, in <rs type="place" ref="#hsl_place_id_44">Paris</rs> ausgestellt, welches durch seinen
       <lb facs="#facs_2_region_1684576805570_182_tl_29" n="N030"/>dramatischen Effect den Poeten <hi rendition="#em">
                   <rs type="person">Bernard</rs>
                </hi> zu einem Opern
@@ -1338,24 +1357,24 @@
       <lb facs="#facs_3_region_1684576816063_188_tl_11" n="N011"/>der Polizei, welcher ihm nach einigen ausweichenden Phrasen
       <lb facs="#facs_3_region_1684576816063_188_tl_12" n="N012"/>begütigend zuflüstert: „Die ganze Sache läßt sich noch arran
       <lb facs="#facs_3_region_1684576816063_188_tl_13" n="N013" break="no"/>giren, wenn Sie aus dem Söhnchen, mit welchem <rs type="person">Maria 
-               <lb facs="#facs_3_region_1684576816063_188_tl_14" n="N014"/>Theresia</rs> vor dem <rs type="place">ungarisch</rs>en Landtag erscheint, eine <hi rendition="#em">Tochter</hi>
+      <lb facs="#facs_3_region_1684576816063_188_tl_14" n="N014"/>Theresia</rs> vor dem <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en Landtag erscheint, eine <hi rendition="#em">Tochter</hi>
                <lb facs="#facs_3_region_1684576816063_188_tl_15" n="N015"/>machen.“ Man fürchtete nämlich, daß die feierliche Ansprache
       <lb facs="#facs_3_region_1684576816063_188_tl_17" n="N016"/>der Kaiserin: „Voilà l’enfant de la patrie!“ und ihr „beim
       <lb facs="#facs_3_region_1684576816063_188_tl_19" n="N017"/>Grab des Vaters und bei der Wiege des Sohnes“ geleisteter
       <lb facs="#facs_3_region_1684576816063_188_tl_20" n="N018"/>Schwur <rs type="person">napoleon</rs>ische Demonstrationen hervorrufen und man
       <lb facs="#facs_3_region_1684576816063_188_tl_21" n="N019"/>das Söhnlein auf dem Arm <rs type="person">Maria Theresia</rs>’s als eine An
-      <lb facs="#facs_3_line_1695422022351_1797" n="N020" break="no"/>spielung auf den jungen <rs type="person">König</rs> von <rs type="place">Rom</rs> begrüßen würde.
+      <lb facs="#facs_3_line_1695422022351_1797" n="N020" break="no"/>spielung auf den jungen 
+                     <rs type="person">König</rs> von <rs type="place" ref="#hsl_place_id_47">Rom</rs> begrüßen würde.
       <lb facs="#facs_3_line_1695422025567_1800" n="N021"/>
                <hi rendition="#em">
-                  <rs type="person">Blangini</rs>
-               </hi> hatte zu viel Respect vor der Weltgeschichte, um
+                  <rs type="person">Blangini</rs></hi> hatte zu viel Respect vor der Weltgeschichte, um
       <lb facs="#facs_3_line_1695422028121_1803" n="N022"/>sich zu dieser Aenderung zu bequem (<hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>’s</hi> „<rs type="bibl">Nord
+            <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_139">Nord
                <lb facs="#facs_3_region_1684576816063_188_tl_23" n="N023" break="no"/>stern</rs>“ war noch nicht erschienen), und so ist denn seine
       <lb facs="#facs_3_region_1684576816063_188_tl_24" n="N024"/>„<rs type="bibl">Marie-Thérèse</rs>“ zwar im Clavierauszug gedruckt, aber nie
       <lb facs="#facs_3_region_1684576816063_188_tl_25" n="N025" break="no"/>mals aufgeführt worden.</p>
                <p>
-      <lb facs="#facs_3_region_1684576816063_188_tl_26" n="N026"/>Was die Aufführung des „<rs type="bibl">Nordstern</rs>“ im Hofopern
+                     <lb facs="#facs_3_region_1684576816063_188_tl_26" n="N026"/>Was die Aufführung des „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ im Hofopern
       <lb facs="#facs_3_region_1684576816063_188_tl_27" n="N027" break="no"/>theater betrifft, so gebührt Herrn <hi rendition="#em">
                   <rs type="person">Beck</rs>
                </hi>, welcher die übrigen
@@ -1370,16 +1389,13 @@
       <lb facs="#facs_3_region_1684576816063_188_tl_34" n="N034" break="no"/>spieler gemacht. Kaum wird ein zweiter Sänger dieser im
       <lb facs="#facs_3_region_1684576816063_188_tl_35" n="N035"/>Grunde widerlichen Rolle so viel Wirkung und Reiz abge
       <lb facs="#facs_3_region_1684576816063_188_tl_36" n="N036" break="no"/>winnen, als Herr <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi>, dem auch die Gunst des Publicums
+                  <rs type="person">Beck</rs></hi>, dem auch die Gunst des Publicums
       <lb facs="#facs_3_region_1684576816063_188_tl_37" n="N037"/>sich im vollsten Maße zuwendete. Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs>
-               </hi> hatte
+                  <rs type="person">Murska</rs></hi> hatte
       <lb facs="#facs_3_region_1684576816063_188_tl_38" n="N038"/>als <rs type="person">Katharina</rs> insoferne einen erschwerten Stand, als ihr die
             <cb n="8"/>
                <lb facs="#facs_3_region_1684576819807_191_tl_1" n="N001"/>frühere Darstellerin dieser Rolle, Fräulein <hi rendition="#em">
-                  <rs type="person">Wildauer</rs>
-               </hi>, im
+                     <rs type="person" ref="#hsl_person_id_326">Wildauer</rs></hi>, im
       <lb facs="#facs_3_region_1684576819807_191_tl_2" n="N002"/>Spiele weit überlegen war. Dies zeigte sich am auffälligsten
       <lb facs="#facs_3_line_1695421927399_1711" n="N003"/>in den ersten Couplets („Le bonnet sur l’oreille“), deren
       <lb facs="#facs_3_line_1695421931153_1714" n="N004"/>Vortrag schauspielerisches Talent und einigen Humor ver
