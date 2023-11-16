@@ -106,7 +106,8 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-09-29">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-10-09">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change when="2023-11-08" who="ampfiel">ref für place + person ausgefüllt, bibl teilweise</change>
+         <change when="2023-11-08" who="ampfiel">header, Umbrüche</change>
+         <change when="2023-11-12" who="ampfiel">ref in rs ausfüllen, space einfügen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -952,10 +953,11 @@
       <lb facs="#facs_1_region_1684576483337_53_tl_29" n="N030"/>kann man dieser Composition freilich nicht beilegen, aber sollte
       <lb facs="#facs_1_region_1684576483337_53_tl_30" n="N031"/>ein hier noch unbekanntes Orchesterwerk von <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>
-               </hi>
+            </hi><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684576483337_53_tl_31" n="N032"/>nicht schon aus diesem Titel allein den Versuch einer Auffüh
       <lb facs="#facs_1_region_1684576483337_53_tl_32" n="N033" break="no"/>rung verdienen? Hat auch 
             <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> die <rs type="bibl" ref="#hsl_work_id_1988">C-dur-Ouverture</rs>
+            <space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684576483337_53_tl_33" n="N034"/>nicht mit dem vollen Aufgebot seiner Phantasie, dem ganzen
       <lb facs="#facs_1_region_1684576483337_53_tl_34" n="N035"/>Reichthum seines Kunstvermögens geschaffen, so waltet doch
       <lb facs="#facs_1_region_1684576483337_53_tl_35" n="N036"/>unverkennbar seine Meisterhand in dem klaren, stattlichen
@@ -1006,6 +1008,7 @@
       <lb facs="#facs_1_region_1684576487045_56_tl_30" n="N032" break="no"/>lichkeit und feinster Behandlung des virtuosen Elements ist
       <lb facs="#facs_1_region_1684576487045_56_tl_31" n="N033"/>ferner <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_48">Chopin</rs>’s</hi>
+                     <space quantity="1" unit="char"/>
                      <rs type="bibl" ref="#hsl_work_id_1989">Clavierconcert in E-moll</rs>. Fräulein <hi rendition="#em">
                      <rs type="person" ref="#hsl_person_id_2913">Ficht
                <lb facs="#facs_1_region_1684576487045_56_tl_32" n="N034" break="no"/>ner</rs>
@@ -1030,6 +1033,7 @@
                <lb facs="#facs_1_line_1695423168215_2180" n="N001"/>unserer <hi rendition="#em">Philharmoniker</hi> über. Sie beendigten jüngst ihren
       <lb facs="#facs_1_region_1684576491893_59_tl_2" n="N002"/>Cyklus von acht Concerten mit <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s</hi>
+                     <space quantity="1" unit="char"/>
                <rs type="bibl" ref="#hsl_work_id_272">Neunter Sym
                <lb facs="#facs_1_region_1684576491893_59_tl_3" n="N003" break="no"/>phonie</rs>, deren allerdings schwierigste Ausführung mit der un
             <lb facs="#facs_1_region_1684576491893_59_tl_4" n="N004" break="no"/>mittelbar vorhergegangenen, der <rs type="bibl" ref="#hsl_work_id_1992">G-dur-Symphonie</rs> von <hi rendition="#em">
@@ -1124,6 +1128,7 @@
                </hi>, der spricht, und nimmt er diesmal
       <lb facs="#facs_2_region_1684576502519_65_tl_23" n="N023"/>auch keinen hohen Flug, man fühlt es doch immer, die Flü
       <lb facs="#facs_2_region_1684576502519_65_tl_24" n="N024" break="no"/>gel sind ihm angewachsen. — Außer dem <rs type="bibl" ref="#hsl_work_id_1993">Quartett-Fragment</rs>
+                        <space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684576502519_65_tl_25" n="N025"/>hörten wir von <hi rendition="#em">
                      <rs type="person" ref="#hsl_person_id_279">Schubert</rs>
                </hi> noch die <rs type="bibl" ref="#hsl_work_id_1994">As-dur-Variationen</rs> zu
@@ -1224,7 +1229,7 @@
       <lb facs="#facs_2_region_1684576506963_68_tl_31" n="N034" break="no"/>gesehen von den zu spät kommenden Damen, die auf den zum
       <lb facs="#facs_2_region_1684576506963_68_tl_32" n="N035"/>Concertsaal führenden Stufen saßen. Diese Zeiten sind vorüber,
       <lb facs="#facs_2_region_1684576506963_68_tl_33" n="N036"/>und 
-                     <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>’s „<rs type="bibl">caro ragazzino</rs>“, Herr <hi rendition="#em">
+                     <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>’s „caro ragazzino“, Herr <hi rendition="#em">
                            <rs type="person" ref="#hsl_person_id_3349">Sivori</rs>
                </hi> nämlich, hat
       <lb facs="#facs_2_region_1684576506963_68_tl_34" n="N037"/>im Musikvereins-Saale dem Publicum keine ähnlichen Unbequem
@@ -1246,6 +1251,7 @@
       <lb facs="#facs_2_region_1684576511599_71_tl_4" n="N004" break="no"/>dung, ohne die imposante Größe <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_140">Joachim</rs>’s</hi> oder <hi rendition="#em">
                   <rs type="person" ref="#hsl_person_id_152">Laub</rs>’s</hi>
+                     <space quantity="1" unit="char"/>
                <lb facs="#facs_2_line_1695992057328_382" n="N005"/>zu erreichen. Sein Spiel ist rein, nett und ausgefeilt, die
       <lb facs="#facs_2_region_1684576511599_71_tl_6" n="N006"/>linke Hand ungemein virtuos, der rechte Arm von mäßiger
       <lb facs="#facs_2_region_1684576511599_71_tl_7" n="N007"/>Behendigkeit. Die Eigenthümlichkeiten und Glanzpunkte von
@@ -1259,8 +1265,8 @@
                   <rs type="person" ref="#hsl_person_id_3359">Prume</rs>
                </hi> und ein
       <lb facs="#facs_2_region_1684576511599_71_tl_13" n="N013"/>
-                     <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>’sches Kunststück (<rs type="bibl">Variationen</rs> über das Gebet aus
-      <lb facs="#facs_2_region_1684576511599_71_tl_14" n="N014"/>„<rs type="bibl">Mosè</rs>“) auf der G-Saite allein. — Bei aller darauf ver
+                     <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>’sches Kunststück (<rs type="bibl" ref="#hsl_work_id_2008">Variationen</rs> über das Gebet aus
+      <lb facs="#facs_2_region_1684576511599_71_tl_14" n="N014"/>„<rs type="bibl" ref="#hsl_work_id_84">Mosè</rs>“) auf der G-Saite allein. — Bei aller darauf ver
       <lb facs="#facs_2_region_1684576511599_71_tl_15" n="N015" break="no"/>wendeten Kunstfertigkeit machen derlei Compositionen keine
       <lb facs="#facs_2_region_1684576511599_71_tl_16" n="N016"/>Wirkung mehr. Wie die 
                      <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>’schen Kunststücke, so hat die
@@ -1278,12 +1284,13 @@
                      <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e classische Compositionen in sein Programm aufnahm:
       <lb facs="#facs_2_region_1684576511599_71_tl_22" n="N022"/>eines der unbedeutenderen <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_114">Haydn</rs>
-               </hi>’schen Quartette (<rs type="bibl">D-dur</rs>),
+               </hi>’schen Quartette (<rs type="bibl" ref="#hsl_work_id_2009">D-dur</rs>),
       <lb facs="#facs_2_region_1684576511599_71_tl_23" n="N023"/>das nur in seinem kurzen Finalsatz, einer Art perpetuum
       <lb facs="#facs_2_region_1684576511599_71_tl_24" n="N024"/>mobile, einige Gelegenheit gibt, in raschen Sechzehntel-Passagen
       <lb facs="#facs_2_region_1684576511599_71_tl_25" n="N025"/>zu glänzen. Sodann <hi rendition="#em">
             <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s</hi>
-               <rs type="bibl">A-dur-Sonate</rs> (die
+                     <space quantity="1" unit="char"/>
+               <rs type="bibl" ref="#hsl_work_id_867">A-dur-Sonate</rs> (die
       <lb facs="#facs_2_region_1684576511599_71_tl_26" n="N026"/>„Kreutzer’sche“), die Herr <rs type="person" ref="#hsl_person_id_3349">Sivori</rs> zwar mit sehr schönem Ton
       <lb facs="#facs_2_region_1684576511599_71_tl_27" n="N027"/>und aller wünschenswerthen Eleganz vortrug, aber mit so
       <lb facs="#facs_2_region_1684576511599_71_tl_28" n="N028"/>wenig Wärme, Schwung und Großheit, daß wir uns
