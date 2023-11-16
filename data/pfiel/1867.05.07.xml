@@ -106,6 +106,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-10-03">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-10-09">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2023-11-16" who="ampfiel">header, Umsätze, note, rs place fertig und person angefangen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -746,211 +747,226 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684569569783_2378_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place">Paris</rs>.
-      <lb facs="#facs_1_line_1696252074522_76" n="N002"/>I.
-      <lb facs="#facs_1_region_1684569569783_2378_tl_2" n="N003"/>Die musikalische Jury.
+               <head type="h1">
+                  <lb facs="#facs_1_region_1684569569783_2378_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>.
+                  <lb facs="#facs_1_line_1696252074522_76" n="N002"/>I.</head>
+               <head type="h2">
+                  <lb facs="#facs_1_region_1684569569783_2378_tl_2" n="N003"/>Die musikalische Jury.</head>
+               <p>
       <lb facs="#facs_1_region_1684569569783_2378_tl_3" n="N004"/>
                <hi rendition="#em">
-                  <rs type="place">Paris</rs>
-               </hi>, <date month="0" day="0" year="0">4. Mai</date>.
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs>
+               </hi>, <date when="1867-05-04">4. Mai</date>.
       <lb facs="#facs_1_region_1684569569783_2378_tl_4" n="N005"/>Ed. H. Es war in den ersten Nachmittagsstunden, den
       <lb facs="#facs_1_region_1684569569783_2378_tl_5" n="N006"/>belebtesten und elegantesten der Ausstellung, als jüngst aus
-      <lb facs="#facs_1_region_1684569569783_2378_tl_6" n="N007"/>einem Seitengang der <rs type="place">französisch</rs>en Bildergalerie ein rasender
-      <lb facs="#facs_1_region_1684569569783_2378_tl_7" n="N008"/>Trommelwirbel erscholl und die Besucher des Ausstellungs¬
-      <lb facs="#facs_1_region_1684569569783_2378_tl_8" n="N009"/>palastes weithin in Aufregung versetzte. Mit dem Rufe: „Was
+      <lb facs="#facs_1_region_1684569569783_2378_tl_6" n="N007"/>einem Seitengang der 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Bildergalerie ein rasender
+      <lb facs="#facs_1_region_1684569569783_2378_tl_7" n="N008"/>Trommelwirbel erscholl und die Besucher des Ausstellungs
+      <lb facs="#facs_1_region_1684569569783_2378_tl_8" n="N009" break="no"/>palastes weithin in Aufregung versetzte. Mit dem Rufe: „Was
       <lb facs="#facs_1_region_1684569569783_2378_tl_9" n="N010"/>ist geschehen? Was bedeutet das?“ stürzten die Waffen dem
       <lb facs="#facs_1_region_1684569569783_2378_tl_10" n="N011"/>Trommelschall entgegen, nach der etwas versteckt liegenden
       <lb facs="#facs_1_region_1684569569783_2378_tl_11" n="N012"/>Seitengalerie. Hier sahen sich die erregten Gemüther plötzlich
       <lb facs="#facs_1_region_1684569569783_2378_tl_12" n="N013"/>durch zwei ausgespannte Stricke und zwei aufrechte Sergents
       <lb facs="#facs_1_region_1684569569783_2378_tl_13" n="N014"/>de Ville von einer kleinen Herrengesellschaft abgetrennt,
       <lb facs="#facs_1_region_1684569569783_2378_tl_14" n="N015"/>welche, die Trommler vor sich und die Notizbücher zur Hand,
-      <lb facs="#facs_1_region_1684569569783_2378_tl_15" n="N016"/>ruhig um ein Tischchen herumsaß. Es war unsere musika¬
-      <lb facs="#facs_1_region_1684569569783_2378_tl_16" n="N017"/>lische Jury, vor welcher Trommel-Erfinder und Trommel-
+      <lb facs="#facs_1_region_1684569569783_2378_tl_15" n="N016"/>ruhig um ein Tischchen herumsaß. Es war unsere musika
+      <lb facs="#facs_1_region_1684569569783_2378_tl_16" n="N017" break="no"/>lische Jury, vor welcher Trommel-Erfinder und Trommel-
       <lb facs="#facs_1_region_1684569569783_2378_tl_17" n="N018"/>Verbesserer ihre rasselnden Instrumente producirten. Das
       <lb facs="#facs_1_region_1684569569783_2378_tl_18" n="N019"/>Publicum aber stand erstaunt dahinter und möchte entnehmen,
-      <lb facs="#facs_1_region_1684569569783_2378_tl_19" n="N020"/>wie der Kampf um eine Bronce-Medaille den Tambour ge¬
-      <lb facs="#facs_1_region_1684569569783_2378_tl_20" n="N021"/>nau so heftig begeistern kann, wie der Sturmlauf gegen eine
+      <lb facs="#facs_1_region_1684569569783_2378_tl_19" n="N020"/>wie der Kampf um eine Bronce-Medaille den Tambour ge
+      <lb facs="#facs_1_region_1684569569783_2378_tl_20" n="N021" break="no"/>nau so heftig begeistern kann, wie der Sturmlauf gegen eine
       <lb facs="#facs_1_region_1684569569783_2378_tl_21" n="N022"/>Festung. Es war ohne Zweifel der populärste Moment in
       <lb facs="#facs_1_region_1684569569783_2378_tl_22" n="N023"/>dem öffentlichen Lebenslauf unserer Jury. Allerdings hatten
       <lb facs="#facs_1_region_1684569569783_2378_tl_23" n="N024"/>wir einiges Aufsehen und viele Theilnahme schon an den
       <lb facs="#facs_1_region_1684569569783_2378_tl_24" n="N025"/>vorhergehenden Tagen erregt, wo uns jedesmal von 10 bis
       <lb facs="#facs_1_region_1684569569783_2378_tl_25" n="N026"/>4 Uhr nur Blech-Instrumente vorgeblasen wurden. Man
       <lb facs="#facs_1_region_1684569569783_2378_tl_26" n="N027"/>wollte bemerken, daß damals die Jury-Mitglieder noch lange
-      <lb facs="#facs_1_region_1684569569783_2378_tl_27" n="N028"/>nach Schluß der Sitzung auffallend laut sprachen; die Po¬
-      <lb facs="#facs_1_region_1684569569783_2378_tl_28" n="N029"/>saunen hatten Jedem von uns eine leichte Taubheit als An¬
-      <lb facs="#facs_1_region_1684569569783_2378_tl_29" n="N030"/>denken hinterlassen. Die Tage der Violinen und Guitarren
+      <lb facs="#facs_1_region_1684569569783_2378_tl_27" n="N028"/>nach Schluß der Sitzung auffallend laut sprachen; die Po
+      <lb facs="#facs_1_region_1684569569783_2378_tl_28" n="N029" break="no"/>saunen hatten Jedem von uns eine leichte Taubheit als An
+      <lb facs="#facs_1_region_1684569569783_2378_tl_29" n="N030" break="no"/>denken hinterlassen. Die Tage der Violinen und Guitarren
       <lb facs="#facs_1_line_1696252207632_140" n="N031"/>trugen einen milderen, gebildeteren Charakter, welcher in der
       <lb facs="#facs_1_region_1684569569783_2378_tl_31" n="N032"/>folgenden Periode der Flöten und Clarinetten sogar einen Zug
-      <lb facs="#facs_1_region_1684569569783_2378_tl_32" n="N033"/>ländlicher Zufriedenheit und Lebensweisheit annahm. Na¬
-      <lb facs="#facs_1_region_1684569569783_2378_tl_33" n="N034"/>menlose Wehmuth bemächtigte sich hingegen unseres Kreises
-      <lb facs="#facs_1_region_1684569569783_2378_tl_34" n="N035"/>nach Anhörung von 40 bis 50 Harmoniums; die Gefühlvolle¬
-      <lb facs="#facs_1_region_1684569569783_2378_tl_35" n="N036"/>ren von uns zerdrückten beim Abschied eine Thräne im Auge,
+      <lb facs="#facs_1_region_1684569569783_2378_tl_32" n="N033"/>ländlicher Zufriedenheit und Lebensweisheit annahm. Na
+      <lb facs="#facs_1_region_1684569569783_2378_tl_33" n="N034" break="no"/>menlose Wehmuth bemächtigte sich hingegen unseres Kreises
+      <lb facs="#facs_1_region_1684569569783_2378_tl_34" n="N035"/>nach Anhörung von 40 bis 50 Harmoniums; die Gefühlvolle
+      <lb facs="#facs_1_region_1684569569783_2378_tl_35" n="N036" break="no"/>ren von uns zerdrückten beim Abschied eine Thräne im Auge,
       <lb facs="#facs_1_line_1696252228182_152" n="N037"/>die Anderen ballten krampfhaft die Faust in der Tasche. Es
-      <lb facs="#facs_1_region_1684569569783_2378_tl_37" n="N038"/>war vielleicht der schlimmste Tag.ABSATZ
-      <lb facs="#facs_1_line_1696252239392_158" n="N039"/>Kehren wir für einen Augenblick an das grüne Tischchen</p>
+      <lb facs="#facs_1_region_1684569569783_2378_tl_37" n="N038"/>war vielleicht der schlimmste Tag.</p>
+               <p>
+      <lb facs="#facs_1_line_1696252239392_158" n="N039"/>Kehren wir für einen Augenblick an das grüne Tischchen
             <cb n="2"/>
-            <p>
                <lb facs="#facs_1_region_1684569577150_2381_tl_1" n="N001"/>zurück, zu welchem uns die rebellischen Trommeln gelockt,
-      <lb facs="#facs_1_region_1684569577150_2381_tl_2" n="N002"/>und betrachten uns die Persönlichkeiten der Jury. Als Präsi¬
-      <lb facs="#facs_1_region_1684569577150_2381_tl_3" n="N003"/>dent fungirt der Senator und General der Nationalgarde,
+      <lb facs="#facs_1_region_1684569577150_2381_tl_2" n="N002"/>und betrachten uns die Persönlichkeiten der Jury. Als Präsi
+      <lb facs="#facs_1_region_1684569577150_2381_tl_3" n="N003" break="no"/>dent fungirt der Senator und General der Nationalgarde,
       <lb facs="#facs_1_region_1684569577150_2381_tl_4" n="N004"/>
                <hi rendition="#em">
-                  <rs type="person">Mellinet</rs>
-               </hi>. Ein wahrer Charakterkopf, dieser 64jährige Hau¬
-      <lb facs="#facs_1_region_1684569577150_2381_tl_5" n="N005"/>degen mit dem Jugendfeuer in Blick und Bewegung, das der
+                  <rs type="person" ref="#hsl_person_id_3404">Mellinet</rs>
+               </hi>. Ein wahrer Charakterkopf, dieser 64jährige Hau
+      <lb facs="#facs_1_region_1684569577150_2381_tl_5" n="N005" break="no"/>degen mit dem Jugendfeuer in Blick und Bewegung, das der
       <lb facs="#facs_1_region_1684569577150_2381_tl_6" n="N006"/>grauen Haare wie der tiefen Narben zu spotten scheint, die
-      <lb facs="#facs_1_region_1684569577150_2381_tl_7" n="N007"/>sein Gesicht entstellen.ABSATZ
+      <lb facs="#facs_1_region_1684569577150_2381_tl_7" n="N007"/>sein Gesicht entstellen.</p>
+               <p>
       <lb facs="#facs_1_region_1684569577150_2381_tl_8" n="N008"/>Der hitzige General, der bei Magenta sich mit 3000
       <lb facs="#facs_1_region_1684569577150_2381_tl_9" n="N009"/>Mann stundenlang gegen den drei- bis vierfach überlegenen
-      <lb facs="#facs_1_region_1684569577150_2381_tl_10" n="N010"/>Feind behauptete und noch keinen Schritt wich, als ihm be¬
-      <lb facs="#facs_1_region_1684569577150_2381_tl_11" n="N011"/>reits zwei Pferde unter dem Leibe erschossen waren, er ist im
+      <lb facs="#facs_1_region_1684569577150_2381_tl_10" n="N010"/>Feind behauptete und noch keinen Schritt wich, als ihm be
+      <lb facs="#facs_1_region_1684569577150_2381_tl_11" n="N011" break="no"/>reits zwei Pferde unter dem Leibe erschossen waren, er ist im
       <lb facs="#facs_1_region_1684569577150_2381_tl_12" n="N012"/>Umgang die Herzlichkeit, Güte und Bescheidenheit selbst. Vom
       <lb facs="#facs_1_region_1684569577150_2381_tl_13" n="N013"/>Kriegerstand hat er im Frieden nur die Geradheit und Energie
       <lb facs="#facs_1_region_1684569577150_2381_tl_14" n="N014"/>beibehalten, nichts von jenem Uniformdünkel, der in anderen
       <lb facs="#facs_1_region_1684569577150_2381_tl_15" n="N015"/>Staaten eine so empfindliche Scheidewand zwischen Militär
-      <lb facs="#facs_1_region_1684569577150_2381_tl_16" n="N016"/>und Civil aufrichtet. „Dites Général!“ unterbrach <rs type="person">Mellinet</rs>
-               <lb facs="#facs_1_region_1684569577150_2381_tl_17" n="N017"/>einige der Aussteller, welche ihn mit dem (ihm gebührenden)
+      <lb facs="#facs_1_region_1684569577150_2381_tl_16" n="N016"/>und Civil aufrichtet. „Dites Général!“ unterbrach 
+                     <rs type="person" ref="#hsl_person_id_3404">Mellinet</rs>
+      <lb facs="#facs_1_region_1684569577150_2381_tl_17" n="N017"/>einige der Aussteller, welche ihn mit dem (ihm gebührenden)
       <lb facs="#facs_1_region_1684569577150_2381_tl_18" n="N018"/>Titel „Excellenz“ ansprachen. Was den General, der seinen
       <lb facs="#facs_1_region_1684569577150_2381_tl_19" n="N019"/>musikalischen Dilettantismus offen eingesteht, in die Jury
       <lb facs="#facs_1_region_1684569577150_2381_tl_20" n="N020"/>brachte, sind seine großen Verdienste um die Organisirung der
       <lb facs="#facs_1_region_1684569577150_2381_tl_21" n="N021"/>
-               <rs type="place">französisch</rs>en Militärmusik; seine Wahl zum Vorsitzenden war
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Militärmusik; seine Wahl zum Vorsitzenden war
       <lb facs="#facs_1_region_1684569577150_2381_tl_22" n="N022"/>vom Anfang her mit Rücksicht auf seinen hohen Rang und
       <lb facs="#facs_1_region_1684569577150_2381_tl_23" n="N023"/>sein großes persönliches Ansehen beschlossen — wir hatten sie
-      <lb facs="#facs_1_region_1684569577150_2381_tl_24" n="N024"/>nie zu bereuen.ABSATZ
-      <lb facs="#facs_1_region_1684569577150_2381_tl_25" n="N025"/>Einen eigenthümlichen Gegensatz zu dem hageren, unge¬
-      <lb facs="#facs_1_region_1684569577150_2381_tl_26" n="N026"/>stümen General bildet die untersetzte, behaglich gerundete Figur
-      <lb facs="#facs_1_line_1696252256502_167" n="N027"/>und das fröhlich lächelnde Antlitz des Dr. <hi rendition="#em">George <rs type="person" continued="true">Kast¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684569577150_2381_tl_28" n="N028"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">ner</rs>
-               </hi>, Mitglied des Institutes und zahlloser gelehrter Gesell¬
-      <lb facs="#facs_1_region_1684569577150_2381_tl_29" n="N029"/>schaften. Straßburger von Geburt, hat <rs type="person">Kastner</rs> in seiner
-      <lb facs="#facs_1_region_1684569577150_2381_tl_30" n="N030"/>Jugend auf <rs type="place">deutsch</rs>en Universitäten studirt und promovirt.
+      <lb facs="#facs_1_region_1684569577150_2381_tl_24" n="N024"/>nie zu bereuen.</p>
+               <p>
+      <lb facs="#facs_1_region_1684569577150_2381_tl_25" n="N025"/>Einen eigenthümlichen Gegensatz zu dem hageren, unge
+      <lb facs="#facs_1_region_1684569577150_2381_tl_26" n="N026" break="no"/>stümen General bildet die untersetzte, behaglich gerundete Figur
+      <lb facs="#facs_1_line_1696252256502_167" n="N027"/>und das fröhlich lächelnde Antlitz des Dr. <hi rendition="#em">George 
+            <rs type="person" ref="#hsl_person_id_3405">Kast
+               <lb facs="#facs_1_region_1684569577150_2381_tl_28" n="N028" break="no"/>ner</rs>
+               </hi>, Mitglied des Institutes und zahlloser gelehrter Gesell
+      <lb facs="#facs_1_region_1684569577150_2381_tl_29" n="N029" break="no"/>schaften. Straßburger von Geburt, hat 
+                     <rs type="person" ref="#hsl_person_id_3405">Kastner</rs> in seiner
+      <lb facs="#facs_1_region_1684569577150_2381_tl_30" n="N030"/>Jugend auf 
+                     <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Universitäten studirt und promovirt.
       <lb facs="#facs_1_region_1684569577150_2381_tl_31" n="N031"/>Deutscher von Aussehen, Bildung und Temperament (er
       <lb facs="#facs_1_region_1684569577150_2381_tl_32" n="N032"/>schwäbelt das Deutsche ganz reizend), ist <hi rendition="#em">
-                  <rs type="person">Kastner</rs>
+            <rs type="person" ref="#hsl_person_id_3405">Kastner</rs>
                </hi> doch in
       <lb facs="#facs_1_line_1696252212217_143" n="N033"/>
-               <rs type="place">Deutschland</rs> viel weniger gekannt und gewürdigt als hier.
+                     <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> viel weniger gekannt und gewürdigt als hier.
       <lb facs="#facs_1_region_1684569577150_2381_tl_33" n="N034"/>Riesiger Fleiß, unterstützt durch eine glückliche Unabhängigkeit,
-      <lb facs="#facs_1_line_1696252749623_179" n="N035"/>haben <rs type="person">Kastner</rs> in Stand gesetzt, von Jugend auf ganz seinen
+      <lb facs="#facs_1_line_1696252749623_179" n="N035"/>haben 
+                     <rs type="person" ref="#hsl_person_id_3404">Kastner</rs> in Stand gesetzt, von Jugend auf ganz seinen
       <lb facs="#facs_1_region_1684569577150_2381_tl_34" n="N036"/>Studien zu leben und eine große Zahl sehr umfangreicher
       <lb facs="#facs_1_region_1684569577150_2381_tl_35" n="N037"/>Werke zu schreiben. Die Seltsamkeit der gewählten Stoffe
-      <lb facs="#facs_1_region_1684569577150_2381_tl_36" n="N038"/>und der darin aufgethürmte Wust archäologischer und philo¬
-      <lb facs="#facs_1_line_1696252224006_149" n="N039"/>logischer Gelehrsamkeit mögen deren Verbreitung etwas be¬
-      <lb facs="#facs_1_region_1684569577150_2381_tl_37" n="N040"/>einträchtigt haben. In einem starken Quartband z. B. han¬
-      <lb facs="#facs_1_line_1696252243842_161" n="N041"/>delt <rs type="person">Kastner</rs> von den sagenhaften „<hi rendition="#em">Sirenen</hi>“, in einem an¬</p>
+      <lb facs="#facs_1_region_1684569577150_2381_tl_36" n="N038"/>und der darin aufgethürmte Wust archäologischer und philo
+      <lb facs="#facs_1_line_1696252224006_149" n="N039" break="no"/>logischer Gelehrsamkeit mögen deren Verbreitung etwas be
+      <lb facs="#facs_1_region_1684569577150_2381_tl_37" n="N040" break="no"/>einträchtigt haben. In einem starken Quartband z. B. han
+      <lb facs="#facs_1_line_1696252243842_161" n="N041" break="no"/>delt 
+                     <rs type="person" ref="#hsl_person_id_3404">Kastner</rs> von den sagenhaften „<hi rendition="#em">Sirenen</hi>“, in einem an
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684569581008_2384_tl_1" n="N001"/>deren von den „<hi rendition="#em">Aeolsharfen</hi>“ und bringt Alles bei, was
-      <lb facs="#facs_1_region_1684569581008_2384_tl_2" n="N002"/>irgendwann und irgendwo über diese Gegenstände gesagt und ge¬
-      <lb facs="#facs_1_region_1684569581008_2384_tl_3" n="N003"/>schrieben worden. In seinen „<rs type="bibl">Voix de Paris</rs>" notirt er die
+               <lb facs="#facs_1_region_1684569581008_2384_tl_1" n="N001" break="no"/>deren von den „<hi rendition="#em">Aeolsharfen</hi>“ und bringt Alles bei, was
+      <lb facs="#facs_1_region_1684569581008_2384_tl_2" n="N002"/>irgendwann und irgendwo über diese Gegenstände gesagt und ge
+      <lb facs="#facs_1_region_1684569581008_2384_tl_3" n="N003" break="no"/>schrieben worden. In seinen „
+                     <rs type="bibl">Voix de Paris</rs>" notirt er die
       <lb facs="#facs_1_region_1684569581008_2384_tl_4" n="N004"/>Ausrufe aller Arten Verkäufer, vom Mittelalter bis auf heute.
       <lb facs="#facs_1_region_1684569581008_2384_tl_5" n="N005"/>Ein Werk über die Militärmusik geht bis auf die Egypter,
       <lb facs="#facs_1_region_1684569581008_2384_tl_6" n="N006"/>Römer und Griechen zurück, ohne deßhalb irgend eine der
       <lb facs="#facs_1_region_1684569581008_2384_tl_7" n="N007"/>modernsten Einrichtungen zu vergessen. Obwol vorzugsweise
-      <lb facs="#facs_1_region_1684569581008_2384_tl_8" n="N008"/>Polyhistor und musikalischer Archäolog, ist <rs type="person">Kastner</rs> doch keines¬
-      <lb facs="#facs_1_region_1684569581008_2384_tl_9" n="N009"/>wegs der praktischen Seite der Tonkunst ferngeblieben. Als
+      <lb facs="#facs_1_region_1684569581008_2384_tl_8" n="N008"/>Polyhistor und musikalischer Archäolog, ist 
+                     <rs type="person" ref="#hsl_person_id_3404">Kastner</rs> doch keines
+      <lb facs="#facs_1_region_1684569581008_2384_tl_9" n="N009" break="no"/>wegs der praktischen Seite der Tonkunst ferngeblieben. Als
       <lb facs="#facs_1_region_1684569581008_2384_tl_10" n="N010"/>Componist und ausübender Künstler früher sehr thätig, hat
       <lb facs="#facs_1_region_1684569581008_2384_tl_11" n="N011"/>
-               <rs type="person">Kastner</rs> obendrein für jedes existirende Orchester-Instrument
+                     <rs type="person" ref="#hsl_person_id_3404">Kastner</rs> obendrein für jedes existirende Orchester-Instrument
       <lb facs="#facs_1_region_1684569581008_2384_tl_12" n="N012"/>eine Schule (Methode) geschrieben, sogar für die Pauken!
       <lb facs="#facs_1_region_1684569581008_2384_tl_13" n="N013"/>Dies allein stempelt den Mann zum gelehrten Original; wer
       <lb facs="#facs_1_region_1684569581008_2384_tl_14" n="N014"/>ihn näher kennt, weiß überdies, daß dies Original nebst den
       <lb facs="#facs_1_region_1684569581008_2384_tl_15" n="N015"/>erstaunlichsten Kenntnissen auch das redlichste, wohlwollendste,
-      <lb facs="#facs_1_region_1684569581008_2384_tl_16" n="N016"/>uneigennützigste Herz besitzt.ABSATZ
+      <lb facs="#facs_1_region_1684569581008_2384_tl_16" n="N016"/>uneigennützigste Herz besitzt.</p>
+               <p>
       <lb facs="#facs_1_region_1684569581008_2384_tl_17" n="N017"/>Die Künstlernatur par excellence ist in unserer Jury
-      <lb facs="#facs_1_region_1684569581008_2384_tl_18" n="N018"/>durch den Componisten <hi rendition="#em">Ambroise <rs type="person">Thomas</rs>
+      <lb facs="#facs_1_region_1684569581008_2384_tl_18" n="N018"/>durch den Componisten <hi rendition="#em">Ambroise 
+            <rs type="person" ref="#hsl_person_id_305">Thomas</rs>
                </hi> vertreten.
       <lb facs="#facs_1_region_1684569581008_2384_tl_19" n="N019"/>Eine poetische, nervöse Natur, meist ernst und schweigsam,
       <lb facs="#facs_1_region_1684569581008_2384_tl_20" n="N020"/>leicht gereizt, schnell ermüdet, kein Freund der Geselligkeit und
       <lb facs="#facs_1_region_1684569581008_2384_tl_21" n="N021"/>Feind der Complimente, ist <hi rendition="#em">
-                  <rs type="person">Thomas</rs>
+            <rs type="person" ref="#hsl_person_id_305">Thomas</rs>
                </hi> keineswegs, was man
-      <lb facs="#facs_1_region_1684569581008_2384_tl_22" n="N022"/>im Salon einen vorzüglichen Gesellschafter heißt. Mit Un¬
-      <lb facs="#facs_1_region_1684569581008_2384_tl_23" n="N023"/>recht nennen ihn Manche einen Misanthropen, ihn, „der sich
+      <lb facs="#facs_1_region_1684569581008_2384_tl_22" n="N022"/>im Salon einen vorzüglichen Gesellschafter heißt. Mit Un
+      <lb facs="#facs_1_region_1684569581008_2384_tl_23" n="N023" break="no"/>recht nennen ihn Manche einen Misanthropen, ihn, „der sich
       <lb facs="#facs_1_region_1684569581008_2384_tl_24" n="N024"/>ohne Groll vor der Welt verschließt“, nur seiner Kunst und
-      <lb facs="#facs_1_region_1684569581008_2384_tl_25" n="N025"/>wenigen Freunden lebend. Sein hageres, ausdrucksvolles Ge¬
-      <lb facs="#facs_1_region_1684569581008_2384_tl_26" n="N026"/>sicht, von grauem Haar und Bart kräftig umrahmt, erzählt
+      <lb facs="#facs_1_region_1684569581008_2384_tl_25" n="N025"/>wenigen Freunden lebend. Sein hageres, ausdrucksvolles Ge
+      <lb facs="#facs_1_region_1684569581008_2384_tl_26" n="N026" break="no"/>sicht, von grauem Haar und Bart kräftig umrahmt, erzählt
       <lb facs="#facs_1_line_1696252261752_170" n="N027"/>von überstandenem Leid und Kämpfen, es erzählt auch von
       <lb facs="#facs_1_region_1684569581008_2384_tl_27" n="N028"/>einem liebebedürftigen und liebenswerthen Herzen, das nicht
-      <lb facs="#facs_1_region_1684569581008_2384_tl_28" n="N029"/>geschaffen war, einsam und hagestolz zu vergrämen. <hi rendition="#em">Ambroise</hi>
+      <lb facs="#facs_1_region_1684569581008_2384_tl_28" n="N029"/>geschaffen war, einsam und hagestolz zu vergrämen. <hi rendition="#em">Ambroise
                <lb facs="#facs_1_region_1684569581008_2384_tl_29" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Thomas</rs>
-               </hi>, längst ein Lieblingscomponist seiner Nation, hat eben
-      <lb facs="#facs_1_region_1684569581008_2384_tl_30" n="N031"/>seinen größten Succeß mit seiner neuesten Oper „<rs type="bibl">Mignon</rs>“ er¬
-      <lb facs="#facs_1_region_1684569581008_2384_tl_31" n="N032"/>rungen. Dies höchst anmuthige Werk, von dem ich Ihnen
-      <lb facs="#facs_1_region_1684569581008_2384_tl_32" n="N033"/>nächstens mehr erzähle, wurde bereits gegen achtzigmal nach¬
-      <lb facs="#facs_1_region_1684569581008_2384_tl_33" n="N034"/>einander gegeben, ohne daß der Andrang des Publicums nach¬
-      <lb facs="#facs_1_line_1696252753033_182" n="N035"/>läßt. Von dieser „<rs type="bibl">Mignon</rs>“ hörte ich <hi rendition="#em">
-                  <rs type="person">Thomas</rs>
+            <rs type="person" ref="#hsl_person_id_305">Thomas</rs></hi>, längst ein Lieblingscomponist seiner Nation, hat eben
+      <lb facs="#facs_1_region_1684569581008_2384_tl_30" n="N031"/>seinen größten Succeß mit seiner neuesten Oper „<rs type="bibl">Mignon</rs>“ er
+      <lb facs="#facs_1_region_1684569581008_2384_tl_31" n="N032" break="no"/>rungen. Dies höchst anmuthige Werk, von dem ich Ihnen
+      <lb facs="#facs_1_region_1684569581008_2384_tl_32" n="N033"/>nächstens mehr erzähle, wurde bereits gegen achtzigmal nach
+      <lb facs="#facs_1_region_1684569581008_2384_tl_33" n="N034" break="no"/>einander gegeben, ohne daß der Andrang des Publicums nach
+      <lb facs="#facs_1_line_1696252753033_182" n="N035" break="no"/>läßt. Von dieser „<rs type="bibl">Mignon</rs>“ hörte ich <hi rendition="#em">
+            <rs type="person" ref="#hsl_person_id_305">Thomas</rs>
                </hi> während der
       <lb facs="#facs_1_region_1684569581008_2384_tl_35" n="N036"/>vier Wochen unseres täglichen Verkehrs ebensowenig die leiseste
       <lb facs="#facs_1_region_1684569581008_2384_tl_36" n="N037"/>Erwähnung machen, als von irgend einem anderen seiner
       <lb facs="#facs_1_region_1684569581008_2384_tl_37" n="N038"/>Werke. Wie sehr unterscheidet sich diese wahre Bescheidenheit
       <lb facs="#facs_1_region_1684569581008_2384_tl_38" n="N039"/>von ihrer Stiefschwester, jener unter Künstlern und Gelehrten
-      <lb facs="#facs_1_region_1684569581008_2384_tl_39" n="N040"/>zumeist cultivirten <hi rendition="#em">eitlen</hi> Bescheidenheit!ABSATZ
+      <lb facs="#facs_1_region_1684569581008_2384_tl_39" n="N040"/>zumeist cultivirten <hi rendition="#em">eitlen</hi> Bescheidenheit!</p>
+               <p>
       <lb facs="#facs_1_region_1684569581008_2384_tl_40" n="N041"/>Den größten Einfluß in der Jury hat <hi rendition="#em">
-                  <rs type="person">Fétis</rs>
-               </hi>, der ge¬</p>
+            <rs type="person" ref="#hsl_person_id_78">Fétis</rs></hi>, der ge
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684569647214_2409_tl_1" n="N001"/>lehrte Musikhistoriker aus <rs type="place">Brüssel</rs>. Man kennt die zahlreichen
-      <lb facs="#facs_2_region_1684569647214_2409_tl_2" n="N002"/>Arbeiten dieses nun 84 Jahre alten Professors; er is da¬
-      <lb facs="#facs_2_region_1684569647214_2409_tl_3" n="N003"/>mit noch nicht am Ende. Eine „<rs type="bibl">Geschichte der Musik</rs>“ in
+               <lb facs="#facs_2_region_1684569647214_2409_tl_1" n="N001" break="no"/>lehrte Musikhistoriker aus 
+                     <rs type="place" ref="#hsl_place_id_200">Brüssel</rs>. Man kennt die zahlreichen
+      <lb facs="#facs_2_region_1684569647214_2409_tl_2" n="N002"/>Arbeiten dieses nun 84 Jahre alten Professors; er is da
+      <lb facs="#facs_2_region_1684569647214_2409_tl_3" n="N003" break="no"/>mit noch nicht am Ende. Eine „
+                     <rs type="bibl">Geschichte der Musik</rs>“ in
       <lb facs="#facs_2_region_1684569647214_2409_tl_4" n="N004"/>sechs Bänden ist unter der Presse, Anderes in Vorbereitung.
       <lb facs="#facs_2_region_1684569647214_2409_tl_5" n="N005"/>Das hohe Alter und gelehrte Ansehen des vielerfahrenen,
-      <lb facs="#facs_2_region_1684569647214_2409_tl_6" n="N006"/>mitunter etwas eigensinnigen Mannes erklären das Ueberge¬
-      <lb facs="#facs_2_region_1684569647214_2409_tl_7" n="N007"/>wicht, das die übrigen Jurors, die <rs type="place">französisch</rs>en namentlich,
-      <lb facs="#facs_2_region_1684569647214_2409_tl_8" n="N008"/>ihm in den Berathungen zugestehen.ABSATZ
-      <lb facs="#facs_2_region_1684569647214_2409_tl_9" n="N009"/>Noch zwei Preisrichter, von <rs type="place">Würtemberg</rs> und von <rs type="place">Eng¬</rs>
-               <lb facs="#facs_2_region_1684569647214_2409_tl_10" n="N010"/>
-               <rs type="place">land</rs> gesendet, habe ich zu nennen. Der eine, J. P. <hi rendition="#em">
-                  <rs type="person" continued="true">Schied¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684569647214_2409_tl_11" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mayer</rs>
+      <lb facs="#facs_2_region_1684569647214_2409_tl_6" n="N006"/>mitunter etwas eigensinnigen Mannes erklären das Ueberge
+      <lb facs="#facs_2_region_1684569647214_2409_tl_7" n="N007" break="no"/>wicht, das die übrigen Jurors, die 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en namentlich,
+      <lb facs="#facs_2_region_1684569647214_2409_tl_8" n="N008"/>ihm in den Berathungen zugestehen.</p>
+               <p>
+      <lb facs="#facs_2_region_1684569647214_2409_tl_9" n="N009"/>Noch zwei Preisrichter, von 
+                     <rs type="place" ref="#hsl_place_id_116">Würtemberg</rs> und von <rs type="place" ref="#hsl_place_id_17">Eng
+               <lb facs="#facs_2_region_1684569647214_2409_tl_10" n="N010" break="no"/>land</rs> gesendet, habe ich zu nennen. Der eine, J. P. <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_3406">Schied
+               <lb facs="#facs_2_region_1684569647214_2409_tl_11" n="N011" break="no"/>mayer</rs>
                </hi>, der intelligente, vielgereiste Chef einer trefflichen
-      <lb facs="#facs_2_region_1684569647214_2409_tl_12" n="N012"/>Harmonium-Fabrik in <rs type="place">Stuttgart</rs>, fühlte sich als Süddeutscher
-      <lb facs="#facs_2_region_1684569647214_2409_tl_13" n="N013"/>augenblicklich zu <rs type="place">Oesterreich</rs> hingezogen, wie ja gleicher¬
-      <lb facs="#facs_2_region_1684569647214_2409_tl_14" n="N014"/>maßen der Oesterreicher überall, wo es Cultur-Interessen
+      <lb facs="#facs_2_region_1684569647214_2409_tl_12" n="N012"/>Harmonium-Fabrik in 
+                     <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs>, fühlte sich als Süddeutscher
+      <lb facs="#facs_2_region_1684569647214_2409_tl_13" n="N013"/>augenblicklich zu 
+                     <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> hingezogen, wie ja gleicher
+      <lb facs="#facs_2_region_1684569647214_2409_tl_14" n="N014" break="no"/>maßen der Oesterreicher überall, wo es Cultur-Interessen
       <lb facs="#facs_2_region_1684569647214_2409_tl_15" n="N015"/>gilt, und unter Fremden noch mehr als daheim, sich als
       <lb facs="#facs_2_region_1684569647214_2409_tl_16" n="N016"/>
                <hi rendition="#em">Deutscher</hi> fühlt. So gingen denn <hi rendition="#em">
-                  <rs type="person">Schiedmayer</rs>
+                     <rs type="person" ref="#hsl_person_id_3406">Schiedmayer</rs>
                </hi> und ich
       <lb facs="#facs_2_region_1684569647214_2409_tl_17" n="N017"/>fast in allen Vorschlägen und Abstimmungen Hand in Hand,
       <lb facs="#facs_2_region_1684569647214_2409_tl_18" n="N018"/>und im Interesse unserer Industriellen habe ich alle Ursache,
-      <lb facs="#facs_2_region_1684569647214_2409_tl_19" n="N019"/>der Unterstützung Herrn <rs type="person">Schiedmayer</rs>’s dankbar zu gedenken.
-      <lb facs="#facs_2_region_1684569647214_2409_tl_20" n="N020"/>Der <rs type="place">englisch</rs>e Juror war Lord <hi rendition="#em">
-                  <rs type="person">Fitzgerald</rs>
-               </hi>, ein reicher, pas¬
-      <lb facs="#facs_2_line_1696255116771_458" n="N021"/>sionirter Dilettant, dem wir eine bescheidene und friedfertige
+      <lb facs="#facs_2_region_1684569647214_2409_tl_19" n="N019"/>der Unterstützung Herrn 
+                     <rs type="person" ref="#hsl_person_id_3406">Schiedmayer</rs>’s dankbar zu gedenken.
+      <lb facs="#facs_2_region_1684569647214_2409_tl_20" n="N020"/>Der 
+                     <rs type="place" ref="#hsl_place_id_17">englisch</rs>e Juror war Lord <hi rendition="#em">
+                           <rs type="person" ref="#hsl_person_id_3407">Fitzgerald</rs>
+               </hi>, ein reicher, pas
+      <lb facs="#facs_2_line_1696255116771_458" n="N021" break="no"/>sionirter Dilettant, dem wir eine bescheidene und friedfertige
       <lb facs="#facs_2_line_1696255108901_454" n="N022"/>Passivität nachrühmen müssen. Zum „Associé“ der Jury
       <lb facs="#facs_2_region_1684569647214_2409_tl_25" n="N023"/>war anfangs blos Herr August <hi rendition="#em">
-                  <rs type="person">Wolff</rs>
+                  <rs type="person" ref="#hsl_person_id_3408">Wolff</rs>
                </hi> ernannt, Chef der
-      <lb facs="#facs_2_region_1684569647214_2409_tl_26" n="N024"/>berühmten Pianofabrik Pleyel, Wolff und Comp. in <rs type="place">Paris</rs>;
+      <lb facs="#facs_2_region_1684569647214_2409_tl_26" n="N024"/>berühmten Pianofabrik Pleyel, Wolff und Comp. in 
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs>;
       <lb facs="#facs_2_region_1684569647214_2409_tl_27" n="N025"/>später, mitunter sogar ganz am Schlusse der Jury-Arbeiten,
       <lb facs="#facs_2_region_1684569647214_2409_tl_28" n="N026"/>erwirkten noch mehrere der ersten Pariser Fabrikanten das
       <lb facs="#facs_2_region_1684569647214_2409_tl_29" n="N027"/>Decret als Associés, mehr aus äußerlichen Gründen (um
-      <lb facs="#facs_2_region_1684569647214_2409_tl_30" n="N028"/>hors du concours zu sein), als in der Absicht, mitzuarbei¬
-      <lb facs="#facs_2_region_1684569647214_2409_tl_31" n="N029"/>M. August <rs type="person">Wolff</rs> hingegen, ein Mann von gediegener allge¬
-      <lb facs="#facs_2_region_1684569647214_2409_tl_32" n="N030"/>meiner wie musikalischer Bildung und feinsten Umgangsfor¬
-      <lb facs="#facs_2_region_1684569647214_2409_tl_33" n="N031"/>men, wurde durch seine Fachkenntniß und unermüdliche Thä¬
-      <lb facs="#facs_2_region_1684569647214_2409_tl_34" n="N032"/>tigkeit eine wahre Perle für die Jury. — Eine Revue der
-      <lb facs="#facs_2_region_1684569647214_2409_tl_35" n="N033"/>ausgestellten Musik-Instrumente muß ich mir für den näch¬
-      <lb facs="#facs_2_line_1696254939441_359" n="N034"/>sten Brief vorbehalten. Wenn ich in der Schilderung meiner
+      <lb facs="#facs_2_region_1684569647214_2409_tl_30" n="N028"/>hors du concours zu sein), als in der Absicht, mitzuarbei
+      <lb facs="#facs_2_region_1684569647214_2409_tl_31" n="N029" break="no"/>ten. August 
+                     <rs type="person" ref="#hsl_person_id_3408">Wolff</rs> hingegen, ein Mann von gediegener allge
+      <lb facs="#facs_2_region_1684569647214_2409_tl_32" n="N030" break="no"/>meiner wie musikalischer Bildung und feinsten Umgangsfor
+      <lb facs="#facs_2_region_1684569647214_2409_tl_33" n="N031" break="no"/>men, wurde durch seine Fachkenntniß und unermüdliche Thä
+      <lb facs="#facs_2_region_1684569647214_2409_tl_34" n="N032" break="no"/>tigkeit eine wahre Perle für die Jury. — Eine Revue der
+      <lb facs="#facs_2_region_1684569647214_2409_tl_35" n="N033"/>ausgestellten Musik-Instrumente muß ich mir für den näch
+      <lb facs="#facs_2_line_1696254939441_359" n="N034" break="no"/>sten Brief vorbehalten. Wenn ich in der Schilderung meiner
       <lb facs="#facs_2_region_1684569647214_2409_tl_36" n="N035"/>Collegen etwas redselig geworden bin, halten Sie mir es
       <lb facs="#facs_2_region_1684569647214_2409_tl_37" n="N036"/>zugute! War es ja der künstlerische Verkehr und das tägliche
       <lb facs="#facs_2_region_1684569647214_2409_tl_38" n="N037"/>Zusammenarbeiten mit diesen Männern, was mich für alle
-      <lb facs="#facs_2_line_1696254969921_374" n="N038"/>Leiden meiner gehörmörderischen Mission reich entschädigt hat.ABSATZ</p>
+      <lb facs="#facs_2_line_1696254969921_374" n="N038"/>Leiden meiner gehörmörderischen Mission reich entschädigt hat.</p>
             <cb n="5"/>
             <p>
                <lb facs="#facs_2_region_1684569651217_2412_tl_1" n="N001"/>
@@ -958,48 +974,85 @@
       <lb facs="#facs_2_line_1696255092676_432" n="N002"/>Instrumente) hat Vorschlag ausgearbeitet und wird
       <lb facs="#facs_2_region_1684569651217_2412_tl_4" n="N003"/>ihn demnächst der zweiten und dritten Instanz (Gruppenjury
       <lb facs="#facs_2_line_1696255081091_421" n="N004"/>und Conseil) übergeben, welchen die letzte Entscheidung darüber
-      <lb facs="#facs_2_region_1684569651217_2412_tl_6" n="N005"/>zusteht.ABSATZ
+      <lb facs="#facs_2_region_1684569651217_2412_tl_6" n="N005"/>zusteht.</p>
+               <p>
       <lb facs="#facs_2_region_1684569651217_2412_tl_7" n="N006"/>Für <hi rendition="#em">
-                  <rs type="place">österreichisch</rs>e Aussteller</hi> ist beantragt:
+            <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>e Aussteller</hi> ist beantragt:
       <lb facs="#facs_2_region_1684569651217_2412_tl_8" n="N007"/>A. <hi rendition="#em">Die silberne Medaille</hi>:
-      <lb facs="#facs_2_region_1684569651217_2412_tl_9" n="N008"/>1. für Claviere: <hi rendition="#em">Streicher</hi>, <hi rendition="#em">Ehrbar</hi>, <hi rendition="#em">Bösendor</hi>
-               <lb facs="#facs_2_region_1684569651217_2412_tl_10" n="N009"/>
-               <hi rendition="#em">fer</hi> in <rs type="place">Wien</rs>;
-      <lb facs="#facs_2_region_1684569651217_2412_tl_11" n="N010"/>2. für Violinen: <hi rendition="#em">Lemböck</hi> in <rs type="place">Wien</rs>;
-      <lb facs="#facs_2_region_1684569651217_2412_tl_12" n="N011"/>3. für Blas-Instrumente: <hi rendition="#em">Cerveny</hi> in <rs type="place">Königgrätz</rs>,
+      <lb facs="#facs_2_region_1684569651217_2412_tl_9" n="N008"/>1. für Claviere: <hi rendition="#em">
+            <rs type="person">Streicher</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Ehrbar</rs></hi>, 
+                     <hi rendition="#em"><rs type="person">Bösendor
+               <lb facs="#facs_2_region_1684569651217_2412_tl_10" n="N009" break="no"/>fer</rs></hi> in 
+                     <rs type="place" ref="#hsl_place_id_55">Wien</rs>;
+      <lb facs="#facs_2_region_1684569651217_2412_tl_11" n="N010"/>2. für Violinen: <hi rendition="#em">
+            <rs type="person">Lemböck</rs></hi> in 
+                     <rs type="place" ref="#hsl_place_id_55">Wien</rs>;
+      <lb facs="#facs_2_region_1684569651217_2412_tl_12" n="N011"/>3. für Blas-Instrumente: <hi rendition="#em">
+            <rs type="person">Cerveny</rs></hi> in 
+                     <rs type="place" ref="#hsl_place_id_381">Königgrätz</rs>,
       <lb facs="#facs_2_region_1684569651217_2412_tl_13" n="N012"/>
-               <hi rendition="#em">Bock</hi> und <hi rendition="#em">Ziegler</hi> in <rs type="place">Wien</rs>.
+               <hi rendition="#em"><rs type="person">Bock</rs></hi> und <hi rendition="#em">
+                     <rs type="person">Ziegler</rs></hi> in 
+                     <rs type="place" ref="#hsl_place_id_55">Wien</rs>.
       <lb facs="#facs_2_region_1684569651217_2412_tl_14" n="N013"/>B. <hi rendition="#em">Die Bronce-Medaille</hi>:
-      <lb facs="#facs_2_region_1684569651217_2412_tl_15" n="N014"/>1. für Claviere: <hi rendition="#em">Schweighofer</hi>*), <hi rendition="#em">Promberger</hi>,
+      <lb facs="#facs_2_region_1684569651217_2412_tl_15" n="N014"/>1. für Claviere: <hi rendition="#em">
+            <rs type="person">Schweighofer</rs></hi>
+                     <note type="footnote" n="*)">
+                           <lb facs="#facs_2_region_1684569651217_2412_tl_35" n="N036"/><rs type="person">Schweighofer</rs>, anfangs für die <hi rendition="#em">silberne</hi> Medaille notirt,
+                           <lb facs="#facs_2_region_1684569651217_2412_tl_36" n="N037"/>wurde in Folge einer nothwendigen Reduction nebst mehreren an
+                           <lb facs="#facs_2_line_1696254974456_377" n="N038" break="no"/>deren Fabrikanten in die Bronce-Medaillen eingereiht.
+                     </note>, <hi rendition="#em">
+                           <rs type="person">Promberger</rs></hi>,
       <lb facs="#facs_2_region_1684569651217_2412_tl_16" n="N015"/>
-               <hi rendition="#em">Blümel</hi> (<rs type="place">Wien</rs>) und <hi rendition="#em">Beregshazy</hi> (<rs type="place">Pest</rs>);
-      <lb facs="#facs_2_line_1696255016091_396" n="N016"/>2. für Violinen, Zithern und Guitarren: <hi rendition="#em">Bittner</hi>
-               <lb facs="#facs_2_line_1696255012601_393" n="N017"/>(<rs type="place">Wien</rs>);
-      <lb facs="#facs_2_region_1684569651217_2412_tl_18" n="N018"/>3. für Zithern: <hi rendition="#em">Kiendl</hi> (<rs type="place">Wien</rs>);
-      <lb facs="#facs_2_region_1684569651217_2412_tl_19" n="N019"/>4. für Blas-Instrumente: <hi rendition="#em">Tomschik</hi> (<rs type="place">Brünn</rs>), <hi rendition="#em">Laus¬</hi>
-               <lb facs="#facs_2_region_1684569651217_2412_tl_20" n="N020"/>
-               <hi rendition="#em">mann</hi> (<rs type="place">Linz</rs>), <hi rendition="#em">Bohland</hi> (<rs type="place">Graslitz</rs>).
+                     <hi rendition="#em"><rs type="person">Blümel</rs></hi> (<rs type="place" ref="#hsl_place_id_55">Wien</rs>) und <hi rendition="#em">
+                           <rs type="person">Beregshazy</rs></hi> (
+                     <rs type="place" ref="#hsl_place_id_108">Pest</rs>);
+      <lb facs="#facs_2_line_1696255016091_396" n="N016"/>2. für Violinen, Zithern und Guitarren: <hi rendition="#em">
+            <rs type="person">Bittner</rs></hi>
+      <lb facs="#facs_2_line_1696255012601_393" n="N017"/>(<rs type="place" ref="#hsl_place_id_55">Wien</rs>);
+      <lb facs="#facs_2_region_1684569651217_2412_tl_18" n="N018"/>3. für Zithern: <hi rendition="#em">
+            <rs type="person">Kiendl</rs></hi> (<rs type="place" ref="#hsl_place_id_55">Wien</rs>);
+      <lb facs="#facs_2_region_1684569651217_2412_tl_19" n="N019"/>4. für Blas-Instrumente: <hi rendition="#em">
+            <rs type="person">Tomschik</rs></hi> (
+                     <rs type="place" ref="#hsl_place_id_228">Brünn</rs>), <hi rendition="#em">
+                           <rs type="person">Laus
+               <lb facs="#facs_2_region_1684569651217_2412_tl_20" n="N020" break="no"/>mann</rs></hi> (
+                     <rs type="place" ref="#hsl_place_id_143">Linz</rs>), <hi rendition="#em">
+                           <rs type="person">Bohland</rs></hi> (<rs type="place" ref="#hsl_place_id_382">Graslitz</rs>).
       <lb facs="#facs_2_region_1684569651217_2412_tl_21" n="N021"/>C. <hi rendition="#em">Die ehrenvolle Erwähnung</hi>:
-      <lb facs="#facs_2_region_1684569651217_2412_tl_22" n="N022"/>1. für Claviere: <hi rendition="#em">Cramer</hi>, <hi rendition="#em">Simon</hi> (<rs type="place">Wien</rs>);
-      <lb facs="#facs_2_region_1684569651217_2412_tl_23" n="N023"/>2. für Blas-Instrumente: <hi rendition="#em">Farsky</hi> (<rs type="place">Böhmen</rs>);
-      <lb facs="#facs_2_region_1684569651217_2412_tl_24" n="N024"/>3. für Orgel: <hi rendition="#em">Hesse</hi> (<rs type="place">Wien</rs>);
-      <lb facs="#facs_2_region_1684569651217_2412_tl_25" n="N025"/>4. für Zithern: <hi rendition="#em">Weigel</hi> (<rs type="place">Salzburg</rs>).
+      <lb facs="#facs_2_region_1684569651217_2412_tl_22" n="N022"/>1. für Claviere: <hi rendition="#em">
+            <rs type="person">Cramer</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Simon</rs></hi> (
+                     <rs type="place" ref="#hsl_place_id_55">Wien</rs>);
+      <lb facs="#facs_2_region_1684569651217_2412_tl_23" n="N023"/>2. für Blas-Instrumente: <hi rendition="#em">
+            <rs type="person">Farsky</rs></hi> (
+                     <rs type="place" ref="#hsl_place_id_1">Böhmen</rs>);
+      <lb facs="#facs_2_region_1684569651217_2412_tl_24" n="N024"/>3. für Orgel: <hi rendition="#em">
+            <rs type="person">Hesse</rs></hi> (
+                     <rs type="place" ref="#hsl_place_id_55">Wien</rs>);
+      <lb facs="#facs_2_region_1684569651217_2412_tl_25" n="N025"/>4. für Zithern: <hi rendition="#em">
+            <rs type="person">Weigel</rs></hi> (
+                     <rs type="place" ref="#hsl_place_id_49">Salzburg</rs>).
       <lb facs="#facs_2_region_1684569651217_2412_tl_26" n="N026"/>
                <hi rendition="#em">Goldene</hi> Medaillen fallen nach dem Reglement auf die
-      <lb facs="#facs_2_region_1684569651217_2412_tl_27" n="N027"/>ganze (500 Aussteller enthaltende) Classe 10 nur zwei, höch¬
-      <lb facs="#facs_2_region_1684569651217_2412_tl_28" n="N028"/>stens drei Stück. Es war unmöglich, eine davon für <rs type="place">Oester¬</rs>
-               <lb facs="#facs_2_region_1684569651217_2412_tl_29" n="N029"/>
-               <rs type="place">reich</rs> zu gewinnen; ein hierauf zielender Antrag wurde mit
+      <lb facs="#facs_2_region_1684569651217_2412_tl_27" n="N027"/>ganze (500 Aussteller enthaltende) Classe 10 nur zwei, höch
+      <lb facs="#facs_2_region_1684569651217_2412_tl_28" n="N028" break="no"/>stens drei Stück. Es war unmöglich, eine davon für 
+                     <rs type="place" ref="#hsl_place_id_43">Oester
+               <lb facs="#facs_2_region_1684569651217_2412_tl_29" n="N029" break="no"/>reich</rs> zu gewinnen; ein hierauf zielender Antrag wurde mit
       <lb facs="#facs_2_region_1684569651217_2412_tl_30" n="N030"/>allen Stimmen gegen Eine abgelehnt. Ueber den Vorschlag
       <lb facs="#facs_2_region_1684569651217_2412_tl_31" n="N031"/>für diese wenigen Goldmedaillen hat die Jury sich noch nicht
       <lb facs="#facs_2_region_1684569651217_2412_tl_32" n="N032"/>definitiv geeinigt; wahrscheinlich werden die Claviermacher
       <lb facs="#facs_2_region_1684569651217_2412_tl_33" n="N033"/>
-               <hi rendition="#em">Broadwood</hi> in <rs type="place">London</rs>, <hi rendition="#em">Steinway</hi> in <rs type="place">Newyork</rs> und die
-      <lb facs="#facs_2_line_1696254943751_362" n="N034"/>Orgelbauer <hi rendition="#em">Merklin</hi> und <hi rendition="#em">Schütze</hi> in <rs type="place">Paris</rs> damit be¬
-      <lb facs="#facs_2_line_1696254959081_368" n="N035"/>theilt.
-      <lb facs="#facs_2_region_1684569651217_2412_tl_35" n="N036"/>*) Schweighofer, anfangs für die <hi rendition="#em">silberne</hi> Medaille notirt,
-      <lb facs="#facs_2_region_1684569651217_2412_tl_36" n="N037"/>wurde in Folge einer nothwendigen Reduction nebst mehreren an¬
-      <lb facs="#facs_2_line_1696254974456_377" n="N038"/>deren Fabrikanten in die Bronce-Medaillen eingereiht.</p>
+                     <hi rendition="#em"><rs type="person">Broadwood</rs></hi> in <rs type="place" ref="#hsl_place_id_34">London</rs>, <hi rendition="#em">
+                           <rs type="person">Steinway</rs></hi> in 
+                     <rs type="place" ref="#hsl_place_id_186">Newyork</rs> und die
+      <lb facs="#facs_2_line_1696254943751_362" n="N034"/>Orgelbauer <hi rendition="#em">
+            <rs type="person">Merklin</rs></hi> und <hi rendition="#em">
+                  <rs type="person">Schütze</rs></hi> in 
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs> damit be
+      <lb facs="#facs_2_line_1696254959081_368" n="N035" break="no"/>theilt.
+            </p>
          </div>
       </body>
    </text>

@@ -106,6 +106,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-10-03">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-10-09">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2023-11-16" who="ampfiel">header, Umbrüche, note, ref place fertig und person angefangen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -779,35 +780,36 @@
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_3_region_1684569472801_2340_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place">Paris</rs>.
-      <lb facs="#facs_3_line_1696332419223_664" n="N002"/>II.
-      <lb facs="#facs_3_region_1684569472801_2340_tl_2" n="N003"/>Die Medaillen.
+               <head type="h1">
+                     <lb facs="#facs_3_region_1684569472801_2340_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>.
+                     <lb facs="#facs_3_line_1696332419223_664" n="N002"/>II.</head>
+               <head type="h2">
+                     <lb facs="#facs_3_region_1684569472801_2340_tl_2" n="N003"/>Die Medaillen.</head>
+               <p>
       <lb facs="#facs_3_region_1684569472801_2340_tl_3" n="N004"/>
                <hi rendition="#em">
-                  <rs type="place">Paris</rs>
-               </hi>, <date month="0" day="0" year="0">9. Mai</date>.
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs></hi>, <date when="1867-05-09">9. Mai</date>.
       <lb facs="#facs_3_region_1684569472801_2340_tl_4" n="N005"/>Ed. H. Sie werden es oft genug in allen Tonarten
-      <lb facs="#facs_3_region_1684569472801_2340_tl_5" n="N006"/>vernommen haben, das traurige Lied von den „zu wenig Me¬
-      <lb facs="#facs_3_region_1684569472801_2340_tl_6" n="N007"/>daillen“. Ich will es nicht wiederholen, obwol das knappe
+      <lb facs="#facs_3_region_1684569472801_2340_tl_5" n="N006"/>vernommen haben, das traurige Lied von den „zu wenig Me
+      <lb facs="#facs_3_region_1684569472801_2340_tl_6" n="N007" break="no"/>daillen“. Ich will es nicht wiederholen, obwol das knappe
       <lb facs="#facs_3_region_1684569472801_2340_tl_7" n="N008"/>Ausmaß dieser heiß ersehnten Metallstücke wenige Classen so
       <lb facs="#facs_3_region_1684569472801_2340_tl_8" n="N009"/>schwer trifft, als gerade die unsere. Die Gesammtheit der
       <lb facs="#facs_3_region_1684569472801_2340_tl_9" n="N010"/>musikalischen Instrumente enthält zu viele gleich wichtige und
       <lb facs="#facs_3_region_1684569472801_2340_tl_10" n="N011"/>gleich glänzend vertretene Kategorien, die mit einander nicht
-      <lb facs="#facs_3_region_1684569472801_2340_tl_11" n="N012"/>verglichen werden können, weil ihre Fabrication nichts ge¬
-      <lb facs="#facs_3_region_1684569472801_2340_tl_12" n="N013"/>mein hat. Ist der beste Geigenmacher weniger als der beste
-      <lb facs="#facs_3_region_1684569472801_2340_tl_13" n="N014"/>Piano-Fabrikant? Kann man die ersten Meister in der Flö¬
-      <lb facs="#facs_3_region_1684569472801_2340_tl_14" n="N015"/>ten-Fabrication über oder unter jene der Blechinstrumente
+      <lb facs="#facs_3_region_1684569472801_2340_tl_11" n="N012"/>verglichen werden können, weil ihre Fabrication nichts ge
+      <lb facs="#facs_3_region_1684569472801_2340_tl_12" n="N013" break="no"/>mein hat. Ist der beste Geigenmacher weniger als der beste
+      <lb facs="#facs_3_region_1684569472801_2340_tl_13" n="N014"/>Piano-Fabrikant? Kann man die ersten Meister in der Flö
+      <lb facs="#facs_3_region_1684569472801_2340_tl_14" n="N015" break="no"/>ten-Fabrication über oder unter jene der Blechinstrumente
       <lb facs="#facs_3_region_1684569472801_2340_tl_15" n="N016"/>setzen? Und all die übrigen Gattungen, von der Orgel bis
       <lb facs="#facs_3_region_1684569472801_2340_tl_16" n="N017"/>zur Zither, vom Harmonium bis zur Trommel, sind sie nicht
       <lb facs="#facs_3_region_1684569472801_2340_tl_17" n="N018"/>alle selbstständige Industriezweige, in welchen das relativ
       <lb facs="#facs_3_region_1684569472801_2340_tl_18" n="N019"/>Beste geleistet werden kann und hier wirklich geleistet ist?
       <lb facs="#facs_3_region_1684569472801_2340_tl_19" n="N020"/>Kann eine Jury wirklich die Repräsentanten so verschiedener
       <lb facs="#facs_3_region_1684569472801_2340_tl_20" n="N021"/>Classen nummernweise nach ihrem Werth rangiren, wie es
-      <lb facs="#facs_3_region_1684569472801_2340_tl_21" n="N022"/>das <rs type="place">französisch</rs>e Gouvernement vorschreibt, um die letzten, die
-      <lb facs="#facs_3_region_1684569472801_2340_tl_22" n="N023"/>vorgeschriebene Medaillenzahl überschreitenden Namen einfach</p>
+      <lb facs="#facs_3_region_1684569472801_2340_tl_21" n="N022"/>das 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Gouvernement vorschreibt, um die letzten, die
+      <lb facs="#facs_3_region_1684569472801_2340_tl_22" n="N023"/>vorgeschriebene Medaillenzahl überschreitenden Namen einfach
             <cb n="2"/>
-            <p>
                <lb facs="#facs_3_region_1684569476776_2343_tl_1" n="N001"/>von dem Bogen herabzuschneiden? Auf die ganze von allen
       <lb facs="#facs_3_region_1684569476776_2343_tl_2" n="N002"/>Ländern beschickte Classe der Musik-Instrumente sollten nach
       <lb facs="#facs_3_region_1684569476776_2343_tl_3" n="N003"/>dem Reglement höchstens 2 goldene, 15 silberne, 36 broncene
@@ -816,220 +818,240 @@
       <lb facs="#facs_3_line_1696332469745_680" n="N006"/>zu hoffen, daß die ausführlich begründeten Vorschläge unserer
       <lb facs="#facs_3_region_1684569476776_2343_tl_7" n="N007"/>Jury genehmigt werden, welche 4 goldene, 50 silberne, 60
       <lb facs="#facs_3_region_1684569476776_2343_tl_8" n="N008"/>broncene Medaillen und 44 Mentions bonorables verlangt.
-      <lb facs="#facs_3_region_1684569476776_2343_tl_9" n="N009"/>Selbst dann bleibt die Zahl der Auszeichnungen im Verhält¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_10" n="N010"/>niß zur Quantität und Qualität der ausgestellten Instru¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_11" n="N011"/>mente eine sehr geringe, und mancher bei früheren Ausstel¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_12" n="N012"/>lungen belohnte, jetzt übergangene oder zurückgesetzte Fabrikant
+      <lb facs="#facs_3_region_1684569476776_2343_tl_9" n="N009"/>Selbst dann bleibt die Zahl der Auszeichnungen im Verhält
+      <lb facs="#facs_3_region_1684569476776_2343_tl_10" n="N010" break="no"/>niß zur Quantität und Qualität der ausgestellten Instru
+      <lb facs="#facs_3_region_1684569476776_2343_tl_11" n="N011" break="no"/>mente eine sehr geringe, und mancher bei früheren Ausstel
+      <lb facs="#facs_3_region_1684569476776_2343_tl_12" n="N012" break="no"/>lungen belohnte, jetzt übergangene oder zurückgesetzte Fabrikant
       <lb facs="#facs_3_region_1684569476776_2343_tl_13" n="N013"/>wird sich gekränkt fühlen. Eine gute und heilsame Seite aber
       <lb facs="#facs_3_region_1684569476776_2343_tl_14" n="N014"/>hat diese Sparsamkeit: die Ausstellungs-Medaillen, die seit
       <lb facs="#facs_3_region_1684569476776_2343_tl_15" n="N015"/>
-               <rs type="place">London</rs> stark im Ansehen sanken, erhalten wieder Werth und
-      <lb facs="#facs_3_region_1684569476776_2343_tl_16" n="N016"/>Bedeutung.ABSATZ
-      <lb facs="#facs_3_region_1684569476776_2343_tl_17" n="N017"/>Die <rs type="place">Paris</rs>er Medaillen von <date month="0" day="0" year="0">1867</date> repräsentiren eine <hi rendition="#em">un¬</hi>
-               <lb facs="#facs_3_region_1684569476776_2343_tl_18" n="N018"/>
-               <hi rendition="#em">gleich größere Auszeichnung</hi>, als jene irgend einer früheren
+                     <rs type="place" ref="#hsl_place_id_34">London</rs> stark im Ansehen sanken, erhalten wieder Werth und
+      <lb facs="#facs_3_region_1684569476776_2343_tl_16" n="N016"/>Bedeutung.</p>
+               <p>
+      <lb facs="#facs_3_region_1684569476776_2343_tl_17" n="N017"/>Die 
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Medaillen von <date when="1867">1867</date> repräsentiren eine <hi rendition="#em">un
+               <lb facs="#facs_3_region_1684569476776_2343_tl_18" n="N018" break="no"/>gleich größere Auszeichnung</hi>, als jene irgend einer früheren
       <lb facs="#facs_3_region_1684569476776_2343_tl_19" n="N019"/>Exposition. Wenn unser Hofrath <hi rendition="#em">
                   <rs type="person">Burg</rs>
-               </hi> jüngst vor einer An¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_20" n="N020"/>zahl mißvergnügter Aussteller die Ueberzeugung aussprach und
+               </hi> jüngst vor einer An
+      <lb facs="#facs_3_region_1684569476776_2343_tl_20" n="N020" break="no"/>zahl mißvergnügter Aussteller die Ueberzeugung aussprach und
       <lb facs="#facs_3_region_1684569476776_2343_tl_21" n="N021"/>begründete, daß diesmal die Bronce-Medaille den Rang der
       <lb facs="#facs_3_region_1684569476776_2343_tl_22" n="N022"/>früheren silbernen einnehme und das Silber jetzt den Werth
       <lb facs="#facs_3_region_1684569476776_2343_tl_23" n="N023"/>des Goldes habe, so sprach er nur die strengste Wahrheit.
-      <lb facs="#facs_3_region_1684569476776_2343_tl_24" n="N024"/>Es scheint mir Pflicht eines Jeden, dem hier in die Aus¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_25" n="N025"/>stellungs- und Jury-Verhältnisse ein tieferer Einblick gestattet
-      <lb facs="#facs_3_region_1684569476776_2343_tl_26" n="N026"/>war, diese Wahrheit oft und so nachdrücklich als möglich her¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_27" n="N027"/>vorzuheben. Der höhere Maßstab, der größere Werth der
+      <lb facs="#facs_3_region_1684569476776_2343_tl_24" n="N024"/>Es scheint mir Pflicht eines Jeden, dem hier in die Aus
+      <lb facs="#facs_3_region_1684569476776_2343_tl_25" n="N025" break="no"/>stellungs- und Jury-Verhältnisse ein tieferer Einblick gestattet
+      <lb facs="#facs_3_region_1684569476776_2343_tl_26" n="N026"/>war, diese Wahrheit oft und so nachdrücklich als möglich her
+      <lb facs="#facs_3_region_1684569476776_2343_tl_27" n="N027" break="no"/>vorzuheben. Der höhere Maßstab, der größere Werth der
       <lb facs="#facs_3_region_1684569476776_2343_tl_28" n="N028"/>
-               <rs type="place">Paris</rs>er Medaillen von diesem Jahre bedarf keiner advocati¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_29" n="N029"/>schen Fürsprache oder Beweisführung; er ergibt sich von selbst
-      <lb facs="#facs_3_region_1684569476776_2343_tl_30" n="N030"/>aus den nackten Zahlen und Thatsachen. Wenn ich einige der¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_31" n="N031"/>selben aus der musikalischen Classe anführe, so geschieht dies
-      <lb facs="#facs_3_region_1684569476776_2343_tl_32" n="N032"/>zunächst, weil mir die officiellen Berichte und Statistiken ge¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_33" n="N033"/>rade dieser Abtheilung vorliegen, sodann aber, weil sie, mehr
-      <lb facs="#facs_3_region_1684569476776_2343_tl_34" n="N034"/>oder minder auch auf die übrigen Gruppen passend, ein ent¬
-      <lb facs="#facs_3_region_1684569476776_2343_tl_35" n="N035"/>scheidendes Licht auf die Medaillenfrage der ganzen Ausstel¬
-      <lb facs="#facs_3_line_1696332446159_673" n="N036"/>lung werfen.ABSATZ</p>
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Medaillen von diesem Jahre bedarf keiner advocati
+      <lb facs="#facs_3_region_1684569476776_2343_tl_29" n="N029" break="no"/>schen Fürsprache oder Beweisführung; er ergibt sich von selbst
+      <lb facs="#facs_3_region_1684569476776_2343_tl_30" n="N030"/>aus den nackten Zahlen und Thatsachen. Wenn ich einige der
+      <lb facs="#facs_3_region_1684569476776_2343_tl_31" n="N031" break="no"/>selben aus der musikalischen Classe anführe, so geschieht dies
+      <lb facs="#facs_3_region_1684569476776_2343_tl_32" n="N032"/>zunächst, weil mir die officiellen Berichte und Statistiken ge
+      <lb facs="#facs_3_region_1684569476776_2343_tl_33" n="N033" break="no"/>rade dieser Abtheilung vorliegen, sodann aber, weil sie, mehr
+      <lb facs="#facs_3_region_1684569476776_2343_tl_34" n="N034"/>oder minder auch auf die übrigen Gruppen passend, ein ent
+      <lb facs="#facs_3_region_1684569476776_2343_tl_35" n="N035" break="no"/>scheidendes Licht auf die Medaillenfrage der ganzen Ausstel
+      <lb facs="#facs_3_line_1696332446159_673" n="N036" break="no"/>lung werfen.</p>
             <cb n="3"/>
             <p>
-               <lb facs="#facs_3_region_1684569481127_2346_tl_1" n="N001"/>Die Gesammtzahl der Aussteller bei der ersten <rs type="place">Pari¬</rs>
-               <lb facs="#facs_3_region_1684569481127_2346_tl_2" n="N002"/>
-               <rs type="place">s</rs>er Exposition von <date month="0" day="0" year="0">1855</date> betrug 22,200, für welche 112
+               <lb facs="#facs_3_region_1684569481127_2346_tl_1" n="N001"/>Die Gesammtzahl der Aussteller bei der ersten 
+                  <rs type="place" ref="#hsl_place_id_44">Pari
+               <lb facs="#facs_3_region_1684569481127_2346_tl_2" n="N002" break="no"/>s</rs>er Exposition von <date when="1855">1855</date> betrug 22,200, für welche 112
       <lb facs="#facs_3_region_1684569481127_2346_tl_3" n="N003"/>große und 252 kleine Goldmedaillen bewilligt waren, 2300
       <lb facs="#facs_3_region_1684569481127_2346_tl_4" n="N004"/>silberne, 3900 broncene und 4000 Mentions honorables.
-      <lb facs="#facs_3_region_1684569481127_2346_tl_5" n="N005"/>Die Zahl der Aussteller im Jahre <date month="0" day="0" year="0">1867</date> beträgt mehr als
+      <lb facs="#facs_3_region_1684569481127_2346_tl_5" n="N005"/>Die Zahl der Aussteller im Jahre <date when="1867">1867</date> beträgt mehr als
       <lb facs="#facs_3_region_1684569481127_2346_tl_6" n="N006"/>das <hi rendition="#em">Doppelte</hi>, nämlich gegen 47,000, und dennoch sind
-      <lb facs="#facs_3_region_1684569481127_2346_tl_7" n="N007"/>für Alle nur 100 goldene, 1000 silberne und 3000 bron¬
-      <lb facs="#facs_3_region_1684569481127_2346_tl_8" n="N008"/>cene Medaillen bestimmt. Wie viel seltener, also werthvoller
+      <lb facs="#facs_3_region_1684569481127_2346_tl_7" n="N007"/>für Alle nur 100 goldene, 1000 silberne und 3000 bron
+      <lb facs="#facs_3_region_1684569481127_2346_tl_8" n="N008" break="no"/>cene Medaillen bestimmt. Wie viel seltener, also werthvoller
       <lb facs="#facs_3_line_1696337142474_780" n="N009"/>diesmal die Auszeichnungen sind, läßt sich somit mathematisch
       <lb facs="#facs_3_line_1696337144984_783" n="N010"/>berechnen; dieser Zahlenunterschied enthält jedoch lange nicht
       <lb facs="#facs_3_region_1684569481127_2346_tl_9" n="N011"/>die ganze Wahrheit. Diese erkennt man nur, wenn man die
       <lb facs="#facs_3_region_1684569481127_2346_tl_10" n="N012"/>verschiedene Abstufung der früheren und der gegenwärtigen
-      <lb facs="#facs_3_region_1684569481127_2346_tl_11" n="N013"/>Medaillen berücksichtigt. Im Jahre <date month="0" day="0" year="0">1855</date> gab es <hi rendition="#em">große</hi>
-               <lb facs="#facs_3_region_1684569481127_2346_tl_12" n="N014"/>und <hi rendition="#em">kleine</hi> Goldmedaillen (Médailles d’honneurs), die sil¬
-      <lb facs="#facs_3_region_1684569481127_2346_tl_13" n="N015"/>bernen (mißverständlich „première medaille“ genannten)
+      <lb facs="#facs_3_region_1684569481127_2346_tl_11" n="N013"/>Medaillen berücksichtigt. Im Jahre <date when="1855">1855</date> gab es <hi rendition="#em">große</hi>
+      <lb facs="#facs_3_region_1684569481127_2346_tl_12" n="N014"/>und <hi rendition="#em">kleine</hi> Goldmedaillen (Médailles d’honneurs), die sil
+      <lb facs="#facs_3_region_1684569481127_2346_tl_13" n="N015" break="no"/>bernen (mißverständlich „première medaille“ genannten)
       <lb facs="#facs_3_region_1684569481127_2346_tl_14" n="N016"/>waren somit Auszeichnungen von dritten Range. Wer im
-      <lb facs="#facs_3_region_1684569481127_2346_tl_15" n="N017"/>Jahre <date month="0" day="0" year="0">1855</date> eine Silbermedaille erhielt, stand nicht auf erster
+      <lb facs="#facs_3_region_1684569481127_2346_tl_15" n="N017"/>Jahre <date when="1855">1855</date> eine Silbermedaille erhielt, stand nicht auf erster
       <lb facs="#facs_3_region_1684569481127_2346_tl_16" n="N018"/>oder zweiter, sondern auf dritter Linie. Aussteller also, welche bei
-      <lb facs="#facs_3_region_1684569481127_2346_tl_17" n="N019"/>der ersten <rs type="place">Paris</rs>er Ausstellung und jetzt wieder die Silber¬
-      <lb facs="#facs_3_region_1684569481127_2346_tl_18" n="N020"/>medaille erhalten haben (z. B. <hi rendition="#em">Lemböck</hi>, <hi rendition="#em">Cerveny</hi>), sind
+      <lb facs="#facs_3_region_1684569481127_2346_tl_17" n="N019"/>der ersten 
+                  <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Ausstellung und jetzt wieder die Silber
+      <lb facs="#facs_3_region_1684569481127_2346_tl_18" n="N020" break="no"/>medaille erhalten haben (z. B. <hi rendition="#em">
+            <rs type="person">Lemböck</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Cerveny</rs></hi>), sind
       <lb facs="#facs_3_region_1684569481127_2346_tl_19" n="N021"/>thatsächlich zu einer höheren Auszeichnung avancirt; sie haben
       <lb facs="#facs_3_region_1684569481127_2346_tl_20" n="N022"/>anstatt zweier nur <hi rendition="#em">eine</hi> Classe über sich. Und diese <hi rendition="#em">eine</hi>
                <lb facs="#facs_3_region_1684569481127_2346_tl_21" n="N023"/>Classe von Goldmedaillen scheint durch ihre Winzigkeit so
       <lb facs="#facs_3_region_1684569481127_2346_tl_22" n="N024"/>illusorisch, daß man sie mehr einen großen Treffer nennen
       <lb facs="#facs_3_region_1684569481127_2346_tl_23" n="N025"/>möchte, auf den kein Verständiger sich Rechnung macht, als
       <lb facs="#facs_3_region_1684569481127_2346_tl_24" n="N026"/>eine von Jedem anzustrebende Auszeichnung. Für manche
-      <lb facs="#facs_3_region_1684569481127_2346_tl_25" n="N027"/>große Kategorien, z. B. für Blasinstrumente, für Streich¬
-      <lb facs="#facs_3_region_1684569481127_2346_tl_26" n="N028"/>instrumente, konnte diesmal gar keine Goldmedaille ertheilt wer¬
-      <lb facs="#facs_3_region_1684569481127_2346_tl_27" n="N029"/>den; die mit der silbernen Medaille bedachten Fabrikanten (wie
-      <lb facs="#facs_3_region_1684569481127_2346_tl_28" n="N030"/>Ziegler, Cerveny, Bock, Lemböck) haben somit die höchste
-      <lb facs="#facs_3_region_1684569481127_2346_tl_29" n="N031"/>Auszeichnung errungen, die überhaupt für ihren Fabrications¬
-      <lb facs="#facs_3_region_1684569481127_2346_tl_30" n="N032"/>zweig ertheilt wurde. Wie viel strenger als bei der ersten
+      <lb facs="#facs_3_region_1684569481127_2346_tl_25" n="N027"/>große Kategorien, z. B. für Blasinstrumente, für Streich
+      <lb facs="#facs_3_region_1684569481127_2346_tl_26" n="N028" break="no"/>instrumente, konnte diesmal gar keine Goldmedaille ertheilt wer
+      <lb facs="#facs_3_region_1684569481127_2346_tl_27" n="N029" break="no"/>den; die mit der silbernen Medaille bedachten Fabrikanten (wie
+      <lb facs="#facs_3_region_1684569481127_2346_tl_28" n="N030"/>
+                  <rs type="person">Ziegler</rs>, <rs type="person">Cerveny</rs>, 
+                  <rs type="person">Bock</rs>, <rs type="person">Lemböck</rs>) haben somit die höchste
+      <lb facs="#facs_3_region_1684569481127_2346_tl_29" n="N031"/>Auszeichnung errungen, die überhaupt für ihren Fabrications
+      <lb facs="#facs_3_region_1684569481127_2346_tl_30" n="N032" break="no"/>zweig ertheilt wurde. Wie viel strenger als bei der ersten
       <lb facs="#facs_3_region_1684569481127_2346_tl_31" n="N033"/>
-               <rs type="place">Paris</rs>er Ausstellung gegenwärtig vorgegangen wurde, zeigt die
+                  <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Ausstellung gegenwärtig vorgegangen wurde, zeigt die
       <lb facs="#facs_3_region_1684569481127_2346_tl_32" n="N034"/>oberflächlichste Vergleichung der Resultate. Fabrikanten, welche
       <lb facs="#facs_3_region_1684569481127_2346_tl_33" n="N035"/>
-               <date month="0" day="0" year="0">1855</date> silbergeschmückt heimkehrten, finden wir diesmal in
-      <lb facs="#facs_3_region_1684569481127_2346_tl_34" n="N036"/>Bronce wieder (darunter Namen wie Breton und Buffet fils)</p>
+               <date when="1855">1855</date> silbergeschmückt heimkehrten, finden wir diesmal in
+      <lb facs="#facs_3_region_1684569481127_2346_tl_34" n="N036"/>Bronce wieder (darunter Namen wie 
+                  <rs type="person">Breton</rs> und <rs type="person">Buffet fils</rs>)
             <pb facs="#facs_4" n="4" xml:id="img_0004"/>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_4_region_1684569496175_2353_tl_1" n="N001"/>oder gar mit einer Mention honorable abgespeist (Martin,
-      <lb facs="#facs_4_region_1684569496175_2353_tl_2" n="N002"/>Souffleto, Montal, Franche, Westermann).ABSATZ
-      <lb facs="#facs_4_region_1684569496175_2353_tl_3" n="N003"/>Damit sollte nicht sowol ein Rückschritt dieser Fabri¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_4" n="N004"/>kanten behauptet, als vielmehr die Ansicht ausgesprochen sein,
+               <lb facs="#facs_4_region_1684569496175_2353_tl_1" n="N001"/>oder gar mit einer Mention honorable abgespeist (
+                  <rs type="person">Martin</rs>,
+      <lb facs="#facs_4_region_1684569496175_2353_tl_2" n="N002"/>
+                  <rs type="person">Souffleto</rs>, <rs type="person">Montal</rs>, 
+                  <rs type="person">Franche</rs>, <rs type="person">Westermann</rs>).</p>
+               <p>
+      <lb facs="#facs_4_region_1684569496175_2353_tl_3" n="N003"/>Damit sollte nicht sowol ein Rückschritt dieser Fabri
+      <lb facs="#facs_4_region_1684569496175_2353_tl_4" n="N004" break="no"/>kanten behauptet, als vielmehr die Ansicht ausgesprochen sein,
       <lb facs="#facs_4_region_1684569496175_2353_tl_5" n="N005"/>daß unter den gegenwärtigen Concurrenten die Genannten
-      <lb facs="#facs_4_region_1684569496175_2353_tl_6" n="N006"/>eine so vortheilhafte Rolle nicht mehr spielen. Noch viel frei¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_7" n="N007"/>gebiger mit Medaillen verfuhr man bei der <hi rendition="#em">
-                  <rs type="place">London</rs>er</hi>
-               <lb facs="#facs_4_region_1684569496175_2353_tl_8" n="N008"/>Ausstellung von <date month="0" day="0" year="0">1862</date>. Der officielle <rs type="place">englisch</rs>e Bericht consta¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_9" n="N009"/>tirt, daß jeder zweite Aussteller eine Auszeichnung erhalten
-      <lb facs="#facs_4_region_1684569496175_2353_tl_10" n="N010"/>habe! Es war eine sehr bequeme Maßregel und eine wohl¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_11" n="N011"/>feile obendrein, nur Eine Gattung von Medaillen, und zwar
+      <lb facs="#facs_4_region_1684569496175_2353_tl_6" n="N006"/>eine so vortheilhafte Rolle nicht mehr spielen. Noch viel frei
+      <lb facs="#facs_4_region_1684569496175_2353_tl_7" n="N007" break="no"/>gebiger mit Medaillen verfuhr man bei der <hi rendition="#em">
+            <rs type="place" ref="#hsl_place_id_34">London</rs>er</hi>
+               <lb facs="#facs_4_region_1684569496175_2353_tl_8" n="N008"/>Ausstellung von <date when="1862">1862</date>. Der officielle 
+                     <rs type="place" ref="#hsl_place_id_17">englisch</rs>e Bericht consta
+      <lb facs="#facs_4_region_1684569496175_2353_tl_9" n="N009" break="no"/>tirt, daß jeder zweite Aussteller eine Auszeichnung erhalten
+      <lb facs="#facs_4_region_1684569496175_2353_tl_10" n="N010"/>habe! Es war eine sehr bequeme Maßregel und eine wohl
+      <lb facs="#facs_4_region_1684569496175_2353_tl_11" n="N011" break="no"/>feile obendrein, nur Eine Gattung von Medaillen, und zwar
       <lb facs="#facs_4_region_1684569496175_2353_tl_12" n="N012"/>von Bronce prägen zu lassen. Das Ausgezeichnetste und das
-      <lb facs="#facs_4_region_1684569496175_2353_tl_13" n="N013"/>eben nur Hinreichende, Anständige wurde mit derselben Aus¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_14" n="N014"/>zeichnung bedacht, und mancher Aussteller foppte sich und
+      <lb facs="#facs_4_region_1684569496175_2353_tl_13" n="N013"/>eben nur Hinreichende, Anständige wurde mit derselben Aus
+      <lb facs="#facs_4_region_1684569496175_2353_tl_14" n="N014" break="no"/>zeichnung bedacht, und mancher Aussteller foppte sich und
       <lb facs="#facs_4_region_1684569496175_2353_tl_15" n="N015"/>Andere, indem er von einer „ersten“ Medaille sprach, während
       <lb facs="#facs_4_region_1684569496175_2353_tl_16" n="N016"/>es eben nur die einzige vorhandene war. Es war ein Fehler der
       <lb facs="#facs_4_region_1684569496175_2353_tl_17" n="N017"/>
-               <rs type="place">englisch</rs>en Behörde, eine einzige Art Medaillen zu systemi¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_18" n="N018"/>siren, und ein zweiter, sie in fast unbeschränkter Zahl auszu¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_19" n="N019"/>geben. Dem Mittelgut gedieh diese Nivellirung zu unver¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_20" n="N020"/>hofftem Vortheil, dem höchsten Verdienst hingegen nur zu
+                     <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Behörde, eine einzige Art Medaillen zu systemi
+      <lb facs="#facs_4_region_1684569496175_2353_tl_18" n="N018" break="no"/>siren, und ein zweiter, sie in fast unbeschränkter Zahl auszu
+      <lb facs="#facs_4_region_1684569496175_2353_tl_19" n="N019" break="no"/>geben. Dem Mittelgut gedieh diese Nivellirung zu unver
+      <lb facs="#facs_4_region_1684569496175_2353_tl_20" n="N020" break="no"/>hofftem Vortheil, dem höchsten Verdienst hingegen nur zu
       <lb facs="#facs_4_region_1684569496175_2353_tl_21" n="N021"/>Leid und Warnung. Noch eine solche Weltausstellung der
-      <lb facs="#facs_4_region_1684569496175_2353_tl_22" n="N022"/>Medaillengleichheit und Brüderlichkeit, und man wird es er¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_23" n="N023"/>leben, daß alle Firmen ersten Ranges davon wegbleiben. Die
+      <lb facs="#facs_4_region_1684569496175_2353_tl_22" n="N022"/>Medaillengleichheit und Brüderlichkeit, und man wird es er
+      <lb facs="#facs_4_region_1684569496175_2353_tl_23" n="N023" break="no"/>leben, daß alle Firmen ersten Ranges davon wegbleiben. Die
       <lb facs="#facs_4_region_1684569496175_2353_tl_24" n="N024"/>
-               <rs type="place">London</rs>er Medaillen werden von den <rs type="place">Paris</rs>er Auszeichnungen
-      <lb facs="#facs_4_region_1684569496175_2353_tl_25" n="N025"/>geradezu eklipsirt werden.ABSATZ
+                     <rs type="place" ref="#hsl_place_id_34">London</rs>er Medaillen werden von den 
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Auszeichnungen
+      <lb facs="#facs_4_region_1684569496175_2353_tl_25" n="N025"/>geradezu eklipsirt werden.</p>
+               <p>
       <lb facs="#facs_4_region_1684569496175_2353_tl_26" n="N026"/>Mit Recht ist man hier wieder zu der Abstufung der
-      <lb facs="#facs_4_line_1696347681415_941" n="N027"/>Medaillen zurückgekehrt. Freilich muß diese vierfache Abstu¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_29" n="N028"/>fung noch immer insoweit ungenau bleiben, als sie feinere
+      <lb facs="#facs_4_line_1696347681415_941" n="N027"/>Medaillen zurückgekehrt. Freilich muß diese vierfache Abstu
+      <lb facs="#facs_4_region_1684569496175_2353_tl_29" n="N028" break="no"/>fung noch immer insoweit ungenau bleiben, als sie feinere
       <lb facs="#facs_4_region_1684569496175_2353_tl_30" n="N029"/>Unterschiede des Verdienstes auch nicht auszudrücken und das
       <lb facs="#facs_4_region_1684569496175_2353_tl_31" n="N030"/>Zusammenfassen mancher nicht völlig ebenbürtiger Namen in
-      <lb facs="#facs_4_region_1684569496175_2353_tl_32" n="N031"/>Eine Kategorie kaum vermeiden kann. Allzu empfindliche Aus¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_33" n="N032"/>steller haben wirklich nicht ermangelt, jetzt schon ein Weh¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_34" n="N033"/>geschrei zu erheben, daß ihre Medaille, mit der sie ganz zu¬
-      <lb facs="#facs_4_region_1684569496175_2353_tl_35" n="N034"/>frieden waren, auch dem X. oder Y. zugefallen sei. Möchten
+      <lb facs="#facs_4_region_1684569496175_2353_tl_32" n="N031"/>Eine Kategorie kaum vermeiden kann. Allzu empfindliche Aus
+      <lb facs="#facs_4_region_1684569496175_2353_tl_33" n="N032" break="no"/>steller haben wirklich nicht ermangelt, jetzt schon ein Weh
+      <lb facs="#facs_4_region_1684569496175_2353_tl_34" n="N033" break="no"/>geschrei zu erheben, daß ihre Medaille, mit der sie ganz zu
+      <lb facs="#facs_4_region_1684569496175_2353_tl_35" n="N034" break="no"/>frieden waren, auch dem X. oder Y. zugefallen sei. Möchten
       <lb facs="#facs_4_region_1684569496175_2353_tl_36" n="N035"/>diese Herren in ihrem — vielleicht gerechten — Selbstgefühl
       <lb facs="#facs_4_region_1684569496175_2353_tl_37" n="N036"/>doch das Mögliche bedenken! Die Japanesen haben fünfzehn
-      <lb facs="#facs_4_region_1684569496175_2353_tl_38" n="N037"/>verschiedene Begrüßungsformen, womit sie je nach dem Grad</p>
+      <lb facs="#facs_4_region_1684569496175_2353_tl_38" n="N037"/>verschiedene Begrüßungsformen, womit sie je nach dem Grad
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_4_line_1696347345927_854" n="N001"/>der Ehrfurcht oder Intimität den Eintretenden becomplimen¬
-      <lb facs="#facs_4_line_1696347347866_857" n="N002"/>tiren. Die Jury müßte wenigstens über diesen <rs type="place">japanesisch</rs>en
+               <lb facs="#facs_4_line_1696347345927_854" n="N001"/>der Ehrfurcht oder Intimität den Eintretenden becomplimen
+      <lb facs="#facs_4_line_1696347347866_857" n="N002" break="no"/>tiren. Die Jury müßte wenigstens über diesen 
+                     <rs type="place" ref="#hsl_place_id_380">japanesisch</rs>en
       <lb facs="#facs_4_region_1684569500443_2356_tl_1" n="N003"/>Reichthum in Medaillenform verfügen können, um wirklich
-      <lb facs="#facs_4_region_1684569500443_2356_tl_2" n="N004"/>jeder Schattirung des Verdienstes gerecht zu werden.*)ABSATZ
+      <lb facs="#facs_4_region_1684569500443_2356_tl_2" n="N004"/>jeder Schattirung des Verdienstes gerecht zu werden.
+               <note type="footnote" n="*)">
+                     <lb facs="#facs_4_region_1684569500443_2356_tl_29" n="N031"/>Wie uns ein anderer Correspondent mittheilt, wurde in der
+                     <lb facs="#facs_4_region_1684569500443_2356_tl_30" n="N032"/>Jury nicht blos über jeden Aussteller und dessen Auszeichnung de
+                     <lb facs="#facs_4_region_1684569500443_2356_tl_31" n="N033" break="no"/>battirt und abgestimmt, sondern hierauf noch eigens über die <hi rendition="#em">Num
+                     <lb facs="#facs_4_region_1684569500443_2356_tl_32" n="N034" break="no"/>mer</hi>, unter welcher er in der Reihenfolge je nach dem relativen Ver
+                     <lb facs="#facs_4_region_1684569500443_2356_tl_33" n="N035" break="no"/>dienst vorzuschlagen sei. Unter den silbernen Medaillen soll <hi rendition="#em">
+                           <rs type="person">Streicher</rs></hi>
+                     <lb facs="#facs_4_line_1696347381724_871" n="N036"/>an <hi rendition="#em">erster</hi>, <hi rendition="#em">
+                           <rs type="person">Ehrbar</rs></hi> an 7., <hi rendition="#em">
+                                 <rs type="person">Bösendorfer</rs></hi> an 19., <hi rendition="#em">
+                                       <rs type="person">Schweig
+                     <lb facs="#facs_4_line_1696347386569_875" n="N037" break="no"/>hofer</rs></hi> an 23. Stelle aufgeführt sein. Anm. d. Red.
+               </note></p>
+               <p>
       <lb facs="#facs_4_region_1684569500443_2356_tl_3" n="N005"/>Noch in einer anderen Hinsicht weist die Medaillenliste
-      <lb facs="#facs_4_region_1684569500443_2356_tl_4" n="N006"/>von <date month="0" day="0" year="0">1867</date> in unserer Classe wenigstens einen entschiedenen
+      <lb facs="#facs_4_region_1684569500443_2356_tl_4" n="N006"/>von <date when="1867">1867</date> in unserer Classe wenigstens einen entschiedenen
       <lb facs="#facs_4_region_1684569500443_2356_tl_5" n="N007"/>Fortschritt auf: Der wahrhaft erschreckende Löwenantheil,
-      <lb facs="#facs_4_region_1684569500443_2356_tl_6" n="N008"/>den die Franzosen bei der ersten <rs type="place">Paris</rs>er Ausstellung sich selbst
-      <lb facs="#facs_4_region_1684569500443_2356_tl_7" n="N009"/>zuerkannten, hat sich in bescheidene Dimensionen zurückge¬
-      <lb facs="#facs_4_region_1684569500443_2356_tl_8" n="N010"/>zogen und einer gerechteren Würdigung der Ausländer Platz
-      <lb facs="#facs_4_region_1684569500443_2356_tl_9" n="N011"/>gemacht. So haben beispielsweise im Jahre <date month="0" day="0" year="0">1855</date> für <hi rendition="#em">Cla¬</hi>
-               <lb facs="#facs_4_line_1696347317748_840" n="N012"/>
-               <hi rendition="#em">viere</hi> 4 Franzosen die <hi rendition="#em">goldene</hi> Medaille und kein
+      <lb facs="#facs_4_region_1684569500443_2356_tl_6" n="N008"/>den die Franzosen bei der ersten 
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Ausstellung sich selbst
+      <lb facs="#facs_4_region_1684569500443_2356_tl_7" n="N009"/>zuerkannten, hat sich in bescheidene Dimensionen zurückge
+      <lb facs="#facs_4_region_1684569500443_2356_tl_8" n="N010" break="no"/>zogen und einer gerechteren Würdigung der Ausländer Platz
+      <lb facs="#facs_4_region_1684569500443_2356_tl_9" n="N011"/>gemacht. So haben beispielsweise im Jahre <date when="1855">1855</date> für <hi rendition="#em">Cla
+               <lb facs="#facs_4_line_1696347317748_840" n="N012" break="no"/>viere</hi> 4 Franzosen die <hi rendition="#em">goldene</hi> Medaille und kein
       <lb facs="#facs_4_region_1684569500443_2356_tl_11" n="N013"/>einziger Fremder. Die silberne Medaille 12 Franzosen und
       <lb facs="#facs_4_region_1684569500443_2356_tl_12" n="N014"/>11 Fremde, die Bronce-Medaille 16 Franzosen und 4 Fremde,
       <lb facs="#facs_4_region_1684569500443_2356_tl_13" n="N015"/>die ehrenvolle Erwähnung 20 Franzosen und 2 Fremde. Für
-      <lb facs="#facs_4_region_1684569500443_2356_tl_14" n="N016"/>Blechinstrumente entfielen damals 4 Silbermedaillen an Fran¬
-      <lb facs="#facs_4_region_1684569500443_2356_tl_15" n="N017"/>zosen, 2 an Ausländer; für Holz-Blasinstrumente 7 silberne
-      <lb facs="#facs_4_region_1684569500443_2356_tl_16" n="N018"/>und 6 Bronce-Medaillen an <rs type="place">französisch</rs>e Aussteller, an die
+      <lb facs="#facs_4_region_1684569500443_2356_tl_14" n="N016"/>Blechinstrumente entfielen damals 4 Silbermedaillen an Fran
+      <lb facs="#facs_4_region_1684569500443_2356_tl_15" n="N017" break="no"/>zosen, 2 an Ausländer; für Holz-Blasinstrumente 7 silberne
+      <lb facs="#facs_4_region_1684569500443_2356_tl_16" n="N018"/>und 6 Bronce-Medaillen an 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Aussteller, an die
       <lb facs="#facs_4_region_1684569500443_2356_tl_17" n="N019"/>Ausländer nichts als Eine Bronce-Medaille und so fort in
       <lb facs="#facs_4_region_1684569500443_2356_tl_18" n="N020"/>allen Kategorien. Die diesjährige Vertheilung unterscheidet
       <lb facs="#facs_4_region_1684569500443_2356_tl_19" n="N021"/>sich hierin von jener ersten so bedeutend, daß z. B. in der
       <lb facs="#facs_4_region_1684569500443_2356_tl_20" n="N022"/>Piano-Fabrication die Franzosen 6 silberne, 5 Bronce-Medaillen
       <lb facs="#facs_4_region_1684569500443_2356_tl_21" n="N023"/>und 8 Mentions erhielten, während auf die auswärtigen
-      <lb facs="#facs_4_region_1684569500443_2356_tl_22" n="N024"/>Claviermacher 17 silberne, 12 Bronce-Medaillen und 12 Men¬
-      <lb facs="#facs_4_region_1684569500443_2356_tl_23" n="N025"/>tions honorables entfallen. Im Jahre <date month="0" day="0" year="0">1855</date> müssen die <rs type="place">fran¬</rs>
-               <lb facs="#facs_4_region_1684569500443_2356_tl_24" n="N026"/>
-               <rs type="place">zösisch</rs>en Jurors in der That von übermäßigem Egoismus
-      <lb facs="#facs_4_region_1684569500443_2356_tl_25" n="N027"/>beseelt gewesen und hierin von den <rs type="place">deutsch</rs>en Jurors allzu be¬
-      <lb facs="#facs_4_region_1684569500443_2356_tl_26" n="N028"/>reitwillig unterstützt worden sein.ABSATZ
+      <lb facs="#facs_4_region_1684569500443_2356_tl_22" n="N024"/>Claviermacher 17 silberne, 12 Bronce-Medaillen und 12 Men
+      <lb facs="#facs_4_region_1684569500443_2356_tl_23" n="N025" break="no"/>tions honorables entfallen. Im Jahre <date when="1855">1855</date> müssen die 
+                     <rs type="place" ref="#hsl_place_id_21">fran
+               <lb facs="#facs_4_region_1684569500443_2356_tl_24" n="N026" break="no"/>zösisch</rs>en Jurors in der That von übermäßigem Egoismus
+      <lb facs="#facs_4_region_1684569500443_2356_tl_25" n="N027"/>beseelt gewesen und hierin von den 
+                     <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Jurors allzu be
+      <lb facs="#facs_4_region_1684569500443_2356_tl_26" n="N028" break="no"/>reitwillig unterstützt worden sein.</p>
+               <p>
       <lb facs="#facs_4_region_1684569500443_2356_tl_27" n="N029"/>Was die <hi rendition="#em">
-                  <rs type="place">österreichisch</rs>en</hi> Instrumentenmacher betrifft,
+            <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en</hi> Instrumentenmacher betrifft,
       <lb facs="#facs_4_region_1684569500443_2356_tl_28" n="N030"/>so wird unser Leserkreis mit Befriedigung vernehmen, daß ihr
-      <lb facs="#facs_4_region_1684569500443_2356_tl_29" n="N031"/>*) Wie uns ein anderer Correspondent mittheilt, wurde in der
-      <lb facs="#facs_4_region_1684569500443_2356_tl_30" n="N032"/>Jury nicht blos über jeden Aussteller und dessen Auszeichnung de¬
-      <lb facs="#facs_4_region_1684569500443_2356_tl_31" n="N033"/>battirt und abgestimmt, sondern hierauf noch eigens über die <hi rendition="#em">Num¬</hi>
-               <lb facs="#facs_4_region_1684569500443_2356_tl_32" n="N034"/>
-               <hi rendition="#em">mer</hi>, unter welcher er in der Reihenfolge je nach dem relativen Ver¬
-      <lb facs="#facs_4_region_1684569500443_2356_tl_33" n="N035"/>dienst vorzuschlagen sei. Unter den silbernen Medaillen soll <hi rendition="#em">Streicher</hi>
-               <lb facs="#facs_4_line_1696347381724_871" n="N036"/>an <hi rendition="#em">erster</hi>, <hi rendition="#em">Ehrbar</hi> an 7., <hi rendition="#em">Bösendorfer</hi> an 19., <hi rendition="#em">Schweig¬</hi>
-               <lb facs="#facs_4_line_1696347386569_875" n="N037"/>
-               <hi rendition="#em">hofer</hi> an 23. Stelle aufgeführt sein. Anm. d. Red.</p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_4_line_1696347354676_863" n="N001"/>Erfolg bei dem Publicum wie bei der Jury ein sehr ehren¬
-      <lb facs="#facs_4_line_1696347352178_860" n="N002"/>voller, ja größtentheils glänzender war. Den besten Beweis
-      <lb facs="#facs_4_region_1684569505376_2359_tl_3" n="N003"/>liefert die Medaillen-Vertheilung und eine Vergleichung der¬
-      <lb facs="#facs_4_region_1684569505376_2359_tl_4" n="N004"/>selben einestheils mit den <rs type="place">österreichisch</rs>en Erfolgen bei den
+               <lb facs="#facs_4_line_1696347354676_863" n="N001"/>Erfolg bei dem Publicum wie bei der Jury ein sehr ehren
+      <lb facs="#facs_4_line_1696347352178_860" n="N002" break="no"/>voller, ja größtentheils glänzender war. Den besten Beweis
+      <lb facs="#facs_4_region_1684569505376_2359_tl_3" n="N003"/>liefert die Medaillen-Vertheilung und eine Vergleichung der
+      <lb facs="#facs_4_region_1684569505376_2359_tl_4" n="N004" break="no"/>selben einestheils mit den 
+                     <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Erfolgen bei den
       <lb facs="#facs_4_region_1684569505376_2359_tl_5" n="N005"/>früheren Ausstellungen, anderntheils mit dem, was andere
       <lb facs="#facs_4_region_1684569505376_2359_tl_6" n="N006"/>Staaten an Auszeichnungen diesmal heimführen. Es ward
       <lb facs="#facs_4_region_1684569505376_2359_tl_7" n="N007"/>hoffentlich unwiderleglich dargethan, daß die diesjährigen
       <lb facs="#facs_4_region_1684569505376_2359_tl_8" n="N008"/>Medaillen, weil sie sparsam vertheilt wurden, einen ungleich
-      <lb facs="#facs_4_region_1684569505376_2359_tl_9" n="N009"/>höheren Werth besitzen, als alle früheren. Aber ganz abgese¬
-      <lb facs="#facs_4_region_1684569505376_2359_tl_10" n="N010"/>hen von diesem Qualitäts-Unterschied und trotz dieser Spar¬
-      <lb facs="#facs_4_region_1684569505376_2359_tl_11" n="N011"/>samkeit der Vertheilung, hat die <rs type="place">österreichisch</rs>e Instrumenten-
-      <lb facs="#facs_4_line_1696347322309_843" n="N012"/>Fabrication bei <hi rendition="#em">keiner früheren Ausstellung so</hi>
-               <lb facs="#facs_4_region_1684569505376_2359_tl_12" n="N013"/>
-               <hi rendition="#em">viele Medaillen als diesmal davongetra¬</hi>
-               <lb facs="#facs_4_region_1684569505376_2359_tl_13" n="N014"/>
-               <hi rendition="#em">gen</hi>. Im Jahre <date month="0" day="0" year="0">1855</date> in <rs type="place">Paris</rs> fielen an <rs type="place">Oesterreich</rs> nicht
-      <lb facs="#facs_4_region_1684569505376_2359_tl_14" n="N015"/>mehr als 5 silberne und eine Bronce-Medaille, in <rs type="place">London</rs>
-               <lb facs="#facs_4_region_1684569505376_2359_tl_15" n="N016"/>trotz der verschwenderischen Liberalität auch nicht mehr als
-      <lb facs="#facs_4_region_1684569505376_2359_tl_16" n="N017"/>13 (broncene) Medaillen. Von der diesjährigen <rs type="place">Paris</rs>er Aus¬
-      <lb facs="#facs_4_region_1684569505376_2359_tl_17" n="N018"/>stellung tragen die <rs type="place">österreichisch</rs>en Instrumentenmacher <hi rendition="#em">acht</hi>
-               <lb facs="#facs_4_region_1684569505376_2359_tl_18" n="N019"/>silberne und <hi rendition="#em">sechs</hi> Bronce-Medaillen, somit <hi rendition="#em">vierzehn</hi>
-               <lb facs="#facs_4_region_1684569505376_2359_tl_19" n="N020"/>Medaillen davon, nebst fünf ehrenvollen Erwähnungen. Es
-      <lb facs="#facs_4_region_1684569505376_2359_tl_20" n="N021"/>haben somit von 23 <rs type="place">österreichisch</rs>en Fabrikanten (mehr hatten
-      <lb facs="#facs_4_region_1684569505376_2359_tl_21" n="N022"/>nicht ausgestellt) <hi rendition="#em">neunzehn</hi> Auszeichnungen erhalten. Ver¬
-      <lb facs="#facs_4_region_1684569505376_2359_tl_22" n="N023"/>gleichen wir damit die Resultate anderer Länder, so sehen
+      <lb facs="#facs_4_region_1684569505376_2359_tl_9" n="N009"/>höheren Werth besitzen, als alle früheren. Aber ganz abgese
+      <lb facs="#facs_4_region_1684569505376_2359_tl_10" n="N010" break="no"/>hen von diesem Qualitäts-Unterschied und trotz dieser Spar
+      <lb facs="#facs_4_region_1684569505376_2359_tl_11" n="N011" break="no"/>samkeit der Vertheilung, hat die 
+                     <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>e Instrumenten-
+      <lb facs="#facs_4_line_1696347322309_843" n="N012"/>Fabrication bei <hi rendition="#em">keiner früheren Ausstellung so
+               <lb facs="#facs_4_region_1684569505376_2359_tl_12" n="N013"/>viele Medaillen als diesmal davongetra
+               <lb facs="#facs_4_region_1684569505376_2359_tl_13" n="N014" break="no"/>gen</hi>. Im Jahre <date when="1855">1855</date> in 
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs> fielen an <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> nicht
+      <lb facs="#facs_4_region_1684569505376_2359_tl_14" n="N015"/>mehr als 5 silberne und eine Bronce-Medaille, in 
+                     <rs type="place" ref="#hsl_place_id_34">London</rs>
+   <lb facs="#facs_4_region_1684569505376_2359_tl_15" n="N016"/>trotz der verschwenderischen Liberalität auch nicht mehr als
+      <lb facs="#facs_4_region_1684569505376_2359_tl_16" n="N017"/>13 (broncene) Medaillen. Von der diesjährigen 
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Aus
+                     <lb facs="#facs_4_region_1684569505376_2359_tl_17" n="N018" break="no"/>stellung tragen die 
+                     <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Instrumentenmacher <hi rendition="#em">acht</hi>
+      <lb facs="#facs_4_region_1684569505376_2359_tl_18" n="N019"/>silberne und <hi rendition="#em">sechs</hi> Bronce-Medaillen, somit <hi rendition="#em">vierzehn</hi>
+      <lb facs="#facs_4_region_1684569505376_2359_tl_19" n="N020"/>Medaillen davon, nebst fünf ehrenvollen Erwähnungen. Es
+      <lb facs="#facs_4_region_1684569505376_2359_tl_20" n="N021"/>haben somit von 23 
+                     <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Fabrikanten (mehr hatten
+      <lb facs="#facs_4_region_1684569505376_2359_tl_21" n="N022"/>nicht ausgestellt) <hi rendition="#em">neunzehn</hi> Auszeichnungen erhalten. Ver
+      <lb facs="#facs_4_region_1684569505376_2359_tl_22" n="N023" break="no"/>gleichen wir damit die Resultate anderer Länder, so sehen
       <lb facs="#facs_4_region_1684569505376_2359_tl_23" n="N024"/>wir, daß das industriemächtigste <hi rendition="#em">
-                  <rs type="place">Großbritannien</rs>
+            <rs type="place" ref="#hsl_place_id_255">Großbritannien</rs>
                </hi> (nebst
       <lb facs="#facs_4_region_1684569505376_2359_tl_24" n="N025"/>einer von der berühmten Firma Broadwood errungenen
       <lb facs="#facs_4_region_1684569505376_2359_tl_25" n="N026"/>Goldmedaille) nur drei silberne und vier Bronce-Medaillen
       <lb facs="#facs_4_region_1684569505376_2359_tl_26" n="N027"/>davonträgt. Die gesammte Instrumenten-Fabrication in
-      <lb facs="#facs_4_region_1684569505376_2359_tl_27" n="N028"/>
-               <hi rendition="#em">
-                  <rs type="place">Baiern</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="place">Sachsen</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="place">Preußen</rs>
-               </hi> hat je <hi rendition="#em">zwei</hi> silberne
+      <lb facs="#facs_4_region_1684569505376_2359_tl_27" n="N028"/><hi rendition="#em">
+            <rs type="place" ref="#hsl_place_id_7">Baiern</rs></hi>, <hi rendition="#em">
+            <rs type="place" ref="#hsl_place_id_165">Sachsen</rs></hi> und <hi rendition="#em">
+            <rs type="place" ref="#hsl_place_id_46">Preußen</rs></hi> hat je <hi rendition="#em">zwei</hi> silberne
       <lb facs="#facs_4_region_1684569505376_2359_tl_28" n="N029"/>Medaillen erhalten, und während die Stadt <hi rendition="#em">
-                  <rs type="place">Wien</rs>
-               </hi> allein
+            <rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> allein
       <lb facs="#facs_4_region_1684569505376_2359_tl_29" n="N030"/>
                <hi rendition="#em">sieben</hi> silberne Medaillen für Musik-Instrumente erringt,
       <lb facs="#facs_4_region_1684569505376_2359_tl_30" n="N031"/>muß sich <hi rendition="#em">
-                  <rs type="place">Berlin</rs>
-               </hi> mit einer einzigen begnügen. Das ist ein
-      <lb facs="#facs_4_region_1684569505376_2359_tl_31" n="N032"/>Erfolg, der unter so schwierigen Verhältnissen glänzend ge¬
-      <lb facs="#facs_4_region_1684569505376_2359_tl_32" n="N033"/>nannt werden darf und dessen die <rs type="place">österreichisch</rs>en Instrumen¬
-      <lb facs="#facs_4_region_1684569505376_2359_tl_33" n="N034"/>tenmacher sich um so redlicher freuen dürfen, als sie ihn ledig¬
-      <lb facs="#facs_4_region_1684569505376_2359_tl_34" n="N035"/>lich dem Werth ihrer Leistungen verdanken.</p>
+            <rs type="place" ref="#hsl_place_id_9">Berlin</rs></hi> mit einer einzigen begnügen. Das ist ein
+      <lb facs="#facs_4_region_1684569505376_2359_tl_31" n="N032"/>Erfolg, der unter so schwierigen Verhältnissen glänzend ge
+      <lb facs="#facs_4_region_1684569505376_2359_tl_32" n="N033" break="no"/>nannt werden darf und dessen die 
+                     <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Instrumen
+      <lb facs="#facs_4_region_1684569505376_2359_tl_33" n="N034" break="no"/>tenmacher sich um so redlicher freuen dürfen, als sie ihn ledig
+      <lb facs="#facs_4_region_1684569505376_2359_tl_34" n="N035" break="no"/>lich dem Werth ihrer Leistungen verdanken.</p>
          </div>
       </body>
    </text>
