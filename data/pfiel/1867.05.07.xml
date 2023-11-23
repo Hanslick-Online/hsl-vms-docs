@@ -106,7 +106,8 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-10-03">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-10-09">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change when="2023-11-16" who="ampfiel">header, Umsätze, note, rs place fertig und person angefangen</change>
+         <change when="2023-11-16" who="ampfiel">header, Umsätze, note, ref place fertig und person angefangen</change>
+         <change when="2023-11-23" who="ampfiel">ref person fertig ausgefüllt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -980,59 +981,59 @@
             <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>e Aussteller</hi> ist beantragt:
       <lb facs="#facs_2_region_1684569651217_2412_tl_8" n="N007"/>A. <hi rendition="#em">Die silberne Medaille</hi>:
       <lb facs="#facs_2_region_1684569651217_2412_tl_9" n="N008"/>1. für Claviere: <hi rendition="#em">
-            <rs type="person">Streicher</rs></hi>, <hi rendition="#em">
-                  <rs type="person">Ehrbar</rs></hi>, 
-                     <hi rendition="#em"><rs type="person">Bösendor
+            <rs type="person" ref="#hsl_person_id_3337">Streicher</rs></hi>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_68">Ehrbar</rs></hi>, 
+                     <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1918">Bösendor
                <lb facs="#facs_2_region_1684569651217_2412_tl_10" n="N009" break="no"/>fer</rs></hi> in 
                      <rs type="place" ref="#hsl_place_id_55">Wien</rs>;
       <lb facs="#facs_2_region_1684569651217_2412_tl_11" n="N010"/>2. für Violinen: <hi rendition="#em">
-            <rs type="person">Lemböck</rs></hi> in 
+            <rs type="person" ref="#hsl_person_id_3415">Lemböck</rs></hi> in 
                      <rs type="place" ref="#hsl_place_id_55">Wien</rs>;
       <lb facs="#facs_2_region_1684569651217_2412_tl_12" n="N011"/>3. für Blas-Instrumente: <hi rendition="#em">
-            <rs type="person">Cerveny</rs></hi> in 
+            <rs type="person" ref="#hsl_person_id_3416">Cerveny</rs></hi> in 
                      <rs type="place" ref="#hsl_place_id_381">Königgrätz</rs>,
       <lb facs="#facs_2_region_1684569651217_2412_tl_13" n="N012"/>
-               <hi rendition="#em"><rs type="person">Bock</rs></hi> und <hi rendition="#em">
-                     <rs type="person">Ziegler</rs></hi> in 
+               <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3381">Bock</rs></hi> und <hi rendition="#em">
+                     <rs type="person" ref="#hsl_person_id_3417">Ziegler</rs></hi> in 
                      <rs type="place" ref="#hsl_place_id_55">Wien</rs>.
       <lb facs="#facs_2_region_1684569651217_2412_tl_14" n="N013"/>B. <hi rendition="#em">Die Bronce-Medaille</hi>:
       <lb facs="#facs_2_region_1684569651217_2412_tl_15" n="N014"/>1. für Claviere: <hi rendition="#em">
-            <rs type="person">Schweighofer</rs></hi>
+            <rs type="person" ref="#hsl_person_id_3418">Schweighofer</rs></hi>
                      <note type="footnote" n="*)">
-                           <lb facs="#facs_2_region_1684569651217_2412_tl_35" n="N036"/><rs type="person">Schweighofer</rs>, anfangs für die <hi rendition="#em">silberne</hi> Medaille notirt,
+                           <lb facs="#facs_2_region_1684569651217_2412_tl_35" n="N036"/><rs type="person" ref="#hsl_person_id_3418">Schweighofer</rs>, anfangs für die <hi rendition="#em">silberne</hi> Medaille notirt,
                            <lb facs="#facs_2_region_1684569651217_2412_tl_36" n="N037"/>wurde in Folge einer nothwendigen Reduction nebst mehreren an
                            <lb facs="#facs_2_line_1696254974456_377" n="N038" break="no"/>deren Fabrikanten in die Bronce-Medaillen eingereiht.
                      </note>, <hi rendition="#em">
-                           <rs type="person">Promberger</rs></hi>,
+                           <rs type="person" ref="#hsl_person_id_3419">Promberger</rs></hi>,
       <lb facs="#facs_2_region_1684569651217_2412_tl_16" n="N015"/>
-                     <hi rendition="#em"><rs type="person">Blümel</rs></hi> (<rs type="place" ref="#hsl_place_id_55">Wien</rs>) und <hi rendition="#em">
-                           <rs type="person">Beregshazy</rs></hi> (
+                     <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3420">Blümel</rs></hi> (<rs type="place" ref="#hsl_place_id_55">Wien</rs>) und <hi rendition="#em">
+                           <rs type="person" ref="#hsl_person_id_3421">Beregshazy</rs></hi> (
                      <rs type="place" ref="#hsl_place_id_108">Pest</rs>);
       <lb facs="#facs_2_line_1696255016091_396" n="N016"/>2. für Violinen, Zithern und Guitarren: <hi rendition="#em">
-            <rs type="person">Bittner</rs></hi>
+            <rs type="person" ref="#hsl_person_id_3422">Bittner</rs></hi>
       <lb facs="#facs_2_line_1696255012601_393" n="N017"/>(<rs type="place" ref="#hsl_place_id_55">Wien</rs>);
       <lb facs="#facs_2_region_1684569651217_2412_tl_18" n="N018"/>3. für Zithern: <hi rendition="#em">
-            <rs type="person">Kiendl</rs></hi> (<rs type="place" ref="#hsl_place_id_55">Wien</rs>);
+            <rs type="person" ref="#hsl_person_id_3423">Kiendl</rs></hi> (<rs type="place" ref="#hsl_place_id_55">Wien</rs>);
       <lb facs="#facs_2_region_1684569651217_2412_tl_19" n="N019"/>4. für Blas-Instrumente: <hi rendition="#em">
-            <rs type="person">Tomschik</rs></hi> (
+            <rs type="person" ref="#hsl_person_id_3424">Tomschik</rs></hi> (
                      <rs type="place" ref="#hsl_place_id_228">Brünn</rs>), <hi rendition="#em">
-                           <rs type="person">Laus
+                           <rs type="person" ref="#hsl_person_id_3425">Laus
                <lb facs="#facs_2_region_1684569651217_2412_tl_20" n="N020" break="no"/>mann</rs></hi> (
                      <rs type="place" ref="#hsl_place_id_143">Linz</rs>), <hi rendition="#em">
-                           <rs type="person">Bohland</rs></hi> (<rs type="place" ref="#hsl_place_id_382">Graslitz</rs>).
+                           <rs type="person" ref="#hsl_person_id_3426">Bohland</rs></hi> (<rs type="place" ref="#hsl_place_id_382">Graslitz</rs>).
       <lb facs="#facs_2_region_1684569651217_2412_tl_21" n="N021"/>C. <hi rendition="#em">Die ehrenvolle Erwähnung</hi>:
       <lb facs="#facs_2_region_1684569651217_2412_tl_22" n="N022"/>1. für Claviere: <hi rendition="#em">
-            <rs type="person">Cramer</rs></hi>, <hi rendition="#em">
-                  <rs type="person">Simon</rs></hi> (
+            <rs type="person" ref="#hsl_person_id_3427">Cramer</rs></hi>, <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_3428">Simon</rs></hi> (
                      <rs type="place" ref="#hsl_place_id_55">Wien</rs>);
       <lb facs="#facs_2_region_1684569651217_2412_tl_23" n="N023"/>2. für Blas-Instrumente: <hi rendition="#em">
-            <rs type="person">Farsky</rs></hi> (
+            <rs type="person" ref="#hsl_person_id_3429">Farsky</rs></hi> (
                      <rs type="place" ref="#hsl_place_id_1">Böhmen</rs>);
       <lb facs="#facs_2_region_1684569651217_2412_tl_24" n="N024"/>3. für Orgel: <hi rendition="#em">
-            <rs type="person">Hesse</rs></hi> (
+            <rs type="person" ref="#hsl_person_id_3430">Hesse</rs></hi> (
                      <rs type="place" ref="#hsl_place_id_55">Wien</rs>);
       <lb facs="#facs_2_region_1684569651217_2412_tl_25" n="N025"/>4. für Zithern: <hi rendition="#em">
-            <rs type="person">Weigel</rs></hi> (
+            <rs type="person" ref="#hsl_person_id_3431">Weigel</rs></hi> (
                      <rs type="place" ref="#hsl_place_id_49">Salzburg</rs>).
       <lb facs="#facs_2_region_1684569651217_2412_tl_26" n="N026"/>
                <hi rendition="#em">Goldene</hi> Medaillen fallen nach dem Reglement auf die
@@ -1044,12 +1045,12 @@
       <lb facs="#facs_2_region_1684569651217_2412_tl_31" n="N031"/>für diese wenigen Goldmedaillen hat die Jury sich noch nicht
       <lb facs="#facs_2_region_1684569651217_2412_tl_32" n="N032"/>definitiv geeinigt; wahrscheinlich werden die Claviermacher
       <lb facs="#facs_2_region_1684569651217_2412_tl_33" n="N033"/>
-                     <hi rendition="#em"><rs type="person">Broadwood</rs></hi> in <rs type="place" ref="#hsl_place_id_34">London</rs>, <hi rendition="#em">
-                           <rs type="person">Steinway</rs></hi> in 
+                     <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3432">Broadwood</rs></hi> in <rs type="place" ref="#hsl_place_id_34">London</rs>, <hi rendition="#em">
+                           <rs type="person" ref="#hsl_person_id_3433">Steinway</rs></hi> in 
                      <rs type="place" ref="#hsl_place_id_186">Newyork</rs> und die
       <lb facs="#facs_2_line_1696254943751_362" n="N034"/>Orgelbauer <hi rendition="#em">
-            <rs type="person">Merklin</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Schütze</rs></hi> in 
+            <rs type="person" ref="#hsl_person_id_3434">Merklin</rs></hi> und <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_3435">Schütze</rs></hi> in 
                      <rs type="place" ref="#hsl_place_id_44">Paris</rs> damit be
       <lb facs="#facs_2_line_1696254959081_368" n="N035" break="no"/>theilt.
             </p>
