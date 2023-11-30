@@ -106,6 +106,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-10-03">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-10-09">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2023-11-30" who="ampfiel">Format, Umbrüche</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -868,71 +869,76 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="1"/>
-               <head type="h1"><lb facs="#facs_2_region_1684569368886_2297_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place">Paris</rs>.</head>
+               <head type="h1"><lb facs="#facs_2_region_1684569368886_2297_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>.</head>
                <head type="h2"><lb facs="#facs_2_region_1684569368886_2297_tl_2" n="N002"/>(<hi rendition="#em">Concurs der Gesangvereine</hi>.)</head>
                   <p>
                     <lb facs="#facs_2_region_1684569368886_2297_tl_3" n="N003"/><hi rendition="#em">
-                          <rs type="place">Paris</rs></hi>, <date when="1867-07-10">10. Juli</date>.
+                          <rs type="place" ref="#hsl_place_id_44">Paris</rs></hi>, <date when="1867-07-10">10. Juli</date>.
       <lb facs="#facs_2_line_1696349890609_1405" n="N004"/>Ed. H. Die Palmen- und Orchideenhäuser im Jardin
       <lb facs="#facs_2_region_1684569368886_2297_tl_4" n="N005"/>réservé des Ausstellungsparkes hatten in den letzten Tagen
-      <lb facs="#facs_2_region_1684569368886_2297_tl_5" n="N006"/>ein seltsames Aussehen und einen seltsamen Dienst. Sie wur¬
-      <lb facs="#facs_2_region_1684569368886_2297_tl_6" n="N007"/>den als musikalische Prüfungssäle benützt, in welchen die zahl¬
-      <lb facs="#facs_2_region_1684569368886_2297_tl_7" n="N008"/>reich herbeigeströmten Gesangvereine sich nacheinander produ¬
-      <lb facs="#facs_2_region_1684569368886_2297_tl_8" n="N009"/>cirten. Die zu diesem Zwecke sehr verstärkte Jury hatte sich
-      <lb facs="#facs_2_region_1684569368886_2297_tl_9" n="N010"/>in sechs Comités getheilt, deren jedes ein Glashaus in Be¬
-      <lb facs="#facs_2_region_1684569368886_2297_tl_10" n="N011"/>schlag nahm, sich unter Palmen an einem Tischchen niederließ
+      <lb facs="#facs_2_region_1684569368886_2297_tl_5" n="N006"/>ein seltsames Aussehen und einen seltsamen Dienst. Sie wur
+      <lb facs="#facs_2_region_1684569368886_2297_tl_6" n="N007" break="no"/>den als musikalische Prüfungssäle benützt, in welchen die zahl
+      <lb facs="#facs_2_region_1684569368886_2297_tl_7" n="N008" break="no"/>reich herbeigeströmten Gesangvereine sich nacheinander produ
+      <lb facs="#facs_2_region_1684569368886_2297_tl_8" n="N009" break="no"/>cirten. Die zu diesem Zwecke sehr verstärkte Jury hatte sich
+      <lb facs="#facs_2_region_1684569368886_2297_tl_9" n="N010"/>in sechs Comités getheilt, deren jedes ein Glashaus in Be
+      <lb facs="#facs_2_region_1684569368886_2297_tl_10" n="N011" break="no"/>schlag nahm, sich unter Palmen an einem Tischchen niederließ
       <lb facs="#facs_2_region_1684569368886_2297_tl_11" n="N012"/>und dort sein bestimmtes Pensum von 20 bis 25 Vereinen
-      <lb facs="#facs_2_region_1684569368886_2297_tl_12" n="N013"/>abhörte. Nur die Elite der <rs type="place">französisch</rs>en Gesangvereine
-      <lb facs="#facs_2_region_1684569368886_2297_tl_13" n="N014"/>(„division d’excellence“) und die ausländischen Chorgesell¬
-      <lb facs="#facs_2_region_1684569368886_2297_tl_14" n="N015"/>schaften producirten sich vor der Jury und einem lebhaft theil¬
-      <lb facs="#facs_2_region_1684569368886_2297_tl_15" n="N016"/>nehmenden Publicum in dem „Théâtre International“ der
+      <lb facs="#facs_2_region_1684569368886_2297_tl_12" n="N013"/>abhörte. Nur die Elite der 
+                        <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Gesangvereine
+      <lb facs="#facs_2_region_1684569368886_2297_tl_13" n="N014"/>(„division d’excellence“) und die ausländischen Chorgesell
+      <lb facs="#facs_2_region_1684569368886_2297_tl_14" n="N015" break="no"/>schaften producirten sich vor der Jury und einem lebhaft theil
+      <lb facs="#facs_2_region_1684569368886_2297_tl_15" n="N016" break="no"/>nehmenden Publicum in dem „Théâtre International“ der
       <lb facs="#facs_2_region_1684569368886_2297_tl_16" n="N017"/>Ausstellung — einer Schwindelbühne, welche, nach kurzem
       <lb facs="#facs_2_region_1684569368886_2297_tl_17" n="N018"/>Scheinleben, ihre Vorstellungen gerade eingestellt hatte und
       <lb facs="#facs_2_region_1684569368886_2297_tl_18" n="N019"/>anderweitiger Benützung offen stand. Zusammen, in Einen
-      <lb facs="#facs_2_line_1696350523061_1689" n="N020"/>massenhaften Chor vereinigt, hatten wir diese 300 <rs type="place">französisch</rs>en
+      <lb facs="#facs_2_line_1696350523061_1689" n="N020"/>massenhaften Chor vereinigt, hatten wir diese 300 
+                        <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
             <cb n="2"/>
                <lb facs="#facs_2_line_1696349933544_1422" n="N001"/>Vereine schon Tags zuvor gehört, allerdings unter entsetzlichen
-      <lb facs="#facs_2_line_1696349946810_1431" n="N002"/>akustischen Verhältnissen. Das „Festival“ (ein aus dem <rs type="place">Eng¬</rs>
-               <lb facs="#facs_2_region_1684569372078_2300_tl_3" n="N003"/>
-               <rs type="place">lisch</rs>en ohne Noth und Geschmack entlehntes Wort für „Musik¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_4" n="N004"/>fest“) fand nämlich in dem immensen Industriepalaste der
+      <lb facs="#facs_2_line_1696349946810_1431" n="N002"/>akustischen Verhältnissen. Das „Festival“ (ein aus dem 
+                        <rs type="place" ref="#hsl_place_id_17">Eng
+               <lb facs="#facs_2_region_1684569372078_2300_tl_3" n="N003" break="no"/>lisch</rs>en ohne Noth und Geschmack entlehntes Wort für „Musik
+      <lb facs="#facs_2_region_1684569372078_2300_tl_4" n="N004" break="no"/>fest“) fand nämlich in dem immensen Industriepalaste der
       <lb facs="#facs_2_region_1684569372078_2300_tl_5" n="N005"/>elysäischen Felder statt, welcher der stärksten Musikbesetzung
       <lb facs="#facs_2_line_1696350055502_1468" n="N006"/>Hohn spricht. Schon bei der Preisverleihung am <date month="0" day="0" year="0">1. Juli</date>,
       <lb facs="#facs_2_line_1696349960872_1438" n="N007"/>wo doch gegen 20,000 Menschen den Saal füllten und dem
       <lb facs="#facs_2_region_1684569372078_2300_tl_7" n="N008"/>großen Chor ein Riesen-Orchester zur Seite stand, verpuffte
-      <lb facs="#facs_2_region_1684569372078_2300_tl_8" n="N009"/>die Musik ohnmächtig wie ein Löffel voll Wasser auf einer glühen¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_9" n="N010"/>den Platte. Diesmal sah der Saal mit seinen 4000 bis 5000
+      <lb facs="#facs_2_region_1684569372078_2300_tl_8" n="N009"/>die Musik ohnmächtig wie ein Löffel voll Wasser auf einer glühen
+      <lb facs="#facs_2_region_1684569372078_2300_tl_9" n="N010" break="no"/>den Platte. Diesmal sah der Saal mit seinen 4000 bis 5000
       <lb facs="#facs_2_region_1684569372078_2300_tl_10" n="N011"/>Gästen geradezu leer aus und spottete der Anstrengung von
       <lb facs="#facs_2_region_1684569372078_2300_tl_11" n="N012"/>6000 Sängern. Doch war der Anblick der Letzteren interessant
       <lb facs="#facs_2_region_1684569372078_2300_tl_12" n="N013"/>genug. Was dem Fremden zunächst auffällt, ist der durchaus
       <lb facs="#facs_2_region_1684569372078_2300_tl_13" n="N014"/>demokratische Charakter dieses Monstre-Chors. Kein schwarzer
-      <lb facs="#facs_2_region_1684569372078_2300_tl_14" n="N015"/>Frack, keine weiße Halsbinde, wie bei unserem eleganten „Män¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_15" n="N016"/>nergesang-Verein“, das einfachste Handwerkergewand, Blousen,
+      <lb facs="#facs_2_region_1684569372078_2300_tl_14" n="N015"/>Frack, keine weiße Halsbinde, wie bei unserem eleganten „Män
+      <lb facs="#facs_2_region_1684569372078_2300_tl_15" n="N016" break="no"/>nergesang-Verein“, das einfachste Handwerkergewand, Blousen,
       <lb facs="#facs_2_region_1684569372078_2300_tl_16" n="N017"/>Mützen, ärmliche Sonntagsjacken; dazwischen einige Matrosen
       <lb facs="#facs_2_region_1684569372078_2300_tl_17" n="N018"/>aus den Hafenstädten und einige hundert Soldaten. Da die
-      <lb facs="#facs_2_region_1684569372078_2300_tl_18" n="N019"/>Sänger nicht nach Vereinen, sondern nach den Stimmgattu¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_19" n="N020"/>gen gereiht waren (alle ersten Tenöre zusammen, alle ersten
-      <lb facs="#facs_2_region_1684569372078_2300_tl_20" n="N021"/>Basse etc.), so schimmerten auch die rothen Hosen und Epau¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_21" n="N022"/>lettes allerwärts zwischen den Arbeiterblousen und Bratenröcken
+      <lb facs="#facs_2_region_1684569372078_2300_tl_18" n="N019"/>Sänger nicht nach Vereinen, sondern nach den Stimmgattu
+      <lb facs="#facs_2_region_1684569372078_2300_tl_19" n="N020" break="no"/>gen gereiht waren (alle ersten Tenöre zusammen, alle ersten
+      <lb facs="#facs_2_region_1684569372078_2300_tl_20" n="N021"/>Basse etc.), so schimmerten auch die rothen Hosen und Epau
+      <lb facs="#facs_2_region_1684569372078_2300_tl_21" n="N022" break="no"/>lettes allerwärts zwischen den Arbeiterblousen und Bratenröcken
       <lb facs="#facs_2_region_1684569372078_2300_tl_22" n="N023"/>durch, und es war ein hübsches sociales Bild, wie Krieg und
-      <lb facs="#facs_2_region_1684569372078_2300_tl_23" n="N024"/>Frieden einträchtig, mitunter aus Einem Notenblatte, zusam¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_24" n="N025"/>men sangen. Vierzehn verschiedene Regiments-Gesangschulen wirk¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_25" n="N026"/>ten bei dem Musikfeste mit; die <rs type="place">französisch</rs>e Armee zählt deren
+      <lb facs="#facs_2_region_1684569372078_2300_tl_23" n="N024"/>Frieden einträchtig, mitunter aus Einem Notenblatte, zusam
+      <lb facs="#facs_2_region_1684569372078_2300_tl_24" n="N025" break="no"/>men sangen. Vierzehn verschiedene Regiments-Gesangschulen wirk
+      <lb facs="#facs_2_region_1684569372078_2300_tl_25" n="N026" break="no"/>ten bei dem Musikfeste mit; die 
+                        <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Armee zählt deren
       <lb facs="#facs_2_line_1696349893600_1408" n="N027"/>bereits 70, und die allgemeine Einführung des Chorgesanges
       <lb facs="#facs_2_region_1684569372078_2300_tl_27" n="N028"/>bei der ganzen Armee steht bevor. Welch treffliches Resultat
       <lb facs="#facs_2_region_1684569372078_2300_tl_28" n="N029"/>würden ähnliche Einrichtungen in der <hi rendition="#em">
                   <rs type="place">österreichisch</rs>en</hi>
-               <lb facs="#facs_2_line_1696350359073_1564" n="N030"/>Armee erzielen, die sich so unvergleichlich musikalischeren Ma¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_29" n="N031"/>terials rühmen darf!
+               <lb facs="#facs_2_line_1696350359073_1564" n="N030"/>Armee erzielen, die sich so unvergleichlich musikalischeren Ma
+      <lb facs="#facs_2_region_1684569372078_2300_tl_29" n="N031" break="no"/>terials rühmen darf!</p>
                <p>
-      <lb facs="#facs_2_region_1684569372078_2300_tl_30" n="N032"/>Die <rs type="place">französisch</rs>en Gesangvereine recrutiren sich (in <rs type="place">Paris</rs>
-               <lb facs="#facs_2_region_1684569372078_2300_tl_31" n="N033"/>fast ausschließlich, in der Provinz größtentheils aus den ar¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_32" n="N034"/>beitenden Classen; bei uns bestehen sie überwiegend aus musi¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_33" n="N035"/>kalisch geschulten Dilettanten des gebildeten Mittelstandes. Dar¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_34" n="N036"/>aus erklärt sich der ungleich höhere <hi rendition="#em">künstlerische</hi> Werth der
+      <lb facs="#facs_2_region_1684569372078_2300_tl_30" n="N032"/>Die 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Gesangvereine recrutiren sich (in <rs type="place" ref="#hsl_place_id_44">Paris</rs>
+      <lb facs="#facs_2_region_1684569372078_2300_tl_31" n="N033"/>fast ausschließlich, in der Provinz größtentheils aus den ar
+      <lb facs="#facs_2_region_1684569372078_2300_tl_32" n="N034" break="no"/>beitenden Classen; bei uns bestehen sie überwiegend aus musi
+      <lb facs="#facs_2_region_1684569372078_2300_tl_33" n="N035" break="no"/>kalisch geschulten Dilettanten des gebildeten Mittelstandes. Dar
+      <lb facs="#facs_2_region_1684569372078_2300_tl_34" n="N036" break="no"/>aus erklärt sich der ungleich höhere <hi rendition="#em">künstlerische</hi> Werth der
       <lb facs="#facs_2_region_1684569372078_2300_tl_35" n="N037"/>
-               <rs type="place">deutsch</rs>en Gesangvereine, sowie die weit größere <hi rendition="#em">sociale</hi> Wich¬
-      <lb facs="#facs_2_region_1684569372078_2300_tl_36" n="N038"/>tigkeit der <rs type="place">französisch</rs>en. Diese <rs type="place">Paris</rs>er Arbeiter singen oft
+               <rs type="place">deutsch</rs>en Gesangvereine, sowie die weit größere <hi rendition="#em">sociale</hi> Wich
+      <lb facs="#facs_2_region_1684569372078_2300_tl_36" n="N038" break="no"/>tigkeit der 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en. Diese <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Arbeiter singen oft
       <lb facs="#facs_2_region_1684569372078_2300_tl_37" n="N039"/>herzlich schlecht, aber die regelmäßige Uebung des Gesanges,
       <lb facs="#facs_2_region_1684569372078_2300_tl_38" n="N040"/>die liebevolle Beschäftigung mit der Musik haucht unfehlbar
       <lb facs="#facs_2_region_1684569372078_2300_tl_39" n="N041"/>ein Element der Veredlung und Verfeinerung in ihr Leben
@@ -946,234 +952,240 @@
       <lb facs="#facs_2_region_1684569376129_2303_tl_4" n="N005"/>Wir können ganz absehen von der politischen Klugheit, die hier
       <lb facs="#facs_2_line_1696350058474_1471" n="N006"/>mitspielt: ist es doch immer besser, eine Regierung patronisirt
       <lb facs="#facs_2_region_1684569376129_2303_tl_6" n="N007"/>die Gesangvereine, als sie verdächtigt oder verbietet dieselben,
-      <lb facs="#facs_2_region_1684569376129_2303_tl_7" n="N008"/>wie wir dies bei uns erlebt. Demokratisch in ihrer Zusammen¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_8" n="N009"/>setzung, sind die <rs type="place">französisch</rs>en Orphéons doch streng bureaukra¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_9" n="N010"/>tisch in ihrer Verfassung und Verwaltung. Die meisten davon
+      <lb facs="#facs_2_region_1684569376129_2303_tl_7" n="N008"/>wie wir dies bei uns erlebt. Demokratisch in ihrer Zusammen
+      <lb facs="#facs_2_region_1684569376129_2303_tl_8" n="N009" break="no"/>setzung, sind die 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Orphéons doch streng bureaukra
+      <lb facs="#facs_2_region_1684569376129_2303_tl_9" n="N010" break="no"/>tisch in ihrer Verfassung und Verwaltung. Die meisten davon
       <lb facs="#facs_2_region_1684569376129_2303_tl_10" n="N011"/>sind geradezu eine Schöpfung des Gouvernements. Es liegen
       <lb facs="#facs_2_region_1684569376129_2303_tl_11" n="N012"/>mir hierüber charakteristische amtliche Documente vor. Z. B.
-      <lb facs="#facs_2_region_1684569376129_2303_tl_12" n="N013"/>ein Erlaß des Departements-Präfecten N. an die Unterprä¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_13" n="N014"/>fecten und Maires seines Departements, welche aufgefordert
+      <lb facs="#facs_2_region_1684569376129_2303_tl_12" n="N013"/>ein Erlaß des Departements-Präfecten N. an die Unterprä
+      <lb facs="#facs_2_region_1684569376129_2303_tl_13" n="N014" break="no"/>fecten und Maires seines Departements, welche aufgefordert
       <lb facs="#facs_2_region_1684569376129_2303_tl_14" n="N015"/>werden, zu erheben, ob in den einzelnen Ortschaften Elemente
       <lb facs="#facs_2_region_1684569376129_2303_tl_15" n="N016"/>zur Bildung von Orphéons vorhanden seien; wie in diesem
       <lb facs="#facs_2_region_1684569376129_2303_tl_16" n="N017"/>Fall der Gesangsunterricht einzuleiten, vorzunehmen und von
-      <lb facs="#facs_2_region_1684569376129_2303_tl_17" n="N018"/>einer Commission zu überwachen sei etc. Alle drei Monate ha¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_18" n="N019"/>ben die Maires über die Fortschritte der Orphéons in ihrem
-      <lb facs="#facs_2_region_1684569376129_2303_tl_19" n="N020"/>Arrondissement an den Präfecten zu berichten, zweimal jähr¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_20" n="N021"/>lich Prüfungen vorzunehmen, Medaillen oder Aufmunterun¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_21" n="N022"/>gen zu spenden. Später, wenn die Anzahl dieser kleinen Ge¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_22" n="N023"/>sangvereine es gestattet, sind Concurse (Preissingen) in
+      <lb facs="#facs_2_region_1684569376129_2303_tl_17" n="N018"/>einer Commission zu überwachen sei etc. Alle drei Monate ha
+      <lb facs="#facs_2_region_1684569376129_2303_tl_18" n="N019" break="no"/>ben die Maires über die Fortschritte der Orphéons in ihrem
+      <lb facs="#facs_2_region_1684569376129_2303_tl_19" n="N020"/>Arrondissement an den Präfecten zu berichten, zweimal jähr
+      <lb facs="#facs_2_region_1684569376129_2303_tl_20" n="N021" break="no"/>lich Prüfungen vorzunehmen, Medaillen oder Aufmunterun
+      <lb facs="#facs_2_region_1684569376129_2303_tl_21" n="N022" break="no"/>gen zu spenden. Später, wenn die Anzahl dieser kleinen Ge
+      <lb facs="#facs_2_region_1684569376129_2303_tl_22" n="N023" break="no"/>sangvereine es gestattet, sind Concurse (Preissingen) in
       <lb facs="#facs_2_region_1684569376129_2303_tl_23" n="N024"/>jedem Arrondissement zu veranstalten. Nur jene Vereine, die
       <lb facs="#facs_2_region_1684569376129_2303_tl_24" n="N025"/>in dem Concurs ihres <hi rendition="#em">Arrondissements</hi> eine Medaille
-      <lb facs="#facs_2_region_1684569376129_2303_tl_25" n="N026"/>errungen haben, dürfen sich an den Gesangsconcursen des <hi rendition="#em">De¬</hi>
-               <lb facs="#facs_2_region_1684569376129_2303_tl_26" n="N027"/>
-               <hi rendition="#em">partements</hi> betheiligen. Nach der Zahl der erhaltenen Me¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_27" n="N028"/>daillen wird jeder Gesangverein in die erste, zweite, dritte Di¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_28" n="N029"/>vision oder endlich in die „Division d’excellence“ gereiht,
-      <lb facs="#facs_2_line_1696350363664_1567" n="N030"/>eine Art singende Nobelgarde von <rs type="place">Frankreich</rs>. Der Präfect
+      <lb facs="#facs_2_region_1684569376129_2303_tl_25" n="N026"/>errungen haben, dürfen sich an den Gesangsconcursen des <hi rendition="#em">De
+               <lb facs="#facs_2_region_1684569376129_2303_tl_26" n="N027" break="no"/>partements</hi> betheiligen. Nach der Zahl der erhaltenen Me
+      <lb facs="#facs_2_region_1684569376129_2303_tl_27" n="N028" break="no"/>daillen wird jeder Gesangverein in die erste, zweite, dritte Di
+      <lb facs="#facs_2_region_1684569376129_2303_tl_28" n="N029" break="no"/>vision oder endlich in die „Division d’excellence“ gereiht,
+      <lb facs="#facs_2_line_1696350363664_1567" n="N030"/>eine Art singende Nobelgarde von 
+                     <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>. Der Präfect
       <lb facs="#facs_2_region_1684569376129_2303_tl_30" n="N031"/>oder Maire ist von rechtswegen Vorstand des Gesangvereins;
       <lb facs="#facs_2_region_1684569376129_2303_tl_31" n="N032"/>dafür trägt auch die Regierung die Kosten der Einrichtung
       <lb facs="#facs_2_region_1684569376129_2303_tl_32" n="N033"/>und der zahlreich gespendeten Preismedaillen. Baron <hi rendition="#em">
-                  <rs type="person" continued="true">Hauß¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684569376129_2303_tl_33" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi>, auf dessen Wink fortwährend neue Straßen und Bou¬
-      <lb facs="#facs_2_region_1684569376129_2303_tl_34" n="N035"/>levards entstehen, ist Vorstand des „Orphéon de Paris“, der
+                  <rs type="person">Hauß
+               <lb facs="#facs_2_region_1684569376129_2303_tl_33" n="N034" break="no"/>mann</rs></hi>, auf dessen Wink fortwährend neue Straßen und Bou
+      <lb facs="#facs_2_region_1684569376129_2303_tl_34" n="N035" break="no"/>levards entstehen, ist Vorstand des „Orphéon de Paris“, der
       <lb facs="#facs_2_region_1684569376129_2303_tl_35" n="N036"/>Titel eines Amphion unter den Bürgermeistern kann ihm nicht
       <lb facs="#facs_2_region_1684569376129_2303_tl_36" n="N037"/>länger entgehen. Jeder Gesangverein hat ein schönes Banner
       <lb facs="#facs_2_region_1684569376129_2303_tl_37" n="N038"/>(in dieser Passion stehen uns die Franzosen nicht nach), und
       <lb facs="#facs_2_region_1684569376129_2303_tl_38" n="N039"/>an dies Banner werden alle errungenen Medaillen gehängt.
       <lb facs="#facs_2_region_1684569376129_2303_tl_39" n="N040"/>An den Medaillen hängt wiederum das Herz aller Vereine;
-      <lb facs="#facs_2_region_1684569376129_2303_tl_40" n="N041"/>durfte doch das Hauptorgan der <rs type="place">französisch</rs>en Gesangvereine,
-      <lb facs="#facs_2_line_1696350013867_1461" n="N042"/>L’Echo des Orphéons, in seinem Festartikel die seltsame Ueber¬
-      <lb facs="#facs_2_line_1696350011344_1458" n="N043"/>zeugung aussprechen, die Einstellung der jährlichen Preiscon
+      <lb facs="#facs_2_region_1684569376129_2303_tl_40" n="N041"/>durfte doch das Hauptorgan der 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Gesangvereine,
+      <lb facs="#facs_2_line_1696350013867_1461" n="N042"/>L’Echo des Orphéons, in seinem Festartikel die seltsame Ueber
+      <lb facs="#facs_2_line_1696350011344_1458" n="N043" break="no"/>zeugung aussprechen, die Einstellung der jährlichen Preiscon
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="4"/>
                <lb facs="#facs_3_line_1696365819712_1848" n="N001" break="no"/>curse würde sofort das Aufhören aller Gesangvereine zur Folge
-      <lb facs="#facs_3_region_1684569389802_2309_tl_2" n="N002"/>haben. Hier wie überall in <rs type="place">Frankreich</rs> üben Ehrgeiz und Eitel¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_3" n="N003"/>keit einen großen Einfluß. Man wird sie nachsichtiger beur¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_4" n="N004"/>theilen, wenn man bedenkt, daß die größte Mehrzahl der <rs type="place">fran¬</rs>
-               <lb facs="#facs_3_region_1684569389802_2309_tl_5" n="N005"/>
-               <rs type="place">zösisch</rs>en Orphéons bei aller Anstrengung es nie zu echt künst¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_6" n="N006"/>lerischer Genugthuung bringen kann. Tausende von diesen sin¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_7" n="N007"/>genden Handwerkern kennen nicht Eine Note; sie werden nach
+      <lb facs="#facs_3_region_1684569389802_2309_tl_2" n="N002"/>haben. Hier wie überall in 
+                     <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> üben Ehrgeiz und Eitel
+      <lb facs="#facs_3_region_1684569389802_2309_tl_3" n="N003" break="no"/>keit einen großen Einfluß. Man wird sie nachsichtiger beur
+      <lb facs="#facs_3_region_1684569389802_2309_tl_4" n="N004" break="no"/>theilen, wenn man bedenkt, daß die größte Mehrzahl der 
+                     <rs type="place" ref="#hsl_place_id_21">fran
+               <lb facs="#facs_3_region_1684569389802_2309_tl_5" n="N005" break="no"/>zösisch</rs>en Orphéons bei aller Anstrengung es nie zu echt künst
+      <lb facs="#facs_3_region_1684569389802_2309_tl_6" n="N006" break="no"/>lerischer Genugthuung bringen kann. Tausende von diesen sin
+      <lb facs="#facs_3_region_1684569389802_2309_tl_7" n="N007" break="no"/>genden Handwerkern kennen nicht Eine Note; sie werden nach
       <lb facs="#facs_3_region_1684569389802_2309_tl_8" n="N008"/>der Methode v. <hi rendition="#em">
-                  <rs type="person">Wilhem</rs>
-               </hi> oder v. <hi rendition="#em">
-                  <rs type="person">Chevé</rs>
-               </hi> unterrichtet, welche
-      <lb facs="#facs_3_region_1684569389802_2309_tl_9" n="N009"/>die Noten durch Zahlen oder Figuren ersetzt. Ja, es gibt ein¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_10" n="N010"/>zelne Vereine, in welchen die Sänger nur nach dem Klange
+                  <rs type="person">Wilhem</rs></hi> oder v. <hi rendition="#em">
+                  <rs type="person">Chevé</rs></hi> unterrichtet, welche
+      <lb facs="#facs_3_region_1684569389802_2309_tl_9" n="N009"/>die Noten durch Zahlen oder Figuren ersetzt. Ja, es gibt ein
+      <lb facs="#facs_3_region_1684569389802_2309_tl_10" n="N010" break="no"/>zelne Vereine, in welchen die Sänger nur nach dem Klange
       <lb facs="#facs_3_region_1684569389802_2309_tl_11" n="N011"/>einer Violine ihren Part lernen und sich einprägen. Solche
       <lb facs="#facs_3_region_1684569389802_2309_tl_12" n="N012"/>Genossenschaften muß man eben nicht auf ihre künstlerischen,
-      <lb facs="#facs_3_region_1684569389802_2309_tl_13" n="N013"/>sondern auf ihre socialen Früchte ansehen. Nach längerem Zeit¬
-      <lb facs="#facs_3_line_1696365835019_1858" n="N014"/>verlauf (die Instutition der Orphéons ist so jung, daß an dem
-      <lb facs="#facs_3_region_1684569389802_2309_tl_15" n="N015"/>ersten allgemeinen Concurs, <date month="0" day="0" year="0">1851</date> in 
-                  <rs type="place" ref="#hsl_place_id_383">Troyes</rs>, nur neun Ver¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_16" n="N016"/>eine theilnahmen) dürfte wol auch der musikalische Fortschritt
-      <lb facs="#facs_3_region_1684569389802_2309_tl_17" n="N017"/>im ganzen Lande mehr hervortreten. Und dafür wird den Or¬
-      <lb facs="#facs_3_line_1696365853607_1868" n="N018"/>phéons aufrichtig zu danken sein, indem sie ihre bescheidene
+      <lb facs="#facs_3_region_1684569389802_2309_tl_13" n="N013"/>sondern auf ihre socialen Früchte ansehen. Nach längerem Zeit
+      <lb facs="#facs_3_line_1696365835019_1858" n="N014" break="no"/>verlauf (die Instutition der Orphéons ist so jung, daß an dem
+      <lb facs="#facs_3_region_1684569389802_2309_tl_15" n="N015"/>ersten allgemeinen Concurs, <date when="1851">1851</date> in 
+                  <rs type="place" ref="#hsl_place_id_383">Troyes</rs>, nur neun Ver
+      <lb facs="#facs_3_region_1684569389802_2309_tl_16" n="N016" break="no"/>eine theilnahmen) dürfte wol auch der musikalische Fortschritt
+      <lb facs="#facs_3_region_1684569389802_2309_tl_17" n="N017"/>im ganzen Lande mehr hervortreten. Und dafür wird den Or
+      <lb facs="#facs_3_line_1696365853607_1868" n="N018" break="no"/>phéons aufrichtig zu danken sein, indem sie ihre bescheidene
       <lb facs="#facs_3_region_1684569389802_2309_tl_18" n="N019"/>musikalische Cultur wenigstens in die tiefsten und entferntesten
-      <lb facs="#facs_3_region_1684569389802_2309_tl_19" n="N020"/>Schichten leiten. Das <rs type="place">französisch</rs>e Volk besitzt von Haus aus
+      <lb facs="#facs_3_region_1684569389802_2309_tl_19" n="N020"/>Schichten leiten. Das 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Volk besitzt von Haus aus
       <lb facs="#facs_3_region_1684569389802_2309_tl_20" n="N021"/>wenig musikalische Anlage, es hat ein schlechtes Gehör und
       <lb facs="#facs_3_region_1684569389802_2309_tl_21" n="N022"/>wenig Empfänglichkeit für die sinnliche Schönheit des Tones.
       <lb facs="#facs_3_region_1684569389802_2309_tl_22" n="N023"/>Als Sänger leistet der Franzose nur dann Bedeutendes,
       <lb facs="#facs_3_region_1684569389802_2309_tl_23" n="N024"/>wenn das dramatische Element hinzutritt — auf der Bühne.
-      <lb facs="#facs_3_region_1684569389802_2309_tl_24" n="N025"/>Der Chorgesang scheint die unbestrittene Domäne <rs type="place">germanisch</rs>er
-      <lb facs="#facs_3_region_1684569389802_2309_tl_25" n="N026"/>Nationen zu sein. Leider hatte sich kein einziger <rs type="place">deutsch</rs>er Ge¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_26" n="N027"/>sangverein zu dem <rs type="place">Paris</rs>er Concurs eingefunden. Daß der
+      <lb facs="#facs_3_region_1684569389802_2309_tl_24" n="N025"/>Der Chorgesang scheint die unbestrittene Domäne 
+                     <rs type="place">germanisch</rs>er
+      <lb facs="#facs_3_region_1684569389802_2309_tl_25" n="N026"/>Nationen zu sein. Leider hatte sich kein einziger 
+                     <rs type="place">deutsch</rs>er Ge
+      <lb facs="#facs_3_region_1684569389802_2309_tl_26" n="N027" break="no"/>sangverein zu dem 
+                     <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Concurs eingefunden. Daß der
       <lb facs="#facs_3_region_1684569389802_2309_tl_27" n="N028"/>
-               <hi rendition="#em">Wiener Männergesang-Verein</hi> nicht erschien, be¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_28" n="N029"/>dauern wir auf das lebhafteste. Er war einer der wenigen,
-      <lb facs="#facs_3_region_1684569389802_2309_tl_29" n="N030"/>dem die <rs type="place">französisch</rs>e Commission eine specielle Einladung ge¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_30" n="N031"/>sendet hatte und dessen Auftreten man mit Spannung ent¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_31" n="N032"/>gegensah. Daß er den <hi rendition="#em">ersten Preis</hi> erhalten hätte (5000
+               <hi rendition="#em">Wiener Männergesang-Verein</hi> nicht erschien, be
+      <lb facs="#facs_3_region_1684569389802_2309_tl_28" n="N029" break="no"/>dauern wir auf das lebhafteste. Er war einer der wenigen,
+      <lb facs="#facs_3_region_1684569389802_2309_tl_29" n="N030"/>dem die 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Commission eine specielle Einladung ge
+      <lb facs="#facs_3_region_1684569389802_2309_tl_30" n="N031" break="no"/>sendet hatte und dessen Auftreten man mit Spannung ent
+      <lb facs="#facs_3_region_1684569389802_2309_tl_31" n="N032" break="no"/>gegensah. Daß er den <hi rendition="#em">ersten Preis</hi> erhalten hätte (5000
       <lb facs="#facs_3_region_1684569389802_2309_tl_32" n="N033"/>Francs und einen goldenen Kranz) steht außer Zweifel; mehr
-      <lb facs="#facs_3_region_1684569389802_2309_tl_33" n="N034"/>als Ein Belgier und Franzose gestand dies offenherzig. Auge¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_34" n="N035"/>nommen selbst, der Wiener Männergesang-Verein stände an
-      <lb facs="#facs_3_region_1684569389802_2309_tl_35" n="N036"/>virtuoser Ausführung nicht über, sondern nur neben den preis¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_36" n="N037"/>gekrönten Gesellschaften von <hi rendition="#em">
-                  <rs type="person">Lille</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Liège</rs>
-               </hi>, er hätte
-      <lb facs="#facs_3_region_1684569389802_2309_tl_37" n="N038"/>durch die Frische und Klangschönheit seiner Stimmen den ent¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_38" n="N039"/>scheidendsten Vortheil über jene gehabt. Diese Gottesgabe ist
-      <lb facs="#facs_3_region_1684569389802_2309_tl_39" n="N040"/>sehr spärlich über <rs type="place">Frankreich</rs> ausgegossen. Unter den zahlrei¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_40" n="N041"/>chen <rs type="place">französisch</rs>en Vereinen, welche ich bei dieser Jury zu hören
-      <lb facs="#facs_3_region_1684569389802_2309_tl_41" n="N042"/>bekam, habe ich nicht Eine schöne, echte Tenorstimme wahrge¬
-      <lb facs="#facs_3_region_1684569389802_2309_tl_42" n="N043"/>nommen und nur wenige Bässe von bedeutender Kraft und
+      <lb facs="#facs_3_region_1684569389802_2309_tl_33" n="N034"/>als Ein Belgier und Franzose gestand dies offenherzig. Auge
+      <lb facs="#facs_3_region_1684569389802_2309_tl_34" n="N035" break="no"/>nommen selbst, der Wiener Männergesang-Verein stände an
+      <lb facs="#facs_3_region_1684569389802_2309_tl_35" n="N036"/>virtuoser Ausführung nicht über, sondern nur neben den preis
+      <lb facs="#facs_3_region_1684569389802_2309_tl_36" n="N037" break="no"/>gekrönten Gesellschaften von <hi rendition="#em">
+                  <rs type="person">Lille</rs></hi> und <hi rendition="#em">
+                  <rs type="person">Liège</rs></hi>, er hätte
+      <lb facs="#facs_3_region_1684569389802_2309_tl_37" n="N038"/>durch die Frische und Klangschönheit seiner Stimmen den ent
+      <lb facs="#facs_3_region_1684569389802_2309_tl_38" n="N039" break="no"/>scheidendsten Vortheil über jene gehabt. Diese Gottesgabe ist
+      <lb facs="#facs_3_region_1684569389802_2309_tl_39" n="N040"/>sehr spärlich über 
+                     <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> ausgegossen. Unter den zahlrei
+      <lb facs="#facs_3_region_1684569389802_2309_tl_40" n="N041" break="no"/>chen 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Vereinen, welche ich bei dieser Jury zu hören
+      <lb facs="#facs_3_region_1684569389802_2309_tl_41" n="N042"/>bekam, habe ich nicht Eine schöne, echte Tenorstimme wahrge
+      <lb facs="#facs_3_region_1684569389802_2309_tl_42" n="N043" break="no"/>nommen und nur wenige Bässe von bedeutender Kraft und
             <cb n="5"/>
-               <lb facs="#facs_3_line_1696365822892_1851" n="N001"/>Tiefe. Aus dem Süden <rs type="place">Frankreich</rs>s kommen die besseren
+               <lb facs="#facs_3_line_1696365822892_1851" n="N001"/>Tiefe. Aus dem Süden 
+                     <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s kommen die besseren
       <lb facs="#facs_3_region_1684569393695_2312_tl_1" n="N002"/>Stimmen, aber die rohesten und ungeschultesten Sänger; die
-      <lb facs="#facs_3_region_1684569393695_2312_tl_2" n="N003"/>nördlichen Provinzen senden musikalischere Sänger, aber mit¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_3" n="N004"/>telmäßige Stimmen. Namentlich die Tenorstimmen sind schwach,
-      <lb facs="#facs_3_region_1684569393695_2312_tl_4" n="N005"/>näselnd oder gepreßt, bei stärkerer Kraftentfaltung unange¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_5" n="N006"/>nehm; eine nicht gewöhnliche Leichtigkeit des Falsets ist mehr
+      <lb facs="#facs_3_region_1684569393695_2312_tl_2" n="N003"/>nördlichen Provinzen senden musikalischere Sänger, aber mit
+      <lb facs="#facs_3_region_1684569393695_2312_tl_3" n="N004" break="no"/>telmäßige Stimmen. Namentlich die Tenorstimmen sind schwach,
+      <lb facs="#facs_3_region_1684569393695_2312_tl_4" n="N005"/>näselnd oder gepreßt, bei stärkerer Kraftentfaltung unange
+      <lb facs="#facs_3_region_1684569393695_2312_tl_5" n="N006" break="no"/>nehm; eine nicht gewöhnliche Leichtigkeit des Falsets ist mehr
       <lb facs="#facs_3_region_1684569393695_2312_tl_6" n="N007"/>ein Surrogat als ein Ersatz dafür. Das Ausland war bei
-      <lb facs="#facs_3_region_1684569393695_2312_tl_7" n="N008"/>dem internationalen Gesangsconcurs nur durch einen <rs type="place">englisch</rs>en
-      <lb facs="#facs_3_region_1684569393695_2312_tl_8" n="N009"/>und zwei <rs type="place">belgisch</rs>e Vereine — also sehr spärlich — vertreten.
-      <lb facs="#facs_3_region_1684569393695_2312_tl_9" n="N010"/>Der Chorgesang in <rs type="place">Belgien</rs> steht auf einer viel höheren Stufe als
-      <lb facs="#facs_3_region_1684569393695_2312_tl_10" n="N011"/>in <rs type="place">Frankreich</rs>, und die <rs type="place">belgisch</rs>en Gesangvereine sind wahrhaft respec¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_11" n="N012"/>table Erscheinungen. Zwei der bedeutendsten (<hi rendition="#em">
-                  <rs type="place">Gent</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="place">Brüssel</rs>
-               </hi>)
+      <lb facs="#facs_3_region_1684569393695_2312_tl_7" n="N008"/>dem internationalen Gesangsconcurs nur durch einen 
+                     <rs type="place" ref="#hsl_place_id_17">englisch</rs>en
+      <lb facs="#facs_3_region_1684569393695_2312_tl_8" n="N009"/>und zwei 
+                     <rs type="place" ref="#hsl_place_id_177">belgisch</rs>e Vereine — also sehr spärlich — vertreten.
+      <lb facs="#facs_3_region_1684569393695_2312_tl_9" n="N010"/>Der Chorgesang in 
+                     <rs type="place" ref="#hsl_place_id_177">Belgien</rs> steht auf einer viel höheren Stufe als
+      <lb facs="#facs_3_region_1684569393695_2312_tl_10" n="N011"/>in 
+                     <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>, und die <rs type="place" ref="#hsl_place_id_177">belgisch</rs>en Gesangvereine sind wahrhaft respec
+      <lb facs="#facs_3_region_1684569393695_2312_tl_11" n="N012" break="no"/>table Erscheinungen. Zwei der bedeutendsten (<hi rendition="#em">
+                  <rs type="place">Gent</rs></hi> und <hi rendition="#em">
+                  <rs type="place">Brüssel</rs></hi>)
       <lb facs="#facs_3_region_1684569393695_2312_tl_12" n="N013"/>waren leider nicht erschienen; um so größer war der Erfolg
       <lb facs="#facs_3_line_1696365838572_1861" n="N014"/>des Vereines „Ligia“ aus <hi rendition="#em">
-                  <rs type="place">Lüttich</rs>
-               </hi>. Nur einer von allen
+                  <rs type="place">Lüttich</rs></hi>. Nur einer von allen
       <lb facs="#facs_3_region_1684569393695_2312_tl_13" n="N015"/>
-               <rs type="place">französisch</rs>en Vereinen, die „Société impériale de Lille“, kam
+               <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Vereinen, die „Société impériale de Lille“, kam
       <lb facs="#facs_3_region_1684569393695_2312_tl_14" n="N016"/>ihm an Reinheit der Intonation, Correctheit in den schwierigsten
       <lb facs="#facs_3_region_1684569393695_2312_tl_15" n="N017"/>Passagen und feiner Schattirung gleich. Es ist charakteristisch,
-      <lb facs="#facs_3_line_1696365858563_1871" n="N018"/>daß dieser beste <rs type="place">französisch</rs>e Chorverein aus dem alten <hi rendition="#em">
-                  <rs type="place">Flan¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684569393695_2312_tl_17" n="N019"/>
-               <hi rendition="#em">
-                  <rs type="place">dern</rs>
-               </hi> stammt. <hi rendition="#em">
-                  <rs type="person">Lille</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Liège</rs>
-               </hi> hielten sich die Wage; es
+      <lb facs="#facs_3_line_1696365858563_1871" n="N018"/>daß dieser beste <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Chorverein aus dem alten <hi rendition="#em">
+                  <rs type="place">Flan
+               <lb facs="#facs_3_region_1684569393695_2312_tl_17" n="N019" break="no"/>dern</rs></hi> stammt. <hi rendition="#em">
+                  <rs type="person">Lille</rs></hi> und <hi rendition="#em">
+                  <rs type="person">Liège</rs></hi> hielten sich die Wage; es
       <lb facs="#facs_3_region_1684569393695_2312_tl_18" n="N020"/>kann nicht ungerecht heißen, daß die Jury <hi rendition="#em">
-                  <rs type="person">Lille</rs>
-               </hi> den ersten,
-      <lb facs="#facs_3_line_1696365874532_1879" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Liège</rs>
-               </hi> den zweiten Preis zuerkannte. Beide Gesellschaften sind
+                  <rs type="person">Lille</rs></hi> den ersten,
+      <lb facs="#facs_3_line_1696365874532_1879" n="N021"/><hi rendition="#em">
+                  <rs type="person">Liège</rs></hi> den zweiten Preis zuerkannte. Beide Gesellschaften sind
       <lb facs="#facs_3_region_1684569393695_2312_tl_20" n="N022"/>eigentliche „Sociétés artistiques“, aus gebildeten Dilettanten
-      <lb facs="#facs_3_line_1696365887762_1888" n="N023"/>bestehend, im Gegensatze zu den <rs type="place">belgisch</rs>en „Sociétés chorales
-      <lb facs="#facs_3_region_1684569393695_2312_tl_22" n="N024"/>ouvrières“ oder den aus Gesangschulen hervorgehenden „Or¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_23" n="N025"/>phéons“ der Franzosen. Sie und noch andere Concurrenten
-      <lb facs="#facs_3_line_1696365898502_1897" n="N026"/>um den internationalen Preis hatten äußerst schwierige, um¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_24" n="N027"/>fangreiche Chöre zum Vortrage gewählt; „<rs type="bibl">Abendhymne</rs>“ und
-      <lb facs="#facs_3_region_1684569393695_2312_tl_25" n="N028"/>„<rs type="bibl">Morgenhymne</rs>“, von dem <rs type="place">Brüssel</rs>er Componisten <hi rendition="#em">
-                  <rs type="person">Haussens</rs>
-               </hi>,
+      <lb facs="#facs_3_line_1696365887762_1888" n="N023"/>bestehend, im Gegensatze zu den 
+                     <rs type="place" ref="#hsl_place_id_177">belgisch</rs>en „Sociétés chorales
+      <lb facs="#facs_3_region_1684569393695_2312_tl_22" n="N024"/>ouvrières“ oder den aus Gesangschulen hervorgehenden „Or
+      <lb facs="#facs_3_region_1684569393695_2312_tl_23" n="N025" break="no"/>phéons“ der Franzosen. Sie und noch andere Concurrenten
+      <lb facs="#facs_3_line_1696365898502_1897" n="N026"/>um den internationalen Preis hatten äußerst schwierige, um
+      <lb facs="#facs_3_region_1684569393695_2312_tl_24" n="N027" break="no"/>fangreiche Chöre zum Vortrage gewählt; „
+                     <rs type="bibl">Abendhymne</rs>“ und
+      <lb facs="#facs_3_region_1684569393695_2312_tl_25" n="N028"/>„<rs type="bibl">Morgenhymne</rs>“, von dem 
+                     <rs type="place">Brüssel</rs>er Componisten <hi rendition="#em">
+                  <rs type="person">Haussens</rs></hi>,
       <lb facs="#facs_3_region_1684569393695_2312_tl_26" n="N029"/>lange pathetische Chöre, welche die Stimmen rein instrumental
-      <lb facs="#facs_3_region_1684569393695_2312_tl_27" n="N030"/>behandeln und mißhandeln, waren die Lieblingsstücke der Bel¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_28" n="N031"/>gier. Die Franzosen sangen mit Vorliebe „<hi rendition="#em">
-                  <rs type="bibl">Tirol</rs>
-               </hi>“ von <hi rendition="#em">Am¬</hi>
-               <lb facs="#facs_3_region_1684569393695_2312_tl_29" n="N032"/>
-               <hi rendition="#em">broise <rs type="person">Thomas</rs>
-               </hi>, eine cantatenartige Naturschilderung, in wel¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_30" n="N033"/>cher Sturmgeheul, Lawinen, Glockengeläute und Jodler zu
-      <lb facs="#facs_3_region_1684569393695_2312_tl_31" n="N034"/>einem echt <rs type="place">französisch</rs>en unerquicklichen Effectstück verbunden
-      <lb facs="#facs_3_region_1684569393695_2312_tl_32" n="N035"/>sind. Freundlicher und sangbarer ist der gleichfalls oft wieder¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_33" n="N036"/>holte Zigeunerchor („<rs type="bibl">Les Enfants d’Egypte</rs>“) von Laurent
+      <lb facs="#facs_3_region_1684569393695_2312_tl_27" n="N030"/>behandeln und mißhandeln, waren die Lieblingsstücke der Bel
+      <lb facs="#facs_3_region_1684569393695_2312_tl_28" n="N031" break="no"/>gier. Die Franzosen sangen mit Vorliebe „<hi rendition="#em">
+                  <rs type="bibl">Tirol</rs></hi>“ von <hi rendition="#em">Am
+               <lb facs="#facs_3_region_1684569393695_2312_tl_29" n="N032" break="no"/>broise 
+                        <rs type="person">Thomas</rs></hi>, eine cantatenartige Naturschilderung, in wel
+      <lb facs="#facs_3_region_1684569393695_2312_tl_30" n="N033" break="no"/>cher Sturmgeheul, Lawinen, Glockengeläute und Jodler zu
+      <lb facs="#facs_3_region_1684569393695_2312_tl_31" n="N034"/>einem echt 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en unerquicklichen Effectstück verbunden
+      <lb facs="#facs_3_region_1684569393695_2312_tl_32" n="N035"/>sind. Freundlicher und sangbarer ist der gleichfalls oft wieder
+      <lb facs="#facs_3_region_1684569393695_2312_tl_33" n="N036" break="no"/>holte Zigeunerchor („
+                     <rs type="bibl">Les Enfants d’Egypte</rs>“) von Laurent
       <lb facs="#facs_3_region_1684569393695_2312_tl_34" n="N037"/>de <hi rendition="#em">
                   <rs type="person">Rillé</rs>
-               </hi>, dem unermüdlichen Special-Schriftsteller und Leib¬
-      <lb facs="#facs_3_region_1684569393695_2312_tl_35" n="N038"/>componisten der <rs type="place">französisch</rs>en Gesangvereine. Das Repertoire des
+               </hi>, dem unermüdlichen Special-Schriftsteller und Leib
+      <lb facs="#facs_3_region_1684569393695_2312_tl_35" n="N038" break="no"/>componisten der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Gesangvereine. Das Repertoire des
       <lb facs="#facs_3_region_1684569393695_2312_tl_36" n="N039"/>
-               <rs type="place">französisch</rs>en Männergesanges ist arm und unbedeutend. Aus der
-      <lb facs="#facs_3_region_1684569393695_2312_tl_37" n="N040"/>älteren Literatur, welche den vierstimmigen Männerchor bekannt¬
-      <lb facs="#facs_3_line_1696365926722_1920" n="N041"/>lich noch nicht pflegte, haben sie einige Arrangements und singen
+               <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Männergesanges ist arm und unbedeutend. Aus der
+      <lb facs="#facs_3_region_1684569393695_2312_tl_37" n="N040"/>älteren Literatur, welche den vierstimmigen Männerchor bekannt
+      <lb facs="#facs_3_line_1696365926722_1920" n="N041" break="no"/>lich noch nicht pflegte, haben sie einige Arrangements und singen
       <lb facs="#facs_3_region_1684569393695_2312_tl_38" n="N042"/>z. B. „<rs type="bibl">Die Nacht</rs>“ von <rs type="person">Rameau</rs> mit Brummstimmen! Die
       <lb facs="#facs_3_line_1696365913162_1908" n="N043"/>
-               <rs type="place">französisch</rs>en Componisten fühlen sich im Männerchor offenbar
+               <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Componisten fühlen sich im Männerchor offenbar
             <cb n="6"/>
-               <lb facs="#facs_3_region_1684569399302_2315_tl_1" n="N001"/>nicht heimisch; selbst die beliebtesten Chöre von Ambroise <rs type="person" continued="true">Tho¬</rs>
-               <lb facs="#facs_3_region_1684569399302_2315_tl_2" n="N002"/>
-               <rs type="person" continued="true">mas</rs>, <rs type="person">Gounod</rs>, <rs type="person">David</rs> etc. sind gekünstelt, unerquicklich und me¬
-      <lb facs="#facs_3_region_1684569399302_2315_tl_3" n="N003"/>lodielos. Von <rs type="place">deutsch</rs>en Chören haben nur einige wenige sich
+               <lb facs="#facs_3_region_1684569399302_2315_tl_1" n="N001"/>nicht heimisch; selbst die beliebtesten Chöre von Ambroise 
+                     <rs type="person">Tho
+               <lb facs="#facs_3_region_1684569399302_2315_tl_2" n="N002" break="no"/>mas</rs>, 
+                     <rs type="person">Gounod</rs>, <rs type="person">David</rs> etc. sind gekünstelt, unerquicklich und me
+      <lb facs="#facs_3_region_1684569399302_2315_tl_3" n="N003" break="no"/>lodielos. Von 
+                     <rs type="place">deutsch</rs>en Chören haben nur einige wenige sich
       <lb facs="#facs_3_line_1696366423353_1983" n="N004"/>eingebürgert: <hi rendition="#em">
                   <rs type="person">Becker</rs>’s</hi> „<rs type="bibl">Marsch</rs>“, <hi rendition="#em">
                   <rs type="person">Kücken</rs>’s </hi>„<rs type="bibl">Im Walde</rs>“,
-      <lb facs="#facs_3_region_1684569399302_2315_tl_6" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>’s</hi> „<rs type="bibl">Abschied</rs>“. Alle möglichen <rs type="place">deutsch</rs>en Lieder¬
-      <lb facs="#facs_3_region_1684569399302_2315_tl_7" n="N006"/>tafelspässe hingegen: Brummstimmen, Rataplan, Glockengeläute
+      <lb facs="#facs_3_region_1684569399302_2315_tl_6" n="N005"/><hi rendition="#em">
+                  <rs type="person">Mendelssohn</rs>’s</hi> „<rs type="bibl">Abschied</rs>“. Alle möglichen 
+                     <rs type="place">deutsch</rs>en Lieder
+      <lb facs="#facs_3_region_1684569399302_2315_tl_7" n="N006" break="no"/>tafelspässe hingegen: Brummstimmen, Rataplan, Glockengeläute
       <lb facs="#facs_3_region_1684569399302_2315_tl_8" n="N007"/>u. dgl., sind von Franzosen nachgeahmt, und zwar mit wenig
       <lb facs="#facs_3_region_1684569399302_2315_tl_9" n="N008"/>Geschmack. Wer es unternähme, eine Auswahl der besten
       <lb facs="#facs_3_region_1684569399302_2315_tl_10" n="N009"/>
                <rs type="place">deutsch</rs>en Männerchöre in <hi rendition="#em">gutes</hi>
-               <rs type="place">Französisch</rs> zu übertragen,
+               <rs type="place" ref="#hsl_place_id_21">Französisch</rs> zu übertragen,
       <lb facs="#facs_3_region_1684569399302_2315_tl_11" n="N010"/>könnte viel Ehre und Gewinn daraus ziehen. Zuletzt und
-      <lb facs="#facs_3_region_1684569399302_2315_tl_12" n="N011"/>eigentlich nur aus Courtoisie ließ man den <rs type="place">englisch</rs>en Verein
+      <lb facs="#facs_3_region_1684569399302_2315_tl_12" n="N011"/>eigentlich nur aus Courtoisie ließ man den 
+                     <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Verein
       <lb facs="#facs_3_region_1684569399302_2315_tl_13" n="N012"/>„<hi rendition="#em">Tonic Fa-Sol-Association</hi>“ singen; als gemischter
-      <lb facs="#facs_3_region_1684569399302_2315_tl_14" n="N013"/>Chor (von Männern und Frauen) war er von der Concur¬
-      <lb facs="#facs_3_region_1684569399302_2315_tl_15" n="N014"/>renz ausgeschlossen. Die Jury horchte mit Interesse, das Publi¬
-      <lb facs="#facs_3_region_1684569399302_2315_tl_16" n="N015"/>cum mit Begeisterung. Man war der schwierigen, gekünstelten
+      <lb facs="#facs_3_region_1684569399302_2315_tl_14" n="N013"/>Chor (von Männern und Frauen) war er von der Concur
+      <lb facs="#facs_3_region_1684569399302_2315_tl_15" n="N014" break="no"/>renz ausgeschlossen. Die Jury horchte mit Interesse, das Publi
+      <lb facs="#facs_3_region_1684569399302_2315_tl_16" n="N015" break="no"/>cum mit Begeisterung. Man war der schwierigen, gekünstelten
       <lb facs="#facs_3_region_1684569399302_2315_tl_17" n="N016"/>und überlangen Preischöre so müde, daß die zwei einfachen,
       <lb facs="#facs_3_region_1684569399302_2315_tl_18" n="N017"/>sich dem Volkstone nähernden Chöre, trotz des widerstrebenden
       <lb facs="#facs_3_region_1684569399302_2315_tl_19" n="N018"/>
-               <rs type="place">englisch</rs>en Textes, wahrhaft erfrischend wirkten. Die Stimmen
+               <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Textes, wahrhaft erfrischend wirkten. Die Stimmen
       <lb facs="#facs_3_region_1684569399302_2315_tl_20" n="N019"/>waren sehr unbedeutend, aber die Chöre gut studirt und mit
       <lb facs="#facs_3_region_1684569399302_2315_tl_21" n="N020"/>Liebe gesungen. Die Jury hatte sich bereits ins Foyer zur
       <lb facs="#facs_3_line_1696365878342_1882" n="N021"/>Abstimmung zurückgezogen, als der Beifall des Publicums noch
-      <lb facs="#facs_3_region_1684569399302_2315_tl_22" n="N022"/>forttobte und die <rs type="place">englisch</rs>e Gesellschaft schließlich das „<rs type="bibl">God</rs>
-               <lb facs="#facs_3_line_1696365890732_1891" n="N023"/>
-               <rs type="bibl">save the Queen</rs>“ sang. Den <rs type="place">französisch</rs>en Componisten und
+      <lb facs="#facs_3_region_1684569399302_2315_tl_22" n="N022"/>forttobte und die 
+                     <rs type="place" ref="#hsl_place_id_17">englisch</rs>e Gesellschaft schließlich das „<rs type="bibl">God
+               <lb facs="#facs_3_line_1696365890732_1891" n="N023"/>save the Queen</rs>“ sang. Den 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Componisten und
       <lb facs="#facs_3_region_1684569399302_2315_tl_23" n="N024"/>Dirigenten hätte da vielleicht ein Licht aufgehen können. Was
-      <lb facs="#facs_3_region_1684569399302_2315_tl_24" n="N025"/>im <rs type="place">deutsch</rs>en und <rs type="place">englisch</rs>en Chorgesange die schönsten Blüthen
+      <lb facs="#facs_3_region_1684569399302_2315_tl_24" n="N025"/>im <rs type="place">deutsch</rs>en und 
+                     <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Chorgesange die schönsten Blüthen
       <lb facs="#facs_3_line_1696365901912_1900" n="N026"/>treibt, ist der frische, lebenswarme Hauch des <hi rendition="#em">Volksliedes</hi>;
-      <lb facs="#facs_3_region_1684569399302_2315_tl_26" n="N027"/>was dem <rs type="place">französisch</rs>en Männergesange so empfindlich ab¬
-      <lb facs="#facs_3_region_1684569399302_2315_tl_27" n="N028"/>geht und noth thut, ist eben das Element des Volksliedes.
+      <lb facs="#facs_3_region_1684569399302_2315_tl_26" n="N027"/>was dem 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Männergesange so empfindlich ab
+      <lb facs="#facs_3_region_1684569399302_2315_tl_27" n="N028" break="no"/>geht und noth thut, ist eben das Element des Volksliedes.</p>
                <p>
-      <lb facs="#facs_3_region_1684569399302_2315_tl_28" n="N029"/>Die <rs type="place">französisch</rs>e Artigkeit gegen fremde Gäste verleugnete
-      <lb facs="#facs_3_region_1684569399302_2315_tl_29" n="N030"/>sich auch diesmal nicht; der <rs type="place">englisch</rs>en Gesellschaft mit dem
-      <lb facs="#facs_3_region_1684569399302_2315_tl_30" n="N031"/>wunderlichen Namen wurde zwar kein „Preis“, aber als Zei¬
-      <lb facs="#facs_3_region_1684569399302_2315_tl_31" n="N032"/>chen freundlicher Anerkennung ein goldener Lorbeerkranz vo¬
-      <lb facs="#facs_3_region_1684569399302_2315_tl_32" n="N033"/>tirt. Bei der feierlichen Preisvertheilung im Industriepalaste
+      <lb facs="#facs_3_region_1684569399302_2315_tl_28" n="N029"/>Die 
+                     <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Artigkeit gegen fremde Gäste verleugnete
+      <lb facs="#facs_3_region_1684569399302_2315_tl_29" n="N030"/>sich auch diesmal nicht; der 
+                     <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Gesellschaft mit dem
+      <lb facs="#facs_3_region_1684569399302_2315_tl_30" n="N031"/>wunderlichen Namen wurde zwar kein „Preis“, aber als Zei
+      <lb facs="#facs_3_region_1684569399302_2315_tl_31" n="N032" break="no"/>chen freundlicher Anerkennung ein goldener Lorbeerkranz vo
+      <lb facs="#facs_3_region_1684569399302_2315_tl_32" n="N033" break="no"/>tirt. Bei der feierlichen Preisvertheilung im Industriepalaste
       <lb facs="#facs_3_region_1684569399302_2315_tl_33" n="N034"/>ergoß sich auf den vordersten Sängerplätzen die Schaar der
       <lb facs="#facs_3_region_1684569399302_2315_tl_34" n="N035"/>
-               <rs type="place">englisch</rs>en Damen — mehr würdevoll als schön. Ganz gegen
+               <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Damen — mehr würdevoll als schön. Ganz gegen
       <lb facs="#facs_3_region_1684569399302_2315_tl_35" n="N036"/>
-               <rs type="place">englisch</rs> Recht und Sitte war unter diesen 20 bis 30 Loreleys
+               <rs type="place" ref="#hsl_place_id_17">englisch</rs> Recht und Sitte war unter diesen 20 bis 30 Loreleys
       <lb facs="#facs_3_region_1684569399302_2315_tl_36" n="N037"/>nur Eine schöne. Sie war demnach bald herausgefunden und
       <lb facs="#facs_3_region_1684569399302_2315_tl_37" n="N038"/>als Repräsentantin des Vereines an die Stufen des Thrones
-      <lb facs="#facs_3_region_1684569399302_2315_tl_38" n="N039"/>gesendet. Der <rs type="person">Kaiser</rs> überreichte ihr den goldenen Kranz,
+      <lb facs="#facs_3_region_1684569399302_2315_tl_38" n="N039"/>gesendet. Der 
+                     <rs type="person">Kaiser</rs> überreichte ihr den goldenen Kranz,
       <lb facs="#facs_3_region_1684569399302_2315_tl_39" n="N040"/>und zwar nicht sitzend, wie den Uebrigen, sondern sich mit
-      <lb facs="#facs_3_line_1696365929552_1923" n="N041"/>liebenswürdigem Lächeln vom Throne erhebend. In dem Wett¬
-      <lb facs="#facs_3_region_1684569399302_2315_tl_41" n="N042"/>kampfe von 300 Männergesang-Vereinen errang somit die
+      <lb facs="#facs_3_line_1696365929552_1923" n="N041"/>liebenswürdigem Lächeln vom Throne erhebend. In dem Wett
+      <lb facs="#facs_3_region_1684569399302_2315_tl_41" n="N042" break="no"/>kampfe von 300 Männergesang-Vereinen errang somit die
       <lb facs="#facs_3_line_1696365915542_1911" n="N043"/>höchste Auszeichnung — ein blondes Mädchen.</p>
          </div>
       </body>
