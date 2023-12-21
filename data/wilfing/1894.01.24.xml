@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 10567. Wien, Mittwoch, den 24. Januar 1894</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 10567. Wien, Mittwoch, den 24. Januar 1894</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1894-01-24">24.01.1894</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2023-12-07">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2023-12-14">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -841,38 +840,28 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684823748855_1085_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1684823748855_1085_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl">Mirjam</rs></hi>“, Oper in drei Aufzügen von L. <hi rendition="#em"><rs type="person">Ganghofer</rs></hi>, Musik von <hi rendition="#em">Richard <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs></hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1700329289417_39" n="N001"/>Nr. 10567. Wien, Mittwoch, den 24. Januar 1894.</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684823748855_1085_tl_1" n="N001"/>Hofoperntheater.
-      <lb facs="#facs_1_region_1684823748855_1085_tl_2" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Mirjam</rs>
-               </hi>“, Oper in drei Aufzügen von L. <hi rendition="#em">
-                  <rs type="person">Ganghofer</rs>
-               </hi>, Musik von <hi rendition="#em">Richard <rs type="person">Heuberger</rs>
-               </hi>.)
-      <lb facs="#facs_1_region_1684823748855_1085_tl_3" n="N003"/>Ed. H. Herrn <hi rendition="#em">Richard <rs type="person">Heuberger</rs>
-               </hi> brauchen wir
-      <lb facs="#facs_1_region_1684823748855_1085_tl_4" n="N004"/>den Freunden dieses Blattes nicht erst vorzustellen. An sei¬
-      <lb facs="#facs_1_region_1684823748855_1085_tl_5" n="N005"/>nen Liedern erfreuen sich die Hörer, an seinen Musik-
+      <lb facs="#facs_1_region_1684823748855_1085_tl_3" n="N003"/>Ed. H. Herrn <hi rendition="#em">Richard <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs></hi> brauchen wir
+      <lb facs="#facs_1_region_1684823748855_1085_tl_4" n="N004"/>den Freunden dieses Blattes nicht erst vorzustellen. An sei
+      <lb facs="#facs_1_region_1684823748855_1085_tl_5" n="N005" break="no"/>nen Liedern erfreuen sich die Hörer, an seinen Musik-
       <lb facs="#facs_1_region_1684823748855_1085_tl_6" n="N006"/>Feuilletons die Leser. Im Philharmonischen Concert haben
-      <lb facs="#facs_1_region_1684823748855_1085_tl_7" n="N007"/>wir ihn als interessanten Symphoniker, in den Gesang¬
-      <lb facs="#facs_1_region_1684823748855_1085_tl_8" n="N008"/>vereinen als effectvollen Chorcomponisten, in der Musik- und
+      <lb facs="#facs_1_region_1684823748855_1085_tl_7" n="N007"/>wir ihn als interessanten Symphoniker, in den Gesang
+      <lb facs="#facs_1_region_1684823748855_1085_tl_8" n="N008" break="no"/>vereinen als effectvollen Chorcomponisten, in der Musik- und
       <lb facs="#facs_1_region_1684823748855_1085_tl_9" n="N009"/>Theater-Ausstellung als feurigen Dirigenten kennen gelernt.
       <lb facs="#facs_1_region_1684823748855_1085_tl_10" n="N010"/>Auch der Bühne steht er nicht als Neuling gegenüber.
-      <lb facs="#facs_1_region_1684823748855_1085_tl_11" n="N011"/>„<rs type="bibl">Mirjam</rs>“ ist seine dritte Oper. Ihre Vorläuferin, „<rs type="bibl">Das</rs>
-               <lb facs="#facs_1_line_1700329457493_74" n="N012"/>
-               <rs type="bibl">Abenteuer einer Neujahrsnacht</rs>“, hat auf <rs type="place">deutsch</rs>en Bühnen 
-      <lb facs="#facs_1_line_1700329545481_81" n="N013"/>Glück gemacht; in <rs type="place">Wien</rs> kennt man davon nur die brillante 
+      <lb facs="#facs_1_region_1684823748855_1085_tl_11" n="N011"/>„<rs type="bibl">Mirjam</rs>“ ist seine dritte Oper. Ihre Vorläuferin, „<rs type="bibl">Das
+      <lb facs="#facs_1_line_1700329457493_74" n="N012"/>Abenteuer einer Neujahrsnacht</rs>“, hat auf <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen 
+      <lb facs="#facs_1_line_1700329545481_81" n="N013"/>Glück gemacht; in <rs type="place" ref="#hsl_place_id_55">Wien</rs> kennt man davon nur die brillante 
       <lb facs="#facs_1_region_1684823748855_1085_tl_12" n="N014"/>Balletmusik aus den Concerten der Philharmoniker. Diese
       <lb facs="#facs_1_region_1684823748855_1085_tl_13" n="N015"/>komische Oper (nach <rs type="person">Zschokke</rs>’s bekannter <rs type="bibl">Erzählung</rs>) scheint
       <lb facs="#facs_1_region_1684823748855_1085_tl_14" n="N016"/>mir den Ton anzuschlagen, welcher dem graziösen Talent
-      <lb facs="#facs_1_region_1684823748855_1085_tl_15" n="N017"/>und dem witzigen, munteren Geiste <rs type="person">Heuberger</rs>’s am natür¬
-      <lb facs="#facs_1_region_1684823748855_1085_tl_16" n="N018"/>lichsten ist. <rs type="person">Ganghofer</rs>’s „<rs type="bibl">Mirjam</rs>“ mit ihrer schwerblütigen
+      <lb facs="#facs_1_region_1684823748855_1085_tl_15" n="N017"/>und dem witzigen, munteren Geiste <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs>’s am natür
+      <lb facs="#facs_1_region_1684823748855_1085_tl_16" n="N018" break="no"/>lichsten ist. <rs type="person">Ganghofer</rs>’s „<rs type="bibl">Mirjam</rs>“ mit ihrer schwerblütigen
       <lb facs="#facs_1_region_1684823748855_1085_tl_17" n="N019"/>Lyrik und tragischen Katastrophe kam ihm weniger
       <lb facs="#facs_1_region_1684823748855_1085_tl_18" n="N020"/>günstig entgegen. Ueber die Mühsal, zu einem guten
-      <lb facs="#facs_1_region_1684823748855_1085_tl_19" n="N021"/>Opernbuch zu gelangen, kann <rs type="person">Heuberger</rs> ein gewichtig Wort
+      <lb facs="#facs_1_region_1684823748855_1085_tl_19" n="N021"/>Opernbuch zu gelangen, kann <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs> ein gewichtig Wort
       <lb facs="#facs_1_region_1684823748855_1085_tl_20" n="N022"/>mitreden, und er hat es auch gethan. In einem Aufsatze:
       <lb facs="#facs_1_region_1684823748855_1085_tl_21" n="N023"/>„<rs type="bibl">Ueber Operntexte</rs>“, führt er begründete Klage darüber,
       <lb facs="#facs_1_region_1684823748855_1085_tl_22" n="N024"/>daß unsere Librettisten die Schwierigkeiten ihrer Aufgabe zu
@@ -880,261 +869,219 @@
       <lb facs="#facs_1_region_1684823748855_1085_tl_24" n="N026"/>in dem <hi rendition="#em">dramatischen Aufbau</hi> durchaus musterhaft
       <lb facs="#facs_1_region_1684823748855_1085_tl_25" n="N027"/>sein und alle Haupteigenschaften eines <hi rendition="#em">guten Stückes</hi>,
       <lb facs="#facs_1_region_1684823748855_1085_tl_26" n="N028"/>wenn auch oft nur andeutungsweise, enthalten.“ Gerade
-      <lb facs="#facs_1_region_1684823748855_1085_tl_27" n="N029"/>diese Qualität vermissen wir an <rs type="person">Ganghofer</rs>’s „<hi rendition="#em">
-                  <rs type="bibl">Mirjam</rs>
-               </hi>“.
+      <lb facs="#facs_1_region_1684823748855_1085_tl_27" n="N029"/>diese Qualität vermissen wir an <rs type="person">Ganghofer</rs>’s „<hi rendition="#em"><rs type="bibl">Mirjam</rs></hi>“.
       <lb facs="#facs_1_region_1684823748855_1085_tl_28" n="N030"/>Wiederum ein Beweis, falls es dessen bedürfte, daß ein
       <lb facs="#facs_1_region_1684823748855_1085_tl_29" n="N031"/>Componist die Bedingungen eines guten Operntextes genau
       <lb facs="#facs_1_region_1684823748855_1085_tl_30" n="N032"/>kennen und doch sich keinen verschaffen kann. Den Versen
-      <lb facs="#facs_1_region_1684823748855_1085_tl_31" n="N033"/>
-               <rs type="person">Ganghofer</rs>’s zollen wir gern die spärliche Anerkennung, daß
-      <lb facs="#facs_1_line_1700329622454_100" n="N034"/>sie zwar nicht gedankenvoll, jedoch freudvoll und leidvoll</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684823752014_1088_tl_1" n="N001"/>besser gereimt sind, als manche gefeierte <rs type="place">deutsch</rs>e Ober. Aber
-      <lb facs="#facs_1_line_1700329420088_64" n="N002"/>die Hauptsache! Ist das ein Libretto von „musterhaft drama¬
-      <lb facs="#facs_1_line_1700329426513_69" n="N003"/>tischem Aufbau“? Besitzt es „alle Eigenschaften eines guten
+      <lb facs="#facs_1_region_1684823748855_1085_tl_31" n="N033"/><rs type="person">Ganghofer</rs>’s zollen wir gern die spärliche Anerkennung, daß
+      <lb facs="#facs_1_line_1700329622454_100" n="N034"/>sie zwar nicht gedankenvoll, jedoch freudvoll und leidvoll<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684823752014_1088_tl_1" n="N001"/>besser gereimt sind, als manche gefeierte <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Ober. Aber
+      <lb facs="#facs_1_line_1700329420088_64" n="N002"/>die Hauptsache! Ist das ein Libretto von „musterhaft drama
+      <lb facs="#facs_1_line_1700329426513_69" n="N003" break="no"/>tischem Aufbau“? Besitzt es „alle Eigenschaften eines guten
       <lb facs="#facs_1_region_1684823752014_1088_tl_6" n="N004"/>Stückes“? Ganz im Gegentheil. Die Handlung ist dürftig
       <lb facs="#facs_1_line_1700329324647_43" n="N005"/>und schlecht motivirt, ein Gespenst längst verblichener, uns
       <lb facs="#facs_1_region_1684823752014_1088_tl_7" n="N006"/>völlig entfremdeter Romantik. Charaktere und Situationen
-      <lb facs="#facs_1_region_1684823752014_1088_tl_8" n="N007"/>sind theils uninteressant und verbraucht, theils unwahrschein¬
-      <lb facs="#facs_1_region_1684823752014_1088_tl_9" n="N008"/>lich bis zum Widersinn.
-      <lb facs="#facs_1_region_1684823752014_1088_tl_10" n="N009"/>Die Handlung spielt auf <rs type="place">deutsch</rs>em Boden, im 15. Jahr¬
-      <lb facs="#facs_1_region_1684823752014_1088_tl_11" n="N010"/>hundert. Sie beginnt mit einem Maifeste, das die Bevöl¬
-      <lb facs="#facs_1_region_1684823752014_1088_tl_12" n="N011"/>kerung mit einem kirchlichen Umzuge, Gesang und Tanz
-      <lb facs="#facs_1_region_1684823752014_1088_tl_13" n="N012"/>feiert. Junker <rs type="person">Oswald</rs> von <rs type="place">Brannenburg</rs> (Herr <hi rendition="#em">
-                  <rs type="person" continued="true">Winkel¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684823752014_1088_tl_14" n="N013"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi>), ein wüster, gefürchteter Nachtschwärmer, findet sich
+      <lb facs="#facs_1_region_1684823752014_1088_tl_8" n="N007"/>sind theils uninteressant und verbraucht, theils unwahrschein
+      <lb facs="#facs_1_region_1684823752014_1088_tl_9" n="N008" break="no"/>lich bis zum Widersinn.
+            </p><p>
+      <lb facs="#facs_1_region_1684823752014_1088_tl_10" n="N009"/>Die Handlung spielt auf <rs type="place" ref="#hsl_place_id_14">deutsch</rs>em Boden, im 15. Jahr
+      <lb facs="#facs_1_region_1684823752014_1088_tl_11" n="N010" break="no"/>hundert. Sie beginnt mit einem Maifeste, das die Bevöl
+      <lb facs="#facs_1_region_1684823752014_1088_tl_12" n="N011" break="no"/>kerung mit einem kirchlichen Umzuge, Gesang und Tanz
+      <lb facs="#facs_1_region_1684823752014_1088_tl_13" n="N012"/>feiert. Junker <rs type="person">Oswald</rs> von <rs type="place" ref="#hsl_place_id_396">Brannenburg</rs> (Herr <hi rendition="#em"><rs type="person">Winkel
+      <lb facs="#facs_1_region_1684823752014_1088_tl_14" n="N013" break="no"/>mann</rs></hi>), ein wüster, gefürchteter Nachtschwärmer, findet sich
       <lb facs="#facs_1_region_1684823752014_1088_tl_15" n="N014"/>dabei mit seinen Trinkgenossen ein. Einem derselben, <rs type="person">Severin</rs>,
       <lb facs="#facs_1_region_1684823752014_1088_tl_16" n="N015"/>erzählt er, daß er nach durchzechter Nacht sich im Walde
-      <lb facs="#facs_1_region_1684823752014_1088_tl_17" n="N016"/>schlafen gelegt und wie im „Traume“ eine holde junge <rs type="person">Maid</rs>
-               <lb facs="#facs_1_region_1684823752014_1088_tl_18" n="N017"/>erblickt habe. Dieses keineswegs traumgeborene, sondern sehr
-      <lb facs="#facs_1_region_1684823752014_1088_tl_19" n="N018"/>reale Frauenzimmer (Fräulein <hi rendition="#em">
-                  <rs type="person">Schläger</rs>
-               </hi>) ist <rs type="person">Mirjam</rs>, die
+      <lb facs="#facs_1_region_1684823752014_1088_tl_17" n="N016"/>schlafen gelegt und wie im „Traume“ eine holde junge <rs type="person">Maid</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684823752014_1088_tl_18" n="N017"/>erblickt habe. Dieses keineswegs traumgeborene, sondern sehr
+      <lb facs="#facs_1_region_1684823752014_1088_tl_19" n="N018"/>reale Frauenzimmer (Fräulein <hi rendition="#em"><rs type="person">Schläger</rs></hi>) ist <rs type="person">Mirjam</rs>, die
       <lb facs="#facs_1_region_1684823752014_1088_tl_20" n="N019"/>Tochter des reichen Juden Asser <rs type="person">Benaja</rs>. Sie erscheint mit
-      <lb facs="#facs_1_region_1684823752014_1088_tl_21" n="N020"/>ihrer Magd <rs type="person">Josepha</rs> (Fräulein <hi rendition="#em">
-                  <rs type="person">Mark</rs>
-               </hi>) gleichfalls auf dem
-      <lb facs="#facs_1_region_1684823752014_1088_tl_22" n="N021"/>Festplatze und wird sofort von <rs type="person">Oswald</rs> mit Richard <rs type="person">Wagner</rs>¬
-      <lb facs="#facs_1_line_1700329601476_91" n="N022"/>scher Entschiedenheit angehalten: „Verweile Mädchen, und
+      <lb facs="#facs_1_region_1684823752014_1088_tl_21" n="N020"/>ihrer Magd <rs type="person">Josepha</rs> (Fräulein <hi rendition="#em"><rs type="person">Mark</rs></hi>) gleichfalls auf dem
+      <lb facs="#facs_1_region_1684823752014_1088_tl_22" n="N021"/>Festplatze und wird sofort von <rs type="person">Oswald</rs> mit Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1700329601476_91" n="N022" break="no"/>scher Entschiedenheit angehalten: „Verweile Mädchen, und
       <lb facs="#facs_1_region_1684823752014_1088_tl_25" n="N023"/>kündige mein Urtheil: Leben oder Tod!“ Noch ehe sie
-      <lb facs="#facs_1_region_1684823752014_1088_tl_26" n="N024"/>dieses Urtheil fällt, wird unter Trompetenschall aus¬
-      <lb facs="#facs_1_region_1684823752014_1088_tl_27" n="N025"/>gerufen: „Der Tanz beginnt, die Wahl ist frei!“
+      <lb facs="#facs_1_region_1684823752014_1088_tl_26" n="N024"/>dieses Urtheil fällt, wird unter Trompetenschall aus
+      <lb facs="#facs_1_region_1684823752014_1088_tl_27" n="N025" break="no"/>gerufen: „Der Tanz beginnt, die Wahl ist frei!“
       <lb facs="#facs_1_region_1684823752014_1088_tl_28" n="N026"/>So ganz frei ist die Wahl allerdings nicht, sie muß bar
       <lb facs="#facs_1_region_1684823752014_1088_tl_29" n="N027"/>bezahlt werden. Der Bursche, der im Licitationswege die
       <lb facs="#facs_1_region_1684823752014_1088_tl_30" n="N028"/>höchste Summe auf ein bestimmtes Mädchen bietet, darf mit
       <lb facs="#facs_1_region_1684823752014_1088_tl_31" n="N029"/>ihm tanzen. Natürlich verliert <rs type="person">Oswald</rs> keine Zeit und bietet
-      <lb facs="#facs_1_line_1700329402091_56" n="N030"/>für <rs type="person">Mirjam</rs> gleich hundert Ducaten; ein ansehnliches Sümm¬
-      <lb facs="#facs_1_region_1684823752014_1088_tl_32" n="N031"/>chen für den „heimatlosen Bettler“, wie er sich selbst nennt.
-      <lb facs="#facs_1_region_1684823752014_1088_tl_33" n="N032"/>Da durchbricht aber <rs type="person">Mirjam</rs>’s <rs type="person">Vater</rs> (Herr v. <hi rendition="#em">
-                  <rs type="person" continued="true">Reichen¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684823752014_1088_tl_34" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">berg</rs>
-               </hi>) plötzlich die Menge und bietet 200, dann 300 Du¬
-      <lb facs="#facs_1_region_1684823752014_1088_tl_35" n="N034"/>caten, „daß Jener <hi rendition="#em">nicht</hi> mit ihr tanze“. <rs type="person">Oswald</rs> steigert
+      <lb facs="#facs_1_line_1700329402091_56" n="N030"/>für <rs type="person">Mirjam</rs> gleich hundert Ducaten; ein ansehnliches Sümm
+      <lb facs="#facs_1_region_1684823752014_1088_tl_32" n="N031" break="no"/>chen für den „heimatlosen Bettler“, wie er sich selbst nennt.
+      <lb facs="#facs_1_region_1684823752014_1088_tl_33" n="N032"/>Da durchbricht aber <rs type="person">Mirjam</rs>’s <rs type="person">Vater</rs> (Herr v. <hi rendition="#em"><rs type="person">Reichen
+      <lb facs="#facs_1_region_1684823752014_1088_tl_34" n="N033" break="no"/>berg</rs></hi>) plötzlich die Menge und bietet 200, dann 300 Du
+      <lb facs="#facs_1_region_1684823752014_1088_tl_35" n="N034" break="no"/>caten, „daß Jener <hi rendition="#em">nicht</hi> mit ihr tanze“. <rs type="person">Oswald</rs> steigert
       <lb facs="#facs_1_region_1684823752014_1088_tl_36" n="N035"/>bis auf 5000 Ducaten und legt noch seinen kostbaren
-      <lb facs="#facs_1_region_1684823752014_1088_tl_37" n="N036"/>Schmuck dazu — vergebens. <rs type="person">Benaja</rs> besiegt ihn mit zehn¬
-      <lb facs="#facs_1_region_1684823752014_1088_tl_38" n="N037"/>tausend und versetzt ihm überdies die niederschmetternde
-      <lb facs="#facs_1_line_1700329624294_103" n="N038"/>Nachricht, <rs type="person">Mirjam</rs> werde heute noch mit dem Doctor Micha</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684823755138_1091_tl_1" n="N001"/>
-               <rs type="person">Merari</rs> vermält. <rs type="person">Oswald</rs> ruft ihm die Drohung nach:
+      <lb facs="#facs_1_region_1684823752014_1088_tl_37" n="N036"/>Schmuck dazu — vergebens. <rs type="person">Benaja</rs> besiegt ihn mit zehn
+      <lb facs="#facs_1_region_1684823752014_1088_tl_38" n="N037" break="no"/>tausend und versetzt ihm überdies die niederschmetternde
+      <lb facs="#facs_1_line_1700329624294_103" n="N038"/>Nachricht, <rs type="person">Mirjam</rs> werde heute noch mit dem Doctor Micha<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684823755138_1091_tl_1" n="N001"/><rs type="person">Merari</rs> vermält. <rs type="person">Oswald</rs> ruft ihm die Drohung nach:
       <lb facs="#facs_1_region_1684823755138_1091_tl_2" n="N002"/>„Dein Kind ist <hi rendition="#em">mein</hi>! Ich suche und finde sie!“
-      <lb facs="#facs_1_region_1684823755138_1091_tl_3" n="N003"/>Der zweite Act zeigt uns, wie er diese Drohung aus¬
-      <lb facs="#facs_1_region_1684823755138_1091_tl_4" n="N004"/>führt. Die feierliche Vermälung <rs type="person">Mirjam</rs>’s mit <rs type="person">Micha</rs> (Herrn
-      <lb facs="#facs_1_region_1684823755138_1091_tl_5" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="person">Neidl</rs>
-               </hi>) hat eben stattgefunden, als <rs type="person">Severin</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Felix</rs>
-               </hi>)
-      <lb facs="#facs_1_region_1684823755138_1091_tl_6" n="N006"/>in unkenntlicher Vermummung hereinstürzt und den be¬
-      <lb facs="#facs_1_region_1684823755138_1091_tl_7" n="N007"/>rühmten Arzt beschwört, einem im Walde liegenden Ver¬
-      <lb facs="#facs_1_region_1684823755138_1091_tl_8" n="N008"/>wundeten beizustehen. Trotz einbrechender Nacht eilt der
-      <lb facs="#facs_1_region_1684823755138_1091_tl_9" n="N009"/>menschenfreundliche <rs type="person">Mann</rs> in den Wald. Seine junge <rs type="person">Frau</rs>
-               <lb facs="#facs_1_region_1684823755138_1091_tl_10" n="N010"/>bleibt aber nur wenige Minuten allein — nicht länger, als
+            </p><p>
+      <lb facs="#facs_1_region_1684823755138_1091_tl_3" n="N003"/>Der zweite Act zeigt uns, wie er diese Drohung aus
+      <lb facs="#facs_1_region_1684823755138_1091_tl_4" n="N004" break="no"/>führt. Die feierliche Vermälung <rs type="person">Mirjam</rs>’s mit <rs type="person">Micha</rs> (Herrn
+      <lb facs="#facs_1_region_1684823755138_1091_tl_5" n="N005"/><hi rendition="#em"><rs type="person">Neidl</rs></hi>) hat eben stattgefunden, als <rs type="person">Severin</rs> (Herr <hi rendition="#em"><rs type="person">Felix</rs></hi>)
+      <lb facs="#facs_1_region_1684823755138_1091_tl_6" n="N006"/>in unkenntlicher Vermummung hereinstürzt und den be
+      <lb facs="#facs_1_region_1684823755138_1091_tl_7" n="N007" break="no"/>rühmten Arzt beschwört, einem im Walde liegenden Ver
+      <lb facs="#facs_1_region_1684823755138_1091_tl_8" n="N008" break="no"/>wundeten beizustehen. Trotz einbrechender Nacht eilt der
+      <lb facs="#facs_1_region_1684823755138_1091_tl_9" n="N009"/>menschenfreundliche <rs type="person">Mann</rs> in den Wald. Seine junge <rs type="person">Frau</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684823755138_1091_tl_10" n="N010"/>bleibt aber nur wenige Minuten allein — nicht länger, als
       <lb facs="#facs_1_region_1684823755138_1091_tl_11" n="N011"/>sie zu einer schwärmerischen Strophe über Frühlingsluft und
       <lb facs="#facs_1_region_1684823755138_1091_tl_12" n="N012"/>Fliederduft benöthigt. Da ist auch schon <rs type="person">Oswald</rs> zur Stelle
       <lb facs="#facs_1_region_1684823755138_1091_tl_13" n="N013"/>mit einer stürmischen Liebeserklärung. „Als ich im Wald,
       <lb facs="#facs_1_region_1684823755138_1091_tl_14" n="N014"/>den Tod erwartend, lag“ u. s. w. (Nach seiner Erzählung
       <lb facs="#facs_1_region_1684823755138_1091_tl_15" n="N015"/>im ersten Act hat er eigentlich seinen Rausch ausschlafen
-      <lb facs="#facs_1_region_1684823755138_1091_tl_16" n="N016"/>wollen.) Dem Drängen <rs type="person">Oswald</rs>’s, mit ihm zu fliehen, er¬
-      <lb facs="#facs_1_region_1684823755138_1091_tl_17" n="N017"/>widert <rs type="person">Mirjam</rs> mit strenger Berufung auf ihre Pflicht. Um
-      <lb facs="#facs_1_region_1684823755138_1091_tl_18" n="N018"/>dieses zwischen Werbung und Ablehnung schaukelnde Liebes¬
-      <lb facs="#facs_1_region_1684823755138_1091_tl_19" n="N019"/>duett nicht zu stören, haben <rs type="person">Severin</rs> und <rs type="person">Josepha</rs> sich kosend
+      <lb facs="#facs_1_region_1684823755138_1091_tl_16" n="N016"/>wollen.) Dem Drängen <rs type="person">Oswald</rs>’s, mit ihm zu fliehen, er
+      <lb facs="#facs_1_region_1684823755138_1091_tl_17" n="N017" break="no"/>widert <rs type="person">Mirjam</rs> mit strenger Berufung auf ihre Pflicht. Um
+      <lb facs="#facs_1_region_1684823755138_1091_tl_18" n="N018"/>dieses zwischen Werbung und Ablehnung schaukelnde Liebes
+      <lb facs="#facs_1_region_1684823755138_1091_tl_19" n="N019" break="no"/>duett nicht zu stören, haben <rs type="person">Severin</rs> und <rs type="person">Josepha</rs> sich kosend
       <lb facs="#facs_1_region_1684823755138_1091_tl_20" n="N020"/>in den Garten zurückgezogen; man weiß wirklich nicht,
       <lb facs="#facs_1_region_1684823755138_1091_tl_21" n="N021"/>welcher von diesen verlogenen Vertrauten eine bedenklichere
       <lb facs="#facs_1_region_1684823755138_1091_tl_22" n="N022"/>Rolle spielt. Unerwartet bald kehrt <rs type="person">Micha</rs> zurück;
-      <lb facs="#facs_1_region_1684823755138_1091_tl_23" n="N023"/>war doch die ganze Geschichte von dem hilflos Ver¬
-      <lb facs="#facs_1_region_1684823755138_1091_tl_24" n="N024"/>wundeten ein von dem Junker inscenirter Trug. <rs type="person">Oswald</rs> wird
+      <lb facs="#facs_1_region_1684823755138_1091_tl_23" n="N023"/>war doch die ganze Geschichte von dem hilflos Ver
+      <lb facs="#facs_1_region_1684823755138_1091_tl_24" n="N024" break="no"/>wundeten ein von dem Junker inscenirter Trug. <rs type="person">Oswald</rs> wird
       <lb facs="#facs_1_region_1684823755138_1091_tl_25" n="N025"/>dem eintretenden Hausherrn als der Sohn eines befreundeten
       <lb facs="#facs_1_region_1684823755138_1091_tl_26" n="N026"/>Rabbi und als junger Mediciner vorgestellt, der auf der
-      <lb facs="#facs_1_region_1684823755138_1091_tl_27" n="N027"/>Durchreise nach <rs type="place">Prag</rs> begriffen ist. Der edle <rs type="person">Micha</rs>, der
+      <lb facs="#facs_1_region_1684823755138_1091_tl_27" n="N027"/>Durchreise nach <rs type="place" ref="#hsl_place_id_45">Prag</rs> begriffen ist. Der edle <rs type="person">Micha</rs>, der
       <lb facs="#facs_1_region_1684823755138_1091_tl_28" n="N028"/>immer Alles glaubt, glaubt ohneweiters auch diese plump
       <lb facs="#facs_1_region_1684823755138_1091_tl_29" n="N029"/>improvisirte Fabel und ladet den Fremden als Gast in
       <lb facs="#facs_1_region_1684823755138_1091_tl_30" n="N030"/>sein Haus. Den Act beschließt ein leidenschaftlicher Monolog
       <lb facs="#facs_1_region_1684823755138_1091_tl_31" n="N031"/>des plötzlich herankeuchenden <rs type="person">Benaja</rs>; er ahnt sogleich, welchen
       <lb facs="#facs_1_region_1684823755138_1091_tl_32" n="N032"/>schrecklichen Gast <rs type="person">Micha</rs> beherberge. Anstatt aber, wie man
-      <lb facs="#facs_1_region_1684823755138_1091_tl_33" n="N033"/>vermuthen sollte, unverweilt ins Haus zu eilen und <rs type="person">Micha</rs>
-               <lb facs="#facs_1_line_1700329657626_115" n="N034"/>aufzuklären, bleibt er rachedürstend im Vorhof stehen. Zu
-      <lb facs="#facs_1_line_1700329666321_122" n="N035"/>Beginn des dritten Actes sitzen <rs type="person">Mirjam</rs>, <rs type="person">Oswald</rs> und <rs type="person">Micha</rs>
-               <lb facs="#facs_1_line_1700329673881_128" n="N036"/>gemüthlich beim Nachtessen. Der alte <rs type="person">Benaja</rs> geht wahr¬
-      <lb facs="#facs_1_region_1684823755138_1091_tl_41" n="N037"/>scheinlich draußen spazieren; er läßt sich noch immer nicht
-      <lb facs="#facs_1_line_1700329627531_106" n="N038"/>da blicken, wo sein Erscheinen so dringend nothwendig wäre.</p>
+      <lb facs="#facs_1_region_1684823755138_1091_tl_33" n="N033"/>vermuthen sollte, unverweilt ins Haus zu eilen und <rs type="person">Micha</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1700329657626_115" n="N034"/>aufzuklären, bleibt er rachedürstend im Vorhof stehen. Zu
+      <lb facs="#facs_1_line_1700329666321_122" n="N035"/>Beginn des dritten Actes sitzen <rs type="person">Mirjam</rs>, <rs type="person">Oswald</rs> und <rs type="person">Micha</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1700329673881_128" n="N036"/>gemüthlich beim Nachtessen. Der alte <rs type="person">Benaja</rs> geht wahr
+      <lb facs="#facs_1_region_1684823755138_1091_tl_41" n="N037" break="no"/>scheinlich draußen spazieren; er läßt sich noch immer nicht
+      <lb facs="#facs_1_line_1700329627531_106" n="N038"/>da blicken, wo sein Erscheinen so dringend nothwendig wäre.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684823765346_1097_tl_1" n="N001"/>Die Ungereimtheiten mehren sich. <rs type="person">Micha</rs> fordert, kaum daß
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684823765346_1097_tl_1" n="N001"/>Die Ungereimtheiten mehren sich. <rs type="person">Micha</rs> fordert, kaum daß
       <lb facs="#facs_2_region_1684823765346_1097_tl_2" n="N002"/>das Nachtmal begonnen, <rs type="person">Mirjam</rs> und <rs type="person">Oswald</rs> auf, zusammen
       <lb facs="#facs_2_region_1684823765346_1097_tl_3" n="N003"/>„das Haus zu durchwandern, von einer Thür zur andern“.
       <lb facs="#facs_2_region_1684823765346_1097_tl_4" n="N004"/>Die Bühne muß eben leer gemacht werden für <rs type="person">Benaja</rs>, der
       <lb facs="#facs_2_region_1684823765346_1097_tl_5" n="N005"/>endlich eintritt und <rs type="person">Micha</rs> dringend zu sprechen begehrt.
       <lb facs="#facs_2_region_1684823765346_1097_tl_6" n="N006"/>Jetzt wird er doch schnell seinem arglosen Schwiegersohn
       <lb facs="#facs_2_line_1700329734911_150" n="N007"/>sagen, wer der gefährliche Gast ist, der drinnen allein mit
-      <lb facs="#facs_2_line_1700329742470_155" n="N008"/>
-               <rs type="person">Mirjam</rs> plaudert? Nein, noch lange nicht. Er zieht es vor,
+      <lb facs="#facs_2_line_1700329742470_155" n="N008"/><rs type="person">Mirjam</rs> plaudert? Nein, noch lange nicht. Er zieht es vor,
       <lb facs="#facs_2_region_1684823765346_1097_tl_11" n="N009"/>in bequemem Lehnstuhl seine Lebensgeschichte zu erzählen:
       <lb facs="#facs_2_region_1684823765346_1097_tl_12" n="N010"/>„Einst war auch ich ein Kind des Glücks, wie du geartet,
       <lb facs="#facs_2_region_1684823765346_1097_tl_13" n="N011"/>sanft und gut“ u. s. w. Einen Theil dieser Selbstbiographie hat
       <lb facs="#facs_2_region_1684823765346_1097_tl_14" n="N012"/>er schon zu Anfang des zweiten Actes dem <rs type="person">Micha</rs> erzählt; dort
       <lb facs="#facs_2_region_1684823765346_1097_tl_15" n="N013"/>wäre Ort und Gelegenheit gewesen, das Ganze zu erledigen.
       <lb facs="#facs_2_region_1684823765346_1097_tl_16" n="N014"/>Aber gerade jetzt, wo die Gefahr für <rs type="person">Mirjam</rs> am größten,
-      <lb facs="#facs_2_region_1684823765346_1097_tl_17" n="N015"/>beschreibt er, wie einst sein Weib von <rs type="person">Oswald</rs>’s Vater ent¬
-      <lb facs="#facs_2_region_1684823765346_1097_tl_18" n="N016"/>führt und zum Selbstmorde getrieben worden sei. Er selbst
+      <lb facs="#facs_2_region_1684823765346_1097_tl_17" n="N015"/>beschreibt er, wie einst sein Weib von <rs type="person">Oswald</rs>’s Vater ent
+      <lb facs="#facs_2_region_1684823765346_1097_tl_18" n="N016" break="no"/>führt und zum Selbstmorde getrieben worden sei. Er selbst
       <lb facs="#facs_2_region_1684823765346_1097_tl_19" n="N017"/>habe sich an dem Sohne gerächt, indem er ihn finanziell
       <lb facs="#facs_2_region_1684823765346_1097_tl_20" n="N018"/>ruinirte. Noch immer hat <rs type="person">Micha</rs> keine Ahnung, daß sein
-      <lb facs="#facs_2_line_1700329914988_211" n="N019"/>
-               <rs type="place">Prag</rs>er Student der Junker <rs type="person">Oswald</rs> sei! Der passionirte 
+      <lb facs="#facs_2_line_1700329914988_211" n="N019"/><rs type="place" ref="#hsl_place_id_45">Prag</rs>er Student der Junker <rs type="person">Oswald</rs> sei! Der passionirte 
       <lb facs="#facs_2_region_1684823765346_1097_tl_21" n="N020"/>alte Erzähler würde vielleicht ganz vergessen, es ihm zu sagen,
       <lb facs="#facs_2_region_1684823765346_1097_tl_22" n="N021"/>hörte man nicht <rs type="person">Oswald</rs> durch alle Zimmer rufen: <rs type="person">Mirjam</rs>!
-      <lb facs="#facs_2_line_1700329799502_168" n="N022"/>
-               <rs type="person">Mirjam</rs>! „Kennst du den Gast?“ ruft <rs type="person">Benaja</rs>. „Der Junker!
+      <lb facs="#facs_2_line_1700329799502_168" n="N022"/><rs type="person">Mirjam</rs>! „Kennst du den Gast?“ ruft <rs type="person">Benaja</rs>. „Der Junker!
       <lb facs="#facs_2_line_1700329837334_181" n="N023"/>Laß ihn mir und meiner Rache!“ — „Nein,“ erwidert
-      <lb facs="#facs_2_line_1700329845560_186" n="N024"/>
-               <rs type="person">Micha</rs>, „ihn schützt des Hauses heil’ges Recht!“ Da haben
+      <lb facs="#facs_2_line_1700329845560_186" n="N024"/><rs type="person">Micha</rs>, „ihn schützt des Hauses heil’ges Recht!“ Da haben
       <lb facs="#facs_2_region_1684823765346_1097_tl_30" n="N025"/>wir die zwei wohlbekannten contrastirenden Judentypen:
       <lb facs="#facs_2_region_1684823765346_1097_tl_31" n="N026"/>den rachsüchtigen <rs type="person">Benaja</rs>, ein Gemisch von <rs type="person">Eleazar</rs> und
-      <lb facs="#facs_2_region_1684823765346_1097_tl_32" n="N027"/>
-               <rs type="person">Shylock</rs>, und den großmüthigen <rs type="person">Micha</rs>, der, ein hebräischer
-      <lb facs="#facs_2_region_1684823765346_1097_tl_33" n="N028"/>
-               <rs type="person">Masaniello</rs>, seinem Todfeind kein Haar krümmen läßt.
+      <lb facs="#facs_2_region_1684823765346_1097_tl_32" n="N027"/><rs type="person">Shylock</rs>, und den großmüthigen <rs type="person">Micha</rs>, der, ein hebräischer
+      <lb facs="#facs_2_region_1684823765346_1097_tl_33" n="N028"/><rs type="person">Masaniello</rs>, seinem Todfeind kein Haar krümmen läßt.
       <lb facs="#facs_2_region_1684823765346_1097_tl_34" n="N029"/>Dafür hat übrigens <rs type="person">Benaja</rs> schon gesorgt, indem er
       <lb facs="#facs_2_region_1684823765346_1097_tl_35" n="N030"/>Gift in <rs type="person">Oswald</rs>’s Becher mischte. Wie kurzsichtig von
       <lb facs="#facs_2_region_1684823765346_1097_tl_36" n="N031"/>dem klugen Mann! Da die Tafel längst aufgehoben ist,
-      <lb facs="#facs_2_region_1684823765346_1097_tl_37" n="N032"/>wird wahrscheinlich ein unschuldiger Diener den Rest aus¬
-      <lb facs="#facs_2_region_1684823765346_1097_tl_38" n="N033"/>trinken. <rs type="person">Benaja</rs> läßt den Giftbecher aufs Gerathewohl stehen
+      <lb facs="#facs_2_region_1684823765346_1097_tl_37" n="N032"/>wird wahrscheinlich ein unschuldiger Diener den Rest aus
+      <lb facs="#facs_2_region_1684823765346_1097_tl_38" n="N033" break="no"/>trinken. <rs type="person">Benaja</rs> läßt den Giftbecher aufs Gerathewohl stehen
       <lb facs="#facs_2_region_1684823765346_1097_tl_39" n="N034"/>und geht wieder mit seinem Schwiegersohn spazieren, damit
-      <lb facs="#facs_2_region_1684823765346_1097_tl_40" n="N035"/>
-               <rs type="person">Oswald</rs> und <rs type="person">Mirjam</rs> ungestört noch ein letztes Liebesduett
+      <lb facs="#facs_2_region_1684823765346_1097_tl_40" n="N035"/><rs type="person">Oswald</rs> und <rs type="person">Mirjam</rs> ungestört noch ein letztes Liebesduett
       <lb facs="#facs_2_region_1684823765346_1097_tl_41" n="N036"/>singen können. Der wilde Junker ist plötzlich ein frommes
       <lb facs="#facs_2_line_1700329980163_225" n="N037"/>Lamm geworden; er erklärt sich „von des Hauses Frieden 
-      <lb facs="#facs_2_line_1700330017969_233" n="N038"/>verwandelt und bekehrt“. Nur einen Kuß erbittet er sich</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1700329721429_141" n="N001"/>noch. <rs type="person">Mirjam</rs> verweigert ihn; doch möge <rs type="person">Oswald</rs> mit seinen
-      <lb facs="#facs_2_region_1684823772978_1100_tl_1" n="N002"/>Lippen den Rand des Bechers berühren, den sie zum Ab¬
-      <lb facs="#facs_2_region_1684823772978_1100_tl_2" n="N003"/>schied leert. Natürlich erwischt sie den vergifteten Wein, dessen
-      <lb facs="#facs_2_region_1684823772978_1100_tl_3" n="N004"/>Wirkung sich sehr rasch bei ihr einstellt. Sie stürzt zu¬
-      <lb facs="#facs_2_region_1684823772978_1100_tl_4" n="N005"/>sammen, singt noch, wie verklärt, eine Vision vom schönen
+      <lb facs="#facs_2_line_1700330017969_233" n="N038"/>verwandelt und bekehrt“. Nur einen Kuß erbittet er sich<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1700329721429_141" n="N001"/>noch. <rs type="person">Mirjam</rs> verweigert ihn; doch möge <rs type="person">Oswald</rs> mit seinen
+      <lb facs="#facs_2_region_1684823772978_1100_tl_1" n="N002"/>Lippen den Rand des Bechers berühren, den sie zum Ab
+      <lb facs="#facs_2_region_1684823772978_1100_tl_2" n="N003" break="no"/>schied leert. Natürlich erwischt sie den vergifteten Wein, dessen
+      <lb facs="#facs_2_region_1684823772978_1100_tl_3" n="N004"/>Wirkung sich sehr rasch bei ihr einstellt. Sie stürzt zu
+      <lb facs="#facs_2_region_1684823772978_1100_tl_4" n="N005" break="no"/>sammen, singt noch, wie verklärt, eine Vision vom schönen
       <lb facs="#facs_2_region_1684823772978_1100_tl_5" n="N006"/>Mai und fügt sterbend die Hände ihres Gatten und ihres
       <lb facs="#facs_2_region_1684823772978_1100_tl_6" n="N007"/>Geliebten zusammen.
-      <lb facs="#facs_2_line_1700329872322_194" n="N008"/>Was die Wirkung der <rs type="person">Heuberger</rs>’schen Oper von vornherein
+            </p><p>
+      <lb facs="#facs_2_line_1700329872322_194" n="N008"/>Was die Wirkung der <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs>’schen Oper von vornherein
       <lb facs="#facs_2_line_1700329880057_198" n="N009"/>gefährden mußte, war dieses unglückliche Libretto. Es ist
       <lb facs="#facs_2_line_1700329882606_201" n="N010"/>zu dumm gewesen, es hätt’ nicht sollen sein. Wie viel Mühe,
       <lb facs="#facs_2_line_1700329884798_204" n="N011"/>Studium und Talent hat der Componist daran verschwendet!
       <lb facs="#facs_2_line_1700329762270_159" n="N012"/>Seine Partitur verräth von Anfang bis zu Ende das edelste
       <lb facs="#facs_2_region_1684823772978_1100_tl_8" n="N013"/>Bestreben und gewissenhaften künstlerischen Ernst. Unter dem
-      <lb facs="#facs_2_region_1684823772978_1100_tl_9" n="N014"/>Einfluß <rs type="person">Wagner</rs>’scher Musik aufgewachsen, erblickte <rs type="person" continued="true">Heu¬</rs>
-               <lb facs="#facs_2_region_1684823772978_1100_tl_10" n="N015"/>
-               <rs type="person" continued="true">berger</rs> in diesem Styl die geeignetste Kraft, um den Charak¬
-      <lb facs="#facs_2_region_1684823772978_1100_tl_11" n="N016"/>teren und Situationen lebendigen Athem einzuflößen. In
-      <lb facs="#facs_2_region_1684823772978_1100_tl_12" n="N017"/>„<rs type="bibl">Mirjam</rs>“, herrscht <rs type="person">Wagner</rs>’s System nicht in der
+      <lb facs="#facs_2_region_1684823772978_1100_tl_9" n="N014"/>Einfluß <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’scher Musik aufgewachsen, erblickte <rs type="person" ref="#hsl_person_id_1327">Heu
+      <lb facs="#facs_2_region_1684823772978_1100_tl_10" n="N015" break="no"/>berger</rs> in diesem Styl die geeignetste Kraft, um den Charak
+      <lb facs="#facs_2_region_1684823772978_1100_tl_11" n="N016" break="no"/>teren und Situationen lebendigen Athem einzuflößen. In
+      <lb facs="#facs_2_region_1684823772978_1100_tl_12" n="N017"/>„<rs type="bibl">Mirjam</rs>“, herrscht <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s System nicht in der
       <lb facs="#facs_2_region_1684823772978_1100_tl_13" n="N018"/>vollen <rs type="bibl">Tristan</rs>strenge — kommen doch einige Chöre
       <lb facs="#facs_2_region_1684823772978_1100_tl_14" n="N019"/>und duettirende Stückchen vor — aber doch in den
       <lb facs="#facs_2_region_1684823772978_1100_tl_15" n="N020"/>entscheidendsten Kennzeichen. Der halb recitirende, halb
-      <lb facs="#facs_2_region_1684823772978_1100_tl_16" n="N021"/>cantillirende Charakter der Singstimmen, welche, pla¬
-      <lb facs="#facs_2_region_1684823772978_1100_tl_17" n="N022"/>stische Melodienform vermeidend, in nervösem Pathos
+      <lb facs="#facs_2_region_1684823772978_1100_tl_16" n="N021"/>cantillirende Charakter der Singstimmen, welche, pla
+      <lb facs="#facs_2_region_1684823772978_1100_tl_17" n="N022" break="no"/>stische Melodienform vermeidend, in nervösem Pathos
       <lb facs="#facs_2_region_1684823772978_1100_tl_18" n="N023"/>auf und nieder wogen; der ruhelose, selbstständig arbeitende
       <lb facs="#facs_2_region_1684823772978_1100_tl_19" n="N024"/>Webstuhl des Orchesters, der zugleich exaltirte und weichliche
       <lb facs="#facs_2_region_1684823772978_1100_tl_20" n="N025"/>Ausdruck der Empfindungen, die Tyrannei des einseitig
       <lb facs="#facs_2_region_1684823772978_1100_tl_21" n="N026"/>Dramatischen, des Bedeutsamen in jedem Wort, jeder
-      <lb facs="#facs_2_region_1684823772978_1100_tl_22" n="N027"/>Phrase — das Alles ist im Grunde <rs type="person">Wagner</rs>isch, ganz ab¬
-      <lb facs="#facs_2_region_1684823772978_1100_tl_23" n="N028"/>gesehen von einzelnen an <rs type="bibl">Lohengrin</rs>, <rs type="bibl">Tristan</rs> und die
-      <lb facs="#facs_2_region_1684823772978_1100_tl_24" n="N029"/>
-               <rs type="bibl">Meistersinger</rs> mahnenden Wendungen, denen heutzutage ein
-      <lb facs="#facs_2_region_1684823772978_1100_tl_25" n="N030"/>
-               <rs type="place">deutsch</rs>er Operncomponist kaum entgehen kann. Von einem
-      <lb facs="#facs_2_region_1684823772978_1100_tl_26" n="N031"/>so gewandten und geistreichen Musiker wie <rs type="person">Heuberger</rs> ver¬
-      <lb facs="#facs_2_region_1684823772978_1100_tl_27" n="N032"/>steht es sich von selbst, daß er die Technik des Orchesters
+      <lb facs="#facs_2_region_1684823772978_1100_tl_22" n="N027"/>Phrase — das Alles ist im Grunde <rs type="person" ref="#hsl_person_id_319">Wagner</rs>isch, ganz ab
+      <lb facs="#facs_2_region_1684823772978_1100_tl_23" n="N028" break="no"/>gesehen von einzelnen an <rs type="bibl">Lohengrin</rs>, <rs type="bibl">Tristan</rs> und die
+      <lb facs="#facs_2_region_1684823772978_1100_tl_24" n="N029"/><rs type="bibl">Meistersinger</rs> mahnenden Wendungen, denen heutzutage ein
+      <lb facs="#facs_2_region_1684823772978_1100_tl_25" n="N030"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Operncomponist kaum entgehen kann. Von einem
+      <lb facs="#facs_2_region_1684823772978_1100_tl_26" n="N031"/>so gewandten und geistreichen Musiker wie <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs> ver
+      <lb facs="#facs_2_region_1684823772978_1100_tl_27" n="N032" break="no"/>steht es sich von selbst, daß er die Technik des Orchesters
       <lb facs="#facs_2_region_1684823772978_1100_tl_28" n="N033"/>wie des Gesanges vollständig beherrscht, die wechselnden
-      <lb facs="#facs_2_region_1684823772978_1100_tl_29" n="N034"/>Stimmungen zu malen, die Personen zu charakterisiren ver¬
-      <lb facs="#facs_2_region_1684823772978_1100_tl_30" n="N035"/>steht. Es fehlt in „<rs type="bibl">Mirjam</rs>“ auch nicht an unmittelbar ge¬
-      <lb facs="#facs_2_region_1684823772978_1100_tl_31" n="N036"/>fälligen oder ergreifenden Stellen; diejenigen, wo <rs type="person">Heuberger</rs>
-               <lb facs="#facs_2_region_1684823772978_1100_tl_32" n="N037"/>zeitweilig die usurpirte Herrschaft des Orchesters unterbricht
-      <lb facs="#facs_2_region_1684823772978_1100_tl_33" n="N038"/>und sie der Singstimme überträgt. Die besten musikalischen</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684823776246_1103_tl_1" n="N001"/>Gedanken tauchen aber nicht im Gesang, sondern im Or¬
-      <lb facs="#facs_2_region_1684823776246_1103_tl_2" n="N002"/>chester auf: die Begleitung zu <rs type="person">Mirjam</rs>’s Worten: „Der
+      <lb facs="#facs_2_region_1684823772978_1100_tl_29" n="N034"/>Stimmungen zu malen, die Personen zu charakterisiren ver
+      <lb facs="#facs_2_region_1684823772978_1100_tl_30" n="N035" break="no"/>steht. Es fehlt in „<rs type="bibl">Mirjam</rs>“ auch nicht an unmittelbar ge
+      <lb facs="#facs_2_region_1684823772978_1100_tl_31" n="N036" break="no"/>fälligen oder ergreifenden Stellen; diejenigen, wo <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684823772978_1100_tl_32" n="N037"/>zeitweilig die usurpirte Herrschaft des Orchesters unterbricht
+      <lb facs="#facs_2_region_1684823772978_1100_tl_33" n="N038"/>und sie der Singstimme überträgt. Die besten musikalischen<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684823776246_1103_tl_1" n="N001"/>Gedanken tauchen aber nicht im Gesang, sondern im Or
+      <lb facs="#facs_2_region_1684823776246_1103_tl_2" n="N002" break="no"/>chester auf: die Begleitung zu <rs type="person">Mirjam</rs>’s Worten: „Der
       <lb facs="#facs_2_region_1684823776246_1103_tl_3" n="N003"/>letzte Strahl erlosch“, das D-dur-Motiv in dem Liebesduett
-      <lb facs="#facs_2_region_1684823776246_1103_tl_4" n="N004"/>(„Du fliehst mich!“), der G-dur-Satz in der ersten Zwischen¬
-      <lb facs="#facs_2_region_1684823776246_1103_tl_5" n="N005"/>act-Musik u. A.
+      <lb facs="#facs_2_region_1684823776246_1103_tl_4" n="N004"/>(„Du fliehst mich!“), der G-dur-Satz in der ersten Zwischen
+      <lb facs="#facs_2_region_1684823776246_1103_tl_5" n="N005" break="no"/>act-Musik u. A.
+            </p><p>
       <lb facs="#facs_2_region_1684823776246_1103_tl_6" n="N006"/>Der Hörer wird dem Verlauf der Oper mit Interesse
       <lb facs="#facs_2_region_1684823776246_1103_tl_7" n="N007"/>folgen und sich an vielen schönen Momenten erfreuen. Im
-      <lb facs="#facs_2_region_1684823776246_1103_tl_8" n="N008"/>Ganzen hat „<rs type="bibl">Mirjam</rs>“ trotzdem meine Hoffnungen nicht er¬
-      <lb facs="#facs_2_region_1684823776246_1103_tl_9" n="N009"/>füllt, mich weniger befriedigt, als „<rs type="bibl">Das Abenteuer einer</rs>
-               <lb facs="#facs_2_region_1684823776246_1103_tl_10" n="N010"/>
-               <rs type="bibl">Neujahrsnacht</rs>“ oder das schöne „<rs type="bibl">Liederspiel</rs>“ von <rs type="person">Heuberger</rs>.
+      <lb facs="#facs_2_region_1684823776246_1103_tl_8" n="N008"/>Ganzen hat „<rs type="bibl">Mirjam</rs>“ trotzdem meine Hoffnungen nicht er
+      <lb facs="#facs_2_region_1684823776246_1103_tl_9" n="N009" break="no"/>füllt, mich weniger befriedigt, als „<rs type="bibl">Das Abenteuer einer
+      <lb facs="#facs_2_region_1684823776246_1103_tl_10" n="N010"/>Neujahrsnacht</rs>“ oder das schöne „<rs type="bibl">Liederspiel</rs>“ von <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs>.
       <lb facs="#facs_2_region_1684823776246_1103_tl_11" n="N011"/>Vermuthlich wird ein großer Theil des Publicums, das ja
-      <lb facs="#facs_2_region_1684823776246_1103_tl_12" n="N012"/>vor Allem <rs type="person">Wagner</rs>’scher Ausdrucksweise huldigt, entgegen¬
-      <lb facs="#facs_2_region_1684823776246_1103_tl_13" n="N013"/>gesetzter Ansicht sein. Ich kann deßhalb die bereits gemeldete
-      <lb facs="#facs_2_region_1684823776246_1103_tl_14" n="N014"/>Thatsache nicht stark genug nochmals betonen: daß die Auf¬
-      <lb facs="#facs_2_region_1684823776246_1103_tl_15" n="N015"/>führung von „<rs type="bibl">Mirjam</rs>“ von lautem Beifall und schmeichel¬
-      <lb facs="#facs_2_region_1684823776246_1103_tl_16" n="N016"/>haftesten Auszeichnungen des Componisten begleitet war.
+      <lb facs="#facs_2_region_1684823776246_1103_tl_12" n="N012"/>vor Allem <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’scher Ausdrucksweise huldigt, entgegen
+      <lb facs="#facs_2_region_1684823776246_1103_tl_13" n="N013" break="no"/>gesetzter Ansicht sein. Ich kann deßhalb die bereits gemeldete
+      <lb facs="#facs_2_region_1684823776246_1103_tl_14" n="N014"/>Thatsache nicht stark genug nochmals betonen: daß die Auf
+      <lb facs="#facs_2_region_1684823776246_1103_tl_15" n="N015" break="no"/>führung von „<rs type="bibl">Mirjam</rs>“ von lautem Beifall und schmeichel
+      <lb facs="#facs_2_region_1684823776246_1103_tl_16" n="N016" break="no"/>haftesten Auszeichnungen des Componisten begleitet war.
       <lb facs="#facs_2_region_1684823776246_1103_tl_17" n="N017"/>Unsere Zeit fordert in der Oper, strenger als es ehedem
       <lb facs="#facs_2_region_1684823776246_1103_tl_18" n="N018"/>geschah, dramatische Musik. Ich bestehe auf ganz demselben
-      <lb facs="#facs_2_region_1684823776246_1103_tl_19" n="N019"/>Anspruch; nur ist mir in diesem Begriff Musik das Haupt¬
-      <lb facs="#facs_2_region_1684823776246_1103_tl_20" n="N020"/>wort, dramatisch das Beiwort. Auch für die Oper ist Kraft und
+      <lb facs="#facs_2_region_1684823776246_1103_tl_19" n="N019"/>Anspruch; nur ist mir in diesem Begriff Musik das Haupt
+      <lb facs="#facs_2_region_1684823776246_1103_tl_20" n="N020" break="no"/>wort, dramatisch das Beiwort. Auch für die Oper ist Kraft und
       <lb facs="#facs_2_line_1700329950544_217" n="N021"/>Originalität der musikalischen Erfindung die erste, wenn
-      <lb facs="#facs_2_region_1684823776246_1103_tl_21" n="N022"/>gleich nicht einzige Bedingung. Jede gute Oper muß durch¬
-      <lb facs="#facs_2_region_1684823776246_1103_tl_22" n="N023"/>strömt, durchleuchtet sein von musikalischen Ideen, die als
+      <lb facs="#facs_2_region_1684823776246_1103_tl_21" n="N022"/>gleich nicht einzige Bedingung. Jede gute Oper muß durch
+      <lb facs="#facs_2_region_1684823776246_1103_tl_22" n="N023" break="no"/>strömt, durchleuchtet sein von musikalischen Ideen, die als
       <lb facs="#facs_2_region_1684823776246_1103_tl_23" n="N024"/>solche interessiren, und nicht blos als Nachmalerei von
       <lb facs="#facs_2_region_1684823776246_1103_tl_24" n="N025"/>Empfindungen und Personen, die uns <hi rendition="#em">nicht</hi> interessiren.
       <lb facs="#facs_2_region_1684823776246_1103_tl_25" n="N026"/>Andere mögen anders fühlen und werden dann auch über
       <lb facs="#facs_2_region_1684823776246_1103_tl_26" n="N027"/>„<rs type="bibl">Mirjam</rs>“ anders urtheilen.
-      <lb facs="#facs_2_region_1684823776246_1103_tl_27" n="N028"/>Richard <rs type="person">Heuberger</rs> steht in seiner besten Frische und
+            </p><p>
+      <lb facs="#facs_2_region_1684823776246_1103_tl_27" n="N028"/>Richard <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs> steht in seiner besten Frische und
       <lb facs="#facs_2_region_1684823776246_1103_tl_28" n="N029"/>Manneskraft. Einsichtsvoll genug, um in seiner „<rs type="bibl">Mirjam</rs>“
       <lb facs="#facs_2_region_1684823776246_1103_tl_29" n="N030"/>weniger einen Erfolg als eine Erfahrung zu schätzen, wird
       <lb facs="#facs_2_region_1684823776246_1103_tl_30" n="N031"/>er uns gewiß noch manche wirksame Oper schenken, sobald
       <lb facs="#facs_2_region_1684823776246_1103_tl_31" n="N032"/>ein besseres Textbuch ihm einladen und hilfreich die Hand
       <lb facs="#facs_2_region_1684823776246_1103_tl_32" n="N033"/>bietet.
-      <lb facs="#facs_2_region_1684823776246_1103_tl_33" n="N034"/>Der vorzüglichen Aufführung der (von <hi rendition="#em">
-                  <rs type="person">Heuberger</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684823776246_1103_tl_34" n="N035"/>persönlich dirigirten) Novität ist bereits gedacht und das
-      <lb facs="#facs_2_region_1684823776246_1103_tl_35" n="N036"/>Verdienst der Hauptdarsteller — Fräulein <hi rendition="#em">
-                  <rs type="person">Schläger</rs>
-               </hi>,
-      <lb facs="#facs_2_region_1684823776246_1103_tl_36" n="N037"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Mark</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Winkelmann</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Neid</rs>l</hi> und <hi rendition="#em">
-                  <rs type="person" continued="true">Reichen¬</rs>
-               </hi>
-               <lb facs="#facs_2_line_1700330013868_230" n="N038"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">berg</rs>
-               </hi> — gewürdigt worden.</p>
+            </p><p>
+      <lb facs="#facs_2_region_1684823776246_1103_tl_33" n="N034"/>Der vorzüglichen Aufführung der (von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1327">Heuberger</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684823776246_1103_tl_34" n="N035"/>persönlich dirigirten) Novität ist bereits gedacht und das
+      <lb facs="#facs_2_region_1684823776246_1103_tl_35" n="N036"/>Verdienst der Hauptdarsteller — Fräulein <hi rendition="#em"><rs type="person">Schläger</rs></hi>,
+      <lb facs="#facs_2_region_1684823776246_1103_tl_36" n="N037"/>Fräulein <hi rendition="#em"><rs type="person">Mark</rs></hi>, <hi rendition="#em"><rs type="person">Winkelmann</rs></hi>, <hi rendition="#em"><rs type="person">Neid</rs>l</hi> und <hi rendition="#em"><rs type="person">Reichen
+      <lb facs="#facs_2_line_1700330013868_230" n="N038" break="no"/>berg</rs></hi> — gewürdigt worden.</p>
          </div>
       </body>
    </text>
