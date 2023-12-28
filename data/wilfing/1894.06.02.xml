@@ -106,7 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2023-12-08">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-12-14">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2023-12-28">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
@@ -882,19 +882,18 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684822477695_565_tl_1" n="N001"/><head type="h1">Aus Briefen von <rs type="person" ref="#hsl_person_id_34">Billroth</rs>. V.</head>
             <p>
-               <lb facs="#facs_1_line_1701173190493_1427" n="N001"/></p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684822477695_565_tl_1" n="N001"/>Aus Briefen von <rs type="person">Billroth</rs>. V.
-      <lb facs="#facs_1_region_1684822477695_565_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="place">St. Gilgen</rs>
-               </hi>, 22. Mai <date>1891</date>.*)
-      <lb facs="#facs_1_line_1701176410894_1470" n="N003"/>Hätte ich <rs type="person">Goockel</rs>’s Zauberring, ich hätte ihn oft ge¬
-      <lb facs="#facs_1_region_1684822477695_565_tl_3" n="N004"/>dreht, um dich hieher zu bringen. War der Morgen schöner?
-      <lb facs="#facs_1_region_1684822477695_565_tl_4" n="N005"/>Oder der Mittag? Oder der Abend? Oder die mondschein¬
-      <lb facs="#facs_1_line_1701176430999_1476" n="N006"/>silberne Nacht? Nur selten dürfte es hier solche Reihe von 
+            <lb facs="#facs_1_region_1684822477695_565_tl_2" n="N002"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_307">St. Gilgen</rs></hi>, 22. Mai <date>1891</date>.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_region_1684822477695_565_tl_30" n="N032"/>Siehe Nr. 10675 der „<rs type="bibl" ref="#hsl_work_id_82">Neuen Freien Presse</rs>“ vom 13. Mai,
+            <lb facs="#facs_1_region_1684822477695_565_tl_31" n="N033"/>Nr. 10685 vom 24. Mai, Nr. 10690 vom 29. Mai und Nr. 10691
+            <lb facs="#facs_1_region_1684822477695_565_tl_32" n="N034"/>vom 30. Mai.
+            </note>
+      <lb facs="#facs_1_line_1701176410894_1470" n="N003"/>Hätte ich <rs type="person" ref="#hsl_person_id_3619">Goockel</rs>’s Zauberring, ich hätte ihn oft ge
+      <lb facs="#facs_1_region_1684822477695_565_tl_3" n="N004" break="no"/>dreht, um dich hieher zu bringen. War der Morgen schöner?
+      <lb facs="#facs_1_region_1684822477695_565_tl_4" n="N005"/>Oder der Mittag? Oder der Abend? Oder die mondschein
+      <lb facs="#facs_1_line_1701176430999_1476" n="N006" break="no"/>silberne Nacht? Nur selten dürfte es hier solche Reihe von 
       <lb facs="#facs_1_region_1684822477695_565_tl_5" n="N007"/>schönen, regenlosen Tagen in einem lauen, selbst warmen
       <lb facs="#facs_1_region_1684822477695_565_tl_6" n="N008"/>Mai geben! Mir hat es sehr gut gethan; ich habe meine 
       <lb facs="#facs_1_region_1684822477695_565_tl_7" n="N009"/>Stimme wieder, und wenn ich auch die Empfindung habe,
@@ -906,40 +905,37 @@
       <lb facs="#facs_1_region_1684822477695_565_tl_13" n="N015"/>in welche man in dieser göttlichen Natur hineingeräth, ist so
       <lb facs="#facs_1_region_1684822477695_565_tl_14" n="N016"/>unnatürlich für uns moderne Menschen, daß wir schon gar
       <lb facs="#facs_1_region_1684822477695_565_tl_15" n="N017"/>nicht mehr wissen, was an uns eigentlich erste oder zweite
-      <lb facs="#facs_1_region_1684822477695_565_tl_16" n="N018"/>oder dritte Natur, was Geistesgesundheit oder Geistes¬
-      <lb facs="#facs_1_region_1684822477695_565_tl_17" n="N019"/>ungesundheit ist. Hier <hi rendition="#em">bin</hi> ich doch etwas, ein Stück Natur;
+      <lb facs="#facs_1_region_1684822477695_565_tl_16" n="N018"/>oder dritte Natur, was Geistesgesundheit oder Geistes
+      <lb facs="#facs_1_region_1684822477695_565_tl_17" n="N019" break="no"/>ungesundheit ist. Hier <hi rendition="#em">bin</hi> ich doch etwas, ein Stück Natur;
       <lb facs="#facs_1_region_1684822477695_565_tl_18" n="N020"/>ich fühle mich ebenbürtig mit Baum, Fels, Bach und See.
-      <lb facs="#facs_1_region_1684822477695_565_tl_19" n="N021"/>In <rs type="place">Wien</rs>, wohin ich morgen abreise, soll ich nun wieder
+      <lb facs="#facs_1_region_1684822477695_565_tl_19" n="N021"/>In <rs type="place" ref="#hsl_place_id_55">Wien</rs>, wohin ich morgen abreise, soll ich nun wieder
       <lb facs="#facs_1_region_1684822477695_565_tl_20" n="N022"/>eine Rolle spielen, soll etwas <hi rendition="#em">scheinen</hi> in dem abgespielten
       <lb facs="#facs_1_region_1684822477695_565_tl_21" n="N023"/>Stück „Menschenglück und Ende“! Soll auf dem alten
-      <lb facs="#facs_1_region_1684822477695_565_tl_22" n="N024"/>Theatrum mundi agiren, dessen Impresario längst ban¬
-      <lb facs="#facs_1_region_1684822477695_565_tl_23" n="N025"/>kerott ist, und der von den Galerien kaum so viel ein¬
-      <lb facs="#facs_1_region_1684822477695_565_tl_24" n="N026"/>nimmt, daß er ein Spielhonorar abendlich auszahlt, zu klein,
+      <lb facs="#facs_1_region_1684822477695_565_tl_22" n="N024"/>Theatrum mundi agiren, dessen Impresario längst ban
+      <lb facs="#facs_1_region_1684822477695_565_tl_23" n="N025" break="no"/>kerott ist, und der von den Galerien kaum so viel ein
+      <lb facs="#facs_1_region_1684822477695_565_tl_24" n="N026" break="no"/>nimmt, daß er ein Spielhonorar abendlich auszahlt, zu klein,
       <lb facs="#facs_1_region_1684822477695_565_tl_25" n="N027"/>um davon standesgemäß zu leben, zu groß, um daran vor
       <lb facs="#facs_1_region_1684822477695_565_tl_26" n="N028"/>Hunger zu sterben. Ich soll nun wieder in große Actionen
       <lb facs="#facs_1_region_1684822477695_565_tl_27" n="N029"/>eintreten; von den verschiedensten Seiten schreibt man mir,
       <lb facs="#facs_1_region_1684822477695_565_tl_28" n="N030"/>man warte auf mich, um dies oder das zu entscheiden. Und
-      <lb facs="#facs_1_region_1684822477695_565_tl_29" n="N031"/>ich armer Teufel war hier so zufrieden im Träumen, ganz
-      <lb facs="#facs_1_region_1684822477695_565_tl_30" n="N032"/>*) Siehe Nr. 10675 der „<rs type="bibl">Neuen Freien Presse</rs>“ vom 13. Mai,
-      <lb facs="#facs_1_region_1684822477695_565_tl_31" n="N033"/>Nr. 10685 vom 24. Mai, Nr. 10690 vom 29. Mai und Nr. 10691
-      <lb facs="#facs_1_region_1684822477695_565_tl_32" n="N034"/>vom 30. Mai.</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684822483874_571_tl_1" n="N001"/>vorbereitet auf das göttliche Nirwana! Daß das Schicksal
-      <lb facs="#facs_1_line_1701176518262_1498" n="N002"/>meine blöde, grüblerische <rs type="person">Hamlet</rs>natur auch gerade auf einen 
+      <lb facs="#facs_1_region_1684822477695_565_tl_29" n="N031"/>ich armer Teufel war hier so zufrieden im Träumen, ganz<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684822483874_571_tl_1" n="N001"/>vorbereitet auf das göttliche Nirwana! Daß das Schicksal
+      <lb facs="#facs_1_line_1701176518262_1498" n="N002"/>meine blöde, grüblerische <rs type="person" ref="#hsl_person_id_551">Hamlet</rs>natur auch gerade auf einen 
       <lb facs="#facs_1_line_1701176564806_1511" n="N003"/>Posten gestellt hat, wo ich das treibende, agirende Element
       <lb facs="#facs_1_region_1684822480677_568_tl_1" n="N004"/>sein soll? Ich bin hier von den vielen schönen Tagen ganz
-      <lb facs="#facs_1_line_1701176583045_1517" n="N005"/>verweichlicht und verspüre einige Aehnlichkeit mit <rs type="person">Rinaldo</rs>.
-      <lb facs="#facs_1_region_1684822480677_568_tl_2" n="N006"/>Daß keine <rs type="person">Armida</rs> vorhanden ist, die Ansprüche an mich macht,
+      <lb facs="#facs_1_line_1701176583045_1517" n="N005"/>verweichlicht und verspüre einige Aehnlichkeit mit <rs type="person" ref="#hsl_person_id_648">Rinaldo</rs>.
+      <lb facs="#facs_1_region_1684822480677_568_tl_2" n="N006"/>Daß keine <rs type="person" ref="#hsl_person_id_442">Armida</rs> vorhanden ist, die Ansprüche an mich macht,
       <lb facs="#facs_1_region_1684822480677_568_tl_3" n="N007"/>ist mir lieb, doch aus den Zaubergärten der hiesigen Natur
-      <lb facs="#facs_1_region_1684822480677_568_tl_4" n="N008"/>ruft mich nur der silberne Schild der Pflicht! Der Ge¬
-      <lb facs="#facs_1_line_1701176604758_1523" n="N009"/>danke, den ganzen Sommer hier zu verdämmern, wäre mir 
+      <lb facs="#facs_1_region_1684822480677_568_tl_4" n="N008"/>ruft mich nur der silberne Schild der Pflicht! Der Ge
+      <lb facs="#facs_1_line_1701176604758_1523" n="N009" break="no"/>danke, den ganzen Sommer hier zu verdämmern, wäre mir 
       <lb facs="#facs_1_region_1684822480677_568_tl_5" n="N010"/>nicht unerträglich. Certum signum senectutis. Gockel und
-      <lb facs="#facs_1_region_1684822480677_568_tl_6" n="N011"/>Familie hat mich sehr belustigt. Die <rs type="bibl">Aufsätze</rs> von D. <rs type="person">Strauß</rs>
-               <lb facs="#facs_1_region_1684822480677_568_tl_7" n="N012"/>habe ich zum größten Theile gelesen oder durchgeblättert.
+      <lb facs="#facs_1_region_1684822480677_568_tl_6" n="N011"/>Familie hat mich sehr belustigt. Die <rs type="bibl" ref="#hsl_work_id_2178">Aufsätze</rs> von D. <rs type="person" ref="#hsl_person_id_711">Strauß</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684822480677_568_tl_7" n="N012"/>habe ich zum größten Theile gelesen oder durchgeblättert.
       <lb facs="#facs_1_region_1684822480677_568_tl_8" n="N013"/>Wenn man über alle Künste und Literaturen Essays drucken
       <lb facs="#facs_1_region_1684822480677_568_tl_9" n="N014"/>läßt, kann’s wol nicht immer ersten Ranges sein. Zugleich
-      <lb facs="#facs_1_region_1684822480677_568_tl_10" n="N015"/>las ich <rs type="person">Springer</rs>’s <rs type="bibl">Bilder</rs> aus der neueren Kunstgeschichte.
+      <lb facs="#facs_1_region_1684822480677_568_tl_10" n="N015"/>las ich <rs type="person" ref="#hsl_person_id_3615">Springer</rs>’s <rs type="bibl" ref="#hsl_work_id_2177">Bilder aus der neueren Kunstgeschichte</rs>.
       <lb facs="#facs_1_region_1684822480677_568_tl_11" n="N016"/>Beide Bücher haben doch wieder den Gedanken lebendig
       <lb facs="#facs_1_region_1684822480677_568_tl_12" n="N017"/>gemacht, welche bedenkliche Abgötterei wir doch mit unserem
       <lb facs="#facs_1_region_1684822480677_568_tl_13" n="N018"/>Geist und unseren Empfindungen treiben. Die Reaktion kann
@@ -952,52 +948,42 @@
       <lb facs="#facs_1_region_1684822480677_568_tl_18" n="N025"/>das Ideal der jetzigen jungen Generation. Ich sehe eine Zeit,
       <lb facs="#facs_1_region_1684822480677_568_tl_19" n="N026"/>wo Kunst und Wissenschaft gleich der Religion als etwas
       <lb facs="#facs_1_region_1684822480677_568_tl_20" n="N027"/>Veraltetes, historisch wol Interessantes, doch Todtes, nicht
-      <lb facs="#facs_1_region_1684822480677_568_tl_21" n="N028"/>mehr Erweckbares betrachtet werden: eine Republik des Ver¬
-      <lb facs="#facs_1_region_1684822480677_568_tl_22" n="N029"/>standes und des materiell Praktischen, die nichts über Mittel¬
-      <lb facs="#facs_1_region_1684822480677_568_tl_23" n="N030"/>maß duldet, und Jeden, der klüger oder besser als der
+      <lb facs="#facs_1_region_1684822480677_568_tl_21" n="N028"/>mehr Erweckbares betrachtet werden: eine Republik des Ver
+      <lb facs="#facs_1_region_1684822480677_568_tl_22" n="N029" break="no"/>standes und des materiell Praktischen, die nichts über Mittel
+      <lb facs="#facs_1_region_1684822480677_568_tl_23" n="N030" break="no"/>maß duldet, und Jeden, der klüger oder besser als der
       <lb facs="#facs_1_region_1684822480677_568_tl_24" n="N031"/>Andere erscheint, sofort köpft. Ich bin froh, das nicht mehr
       <lb facs="#facs_1_line_1701176635774_1531" n="N032"/>zu erleben. Wir lebten in einem großen Zeitalter, in einem 
       <lb facs="#facs_1_region_1684822480677_568_tl_25" n="N033"/>goldenen Zeitalter.
-      <lb facs="#facs_1_region_1684822480677_568_tl_26" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="place">St. Gilgen</rs>
-               </hi>, 26. September <date>1891</date>.
+            </p><p>
+      <lb facs="#facs_1_region_1684822480677_568_tl_26" n="N034"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_307">St. Gilgen</rs></hi>, 26. September <date>1891</date>.
       <lb facs="#facs_1_region_1684822480677_568_tl_27" n="N035"/>Ich habe hier ein körperlich arbeitsames und geistig
       <lb facs="#facs_1_region_1684822480677_568_tl_28" n="N036"/>faules Leben geführt! Geistig fauler als je. Ich habe nur
-      <lb facs="#facs_1_region_1684822480677_568_tl_29" n="N037"/>zwei Bücher ernsthaft durchgelesen: „<rs type="person">Helmholtz</rs>’ <rs type="bibl">Lehre von</rs>
-               <lb facs="#facs_1_line_1701176666638_1541" n="N038"/>
-               <rs type="bibl">den Ton-Empfindungen</rs>“ zum viertenmale und <rs type="person">Preyer</rs>’s „<rs type="bibl">Ent¬</rs>
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_line_1701176490341_1491" n="N001"/>
-               <rs type="bibl">wicklung der Seele des Kindes</rs>“ Das kam so. Im vorigen
-      <lb facs="#facs_1_region_1684822483874_571_tl_2" n="N002"/>Jahre habe ich hier und in <rs type="place">Abbazia</rs> ein ziemlich dickes
-      <lb facs="#facs_1_region_1684822483874_571_tl_3" n="N003"/>Manuscript zu Papier gebracht: <rs type="bibl">Aphorismen zur Anatomie</rs>
-               <lb facs="#facs_1_region_1684822483874_571_tl_4" n="N004"/>
-               <rs type="bibl">und Psycho-Physiologie des Musikalischen</rs>. Es lag unberührt
+      <lb facs="#facs_1_region_1684822480677_568_tl_29" n="N037"/>zwei Bücher ernsthaft durchgelesen: „<rs type="person" ref="#hsl_person_id_713">Helmholtz</rs>’ <rs type="bibl" ref="#hsl_work_id_473">Lehre von
+      <lb facs="#facs_1_line_1701176666638_1541" n="N038"/>den Ton-Empfindungen</rs>“ zum viertenmale und <rs type="person" ref="#hsl_person_id_3616">Preyer</rs>’s „<rs type="bibl" ref="#hsl_work_id_2179">Ent</rs></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1701176490341_1491" n="N001" break="no"/><rs type="bibl" ref="#hsl_work_id_2179">wicklung der Seele des Kindes</rs>“ Das kam so. Im vorigen
+      <lb facs="#facs_1_region_1684822483874_571_tl_2" n="N002"/>Jahre habe ich hier und in <rs type="place" ref="#hsl_place_id_308">Abbazia</rs> ein ziemlich dickes
+      <lb facs="#facs_1_region_1684822483874_571_tl_3" n="N003"/>Manuscript zu Papier gebracht: <rs type="bibl" ref="#hsl_work_id_2168">Aphorismen zur Anatomie
+      <lb facs="#facs_1_region_1684822483874_571_tl_4" n="N004"/>und Psycho-Physiologie des Musikalischen</rs>. Es lag unberührt
       <lb facs="#facs_1_region_1684822483874_571_tl_5" n="N005"/>ein Jahr; nun nahm ich es hier wieder vor. Das erste
-      <lb facs="#facs_1_region_1684822483874_571_tl_6" n="N006"/>Capitel „<rs type="bibl">Ueber den Rhythmus als eines der wesentlichsten,</rs>
-               <lb facs="#facs_1_region_1684822483874_571_tl_7" n="N007"/>
-               <rs type="bibl">mit dem Organismus des Menschen innig verbundenen</rs>
-               <lb facs="#facs_1_region_1684822483874_571_tl_8" n="N008"/>
-               <rs type="bibl">Elemente der Musik</rs>“ passirte meine Kritik leidlich, so daß
+      <lb facs="#facs_1_region_1684822483874_571_tl_6" n="N006"/>Capitel „Ueber den Rhythmus als eines der wesentlichsten,
+      <lb facs="#facs_1_region_1684822483874_571_tl_7" n="N007"/>mit dem Organismus des Menschen innig verbundenen
+      <lb facs="#facs_1_region_1684822483874_571_tl_8" n="N008"/>Elemente der Musik“ passirte meine Kritik leidlich, so daß
       <lb facs="#facs_1_region_1684822483874_571_tl_9" n="N009"/>ich es ins Reine schrieb. Auch der Anfang des zweiten
-      <lb facs="#facs_1_region_1684822483874_571_tl_10" n="N010"/>Capitels: „<rs type="bibl">Ueber die Beziehungen von Tonhöhe und -Tiefe</rs>
-               <lb facs="#facs_1_region_1684822483874_571_tl_11" n="N011"/>
-               <rs type="bibl">zum menschlichen Organismus</rs>“ war noch erträglich. Doch
-      <lb facs="#facs_1_region_1684822483874_571_tl_12" n="N012"/>dann kamen die Fragen: Sprache, Gesang, Vocale, Ober¬
-      <lb facs="#facs_1_region_1684822483874_571_tl_13" n="N013"/>töne. Ich ward unsicher über die Richtigkeit einiger Sätze.
-      <lb facs="#facs_1_region_1684822483874_571_tl_14" n="N014"/>So fing ich an, in <rs type="person">Helmholtz</rs>’ <rs type="bibl">Buch</rs> zu blättern, machte
-      <lb facs="#facs_1_region_1684822483874_571_tl_15" n="N015"/>eine Excursion in <rs type="person">Landois</rs>’ <rs type="bibl">Buch</rs> über Thierstimmen, kam
-      <lb facs="#facs_1_region_1684822483874_571_tl_16" n="N016"/>wieder zu <rs type="person">Helmholtz</rs> zurück, und zwar zur vierten Auflage,
+      <lb facs="#facs_1_region_1684822483874_571_tl_10" n="N010"/>Capitels: „Ueber die Beziehungen von Tonhöhe und -Tiefe
+      <lb facs="#facs_1_region_1684822483874_571_tl_11" n="N011"/>zum menschlichen Organismus“ war noch erträglich. Doch
+      <lb facs="#facs_1_region_1684822483874_571_tl_12" n="N012"/>dann kamen die Fragen: Sprache, Gesang, Vocale, Ober
+      <lb facs="#facs_1_region_1684822483874_571_tl_13" n="N013" break="no"/>töne. Ich ward unsicher über die Richtigkeit einiger Sätze.
+      <lb facs="#facs_1_region_1684822483874_571_tl_14" n="N014"/>So fing ich an, in <rs type="person" ref="#hsl_person_id_713">Helmholtz</rs>’ <rs type="bibl" ref="#hsl_work_id_473">Buch</rs> zu blättern, machte
+      <lb facs="#facs_1_region_1684822483874_571_tl_15" n="N015"/>eine Excursion in <rs type="person" ref="#hsl_person_id_3617">Landois</rs>’ <rs type="bibl" ref="#hsl_work_id_2180">Buch</rs> über Thierstimmen, kam
+      <lb facs="#facs_1_region_1684822483874_571_tl_16" n="N016"/>wieder zu <rs type="person" ref="#hsl_person_id_713">Helmholtz</rs> zurück, und zwar zur vierten Auflage,
       <lb facs="#facs_1_region_1684822483874_571_tl_17" n="N017"/>die gegenüber der ersten Auflage, die ich früher studirte,
       <lb facs="#facs_1_region_1684822483874_571_tl_18" n="N018"/>doch viel Neues enthält. Mit den Vocalen, Obertönen,
       <lb facs="#facs_1_region_1684822483874_571_tl_19" n="N019"/>Sprache etc. kam ich ins Psychologische, in die Entwicklung
       <lb facs="#facs_1_region_1684822483874_571_tl_20" n="N020"/>der Sprache und des Gesanges beim Kinde und so in
-      <lb facs="#facs_1_region_1684822483874_571_tl_21" n="N021"/>
-               <rs type="person">Preyer</rs>’s dickes, dabei höchst interessantes <rs type="bibl">Buch</rs> von funda¬
-      <lb facs="#facs_1_region_1684822483874_571_tl_22" n="N022"/>mentaler Bedeutung. Ich will ja nichts Gelehrtes schreiben,
+      <lb facs="#facs_1_region_1684822483874_571_tl_21" n="N021"/><rs type="person" ref="#hsl_person_id_3616">Preyer</rs>’s dickes, dabei höchst interessantes <rs type="bibl" ref="#hsl_work_id_2179">Buch</rs> von funda
+      <lb facs="#facs_1_region_1684822483874_571_tl_22" n="N022" break="no"/>mentaler Bedeutung. Ich will ja nichts Gelehrtes schreiben,
       <lb facs="#facs_1_region_1684822483874_571_tl_23" n="N023"/>sondern nur den Dilettanten in diesen Dingen die Illusionen
       <lb facs="#facs_1_region_1684822483874_571_tl_24" n="N024"/>abschütteln. Beruht das Componiren auf einem Act, der
       <lb facs="#facs_1_region_1684822483874_571_tl_25" n="N025"/>mehr den Hallucinationen oder Illusionen zugehört? Dies
@@ -1008,17 +994,16 @@
       <lb facs="#facs_1_region_1684822483874_571_tl_30" n="N030"/>den Kenner zweifelhaft anwenden. — Nun habe ich so viel
       <lb facs="#facs_1_region_1684822483874_571_tl_31" n="N031"/>Vorzügliches gelesen, daß ich mich gar nicht traue, mein
       <lb facs="#facs_1_region_1684822483874_571_tl_32" n="N032"/>Manuscript vorläufig weiter anzusehen. Du siehst, lieber
-      <lb facs="#facs_1_region_1684822483874_571_tl_33" n="N033"/>
-               <rs type="person">Hanns</rs>, daß ich nicht zum populären Schriftsteller geboren
+      <lb facs="#facs_1_region_1684822483874_571_tl_33" n="N033"/><rs type="person" ref="#hsl_person_id_1">Hanns</rs>, daß ich nicht zum populären Schriftsteller geboren
       <lb facs="#facs_1_region_1684822483874_571_tl_34" n="N034"/>bin. Bei Anderen gehe ich leicht über Ungenauigkeiten hinweg,
       <lb facs="#facs_1_region_1684822483874_571_tl_35" n="N035"/>wenn mich die Persönlichkeit des Schriftstellers anzieht; ich
       <lb facs="#facs_1_region_1684822483874_571_tl_36" n="N036"/>nehme bei mir jeden Satz bleiern schwer. So wird wol
       <lb facs="#facs_1_region_1684822483874_571_tl_37" n="N037"/>nichts aus meinem projectirten Essay werden. Schadet
-      <lb facs="#facs_1_region_1684822483874_571_tl_38" n="N038"/>nichts! Wenn es nothwendig ist, wird es doch geschrieben,</p>
+      <lb facs="#facs_1_region_1684822483874_571_tl_38" n="N038"/>nichts! Wenn es nothwendig ist, wird es doch geschrieben,<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684822494064_577_tl_1" n="N001"/>von irgend einem Andern. Was in einer Zeit Einer denkt,
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684822494064_577_tl_1" n="N001"/>von irgend einem Andern. Was in einer Zeit Einer denkt,
       <lb facs="#facs_2_region_1684822494064_577_tl_2" n="N002"/>denken Hunderte mit ihm; es liegt in der Luft; es ist, weil
       <lb facs="#facs_2_region_1684822494064_577_tl_3" n="N003"/>es den Zeitumständen und den Verhältnissen nach sein muß.
       <lb facs="#facs_2_region_1684822494064_577_tl_4" n="N004"/>Einer wird es in eine zeitgemäße Form kleiden. Wer es ist,
@@ -1027,31 +1012,31 @@
       <lb facs="#facs_2_region_1684822494064_577_tl_7" n="N007"/>kleines Moment einer Bewegung, die vor sich geht, weil sie
       <lb facs="#facs_2_region_1684822494064_577_tl_8" n="N008"/>den Umständen nach vor sich gehen muß. Du siehst, ich bin
       <lb facs="#facs_2_region_1684822494064_577_tl_9" n="N009"/>Fatalist in Betreff der Fortentwicklung der Menschheit. Im
-      <lb facs="#facs_2_region_1684822494064_577_tl_10" n="N010"/>Uebrigen, meine ich, darf der Mensch, wenn er seine Schul¬
-      <lb facs="#facs_2_region_1684822494064_577_tl_11" n="N011"/>digkeit gegen die Anderen gethan hat, in seinen Mußestunden
+      <lb facs="#facs_2_region_1684822494064_577_tl_10" n="N010"/>Uebrigen, meine ich, darf der Mensch, wenn er seine Schul
+      <lb facs="#facs_2_region_1684822494064_577_tl_11" n="N011" break="no"/>digkeit gegen die Anderen gethan hat, in seinen Mußestunden
       <lb facs="#facs_2_region_1684822494064_577_tl_12" n="N012"/>thun, was ihn freut. So ist das Grübeln und Gestalten
       <lb facs="#facs_2_region_1684822494064_577_tl_13" n="N013"/>meine einsame Freude, mein Vergnügen; wenn auch gar
       <lb facs="#facs_2_region_1684822494064_577_tl_14" n="N014"/>nichts dabei herauskommt, so trägt es doch zur Erweiterung
       <lb facs="#facs_2_region_1684822494064_577_tl_15" n="N015"/>des Ichs bei, und das ist wieder eine Freude, die einsam
       <lb facs="#facs_2_region_1684822494064_577_tl_16" n="N016"/>genossen werden will und freilich zur inneren Einsamkeit führt.
       <lb facs="#facs_2_region_1684822494064_577_tl_17" n="N017"/>Ich hatte auch manche belletristrische Sachen mit; auch
-      <lb facs="#facs_2_region_1684822494064_577_tl_18" n="N018"/>Manches von <rs type="person">Maupassant</rs>, <rs type="person">Zola</rs> etc., doch ich vertrage davon
+      <lb facs="#facs_2_region_1684822494064_577_tl_18" n="N018"/>Manches von <rs type="person" ref="#hsl_person_id_3618">Maupassant</rs>, <rs type="person" ref="#hsl_person_id_1783">Zola</rs> etc., doch ich vertrage davon
       <lb facs="#facs_2_region_1684822494064_577_tl_19" n="N019"/>nicht viel; der Humor muß dabei schon sehr hervorragend
       <lb facs="#facs_2_region_1684822494064_577_tl_20" n="N020"/>sein, wenn er mich über das ekelhaft Exotische hinweggleiten
       <lb facs="#facs_2_region_1684822494064_577_tl_21" n="N021"/>lassen soll. Wenn ich schon meine Zeit hergebe, um mir von
       <lb facs="#facs_2_region_1684822494064_577_tl_22" n="N022"/>Einem etwas erzählen zu lassen, so muß es schon etwas
-      <lb facs="#facs_2_region_1684822494064_577_tl_23" n="N023"/>ganz Besonderes sein. Es geht mir fast schon wie <rs type="person" continued="true">Grill¬</rs>
-               <lb facs="#facs_2_region_1684822494064_577_tl_24" n="N024"/>
-               <rs type="person" continued="true">parzer</rs>, der einmal zu <rs type="person">Brücke</rs> vor einer Akademie-Sitzung
+      <lb facs="#facs_2_region_1684822494064_577_tl_23" n="N023"/>ganz Besonderes sein. Es geht mir fast schon wie <rs type="person" ref="#hsl_person_id_721">Grill
+      <lb facs="#facs_2_region_1684822494064_577_tl_24" n="N024" break="no"/>parzer</rs>, der einmal zu <rs type="person" ref="#hsl_person_id_3140">Brücke</rs> vor einer Akademie-Sitzung
       <lb facs="#facs_2_region_1684822494064_577_tl_25" n="N025"/>sagte: „Was soll ich armer alter Mann den ganzen Tag
       <lb facs="#facs_2_region_1684822494064_577_tl_26" n="N026"/>thun? Schreiben kann ich nicht mehr. Lesen? Ja, alle guten
       <lb facs="#facs_2_region_1684822494064_577_tl_27" n="N027"/>Bücher habe ich wiederholt gelesen: — nun soll ich auf
       <lb facs="#facs_2_region_1684822494064_577_tl_28" n="N028"/>meine alten Tage die schlechten Bücher lesen! Das ist 
       <lb facs="#facs_2_region_1684822494064_577_tl_29" n="N029"/>doch zu hart!“
+            </p><p>
       <lb facs="#facs_2_region_1684822494064_577_tl_30" n="N030"/>17. October <date>1891</date>.
       <lb facs="#facs_2_region_1684822494064_577_tl_31" n="N031"/>Es ist ein eigen Ding mit dem Lachen und behaglichen
-      <lb facs="#facs_2_region_1684822494064_577_tl_32" n="N032"/>innerlichen Lächeln über Bücher, Vorkommnisse und Men¬
-      <lb facs="#facs_2_region_1684822494064_577_tl_33" n="N033"/>schen. Von tausend Menschen, welche über dasselbe weinen,
+      <lb facs="#facs_2_region_1684822494064_577_tl_32" n="N032"/>innerlichen Lächeln über Bücher, Vorkommnisse und Men
+      <lb facs="#facs_2_region_1684822494064_577_tl_33" n="N033" break="no"/>schen. Von tausend Menschen, welche über dasselbe weinen,
       <lb facs="#facs_2_region_1684822494064_577_tl_34" n="N034"/>werden kaum fünfzig über dasselbe lachen. Das Pathetische,
       <lb facs="#facs_2_region_1684822494064_577_tl_35" n="N035"/>Großartige, Gewaltige, uns Niederdrückende, der schmerzliche
       <lb facs="#facs_2_region_1684822494064_577_tl_36" n="N036"/>Kampf ums Dasein bis zum Tode scheint in der gesammten
@@ -1059,23 +1044,25 @@
       <lb facs="#facs_2_region_1684822494064_577_tl_38" n="N038"/>menschlich, constitutionell, sein Ausdruck wechselt mit den
       <lb facs="#facs_2_region_1684822494064_577_tl_39" n="N039"/>verschiedenen Zuständen der geselligen Verhältnisse, ja mit
       <lb facs="#facs_2_region_1684822494064_577_tl_40" n="N040"/>dem Alter und den labilen Stimmungszuständen des Einzelnen.
+            </p><p>
       <lb facs="#facs_2_region_1684822494064_577_tl_41" n="N041"/>26. November <date>1891</date>.
       <lb facs="#facs_2_region_1684822494064_577_tl_42" n="N042"/>Ich will es gar nicht leugnen, daß mich der Gedanke,
-      <lb facs="#facs_2_region_1684822494064_577_tl_43" n="N043"/>zum erstenmale in unserem Herrenhause zu sprechen, so</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684822498219_580_tl_1" n="N001"/>lange aufgeregt hat, bis es geschehen war, und daß ich Alles,
+      <lb facs="#facs_2_region_1684822494064_577_tl_43" n="N043"/>zum erstenmale in unserem Herrenhause zu sprechen, so<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684822498219_580_tl_1" n="N001"/>lange aufgeregt hat, bis es geschehen war, und daß ich Alles,
       <lb facs="#facs_2_region_1684822498219_580_tl_2" n="N002"/>was ich sagen wollte, gut durchdacht hatte; daneben liefen
       <lb facs="#facs_2_region_1684822498219_580_tl_3" n="N003"/>alle meine anderen täglichen Berufsgeschäfte, und da sah es
       <lb facs="#facs_2_region_1684822498219_580_tl_4" n="N004"/>manchmal recht wüst in meinem Kopfe aus. Doch ich glaubte
       <lb facs="#facs_2_region_1684822498219_580_tl_5" n="N005"/>es meinen Collegen und meinem Stande schuldig zu sein,
       <lb facs="#facs_2_line_1701176870950_1601" n="N006"/>für sie einzutreten, wozu sich ja sonst so wenig Gelegenheit 
-      <lb facs="#facs_2_region_1684822498219_580_tl_6" n="N007"/>bietet. — Ob das, was ich gesprochen, den „Herren“ ge¬
-      <lb facs="#facs_2_region_1684822498219_580_tl_7" n="N008"/>fallen hat, weiß ich nicht; jedenfalls war es während der
+      <lb facs="#facs_2_region_1684822498219_580_tl_6" n="N007"/>bietet. — Ob das, was ich gesprochen, den „Herren“ ge
+      <lb facs="#facs_2_region_1684822498219_580_tl_7" n="N008" break="no"/>fallen hat, weiß ich nicht; jedenfalls war es während der
       <lb facs="#facs_2_region_1684822498219_580_tl_8" n="N009"/>drei Viertelstunden, die ich gesprochen habe, so mäuschenstill
       <lb facs="#facs_2_region_1684822498219_580_tl_9" n="N010"/>in dem sonst sehr unruhigen Hause, wie ich es bisher kaum
       <lb facs="#facs_2_region_1684822498219_580_tl_10" n="N011"/>erlebt habe. Es war wol die Neugierde, einen „neuen“
       <lb facs="#facs_2_region_1684822498219_580_tl_11" n="N012"/>Mann sprechen zu hören.
+            </p><p>
       <lb facs="#facs_2_region_1684822498219_580_tl_12" n="N013"/>4. December <date>1891</date>.
       <lb facs="#facs_2_region_1684822498219_580_tl_13" n="N014"/>Du verziehst mich schrecklich. Wie sonderbar doch das
       <lb facs="#facs_2_line_1701176895646_1611" n="N015"/>Leben ist. Ich hätte nie geglaubt, daß ich je in unserem 
@@ -1084,55 +1071,56 @@
       <lb facs="#facs_2_line_1701176736846_1567" n="N018"/>Reden fast so. Ich bin jetzt doch etwas nervös geworden,
       <lb facs="#facs_2_region_1684822498219_580_tl_16" n="N019"/>mehr durch die langweiligen Delegations-Sitzungen, als durch
       <lb facs="#facs_2_region_1684822498219_580_tl_17" n="N020"/>schlaflose Nächte, in welchen ich als Vorbereitung zu meiner
-      <lb facs="#facs_2_region_1684822498219_580_tl_18" n="N021"/>zweiten Rede noch einmal die ganze Zeit von <date>1870</date> durch¬
-      <lb facs="#facs_2_region_1684822498219_580_tl_19" n="N022"/>lebte, Abends vorher Kriegskarten studirte; um 6 Uhr Diners.
-      <lb facs="#facs_2_region_1684822498219_580_tl_20" n="N023"/>Nun habe ich genug davon und sehne mich schon nach <rs type="place">Abbazia</rs>.
+      <lb facs="#facs_2_region_1684822498219_580_tl_18" n="N021"/>zweiten Rede noch einmal die ganze Zeit von <date>1870</date> durch
+      <lb facs="#facs_2_region_1684822498219_580_tl_19" n="N022" break="no"/>lebte, Abends vorher Kriegskarten studirte; um 6 Uhr Diners.
+      <lb facs="#facs_2_region_1684822498219_580_tl_20" n="N023"/>Nun habe ich genug davon und sehne mich schon nach <rs type="place" ref="#hsl_place_id_308">Abbazia</rs>.
+            </p><p>
       <lb facs="#facs_2_region_1684822498219_580_tl_21" n="N024"/>10. December <date>1891</date>.
       <lb facs="#facs_2_region_1684822498219_580_tl_22" n="N025"/>Ich schicke dir beiliegend meine beiden Reden; vielleicht
       <lb facs="#facs_2_region_1684822498219_580_tl_23" n="N026"/>freut es dich, sie durchzusehen, sie sind ein Stück von mir.
       <lb facs="#facs_2_region_1684822498219_580_tl_24" n="N027"/>Du magst sie behalten, wenn du willst. Ich lege von den
       <lb facs="#facs_2_region_1684822498219_580_tl_25" n="N028"/>zahllosen Ausschnitten aus ausländischen Zeitungen zwei bei,
       <lb facs="#facs_2_region_1684822498219_580_tl_26" n="N029"/>die dich vielleicht amüsiren werden.
-      <lb facs="#facs_2_region_1684822498219_580_tl_27" n="N030"/>Vielleicht schreibe ich am <rs type="place">Semmering</rs> wieder ein Capitel
-      <lb facs="#facs_2_region_1684822498219_580_tl_28" n="N031"/>meiner <rs type="bibl">Aphorismen über Musik</rs>. Vielleicht ist mein Herz
+            </p><p>
+      <lb facs="#facs_2_region_1684822498219_580_tl_27" n="N030"/>Vielleicht schreibe ich am <rs type="place" ref="#hsl_place_id_278">Semmering</rs> wieder ein Capitel
+      <lb facs="#facs_2_region_1684822498219_580_tl_28" n="N031"/>meiner <rs type="bibl" ref="#hsl_work_id_2168">Aphorismen über Musik</rs>. Vielleicht ist mein Herz
       <lb facs="#facs_2_region_1684822498219_580_tl_29" n="N032"/>bis dahin schon längst in irgend einer Launenhaftigkeit still
       <lb facs="#facs_2_region_1684822498219_580_tl_30" n="N033"/>geworden. Mir ist manchmal zu Muthe, als würde ich die
       <lb facs="#facs_2_region_1684822498219_580_tl_31" n="N034"/>nächste Stunde nicht erleben. Thut nichts! — Habe mich
       <lb facs="#facs_2_region_1684822498219_580_tl_32" n="N035"/>lieb und behalte mich lieb, todt oder lebendig; man wird
       <lb facs="#facs_2_region_1684822498219_580_tl_33" n="N036"/>mich mit viel Liebe begraben. — Vielleicht kommt es anders.
+            </p><p>
       <lb facs="#facs_2_region_1684822498219_580_tl_34" n="N037"/>26. Januar <date>1892</date>.
       <lb facs="#facs_2_region_1684822498219_580_tl_35" n="N038"/>Mit Rührung habe ich heute gelesen, was du über den
-      <lb facs="#facs_2_region_1684822498219_580_tl_36" n="N039"/>alten Soldatensänger <rs type="person">Haitzinger</rs> geschrieben hast; das war
+      <lb facs="#facs_2_region_1684822498219_580_tl_36" n="N039"/>alten Soldatensänger <rs type="person" ref="#hsl_person_id_3620">Haitzinger</rs> geschrieben hast; das war
       <lb facs="#facs_2_region_1684822498219_580_tl_37" n="N040"/>sehr lieb von dir. Seine kunstvolle und doch wieder naive
       <lb facs="#facs_2_region_1684822498219_580_tl_38" n="N041"/>Art des Singens hat mich sehr interessirt. Ich habe die
-      <lb facs="#facs_2_line_1701176804462_1584" n="N042"/>Empfindung gehabt, daß man gerade so zu <rs type="person">Schubert</rs>’s Zeit</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684822503045_583_tl_1" n="N001"/>sang: in erster Linie <hi rendition="#em">rein musikalisch</hi>, nur um zu
-      <lb facs="#facs_2_region_1684822503045_583_tl_2" n="N002"/>singen und singen zu hören. <rs type="person">Brahms</rs> vermißte: tiefere
+      <lb facs="#facs_2_line_1701176804462_1584" n="N042"/>Empfindung gehabt, daß man gerade so zu <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s Zeit<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684822503045_583_tl_1" n="N001"/>sang: in erster Linie <hi rendition="#em">rein musikalisch</hi>, nur um zu
+      <lb facs="#facs_2_region_1684822503045_583_tl_2" n="N002"/>singen und singen zu hören. <rs type="person" ref="#hsl_person_id_41">Brahms</rs> vermißte: tiefere
       <lb facs="#facs_2_region_1684822503045_583_tl_3" n="N003"/>Auffassung, Seele, künstlerische Noblesse. Ich weiß nicht, ob
-      <lb facs="#facs_2_region_1684822503045_583_tl_4" n="N004"/>das wirklich so besonders vorwiegend von <rs type="person">Schubert</rs> intendirt
+      <lb facs="#facs_2_region_1684822503045_583_tl_4" n="N004"/>das wirklich so besonders vorwiegend von <rs type="person" ref="#hsl_person_id_279">Schubert</rs> intendirt
       <lb facs="#facs_2_region_1684822503045_583_tl_5" n="N005"/>war; ich meine immer, wir modernen Menschen verbinden
-      <lb facs="#facs_2_region_1684822503045_583_tl_6" n="N006"/>viel zu viel allerlei Dinge und Gedankenbilder und Gefühls¬
-      <lb facs="#facs_2_region_1684822503045_583_tl_7" n="N007"/>extreme mit der Musik vor <date>1848</date>. Die Musik allein genügt
+      <lb facs="#facs_2_region_1684822503045_583_tl_6" n="N006"/>viel zu viel allerlei Dinge und Gedankenbilder und Gefühls
+      <lb facs="#facs_2_region_1684822503045_583_tl_7" n="N007" break="no"/>extreme mit der Musik vor <date>1848</date>. Die Musik allein genügt
       <lb facs="#facs_2_region_1684822503045_583_tl_8" n="N008"/>den Meisten nicht, sie soll jetzt immer mit anderen Dingen
       <lb facs="#facs_2_region_1684822503045_583_tl_9" n="N009"/>verquickt sein, und wo dies nicht sein kann, sucht der Spieler
-      <lb facs="#facs_2_region_1684822503045_583_tl_10" n="N010"/>oder Sänger durch besondere Vortragsart unsere Aufmerk¬
-      <lb facs="#facs_2_region_1684822503045_583_tl_11" n="N011"/>samkeit von der Musik auf sich, auf seine sogenannte Auf¬
-      <lb facs="#facs_2_region_1684822503045_583_tl_12" n="N012"/>fassung zu lenken. Das Hören und Empfinden des einfach
+      <lb facs="#facs_2_region_1684822503045_583_tl_10" n="N010"/>oder Sänger durch besondere Vortragsart unsere Aufmerk
+      <lb facs="#facs_2_region_1684822503045_583_tl_11" n="N011" break="no"/>samkeit von der Musik auf sich, auf seine sogenannte Auf
+      <lb facs="#facs_2_region_1684822503045_583_tl_12" n="N012" break="no"/>fassung zu lenken. Das Hören und Empfinden des einfach
       <lb facs="#facs_2_region_1684822503045_583_tl_13" n="N013"/>musikalisch Schönen und die abstracte Lust daran scheint mir
       <lb facs="#facs_2_region_1684822503045_583_tl_14" n="N014"/>sehr in Abnahme begriffen. Das Interessante ist der Feind
       <lb facs="#facs_2_region_1684822503045_583_tl_15" n="N015"/>des Schönen. Das Schöne und Schönste kann nicht wol
       <lb facs="#facs_2_region_1684822503045_583_tl_16" n="N016"/>interessant sein, ebensowenig wie das Gute und Beste. Das
-      <lb facs="#facs_2_region_1684822503045_583_tl_17" n="N017"/>absolut Schönste und Beste wird wie Gold immer lang¬
-      <lb facs="#facs_2_region_1684822503045_583_tl_18" n="N018"/>weilig sein, weil es eben das Schönste und Beste ist, das
+      <lb facs="#facs_2_region_1684822503045_583_tl_17" n="N017"/>absolut Schönste und Beste wird wie Gold immer lang
+      <lb facs="#facs_2_region_1684822503045_583_tl_18" n="N018" break="no"/>weilig sein, weil es eben das Schönste und Beste ist, das
       <lb facs="#facs_2_region_1684822503045_583_tl_19" n="N019"/>Interessante aber den Wechsel von Schön und weniger
       <lb facs="#facs_2_region_1684822503045_583_tl_20" n="N020"/>Schön involvirt.
-      <lb facs="#facs_2_region_1684822503045_583_tl_21" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="place">Aussee</rs>
-               </hi>, 2. October <date>1892</date>.
-      <lb facs="#facs_2_region_1684822503045_583_tl_22" n="N022"/>(Nach <rs type="person">Billroth</rs>’s Jubiläum als Professor an der <rs type="place">Wien</rs>er Universität.)
+            </p><p>
+      <lb facs="#facs_2_region_1684822503045_583_tl_21" n="N021"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_416">Aussee</rs></hi>, 2. October <date>1892</date>.
+      <lb facs="#facs_2_region_1684822503045_583_tl_22" n="N022"/>(Nach <rs type="person" ref="#hsl_person_id_34">Billroth</rs>’s Jubiläum als Professor an der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Universität.)
       <lb facs="#facs_2_region_1684822503045_583_tl_23" n="N023"/>Ich müßte ein Herz von Stein haben und überhaupt
       <lb facs="#facs_2_region_1684822503045_583_tl_24" n="N024"/>kein Mensch sein, wenn ich nicht durch die Unzahl von
       <lb facs="#facs_2_region_1684822503045_583_tl_25" n="N025"/>Telegrammen und Briefen von der ganzen Erdoberfläche
@@ -1141,10 +1129,11 @@
       <lb facs="#facs_2_region_1684822503045_583_tl_28" n="N028"/>entgegenbringe, sei es als meinen Schülern, sei es als meinen
       <lb facs="#facs_2_region_1684822503045_583_tl_29" n="N029"/>Patienten. Man kann sich nur satt essen und satt trinken.
       <lb facs="#facs_2_region_1684822503045_583_tl_30" n="N030"/>Doch aller Menschen Liebe würde man nimmer satt.
+            </p><p>
       <lb facs="#facs_2_region_1684822503045_583_tl_31" n="N031"/>Ich habe es nie für wahrscheinlich gehalten, daß man
-      <lb facs="#facs_2_region_1684822503045_583_tl_32" n="N032"/>dem <rs type="person">Kaiser</rs> vorschlagen würde, mich zum Geheimen Rath
+      <lb facs="#facs_2_region_1684822503045_583_tl_32" n="N032"/>dem <rs type="person" ref="#hsl_person_id_1130">Kaiser</rs> vorschlagen würde, mich zum Geheimen Rath
       <lb facs="#facs_2_region_1684822503045_583_tl_33" n="N033"/>zu ernennen. Wir stehen als Universitäts-Professoren, als
-      <lb facs="#facs_2_region_1684822503045_583_tl_34" n="N034"/>Lehrer des zukünftigen <rs type="place">Oesterreich</rs> ja doch eigentlich ganz
+      <lb facs="#facs_2_region_1684822503045_583_tl_34" n="N034"/>Lehrer des zukünftigen <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> ja doch eigentlich ganz
       <lb facs="#facs_2_region_1684822503045_583_tl_35" n="N035"/>außerhalb der Beamtenwelt. Wir sind nur unserem Gewissen
       <lb facs="#facs_2_region_1684822503045_583_tl_36" n="N036"/>verantwortlich, und da gibt es keine Rangstufen, denn vom
       <lb facs="#facs_2_region_1684822503045_583_tl_37" n="N037"/>Gewissen zur Niedertracht ist nur Ein Schritt. — Du hast
