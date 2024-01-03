@@ -106,7 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2023-12-10">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-12-14">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2024-01-03">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
@@ -924,49 +924,35 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684740611133_3691_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1684740611133_3691_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2282">Hänsel und Gretel</rs></hi>“, Märchenspiel in drei Bildern von E. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs></hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1701502653856_2028" n="N001"/>Nr. 10893. Wien, Donnerstag, den 20. December 1894</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684740611133_3691_tl_1" n="N001"/>Hofoperntheater.
-      <lb facs="#facs_1_region_1684740611133_3691_tl_2" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Hänsel und Gretel</rs>
-               </hi>“, Märchenspiel in drei Bildern von E. <hi rendition="#em">
-                  <rs type="person">Humperdinck</rs>
-               </hi>.)
-      <lb facs="#facs_1_region_1684740611133_3691_tl_3" n="N003"/>Ed. H. Das Geschwisterpaar <rs type="bibl">Hänsel und Gretel</rs> hat
-      <lb facs="#facs_1_region_1684740611133_3691_tl_4" n="N004"/>gestern in <rs type="place">Wien</rs> vollständig gesiegt, wie früher schon in den
-      <lb facs="#facs_1_region_1684740611133_3691_tl_5" n="N005"/>vornehmsten Musikstädten <rs type="place">Deutschland</rs>s. Der Name <hi rendition="#em">
-                  <rs type="person" continued="true">Humper¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684740611133_3691_tl_6" n="N006"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">dinck</rs>
-               </hi> ist trotz seines stoßweise rumpelnden Klanges bereits
+      <lb facs="#facs_1_region_1684740611133_3691_tl_3" n="N003"/>Ed. H. Das Geschwisterpaar <rs type="bibl" ref="#hsl_work_id_2282">Hänsel und Gretel</rs> hat
+      <lb facs="#facs_1_region_1684740611133_3691_tl_4" n="N004"/>gestern in <rs type="place" ref="#hsl_place_id_55">Wien</rs> vollständig gesiegt, wie früher schon in den
+      <lb facs="#facs_1_region_1684740611133_3691_tl_5" n="N005"/>vornehmsten Musikstädten <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s. Der Name <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1386">Humper
+      <lb facs="#facs_1_region_1684740611133_3691_tl_6" n="N006" break="no"/>dinck</rs></hi> ist trotz seines stoßweise rumpelnden Klanges bereits
       <lb facs="#facs_1_region_1684740611133_3691_tl_7" n="N007"/>populär geworden; die Welt hat ihn aussprechen gelernt.
       <lb facs="#facs_1_region_1684740611133_3691_tl_8" n="N008"/>Ein so großer, an den verschiedensten Orten, unter recht
       <lb facs="#facs_1_region_1684740611133_3691_tl_9" n="N009"/>ungleichen Verhältnissen behaupteter Erfolg — ein Erfolg,
-      <lb facs="#facs_1_region_1684740611133_3691_tl_10" n="N010"/>wie ihn seit <rs type="person">Neßler</rs>’s „<rs type="bibl">Trompeter</rs>“ keine <rs type="place">deutsch</rs>e Oper
+      <lb facs="#facs_1_region_1684740611133_3691_tl_10" n="N010"/>wie ihn seit <rs type="person" ref="#hsl_person_id_1529">Neßler</rs>’s „<rs type="bibl" ref="#hsl_work_id_953">Trompeter</rs>“ keine <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Oper
       <lb facs="#facs_1_region_1684740611133_3691_tl_11" n="N011"/>errungen hat — ist ohne ein entsprechendes Verdienst nicht
       <lb facs="#facs_1_region_1684740611133_3691_tl_12" n="N012"/>denkbar. Freilich braucht dieses Verdienst weder ein eminent
       <lb facs="#facs_1_region_1684740611133_3691_tl_13" n="N013"/>musikalisches noch selbst ein ungemischt künstlerisches zu sein.
       <lb facs="#facs_1_region_1684740611133_3691_tl_14" n="N014"/>Aber etwas Neues mußte es unserer rasch verzehrenden
-      <lb facs="#facs_1_region_1684740611133_3691_tl_15" n="N015"/>Generation jedenfalls geboten haben. Der „<rs type="bibl">Trompeter von</rs>
-               <lb facs="#facs_1_region_1684740611133_3691_tl_16" n="N016"/>
-               <rs type="bibl">Säkkingen</rs>“ machte seine Eroberungen hauptsächlich durch die
-      <lb facs="#facs_1_region_1684740611133_3691_tl_17" n="N017"/>allbeliebten <rs type="person">Scheffel’</rs>schen Gedichte; indem der Componist
-      <lb facs="#facs_1_region_1684740611133_3691_tl_18" n="N018"/>Paul <rs type="person">Heyse</rs>’s Wortspiel) sein Lichtchen <hi rendition="#em">auf</hi> den Scheffel
+      <lb facs="#facs_1_region_1684740611133_3691_tl_15" n="N015"/>Generation jedenfalls geboten haben. Der „<rs type="bibl" ref="#hsl_work_id_953">Trompeter von
+      <lb facs="#facs_1_region_1684740611133_3691_tl_16" n="N016"/>Säkkingen</rs>“ machte seine Eroberungen hauptsächlich durch die
+      <lb facs="#facs_1_region_1684740611133_3691_tl_17" n="N017"/>allbeliebten <rs type="person" ref="#hsl_person_id_1018">Scheffel’</rs>schen Gedichte; indem der Componist
+      <lb facs="#facs_1_region_1684740611133_3691_tl_18" n="N018"/>(nach Paul <rs type="person" ref="#hsl_person_id_1278">Heyse</rs>’s Wortspiel) sein Lichtchen <hi rendition="#em">auf</hi> den Scheffel
       <lb facs="#facs_1_region_1684740611133_3691_tl_19" n="N019"/>gestellt hatte, zog es die gefühlvollen Hörer wie Mücken an
-      <lb facs="#facs_1_region_1684740611133_3691_tl_20" n="N020"/>sich. Herr <rs type="person">Humperdinck</rs> wiederum erkannte scharfsichtig das
+      <lb facs="#facs_1_region_1684740611133_3691_tl_20" n="N020"/>sich. Herr <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs> wiederum erkannte scharfsichtig das
       <lb facs="#facs_1_line_1701502720703_2045" n="N021"/>völlig Neue, Ueberraschende, das darin lag, ein schlichtes
       <lb facs="#facs_1_region_1684740611133_3691_tl_21" n="N022"/>Kindermärchen auf die Opernbühne zu bringen. Der Effect
       <lb facs="#facs_1_region_1684740611133_3691_tl_22" n="N023"/>lag zunächst in dem Contrast dieses Stoffes gegen das
       <lb facs="#facs_1_region_1684740611133_3691_tl_23" n="N024"/>ganze uns geläufige Opern-Repertoire. Der erste Gegenschlag
-      <lb facs="#facs_1_region_1684740611133_3691_tl_24" n="N025"/>wider die lange Herrschaft einer bereits ermüdenden Kunst¬
-      <lb facs="#facs_1_region_1684740611133_3691_tl_25" n="N026"/>richtung wirkt mit fast unwiderstehlicher Gewalt. Im Rück¬
-      <lb facs="#facs_1_region_1684740611133_3691_tl_26" n="N027"/>schlag gegen die vierstündigen großen Opern haben unter
-      <lb facs="#facs_1_region_1684740611133_3691_tl_27" n="N028"/>
-               <rs type="person">Mascagni</rs>’s Vortritt die tragischen Einacter gesiegt. Und zu diesen
+      <lb facs="#facs_1_region_1684740611133_3691_tl_24" n="N025"/>wider die lange Herrschaft einer bereits ermüdenden Kunst
+      <lb facs="#facs_1_region_1684740611133_3691_tl_25" n="N026" break="no"/>richtung wirkt mit fast unwiderstehlicher Gewalt. Im Rück
+      <lb facs="#facs_1_region_1684740611133_3691_tl_26" n="N027" break="no"/>schlag gegen die vierstündigen großen Opern haben unter
+      <lb facs="#facs_1_region_1684740611133_3691_tl_27" n="N028"/><rs type="person" ref="#hsl_person_id_993">Mascagni</rs>’s Vortritt die tragischen Einacter gesiegt. Und zu diesen
       <lb facs="#facs_1_region_1684740611133_3691_tl_28" n="N029"/>uns bereits lästig gewordenen blutigen Miniatur-Tragödien ist
       <lb facs="#facs_1_region_1684740611133_3691_tl_29" n="N030"/>wieder der stärkste Gegensatz — das Kindermärchen. Dort
       <lb facs="#facs_1_region_1684740611133_3691_tl_30" n="N031"/>Verbrecher, Selbstmörder, betrogene Liebes- und Eheleute;
@@ -975,160 +961,152 @@
       <lb facs="#facs_1_region_1684740611133_3691_tl_33" n="N034"/>Leidenschaft, keine Liebesgeschichte, keine Verwicklung. Es ist
       <lb facs="#facs_1_region_1684740611133_3691_tl_34" n="N035"/>wirklich eine andere Welt, in die uns der Dichter führt,
       <lb facs="#facs_1_region_1684740611133_3691_tl_35" n="N036"/>und eine bessere.
-      <lb facs="#facs_1_region_1684740611133_3691_tl_36" n="N037"/>Neben diesem stofflichen Contrast, in den sich <rs type="person" continued="true">Humper¬</rs>
-               <lb facs="#facs_1_region_1684740611133_3691_tl_37" n="N038"/>
-               <rs type="person" continued="true">dinck</rs>’s Märchenspiel gegen das moderne Opernwesen stellt,
+            </p><p>
+      <lb facs="#facs_1_region_1684740611133_3691_tl_36" n="N037"/>Neben diesem stofflichen Contrast, in den sich <rs type="person" ref="#hsl_person_id_1386">Humper
+      <lb facs="#facs_1_region_1684740611133_3691_tl_37" n="N038" break="no"/>dinck</rs>’s Märchenspiel gegen das moderne Opernwesen stellt,
       <lb facs="#facs_1_region_1684740611133_3691_tl_38" n="N039"/>birgt es aber noch einen zweiten <hi rendition="#em">innern</hi> Gegensatz, der
-      <lb facs="#facs_1_line_1701589401974_443" n="N040"/>bedenklicher ist: der Contrast zwischen dem Stoff und seiner</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1701502812679_2072" n="N001"/>musikalischen Behandlung. Also ein falscher Contrast, ein
-      <lb facs="#facs_1_region_1684740635652_3694_tl_1" n="N002"/>Stylwiderspruch. Herr <rs type="person">Humperdinck</rs> konnte sich nicht ver¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_2" n="N003"/>hehlen, daß ihm das schlichte Märchen zwar ein neues, viel¬
-      <lb facs="#facs_1_line_1701502832743_2080" n="N004"/>versprechendes Sujet entgegenbringe, zugleich aber ein starkes
+      <lb facs="#facs_1_line_1701589401974_443" n="N040"/>bedenklicher ist: der Contrast zwischen dem Stoff und seiner<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1701502812679_2072" n="N001"/>musikalischen Behandlung. Also ein falscher Contrast, ein
+      <lb facs="#facs_1_region_1684740635652_3694_tl_1" n="N002"/>Stylwiderspruch. Herr <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs> konnte sich nicht ver
+      <lb facs="#facs_1_region_1684740635652_3694_tl_2" n="N003" break="no"/>hehlen, daß ihm das schlichte Märchen zwar ein neues, viel
+      <lb facs="#facs_1_line_1701502832743_2080" n="N004" break="no"/>versprechendes Sujet entgegenbringe, zugleich aber ein starkes
       <lb facs="#facs_1_region_1684740635652_3694_tl_3" n="N005"/>Hinderniß. In der Kindlichkeit lag der Reiz, aber zugleich die
-      <lb facs="#facs_1_region_1684740635652_3694_tl_4" n="N006"/>Gefahr dieses Opernstoffes. Wer „<rs type="bibl">Hänsel und Gretel</rs>“ aus dem
-      <lb facs="#facs_1_region_1684740635652_3694_tl_5" n="N007"/>
-               <rs type="person">Grimm</rs>’schen <rs type="bibl">Familienbuch</rs> kennt, der kann sich als Schau¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_6" n="N008"/>platz für ihre Dramatisirung wol nur ein Kindertheater vor¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_7" n="N009"/>stellen; ein Theater, das nicht blos <hi rendition="#em">für</hi> Kinder, sondern
-      <lb facs="#facs_1_region_1684740635652_3694_tl_8" n="N010"/>
-               <hi rendition="#em">von</hi> Kindern gespielt wird. Wirklich soll die Bearbeiterin
-      <lb facs="#facs_1_region_1684740635652_3694_tl_9" n="N011"/>von „<rs type="bibl">Hänsel und Gretel</rs>“, Frau <hi rendition="#em">Adelheid <rs type="person">Wette</rs>
-               </hi>,
-      <lb facs="#facs_1_region_1684740635652_3694_tl_10" n="N012"/>geborene <rs type="person">Humperdinck</rs>, ursprünglich nicht entfernt an
-      <lb facs="#facs_1_region_1684740635652_3694_tl_11" n="N013"/>ein Opernlibretto gedacht haben; sie wollte das be¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_12" n="N014"/>kannte Märchen blos für ihre Kinder dramatisiren.
+      <lb facs="#facs_1_region_1684740635652_3694_tl_4" n="N006"/>Gefahr dieses Opernstoffes. Wer „<rs type="bibl" ref="#hsl_work_id_2283">Hänsel und Gretel</rs>“ aus dem
+      <lb facs="#facs_1_region_1684740635652_3694_tl_5" n="N007"/><rs type="person" ref="#hsl_person_id_688 #hsl_person_id_3011">Grimm</rs>’schen <rs type="bibl" ref="#hsl_work_id_2284">Familienbuch</rs> kennt, der kann sich als Schau
+      <lb facs="#facs_1_region_1684740635652_3694_tl_6" n="N008" break="no"/>platz für ihre Dramatisirung wol nur ein Kindertheater vor
+      <lb facs="#facs_1_region_1684740635652_3694_tl_7" n="N009" break="no"/>stellen; ein Theater, das nicht blos <hi rendition="#em">für</hi> Kinder, sondern
+      <lb facs="#facs_1_region_1684740635652_3694_tl_8" n="N010"/><hi rendition="#em">von</hi> Kindern gespielt wird. Wirklich soll die Bearbeiterin
+      <lb facs="#facs_1_region_1684740635652_3694_tl_9" n="N011"/>von „<rs type="bibl" ref="#hsl_work_id_2282">Hänsel und Gretel</rs>“, Frau <hi rendition="#em">Adelheid <rs type="person" ref="#hsl_person_id_3738">Wette</rs></hi>,
+      <lb facs="#facs_1_region_1684740635652_3694_tl_10" n="N012"/>geborene <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs>, ursprünglich nicht entfernt an
+      <lb facs="#facs_1_region_1684740635652_3694_tl_11" n="N013"/>ein Opernlibretto gedacht haben; sie wollte das be
+      <lb facs="#facs_1_region_1684740635652_3694_tl_12" n="N014" break="no"/>kannte Märchen blos für ihre Kinder dramatisiren.
       <lb facs="#facs_1_line_1701502682223_2036" n="N015"/>Also eine ganz anspruchslose Kindervorstellung im
       <lb facs="#facs_1_region_1684740635652_3694_tl_13" n="N016"/>Familienzimmer, allenfalls mit einer Singspielmusik im
-      <lb facs="#facs_1_line_1701502872775_2089" n="N017"/>Geschmack von Adam <rs type="person">Hiller</rs> oder <rs type="person">Grétry</rs>. Allein damit war
-      <lb facs="#facs_1_region_1684740635652_3694_tl_14" n="N018"/>Herrn <rs type="person">Humperdinck</rs> natürlich nicht gedient. Mit seinen
+      <lb facs="#facs_1_line_1701502872775_2089" n="N017"/>Geschmack von Adam <rs type="person" ref="#hsl_person_id_125">Hiller</rs> oder <rs type="person" ref="#hsl_person_id_103">Grétry</rs>. Allein damit war
+      <lb facs="#facs_1_region_1684740635652_3694_tl_14" n="N018"/>Herrn <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs> natürlich nicht gedient. Mit seinen
       <lb facs="#facs_1_region_1684740635652_3694_tl_15" n="N019"/>kleinen Kindern wollte er die großen Kinder packen und
       <lb facs="#facs_1_region_1684740635652_3694_tl_16" n="N020"/>nicht daheim zu Hause, sondern im Operntheater. Da wäre
-      <lb facs="#facs_1_region_1684740635652_3694_tl_17" n="N021"/>er mit einer kindlich einfachen Musik und spärlich andeuten¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_18" n="N022"/>den Decorationen nicht weit gekommen. Nach den ersten
+      <lb facs="#facs_1_region_1684740635652_3694_tl_17" n="N021"/>er mit einer kindlich einfachen Musik und spärlich andeuten
+      <lb facs="#facs_1_region_1684740635652_3694_tl_18" n="N022" break="no"/>den Decorationen nicht weit gekommen. Nach den ersten
       <lb facs="#facs_1_region_1684740635652_3694_tl_19" n="N023"/>zwei Scenen hätte unser Opernpublicum einige Langweile
-      <lb facs="#facs_1_region_1684740635652_3694_tl_20" n="N024"/>und ein heftiges Verlangen nach pikantem Gewürz empfun¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_21" n="N025"/>den. Also: ein Kindermärchen, aber mit blendendem Aufputz,
-      <lb facs="#facs_1_region_1684740635652_3694_tl_22" n="N026"/>großem Orchester und modernster, womöglich <rs type="person">Wagner</rs>’scher
+      <lb facs="#facs_1_region_1684740635652_3694_tl_20" n="N024"/>und ein heftiges Verlangen nach pikantem Gewürz empfun
+      <lb facs="#facs_1_region_1684740635652_3694_tl_21" n="N025" break="no"/>den. Also: ein Kindermärchen, aber mit blendendem Aufputz,
+      <lb facs="#facs_1_region_1684740635652_3694_tl_22" n="N026"/>großem Orchester und modernster, womöglich <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’scher
       <lb facs="#facs_1_region_1684740635652_3694_tl_23" n="N027"/>Musik. Gedacht, gethan. Der Componist stellte sich diese
       <lb facs="#facs_1_region_1684740635652_3694_tl_24" n="N028"/>Aufgabe, und er hat sie behend und mit glücklichstem Erfolg
-      <lb facs="#facs_1_region_1684740635652_3694_tl_25" n="N029"/>gelöst. Sein Ziel ist erreicht — ob mit künstlerisch unbe¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_26" n="N030"/>denklichen Mitteln, darüber kann gestritten werden. Die
-      <lb facs="#facs_1_line_1701502956159_2112" n="N031"/>Naivetät des Kindermärchens sträubt sich meines Er¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_27" n="N032"/>achtens gegen den durchaus reflectirten <rs type="person">Wagner</rs>-Styl;
+      <lb facs="#facs_1_region_1684740635652_3694_tl_25" n="N029"/>gelöst. Sein Ziel ist erreicht — ob mit künstlerisch unbe
+      <lb facs="#facs_1_region_1684740635652_3694_tl_26" n="N030" break="no"/>denklichen Mitteln, darüber kann gestritten werden. Die
+      <lb facs="#facs_1_line_1701502956159_2112" n="N031"/>Naivetät des Kindermärchens sträubt sich meines Er
+      <lb facs="#facs_1_region_1684740635652_3694_tl_27" n="N032" break="no"/>achtens gegen den durchaus reflectirten <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Styl;
       <lb facs="#facs_1_region_1684740635652_3694_tl_28" n="N033"/>zwischen dem Stoff und seiner Ausführung besteht ein innerer
       <lb facs="#facs_1_region_1684740635652_3694_tl_29" n="N034"/>Widerspruch, über den sich Niemand täuschen kann. Auch der
       <lb facs="#facs_1_region_1684740635652_3694_tl_30" n="N035"/>Componist nicht, welcher diesen Widerspruch gewollt und ihn
       <lb facs="#facs_1_region_1684740635652_3694_tl_31" n="N036"/>ja für seinen Erfolg gebraucht hat. Das große Publicum,
-      <lb facs="#facs_1_region_1684740635652_3694_tl_32" n="N037"/>das sich an den Stoff und an die paar Kinderlieder ge¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_33" n="N038"/>fangen gibt, übersieht leicht jenen falschen Contrast; ästhetisch
+      <lb facs="#facs_1_region_1684740635652_3694_tl_32" n="N037"/>das sich an den Stoff und an die paar Kinderlieder ge
+      <lb facs="#facs_1_region_1684740635652_3694_tl_33" n="N038" break="no"/>fangen gibt, übersieht leicht jenen falschen Contrast; ästhetisch
       <lb facs="#facs_1_region_1684740635652_3694_tl_34" n="N039"/>empfindlichere Naturen fühlen sich trotzdem unbehaglich, wenn
       <lb facs="#facs_1_region_1684740635652_3694_tl_35" n="N040"/>ein überkünsteltes, pompöses Orchester die Scheltworte der
-      <lb facs="#facs_1_region_1684740635652_3694_tl_36" n="N041"/>Mutter illustrirt oder eine direct von <rs type="person">Wagner</rs>’s „<rs type="bibl">Nibelun¬</rs>
-               <lb facs="#facs_1_line_1701502982526_2118" n="N042"/>
-               <rs type="bibl">gen</rs>“ stammende Musik das Erdbeerpflücken der Kinder be¬
-      <lb facs="#facs_1_region_1684740635652_3694_tl_37" n="N043"/>gleitet. Indem Herr <rs type="person">Humperdinck</rs> diese Gegensätze muthig</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684740638837_3697_tl_1" n="N001"/>zusammenschweißte, hat er ebenso klug, wie seinerzeit <rs type="person">Wagner</rs>,
+      <lb facs="#facs_1_region_1684740635652_3694_tl_36" n="N041"/>Mutter illustrirt oder eine direct von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s „<rs type="bibl" ref="#hsl_work_id_418">Nibelun
+      <lb facs="#facs_1_line_1701502982526_2118" n="N042" break="no"/>gen</rs>“ stammende Musik das Erdbeerpflücken der Kinder be
+      <lb facs="#facs_1_region_1684740635652_3694_tl_37" n="N043" break="no"/>gleitet. Indem Herr <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs> diese Gegensätze muthig<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684740638837_3697_tl_1" n="N001"/>zusammenschweißte, hat er ebenso klug, wie seinerzeit <rs type="person" ref="#hsl_person_id_319">Wagner</rs>,
       <lb facs="#facs_1_region_1684740638837_3697_tl_2" n="N002"/>den herrschenden Zeitgeist begriffen und befriedigt. Er gibt
       <lb facs="#facs_1_region_1684740638837_3697_tl_3" n="N003"/>dem Publicum, das sich nach etwas stofflich ganz Neuem
-      <lb facs="#facs_1_region_1684740638837_3697_tl_4" n="N004"/>sehnt und doch zugleich noch am <rs type="person">Wagner</rs>ismus hängt. Beides
+      <lb facs="#facs_1_region_1684740638837_3697_tl_4" n="N004"/>sehnt und doch zugleich noch am <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ismus hängt. Beides
       <lb facs="#facs_1_region_1684740638837_3697_tl_5" n="N005"/>aus Einer Hand.
+            </p><p>
       <lb facs="#facs_1_region_1684740638837_3697_tl_6" n="N006"/>Der Componist gliedert seine Oper (wie wir sein
       <lb facs="#facs_1_region_1684740638837_3697_tl_7" n="N007"/>„Märchenspiel“ wol nennen dürfen) in drei Aufzüge. Die
       <lb facs="#facs_1_region_1684740638837_3697_tl_8" n="N008"/>Ouvertüre führt die meisten Leitmotive aus der Oper ins
       <lb facs="#facs_1_region_1684740638837_3697_tl_9" n="N009"/>Treffen, mit einander, gegen einander, verkürzt, verlängert.
-      <lb facs="#facs_1_region_1684740638837_3697_tl_10" n="N010"/>Natürlich sind alle diese Motive von den Wagnerianern be¬
-      <lb facs="#facs_1_region_1684740638837_3697_tl_11" n="N011"/>reits getauft: Abendsegen-Motiv, Sandmännchen-Motiv,
+      <lb facs="#facs_1_region_1684740638837_3697_tl_10" n="N010"/>Natürlich sind alle diese Motive von den Wagnerianern be
+      <lb facs="#facs_1_region_1684740638837_3697_tl_11" n="N011" break="no"/>reits getauft: Abendsegen-Motiv, Sandmännchen-Motiv,
       <lb facs="#facs_1_region_1684740638837_3697_tl_12" n="N012"/>Kinderreigen-Motiv u. s. w. Die Ouvertüre macht durch
-      <lb facs="#facs_1_region_1684740638837_3697_tl_13" n="N013"/>ihr künstliches polyphones Gewebe und das unruhige Ge¬
-      <lb facs="#facs_1_region_1684740638837_3697_tl_14" n="N014"/>wimmel der Mittelstimmen einen prätentiösen und doch un¬
-      <lb facs="#facs_1_region_1684740638837_3697_tl_15" n="N015"/>entschiedenen Eindruck. Auf ein Kindermärchen würde sie
+      <lb facs="#facs_1_region_1684740638837_3697_tl_13" n="N013"/>ihr künstliches polyphones Gewebe und das unruhige Ge
+      <lb facs="#facs_1_region_1684740638837_3697_tl_14" n="N014" break="no"/>wimmel der Mittelstimmen einen prätentiösen und doch un
+      <lb facs="#facs_1_region_1684740638837_3697_tl_15" n="N015" break="no"/>entschiedenen Eindruck. Auf ein Kindermärchen würde sie
       <lb facs="#facs_1_region_1684740638837_3697_tl_16" n="N016"/>niemals schließen lassen. Sie legt auch eine Methode oder
       <lb facs="#facs_1_region_1684740638837_3697_tl_17" n="N017"/>Manier des Componisten bloß, die mehr ein mechanisches
-      <lb facs="#facs_1_region_1684740638837_3697_tl_18" n="N018"/>Fortsetzen ist als freies musikalisches Schaffen: die maßlose An¬
-      <lb facs="#facs_1_region_1684740638837_3697_tl_19" n="N019"/>wendung sogenannter Rosalien oder Schusterflecke, welche
+      <lb facs="#facs_1_region_1684740638837_3697_tl_18" n="N018"/>Fortsetzen ist als freies musikalisches Schaffen: die maßlose An
+      <lb facs="#facs_1_region_1684740638837_3697_tl_19" n="N019" break="no"/>wendung sogenannter Rosalien oder Schusterflecke, welche
       <lb facs="#facs_1_region_1684740638837_3697_tl_20" n="N020"/>jedes Motiv (oft ein halbdutzendmal) auf den nächst höheren
       <lb facs="#facs_1_region_1684740638837_3697_tl_21" n="N021"/>Tonstufen wiederholen. Der erste Act beginnt sehr
-      <lb facs="#facs_1_region_1684740638837_3697_tl_22" n="N022"/>hübsch: <rs type="person">Hänsel</rs> und <rs type="person">Gretel</rs> suchen in Abwesenheit der
+      <lb facs="#facs_1_region_1684740638837_3697_tl_22" n="N022"/>hübsch: <rs type="person" ref="#hsl_person_id_3739">Hänsel</rs> und <rs type="person" ref="#hsl_person_id_3740">Gretel</rs> suchen in Abwesenheit der
       <lb facs="#facs_1_region_1684740638837_3697_tl_23" n="N023"/>Eltern sich die Zeit und den Hunger zu vertreiben.
-      <lb facs="#facs_1_line_1701502895087_2101" n="N024"/>
-               <rs type="person">Gretel</rs> singt das bekannte Kinderlied: „Suse, liebe Suse,
+      <lb facs="#facs_1_line_1701502895087_2101" n="N024"/><rs type="person" ref="#hsl_person_id_3740">Gretel</rs> singt das bekannte Kinderlied: „Suse, liebe Suse,
       <lb facs="#facs_1_line_1701502940671_2106" n="N025"/>was raschelt im Stroh?“, dem bald ein zweites folgt:
       <lb facs="#facs_1_region_1684740638837_3697_tl_28" n="N026"/>„Brüderchen, komm’, tanz’ mit mir.“ Wie das die beiden
       <lb facs="#facs_1_region_1684740638837_3697_tl_29" n="N027"/>Kleinen zugleich tanzen und singen, ist ganz allerliebst. Alles,
       <lb facs="#facs_1_region_1684740638837_3697_tl_30" n="N028"/>was sie dazwischen einander mittheilen, zeigt die unnatürlich
-      <lb facs="#facs_1_region_1684740638837_3697_tl_31" n="N029"/>herumspringende Declamationsweise der „<rs type="bibl">Meistersinger</rs>“, dazu
-      <lb facs="#facs_1_region_1684740638837_3697_tl_32" n="N030"/>im Orchester dieselbe nervöse Motiverfaserung und contra¬
-      <lb facs="#facs_1_region_1684740638837_3697_tl_33" n="N031"/>punktische Altklugheit. Das bleibt sich die ganze Oper hin¬
-      <lb facs="#facs_1_region_1684740638837_3697_tl_34" n="N032"/>durch in allen jenen Theilen gleich, die man kurz unter
+      <lb facs="#facs_1_region_1684740638837_3697_tl_31" n="N029"/>herumspringende Declamationsweise der „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“, dazu
+      <lb facs="#facs_1_region_1684740638837_3697_tl_32" n="N030"/>im Orchester dieselbe nervöse Motiverfaserung und contra
+      <lb facs="#facs_1_region_1684740638837_3697_tl_33" n="N031" break="no"/>punktische Altklugheit. Das bleibt sich die ganze Oper hin
+      <lb facs="#facs_1_region_1684740638837_3697_tl_34" n="N032" break="no"/>durch in allen jenen Theilen gleich, die man kurz unter
       <lb facs="#facs_1_region_1684740638837_3697_tl_35" n="N033"/>„Conversation“ oder „Dialog“ zusammenfassen kann. Die
-      <lb facs="#facs_1_region_1684740638837_3697_tl_36" n="N034"/>
-               <rs type="person">Mutter</rs> erscheint scheltend und jagt die Kinder fort in den
-      <lb facs="#facs_1_region_1684740638837_3697_tl_37" n="N035"/>Wald, Erdbeeren zu pflücken. Nun kommt der <rs type="person">Besenbinder</rs>
-               <lb facs="#facs_1_region_1684740638837_3697_tl_38" n="N036"/>nach Hause, erschrickt, da er die Kinder nicht findet, und eilt
+      <lb facs="#facs_1_region_1684740638837_3697_tl_36" n="N034"/><rs type="person" ref="#hsl_person_id_3741">Mutter</rs> erscheint scheltend und jagt die Kinder fort in den
+      <lb facs="#facs_1_region_1684740638837_3697_tl_37" n="N035"/>Wald, Erdbeeren zu pflücken. Nun kommt der <rs type="person" ref="#hsl_person_id_3742">Besenbinder</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684740638837_3697_tl_38" n="N036"/>nach Hause, erschrickt, da er die Kinder nicht findet, und eilt
       <lb facs="#facs_1_region_1684740638837_3697_tl_39" n="N037"/>dem verrufenen Walde zu, um die Kinder zu suchen. Eine
       <lb facs="#facs_1_region_1684740638837_3697_tl_40" n="N038"/>„Hexenritt“ überschriebene Zwischenactmusik malt mit
       <lb facs="#facs_1_region_1684740638837_3697_tl_41" n="N039"/>grellen Orchesterfarben die schauerliche Erzählung des
-      <lb facs="#facs_1_region_1684740638837_3697_tl_42" n="N040"/>
-               <rs type="person">Besenbinder</rs>s aus: ein schwacher <rs type="bibl">Walkurenritt</rs> — auf Besen.
+      <lb facs="#facs_1_region_1684740638837_3697_tl_42" n="N040"/><rs type="person" ref="#hsl_person_id_3742">Besenbinder</rs>s aus: ein schwacher <rs type="bibl" ref="#hsl_work_id_649">Walkurenritt</rs> — auf Besen.
       <lb facs="#facs_1_region_1684740638837_3697_tl_43" n="N041"/>Beim Aufziehen des Vorhanges sehen wir die Kinder im
-      <lb facs="#facs_1_region_1684740638837_3697_tl_44" n="N042"/>Walde; wieder beginnt <rs type="person">Gretel</rs> mit einem hübschen Kinder¬
-      <lb facs="#facs_1_line_1701502794158_2066" n="N043"/>liede: „Ein Männlein steht im Walde.“ Die Kinder naschen</p>
+      <lb facs="#facs_1_region_1684740638837_3697_tl_44" n="N042"/>Walde; wieder beginnt <rs type="person" ref="#hsl_person_id_3740">Gretel</rs> mit einem hübschen Kinder
+      <lb facs="#facs_1_line_1701502794158_2066" n="N043" break="no"/>liede: „Ein Männlein steht im Walde.“ Die Kinder naschen<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_line_1701503106255_2151" n="N001"/>zuerst fröhlich ihre Erdbeeren auf, dann bei einbrechender
-      <lb facs="#facs_2_region_1684740650068_3703_tl_1" n="N002"/>Nacht beginnen sie sich zu fürchten. <rs type="person">Sandmännchen</rs> singt
-      <lb facs="#facs_2_region_1684740650068_3703_tl_2" n="N003"/>sie in Schlaf, nachdem sie zuvor noch ihren Abendsegen ge¬
-      <lb facs="#facs_2_region_1684740650068_3703_tl_3" n="N004"/>betet („Abends will ich schlafen geh’n, vierzehn Engel um
-      <lb facs="#facs_2_region_1684740650068_3703_tl_4" n="N005"/>mich steh’n“). Das ist Alles in der Musik ungemein ge¬
-      <lb facs="#facs_2_region_1684740650068_3703_tl_5" n="N006"/>schickt gemacht und stimmungsvoll gehalten. Man bemerke
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1701503106255_2151" n="N001"/>zuerst fröhlich ihre Erdbeeren auf, dann bei einbrechender
+      <lb facs="#facs_2_region_1684740650068_3703_tl_1" n="N002"/>Nacht beginnen sie sich zu fürchten. <rs type="person" ref="#hsl_person_id_3743">Sandmännchen</rs> singt
+      <lb facs="#facs_2_region_1684740650068_3703_tl_2" n="N003"/>sie in Schlaf, nachdem sie zuvor noch ihren Abendsegen ge
+      <lb facs="#facs_2_region_1684740650068_3703_tl_3" n="N004" break="no"/>betet („Abends will ich schlafen geh’n, vierzehn Engel um
+      <lb facs="#facs_2_region_1684740650068_3703_tl_4" n="N005"/>mich steh’n“). Das ist Alles in der Musik ungemein ge
+      <lb facs="#facs_2_region_1684740650068_3703_tl_5" n="N006" break="no"/>schickt gemacht und stimmungsvoll gehalten. Man bemerke
       <lb facs="#facs_2_region_1684740650068_3703_tl_6" n="N007"/>beispielsweise die wirkungsvolle Behandlung des Echo und
-      <lb facs="#facs_2_region_1684740650068_3703_tl_7" n="N008"/>des Kukuksrufes. In diesem Wald-Idyll zeigt sich <rs type="person" continued="true">Humper¬</rs>
-               <lb facs="#facs_2_region_1684740650068_3703_tl_8" n="N009"/>
-               <rs type="person" continued="true">dinck</rs> wirklich als Poet. Aber der Haupttrumpf wird noch
+      <lb facs="#facs_2_region_1684740650068_3703_tl_7" n="N008"/>des Kukuksrufes. In diesem Wald-Idyll zeigt sich <rs type="person" ref="#hsl_person_id_1386">Humper
+      <lb facs="#facs_2_region_1684740650068_3703_tl_8" n="N009" break="no"/>dinck</rs> wirklich als Poet. Aber der Haupttrumpf wird noch
       <lb facs="#facs_2_region_1684740650068_3703_tl_9" n="N010"/>ausgespielt. Ein heller Schein durchbricht den Nebel und
       <lb facs="#facs_2_region_1684740650068_3703_tl_10" n="N011"/>beleuchtet eine vom Himmel herabführende goldene Treppe,
       <lb facs="#facs_2_region_1684740650068_3703_tl_11" n="N012"/>auf welcher die vierzehn Engel leibhaftig niedersteigen und
-      <lb facs="#facs_2_region_1684740650068_3703_tl_12" n="N013"/>die schlafenden Kinder schützend umkreisen. Ein ganzer Heer¬
-      <lb facs="#facs_2_region_1684740650068_3703_tl_13" n="N014"/>bann von Engeln erhebt sich hinter ihnen, bis zur Himmels¬
-      <lb facs="#facs_2_region_1684740650068_3703_tl_14" n="N015"/>decke aufsteigend, Erzengel <rs type="person">Michael</rs> mit Schwert und Rüstung
+      <lb facs="#facs_2_region_1684740650068_3703_tl_12" n="N013"/>die schlafenden Kinder schützend umkreisen. Ein ganzer Heer
+      <lb facs="#facs_2_region_1684740650068_3703_tl_13" n="N014" break="no"/>bann von Engeln erhebt sich hinter ihnen, bis zur Himmels
+      <lb facs="#facs_2_region_1684740650068_3703_tl_14" n="N015" break="no"/>decke aufsteigend, Erzengel <rs type="person" ref="#hsl_person_id_3744">Michael</rs> mit Schwert und Rüstung
       <lb facs="#facs_2_region_1684740650068_3703_tl_15" n="N016"/>in der Mitte. Ein prächtiges Bild von ungemein poetischer
       <lb facs="#facs_2_region_1684740650068_3703_tl_16" n="N017"/>und malerischer Wirkung. Die Musik dazu steht nicht auf
       <lb facs="#facs_2_region_1684740650068_3703_tl_17" n="N018"/>der Höhe der vorangehenden Waldscene; sie entfaltet mit
       <lb facs="#facs_2_region_1684740650068_3703_tl_18" n="N019"/>ihrem Geschmetter aller Blechinstrumente, in das sich nach
-      <lb facs="#facs_2_region_1684740650068_3703_tl_19" n="N020"/>dem Recept der <rs type="bibl">Tannhäuser</rs>-Ouvertüre eine schrille, zackige
+      <lb facs="#facs_2_region_1684740650068_3703_tl_19" n="N020"/>dem Recept der <rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>-Ouvertüre eine schrille, zackige
       <lb facs="#facs_2_region_1684740650068_3703_tl_20" n="N021"/>Violinfigur einzwängt, einen gar zu derben Pomp. Der
       <lb facs="#facs_2_region_1684740650068_3703_tl_21" n="N022"/>dritte Act ist im Verhältniß zu seinem Inhalt offenbar zu
       <lb facs="#facs_2_region_1684740650068_3703_tl_22" n="N023"/>breit ausgesponnen und muß trotz einzelner sehr gelungener
       <lb facs="#facs_2_region_1684740650068_3703_tl_23" n="N024"/>Stellen, wie das Aufwachen der Geschwister, gegen die zwei
-      <lb facs="#facs_2_region_1684740650068_3703_tl_24" n="N025"/>früheren Acte abfallen. Die Scenen der <rs type="person">Hexe</rs> mit den Kin¬
-      <lb facs="#facs_2_region_1684740650068_3703_tl_25" n="N026"/>dern folgen getreu dem Märchen: <rs type="person">Gretel</rs> schiebt die <rs type="person">Hexe</rs>
-               <lb facs="#facs_2_region_1684740650068_3703_tl_26" n="N027"/>in den brennenden Ofen, der für sie und ihr <rs type="person">Brüderchen</rs>
-               <lb facs="#facs_2_region_1684740650068_3703_tl_27" n="N028"/>bestimmt war, und Beide singen und tanzen vor
+      <lb facs="#facs_2_region_1684740650068_3703_tl_24" n="N025"/>früheren Acte abfallen. Die Scenen der <rs type="person" ref="#hsl_person_id_3745">Hexe</rs> mit den Kin
+      <lb facs="#facs_2_region_1684740650068_3703_tl_25" n="N026" break="no"/>dern folgen getreu dem Märchen: <rs type="person" ref="#hsl_person_id_3740">Gretel</rs> schiebt die <rs type="person" ref="#hsl_person_id_3745">Hexe</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684740650068_3703_tl_26" n="N027"/>in den brennenden Ofen, der für sie und ihr <rs type="person" ref="#hsl_person_id_3739">Brüderchen</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684740650068_3703_tl_27" n="N028"/>bestimmt war, und Beide singen und tanzen vor
       <lb facs="#facs_2_region_1684740650068_3703_tl_28" n="N029"/>Freude. Die Eltern finden glücklich ihre Kinder
       <lb facs="#facs_2_region_1684740650068_3703_tl_29" n="N030"/>auf, und damit schließt naturgemäß das Märchen.
-      <lb facs="#facs_2_region_1684740650068_3703_tl_30" n="N031"/>Herr <rs type="person">Humperdinck</rs> hat aber einen andern Schluß dazu ge¬
-      <lb facs="#facs_2_region_1684740650068_3703_tl_31" n="N032"/>macht, den wir nur mit Zagen erzählen, denn es ist der
-      <lb facs="#facs_2_region_1684740650068_3703_tl_32" n="N033"/>reine Mißverstand. Vor dem Häuschen der <rs type="person">Hexe</rs> sehen wir
-      <lb facs="#facs_2_region_1684740650068_3703_tl_33" n="N034"/>eine lange Reihe von lebensgroßen Marzipanfiguren aufge¬
-      <lb facs="#facs_2_region_1684740650068_3703_tl_34" n="N035"/>stellt. Das sollen die von der Hexe „in Lebkuchen verwan¬
-      <lb facs="#facs_2_region_1684740650068_3703_tl_35" n="N036"/>delten Kinder“ sein, die nun durch <rs type="person">Hänsel</rs> und <rs type="person">Gretel</rs> erlöst
+      <lb facs="#facs_2_region_1684740650068_3703_tl_30" n="N031"/>Herr <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs> hat aber einen andern Schluß dazu ge
+      <lb facs="#facs_2_region_1684740650068_3703_tl_31" n="N032" break="no"/>macht, den wir nur mit Zagen erzählen, denn es ist der
+      <lb facs="#facs_2_region_1684740650068_3703_tl_32" n="N033"/>reine Mißverstand. Vor dem Häuschen der <rs type="person" ref="#hsl_person_id_3745">Hexe</rs> sehen wir
+      <lb facs="#facs_2_region_1684740650068_3703_tl_33" n="N034"/>eine lange Reihe von lebensgroßen Marzipanfiguren aufge
+      <lb facs="#facs_2_region_1684740650068_3703_tl_34" n="N035" break="no"/>stellt. Das sollen die von der <rs type="person" ref="#hsl_person_id_3745">Hexe</rs> „in Lebkuchen verwan
+      <lb facs="#facs_2_region_1684740650068_3703_tl_35" n="N036" break="no"/>delten Kinder“ sein, die nun durch <rs type="person" ref="#hsl_person_id_3739">Hänsel</rs> und <rs type="person" ref="#hsl_person_id_3740">Gretel</rs> erlöst
       <lb facs="#facs_2_region_1684740650068_3703_tl_36" n="N037"/>und wieder lebendig werden. Ohne eine „Erlösung“ geht es
-      <lb facs="#facs_2_region_1684740650068_3703_tl_37" n="N038"/>bei einem richtigen <rs type="person">Wagner</rs>-Apostel nicht ab. Bei <rs type="person">Wagner</rs>
-               <lb facs="#facs_2_region_1684740650068_3703_tl_38" n="N039"/>war bekanntlich die Erlösung zur fixen Idee geworden, vom
-      <lb facs="#facs_2_region_1684740650068_3703_tl_39" n="N040"/>
-               <rs type="bibl">Holländer</rs> bis zum <rs type="bibl">Parsifal</rs>. Die Lebkuchen-Erlösung klingt
+      <lb facs="#facs_2_region_1684740650068_3703_tl_37" n="N038"/>bei einem richtigen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Apostel nicht ab. Bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684740650068_3703_tl_38" n="N039"/>war bekanntlich die Erlösung zur fixen Idee geworden, vom
+      <lb facs="#facs_2_region_1684740650068_3703_tl_39" n="N040"/><rs type="bibl" ref="#hsl_work_id_237">Holländer</rs> bis zum <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>. Die Lebkuchen-Erlösung klingt
       <lb facs="#facs_2_region_1684740650068_3703_tl_40" n="N041"/>fast wie eine Parodie darauf. Zu welchem Zwecke fängt denn
-      <lb facs="#facs_2_line_1701503081735_2146" n="N042"/>die <rs type="person">Hexe</rs> kleine Kinder? Um Lebkuchen aus ihnen zu</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684740654367_3706_tl_1" n="N001"/>machen? Nein, um sie zu braten und zu verspeisen. Das
-      <lb facs="#facs_2_line_1701503156111_2166" n="N002"/>wird ja fortwährend auf der Bühne erzählt und vor un¬
-      <lb facs="#facs_2_region_1684740654367_3706_tl_2" n="N003"/>seren Augen vorbereitet. Daß die <rs type="person">Hexe</rs> die Kinder nicht
+      <lb facs="#facs_2_line_1701503081735_2146" n="N042"/>die <rs type="person" ref="#hsl_person_id_3745">Hexe</rs> kleine Kinder? Um Lebkuchen aus ihnen zu<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684740654367_3706_tl_1" n="N001"/>machen? Nein, um sie zu braten und zu verspeisen. Das
+      <lb facs="#facs_2_line_1701503156111_2166" n="N002"/>wird ja fortwährend auf der Bühne erzählt und vor un
+      <lb facs="#facs_2_region_1684740654367_3706_tl_2" n="N003" break="no"/>seren Augen vorbereitet. Daß die <rs type="person" ref="#hsl_person_id_3745">Hexe</rs> die Kinder nicht
       <lb facs="#facs_2_region_1684740654367_3706_tl_3" n="N004"/>verspeist, sondern in Marzipanfiguren verwandelt, um sie
       <lb facs="#facs_2_region_1684740654367_3706_tl_4" n="N005"/>als Staketenzaun vor ihr Haus zu stellen, das straft alles
       <lb facs="#facs_2_region_1684740654367_3706_tl_5" n="N006"/>Frühere Lügen und wirft eigentlich das ganze Märchen um.
@@ -1139,101 +1117,79 @@
       <lb facs="#facs_2_region_1684740654367_3706_tl_10" n="N011"/>sich freilich diesen Widerspruch nicht anfechten und brach am
       <lb facs="#facs_2_region_1684740654367_3706_tl_11" n="N012"/>Schlusse der Oper in einen Beifallssturm aus, wie wir
       <lb facs="#facs_2_region_1684740654367_3706_tl_12" n="N013"/>ihn nur selten im Opernhause erlebt haben.
+            </p><p>
       <lb facs="#facs_2_region_1684740654367_3706_tl_13" n="N014"/>Niemand wird diesen Erfolg einen unverdienten schelten.
-      <lb facs="#facs_2_region_1684740654367_3706_tl_14" n="N015"/>Herr <rs type="person">Humperdinck</rs> ist nicht blos ein begabter und äußert
+      <lb facs="#facs_2_region_1684740654367_3706_tl_14" n="N015"/>Herr <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs> ist nicht blos ein begabter und äußert
       <lb facs="#facs_2_region_1684740654367_3706_tl_15" n="N016"/>geschickter Musiker, er ist ohne Frage ein Mann von Geist
       <lb facs="#facs_2_region_1684740654367_3706_tl_16" n="N017"/>und Bildung, ein Künstler mit poetischer und malerischer
       <lb facs="#facs_2_region_1684740654367_3706_tl_17" n="N018"/>Phantasie. Was aber seine schöpferische musikalische Kraft
       <lb facs="#facs_2_region_1684740654367_3706_tl_18" n="N019"/>betrifft, so will sie mir nach dieser Oper — ich kenne nichts
-      <lb facs="#facs_2_region_1684740654367_3706_tl_19" n="N020"/>weiter von ihm — nicht stark erscheinen. Er ist kein musika¬
-      <lb facs="#facs_2_region_1684740654367_3706_tl_20" n="N021"/>lischer Erfinder im eminenten Sinn, kein „Originalgenie“,
-      <lb facs="#facs_2_region_1684740654367_3706_tl_21" n="N022"/>wie man früher sagte. Nur die glückliche Idee, ein be¬
-      <lb facs="#facs_2_region_1684740654367_3706_tl_22" n="N023"/>kanntes Kindermärchen auf die große Oper zu verpflanzen,
-      <lb facs="#facs_2_region_1684740654367_3706_tl_23" n="N024"/>ist ganz <hi rendition="#em">sein</hi>. Der musikalischen Erfinder in „<rs type="bibl">Hänsel und</rs>
-               <lb facs="#facs_2_region_1684740654367_3706_tl_24" n="N025"/>
-               <rs type="bibl">Gretel</rs>“ sind zwei: zuerst jene unbekannten, unberühmten
+      <lb facs="#facs_2_region_1684740654367_3706_tl_19" n="N020"/>weiter von ihm — nicht stark erscheinen. Er ist kein musika
+      <lb facs="#facs_2_region_1684740654367_3706_tl_20" n="N021" break="no"/>lischer Erfinder im eminenten Sinn, kein „Originalgenie“,
+      <lb facs="#facs_2_region_1684740654367_3706_tl_21" n="N022"/>wie man früher sagte. Nur die glückliche Idee, ein be
+      <lb facs="#facs_2_region_1684740654367_3706_tl_22" n="N023" break="no"/>kanntes Kindermärchen auf die große Oper zu verpflanzen,
+      <lb facs="#facs_2_region_1684740654367_3706_tl_23" n="N024"/>ist ganz <hi rendition="#em">sein</hi>. Der musikalischen Erfinder in „<rs type="bibl" ref="#hsl_work_id_2282">Hänsel und
+      <lb facs="#facs_2_region_1684740654367_3706_tl_24" n="N025"/>Gretel</rs>“ sind zwei: zuerst jene unbekannten, unberühmten
       <lb facs="#facs_2_region_1684740654367_3706_tl_25" n="N026"/>Mütter und Ammen, von denen die Kinderlieder herrühren,
-      <lb facs="#facs_2_region_1684740654367_3706_tl_26" n="N027"/>sodann Richard <rs type="person">Wagner</rs> als directes Vorbild des Styls,
-      <lb facs="#facs_2_region_1684740654367_3706_tl_27" n="N028"/>der Declamation, der Orchester-Behandlung. <rs type="person">Humperdinck</rs>’s
-      <lb facs="#facs_2_region_1684740654367_3706_tl_28" n="N029"/>Persönlichkeit geht völlig in <rs type="person">Wagner</rs> auf, was sich ja auch
+      <lb facs="#facs_2_region_1684740654367_3706_tl_26" n="N027"/>sodann Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> als directes Vorbild des Styls,
+      <lb facs="#facs_2_region_1684740654367_3706_tl_27" n="N028"/>der Declamation, der Orchester-Behandlung. <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs>’s
+      <lb facs="#facs_2_region_1684740654367_3706_tl_28" n="N029"/>Persönlichkeit geht völlig in <rs type="person" ref="#hsl_person_id_319">Wagner</rs> auf, was sich ja auch
       <lb facs="#facs_2_region_1684740654367_3706_tl_29" n="N030"/>biographisch erklärt. Persönlich aufs engste verbunden mit
-      <lb facs="#facs_2_region_1684740654367_3706_tl_30" n="N031"/>
-               <rs type="person">Wagner</rs> Vater und <rs type="person">Wagner</rs> Sohn, schwebt er zur Stunde
-      <lb facs="#facs_2_region_1684740654367_3706_tl_31" n="N032"/>als Heiliger Geist über dem <rs type="place">deutsch</rs>en „Musikdrama“. Er
-      <lb facs="#facs_2_region_1684740654367_3706_tl_32" n="N033"/>componirt nicht blos genau nach <rs type="person">Wagner</rs>’scher Methode,
+      <lb facs="#facs_2_region_1684740654367_3706_tl_30" n="N031"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> Vater und <rs type="person" ref="#hsl_person_id_319">Wagner</rs> Sohn, schwebt er zur Stunde
+      <lb facs="#facs_2_region_1684740654367_3706_tl_31" n="N032"/>als Heiliger Geist über dem <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en „Musikdrama“. Er
+      <lb facs="#facs_2_region_1684740654367_3706_tl_32" n="N033"/>componirt nicht blos genau nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’scher Methode,
       <lb facs="#facs_2_region_1684740654367_3706_tl_33" n="N034"/>seine Partitur wimmelt förmlich von Reminiscenzen aus
-      <lb facs="#facs_2_region_1684740654367_3706_tl_34" n="N035"/>den „<rs type="bibl">Nibelungen</rs>“ und den „<rs type="bibl">Meistersingern</rs>“. Sie sind so kennt¬
-      <lb facs="#facs_2_region_1684740654367_3706_tl_35" n="N036"/>lich und so zahlreich, daß sie aufzuzählen weder nothwendig
-      <lb facs="#facs_2_region_1684740654367_3706_tl_36" n="N037"/>noch möglich ist. Die unruhige Modulation und vor¬
-      <lb facs="#facs_2_region_1684740654367_3706_tl_37" n="N038"/>herrschende Enharmonik, das polyphone Gewebe in der Be¬
-      <lb facs="#facs_2_line_1701503019302_2128" n="N039"/>gleitung, welches den leitenden Gedanken oft ganz verdeckt,
+      <lb facs="#facs_2_region_1684740654367_3706_tl_34" n="N035"/>den „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>“ und den „<rs type="bibl" ref="#hsl_work_id_217">Meistersingern</rs>“. Sie sind so kennt
+      <lb facs="#facs_2_region_1684740654367_3706_tl_35" n="N036" break="no"/>lich und so zahlreich, daß sie aufzuzählen weder nothwendig
+      <lb facs="#facs_2_region_1684740654367_3706_tl_36" n="N037"/>noch möglich ist. Die unruhige Modulation und vor
+      <lb facs="#facs_2_region_1684740654367_3706_tl_37" n="N038" break="no"/>herrschende Enharmonik, das polyphone Gewebe in der Be
+      <lb facs="#facs_2_line_1701503019302_2128" n="N039" break="no"/>gleitung, welches den leitenden Gedanken oft ganz verdeckt,
       <lb facs="#facs_2_region_1684740654367_3706_tl_38" n="N040"/>die in entlegenen Intervallen herumstolpernde Declamation
-      <lb facs="#facs_2_line_1701503035160_2134" n="N041"/>mit dem Quint-Sext-Accord oder verminderten Septim¬
-      <lb facs="#facs_2_region_1684740654367_3706_tl_39" n="N042"/>Accord am Schluß einer Phrase, die unstet wechseln¬</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684740658431_3709_tl_1" n="N001"/>den Instrumente und raffinirten Orchester-Effecte — das
-      <lb facs="#facs_2_region_1684740658431_3709_tl_2" n="N002"/>Alles ist bis ins innerste Mark Richard <rs type="person">Wagner</rs>. Herr
-      <lb facs="#facs_2_region_1684740658431_3709_tl_3" n="N003"/>
-               <rs type="person">Humperdinck</rs> hat die Kinderlieder, welche ganz originalgetreu
-      <lb facs="#facs_2_region_1684740658431_3709_tl_4" n="N004"/>oder in leichter Umwandlung vorkommen, vortrefflich aus¬
-      <lb facs="#facs_2_region_1684740658431_3709_tl_5" n="N005"/>gewählt; sie bilden den unwiderstehlichen Zauber des ganzen
+      <lb facs="#facs_2_line_1701503035160_2134" n="N041"/>mit dem Quint-Sext-Accord oder verminderten Septim
+      <lb facs="#facs_2_region_1684740654367_3706_tl_39" n="N042" break="no"/>Accord am Schluß einer Phrase, die unstet wechseln</p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684740658431_3709_tl_1" n="N001" break="no"/>den Instrumente und raffinirten Orchester-Effecte — das
+      <lb facs="#facs_2_region_1684740658431_3709_tl_2" n="N002"/>Alles ist bis ins innerste Mark Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>. Herr
+      <lb facs="#facs_2_region_1684740658431_3709_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs> hat die Kinderlieder, welche ganz originalgetreu
+      <lb facs="#facs_2_region_1684740658431_3709_tl_4" n="N004"/>oder in leichter Umwandlung vorkommen, vortrefflich aus
+      <lb facs="#facs_2_region_1684740658431_3709_tl_5" n="N005" break="no"/>gewählt; sie bilden den unwiderstehlichen Zauber des ganzen
       <lb facs="#facs_2_region_1684740658431_3709_tl_6" n="N006"/>Werkes. Was er als melodiöser Erfinder aus eigenen Mitteln
-      <lb facs="#facs_2_region_1684740658431_3709_tl_7" n="N007"/>vorbringt, ist recht unbedeutend, von wohlfeiler Sentimen¬
-      <lb facs="#facs_2_region_1684740658431_3709_tl_8" n="N008"/>talität. Es ist mir keine einzige von <rs type="person">Humperdinck</rs> herrührende
-      <lb facs="#facs_2_region_1684740658431_3709_tl_9" n="N009"/>Melodie in der ganzen Oper als schön und originell auf¬
-      <lb facs="#facs_2_region_1684740658431_3709_tl_10" n="N010"/>gefallen. Um so hervorragender hebt sich seine dramatische
+      <lb facs="#facs_2_region_1684740658431_3709_tl_7" n="N007"/>vorbringt, ist recht unbedeutend, von wohlfeiler Sentimen
+      <lb facs="#facs_2_region_1684740658431_3709_tl_8" n="N008" break="no"/>talität. Es ist mir keine einzige von <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs> herrührende
+      <lb facs="#facs_2_region_1684740658431_3709_tl_9" n="N009"/>Melodie in der ganzen Oper als schön und originell auf
+      <lb facs="#facs_2_region_1684740658431_3709_tl_10" n="N010" break="no"/>gefallen. Um so hervorragender hebt sich seine dramatische
       <lb facs="#facs_2_region_1684740658431_3709_tl_11" n="N011"/>und malerische Begabung heraus. Sein Verdienst schätze ich
-      <lb facs="#facs_2_region_1684740658431_3709_tl_12" n="N012"/>nicht gering und freue mich des großen, allgemeinen Er¬
-      <lb facs="#facs_2_region_1684740658431_3709_tl_13" n="N013"/>folges, den ein junger <rs type="place">deutsch</rs>er Componist mit seiner
+      <lb facs="#facs_2_region_1684740658431_3709_tl_12" n="N012"/>nicht gering und freue mich des großen, allgemeinen Er
+      <lb facs="#facs_2_region_1684740658431_3709_tl_13" n="N013" break="no"/>folges, den ein junger <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Componist mit seiner
       <lb facs="#facs_2_region_1684740658431_3709_tl_14" n="N014"/>Erstlingsoper so schnell errungen hat. Dies hindert nicht,
       <lb facs="#facs_2_region_1684740658431_3709_tl_15" n="N015"/>daß man sich gegen die Uebertreibungen verwahrt, in denen
-      <lb facs="#facs_2_region_1684740658431_3709_tl_16" n="N016"/>die meisten Musikzeitungen sich im Preise von „<rs type="bibl">Hänsel und</rs>
-               <lb facs="#facs_2_region_1684740658431_3709_tl_17" n="N017"/>
-               <rs type="bibl">Gretel</rs>“ gefallen. „Seit <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi>,“ lesen wir in einer Wochen¬
-      <lb facs="#facs_2_line_1701503167544_2173" n="N018"/>schrift, „hat die dramatische Kunst keinen so sonnigen Humoristen
-      <lb facs="#facs_2_line_1701503171527_2178" n="N019"/>mehr gesehen, wie <rs type="person">Humperdinck</rs>!“ Und „geniale Tondichtung“,
-      <lb facs="#facs_2_region_1684740658431_3709_tl_22" n="N020"/>„epochemachendes Meisterwerk“ sind die geläufigsten Bezeich¬
-      <lb facs="#facs_2_region_1684740658431_3709_tl_23" n="N021"/>nungen für <rs type="person">Humperdinck</rs>’s Partitur. Auch ein Urtheil des
-      <lb facs="#facs_2_region_1684740658431_3709_tl_24" n="N022"/>jungen Siegfried <rs type="person">Wagner</rs> geht durch alle Zeitungen: „<rs type="bibl">Hänsel</rs>
-               <lb facs="#facs_2_line_1701503180215_2184" n="N023"/>
-               <rs type="bibl">und Gretel</rs>“ sei die bedeutendste <rs type="place">deutsch</rs>e Oper seit „<rs type="bibl">Parsifal</rs>“.
+      <lb facs="#facs_2_region_1684740658431_3709_tl_16" n="N016"/>die meisten Musikzeitungen sich im Preise von „<rs type="bibl" ref="#hsl_work_id_2282">Hänsel und
+      <lb facs="#facs_2_region_1684740658431_3709_tl_17" n="N017"/>Gretel</rs>“ gefallen. „Seit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi>,“ lesen wir in einer Wochen
+      <lb facs="#facs_2_line_1701503167544_2173" n="N018" break="no"/>schrift, „hat die dramatische Kunst keinen so sonnigen Humoristen
+      <lb facs="#facs_2_line_1701503171527_2178" n="N019"/>mehr gesehen, wie <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs>!“ Und „geniale Tondichtung“,
+      <lb facs="#facs_2_region_1684740658431_3709_tl_22" n="N020"/>„epochemachendes Meisterwerk“ sind die geläufigsten Bezeich
+      <lb facs="#facs_2_region_1684740658431_3709_tl_23" n="N021" break="no"/>nungen für <rs type="person" ref="#hsl_person_id_1386">Humperdinck</rs>’s Partitur. Auch ein Urtheil des
+      <lb facs="#facs_2_region_1684740658431_3709_tl_24" n="N022"/>jungen Siegfried <rs type="person" ref="#hsl_person_id_319">Wagner</rs> geht durch alle Zeitungen: „<rs type="bibl" ref="#hsl_work_id_2282">Hänsel
+      <lb facs="#facs_2_line_1701503180215_2184" n="N023"/>und Gretel</rs>“ sei die bedeutendste <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Oper seit „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“.
       <lb facs="#facs_2_region_1684740658431_3709_tl_27" n="N024"/>Also das Beste seit vollen zwölf Jahren? Ein ärgerliches
       <lb facs="#facs_2_region_1684740658431_3709_tl_28" n="N025"/>Wort, und das Aergerlichste daran — daß es wahr ist.
-      <lb facs="#facs_2_region_1684740658431_3709_tl_29" n="N026"/>Ueber den glänzenden Erfolg und die vollendete Auf¬
-      <lb facs="#facs_2_region_1684740658431_3709_tl_30" n="N027"/>führung der (von Director <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi> geleiteten) Novität ist
-      <lb facs="#facs_2_region_1684740658431_3709_tl_31" n="N028"/>bereits in Kürze berichtet worden. Voran sind Frl. <hi rendition="#em">
-                  <rs type="person">Renard</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684740658431_3709_tl_32" n="N029"/>(<rs type="person">Hänsel</rs>) und Frl. <hi rendition="#em">
-                  <rs type="person">Mark</rs>
-               </hi> (<rs type="person">Gretel</rs>) zu nennen, die sich in
+            </p><p>
+      <lb facs="#facs_2_region_1684740658431_3709_tl_29" n="N026"/>Ueber den glänzenden Erfolg und die vollendete Auf
+      <lb facs="#facs_2_region_1684740658431_3709_tl_30" n="N027" break="no"/>führung der (von Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_979">Jahn</rs></hi> geleiteten) Novität ist
+      <lb facs="#facs_2_region_1684740658431_3709_tl_31" n="N028"/>bereits in Kürze berichtet worden. Voran sind Frl. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_235">Renard</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684740658431_3709_tl_32" n="N029"/>(<rs type="person" ref="#hsl_person_id_3739">Hänsel</rs>) und Frl. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2998">Mark</rs></hi> (<rs type="person" ref="#hsl_person_id_3740">Gretel</rs>) zu nennen, die sich in
       <lb facs="#facs_2_line_1701591435463_664" n="N030"/>ihren schwierigen Rollen wieder als Talente allerersten
       <lb facs="#facs_2_region_1684740658431_3709_tl_33" n="N031"/>Ranges bewährt haben. Kein Lob ist zu groß für den Geist,
       <lb facs="#facs_2_region_1684740658431_3709_tl_34" n="N032"/>mit dem sie ihre Aufgabe erfaßt, und für die reizenden
       <lb facs="#facs_2_region_1684740658431_3709_tl_35" n="N033"/>Details, womit sie dieselbe verschwenderisch ausgeschmückt
-      <lb facs="#facs_2_line_1701503133223_2158" n="N034"/>haben. Welche besser sei, die <rs type="person">Renard</rs> oder die <rs type="person">Mark</rs>? Ich
-      <lb facs="#facs_2_region_1684740658431_3709_tl_36" n="N035"/>glaube, alle Beide. Mit einer vortrefflichen, ganz über¬
-      <lb facs="#facs_2_region_1684740658431_3709_tl_37" n="N036"/>raschenden Leistung gesellt sich ihnen Fräulein <hi rendition="#em">
-                  <rs type="person">Lehmann</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684740658431_3709_tl_38" n="N037"/>als <rs type="person">Hexe</rs> zu. Gestalten voll Kraft und Naturwahrheit sind
-      <lb facs="#facs_2_region_1684740658431_3709_tl_39" n="N038"/>Frau <hi rendition="#em">
-                  <rs type="person">Kaulich</rs>
-               </hi> und Herr <hi rendition="#em">
-                  <rs type="person">Ritter</rs>
-               </hi> als <rs type="person">Besenbinderpaar</rs>,
-      <lb facs="#facs_2_region_1684740658431_3709_tl_40" n="N039"/>anmuthige Märchenfiguren die Sängerinnen <hi rendition="#em">
-                  <rs type="person">Lederer</rs>
-               </hi> und
-      <lb facs="#facs_2_region_1684740658431_3709_tl_41" n="N040"/>
-               <hi rendition="#em">
-                  <rs type="person">Abendroth</rs>
-               </hi>. Dazu das virtuose Hofopern-Orchester und
+      <lb facs="#facs_2_line_1701503133223_2158" n="N034"/>haben. Welche besser sei, die <rs type="person" ref="#hsl_person_id_235">Renard</rs> oder die <rs type="person" ref="#hsl_person_id_2998">Mark</rs>? Ich
+      <lb facs="#facs_2_region_1684740658431_3709_tl_36" n="N035"/>glaube, alle Beide. Mit einer vortrefflichen, ganz über
+      <lb facs="#facs_2_region_1684740658431_3709_tl_37" n="N036" break="no"/>raschenden Leistung gesellt sich ihnen Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3746">Lehmann</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684740658431_3709_tl_38" n="N037"/>als <rs type="person" ref="#hsl_person_id_3745">Hexe</rs> zu. Gestalten voll Kraft und Naturwahrheit sind
+      <lb facs="#facs_2_region_1684740658431_3709_tl_39" n="N038"/>Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1057">Kaulich</rs></hi> und Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1430">Ritter</rs></hi> als <rs type="person" ref="#hsl_person_id_3742 #hsl_person_id_3741">Besenbinderpaar</rs>,
+      <lb facs="#facs_2_region_1684740658431_3709_tl_40" n="N039"/>anmuthige Märchenfiguren die Sängerinnen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3550">Lederer</rs></hi> und
+      <lb facs="#facs_2_region_1684740658431_3709_tl_41" n="N040"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2416">Abendroth</rs></hi>. Dazu das virtuose Hofopern-Orchester und
       <lb facs="#facs_2_region_1684740658431_3709_tl_42" n="N041"/>die blendende Ausstattung — was konnte da noch fehlen zu
       <lb facs="#facs_2_line_1701503060934_2141" n="N042"/>einem vollständigen Erfolg?</p>
          </div>
