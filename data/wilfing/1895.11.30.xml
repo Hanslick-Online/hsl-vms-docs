@@ -105,8 +105,8 @@
       </profileDesc>
       <revisionDesc status="final">
          <change who="awilfing" when="2023-12-14">Transkribus OCR und Lektorat.</change>
-            <change who="delsner" when="2023-12-14">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="delsner" when="2023-12-14">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2024-01-11">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
@@ -1305,68 +1305,57 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684738806099_3135_tl_1" n="N001"/><head type="h1"><rs type="person" ref="#hsl_person_id_34">Billroth</rs> über Musik.</head>
             <p>
-               <lb facs="#facs_1_line_1701768068797_1808" n="N001"/></p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684738806099_3135_tl_1" n="N001"/>
-               <rs type="person">Billroth</rs> über Musik.
-      <lb facs="#facs_1_region_1684738806099_3135_tl_2" n="N002"/>Ed. H.*) „Mein kleines Opus ist hoffentlich kein Klecks
+      <lb facs="#facs_1_region_1684738806099_3135_tl_2" n="N002"/>Ed. H.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_line_1701855952484_1237" n="N036"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2168">Wer ist musikalisch</rs></hi>?“ Nachgelassene Schrift von
+            <lb facs="#facs_1_line_1701855954651_1240" n="N037"/>Theodor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_34">Billroth</rs></hi>. Herausgegeben von Eduard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1">Hanslick</rs></hi>.
+            <lb facs="#facs_1_line_1701855956654_1243" n="N038"/><rs type="place" ref="#hsl_place_id_9">Berlin</rs>, bei Gebrüder Paetel, <date>1896</date>.
+            </note>
+            „Mein kleines Opus ist hoffentlich kein Klecks
       <lb facs="#facs_1_region_1684738806099_3135_tl_3" n="N003"/>auf meinen chirurgischen Namen. Das Publicum kennt viele
       <lb facs="#facs_1_line_1701856107060_1266" n="N004"/>Kinder aus meiner legitimen Ehe und hat sie über mein
       <lb facs="#facs_1_region_1684738806099_3135_tl_4" n="N005"/>und ihr Verdienst gütig aufgenommen; vielleicht wird es
-      <lb facs="#facs_1_region_1684738806099_3135_tl_5" n="N006"/>neugierig sein, auch dies Kind meiner Alterslaune anzu¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_6" n="N007"/>sehen.“ Diese so bescheiden und humoristisch ausgesprochene
-      <lb facs="#facs_1_region_1684738806099_3135_tl_7" n="N008"/>Erwartung <rs type="person">Billroth</rs>’s hat sich jetzt schon reichlich erfüllt.
-      <lb facs="#facs_1_region_1684738806099_3135_tl_8" n="N009"/>Von seiner nachgelassenen Schrift „<rs type="bibl">Wer ist musikalisch?</rs>“
-      <lb facs="#facs_1_region_1684738806099_3135_tl_9" n="N010"/>sind nur Exemplare der <hi rendition="#em">zweiten</hi> Auflage nach <rs type="place">Wien</rs> ge¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_10" n="N011"/>langt, so schnell war die erste vergriffen, bevor noch die Zei¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_11" n="N012"/>tungen Notiz von ihr nehmen konnten. Ein erfreulicher Be¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_12" n="N013"/>weis für die Liebe und Verehrung, welche der Name <rs type="person" continued="true">Bill¬</rs>
-               <lb facs="#facs_1_region_1684738806099_3135_tl_13" n="N014"/>
-               <rs type="person" continued="true">roth</rs> überall und nicht blos bei seinen Fachcollegen genießt.
+      <lb facs="#facs_1_region_1684738806099_3135_tl_5" n="N006"/>neugierig sein, auch dies Kind meiner Alterslaune anzu
+      <lb facs="#facs_1_region_1684738806099_3135_tl_6" n="N007" break="no"/>sehen.“ Diese so bescheiden und humoristisch ausgesprochene
+      <lb facs="#facs_1_region_1684738806099_3135_tl_7" n="N008"/>Erwartung <rs type="person" ref="#hsl_person_id_34">Billroth</rs>’s hat sich jetzt schon reichlich erfüllt.
+      <lb facs="#facs_1_region_1684738806099_3135_tl_8" n="N009"/>Von seiner nachgelassenen Schrift „<rs type="bibl" ref="#hsl_work_id_2168">Wer ist musikalisch?</rs>“
+      <lb facs="#facs_1_region_1684738806099_3135_tl_9" n="N010"/>sind nur Exemplare der <hi rendition="#em">zweiten</hi> Auflage nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> ge
+      <lb facs="#facs_1_region_1684738806099_3135_tl_10" n="N011" break="no"/>langt, so schnell war die erste vergriffen, bevor noch die Zei
+      <lb facs="#facs_1_region_1684738806099_3135_tl_11" n="N012" break="no"/>tungen Notiz von ihr nehmen konnten. Ein erfreulicher Be
+      <lb facs="#facs_1_region_1684738806099_3135_tl_12" n="N013" break="no"/>weis für die Liebe und Verehrung, welche der Name <rs type="person" ref="#hsl_person_id_34">Bill
+      <lb facs="#facs_1_region_1684738806099_3135_tl_13" n="N014" break="no"/>roth</rs> überall und nicht blos bei seinen Fachcollegen genießt.
       <lb facs="#facs_1_region_1684738806099_3135_tl_14" n="N015"/>Die allgemeine Zuversicht, von dem berühmten Arzte auch
       <lb facs="#facs_1_region_1684738806099_3135_tl_15" n="N016"/>über Musik Bedeutendes zu hören, wird durch das Buch
       <lb facs="#facs_1_line_1701855664747_1150" n="N017"/>keine Enttäuschung erfahren, obgleich es eigentlich ein Torso
-      <lb facs="#facs_1_line_1701855680603_1156" n="N018"/>geblieben ist. Welch intensiv musikalische Natur <rs type="person" continued="true">Bill¬</rs>
-               <lb facs="#facs_1_region_1684738806099_3135_tl_16" n="N019"/>
-               <rs type="person" continued="true">roth</rs> gewesen, das weiß man freilich nirgends so
-      <lb facs="#facs_1_region_1684738806099_3135_tl_17" n="N020"/>gut wie in <rs type="place">Wien</rs>. Man mußte ihn selbst Clavier¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_18" n="N021"/>spielen hören, ihn bei seinen häuslichen Musikabenden oder
-      <lb facs="#facs_1_region_1684738806099_3135_tl_19" n="N022"/>im Concertsaale beobachtet, seinem treffenden Urtheile ge¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_20" n="N023"/>lauscht haben, um sofort zu fühlen, daß man nicht einem
-      <lb facs="#facs_1_region_1684738806099_3135_tl_21" n="N024"/>Dilettanten gegenüberstand. <rs type="person">Billroth</rs>’s Verhältniß zur Musik
-      <lb facs="#facs_1_region_1684738806099_3135_tl_22" n="N025"/>reichte weit hinaus über das fröhliche Genießen und talent¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_23" n="N026"/>volle Reproduciren. Sein energischer, in streng naturwissen¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_24" n="N027"/>schaftlicher Methode geschulter Geist begnügte sich auch in
+      <lb facs="#facs_1_line_1701855680603_1156" n="N018"/>geblieben ist. Welch intensiv musikalische Natur <rs type="person" ref="#hsl_person_id_34">Bill
+      <lb facs="#facs_1_region_1684738806099_3135_tl_16" n="N019" break="no"/>roth</rs> gewesen, das weiß man freilich nirgends so
+      <lb facs="#facs_1_region_1684738806099_3135_tl_17" n="N020"/>gut wie in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Man mußte ihn selbst Clavier
+      <lb facs="#facs_1_region_1684738806099_3135_tl_18" n="N021" break="no"/>spielen hören, ihn bei seinen häuslichen Musikabenden oder
+      <lb facs="#facs_1_region_1684738806099_3135_tl_19" n="N022"/>im Concertsaale beobachtet, seinem treffenden Urtheile ge
+      <lb facs="#facs_1_region_1684738806099_3135_tl_20" n="N023" break="no"/>lauscht haben, um sofort zu fühlen, daß man nicht einem
+      <lb facs="#facs_1_region_1684738806099_3135_tl_21" n="N024"/>Dilettanten gegenüberstand. <rs type="person" ref="#hsl_person_id_34">Billroth</rs>’s Verhältniß zur Musik
+      <lb facs="#facs_1_region_1684738806099_3135_tl_22" n="N025"/>reichte weit hinaus über das fröhliche Genießen und talent
+      <lb facs="#facs_1_region_1684738806099_3135_tl_23" n="N026" break="no"/>volle Reproduciren. Sein energischer, in streng naturwissen
+      <lb facs="#facs_1_region_1684738806099_3135_tl_24" n="N027" break="no"/>schaftlicher Methode geschulter Geist begnügte sich auch in
       <lb facs="#facs_1_line_1701855851803_1198" n="N028"/>der Tonkunst nicht mit oberflächlichem Erkennen. Durch
       <lb facs="#facs_1_region_1684738806099_3135_tl_25" n="N029"/>seine Doppelstellung als gründlicher Musiker und genialer
       <lb facs="#facs_1_region_1684738806099_3135_tl_26" n="N030"/>Physiolog schien er auch in ganz einziger Weise berufen,
       <lb facs="#facs_1_region_1684738806099_3135_tl_27" n="N031"/>das geheimnißvolle Grenzgebiet zu beleuchten, auf welchem
-      <lb facs="#facs_1_region_1684738806099_3135_tl_28" n="N032"/>musikalische Wirkungen mit unserem Nervenleben zusammen¬
-      <lb facs="#facs_1_region_1684738806099_3135_tl_29" n="N033"/>stoßen. In den letzten Lebensjahren drängte es ihn, seine
+      <lb facs="#facs_1_region_1684738806099_3135_tl_28" n="N032"/>musikalische Wirkungen mit unserem Nervenleben zusammen
+      <lb facs="#facs_1_region_1684738806099_3135_tl_29" n="N033" break="no"/>stoßen. In den letzten Lebensjahren drängte es ihn, seine
       <lb facs="#facs_1_region_1684738806099_3135_tl_30" n="N034"/>oft durchdachten Ideen über Musik zu ordnen und
-      <lb facs="#facs_1_region_1684738806099_3135_tl_31" n="N035"/>zu fixiren. Im Herbst <date>1890</date> begann <rs type="person">Billroth</rs> seine
-      <lb facs="#facs_1_line_1701855952484_1237" n="N036"/>*) „<hi rendition="#em">
-                  <rs type="bibl">Wer ist musikalisch</rs>
-               </hi>?“ Nachgelassene Schrift von
-      <lb facs="#facs_1_line_1701855954651_1240" n="N037"/>Theodor <hi rendition="#em">
-                  <rs type="person">Billroth</rs>
-               </hi>. Herausgegeben von Eduard <hi rendition="#em">
-                  <rs type="person">Hanslick</rs>
-               </hi>.
-      <lb facs="#facs_1_line_1701855956654_1243" n="N038"/>
-               <rs type="place">Berlin</rs>, bei Gebrüder Paetel, <date>1896</date>.</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684738809570_3138_tl_1" n="N001"/>„Anatomisch-physiologischen Aphorismen über Musik“
-      <lb facs="#facs_1_region_1684738809570_3138_tl_2" n="N002"/>niederzuschreiben, welchen er schließlich den Titel „<rs type="bibl">Wer ist</rs>
-               <lb facs="#facs_1_region_1684738809570_3138_tl_3" n="N003"/>
-               <rs type="bibl">musikalisch?</rs>“ gab. Die Arbeit, welche immer nur stückweise,
+      <lb facs="#facs_1_region_1684738806099_3135_tl_31" n="N035"/>zu fixiren. Im Herbst <date>1890</date> begann <rs type="person" ref="#hsl_person_id_34">Billroth</rs> seine<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684738809570_3138_tl_1" n="N001"/>„Anatomisch-physiologischen Aphorismen über Musik“
+      <lb facs="#facs_1_region_1684738809570_3138_tl_2" n="N002"/>niederzuschreiben, welchen er schließlich den Titel „<rs type="bibl" ref="#hsl_work_id_2168">Wer ist
+      <lb facs="#facs_1_region_1684738809570_3138_tl_3" n="N003"/>musikalisch?</rs>“ gab. Die Arbeit, welche immer nur stückweise,
       <lb facs="#facs_1_region_1684738809570_3138_tl_4" n="N004"/>in den Universitäts-Ferien, wieder aufgenommen werden konnte,
       <lb facs="#facs_1_region_1684738809570_3138_tl_5" n="N005"/>hatte einen sehr rhapsodischen Fortgang. Das letzte Capitel
-      <lb facs="#facs_1_region_1684738809570_3138_tl_6" n="N006"/>schrieb <rs type="person">Billroth</rs> kurz vor seinem Tode, wahrscheinlich An¬
-      <lb facs="#facs_1_region_1684738809570_3138_tl_7" n="N007"/>fangs Januar <date>1894</date>, in <rs type="place">Abbazia</rs>. Es war ihm nicht vergönnt,
+      <lb facs="#facs_1_region_1684738809570_3138_tl_6" n="N006"/>schrieb <rs type="person" ref="#hsl_person_id_34">Billroth</rs> kurz vor seinem Tode, wahrscheinlich An
+      <lb facs="#facs_1_region_1684738809570_3138_tl_7" n="N007" break="no"/>fangs Januar <date>1894</date>, in <rs type="place" ref="#hsl_place_id_308">Abbazia</rs>. Es war ihm nicht vergönnt,
       <lb facs="#facs_1_region_1684738809570_3138_tl_8" n="N008"/>dem Buche jene Vollständigkeit und formale Abrundung zu
       <lb facs="#facs_1_region_1684738809570_3138_tl_9" n="N009"/>geben, die er ohne Zweifel im Sinne hatte. Nur die beiden
       <lb facs="#facs_1_region_1684738809570_3138_tl_10" n="N010"/>ersten Capitel hat er selbst als druckfertig bezeichnet; das
@@ -1374,95 +1363,100 @@
       <lb facs="#facs_1_region_1684738809570_3138_tl_12" n="N012"/>nach, ja sie scheinen mir noch reicheren Inhalts und frischer,
       <lb facs="#facs_1_region_1684738809570_3138_tl_13" n="N013"/>lebendiger in der Ausführung. Die beiden letzten Capitel
       <lb facs="#facs_1_region_1684738809570_3138_tl_14" n="N014"/>sind „Skizzen“ — Skizzen von genialer Hand.
+            </p><p>
       <lb facs="#facs_1_region_1684738809570_3138_tl_15" n="N015"/>Das nachfolgende Resumé, welches den Hauptinhalt, so
-      <lb facs="#facs_1_region_1684738809570_3138_tl_16" n="N016"/>viel als möglich mit <rs type="person">Billroth</rs>’s eigenen Worten, reproducirt,
-      <lb facs="#facs_1_line_1701855617171_1136" n="N017"/>kann nicht entfernt einen Anspruch auf Vollständigkeit er¬
-      <lb facs="#facs_1_region_1684738809570_3138_tl_17" n="N018"/>heben; es soll dem Leser dieser Zeilen nur als Führer
+      <lb facs="#facs_1_region_1684738809570_3138_tl_16" n="N016"/>viel als möglich mit <rs type="person" ref="#hsl_person_id_34">Billroth</rs>’s eigenen Worten, reproducirt,
+      <lb facs="#facs_1_line_1701855617171_1136" n="N017"/>kann nicht entfernt einen Anspruch auf Vollständigkeit er
+      <lb facs="#facs_1_region_1684738809570_3138_tl_17" n="N018" break="no"/>heben; es soll dem Leser dieser Zeilen nur als Führer
       <lb facs="#facs_1_region_1684738809570_3138_tl_18" n="N019"/>dienen und ihn aneifern, sich mit dem Buche selbst vertraut
       <lb facs="#facs_1_region_1684738809570_3138_tl_19" n="N020"/>zu machen. Man wird es nicht ohne werthvolle Belehrung
-      <lb facs="#facs_1_region_1684738809570_3138_tl_20" n="N021"/>und Anregung aus der Hand legen, nicht ohne Bewunde¬
-      <lb facs="#facs_1_region_1684738809570_3138_tl_21" n="N022"/>rung dieses vielseitigen, glänzenden Geistes — und, für
+      <lb facs="#facs_1_region_1684738809570_3138_tl_20" n="N021"/>und Anregung aus der Hand legen, nicht ohne Bewunde
+      <lb facs="#facs_1_region_1684738809570_3138_tl_21" n="N022" break="no"/>rung dieses vielseitigen, glänzenden Geistes — und, für
       <lb facs="#facs_1_region_1684738809570_3138_tl_22" n="N023"/>uns Wiener darf ich beisetzen, nicht ohne tiefe Bewegung.
-      <lb facs="#facs_1_region_1684738809570_3138_tl_23" n="N024"/>Als <rs type="person">Billroth</rs> sich die Frage stellte: „<rs type="bibl">Wer ist musikalisch?</rs>“
+            </p><p>
+      <lb facs="#facs_1_region_1684738809570_3138_tl_23" n="N024"/>Als <rs type="person" ref="#hsl_person_id_34">Billroth</rs> sich die Frage stellte: „<rs type="bibl" ref="#hsl_work_id_2168">Wer ist musikalisch?</rs>“
       <lb facs="#facs_1_region_1684738809570_3138_tl_24" n="N025"/>wußte er auch, daß eine gründliche Antwort ziemlich weit
       <lb facs="#facs_1_region_1684738809570_3138_tl_25" n="N026"/>zurückgreifen müsse zu den Quellen unserer Tonempfindungen
       <lb facs="#facs_1_region_1684738809570_3138_tl_26" n="N027"/>überhaupt. Die beiden ersten Capitel seiner Abhandlung
       <lb facs="#facs_1_region_1684738809570_3138_tl_27" n="N028"/>sind demnach vorwiegend physiologischen und anatomischen
       <lb facs="#facs_1_line_1701855766995_1175" n="N029"/>Inhalts; sie bilden die Brücke zu den im engeren Sinne
-      <lb facs="#facs_1_line_1701855796067_1181" n="N030"/>musikalischen Betrachtungen der späteren Capitel. <rs type="person">Billroth</rs>
-               <lb facs="#facs_1_region_1684738809570_3138_tl_28" n="N031"/>behandelt zuerst den <hi rendition="#em">Rhythmus</hi> als ein wesentliches,
+      <lb facs="#facs_1_line_1701855796067_1181" n="N030"/>musikalischen Betrachtungen der späteren Capitel. <rs type="person" ref="#hsl_person_id_34">Billroth</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684738809570_3138_tl_28" n="N031"/>behandelt zuerst den <hi rendition="#em">Rhythmus</hi> als ein wesentliches,
       <lb facs="#facs_1_region_1684738809570_3138_tl_29" n="N032"/>mit unserem Organismus innig verbundenes Element des
       <lb facs="#facs_1_region_1684738809570_3138_tl_30" n="N033"/>Musikalischen. Rhythmische Bewegungen gehören zu den
       <lb facs="#facs_1_region_1684738809570_3138_tl_31" n="N034"/>wichtigsten, zum Leben nöthigsten Eigenschaften unseres
       <lb facs="#facs_1_region_1684738809570_3138_tl_32" n="N035"/>Körpers: der Rhythmus des Athmens, des Herzschlages.
-      <lb facs="#facs_1_region_1684738809570_3138_tl_33" n="N036"/>„Das Herz schlägt von dem ersten Moment seiner Thätig¬
-      <lb facs="#facs_1_line_1701856386627_1303" n="N037"/>keit an den Tact zu dem Trauermarsch, der uns das ganze
+      <lb facs="#facs_1_region_1684738809570_3138_tl_33" n="N036"/>„Das Herz schlägt von dem ersten Moment seiner Thätig
+      <lb facs="#facs_1_line_1701856386627_1303" n="N037" break="no"/>keit an den Tact zu dem Trauermarsch, der uns das ganze
       <lb facs="#facs_1_line_1701856401940_1310" n="N038"/>Leben hindurch zum Grabe leitet.“ Die ziemlich allgemein
       <lb facs="#facs_1_region_1684738809570_3138_tl_38" n="N039"/>verbreitete Annahme, daß <hi rendition="#em">jedem</hi> Menschen das Gefühl
-      <lb facs="#facs_1_region_1684738809570_3138_tl_39" n="N040"/>für Rhythmus angeboren sei, hält <rs type="person">Billroth</rs> für irrig; er
+      <lb facs="#facs_1_region_1684738809570_3138_tl_39" n="N040"/>für Rhythmus angeboren sei, hält <rs type="person" ref="#hsl_person_id_34">Billroth</rs> für irrig; er
       <lb facs="#facs_1_region_1684738809570_3138_tl_40" n="N041"/>weiß aus Erfahrung, daß es Menschen gibt, denen das
-      <lb facs="#facs_1_region_1684738809570_3138_tl_41" n="N042"/>rhythmische Marschiren ebensowenig beizubringen ist, wie</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684738812897_3141_tl_1" n="N001"/>das rhythmische Singen.**) Menschen, denen das rhythmische
+      <lb facs="#facs_1_region_1684738809570_3138_tl_41" n="N042"/>rhythmische Marschiren ebensowenig beizubringen ist, wie<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684738812897_3141_tl_1" n="N001"/>das rhythmische Singen.
+            <note type="footnote" n="**)">
+            <lb facs="#facs_1_line_1701856714756_1406" n="N034"/>Das bestätigen verschiedene von <rs type="person" ref="#hsl_person_id_34">Billroth</rs> mitgetheilte Be
+            <lb facs="#facs_1_line_1701856717420_1409" n="N035" break="no"/>richte von Officieren <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er, <rs type="place" ref="#hsl_place_id_1">böhmisch</rs>er, <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>er und <rs type="place" ref="#hsl_place_id_231">polnisch</rs>er
+            <lb facs="#facs_1_line_1701856719573_1412" n="N036"/>Regimenter. Sie stimmen in der Hauptsache darin überein, daß es
+            <lb facs="#facs_1_line_1701856721860_1415" n="N037"/>Recruten gibt, die <hi rendition="#em">nie</hi> im Tact marschiren lernen; diese sind nur
+            <lb facs="#facs_1_line_1701856723998_1418" n="N038"/>als Wärter, Handwerker u. dergl. zu verwenden oder werden zur
+            <lb facs="#facs_1_line_1701856726604_1421" n="N039"/>Cavallerie transferirt. Es gibt <hi rendition="#em">sehr Ungeschickte</hi>, welche erst in
+            <lb facs="#facs_1_line_1701856729204_1424" n="N040"/>acht bis zehn Wochen, <hi rendition="#em">Ungeschickte</hi>, welche erst in vier bis sechs
+            <lb facs="#facs_1_line_1701856732668_1427" n="N041"/>Wochen maschiren lernen, aber in der Truppe immer als schlecht
+            <lb facs="#facs_1_line_1701856734918_1430" n="N042"/>maschirend kenntlich sind und dieselbe verunstalten. Es sind ungefähr
+            <lb facs="#facs_1_line_1701856737764_1433" n="N043"/>20 bis 30 Percent, zumal unter den Soldaten aus den Gebirgsländern.
+            </note>
+            Menschen, denen das rhythmische
       <lb facs="#facs_1_region_1684738812897_3141_tl_2" n="N002"/>Gefühl nicht angeboren und auch nicht beizubringen ist,
       <lb facs="#facs_1_region_1684738812897_3141_tl_3" n="N003"/>müssen <hi rendition="#em">absolut unmusikalisch</hi> sein, denn die
       <lb facs="#facs_1_region_1684738812897_3141_tl_4" n="N004"/>Fähigkeit, die rhythmische Gliederung der Töne
       <lb facs="#facs_1_region_1684738812897_3141_tl_5" n="N005"/>zu einer Melodie aufzufassen, ist die erste Bedingung zum
-      <lb facs="#facs_1_region_1684738812897_3141_tl_6" n="N006"/>Erfassen von Musik. Dadurch, daß das aufmerksame Ver¬
-      <lb facs="#facs_1_region_1684738812897_3141_tl_7" n="N007"/>folgen von rhythmischen Gehörs- und Gesichtswahrnehmungen
+      <lb facs="#facs_1_region_1684738812897_3141_tl_6" n="N006"/>Erfassen von Musik. Dadurch, daß das aufmerksame Ver
+      <lb facs="#facs_1_region_1684738812897_3141_tl_7" n="N007" break="no"/>folgen von rhythmischen Gehörs- und Gesichtswahrnehmungen
       <lb facs="#facs_1_region_1684738812897_3141_tl_8" n="N008"/>und die rhythmische Bewegung des eigenen Körpers den
       <lb facs="#facs_1_region_1684738812897_3141_tl_9" n="N009"/>meisten Menschen Vergnügen bereitet, wird der Rhythmus
       <lb facs="#facs_1_region_1684738812897_3141_tl_10" n="N010"/>zu einem wichtigen ästhetischen, zumal musikalischen Element.
       <lb facs="#facs_1_region_1684738812897_3141_tl_11" n="N011"/>Wir können ihn mit <hi rendition="#em">drei Sinnen</hi> zugleich wahrnehmen:
       <lb facs="#facs_1_region_1684738812897_3141_tl_12" n="N012"/>wir können ihn hören, sehen und in unseren Muskeln
-      <lb facs="#facs_1_region_1684738812897_3141_tl_13" n="N013"/>fühlen. <rs type="person">Billroth</rs> übergeht dann auf die Anatomie und
+      <lb facs="#facs_1_region_1684738812897_3141_tl_13" n="N013"/>fühlen. <rs type="person" ref="#hsl_person_id_34">Billroth</rs> übergeht dann auf die Anatomie und
       <lb facs="#facs_1_region_1684738812897_3141_tl_14" n="N014"/>Physiologie des <hi rendition="#em">Hörapparats</hi> des Menschen und gelangt
       <lb facs="#facs_1_region_1684738812897_3141_tl_15" n="N015"/>zu dem Schluß, daß zwar das Wesen des Musiksinns im
-      <lb facs="#facs_1_region_1684738812897_3141_tl_16" n="N016"/>Gehirn liegt, daß aber auf alle Fälle ein gesundes <hi rendition="#em">Gehör¬</hi>
-               <lb facs="#facs_1_region_1684738812897_3141_tl_17" n="N017"/>
-               <hi rendition="#em">organ</hi> eine wesentliche Bedingung ist für die Entwicklung
-      <lb facs="#facs_1_region_1684738812897_3141_tl_18" n="N018"/>der Tonempfindungen, des Musiksinns. Sehr früher Ver¬
-      <lb facs="#facs_1_region_1684738812897_3141_tl_19" n="N019"/>lust des Gehörs muß den Musiksinn nach und nach voll¬
-      <lb facs="#facs_1_region_1684738812897_3141_tl_20" n="N020"/>ständig ertödten. Beim Erlöschen des Gehörs im späteren
+      <lb facs="#facs_1_region_1684738812897_3141_tl_16" n="N016"/>Gehirn liegt, daß aber auf alle Fälle ein gesundes <hi rendition="#em">Gehör
+      <lb facs="#facs_1_region_1684738812897_3141_tl_17" n="N017" break="no"/>organ</hi> eine wesentliche Bedingung ist für die Entwicklung
+      <lb facs="#facs_1_region_1684738812897_3141_tl_18" n="N018"/>der Tonempfindungen, des Musiksinns. Sehr früher Ver
+      <lb facs="#facs_1_region_1684738812897_3141_tl_19" n="N019" break="no"/>lust des Gehörs muß den Musiksinn nach und nach voll
+      <lb facs="#facs_1_region_1684738812897_3141_tl_20" n="N020" break="no"/>ständig ertödten. Beim Erlöschen des Gehörs im späteren
       <lb facs="#facs_1_region_1684738812897_3141_tl_21" n="N021"/>Lebensalter ist, wenn das Spiel mit den aufgenommenen
       <lb facs="#facs_1_region_1684738812897_3141_tl_22" n="N022"/>Klängen einigermaßen lebhaft und intensiv war, die Menge
       <lb facs="#facs_1_region_1684738812897_3141_tl_23" n="N023"/>der fest eingeprägten Erinnerungsbilder eine so große und
       <lb facs="#facs_1_region_1684738812897_3141_tl_24" n="N024"/>das willkürliche Hervorrufen derselben ein so leicht und
-      <lb facs="#facs_1_region_1684738812897_3141_tl_25" n="N025"/>rasch vor sich gehender Proceß, daß es der von außen an¬
-      <lb facs="#facs_1_region_1684738812897_3141_tl_26" n="N026"/>geregten Tonwahrnehmungen nicht bedarf, um eventuell neue
-      <lb facs="#facs_1_region_1684738812897_3141_tl_27" n="N027"/>Combinationen von Tonbildern zu gestalten. (<rs type="person">Beethoven</rs>.)
+      <lb facs="#facs_1_region_1684738812897_3141_tl_25" n="N025"/>rasch vor sich gehender Proceß, daß es der von außen an
+      <lb facs="#facs_1_region_1684738812897_3141_tl_26" n="N026" break="no"/>geregten Tonwahrnehmungen nicht bedarf, um eventuell neue
+      <lb facs="#facs_1_region_1684738812897_3141_tl_27" n="N027"/>Combinationen von Tonbildern zu gestalten. (<rs type="person" ref="#hsl_person_id_25">Beethoven</rs>.)
+            </p><p>
       <lb facs="#facs_1_region_1684738812897_3141_tl_28" n="N028"/>Von den physiologischen Betrachtungen führt uns das
       <lb facs="#facs_1_region_1684738812897_3141_tl_29" n="N029"/>dritte Capitel zum eigentlich Musikalischen, zur <hi rendition="#em">Tonkunst</hi>.
       <lb facs="#facs_1_region_1684738812897_3141_tl_30" n="N030"/>Eine scharfe Grenze läßt sich da freilich ebensowenig wie
       <lb facs="#facs_1_region_1684738812897_3141_tl_31" n="N031"/>zwischen Körper und Seele ziehen. Die Seele ist nach unseren
       <lb facs="#facs_1_region_1684738812897_3141_tl_32" n="N032"/>heutigen Anschauungen vom Körper nicht zu trennen, und
-      <lb facs="#facs_1_region_1684738812897_3141_tl_33" n="N033"/>die Vorgänge auf <hi rendition="#em">ihrem</hi> Gebiete bilden somit einen sehr
-      <lb facs="#facs_1_line_1701856714756_1406" n="N034"/>**) Das bestätigen verschiedene von <rs type="person">Billroth</rs> mitgetheilte Be¬
-      <lb facs="#facs_1_line_1701856717420_1409" n="N035"/>richte von Officieren <rs type="place">deutsch</rs>er, <rs type="place">böhmisch</rs>er, <rs type="place">ungarisch</rs>er und <rs type="place">polnisch</rs>er
-      <lb facs="#facs_1_line_1701856719573_1412" n="N036"/>Regimenter. Sie stimmen in der Hauptsache darin überein, daß es
-      <lb facs="#facs_1_line_1701856721860_1415" n="N037"/>Recruten gibt, die <hi rendition="#em">nie</hi> im Tact marschiren lernen; diese sind nur
-      <lb facs="#facs_1_line_1701856723998_1418" n="N038"/>als Wärter, Handwerker u. dergl. zu verwenden oder werden zur
-      <lb facs="#facs_1_line_1701856726604_1421" n="N039"/>Cavallerie transferirt. Es gibt <hi rendition="#em">sehr Ungeschickte</hi>, welche erst in
-      <lb facs="#facs_1_line_1701856729204_1424" n="N040"/>acht bis zehn Wochen, <hi rendition="#em">Ungeschickte</hi>, welche erst in vier bis sechs
-      <lb facs="#facs_1_line_1701856732668_1427" n="N041"/>Wochen maschiren lernen, aber in der Truppe immer als schlecht
-      <lb facs="#facs_1_line_1701856734918_1430" n="N042"/>maschirend kenntlich sind und dieselbe verunstalten. Es sind ungefähr
-      <lb facs="#facs_1_line_1701856737764_1433" n="N043"/>20 bis 30 Percent, zumal unter den Soldaten aus den Gebirgsländern.</p>
+      <lb facs="#facs_1_region_1684738812897_3141_tl_33" n="N033"/>die Vorgänge auf <hi rendition="#em">ihrem</hi> Gebiete bilden somit einen sehr<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684738824443_3147_tl_1" n="N001"/>wesentlichen Theil der <hi rendition="#em">Physiologie</hi>. Die Seele ist ab¬
-      <lb facs="#facs_2_region_1684738824443_3147_tl_2" n="N002"/>hängiger vom Körper, als der Körper von der Seele. Was
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684738824443_3147_tl_1" n="N001"/>wesentlichen Theil der <hi rendition="#em">Physiologie</hi>. Die Seele ist ab
+      <lb facs="#facs_2_region_1684738824443_3147_tl_2" n="N002" break="no"/>hängiger vom Körper, als der Körper von der Seele. Was
       <lb facs="#facs_2_region_1684738824443_3147_tl_3" n="N003"/>wir Wahrnehmen, Denken, Vorstellen, Bewußtsein nennen,
       <lb facs="#facs_2_region_1684738824443_3147_tl_4" n="N004"/>kann ohne Gehirn nicht entstehen, nicht bestehen. Als die
       <lb facs="#facs_2_line_1701857105029_1474" n="N005"/>physiologischen Grundbedingungen für das, was wir jetzt
-      <lb facs="#facs_2_region_1684738824443_3147_tl_5" n="N006"/>„musikalisch“ nennen, präcisirt <rs type="person">Billroth</rs>: das Gefühl für
+      <lb facs="#facs_2_region_1684738824443_3147_tl_5" n="N006"/>„musikalisch“ nennen, präcisirt <rs type="person" ref="#hsl_person_id_34">Billroth</rs>: das Gefühl für
       <lb facs="#facs_2_region_1684738824443_3147_tl_6" n="N007"/>Rhythmus und die Wahrnehmungsfähigkeit von verschiedenen
-      <lb facs="#facs_2_region_1684738824443_3147_tl_7" n="N008"/>Tonhöhen, Tonklängen und Tonstärken, sowie die Unter¬
-      <lb facs="#facs_2_region_1684738824443_3147_tl_8" n="N009"/>scheidungsfähigkeit dieser Töne bei raschem Wechsel und beim
-      <lb facs="#facs_2_region_1684738824443_3147_tl_9" n="N010"/>Zusammenklingen. Aber nicht jeder Mensch, der diese Eigen¬
-      <lb facs="#facs_2_region_1684738824443_3147_tl_10" n="N011"/>schaften besitzt, ist deßhalb schon als „musikalisch“ zu be¬
-      <lb facs="#facs_2_region_1684738824443_3147_tl_11" n="N012"/>zeichnen. Was das <hi rendition="#em">rhythmische</hi> Gefühl betrifft, so gibt
+      <lb facs="#facs_2_region_1684738824443_3147_tl_7" n="N008"/>Tonhöhen, Tonklängen und Tonstärken, sowie die Unter
+      <lb facs="#facs_2_region_1684738824443_3147_tl_8" n="N009" break="no"/>scheidungsfähigkeit dieser Töne bei raschem Wechsel und beim
+      <lb facs="#facs_2_region_1684738824443_3147_tl_9" n="N010"/>Zusammenklingen. Aber nicht jeder Mensch, der diese Eigen
+      <lb facs="#facs_2_region_1684738824443_3147_tl_10" n="N011" break="no"/>schaften besitzt, ist deßhalb schon als „musikalisch“ zu be
+      <lb facs="#facs_2_region_1684738824443_3147_tl_11" n="N012" break="no"/>zeichnen. Was das <hi rendition="#em">rhythmische</hi> Gefühl betrifft, so gibt
       <lb facs="#facs_2_region_1684738824443_3147_tl_12" n="N013"/>es Menschen, wenn auch bei Culturvölkern selten, denen
       <lb facs="#facs_2_region_1684738824443_3147_tl_13" n="N014"/>es gänzlich fehlt. Viel häufiger findet man Menschen,
       <lb facs="#facs_2_region_1684738824443_3147_tl_14" n="N015"/>denen es nicht möglich ist, einen vorgesungenen
@@ -1472,18 +1466,18 @@
       <lb facs="#facs_2_region_1684738824443_3147_tl_18" n="N019"/>Empfindung haben. Ja, es gibt eine vollkommen psychische
       <lb facs="#facs_2_line_1701857141238_1488" n="N020"/>Gleichgiltigkeit gegen alle Tonwahrnehmungen, zumal gegen
       <lb facs="#facs_2_region_1684738824443_3147_tl_19" n="N021"/>Zusammenklänge, eine Art harmonischen Nihilismus, eine
-      <lb facs="#facs_2_region_1684738824443_3147_tl_20" n="N022"/>harmonische Taubheit. <rs type="person">Billroth</rs> belegt diese Behauptung mit
-      <lb facs="#facs_2_region_1684738824443_3147_tl_21" n="N023"/>einigen merkwürdigen Beispielen aus seiner eigenen Er¬
-      <lb facs="#facs_2_region_1684738824443_3147_tl_22" n="N024"/>fahrung. Er erzählt: „Einem meiner Freunde, der gern
+      <lb facs="#facs_2_region_1684738824443_3147_tl_20" n="N022"/>harmonische Taubheit. <rs type="person" ref="#hsl_person_id_34">Billroth</rs> belegt diese Behauptung mit
+      <lb facs="#facs_2_region_1684738824443_3147_tl_21" n="N023"/>einigen merkwürdigen Beispielen aus seiner eigenen Er
+      <lb facs="#facs_2_region_1684738824443_3147_tl_22" n="N024" break="no"/>fahrung. Er erzählt: „Einem meiner Freunde, der gern
       <lb facs="#facs_2_region_1684738824443_3147_tl_23" n="N025"/>Gesang hört und der seine musikalische Frau auch wol
       <lb facs="#facs_2_region_1684738824443_3147_tl_24" n="N026"/>zuweilen in ein Concert begleitet, fehlt jede Empfindung
-      <lb facs="#facs_2_region_1684738824443_3147_tl_25" n="N027"/>für das Angenehme oder Unangenehme des Zusammen¬
-      <lb facs="#facs_2_region_1684738824443_3147_tl_26" n="N028"/>klanges von Tönen. Er hat keinen andern Eindruck von
+      <lb facs="#facs_2_region_1684738824443_3147_tl_25" n="N027"/>für das Angenehme oder Unangenehme des Zusammen
+      <lb facs="#facs_2_region_1684738824443_3147_tl_26" n="N028" break="no"/>klanges von Tönen. Er hat keinen andern Eindruck von
       <lb facs="#facs_2_region_1684738824443_3147_tl_27" n="N029"/>dem Anschlagen eines Dreiklanges, als von dem gleichzeitigen
       <lb facs="#facs_2_region_1684738824443_3147_tl_28" n="N030"/>Anschlagen fünf neben einander liegender Töne. Ich spielte ihm
       <lb facs="#facs_2_region_1684738824443_3147_tl_29" n="N031"/>nämlich die Melodie: „Wir winden dir den Jungfernkranz“
       <lb facs="#facs_2_region_1684738824443_3147_tl_30" n="N032"/>in Fis-dur auf dem Clavier vor und begleitete sie mit der
-      <lb facs="#facs_2_region_1684738824443_3147_tl_31" n="N033"/>linken Hand in F-dur „Das ist aus dem <rs type="bibl">Freischütz</rs>,“ sagte
+      <lb facs="#facs_2_region_1684738824443_3147_tl_31" n="N033"/>linken Hand in F-dur „Das ist aus dem <rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>,“ sagte
       <lb facs="#facs_2_region_1684738824443_3147_tl_32" n="N034"/>er; ich behielt nun die F-Begleitung in der linken Hand
       <lb facs="#facs_2_region_1684738824443_3147_tl_33" n="N035"/>bei und spielte die Melodie in G-dur „Bemerken Sie keinen
       <lb facs="#facs_2_region_1684738824443_3147_tl_34" n="N036"/>Unterschied?“ fragte ich. Er besann sich und sagte: „Ich
@@ -1491,20 +1485,20 @@
       <lb facs="#facs_2_region_1684738824443_3147_tl_36" n="N038"/>man bedenkt, daß es in einem großen Concertsaale hundert
       <lb facs="#facs_2_region_1684738824443_3147_tl_37" n="N039"/>oder noch mehr Zuhörer und Zuhörerinnen gibt, welche auf
       <lb facs="#facs_2_region_1684738824443_3147_tl_38" n="N040"/>diesem Standpunkt stehen, und daß es noch viel mehr
-      <lb facs="#facs_2_region_1684738824443_3147_tl_39" n="N041"/>Menschen gibt, welche bis auf eine Terz Alles für <hi rendition="#em">einen</hi>
-               <lb facs="#facs_2_line_1701857174620_1504" n="N042"/>Ton halten, so daß es für sie innerhalb einer Octave</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1701857218037_1515" n="N001"/>höchstens vier leidlich unterscheidbare Töne, ein unrein
+      <lb facs="#facs_2_region_1684738824443_3147_tl_39" n="N041"/>Menschen gibt, welche bis auf eine Terz Alles für <hi rendition="#em">einen</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1701857174620_1504" n="N042"/>Ton halten, so daß es für sie innerhalb einer Octave<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1701857218037_1515" n="N001"/>höchstens vier leidlich unterscheidbare Töne, ein unrein
       <lb facs="#facs_2_region_1684738827892_3150_tl_1" n="N002"/>Spielen oder Singen überhaupt nicht gibt, so ist das wol
       <lb facs="#facs_2_region_1684738827892_3150_tl_2" n="N003"/>ein etwas schauerliches Gefühl — für die Künstler: Verlorene
       <lb facs="#facs_2_region_1684738827892_3150_tl_3" n="N004"/>Liebesmüh’. Bei meinem Freunde war doch ein musikalisches
-      <lb facs="#facs_2_region_1684738827892_3150_tl_4" n="N005"/>Moment vorhanden, nämlich das Gedächtniß für das Rhyth¬
-      <lb facs="#facs_2_region_1684738827892_3150_tl_5" n="N006"/>mische: er erkannte die Melodie, als aus dem „<rs type="bibl">Freischütz</rs>“
+      <lb facs="#facs_2_region_1684738827892_3150_tl_4" n="N005"/>Moment vorhanden, nämlich das Gedächtniß für das Rhyth
+      <lb facs="#facs_2_region_1684738827892_3150_tl_5" n="N006" break="no"/>mische: er erkannte die Melodie, als aus dem „<rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>“
       <lb facs="#facs_2_region_1684738827892_3150_tl_6" n="N007"/>entnommen, wieder. Aber auch dies Gedächtniß kann ganz
       <lb facs="#facs_2_region_1684738827892_3150_tl_7" n="N008"/>fehlen, und doch wird Clavier gespielt. Ein junges Mädchen,
       <lb facs="#facs_2_region_1684738827892_3150_tl_8" n="N009"/>das schon zwei Jahre lang Clavierstunden gehabt hatte, übte
-      <lb facs="#facs_2_region_1684738827892_3150_tl_9" n="N010"/>seit drei Wochen ein Stück von <rs type="person">Mozart</rs> und hatte es so
+      <lb facs="#facs_2_region_1684738827892_3150_tl_9" n="N010"/>seit drei Wochen ein Stück von <rs type="person" ref="#hsl_person_id_189">Mozart</rs> und hatte es so
       <lb facs="#facs_2_region_1684738827892_3150_tl_10" n="N011"/>weit erlernt, daß sie es nun dem Lehrer vorspielen sollte.
       <lb facs="#facs_2_region_1684738827892_3150_tl_11" n="N012"/>Sie kam etwas zu spät zur Stunde und fand den Lehrer
       <lb facs="#facs_2_line_1701857118085_1481" n="N013"/>am Clavier sitzend und spielend. Als er sich nicht stören
@@ -1513,161 +1507,147 @@
       <lb facs="#facs_2_region_1684738827892_3150_tl_16" n="N016"/>Stück, welches Sie mir heute vorspielen sollen.“ — „So,
       <lb facs="#facs_2_region_1684738827892_3150_tl_17" n="N017"/>so!“ Sie spielte nun das Stück ohne Fehler vor, und die
       <lb facs="#facs_2_line_1701857065413_1460" n="N018"/>Stunden wurden fortgesetzt.
-      <lb facs="#facs_2_region_1684738827892_3150_tl_18" n="N019"/>
-               <hi rendition="#em">Wer ist musikalisch</hi>? <rs type="person">Billroth</rs> gesteht, daß die
+            </p><p>
+      <lb facs="#facs_2_region_1684738827892_3150_tl_18" n="N019"/><hi rendition="#em">Wer ist musikalisch</hi>? <rs type="person" ref="#hsl_person_id_34">Billroth</rs> gesteht, daß die
       <lb facs="#facs_2_region_1684738827892_3150_tl_19" n="N020"/>Antwort auf diese scheinbar so einfache Frage eine schwierige
       <lb facs="#facs_2_region_1684738827892_3150_tl_20" n="N021"/>und höchst complicirte ist. Es gibt verschiedene Grade (oder
-      <lb facs="#facs_2_region_1684738827892_3150_tl_21" n="N022"/>„Arten“) des Musikalischseins, weil die Tonkunst aus ver¬
-      <lb facs="#facs_2_region_1684738827892_3150_tl_22" n="N023"/>schiedenen Momenten zusammengesetzt ist, aus dem Rhyth¬
-      <lb facs="#facs_2_region_1684738827892_3150_tl_23" n="N024"/>mischen, dem Melodischen und dem Harmonischen, und in
+      <lb facs="#facs_2_region_1684738827892_3150_tl_21" n="N022"/>„Arten“) des Musikalischseins, weil die Tonkunst aus ver
+      <lb facs="#facs_2_region_1684738827892_3150_tl_22" n="N023" break="no"/>schiedenen Momenten zusammengesetzt ist, aus dem Rhyth
+      <lb facs="#facs_2_region_1684738827892_3150_tl_23" n="N024" break="no"/>mischen, dem Melodischen und dem Harmonischen, und in
       <lb facs="#facs_2_region_1684738827892_3150_tl_24" n="N025"/>jedem dieser Momente wieder rein Technisches und eigentlich
       <lb facs="#facs_2_region_1684738827892_3150_tl_25" n="N026"/>Aesthetisches liegt. Je mehr man darüber grübelt, um so
       <lb facs="#facs_2_region_1684738827892_3150_tl_26" n="N027"/>verwickelter wird das, was man heute unter Musik versteht.
-      <lb facs="#facs_2_region_1684738827892_3150_tl_27" n="N028"/>
-               <rs type="person">Billroth</rs> will der Lösung näher kommen, indem er unter¬
-      <lb facs="#facs_2_line_1701857081340_1466" n="N029"/>sucht, wie unsere heutige Tonkunst entstanden ist. Wir
-      <lb facs="#facs_2_region_1684738827892_3150_tl_28" n="N030"/>müssen hier über die interessanten Untersuchungen hinweg¬
-      <lb facs="#facs_2_region_1684738827892_3150_tl_29" n="N031"/>eilen, welche <rs type="person">Billroth</rs> über die Entstehung unseres Musik¬
-      <lb facs="#facs_2_region_1684738827892_3150_tl_30" n="N032"/>systems, über Dur- und Moll-Tonarten, über die Entwick¬
-      <lb facs="#facs_2_region_1684738827892_3150_tl_31" n="N033"/>lung der Polyphonie, endlich über die Begriffe Consonanz
+      <lb facs="#facs_2_region_1684738827892_3150_tl_27" n="N028"/><rs type="person" ref="#hsl_person_id_34">Billroth</rs> will der Lösung näher kommen, indem er unter
+      <lb facs="#facs_2_line_1701857081340_1466" n="N029" break="no"/>sucht, wie unsere heutige Tonkunst entstanden ist. Wir
+      <lb facs="#facs_2_region_1684738827892_3150_tl_28" n="N030"/>müssen hier über die interessanten Untersuchungen hinweg
+      <lb facs="#facs_2_region_1684738827892_3150_tl_29" n="N031" break="no"/>eilen, welche <rs type="person" ref="#hsl_person_id_34">Billroth</rs> über die Entstehung unseres Musik
+      <lb facs="#facs_2_region_1684738827892_3150_tl_30" n="N032" break="no"/>systems, über Dur- und Moll-Tonarten, über die Entwick
+      <lb facs="#facs_2_region_1684738827892_3150_tl_31" n="N033" break="no"/>lung der Polyphonie, endlich über die Begriffe Consonanz
       <lb facs="#facs_2_line_1701857155461_1495" n="N034"/>und Dissonanz anstellte. Das vierte Capitel („In welcher
       <lb facs="#facs_2_line_1701857159829_1500" n="N035"/>Weise wirkt die Musik auf uns?“) bewegt sich inmitten
-      <lb facs="#facs_2_region_1684738827892_3150_tl_36" n="N036"/>unserer lebendigen Musik. Es charakterisirt verschiedene Ton¬
-      <lb facs="#facs_2_region_1684738827892_3150_tl_37" n="N037"/>dichtungen und die hervorragendsten Componisten, dürfte daher
+      <lb facs="#facs_2_region_1684738827892_3150_tl_36" n="N036"/>unserer lebendigen Musik. Es charakterisirt verschiedene Ton
+      <lb facs="#facs_2_region_1684738827892_3150_tl_37" n="N037" break="no"/>dichtungen und die hervorragendsten Componisten, dürfte daher
       <lb facs="#facs_2_region_1684738827892_3150_tl_38" n="N038"/>das größere musikliebende Publicum am meisten interessiren.
-      <lb facs="#facs_2_region_1684738827892_3150_tl_39" n="N039"/>Auch tritt uns <rs type="person">Billroth</rs>, der Mensch, hier am persönlichsten
+      <lb facs="#facs_2_region_1684738827892_3150_tl_39" n="N039"/>Auch tritt uns <rs type="person" ref="#hsl_person_id_34">Billroth</rs>, der Mensch, hier am persönlichsten
       <lb facs="#facs_2_region_1684738827892_3150_tl_40" n="N040"/>gegenüber, z. B. wenn er sagt: „Die reine Schönheit einer
       <lb facs="#facs_2_region_1684738827892_3150_tl_41" n="N041"/>Instrumentalmusik kann auf einen musikalischen Menschen
-      <lb facs="#facs_2_region_1684738827892_3150_tl_42" n="N042"/>ohne irgend welche Associations-Vorgänge derart körperlich</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684738831121_3153_tl_1" n="N001"/>wirken, daß er, wie etwa bei rührenden Scenen im Theater,
+      <lb facs="#facs_2_region_1684738827892_3150_tl_42" n="N042"/>ohne irgend welche Associations-Vorgänge derart körperlich<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684738831121_3153_tl_1" n="N001"/>wirken, daß er, wie etwa bei rührenden Scenen im Theater,
       <lb facs="#facs_2_region_1684738831121_3153_tl_2" n="N002"/>nicht mehr im Stande ist, zu sprechen, bis Thränen ihn
-      <lb facs="#facs_2_region_1684738831121_3153_tl_3" n="N003"/>aus diesem fast peinlichen Zustand eines höchsten Glücks¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_4" n="N004"/>gefühls erlösen. Ich habe das oft an mir erfahren und
+      <lb facs="#facs_2_region_1684738831121_3153_tl_3" n="N003"/>aus diesem fast peinlichen Zustand eines höchsten Glücks
+      <lb facs="#facs_2_region_1684738831121_3153_tl_4" n="N004" break="no"/>gefühls erlösen. Ich habe das oft an mir erfahren und
       <lb facs="#facs_2_region_1684738831121_3153_tl_5" n="N005"/>mich im Concert vor meinen Nachbarn dieser Weichlichkeit
       <lb facs="#facs_2_region_1684738831121_3153_tl_6" n="N006"/>geschämt, die ich doch auch wieder nicht missen möchte;
       <lb facs="#facs_2_line_1701857229510_1524" n="N007"/>man weiß eigentlich nicht, ist es Freud oder Leid,
-      <lb facs="#facs_2_line_1701857233749_1529" n="N008"/>was man dabei empfindet.“ Hier kommt <rs type="person">Billroth</rs> auf
-      <lb facs="#facs_2_region_1684738831121_3153_tl_11" n="N009"/>die <hi rendition="#em">Programm-Musik</hi> zu sprechen, auf die ge¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_12" n="N010"/>druckten Ueberschriften und längeren Erklärungen, welche
+      <lb facs="#facs_2_line_1701857233749_1529" n="N008"/>was man dabei empfindet.“ Hier kommt <rs type="person" ref="#hsl_person_id_34">Billroth</rs> auf
+      <lb facs="#facs_2_region_1684738831121_3153_tl_11" n="N009"/>die <hi rendition="#em">Programm-Musik</hi> zu sprechen, auf die ge
+      <lb facs="#facs_2_region_1684738831121_3153_tl_12" n="N010" break="no"/>druckten Ueberschriften und längeren Erklärungen, welche
       <lb facs="#facs_2_region_1684738831121_3153_tl_13" n="N011"/>den „Inhalt“ eines Tonstückes auseinandersetzen sollen.
       <lb facs="#facs_2_region_1684738831121_3153_tl_14" n="N012"/>„Alle nicht musikalisch Gebildeten und selbst die Unmusikalischen
-      <lb facs="#facs_2_region_1684738831121_3153_tl_15" n="N013"/>kommen durch diese Nebenwirkungen der Musik in eine ge¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_16" n="N014"/>wisse Beziehung zu derselben; sie haben einen Berührungs¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_17" n="N015"/>punkt mit einer Kunst gefunden, die ihnen sonst unverständ¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_18" n="N016"/>lich, uninteressant, ja unerfreulich erschien; sie fangen an,
+      <lb facs="#facs_2_region_1684738831121_3153_tl_15" n="N013"/>kommen durch diese Nebenwirkungen der Musik in eine ge
+      <lb facs="#facs_2_region_1684738831121_3153_tl_16" n="N014" break="no"/>wisse Beziehung zu derselben; sie haben einen Berührungs
+      <lb facs="#facs_2_region_1684738831121_3153_tl_17" n="N015" break="no"/>punkt mit einer Kunst gefunden, die ihnen sonst unverständ
+      <lb facs="#facs_2_region_1684738831121_3153_tl_18" n="N016" break="no"/>lich, uninteressant, ja unerfreulich erschien; sie fangen an,
       <lb facs="#facs_2_region_1684738831121_3153_tl_19" n="N017"/>sich doch auch für musikalisch zu halten, und fühlen sich nicht
       <lb facs="#facs_2_region_1684738831121_3153_tl_20" n="N018"/>mehr als Parias unter den Eingeweihten. So ist es wol
-      <lb facs="#facs_2_region_1684738831121_3153_tl_21" n="N019"/>gekommen, daß die Mehrzahl der Menschen, welche über¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_22" n="N020"/>haupt Gelegenheit haben, complicirtere Orchestermusik zu
+      <lb facs="#facs_2_region_1684738831121_3153_tl_21" n="N019"/>gekommen, daß die Mehrzahl der Menschen, welche über
+      <lb facs="#facs_2_region_1684738831121_3153_tl_22" n="N020" break="no"/>haupt Gelegenheit haben, complicirtere Orchestermusik zu
       <lb facs="#facs_2_region_1684738831121_3153_tl_23" n="N021"/>hören, die Auffassung gewinnen, Musik habe überhaupt den
       <lb facs="#facs_2_region_1684738831121_3153_tl_24" n="N022"/>Zweck, etwas darzustellen oder zu bedeuten, und daß sie noch
       <lb facs="#facs_2_region_1684738831121_3153_tl_25" n="N023"/>mehr Genuß davon haben würden, wenn man ihnen immer
       <lb facs="#facs_2_region_1684738831121_3153_tl_26" n="N024"/>vorher sagen wollte, was die zu hörende Musik bedeuten
       <lb facs="#facs_2_region_1684738831121_3153_tl_27" n="N025"/>sollte. Diese Auffassung habe ich bei unmusikalischen, doch
       <lb facs="#facs_2_region_1684738831121_3153_tl_28" n="N026"/>sonst sehr gebildeten Menschen oft gefunden.“ Musik ist im
-      <lb facs="#facs_2_region_1684738831121_3153_tl_29" n="N027"/>Allgemeinen ernsthaft oder heiter. Aber es gibt streng ge¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_30" n="N028"/>nommen weder eine tragische, noch eine komische, noch eine
+      <lb facs="#facs_2_region_1684738831121_3153_tl_29" n="N027"/>Allgemeinen ernsthaft oder heiter. Aber es gibt streng ge
+      <lb facs="#facs_2_region_1684738831121_3153_tl_30" n="N028" break="no"/>nommen weder eine tragische, noch eine komische, noch eine
       <lb facs="#facs_2_region_1684738831121_3153_tl_31" n="N029"/>specifisch religiöse Musik. Ueber die classische Musik, die
       <lb facs="#facs_2_region_1684738831121_3153_tl_32" n="N030"/>das Stammkapital unserer heutigen Concerte bildet, folgen
-      <lb facs="#facs_2_region_1684738831121_3153_tl_33" n="N031"/>einige treffende Bemerkungen. „Mit <rs type="person">Haydn</rs>, <rs type="person">Mozart</rs>,
-      <lb facs="#facs_2_region_1684738831121_3153_tl_34" n="N032"/>
-               <rs type="person">Beethoven</rs>,“ sagt <rs type="person">Billroth</rs>, „ist die Generation, der ich
-      <lb facs="#facs_2_region_1684738831121_3153_tl_35" n="N033"/>angehöre, auferzogen. Ihre Werke waren unsere Jugend¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_36" n="N034"/>nahrung, sie bilden den Maßstab, mit welchem wir bewußt
-      <lb facs="#facs_2_region_1684738831121_3153_tl_37" n="N035"/>oder unbewußt messen. <rs type="person">Haydn</rs> und <rs type="person">Mozart</rs> treten bereits
+      <lb facs="#facs_2_region_1684738831121_3153_tl_33" n="N031"/>einige treffende Bemerkungen. „Mit <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, <rs type="person" ref="#hsl_person_id_189">Mozart</rs>,
+      <lb facs="#facs_2_region_1684738831121_3153_tl_34" n="N032"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>,“ sagt <rs type="person" ref="#hsl_person_id_34">Billroth</rs>, „ist die Generation, der ich
+      <lb facs="#facs_2_region_1684738831121_3153_tl_35" n="N033"/>angehöre, auferzogen. Ihre Werke waren unsere Jugend
+      <lb facs="#facs_2_region_1684738831121_3153_tl_36" n="N034" break="no"/>nahrung, sie bilden den Maßstab, mit welchem wir bewußt
+      <lb facs="#facs_2_region_1684738831121_3153_tl_37" n="N035"/>oder unbewußt messen. <rs type="person" ref="#hsl_person_id_114">Haydn</rs> und <rs type="person" ref="#hsl_person_id_189">Mozart</rs> treten bereits
       <lb facs="#facs_2_region_1684738831121_3153_tl_38" n="N036"/>stark in den Hintergrund. Die jüngste Generation, die ihre
-      <lb facs="#facs_2_region_1684738831121_3153_tl_39" n="N037"/>eigenen Studien mit <rs type="person">Beethoven</rs>, <rs type="person">Schubert</rs>, <rs type="person">Schumann</rs>,
-      <lb facs="#facs_2_region_1684738831121_3153_tl_40" n="N038"/>
-               <rs type="person">Brahms</rs>, <rs type="person">Wagner</rs>, manchmal nur mit dem Letzteren beginnt,
-      <lb facs="#facs_2_region_1684738831121_3153_tl_41" n="N039"/>muß sich bewußt in eine Art historischer Anempfindung ver¬
-      <lb facs="#facs_2_region_1684738831121_3153_tl_42" n="N040"/>setzen, um bei <rs type="person">Haydn</rs> und <rs type="person">Mozart</rs> überhaupt aufzumerken;
-      <lb facs="#facs_2_region_1684738831121_3153_tl_43" n="N041"/>sie sind ihr kaum näher als <rs type="person">Bach</rs> und <rs type="person">Händel</rs>, denn nach
-      <lb facs="#facs_2_line_1701857200941_1509" n="N042"/>rückwärts gesehen, verkürzen sich die Entfernungen gewaltig</p>
+      <lb facs="#facs_2_region_1684738831121_3153_tl_39" n="N037"/>eigenen Studien mit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_279">Schubert</rs>, <rs type="person" ref="#hsl_person_id_282">Schumann</rs>,
+      <lb facs="#facs_2_region_1684738831121_3153_tl_40" n="N038"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>, <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, manchmal nur mit dem Letzteren beginnt,
+      <lb facs="#facs_2_region_1684738831121_3153_tl_41" n="N039"/>muß sich bewußt in eine Art historischer Anempfindung ver
+      <lb facs="#facs_2_region_1684738831121_3153_tl_42" n="N040" break="no"/>setzen, um bei <rs type="person" ref="#hsl_person_id_114">Haydn</rs> und <rs type="person" ref="#hsl_person_id_189">Mozart</rs> überhaupt aufzumerken;
+      <lb facs="#facs_2_region_1684738831121_3153_tl_43" n="N041"/>sie sind ihr kaum näher als <rs type="person" ref="#hsl_person_id_18">Bach</rs> und <rs type="person" ref="#hsl_person_id_108">Händel</rs>, denn nach
+      <lb facs="#facs_2_line_1701857200941_1509" n="N042"/>rückwärts gesehen, verkürzen sich die Entfernungen gewaltig<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684738841936_3159_tl_1" n="N001"/>rasch. Es ist nicht unmöglich, daß man in nicht zu langer
-      <lb facs="#facs_3_region_1684738841936_3159_tl_2" n="N002"/>Zeit alle <hi rendition="#em">Vor</hi>-<rs type="person">Beethoven</rs>’sche Musik als nicht interessant
-      <lb facs="#facs_3_region_1684738841936_3159_tl_3" n="N003"/>genug beiseite setzt. Auch die <rs type="person">Beethoven</rs>-Periode mit
-      <lb facs="#facs_3_line_1701857359157_1549" n="N004"/>ihren Epigonen wird einst vergessen sein.“ <rs type="person">Billroth</rs>
-               <lb facs="#facs_3_region_1684738841936_3159_tl_6" n="N005"/>erzählt nun, wie er die ihm anfangs unsympathische
-      <lb facs="#facs_3_region_1684738841936_3159_tl_7" n="N006"/>Musik <rs type="person">Schumann</rs>’s erst später verstehen und lieben
-      <lb facs="#facs_3_region_1684738841936_3159_tl_8" n="N007"/>gelernt hat. Ebenso erging es ihm mit <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>. An
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684738841936_3159_tl_1" n="N001"/>rasch. Es ist nicht unmöglich, daß man in nicht zu langer
+      <lb facs="#facs_3_region_1684738841936_3159_tl_2" n="N002"/>Zeit alle <hi rendition="#em">Vor</hi>-<rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’sche Musik als nicht interessant
+      <lb facs="#facs_3_region_1684738841936_3159_tl_3" n="N003"/>genug beiseite setzt. Auch die <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Periode mit
+      <lb facs="#facs_3_line_1701857359157_1549" n="N004"/>ihren Epigonen wird einst vergessen sein.“ <rs type="person" ref="#hsl_person_id_34">Billroth</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684738841936_3159_tl_6" n="N005"/>erzählt nun, wie er die ihm anfangs unsympathische
+      <lb facs="#facs_3_region_1684738841936_3159_tl_7" n="N006"/>Musik <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s erst später verstehen und lieben
+      <lb facs="#facs_3_region_1684738841936_3159_tl_8" n="N007"/>gelernt hat. Ebenso erging es ihm mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>. An
       <lb facs="#facs_3_region_1684738841936_3159_tl_9" n="N008"/>seinem eigenen Beispiel zeigt er uns, wie sich Musikfreunde
       <lb facs="#facs_3_region_1684738841936_3159_tl_10" n="N009"/>in neuere Musik hineinleben. Vor Allem gehört dazu ein
-      <lb facs="#facs_3_region_1684738841936_3159_tl_11" n="N010"/>lebhaftes Interesse an der Musik überhaupt, bei einiger¬
-      <lb facs="#facs_3_region_1684738841936_3159_tl_12" n="N011"/>maßen fester Grundlage musikalischer Bildung. Je nach dem
+      <lb facs="#facs_3_region_1684738841936_3159_tl_11" n="N010"/>lebhaftes Interesse an der Musik überhaupt, bei einiger
+      <lb facs="#facs_3_region_1684738841936_3159_tl_12" n="N011" break="no"/>maßen fester Grundlage musikalischer Bildung. Je nach dem
       <lb facs="#facs_3_region_1684738841936_3159_tl_13" n="N012"/>Vertrauen und der Sympathie, welche man zu diesem oder
       <lb facs="#facs_3_region_1684738841936_3159_tl_14" n="N013"/>jenem Künstler oder Kunstkenner hat, wird man unbewußt
       <lb facs="#facs_3_region_1684738841936_3159_tl_15" n="N014"/>beeinflußt. Man wird geführt und führt Andere, und wenn
-      <lb facs="#facs_3_region_1684738841936_3159_tl_16" n="N015"/>man auch nicht aus der Haut heraus kann, die uns ange¬
-      <lb facs="#facs_3_region_1684738841936_3159_tl_17" n="N016"/>boren ist und die sich von Jugend an um und mit uns
+      <lb facs="#facs_3_region_1684738841936_3159_tl_16" n="N015"/>man auch nicht aus der Haut heraus kann, die uns ange
+      <lb facs="#facs_3_region_1684738841936_3159_tl_17" n="N016" break="no"/>boren ist und die sich von Jugend an um und mit uns
       <lb facs="#facs_3_region_1684738841936_3159_tl_18" n="N017"/>dehnt, so ändert man doch seinen Geschmack im Laufe eines
       <lb facs="#facs_3_region_1684738841936_3159_tl_19" n="N018"/>längeren Lebens vielfach, wie man ja auch seine Ansichten
-      <lb facs="#facs_3_region_1684738841936_3159_tl_20" n="N019"/>über Dinge und Menschen ändert. Ueber Richard <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684738841936_3159_tl_21" n="N020"/>finden wir folgende Bemerkung: „In <hi rendition="#em">
-                  <rs type="person">Hebbel</rs>’s</hi> „<rs type="bibl">Nibelun¬</rs>
-               <lb facs="#facs_3_region_1684738841936_3159_tl_22" n="N021"/>
-               <rs type="bibl">gen</rs>“ entwickelt sich Alles zu dramatischem Leben; bei <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684738841936_3159_tl_23" n="N022"/>fließt Alles sich selbst erzählend hin, ohne Abschnitte, außer
+      <lb facs="#facs_3_region_1684738841936_3159_tl_20" n="N019"/>über Dinge und Menschen ändert. Ueber Richard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684738841936_3159_tl_21" n="N020"/>finden wir folgende Bemerkung: „In <hi rendition="#em"><rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_418">Nibelun
+      <lb facs="#facs_3_region_1684738841936_3159_tl_22" n="N021" break="no"/>gen</rs>“ entwickelt sich Alles zu dramatischem Leben; bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684738841936_3159_tl_23" n="N022"/>fließt Alles sich selbst erzählend hin, ohne Abschnitte, außer
       <lb facs="#facs_3_region_1684738841936_3159_tl_24" n="N023"/>den Zwischenacten. Jeder Gott und jeder Held spricht in
-      <lb facs="#facs_3_region_1684738841936_3159_tl_25" n="N024"/>gleicher Weise; die <hi rendition="#em">musikalische Zeichnung der</hi>
-               <lb facs="#facs_3_region_1684738841936_3159_tl_26" n="N025"/>
-               <hi rendition="#em">Charaktere ist aufgegeben</hi>; statt dessen hat jede
-      <lb facs="#facs_3_line_1701857422365_1577" n="N026"/>Figur ein sogenanntes Leitmotiv, welches kaum mehr be¬
-      <lb facs="#facs_3_region_1684738841936_3159_tl_27" n="N027"/>deutet als ihr Costüm. Trotz heißestem Bemühen, diesen
+      <lb facs="#facs_3_region_1684738841936_3159_tl_25" n="N024"/>gleicher Weise; die <hi rendition="#em">musikalische Zeichnung der
+      <lb facs="#facs_3_region_1684738841936_3159_tl_26" n="N025"/>Charaktere ist aufgegeben</hi>; statt dessen hat jede
+      <lb facs="#facs_3_line_1701857422365_1577" n="N026"/>Figur ein sogenanntes Leitmotiv, welches kaum mehr be
+      <lb facs="#facs_3_region_1684738841936_3159_tl_27" n="N027" break="no"/>deutet als ihr Costüm. Trotz heißestem Bemühen, diesen
       <lb facs="#facs_3_region_1684738841936_3159_tl_28" n="N028"/>neuen Styl acceptabel zu finden, vermisse ich, von der
       <lb facs="#facs_3_region_1684738841936_3159_tl_29" n="N029"/>immer pathetisch daherwandelnden, breiten und dicken,
-      <lb facs="#facs_3_region_1684738841936_3159_tl_30" n="N030"/>wenn auch manchmal sehr schönen Musik, meist den Zu¬
-      <lb facs="#facs_3_region_1684738841936_3159_tl_31" n="N031"/>sammenhang zwischen Orchester und Sängern. Der Gesang
+      <lb facs="#facs_3_region_1684738841936_3159_tl_30" n="N030"/>wenn auch manchmal sehr schönen Musik, meist den Zu
+      <lb facs="#facs_3_region_1684738841936_3159_tl_31" n="N031" break="no"/>sammenhang zwischen Orchester und Sängern. Der Gesang
       <lb facs="#facs_3_region_1684738841936_3159_tl_32" n="N032"/>ist da nicht die Hauptsache, und demnach treten die Sänger
       <lb facs="#facs_3_region_1684738841936_3159_tl_33" n="N033"/>in den Hintergrund; sie wachsen weder aus dem Orchester
       <lb facs="#facs_3_region_1684738841936_3159_tl_34" n="N034"/>heraus, noch in dasselbe hinein, sondern sie stehen nur
       <lb facs="#facs_3_region_1684738841936_3159_tl_35" n="N035"/>breitbeinig auf dem Orchesterteppich. Und dann der äußerst
-      <lb facs="#facs_3_region_1684738841936_3159_tl_36" n="N036"/>seltene, durch Chöre und Ensembles unterbrochene Einzel¬
-      <lb facs="#facs_3_line_1701857388830_1560" n="N037"/>gesang; es ist noch schlimmer, als viele Arien nach einander.
+      <lb facs="#facs_3_region_1684738841936_3159_tl_36" n="N036"/>seltene, durch Chöre und Ensembles unterbrochene Einzel
+      <lb facs="#facs_3_line_1701857388830_1560" n="N037" break="no"/>gesang; es ist noch schlimmer, als viele Arien nach einander.
       <lb facs="#facs_3_region_1684738841936_3159_tl_39" n="N038"/>Dazu die endlosen Längen!“
-      <lb facs="#facs_3_region_1684738841936_3159_tl_40" n="N039"/>Das <hi rendition="#em">Verhältniß des Künstlers</hi> zum <hi rendition="#em">Publi¬</hi>
-               <lb facs="#facs_3_region_1684738841936_3159_tl_41" n="N040"/>
-               <hi rendition="#em">cum</hi> bestimmt <rs type="person">Billroth</rs> mit folgendem richtigen Ausspruch:
+            </p><p>
+      <lb facs="#facs_3_region_1684738841936_3159_tl_40" n="N039"/>Das <hi rendition="#em">Verhältniß des Künstlers</hi> zum <hi rendition="#em">Publi
+      <lb facs="#facs_3_region_1684738841936_3159_tl_41" n="N040" break="no"/>cum</hi> bestimmt <rs type="person" ref="#hsl_person_id_34">Billroth</rs> mit folgendem richtigen Ausspruch:
       <lb facs="#facs_3_region_1684738841936_3159_tl_42" n="N041"/>„Wissenschaft und Kunst können sich in Einzelnen ohne
-      <lb facs="#facs_3_line_1701857454701_1586" n="N042"/>Theilnahme weder entwickeln noch fortbestehen. Der Künstler</p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1684738846395_3162_tl_1" n="N001"/>kann nach und nach das Publicum zu sich erheben, doch er
+      <lb facs="#facs_3_line_1701857454701_1586" n="N042"/>Theilnahme weder entwickeln noch fortbestehen. Der Künstler<space quantity="1" unit="char"/></p>
+            <cb n="8"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684738846395_3162_tl_1" n="N001"/>kann nach und nach das Publicum zu sich erheben, doch er
       <lb facs="#facs_3_region_1684738846395_3162_tl_2" n="N002"/>muß sich wenigstens auf einen Theil desselben stützen können.
       <lb facs="#facs_3_region_1684738846395_3162_tl_3" n="N003"/>Die Entwicklung von Kunst und Wissenschaft, welche Fleisch
       <lb facs="#facs_3_region_1684738846395_3162_tl_4" n="N004"/>und Bein vom Menschen sind, ist eine organische, keine
       <lb facs="#facs_3_line_1701857375573_1553" n="N005"/>Krystallisation um beliebig ausgeworfene Körper.“
-      <lb facs="#facs_3_region_1684738846395_3162_tl_5" n="N006"/>Nach diesem längsten Capitel, in welchem <rs type="person">Billroth</rs> am
+            </p><p>
+      <lb facs="#facs_3_region_1684738846395_3162_tl_5" n="N006"/>Nach diesem längsten Capitel, in welchem <rs type="person" ref="#hsl_person_id_34">Billroth</rs> am
       <lb facs="#facs_3_region_1684738846395_3162_tl_6" n="N007"/>persönlichsten hervortritt, behandelt das folgende (als „Skizze“
       <lb facs="#facs_3_region_1684738846395_3162_tl_7" n="N008"/>bezeichnete) das Verhältniß der Musik zu den übrigen Künsten.
       <lb facs="#facs_3_region_1684738846395_3162_tl_8" n="N009"/>Das Schlußcapitel endlich greift mit verdoppelter Energie zu
       <lb facs="#facs_3_region_1684738846395_3162_tl_9" n="N010"/>der Thesis des Ganzen zurück: „<hi rendition="#em">Wer ist musikalisch?</hi>“
       <lb facs="#facs_3_region_1684738846395_3162_tl_10" n="N011"/>„Die Frage muß eigentlich lauten: Woran erkennt man, daß
       <lb facs="#facs_3_line_1701857402319_1568" n="N012"/>Jemand musikalisch <hi rendition="#em">veranlagt</hi> und daß er musikalisch
-      <lb facs="#facs_3_line_1701857406046_1573" n="N013"/>
-               <hi rendition="#em">gebildet</hi> ist? Der Begriff Musik ist ein sehr weiter; er
+      <lb facs="#facs_3_line_1701857406046_1573" n="N013"/><hi rendition="#em">gebildet</hi> ist? Der Begriff Musik ist ein sehr weiter; er
       <lb facs="#facs_3_region_1684738846395_3162_tl_15" n="N014"/>beginnt mit dem monotonen Rhythmus und reicht bis zur
       <lb facs="#facs_3_region_1684738846395_3162_tl_16" n="N015"/>Symphonie. Die Begabung nur für <hi rendition="#em">Rhythmus</hi> wird
-      <lb facs="#facs_3_region_1684738846395_3162_tl_17" n="N016"/>man kaum für eine specielle, musikalische gelten lassen, son¬
-      <lb facs="#facs_3_region_1684738846395_3162_tl_18" n="N017"/>dern erst bei dem spontanen Auffassen und Behalten einer
-      <lb facs="#facs_3_region_1684738846395_3162_tl_19" n="N018"/>
-               <hi rendition="#em">Melodie</hi>. Was man unter dem „Verstehen“ eines Musik¬
-      <lb facs="#facs_3_region_1684738846395_3162_tl_20" n="N019"/>stückes begreift, ist wesentlich die Erkenntniß der Art, wie
+      <lb facs="#facs_3_region_1684738846395_3162_tl_17" n="N016"/>man kaum für eine specielle, musikalische gelten lassen, son
+      <lb facs="#facs_3_region_1684738846395_3162_tl_18" n="N017" break="no"/>dern erst bei dem spontanen Auffassen und Behalten einer
+      <lb facs="#facs_3_region_1684738846395_3162_tl_19" n="N018"/><hi rendition="#em">Melodie</hi>. Was man unter dem „Verstehen“ eines Musik
+      <lb facs="#facs_3_region_1684738846395_3162_tl_20" n="N019" break="no"/>stückes begreift, ist wesentlich die Erkenntniß der Art, wie
       <lb facs="#facs_3_region_1684738846395_3162_tl_21" n="N020"/>und aus welchen Stücken es zusammengesetzt wurde. Zwei
       <lb facs="#facs_3_region_1684738846395_3162_tl_22" n="N021"/>Momente sind dabei von der allergrößten Wichtigkeit,
-      <lb facs="#facs_3_region_1684738846395_3162_tl_23" n="N022"/>nämlich das <hi rendition="#em">Gedächtniß für das Vorübergezo¬</hi>
-               <lb facs="#facs_3_region_1684738846395_3162_tl_24" n="N023"/>
-               <hi rendition="#em">gene</hi> und für die <hi rendition="#em">Art seines Zusammenhanges</hi>.
+      <lb facs="#facs_3_region_1684738846395_3162_tl_23" n="N022"/>nämlich das <hi rendition="#em">Gedächtniß für das Vorübergezo
+      <lb facs="#facs_3_region_1684738846395_3162_tl_24" n="N023" break="no"/>gene</hi> und für die <hi rendition="#em">Art seines Zusammenhanges</hi>.
       <lb facs="#facs_3_region_1684738846395_3162_tl_25" n="N024"/>Eine kurze Melodie immer wieder zu erkennen und sie
       <lb facs="#facs_3_region_1684738846395_3162_tl_26" n="N025"/>summend oder pfeifend richtig zu <hi rendition="#em">reproduciren</hi>, ist der
       <lb facs="#facs_3_region_1684738846395_3162_tl_27" n="N026"/>erste Grad des Verständnisses von Musik. Wer das nicht
@@ -1675,36 +1655,32 @@
       <lb facs="#facs_3_region_1684738846395_3162_tl_29" n="N028"/>werden auch längere Melodien behalten, beim höchsten auch
       <lb facs="#facs_3_region_1684738846395_3162_tl_30" n="N029"/>die längsten. Wir können ein Werk nur dadurch verstehen,
       <lb facs="#facs_3_region_1684738846395_3162_tl_31" n="N030"/>daß wir die Theile unterscheiden lernen, aus welchen sich
-      <lb facs="#facs_3_region_1684738846395_3162_tl_32" n="N031"/>das Werk zusammensetzt, das als etwas Zusammenhängen¬
-      <lb facs="#facs_3_line_1701857481684_1597" n="N032"/>des an uns vorüberzieht, und das wir doch als Ganzes
+      <lb facs="#facs_3_region_1684738846395_3162_tl_32" n="N031"/>das Werk zusammensetzt, das als etwas Zusammenhängen
+      <lb facs="#facs_3_line_1701857481684_1597" n="N032" break="no"/>des an uns vorüberzieht, und das wir doch als Ganzes
       <lb facs="#facs_3_region_1684738846395_3162_tl_33" n="N033"/>empfinden. Die sogenannte musikalische Bildung besteht in
       <lb facs="#facs_3_region_1684738846395_3162_tl_34" n="N034"/>der <hi rendition="#em">Erkenntniß</hi> dieser <hi rendition="#em">Formen</hi>. Die musikalische
-      <lb facs="#facs_3_region_1684738846395_3162_tl_35" n="N035"/>Bildung führt zum <hi rendition="#em">specifischen musikalischen</hi>
-               <lb facs="#facs_3_region_1684738846395_3162_tl_36" n="N036"/>
-               <hi rendition="#em">Gefühle</hi>, was von dem übrigen Gefühle dadurch ver¬
-      <lb facs="#facs_3_region_1684738846395_3162_tl_37" n="N037"/>schieden ist, daß letzteres sich immer zu <hi rendition="#em">etwas Anderm</hi>
-               <lb facs="#facs_3_region_1684738846395_3162_tl_38" n="N038"/>wendet. Musikalische Schönheit ist ein Ding <hi rendition="#em">für sich</hi>, nur
+      <lb facs="#facs_3_region_1684738846395_3162_tl_35" n="N035"/>Bildung führt zum <hi rendition="#em">specifischen musikalischen
+      <lb facs="#facs_3_region_1684738846395_3162_tl_36" n="N036"/>Gefühle</hi>, was von dem übrigen Gefühle dadurch ver
+      <lb facs="#facs_3_region_1684738846395_3162_tl_37" n="N037" break="no"/>schieden ist, daß letzteres sich immer zu <hi rendition="#em">etwas Anderm</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684738846395_3162_tl_38" n="N038"/>wendet. Musikalische Schönheit ist ein Ding <hi rendition="#em">für sich</hi>, nur
       <lb facs="#facs_3_region_1684738846395_3162_tl_39" n="N039"/>aus den Tönen als Tonerscheinung auf uns wirkend. Das
-      <lb facs="#facs_3_line_1701857499509_1603" n="N040"/>Gefühl dafür ist ein rein ästhetisches, angeboren in der An¬
-      <lb facs="#facs_3_region_1684738846395_3162_tl_40" n="N041"/>lage. „Der in seiner musikalischen Bildung stehen Gebliebene
-      <lb facs="#facs_3_region_1684738846395_3162_tl_41" n="N042"/>wird die Freude an seiner Jugendmusik, sagen wir an</p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1684738851342_3165_tl_1" n="N001"/>
-               <rs type="person">Haydn</rs> und <rs type="person">Mozart</rs>, nicht verlieren, doch <rs type="person">Schumann</rs> und
-      <lb facs="#facs_3_region_1684738851342_3165_tl_2" n="N002"/>
-               <rs type="person">Brahms</rs> werden ihm unverständlich sein; er genießt von
+      <lb facs="#facs_3_line_1701857499509_1603" n="N040"/>Gefühl dafür ist ein rein ästhetisches, angeboren in der An
+      <lb facs="#facs_3_region_1684738846395_3162_tl_40" n="N041" break="no"/>lage. „Der in seiner musikalischen Bildung stehen Gebliebene
+      <lb facs="#facs_3_region_1684738846395_3162_tl_41" n="N042"/>wird die Freude an seiner Jugendmusik, sagen wir an<space quantity="1" unit="char"/></p>
+            <cb n="9"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684738851342_3165_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs> und <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, nicht verlieren, doch <rs type="person" ref="#hsl_person_id_282">Schumann</rs> und
+      <lb facs="#facs_3_region_1684738851342_3165_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs> werden ihm unverständlich sein; er genießt von
       <lb facs="#facs_3_region_1684738851342_3165_tl_3" n="N003"/>allem uns Erfreuenden weniger als wir, doch dies schmeckt
       <lb facs="#facs_3_region_1684738851342_3165_tl_4" n="N004"/>ihm um so besser; er verlangt nicht mehr und ist mit
       <lb facs="#facs_3_region_1684738851342_3165_tl_5" n="N005"/>dem, was er hat, glücklich, und das ist doch wie bei allem
-      <lb facs="#facs_3_region_1684738851342_3165_tl_6" n="N006"/>menschlichen Genießen die Hauptsache in unserem Verhält¬
-      <lb facs="#facs_3_region_1684738851342_3165_tl_7" n="N007"/>nisse zur Kunst. Freilich ist die Freudenempfindung aus¬
-      <lb facs="#facs_3_region_1684738851342_3165_tl_8" n="N008"/>gedehnter, je mehr von Kunst wir verstehen lernen, sie wird
-      <lb facs="#facs_3_region_1684738851342_3165_tl_9" n="N009"/>aber nicht intensiver. Ob ich das höchste Glück bei einer <rs type="person">Bach</rs>¬
-      <lb facs="#facs_3_region_1684738851342_3165_tl_10" n="N010"/>schen Sarabande, einem <rs type="person">Mozart</rs>’schen Andante empfinde,
-      <lb facs="#facs_3_region_1684738851342_3165_tl_11" n="N011"/>oder bei einem <rs type="person">Beethoven</rs>’schen Adagio, einem Liede von
-      <lb facs="#facs_3_region_1684738851342_3165_tl_12" n="N012"/>
-               <rs type="person">Brahms</rs>, ist schließlich dasselbe; denn über das für uns
+      <lb facs="#facs_3_region_1684738851342_3165_tl_6" n="N006"/>menschlichen Genießen die Hauptsache in unserem Verhält
+      <lb facs="#facs_3_region_1684738851342_3165_tl_7" n="N007" break="no"/>nisse zur Kunst. Freilich ist die Freudenempfindung aus
+      <lb facs="#facs_3_region_1684738851342_3165_tl_8" n="N008" break="no"/>gedehnter, je mehr von Kunst wir verstehen lernen, sie wird
+      <lb facs="#facs_3_region_1684738851342_3165_tl_9" n="N009"/>aber nicht intensiver. Ob ich das höchste Glück bei einer <rs type="person" ref="#hsl_person_id_18">Bach</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684738851342_3165_tl_10" n="N010" break="no"/>schen Sarabande, einem <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’schen Andante empfinde,
+      <lb facs="#facs_3_region_1684738851342_3165_tl_11" n="N011"/>oder bei einem <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’schen Adagio, einem Liede von
+      <lb facs="#facs_3_region_1684738851342_3165_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>, ist schließlich dasselbe; denn über das für uns
       <lb facs="#facs_3_region_1684738851342_3165_tl_13" n="N013"/>höchste Glücksgefühl kann das Subject nicht hinaus. Es
       <lb facs="#facs_3_region_1684738851342_3165_tl_14" n="N014"/>ist psychologisch interessant, daß der Mensch im Stande ist,
       <lb facs="#facs_3_region_1684738851342_3165_tl_15" n="N015"/>in dem reinen Tonspiele den höchsten Genuß zu finden,
@@ -1714,19 +1690,19 @@
       <lb facs="#facs_3_region_1684738851342_3165_tl_19" n="N019"/>ein Glück, welches in Sphären liegt, die anderen Menschen
       <lb facs="#facs_3_line_1701857466350_1593" n="N020"/>nicht erreichbar sind, ein Glück, welches sich durch das
       <lb facs="#facs_3_region_1684738851342_3165_tl_22" n="N021"/>Studium der Formen steigert.“
+            </p><p>
       <lb facs="#facs_3_region_1684738851342_3165_tl_23" n="N022"/>Mit diesem Ausspruch, der uns so recht empfinden
-      <lb facs="#facs_3_region_1684738851342_3165_tl_24" n="N023"/>läßt, wie innig <rs type="person">Billroth</rs> in der Musik lebte und webte,
+      <lb facs="#facs_3_region_1684738851342_3165_tl_24" n="N023"/>läßt, wie innig <rs type="person" ref="#hsl_person_id_34">Billroth</rs> in der Musik lebte und webte,
       <lb facs="#facs_3_region_1684738851342_3165_tl_25" n="N024"/>schließen seine Betrachtungen. Müde von nächtlicher Arbeit,
       <lb facs="#facs_3_region_1684738851342_3165_tl_26" n="N025"/>von anhaltendem Denken und Schreiben, scheint der bereits
       <lb facs="#facs_3_region_1684738851342_3165_tl_27" n="N026"/>schwer Leidende hier die Feder aus der Hand gelegt zu
       <lb facs="#facs_3_region_1684738851342_3165_tl_28" n="N027"/>haben. Er ergreift sie nur wieder, um ein kurzes, unsäglich
-      <lb facs="#facs_3_region_1684738851342_3165_tl_29" n="N028"/>rührendes Schlußwort beizufügen, das in sicherer Todes¬
-      <lb facs="#facs_3_region_1684738851342_3165_tl_30" n="N029"/>ahnung wenige Tage vor seinem Ende geschrieben ist. Es
+      <lb facs="#facs_3_region_1684738851342_3165_tl_30" n="N029" break="no"/>ahnung wenige Tage vor seinem Ende geschrieben ist. Es
       <lb facs="#facs_3_region_1684738851342_3165_tl_31" n="N030"/>lautet: „Nacht ist’s; schon lange lautlose Stille um mich;
-      <lb facs="#facs_3_region_1684738851342_3165_tl_32" n="N031"/>nun wird’s auch in mir still. Mein Geist beginnt zu wan¬
-      <lb facs="#facs_3_region_1684738851342_3165_tl_33" n="N032"/>dern. Ein ätherblauer Himmel wölbt sich über mir. Ich
-      <lb facs="#facs_3_region_1684738851342_3165_tl_34" n="N033"/>schwebe körperlos empor. Es klingen die schönsten Har¬
-      <lb facs="#facs_3_region_1684738851342_3165_tl_35" n="N034"/>monien von unsichtbaren Chören, in sanften Wechsel gleich
+      <lb facs="#facs_3_region_1684738851342_3165_tl_32" n="N031"/>nun wird’s auch in mir still. Mein Geist beginnt zu wan
+      <lb facs="#facs_3_region_1684738851342_3165_tl_33" n="N032" break="no"/>dern. Ein ätherblauer Himmel wölbt sich über mir. Ich
+      <lb facs="#facs_3_region_1684738851342_3165_tl_34" n="N033"/>schwebe körperlos empor. Es klingen die schönsten Har
+      <lb facs="#facs_3_region_1684738851342_3165_tl_35" n="N034" break="no"/>monien von unsichtbaren Chören, in sanften Wechsel gleich
       <lb facs="#facs_3_region_1684738851342_3165_tl_36" n="N035"/>dem Athem der Ewigkeit! Auch Stimmen nehm’ ich wahr,
       <lb facs="#facs_3_region_1684738851342_3165_tl_37" n="N036"/>die Worte sind ein leise rauschend Klingen: Komm’, müder
       <lb facs="#facs_3_region_1684738851342_3165_tl_38" n="N037"/>Mann, wir machen glücklich dich. In dieser Sphären Zauber
