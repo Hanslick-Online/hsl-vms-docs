@@ -107,6 +107,7 @@
          <change who="kbamer ampfiel" when="2023-12-06">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-01-23">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2024-01-23" who="ampfiel">header, p Absätze, lb</change>
+         <change when="2024-01-24" who="ampfiel">ref rs place, person fertig</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -764,35 +765,27 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
                <head type="h1">
-                     <lb facs="#facs_1_region_1684600022599_3964_tl_1" n="N001"/>Das <rs type="person">Patti</rs>-Concert im Carltheater.</head>
+                     <lb facs="#facs_1_region_1684600022599_3964_tl_1" n="N001"/>Das <rs type="person" ref="#hsl_person_id_1209">Patti</rs>-Concert im Carltheater.</head>
             <p>
       <lb facs="#facs_1_region_1684600022599_3964_tl_2" n="N002"/>Ed. H. Nicht ohne Erstaunen gewahrten gestern die Be
-      <lb facs="#facs_1_region_1684600022599_3964_tl_3" n="N003" break="no"/>wohner <rs type="place">Wien</rs>s eine verfrühte Kette musikalischer Zugvögel,
+      <lb facs="#facs_1_region_1684600022599_3964_tl_3" n="N003" break="no"/>wohner <rs type="place" ref="#hsl_place_id_55">Wien</rs>s eine verfrühte Kette musikalischer Zugvögel,
       <lb facs="#facs_1_region_1684600022599_3964_tl_4" n="N004"/>welche sich an einem der wärmsten Septembertage plötzlich in
-      <lb facs="#facs_1_region_1684600022599_3964_tl_5" n="N005"/><hi rendition="#em">
-                  <rs type="person">Ascher</rs>’s</hi> Musentempel niederließ, um am folgenden Morgen
+      <lb facs="#facs_1_region_1684600022599_3964_tl_5" n="N005"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3902">Ascher</rs>’s</hi> Musentempel niederließ, um am folgenden Morgen
       <lb facs="#facs_1_region_1684600022599_3964_tl_6" n="N006"/>mit Windeseile wieder fortzuziehen. Diese Wander- und Wun
       <lb facs="#facs_1_region_1684600022599_3964_tl_7" n="N007" break="no"/>dervögel erscheinen dicht geschaart um einen Anführer von un
-      <lb facs="#facs_1_region_1684600022599_3964_tl_8" n="N008" break="no"/>scheinbarem Gesieder und großer Weisheit, den sie <hi rendition="#em">
-                  <rs type="person">Ullman</rs></hi>
-      <lb facs="#facs_1_region_1684600022599_3964_tl_9" n="N009"/>rufen; sie selbst nennen sich <hi rendition="#em">Carlotta 
-            <rs type="person">Patti</rs></hi>, <hi rendition="#em">
-                  <rs type="person">Lefort</rs></hi>,
-      <lb facs="#facs_1_region_1684600022599_3964_tl_10" n="N010"/><hi rendition="#em">
-                  <rs type="person">Auer</rs></hi>, <hi rendition="#em">
-                  <rs type="person">Popper</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Willmers</rs></hi>. Wenn Eine Schwalbe
+      <lb facs="#facs_1_region_1684600022599_3964_tl_8" n="N008" break="no"/>scheinbarem Gesieder und großer Weisheit, den sie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1064">Ullman</rs></hi>
+      <lb facs="#facs_1_region_1684600022599_3964_tl_9" n="N009"/>rufen; sie selbst nennen sich <hi rendition="#em">Carlotta <rs type="person" ref="#hsl_person_id_1209">Patti</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3903">Lefort</rs></hi>,
+      <lb facs="#facs_1_region_1684600022599_3964_tl_10" n="N010"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1015">Auer</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3555">Popper</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2038">Willmers</rs></hi>. Wenn Eine Schwalbe
       <lb facs="#facs_1_region_1684600022599_3964_tl_11" n="N011"/>leider noch keinen Sommer macht, so macht gottlob ein Vir
       <lb facs="#facs_1_region_1684600022599_3964_tl_12" n="N012" break="no"/>tuosen-Besuch auch keine Concertsaison, und wir dürfen uns
       <lb facs="#facs_1_region_1684600022599_3964_tl_13" n="N013"/>ruhig noch einige Wochen in grüneren Landschaften, als die
-      <lb facs="#facs_1_region_1684600022599_3964_tl_14" n="N014"/>„<rs type="place">Tuchlauben</rs>“ sind, herumtummeln. Dieses Trostes theilhaf
+      <lb facs="#facs_1_region_1684600022599_3964_tl_14" n="N014"/>„Tuchlauben“ sind, herumtummeln. Dieses Trostes theilhaf
       <lb facs="#facs_1_region_1684600022599_3964_tl_15" n="N015" break="no"/>tig, constatiren wir mit doppeltem Vergnügen, daß die frühe
-      <lb facs="#facs_1_region_1684600022599_3964_tl_16" n="N016"/>Virtuosenkitte am <date month="0" day="0" year="0">10. September</date> von den Wienern mit offe
+      <lb facs="#facs_1_region_1684600022599_3964_tl_16" n="N016"/>Virtuosenkitte am <date when="1867-09-10">10. September</date> von den Wienern mit offe
       <lb facs="#facs_1_region_1684600022599_3964_tl_17" n="N017" break="no"/>nen Armen aufgenommen und unter zärtlichen Liebkosungen
       <lb facs="#facs_1_region_1684600022599_3964_tl_18" n="N018"/>entlassen wurde.</p>
                <p>
-      <lb facs="#facs_1_region_1684600022599_3964_tl_19" n="N019"/><hi rendition="#em">Carlotta 
-            <rs type="person">Patti</rs></hi>, die schmetternde Lerche der Gesell
+      <lb facs="#facs_1_region_1684600022599_3964_tl_19" n="N019"/><hi rendition="#em">Carlotta <rs type="person" ref="#hsl_person_id_1209">Patti</rs></hi>, die schmetternde Lerche der Gesell
       <lb facs="#facs_1_region_1684600022599_3964_tl_20" n="N020" break="no"/>schaft, ist hier aus einer langen Reihe von Concerten wohl
       <lb facs="#facs_1_region_1684600022599_3964_tl_21" n="N021" break="no"/>bekannt. Sie hat sich unverändert beibehalten, was dem
       <lb facs="#facs_1_region_1684600022599_3964_tl_22" n="N022"/>Publicum sichtlich lieb war — weniger uns Recensenten, die
@@ -804,16 +797,14 @@
       <lb facs="#facs_1_region_1684600022599_3964_tl_27" n="N028"/>spricht auch jetzt ihr Gesang zum Ohr, nicht zum Herzen —
       <lb facs="#facs_1_region_1684600022599_3964_tl_28" n="N029"/>recht eigentlich ein glänzend heiteres Spielwerk der Kunst.
       <lb facs="#facs_1_region_1684600022599_3964_tl_29" n="N030"/>Virtuosin im eminenten Sinne und obendrein wieder Specia
-      <lb facs="#facs_1_region_1684600022599_3964_tl_30" n="N031" break="no"/>lität innerhalb dieses Virtuosenthums, sieht Carlotta <hi rendition="#em">
-                  <rs type="person">Patti</rs></hi>
+      <lb facs="#facs_1_region_1684600022599_3964_tl_30" n="N031" break="no"/>lität innerhalb dieses Virtuosenthums, sieht Carlotta <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1209">Patti</rs></hi>
       <lb facs="#facs_1_region_1684600022599_3964_tl_31" n="N032"/>sich in einen ziemlich engen Kreis von Productionen gebannt.
-      <lb facs="#facs_1_region_1684600022599_3964_tl_32" n="N033"/>Mit Ausnahme einer <rs type="bibl">Bravour-Tarantella</rs> von <hi rendition="#em">
-                  <rs type="person">Bevignani</rs></hi>
+      <lb facs="#facs_1_region_1684600022599_3964_tl_32" n="N033"/>Mit Ausnahme einer <rs type="bibl" ref="#hsl_work_id_2422">Bravour-Tarantella</rs> von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3904">Bevignani</rs></hi>
       <lb facs="#facs_1_region_1684600022599_3964_tl_33" n="N034"/>haben wir alle ihre Nummern oft und oft von ihr gehört:
-      <lb facs="#facs_1_region_1684600022599_3964_tl_34" n="N035"/>die <rs type="bibl">Entrée-Arie</rs> der „<rs type="person">Linda von Chamounix</rs>“, die <rs type="bibl">Schlußarie</rs>
-      <lb facs="#facs_1_region_1684600022599_3964_tl_35" n="N036"/>der „<rs type="person">Sonnambula</rs>“ und die Lachcouplets („<rs type="bibl">Manon Lescant</rs>“)
+      <lb facs="#facs_1_region_1684600022599_3964_tl_34" n="N035"/>die Entrée-Arie der „<rs type="bibl" ref="#hsl_work_id_98">Linda von Chamounix</rs>“, die Schlußarie
+      <lb facs="#facs_1_region_1684600022599_3964_tl_35" n="N036"/>der „<rs type="bibl" ref="#hsl_work_id_352">Sonnambula</rs>“ und die Lachcouplets („<rs type="bibl" ref="#hsl_work_id_940">Manon Lescant</rs>“)
       <lb facs="#facs_1_line_1701858652450_82" n="N037"/>von <hi rendition="#em">
-                  <rs type="person">Auber</rs></hi>. Daß virtuose Specialitäten, von deren sinn
+                  <rs type="person" ref="#hsl_person_id_16">Auber</rs></hi>. Daß virtuose Specialitäten, von deren sinn</p>
             <cb n="2"/>
             <p prev="true">
       <lb facs="#facs_1_line_1701858671823_97" n="N001" break="no"/>lichem Zauber man sich anfangs gern überraschen und um
@@ -821,32 +812,27 @@
       <lb facs="#facs_1_region_1684600025739_3967_tl_3" n="N003" break="no"/>holungen an Wirkung kaum gewinnen können, vielmehr sich
       <lb facs="#facs_1_region_1684600025739_3967_tl_4" n="N004"/>leicht abstumpfen, liegt in der Natur der Sache. Wer wird
       <lb facs="#facs_1_region_1684600025739_3967_tl_5" n="N005"/>uns demnach verargen, wenn wir von den Bravourstücken
-      <lb facs="#facs_1_region_1684600025739_3967_tl_6" n="N006"/>
-               <rs type="person">Carlotta</rs>’s diesmal keinen selbstständigeren Eindruck als den
+      <lb facs="#facs_1_region_1684600025739_3967_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_1209">Carlotta</rs>’s diesmal keinen selbstständigeren Eindruck als den
       <lb facs="#facs_1_line_1701858685722_119" n="N007"/>einer freundlichen Erinnerung an ihren ersten Besuch empfin
       <lb facs="#facs_1_line_1701858695526_124" n="N008" break="no"/>gen? Der Künstlerin gereicht es darum nicht weniger zum
       <lb facs="#facs_1_region_1684600025739_3967_tl_11" n="N009"/>Lob und Vortheil, daß das Publicum ihre oft gehörten Vor
       <lb facs="#facs_1_region_1684600025739_3967_tl_12" n="N010" break="no"/>träge mit gleichem Beifall aufnahm, wie vor zwei Jahren.
       <lb facs="#facs_1_region_1684600025739_3967_tl_13" n="N011"/>Insbesondere übte das „<rs type="bibl">Lachlied</rs>“ wieder seine unwiderstehliche,
       <lb facs="#facs_1_region_1684600025739_3967_tl_14" n="N012"/>wahrhaft erheiternde Wirkung. Es ist die frischeste und eigen
-      <lb facs="#facs_1_region_1684600025739_3967_tl_15" n="N013" break="no"/>thümlichste Production <hi rendition="#em">
-                  <rs type="person">Carlotta</rs>’s</hi>; sie colorirt die <rs type="person">Auber</rs>
+      <lb facs="#facs_1_region_1684600025739_3967_tl_15" n="N013" break="no"/>thümlichste Production <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1209">Carlotta</rs>’s</hi>; sie colorirt die 
+                  <rs type="person" ref="#hsl_person_id_16">Auber</rs>
       <lb facs="#facs_1_region_1684600025739_3967_tl_16" n="N014" break="no"/>sche Zeichnung mit Naturtönen von einer musikalischen Kühn
       <lb facs="#facs_1_region_1684600025739_3967_tl_17" n="N015" break="no"/>heit, welche an die äußerste Grenze des Realismus streift, aber
       <lb facs="#facs_1_region_1684600025739_3967_tl_18" n="N016"/>durch ihre Naivetät und unfehlbares Gelingen jedes Bedenken
-      <lb facs="#facs_1_region_1684600025739_3967_tl_19" n="N017"/>entwaffnet. <hi rendition="#em">Adelina</hi>
-               <rs type="person">Patti</rs>, welche in <rs type="place">Paris</rs> das <rs type="bibl">Lachlied</rs>
+      <lb facs="#facs_1_region_1684600025739_3967_tl_19" n="N017"/>entwaffnet. <hi rendition="#em">Adelina</hi> <rs type="person" ref="#hsl_person_id_209">Patti</rs>, welche in <rs type="place" ref="#hsl_place_id_44">Paris</rs> das <rs type="bibl">Lachlied</rs>
       <lb facs="#facs_1_region_1684600025739_3967_tl_20" n="N018"/>im „<rs type="bibl">Barbier von Sevilla</rs>“ vorzutragen pflegt, singt es feiner
       <lb facs="#facs_1_region_1684600025739_3967_tl_21" n="N019"/>und gemäßigter, aber weit entfernt von der packenden Wirkung
-      <lb facs="#facs_1_line_1701858616632_53" n="N020"/>
-               <rs type="person">Carlotta</rs>’s.</p>
+      <lb facs="#facs_1_line_1701858616632_53" n="N020"/><rs type="person" ref="#hsl_person_id_1209">Carlotta</rs>’s.</p>
                <p>
       <lb facs="#facs_1_region_1684600025739_3967_tl_22" n="N021"/>Von den mitwirkenden Künstlern gebührt dem Pianisten
-      <lb facs="#facs_1_line_1701858757510_160" n="N022"/>Herrn <hi rendition="#em">
-                  <rs type="person">Willmers</rs></hi> aus dem Titel der Anciennetät die Nen
+      <lb facs="#facs_1_line_1701858757510_160" n="N022"/>Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2038">Willmers</rs></hi> aus dem Titel der Anciennetät die Nen
       <lb facs="#facs_1_region_1684600025739_3967_tl_23" n="N023" break="no"/>nung an erster Stelle. Als er vor etwa 25 Jahren zuerst in
-      <lb facs="#facs_1_line_1701858776596_178" n="N024"/>
-               <rs type="place">Oesterreich</rs> erschienen war, umgab ein gewisser exotischer Schim
+      <lb facs="#facs_1_line_1701858776596_178" n="N024"/><rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> erschienen war, umgab ein gewisser exotischer Schim
       <lb facs="#facs_1_line_1701858793075_190" n="N025" break="no"/>mer das blond umwallte Haupt des jungen Dänen, der mit
       <lb facs="#facs_1_region_1684600025739_3967_tl_26" n="N026"/>seiner Transscription: „<rs type="bibl">Flieg’, Vogel, flieg’!</rs>“ und anderen
       <lb facs="#facs_1_region_1684600025739_3967_tl_27" n="N027"/>Süßigkeiten viel Glück machte. Bei aller Anerkennung seiner
@@ -855,110 +841,91 @@
       <lb facs="#facs_1_region_1684600025739_3967_tl_30" n="N030"/>Gaben vertragen können. Es lag eine ungemeine Leere und
       <lb facs="#facs_1_region_1684600025739_3967_tl_31" n="N031"/>Mattseligkeit in diesem Spiel, wie in den einander aufs Haar
       <lb facs="#facs_1_region_1684600025739_3967_tl_32" n="N032"/>ähnlichen Compositionen. Wie dürftig der musikalische Gehalt
-      <lb facs="#facs_1_region_1684600025739_3967_tl_33" n="N033"/>dieser Productionen war, erkannte man deutlich, als <rs type="person">Willmers</rs>
+      <lb facs="#facs_1_region_1684600025739_3967_tl_33" n="N033"/>dieser Productionen war, erkannte man deutlich, als <rs type="person" ref="#hsl_person_id_2038">Willmers</rs>
       <lb facs="#facs_1_region_1684600025739_3967_tl_34" n="N034"/>nach einigen Jahren wieder und wieder kam, in stets gleicher
       <lb facs="#facs_1_region_1684600025739_3967_tl_35" n="N035"/>Weise trillerte und den „<rs type="bibl">Vogel</rs>“ zum Fliegen einlud. Als der
       <lb facs="#facs_1_region_1684600025739_3967_tl_36" n="N036"/>Componist sich eines Morgens vergeblich nach einem Hahn
       <lb facs="#facs_1_region_1684600025739_3967_tl_37" n="N037"/>umschaute, der noch nach diesem „<rs type="bibl">Vogel</rs>“ krähe, warf er sich auf
       <lb facs="#facs_1_region_1684600025739_3967_tl_38" n="N038"/>größere, ernstere Compositionen, ohne damit mehr zu reussiren,
-      <lb facs="#facs_1_region_1684600025739_3967_tl_39" n="N039"/>als sein gleichmäßig vorangegangener College <hi rendition="#em">
-                  <rs type="person">Evers</rs></hi>. Es war
+      <lb facs="#facs_1_region_1684600025739_3967_tl_39" n="N039"/>als sein gleichmäßig vorangegangener College <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2039">Evers</rs></hi>. Es war
       <lb facs="#facs_1_line_1701858654622_85" n="N040"/>jedenfalls wohlgethan, wieder zu den eleganten kleineren Sa</p>
             <cb n="3"/>
             <p prev="true">
-       <lb facs="#facs_1_line_1701858674769_100" n="N001" break="no"/>lonformen zurückzukehren, in welchen sich <rs type="person">Willmers</rs> freier und
+       <lb facs="#facs_1_line_1701858674769_100" n="N001" break="no"/>lonformen zurückzukehren, in welchen sich <rs type="person" ref="#hsl_person_id_2038">Willmers</rs> freier und
       <lb facs="#facs_1_region_1684600029182_3970_tl_1" n="N002"/>gewandter bewegt. Offen gestanden, hätten wir aber seine alten
       <lb facs="#facs_1_region_1684600029182_3970_tl_2" n="N003"/>Trillerstückchen noch immer lieber gehört, als die neue „<rs type="bibl">Steie
       <lb facs="#facs_1_line_1701858872862_238" n="N004" break="no"/>rische Phantasie</rs>“ und „<rs type="bibl">Ungarische Episode</rs>“ (eine Art „Flieg’,
-      <lb facs="#facs_1_region_1684600029182_3970_tl_5" n="N005"/>Csardas, flieg’!“), womit Herr <hi rendition="#em">
-                  <rs type="person">Willmers</rs></hi> sich in dem
-      <lb facs="#facs_1_line_1701858890583_252" n="N006"/>
-               <rs type="person">Patti</rs>-Concerte producirte. Wen interessiren noch derlei mit
+      <lb facs="#facs_1_region_1684600029182_3970_tl_5" n="N005"/>Csardas, flieg’!“), womit Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2038">Willmers</rs></hi> sich in dem
+      <lb facs="#facs_1_line_1701858890583_252" n="N006"/><rs type="person" ref="#hsl_person_id_1209">Patti</rs>-Concerte producirte. Wen interessiren noch derlei mit
       <lb facs="#facs_1_line_1701858893629_255" n="N007"/>Passagen plump überladene, durch und durch veraltete
-      <lb facs="#facs_1_line_1701858896380_258" n="N008"/>Transscriptionen ohne Geist und ohne Ende? Hernn <rs type="person">Willmers</rs>’
+      <lb facs="#facs_1_line_1701858896380_258" n="N008"/>Transscriptionen ohne Geist und ohne Ende? Hernn <rs type="person" ref="#hsl_person_id_2038">Willmers</rs>’
       <lb facs="#facs_1_region_1684600029182_3970_tl_7" n="N009"/>Technik hat übrigens nichts von ihrer ehemaligen Geläufigkeit
       <lb facs="#facs_1_region_1684600029182_3970_tl_8" n="N010"/>eingebüßt, und so nahm denn das Publicum den alten Be
       <lb facs="#facs_1_region_1684600029182_3970_tl_9" n="N011" break="no"/>kannten mit großer Freundlichkeit auf. Was wir schon wieder
       <lb facs="#facs_1_region_1684600029182_3970_tl_10" n="N012" break="no"/>holt erlebt, daß ein hier erbleichender Stern in einem anderen
       <lb facs="#facs_1_region_1684600029182_3970_tl_11" n="N013"/>Welttheile mit neuem Glanze ausgeht, dürfte sich demnächst
-      <lb facs="#facs_1_region_1684600029182_3970_tl_12" n="N014"/>auch an <rs type="person">Willmers</rs> vollziehen. Er hat eine sehr schmeichelhafte
+      <lb facs="#facs_1_region_1684600029182_3970_tl_12" n="N014"/>auch an <rs type="person" ref="#hsl_person_id_2038">Willmers</rs> vollziehen. Er hat eine sehr schmeichelhafte
       <lb facs="#facs_1_region_1684600029182_3970_tl_13" n="N015"/>Einladung erhalten, als erster Professor des Clavierspiels am
-      <lb facs="#facs_1_region_1684600029182_3970_tl_14" n="N016"/>Conservatorium in <rs type="place">Newyork</rs> einzutreten gegen einen Jahres
+      <lb facs="#facs_1_region_1684600029182_3970_tl_14" n="N016"/>Conservatorium in <rs type="place" ref="#hsl_place_id_186">Newyork</rs> einzutreten gegen einen Jahres
       <lb facs="#facs_1_region_1684600029182_3970_tl_15" n="N017" break="no"/>gehalt von 3600 Dollars und vollständige Reisevergütung. Es
       <lb facs="#facs_1_region_1684600029182_3970_tl_16" n="N018"/>gibt also noch Conservatorien — sehr weit von hier — wo
       <lb facs="#facs_1_line_1701858733755_148" n="N019"/>man gute Clavierlehrer auch gut bezahlt.</p>
                      <p>
-      <lb facs="#facs_1_region_1684600029182_3970_tl_17" n="N020"/>Ein zweiter von Herrn <rs type="person">Ullman</rs> hier vorgeführter Künstler,
-      <lb facs="#facs_1_region_1684600029182_3970_tl_18" n="N021"/>der Sänger Jules <hi rendition="#em">
-                  <rs type="person">Lefort</rs></hi> aus <rs type="place">Paris</rs>, bietet uns wenig Stoff
+      <lb facs="#facs_1_region_1684600029182_3970_tl_17" n="N020"/>Ein zweiter von Herrn <rs type="person" ref="#hsl_person_id_1064">Ullman</rs> hier vorgeführter Künstler,
+      <lb facs="#facs_1_region_1684600029182_3970_tl_18" n="N021"/>der Sänger Jules <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3903">Lefort</rs></hi> aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>, bietet uns wenig Stoff
       <lb facs="#facs_1_line_1701858761642_163" n="N022"/>zum Erzählen. Er gehört zu jenen stimmlosen Baritonisten,
       <lb facs="#facs_1_region_1684600029182_3970_tl_20" n="N023"/>deren verständig und geschmackvoll accentuirter Gesang — eine
-      <lb facs="#facs_1_line_1701858784796_181" n="N024"/>Art verschämtes Declamiren — in <rs type="place">französisch</rs>en Salons be
+      <lb facs="#facs_1_line_1701858784796_181" n="N024"/>Art verschämtes Declamiren — in <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Salons be
       <lb facs="#facs_1_region_1684600029182_3970_tl_22" n="N025" break="no"/>liebt ist. Seine Stimme entbehrt zu sehr der Fülle und des
       <lb facs="#facs_1_line_1701858825327_198" n="N026"/>Wohlklangs, um in größeren Räumen zu wirken; sein Vor
       <lb facs="#facs_1_region_1684600029182_3970_tl_24" n="N027" break="no"/>trag, dem eine geschickte Verwendung des Falsets und eine
       <lb facs="#facs_1_region_1684600029182_3970_tl_25" n="N028"/>deutliche Aussprache zu statten kommt, ist durchwegs anständig.
       <lb facs="#facs_1_region_1684600029182_3970_tl_26" n="N029"/>Die Anständigkeit ist aber bekanntlich nichts Zündendes, am
-      <lb facs="#facs_1_region_1684600029182_3970_tl_27" n="N030"/>wenigsten in der Musik. Ueberdies war <hi rendition="#em">
-                  <rs type="person">Gounod</rs>’s</hi> gedehnte
+      <lb facs="#facs_1_region_1684600029182_3970_tl_27" n="N030"/>wenigsten in der Musik. Ueberdies war <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s</hi> gedehnte
       <lb facs="#facs_1_region_1684600029182_3970_tl_28" n="N031"/>und kraftlose Melodie „<rs type="bibl">Le Vallon</rs>“ keine glückliche Wahl.</p>
                      <p>
-      <lb facs="#facs_1_region_1684600029182_3970_tl_29" n="N032"/>Von den gegenwärtig bei <rs type="person">Ullman</rs> engagirten Künstlern
-      <lb facs="#facs_1_region_1684600029182_3970_tl_30" n="N033"/>sind die zwei jüngsten ohne Frage die bedeutendsten: <hi rendition="#em">
-                  <rs type="person">Popper</rs></hi>
-      <lb facs="#facs_1_region_1684600029182_3970_tl_31" n="N034"/>und <hi rendition="#em">
-                  <rs type="person">Auer</rs></hi>. Ersterer, uns bereits als einer der tüchtigsten
+      <lb facs="#facs_1_region_1684600029182_3970_tl_29" n="N032"/>Von den gegenwärtig bei <rs type="person" ref="#hsl_person_id_1064">Ullman</rs> engagirten Künstlern
+      <lb facs="#facs_1_region_1684600029182_3970_tl_30" n="N033"/>sind die zwei jüngsten ohne Frage die bedeutendsten: <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3555">Popper</rs></hi>
+      <lb facs="#facs_1_region_1684600029182_3970_tl_31" n="N034"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1015">Auer</rs></hi>. Ersterer, uns bereits als einer der tüchtigsten
       <lb facs="#facs_1_region_1684600029182_3970_tl_32" n="N035"/>Cellisten bekannt, hat seinem Rufe durch den virtuosen Vor
-      <lb facs="#facs_1_region_1684600029182_3970_tl_33" n="N036" break="no"/>trag eines (leider sehr gehaltlosen) <hi rendition="#em">
-                  <rs type="person">Goltermann</rs></hi>’schen Con
+      <lb facs="#facs_1_region_1684600029182_3970_tl_33" n="N036" break="no"/>trag eines (leider sehr gehaltlosen) <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3297">Goltermann</rs></hi>’schen Con
       <lb facs="#facs_1_region_1684600029182_3970_tl_34" n="N037" break="no"/>certes neuerdings Ehre gemacht. Sein schöner, gesangvoller
-      <lb facs="#facs_1_region_1684600029182_3970_tl_35" n="N038"/>Ton konnte sich am besten in dem „<rs type="bibl">Adagio</rs>“ von <rs type="person">Molique</rs> gel
+      <lb facs="#facs_1_region_1684600029182_3970_tl_35" n="N038"/>Ton konnte sich am besten in dem „<rs type="bibl">Adagio</rs>“ von <rs type="person" ref="#hsl_person_id_1258">Molique</rs> gel
       <lb facs="#facs_1_region_1684600029182_3970_tl_36" n="N039" break="no"/>tend machen, seine Geläufigkeit und Ausdauer in einer Etude
       <lb facs="#facs_1_line_1701858658916_88" n="N040"/>eigener Composition, welche „<rs type="bibl">Le papillon</rs>“ betitelt und in</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684600041243_3976_tl_1" n="N001"/>ihrer ununterbrochenen Sechzehntel-Bewegung dem „<rs type="bibl">Perpetuum</rs>
-      <lb facs="#facs_2_region_1684600041243_3976_tl_2" n="N002"/>
-               <rs type="bibl">mobile</rs>“ von <hi rendition="#em">
-                  <rs type="person">Paganini</rs></hi> nachgebildet ist. Leopold <hi rendition="#em">
-                  <rs type="person">Auer</rs></hi>,
-      <lb facs="#facs_2_region_1684600041243_3976_tl_3" n="N003"/>Concertmeister in <rs type="place">Düsseldorf</rs>, erfreut sich bereits seit mehreren
-      <lb facs="#facs_2_region_1684600041243_3976_tl_4" n="N004"/>Jahren der glänzendsten Erfolge in <rs type="place">Deutschland</rs> und <rs type="place">England</rs>.
-      <lb facs="#facs_2_region_1684600041243_3976_tl_5" n="N005"/>Deutsch-Ungar von Geburt, ist er ein Landsmann <hi rendition="#em">
-                  <rs type="person">Joachim</rs>’s</hi><lb facs="#facs_2_line_1701882381704_548" n="N006"/>und war zuletzt dessen Schüler. In dem Vortrage der bekann
-      <lb facs="#facs_2_line_1701882389609_552" n="N007" break="no"/>ten „<rs type="bibl">Ballade und Polonaise</rs>“ von <hi rendition="#em">
-                  <rs type="person">Vieuxtemps</rs></hi>, eines
-      <lb facs="#facs_2_region_1684600041243_3976_tl_10" n="N008"/><hi rendition="#em">
-                  <rs type="person">Spohr</rs></hi>’schen <rs type="bibl">Andante</rs> und eines 
-                  <rs type="bibl">Capriccio</rs> von <hi rendition="#em">
-                  <rs type="person">Paganini</rs></hi>
-      <lb facs="#facs_2_region_1684600041243_3976_tl_11" n="N009"/>entfaltete <rs type="person">Auer</rs> ebenso solide als glänzende Eigenschaften: schönen,
+      <lb facs="#facs_2_region_1684600041243_3976_tl_1" n="N001"/>ihrer ununterbrochenen Sechzehntel-Bewegung dem „<rs type="bibl">Perpetuum
+      <lb facs="#facs_2_region_1684600041243_3976_tl_2" n="N002"/>mobile</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1008">Paganini</rs></hi> nachgebildet ist. Leopold <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1015">Auer</rs></hi>,
+      <lb facs="#facs_2_region_1684600041243_3976_tl_3" n="N003"/>Concertmeister in <rs type="place" ref="#hsl_place_id_16">Düsseldorf</rs>, erfreut sich bereits seit mehreren
+      <lb facs="#facs_2_region_1684600041243_3976_tl_4" n="N004"/>Jahren der glänzendsten Erfolge in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> und <rs type="place" ref="#hsl_place_id_17">England</rs>.
+      <lb facs="#facs_2_region_1684600041243_3976_tl_5" n="N005"/>Deutsch-Ungar von Geburt, ist er ein Landsmann <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs>’s</hi>
+      <lb facs="#facs_2_line_1701882381704_548" n="N006"/>und war zuletzt dessen Schüler. In dem Vortrage der bekann
+      <lb facs="#facs_2_line_1701882389609_552" n="N007" break="no"/>ten „<rs type="bibl">Ballade und Polonaise</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1494">Vieuxtemps</rs></hi>, eines
+      <lb facs="#facs_2_region_1684600041243_3976_tl_10" n="N008"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_293">Spohr</rs></hi>’schen <rs type="bibl">Andante</rs> und eines 
+                  <rs type="bibl">Capriccio</rs> von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1008">Paganini</rs></hi>
+      <lb facs="#facs_2_region_1684600041243_3976_tl_11" n="N009"/>entfaltete <rs type="person" ref="#hsl_person_id_1015">Auer</rs> ebenso solide als glänzende Eigenschaften: schönen,
       <lb facs="#facs_2_region_1684600041243_3976_tl_12" n="N010"/>gefangreichen Ton und reine Intonation, bedeutende Bravour
       <lb facs="#facs_2_region_1684600041243_3976_tl_13" n="N011"/>in allen Stricharten und Lagen, ruhigen, edlen Ausdruck im
-      <lb facs="#facs_2_line_1701882415708_569" n="N012"/>Adagio, Kühnheit, Kraft und Ausdauer im Allegro. <hi rendition="#em">
-                  <rs type="person">Auer</rs></hi>
-      <lb facs="#facs_2_region_1684600041243_3976_tl_15" n="N013"/>dürfte bald neben <hi rendition="#em">
-                  <rs type="person">Joachim</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Laub</rs></hi> der dritte große
-      <lb facs="#facs_2_region_1684600041243_3976_tl_16" n="N014"/>Violinspieler aus <rs type="place">Oesterreich</rs> sein. Hoffentlich hören wir ihn
+      <lb facs="#facs_2_line_1701882415708_569" n="N012"/>Adagio, Kühnheit, Kraft und Ausdauer im Allegro. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1015">Auer</rs></hi>
+      <lb facs="#facs_2_region_1684600041243_3976_tl_15" n="N013"/>dürfte bald neben <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_152">Laub</rs></hi> der dritte große
+      <lb facs="#facs_2_region_1684600041243_3976_tl_16" n="N014"/>Violinspieler aus <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> sein. Hoffentlich hören wir ihn
       <lb facs="#facs_2_region_1684600041243_3976_tl_17" n="N015"/>einmal unter günstigeren Verhältnissen, und wenn er sich
-      <lb facs="#facs_2_region_1684600041243_3976_tl_18" n="N016"/>bleibend in <rs type="place">Wien</rs> niederlassen wollte, wie das Gerücht sagt, so
+      <lb facs="#facs_2_region_1684600041243_3976_tl_18" n="N016"/>bleibend in <rs type="place" ref="#hsl_place_id_55">Wien</rs> niederlassen wollte, wie das Gerücht sagt, so
       <lb facs="#facs_2_region_1684600041243_3976_tl_19" n="N017"/>könnten wir uns zu diesem Gewinn nur gratuliren. Nicht ver
       <lb facs="#facs_2_region_1684600041243_3976_tl_20" n="N018" break="no"/>schweigen dürfen wir, daß sämmtliche Solovorträge in dem
       <lb facs="#facs_2_region_1684600041243_3976_tl_21" n="N019"/>gestrigen Concerte unter dem Accompagnement eines jungen
       <lb facs="#facs_2_region_1684600041243_3976_tl_22" n="N020"/>Herrn litten, welcher wahrscheinlich alles Andere besser versteht,
       <lb facs="#facs_2_region_1684600041243_3976_tl_23" n="N021"/>als Clavierspielen.</p>
                      <p>
-      <lb facs="#facs_2_region_1684600041243_3976_tl_24" n="N022"/>Der wahrhaft überraschende Erfolg von <hi rendition="#em">
-                  <rs type="person">Ullman</rs>’s</hi>
+      <lb facs="#facs_2_region_1684600041243_3976_tl_24" n="N022"/>Der wahrhaft überraschende Erfolg von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1064">Ullman</rs>’s</hi>
       <lb facs="#facs_2_region_1684600041243_3976_tl_25" n="N023"/>Concert, das der schönen Jahreszeit zum Trotz das Haus über und
       <lb facs="#facs_2_region_1684600041243_3976_tl_26" n="N024"/>über füllte, hat die Geschicklichkeit dieses rastlosen Concert-Unter
       <lb facs="#facs_2_region_1684600041243_3976_tl_27" n="N025" break="no"/>nehmers neuerdings bewährt. Die Concerte, die er unmittelbar
-      <lb facs="#facs_2_region_1684600041243_3976_tl_28" n="N026"/>zuvor in <rs type="place">Linz</rs>, <rs type="place">Salzburg</rs>, <rs type="place">Laibach</rs>, <rs type="place">Graz</rs> und <rs type="place">Preßburg</rs> gegeben,
-      <lb facs="#facs_2_region_1684600041243_3976_tl_29" n="N027"/>sollen 40,000 fl. eingetragen haben; <rs type="place">Brünn</rs>, <rs type="place">Olmütz</rs>, <rs type="place">Troppau</rs>,
-      <lb facs="#facs_2_region_1684600041243_3976_tl_30" n="N028"/>
-               <rs type="place">Krakau</rs>, <rs type="place">Lemberg</rs> und <rs type="place">Czernowitz</rs>, die nunmehr an die Reihe
+      <lb facs="#facs_2_region_1684600041243_3976_tl_28" n="N026"/>zuvor in <rs type="place" ref="#hsl_place_id_143">Linz</rs>, <rs type="place" ref="#hsl_place_id_49">Salzburg</rs>, <rs type="place" ref="#hsl_place_id_31">Laibach</rs>, <rs type="place" ref="#hsl_place_id_60">Graz</rs> und <rs type="place" ref="#hsl_place_id_297">Preßburg</rs> gegeben,
+      <lb facs="#facs_2_region_1684600041243_3976_tl_29" n="N027"/>sollen 40,000 fl. eingetragen haben; <rs type="place" ref="#hsl_place_id_228">Brünn</rs>, <rs type="place" ref="#hsl_place_id_459">Olmütz</rs>, <rs type="place" ref="#hsl_place_id_460">Troppau</rs>,
+      <lb facs="#facs_2_region_1684600041243_3976_tl_30" n="N028"/><rs type="place" ref="#hsl_place_id_461">Krakau</rs>, <rs type="place" ref="#hsl_place_id_462">Lemberg</rs> und <rs type="place" ref="#hsl_place_id_463">Czernowitz</rs>, die nunmehr an die Reihe
       <lb facs="#facs_2_region_1684600041243_3976_tl_31" n="N029"/>kommen, versprechen ähnliche Erfolge. Nur eine so geschickte
       <lb facs="#facs_2_region_1684600041243_3976_tl_32" n="N030"/>Combination und Administration machen es möglich, mittleren
       <lb facs="#facs_2_region_1684600041243_3976_tl_33" n="N031"/>und kleinen Städten, die sonst jahrelang keinen berühmten
@@ -968,70 +935,60 @@
       <lb facs="#facs_2_region_1684600041243_3976_tl_37" n="N035"/>Dies geht freilich nur die industrielle Seite der Kunst an,
       <lb facs="#facs_2_region_1684600041243_3976_tl_38" n="N036"/>nicht die Kunst selbst; aber einmal zugestanden, daß das ge
       <lb facs="#facs_2_region_1684600041243_3976_tl_39" n="N037" break="no"/>schäftliche Interesse bei Virtuosen-Reisen mehr als je im Vor
-      <lb facs="#facs_2_region_1684600041243_3976_tl_40" n="N038" break="no"/>dergrunde steht, muß man die Idee der <rs type="person">Ullman</rs>’schen Asso
-      <lb facs="#facs_2_region_1684600041243_3976_tl_41" n="N039" break="no"/>ciations-Concerte modern und praktisch finden. <hi rendition="#em">
-                  <rs type="person">Ullman</rs></hi>,
+      <lb facs="#facs_2_region_1684600041243_3976_tl_40" n="N038" break="no"/>dergrunde steht, muß man die Idee der <rs type="person" ref="#hsl_person_id_1064">Ullman</rs>’schen Asso
+      <lb facs="#facs_2_region_1684600041243_3976_tl_41" n="N039" break="no"/>ciations-Concerte modern und praktisch finden. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1064">Ullman</rs></hi>,
       <lb facs="#facs_2_line_1703949846051_123" n="N040"/>dem ein rastloses Arbeiten, Speculiren und Organisiren</p>
             <cb n="5"/>
             <p prev="true">
       <lb facs="#facs_2_region_1684600044557_3979_tl_1" n="N001"/>Lebensbedingung ist, wird kaum dabei stehen bleiben. Im
-      <lb facs="#facs_2_line_1703949900674_138" n="N002"/>Café <hi rendition="#em">Helder</hi> in <rs type="place">Paris</rs>, wo <hi rendition="#em">
-                  <rs type="person">Ullman</rs></hi> allabendlich
-      <lb facs="#facs_2_region_1684600044557_3979_tl_3" n="N003"/>mit Moriz <hi rendition="#em">
-                  <rs type="person">Strakosch</rs></hi> seine Domino-Partie hatte (sie
-      <lb facs="#facs_2_region_1684600044557_3979_tl_4" n="N004"/>spielten mit einem Eifer, als hätte Jeder seine <hi rendition="#em">
-                  <rs type="person">Patti</rs></hi> einge
-      <lb facs="#facs_2_region_1684600044557_3979_tl_5" n="N005" break="no"/>setzt) habe ich in Gesellschaft <hi rendition="#em">
-                  <rs type="person">Schulhoff</rs>’s</hi> den unerschöpflichen
-      <lb facs="#facs_2_region_1684600044557_3979_tl_6" n="N006"/>Reise-Erzählungen <rs type="person">Ullman</rs>’s oft mit dem lebhaftesten Ver
+      <lb facs="#facs_2_line_1703949900674_138" n="N002"/>Café <hi rendition="#em">Helder</hi> in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, wo <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1064">Ullman</rs></hi> allabendlich
+      <lb facs="#facs_2_region_1684600044557_3979_tl_3" n="N003"/>mit Moriz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3905">Strakosch</rs></hi> seine Domino-Partie hatte (sie
+      <lb facs="#facs_2_region_1684600044557_3979_tl_4" n="N004"/>spielten mit einem Eifer, als hätte Jeder seine <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1209">Patti</rs></hi> einge
+      <lb facs="#facs_2_region_1684600044557_3979_tl_5" n="N005" break="no"/>setzt) habe ich in Gesellschaft <hi rendition="#em"><rs type="person" ref="#hsl_person_id_975">Schulhoff</rs>’s</hi> den unerschöpflichen
+      <lb facs="#facs_2_region_1684600044557_3979_tl_6" n="N006"/>Reise-Erzählungen <rs type="person" ref="#hsl_person_id_1064">Ullman</rs>’s oft mit dem lebhaftesten Ver
       <lb facs="#facs_2_region_1684600044557_3979_tl_7" n="N007" break="no"/>gnügen gelauscht. „Ich wette,“ neckten wir ihn einmal, „Sie
       <lb facs="#facs_2_region_1684600044557_3979_tl_8" n="N008"/>haben für den nächsten Winter schon einen ganz besonderen
-      <lb facs="#facs_2_region_1684600044557_3979_tl_9" n="N009"/>großen Plan.“ — „<hi rendition="#em">Einen</hi> Plan?“ rief <rs type="person">Ullman</rs>, die Hand
+      <lb facs="#facs_2_region_1684600044557_3979_tl_9" n="N009"/>großen Plan.“ — „<hi rendition="#em">Einen</hi> Plan?“ rief <rs type="person" ref="#hsl_person_id_1064">Ullman</rs>, die Hand
       <lb facs="#facs_2_region_1684600044557_3979_tl_10" n="N010"/>akustisch ans Ohr legend; „zwanzig! hundert!“ Und nun
       <lb facs="#facs_2_region_1684600044557_3979_tl_11" n="N011"/>entwickelte er verschiedenartige Projecte, worunter der Plan,
-      <lb facs="#facs_2_line_1701882419926_572" n="N012"/>mit einer Auswahl der besten <rs type="place">deutsch</rs>en Schauspieler in <rs type="place">Paris</rs> zu ga
-      <lb facs="#facs_2_line_1703950139810_237" n="N013" break="no"/>stiren, uns besonder glücklich ausgedacht schien. <hi rendition="#em">
-                  <rs type="person">Ullman</rs></hi>
-      <lb facs="#facs_2_region_1684600044557_3979_tl_13" n="N014"/>hatte eben eine äußerst einträgliche Tournée durch <rs type="place">Frankreich</rs>
-      <lb facs="#facs_2_region_1684600044557_3979_tl_14" n="N015"/>beendet, bereitete seine gegenwärtige Concertreise durch <rs type="place">Oester
+      <lb facs="#facs_2_line_1701882419926_572" n="N012"/>mit einer Auswahl der besten <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Schauspieler in <rs type="place" ref="#hsl_place_id_44">Paris</rs> zu ga
+      <lb facs="#facs_2_line_1703950139810_237" n="N013" break="no"/>stiren, uns besonder glücklich ausgedacht schien. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1064">Ullman</rs></hi>
+      <lb facs="#facs_2_region_1684600044557_3979_tl_13" n="N014"/>hatte eben eine äußerst einträgliche Tournée durch <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>
+      <lb facs="#facs_2_region_1684600044557_3979_tl_14" n="N015"/>beendet, bereitete seine gegenwärtige Concertreise durch <rs type="place" ref="#hsl_place_id_43">Oester
       <lb facs="#facs_2_region_1684600044557_3979_tl_15" n="N016" break="no"/>reich</rs> vor und stand gleichzeitig in lebhaften Unterhandlungen
-      <lb facs="#facs_2_region_1684600044557_3979_tl_16" n="N017"/>für eine große Tour nach <rs type="place">Amerika</rs>. „Ich habe vorerst mit
-      <lb facs="#facs_2_region_1684600044557_3979_tl_17" n="N018"/><hi rendition="#em">Alexander 
-            <rs type="person">Dumas</rs></hi> abgeschlossen; in <rs type="place">Europa</rs> ziehen seine
-      <lb facs="#facs_2_region_1684600044557_3979_tl_18" n="N019"/>Causerien nicht mehr, aber in <rs type="place">Amerika</rs> läßt sich etwas damit
-      <lb facs="#facs_2_line_1703950124208_219" n="N020"/>machen. Außer <rs type="person">Dumas</rs> engagire ich die <hi rendition="#em">
-                  <rs type="person">Déjazet</rs></hi>.“ — „Die
-      <lb facs="#facs_2_region_1684600044557_3979_tl_21" n="N021"/>
-               <rs type="person">Déjazet</rs>?“ fiel ich erschrocken ins Wort, „dies wider
+      <lb facs="#facs_2_region_1684600044557_3979_tl_16" n="N017"/>für eine große Tour nach <rs type="place" ref="#hsl_place_id_176">Amerika</rs>. „Ich habe vorerst mit
+      <lb facs="#facs_2_region_1684600044557_3979_tl_17" n="N018"/><hi rendition="#em">Alexander <rs type="person" ref="#hsl_person_id_65">Dumas</rs></hi> abgeschlossen; in <rs type="place" ref="#hsl_place_id_19">Europa</rs> ziehen seine
+      <lb facs="#facs_2_region_1684600044557_3979_tl_18" n="N019"/>Causerien nicht mehr, aber in <rs type="place" ref="#hsl_place_id_176">Amerika</rs> läßt sich etwas damit
+      <lb facs="#facs_2_line_1703950124208_219" n="N020"/>machen. Außer <rs type="person" ref="#hsl_person_id_65">Dumas</rs> engagire ich die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3906">Déjazet</rs></hi>.“ — „Die
+      <lb facs="#facs_2_region_1684600044557_3979_tl_21" n="N021"/><rs type="person" ref="#hsl_person_id_3906">Déjazet</rs>?“ fiel ich erschrocken ins Wort, „dies wider
       <lb facs="#facs_2_region_1684600044557_3979_tl_22" n="N022" break="no"/>wärtige alte Weib, das mit erloschenem Blick und
       <lb facs="#facs_2_region_1684600044557_3979_tl_23" n="N023"/>tausend Runzeln jugendliche Rollen spielt? Vielleicht noch vor
       <lb facs="#facs_2_line_1703950117524_210" n="N024"/>10 oder 15 Jahren . . .“ — „Nein, da hätte ich sie nicht
       <lb facs="#facs_2_region_1684600044557_3979_tl_26" n="N025"/>brauchen können; jetzt ist sie 70 Jahre alt (das muß immer
       <lb facs="#facs_2_region_1684600044557_3979_tl_27" n="N026"/>auf dem Anschlagzettel stehen), achtzigjährig wäre sie mir für
-      <lb facs="#facs_2_region_1684600044557_3979_tl_28" n="N027"/>
-               <rs type="place">Amerika</rs> vielleicht noch lieber. Mein emsigstes Suchen geht
+      <lb facs="#facs_2_region_1684600044557_3979_tl_28" n="N027"/><rs type="place" ref="#hsl_place_id_176">Amerika</rs> vielleicht noch lieber. Mein emsigstes Suchen geht
       <lb facs="#facs_2_region_1684600044557_3979_tl_29" n="N028"/>aber nach einem ausgezeichneten, berühmten Clavierspieler, der
-      <lb facs="#facs_2_region_1684600044557_3979_tl_30" n="N029"/>noch nicht in <rs type="place">Amerika</rs> bekannt ist. Wenn Sie mit mir für
-      <lb facs="#facs_2_region_1684600044557_3979_tl_31" n="N030"/>sechs Monate nach <rs type="place">Amerika</rs> gehen,“ fuhr er, zu <hi rendition="#em">
-                  <rs type="person">Schulhoff</rs></hi>
+      <lb facs="#facs_2_region_1684600044557_3979_tl_30" n="N029"/>noch nicht in <rs type="place" ref="#hsl_place_id_176">Amerika</rs> bekannt ist. Wenn Sie mit mir für
+      <lb facs="#facs_2_region_1684600044557_3979_tl_31" n="N030"/>sechs Monate nach <rs type="place" ref="#hsl_place_id_176">Amerika</rs> gehen,“ fuhr er, zu <hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_975">Schulhoff</rs></hi>
       <lb facs="#facs_2_line_1703950108936_199" n="N031"/>gewendet, fort, „will ich Ihnen die allerglänzendsten Bedingun
       <lb facs="#facs_2_line_1703950098503_189" n="N032" break="no"/>gen zugestehen.“ Und wirklich offerirte er eine Summe, mit
       <lb facs="#facs_2_region_1684600044557_3979_tl_37" n="N033"/>der man Verwaltungsräthe verlocken könnte. <hi rendition="#em">
-                  <rs type="person">Schulhoff</rs></hi>
+                  <rs type="person" ref="#hsl_person_id_975">Schulhoff</rs></hi>
       <lb facs="#facs_2_line_1703950092086_182" n="N034"/>glaubte mit Rücksicht auf seine Kränklichkeit ablehnen zu
       <lb facs="#facs_2_region_1684600044557_3979_tl_38" n="N035"/>müssen; er könne nicht für seine Leistungsfähigkeit einstehen
       <lb facs="#facs_2_region_1684600044557_3979_tl_39" n="N036"/>und würde oft vielleicht unmittelbar vor dem Concert absagen
       <lb facs="#facs_2_region_1684600044557_3979_tl_40" n="N037"/>müssen. „Das thut nichts,“ beschwichtigte <hi rendition="#em">
-                  <rs type="person">Ullman</rs></hi>, „das
+                  <rs type="person" ref="#hsl_person_id_1064">Ullman</rs></hi>, „das
       <lb facs="#facs_2_region_1684600044557_3979_tl_41" n="N038"/>wird Sie dem Publicum nur noch interessanter machen. Man
       <lb facs="#facs_2_region_1684600044557_3979_tl_42" n="N039"/>wird Sie für einen noch größeren Künstler halten, wenn Sie
       <lb facs="#facs_2_line_1703949850508_126" n="N040"/>manchmal außer Stande sind, zu spielen.“ Ich weiß nicht,</p>
             <cb n="6"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684600048326_3982_tl_1" n="N001"/>ob <rs type="person">Schulhoff</rs> diese ebenso scherzhaft vorgebrachten als ernst ge
+      <lb facs="#facs_2_region_1684600048326_3982_tl_1" n="N001"/>ob <rs type="person" ref="#hsl_person_id_975">Schulhoff</rs> diese ebenso scherzhaft vorgebrachten als ernst ge
       <lb facs="#facs_2_line_1703949903774_141" n="N002" break="no"/>meinten Worte vielleicht noch beherzigen wird. Jedenfalls wer
       <lb facs="#facs_2_region_1684600048326_3982_tl_2" n="N003" break="no"/>den an seiner Statt Dutzende von namhaften Virtuosen sich mel
-      <lb facs="#facs_2_region_1684600048326_3982_tl_3" n="N004" break="no"/>den zum Eintritt in <rs type="person">Ullman</rs>’s wilde verwegene Jagd.</p>
+      <lb facs="#facs_2_region_1684600048326_3982_tl_3" n="N004" break="no"/>den zum Eintritt in <rs type="person" ref="#hsl_person_id_1064">Ullman</rs>’s wilde verwegene Jagd.</p>
          </div>
       </body>
    </text>

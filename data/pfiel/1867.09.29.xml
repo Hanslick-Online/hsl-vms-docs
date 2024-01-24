@@ -107,6 +107,7 @@
          <change who="kbamer ampfiel" when="2024-01-04">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-01-23">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2024-01-23" who="ampfiel">header, p Absätze, lb</change>
+         <change when="2024-01-24" who="ampfiel">rs ref place fertig</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -903,7 +904,7 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
       <head type="h1">
-            <lb facs="#facs_1_region_1684599728599_3840_tl_2" n="N002"/><rs type="place">Paris</rs>er Opern während der Weltausstellung.
+            <lb facs="#facs_1_region_1684599728599_3840_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>er Opern während der Weltausstellung.
             <lb facs="#facs_1_line_1704294014572_211" n="N003"/>II.</head>
       <head type="h2">
             <lb facs="#facs_1_region_1684599728599_3840_tl_3" n="N004"/>(„<rs type="bibl">Romeo und Julie</rs>“, von <hi rendition="#em">
@@ -911,7 +912,7 @@
             <p>
       <lb facs="#facs_1_region_1684599728599_3840_tl_4" n="N005"/>Ed. H. <hi rendition="#em">
                   <rs type="person">Verdi</rs></hi> hatte nach der zweiten Vorstellung seines
-      <lb facs="#facs_1_region_1684599728599_3840_tl_5" n="N006"/>„<rs type="bibl">Don Carlos</rs>“, unbefriedigt von deren Erfolg, <rs type="place">Paris</rs> plötzlich
+      <lb facs="#facs_1_region_1684599728599_3840_tl_5" n="N006"/>„<rs type="bibl">Don Carlos</rs>“, unbefriedigt von deren Erfolg, <rs type="place" ref="#hsl_place_id_44">Paris</rs> plötzlich
       <lb facs="#facs_1_region_1684599728599_3840_tl_6" n="N007"/>verlassen. Es zeugt von einem überaus feinen, fast ahnungs
       <lb facs="#facs_1_region_1684599728599_3840_tl_7" n="N008" break="no"/>vollen Ohr, daß <rs type="person">Verdi</rs> aus dem tobenden Beifallsgeschrei die
       <lb facs="#facs_1_region_1684599728599_3840_tl_8" n="N009"/>unmerkliche Dissonanz heraushörte, die sich in der allgemeinen
@@ -919,7 +920,7 @@
       <lb facs="#facs_1_region_1684599728599_3840_tl_10" n="N011"/>der Erfolg der allerglänzendste; wurde doch „<rs type="bibl">Don Carlos</rs>“,
       <lb facs="#facs_1_region_1684599728599_3840_tl_11" n="N012"/>dessen erste zwölf Vorstellungen an 130,000 Francs eintrugen,
       <lb facs="#facs_1_region_1684599728599_3840_tl_12" n="N013"/>seither wöchentlich zwei- bis dreimal bei vollem Hause gegeben.
-      <lb facs="#facs_1_region_1684599728599_3840_tl_13" n="N014"/>Allein, wie schon zu gewöhnlichen Zeiten in <rs type="place">Paris</rs> eine erste
+      <lb facs="#facs_1_region_1684599728599_3840_tl_13" n="N014"/>Allein, wie schon zu gewöhnlichen Zeiten in <rs type="place" ref="#hsl_place_id_44">Paris</rs> eine erste
       <lb facs="#facs_1_region_1684599728599_3840_tl_14" n="N015"/>Vorstellung (oft auch noch eine fünfte und zehnte) keinen Maß
       <lb facs="#facs_1_region_1684599728599_3840_tl_15" n="N016" break="no"/>stab für das wirkliche Gefallen einer Novität abgibt, so hat
       <lb facs="#facs_1_region_1684599728599_3840_tl_16" n="N017"/>vollends die Ausstellungs-Völkerwanderung alle normalen Thea
@@ -927,10 +928,9 @@
       <lb facs="#facs_1_region_1684599728599_3840_tl_18" n="N019"/>Fremdenzug wurde jedes Stück zum Zugstück; was davon den
       <lb facs="#facs_1_region_1684599728599_3840_tl_19" n="N020"/>Parisern bleibend werthvoll war, muß die nächste Zukunft zei
       <lb facs="#facs_1_region_1684599728599_3840_tl_20" n="N021" break="no"/>gen. Die Tageseinnahme der Großen Oper betrug im Monat
-      <lb facs="#facs_1_region_1684599728599_3840_tl_21" n="N022"/>
-               <date month="0" day="0" year="0">Mai</date> durchschnittlich 10,400 Francs, im Monat <date month="0" day="0" year="0">Juni</date>
-               <lb facs="#facs_1_region_1684599728599_3840_tl_22" n="N023"/>12,400 Francs. Und doch spielte man im <date month="0" day="0" year="0">Juni</date> genau das
-      <lb facs="#facs_1_region_1684599728599_3840_tl_23" n="N024" break="no"/>selbe wie im <date month="0" day="0" year="0">Mai</date>: „<rs type="bibl">Don Carlos</rs>“ und „<rs type="bibl">Die Afrikanerin</rs>“,
+      <lb facs="#facs_1_region_1684599728599_3840_tl_21" n="N022"/><date when="1867-05">Mai</date> durchschnittlich 10,400 Francs, im Monat <date when="1867-06">Juni</date>
+      <lb facs="#facs_1_region_1684599728599_3840_tl_22" n="N023"/>12,400 Francs. Und doch spielte man im <date when="1867-06">Juni</date> genau das
+      <lb facs="#facs_1_region_1684599728599_3840_tl_23" n="N024" break="no"/>selbe wie im <date when="1867-05">Mai</date>: „<rs type="bibl">Don Carlos</rs>“ und „<rs type="bibl">Die Afrikanerin</rs>“,
       <lb facs="#facs_1_region_1684599728599_3840_tl_24" n="N025"/>„<rs type="bibl">Die Afrikanerin</rs>“ und „<rs type="bibl">Don Carlos</rs>“. Nur die Sonntage
       <lb facs="#facs_1_region_1684599728599_3840_tl_25" n="N026"/>waren meistens dem „Repertoire“ geweiht und brachten neben
       <lb facs="#facs_1_region_1684599728599_3840_tl_26" n="N027"/>einer sehr schön scenirten und gut besetzten Vorstellung des
@@ -957,14 +957,14 @@
       <lb facs="#facs_1_region_1684599731999_3843_tl_4" n="N004"/>und von „<rs type="bibl">Mignon</rs>“ befriedigt gefühlt hätten, und doch er
       <lb facs="#facs_1_region_1684599731999_3843_tl_5" n="N005" break="no"/>obern sich beide Vorstellungen ihr Publicum nur mit musi
       <lb facs="#facs_1_region_1684599731999_3843_tl_6" n="N006" break="no"/>kalischen Waffen. Daß man auf die dröhnenden Lo
-      <lb facs="#facs_1_region_1684599731999_3843_tl_7" n="N007" break="no"/>besposaunen der <rs type="place">Paris</rs>er Kritik nicht viel zu geben
-      <lb facs="#facs_1_region_1684599731999_3843_tl_8" n="N008"/>habe, weiß jeder <rs type="place">deutsch</rs>e Leser, ebensowenig möch
+      <lb facs="#facs_1_region_1684599731999_3843_tl_7" n="N007" break="no"/>besposaunen der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Kritik nicht viel zu geben
+      <lb facs="#facs_1_region_1684599731999_3843_tl_8" n="N008"/>habe, weiß jeder <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Leser, ebensowenig möch
       <lb facs="#facs_1_region_1684599731999_3843_tl_9" n="N009" break="no"/>ten wir aber den höhnisch absprechenden Tadel unterschreiben,
-      <lb facs="#facs_1_region_1684599731999_3843_tl_10" n="N010"/>mit welchem <rs type="place">deutsch</rs>e Correspondenzen diese und ähnliche <rs type="place">fran
+      <lb facs="#facs_1_region_1684599731999_3843_tl_10" n="N010"/>mit welchem <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Correspondenzen diese und ähnliche <rs type="place" ref="#hsl_place_id_21">fran
       <lb facs="#facs_1_region_1684599731999_3843_tl_11" n="N011" break="no"/>zösisch</rs>e Productionen zu überschütten pflegen. <hi rendition="#em">
                   <rs type="person">Börne</rs></hi> äußert
-      <lb facs="#facs_1_line_1704294136012_287" n="N012"/>irgendwo, daß die Leistungen der <rs type="place">deutsch</rs>en Literatur fast immer
-      <lb facs="#facs_1_region_1684599731999_3843_tl_12" n="N013"/>entweder Gold oder Kupfer sind, während in <rs type="place">Frankreich</rs> die Mehr
+      <lb facs="#facs_1_line_1704294136012_287" n="N012"/>irgendwo, daß die Leistungen der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Literatur fast immer
+      <lb facs="#facs_1_region_1684599731999_3843_tl_12" n="N013"/>entweder Gold oder Kupfer sind, während in <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> die Mehr
       <lb facs="#facs_1_region_1684599731999_3843_tl_13" n="N014" break="no"/>zahl der Schriftsteller Silber schreibe. Dies treffende Wort paßt
       <lb facs="#facs_1_region_1684599731999_3843_tl_14" n="N015"/>auch auf die Opern-Componisten der beiden Nationen. Zu
       <lb facs="#facs_1_region_1684599731999_3843_tl_15" n="N016"/>bedürftig, um jahrelang auf Gold zu harren, und zu vornehm,
@@ -977,14 +977,14 @@
                   <rs type="person">Thomas</rs></hi> loszieht, der hat freilich leichtes Spiel; die beiden
       <lb facs="#facs_1_region_1684599731999_3843_tl_21" n="N022"/>bleiben ohne Frage manstodt. Ob man aber mit solchen <rs type="person">Arm
       <lb facs="#facs_1_region_1684599731999_3843_tl_22" n="N023" break="no"/>strong</rs>-Kritiken etwas Rühmliches oder Nützliches vollbringe,
-      <lb facs="#facs_1_region_1684599731999_3843_tl_23" n="N024"/>scheint mir sehr zweifelhaft. Die beiden <rs type="place">französisch</rs>en Novitä
+      <lb facs="#facs_1_region_1684599731999_3843_tl_23" n="N024"/>scheint mir sehr zweifelhaft. Die beiden <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Novitä
       <lb facs="#facs_1_region_1684599731999_3843_tl_24" n="N025" break="no"/>ten, von denen wir sprechen, sind weder Schöpfungen bahn
       <lb facs="#facs_1_region_1684599731999_3843_tl_25" n="N026" break="no"/>brechender Genies, noch vollendeter Stylisten; es sind aber
       <lb facs="#facs_1_region_1684599731999_3843_tl_26" n="N027"/>ernste, gewissenhafte Productionen feiner und individueller Ta
       <lb facs="#facs_1_region_1684599731999_3843_tl_27" n="N028" break="no"/>lente, die, ohne das Höchste zu erreichen oder auch nur danach
       <lb facs="#facs_1_region_1684599731999_3843_tl_28" n="N029"/>zu greifen, doch Geist und Gemüth ihrer Zeitgenossen mit
       <lb facs="#facs_1_region_1684599731999_3843_tl_29" n="N030"/>sympathischem Tone ansprechen. Für „<rs type="bibl">Mignon</rs>“ gestehe ich —
-      <lb facs="#facs_1_region_1684599731999_3843_tl_30" n="N031"/>vielleicht unter dem Einfluß der entzückenden <rs type="place">Paris</rs>er Darstel
+      <lb facs="#facs_1_region_1684599731999_3843_tl_30" n="N031"/>vielleicht unter dem Einfluß der entzückenden <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Darstel
       <lb facs="#facs_1_region_1684599731999_3843_tl_31" n="N032" break="no"/>lung — einige persönliche Vorliebe ein; „<rs type="bibl">Romeo</rs>“, obwol das
       <lb facs="#facs_1_region_1684599731999_3843_tl_32" n="N033"/>Werk des intensiveren Talents, steht daneben in dem Nach
       <lb facs="#facs_1_region_1684599731999_3843_tl_33" n="N034" break="no"/>theile der großen, durch den Stoff erregten Erwartungen und
@@ -1100,10 +1100,10 @@
                   <rs type="person">Gounod</rs></hi> Franzose ist und sich
       <lb facs="#facs_2_region_1684599755523_3855_tl_2" n="N004"/>von der Anschauungs- und Empfindungsweise seiner Nation
       <lb facs="#facs_2_line_1704374098359_546" n="N005"/>unmöglich ganz emancipiren kann. <rs type="person">Gounod</rs> — ein begeisterter
-      <lb facs="#facs_2_line_1704374095838_543" n="N006"/>Verehrer und Kenner <rs type="place">deutsch</rs>er Meister — hat sich übrigens
-      <lb facs="#facs_2_region_1684599755523_3855_tl_3" n="N007"/>dem <rs type="place">deutsch</rs>en Opern-Ideal und dem gemüthvoll-sinnigen Cha
+      <lb facs="#facs_2_line_1704374095838_543" n="N006"/>Verehrer und Kenner <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Meister — hat sich übrigens
+      <lb facs="#facs_2_region_1684599755523_3855_tl_3" n="N007"/>dem <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Opern-Ideal und dem gemüthvoll-sinnigen Cha
       <lb facs="#facs_2_region_1684599755523_3855_tl_4" n="N008" break="no"/>rakter unserer Musik mehr als irgend ein zweiter Franzose
-      <lb facs="#facs_2_region_1684599755523_3855_tl_5" n="N009"/>genähert. Daß es endlich in einer <rs type="place">französisch</rs>en Oper ohne
+      <lb facs="#facs_2_region_1684599755523_3855_tl_5" n="N009"/>genähert. Daß es endlich in einer <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Oper ohne
       <lb facs="#facs_2_region_1684599755523_3855_tl_6" n="N010"/>einige Concessionen an den Theater-Director und die Sänger
       <lb facs="#facs_2_line_1704373417711_232" n="N011"/>nicht abgeht, ist sattsam bekannt. Welch innere und äußere
       <lb facs="#facs_2_region_1684599755523_3855_tl_8" n="N012"/>Kämpfe <rs type="person">Gounod</rs> bei solchen Anlässen zu bestehen hat, davon
@@ -1192,11 +1192,11 @@
       <lb facs="#facs_3_region_1684599773045_3864_tl_14" n="N010"/>derselbe süßbetäubende Akaziengeruch, dem wir in der Garten
       <lb facs="#facs_3_region_1684599773045_3864_tl_15" n="N011" break="no"/>scene zwischen <rs type="person">Faust</rs> und <rs type="person">Gretchen</rs> uns so gerne gefangen geben.
       <lb facs="#facs_3_region_1684599773045_3864_tl_16" n="N012"/>Diese Andeutungen auszuführen, wird uns wol seinerzeit
-      <lb facs="#facs_3_region_1684599773045_3864_tl_17" n="N013"/>die <rs type="place">Wien</rs>er Aufführung Anlaß bieten. Sie dürfte, was Or
-      <lb facs="#facs_3_region_1684599773045_3864_tl_18" n="N014" break="no"/>chester, Chor und die Mehrzahl der Rollen betrifft, die <rs type="place">Pa
+      <lb facs="#facs_3_region_1684599773045_3864_tl_17" n="N013"/>die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Aufführung Anlaß bieten. Sie dürfte, was Or
+      <lb facs="#facs_3_region_1684599773045_3864_tl_18" n="N014" break="no"/>chester, Chor und die Mehrzahl der Rollen betrifft, die <rs type="place" ref="#hsl_place_id_44">Pa
       <lb facs="#facs_3_region_1684599773045_3864_tl_19" n="N015" break="no"/>ris</rs>er Vorstellung musikalisch entschieden überragen. Wenn schon
       <lb facs="#facs_3_region_1684599773045_3864_tl_20" n="N016"/>die trefflichen ersten Vorstellungen des „<rs type="bibl">Faust</rs>“ im Hofopern
-      <lb facs="#facs_3_region_1684599773045_3864_tl_21" n="N017" break="no"/>theater ihrem <rs type="place">Paris</rs>er Vorbild überlegen waren, so können wir
+      <lb facs="#facs_3_region_1684599773045_3864_tl_21" n="N017" break="no"/>theater ihrem <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Vorbild überlegen waren, so können wir
       <lb facs="#facs_3_region_1684599773045_3864_tl_22" n="N018"/>dieselbe Prophezeiung für den im Théâtre Lyrique mangelhaft
       <lb facs="#facs_3_region_1684599773045_3864_tl_23" n="N019"/>besetzten „<rs type="bibl">Romeo</rs>“ noch viel herzhafter aussprechen.</p>
          </div>
