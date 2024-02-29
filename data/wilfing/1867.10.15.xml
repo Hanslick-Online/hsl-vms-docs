@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="15. October 1867">15. October 1867</date>
+                        <date when="1867-10-15">15. October 1867</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -107,8 +107,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+         <change who="kbamer ampfiel" when="2024-01-24">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2024-02-21" who="kbamer">Formatierung. Alle Daten, Personen, Werke, Orte ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1076,207 +1077,131 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684599378668_3729_tl_1" n="N001"/>Hofoperntheater.
-      <lb facs="#facs_1_region_1684599378668_3729_tl_2" n="N002"/>(„<rs type="bibl">Iphigenia in Aulis</rs>“, von <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>.)
-      <lb facs="#facs_1_region_1684599378668_3729_tl_3" n="N003"/>Ed. H. Nach beinahe sechzig Jahren schritt am <date month="0" day="0" year="0" continued="true">12. Octo¬</date>
-               <lb facs="#facs_1_region_1684599378668_3729_tl_4" n="N004"/>
-               <date month="0" day="0" year="0" continued="true">ber 1867</date> „<rs type="bibl">Iphigenia in Aulis</rs>“ wieder über die Bühne des
+            
+      <lb facs="#facs_1_region_1684599378668_3729_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+      <lb facs="#facs_1_region_1684599378668_3729_tl_2" n="N002"/><head type="h2">(„<rs type="bibl" ref="#hsl_work_id_166">Iphigenia in Aulis</rs>“, von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>.)</head>
+   <p><lb facs="#facs_1_region_1684599378668_3729_tl_3" n="N003"/>Ed. H. Nach beinahe sechzig Jahren schritt am <date when="1867-10-12">12. Octo
+      <lb facs="#facs_1_region_1684599378668_3729_tl_4" n="N004" break="no"/>ber 1867</date> „<rs type="bibl" ref="#hsl_work_id_166">Iphigenia in Aulis</rs>“ wieder über die Bühne des
       <lb facs="#facs_1_region_1684599378668_3729_tl_5" n="N005"/>Kärntnerthor-Theaters. Soll man mehr darüber erstaunen,
-      <lb facs="#facs_1_region_1684599378668_3729_tl_6" n="N006"/>daß dieses in <rs type="place">Paris</rs> schon im Jahre <date month="0" day="0" year="0">1774</date> mit unerhörtem Er¬
-      <lb facs="#facs_1_region_1684599378668_3729_tl_7" n="N007"/>folg gegebene Meisterwerk in <rs type="place">Wien</rs> so spät erst — am <date month="0" day="0" year="0" continued="true">14. De¬</date>
-               <lb facs="#facs_1_region_1684599378668_3729_tl_8" n="N008"/>
-               <date month="0" day="0" year="0" continued="true">cember 1808</date> — zur Aufführung kam, oder daß es zwei Jahre
-      <lb facs="#facs_1_region_1684599378668_3729_tl_9" n="N009"/>darauf (<date month="0" day="0" year="0">1810</date>) bereits auf Nimmerwiedersehen von unserer
+      <lb facs="#facs_1_region_1684599378668_3729_tl_6" n="N006"/>daß dieses in <rs type="place" ref="#hsl_place_id_44">Paris</rs> schon im Jahre <date when="1744">1774</date> mit unerhörtem Er
+      <lb facs="#facs_1_region_1684599378668_3729_tl_7" n="N007" break="no"/>folg gegebene Meisterwerk in <rs type="place" ref="#hsl_place_id_55">Wien</rs> so spät erst — am <date when="1808-12-14">14. De
+      <lb facs="#facs_1_region_1684599378668_3729_tl_8" n="N008" break="no"/>cember 1808</date> — zur Aufführung kam, oder daß es zwei Jahre
+      <lb facs="#facs_1_region_1684599378668_3729_tl_9" n="N009"/>darauf (<date when="1810">1810</date>) bereits auf Nimmerwiedersehen von unserer
       <lb facs="#facs_1_region_1684599378668_3729_tl_10" n="N010"/>Bühne verschwunden war? Will man der Unempfänglichkeit
-      <lb facs="#facs_1_region_1684599378668_3729_tl_11" n="N011"/>des <rs type="place">Wien</rs>er Publicums für <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> nicht allein die Schuld auf¬
-      <lb facs="#facs_1_region_1684599378668_3729_tl_12" n="N012"/>bürden, so muß man daran erinnern, daß hier ein Großer
-      <lb facs="#facs_1_region_1684599378668_3729_tl_13" n="N013"/>durch einen Größeren verdrängt war. Die <rs type="place">Wien</rs>er Bevölke¬
-      <lb facs="#facs_1_line_1701348874942_202" n="N014"/>rung machte die Bekanntschaft der <rs type="person">Aulisʼschen Iphigenia</rs> zu
-      <lb facs="#facs_1_region_1684599378668_3729_tl_15" n="N015"/>einer Zeit, wo ihr <hi rendition="#em">
-                  <rs type="person">Mozart</rs>ʼs</hi> Opern längst in Fleisch und
-      <lb facs="#facs_1_region_1684599378668_3729_tl_16" n="N016"/>Blut übergegangen waren. Gegen die Farbenpracht der <hi rendition="#em">
-                  <rs type="person" continued="true">Mo¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684599378668_3729_tl_17" n="N017"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">zart</rs>
-               </hi>ʼschen Bilder mußten die reinen, strengen Contouren
-      <lb facs="#facs_1_region_1684599378668_3729_tl_18" n="N018"/>
-               <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi> blaß und leblos erscheinen, dieselben Contouren, welche
-      <lb facs="#facs_1_region_1684599378668_3729_tl_19" n="N019"/>zu ihrer Zeit nach <hi rendition="#em">
-                  <rs type="person">Lully</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Rameau</rs>
-               </hi> den Eindruck höch¬
-      <lb facs="#facs_1_region_1684599378668_3729_tl_20" n="N020"/>ster Fülle und Lebendigkeit gemacht hatten. Um das Jahr <date month="0" day="0" year="0">1808</date>
-               <lb facs="#facs_1_region_1684599378668_3729_tl_21" n="N021"/>herrschten in <rs type="place">Wien</rs> neben <rs type="person">Mozart</rs>ʼs Opern vorzüglich die Nov¬
-      <lb facs="#facs_1_region_1684599378668_3729_tl_22" n="N022"/>täten von <hi rendition="#em">
-                  <rs type="person">Méhul</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Cherubini</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Catel</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Lesueur</rs>
-               </hi> und
-      <lb facs="#facs_1_region_1684599378668_3729_tl_23" n="N023"/>anderen <rs type="place">französisch</rs>en Componisten. Diese hatten <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi>
-               <lb facs="#facs_1_region_1684599378668_3729_tl_24" n="N024"/>dramatische Principien in sich aufgenommen, sie musikalisch ge¬
-      <lb facs="#facs_1_line_1701348882750_211" n="N025"/>mildert, geschmückt, popularisirt. Einer Zeit, deren Lieblings¬
-      <lb facs="#facs_1_region_1684599378668_3729_tl_26" n="N026"/>Componisten auf den Schultern <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi> standen, konnte er
+      <lb facs="#facs_1_region_1684599378668_3729_tl_11" n="N011"/>des <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicums für <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi> nicht allein die Schuld auf
+      <lb facs="#facs_1_region_1684599378668_3729_tl_12" n="N012" break="no"/>bürden, so muß man daran erinnern, daß hier ein Großer
+      <lb facs="#facs_1_region_1684599378668_3729_tl_13" n="N013"/>durch einen Größeren verdrängt war. Die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Bevölke
+      <lb facs="#facs_1_line_1701348874942_202" n="N014" break="no"/>rung machte die Bekanntschaft der <rs type="bibl" ref="#hsl_work_id_166">Aulisʼschen Iphigenia</rs> zu
+      <lb facs="#facs_1_region_1684599378668_3729_tl_15" n="N015"/>einer Zeit, wo ihr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼs</hi> Opern längst in Fleisch und
+      <lb facs="#facs_1_region_1684599378668_3729_tl_16" n="N016"/>Blut übergegangen waren. Gegen die Farbenpracht der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mo
+      <lb facs="#facs_1_region_1684599378668_3729_tl_17" n="N017" break="no"/>zart</rs></hi>ʼschen Bilder mußten die reinen, strengen Contouren
+      <lb facs="#facs_1_region_1684599378668_3729_tl_18" n="N018"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi> blaß und leblos erscheinen, dieselben Contouren, welche
+      <lb facs="#facs_1_region_1684599378668_3729_tl_19" n="N019"/>zu ihrer Zeit nach <hi rendition="#em"><rs type="person" ref="#hsl_person_id_168">Lully</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_227">Rameau</rs></hi> den Eindruck höch
+         <lb facs="#facs_1_region_1684599378668_3729_tl_20" n="N020" break="no"/>ster Fülle und Lebendigkeit gemacht hatten. Um das Jahr <date when="1808">1808</date><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684599378668_3729_tl_21" n="N021"/>herrschten in <rs type="place" ref="#hsl_place_id_55">Wien</rs> neben <rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼs Opern vorzüglich die Nov
+      <lb facs="#facs_1_region_1684599378668_3729_tl_22" n="N022" break="no"/>täten von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_179">Méhul</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_47">Cherubini</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_45">Catel</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_160">Lesueur</rs></hi> und
+         <lb facs="#facs_1_region_1684599378668_3729_tl_23" n="N023"/>anderen <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Componisten. Diese hatten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684599378668_3729_tl_24" n="N024"/>dramatische Principien in sich aufgenommen, sie musikalisch ge
+      <lb facs="#facs_1_line_1701348882750_211" n="N025" break="no"/>mildert, geschmückt, popularisirt. Einer Zeit, deren Lieblings
+      <lb facs="#facs_1_region_1684599378668_3729_tl_26" n="N026" break="no"/>Componisten auf den Schultern <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi> standen, konnte er
       <lb facs="#facs_1_region_1684599378668_3729_tl_27" n="N027"/>selbst unmöglich in seiner wahren Größe erscheinen. Historische
       <lb facs="#facs_1_region_1684599378668_3729_tl_28" n="N028"/>Bildung und Auffassung ist eine Errungenschaft unserer Tage;
-      <lb facs="#facs_1_region_1684599378668_3729_tl_29" n="N029"/>sie hat sich insbesondere im Gebiete der Kunst unendlich erwei¬
-      <lb facs="#facs_1_region_1684599378668_3729_tl_30" n="N030"/>tert und vertieft. Wir glauben heute noch wie unsere Groß¬
-      <lb facs="#facs_1_region_1684599378668_3729_tl_31" n="N031"/>eltern, daß <hi rendition="#em">
-                  <rs type="person">Mozart</rs>ʼs</hi> musikalisches Genie jenem <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi>
-               <lb facs="#facs_1_region_1684599378668_3729_tl_32" n="N032"/>unendlich überlegen war, aber wir glauben nicht mehr, daß
-      <lb facs="#facs_1_region_1684599378668_3729_tl_33" n="N033"/>
-               <rs type="person">Gluck</rs> dadurch überflüssig geworden und einfach „abgethan“ sei.
-      <lb facs="#facs_1_region_1684599378668_3729_tl_34" n="N034"/>Bei aller <rs type="person">Mozart</rs>-Begeisterung erkennen und fühlen wir wieder
-      <lb facs="#facs_1_line_1701348891388_220" n="N035"/>die eigene Größe <rs type="person">Gluck</rs>ʼs, an dessen strenger Architektur eine</p>
+      <lb facs="#facs_1_region_1684599378668_3729_tl_29" n="N029"/>sie hat sich insbesondere im Gebiete der Kunst unendlich erwei
+      <lb facs="#facs_1_region_1684599378668_3729_tl_30" n="N030" break="no"/>tert und vertieft. Wir glauben heute noch wie unsere Groß
+         <lb facs="#facs_1_region_1684599378668_3729_tl_31" n="N031" break="no"/>eltern, daß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼs</hi> musikalisches Genie jenem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684599378668_3729_tl_32" n="N032"/>unendlich überlegen war, aber wir glauben nicht mehr, daß
+      <lb facs="#facs_1_region_1684599378668_3729_tl_33" n="N033"/><rs type="person" ref="#hsl_person_id_99">Gluck</rs> dadurch überflüssig geworden und einfach „abgethan“ sei.
+      <lb facs="#facs_1_region_1684599378668_3729_tl_34" n="N034"/>Bei aller <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-Begeisterung erkennen und fühlen wir wieder
+         <lb facs="#facs_1_line_1701348891388_220" n="N035"/>die eigene Größe <rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs, an dessen strenger Architektur eine</p><space quantity="1" unit="char"/>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684599382510_3732_tl_1" n="N001"/>unbefangene Betrachtung sogar Bogen wahrnimmt, welche sich
-      <lb facs="#facs_1_region_1684599382510_3732_tl_2" n="N002"/>stolzer und großartiger wölben, als bei <rs type="person">Mozart</rs>. In den ersten
-      <lb facs="#facs_1_region_1684599382510_3732_tl_3" n="N003"/>vierzig Jahren dieses Jahrhunderts war <hi rendition="#em">
-                  <rs type="place">Berlin</rs>
-               </hi> die einzige
-      <lb facs="#facs_1_region_1684599382510_3732_tl_4" n="N004"/>Stadt, welche den Opern <rs type="person">Gluck</rs>ʼs eine consequente Pflege wid¬
-      <lb facs="#facs_1_region_1684599382510_3732_tl_5" n="N005"/>mete; es gereicht ihr zur Ehre, trotz <hi rendition="#em">
-                  <rs type="person">Rahel</rs>ʼs</hi> Spott über
-      <lb facs="#facs_1_region_1684599382510_3732_tl_6" n="N006"/>den „für <rs type="person">Gluck</rs> auswendig gelernten Beifall“ ihrer Landsleute.
-      <lb facs="#facs_1_region_1684599382510_3732_tl_7" n="N007"/>Seit den letzten zwanzig Jahren beginnt allenthalben ein leb¬
-      <lb facs="#facs_1_region_1684599382510_3732_tl_8" n="N008"/>hafteres Interesse für Gluck zu erwachen. Speciell mit der
-      <lb facs="#facs_1_region_1684599382510_3732_tl_9" n="N009"/>„<rs type="bibl">Iphigenia in Aulis</rs>“ gingen <rs type="place">Dresden</rs>, <rs type="place">Karlsruhe</rs>, <rs type="place">Darmstadt</rs>
-               <lb facs="#facs_1_region_1684599382510_3732_tl_10" n="N010"/>(und neuestens <rs type="place">Berlin</rs>) voran; in <rs type="place">Paris</rs> hat man kürzlich
-      <lb facs="#facs_1_region_1684599382510_3732_tl_11" n="N011"/>„<rs type="bibl">Alceste</rs>“ aus dreißigjährigem Schlummer erweckt und harrt
-      <lb facs="#facs_1_line_1701348900450_228" n="N012"/>gegenwärtig der „<rs type="bibl">Armida</rs>“. <hi rendition="#em">
-                  <rs type="person">Gluckʼ</rs>
-               </hi>s „<rs type="bibl">Orpheus</rs>“ erscheint 
-      <lb facs="#facs_1_region_1684599382510_3732_tl_13" n="N013"/>bereits auf nicht wenigen Bühnen. <rs type="place">Wien</rs> hat von <rs type="person">Gluck</rs>ʼs
-      <lb facs="#facs_1_region_1684599382510_3732_tl_14" n="N014"/>Opern die einzige „<rs type="bibl">Iphigenia in <hi rendition="#em">Tauris</hi>
-               </rs>“ nicht gänzlich ver¬
-      <lb facs="#facs_1_region_1684599382510_3732_tl_15" n="N015"/>schwinden lassen.
-      <lb facs="#facs_1_region_1684599382510_3732_tl_16" n="N016"/>Die uns jetzt wiedergewonnene „<rs type="bibl">Iphigenia in <hi rendition="#em">Aulis</hi>
-               </rs>“
+            <p prev="true">
+      <lb facs="#facs_1_region_1684599382510_3732_tl_1" n="N001"/>unbefangene Betrachtung sogar Bogen wahrnimmt, welche sich
+      <lb facs="#facs_1_region_1684599382510_3732_tl_2" n="N002"/>stolzer und großartiger wölben, als bei <rs type="person" ref="#hsl_person_id_189">Mozart</rs>. In den ersten
+      <lb facs="#facs_1_region_1684599382510_3732_tl_3" n="N003"/>vierzig Jahren dieses Jahrhunderts war <hi rendition="#em"><rs type="place" ref="#hsl_place_id_9">Berlin</rs></hi> die einzige
+      <lb facs="#facs_1_region_1684599382510_3732_tl_4" n="N004"/>Stadt, welche den Opern <rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs eine consequente Pflege wid
+      <lb facs="#facs_1_region_1684599382510_3732_tl_5" n="N005" break="no"/>mete; es gereicht ihr zur Ehre, trotz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_311">Rahel</rs>ʼs</hi> Spott über
+      <lb facs="#facs_1_region_1684599382510_3732_tl_6" n="N006"/>den „für <rs type="person" ref="#hsl_person_id_99">Gluck</rs> auswendig gelernten Beifall“ ihrer Landsleute.
+      <lb facs="#facs_1_region_1684599382510_3732_tl_7" n="N007"/>Seit den letzten zwanzig Jahren beginnt allenthalben ein leb
+      <lb facs="#facs_1_region_1684599382510_3732_tl_8" n="N008" break="no"/>hafteres Interesse für <rs type="person" ref="#hsl_person_id_99">Gluck</rs> zu erwachen. Speciell mit der
+                  <lb facs="#facs_1_region_1684599382510_3732_tl_9" n="N009"/>„<rs type="bibl" ref="#hsl_work_id_166">Iphigenia in Aulis</rs>“ gingen <rs type="place" ref="#hsl_place_id_15">Dresden</rs>, <rs type="place" ref="#hsl_place_id_29">Karlsruhe</rs>, <rs type="place" ref="#hsl_place_id_13">Darmstadt</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684599382510_3732_tl_10" n="N010"/>(und neuestens <rs type="place" ref="#hsl_place_id_9">Berlin</rs>) voran; in <rs type="place" ref="#hsl_place_id_44">Paris</rs> hat man kürzlich
+      <lb facs="#facs_1_region_1684599382510_3732_tl_11" n="N011"/>„<rs type="bibl" ref="#hsl_work_id_267">Alceste</rs>“ aus dreißigjährigem Schlummer erweckt und harrt
+      <lb facs="#facs_1_line_1701348900450_228" n="N012"/>gegenwärtig der „<rs type="bibl" ref="#hsl_work_id_260">Armida</rs>“. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluckʼ</rs></hi>s „<rs type="bibl" ref="#hsl_work_id_2012">Orpheus</rs>“ erscheint 
+      <lb facs="#facs_1_region_1684599382510_3732_tl_13" n="N013"/>bereits auf nicht wenigen Bühnen. <rs type="place" ref="#hsl_place_id_55">Wien</rs> hat von <rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs
+      <lb facs="#facs_1_region_1684599382510_3732_tl_14" n="N014"/>Opern die einzige „<rs type="bibl" ref="#hsl_work_id_165">Iphigenia in <hi rendition="#em">Tauris</hi></rs>“ nicht gänzlich ver
+      <lb facs="#facs_1_region_1684599382510_3732_tl_15" n="N015" break="no"/>schwinden lassen.</p>
+      <p>
+      <lb facs="#facs_1_region_1684599382510_3732_tl_16" n="N016"/>Die uns jetzt wiedergewonnene „<rs type="bibl" ref="#hsl_work_id_166">Iphigenia in <hi rendition="#em">Aulis</hi></rs>“
       <lb facs="#facs_1_line_1701348874942_201" n="N017"/>kann füglich als ein erster Theil zu jener unserem Publicum
-      <lb facs="#facs_1_region_1684599382510_3732_tl_17" n="N018"/>wohlbekannten größten Schöpfung <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi> angesehen werden.
-      <lb facs="#facs_1_region_1684599382510_3732_tl_18" n="N019"/>Das Gedicht ist eine Umarbeitung aus dritter Hand. Der Ver¬
-      <lb facs="#facs_1_region_1684599382510_3732_tl_19" n="N020"/>fasser des <rs type="person">Gluck</rs>ʼschen Libretto (<hi rendition="#em">
-                  <rs type="person">Rollet</rs>
-               </hi>) hat nämlich <hi rendition="#em">
-                  <rs type="person">Racine</rs>ʼs</hi>
-               <lb facs="#facs_1_region_1684599382510_3732_tl_20" n="N021"/>gleichnamiges Trauerspiel als Grundlage theilweise wörtlich be¬
-      <lb facs="#facs_1_region_1684599382510_3732_tl_21" n="N022"/>nützt. <hi rendition="#em">
-                  <rs type="person">Racine</rs>ʼs</hi> (<date month="0" day="0" year="0">1674</date> erschienene) Tragödie ist ihrerseits
-      <lb facs="#facs_1_region_1684599382510_3732_tl_22" n="N023"/>wieder eine Umdichtung des griechischen Trauerspieles von
-      <lb facs="#facs_1_region_1684599382510_3732_tl_23" n="N024"/>
-               <hi rendition="#em">
-                  <rs type="person">Euripides</rs>
-               </hi>, eine Uebersetzung desselben nicht nur in die
-      <lb facs="#facs_1_region_1684599382510_3732_tl_24" n="N025"/>Sprache, sondern auch in die höfische Empfindungs- und Aus¬
-      <lb facs="#facs_1_region_1684599382510_3732_tl_25" n="N026"/>drucksweise des damaligen Frankreich. Den Ausgang bildet
-      <lb facs="#facs_1_region_1684599382510_3732_tl_26" n="N027"/>überall der hellenische Mythos, daß <hi rendition="#em">
-                  <rs type="person">Agamemnon</rs>
-               </hi>, durch die
-      <lb facs="#facs_1_line_1701348882750_210" n="N028"/>Feindseligkeit der <rs type="person">Diana</rs> und durch göttliches <rs type="person">Orakel</rs> getrieben,
-      <lb facs="#facs_1_region_1684599382510_3732_tl_27" n="N029"/>als Heerführer der Griechen seine Tochter <hi rendition="#em">
-                  <rs type="person">Iphigenia </rs>
-               </hi>opfern
+      <lb facs="#facs_1_region_1684599382510_3732_tl_17" n="N018"/>wohlbekannten größten Schöpfung <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi> angesehen werden.
+      <lb facs="#facs_1_region_1684599382510_3732_tl_18" n="N019"/>Das Gedicht ist eine Umarbeitung aus dritter Hand. Der Ver
+            <lb facs="#facs_1_region_1684599382510_3732_tl_19" n="N020" break="no"/>fasser des <rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼschen Libretto (<hi rendition="#em"><rs type="person" ref="#hsl_person_id_242">Rollet</rs></hi>) hat nämlich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_223">Racine</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684599382510_3732_tl_20" n="N021"/>gleichnamiges Trauerspiel als Grundlage theilweise wörtlich be
+      <lb facs="#facs_1_region_1684599382510_3732_tl_21" n="N022" break="no"/>nützt. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_223">Racine</rs>ʼs</hi> (<date when="1674">1674</date> erschienene) Tragödie ist ihrerseits
+      <lb facs="#facs_1_region_1684599382510_3732_tl_22" n="N023"/>wieder eine Umdichtung des <rs type="place" ref="#hsl_place_id_23">griechisch</rs>en Trauerspieles von
+      <lb facs="#facs_1_region_1684599382510_3732_tl_23" n="N024"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_76">Euripides</rs></hi>, eine Uebersetzung desselben nicht nur in die
+      <lb facs="#facs_1_region_1684599382510_3732_tl_24" n="N025"/>Sprache, sondern auch in die höfische Empfindungs- und Aus
+      <lb facs="#facs_1_region_1684599382510_3732_tl_25" n="N026" break="no"/>drucksweise des damaligen <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>. Den Ausgang bildet
+      <lb facs="#facs_1_region_1684599382510_3732_tl_26" n="N027"/>überall der <rs type="place" ref="#hsl_place_id_23"></rs>hellenische Mythos, daß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_431">Agamemnon</rs></hi>, durch die
+      <lb facs="#facs_1_line_1701348882750_210" n="N028"/>Feindseligkeit der <rs type="person" ref="#hsl_person_id_4067">Diana</rs> und durch göttliches Orakel getrieben,
+      <lb facs="#facs_1_region_1684599382510_3732_tl_27" n="N029"/>als Heerführer der Griechen seine Tochter <hi rendition="#em"><rs type="person" ref="#hsl_person_id_486">Iphigenia </rs></hi>opfern
       <lb facs="#facs_1_region_1684599382510_3732_tl_28" n="N030"/>soll, um dadurch von den Göttern günstigen Wind zur Fahrt
-      <lb facs="#facs_1_region_1684599382510_3732_tl_29" n="N031"/>nach <rs type="place">Troja</rs> zu erhalten. Trotz des Flehens ihrer Mutter
-      <lb facs="#facs_1_region_1684599382510_3732_tl_30" n="N032"/>
-               <hi rendition="#em">
-                  <rs type="person">Klytämnestra</rs>
-               </hi>, trotz der Drohungen ihres Verlobten <hi rendition="#em">
-                  <rs type="person" continued="true">Achil¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684599382510_3732_tl_31" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">les</rs>
-               </hi> kniet <rs type="person">Iphigenia</rs> bereits unter dem gezückten Opferbeil.
-      <lb facs="#facs_1_region_1684599382510_3732_tl_32" n="N034"/>Da erklärt plötzlich der Oberpriester <hi rendition="#em">
-                  <rs type="person">Kalchas</rs>
-               </hi>: der Eifer der
-      <lb facs="#facs_1_region_1684599382510_3732_tl_33" n="N035"/>Griechen und die Tugend <rs type="person">Iphigenia</rs>ʼs haben den Zorn der Götter
+      <lb facs="#facs_1_region_1684599382510_3732_tl_29" n="N031"/>nach <rs type="place" ref="#hsl_place_id_52">Troja</rs> zu erhalten. Trotz des Flehens ihrer Mutter
+      <lb facs="#facs_1_region_1684599382510_3732_tl_30" n="N032"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_466">Klytämnestra</rs></hi>, trotz der Drohungen ihres Verlobten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_425">Achil
+      <lb facs="#facs_1_region_1684599382510_3732_tl_31" n="N033" break="no"/>les</rs></hi> kniet <rs type="person" ref="#hsl_person_id_486">Iphigenia</rs> bereits unter dem gezückten Opferbeil.
+      <lb facs="#facs_1_region_1684599382510_3732_tl_32" n="N034"/>Da erklärt plötzlich der Oberpriester <hi rendition="#em"><rs type="person" ref="#hsl_person_id_457">Kalchas</rs></hi>: der Eifer der
+      <lb facs="#facs_1_region_1684599382510_3732_tl_33" n="N035"/>Griechen und die Tugend <rs type="person" ref="#hsl_person_id_486">Iphigenia</rs>ʼs haben den Zorn der Götter
       <lb facs="#facs_1_region_1684599382510_3732_tl_34" n="N036"/>versöhnt. Durch ein Wunder entzündet und verzehrt sich der
-      <lb facs="#facs_1_region_1684599382510_3732_tl_35" n="N037"/>Scheiterhaufen, <rs type="person">Iphigenia</rs> ist gerettet und ein günstiger Fahr¬
-      <lb facs="#facs_1_line_1701348906296_234" n="N038"/>wind bläht die Segel der griechischen Schiffe. Dieser Schluß</p>
+      <lb facs="#facs_1_region_1684599382510_3732_tl_35" n="N037"/>Scheiterhaufen, <rs type="person" ref="#hsl_person_id_486">Iphigenia</rs> ist gerettet und ein günstiger Fahr
+            <lb facs="#facs_1_line_1701348906296_234" n="N038" break="no"/>wind bläht die Segel der <rs type="place" ref="#hsl_place_id_23">griechisch</rs>en Schiffe. Dieser Schluß</p><space quantity="1" unit="char"/>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684599386078_3735_tl_1" n="N001"/>des <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>ʼschen Librettos verbessert schon einigermaßen <rs type="person" continued="true">Ra¬</rs>
-               <lb facs="#facs_1_region_1684599386078_3735_tl_2" n="N002"/>
-               <rs type="person" continued="true">cine</rs>ʼs Drama, in welchem eine unglückselige Zwischenfigur und
-      <lb facs="#facs_1_region_1684599386078_3735_tl_3" n="N003"/>Tochter <rs type="person">Helena</rs>ʼs, <hi rendition="#em">
-                  <rs type="person">Eriphile</rs>
-               </hi>, anstatt <rs type="person">Iphigeniens</rs> zum Opfer
-      <lb facs="#facs_1_region_1684599386078_3735_tl_4" n="N004"/>fällt, worauf diese sich mit <rs type="person">Achill</rs> vermält. Noch anders und
-      <lb facs="#facs_1_region_1684599386078_3735_tl_5" n="N005"/>weit poetischer hat Richard <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> in seiner (der <rs type="place">Wien</rs>er
+            <p prev="true">
+      <lb facs="#facs_1_region_1684599386078_3735_tl_1" n="N001"/>des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>ʼschen Librettos verbessert schon einigermaßen <rs type="person" ref="#hsl_person_id_223">Ra
+      <lb facs="#facs_1_region_1684599386078_3735_tl_2" n="N002" break="no"/>cine</rs>ʼs Drama, in welchem eine unglückselige Zwischenfigur und
+      <lb facs="#facs_1_region_1684599386078_3735_tl_3" n="N003"/>Tochter <rs type="person" ref="#hsl_person_id_4068">Helena</rs>ʼs, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_485">Eriphile</rs></hi>, anstatt <rs type="person" ref="#hsl_person_id_487">Iphigeniens</rs> zum Opfer
+      <lb facs="#facs_1_region_1684599386078_3735_tl_4" n="N004"/>fällt, worauf diese sich mit <rs type="person" ref="#hsl_person_id_426">Achill</rs> vermält. Noch anders und
+      <lb facs="#facs_1_region_1684599386078_3735_tl_5" n="N005"/>weit poetischer hat Richard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> in seiner (der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er
       <lb facs="#facs_1_region_1684599386078_3735_tl_6" n="N006"/>Aufführung zu Grunde gelegten) Bearbeitung den Ausgang
-      <lb facs="#facs_1_region_1684599386078_3735_tl_7" n="N007"/>gestaltet, indem er, auf die <rs type="place">griechisch</rs>e Mythe zurückgehend, die
-      <lb facs="#facs_1_region_1684599386078_3735_tl_8" n="N008"/>Göttin <rs type="person">Diana</rs> erscheinen läßt, welche <rs type="person">Iphigenien</rs> in einer
-      <lb facs="#facs_1_region_1684599386078_3735_tl_9" n="N009"/>Wolke zu sich emporhebt und nach <rs type="place">Tauris</rs> bringt. Das Text¬
-      <lb facs="#facs_1_region_1684599386078_3735_tl_10" n="N010"/>buch hat den Vorzug, daß es dem Componisten in ausgeprä¬
-      <lb facs="#facs_1_region_1684599386078_3735_tl_11" n="N011"/>ten Gestalten und starken Situationen Stoff zu dramatischer
-      <lb facs="#facs_1_line_1701348900450_227" n="N012"/>Charakteristik bietet. <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> hat übrigens ungleich mehr für
-      <lb facs="#facs_1_region_1684599386078_3735_tl_12" n="N013"/>diese gethan, als der Dichter. Die Personen des Letzteren er¬
-      <lb facs="#facs_1_region_1684599386078_3735_tl_13" n="N014"/>scheinen theils schwankend und bedenklich im Handeln, theils
+      <lb facs="#facs_1_region_1684599386078_3735_tl_7" n="N007"/>gestaltet, indem er, auf die <rs type="place" ref="#hsl_place_id_23">griechisch</rs>e Mythe zurückgehend, die
+      <lb facs="#facs_1_region_1684599386078_3735_tl_8" n="N008"/>Göttin <rs type="person" ref="#hsl_person_id_4069">Diana</rs> erscheinen läßt, welche <rs type="person" ref="#hsl_person_id_4070">Iphigenien</rs> in einer
+      <lb facs="#facs_1_region_1684599386078_3735_tl_9" n="N009"/>Wolke zu sich emporhebt und nach <rs type="place" ref="#hsl_place_id_51">Tauris</rs> bringt. Das Text
+      <lb facs="#facs_1_region_1684599386078_3735_tl_10" n="N010" break="no"/>buch hat den Vorzug, daß es dem Componisten in ausgeprä
+      <lb facs="#facs_1_region_1684599386078_3735_tl_11" n="N011" break="no"/>ten Gestalten und starken Situationen Stoff zu dramatischer
+      <lb facs="#facs_1_line_1701348900450_227" n="N012"/>Charakteristik bietet. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi> hat übrigens ungleich mehr für
+      <lb facs="#facs_1_region_1684599386078_3735_tl_12" n="N013"/>diese gethan, als der Dichter. Die Personen des Letzteren er
+      <lb facs="#facs_1_region_1684599386078_3735_tl_13" n="N014" break="no"/>scheinen theils schwankend und bedenklich im Handeln, theils
       <lb facs="#facs_1_region_1684599386078_3735_tl_14" n="N015"/>thatlos, undramatisch; die Handlung schreitet dürftig, stockend
-      <lb facs="#facs_1_region_1684599386078_3735_tl_15" n="N016"/>und ohne rechte Höhenpunkte vorwärts, endlich prallt das trei¬
-      <lb facs="#facs_1_region_1684599386078_3735_tl_16" n="N017"/>bende Grundmotiv des Ganzen (ein <rs type="person">Orakel</rs>, welches zu An¬
-      <lb facs="#facs_1_region_1684599386078_3735_tl_17" n="N018"/>fang das Opfer will und es schließlich nicht will) an unserer
+      <lb facs="#facs_1_region_1684599386078_3735_tl_15" n="N016"/>und ohne rechte Höhenpunkte vorwärts, endlich prallt das trei
+      <lb facs="#facs_1_region_1684599386078_3735_tl_16" n="N017" break="no"/>bende Grundmotiv des Ganzen (ein Orakel, welches zu An
+      <lb facs="#facs_1_region_1684599386078_3735_tl_17" n="N018" break="no"/>fang das Opfer will und es schließlich nicht will) an unserer
       <lb facs="#facs_1_region_1684599386078_3735_tl_18" n="N019"/>Denk- und Gefühlsweise ziemlich machtlos ab. Im Vergleich zur
-      <lb facs="#facs_1_region_1684599386078_3735_tl_19" n="N020"/>
-               <rs type="person">
-                  <hi rendition="#em">Tauris</hi>ʼschen Iphigenia</rs> hat die von <rs type="place">Aulis</rs> den Vortheil größerer
-      <lb facs="#facs_1_region_1684599386078_3735_tl_20" n="N021"/>scenischer Abwechslung und Lebendigkeit; in jeder anderen Be¬
-      <lb facs="#facs_1_region_1684599386078_3735_tl_21" n="N022"/>ziehung stellen wir „<rs type="bibl">Iphigenia in Tauris</rs>“ höher. Sie kommt
-      <lb facs="#facs_1_region_1684599386078_3735_tl_22" n="N023"/>in der Dichtung dem Geiste der Antike ungleich näher un
+      <lb facs="#facs_1_region_1684599386078_3735_tl_19" n="N020"/><rs type="bibl" ref="#hsl_work_id_165"><hi rendition="#em">Tauris</hi>ʼschen Iphigenia</rs> hat die von <rs type="bibl" ref="#hsl_work_id_166">Aulis</rs> den Vortheil größerer
+      <lb facs="#facs_1_region_1684599386078_3735_tl_20" n="N021"/>scenischer Abwechslung und Lebendigkeit; in jeder anderen Be
+      <lb facs="#facs_1_region_1684599386078_3735_tl_21" n="N022" break="no"/>ziehung stellen wir „<rs type="bibl" ref="#hsl_work_id_165">Iphigenia in Tauris</rs>“ höher. Sie kommt
+      <lb facs="#facs_1_region_1684599386078_3735_tl_22" n="N023"/>in der Dichtung dem Geiste der Antike ungleich näher und
       <lb facs="#facs_1_region_1684599386078_3735_tl_23" n="N024"/>entfaltet in der Musik mehr Reichthum, Eigenthümlichkeit und
-      <lb facs="#facs_1_region_1684599386078_3735_tl_24" n="N025"/>Tiefe der Empfindung. Die Composition ist freier in melo¬
-      <lb facs="#facs_1_region_1684599386078_3735_tl_25" n="N026"/>discher, prägnanter in instrumentaler Beziehung. Wir können
-      <lb facs="#facs_1_region_1684599386078_3735_tl_26" n="N027"/>den Leser füglich mit den historischen Daten wie mit der musi¬
-      <lb facs="#facs_1_region_1684599386078_3735_tl_27" n="N028"/>kalischen Analyse eines monumentalen Werkes verschonen, über
+      <lb facs="#facs_1_region_1684599386078_3735_tl_24" n="N025"/>Tiefe der Empfindung. Die Composition ist freier in melo
+      <lb facs="#facs_1_region_1684599386078_3735_tl_25" n="N026" break="no"/>discher, prägnanter in instrumentaler Beziehung. Wir können
+      <lb facs="#facs_1_region_1684599386078_3735_tl_26" n="N027"/>den Leser füglich mit den historischen Daten wie mit der musi
+      <lb facs="#facs_1_region_1684599386078_3735_tl_27" n="N028" break="no"/>kalischen Analyse eines monumentalen Werkes verschonen, über
       <lb facs="#facs_1_region_1684599386078_3735_tl_28" n="N029"/>das längst so viel Ausführliches und Treffendes geschrieben ist.
       <lb facs="#facs_1_region_1684599386078_3735_tl_29" n="N030"/>Im Raume beschränkt, wie wir es diesmal sind, müssen wir
       <lb facs="#facs_1_region_1684599386078_3735_tl_30" n="N031"/>selbst die Beleuchtung der allerhervorragendsten Seiten dieser
-      <lb facs="#facs_1_region_1684599386078_3735_tl_31" n="N032"/>Oper für eine andere Gelegenheit versparen.
-      <lb facs="#facs_1_region_1684599386078_3735_tl_32" n="N033"/>Der Eindruck der <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>ʼschen Oper auf die Zuhörer
+      <lb facs="#facs_1_region_1684599386078_3735_tl_31" n="N032"/>Oper für eine andere Gelegenheit versparen.</p>
+   <p><lb facs="#facs_1_region_1684599386078_3735_tl_32" n="N033"/>Der Eindruck der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>ʼschen Oper auf die Zuhörer
       <lb facs="#facs_1_region_1684599386078_3735_tl_33" n="N034"/>war gewaltiger und unmittelbarer, als wir zu hoffen gewagt.
       <lb facs="#facs_1_region_1684599386078_3735_tl_34" n="N035"/>Der Beifall des sehr zahlreichen, ungemein aufmerksamen
       <lb facs="#facs_1_region_1684599386078_3735_tl_35" n="N036"/>Publicums steigerte sich in den Hauptmomenten der Oper bis
-      <lb facs="#facs_1_region_1684599386078_3735_tl_36" n="N037"/>zum Enthusiasmus. Er ist uns ein Pfand dafür, daß <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>
-               <lb facs="#facs_1_line_1701348906296_233" n="N038"/>in <rs type="place">Wien</rs> nicht mehr der Vergessenheit anheimfallen kann.</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684599400549_3741_tl_1" n="N001"/>Wenn „<rs type="bibl">Iphigenia</rs>“ vorgestern einen wirklichen, nicht blos
-      <lb facs="#facs_2_region_1684599400549_3741_tl_2" n="N002"/>einen achtungsvollen Scheinerfolg errung, so hat daran die Be¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_3" n="N003"/>arbeitung von Richard <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> ein nicht geringes Ver¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_4" n="N004"/>dienst. Sie verräth eine Meisterhand, sowol in ihrem posi¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_5" n="N005"/>tiven Thun als in ihrem Unterlassen. Eine feine conservative
+         <lb facs="#facs_1_region_1684599386078_3735_tl_36" n="N037"/>zum Enthusiasmus. Er ist uns ein Pfand dafür, daß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1701348906296_233" n="N038"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> nicht mehr der Vergessenheit anheimfallen kann.</p>
+      <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+     <cb n="4"/>
+     <p>
+      <lb facs="#facs_2_region_1684599400549_3741_tl_1" n="N001"/>Wenn „<rs type="bibl" ref="#hsl_work_id_166">Iphigenia</rs>“ vorgestern einen wirklichen, nicht blos
+      <lb facs="#facs_2_region_1684599400549_3741_tl_2" n="N002"/>einen achtungsvollen Scheinerfolg errung, so hat daran die Be
+      <lb facs="#facs_2_region_1684599400549_3741_tl_3" n="N003" break="no"/>arbeitung von Richard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> ein nicht geringes Ver
+      <lb facs="#facs_2_region_1684599400549_3741_tl_4" n="N004" break="no"/>dienst. Sie verräth eine Meisterhand, sowol in ihrem posi
+      <lb facs="#facs_2_region_1684599400549_3741_tl_5" n="N005" break="no"/>tiven Thun als in ihrem Unterlassen. Eine feine conservative
       <lb facs="#facs_2_region_1684599400549_3741_tl_6" n="N006"/>Empfindung für das Charakteristische der Vergangenheit und der
       <lb facs="#facs_2_region_1684599400549_3741_tl_7" n="N007"/>klarste Blick für das Bedürfniß der Gegenwart haben hier
       <lb facs="#facs_2_region_1684599400549_3741_tl_8" n="N008"/>Hand in Hand zusammengewirkt. Wir wissen, daß zahlreiche,
@@ -1284,263 +1209,194 @@
       <lb facs="#facs_2_region_1684599400549_3741_tl_10" n="N010"/>Zeter schreien. Handelte es sich um ein „historisches Concert“
       <lb facs="#facs_2_region_1684599400549_3741_tl_11" n="N011"/>oder um eine Aufführung vor Fachmusikern und Gelehrten,
       <lb facs="#facs_2_region_1684599400549_3741_tl_12" n="N012"/>jener Protest wäre im vollsten Rechte. So aber fragt es sich
-      <lb facs="#facs_2_region_1684599400549_3741_tl_13" n="N013"/>lediglich, ob man redlich beabsichtigt, der <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>ʼschen Musik
-      <lb facs="#facs_2_region_1684599400549_3741_tl_14" n="N014"/>Eingang und lebendige Wirkung im großen Publicum wieder¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_15" n="N015"/>zugewinnen, oder nicht? Im ersteren Falle halten wir eine
-      <lb facs="#facs_2_region_1684599400549_3741_tl_16" n="N016"/>mit Verständniß und Bescheidenheit unternommene Bearbei¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_17" n="N017"/>tung nicht nur für erlaubt, sondern für nothwendig. Es macht
-      <lb facs="#facs_2_region_1684599400549_3741_tl_18" n="N018"/>freilich bessere Figur in der Kritik, über die kleinste Aende¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_19" n="N019"/>rung Wehe zu rufen und jede geopferte Note als unersetz¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_20" n="N020"/>lichen Verlust zu beklagen. Aber ein größeres Verdienst um <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684599400549_3741_tl_21" n="N021"/>erwirbt sich der Praktiker, der mit Aufopferung einiger Aeußerlich¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_22" n="N022"/>keiten eine <rs type="person">Gluck</rs>ʼsche Oper zum Siege führt, als jene Puristen, welche
+      <lb facs="#facs_2_region_1684599400549_3741_tl_13" n="N013"/>lediglich, ob man redlich beabsichtigt, der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>ʼschen Musik
+      <lb facs="#facs_2_region_1684599400549_3741_tl_14" n="N014"/>Eingang und lebendige Wirkung im großen Publicum wieder
+      <lb facs="#facs_2_region_1684599400549_3741_tl_15" n="N015" break="no"/>zugewinnen, oder nicht? Im ersteren Falle halten wir eine
+      <lb facs="#facs_2_region_1684599400549_3741_tl_16" n="N016"/>mit Verständniß und Bescheidenheit unternommene Bearbei
+      <lb facs="#facs_2_region_1684599400549_3741_tl_17" n="N017" break="no"/>tung nicht nur für erlaubt, sondern für nothwendig. Es macht
+      <lb facs="#facs_2_region_1684599400549_3741_tl_18" n="N018"/>freilich bessere Figur in der Kritik, über die kleinste Aende
+      <lb facs="#facs_2_region_1684599400549_3741_tl_19" n="N019" break="no"/>rung Wehe zu rufen und jede geopferte Note als unersetz
+           <lb facs="#facs_2_region_1684599400549_3741_tl_20" n="N020" break="no"/>lichen Verlust zu beklagen. Aber ein größeres Verdienst um <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684599400549_3741_tl_21" n="N021"/>erwirbt sich der Praktiker, der mit Aufopferung einiger Aeußerlich
+      <lb facs="#facs_2_region_1684599400549_3741_tl_22" n="N022" break="no"/>keiten eine <rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼsche Oper zum Siege führt, als jene Puristen, welche
       <lb facs="#facs_2_region_1684599400549_3741_tl_23" n="N023"/>von ihrer classischen Höhe herab lieber zusehen, wie sie durchfällt.
-      <lb facs="#facs_2_region_1684599400549_3741_tl_24" n="N024"/>
-               <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> mußte in seiner Bearbeitung nach allen Richtungen
-      <lb facs="#facs_2_region_1684599400549_3741_tl_25" n="N025"/>thätig sein. Zunächst danken wir ihm die bessere <hi rendition="#em">Uebertra¬</hi>
-               <lb facs="#facs_2_region_1684599400549_3741_tl_26" n="N026"/>
-               <hi rendition="#em">gung</hi> des Textes aus dem <rs type="place">Französisch</rs>en und damit die eigent¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_27" n="N027"/>liche Wiedereinsetzung der Recitative in ihren wahren Sinn
+      <lb facs="#facs_2_region_1684599400549_3741_tl_24" n="N024"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> mußte in seiner Bearbeitung nach allen Richtungen
+      <lb facs="#facs_2_region_1684599400549_3741_tl_25" n="N025"/>thätig sein. Zunächst danken wir ihm die bessere <hi rendition="#em">Uebertra
+      <lb facs="#facs_2_region_1684599400549_3741_tl_26" n="N026" break="no"/>gung</hi> des Textes aus dem <rs type="place" ref="#hsl_place_id_21">Französisch</rs>en und damit die eigent
+      <lb facs="#facs_2_region_1684599400549_3741_tl_27" n="N027" break="no"/>liche Wiedereinsetzung der Recitative in ihren wahren Sinn
       <lb facs="#facs_2_region_1684599400549_3741_tl_28" n="N028"/>und Gehalt, welcher durch die übliche schlechte Uebersetzung
-      <lb facs="#facs_2_region_1684599400549_3741_tl_29" n="N029"/>mitunter ganz verloren ging. Sodann verstärkte er die <hi rendition="#em">In¬</hi>
-               <lb facs="#facs_2_region_1684599400549_3741_tl_30" n="N030"/>
-               <hi rendition="#em">strumentirung</hi>, mit deren Dürftigkeit und Monotonie sich
-      <lb facs="#facs_2_region_1684599400549_3741_tl_31" n="N031"/>unser Gehör nicht mehr befreunden kann. Einer solchen Nach¬
-      <lb facs="#facs_2_region_1684599400549_3741_tl_32" n="N032"/>hilfe bedurfte speciell „<rs type="bibl">Iphigenia in Aulis</rs>“, wo <rs type="person">Gluck</rs> z. B.
-      <lb facs="#facs_2_region_1684599400549_3741_tl_33" n="N033"/>die Posaunen consequent vermeidet, die er in „<rs type="person">Alceste</rs>“ und
-      <lb facs="#facs_2_region_1684599400549_3741_tl_34" n="N034"/>„<rs type="person">Orfeo</rs>“ mit so großartigem Effecte verwendet. Die von
-      <lb facs="#facs_2_region_1684599400549_3741_tl_35" n="N035"/>Wagner vorgenommenen <hi rendition="#em">Kürzungen</hi> treffen vorzugsweise die
+      <lb facs="#facs_2_region_1684599400549_3741_tl_29" n="N029"/>mitunter ganz verloren ging. Sodann verstärkte er die <hi rendition="#em">In
+      <lb facs="#facs_2_region_1684599400549_3741_tl_30" n="N030" break="no"/>strumentirung</hi>, mit deren Dürftigkeit und Monotonie sich
+      <lb facs="#facs_2_region_1684599400549_3741_tl_31" n="N031"/>unser Gehör nicht mehr befreunden kann. Einer solchen Nach
+      <lb facs="#facs_2_region_1684599400549_3741_tl_32" n="N032" break="no"/>hilfe bedurfte speciell „<rs type="bibl" ref="#hsl_work_id_166">Iphigenia in Aulis</rs>“, wo <rs type="person" ref="#hsl_person_id_99">Gluck</rs> z. B.
+      <lb facs="#facs_2_region_1684599400549_3741_tl_33" n="N033"/>die Posaunen consequent vermeidet, die er in „<rs type="bibl" ref="#hsl_work_id_267">Alceste</rs>“ und
+      <lb facs="#facs_2_region_1684599400549_3741_tl_34" n="N034"/>„<rs type="bibl" ref="#hsl_work_id_2012">Orfeo</rs>“ mit so großartigem Effecte verwendet. Die von
+      <lb facs="#facs_2_region_1684599400549_3741_tl_35" n="N035"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> vorgenommenen <hi rendition="#em">Kürzungen</hi> treffen vorzugsweise die
       <lb facs="#facs_2_region_1684599400549_3741_tl_36" n="N036"/>Balletmusik, welche einen großen Raum in allen drei Arten
-      <lb facs="#facs_2_region_1684599400549_3741_tl_37" n="N037"/>der Original-Partitur einnimmt, sodann die Festchöre mit ein¬
-      <lb facs="#facs_2_line_1701349120256_267" n="N038"/>zelnen Strophen des <rs type="person">Patroklus</rs>, einer Griechin, eines Grie¬</p>
+      <lb facs="#facs_2_region_1684599400549_3741_tl_37" n="N037"/>der Original-Partitur einnimmt, sodann die Festchöre mit ein
+      <lb facs="#facs_2_line_1701349120256_267" n="N038" break="no"/>zelnen Strophen des <rs type="person" ref="#hsl_person_id_489">Patroklus</rs>, einer Griechin, eines Grie</p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684599404005_3744_tl_1" n="N001"/>chen ec. im ersten und zweiten Acte. Zwei Arien der <rs type="person" continued="true">Iphi¬</rs>
-               <lb facs="#facs_2_line_1701349139967_279" n="N002"/>
-               <rs type="person" continued="true">genia</rs>, eine des <rs type="person">Achilles</rs>, kleinere ariose Sätze des <rs type="person">Agamemnon</rs>
-               <lb facs="#facs_2_region_1684599404005_3744_tl_3" n="N003"/>und zahlreiche Recitative sind gestrichen. Von alledem ist nur
-      <lb facs="#facs_2_region_1684599404005_3744_tl_4" n="N004"/>die Weglassung der Es-dur-Arie <rs type="person">Iphigenia</rs>ʼs („Adieu! con¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_5" n="N005"/>servez dans votre âme“) zu bedauern; <hi rendition="#em">
-                  <rs type="person">Esser</rs>
-               </hi> hat sie wie¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_6" n="N006"/>der aufgenommen, hingegen die von <rs type="person">Wagner</rs> beibehaltenen
-      <lb facs="#facs_2_line_1701349135979_273" n="N007"/>Arien <rs type="person">Iphigenia</rs>ʼs (F-dur) im zweiten und des <rs type="person">Achilles</rs>
-               <lb facs="#facs_2_region_1684599404005_3744_tl_8" n="N008"/>(D-dur) im dritten Acte gestrichen. Die <hi rendition="#em">Zusätze</hi> von <rs type="person" continued="true">Wag¬</rs>
-               <lb facs="#facs_2_region_1684599404005_3744_tl_9" n="N009"/>
-               <rs type="person" continued="true">ner</rs>ʼs Hand beschränken sich in den beiden ersten Acten auf
-      <lb facs="#facs_2_region_1684599404005_3744_tl_10" n="N010"/>kleine Orchester-Vorspiele von vier oder acht Tacten. Es be¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_11" n="N011"/>rührt uns eigenthümlich nüchtern und befremdend, ein großes
+            <p prev="true">
+      <lb facs="#facs_2_region_1684599404005_3744_tl_1" n="N001" break="no"/>chen ec. im ersten und zweiten Acte. Zwei Arien der <rs type="person" ref="#hsl_person_id_486">Iphi
+            <lb facs="#facs_2_line_1701349139967_279" n="N002" break="no"/>genia</rs>, eine des <rs type="person" ref="#hsl_person_id_425">Achilles</rs>, kleinere ariose Sätze des <rs type="person" ref="#hsl_person_id_431">Agamemnon</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684599404005_3744_tl_3" n="N003"/>und zahlreiche Recitative sind gestrichen. Von alledem ist nur
+      <lb facs="#facs_2_region_1684599404005_3744_tl_4" n="N004"/>die Weglassung der Es-dur-Arie <rs type="person" ref="#hsl_person_id_486">Iphigenia</rs>ʼs („Adieu! con
+      <lb facs="#facs_2_region_1684599404005_3744_tl_5" n="N005" break="no"/>servez dans votre âme“) zu bedauern; <hi rendition="#em"><rs type="person" ref="#hsl_person_id_74">Esser</rs></hi> hat sie wie
+      <lb facs="#facs_2_region_1684599404005_3744_tl_6" n="N006" break="no"/>der aufgenommen, hingegen die von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> beibehaltenen
+                  <lb facs="#facs_2_line_1701349135979_273" n="N007"/>Arien <rs type="person" ref="#hsl_person_id_486">Iphigenia</rs>ʼs (F-dur) im zweiten und des <rs type="person" ref="#hsl_person_id_425">Achilles</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684599404005_3744_tl_8" n="N008"/>(D-dur) im dritten Acte gestrichen. Die <hi rendition="#em">Zusätze</hi> von <rs type="person" ref="#hsl_person_id_319">Wag
+      <lb facs="#facs_2_region_1684599404005_3744_tl_9" n="N009" break="no"/>ner</rs>ʼs Hand beschränken sich in den beiden ersten Acten auf
+      <lb facs="#facs_2_region_1684599404005_3744_tl_10" n="N010"/>kleine Orchester-Vorspiele von vier oder acht Tacten. Es be
+      <lb facs="#facs_2_region_1684599404005_3744_tl_11" n="N011" break="no"/>rührt uns eigenthümlich nüchtern und befremdend, ein großes
       <lb facs="#facs_2_region_1684599404005_3744_tl_12" n="N012"/>Gesangstück ohne irgend ein Ritornell anheben oder zwei Arien
       <lb facs="#facs_2_region_1684599404005_3744_tl_13" n="N013"/>unmittelbar, durch keinen Accord getrennt, auf einander folgen
-      <lb facs="#facs_2_region_1684599404005_3744_tl_14" n="N014"/>zu sehen; <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> hat diesen Uebelstand mit geringen Mit¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_15" n="N015"/>teln trefflich beseitigt. So benützt er das rasche Staccato-Motiv
+      <lb facs="#facs_2_region_1684599404005_3744_tl_14" n="N014"/>zu sehen; <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> hat diesen Uebelstand mit geringen Mit
+      <lb facs="#facs_2_region_1684599404005_3744_tl_15" n="N015" break="no"/>teln trefflich beseitigt. So benützt er das rasche Staccato-Motiv
       <lb facs="#facs_2_region_1684599404005_3744_tl_16" n="N016"/>(aus dem ersten Griechenchor) als Vorspiel zu diesem Chor
-      <lb facs="#facs_2_region_1684599404005_3744_tl_17" n="N017"/>und hierauf wieder zur Einleitung in <rs type="person">Kalchas</rs>ʼ Recitativ;
-      <lb facs="#facs_2_region_1684599404005_3744_tl_18" n="N018"/>manchmal bewirkt er die Ueberleitung einer Nummer zur an¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_19" n="N019"/>deren durch eine einzige Note, z. B. durch das von A-moll
+      <lb facs="#facs_2_region_1684599404005_3744_tl_17" n="N017"/>und hierauf wieder zur Einleitung in <rs type="person" ref="#hsl_person_id_457">Kalchas</rs>ʼ Recitativ;
+      <lb facs="#facs_2_region_1684599404005_3744_tl_18" n="N018"/>manchmal bewirkt er die Ueberleitung einer Nummer zur an
+      <lb facs="#facs_2_region_1684599404005_3744_tl_19" n="N019" break="no"/>deren durch eine einzige Note, z. B. durch das von A-moll
       <lb facs="#facs_2_region_1684599404005_3744_tl_20" n="N020"/>nach C-dur führende H vor dem Chore „Que dʼattraits,“ im
-      <lb facs="#facs_2_region_1684599404005_3744_tl_21" n="N021"/>ersten Acte. Im dritten Acte hingegen mußte Wagner sich eine
+      <lb facs="#facs_2_region_1684599404005_3744_tl_21" n="N021"/>ersten Acte. Im dritten Acte hingegen mußte <rs type="person" ref="#hsl_person_id_319">Wagner</rs> sich eine
       <lb facs="#facs_2_region_1684599404005_3744_tl_22" n="N022"/>größere Freiheit und einige wesentliche Zusätze erlauben. Von
-      <lb facs="#facs_2_region_1684599404005_3744_tl_23" n="N023"/>ihm sind die überaus schönen Abschiedsworte <rs type="person">Iphigenia</rs>ʼs:
+      <lb facs="#facs_2_region_1684599404005_3744_tl_23" n="N023"/>ihm sind die überaus schönen Abschiedsworte <rs type="person" ref="#hsl_person_id_4070">Iphigenia</rs>ʼs:
       <lb facs="#facs_2_region_1684599404005_3744_tl_24" n="N024"/>„Nun führt zum Altare mich“, sammt dem Nachspiele, dann
-      <lb facs="#facs_2_line_1701351634480_594" n="N025"/>die ganze Erscheinung der <rs type="person">Artemis</rs> und der die Oper kraft¬
-      <lb facs="#facs_2_line_1701351651523_599" n="N026"/>voll abschließende Ruf des Volkes: „Nach <rs type="place">Troja</rs>!“ — meister¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_29" n="N027"/>hafte Züge, welche den dramatischen Effect ungemein steigern,
-      <lb facs="#facs_2_region_1684599404005_3744_tl_30" n="N028"/>ohne sich selbstständig vorzudrängen. *)
-      <lb facs="#facs_2_region_1684599404005_3744_tl_31" n="N029"/>Die Aufführung der „<rs type="bibl">Iphigenia</rs>“ ist eine der sorgfältigst
-      <lb facs="#facs_2_region_1684599404005_3744_tl_32" n="N030"/>vorbereiteten und durchgeführten, deren wir uns am Hofopern¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_33" n="N031"/>theater erinnern. Die Sänger sind mit Leib und Seele bei
-      <lb facs="#facs_2_region_1684599404005_3744_tl_34" n="N032"/>der Sache. Wäre es angesichts der Fremdartigkeit und Schwierig¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_35" n="N033"/>keit der Aufgabe nicht unbillig, einen absoluten Maßstab an¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_36" n="N034"/>zulegen, so müßten wir allerdings gestehen, daß keiner der Mit¬
-      <lb facs="#facs_2_region_1684599404005_3744_tl_37" n="N035"/>wirkenden jenen Styl ganz eingehalten habe, in welchem wir
-      <lb facs="#facs_2_region_1684599404005_3744_tl_38" n="N036"/>*) Ein vortrefflicher Clavierauszug der <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi>ʼschen Bearbei¬
-      <lb facs="#facs_2_line_1701349120256_266" n="N037"/>tung (von H.v. <hi rendition="#em">
-                  <rs type="person">Bülow</rs>
-               </hi>) ist im Musikhandel erschienen.</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684599407199_3747_tl_1" n="N001"/>uns <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi> Musik und die griechischen Heroengestalten ge¬
-      <lb facs="#facs_2_line_1701349139967_278" n="N002"/>sungen und gespielt denken. <rs type="person">Gluck</rs> verlangt einen der Antike
-      <lb facs="#facs_2_region_1684599407199_3747_tl_2" n="N003"/>verwandten dramatisch-declamatorischen Styl, der, groß und gehal¬
-      <lb facs="#facs_2_region_1684599407199_3747_tl_3" n="N004"/>ten, sich nirgends an den Moment hingibt, sondern das ganze
-      <lb facs="#facs_2_region_1684599407199_3747_tl_4" n="N005"/>Gebilde auf einer weit überschauenden Höhe hält. Die Lebens¬
-      <lb facs="#facs_2_region_1684599407199_3747_tl_5" n="N006"/>wärme, welche der Darsteller dem Momente einzuhauchen hat,
+      <lb facs="#facs_2_line_1701351634480_594" n="N025"/>die ganze Erscheinung der <rs type="person" ref="#hsl_person_id_4071">Artemis</rs> und der die Oper kraft
+      <lb facs="#facs_2_line_1701351651523_599" n="N026" break="no"/>voll abschließende Ruf des Volkes: „Nach <rs type="place" ref="#hsl_place_id_52">Troja</rs>!“ — meister
+      <lb facs="#facs_2_region_1684599404005_3744_tl_29" n="N027" break="no"/>hafte Züge, welche den dramatischen Effect ungemein steigern,
+      <lb facs="#facs_2_region_1684599404005_3744_tl_30" n="N028"/>ohne sich selbstständig vorzudrängen.<note type="footnote" n="*)"><lb facs="#facs_2_region_1684599404005_3744_tl_38" n="N036"/> Ein vortrefflicher Clavierauszug der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>ʼschen Bearbei
+      <lb facs="#facs_2_line_1701349120256_266" n="N037" break="no"/>tung (von H.v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_44">Bülow</rs></hi>) ist im Musikhandel erschienen.</note></p>
+               
+   <p><lb facs="#facs_2_region_1684599404005_3744_tl_31" n="N029"/>Die Aufführung der „<rs type="bibl" ref="#hsl_work_id_166">Iphigenia</rs>“ ist eine der sorgfältigst
+      <lb facs="#facs_2_region_1684599404005_3744_tl_32" n="N030"/>vorbereiteten und durchgeführten, deren wir uns am Hofopern
+      <lb facs="#facs_2_region_1684599404005_3744_tl_33" n="N031" break="no"/>theater erinnern. Die Sänger sind mit Leib und Seele bei
+      <lb facs="#facs_2_region_1684599404005_3744_tl_34" n="N032"/>der Sache. Wäre es angesichts der Fremdartigkeit und Schwierig
+      <lb facs="#facs_2_region_1684599404005_3744_tl_35" n="N033" break="no"/>keit der Aufgabe nicht unbillig, einen absoluten Maßstab an
+      <lb facs="#facs_2_region_1684599404005_3744_tl_36" n="N034" break="no"/>zulegen, so müßten wir allerdings gestehen, daß keiner der Mit
+      <lb facs="#facs_2_region_1684599404005_3744_tl_37" n="N035" break="no"/>wirkenden jenen Styl ganz eingehalten habe, in welchem wir
+      </p>
+ <cb n="6"/>
+   <p>
+      <lb facs="#facs_2_region_1684599407199_3747_tl_1" n="N001"/>uns <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi> Musik und die <rs type="place" ref="#hsl_place_id_23">griechisch</rs>en Heroengestalten ge
+      <lb facs="#facs_2_line_1701349139967_278" n="N002" break="no"/>sungen und gespielt denken. <rs type="person" ref="#hsl_person_id_99">Gluck</rs> verlangt einen der Antike
+      <lb facs="#facs_2_region_1684599407199_3747_tl_2" n="N003"/>verwandten dramatisch-declamatorischen Styl, der, groß und gehal
+      <lb facs="#facs_2_region_1684599407199_3747_tl_3" n="N004" break="no"/>ten, sich nirgends an den Moment hingibt, sondern das ganze
+      <lb facs="#facs_2_region_1684599407199_3747_tl_4" n="N005"/>Gebilde auf einer weit überschauenden Höhe hält. Die Lebens
+      <lb facs="#facs_2_region_1684599407199_3747_tl_5" n="N006" break="no"/>wärme, welche der Darsteller dem Momente einzuhauchen hat,
       <lb facs="#facs_2_line_1701349135979_272" n="N007"/>muß vom Mittelpunkte der Leistung ausstrahlen, vom richtig
       <lb facs="#facs_2_region_1684599407199_3747_tl_6" n="N008"/>gefaßten dramatischen Charakter aus, sie darf sich nicht an der
       <lb facs="#facs_2_region_1684599407199_3747_tl_7" n="N009"/>lyrischen Bedeutung des Momentes entzünden. Trotz der höchsten
       <lb facs="#facs_2_region_1684599407199_3747_tl_8" n="N010"/>Erschütterung der Seele sollen diese classischen Gestalten jene
       <lb facs="#facs_2_region_1684599407199_3747_tl_9" n="N011"/>erhabene Ruhe behalten, jenen großartigen Schmerz, in welchem
-      <lb facs="#facs_2_region_1684599407199_3747_tl_10" n="N012"/>
-               <hi rendition="#em">
-                  <rs type="person">Winckelmann</rs>
-               </hi> vorzugsweise den Adel <rs type="place">griechisch</rs>er Götter¬
-      <lb facs="#facs_2_region_1684599407199_3747_tl_11" n="N013"/>bildungen erkennt. Dahin ging das höchste Streben der an¬
-      <lb facs="#facs_2_region_1684599407199_3747_tl_12" n="N014"/>tiken Kunst, und davon darf auch die antikisirende der <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>-
-      <lb facs="#facs_2_region_1684599407199_3747_tl_13" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="person">Racine</rs>
-               </hi>ʼschen Tragödie sich nicht lossagen. Nichts liegt
+      <lb facs="#facs_2_region_1684599407199_3747_tl_10" n="N012"/><hi rendition="#em"><rs type="person">Winckelmann</rs></hi> vorzugsweise den Adel <rs type="place" ref="#hsl_place_id_23">griechisch</rs>er Götter
+      <lb facs="#facs_2_region_1684599407199_3747_tl_11" n="N013" break="no"/>bildungen erkennt. Dahin ging das höchste Streben der an
+      <lb facs="#facs_2_region_1684599407199_3747_tl_12" n="N014" break="no"/>tiken Kunst, und davon darf auch die antikisirende der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>-
+      <lb facs="#facs_2_region_1684599407199_3747_tl_13" n="N015"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_223">Racine</rs></hi>ʼschen Tragödie sich nicht lossagen. Nichts liegt
       <lb facs="#facs_2_region_1684599407199_3747_tl_14" n="N016"/>diesem Style ferner, als die moderne Oper, welche unsere
-      <lb facs="#facs_2_region_1684599407199_3747_tl_15" n="N017"/>Sänger fast ausschließlich darauf anweist, die subjective Empfin¬
-      <lb facs="#facs_2_region_1684599407199_3747_tl_16" n="N018"/>dung vorzudrängen und durch leidenschaftliche Glanzmomente zu
+      <lb facs="#facs_2_region_1684599407199_3747_tl_15" n="N017"/>Sänger fast ausschließlich darauf anweist, die subjective Empfin
+      <lb facs="#facs_2_region_1684599407199_3747_tl_16" n="N018" break="no"/>dung vorzudrängen und durch leidenschaftliche Glanzmomente zu
       <lb facs="#facs_2_region_1684599407199_3747_tl_17" n="N019"/>wirken. Man muß zufrieden, sehr zufrieden sein, wenn diese
       <lb facs="#facs_2_region_1684599407199_3747_tl_18" n="N020"/>moderne Darstellungsweise wenigstens von so wahrer, kerniger
       <lb facs="#facs_2_region_1684599407199_3747_tl_19" n="N021"/>Empfindung getragen und in so bescheidene Grenzen gedämmet
-      <lb facs="#facs_2_region_1684599407199_3747_tl_20" n="N022"/>erscheint, wie es bei unserer „<rs type="bibl">Iphigenia</rs>“-Vorstellung der Fall war.
+      <lb facs="#facs_2_region_1684599407199_3747_tl_20" n="N022"/>erscheint, wie es bei unserer „<rs type="bibl" ref="#hsl_work_id_166">Iphigenia</rs>“-Vorstellung der Fall war.
       <lb facs="#facs_2_region_1684599407199_3747_tl_21" n="N023"/>Stellen wir uns auf den gegebenen Boden, so müssen wir
-      <lb facs="#facs_2_region_1684599407199_3747_tl_22" n="N024"/>zuerst Herrn <hi rendition="#em">
-                  <rs type="person">Beck</rs>ʼs</hi>
-               <rs type="person">Agamemnon</rs> als eine der großartigsten
+      <lb facs="#facs_2_region_1684599407199_3747_tl_22" n="N024"/>zuerst Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs>ʼs</hi><rs type="person" ref="#hsl_person_id_431">Agamemnon</rs> als eine der großartigsten
       <lb facs="#facs_2_region_1684599407199_3747_tl_23" n="N025"/>Leistungen rühmen. Selten hat ein so begeisterter Beifall das
-      <lb facs="#facs_2_region_1684599407199_3747_tl_24" n="N026"/>Theater durchbraust, als nach <rs type="person">Beck</rs>ʼs großer Scene im zweiten
+      <lb facs="#facs_2_region_1684599407199_3747_tl_24" n="N026"/>Theater durchbraust, als nach <rs type="person" ref="#hsl_person_id_24">Beck</rs>ʼs großer Scene im zweiten
       <lb facs="#facs_2_region_1684599407199_3747_tl_25" n="N027"/>Acte. Ein Arie bildet in der Regel den ungünstigsten Actschluß:
-      <lb facs="#facs_2_region_1684599407199_3747_tl_26" n="N028"/>so gespielt und gesungen wie von Herrn <rs type="person">Beck</rs>, wirkte die Arie
-      <lb facs="#facs_2_region_1684599407199_3747_tl_27" n="N029"/>
-               <rs type="person">Agamemnon</rs>ʼs mit der Gewalt eines Finale. Das tönende Erz
+      <lb facs="#facs_2_region_1684599407199_3747_tl_26" n="N028"/>so gespielt und gesungen wie von Herrn <rs type="person" ref="#hsl_person_id_24">Beck</rs>, wirkte die Arie
+      <lb facs="#facs_2_region_1684599407199_3747_tl_27" n="N029"/><rs type="person" ref="#hsl_person_id_431">Agamemnon</rs>ʼs mit der Gewalt eines Finale. Das tönende Erz
       <lb facs="#facs_2_region_1684599407199_3747_tl_28" n="N030"/>seiner Stimme, gebändigt durch edlen, fein abgestuften Vortrag,
       <lb facs="#facs_2_region_1684599407199_3747_tl_29" n="N031"/>die energische Declamation, das klare und sichere Exponiren
       <lb facs="#facs_2_region_1684599407199_3747_tl_30" n="N032"/>der mannichfachen, diesen Monolog durchkreuzenden Gegensätze —
-      <lb facs="#facs_2_region_1684599407199_3747_tl_31" n="N033"/>Alles wirkte hier zu einem erschütternden Seelengemälde zu¬
-      <lb facs="#facs_2_region_1684599407199_3747_tl_32" n="N034"/>sammen. Wenn <rs type="person">Beck</rs>ʼs Meisterleistung uns noch etwas zu
+      <lb facs="#facs_2_region_1684599407199_3747_tl_31" n="N033"/>Alles wirkte hier zu einem erschütternden Seelengemälde zu
+      <lb facs="#facs_2_region_1684599407199_3747_tl_32" n="N034" break="no"/>sammen. Wenn <rs type="person" ref="#hsl_person_id_24">Beck</rs>ʼs Meisterleistung uns noch etwas zu
       <lb facs="#facs_2_region_1684599407199_3747_tl_33" n="N035"/>wünschen übrig läßt, so ist es eine größere Mäßigung im
       <lb facs="#facs_2_region_1684599407199_3747_tl_34" n="N036"/>ersten Acte. Hier würden wir eine gefaßtere, vom Schmerze
       <lb facs="#facs_2_region_1684599407199_3747_tl_35" n="N037"/>minder durchwühlte Haltung vorziehen, aus dem Gesichtspunkte
-      <lb facs="#facs_2_region_1684599407199_3747_tl_36" n="N038"/>des Styls sowol als der dramatischen Oekonomie, nämlich um</p>
-            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_3_region_1684599425298_3756_tl_1" n="N001"/>für den Höhenpunkt der Rolle im zweiten Acte die nöthige
-      <lb facs="#facs_3_region_1684599425298_3756_tl_2" n="N002"/>Steigerung frei zu behalten. Die <rs type="person">Klytämnestra</rs> der Frau
-      <lb facs="#facs_3_region_1684599425298_3756_tl_3" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Dustmann</rs>
-               </hi> stand in ihrer imposanten Maske und ergreifen¬
-      <lb facs="#facs_3_region_1684599425298_3756_tl_4" n="N004"/>den Darstellung <hi rendition="#em">
-                  <rs type="person">Beck</rs>ʼs</hi> Agamemnon trefflich zur Seite.
-      <lb facs="#facs_3_region_1684599425298_3756_tl_5" n="N005"/>In ihrem tiefen Studium dieses Charakters hat Frau <rs type="person" continued="true">Dust¬</rs>
-               <lb facs="#facs_3_region_1684599425298_3756_tl_6" n="N006"/>
-               <rs type="person" continued="true">mann</rs> sich nicht auf das <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>ʼsche Libretto beschränkt, das
-      <lb facs="#facs_3_region_1684599425298_3756_tl_7" n="N007"/>
-               <rs type="person">Klytämnestra</rs> nur als liebevolle Mutter vorführt; ihre Auffas¬
-      <lb facs="#facs_3_region_1684599425298_3756_tl_8" n="N008"/>sung versinnlichte zugleich das stolze, leidenschaftliche Weib, in
-      <lb facs="#facs_3_region_1684599425298_3756_tl_9" n="N009"/>dessen Seele bereits die Keime des künftigen Verbrechens sprie¬
-      <lb facs="#facs_3_region_1684599425298_3756_tl_10" n="N010"/>ßen. Wenn die Aufregung der ersten Vorstellung sich gelegt
-      <lb facs="#facs_3_region_1684599425298_3756_tl_11" n="N011"/>hat, welche bei Frau <hi rendition="#em">
-                  <rs type="person">Dustmann</rs>
-               </hi> fast regelmäßig einige Be¬
-      <lb facs="#facs_3_region_1684599425298_3756_tl_12" n="N012"/>einträchtigung der Stimmmittel und eine größere Heftigkeit des
-      <lb facs="#facs_3_region_1684599425298_3756_tl_13" n="N013"/>Spiels hervorruft, wird ihre <rs type="person">Klytämnestra</rs> eine durchaus voll¬
-      <lb facs="#facs_3_region_1684599425298_3756_tl_14" n="N014"/>giltige Leistung sein.
-      <lb facs="#facs_3_region_1684599425298_3756_tl_15" n="N015"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Benza</rs>
-               </hi>, bisher nur im Besitze neben- oder
-      <lb facs="#facs_3_region_1684599425298_3756_tl_16" n="N016"/>untergeordneter Rollen, bewies als <rs type="person">Iphigenia</rs> die überraschend¬
-      <lb facs="#facs_3_region_1684599425298_3756_tl_17" n="N017"/>sten Fortschritte. Ihre Leistung, anfangs etwas ungleich und
+         <lb facs="#facs_2_region_1684599407199_3747_tl_36" n="N038"/>des Styls sowol als der dramatischen Oekonomie, nämlich um</p><space quantity="1" unit="char"/>
+   <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+    <cb n="7"/>
+    <p prev="true">
+      <lb facs="#facs_3_region_1684599425298_3756_tl_1" n="N001"/>für den Höhenpunkt der Rolle im zweiten Acte die nöthige
+      <lb facs="#facs_3_region_1684599425298_3756_tl_2" n="N002"/>Steigerung frei zu behalten. Die <rs type="person" ref="#hsl_person_id_466">Klytämnestra</rs> der Frau
+      <lb facs="#facs_3_region_1684599425298_3756_tl_3" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_67">Dustmann</rs></hi> stand in ihrer imposanten Maske und ergreifen
+      <lb facs="#facs_3_region_1684599425298_3756_tl_4" n="N004" break="no"/>den Darstellung <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs>ʼs</hi> <rs type="person" ref="#hsl_person_id_431">Agamemnon</rs> trefflich zur Seite.
+      <lb facs="#facs_3_region_1684599425298_3756_tl_5" n="N005"/>In ihrem tiefen Studium dieses Charakters hat Frau <rs type="person" ref="#hsl_person_id_67">Dust
+      <lb facs="#facs_3_region_1684599425298_3756_tl_6" n="N006" break="no"/>mann</rs> sich nicht auf das <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>ʼsche Libretto beschränkt, das
+      <lb facs="#facs_3_region_1684599425298_3756_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_466">Klytämnestra</rs> nur als liebevolle Mutter vorführt; ihre Auffas
+      <lb facs="#facs_3_region_1684599425298_3756_tl_8" n="N008" break="no"/>sung versinnlichte zugleich das stolze, leidenschaftliche Weib, in
+      <lb facs="#facs_3_region_1684599425298_3756_tl_9" n="N009"/>dessen Seele bereits die Keime des künftigen Verbrechens sprie
+      <lb facs="#facs_3_region_1684599425298_3756_tl_10" n="N010" break="no"/>ßen. Wenn die Aufregung der ersten Vorstellung sich gelegt
+      <lb facs="#facs_3_region_1684599425298_3756_tl_11" n="N011"/>hat, welche bei Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_67">Dustmann</rs></hi> fast regelmäßig einige Be
+      <lb facs="#facs_3_region_1684599425298_3756_tl_12" n="N012" break="no"/>einträchtigung der Stimmmittel und eine größere Heftigkeit des
+      <lb facs="#facs_3_region_1684599425298_3756_tl_13" n="N013"/>Spiels hervorruft, wird ihre <rs type="person" ref="#hsl_person_id_466">Klytämnestra</rs> eine durchaus voll
+      <lb facs="#facs_3_region_1684599425298_3756_tl_14" n="N014" break="no"/>giltige Leistung sein.</p>
+   <p><lb facs="#facs_3_region_1684599425298_3756_tl_15" n="N015"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2954">Benza</rs></hi>, bisher nur im Besitze neben- oder
+      <lb facs="#facs_3_region_1684599425298_3756_tl_16" n="N016"/>untergeordneter Rollen, bewies als <rs type="person" ref="#hsl_person_id_486">Iphigenia</rs> die überraschend
+      <lb facs="#facs_3_region_1684599425298_3756_tl_17" n="N017" break="no"/>sten Fortschritte. Ihre Leistung, anfangs etwas ungleich und
       <lb facs="#facs_3_region_1684599425298_3756_tl_18" n="N018"/>unsicher, wuchs mit der Größe der Aufgabe und erreichte im
-      <lb facs="#facs_3_region_1684599425298_3756_tl_19" n="N019"/>dritten Acte eine ansehnliche Höhe. Laute der tiefsten Empfin¬
-      <lb facs="#facs_3_region_1684599425298_3756_tl_20" n="N020"/>dung und ergreifende dramatische Einzelheiten kamen hier zum
+      <lb facs="#facs_3_region_1684599425298_3756_tl_19" n="N019"/>dritten Acte eine ansehnliche Höhe. Laute der tiefsten Empfin
+      <lb facs="#facs_3_region_1684599425298_3756_tl_20" n="N020" break="no"/>dung und ergreifende dramatische Einzelheiten kamen hier zum
       <lb facs="#facs_3_region_1684599425298_3756_tl_21" n="N021"/>Vorschein. Ausgesprochenes dramatisches Talent, eine jugendlich
       <lb facs="#facs_3_region_1684599425298_3756_tl_22" n="N022"/>kräftige Stimme und eine gewinnende Persönlichkeit versprechen
-      <lb facs="#facs_3_region_1684599425298_3756_tl_23" n="N023"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Benza</rs>
-               </hi> eine bedeutende Zukunft. Was ihr mangelt
+      <lb facs="#facs_3_region_1684599425298_3756_tl_23" n="N023"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2954">Benza</rs></hi> eine bedeutende Zukunft. Was ihr mangelt
       <lb facs="#facs_3_region_1684599425298_3756_tl_24" n="N024"/>und wonach sie vor Allem zu streben hat, läßt sich in Einem
       <lb facs="#facs_3_region_1684599425298_3756_tl_25" n="N025"/>Worte sagen: Mäßigung. Die heftigen realistischen Accente,
       <lb facs="#facs_3_region_1684599425298_3756_tl_26" n="N026"/>mit welchen sie so häufig den klaren Spiegel der Tonfluth
       <lb facs="#facs_3_region_1684599425298_3756_tl_27" n="N027"/>trübt, sowie das übermäßige Aufbieten der Stimmkraft sind
-      <lb facs="#facs_3_region_1684599425298_3756_tl_28" n="N028"/>Flecken, die ihre wohl angelegte und lebensvolle Iphigenia noch
-      <lb facs="#facs_3_region_1684599425298_3756_tl_29" n="N029"/>entstellen, hoffentlich nicht für lange. (Daß <rs type="person">Iphigenia</rs> nach
-      <lb facs="#facs_3_region_1684599425298_3756_tl_30" n="N030"/>dem tröstend ruhigen Abschied von ihrer <rs type="person">Mutter</rs> gefaßt,
+      <lb facs="#facs_3_region_1684599425298_3756_tl_28" n="N028"/>Flecken, die ihre wohl angelegte und lebensvolle <rs type="person" ref="#hsl_person_id_486">Iphigenia</rs> noch
+      <lb facs="#facs_3_region_1684599425298_3756_tl_29" n="N029"/>entstellen, hoffentlich nicht für lange. (Daß <rs type="person" ref="#hsl_person_id_486">Iphigenia</rs> nach
+      <lb facs="#facs_3_region_1684599425298_3756_tl_30" n="N030"/>dem tröstend ruhigen Abschied von ihrer Mutter gefaßt,
       <lb facs="#facs_3_region_1684599425298_3756_tl_31" n="N031"/>mit edler Würde dem Tode entgegengeht, nicht aber
-      <lb facs="#facs_3_region_1684599425298_3756_tl_32" n="N032"/>nach krampfhaftem Einknicken sich besinnungslos hinschlep¬
-      <lb facs="#facs_3_region_1684599425298_3756_tl_33" n="N033"/>pen läßt, sollte sich von selbst verstehen, wenn es auch
-      <lb facs="#facs_3_region_1684599425298_3756_tl_34" n="N034"/>nicht ausdrücklich in <rs type="person">Wagner</rs>ʼs Partitur stände.) Herr
-      <lb facs="#facs_3_region_1684599425298_3756_tl_35" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Walter</rs>
-               </hi>, in dessen Gesang die declamatorische Kunst
+      <lb facs="#facs_3_region_1684599425298_3756_tl_32" n="N032"/>nach krampfhaftem Einknicken sich besinnungslos hinschlep
+      <lb facs="#facs_3_region_1684599425298_3756_tl_33" n="N033" break="no"/>pen läßt, sollte sich von selbst verstehen, wenn es auch
+      <lb facs="#facs_3_region_1684599425298_3756_tl_34" n="N034"/>nicht ausdrücklich in <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼs Partitur stände.) Herr
+      <lb facs="#facs_3_region_1684599425298_3756_tl_35" n="N035"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2943">Walter</rs></hi>, in dessen Gesang die declamatorische Kunst
       <lb facs="#facs_3_region_1684599425298_3756_tl_36" n="N036"/>weniger ausgebildet ist, als der anmuthige Fluß der Cantilene,
-      <lb facs="#facs_3_region_1684599425298_3756_tl_37" n="N037"/>begegnet im <rs type="person">Achilles</rs> einer schwierigen und wenig dankbaren
-      <lb facs="#facs_3_line_1701349584444_327" n="N038"/>Aufgabe. Die Rolle (für jene künstlich in den Alt hinaufge¬</p>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684599421256_3753_tl_1" n="N001"/>zwängten Tenorstimmen geschrieben, die man „Haute-contres“
-      <lb facs="#facs_3_region_1684599421256_3753_tl_2" n="N002"/>nannte und die jetzt selbst in ihrem Heimatlande <rs type="place">Frankreich</rs>
-               <lb facs="#facs_3_region_1684599421256_3753_tl_3" n="N003"/>ausgestorben sind) steht an musikalischer Bedeutung den übri¬
-      <lb facs="#facs_3_region_1684599421256_3753_tl_4" n="N004"/>gen Hauptpartien weit nach und ist überdies hier stark zusam¬
-      <lb facs="#facs_3_region_1684599421256_3753_tl_5" n="N005"/>mengestrichen. Bei der rühmlichen Sorgfalt, die Herr <hi rendition="#em">
-                  <rs type="person" continued="true">Wal¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684599421256_3753_tl_6" n="N006"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">ter</rs>
-               </hi> darauf verwendet, dürfte es ihm vielleicht nicht schwer¬
-      <lb facs="#facs_3_region_1684599421256_3753_tl_7" n="N007"/>fallen, den Zorn des <rs type="person">Achilles</rs> künftig mehr noch durch mimische
-      <lb facs="#facs_3_region_1684599421256_3753_tl_8" n="N008"/>Mittel als durch übermäßiges Forciren der Stimme zu ver¬
-      <lb facs="#facs_3_region_1684599421256_3753_tl_9" n="N009"/>sinnlichen. Nennen wir ferner die gelungene Ausführung der
-      <lb facs="#facs_3_region_1684599421256_3753_tl_10" n="N010"/>kleineren Rollen durch die Herren <hi rendition="#em">
-                  <rs type="person">Draxler</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Neumann</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684599421256_3753_tl_11" n="N011"/>und <hi rendition="#em">
-                  <rs type="person">Lay</rs>
-               </hi>, so haben wir — keineswegs noch unsere ganze
+      <lb facs="#facs_3_region_1684599425298_3756_tl_37" n="N037"/>begegnet im <rs type="person" ref="#hsl_person_id_425">Achilles</rs> einer schwierigen und wenig dankbaren
+      <lb facs="#facs_3_line_1701349584444_327" n="N038"/>Aufgabe. Die Rolle (für jene künstlich in den Alt hinaufge</p>
+  <cb n="8"/>
+   <p prev="true">
+      <lb facs="#facs_3_region_1684599421256_3753_tl_1" n="N001" break="no"/>zwängten Tenorstimmen geschrieben, die man „Haute-contres“
+         <lb facs="#facs_3_region_1684599421256_3753_tl_2" n="N002"/>nannte und die jetzt selbst in ihrem Heimatlande <rs type="place" ref="#hsl_place_id_21">Frankreich</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684599421256_3753_tl_3" n="N003"/>ausgestorben sind) steht an musikalischer Bedeutung den übri
+      <lb facs="#facs_3_region_1684599421256_3753_tl_4" n="N004" break="no"/>gen Hauptpartien weit nach und ist überdies hier stark zusam
+      <lb facs="#facs_3_region_1684599421256_3753_tl_5" n="N005" break="no"/>mengestrichen. Bei der rühmlichen Sorgfalt, die Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2943">Wal
+      <lb facs="#facs_3_region_1684599421256_3753_tl_6" n="N006" break="no"/>ter</rs></hi> darauf verwendet, dürfte es ihm vielleicht nicht schwer
+      <lb facs="#facs_3_region_1684599421256_3753_tl_7" n="N007" break="no"/>fallen, den Zorn des <rs type="person" ref="#hsl_person_id_425">Achilles</rs> künftig mehr noch durch mimische
+      <lb facs="#facs_3_region_1684599421256_3753_tl_8" n="N008"/>Mittel als durch übermäßiges Forciren der Stimme zu ver
+      <lb facs="#facs_3_region_1684599421256_3753_tl_9" n="N009" break="no"/>sinnlichen. Nennen wir ferner die gelungene Ausführung der
+         <lb facs="#facs_3_region_1684599421256_3753_tl_10" n="N010"/>kleineren Rollen durch die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7">Draxler</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2955">Neumann</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684599421256_3753_tl_11" n="N011"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_155">Lay</rs></hi>, so haben wir — keineswegs noch unsere ganze
       <lb facs="#facs_3_region_1684599421256_3753_tl_12" n="N012"/>Schuld abgetragen. Denn ein ganz besonderes Lob gebührt dem
       <lb facs="#facs_3_region_1684599421256_3753_tl_13" n="N013"/>exacten Zusammenwirken des Chors und Orchesters (unter
-      <lb facs="#facs_3_region_1684599421256_3753_tl_14" n="N014"/>
-               <rs type="person">Esser</rs>ʼs Leitung), sowie der trefflichen Mise-en-scène.
-      <lb facs="#facs_3_region_1684599421256_3753_tl_15" n="N015"/>„<rs type="bibl">Iphigenia</rs>“ war reich ausgestattet, nicht blos mit schönen
+      <lb facs="#facs_3_region_1684599421256_3753_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_74">Esser</rs>ʼs Leitung), sowie der trefflichen Mise-en-scène.
+      <lb facs="#facs_3_region_1684599421256_3753_tl_15" n="N015"/>„<rs type="bibl" ref="#hsl_work_id_166">Iphigenia</rs>“ war reich ausgestattet, nicht blos mit schönen
       <lb facs="#facs_3_region_1684599421256_3753_tl_16" n="N016"/>Decorationen und Gewändern, sondern auch ausgestattet
-      <lb facs="#facs_3_region_1684599421256_3753_tl_17" n="N017"/>mit einem lang vermißten Kapital von Geist und künstleri¬
-      <lb facs="#facs_3_region_1684599421256_3753_tl_18" n="N018"/>schem Verständniß. Die Wahl der Oper selbst und ihre Be¬
-      <lb facs="#facs_3_region_1684599421256_3753_tl_19" n="N019"/>setzung geschah allerdings unter der früheren Direction; sie
-      <lb facs="#facs_3_region_1684599421256_3753_tl_20" n="N020"/>wurde schon zur Zeit des „artistischen Beiraths“ (<date month="0" day="0" year="0">1861</date>) von
-      <lb facs="#facs_3_region_1684599421256_3753_tl_21" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Esser</rs>
-               </hi> vorgeschlagen. *) Aber wer der Vorstellung vom <date month="0" day="0" year="0" continued="true">12. Oc¬</date>
-               <lb facs="#facs_3_region_1684599421256_3753_tl_22" n="N022"/>
-               <date month="0" day="0" year="0" continued="true">tober</date> aufmerksam gefolgt ist, mußte wahrnehmen, daß ein neuer
-      <lb facs="#facs_3_region_1684599421256_3753_tl_23" n="N023"/>Geist auf der Bühne walte, und wer den Proben beigewohnt
-      <lb facs="#facs_3_region_1684599421256_3753_tl_24" n="N024"/>hat, der weiß, daß dieser neue Geist sich Franz <hi rendition="#em">
-                  <rs type="person">Dingelstedt</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684599421256_3753_tl_25" n="N025"/>nennt. Die Zeit wird wol bald kommen, wo wir die Thätig¬
-      <lb facs="#facs_3_region_1684599421256_3753_tl_26" n="N026"/>keit des gegenwärtigen Directors genauer zu würdigen vermö¬
-      <lb facs="#facs_3_region_1684599421256_3753_tl_27" n="N027"/>gen; für heute nehmen wir von der Mustervorstellung der
-      <lb facs="#facs_3_region_1684599421256_3753_tl_28" n="N028"/>„<rs type="bibl">Iphigenia</rs>“ gerne den Anlaß, ihn vertrauensvoll und herzlich
-      <lb facs="#facs_3_region_1684599421256_3753_tl_29" n="N029"/>zu begrüßen.
-      <lb facs="#facs_3_line_1701349539094_300" n="N030"/>*) Als Mitglied diese Beiraths war ich mit dem Antrage auf
-      <lb facs="#facs_3_line_1701349600202_336" n="N031"/>die Einstudierung von <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi> „<hi rendition="#em">
-                  <rs type="bibl">Armida</rs>
-               </hi>“ vorangegangen, welche durch
+      <lb facs="#facs_3_region_1684599421256_3753_tl_17" n="N017"/>mit einem lang vermißten Kapital von Geist und künstleri
+      <lb facs="#facs_3_region_1684599421256_3753_tl_18" n="N018" break="no"/>schem Verständniß. Die Wahl der Oper selbst und ihre Be
+      <lb facs="#facs_3_region_1684599421256_3753_tl_19" n="N019" break="no"/>setzung geschah allerdings unter der früheren Direction; sie
+      <lb facs="#facs_3_region_1684599421256_3753_tl_20" n="N020"/>wurde schon zur Zeit des „artistischen Beiraths“ (<date when="1861">1861</date>) von
+      <lb facs="#facs_3_region_1684599421256_3753_tl_21" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_74">Esser</rs></hi> vorgeschlagen. <note type="footnote" n="*)"><lb facs="#facs_3_line_1701349539094_300" n="N030"/> Als Mitglied diese Beiraths war ich mit dem Antrage auf
+      <lb facs="#facs_3_line_1701349600202_336" n="N031"/>die Einstudierung von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi> „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_260">Armida</rs></hi>“ vorangegangen, welche durch
       <lb facs="#facs_3_line_1701349603675_341" n="N032"/>ihren modernen Stoff und ihren scenischen Reiz noch größere Gewähr
       <lb facs="#facs_3_line_1701349609033_346" n="N033"/>für einen allgemeinen Erfolg zu bieten schien. Dieser allseitig mit 
       <lb facs="#facs_3_line_1701349612457_351" n="N034"/>Wärme unterstützte Vorschlag scheiterte jedoch an den Einwendungen
-      <lb facs="#facs_3_line_1701349615708_356" n="N035"/>der ökonomischen Theaterbehörde, welche in einem ziffermäßigen Zusam¬
-      <lb facs="#facs_3_line_1701349618976_361" n="N036"/>mmenstellung die Ausstattungskosten als momentan unerschwinglich dar¬
-      <lb facs="#facs_3_line_1701349622588_366" n="N037"/>stellte. Gestützt auf den großen Erfolg der „<rs type="bibl">Iphigenia</rs>“, glaube ich,
-      <lb facs="#facs_3_region_1684599421256_3753_tl_41" n="N038"/>jene Petition um <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi> „<rs type="bibl">Armida</rs>“ jetzt publicistisch wieder aufnehmen
-      <lb facs="#facs_3_line_1701349584444_326" n="N039"/>zu dürfen.</p>
+      <lb facs="#facs_3_line_1701349615708_356" n="N035"/>der ökonomischen Theaterbehörde, welche in einem ziffermäßigen Zusam
+      <lb facs="#facs_3_line_1701349618976_361" n="N036" break="no"/>mmenstellung die Ausstattungskosten als momentan unerschwinglich dar
+      <lb facs="#facs_3_line_1701349622588_366" n="N037" break="no"/>stellte. Gestützt auf den großen Erfolg der „<rs type="bibl" ref="#hsl_work_id_166">Iphigenia</rs>“, glaube ich,
+      <lb facs="#facs_3_region_1684599421256_3753_tl_41" n="N038"/>jene Petition um <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_260">Armida</rs>“ jetzt publicistisch wieder aufnehmen
+      <lb facs="#facs_3_line_1701349584444_326" n="N039"/>zu dürfen.</note> Aber wer der Vorstellung vom <date when="1867-10-12">12. Oc
+      <lb facs="#facs_3_region_1684599421256_3753_tl_22" n="N022" break="no"/>tober</date> aufmerksam gefolgt ist, mußte wahrnehmen, daß ein neuer
+      <lb facs="#facs_3_region_1684599421256_3753_tl_23" n="N023"/>Geist auf der Bühne walte, und wer den Proben beigewohnt
+         <lb facs="#facs_3_region_1684599421256_3753_tl_24" n="N024"/>hat, der weiß, daß dieser neue Geist sich Franz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2595">Dingelstedt</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684599421256_3753_tl_25" n="N025"/>nennt. Die Zeit wird wol bald kommen, wo wir die Thätig
+      <lb facs="#facs_3_region_1684599421256_3753_tl_26" n="N026" break="no"/>keit des gegenwärtigen Directors genauer zu würdigen vermö
+      <lb facs="#facs_3_region_1684599421256_3753_tl_27" n="N027" break="no"/>gen; für heute nehmen wir von der Mustervorstellung der
+      <lb facs="#facs_3_region_1684599421256_3753_tl_28" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_166">Iphigenia</rs>“ gerne den Anlaß, ihn vertrauensvoll und herzlich
+      <lb facs="#facs_3_region_1684599421256_3753_tl_29" n="N029"/>zu begrüßen.
+      </p>
          </div>
       </body>
    </text>
