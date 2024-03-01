@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="24. December 1867">24. December 1867</date>
+                        <date when="1867-12-24">24. December 1867</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -107,8 +107,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+         <change who="kbamer ampfiel" when="2024-01-21">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change who="kbamer" when="2024-03-01">Formatierung. Daten, Orte, Werke, Personen ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1191,564 +1192,367 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_line_1705860370396_330" n="N001"/>Musikalische Novitäten.
-      <lb facs="#facs_1_line_1705860374184_335" n="N002"/>(<hi rendition="#em">
-                  <rs type="person">Pohl</rs>ʼs</hi> „<rs type="bibl">Haydn in London</rs>“; <hi rendition="#em">
-                  <rs type="person">Jahn</rs>ʼs</hi> „<rs type="bibl">Mozart</rs>“; <hi rendition="#em">
-                  <rs type="person">Nottebohm</rs>ʼs</hi> „<rs type="bibl">Beethoven-Katalog</rs>“;
-      <lb facs="#facs_1_line_1705860377505_340" n="N003"/>„<rs type="bibl">Biographie und neue Briefe Beethovenʼs</rs>“, von E. <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi>; „<rs type="bibl">Geschichte der Musik</rs>“, von 
-      <lb facs="#facs_1_line_1705860382476_345" n="N004"/>A. v. <hi rendition="#em">
-                  <rs type="person">Dommer</rs>
-               </hi>; Editionen von <hi rendition="#em">
-                  <rs type="person">Bach</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>.)
-      <lb facs="#facs_1_region_1684596700173_3428_tl_5" n="N005"/>Ed. H. Das musikalische <rs type="place">Deutschland</rs>, derzeit spärlich be¬
-      <lb facs="#facs_1_region_1684596700173_3428_tl_6" n="N006"/>dacht mit productiven Componisten von Bedeutung, zeigt sich
+            
+      <lb facs="#facs_1_line_1705860370396_330" n="N001"/><head type="h1">Musikalische Novitäten.</head>
+      <lb facs="#facs_1_line_1705860374184_335" n="N002"/><head type="h2">(<hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_2558">Haydn in London</rs>“; <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_2559">Mozart</rs>“; <hi rendition="#em"><rs type="person" ref="#hsl_person_id_365">Nottebohm</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_2560">Beethoven-Katalog</rs>“;
+      <lb facs="#facs_1_line_1705860377505_340" n="N003"/>„<rs type="bibl" ref="#hsl_work_id_2565">Biographie</rs> und <rs type="bibl" ref="#hsl_work_id_2561">neue Briefe Beethovenʼs</rs>“, von E. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi>; „<rs type="bibl" ref="#hsl_work_id_2562">Geschichte der Musik</rs>“, von 
+      <lb facs="#facs_1_line_1705860382476_345" n="N004"/>A. v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_403">Dommer</rs></hi>; Editionen von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_18">Bach</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> und <hi rendition="#em"> <rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi>.)</head>
+   <p><lb facs="#facs_1_region_1684596700173_3428_tl_5" n="N005"/>Ed. H. Das musikalische <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>, derzeit spärlich be
+      <lb facs="#facs_1_region_1684596700173_3428_tl_6" n="N006" break="no"/>dacht mit productiven Componisten von Bedeutung, zeigt sich
       <lb facs="#facs_1_region_1684596700173_3428_tl_7" n="N007"/>desto thätiger auf dem Gebiete musikalischer Geschichtsforschung
       <lb facs="#facs_1_region_1684596700173_3428_tl_8" n="N008"/>und Geschichtsschreibung. Namentlich im Fache der Biographie
-      <lb facs="#facs_1_region_1684596700173_3428_tl_9" n="N009"/>sind, angeregt durch <hi rendition="#em">
-                  <rs type="person">Jahn</rs>ʼs</hi> mustergiltigen „<rs type="bibl">Mozart</rs>“, eine
+      <lb facs="#facs_1_region_1684596700173_3428_tl_9" n="N009"/>sind, angeregt durch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs>ʼs</hi> mustergiltigen „<rs type="bibl" ref="#hsl_work_id_485">Mozart</rs>“, eine
       <lb facs="#facs_1_region_1684596700173_3428_tl_10" n="N010"/>Reihe größerer und kleinerer Arbeiten erschienen, welche als
       <lb facs="#facs_1_region_1684596700173_3428_tl_11" n="N011"/>wesentliche Bereicherungen der Musikgeschichte anzusehen sind.
-      <lb facs="#facs_1_region_1684596700173_3428_tl_12" n="N012"/>Dazu gehört die Monographie „<hi rendition="#em">
-                  <rs type="bibl">Mozart und Haydn in</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684596700173_3428_tl_13" n="N013"/>
-               <hi rendition="#em">
-                  <rs type="bibl">London</rs>
-               </hi>“, von <hi rendition="#em">C. F. <rs type="person">Pohl</rs>
-               </hi>, dem verdienstvollen Archivar un¬
-      <lb facs="#facs_1_line_1705860391932_352" n="N014"/>serer „Gesellschaft der Musikfreunde“. Was wir vor mehreren 
+      <lb facs="#facs_1_region_1684596700173_3428_tl_12" n="N012"/>Dazu gehört die Monographie „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2558">Mozart und Haydn in
+      <lb facs="#facs_1_region_1684596700173_3428_tl_13" n="N013"/>London</rs></hi>“, von <hi rendition="#em">C. F. <rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi>, dem verdienstvollen Archivar un
+      <lb facs="#facs_1_line_1705860391932_352" n="N014" break="no"/>serer „Gesellschaft der Musikfreunde“. Was wir vor mehreren 
       <lb facs="#facs_1_region_1684596700173_3428_tl_15" n="N015"/>Monaten in diesem Blatte zum Lobe des ersten Theiles
-      <lb facs="#facs_1_line_1705860398804_358" n="N016"/>(<rs type="bibl">
-                  <hi rendition="#em">
-                     <rs type="person">Mozart</rs>
-                  </hi> in London</rs>) angeführt, gilt in noch höherem Maße
-      <lb facs="#facs_1_region_1684596700173_3428_tl_16" n="N017"/>von der eben erschienenen zweiten Abtheilung, welche <hi rendition="#em">
-                  <rs type="person">Haydn</rs>ʼs</hi>,
-      <lb facs="#facs_1_region_1684596700173_3428_tl_17" n="N018"/>zweimaligen Aufenthalt in der Weltstadt schildert. Die Auf¬
-      <lb facs="#facs_1_region_1684596700173_3428_tl_18" n="N019"/>gabe war hier viel lohnender. Im ersten Theile ist es weniger
+      <lb facs="#facs_1_line_1705860398804_358" n="N016"/>(<rs type="bibl" ref="#hsl_work_id_2563"><hi rendition="#em">Mozart </hi> in London</rs>) angeführt, gilt in noch höherem Maße
+      <lb facs="#facs_1_region_1684596700173_3428_tl_16" n="N017"/>von der eben erschienenen zweiten Abtheilung, welche <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs>ʼs</hi>,
+      <lb facs="#facs_1_region_1684596700173_3428_tl_17" n="N018"/>zweimaligen Aufenthalt in der Weltstadt schildert. Die Auf
+      <lb facs="#facs_1_region_1684596700173_3428_tl_18" n="N019" break="no"/>gabe war hier viel lohnender. Im ersten Theile ist es weniger
       <lb facs="#facs_1_region_1684596700173_3428_tl_19" n="N020"/>der Held, der uns geschildert wird, als der Boden, auf dem
-      <lb facs="#facs_1_region_1684596700173_3428_tl_20" n="N021"/>er sich bewegt. <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> war nur kurze Zeit und im zartesten
-      <lb facs="#facs_1_region_1684596700173_3428_tl_21" n="N022"/>Alter in <rs type="place">London</rs>; das siebenjährige Wunderkind trat zwar in
+      <lb facs="#facs_1_region_1684596700173_3428_tl_20" n="N021"/>er sich bewegt. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> war nur kurze Zeit und im zartesten
+      <lb facs="#facs_1_region_1684596700173_3428_tl_21" n="N022"/>Alter in <rs type="place" ref="#hsl_place_id_34">London</rs>; das siebenjährige Wunderkind trat zwar in
       <lb facs="#facs_1_region_1684596700173_3428_tl_22" n="N023"/>höchst interessante Musikverhältnisse ein, konnte aber natürlich
       <lb facs="#facs_1_region_1684596700173_3428_tl_23" n="N024"/>auf dieselben nicht selbst Einfluß nehmen, ja nicht einmal eine
-      <lb facs="#facs_1_region_1684596700173_3428_tl_24" n="N025"/>bleibende bedeutende Einwirkung davon erfahren. <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684596700173_3428_tl_25" n="N026"/>hingegen kam nach <rs type="place">London</rs> als ein „gemachter Mann“,
+         <lb facs="#facs_1_region_1684596700173_3428_tl_24" n="N025"/>bleibende bedeutende Einwirkung davon erfahren. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684596700173_3428_tl_25" n="N026"/>hingegen kam nach <rs type="place" ref="#hsl_place_id_34">London</rs> als ein „gemachter Mann“,
       <lb facs="#facs_1_region_1684596700173_3428_tl_26" n="N027"/>als gefeierter und erfahrener Meister; sein Aufenthalt betrug
-      <lb facs="#facs_1_region_1684596700173_3428_tl_27" n="N028"/>(beide Besuche zusammengerechnet) an vier Jahre. Die bio¬
-      <lb facs="#facs_1_region_1684596700173_3428_tl_28" n="N029"/>graphische Ausbeute mußte daher viel reichlicher als bei <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684596700173_3428_tl_29" n="N030"/>ausfallen. Zunächst kam dem Verfasser der von <hi rendition="#em">
-                  <rs type="person">Karajan</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684596700173_3428_tl_30" n="N031"/>veröffentlichte Briefwechsel <hi rendition="#em">
-                  <rs type="person">Haydn</rs>ʼs</hi> mit Frau v. <hi rendition="#em">
-                  <rs type="person">Gentzinger</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684596700173_3428_tl_31" n="N032"/>in <rs type="place">Wien</rs> sehr zu statten, außerdem aber noch <hi rendition="#em">
-                  <rs type="place">Haydn</rs>ʼs</hi> hand¬
-      <lb facs="#facs_1_region_1684596700173_3428_tl_32" n="N033"/>schriftliches Tagebuch aus dem ersten <rs type="place">London</rs>er Aufenthalt. An
-      <lb facs="#facs_1_region_1684596700173_3428_tl_33" n="N034"/>der Hand des Verfassers begleiten wir nun den <rs type="place">Wien</rs>er Meister
+      <lb facs="#facs_1_region_1684596700173_3428_tl_27" n="N028"/>(beide Besuche zusammengerechnet) an vier Jahre. Die bio
+         <lb facs="#facs_1_region_1684596700173_3428_tl_28" n="N029" break="no"/>graphische Ausbeute mußte daher viel reichlicher als bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1684596700173_3428_tl_29" n="N030"/>ausfallen. Zunächst kam dem Verfasser der von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4153">Karajan</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1684596700173_3428_tl_30" n="N031"/>veröffentlichte Briefwechsel <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs>ʼs</hi> mit Frau v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4154">Gentzinger</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684596700173_3428_tl_31" n="N032"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> sehr zu statten, außerdem aber noch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs>ʼs</hi> hand
+      <lb facs="#facs_1_region_1684596700173_3428_tl_32" n="N033" break="no"/>schriftliches Tagebuch aus dem ersten <rs type="place" ref="#hsl_place_id_34">London</rs>er Aufenthalt. An
+      <lb facs="#facs_1_region_1684596700173_3428_tl_33" n="N034"/>der Hand des Verfassers begleiten wir nun den <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Meister
       <lb facs="#facs_1_region_1684596700173_3428_tl_34" n="N035"/>Tag für Tag, Schritt für Schritt in den Straßen und den
       <lb facs="#facs_1_region_1684596700173_3428_tl_35" n="N036"/>Umgebungen der Weltstadt. Wir gehen mit ihm zu Hofe und
-      <lb facs="#facs_1_region_1684596700173_3428_tl_36" n="N037"/>ins Concert, besuchen mit ihm die Notabilitäten der <rs type="place">englisch</rs>en</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684596703889_3431_tl_1" n="N001"/>Musikwelt und <rs type="place">deutsch</rs>e Freunde wie <rs type="person">Gryowetz</rs> und <rs type="person">Pleyel</rs>.
-      <lb facs="#facs_1_region_1684596703889_3431_tl_2" n="N002"/>Ueberall sehen wir <rs type="person">Haydn</rs> durch seine liebenswürdige Be¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_3" n="N003"/>scheidenheit und Einfachheit alle Gemüther gewinnen, die In¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_4" n="N004"/>triguen der Gegner entwaffnen, ja sogar das Herz einer be¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_5" n="N005"/>jahrten Witwe, Mrs. <hi rendition="#em">
-                  <rs type="person">Schröter</rs>
-               </hi>, zu schüchterner Liebe für den
+         <lb facs="#facs_1_region_1684596700173_3428_tl_36" n="N037"/>ins Concert, besuchen mit ihm die Notabilitäten der <rs type="place" ref="#hsl_place_id_17">englisch</rs>en</p><space quantity="1" unit="char"/>
+   <cb n="2"/>
+    <p prev="true">
+      <lb facs="#facs_1_region_1684596703889_3431_tl_1" n="N001"/>Musikwelt und <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Freunde wie <rs type="person" ref="#hsl_person_id_942">Gryowetz</rs> und <rs type="person" ref="#hsl_person_id_4155">Pleyel</rs>.
+      <lb facs="#facs_1_region_1684596703889_3431_tl_2" n="N002"/>Ueberall sehen wir <rs type="person" ref="#hsl_person_id_114">Haydn</rs> durch seine liebenswürdige Be
+      <lb facs="#facs_1_region_1684596703889_3431_tl_3" n="N003" break="no"/>scheidenheit und Einfachheit alle Gemüther gewinnen, die In
+      <lb facs="#facs_1_region_1684596703889_3431_tl_4" n="N004" break="no"/>triguen der Gegner entwaffnen, ja sogar das Herz einer be
+      <lb facs="#facs_1_region_1684596703889_3431_tl_5" n="N005" break="no"/>jahrten Witwe, Mrs. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4156">Schröter</rs></hi>, zu schüchterner Liebe für den
       <lb facs="#facs_1_region_1684596703889_3431_tl_6" n="N006"/>sechzigjährigen Mann entflammen. Er hatte seine Anbeter
       <lb facs="#facs_1_region_1684596703889_3431_tl_7" n="N007"/>unter dem höchsten Adel wie unter den Gewerbsleuten. Ist es
-      <lb facs="#facs_1_region_1684596703889_3431_tl_8" n="N008"/>nicht von rührender Gemüthlichkeit, wenn der reiche Strumpf¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_9" n="N009"/>wirker <hi rendition="#em">
-                  <rs type="person">Gardiner</rs>
-               </hi>
-               <rs type="person">Haydn</rs>, neun Jahre nach dessen Auf¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_10" n="N010"/>enthalt in <rs type="place">England</rs>, ein Dankschreiben sammt einem
+      <lb facs="#facs_1_region_1684596703889_3431_tl_8" n="N008"/>nicht von rührender Gemüthlichkeit, wenn der reiche Strumpf
+          <lb facs="#facs_1_region_1684596703889_3431_tl_9" n="N009" break="no"/>wirker <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4157">Gardiner</rs></hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>, neun Jahre nach dessen Auf
+      <lb facs="#facs_1_region_1684596703889_3431_tl_10" n="N010" break="no"/>enthalt in <rs type="place" ref="#hsl_place_id_17">England</rs>, ein Dankschreiben sammt einem
       <lb facs="#facs_1_region_1684596703889_3431_tl_11" n="N011"/>Geschenk von sechs Paar wollenen Strümpfen sendet, in
-      <lb facs="#facs_1_region_1684596703889_3431_tl_12" n="N012"/>welche sechs Themas aus <rs type="person">Haydn</rs>ʼschen Compositionen ein¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_13" n="N013"/>gewirkt sind, darunter das Volkslied „<rs type="bibl">Gott erhalte</rs> ec.“?
-      <lb facs="#facs_1_region_1684596703889_3431_tl_14" n="N014"/>
-               <rs type="person">Haydn</rs> hat auf das Musikleben in <rs type="place">England</rs> einen bleibenden
+      <lb facs="#facs_1_region_1684596703889_3431_tl_12" n="N012"/>welche sechs Themas aus <rs type="person" ref="#hsl_person_id_114">Haydn</rs>ʼschen Compositionen ein
+      <lb facs="#facs_1_region_1684596703889_3431_tl_13" n="N013" break="no"/>gewirkt sind, darunter das Volkslied „<rs type="bibl" ref="#hsl_work_id_1005">Gott erhalte</rs> ec.“?
+      <lb facs="#facs_1_region_1684596703889_3431_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs> hat auf das Musikleben in <rs type="place" ref="#hsl_place_id_17">England</rs> einen bleibenden
       <lb facs="#facs_1_region_1684596703889_3431_tl_15" n="N015"/>Einfluß geübt. Umgekehrt hat aber auch er von den großartigen
-      <lb facs="#facs_1_line_1705860391932_351" n="N016"/>Verhältnissen <rs type="place">London</rs>s, von der Hochfluth des <rs type="place">englisch</rs>en Lebens
+      <lb facs="#facs_1_line_1705860391932_351" n="N016"/>Verhältnissen <rs type="place" ref="#hsl_place_id_34">London</rs>s, von der Hochfluth des <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Lebens
       <lb facs="#facs_1_region_1684596703889_3431_tl_16" n="N017"/>und Verkehrs einen merkwürdigen, folgenreichen Eindruck
-      <lb facs="#facs_1_line_1705860398804_357" n="N018"/>empfangen. <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> stand zwar schon vor seiner englischen
+      <lb facs="#facs_1_line_1705860398804_357" n="N018"/>empfangen. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi> stand zwar schon vor seiner <rs type="place" ref="#hsl_place_id_17">englisch</rs>en
       <lb facs="#facs_1_region_1684596703889_3431_tl_18" n="N019"/>Reise hoch in der allgemeinen Anerkennung, aber die politischen
-      <lb facs="#facs_1_region_1684596703889_3431_tl_19" n="N020"/>und geselligen Verhältnisse, in denen der fürstlich <rs type="person">Eszterhazy</rs>ʼsche
+      <lb facs="#facs_1_region_1684596703889_3431_tl_19" n="N020"/>und geselligen Verhältnisse, in denen der fürstlich <rs type="person" ref="#hsl_person_id_827">Eszterhazy</rs>ʼsche
       <lb facs="#facs_1_region_1684596703889_3431_tl_20" n="N021"/>Capellmeister sich bisher bewegt hatte, waren eng und unfrei.
-      <lb facs="#facs_1_region_1684596703889_3431_tl_21" n="N022"/>
-               <rs type="place">London</rs> hob seine Kraft, sein Selbstbewußtsein; er erklomm
+      <lb facs="#facs_1_region_1684596703889_3431_tl_21" n="N022"/><rs type="place" ref="#hsl_place_id_34">London</rs> hob seine Kraft, sein Selbstbewußtsein; er erklomm
       <lb facs="#facs_1_region_1684596703889_3431_tl_22" n="N023"/>jetzt erst den höchsten Gipfel seiner Leistungsfähigkeit, schrieb
       <lb facs="#facs_1_region_1684596703889_3431_tl_23" n="N024"/>seine glänzendsten Symphonien und seine beiden Meisterwerke
-      <lb facs="#facs_1_line_1705862192766_835" n="N025"/>„<rs type="bibl">Schöpfung</rs>“ und „<rs type="bibl">Jahreszeiten</rs>“. Bei der epochemachenden
-      <lb facs="#facs_1_line_1705862216224_840" n="N026"/>Wichtigkeit dieses <rs type="place">London</rs>er Aufenthaltes für <hi rendition="#em">
-                  <rs type="place">Haydn</rs>ʼs</hi> Leben
-      <lb facs="#facs_1_region_1684596703889_3431_tl_27" n="N027"/>erscheint die Ausführlichkeit und Genauigkeit der <hi rendition="#em">
-                  <rs type="person">Pohl</rs>
-               </hi>ʼschen
+      <lb facs="#facs_1_line_1705862192766_835" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_243">Schöpfung</rs>“ und „<rs type="bibl" ref="#hsl_work_id_244">Jahreszeiten</rs>“. Bei der epochemachenden
+      <lb facs="#facs_1_line_1705862216224_840" n="N026"/>Wichtigkeit dieses <rs type="place" ref="#hsl_place_id_34">London</rs>er Aufenthaltes für <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs>ʼs</hi> Leben
+      <lb facs="#facs_1_region_1684596703889_3431_tl_27" n="N027"/>erscheint die Ausführlichkeit und Genauigkeit der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi>ʼschen
       <lb facs="#facs_1_region_1684596703889_3431_tl_28" n="N028"/>Mittheilungen sehr dankenswerth. Mit unermüdlichem Fleiß
-      <lb facs="#facs_1_region_1684596703889_3431_tl_29" n="N029"/>hat <hi rendition="#em">
-                  <rs type="person">Pohl</rs>
-               </hi> in <rs type="place">London</rs> alle Geschichtsbücher, Memoiren, Zeitun¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_30" n="N030"/>gen und Programme durchforscht, welche irgend einen Aufschluß
+      <lb facs="#facs_1_region_1684596703889_3431_tl_29" n="N029"/>hat <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi> in <rs type="place" ref="#hsl_place_id_34">London</rs> alle Geschichtsbücher, Memoiren, Zeitun
+      <lb facs="#facs_1_region_1684596703889_3431_tl_30" n="N030" break="no"/>gen und Programme durchforscht, welche irgend einen Aufschluß
       <lb facs="#facs_1_region_1684596703889_3431_tl_31" n="N031"/>bieten konnten. Allerdings hat es dem Verfasser unverkennbare
       <lb facs="#facs_1_region_1684596703889_3431_tl_32" n="N032"/>Mühe gekostet, dies massenhafte Material, diese Fülle von
       <lb facs="#facs_1_region_1684596703889_3431_tl_33" n="N033"/>Thatsachen und Berichtigungen übersichtlich zu gruppiren.
-      <lb facs="#facs_1_region_1684596703889_3431_tl_34" n="N034"/>Es war ihm auch gar nicht darum zu thun, ein Unter¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_35" n="N035"/>haltungsbuch zu schreiben, sondern den objectiven Thatbestand
-      <lb facs="#facs_1_region_1684596703889_3431_tl_36" n="N036"/>in einer gewissen Periode durch quellenmäßige Forschung fest¬
-      <lb facs="#facs_1_region_1684596703889_3431_tl_37" n="N037"/>zustellen. Dies ist so vollständig gelungen, daß sämmtliche
-      <lb facs="#facs_1_region_1684596703889_3431_tl_38" n="N038"/>musikalische Fachblätter in dem Lobe des <hi rendition="#em">
-                  <rs type="person">Pohl</rs>
-               </hi>ʼschen Werkes
-      <lb facs="#facs_1_line_1705860411082_367" n="N039"/>geradezu einhellig sind. <hi rendition="#em">
-                  <rs type="person">Pohl</rs>ʼs</hi> Forschungen haben hie und da</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684596707343_3434_tl_1" n="N001"/>schon Früchte getragen. „Wir sind über den Aufenthalt <hi rendition="#em">
-                  <rs type="person" continued="true">Mo¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684596707343_3434_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">zart</rs>ʼs</hi> in <rs type="place">London</rs> nicht genauer unterrichtet,“ hieß es in der
-      <lb facs="#facs_1_region_1684596707343_3434_tl_3" n="N003"/>ersten Auflage von <hi rendition="#em">
-                  <rs type="person">Jahn</rs>ʼs</hi> „<rs type="bibl">Mozart</rs>“; die zweite Auflage be¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_4" n="N004"/>nützt bereits <hi rendition="#em">
-                  <rs type="person">Pohl</rs>ʼs</hi> Erzählung. Auf diese „zweite, durch¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_5" n="N005"/>aus <hi rendition="#em">umgearbeitete Auflage</hi>“ des <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi>ʼschen Buches
-      <lb facs="#facs_1_region_1684596707343_3434_tl_6" n="N006"/>— sie erschien soeben bei <rs type="person">Breitkopf und Härtel</rs> in <rs type="place">Leipzig</rs> —
+      <lb facs="#facs_1_region_1684596703889_3431_tl_34" n="N034"/>Es war ihm auch gar nicht darum zu thun, ein Unter
+      <lb facs="#facs_1_region_1684596703889_3431_tl_35" n="N035" break="no"/>haltungsbuch zu schreiben, sondern den objectiven Thatbestand
+      <lb facs="#facs_1_region_1684596703889_3431_tl_36" n="N036"/>in einer gewissen Periode durch quellenmäßige Forschung fest
+      <lb facs="#facs_1_region_1684596703889_3431_tl_37" n="N037" break="no"/>zustellen. Dies ist so vollständig gelungen, daß sämmtliche
+      <lb facs="#facs_1_region_1684596703889_3431_tl_38" n="N038"/>musikalische Fachblätter in dem Lobe des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi>ʼschen Werkes
+          <lb facs="#facs_1_line_1705860411082_367" n="N039"/>geradezu einhellig sind. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs>ʼs</hi> Forschungen haben hie und da</p><space quantity="1" unit="char"/>
+    <cb n="3"/>
+     <p prev="true">
+      <lb facs="#facs_1_region_1684596707343_3434_tl_1" n="N001"/>schon Früchte getragen. „Wir sind über den Aufenthalt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mo
+      <lb facs="#facs_1_region_1684596707343_3434_tl_2" n="N002" break="no"/>zart</rs>ʼs</hi> in <rs type="place" ref="#hsl_place_id_34">London</rs> nicht genauer unterrichtet,“ hieß es in der
+      <lb facs="#facs_1_region_1684596707343_3434_tl_3" n="N003"/>ersten Auflage von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_485">Mozart</rs>“; die <rs type="bibl" ref="#hsl_work_id_2559">zweite Auflage</rs> be
+      <lb facs="#facs_1_region_1684596707343_3434_tl_4" n="N004" break="no"/>nützt bereits <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs>ʼs</hi> Erzählung. Auf diese „zweite, durch
+      <lb facs="#facs_1_region_1684596707343_3434_tl_5" n="N005" break="no"/>aus <hi rendition="#em">umgearbeitete Auflage</hi>“ des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs></hi>ʼschen Buches
+      <lb facs="#facs_1_region_1684596707343_3434_tl_6" n="N006"/>— sie erschien soeben bei <rs type="person" ref="#hsl_person_id_4158 #hsl_person_id_3186">Breitkopf und Härtel</rs> in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs> —
       <lb facs="#facs_1_region_1684596707343_3434_tl_7" n="N007"/>möchten wir unsere Leser recht dringend aufmerksam machen.
-      <lb facs="#facs_1_region_1684596707343_3434_tl_8" n="N008"/>Ueber die Vortrefflichkeit der <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi>ʼschen <rs type="person">Mozart</rs>-Biographie
+           <lb facs="#facs_1_region_1684596707343_3434_tl_8" n="N008"/>Ueber die Vortrefflichkeit der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs></hi>ʼschen <rs type="bibl" ref="#hsl_work_id_2559">Mozart-Biographie</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684596707343_3434_tl_9" n="N009"/>brauchen wir kein Wort mehr zu verlieren, Jedermann kennt
-      <lb facs="#facs_1_region_1684596707343_3434_tl_10" n="N010"/>ihren Werth wie ihren tiefgreifenden Erfolg. Aber welche Ar¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_11" n="N011"/>beit der Verfasser daran gesetzt hat und mit welch glücklichem
-      <lb facs="#facs_1_region_1684596707343_3434_tl_12" n="N012"/>Gelingen, sein Werk noch vollkommener und nützlicher zu ma¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_13" n="N013"/>chen, das muß hervorgehoben werden. Zuerst war es der große
-      <lb facs="#facs_1_region_1684596707343_3434_tl_14" n="N014"/>Umfang dieser vier Bände starken Biographie, welche nach¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_15" n="N015"/>träglich des Verfassers Bedenken erregte, sodann die Masse des
-      <lb facs="#facs_1_region_1684596707343_3434_tl_16" n="N016"/>in den Anmerkungen vorgeführten gelehrten Materials. <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684596707343_3434_tl_17" n="N017"/>entschloß sich zu der für einen Autor gewiß heroischen That,
-      <lb facs="#facs_1_region_1684596707343_3434_tl_18" n="N018"/>das Buch in der zweiten Auflage auf <hi rendition="#em">zwei</hi> Bände zu redu¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_19" n="N019"/>ciren. Er nahm Kürzungen vor, wo es nur möglich war
-      <lb facs="#facs_1_region_1684596707343_3434_tl_20" n="N020"/>(insbesondere in der Analyse der Jugendwerke <rs type="person">Mozart</rs>ʼs), und
+      <lb facs="#facs_1_region_1684596707343_3434_tl_10" n="N010"/>ihren Werth wie ihren tiefgreifenden Erfolg. Aber welche Ar
+      <lb facs="#facs_1_region_1684596707343_3434_tl_11" n="N011" break="no"/>beit der Verfasser daran gesetzt hat und mit welch glücklichem
+      <lb facs="#facs_1_region_1684596707343_3434_tl_12" n="N012"/>Gelingen, sein Werk noch vollkommener und nützlicher zu ma
+      <lb facs="#facs_1_region_1684596707343_3434_tl_13" n="N013" break="no"/>chen, das muß hervorgehoben werden. Zuerst war es der große
+      <lb facs="#facs_1_region_1684596707343_3434_tl_14" n="N014"/>Umfang dieser vier Bände starken Biographie, welche nach
+      <lb facs="#facs_1_region_1684596707343_3434_tl_15" n="N015" break="no"/>träglich des Verfassers Bedenken erregte, sodann die Masse des
+           <lb facs="#facs_1_region_1684596707343_3434_tl_16" n="N016"/>in den Anmerkungen vorgeführten gelehrten Materials. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684596707343_3434_tl_17" n="N017"/>entschloß sich zu der für einen Autor gewiß heroischen That,
+      <lb facs="#facs_1_region_1684596707343_3434_tl_18" n="N018"/>das Buch in der zweiten Auflage auf <hi rendition="#em">zwei</hi> Bände zu redu
+      <lb facs="#facs_1_region_1684596707343_3434_tl_19" n="N019" break="no"/>ciren. Er nahm Kürzungen vor, wo es nur möglich war
+      <lb facs="#facs_1_region_1684596707343_3434_tl_20" n="N020"/>(insbesondere in der Analyse der Jugendwerke <rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼs), und
       <lb facs="#facs_1_region_1684596707343_3434_tl_21" n="N021"/>warf den größten Theil der gelehrten Anmerkungen über Bord.
       <lb facs="#facs_1_region_1684596707343_3434_tl_22" n="N022"/>Während in der ersten Auflage thatsächlich der Text auf den
       <lb facs="#facs_1_region_1684596707343_3434_tl_23" n="N023"/>Noten schwamm, findet der Leser gegenwärtig unter einem
-      <lb facs="#facs_1_region_1684596707343_3434_tl_24" n="N024"/>gleichartig fortlaufenden Texte nur kurze literarische Nachwei¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_25" n="N025"/>sungen für den, der controliren oder weiter forschen will. Der
+      <lb facs="#facs_1_region_1684596707343_3434_tl_24" n="N024"/>gleichartig fortlaufenden Texte nur kurze literarische Nachwei
+      <lb facs="#facs_1_region_1684596707343_3434_tl_25" n="N025" break="no"/>sungen für den, der controliren oder weiter forschen will. Der
       <lb facs="#facs_1_line_1705860417808_374" n="N026"/>Musikhistoriker erblickte allerdings in jenen Anmerkungen einen
-      <lb facs="#facs_1_region_1684596707343_3434_tl_27" n="N027"/>wahren Schatz, und wir bekennen, daß die erste Auf¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_28" n="N028"/>lage ihren alten hohen Werth für uns behält. Die alte Auf¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_29" n="N029"/>lage ist nicht überflüssig, aber die neue ist unentbehrlich ge¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_30" n="N030"/>worden. Wie sehr hat <rs type="person">Jahn</rs> sein Material bereichert, seine
-      <lb facs="#facs_1_region_1684596707343_3434_tl_31" n="N031"/>Studien vertieft! Die gesammte Correspondenz zwischen <rs type="person" continued="true">Mo¬</rs>
-               <lb facs="#facs_1_region_1684596707343_3434_tl_32" n="N032"/>
-               <rs type="person" continued="true">zart</rs> und seinem <rs type="person">Vater</rs> lag diesmal vor, sämmtliche Compo¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_33" n="N033"/>sitionen <rs type="person">Mozart</rs>ʼs standen zum erstenmale vollständig zu Ge¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_34" n="N034"/>bote. Das inzwischen von <hi rendition="#em">
-                  <rs type="person">Köchel</rs>
-               </hi> herausgegebene „<rs type="bibl">Thematische</rs>
-               <lb facs="#facs_1_region_1684596707343_3434_tl_35" n="N035"/>
-               <rs type="bibl">Verzeichniß</rs>“ leistete wesentliche Dienste und erlaubte das Weg¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_36" n="N036"/>lassen vieler jetzt unnöthig gewordenen Aufzählungen und Unter¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_37" n="N037"/>suchungen. Auch über <rs type="person">Mozart</rs>ʼs persönliche Verhältnisse erfah¬
-      <lb facs="#facs_1_region_1684596707343_3434_tl_38" n="N038"/>ren wir manches Neue, z. B. über seine Beziehungen zu <hi rendition="#em">
-                  <rs type="person" continued="true">Sa¬</rs>
-               </hi>
-               <lb facs="#facs_1_line_1705860411082_366" n="N039"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">lieri</rs>
-               </hi>, zu <hi rendition="#em">
-                  <rs type="person">Hummel</rs>
-               </hi> ec. So hat denn <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi> zugleich den</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684596720292_3440_tl_1" n="N001"/>Stoff seines Buches bereichert und die Darstellung gekürzt;
+      <lb facs="#facs_1_region_1684596707343_3434_tl_27" n="N027"/>wahren Schatz, und wir bekennen, daß die erste Auf
+      <lb facs="#facs_1_region_1684596707343_3434_tl_28" n="N028" break="no"/>lage ihren alten hohen Werth für uns behält. Die alte Auf
+      <lb facs="#facs_1_region_1684596707343_3434_tl_29" n="N029" break="no"/>lage ist nicht überflüssig, aber die neue ist unentbehrlich ge
+      <lb facs="#facs_1_region_1684596707343_3434_tl_30" n="N030" break="no"/>worden. Wie sehr hat <rs type="person" ref="#hsl_person_id_135">Jahn</rs> sein Material bereichert, seine
+      <lb facs="#facs_1_region_1684596707343_3434_tl_31" n="N031"/>Studien vertieft! Die gesammte Correspondenz zwischen <rs type="person" ref="#hsl_person_id_189">Mo
+      <lb facs="#facs_1_region_1684596707343_3434_tl_32" n="N032" break="no"/>zart</rs> und seinem <rs type="person" ref="#hsl_person_id_1895">Vater</rs> lag diesmal vor, sämmtliche Compo
+      <lb facs="#facs_1_region_1684596707343_3434_tl_33" n="N033" break="no"/>sitionen <rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼs standen zum erstenmale vollständig zu Ge
+      <lb facs="#facs_1_region_1684596707343_3434_tl_34" n="N034" break="no"/>bote. Das inzwischen von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_145">Köchel</rs></hi> herausgegebene „<rs type="bibl" ref="#hsl_work_id_658">Thematische
+      <lb facs="#facs_1_region_1684596707343_3434_tl_35" n="N035"/>Verzeichniß</rs>“ leistete wesentliche Dienste und erlaubte das Weg
+      <lb facs="#facs_1_region_1684596707343_3434_tl_36" n="N036" break="no"/>lassen vieler jetzt unnöthig gewordenen Aufzählungen und Unter
+      <lb facs="#facs_1_region_1684596707343_3434_tl_37" n="N037" break="no"/>suchungen. Auch über <rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼs persönliche Verhältnisse erfah
+      <lb facs="#facs_1_region_1684596707343_3434_tl_38" n="N038" break="no"/>ren wir manches Neue, z. B. über seine Beziehungen zu <hi rendition="#em"><rs type="person" ref="#hsl_person_id_754">Sa
+            <lb facs="#facs_1_line_1705860411082_366" n="N039" break="no"/>lieri</rs></hi>, zu <hi rendition="#em"><rs type="person" ref="#hsl_person_id_382">Hummel</rs></hi> ec. So hat denn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs></hi> zugleich den</p><space quantity="1" unit="char"/>
+  <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+  <cb n="4"/>
+  <p prev="true">
+      <lb facs="#facs_2_region_1684596720292_3440_tl_1" n="N001"/>Stoff seines Buches bereichert und die Darstellung gekürzt;
       <lb facs="#facs_2_region_1684596720292_3440_tl_2" n="N002"/>eine Operation, die schwieriger ist, als die Mehrzahl der Leser
       <lb facs="#facs_2_region_1684596720292_3440_tl_3" n="N003"/>ahnen dürfte. Wie viel leichter und angenehmer sich jedoch die
-      <lb facs="#facs_2_region_1684596720292_3440_tl_4" n="N004"/>zweite Auflage des „<rs type="bibl">Mozart</rs>“ liest, darüber wird das
+      <lb facs="#facs_2_region_1684596720292_3440_tl_4" n="N004"/>zweite Auflage des „<rs type="bibl" ref="#hsl_work_id_2559">Mozart</rs>“ liest, darüber wird das
       <lb facs="#facs_2_region_1684596720292_3440_tl_5" n="N005"/>ganze Publicum einig sein, und so hat denn diese
       <lb facs="#facs_2_region_1684596720292_3440_tl_6" n="N006"/>Neugestalt des trefflichen Werkes eine noch größere
-      <lb facs="#facs_2_region_1684596720292_3440_tl_7" n="N007"/>Verbreitung und Einwirkung zu erwarten als bisher.
-      <lb facs="#facs_2_region_1684596720292_3440_tl_8" n="N008"/>Neben <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> ist in diesem Jahre auch
-      <lb facs="#facs_2_region_1684596720292_3440_tl_9" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> nicht leer ausgegangen. Dr. L. <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi> hat den
-      <lb facs="#facs_2_region_1684596720292_3440_tl_10" n="N010"/>zweiten Band der „Biographie“ und eine neue Sammlung
-      <lb facs="#facs_2_region_1684596720292_3440_tl_11" n="N011"/>von Briefen <rs type="person">Beethoven</rs>ʼs herausgegeben. Ferdinand <hi rendition="#em">
-                  <rs type="person">Hiller</rs>
-               </hi> *)
+      <lb facs="#facs_2_region_1684596720292_3440_tl_7" n="N007"/>Verbreitung und Einwirkung zu erwarten als bisher.</p>
+               <p>
+      <lb facs="#facs_2_region_1684596720292_3440_tl_8" n="N008"/>Neben <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> ist in diesem Jahre auch
+      <lb facs="#facs_2_region_1684596720292_3440_tl_9" n="N009"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> nicht leer ausgegangen. Dr. L. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi> hat den
+      <lb facs="#facs_2_region_1684596720292_3440_tl_10" n="N010"/><rs type="bibl" ref="#hsl_work_id_2565">zweiten Band der „Biographie“</rs> und eine neue <rs type="bibl" ref="#hsl_work_id_2561">Sammlung
+            <lb facs="#facs_2_region_1684596720292_3440_tl_11" n="N011"/>von Briefen Beethovenʼs</rs> herausgegeben. Ferdinand <hi rendition="#em"><rs type="person" ref="#hsl_person_id_124">Hiller</rs><space quantity="1" unit="char"/></hi><note type="footnote" n="*)"><lb facs="#facs_2_line_1705860709221_415" n="N036"/> In seiner höchst anziehenden Sammlung von Aufsätzen „<rs type="bibl" ref="#hsl_work_id_482">Aus
+      <lb facs="#facs_2_line_1705860715618_421" n="N037"/>dem Tonleben unserer Zeit</rs>“, auf die wir ein andermal zurückkommen.</note>
       <lb facs="#facs_2_region_1684596720292_3440_tl_12" n="N012"/>nennt die erste, vor zwei Jahren erschienene Briefsammlung
-      <lb facs="#facs_2_region_1684596720292_3440_tl_13" n="N013"/>
-               <rs type="person">Beethoven</rs>ʼs mit Recht „eine wahre Blumenlese von Miseren,
+      <lb facs="#facs_2_region_1684596720292_3440_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs mit Recht „eine wahre Blumenlese von Miseren,
       <lb facs="#facs_2_region_1684596720292_3440_tl_14" n="N014"/>welche man mit einem moralischen Katzenjammer aus der Hand
       <lb facs="#facs_2_region_1684596720292_3440_tl_15" n="N015"/>legen müßte, wenn Einem beim Lesen nicht die unsterblichen
-      <lb facs="#facs_2_region_1684596720292_3440_tl_16" n="N016"/>Symphonien und Sonaten des Meisters durch den Kopf zö¬
-      <lb facs="#facs_2_region_1684596720292_3440_tl_17" n="N017"/>gen“. Was würde er erst von den bei <hi rendition="#em">Cotta</hi> erschienenen
-      <lb facs="#facs_2_region_1684596720292_3440_tl_18" n="N018"/>„<rs type="bibl">Neuen Briefen Beethovenʼs</rs>“ sagen? Der günstige Erfolg
+      <lb facs="#facs_2_region_1684596720292_3440_tl_16" n="N016"/>Symphonien und Sonaten des Meisters durch den Kopf zö
+      <lb facs="#facs_2_region_1684596720292_3440_tl_17" n="N017" break="no"/>gen“. Was würde er erst von den bei <hi rendition="#em">Cotta</hi> erschienenen
+      <lb facs="#facs_2_region_1684596720292_3440_tl_18" n="N018"/>„<rs type="bibl" ref="#hsl_work_id_2561">Neuen Briefen Beethovenʼs</rs>“ sagen? Der günstige Erfolg
       <lb facs="#facs_2_region_1684596720292_3440_tl_19" n="N019"/>jener ersten Sammlung, die neben Unbedeutendem jedenfalls
-      <lb facs="#facs_2_region_1684596720292_3440_tl_20" n="N020"/>auch Erhebliches und Interessantes brachte, hat Herrn <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684596720292_3440_tl_21" n="N021"/>angespornt, das abgemähte Feld rasch noch einmal abzugehen
+                     <lb facs="#facs_2_region_1684596720292_3440_tl_20" n="N020"/>auch Erhebliches und Interessantes brachte, hat Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684596720292_3440_tl_21" n="N021"/>angespornt, das abgemähte Feld rasch noch einmal abzugehen
       <lb facs="#facs_2_region_1684596720292_3440_tl_22" n="N022"/>und „zwischen den Garben“ zu suchen. Er suchte und fand
       <lb facs="#facs_2_region_1684596720292_3440_tl_23" n="N023"/>in der That — eine Masse Spreu und Unkraut. Nehmen wir
-      <lb facs="#facs_2_region_1684596720292_3440_tl_24" n="N024"/>die ursprünglich von <hi rendition="#em">
-                  <rs type="person">Köchel</rs>
-               </hi> publicirten, jetzt von <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi> ein¬
-      <lb facs="#facs_2_region_1684596720292_3440_tl_25" n="N025"/>verleibten) Briefe an den Erzherzog <hi rendition="#em">
-                  <rs type="person">Rudolph</rs>
-               </hi> aus, und etwa
-      <lb facs="#facs_2_region_1684596720292_3440_tl_26" n="N026"/>ein Halbdutzend anderer interessanterer Schreiben, so empfan¬
-      <lb facs="#facs_2_region_1684596720292_3440_tl_27" n="N027"/>gen wir in diesen „322 Neuen Briefen“ nur Eindrücke des Un¬
-      <lb facs="#facs_2_region_1684596720292_3440_tl_28" n="N028"/>bedeutenden, wo nicht Abstoßenden. Was sollen uns all die klei¬
-      <lb facs="#facs_2_region_1684596720292_3440_tl_29" n="N029"/>nen Zettel von zwei bis drei Zeilen, welche nichts enthalten
+      <lb facs="#facs_2_region_1684596720292_3440_tl_24" n="N024"/>die ursprünglich von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_145">Köchel</rs></hi> publicirten, jetzt von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi> ein
+      <lb facs="#facs_2_region_1684596720292_3440_tl_25" n="N025" break="no"/>verleibten) Briefe an den Erzherzog <hi rendition="#em"><rs type="person" ref="#hsl_person_id_791">Rudolph</rs></hi> aus, und etwa
+      <lb facs="#facs_2_region_1684596720292_3440_tl_26" n="N026"/>ein Halbdutzend anderer interessanterer Schreiben, so empfan
+      <lb facs="#facs_2_region_1684596720292_3440_tl_27" n="N027" break="no"/>gen wir in diesen „322 Neuen Briefen“ nur Eindrücke des Un
+      <lb facs="#facs_2_region_1684596720292_3440_tl_28" n="N028" break="no"/>bedeutenden, wo nicht Abstoßenden. Was sollen uns all die klei
+      <lb facs="#facs_2_region_1684596720292_3440_tl_29" n="N029" break="no"/>nen Zettel von zwei bis drei Zeilen, welche nichts enthalten
       <lb facs="#facs_2_region_1684596720292_3440_tl_30" n="N030"/>als: „Kommen Sie morgen Nachmittags zu mir“, oder:
-      <lb facs="#facs_2_region_1684596720292_3440_tl_31" n="N031"/>„Schicken Sie mir die Quartette zurück“, oder: „Ich bin un¬
-      <lb facs="#facs_2_region_1684596720292_3440_tl_32" n="N032"/>päßlich und kann nicht kommen“? Was sollen uns ferner die
+      <lb facs="#facs_2_region_1684596720292_3440_tl_31" n="N031"/>„Schicken Sie mir die Quartette zurück“, oder: „Ich bin un
+      <lb facs="#facs_2_region_1684596720292_3440_tl_32" n="N032" break="no"/>päßlich und kann nicht kommen“? Was sollen uns ferner die
       <lb facs="#facs_2_region_1684596720292_3440_tl_33" n="N033"/>zahllosen Hauswirthschaftsbriefe (sie bilden den größten
       <lb facs="#facs_2_region_1684596720292_3440_tl_34" n="N034"/>Theil der Sammlung), welche von nichts Anderem
-      <lb facs="#facs_2_region_1684596720292_3440_tl_35" n="N035"/>handeln, als von Dienstbotenwechsel, Wohnungs-Calami¬
-      <lb facs="#facs_2_line_1705860709221_415" n="N036"/>*) In seiner höchst anziehenden Sammlung von Aufsätzen „<rs type="bibl">Aus</rs>
-               <lb facs="#facs_2_line_1705860715618_421" n="N037"/>
-               <rs type="bibl">dem Tonleben unserer Zeit</rs>“, auf die wir ein andermal zurückkommen.</p>
+      <lb facs="#facs_2_region_1684596720292_3440_tl_35" n="N035"/>handeln, als von Dienstbotenwechsel, Wohnungs-Calami
+               </p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684596723299_3443_tl_1" n="N001"/>täten, von kleinen Geld- und Geschäftsaufträgen, von Hem¬
-      <lb facs="#facs_2_region_1684596723299_3443_tl_2" n="N002"/>den, Speisen und Arzneien? Wird uns <rs type="person">Beethoven</rs> als Künstler
+            <p prev="true">
+      <lb facs="#facs_2_region_1684596723299_3443_tl_1" n="N001" break="no"/>täten, von kleinen Geld- und Geschäftsaufträgen, von Hem
+      <lb facs="#facs_2_region_1684596723299_3443_tl_2" n="N002" break="no"/>den, Speisen und Arzneien? Wird uns <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> als Künstler
       <lb facs="#facs_2_region_1684596723299_3443_tl_3" n="N003"/>größer, als Mensch liebenswerther erscheinen, wenn wir all
       <lb facs="#facs_2_region_1684596723299_3443_tl_4" n="N004"/>die zornigen Schimpfwörter über seine Schwägerin, seinen
       <lb facs="#facs_2_region_1684596723299_3443_tl_5" n="N005"/>Bruder, seine Dienstboten und über einzelne ihm näherstehende
-      <lb facs="#facs_2_line_1705860723161_429" n="N006"/>Bekannte lesen, deren Diensteifer er doch fortwährend in An¬
-      <lb facs="#facs_2_region_1684596723299_3443_tl_7" n="N007"/>spruch nimmt? Müssen wir es wörtlich durchmachen, das
+      <lb facs="#facs_2_line_1705860723161_429" n="N006"/>Bekannte lesen, deren Diensteifer er doch fortwährend in An
+      <lb facs="#facs_2_region_1684596723299_3443_tl_7" n="N007" break="no"/>spruch nimmt? Müssen wir es wörtlich durchmachen, das
       <lb facs="#facs_2_region_1684596723299_3443_tl_8" n="N008"/>Verhandeln mit der Köchin, das Mäkeln mit den Verlegern,
-      <lb facs="#facs_2_region_1684596723299_3443_tl_9" n="N009"/>das Andediciren großer Herren? Auch der Respect vor <rs type="person" continued="true">Beet¬</rs>
-               <lb facs="#facs_2_line_1705860732159_441" n="N010"/>
-               <rs type="person" continued="true">hoven</rs>ʼs demokratischem Stolz wird durch diese neue <rs type="bibl">Brief¬</rs>
-               <lb facs="#facs_2_region_1684596723299_3443_tl_10" n="N011"/>
-               <rs type="bibl">sammlung</rs> ebensowenig erhöht, wie durch die erste, welche, nach
-      <lb facs="#facs_2_region_1684596723299_3443_tl_11" n="N012"/>F. <hi rendition="#em">
-                  <rs type="person">Hiller</rs>ʼs</hi> Bemerkung, vollauf beweist, „daß <rs type="person">Beethoven</rs> sich
+      <lb facs="#facs_2_region_1684596723299_3443_tl_9" n="N009"/>das Andediciren großer Herren? Auch der Respect vor <rs type="person" ref="#hsl_person_id_25">Beet
+      <lb facs="#facs_2_line_1705860732159_441" n="N010" break="no"/>hoven</rs>ʼs demokratischem Stolz wird durch diese neue <rs type="bibl" ref="#hsl_work_id_2561">Brief
+      <lb facs="#facs_2_region_1684596723299_3443_tl_10" n="N011" break="no"/>sammlung</rs> ebensowenig erhöht, wie durch die erste, welche, nach
+      <lb facs="#facs_2_region_1684596723299_3443_tl_11" n="N012"/>F. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_124">Hiller</rs>ʼs</hi> Bemerkung, vollauf beweist, „daß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> sich
       <lb facs="#facs_2_region_1684596723299_3443_tl_12" n="N013"/>den Großen der Erde gegenüber ebenso benahm, wie andere
       <lb facs="#facs_2_line_1705860727700_435" n="N014"/>Erdenkinder, die etwas von ihnen wollen“. Briefe, die an
       <lb facs="#facs_2_region_1684596723299_3443_tl_13" n="N015"/>und für sich nicht den geringsten substantiellen Gehalt haben,
       <lb facs="#facs_2_region_1684596723299_3443_tl_14" n="N016"/>soll man doch wol nur veröffentlichen, wenn das Bild des
       <lb facs="#facs_2_region_1684596723299_3443_tl_15" n="N017"/>Schreibenden uns dadurch klarer, bedeutender, schöner wird.
       <lb facs="#facs_2_region_1684596723299_3443_tl_16" n="N018"/>Ist es Pietät oder deren Gegentheil, wenn man Genies
-      <lb facs="#facs_2_region_1684596723299_3443_tl_17" n="N019"/>wie <rs type="person">Beethoven</rs>, zum Dank für all das Große, was sie uns
-      <lb facs="#facs_2_region_1684596723299_3443_tl_18" n="N020"/>gespendet, in ihren kleinlichsten Bedrängnissen und Bekennt¬
-      <lb facs="#facs_2_region_1684596723299_3443_tl_19" n="N021"/>nissen für die Nachwelt bloßlegt? Die Verwerthung jedes Papier¬
-      <lb facs="#facs_2_region_1684596723299_3443_tl_20" n="N022"/>schnitzels verzeihen wir dem Autographensammler, nicht dem
+      <lb facs="#facs_2_region_1684596723299_3443_tl_17" n="N019"/>wie <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, zum Dank für all das Große, was sie uns
+      <lb facs="#facs_2_region_1684596723299_3443_tl_18" n="N020"/>gespendet, in ihren kleinlichsten Bedrängnissen und Bekennt
+      <lb facs="#facs_2_region_1684596723299_3443_tl_19" n="N021" break="no"/>nissen für die Nachwelt bloßlegt? Die Verwerthung jedes Papier
+      <lb facs="#facs_2_region_1684596723299_3443_tl_20" n="N022" break="no"/>schnitzels verzeihen wir dem Autographensammler, nicht dem
       <lb facs="#facs_2_region_1684596723299_3443_tl_21" n="N023"/>Schriftsteller. Das ist die pure Industrie im Gewand der
       <lb facs="#facs_2_region_1684596723299_3443_tl_22" n="N024"/>Pietät, die uns obendrein weißmachen will, daß solche kopf-
       <lb facs="#facs_2_region_1684596723299_3443_tl_23" n="N025"/>und herzlose Publicationen nothwendig seien, „um die wahre
       <lb facs="#facs_2_region_1684596723299_3443_tl_24" n="N026"/>Idealität, die wahre sittliche Größe“ des Helden zu verstehen.
-      <lb facs="#facs_2_region_1684596723299_3443_tl_25" n="N027"/>Ganz anderen Geist athmet eine neue <rs type="person">Beethoven</rs>-Publi¬
-      <lb facs="#facs_2_region_1684596723299_3443_tl_26" n="N028"/>cation, die wir unserem bewährten Geschichtsforscher G. <hi rendition="#em">
-                  <rs type="person" continued="true">Notte¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684596723299_3443_tl_27" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bohm</rs>
-               </hi> verdanken: die zweite Ausgabe des „<hi rendition="#em">
-                  <rs type="bibl">Thematischen</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684596723299_3443_tl_28" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Katalogs</rs>
-               </hi>“ von <rs type="person">Beethoven</rs>ʼs Compositionen. Sie unterscheide
-      <lb facs="#facs_2_region_1684596723299_3443_tl_29" n="N031"/>sich von dem im Jahre <date month="0" day="0" year="0">1851</date> (gleichfalls bei <rs type="person" continued="true">Breitkopf und</rs>
-               <lb facs="#facs_2_region_1684596723299_3443_tl_30" n="N032"/>
-               <rs type="person" continued="true">Härtel</rs>) erschienenen Verzeichnisse hauptsächlich durch die beige¬
-      <lb facs="#facs_2_region_1684596723299_3443_tl_31" n="N033"/>fügten Anmerkungen, welche in gedrängtester Kürze die Zeit
+      <lb facs="#facs_2_region_1684596723299_3443_tl_25" n="N027"/>Ganz anderen Geist athmet eine neue <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Publi
+      <lb facs="#facs_2_region_1684596723299_3443_tl_26" n="N028" break="no"/>cation, die wir unserem bewährten Geschichtsforscher G. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_365">Notte
+      <lb facs="#facs_2_region_1684596723299_3443_tl_27" n="N029" break="no"/>bohm</rs></hi> verdanken: die zweite Ausgabe des „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2560">Thematischen
+      <lb facs="#facs_2_region_1684596723299_3443_tl_28" n="N030"/>Katalogs</rs></hi>“ von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Compositionen. Sie unterscheide
+      <lb facs="#facs_2_region_1684596723299_3443_tl_29" n="N031"/>sich von dem im Jahre <date when="1851">1851</date> (gleichfalls bei <rs type="person" ref="#hsl_person_id_4158 #hsl_person_id_3186">Breitkopf und
+      <lb facs="#facs_2_region_1684596723299_3443_tl_30" n="N032"/>Härtel</rs>) erschienenen Verzeichnisse hauptsächlich durch die beige
+      <lb facs="#facs_2_region_1684596723299_3443_tl_31" n="N033" break="no"/>fügten Anmerkungen, welche in gedrängtester Kürze die Zeit
       <lb facs="#facs_2_region_1684596723299_3443_tl_32" n="N034"/>der Composition, der Veröffentlichung und ersten Aufführung
       <lb facs="#facs_2_region_1684596723299_3443_tl_33" n="N035"/>der Werke angeben und die vorhandenen Manuscripte, Original-
-      <lb facs="#facs_2_region_1684596723299_3443_tl_34" n="N036"/>Ausgaben und Bearbeitungen namhaft machen. Ein chrono¬
-      <lb facs="#facs_2_line_1705860709221_414" n="N037"/>logisches Register und ein Verzeichniß aller Dedicationen
-      <lb facs="#facs_2_line_1705860746263_450" n="N038"/>
-               <rs type="person">Beethoven</rs>ʼscher Werke ist beigefügt. In diesen Anmerkungen</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684596726322_3446_tl_1" n="N001"/>steckt ein Maß von Mühe und Studium, von dem der Laie
-      <lb facs="#facs_2_region_1684596726322_3446_tl_2" n="N002"/>sich kaum eine Vorstellung macht. Die Persönlichkeit des Ar¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_3" n="N003"/>beiters bleibt natürlich hinter der Arbeit selbst gänzlich ver¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_4" n="N004"/>steckt; wer aber letztere auf ihre Vollständigkeit und Gewissen¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_5" n="N005"/>haftigkeit prüft, der erkennt unschwer die ganze Tüchtigkeit der
-      <lb facs="#facs_2_line_1705860723161_428" n="N006"/>ersteren.
-      <lb facs="#facs_2_region_1684596726322_3446_tl_6" n="N007"/>Der rechte Mann, eine <rs type="person">Beethoven</rs>-Biographie zu schrei¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_7" n="N008"/>ben, ein Seitenstück zu <hi rendition="#em">
-                  <rs type="person">Jahn</rs>ʼs</hi> „<rs type="bibl">Mozart</rs>“, ist ohne Zweifel
-      <lb facs="#facs_2_region_1684596726322_3446_tl_8" n="N009"/>kein Anderer, als wieder <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi>. Seit Jahren arbeitet er
+      <lb facs="#facs_2_region_1684596723299_3443_tl_34" n="N036"/>Ausgaben und Bearbeitungen namhaft machen. Ein chrono
+      <lb facs="#facs_2_line_1705860709221_414" n="N037" break="no"/>logisches Register und ein Verzeichniß aller Dedicationen
+                  <lb facs="#facs_2_line_1705860746263_450" n="N038"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼscher Werke ist beigefügt. In diesen Anmerkungen</p><space quantity="1" unit="char"/>
+   <cb n="6"/>
+     <p prev="true">
+      <lb facs="#facs_2_region_1684596726322_3446_tl_1" n="N001"/>steckt ein Maß von Mühe und Studium, von dem der Laie
+      <lb facs="#facs_2_region_1684596726322_3446_tl_2" n="N002"/>sich kaum eine Vorstellung macht. Die Persönlichkeit des Ar
+      <lb facs="#facs_2_region_1684596726322_3446_tl_3" n="N003" break="no"/>beiters bleibt natürlich hinter der Arbeit selbst gänzlich ver
+      <lb facs="#facs_2_region_1684596726322_3446_tl_4" n="N004" break="no"/>steckt; wer aber letztere auf ihre Vollständigkeit und Gewissen
+      <lb facs="#facs_2_region_1684596726322_3446_tl_5" n="N005" break="no"/>haftigkeit prüft, der erkennt unschwer die ganze Tüchtigkeit der
+      <lb facs="#facs_2_line_1705860723161_428" n="N006"/>ersteren.</p>
+               <p>
+      <lb facs="#facs_2_region_1684596726322_3446_tl_6" n="N007"/>Der rechte Mann, eine <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Biographie zu schrei
+      <lb facs="#facs_2_region_1684596726322_3446_tl_7" n="N008" break="no"/>ben, ein Seitenstück zu <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_485">Mozart</rs>“, ist ohne Zweifel
+      <lb facs="#facs_2_region_1684596726322_3446_tl_8" n="N009"/>kein Anderer, als wieder <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs></hi>. Seit Jahren arbeitet er
       <lb facs="#facs_2_line_1705860732159_440" n="N010"/>wirklich an dieser Aufgabe, und die musikalische Welt sieht der
       <lb facs="#facs_2_region_1684596726322_3446_tl_10" n="N011"/>hoffentlich bald gereiften Frucht mit Begierde entgegen. Dr.
-      <lb facs="#facs_2_region_1684596726322_3446_tl_11" n="N012"/>
-               <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi> ist zwar <rs type="person">Jahn</rs>ʼs „<rs type="bibl">Beethoven</rs>“ zuvorgekommen, aber er
+      <lb facs="#facs_2_region_1684596726322_3446_tl_11" n="N012"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi> ist zwar <rs type="person" ref="#hsl_person_id_135">Jahn</rs>ʼs „<rs type="bibl" ref="#hsl_person_id_25">Beethoven</rs>“ zuvorgekommen, aber er
       <lb facs="#facs_2_region_1684596726322_3446_tl_12" n="N013"/>scheint diesen nicht nur nicht überflüssig, sondern erst recht
       <lb facs="#facs_2_line_1705860727700_434" n="N014"/>nothwendig zu machen. Die ersten Schriften, mit denen
-      <lb facs="#facs_2_region_1684596726322_3446_tl_14" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi> in die Musik-Literatur eintrat, zeigten gerade hinrei¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_15" n="N016"/>chendes Talent und Streben, hatten gerade genug von des Ver¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_16" n="N017"/>fassers persönlicher Liebenswürdigkeit an sich, um ein nachsich¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_17" n="N018"/>tig aufmunterndes Verhalten der Kritik zu rechtfertigen. Seit
-      <lb facs="#facs_2_region_1684596726322_3446_tl_18" n="N019"/>einiger Zeit hat aber <hi rendition="#em">
-                  <rs type="person">Nohl</rs>ʼs</hi> athemlose Schreiberei Dimen¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_19" n="N020"/>sionen und Tendenzen angenommen, die selbst einer milden
+      <lb facs="#facs_2_region_1684596726322_3446_tl_14" n="N015"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi> in die Musik-Literatur eintrat, zeigten gerade hinrei
+      <lb facs="#facs_2_region_1684596726322_3446_tl_15" n="N016" break="no"/>chendes Talent und Streben, hatten gerade genug von des Ver
+      <lb facs="#facs_2_region_1684596726322_3446_tl_16" n="N017" break="no"/>fassers persönlicher Liebenswürdigkeit an sich, um ein nachsich
+      <lb facs="#facs_2_region_1684596726322_3446_tl_17" n="N018" break="no"/>tig aufmunterndes Verhalten der Kritik zu rechtfertigen. Seit
+      <lb facs="#facs_2_region_1684596726322_3446_tl_18" n="N019"/>einiger Zeit hat aber <hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs>ʼs</hi> athemlose Schreiberei Dimen
+      <lb facs="#facs_2_region_1684596726322_3446_tl_19" n="N020" break="no"/>sionen und Tendenzen angenommen, die selbst einer milden
       <lb facs="#facs_2_region_1684596726322_3446_tl_20" n="N021"/>Kritik die Pflicht ausdrücklichen Protestirens auflegen. Wie
-      <lb facs="#facs_2_line_1706093192029_218" n="N022"/>schon in seinem „<rs type="bibl">Skizzenbuch</rs>“, so scheint <rs type="person">Nohl</rs> auch in seinem
-      <lb facs="#facs_2_region_1684596726322_3446_tl_23" n="N023"/>„<rs type="bibl">Beethoven</rs>“ den großen Meister hauptsächlich zur verschämten
-      <lb facs="#facs_2_region_1684596726322_3446_tl_24" n="N024"/>(oder auch unverschämten) Glorification Richard <hi rendition="#em">
-                  <rs type="person">Wagner</rs>ʼs</hi>
-               <lb facs="#facs_2_region_1684596726322_3446_tl_25" n="N025"/>zu benützen. In dem kürzlich erschienenen zweiten Bande der
-      <lb facs="#facs_2_region_1684596726322_3446_tl_26" n="N026"/>
-               <rs type="bibl">Beethoven-Biographie</rs> weist <rs type="person">Nohl</rs> dem „<hi rendition="#em">
-                  <rs type="bibl">Fidelio</rs>
-               </hi>“ („der nur
+      <lb facs="#facs_2_line_1706093192029_218" n="N022"/>schon in seinem „<rs type="bibl" ref="#hsl_work_id_2570">Skizzenbuch</rs>“, so scheint <rs type="person" ref="#hsl_person_id_195">Nohl</rs> auch in seinem
+      <lb facs="#facs_2_region_1684596726322_3446_tl_23" n="N023"/>„<rs type="bibl" ref="#hsl_work_id_2566">Beethoven</rs>“ den großen Meister hauptsächlich zur verschämten
+                     <lb facs="#facs_2_region_1684596726322_3446_tl_24" n="N024"/>(oder auch unverschämten) Glorification Richard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684596726322_3446_tl_25" n="N025"/>zu benützen. In dem kürzlich erschienenen <rs type="bibl" ref="#hsl_work_id_466">zweiten Bande</rs> der
+      <lb facs="#facs_2_region_1684596726322_3446_tl_26" n="N026"/><rs type="bibl" ref="#hsl_work_id_2566">Beethoven-Biographie</rs> weist <rs type="person" ref="#hsl_person_id_195">Nohl</rs> dem „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs></hi>“ („der nur
       <lb facs="#facs_2_region_1684596726322_3446_tl_27" n="N027"/>an einzelnen hervorragenden, besonders drastischen Stellen über
-      <lb facs="#facs_2_region_1684596726322_3446_tl_28" n="N028"/>
-               <rs type="person">Cherubini</rs> und dessen Nachfolger weit hinauskam“) einen sehr
+      <lb facs="#facs_2_region_1684596726322_3446_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_47">Cherubini</rs> und dessen Nachfolger weit hinauskam“) einen sehr
       <lb facs="#facs_2_region_1684596726322_3446_tl_29" n="N029"/>bescheidenen Platz an, rühmt ihm aber das Verdienst einer
-      <lb facs="#facs_2_region_1684596726322_3446_tl_30" n="N030"/>Anregung nach, „welche erst heute in Richard <hi rendition="#em">
-                  <rs type="person">Wagner</rs>ʼs</hi>
-               <lb facs="#facs_2_region_1684596726322_3446_tl_31" n="N031"/>Schöpfungen, zumal in „<hi rendition="#em">
-                  <rs type="bibl">Tristan und Isolde</rs>
-               </hi>“, eine Vollen¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_32" n="N032"/>dung fand, von welcher sich weder <rs type="person">Cherubini</rs> noch selbst
-      <lb facs="#facs_2_region_1684596726322_3446_tl_33" n="N033"/>
-               <rs type="person">Beethoven</rs> in ihren dramatischen Werken etwas träumen ließen,
-      <lb facs="#facs_2_region_1684596726322_3446_tl_34" n="N034"/>sondern gegen die sich Beide nur wie allerdings mächtige Pro¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_35" n="N035"/>pheten des alten Bundes verhalten“. Dies zur Charakteristik
-      <lb facs="#facs_2_region_1684596726322_3446_tl_36" n="N036"/>von <rs type="person">Nohl</rs>ʼs ästhetischem Urtheil. Von seinem Beruf zum Hi¬
-      <lb facs="#facs_2_region_1684596726322_3446_tl_37" n="N037"/>storiker geben wir statt jedes eigenen Urtheils nur ein kleines
-      <lb facs="#facs_2_line_1705860746263_449" n="N038"/>allerliebstes Factum. In seinem <hi rendition="#em">ersten</hi> Bande fand <rs type="person">Nohl</rs> „mit</p>
-            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+                     <lb facs="#facs_2_region_1684596726322_3446_tl_30" n="N030"/>Anregung nach, „welche erst heute in Richard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684596726322_3446_tl_31" n="N031"/>Schöpfungen, zumal in „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs></hi>“, eine Vollen
+      <lb facs="#facs_2_region_1684596726322_3446_tl_32" n="N032" break="no"/>dung fand, von welcher sich weder <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> noch selbst
+      <lb facs="#facs_2_region_1684596726322_3446_tl_33" n="N033"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in ihren dramatischen Werken etwas träumen ließen,
+      <lb facs="#facs_2_region_1684596726322_3446_tl_34" n="N034"/>sondern gegen die sich Beide nur wie allerdings mächtige Pro
+      <lb facs="#facs_2_region_1684596726322_3446_tl_35" n="N035" break="no"/>pheten des alten Bundes verhalten“. Dies zur Charakteristik
+      <lb facs="#facs_2_region_1684596726322_3446_tl_36" n="N036"/>von <rs type="person" ref="#hsl_person_id_195">Nohl</rs>ʼs ästhetischem Urtheil. Von seinem Beruf zum Hi
+      <lb facs="#facs_2_region_1684596726322_3446_tl_37" n="N037" break="no"/>storiker geben wir statt jedes eigenen Urtheils nur ein kleines
+                     <lb facs="#facs_2_line_1705860746263_449" n="N038"/>allerliebstes Factum. In seinem <hi rendition="#em">ersten</hi> Bande fand <rs type="person" ref="#hsl_person_id_195">Nohl</rs> „mit</p><space quantity="1" unit="char"/>
+       <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
-            <p>
-               <lb facs="#facs_3_region_1684596736160_3452_tl_1" n="N001"/>Bestimmtheit anzunehmen“, daß der 22jährige <rs type="person">Beethoven</rs> auf
-      <lb facs="#facs_3_region_1684596736160_3452_tl_2" n="N002"/>seiner Reise nach <rs type="place">Wien</rs> (<date month="0" day="0" year="0">1792</date>) in <rs type="place">Mainz</rs> abstieg und ver¬
-      <lb facs="#facs_3_region_1684596736160_3452_tl_3" n="N003"/>weilte. War <rs type="person">Beethoven</rs> damals in <rs type="place">Mainz</rs>, folgert <rs type="person">Nohl</rs> wei¬
-      <lb facs="#facs_3_region_1684596736160_3452_tl_4" n="N004"/>ter, so hat er ohne Zweifel von den <rs type="place">französisch</rs>en Soldaten
-      <lb facs="#facs_3_region_1684596736160_3452_tl_5" n="N005"/>daselbst die <rs type="bibl">Marseillaise</rs> singen hören. Und nun wird mit
-      <lb facs="#facs_3_region_1684596736160_3452_tl_6" n="N006"/>lyrischem Schwung ausgemalt, welchen übermächtigen, bleiben¬
-      <lb facs="#facs_3_region_1684596736160_3452_tl_7" n="N007"/>den Eindruck dieser Gesang auf den jungen <rs type="person">Beethoven</rs> gemacht
-      <lb facs="#facs_3_region_1684596736160_3452_tl_8" n="N008"/>habe. Man müsse, phantasirt <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi> weiter, aus der „<rs type="bibl">Eroica</rs>“
+    <p prev="true">
+      <lb facs="#facs_3_region_1684596736160_3452_tl_1" n="N001"/>Bestimmtheit anzunehmen“, daß der 22jährige <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> auf
+          <lb facs="#facs_3_region_1684596736160_3452_tl_2" n="N002"/>seiner Reise nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> (<date when="1792">1792</date>) in <rs type="place" ref="#hsl_place_id_314">Mainz</rs> abstieg und ver
+      <lb facs="#facs_3_region_1684596736160_3452_tl_3" n="N003" break="no"/>weilte. War <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> damals in <rs type="place" ref="#hsl_place_id_314">Mainz</rs>, folgert <rs type="person" ref="#hsl_person_id_195">Nohl</rs> wei
+      <lb facs="#facs_3_region_1684596736160_3452_tl_4" n="N004" break="no"/>ter, so hat er ohne Zweifel von den <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Soldaten
+      <lb facs="#facs_3_region_1684596736160_3452_tl_5" n="N005"/>daselbst die <rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs> singen hören. Und nun wird mit
+      <lb facs="#facs_3_region_1684596736160_3452_tl_6" n="N006"/>lyrischem Schwung ausgemalt, welchen übermächtigen, bleiben
+      <lb facs="#facs_3_region_1684596736160_3452_tl_7" n="N007" break="no"/>den Eindruck dieser Gesang auf den jungen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> gemacht
+      <lb facs="#facs_3_region_1684596736160_3452_tl_8" n="N008"/>habe. Man müsse, phantasirt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi> weiter, aus der „<rs type="bibl" ref="#hsl_work_id_42">Eroica</rs>“
       <lb facs="#facs_3_region_1684596736160_3452_tl_9" n="N009"/>und anderen Werken des Meisters die Einwirkung dieses
-      <lb facs="#facs_3_region_1684596736160_3452_tl_10" n="N010"/>„<rs type="bibl">Päans der Revolution</rs>“ heraushören, den zu vernehmen er
+      <lb facs="#facs_3_region_1684596736160_3452_tl_10" n="N010"/>„<rs type="bibl" ref="#hsl_work_id_1027">Päans der Revolution</rs>“ heraushören, den zu vernehmen er
       <lb facs="#facs_3_region_1684596736160_3452_tl_11" n="N011"/>später nie wieder Gelegenheit bekam. Nun finden wir in
-      <lb facs="#facs_3_region_1684596736160_3452_tl_12" n="N012"/>
-               <rs type="person">Nohl</rs>ʼs <hi rendition="#em">zweitem</hi> Band, auf Seite 458, schüchtern unter den
-      <lb facs="#facs_3_region_1684596736160_3452_tl_13" n="N013"/>Anmerkungen versteckt die Mittheilung, daß <rs type="person">Beethoven</rs> damals
-      <lb facs="#facs_3_region_1684596736160_3452_tl_14" n="N014"/>eine ganz andere Reiseroute nach <rs type="place">Wien</rs> genommen und <rs type="place">Mainz</rs>
-               <lb facs="#facs_3_region_1684596736160_3452_tl_15" n="N015"/>gar nicht gesehen habe! Also keine singenden Franzosen, keine
-      <lb facs="#facs_3_line_1705860985862_487" n="N016"/>
-               <rs type="bibl">Marseillaise</rs>, kein tiefer Eindruck, keine „<rs type="bibl">Eroica</rs>“ — das ganze 
-      <lb facs="#facs_3_region_1684596736160_3452_tl_16" n="N017"/>kindisch aufgethürmte Kartenhaus fällt über den Haufen.
-      <lb facs="#facs_3_region_1684596736160_3452_tl_17" n="N018"/>Ein tüchtiges Handbuch der Musikgeschichte gehört unstrei¬
-      <lb facs="#facs_3_region_1684596736160_3452_tl_18" n="N019"/>tig zu den Bedürfnissen des musikliebenden Publicums, das
+      <lb facs="#facs_3_region_1684596736160_3452_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_195">Nohl</rs>ʼs <hi rendition="#em">zweitem</hi> Band, auf Seite 458, schüchtern unter den
+      <lb facs="#facs_3_region_1684596736160_3452_tl_13" n="N013"/>Anmerkungen versteckt die Mittheilung, daß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> damals
+          <lb facs="#facs_3_region_1684596736160_3452_tl_14" n="N014"/>eine ganz andere Reiseroute nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> genommen und <rs type="place" ref="#hsl_place_id_314">Mainz</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684596736160_3452_tl_15" n="N015"/>gar nicht gesehen habe! Also keine singenden Franzosen, keine
+      <lb facs="#facs_3_line_1705860985862_487" n="N016"/><rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs>, kein tiefer Eindruck, keine „<rs type="bibl" ref="#hsl_work_id_42">Eroica</rs>“ — das ganze 
+      <lb facs="#facs_3_region_1684596736160_3452_tl_16" n="N017"/>kindisch aufgethürmte Kartenhaus fällt über den Haufen.</p>
+               <p>
+      <lb facs="#facs_3_region_1684596736160_3452_tl_17" n="N018"/>Ein tüchtiges Handbuch der Musikgeschichte gehört unstrei
+      <lb facs="#facs_3_region_1684596736160_3452_tl_18" n="N019" break="no"/>tig zu den Bedürfnissen des musikliebenden Publicums, das
       <lb facs="#facs_3_region_1684596736160_3452_tl_19" n="N020"/>sich entweder mit schwerverständlichen gelehrten Werken plagen
       <lb facs="#facs_3_region_1684596736160_3452_tl_20" n="N021"/>oder mit oberflächlichen, phrasenreichen Surrogaten behelfen
-      <lb facs="#facs_3_region_1684596736160_3452_tl_21" n="N022"/>muss. *) Historische Gründlichkeit mit populärer Darstellung
-      <lb facs="#facs_3_region_1684596736160_3452_tl_22" n="N023"/>(soweit diese in der Musik überhaupt möglich) zu vereinigen
-      <lb facs="#facs_3_region_1684596736160_3452_tl_23" n="N024"/>*) Mitunter wäre eine verläßliche Musikgeschichte auch manchen
+      <lb facs="#facs_3_region_1684596736160_3452_tl_21" n="N022"/>muss. <note type="footnote" n="*)"><lb facs="#facs_3_region_1684596736160_3452_tl_23" n="N024"/>Mitunter wäre eine verläßliche Musikgeschichte auch manchen
       <lb facs="#facs_3_line_1705861258298_637" n="N025"/>Schriftstellern nützlich, deren Leichtfertigkeit gerade bei musikalischen
       <lb facs="#facs_3_line_1705861261904_642" n="N026"/>Themen am stärksten explodiert. So fiel uns jüngst eine Nummer der 
-      <lb facs="#facs_3_line_1705861264763_647" n="N027"/>beliebten „<rs type="bibl">Gartenlaube</rs>“ in die Hand, worin (Seite 776) eine längere 
-      <lb facs="#facs_3_line_1705861269255_652" n="N028"/>biographische Skizze Wenzel <hi rendition="#em">
-                  <rs type="person">Müller</rs>ʼs</hi> in novellistsichem Gewande
-      <lb facs="#facs_3_line_1705861272966_657" n="N029"/>unter dem Titel „<rs type="bibl">Das Donauweibchen in Prag</rs>“ erscheint. Wenzel
-      <lb facs="#facs_3_line_1705861277144_662" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi>, die Sängerin <hi rendition="#em">
-                  <rs type="person">Grünbaum</rs>
-               </hi>, C. M. <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi>, kurz alle
-      <lb facs="#facs_3_line_1705861280316_667" n="N031"/>Musik-Notabilitäten des damaligen <rs type="place">Prag</rs> sind die handelnden Perso¬
-      <lb facs="#facs_3_line_1705861283816_672" n="N032"/>nen. Die ganze Erzählung gruppirt sich darum, dass W. <rs type="person">Müller</rs> „sein“
-      <lb facs="#facs_3_line_1705861286565_677" n="N033"/>
-               <rs type="bibl">
-                  <hi rendition="#em">Donauweibchen</hi> in Prag</rs> aufführen sieht, von diesem „seinen“ Lieb¬
-      <lb facs="#facs_3_line_1705861289723_682" n="N034"/>lings-Meoldien sehr gerührt wird (es werden eine Menge Stellen dar¬
-      <lb facs="#facs_3_line_1705861292839_687" n="N035"/>aus citirt) u.s.w. Alles Mögliche weiß der Verfasser der Skizze, mit
-      <lb facs="#facs_3_line_1705861295864_692" n="N036"/>Ausnahme der einen Kleinigkeit, dass das berühmte „<rs type="bibl">Donauweibchen</rs>“
-      <lb facs="#facs_3_line_1705861299273_697" n="N037"/>gar nicht von Wenzel <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi>, sondern von Ferdinand <hi rendition="#em">
-                  <rs type="person">Kauer</rs>
-               </hi> ist.</p>
+      <lb facs="#facs_3_line_1705861264763_647" n="N027"/>beliebten „<rs type="bibl" ref="#hsl_work_id_2567">Gartenlaube</rs>“ in die Hand, worin (Seite 776) eine längere 
+      <lb facs="#facs_3_line_1705861269255_652" n="N028"/>biographische Skizze Wenzel <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1966">Müller</rs>ʼs</hi> in novellistsichem Gewande
+      <lb facs="#facs_3_line_1705861272966_657" n="N029"/>unter dem Titel „<rs type="bibl" ref="#hsl_work_id_2568">Das Donauweibchen in Prag</rs>“ erscheint. Wenzel
+      <lb facs="#facs_3_line_1705861277144_662" n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1966">Müller</rs></hi>, die Sängerin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2305">Grünbaum</rs></hi>, C. M. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs></hi>, kurz alle
+      <lb facs="#facs_3_line_1705861280316_667" n="N031"/>Musik-Notabilitäten des damaligen <rs type="place" ref="#hsl_place_id_45">Prag</rs> sind die handelnden Perso
+      <lb facs="#facs_3_line_1705861283816_672" n="N032" break="no"/>nen. Die ganze Erzählung gruppirt sich darum, dass W. <rs type="person" ref="#hsl_person_id_1966">Müller</rs> „sein“
+      <lb facs="#facs_3_line_1705861286565_677" n="N033"/><rs type="bibl" ref="#hsl_work_id_1006"><hi rendition="#em">Donauweibchen</hi></rs> in <rs type="place" ref="#hsl_place_id_45">Prag</rs> aufführen sieht, von diesem „seinen“ Lieb
+      <lb facs="#facs_3_line_1705861289723_682" n="N034" break="no"/>lings-Meoldien sehr gerührt wird (es werden eine Menge Stellen dar
+      <lb facs="#facs_3_line_1705861292839_687" n="N035" break="no"/>aus citirt) u.s.w. Alles Mögliche weiß der Verfasser der Skizze, mit
+      <lb facs="#facs_3_line_1705861295864_692" n="N036"/>Ausnahme der einen Kleinigkeit, dass das berühmte „<rs type="bibl" ref="#hsl_work_id_1006">Donauweibchen</rs>“
+      <lb facs="#facs_3_line_1705861299273_697" n="N037"/>gar nicht von Wenzel <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1966">Müller</rs></hi>, sondern von Ferdinand <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1596">Kauer</rs></hi> ist.</note> Historische Gründlichkeit mit populärer Darstellung
+      <lb facs="#facs_3_region_1684596736160_3452_tl_22" n="N023"/>(soweit diese in der Musik überhaupt möglich) zu vereinigen
+               </p><space quantity="1" unit="char"/>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684596740010_3455_tl_1" n="N001"/>ist die Aufgabe, die <hi rendition="#em">Arrey v. <rs type="person">Dommer</rs>
-               </hi> in seinem „<rs type="bibl">Hand¬</rs>
-               <lb facs="#facs_3_region_1684596740010_3455_tl_2" n="N002"/>
-               <rs type="bibl">buch der Musikgeschichte</rs>“ (<rs type="place">Leipzig</rs>
-               <date month="0" day="0" year="0">1868</date>) sich gestellt hat. Von
-      <lb facs="#facs_3_region_1684596740010_3455_tl_3" n="N003"/>allen uns bekannten Bearbeitungen ist die <hi rendition="#em">
-                  <rs type="person">Dommer</rs>
-               </hi>ʼsche die¬
-      <lb facs="#facs_3_region_1684596740010_3455_tl_4" n="N004"/>sem Ziele am nächsten gekommen. Der Verfasser genießt als
-      <lb facs="#facs_3_region_1684596740010_3455_tl_5" n="N005"/>gewissenhafter und kenntnißreicher Schriftsteller eines begrün¬
-      <lb facs="#facs_3_region_1684596740010_3455_tl_6" n="N006"/>deten Rufes; sein Buch trägt überall den Stempel tüchtiger
+            <p prev="true">
+      <lb facs="#facs_3_region_1684596740010_3455_tl_1" n="N001"/>ist die Aufgabe, die <hi rendition="#em">Arrey v. <rs type="person" ref="#hsl_person_id_403">Dommer</rs></hi> in seinem „<rs type="bibl" ref="#hsl_work_id_2562">Hand
+      <lb facs="#facs_3_region_1684596740010_3455_tl_2" n="N002" break="no"/>buch der Musikgeschichte</rs>“ (<rs type="place" ref="#hsl_place_id_32">Leipzig</rs><date when="1868">1868</date>) sich gestellt hat. Von
+      <lb facs="#facs_3_region_1684596740010_3455_tl_3" n="N003"/>allen uns bekannten Bearbeitungen ist die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_403">Dommer</rs></hi>ʼsche die
+      <lb facs="#facs_3_region_1684596740010_3455_tl_4" n="N004" break="no"/>sem Ziele am nächsten gekommen. Der Verfasser genießt als
+      <lb facs="#facs_3_region_1684596740010_3455_tl_5" n="N005"/>gewissenhafter und kenntnißreicher Schriftsteller eines begrün
+      <lb facs="#facs_3_region_1684596740010_3455_tl_6" n="N006" break="no"/>deten Rufes; sein Buch trägt überall den Stempel tüchtiger
       <lb facs="#facs_3_region_1684596740010_3455_tl_7" n="N007"/>Forschung und reifen, unbefangenen Urtheils. Er läßt sich nur
       <lb facs="#facs_3_region_1684596740010_3455_tl_8" n="N008"/>auf Dinge ein, die wirklich untersucht sind, und unterscheidet
       <lb facs="#facs_3_region_1684596740010_3455_tl_9" n="N009"/>strenge, ob das, was er eben vorträgt, <hi rendition="#em">gewiß</hi>, ob es nur
-      <lb facs="#facs_3_region_1684596740010_3455_tl_10" n="N010"/>
-               <hi rendition="#em">wahrscheinlich</hi>, oder ob es blos <hi rendition="#em">möglich</hi> ist. <hi rendition="#em">Dommerʼs</hi>
-               <lb facs="#facs_3_region_1684596740010_3455_tl_11" n="N011"/>Darstellung ist schlicht und sachgemäß, vielleicht mitunter etwas
+                  <lb facs="#facs_3_region_1684596740010_3455_tl_10" n="N010"/><hi rendition="#em">wahrscheinlich</hi>, oder ob es blos <hi rendition="#em">möglich</hi> ist. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_403">Dommer</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684596740010_3455_tl_11" n="N011"/>Darstellung ist schlicht und sachgemäß, vielleicht mitunter etwas
       <lb facs="#facs_3_region_1684596740010_3455_tl_12" n="N012"/>trocken, aber frei von Phrasen und Parteitendenz. Die ältere
       <lb facs="#facs_3_region_1684596740010_3455_tl_13" n="N013"/>Geschichte ist in 16 Capiteln mit möglichster Ausführlichkeit
-      <lb facs="#facs_3_region_1684596740010_3455_tl_14" n="N014"/>behandelt, die neuere, von <rs type="person">Bach</rs> und <rs type="person">Händel</rs> bis zu <rs type="person">Beethoven</rs>ʼs
+      <lb facs="#facs_3_region_1684596740010_3455_tl_14" n="N014"/>behandelt, die neuere, von <rs type="person" ref="#hsl_person_id_18">Bach</rs> und <rs type="person" ref="#hsl_person_id_108">Händel</rs> bis zu <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs
       <lb facs="#facs_3_region_1684596740010_3455_tl_15" n="N015"/>Tod, in drei Capiteln und gedrängter. Auf Einzelheiten
       <lb facs="#facs_3_line_1705860985862_486" n="N016"/>einzugehen ist hier nicht der Ort, auch konnten wir das eben
       <lb facs="#facs_3_region_1684596740010_3455_tl_17" n="N017"/>erst erschienene Buch bisher nur flüchtig durchgehen. Da fiel
       <lb facs="#facs_3_region_1684596740010_3455_tl_18" n="N018"/>uns aber gleich anfangs die vorurtheilsfreie, alle philologischen
-      <lb facs="#facs_3_region_1684596740010_3455_tl_19" n="N019"/>Träumereien abweisende Beurtheilung des <rs type="place">griechisch</rs>en Musik¬
-      <lb facs="#facs_3_region_1684596740010_3455_tl_20" n="N020"/>wesens angenehm auf, desgleichen die klare Darstellung der
+      <lb facs="#facs_3_region_1684596740010_3455_tl_19" n="N019"/>Träumereien abweisende Beurtheilung des <rs type="place" ref="#hsl_place_id_23">griechisch</rs>en Musik
+      <lb facs="#facs_3_region_1684596740010_3455_tl_20" n="N020" break="no"/>wesens angenehm auf, desgleichen die klare Darstellung der
       <lb facs="#facs_3_region_1684596740010_3455_tl_21" n="N021"/>ersten contrapunktischen Versuche (wobei mit Recht Oskar
-      <lb facs="#facs_3_region_1684596740010_3455_tl_22" n="N022"/>
-               <hi rendition="#em">
-                  <rs type="person">Paul</rs>ʼs</hi> neue Auslegung des Huebaldʼschen Organons verwor¬
-      <lb facs="#facs_3_region_1684596740010_3455_tl_23" n="N023"/>fen wird), die Charakteristik <hi rendition="#em">
-                  <rs type="person">Palestrina</rs>ʼs</hi>, die volle Würdi¬
-      <lb facs="#facs_3_region_1684596740010_3455_tl_24" n="N024"/>gung des genialen Alessandro <hi rendition="#em">
-                  <rs type="person">Scarlatti</rs>
-               </hi> ec. Die späteren
-      <lb facs="#facs_3_region_1684596740010_3455_tl_25" n="N025"/>
-               <rs type="place">italienisch</rs>en Opern-Componisten hätten wir gern ausführlicher
-      <lb facs="#facs_3_region_1684596740010_3455_tl_26" n="N026"/>und schärfer charakterisirt gesehen. *) Den <hi rendition="#em">musikalischen</hi>
-               <lb facs="#facs_3_line_1705861306983_702" n="N027"/>*) Mit den Opern-Partituren der älteren Italiener und Franzosen
-      <lb facs="#facs_3_line_1705861310817_707" n="N028"/>scheint der Verfasser sich selbst weniger beschäftigt zu haben, er wie¬
-      <lb facs="#facs_3_line_1705861322468_715" n="N029"/>derholt fast nur die Urteile Anderer. Dadurch kommt z.B. <hi rendition="#em">
-                  <rs type="person" continued="true">Per¬</rs>
-               </hi>
-               <lb facs="#facs_3_line_1705861324972_720" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">golese</rs>
-               </hi> entschieden zu kurz, dessen „<rs type="bibl">Serva Padrona</rs>“ geradezu die
-      <lb facs="#facs_3_line_1705861327899_725" n="N031"/>Mutter der gesammten späteren Opera buffa ist. Bei <hi rendition="#em">
-                  <rs type="person">Stradella</rs>
-               </hi>
-               <lb facs="#facs_3_line_1705861330944_730" n="N032"/>vermuthet der Verfasser richtig, dass die ihm zugeschriebene Kirchen-Arie
-      <lb facs="#facs_3_line_1705861334219_735" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Se i mici sospiri</rs>
-               </hi> „einer etwas späteren Zeit angehören dürfte“.
-      <lb facs="#facs_3_line_1705861336546_740" n="N034"/>In der That liegt hier eine absichtliche Fälschung vor, deren Fabri¬
-      <lb facs="#facs_3_line_1705861339034_745" n="N035"/>cationsort <rs type="place">Paris</rs> ist und die hoffentlich bald ihre vollständige Beleuch¬
-      <lb facs="#facs_3_line_1705861342317_750" n="N036"/>tung finden wird. Der zweiten, wiederholt augelegten „Kirchen-Arie
-      <lb facs="#facs_3_line_1705861345966_755" n="N037"/>
-               <rs type="person">Stradella</rs>ʼs“ (dem <rs type="place">Wien</rs>er Publicum durch Concertvorträge <hi rendition="#em">
-                  <rs type="person">Auber</rs>ʼs</hi>
-            </p>
+      <lb facs="#facs_3_region_1684596740010_3455_tl_22" n="N022"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4160">Paul</rs>ʼs</hi> neue Auslegung des Huebaldʼschen Organons verwor
+      <lb facs="#facs_3_region_1684596740010_3455_tl_23" n="N023" break="no"/>fen wird), die Charakteristik <hi rendition="#em"><rs type="person" ref="#hsl_person_id_927">Palestrina</rs>ʼs</hi>, die volle Würdi
+      <lb facs="#facs_3_region_1684596740010_3455_tl_24" n="N024" break="no"/>gung des genialen Alessandro <hi rendition="#em"><rs type="person" ref="#hsl_person_id_890">Scarlatti</rs></hi> ec. Die späteren
+      <lb facs="#facs_3_region_1684596740010_3455_tl_25" n="N025"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Opern-Componisten hätten wir gern ausführlicher
+      <lb facs="#facs_3_region_1684596740010_3455_tl_26" n="N026"/>und schärfer charakterisirt gesehen. <note type="footnote" n="*)"><lb facs="#facs_3_line_1705861306983_702" n="N027"/>Mit den Opern-Partituren der älteren Italiener und Franzosen
+      <lb facs="#facs_3_line_1705861310817_707" n="N028"/>scheint der Verfasser sich selbst weniger beschäftigt zu haben, er wie
+      <lb facs="#facs_3_line_1705861322468_715" n="N029" break="no"/>derholt fast nur die Urteile Anderer. Dadurch kommt z.B. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_211">Per
+      <lb facs="#facs_3_line_1705861324972_720" n="N030" break="no"/>golese</rs></hi> entschieden zu kurz, dessen „<rs type="bibl" ref="#hsl_work_id_124">Serva Padrona</rs>“ geradezu die
+            <lb facs="#facs_3_line_1705861327899_725" n="N031"/>Mutter der gesammten späteren Opera buffa ist. Bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_424">Stradella</rs></hi><space quantity="1" unit="char"/>
+            <lb facs="#facs_3_line_1705861330944_730" n="N032"/>vermuthet der Verfasser richtig, dass die ihm zugeschriebene <rs type="bibl" ref="#hsl_work_id_955">Kirchen-Arie</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_line_1705861334219_735" n="N033"/><hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_955">Se i miei sospiri</rs></hi> „einer etwas späteren Zeit angehören dürfte“.
+      <lb facs="#facs_3_line_1705861336546_740" n="N034"/>In der That liegt hier eine absichtliche Fälschung vor, deren Fabri
+      <lb facs="#facs_3_line_1705861339034_745" n="N035" break="no"/>cationsort <rs type="place" ref="#hsl_place_id_44">Paris</rs> ist und die hoffentlich bald ihre vollständige Beleuch
+      <lb facs="#facs_3_line_1705861342317_750" n="N036" break="no"/>tung finden wird. Der zweiten, wiederholt augelegten „Kirchen-Arie
+      <lb facs="#facs_3_line_1705861345966_755" n="N037"/><rs type="person" ref="#hsl_person_id_424">Stradella</rs>ʼs“ (dem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum durch Concertvorträge <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs>ʼs
+      <lb facs="#facs_3_line_1705861175835_608" n="N030"/>und Dr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_271">Schmid</rs>ʼs</hi> bekannt) erwähnt <rs type="person" ref="#hsl_person_id_403">Dommer</rs> nicht. Sie ist ebenso
+      <lb facs="#facs_3_line_1705861190499_613" n="N031" break="no"/>wenig von <rs type="person" ref="#hsl_person_id_424">Stradella</rs> und beruht auf einer Mystification, die ich
+      <lb facs="#facs_3_line_1705861220814_623" n="N032"/>jüngst zufällig entdeckte. Ich fand nämlich diese angebliche Kirche-Arie
+      <lb facs="#facs_3_line_1706092309608_93" n="N033"/>in <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs>ʼs</hi> wenig bekannter Oper „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2569">Paris und Helena</rs></hi>“ in der
+      <lb facs="#facs_3_region_1684596743498_3458_tl_40" n="N034" break="no"/>selben Tonart (G-moll), mit demselben Texte: „O del mio dolce
+      <lb facs="#facs_3_region_1684596743498_3458_tl_42" n="N035"/>ardor“ Note für Note wieder. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4163">Paris</rs></hi> singt sie zu Anfang des
+      <lb facs="#facs_3_line_1705861237217_628" n="N036"/>ersten Actes.</hi></note> Den <hi rendition="#em">musikalischen</hi></p><space quantity="1" unit="char"/>
             <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1684596743498_3458_tl_1" n="N001"/>Werth und Segen des protestantischen Chorals scheint uns
-      <lb facs="#facs_3_region_1684596743498_3458_tl_2" n="N002"/>
-               <rs type="person">Dommer</rs>, gleich den meisten protestantischen Schriftstellern, zu
+  <p prev="true">
+      <lb facs="#facs_3_region_1684596743498_3458_tl_1" n="N001"/>Werth und Segen des protestantischen Chorals scheint uns
+      <lb facs="#facs_3_region_1684596743498_3458_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_403">Dommer</rs>, gleich den meisten protestantischen Schriftstellern, zu
       <lb facs="#facs_3_region_1684596743498_3458_tl_3" n="N003"/>hoch zu schätzen. Hingegen bemerkten wir mit Vergnügen, wie
-      <lb facs="#facs_3_region_1684596743498_3458_tl_4" n="N004"/>
-               <rs type="person">Dommer</rs>, der Freund und Mitarbeiter des <rs type="person">Händel</rs>-Biographen
-      <lb facs="#facs_3_region_1684596743498_3458_tl_5" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="person">Chrysander</rs>
-               </hi>, keineswegs <rs type="person">Händel</rs> auf Kosten <rs type="person">Bach</rs>ʼs erhebt,
-      <lb facs="#facs_3_region_1684596743498_3458_tl_6" n="N006"/>sondern über beide Meister mit gleicher Liebe und Unbefangen¬
-      <lb facs="#facs_3_region_1684596743498_3458_tl_7" n="N007"/>heit urtheilt. Sei denn das Buch nochmals aufs wärmste
-      <lb facs="#facs_3_region_1684596743498_3458_tl_8" n="N008"/>empfohlen. Ueber Einzelheiten der Darstellung und des Ur¬
-      <lb facs="#facs_3_region_1684596743498_3458_tl_9" n="N009"/>theils wird man streiten können, über die Tüchtigkeit des
-      <lb facs="#facs_3_region_1684596743498_3458_tl_10" n="N010"/>Ganzen gewiß nicht.
+      <lb facs="#facs_3_region_1684596743498_3458_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_403">Dommer</rs>, der Freund und Mitarbeiter des <rs type="person" ref="#hsl_person_id_108">Händel</rs>-Biographen
+      <lb facs="#facs_3_region_1684596743498_3458_tl_5" n="N005"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1444">Chrysander</rs></hi>, keineswegs <rs type="person" ref="#hsl_person_id_108">Händel</rs> auf Kosten <rs type="person" ref="#hsl_person_id_18">Bach</rs>ʼs erhebt,
+      <lb facs="#facs_3_region_1684596743498_3458_tl_6" n="N006"/>sondern über beide Meister mit gleicher Liebe und Unbefangen
+      <lb facs="#facs_3_region_1684596743498_3458_tl_7" n="N007" break="no"/>heit urtheilt. Sei denn das Buch nochmals aufs wärmste
+      <lb facs="#facs_3_region_1684596743498_3458_tl_8" n="N008"/>empfohlen. Ueber Einzelheiten der Darstellung und des Ur
+      <lb facs="#facs_3_region_1684596743498_3458_tl_9" n="N009" break="no"/>theils wird man streiten können, über die Tüchtigkeit des
+      <lb facs="#facs_3_region_1684596743498_3458_tl_10" n="N010"/>Ganzen gewiß nicht.</p>
+               <p>
       <lb facs="#facs_3_region_1684596743498_3458_tl_11" n="N011"/>Gestatte uns der Leser zum Schlusse noch einen kurzen
       <lb facs="#facs_3_region_1684596743498_3458_tl_12" n="N012"/>Abstecher von den Büchern über Musik zur Musik selbst. Zwei
       <lb facs="#facs_3_region_1684596743498_3458_tl_13" n="N013"/>neue Ausgaben classischer Tonwerke sind es, die in neuester
       <lb facs="#facs_3_region_1684596743498_3458_tl_14" n="N014"/>Zeit sich großen Erfolg errungen und verdienen. Wer nach
       <lb facs="#facs_3_region_1684596743498_3458_tl_15" n="N015"/>einer correcten, vollständigen und sehr billigen Ausgabe der
-      <lb facs="#facs_3_region_1684596743498_3458_tl_16" n="N016"/>Clavier-, Violin- oder Orgel-Compositionen Seb. <hi rendition="#em">
-                  <rs type="person">Bach</rs>ʼs</hi>
-               <lb facs="#facs_3_region_1684596743498_3458_tl_17" n="N017"/>fahndet, wird deren neue Publication durch <hi rendition="#em">C. F. <rs type="person">Peters</rs>
-               </hi> in
-      <lb facs="#facs_3_region_1684596743498_3458_tl_18" n="N018"/>
-               <rs type="place">Leipzig</rs> mit Freuden begrüßen. Die Freunde vierhändigen Cla¬
-      <lb facs="#facs_3_region_1684596743498_3458_tl_19" n="N019"/>vierspiels hingegen können die Clavier- und Violin-Concerte
-      <lb facs="#facs_3_region_1684596743498_3458_tl_20" n="N020"/>von <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> kaum besser arrangirt und
+                     <lb facs="#facs_3_region_1684596743498_3458_tl_16" n="N016"/>Clavier-, Violin- oder Orgel-Compositionen Seb. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_18">Bach</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684596743498_3458_tl_17" n="N017"/>fahndet, wird deren neue Publication durch <hi rendition="#em">C. F. <rs type="person" ref="#hsl_person_id_212">Peters</rs></hi> in
+      <lb facs="#facs_3_region_1684596743498_3458_tl_18" n="N018"/><rs type="place" ref="#hsl_place_id_32">Leipzig</rs> mit Freuden begrüßen. Die Freunde vierhändigen Cla
+      <lb facs="#facs_3_region_1684596743498_3458_tl_19" n="N019" break="no"/>vierspiels hingegen können die Clavier- und Violin-Concerte
+      <lb facs="#facs_3_region_1684596743498_3458_tl_20" n="N020"/>von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> kaum besser arrangirt und
       <lb facs="#facs_3_region_1684596743498_3458_tl_21" n="N021"/>eleganter ausgestattet finden, als in der neuen Ausgabe von
-      <lb facs="#facs_3_region_1684596743498_3458_tl_22" n="N022"/>
-               <hi rendition="#em">
-                  <rs type="person">Leuckart</rs>
-               </hi> in Breslau. Unser Fingerzeig dürfte a tempo
-      <lb facs="#facs_3_region_1684596743498_3458_tl_23" n="N023"/>kommen, denn eben jetzt, wo <hi rendition="#em">
-                  <rs type="person">Joachim</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Rubinstein</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684596743498_3458_tl_24" n="N024"/>mit Concerten von <rs type="person">Mozart</rs> und <rs type="person">Beethoven</rs>, mit <rs type="person">Bach</rs>ʼschen
+      <lb facs="#facs_3_region_1684596743498_3458_tl_22" n="N022"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4162">Leuckart</rs></hi> in <rs type="place" ref="#hsl_place_id_70">Breslau</rs>. Unser Fingerzeig dürfte a tempo
+                     <lb facs="#facs_3_region_1684596743498_3458_tl_23" n="N023"/>kommen, denn eben jetzt, wo <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_244">Rubinstein</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684596743498_3458_tl_24" n="N024"/>mit Concerten von <rs type="person" ref="#hsl_person_id_189">Mozart</rs> und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, mit <rs type="person" ref="#hsl_person_id_18">Bach</rs>ʼschen
       <lb facs="#facs_3_region_1684596743498_3458_tl_25" n="N025"/>Suiten und Sonaten hier ihre größten Triumphe feierten,
       <lb facs="#facs_3_region_1684596743498_3458_tl_26" n="N026"/>wird der Sinn vieler Concertbesucher sich nach dem Besitz
-      <lb facs="#facs_3_region_1684596743498_3458_tl_27" n="N027"/>dieser Tondichtungen und ihr Schritt nach den Musikhandlun¬
-      <lb facs="#facs_3_region_1684596743498_3458_tl_28" n="N028"/>gen wenden. Groß ist die Macht des Beispiels — wenn es
+      <lb facs="#facs_3_region_1684596743498_3458_tl_27" n="N027"/>dieser Tondichtungen und ihr Schritt nach den Musikhandlun
+      <lb facs="#facs_3_region_1684596743498_3458_tl_28" n="N028" break="no"/>gen wenden. Groß ist die Macht des Beispiels — wenn es
       <lb facs="#facs_3_region_1684596743498_3458_tl_29" n="N029"/>von Virtuosen kommt.
-      <lb facs="#facs_3_line_1705861175835_608" n="N030"/>und Dr. <hi rendition="#em">
-                  <rs type="person">Schmid</rs>ʼs</hi> bekannt) erwähnt <rs type="person">Dommer</rs> nicht. Sie ist ebenso¬
-      <lb facs="#facs_3_line_1705861190499_613" n="N031"/>wenig von <rs type="person">Stradella</rs> und beruht auf einer Mystification, die ich
-      <lb facs="#facs_3_line_1705861220814_623" n="N032"/>jüngst zufällig entdeckte. Ich fand nämlich diese angebliche Kirche-Arie
-      <lb facs="#facs_3_line_1706092309608_93" n="N033"/>in <hi rendition="#em">
-                  <rs type="person">Gluck</rs>ʼs</hi> wenig bekannter Oper „<hi rendition="#em">
-                  <rs type="bibl">Paris und Helena</rs>
-               </hi>“ in der¬
-      <lb facs="#facs_3_region_1684596743498_3458_tl_40" n="N034"/>selben Tonart (G-moll), mit demselben Texte: „O del mio dolce
-      <lb facs="#facs_3_region_1684596743498_3458_tl_42" n="N035"/>ardor“ Note für Note wieder. <hi rendition="#em">
-                  <rs type="person">Paris</rs>
-               </hi> singt sie zu Anfang des
-      <lb facs="#facs_3_line_1705861237217_628" n="N036"/>ersten Actes.</p>
+      </p>
          </div>
       </body>
    </text>
