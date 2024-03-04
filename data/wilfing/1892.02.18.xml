@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 9872. Wien, Donnerstag, den 18. Februar 1892</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 9872. Wien, Donnerstag, den 18. Februar 1892</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1892-02-18">18.02.1892</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2024-02-11">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2024-02-23">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2024-03-04">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1161,452 +1160,354 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684911535251_903_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1684911535251_903_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_823">Werther</rs></hi>“, Oper in drei Acten von J. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1302">Massenet</rs></hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1705220085383_944" n="N001"/>Nr. 9872. Wien, Donnerstag, den 18. Februar 1892</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684911535251_903_tl_1" n="N001"/>Hofoperntheater.
-      <lb facs="#facs_1_region_1684911535251_903_tl_2" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Werther</rs>
-               </hi>“, Oper in drei Acten von J. <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi>.)
       <lb facs="#facs_1_line_1705220171853_983" n="N003"/>Ed. H. Auf die Frage, welche musikalische Individualität
-      <lb facs="#facs_1_region_1684911535251_903_tl_3" n="N004"/>wol die nächste Verwandtschaft mit <rs type="person">Goethe</rs>'s <rs type="bibl">Werther</rs>-Dich¬
-      <lb facs="#facs_1_region_1684911535251_903_tl_4" n="N005"/>tung offenbare, möchte ich mit dem Namen <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684911535251_903_tl_5" n="N006"/>antworten. Sein tiefes, nach Innen zehrendes Gefühlsleben,
+      <lb facs="#facs_1_region_1684911535251_903_tl_3" n="N004"/>wol die nächste Verwandtschaft mit <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s <rs type="bibl" ref="#hsl_work_id_493">Werther</rs>-Dich
+      <lb facs="#facs_1_region_1684911535251_903_tl_4" n="N005" break="no"/>tung offenbare, möchte ich mit dem Namen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684911535251_903_tl_5" n="N006"/>antworten. Sein tiefes, nach Innen zehrendes Gefühlsleben,
       <lb facs="#facs_1_region_1684911535251_903_tl_6" n="N007"/>sein sensitives, liebenswürdig träumerisches Wesen — das
-      <lb facs="#facs_1_line_1705220188613_989" n="N008"/>Alles müßte zu den „<rs type="bibl">Leiden des jungen Werther</rs>“ wie ein
-      <lb facs="#facs_1_region_1684911535251_903_tl_7" n="N009"/>harmonischer Oberton erklingen. Für alle die poetischen Ele¬
-      <lb facs="#facs_1_region_1684911535251_903_tl_8" n="N010"/>mente, welche die wunderbare Dichtung <rs type="person">Goethe</rs>'s beherrschen,
-      <lb facs="#facs_1_region_1684911535251_903_tl_9" n="N011"/>finden wir in <rs type="person">Schumann</rs>'s Musik die entsprechenden Töne:
+      <lb facs="#facs_1_line_1705220188613_989" n="N008"/>Alles müßte zu den „<rs type="bibl" ref="#hsl_work_id_493">Leiden des jungen Werther</rs>“ wie ein
+      <lb facs="#facs_1_region_1684911535251_903_tl_7" n="N009"/>harmonischer Oberton erklingen. Für alle die poetischen Ele
+      <lb facs="#facs_1_region_1684911535251_903_tl_8" n="N010" break="no"/>mente, welche die wunderbare Dichtung <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s beherrschen,
+      <lb facs="#facs_1_region_1684911535251_903_tl_9" n="N011"/>finden wir in <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s Musik die entsprechenden Töne:
       <lb facs="#facs_1_region_1684911535251_903_tl_10" n="N012"/>für das innige Naturleben mit seinen geheimnißvollsten
-      <lb facs="#facs_1_line_1705220126815_959" n="N013"/>Regungen den „<rs type="bibl">Eichendorff'schen Liederkreis</rs>“; für die Her¬
-      <lb facs="#facs_1_line_1705220131645_964" n="N014"/>zensgeschichte den „<rs type="bibl">Heine</rs>- und <rs type="bibl">Rückert</rs>-Cyklus“; für den
-      <lb facs="#facs_1_line_1705220137147_969" n="N015"/>düsteren Ausgang endlich den „<rs type="bibl">Manfred</rs>“. Eine <hi rendition="#em">Oper</hi>
-               <lb facs="#facs_1_region_1684911535251_903_tl_17" n="N016"/>freilich bedarf neben der Lyrik noch einer starken
+      <lb facs="#facs_1_line_1705220126815_959" n="N013"/>Regungen den „<rs type="bibl" ref="#hsl_work_id_2593">Eichendorff’schen Liederkreis</rs>“; für die Her
+      <lb facs="#facs_1_line_1705220131645_964" n="N014" break="no"/>zensgeschichte den „<rs type="bibl" ref="#hsl_work_id_2594">Heine</rs>- und <rs type="bibl" ref="#hsl_work_id_2595">Rückert</rs>-Cyklus“; für den
+      <lb facs="#facs_1_line_1705220137147_969" n="N015"/>düsteren Ausgang endlich den „<rs type="bibl" ref="#hsl_work_id_92">Manfred</rs>“. Eine <hi rendition="#em">Oper</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684911535251_903_tl_17" n="N016"/>freilich bedarf neben der Lyrik noch einer starken
       <lb facs="#facs_1_region_1684911535251_903_tl_18" n="N017"/>dramatischen Triebkraft, und diese ist nirgends schwerer
-      <lb facs="#facs_1_region_1684911535251_903_tl_19" n="N018"/>auszulösen, als aus dem <rs type="bibl">Werther</rs>stoffe. <rs type="person">Schumann</rs>, dem der
-      <lb facs="#facs_1_region_1684911535251_903_tl_20" n="N019"/>dramatische Nerv und noch mehr das Auge für Theater¬
-      <lb facs="#facs_1_region_1684911535251_903_tl_21" n="N020"/>wirkung fehlte, wäre uns nach dieser Richtung unzweifelhaft
+      <lb facs="#facs_1_region_1684911535251_903_tl_19" n="N018"/>auszulösen, als aus dem <rs type="bibl" ref="#hsl_work_id_493">Werther</rs>stoffe. <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, dem der
+      <lb facs="#facs_1_region_1684911535251_903_tl_20" n="N019"/>dramatische Nerv und noch mehr das Auge für Theater
+      <lb facs="#facs_1_region_1684911535251_903_tl_21" n="N020" break="no"/>wirkung fehlte, wäre uns nach dieser Richtung unzweifelhaft
       <lb facs="#facs_1_region_1684911535251_903_tl_22" n="N021"/>viel schuldig geblieben. Er scheint auch einen „Werther“ nie
-      <lb facs="#facs_1_region_1684911535251_903_tl_23" n="N022"/>im Sinne gehabt zu haben, obschon er mit seinem Opern¬
-      <lb facs="#facs_1_region_1684911535251_903_tl_24" n="N023"/>project „<rs type="bibl">Abälard und Heloise</rs>“ nicht gar weit davon stand.
-      <lb facs="#facs_1_region_1684911535251_903_tl_25" n="N024"/>Kein einziger <rs type="place">deutsch</rs>er Tondichter hat, trotz der verlockenden
-      <lb facs="#facs_1_region_1684911535251_903_tl_26" n="N025"/>Popularität des Stoffes, nach <rs type="person">Goethe</rs>'s „<rs type="bibl">Werther</rs>“ gegriffen.
+      <lb facs="#facs_1_region_1684911535251_903_tl_23" n="N022"/>im Sinne gehabt zu haben, obschon er mit seinem Opern
+      <lb facs="#facs_1_region_1684911535251_903_tl_24" n="N023" break="no"/>project „<rs type="bibl" ref="#hsl_work_id_2596">Abälard und Heloise</rs>“ nicht gar weit davon stand.
+      <lb facs="#facs_1_region_1684911535251_903_tl_25" n="N024"/>Kein einziger <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Tondichter hat, trotz der verlockenden
+      <lb facs="#facs_1_region_1684911535251_903_tl_26" n="N025"/>Popularität des Stoffes, nach <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s „<rs type="bibl" ref="#hsl_work_id_493">Werther</rs>“ gegriffen.
       <lb facs="#facs_1_region_1684911535251_903_tl_27" n="N026"/>Zunächst wol aus pietätvoller Scheu — wie denn überhaupt
       <lb facs="#facs_1_line_1705220244525_1007" n="N027"/>unsere Classiker nicht von Deutschen, sondern von Franzosen
       <lb facs="#facs_1_line_1705220260545_1013" n="N028"/>und Italienern für Opernzwecke benützt zu werden pflegen
       <lb facs="#facs_1_region_1684911535251_903_tl_28" n="N029"/>— sodann aus begründetem Mißtrauen gegen die undramatische
-      <lb facs="#facs_1_region_1684911535251_903_tl_29" n="N030"/>Natur des <rs type="bibl">Werther</rs>. Die romanischen Völker standen dem Ge¬
-      <lb facs="#facs_1_region_1684911535251_903_tl_30" n="N031"/>dichte objectiver, unbefangener — um nicht zu sagen ungenirter
+      <lb facs="#facs_1_region_1684911535251_903_tl_29" n="N030"/>Natur des <rs type="bibl" ref="#hsl_work_id_493">Werther</rs>. Die romanischen Völker standen dem Ge
+      <lb facs="#facs_1_region_1684911535251_903_tl_30" n="N031" break="no"/>dichte objectiver, unbefangener — um nicht zu sagen ungenirter
       <lb facs="#facs_1_region_1684911535251_903_tl_31" n="N032"/>— gegenüber, durften sich auch mehr als die Deutschen das
-      <lb facs="#facs_1_region_1684911535251_903_tl_32" n="N033"/>Talent zutrauen, dem <rs type="bibl">Werther</rs> aus Eigenem das nöthige
+      <lb facs="#facs_1_region_1684911535251_903_tl_32" n="N033"/>Talent zutrauen, dem <rs type="bibl" ref="#hsl_work_id_493">Werther</rs> aus Eigenem das nöthige
       <lb facs="#facs_1_line_1705220279385_1019" n="N034"/>Theaterblut einzuflößen. Es ist bezeichnend, daß die erste
-      <lb facs="#facs_1_region_1684911535251_903_tl_33" n="N035"/>
-               <rs type="bibl">Werther</rs>-Oper von einem Franzosen herrührt, von Rodolphe
-      <lb facs="#facs_1_region_1684911535251_903_tl_34" n="N036"/>
-               <hi rendition="#em">
-                  <rs type="person">Kreuzer</rs>
-               </hi>, demselben, welcher durch die Dedication der be¬
-      <lb facs="#facs_1_region_1684911535251_903_tl_35" n="N037"/>kannten <rs type="person">Beethoven</rs>'schen <rs type="bibl">Violin-Sonate</rs> ein Stück Unsterblich¬
-      <lb facs="#facs_1_line_1705220296615_1025" n="N038"/>keit mitgenießt. <rs type="person">Kreuzer</rs>'s einactige Oper „<rs type="bibl">Werther et Char¬</rs>
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684911538371_906_tl_1" n="N001"/>
-               <rs type="bibl">lotte</rs>“ wurde inmitten der <rs type="place">Paris</rs>er Revolutionsstürme im
-      <lb facs="#facs_1_region_1684911538371_906_tl_2" n="N002"/>Februar <date month="0" day="0" year="0">1792</date> zum erstenmale gegeben, also genau hundert
-      <lb facs="#facs_1_region_1684911538371_906_tl_3" n="N003"/>Jahre vor der Première des „<rs type="bibl">Werther</rs>“ von <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi>.
-      <lb facs="#facs_1_region_1684911538371_906_tl_4" n="N004"/>Nach Rodolphe <rs type="person">Kreuzer</rs> haben auch einige Italiener
-      <lb facs="#facs_1_line_1705220338985_1036" n="N005"/>zweiten und dritten Ranges <rs type="bibl">Werther</rs>-Opern zur Auf¬
-      <lb facs="#facs_1_region_1684911538371_906_tl_5" n="N006"/>führung gebracht: <hi rendition="#em">
-                  <rs type="person">Benvenuti</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Pucitta</rs>
-               </hi> und
-      <lb facs="#facs_1_region_1684911538371_906_tl_6" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person">Coccia</rs>
-               </hi> zu Anfang dieses Jahrhunderts, <hi rendition="#em">
-                  <rs type="person">Gentili</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684911538371_906_tl_7" n="N008"/>und <hi rendition="#em">
-                  <rs type="person">Aspa</rs>
-               </hi> in den Sechziger-Jahren. Das Alles
+      <lb facs="#facs_1_region_1684911535251_903_tl_33" n="N035"/><rs type="bibl" ref="#hsl_work_id_493">Werther</rs>-Oper von einem Franzosen herrührt, von Rodolphe
+      <lb facs="#facs_1_region_1684911535251_903_tl_34" n="N036"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3221">Kreuzer</rs></hi>, demselben, welcher durch die Dedication der be
+      <lb facs="#facs_1_region_1684911535251_903_tl_35" n="N037" break="no"/>kannten <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’schen <rs type="bibl" ref="#hsl_work_id_867">Violin-Sonate</rs> ein Stück Unsterblich
+      <lb facs="#facs_1_line_1705220296615_1025" n="N038" break="no"/>keit mitgenießt. <rs type="person" ref="#hsl_person_id_3221">Kreuzer</rs>’s einactige Oper „<rs type="bibl" ref="#hsl_work_id_2597">Werther et Char</rs></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684911538371_906_tl_1" n="N001" break="no"/><rs type="bibl"  ref="#hsl_work_id_2597" prev="true">lotte</rs>“ wurde inmitten der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Revolutionsstürme im
+      <lb facs="#facs_1_region_1684911538371_906_tl_2" n="N002"/>Februar <date>1792</date> zum erstenmale gegeben, also genau hundert
+      <lb facs="#facs_1_region_1684911538371_906_tl_3" n="N003"/>Jahre vor der Première des „<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1302">Massenet</rs></hi>.
+      <lb facs="#facs_1_region_1684911538371_906_tl_4" n="N004"/>Nach Rodolphe <rs type="person" ref="#hsl_person_id_3221">Kreuzer</rs> haben auch einige Italiener
+      <lb facs="#facs_1_line_1705220338985_1036" n="N005"/>zweiten und dritten Ranges <rs type="bibl" ref="#hsl_work_id_493">Werther</rs>-Opern zur Auf
+      <lb facs="#facs_1_region_1684911538371_906_tl_5" n="N006" break="no"/>führung gebracht: <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4186">Benvenuti</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4183">Pucitta</rs></hi> und
+      <lb facs="#facs_1_region_1684911538371_906_tl_6" n="N007"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4184">Coccia</rs></hi> zu Anfang dieses Jahrhunderts, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4187">Gentili</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684911538371_906_tl_7" n="N008"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4185">Aspa</rs></hi> in den Sechziger-Jahren. Das Alles
       <lb facs="#facs_1_region_1684911538371_906_tl_8" n="N009"/>ist längst verweht und verschollen. Die naive, ausschließlich
       <lb facs="#facs_1_region_1684911538371_906_tl_9" n="N010"/>melodische Compositionsweise jener älteren Tondichter konnte
-      <lb facs="#facs_1_region_1684911538371_906_tl_10" n="N011"/>sich einem Stoffe wie <rs type="bibl">Werther</rs> nicht anpassen; das Compo¬
-      <lb facs="#facs_1_region_1684911538371_906_tl_11" n="N012"/>niren wurde unabsichtlich zum Parodiren. Unsere moderne
-      <lb facs="#facs_1_region_1684911538371_906_tl_12" n="N013"/>Musik, die mit der psychologischen Sonde in jeden Gefühls¬
-      <lb facs="#facs_1_line_1705220116285_950" n="N014"/>reflex einzudringen gelernt hat und dessen „wahrheitsgetreue“
+      <lb facs="#facs_1_region_1684911538371_906_tl_10" n="N011"/>sich einem Stoffe wie <rs type="bibl" ref="#hsl_work_id_493">Werther</rs> nicht anpassen; das Compo
+      <lb facs="#facs_1_region_1684911538371_906_tl_11" n="N012" break="no"/>niren wurde unabsichtlich zum Parodiren. Unsere moderne
+      <lb facs="#facs_1_region_1684911538371_906_tl_12" n="N013"/>Musik, die mit der psychologischen Sonde in jeden Gefühls
+      <lb facs="#facs_1_line_1705220116285_950" n="N014" break="no"/>reflex einzudringen gelernt hat und dessen „wahrheitsgetreue“
       <lb facs="#facs_1_region_1684911538371_906_tl_13" n="N015"/>Darstellung auch auf Kosten musikalischer Schönheit anstrebt,
       <lb facs="#facs_1_region_1684911538371_906_tl_14" n="N016"/>sieht die Sache aus einem andern Gesichtspunkte an und
-      <lb facs="#facs_1_region_1684911538371_906_tl_15" n="N017"/>kommt mit den neuen Methoden und Hilfsmitteln ihr jeden¬
-      <lb facs="#facs_1_region_1684911538371_906_tl_16" n="N018"/>falls näher. Unsere heutigen Opern-Componisten haben eine
+      <lb facs="#facs_1_region_1684911538371_906_tl_15" n="N017"/>kommt mit den neuen Methoden und Hilfsmitteln ihr jeden
+      <lb facs="#facs_1_region_1684911538371_906_tl_16" n="N018" break="no"/>falls näher. Unsere heutigen Opern-Componisten haben eine
       <lb facs="#facs_1_region_1684911538371_906_tl_17" n="N019"/>früher nicht gekannte Pietät für das Original-Drama, dem
       <lb facs="#facs_1_region_1684911538371_906_tl_18" n="N020"/>sie ihr Libretto nachbilden. Ehedem machten Textdichter und
       <lb facs="#facs_1_region_1684911538371_906_tl_19" n="N021"/>Componisten sich einfach gar nichts aus der Original-
-      <lb facs="#facs_1_region_1684911538371_906_tl_20" n="N022"/>Dichtung; jetzt folgt man derselben so getreu, als es inner¬
-      <lb facs="#facs_1_region_1684911538371_906_tl_21" n="N023"/>halb der Bedingungen eines gesungenen Werkes eben mög¬
-      <lb facs="#facs_1_region_1684911538371_906_tl_22" n="N024"/>lich ist. Man vergleiche in Bezug auf das Textbuch den
-      <lb facs="#facs_1_region_1684911538371_906_tl_23" n="N025"/>„<rs type="bibl">Romeo</rs>“ von <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> mit dem von <rs type="person">Bellini</rs>, <hi rendition="#em">
-                  <rs type="person">Verdi</rs>'s</hi>
-               <lb facs="#facs_1_region_1684911538371_906_tl_24" n="N026"/>„<rs type="bibl">Othello</rs>“ mit dem von <rs type="person">Rossini</rs>, <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi> „<rs type="bibl">Faust</rs>“ mit
-      <lb facs="#facs_1_line_1705220383174_1058" n="N027"/>dem <rs type="person">Spohr</rs>'schen u. s. w. Dieses gewissenhaftere Verhalten
-      <lb facs="#facs_1_region_1684911538371_906_tl_25" n="N028"/>gegen <rs type="person">Goethe</rs>'s <rs type="bibl">Werther</rs> beobachtet auch <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi>. Der
+      <lb facs="#facs_1_region_1684911538371_906_tl_20" n="N022"/>Dichtung; jetzt folgt man derselben so getreu, als es inner
+      <lb facs="#facs_1_region_1684911538371_906_tl_21" n="N023" break="no"/>halb der Bedingungen eines gesungenen Werkes eben mög
+      <lb facs="#facs_1_region_1684911538371_906_tl_22" n="N024" break="no"/>lich ist. Man vergleiche in Bezug auf das Textbuch den
+      <lb facs="#facs_1_region_1684911538371_906_tl_23" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_56">Romeo</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi> mit dem von <rs type="person" ref="#hsl_person_id_26">Bellini</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684911538371_906_tl_24" n="N026"/>„<rs type="bibl" ref="#hsl_work_id_74">Othello</rs>“ mit dem von <rs type="person" ref="#hsl_person_id_241">Rossini</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ mit
+      <lb facs="#facs_1_line_1705220383174_1058" n="N027"/>dem <rs type="person" ref="#hsl_person_id_293">Spohr</rs>’schen u. s. w. Dieses gewissenhaftere Verhalten
+      <lb facs="#facs_1_region_1684911538371_906_tl_25" n="N028"/>gegen <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s <rs type="bibl" ref="#hsl_work_id_493">Werther</rs> beobachtet auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1302">Massenet</rs></hi>. Der
       <lb facs="#facs_1_region_1684911538371_906_tl_26" n="N029"/>Schauplatz, die Personen, die Motivirung, der Verlauf der
-      <lb facs="#facs_1_region_1684911538371_906_tl_27" n="N030"/>Handlung, Alles ziemlich getreu nach <rs type="person">Goethe</rs>, bis auf den
+      <lb facs="#facs_1_region_1684911538371_906_tl_27" n="N030"/>Handlung, Alles ziemlich getreu nach <rs type="person" ref="#hsl_person_id_100">Goethe</rs>, bis auf den
       <lb facs="#facs_1_region_1684911538371_906_tl_28" n="N031"/>Schluß. Dieser ist hinzuerfunden, halb willkürlich, halb
-      <lb facs="#facs_1_region_1684911538371_906_tl_29" n="N032"/>nothgedrungen; denn sollte überhaupt aus „<rs type="bibl">Werther</rs>“ eine
-      <lb facs="#facs_1_region_1684911538371_906_tl_30" n="N033"/>Oper werden, so mußte man wol <rs type="person">Lotte</rs>n noch einmal mit
-      <lb facs="#facs_1_region_1684911538371_906_tl_31" n="N034"/>dem sterbenden <rs type="person">Werther</rs> zusammenbringen. Der Schluß
+      <lb facs="#facs_1_region_1684911538371_906_tl_29" n="N032"/>nothgedrungen; denn sollte überhaupt aus „<rs type="bibl" ref="#hsl_work_id_493">Werther</rs>“ eine
+      <lb facs="#facs_1_region_1684911538371_906_tl_30" n="N033"/>Oper werden, so mußte man wol <rs type="person" ref="#hsl_person_id_4188">Lotte</rs>n noch einmal mit
+      <lb facs="#facs_1_region_1684911538371_906_tl_31" n="N034"/>dem sterbenden <rs type="person" ref="#hsl_person_id_3609">Werther</rs> zusammenbringen. Der Schluß
       <lb facs="#facs_1_region_1684911538371_906_tl_32" n="N035"/>widerstrebt uns, ist aber leichter zu tadeln, als zu verbessern.
-      <lb facs="#facs_1_line_1705220401237_1065" n="N036"/>Der <hi rendition="#em">erste Act</hi> spielt in dem Gartenhaus des <rs type="person">Amt¬</rs>
-               <lb facs="#facs_1_region_1684911538371_906_tl_33" n="N037"/>
-               <rs type="person">mann</rs>es. Wir sehen die fröhliche Kinderschaar, der <rs type="person">Lotte</rs> das
-      <lb facs="#facs_1_region_1684911538371_906_tl_34" n="N038"/>Abendbrot austheilt, den eintretenden <rs type="person">Werther</rs>, der die Scene
+            </p><p>
+      <lb facs="#facs_1_line_1705220401237_1065" n="N036"/>Der <hi rendition="#em">erste Act</hi> spielt in dem Gartenhaus des <rs type="person" ref="#hsl_person_id_4189">Amt
+      <lb facs="#facs_1_region_1684911538371_906_tl_33" n="N037" break="no"/>mann</rs>es. Wir sehen die fröhliche Kinderschaar, der <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> das
+      <lb facs="#facs_1_region_1684911538371_906_tl_34" n="N038"/>Abendbrot austheilt, den eintretenden <rs type="person" ref="#hsl_person_id_1420">Werther</rs>, der die Scene
       <lb facs="#facs_1_region_1684911538371_906_tl_35" n="N039"/>entzückt betrachtet. Manche charakteristischen Züge und Reden
-      <lb facs="#facs_1_line_1705220420427_1071" n="N040"/>sind glücklich aus <rs type="person">Goethe</rs> herübergenommen, z. B. wie
-      <lb facs="#facs_1_region_1684911538371_906_tl_36" n="N041"/>
-               <rs type="person">Werther</rs> das kleinste Kind an sich drückt und küßt, mit</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_line_1705220153753_975" n="N001"/>
-               <rs type="person">Lotte</rs>s Zurechtweisung: „Der Vetter thut dir nichts!“ Nun
-      <lb facs="#facs_1_region_1684911541393_909_tl_1" n="N002"/>kommen die Bekannten, um <rs type="person">Lotte</rs> zum Ball nach <rs type="place">Wahlheim</rs>
-               <lb facs="#facs_1_region_1684911541393_909_tl_2" n="N003"/>abzuholen. Hier sind ein paar die Scene belebende Neben¬
-      <lb facs="#facs_1_region_1684911541393_909_tl_3" n="N004"/>figuren hinzuerfunden: zwei nach dem Wirthshaus gravi¬
-      <lb facs="#facs_1_region_1684911541393_909_tl_4" n="N005"/>tirende <rs type="person">Freunde</rs> des <rs type="person">Amtmann</rs>s und ein für <rs type="person">Klopstock</rs>
-               <lb facs="#facs_1_region_1684911541393_909_tl_5" n="N006"/>schwärmendes <rs type="person">Brautpaar</rs> — kleine Beigaben, die man dem
+      <lb facs="#facs_1_line_1705220420427_1071" n="N040"/>sind glücklich aus <rs type="person" ref="#hsl_person_id_100">Goethe</rs> herübergenommen, z. B. wie
+      <lb facs="#facs_1_region_1684911538371_906_tl_36" n="N041"/><rs type="person" ref="#hsl_person_id_1420">Werther</rs> das kleinste Kind an sich drückt und küßt, mit<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1705220153753_975" n="N001"/><rs type="person" ref="#hsl_person_id_3565">Lotte</rs>s Zurechtweisung: „Der Vetter thut dir nichts!“ Nun
+      <lb facs="#facs_1_region_1684911541393_909_tl_1" n="N002"/>kommen die Bekannten, um <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> zum Ball nach <rs type="place" ref="#hsl_place_id_493">Wahlheim</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684911541393_909_tl_2" n="N003"/>abzuholen. Hier sind ein paar die Scene belebende Neben
+      <lb facs="#facs_1_region_1684911541393_909_tl_3" n="N004" break="no"/>figuren hinzuerfunden: zwei nach dem Wirthshaus gravi
+      <lb facs="#facs_1_region_1684911541393_909_tl_4" n="N005" break="no"/>tirende <rs type="person" ref="#hsl_person_id_4191 #hsl_person_id_4190">Freunde</rs> des <rs type="person" ref="#hsl_person_id_4189">Amtmann</rs>s und ein für <rs type="person" ref="#hsl_person_id_2381">Klopstock</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684911541393_909_tl_5" n="N006"/>schwärmendes Brautpaar — kleine Beigaben, die man dem
       <lb facs="#facs_1_region_1684911541393_909_tl_6" n="N007"/>Librettisten willig zugestehen kann. Findet er doch keine
-      <lb facs="#facs_1_region_1684911541393_909_tl_7" n="N008"/>brauchbaren Nebenfiguren in <rs type="person">Goethe</rs>'s <rs type="bibl">Roman</rs>; weder die
-      <lb facs="#facs_1_region_1684911541393_909_tl_8" n="N009"/>Begegnung <rs type="person">Werther</rs>'s mit dem <rs type="person">Wahnsinnigen</rs>, noch der ver¬
-      <lb facs="#facs_1_region_1684911541393_909_tl_9" n="N010"/>abschiedete <rs type="person">Knecht</rs> oder das „adelige <rs type="person">Fräulein</rs> von B.“ waren
-      <lb facs="#facs_1_region_1684911541393_909_tl_10" n="N011"/>für die Handlung zu verwenden. — Bei hereinbrechen¬
-      <lb facs="#facs_1_region_1684911541393_909_tl_11" n="N012"/>der Nacht kehrt <rs type="person">Werther</rs> mit <rs type="person">Lotte</rs> vom Balle heim;
+      <lb facs="#facs_1_region_1684911541393_909_tl_7" n="N008"/>brauchbaren Nebenfiguren in <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s <rs type="bibl" ref="#hsl_work_id_493">Roman</rs>; weder die
+      <lb facs="#facs_1_region_1684911541393_909_tl_8" n="N009"/>Begegnung <rs type="person" ref="#hsl_person_id_3609">Werther</rs>’s mit dem <rs type="person" ref="#hsl_person_id_4193">Wahnsinnigen</rs>, noch der ver
+      <lb facs="#facs_1_region_1684911541393_909_tl_9" n="N010" break="no"/>abschiedete <rs type="person" ref="#hsl_person_id_4194">Knecht</rs> oder das „adelige <rs type="person" ref="#hsl_person_id_4192">Fräulein</rs> von B.“ waren
+      <lb facs="#facs_1_region_1684911541393_909_tl_10" n="N011"/>für die Handlung zu verwenden. — Bei hereinbrechen
+      <lb facs="#facs_1_region_1684911541393_909_tl_11" n="N012" break="no"/>der Nacht kehrt <rs type="person" ref="#hsl_person_id_1420">Werther</rs> mit <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> vom Balle heim;
       <lb facs="#facs_1_line_1705220208935_996" n="N013"/>er ist Feuer und Flamme, spricht ihr von Liebe
-      <lb facs="#facs_1_region_1684911541393_909_tl_12" n="N014"/>— da ruft der <rs type="person">Vater</rs>: „<rs type="person">Albert</rs> ist schon zurück!“
-      <lb facs="#facs_1_region_1684911541393_909_tl_13" n="N015"/>Zum erstenmal hört <rs type="person">Werther</rs> diesen Namen und erfährt
-      <lb facs="#facs_1_region_1684911541393_909_tl_14" n="N016"/>von <rs type="person">Lotte</rs> dessen Bedeutung. Sie kehrt still ins Haus zurück;
-      <lb facs="#facs_1_region_1684911541393_909_tl_15" n="N017"/>
-               <rs type="person">Werther</rs> stürzt mit dem Ausruf: „Ein Anderer ihr Gemal!“
+      <lb facs="#facs_1_region_1684911541393_909_tl_12" n="N014"/>— da ruft der <rs type="person" ref="#hsl_person_id_4189">Vater</rs>: „<rs type="person" ref="#hsl_person_id_4195">Albert</rs> ist schon zurück!“
+      <lb facs="#facs_1_region_1684911541393_909_tl_13" n="N015"/>Zum erstenmal hört <rs type="person" ref="#hsl_person_id_1420">Werther</rs> diesen Namen und erfährt
+      <lb facs="#facs_1_region_1684911541393_909_tl_14" n="N016"/>von <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> dessen Bedeutung. Sie kehrt still ins Haus zurück;
+      <lb facs="#facs_1_region_1684911541393_909_tl_15" n="N017"/><rs type="person" ref="#hsl_person_id_1420">Werther</rs> stürzt mit dem Ausruf: „Ein Anderer ihr Gemal!“
       <lb facs="#facs_1_line_1705220358503_1049" n="N018"/>verzweifelt davon. ... Der <hi rendition="#em">zweite Act</hi> spielt auf dem
-      <lb facs="#facs_1_line_1705220364943_1054" n="N019"/>freien Platz vor der Dorfkirche in <rs type="place">Wahlheim</rs>. <rs type="person">Albert</rs> und
-      <lb facs="#facs_1_region_1684911541393_909_tl_20" n="N020"/>
-               <rs type="person">Lotte</rs>, seit drei Monaten glücklich verheiratet, kommen zur
+      <lb facs="#facs_1_line_1705220364943_1054" n="N019"/>freien Platz vor der Dorfkirche in <rs type="place" ref="#hsl_place_id_493">Wahlheim</rs>. <rs type="person" ref="#hsl_person_id_4195">Albert</rs> und
+      <lb facs="#facs_1_region_1684911541393_909_tl_20" n="N020"/><rs type="person" ref="#hsl_person_id_3565">Lotte</rs>, seit drei Monaten glücklich verheiratet, kommen zur
       <lb facs="#facs_1_region_1684911541393_909_tl_21" n="N021"/>Feier der goldenen Hochzeit des Pastors. Voll Schmerz und
-      <lb facs="#facs_1_region_1684911541393_909_tl_22" n="N022"/>Eifersucht blickt <rs type="person">Werther</rs> ihnen nach. Er beschließt zu fliehen,
-      <lb facs="#facs_1_region_1684911541393_909_tl_23" n="N023"/>für immer. <rs type="person">Lotte</rs> versüßt ihm ihren strengen Tadel mit dem
+      <lb facs="#facs_1_region_1684911541393_909_tl_22" n="N022"/>Eifersucht blickt <rs type="person" ref="#hsl_person_id_1420">Werther</rs> ihnen nach. Er beschließt zu fliehen,
+      <lb facs="#facs_1_region_1684911541393_909_tl_23" n="N023"/>für immer. <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> versüßt ihm ihren strengen Tadel mit dem
       <lb facs="#facs_1_region_1684911541393_909_tl_24" n="N024"/>Vorschlag, zum Weihnachtsfest wiederzukommen. Hier packt
       <lb facs="#facs_1_region_1684911541393_909_tl_25" n="N025"/>ihn zuerst der Gedanke an Selbstmord. „Wenn sich ein
       <lb facs="#facs_1_region_1684911541393_909_tl_26" n="N026"/>Kind zu früh nach Haus zurückgefunden“ — die Stelle ist
-      <lb facs="#facs_1_region_1684911541393_909_tl_27" n="N027"/>ziemlich getreu nach <rs type="person">Goethe</rs>. <rs type="person">Sophie</rs> (so heißt auch bei
-      <lb facs="#facs_1_region_1684911541393_909_tl_28" n="N028"/>Goethe <rs type="person">Lotte</rs>ns jüngere Schwester) kommt mit einem Blumen¬
-      <lb facs="#facs_1_region_1684911541393_909_tl_29" n="N029"/>strauß fröhlich herangesprungen und fordert <rs type="person">Werther</rs> zum
+      <lb facs="#facs_1_region_1684911541393_909_tl_27" n="N027"/>ziemlich getreu nach <rs type="person" ref="#hsl_person_id_100">Goethe</rs>. <rs type="person" ref="#hsl_person_id_4196">Sophie</rs> (so heißt auch bei
+      <lb facs="#facs_1_region_1684911541393_909_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_100">Goethe</rs><space unit="char" quantity="1"/><rs type="person" ref="#hsl_person_id_3565">Lotte</rs>ns jüngere Schwester) kommt mit einem Blumen
+      <lb facs="#facs_1_region_1684911541393_909_tl_29" n="N029" break="no"/>strauß fröhlich herangesprungen und fordert <rs type="person" ref="#hsl_person_id_1420">Werther</rs> zum
       <lb facs="#facs_1_region_1684911541393_909_tl_30" n="N030"/>Tanz auf. Er aber rennt wie ein Wahnwitziger querfeldein,
       <lb facs="#facs_1_region_1684911541393_909_tl_31" n="N031"/>während der Festzug der Dorfbewohner mit Vivat-
-      <lb facs="#facs_1_region_1684911541393_909_tl_32" n="N032"/>Rufen über die Bühne zieht. ... Im <hi rendition="#em">dritten</hi>
-               <lb facs="#facs_1_region_1684911541393_909_tl_33" n="N033"/>
-               <hi rendition="#em">Act</hi> blicken wir durch <rs type="person">Lotte</rs>ns Fenster auf schnee¬
-      <lb facs="#facs_1_region_1684911541393_909_tl_34" n="N034"/>bedeckte Dächer. Es ist Weihnachtsabend. <rs type="person">Lotte</rs> sucht die
-      <lb facs="#facs_1_region_1684911541393_909_tl_35" n="N035"/>Briefe <rs type="person">Werther</rs>'s hervor und liest sie mit schmerzlicher Be¬
-      <lb facs="#facs_1_region_1684911541393_909_tl_36" n="N036"/>wegung. Da tritt unerwartet <rs type="person">Werther</rs> ein. Er liest ihr aus
-      <lb facs="#facs_1_region_1684911541393_909_tl_37" n="N037"/>
-               <rs type="person">Ossian</rs> vor: „Was bin ich aufgewacht, die schöne Frühlings¬
-      <lb facs="#facs_1_region_1684911541393_909_tl_38" n="N038"/>zeit?“, getreu nach <rs type="person">Goethe</rs>. Die Scene spielt sich ab, wie
-      <lb facs="#facs_1_region_1684911541393_909_tl_39" n="N039"/>im Roman. Nachdem <rs type="person">Werther</rs>
-               <rs type="person">Lotte</rs> leidenschaftlich an seine
-      <lb facs="#facs_1_region_1684911541393_909_tl_40" n="N040"/>Brust gedrückt, springt sie auf und eilt auf „Nimmerwieder¬
-      <lb facs="#facs_1_line_1705220316747_1030" n="N041"/>sehen“ in ihr Gemach, das sie versperrt. <rs type="person">Werther</rs> eilt davon.</p>
+      <lb facs="#facs_1_region_1684911541393_909_tl_32" n="N032"/>Rufen über die Bühne zieht. ... Im <hi rendition="#em">dritten
+      <lb facs="#facs_1_region_1684911541393_909_tl_33" n="N033"/>Act</hi> blicken wir durch <rs type="person" ref="#hsl_person_id_3565">Lotte</rs>ns Fenster auf schnee
+      <lb facs="#facs_1_region_1684911541393_909_tl_34" n="N034" break="no"/>bedeckte Dächer. Es ist Weihnachtsabend. <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> sucht die
+      <lb facs="#facs_1_region_1684911541393_909_tl_35" n="N035"/>Briefe <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s hervor und liest sie mit schmerzlicher Be
+      <lb facs="#facs_1_region_1684911541393_909_tl_36" n="N036" break="no"/>wegung. Da tritt unerwartet <rs type="person" ref="#hsl_person_id_1420">Werther</rs> ein. Er liest ihr aus
+      <lb facs="#facs_1_region_1684911541393_909_tl_37" n="N037"/><rs type="person" ref="#hsl_person_id_1646">Ossian</rs> vor: „Was bin ich aufgewacht, die schöne Frühlings
+      <lb facs="#facs_1_region_1684911541393_909_tl_38" n="N038" break="no"/>zeit?“, getreu nach <rs type="person" ref="#hsl_person_id_100">Goethe</rs>. Die Scene spielt sich ab, wie
+      <lb facs="#facs_1_region_1684911541393_909_tl_39" n="N039"/>im Roman. Nachdem <rs type="person" ref="#hsl_person_id_1420">Werther</rs><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_3565">Lotte</rs> leidenschaftlich an seine
+      <lb facs="#facs_1_region_1684911541393_909_tl_40" n="N040"/>Brust gedrückt, springt sie auf und eilt auf „Nimmerwieder
+      <lb facs="#facs_1_line_1705220316747_1030" n="N041" break="no"/>sehen“ in ihr Gemach, das sie versperrt. <rs type="person" ref="#hsl_person_id_1420">Werther</rs> eilt davon.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684911551925_915_tl_1" n="N001"/>
-               <rs type="person">Albert</rs> tritt ein und gleich nach ihm ein Diener mit dem
-      <lb facs="#facs_2_region_1684911551925_915_tl_2" n="N002"/>Briefe <rs type="person">Werther</rs>'s, worin er um <rs type="person">Albert</rs>'s Pistolen bittet.
-      <lb facs="#facs_2_region_1684911551925_915_tl_3" n="N003"/>
-               <rs type="person">Lotte</rs> übergibt diese, wirft aber, von böser Ahnung getrieben,
-      <lb facs="#facs_2_region_1684911551925_915_tl_4" n="N004"/>sofort den Mantel um und eilt in <rs type="person">Werther</rs>'s Wohnung.
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684911551925_915_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_4195">Albert</rs> tritt ein und gleich nach ihm ein Diener mit dem
+      <lb facs="#facs_2_region_1684911551925_915_tl_2" n="N002"/>Briefe <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s, worin er um <rs type="person" ref="#hsl_person_id_4195">Albert</rs>’s Pistolen bittet.
+      <lb facs="#facs_2_region_1684911551925_915_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_3565">Lotte</rs> übergibt diese, wirft aber, von böser Ahnung getrieben,
+      <lb facs="#facs_2_region_1684911551925_915_tl_4" n="N004"/>sofort den Mantel um und eilt in <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s Wohnung.
       <lb facs="#facs_2_region_1684911551925_915_tl_5" n="N005"/>Dieses „erste Bild“ des dritten Actes ist von dem in
-      <lb facs="#facs_2_region_1684911551925_915_tl_6" n="N006"/>
-               <rs type="person">Werther</rs>'s Stube spielenden „zweiten Bild“ durch ein sehr
+      <lb facs="#facs_2_region_1684911551925_915_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s Stube spielenden „zweiten Bild“ durch ein sehr
       <lb facs="#facs_2_region_1684911551925_915_tl_7" n="N007"/>langes Orchesterstück getrennt. Während dieses Intermezzos
-      <lb facs="#facs_2_region_1684911551925_915_tl_8" n="N008"/>entwickelt sich aus dem Dunkel eine charakteristische Land¬
-      <lb facs="#facs_2_region_1684911551925_915_tl_9" n="N009"/>schaft: das winterlich beschneite <rs type="place">Wetzlar</rs>. <rs type="person">Lotte</rs> findet <rs type="person">Werther</rs>
-               <lb facs="#facs_2_region_1684911551925_915_tl_10" n="N010"/>bereits mit durchschossener Brust. Nach einem letzten leiden¬
-      <lb facs="#facs_2_line_1705220656145_1119" n="N011"/>schaftlichen Zwiegespräch stirbt er in ihren Armen, während
-      <lb facs="#facs_2_region_1684911551925_915_tl_11" n="N012"/>aus dem gegenüberliegenden Hause des <rs type="person">Amtmann</rs>s der
+      <lb facs="#facs_2_region_1684911551925_915_tl_8" n="N008"/>entwickelt sich aus dem Dunkel eine charakteristische Land
+      <lb facs="#facs_2_region_1684911551925_915_tl_9" n="N009" break="no"/>schaft: das winterlich beschneite <rs type="place" ref="#hsl_place_id_491">Wetzlar</rs>. <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> findet <rs type="person" ref="#hsl_person_id_1420">Werther</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684911551925_915_tl_10" n="N010"/>bereits mit durchschossener Brust. Nach einem letzten leiden
+      <lb facs="#facs_2_line_1705220656145_1119" n="N011" break="no"/>schaftlichen Zwiegespräch stirbt er in ihren Armen, während
+      <lb facs="#facs_2_region_1684911551925_915_tl_11" n="N012"/>aus dem gegenüberliegenden Hause des <rs type="person" ref="#hsl_person_id_4189">Amtmann</rs>s der
       <lb facs="#facs_2_region_1684911551925_915_tl_12" n="N013"/>Weihnachtsjubel der Kinder erschallt.
-      <lb facs="#facs_2_region_1684911551925_915_tl_13" n="N014"/>
-               <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi> hat sich mit ganzer Seele in diesen Stoff
+            </p><p>
+      <lb facs="#facs_2_region_1684911551925_915_tl_13" n="N014"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1302">Massenet</rs></hi> hat sich mit ganzer Seele in diesen Stoff
       <lb facs="#facs_2_region_1684911551925_915_tl_14" n="N015"/>versenkt und ihn mit liebevollem künstlerischen Ernst gestaltet.
-      <lb facs="#facs_2_line_1705220679255_1125" n="N016"/>Es ist ihm gelungen, die ganze Oper hindurch eine merk¬
-      <lb facs="#facs_2_region_1684911551925_915_tl_15" n="N017"/>würdig einheitliche Stimmung festzuhalten. Im Interesse
+      <lb facs="#facs_2_line_1705220679255_1125" n="N016"/>Es ist ihm gelungen, die ganze Oper hindurch eine merk
+      <lb facs="#facs_2_region_1684911551925_915_tl_15" n="N017" break="no"/>würdig einheitliche Stimmung festzuhalten. Im Interesse
       <lb facs="#facs_2_region_1684911551925_915_tl_16" n="N018"/>dieser Einheit hat er auf Arien und Duette, auf Chöre und
-      <lb facs="#facs_2_region_1684911551925_915_tl_17" n="N019"/>Finales verzichtet. Von einem <rs type="place">französisch</rs>en Componisten, der
+      <lb facs="#facs_2_region_1684911551925_915_tl_17" n="N019"/>Finales verzichtet. Von einem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Componisten, der
       <lb facs="#facs_2_region_1684911551925_915_tl_18" n="N020"/>durch Masseneffecte und sinnlichen Glanz zu wirken gewohnt
-      <lb facs="#facs_2_region_1684911551925_915_tl_19" n="N021"/>ist, verlangte der „<rs type="bibl">Werther</rs>“ starke Selbstverleugnung. Sie
-      <lb facs="#facs_2_region_1684911551925_915_tl_20" n="N022"/>gereicht dem Componisten des „<rs type="bibl">Cid</rs>“ und der „<rs type="bibl">Esclarmonde</rs>“
-      <lb facs="#facs_2_region_1684911551925_915_tl_21" n="N023"/>zur Ehre. <rs type="person">Massenet</rs> hat in Begeisterung für <rs type="person">Goethe</rs>'s
-      <lb facs="#facs_2_region_1684911551925_915_tl_22" n="N024"/>
-               <rs type="bibl">Werther</rs> die Oper zu seiner eigensten Befriedigung componirt
+      <lb facs="#facs_2_region_1684911551925_915_tl_19" n="N021"/>ist, verlangte der „<rs type="bibl" ref="#hsl_work_id_493">Werther</rs>“ starke Selbstverleugnung. Sie
+      <lb facs="#facs_2_region_1684911551925_915_tl_20" n="N022"/>gereicht dem Componisten des „<rs type="bibl" ref="#hsl_work_id_2598">Cid</rs>“ und der „<rs type="bibl" ref="#hsl_work_id_2586">Esclarmonde</rs>“
+      <lb facs="#facs_2_region_1684911551925_915_tl_21" n="N023"/>zur Ehre. <rs type="person" ref="#hsl_person_id_1302">Massenet</rs> hat in Begeisterung für <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s
+      <lb facs="#facs_2_region_1684911551925_915_tl_22" n="N024"/><rs type="bibl" ref="#hsl_work_id_493">Werther</rs> die Oper zu seiner eigensten Befriedigung componirt
       <lb facs="#facs_2_region_1684911551925_915_tl_23" n="N025"/>und thatsächlich für das seit acht Jahren fertige Werk keine
-      <lb facs="#facs_2_line_1705220585783_1093" n="N026"/>Aufführung angestrebt. Erst die treffliche <rs type="place">Wien</rs>er Vorstellung
-      <lb facs="#facs_2_line_1705220588633_1098" n="N027"/>seiner „<rs type="bibl">Manon</rs>“ offenbarte ihm in van <rs type="person">Dyck</rs> und der <rs type="person">Renard</rs>
-               <lb facs="#facs_2_region_1684911551925_915_tl_28" n="N028"/>eine unverhoffte Verkörperung <rs type="person">Werther</rs>'s und <rs type="person">Lotte</rs>ns.
-      <lb facs="#facs_2_region_1684911551925_915_tl_29" n="N029"/>Etwa <rs type="person">Gounod</rs>'s „<rs type="bibl">Faust</rs>“ ausgenommen, findet sich in der
-      <lb facs="#facs_2_region_1684911551925_915_tl_30" n="N030"/>neueren <rs type="place">französisch</rs>en Opern-Literatur kein Werk, das <rs type="place">deutsch</rs>em
-      <lb facs="#facs_2_region_1684911551925_915_tl_31" n="N031"/>Musikcharakter so nahe kommt, wie <rs type="person">Massenet</rs>'s „<rs type="bibl">Werther</rs>“.
-      <lb facs="#facs_2_region_1684911551925_915_tl_32" n="N032"/>Ein Tropfen <rs type="place">deutsch</rs>en Blutes fließt übrigens nicht blos
-      <lb facs="#facs_2_region_1684911551925_915_tl_33" n="N033"/>in dieser Musik, sondern thatsächlich in <rs type="person">Massenet</rs>'s Adern.
-      <lb facs="#facs_2_region_1684911551925_915_tl_34" n="N034"/>Er ist der Sohn eines <rs type="person">Elässer</rs>s, dessen Vater als Soldat
-      <lb facs="#facs_2_region_1684911551925_915_tl_35" n="N035"/>während der <rs type="person">napoleonisch</rs>en Feldzüge eine Preußin aus der
-      <lb facs="#facs_2_region_1684911551925_915_tl_36" n="N036"/>Gegend von <rs type="place">Bromberg</rs> geheiratet hatte. Bis zu seinem
-      <lb facs="#facs_2_region_1684911551925_915_tl_37" n="N037"/>sechsten Jahre hat <rs type="person">Massenet</rs> nur <rs type="place">Deutsch</rs> gesprochen; seither
+      <lb facs="#facs_2_line_1705220585783_1093" n="N026"/>Aufführung angestrebt. Erst die treffliche <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Vorstellung
+      <lb facs="#facs_2_line_1705220588633_1098" n="N027"/>seiner „<rs type="bibl" ref="#hsl_work_id_822">Manon</rs>“ offenbarte ihm in van <rs type="person" ref="#hsl_person_id_2997">Dyck</rs> und der <rs type="person" ref="#hsl_person_id_235">Renard</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684911551925_915_tl_28" n="N028"/>eine unverhoffte Verkörperung <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s und <rs type="person" ref="#hsl_person_id_3565">Lotte</rs>ns.
+      <lb facs="#facs_2_region_1684911551925_915_tl_29" n="N029"/>Etwa <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ ausgenommen, findet sich in der
+      <lb facs="#facs_2_region_1684911551925_915_tl_30" n="N030"/>neueren <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Opern-Literatur kein Werk, das <rs type="place" ref="#hsl_place_id_14">deutsch</rs>em
+      <lb facs="#facs_2_region_1684911551925_915_tl_31" n="N031"/>Musikcharakter so nahe kommt, wie <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>’s „<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“.
+      <lb facs="#facs_2_region_1684911551925_915_tl_32" n="N032"/>Ein Tropfen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Blutes fließt übrigens nicht blos
+      <lb facs="#facs_2_region_1684911551925_915_tl_33" n="N033"/>in dieser Musik, sondern thatsächlich in <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>’s Adern.
+      <lb facs="#facs_2_region_1684911551925_915_tl_34" n="N034"/>Er ist der Sohn eines <rs type="person" ref="#hsl_person_id_4197">Elässer</rs>s, dessen <rs type="person" ref="#hsl_person_id_4198">Vater</rs> als Soldat
+      <lb facs="#facs_2_region_1684911551925_915_tl_35" n="N035"/>während der <rs type="person" ref="#hsl_person_id_39">napoleonisch</rs>en Feldzüge eine Preußin aus der
+      <lb facs="#facs_2_region_1684911551925_915_tl_36" n="N036"/>Gegend von <rs type="place" ref="#hsl_place_id_492">Bromberg</rs> geheiratet hatte. Bis zu seinem
+      <lb facs="#facs_2_region_1684911551925_915_tl_37" n="N037"/>sechsten Jahre hat <rs type="person" ref="#hsl_person_id_1302">Massenet</rs> nur <rs type="place" ref="#hsl_place_id_14">Deutsch</rs> gesprochen; seither
       <lb facs="#facs_2_region_1684911551925_915_tl_38" n="N038"/>ward ihm hinreichende Muße, es wieder zu vergessen. Seine
-      <lb facs="#facs_2_region_1684911551925_915_tl_39" n="N039"/>Vorliebe für Richard <rs type="person">Wagner</rs> flocht ein neues Band zwischen
-      <lb facs="#facs_2_region_1684911551925_915_tl_40" n="N040"/>
-               <rs type="person">Massenet</rs> und <rs type="place">Deutschland</rs>. Schon seine früheren Opern
-      <lb facs="#facs_2_line_1705220705306_1133" n="N041"/>verrathen zeitweilig <rs type="person">Wagner</rs>'sche Einflüsse; der „<rs type="bibl">Werther</rs>“</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684911555004_918_tl_1" n="N001"/>adoptirt vollständig <rs type="person">Wagner</rs>'s Methode: die im Orchester
-      <lb facs="#facs_2_region_1684911555004_918_tl_2" n="N002"/>fortspinnende „unendliche Melodie“, an welche die Sing¬
-      <lb facs="#facs_2_line_1705220744053_1144" n="N003"/>stimmen ihren Sprechgesang gleichsam anheften. Das ist nicht
-      <lb facs="#facs_2_region_1684911555004_918_tl_3" n="N004"/>schlechtweg <rs type="person">Wagner</rs>'sche Erfindung, sondern findet sich in ein¬
-      <lb facs="#facs_2_region_1684911555004_918_tl_4" n="N005"/>fachster Erscheinung schon stellenweise bei <rs type="person">Herold</rs>, <rs type="person">Halévy</rs>, <rs type="person">Auber</rs>.
-      <lb facs="#facs_2_region_1684911555004_918_tl_5" n="N006"/>
-               <rs type="person">Wagner</rs> hat diese, vor ihm nur nebenher und sehr frei ver¬
-      <lb facs="#facs_2_region_1684911555004_918_tl_6" n="N007"/>wendete Begleitungsform zum festen Stylprincip erhoben,
-      <lb facs="#facs_2_region_1684911555004_918_tl_7" n="N008"/>streng durchgeführt und gleichsam versteinert. Für den Con¬
-      <lb facs="#facs_2_region_1684911555004_918_tl_8" n="N009"/>versationsstyl, wie er im „<rs type="bibl">Werther</rs>“ vorherrscht, scheint diese
+      <lb facs="#facs_2_region_1684911551925_915_tl_39" n="N039"/>Vorliebe für Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> flocht ein neues Band zwischen
+      <lb facs="#facs_2_region_1684911551925_915_tl_40" n="N040"/><rs type="person" ref="#hsl_person_id_1302">Massenet</rs> und <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>. Schon seine früheren Opern
+      <lb facs="#facs_2_line_1705220705306_1133" n="N041"/>verrathen zeitweilig <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’sche Einflüsse; der „<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684911555004_918_tl_1" n="N001"/>adoptirt vollständig <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Methode: die im Orchester
+      <lb facs="#facs_2_region_1684911555004_918_tl_2" n="N002"/>fortspinnende „unendliche Melodie“, an welche die Sing
+      <lb facs="#facs_2_line_1705220744053_1144" n="N003" break="no"/>stimmen ihren Sprechgesang gleichsam anheften. Das ist nicht
+      <lb facs="#facs_2_region_1684911555004_918_tl_3" n="N004"/>schlechtweg <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’sche Erfindung, sondern findet sich in ein
+      <lb facs="#facs_2_region_1684911555004_918_tl_4" n="N005" break="no"/>fachster Erscheinung schon stellenweise bei <rs type="person" ref="#hsl_person_id_122">Herold</rs>, <rs type="person" ref="#hsl_person_id_106">Halévy</rs>, <rs type="person" ref="#hsl_person_id_16">Auber</rs>.
+      <lb facs="#facs_2_region_1684911555004_918_tl_5" n="N006"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat diese, vor ihm nur nebenher und sehr frei ver
+      <lb facs="#facs_2_region_1684911555004_918_tl_6" n="N007" break="no"/>wendete Begleitungsform zum festen Stylprincip erhoben,
+      <lb facs="#facs_2_region_1684911555004_918_tl_7" n="N008"/>streng durchgeführt und gleichsam versteinert. Für den Con
+      <lb facs="#facs_2_region_1684911555004_918_tl_8" n="N009" break="no"/>versationsstyl, wie er im „<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“ vorherrscht, scheint diese
       <lb facs="#facs_2_line_1705220573735_1085" n="N010"/>Methode beinahe geeigneter, als für das Pathos heroischer
       <lb facs="#facs_2_region_1684911555004_918_tl_9" n="N011"/>großer Opern; der ungezwungene Dialog im Familienstück
       <lb facs="#facs_2_region_1684911555004_918_tl_10" n="N012"/>mit seiner raschen Rede und Gegenrede entspricht besser solchem
-      <lb facs="#facs_2_line_1705220764643_1150" n="N013"/>rhythmisch freien Sprechgesang. Bei <rs type="person">Massenet</rs> ist der
-      <lb facs="#facs_2_region_1684911555004_918_tl_11" n="N014"/>orchestrale Unterbau nicht so kunstvoll, wie bei <rs type="person">Wagner</rs>, hin¬
-      <lb facs="#facs_2_region_1684911555004_918_tl_12" n="N015"/>gegen einfacher, natürlicher und faßlicher; es wird dem Ohr
+      <lb facs="#facs_2_line_1705220764643_1150" n="N013"/>rhythmisch freien Sprechgesang. Bei <rs type="person" ref="#hsl_person_id_1302">Massenet</rs> ist der
+      <lb facs="#facs_2_region_1684911555004_918_tl_11" n="N014"/>orchestrale Unterbau nicht so kunstvoll, wie bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, hin
+      <lb facs="#facs_2_region_1684911555004_918_tl_12" n="N015" break="no"/>gegen einfacher, natürlicher und faßlicher; es wird dem Ohr
       <lb facs="#facs_2_region_1684911555004_918_tl_13" n="N016"/>nicht zugemuthet, fortwährend ein dichtes Gewebe einander
-      <lb facs="#facs_2_region_1684911555004_918_tl_14" n="N017"/>durchkreuzender Motive zu entwirren. <rs type="person">Massenet</rs> behandelt
+      <lb facs="#facs_2_region_1684911555004_918_tl_14" n="N017"/>durchkreuzender Motive zu entwirren. <rs type="person" ref="#hsl_person_id_1302">Massenet</rs> behandelt
       <lb facs="#facs_2_line_1705220787665_1157" n="N018"/>solche Gesprächsscenen ungemein geschickt. Längere, abgeschlossene
       <lb facs="#facs_2_region_1684911555004_918_tl_15" n="N019"/>Ariosos, auf einfach accordischer Grundlage, tauchen nur
-      <lb facs="#facs_2_region_1684911555004_918_tl_16" n="N020"/>ganz vereinzelt auf; <rs type="person">Werther</rs>'s Naturschwärmerei bei seinem
+      <lb facs="#facs_2_region_1684911555004_918_tl_16" n="N020"/>ganz vereinzelt auf; <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s Naturschwärmerei bei seinem
       <lb facs="#facs_2_region_1684911555004_918_tl_17" n="N021"/>Eintritt im Garten, dann im zweiten Acte seine in drei
       <lb facs="#facs_2_region_1684911555004_918_tl_18" n="N022"/>kurzen Strophen wiederholte Melodie in As-dur, endlich
-      <lb facs="#facs_2_line_1705220806363_1164" n="N023"/>seine <rs type="person">Ossian</rs>-Strophe im dritten Act. Mit zwei kurzen fröh¬
-      <lb facs="#facs_2_region_1684911555004_918_tl_19" n="N024"/>lichen Strophenliedchen bringt <rs type="person">Sophie</rs> etwas Sonnenschein
-      <lb facs="#facs_2_region_1684911555004_918_tl_20" n="N025"/>in das sich verdüsternde Gemälde. Als wiederkehrende Er¬
-      <lb facs="#facs_2_region_1684911555004_918_tl_21" n="N026"/>innerungsmotive verwendet <rs type="person">Massenet</rs> meistens längere, ge¬
-      <lb facs="#facs_2_region_1684911555004_918_tl_22" n="N027"/>schlossene Melodien, wie das feierlich schwärmerische Liebes¬
-      <lb facs="#facs_2_line_1705220824074_1170" n="N028"/>thema bei der Heimkehr vom Ball im Neun-Achtel-Tact,
-      <lb facs="#facs_2_region_1684911555004_918_tl_23" n="N029"/>
-               <rs type="person">Lotte</rs>ns tröstender Zuspruch im zweiten Act, <rs type="person">Werther</rs>'s zu
+      <lb facs="#facs_2_line_1705220806363_1164" n="N023"/>seine <rs type="person" ref="#hsl_person_id_1646">Ossian</rs>-Strophe im dritten Act. Mit zwei kurzen fröh
+      <lb facs="#facs_2_region_1684911555004_918_tl_19" n="N024" break="no"/>lichen Strophenliedchen bringt <rs type="person" ref="#hsl_person_id_4196">Sophie</rs> etwas Sonnenschein
+      <lb facs="#facs_2_region_1684911555004_918_tl_20" n="N025"/>in das sich verdüsternde Gemälde. Als wiederkehrende Er
+      <lb facs="#facs_2_region_1684911555004_918_tl_21" n="N026" break="no"/>innerungsmotive verwendet <rs type="person" ref="#hsl_person_id_1302">Massenet</rs> meistens längere, ge
+      <lb facs="#facs_2_region_1684911555004_918_tl_22" n="N027" break="no"/>schlossene Melodien, wie das feierlich schwärmerische Liebes
+      <lb facs="#facs_2_line_1705220824074_1170" n="N028" break="no"/>thema bei der Heimkehr vom Ball im Neun-Achtel-Tact,
+      <lb facs="#facs_2_region_1684911555004_918_tl_23" n="N029"/><rs type="person" ref="#hsl_person_id_3565">Lotte</rs>ns tröstender Zuspruch im zweiten Act, <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s zu
       <lb facs="#facs_2_region_1684911555004_918_tl_24" n="N030"/>Anfang der Ouvertüre sich ankündigendes Verzweiflungs-Motiv.
       <lb facs="#facs_2_region_1684911555004_918_tl_25" n="N031"/>Diese musikalischen Anspielungen sind sparsam angebracht und
       <lb facs="#facs_2_region_1684911555004_918_tl_26" n="N032"/>sehr einpräglich. Von ihrer rein melodischen Seite betrachtet,
-      <lb facs="#facs_2_region_1684911555004_918_tl_27" n="N033"/>kann <rs type="person">Massenet</rs>'s Erfindung weder reich noch sehr originell heißen;
-      <lb facs="#facs_2_line_1705220605383_1102" n="N034"/>fast scheint er sie im „<rs type="bibl">Werther</rs>“ noch geflissentlich nieder¬
-      <lb facs="#facs_2_region_1684911555004_918_tl_28" n="N035"/>zuhalten, um die schlichte Gleichmäßigkeit des Gemäldes nicht
+      <lb facs="#facs_2_region_1684911555004_918_tl_27" n="N033"/>kann <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>’s Erfindung weder reich noch sehr originell heißen;
+      <lb facs="#facs_2_line_1705220605383_1102" n="N034"/>fast scheint er sie im „<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“ noch geflissentlich nieder
+      <lb facs="#facs_2_region_1684911555004_918_tl_28" n="N035" break="no"/>zuhalten, um die schlichte Gleichmäßigkeit des Gemäldes nicht
       <lb facs="#facs_2_region_1684911555004_918_tl_29" n="N036"/>durch allzu vordrängende Reize zu unterbrechen. Mancher in
       <lb facs="#facs_2_line_1705220619747_1108" n="N037"/>schwerflüssiger Declamation sich ausbreitenden Scene hätte
       <lb facs="#facs_2_region_1684911555004_918_tl_30" n="N038"/>eine reizvollere Melodie, eine lebendigere Rhythmik nicht
       <lb facs="#facs_2_region_1684911555004_918_tl_31" n="N039"/>geschadet. Der dramatische Ausdruck ist im Rührenden wie
       <lb facs="#facs_2_region_1684911555004_918_tl_32" n="N040"/>im Leidenschaftlichen gut getroffen und von überzeugender
-      <lb facs="#facs_2_region_1684911555004_918_tl_33" n="N041"/>Kraft. Die Ausbrüche höchster Leidenschaft bei <rs type="person">Werther</rs> sind</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684911558402_921_tl_1" n="N001"/>allerdings nicht frei von einer gewissen theatralischen Ekstase;
-      <lb facs="#facs_2_region_1684911558402_921_tl_2" n="N002"/>das hängt so enge zusammen mit dem <rs type="place">französisch</rs>en Opern¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_3" n="N003"/>styl, überhaupt mit der in allen Künsten theatralischen Natur
-      <lb facs="#facs_2_region_1684911558402_921_tl_4" n="N004"/>der Franzosen, daß wir <rs type="place">deutsch</rs>en Hörer es zu dem vielen Guten
-      <lb facs="#facs_2_region_1684911558402_921_tl_5" n="N005"/>und Echten eben mit in den Kauf nehmen müssen. Bedeu¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_6" n="N006"/>tender als seine melodische Erfindung ist <rs type="person">Massenet</rs>'s Talent, die
+      <lb facs="#facs_2_region_1684911555004_918_tl_33" n="N041"/>Kraft. Die Ausbrüche höchster Leidenschaft bei <rs type="person" ref="#hsl_person_id_1420">Werther</rs> sind<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684911558402_921_tl_1" n="N001"/>allerdings nicht frei von einer gewissen theatralischen Ekstase;
+      <lb facs="#facs_2_region_1684911558402_921_tl_2" n="N002"/>das hängt so enge zusammen mit dem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Opern
+      <lb facs="#facs_2_region_1684911558402_921_tl_3" n="N003" break="no"/>styl, überhaupt mit der in allen Künsten theatralischen Natur
+      <lb facs="#facs_2_region_1684911558402_921_tl_4" n="N004"/>der Franzosen, daß wir <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Hörer es zu dem vielen Guten
+      <lb facs="#facs_2_region_1684911558402_921_tl_5" n="N005"/>und Echten eben mit in den Kauf nehmen müssen. Bedeu
+      <lb facs="#facs_2_region_1684911558402_921_tl_6" n="N006" break="no"/>tender als seine melodische Erfindung ist <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>’s Talent, die
       <lb facs="#facs_2_region_1684911558402_921_tl_7" n="N007"/>eigenartige Stimmung einer Scene musikalisch zu packen und
-      <lb facs="#facs_2_region_1684911558402_921_tl_8" n="N008"/>festzuhalten. Wie schön empfunden ist die Heimkehr <rs type="person">Werther</rs>'s
-      <lb facs="#facs_2_region_1684911558402_921_tl_9" n="N009"/>mit <rs type="person">Lotte</rs>n vom Balle. Das Vorspiel, in welchem abgerissen
+      <lb facs="#facs_2_region_1684911558402_921_tl_8" n="N008"/>festzuhalten. Wie schön empfunden ist die Heimkehr <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s
+      <lb facs="#facs_2_region_1684911558402_921_tl_9" n="N009"/>mit <rs type="person" ref="#hsl_person_id_3565">Lotte</rs>n vom Balle. Das Vorspiel, in welchem abgerissen
       <lb facs="#facs_2_region_1684911558402_921_tl_10" n="N010"/>flatternde Tacte des Ländlers mit der schwärmerischen
       <lb facs="#facs_2_region_1684911558402_921_tl_11" n="N011"/>Liebesmelodie wechseln, malt schon die ganze Situation. In
-      <lb facs="#facs_2_region_1684911558402_921_tl_12" n="N012"/>dem Gespräch <rs type="person">Lotte</rs>ns mit <rs type="person">Sophie</rs> im dritten Act, das sich
+      <lb facs="#facs_2_region_1684911558402_921_tl_12" n="N012"/>dem Gespräch <rs type="person" ref="#hsl_person_id_3565">Lotte</rs>ns mit <rs type="person" ref="#hsl_person_id_4196">Sophie</rs> im dritten Act, das sich
       <lb facs="#facs_2_region_1684911558402_921_tl_13" n="N013"/>über eine ungemein zarte Orchester-Melodie fortspinnt, findet
-      <lb facs="#facs_2_region_1684911558402_921_tl_14" n="N014"/>
-               <rs type="person">Massenet</rs> Töne rührendster Herzlichkeit. <rs type="person">Werther</rs>'s Erscheinen
-      <lb facs="#facs_2_region_1684911558402_921_tl_15" n="N015"/>im dritten Act macht nicht nur <rs type="person">Lotte</rs>n, sondern auch dem
-      <lb facs="#facs_2_region_1684911558402_921_tl_16" n="N016"/>Hörer das Blut erstarren. Tieftraurig mit einem er¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_17" n="N017"/>schütternden Schmerzenslaut am Schlusse klingt die
-      <lb facs="#facs_2_region_1684911558402_921_tl_18" n="N018"/>
-               <rs type="person">Ossian</rs>strophe in Fis-moll. Einer Gefahr, die theils aus
-      <lb facs="#facs_2_region_1684911558402_921_tl_19" n="N019"/>dem sentimentalen Stoff, theils aus der <rs type="person">Wagner</rs>'schen
+      <lb facs="#facs_2_region_1684911558402_921_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_1302">Massenet</rs> Töne rührendster Herzlichkeit. <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s Erscheinen
+      <lb facs="#facs_2_region_1684911558402_921_tl_15" n="N015"/>im dritten Act macht nicht nur <rs type="person" ref="#hsl_person_id_3565">Lotte</rs>n, sondern auch dem
+      <lb facs="#facs_2_region_1684911558402_921_tl_16" n="N016"/>Hörer das Blut erstarren. Tieftraurig mit einem er
+      <lb facs="#facs_2_region_1684911558402_921_tl_17" n="N017" break="no"/>schütternden Schmerzenslaut am Schlusse klingt die
+      <lb facs="#facs_2_region_1684911558402_921_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_1646">Ossian</rs>strophe in Fis-moll. Einer Gefahr, die theils aus
+      <lb facs="#facs_2_region_1684911558402_921_tl_19" n="N019"/>dem sentimentalen Stoff, theils aus der <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen
       <lb facs="#facs_2_region_1684911558402_921_tl_20" n="N020"/>„Unendlichkeit“, entsprang, ist der Componist nicht ganz
       <lb facs="#facs_2_region_1684911558402_921_tl_21" n="N021"/>entgangen; sie heißt Monotonie. In langer Folge
       <lb facs="#facs_2_region_1684911558402_921_tl_22" n="N022"/>reihen sich breit ausgesponnene Andante- und Adagiosätze
-      <lb facs="#facs_2_region_1684911558402_921_tl_23" n="N023"/>aneinander. Manche würden wol durch ein weniger schlep¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_24" n="N024"/>pendes Tempo gewinnen (wie die erste Cantilene <rs type="person">Werther</rs>'s
-      <lb facs="#facs_2_region_1684911558402_921_tl_25" n="N025"/>in D-dur und sein Duett mit <rs type="person">Lotte</rs> nach dem Ball); andere,
+      <lb facs="#facs_2_region_1684911558402_921_tl_23" n="N023"/>aneinander. Manche würden wol durch ein weniger schlep
+      <lb facs="#facs_2_region_1684911558402_921_tl_24" n="N024" break="no"/>pendes Tempo gewinnen (wie die erste Cantilene <rs type="person" ref="#hsl_person_id_1420">Werther</rs>’s
+      <lb facs="#facs_2_region_1684911558402_921_tl_25" n="N025"/>in D-dur und sein Duett mit <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> nach dem Ball); andere,
       <lb facs="#facs_2_region_1684911558402_921_tl_26" n="N026"/>wie die lange, erschütternde Sterbescene und das übermäßig
       <lb facs="#facs_2_region_1684911558402_921_tl_27" n="N027"/>ausgedehnte, ermüdende Vorspiel dazu durch bescheidene
       <lb facs="#facs_2_region_1684911558402_921_tl_28" n="N028"/>Kürzungen. Mit Meisterschaft ist das Orchester behandelt
       <lb facs="#facs_2_region_1684911558402_921_tl_29" n="N029"/>und ganz verschieden von der glänzenden, oft lärmenden
-      <lb facs="#facs_2_region_1684911558402_921_tl_30" n="N030"/>Instrumentirung in <rs type="person">Massenet</rs>'s früheren Opern; die ein¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_31" n="N031"/>fache bürgerlich-idyllische Herzensgeschichte spiegelt sich auch in
+      <lb facs="#facs_2_region_1684911558402_921_tl_30" n="N030"/>Instrumentirung in <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>’s früheren Opern; die ein
+      <lb facs="#facs_2_region_1684911558402_921_tl_31" n="N031" break="no"/>fache bürgerlich-idyllische Herzensgeschichte spiegelt sich auch in
       <lb facs="#facs_2_region_1684911558402_921_tl_32" n="N032"/>dem größtentheils bescheidenen Orchesterklang. Mit sordinirten
       <lb facs="#facs_2_region_1684911558402_921_tl_33" n="N033"/>Geigen und einigen Harfentönen, einer schüchternen Figur der
-      <lb facs="#facs_2_region_1684911558402_921_tl_34" n="N034"/>Flöte oder Clarinette erreicht <rs type="person">Massenet</rs> hier seine besten Wirkun¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_35" n="N035"/>gen, nämlich gerade die, welche die Situation verlangt. Die Po¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_36" n="N036"/>saunen pausiren die längste Zeit; nur den stärksten Leidenschafts¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_37" n="N037"/>ausbrüchen leihen sie ihre erschütternden Accorde — dann freilich
-      <lb facs="#facs_2_region_1684911558402_921_tl_38" n="N038"/>nicht knickerisch. So wirkt Vieles zusammen, um <rs type="person">Massenet</rs>'s
-      <lb facs="#facs_2_region_1684911558402_921_tl_39" n="N039"/>„<rs type="bibl">Werther</rs>“ zu einem durchaus interessanten Werk von vor¬
-      <lb facs="#facs_2_region_1684911558402_921_tl_40" n="N040"/>nehmem Geist und zarter Empfindung zu machen, das
-      <lb facs="#facs_2_line_1705220725805_1138" n="N041"/>weniger den lärmenden Applaus als das herzliche Mitgefühl</p>
+      <lb facs="#facs_2_region_1684911558402_921_tl_34" n="N034"/>Flöte oder Clarinette erreicht <rs type="person" ref="#hsl_person_id_1302">Massenet</rs> hier seine besten Wirkun
+      <lb facs="#facs_2_region_1684911558402_921_tl_35" n="N035" break="no"/>gen, nämlich gerade die, welche die Situation verlangt. Die Po
+      <lb facs="#facs_2_region_1684911558402_921_tl_36" n="N036" break="no"/>saunen pausiren die längste Zeit; nur den stärksten Leidenschafts
+      <lb facs="#facs_2_region_1684911558402_921_tl_37" n="N037" break="no"/>ausbrüchen leihen sie ihre erschütternden Accorde — dann freilich
+      <lb facs="#facs_2_region_1684911558402_921_tl_38" n="N038"/>nicht knickerisch. So wirkt Vieles zusammen, um <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>’s
+      <lb facs="#facs_2_region_1684911558402_921_tl_39" n="N039"/>„<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“ zu einem durchaus interessanten Werk von vor
+      <lb facs="#facs_2_region_1684911558402_921_tl_40" n="N040" break="no"/>nehmem Geist und zarter Empfindung zu machen, das
+      <lb facs="#facs_2_line_1705220725805_1138" n="N041"/>weniger den lärmenden Applaus als das herzliche Mitgefühl<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684911569011_927_tl_1" n="N001"/>der Hörer vor Augen hat und durch bedeutende Schönheiten
-      <lb facs="#facs_3_region_1684911569011_927_tl_2" n="N002"/>uns für manche ermüdende Länge entschädigt. „<rs type="bibl">Manon</rs>“
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684911569011_927_tl_1" n="N001"/>der Hörer vor Augen hat und durch bedeutende Schönheiten
+      <lb facs="#facs_3_region_1684911569011_927_tl_2" n="N002"/>uns für manche ermüdende Länge entschädigt. „<rs type="bibl" ref="#hsl_work_id_822">Manon</rs>“
       <lb facs="#facs_3_region_1684911569011_927_tl_3" n="N003"/>bietet in Handlung und Musik reichere Abwechslung, mehr
       <lb facs="#facs_3_region_1684911569011_927_tl_4" n="N004"/>Farbe und Leben; sie dürfte in der Gunst des Publicums
-      <lb facs="#facs_3_region_1684911569011_927_tl_5" n="N005"/>den Sieg über „<rs type="bibl">Werther</rs>“ behaupten. Jedenfalls bezeichnen
-      <lb facs="#facs_3_region_1684911569011_927_tl_6" n="N006"/>diese beiden Werke, welche an musikalischem Werth <rs type="person">Massenet</rs>'s
+      <lb facs="#facs_3_region_1684911569011_927_tl_5" n="N005"/>den Sieg über „<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“ behaupten. Jedenfalls bezeichnen
+      <lb facs="#facs_3_region_1684911569011_927_tl_6" n="N006"/>diese beiden Werke, welche an musikalischem Werth <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>’s
       <lb facs="#facs_3_region_1684911569011_927_tl_7" n="N007"/>große tragische Opern zweifellos überragen, die Stylgattung,
       <lb facs="#facs_3_region_1684911569011_927_tl_8" n="N008"/>für welche sein Talent am glücklichsten organisirt ist: die
-      <lb facs="#facs_3_region_1684911569011_927_tl_9" n="N009"/>theils heitere, theils rührende Conversations-Oper, die in¬
-      <lb facs="#facs_3_region_1684911569011_927_tl_10" n="N010"/>time Musik.
-      <lb facs="#facs_3_line_1705220937654_1209" n="N011"/>Sehr werthvoll für den Erfolg der Oper ist die muster¬
-      <lb facs="#facs_3_region_1684911569011_927_tl_11" n="N012"/>hafte <rs type="place">deutsch</rs>e Uebersetzung von Max <hi rendition="#em">
-                  <rs type="person">Kalbeck</rs>
-               </hi>. Wer eine
+      <lb facs="#facs_3_region_1684911569011_927_tl_9" n="N009"/>theils heitere, theils rührende Conversations-Oper, die in
+      <lb facs="#facs_3_region_1684911569011_927_tl_10" n="N010" break="no"/>time Musik.
+            </p><p>
+      <lb facs="#facs_3_line_1705220937654_1209" n="N011"/>Sehr werthvoll für den Erfolg der Oper ist die muster
+      <lb facs="#facs_3_region_1684911569011_927_tl_11" n="N012" break="no"/>hafte <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Uebersetzung von Max <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1065">Kalbeck</rs></hi>. Wer eine
       <lb facs="#facs_3_region_1684911569011_927_tl_12" n="N013"/>richtige Einsicht in die Schwierigkeit dieser Aufgabe hat, der
-      <lb facs="#facs_3_region_1684911569011_927_tl_13" n="N014"/>wird <rs type="person">Kalbeck</rs> als einen musikalischen Uebersetzer allerersten
+      <lb facs="#facs_3_region_1684911569011_927_tl_13" n="N014"/>wird <rs type="person" ref="#hsl_person_id_1065">Kalbeck</rs> als einen musikalischen Uebersetzer allerersten
       <lb facs="#facs_3_region_1684911569011_927_tl_14" n="N015"/>Ranges anerkennen. Um nur eine unbedeutende Kleinigkeit
-      <lb facs="#facs_3_region_1684911569011_927_tl_15" n="N016"/>zu erwähnen: hundertmal werden in dem <rs type="place">französisch</rs>en Text¬
-      <lb facs="#facs_3_region_1684911569011_927_tl_16" n="N017"/>buch die Namen „<rs type="person">Werther</rs>“ und „<rs type="person">Charlotte</rs>“ genannt,
-      <lb facs="#facs_3_region_1684911569011_927_tl_17" n="N018"/>natürlich mit dem Accent auf der zweiten Sylbe — wie ge¬
-      <lb facs="#facs_3_line_1705220957225_1221" n="N019"/>schickt weiß da <rs type="person">Kalbeck</rs>, ohne an der Musik zu ändern, immer
-      <lb facs="#facs_3_region_1684911569011_927_tl_18" n="N020"/>einen Ausweg zu finden! Wir kennen allerdings einen Ueber¬
-      <lb facs="#facs_3_region_1684911569011_927_tl_19" n="N021"/>setzer, der, unbekümmert um den musikalischen Accent, auch
-      <lb facs="#facs_3_region_1684911569011_927_tl_20" n="N022"/>im <rs type="place">Deutsch</rs>en <hi rendition="#em">
-                  <rs type="person">Werthér</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Lotté</rs>
-               </hi> declamirt hätte. Eine
-      <lb facs="#facs_3_region_1684911569011_927_tl_21" n="N023"/>einzige Stelle <rs type="person">Kalbeck</rs>'s erregt uns Bedenken. <rs type="person">Werther</rs>
-               <lb facs="#facs_3_region_1684911569011_927_tl_22" n="N024"/>schweigt in dem schmerzlichen Gedanken, <rs type="person">Lotte</rs> würde ihn ge¬
-      <lb facs="#facs_3_line_1705220876545_1189" n="N025"/>liebt haben, wäre <rs type="person">Albert</rs> ihm nie zuvorgekommen: „C'est
-      <lb facs="#facs_3_line_1705220880603_1194" n="N026"/>moi, qu'elle <hi rendition="#em">pouvait</hi> aimer!“ <rs type="person">Kalbeck</rs> übersetzt: „Ich
-      <lb facs="#facs_3_region_1684911569011_927_tl_27" n="N027"/>
-               <hi rendition="#em">war geliebt</hi> von ihr!“ Das konnte <rs type="person">Werther</rs> unmöglich
-      <lb facs="#facs_3_region_1684911569011_927_tl_28" n="N028"/>sagen und sagt es auch nicht, weder bei <rs type="person">Goethe</rs> noch bei <rs type="person">Massenet</rs>.
-      <lb facs="#facs_3_line_1705221000383_1234" n="N029"/>Das <rs type="place">Wien</rs>er Hofoperntheater kann mit berechtigtem
-      <lb facs="#facs_3_region_1684911569011_927_tl_29" n="N030"/>Stolz sich seiner <rs type="bibl">Werther</rs>-Vorstellung rühmen. Herr <rs type="person">Massenet</rs>
-               <lb facs="#facs_3_region_1684911569011_927_tl_30" n="N031"/>dürfte kaum auf irgend einer anderen Bühne eine gleiche
-      <lb facs="#facs_3_region_1684911569011_927_tl_31" n="N032"/>vortreffliche Aufführung seines Werkes erleben. Die <hi rendition="#em">
-                  <rs type="person">Renard</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684911569011_927_tl_32" n="N033"/>und van <hi rendition="#em">
-                  <rs type="person">Dyck</rs>
-               </hi>, die <hi rendition="#em">
-                  <rs type="person">Forster</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Neidl</rs>
-               </hi> — Alle wie
+      <lb facs="#facs_3_region_1684911569011_927_tl_15" n="N016"/>zu erwähnen: hundertmal werden in dem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Text
+      <lb facs="#facs_3_region_1684911569011_927_tl_16" n="N017" break="no"/>buch die Namen „<rs type="person" ref="#hsl_person_id_1420">Werther</rs>“ und „<rs type="person" ref="#hsl_person_id_3565">Charlotte</rs>“ genannt,
+      <lb facs="#facs_3_region_1684911569011_927_tl_17" n="N018"/>natürlich mit dem Accent auf der zweiten Sylbe — wie ge
+      <lb facs="#facs_3_line_1705220957225_1221" n="N019" break="no"/>schickt weiß da <rs type="person" ref="#hsl_person_id_1065">Kalbeck</rs>, ohne an der Musik zu ändern, immer
+      <lb facs="#facs_3_region_1684911569011_927_tl_18" n="N020"/>einen Ausweg zu finden! Wir kennen allerdings einen Ueber
+      <lb facs="#facs_3_region_1684911569011_927_tl_19" n="N021" break="no"/>setzer, der, unbekümmert um den musikalischen Accent, auch
+      <lb facs="#facs_3_region_1684911569011_927_tl_20" n="N022"/>im <rs type="place" ref="#hsl_place_id_14">Deutsch</rs>en <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1420">Werthér</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3565">Lotté</rs></hi> declamirt hätte. Eine
+      <lb facs="#facs_3_region_1684911569011_927_tl_21" n="N023"/>einzige Stelle <rs type="person" ref="#hsl_person_id_1065">Kalbeck</rs>’s erregt uns Bedenken. <rs type="person" ref="#hsl_person_id_1420">Werther</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684911569011_927_tl_22" n="N024"/>schweigt in dem schmerzlichen Gedanken, <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> würde ihn ge
+      <lb facs="#facs_3_line_1705220876545_1189" n="N025" break="no"/>liebt haben, wäre <rs type="person" ref="#hsl_person_id_4195">Albert</rs> ihm nie zuvorgekommen: „C’est
+      <lb facs="#facs_3_line_1705220880603_1194" n="N026"/>moi, qu’elle <hi rendition="#em">pouvait</hi> aimer!“ <rs type="person" ref="#hsl_person_id_1065">Kalbeck</rs> übersetzt: „Ich
+      <lb facs="#facs_3_region_1684911569011_927_tl_27" n="N027"/><hi rendition="#em">war geliebt</hi> von ihr!“ Das konnte <rs type="person" ref="#hsl_person_id_1420">Werther</rs> unmöglich
+      <lb facs="#facs_3_region_1684911569011_927_tl_28" n="N028"/>sagen und sagt es auch nicht, weder bei <rs type="person" ref="#hsl_person_id_100">Goethe</rs> noch bei <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>.
+            </p><p>
+      <lb facs="#facs_3_line_1705221000383_1234" n="N029"/>Das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofoperntheater kann mit berechtigtem
+      <lb facs="#facs_3_region_1684911569011_927_tl_29" n="N030"/>Stolz sich seiner <rs type="bibl" ref="#hsl_work_id_823">Werther</rs>-Vorstellung rühmen. Herr <rs type="person" ref="#hsl_person_id_1302">Massenet</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684911569011_927_tl_30" n="N031"/>dürfte kaum auf irgend einer anderen Bühne eine gleiche
+      <lb facs="#facs_3_region_1684911569011_927_tl_31" n="N032"/>vortreffliche Aufführung seines Werkes erleben. Die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_235">Renard</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684911569011_927_tl_32" n="N033"/>und van <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2997">Dyck</rs></hi>, die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1055">Forster</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1428">Neidl</rs></hi> — Alle wie
       <lb facs="#facs_3_region_1684911569011_927_tl_33" n="N034"/>geschaffen für die vier Hauptrollen! Es bleibt Keines hinter
-      <lb facs="#facs_3_region_1684911569011_927_tl_34" n="N035"/>dem Andern zurück, doch glauben wir, schon ob des Ge¬
-      <lb facs="#facs_3_region_1684911569011_927_tl_35" n="N036"/>wichts seiner Aufgabe, Herrn van <hi rendition="#em">
-                  <rs type="person">Dyck</rs>
-               </hi> (<rs type="person">Werther</rs>) zuerst
+      <lb facs="#facs_3_region_1684911569011_927_tl_34" n="N035"/>dem Andern zurück, doch glauben wir, schon ob des Ge
+      <lb facs="#facs_3_region_1684911569011_927_tl_35" n="N036" break="no"/>wichts seiner Aufgabe, Herrn van <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2997">Dyck</rs></hi> (<rs type="person" ref="#hsl_person_id_1420">Werther</rs>) zuerst
       <lb facs="#facs_3_region_1684911569011_927_tl_36" n="N037"/>nennen zu sollen. Er stand gleich hoch als Sänger und
-      <lb facs="#facs_3_region_1684911569011_927_tl_37" n="N038"/>Schauspieler, oder vielmehr der Sänger und der Schau¬
-      <lb facs="#facs_3_region_1684911569011_927_tl_38" n="N039"/>spieler waren so vollkommen in Eins verschmolzen, wie es
+      <lb facs="#facs_3_region_1684911569011_927_tl_37" n="N038"/>Schauspieler, oder vielmehr der Sänger und der Schau
+      <lb facs="#facs_3_region_1684911569011_927_tl_38" n="N039" break="no"/>spieler waren so vollkommen in Eins verschmolzen, wie es
       <lb facs="#facs_3_region_1684911569011_927_tl_39" n="N040"/>in seinem Vortrag Ton und Wort sind. Mit dem Ausdruck
-      <lb facs="#facs_3_region_1684911569011_927_tl_40" n="N041"/>„deutliche Aussprache“ ist diese vollendete Kunst van <rs type="person">Dyck</rs>'s,
-      <lb facs="#facs_3_region_1684911569011_927_tl_41" n="N042"/>singend zu sprechen und sprechend zu singen, lange nicht er¬</p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1684911572479_930_tl_1" n="N001"/>schöpft. Die ganze Rolle war mit eindringendem Kunstver¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_2" n="N002"/>stand angelegt und mit ungeschwächter geistiger und physischer
+      <lb facs="#facs_3_region_1684911569011_927_tl_40" n="N041"/>„deutliche Aussprache“ ist diese vollendete Kunst van <rs type="person" ref="#hsl_person_id_2997">Dyck</rs>’s,
+      <lb facs="#facs_3_region_1684911569011_927_tl_41" n="N042"/>singend zu sprechen und sprechend zu singen, lange nicht er</p>
+            <cb n="8"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684911572479_930_tl_1" n="N001" break="no"/>schöpft. Die ganze Rolle war mit eindringendem Kunstver
+      <lb facs="#facs_3_region_1684911572479_930_tl_2" n="N002" break="no"/>stand angelegt und mit ungeschwächter geistiger und physischer
       <lb facs="#facs_3_region_1684911572479_930_tl_3" n="N003"/>Kraft bis ans Ende durchgeführt. Nur ein Künstler
-      <lb facs="#facs_3_region_1684911572479_930_tl_4" n="N004"/>ersten Ranges vermag die in den verschiedensten Stimmungs¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_5" n="N005"/>nuancen wechselnden Scenen im zweiten Acte so zu spielen
-      <lb facs="#facs_3_region_1684911572479_930_tl_6" n="N006"/>und zu singen, wie Herr van <rs type="person">Dyck</rs>. Fräulein <hi rendition="#em">
-                  <rs type="person">Renard</rs>
-               </hi> be¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_7" n="N007"/>tritt die Scene als ein schönes, getreues Abbild der <rs type="person">Goethe</rs>¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_8" n="N008"/>schen <rs type="person">Lotte</rs>. Ja, das sind „die schwarzen Augen, die lachen¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_9" n="N009"/>den Lippen, die frischen muntern Wangen“, die <rs type="person">Werther</rs>
-               <lb facs="#facs_3_region_1684911572479_930_tl_10" n="N010"/>nach dem Balle so schwärmerisch beschreibt! Nur hätten wir
+      <lb facs="#facs_3_region_1684911572479_930_tl_4" n="N004"/>ersten Ranges vermag die in den verschiedensten Stimmungs
+      <lb facs="#facs_3_region_1684911572479_930_tl_5" n="N005" break="no"/>nuancen wechselnden Scenen im zweiten Acte so zu spielen
+      <lb facs="#facs_3_region_1684911572479_930_tl_6" n="N006"/>und zu singen, wie Herr van <rs type="person" ref="#hsl_person_id_2997">Dyck</rs>. Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_235">Renard</rs></hi> be
+      <lb facs="#facs_3_region_1684911572479_930_tl_7" n="N007" break="no"/>tritt die Scene als ein schönes, getreues Abbild der <rs type="person" ref="#hsl_person_id_100">Goethe</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684911572479_930_tl_8" n="N008" break="no"/>schen <rs type="person" ref="#hsl_person_id_3565">Lotte</rs>. Ja, das sind „die schwarzen Augen, die lachen
+      <lb facs="#facs_3_region_1684911572479_930_tl_9" n="N009" break="no"/>den Lippen, die frischen muntern Wangen“, die <rs type="person" ref="#hsl_person_id_1420">Werther</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684911572479_930_tl_10" n="N010"/>nach dem Balle so schwärmerisch beschreibt! Nur hätten wir
       <lb facs="#facs_3_region_1684911572479_930_tl_11" n="N011"/>Ton und Geberde mehr naiv und unbefangen gewünscht,
-      <lb facs="#facs_3_region_1684911572479_930_tl_12" n="N012"/>nicht so pathetisch, schwer und sentimental. <rs type="person">Goethe</rs>'s <rs type="person">Lotte</rs> ist
+      <lb facs="#facs_3_region_1684911572479_930_tl_12" n="N012"/>nicht so pathetisch, schwer und sentimental. <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s <rs type="person" ref="#hsl_person_id_3565">Lotte</rs> ist
       <lb facs="#facs_3_region_1684911572479_930_tl_13" n="N013"/>nicht ein melancholisches Seitenstück, vielmehr ein heiteres,
-      <lb facs="#facs_3_region_1684911572479_930_tl_14" n="N014"/>gesundes Gegenstück zu <rs type="person">Werther</rs>, und in den beiden ersten
+      <lb facs="#facs_3_region_1684911572479_930_tl_14" n="N014"/>gesundes Gegenstück zu <rs type="person" ref="#hsl_person_id_1420">Werther</rs>, und in den beiden ersten
       <lb facs="#facs_3_line_1705220865949_1181" n="N015"/>Acten ist die Darstellerin durch nichts gehindert, sich diesem
-      <lb facs="#facs_3_region_1684911572479_930_tl_15" n="N016"/>
-               <rs type="person">Goethe</rs>'schen Original viel mehr zu nähern, als Fräulein
-      <lb facs="#facs_3_region_1684911572479_930_tl_16" n="N017"/>
-               <rs type="person">Renard</rs> es thut. Im dritten Act kann sie allerdings nicht
-      <lb facs="#facs_3_region_1684911572479_930_tl_17" n="N018"/>mehr <hi rendition="#em">
-                  <rs type="person">Goethe</rs>
-               </hi>, sie muß <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi> folgen. Hier, wo
-      <lb facs="#facs_3_region_1684911572479_930_tl_18" n="N019"/>
-               <rs type="person">Lotte</rs> zum erstenmale in die schmerzlichsten Accente der
-      <lb facs="#facs_3_region_1684911572479_930_tl_19" n="N020"/>Leidenschaft ausbricht, entfaltete Fräulein <rs type="person">Renard</rs> die ganze
+      <lb facs="#facs_3_region_1684911572479_930_tl_15" n="N016"/><rs type="person" ref="#hsl_person_id_100">Goethe</rs>’schen Original viel mehr zu nähern, als Fräulein
+      <lb facs="#facs_3_region_1684911572479_930_tl_16" n="N017"/><rs type="person" ref="#hsl_person_id_235">Renard</rs> es thut. Im dritten Act kann sie allerdings nicht
+      <lb facs="#facs_3_region_1684911572479_930_tl_17" n="N018"/>mehr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_100">Goethe</rs></hi>, sie muß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1302">Massenet</rs></hi> folgen. Hier, wo
+      <lb facs="#facs_3_region_1684911572479_930_tl_18" n="N019"/><rs type="person" ref="#hsl_person_id_3565">Lotte</rs> zum erstenmale in die schmerzlichsten Accente der
+      <lb facs="#facs_3_region_1684911572479_930_tl_19" n="N020"/>Leidenschaft ausbricht, entfaltete Fräulein <rs type="person" ref="#hsl_person_id_235">Renard</rs> die ganze
       <lb facs="#facs_3_region_1684911572479_930_tl_20" n="N021"/>Fülle ihres starken und glänzenden Talents. Sie ist
-      <lb facs="#facs_3_region_1684911572479_930_tl_21" n="N022"/>in diesen Scenen unübertrefflich. Die <rs type="person">Sophie</rs> der
-      <lb facs="#facs_3_region_1684911572479_930_tl_22" n="N023"/>Frau <hi rendition="#em">
-                  <rs type="person">Forster</rs>
-               </hi> gehört zu den lieblichsten Erscheinungen, die
+      <lb facs="#facs_3_region_1684911572479_930_tl_21" n="N022"/>in diesen Scenen unübertrefflich. Die <rs type="person" ref="#hsl_person_id_4196">Sophie</rs> der
+      <lb facs="#facs_3_region_1684911572479_930_tl_22" n="N023"/>Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1055">Forster</rs></hi> gehört zu den lieblichsten Erscheinungen, die
       <lb facs="#facs_3_region_1684911572479_930_tl_23" n="N024"/>uns auf der Bühne begegnet sind. Ihre recht schwierigen
       <lb facs="#facs_3_region_1684911572479_930_tl_24" n="N025"/>Lieder singt sie mit entzückender Anmuth und breitet ganz
-      <lb facs="#facs_3_region_1684911572479_930_tl_25" n="N026"/>wie in der „<rs type="bibl">Cavalleria rusticana</rs>“ ein Stück goldenen Son¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_26" n="N027"/>nenscheins über die Scene. Herr <hi rendition="#em">
-                  <rs type="person">Neidl</rs>
-               </hi> gibt den <rs type="person">Albert</rs>
-               <lb facs="#facs_3_region_1684911572479_930_tl_27" n="N028"/>mit ungesuchter Würde und Herzlichkeit, Herr <hi rendition="#em">
-                  <rs type="person">Mayerhofer</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684911572479_930_tl_28" n="N029"/>den <rs type="person">Amtmann</rs> mit behaglichster Lanne. Die Herren <hi rendition="#em">
-                  <rs type="person">Stoll</rs>
-               </hi>,
-      <lb facs="#facs_3_region_1684911572479_930_tl_29" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Schittenhelm</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Felix</rs>
-               </hi> unterstützen sehr sorgfäl¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_30" n="N031"/>tig das Ensemble. Besondere Anerkennung verdient die vor¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_31" n="N032"/>treffliche, der Zeit und dem Ort genau angepaßte Ausstat¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_32" n="N033"/>tung. Herr Director <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi> dirigirt die Oper, um derer
-      <lb facs="#facs_3_region_1684911572479_930_tl_33" n="N034"/>schönes Gelingen er die größten Verdienste hat. Den glän¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_34" n="N035"/>zenden Erfolg der Vorstellung und die den Sängern wie
-      <lb facs="#facs_3_region_1684911572479_930_tl_35" n="N036"/>Herrn <rs type="person">Massenet</rs> zu Theil gewordenen Auszeichnungen haben
-      <lb facs="#facs_3_region_1684911572479_930_tl_36" n="N037"/>wir bereits gemeldet. <rs type="person">Massenet</rs>'s „<rs type="bibl">Werther</rs>“ bedeutet über¬
-      <lb facs="#facs_3_region_1684911572479_930_tl_37" n="N038"/>dies ein interessantes musikhistorisches Factum. Außer <hi rendition="#em">
-                  <rs type="person" continued="true">Cheru¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684911572479_930_tl_38" n="N039"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bini</rs>'s</hi> „<rs type="bibl">Fanisca</rs>“ (<date month="0" day="0" year="0">1807</date>) dürfte „<rs type="bibl">Werther</rs>“ die einzige von
-      <lb facs="#facs_3_region_1684911572479_930_tl_39" n="N040"/>einem berühmten <rs type="place">französisch</rs>en Tondichter componirte Oper
-      <lb facs="#facs_3_region_1684911572479_930_tl_40" n="N041"/>sein, deren allererste Aufführung in <hi rendition="#em">
-                  <rs type="place">Wien</rs>
-               </hi> in <hi rendition="#em">
-                  <rs type="place">deutsch</rs>er</hi>
-               <lb facs="#facs_3_line_1705220920635_1203" n="N042"/>Sprache stattgefunden hat.</p>
+      <lb facs="#facs_3_region_1684911572479_930_tl_25" n="N026"/>wie in der „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria rusticana</rs>“ ein Stück goldenen Son
+      <lb facs="#facs_3_region_1684911572479_930_tl_26" n="N027" break="no"/>nenscheins über die Scene. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1428">Neidl</rs></hi> gibt den <rs type="person" ref="#hsl_person_id_4195">Albert</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684911572479_930_tl_27" n="N028"/>mit ungesuchter Würde und Herzlichkeit, Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684911572479_930_tl_28" n="N029"/>den <rs type="person" ref="#hsl_person_id_4189">Amtmann</rs> mit behaglichster Laune. Die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1534">Stoll</rs></hi>,
+      <lb facs="#facs_3_region_1684911572479_930_tl_29" n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1058">Schittenhelm</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1059">Felix</rs></hi> unterstützen sehr sorgfäl
+      <lb facs="#facs_3_region_1684911572479_930_tl_30" n="N031" break="no"/>tig das Ensemble. Besondere Anerkennung verdient die vor
+      <lb facs="#facs_3_region_1684911572479_930_tl_31" n="N032" break="no"/>treffliche, der Zeit und dem Ort genau angepaßte Ausstat
+      <lb facs="#facs_3_region_1684911572479_930_tl_32" n="N033" break="no"/>tung. Herr Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_979">Jahn</rs></hi> dirigirt die Oper, um derer
+      <lb facs="#facs_3_region_1684911572479_930_tl_33" n="N034"/>schönes Gelingen er die größten Verdienste hat. Den glän
+      <lb facs="#facs_3_region_1684911572479_930_tl_34" n="N035" break="no"/>zenden Erfolg der Vorstellung und die den Sängern wie
+      <lb facs="#facs_3_region_1684911572479_930_tl_35" n="N036"/>Herrn <rs type="person" ref="#hsl_person_id_1302">Massenet</rs> zu Theil gewordenen Auszeichnungen haben
+      <lb facs="#facs_3_region_1684911572479_930_tl_36" n="N037"/>wir bereits gemeldet. <rs type="person" ref="#hsl_person_id_1302">Massenet</rs>’s „<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“ bedeutet über
+      <lb facs="#facs_3_region_1684911572479_930_tl_37" n="N038" break="no"/>dies ein interessantes musikhistorisches Factum. Außer <hi rendition="#em"><rs type="person" ref="#hsl_person_id_47">Cheru
+      <lb facs="#facs_3_region_1684911572479_930_tl_38" n="N039" break="no"/>bini</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_2599">Fanisca</rs>“ (<date>1807</date>) dürfte „<rs type="bibl" ref="#hsl_work_id_823">Werther</rs>“ die einzige von
+      <lb facs="#facs_3_region_1684911572479_930_tl_39" n="N040"/>einem berühmten <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Tondichter componirte Oper
+      <lb facs="#facs_3_region_1684911572479_930_tl_40" n="N041"/>sein, deren allererste Aufführung in <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> in <hi rendition="#em"><rs type="place" ref="#hsl_place_id_14">deutsch</rs>er</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_line_1705220920635_1203" n="N042"/>Sprache stattgefunden hat.</p>
          </div>
       </body>
    </text>
