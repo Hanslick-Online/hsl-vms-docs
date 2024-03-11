@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 9979. Wien, Sonntag, den 5. Juni 1892</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 9979. Wien, Sonntag, den 5. Juni 1892</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Freie Neue Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1892-06-05">05.06.1892</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2024-02-09">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2024-02-23">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2024-03-10">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1279,28 +1278,20 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <lb facs="#facs_2_region_1706944699365_150_tl_1" n="N001"/><head type="h1">Friedrich v. <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s Leben.</head>
             <p>
-               <lb facs="#facs_1_line_1706978344430_697" n="N001"/>Nr. 9979. Wien, Sonntag, den 5. Juni 1892</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_2_region_1706944699365_150_tl_1" n="N001"/>Friedrich v. <rs type="person">Flotow</rs>'s Leben.
-      <lb facs="#facs_2_region_1706944699365_150_tl_2" n="N002"/>Ed. H. Eine vollständige verläßliche Biographie <rs type="person">Flotow</rs>'s
-      <lb facs="#facs_2_region_1706944699365_150_tl_3" n="N003"/>hat bisher gefehlt, so gerne man Genaueres über die Ent¬
-      <lb facs="#facs_2_region_1706944699365_150_tl_4" n="N004"/>wicklung und die Erlebnisse eines Mannes erfahren hätte,
+      <lb facs="#facs_2_region_1706944699365_150_tl_2" n="N002"/>Ed. H. Eine vollständige verläßliche Biographie <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s
+      <lb facs="#facs_2_region_1706944699365_150_tl_3" n="N003"/>hat bisher gefehlt, so gerne man Genaueres über die Ent
+      <lb facs="#facs_2_region_1706944699365_150_tl_4" n="N004" break="no"/>wicklung und die Erlebnisse eines Mannes erfahren hätte,
       <lb facs="#facs_2_region_1706944699365_150_tl_5" n="N005"/>der, liebenswürdig als Mensch wie als Künstler, von so
       <lb facs="#facs_2_line_1706978404781_713" n="N006"/>glänzenden Erfolgen gekrönt war. Ein solches Buch konnte
-      <lb facs="#facs_2_region_1706944699365_150_tl_6" n="N007"/>überall auf Theilnahme zählen, in <rs type="place">Wien</rs> zumal, wo <rs type="person">Flotow</rs>'s
+      <lb facs="#facs_2_region_1706944699365_150_tl_6" n="N007"/>überall auf Theilnahme zählen, in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zumal, wo <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s
       <lb facs="#facs_2_region_1706944699365_150_tl_7" n="N008"/>Ruhm die Reise um die Welt antrat und seine Persönlichkeit
-      <lb facs="#facs_2_region_1706944699365_150_tl_8" n="N009"/>zu den bekanntesten und beliebtesten gehörte. Die Verlags¬
-      <lb facs="#facs_2_region_1706944699365_150_tl_9" n="N010"/>handlung Breitkopf &amp; Härtel versendet soeben einen schön aus¬
-      <lb facs="#facs_2_region_1706944699365_150_tl_10" n="N011"/>gestatteten schmächtigen Band: „<hi rendition="#em">
-                  <rs type="bibl">Friedrich v. Flotow's</rs>
-               </hi>
-               <lb facs="#facs_2_region_1706944699365_150_tl_11" n="N012"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Leben</rs>, von seiner<rs type="person"> Witwe</rs>
-               </hi>“. Die Verfasserin ziert
+      <lb facs="#facs_2_region_1706944699365_150_tl_8" n="N009"/>zu den bekanntesten und beliebtesten gehörte. Die Verlags
+      <lb facs="#facs_2_region_1706944699365_150_tl_9" n="N010" break="no"/>handlung Breitkopf &amp; Härtel versendet soeben einen schön aus
+      <lb facs="#facs_2_region_1706944699365_150_tl_10" n="N011" break="no"/>gestatteten schmächtigen Band: „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2697">Friedrich v. Flotow’s
+      <lb facs="#facs_2_region_1706944699365_150_tl_11" n="N012"/>Leben</rs>, von seiner <rs type="person" ref="#hsl_person_id_4301">Witwe</rs></hi>“. Die Verfasserin ziert
       <lb facs="#facs_2_region_1706944699365_150_tl_12" n="N013"/>eine seltene Bescheidenheit. Weder ihren Taufnamen, noch
       <lb facs="#facs_2_region_1706944699365_150_tl_13" n="N014"/>ihren Familiennamen, noch ihre Herkunft verräth sie uns;
       <lb facs="#facs_2_region_1706944699365_150_tl_14" n="N015"/>ihre Person bleibt das ganze Buch hindurch völlig unsichtbar
@@ -1308,522 +1299,374 @@
       <lb facs="#facs_2_region_1706944699365_150_tl_16" n="N017"/>Grund schriftlicher Aufzeichnungen ihres Gatten, den sie
       <lb facs="#facs_2_region_1706944699365_150_tl_17" n="N018"/>liebevoll, doch ohne enthusiastische Uebertreibung schildert.
       <lb facs="#facs_2_region_1706944699365_150_tl_18" n="N019"/>Der Frau eines Componisten verzeiht man, wenn sie ihn
-      <lb facs="#facs_2_region_1706944699365_150_tl_19" n="N020"/>für einen zweiten <rs type="person">Mozart</rs> hält; man dankt ihr, wenn sie es
+      <lb facs="#facs_2_region_1706944699365_150_tl_19" n="N020"/>für einen zweiten <rs type="person" ref="#hsl_person_id_189">Mozart</rs> hält; man dankt ihr, wenn sie es
       <lb facs="#facs_2_line_1707031285383_39" n="N021"/>nicht thut.
+            </p><p>
       <lb facs="#facs_2_region_1706944699365_150_tl_20" n="N022"/>Das Interessanteste ist die Jugendzeit. Die Familie
-      <lb facs="#facs_2_region_1706944699365_150_tl_21" n="N023"/>Flotow ist eines der ältesten Adelsgeschlechter in <rs type="place">Mecklenburg</rs>;
+      <lb facs="#facs_2_region_1706944699365_150_tl_21" n="N023"/>Flotow ist eines der ältesten Adelsgeschlechter in <rs type="place" ref="#hsl_place_id_506">Mecklenburg</rs>;
       <lb facs="#facs_2_region_1706944699365_150_tl_22" n="N024"/>es kann seine Abstammung bis in jene Zeiten verfolgen, wo
       <lb facs="#facs_2_region_1706944699365_150_tl_23" n="N025"/>die Führung von Wappen als Abzeichen adeliger Abkunft
       <lb facs="#facs_2_region_1706944699365_150_tl_24" n="N026"/>aufgekommen ist. Der ausgedehnte Grundbesitz der Flotows
-      <lb facs="#facs_2_region_1706944699365_150_tl_25" n="N027"/>ging allmälig durch schlechte Wirthschaft und anhaltende Ver¬
-      <lb facs="#facs_2_region_1706944699365_150_tl_26" n="N028"/>nachlässigung immer mehr zuruck, namentlich zur Zeit der
-      <lb facs="#facs_2_region_1706944699365_150_tl_27" n="N029"/>
-               <rs type="place">französisch</rs>en Invasion. Wilhelm v. <rs type="person">Flotow</rs>, der Vater des
-      <lb facs="#facs_2_region_1706944699365_150_tl_28" n="N030"/>Componisten, hatte den unglücklichen Feldzug gegen <rs type="place">Frank¬</rs>
-               <lb facs="#facs_2_region_1706944699365_150_tl_29" n="N031"/>
-               <rs type="place">reich</rs> mitgemacht, hierauf als Rittmeister seinen Abschied ge¬
-      <lb facs="#facs_2_region_1706944699365_150_tl_30" n="N032"/>nommen und war in die Heimat zurückgekehrt. Da begann
-      <lb facs="#facs_2_region_1706944699365_150_tl_31" n="N033"/>für ihn eine kummervolle Zeit steter Arbeit, ja großer Ent¬
-      <lb facs="#facs_2_region_1706944699365_150_tl_32" n="N034"/>behrungen; er mußte sich auf seinem verschuldeten Gut
+      <lb facs="#facs_2_region_1706944699365_150_tl_25" n="N027"/>ging allmälig durch schlechte Wirthschaft und anhaltende Ver
+      <lb facs="#facs_2_region_1706944699365_150_tl_26" n="N028" break="no"/>nachlässigung immer mehr zuruck, namentlich zur Zeit der
+      <lb facs="#facs_2_region_1706944699365_150_tl_27" n="N029"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>en Invasion. Wilhelm v. <rs type="person" ref="#hsl_person_id_4302">Flotow</rs>, der Vater des
+      <lb facs="#facs_2_region_1706944699365_150_tl_28" n="N030"/>Componisten, hatte den unglücklichen Feldzug gegen <rs type="place" ref="#hsl_place_id_21">Frank
+      <lb facs="#facs_2_region_1706944699365_150_tl_29" n="N031" break="no"/>reich</rs> mitgemacht, hierauf als Rittmeister seinen Abschied ge
+      <lb facs="#facs_2_region_1706944699365_150_tl_30" n="N032" break="no"/>nommen und war in die Heimat zurückgekehrt. Da begann
+      <lb facs="#facs_2_region_1706944699365_150_tl_31" n="N033"/>für ihn eine kummervolle Zeit steter Arbeit, ja großer Ent
+      <lb facs="#facs_2_region_1706944699365_150_tl_32" n="N034" break="no"/>behrungen; er mußte sich auf seinem verschuldeten Gut
       <lb facs="#facs_2_region_1706944699365_150_tl_33" n="N035"/>Tentendorf mit einem bescheidenen Wohnhäuschen begnügen,
       <lb facs="#facs_2_region_1706944699365_150_tl_34" n="N036"/>das gegenwärtig die Wohnung des Dorfschulmeisters ist. Hier
-      <lb facs="#facs_2_line_1706978447541_730" n="N037"/>wurde am 26. April <date month="0" day="0" year="0">1812</date> Friedrich v. <hi rendition="#em">
-                  <rs type="person">Flotow</rs>
-               </hi> geboren.</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_2_region_1706944705416_153_tl_1" n="N001"/>Wie fruchtbar war diese Zeit im Hervorbringen bedeutender
-      <lb facs="#facs_2_region_1706944705416_153_tl_2" n="N002"/>Componisten! Das Jahr <date month="0" day="0" year="0">1809</date> brachte <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>
-               </hi> und
-      <lb facs="#facs_2_line_1706978483982_748" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Chopin</rs>
-               </hi>; <date month="0" day="0" year="0">1810</date>
-               <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> und Felicien <hi rendition="#em">
-                  <rs type="person">David</rs>
-               </hi>;
-      <lb facs="#facs_2_region_1706944705416_153_tl_3" n="N004"/>
-               <date month="0" day="0" year="0">1811</date>
-               <hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi>, Ferdinand <hi rendition="#em">
-                  <rs type="person">Hiller</rs>
-               </hi> und Ambroise <hi rendition="#em">
-                  <rs type="person">Thomas</rs>
-               </hi>;
-      <lb facs="#facs_2_region_1706944705416_153_tl_4" n="N005"/>
-               <date month="0" day="0" year="0">1812</date>
-               <hi rendition="#em">
-                  <rs type="person">Flotow</rs>
-               </hi>; <date month="0" day="0" year="0">1813</date> Richard <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Verdi</rs>
-               </hi>.
+      <lb facs="#facs_2_line_1706978447541_730" n="N037"/>wurde am 26. April <date>1812</date> Friedrich v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_81">Flotow</rs></hi> geboren.<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1706944705416_153_tl_1" n="N001"/>Wie fruchtbar war diese Zeit im Hervorbringen bedeutender
+      <lb facs="#facs_2_region_1706944705416_153_tl_2" n="N002"/>Componisten! Das Jahr <date>1809</date> brachte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi> und
+      <lb facs="#facs_2_line_1706978483982_748" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_48">Chopin</rs></hi>; <date>1810</date><space unit="char" quantity="1"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> und Felicien <hi rendition="#em"><rs type="person" ref="#hsl_person_id_969">David</rs></hi>;
+      <lb facs="#facs_2_region_1706944705416_153_tl_3" n="N004"/><date>1811</date><space unit="char" quantity="1"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi>, Ferdinand <hi rendition="#em"><rs type="person" ref="#hsl_person_id_124">Hiller</rs></hi> und Ambroise <hi rendition="#em"><rs type="person" ref="#hsl_person_id_305">Thomas</rs></hi>;
+      <lb facs="#facs_2_region_1706944705416_153_tl_4" n="N005"/><date>1812</date><space unit="char" quantity="1"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_81">Flotow</rs></hi>; <date>1813</date> Richard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi>.
       <lb facs="#facs_2_region_1706944705416_153_tl_5" n="N006"/>Diese fünf <hi rendition="#em">Jahre</hi> lieferten eine reichere musikalische Ernte,
       <lb facs="#facs_2_region_1706944705416_153_tl_6" n="N007"/>als die folgenden fünf <hi rendition="#em">Decennien</hi>. Das musikalische
-      <lb facs="#facs_2_region_1706944705416_153_tl_7" n="N008"/>Talent des kleinen <rs type="person">Friedrich</rs> zeigte sich bald, fand
+      <lb facs="#facs_2_region_1706944705416_153_tl_7" n="N008"/>Talent des kleinen <rs type="person" ref="#hsl_person_id_81">Friedrich</rs> zeigte sich bald, fand
       <lb facs="#facs_2_region_1706944705416_153_tl_8" n="N009"/>aber zu Hause keinerlei Anregung oder Unterstützung.
       <lb facs="#facs_2_region_1706944705416_153_tl_9" n="N010"/>Mit 10 Jahren wurde er in die Pension eines Pfarrers in
-      <lb facs="#facs_2_region_1706944705416_153_tl_10" n="N011"/>
-               <rs type="place">Lübchen</rs> geschickt; nach Jahresfrist zeigte es sich, daß er in
+      <lb facs="#facs_2_region_1706944705416_153_tl_10" n="N011"/><rs type="place" ref="#hsl_place_id_512">Lübchen</rs> geschickt; nach Jahresfrist zeigte es sich, daß er in
       <lb facs="#facs_2_region_1706944705416_153_tl_11" n="N012"/>seinen Berufsstudien gar keine Fortschritte gemacht und nur
-      <lb facs="#facs_2_region_1706944705416_153_tl_12" n="N013"/>Clavier gespielt habe. Der <rs type="person">Vater</rs> nahm den Knaben sofort
+      <lb facs="#facs_2_region_1706944705416_153_tl_12" n="N013"/>Clavier gespielt habe. Der <rs type="person" ref="#hsl_person_id_4302">Vater</rs> nahm den Knaben sofort
       <lb facs="#facs_2_region_1706944705416_153_tl_13" n="N014"/>nach Hause und schickte ihn in eine andere Pension in
-      <lb facs="#facs_2_region_1706944705416_153_tl_14" n="N015"/>
-               <rs type="place">Lüderhagen</rs> bei <rs type="place">Güstrow</rs>. Auf Andringen der <rs type="person">Mutter</rs>, welche
+      <lb facs="#facs_2_region_1706944705416_153_tl_14" n="N015"/><rs type="place" ref="#hsl_place_id_511">Lüderhagen</rs> bei <rs type="place" ref="#hsl_place_id_505">Güstrow</rs>. Auf Andringen der <rs type="person" ref="#hsl_person_id_4303">Mutter</rs>, welche
       <lb facs="#facs_2_region_1706944705416_153_tl_15" n="N016"/>den Musikunterricht doch nicht vernachlässigt sehen wollte,
-      <lb facs="#facs_2_region_1706944705416_153_tl_16" n="N017"/>ward festgesetzt, daß <rs type="person">Friedrich</rs> wöchentlich einmal nach <rs type="place">Güstrow</rs>
-               <lb facs="#facs_2_region_1706944705416_153_tl_17" n="N018"/>gebracht werden sollte, um bei dem Organisten <rs type="person">Thiem</rs> Unter¬
-      <lb facs="#facs_2_region_1706944705416_153_tl_18" n="N019"/>richt in der Harmonielehre zu nehmen. So kam er denn
-      <lb facs="#facs_2_region_1706944705416_153_tl_19" n="N020"/>jeden Samstag Morgens nach <rs type="place">Güstrow</rs> und verbrachte den
+      <lb facs="#facs_2_region_1706944705416_153_tl_16" n="N017"/>ward festgesetzt, daß <rs type="person" ref="#hsl_person_id_81">Friedrich</rs> wöchentlich einmal nach <rs type="place" ref="#hsl_place_id_505">Güstrow</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1706944705416_153_tl_17" n="N018"/>gebracht werden sollte, um bei dem Organisten <rs type="person" ref="#hsl_person_id_4304">Thiem</rs> Unter
+      <lb facs="#facs_2_region_1706944705416_153_tl_18" n="N019" break="no"/>richt in der Harmonielehre zu nehmen. So kam er denn
+      <lb facs="#facs_2_region_1706944705416_153_tl_19" n="N020"/>jeden Samstag Morgens nach <rs type="place" ref="#hsl_place_id_505">Güstrow</rs> und verbrachte den
       <lb facs="#facs_2_region_1706944705416_153_tl_20" n="N021"/>Tag wie den darauffolgenden Sonntag im Hause seiner
-      <lb facs="#facs_2_region_1706944705416_153_tl_21" n="N022"/>Tante, der Schwester seiner Mutter. „Tante <hi rendition="#em">
-                  <rs type="person">Gabillon</rs>
-               </hi>!“
+      <lb facs="#facs_2_region_1706944705416_153_tl_21" n="N022"/><rs type="person" ref="#hsl_person_id_4305">Tante</rs>, der Schwester seiner <rs type="person" ref="#hsl_person_id_4303">Mutter</rs>. „Tante <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4305">Gabillon</rs></hi>!“
       <lb facs="#facs_2_region_1706944705416_153_tl_22" n="N023"/>Der Name klingt den Wienern lieb und vertraut ins Ohr.
-      <lb facs="#facs_2_region_1706944705416_153_tl_23" n="N024"/>Sie haben es nun Schwarz auf Weiß, daß es in <rs type="place">Mecklen¬</rs>
-               <lb facs="#facs_2_region_1706944705416_153_tl_24" n="N025"/>
-               <rs type="place">burg</rs> wirklich echte Gabillons gibt, so oft auch unserem
-      <lb facs="#facs_2_region_1706944705416_153_tl_25" n="N026"/>Ludwig <rs type="person">Gabillon</rs> von neckenden Burgtheater-Collegen die
-      <lb facs="#facs_2_region_1706944705416_153_tl_26" n="N027"/>Echtfärbigkeit seines Namens angefochten wurde. Onkel <rs type="person" continued="true">Ga¬</rs>
-               <lb facs="#facs_2_region_1706944705416_153_tl_27" n="N028"/>
-               <rs type="person" continued="true">billon</rs> war der Sohn eines <rs type="place">französisch</rs>en Tanzlehrers, der
-      <lb facs="#facs_2_region_1706944705416_153_tl_28" n="N029"/>sich in <rs type="place">Mecklenburg</rs> angesiedelt hatte. Er versah das Amt
-      <lb facs="#facs_2_region_1706944705416_153_tl_29" n="N030"/>eines Steuersecretärs in <rs type="place">Güstrow</rs>, schwärmte für Musik
+      <lb facs="#facs_2_region_1706944705416_153_tl_23" n="N024"/>Sie haben es nun Schwarz auf Weiß, daß es in <rs type="place" ref="#hsl_place_id_506">Mecklen
+      <lb facs="#facs_2_region_1706944705416_153_tl_24" n="N025" break="no"/>burg</rs> wirklich echte Gabillons gibt, so oft auch unserem
+      <lb facs="#facs_2_region_1706944705416_153_tl_25" n="N026"/>Ludwig <rs type="person" ref="#hsl_person_id_1954">Gabillon</rs> von neckenden Burgtheater-Collegen die
+      <lb facs="#facs_2_region_1706944705416_153_tl_26" n="N027"/>Echtfärbigkeit seines Namens angefochten wurde. Onkel <rs type="person" ref="#hsl_person_id_4306">Ga
+      <lb facs="#facs_2_region_1706944705416_153_tl_27" n="N028" break="no"/>billon</rs> war der Sohn eines <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Tanzlehrers, der
+      <lb facs="#facs_2_region_1706944705416_153_tl_28" n="N029"/>sich in <rs type="place" ref="#hsl_place_id_506">Mecklenburg</rs> angesiedelt hatte. Er versah das Amt
+      <lb facs="#facs_2_region_1706944705416_153_tl_29" n="N030"/>eines Steuersecretärs in <rs type="place" ref="#hsl_place_id_505">Güstrow</rs>, schwärmte für Musik
       <lb facs="#facs_2_region_1706944705416_153_tl_30" n="N031"/>und dirigirte den Gesangverein des Städtchens. Auf die
       <lb facs="#facs_2_region_1706944705416_153_tl_31" n="N032"/>musikalische Entwicklung seines Neffen hat er jedenfalls
-      <lb facs="#facs_2_region_1706944705416_153_tl_32" n="N033"/>fördernden Einfluß genommen. Uebrigens wurde <rs type="person">Friedrich</rs>,
+      <lb facs="#facs_2_region_1706944705416_153_tl_32" n="N033"/>fördernden Einfluß genommen. Uebrigens wurde <rs type="person" ref="#hsl_person_id_81">Friedrich</rs>,
       <lb facs="#facs_2_region_1706944705416_153_tl_33" n="N034"/>der schon im Stillen zu componiren anfing, von der Musik
-      <lb facs="#facs_2_region_1706944705416_153_tl_34" n="N035"/>grundsätzlich ferngehalten. Der <rs type="person">Vater</rs>, welchem die Musik
+      <lb facs="#facs_2_region_1706944705416_153_tl_34" n="N035"/>grundsätzlich ferngehalten. Der <rs type="person" ref="#hsl_person_id_4302">Vater</rs>, welchem die Musik
       <lb facs="#facs_2_region_1706944705416_153_tl_35" n="N036"/>höchstens als angenehmer Zeitvertreib galt, hoffte ihn zu
       <lb facs="#facs_2_region_1706944705416_153_tl_36" n="N037"/>einem tüchtigen Verwaltungs-Beamten auszubilden, mit der
-      <lb facs="#facs_2_region_1706944705416_153_tl_37" n="N038"/>Aussicht auf einen Diplomatenposten. Wie erschrak er, als</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_line_1706978383630_707" n="N001"/>
-               <rs type="person">Friedrich</rs> mit der dringenden Bitte an ihn herantrat, sich
+      <lb facs="#facs_2_region_1706944705416_153_tl_37" n="N038"/>Aussicht auf einen Diplomatenposten. Wie erschrak er, als<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1706978383630_707" n="N001"/><rs type="person" ref="#hsl_person_id_81">Friedrich</rs> mit der dringenden Bitte an ihn herantrat, sich
       <lb facs="#facs_2_region_1706944709506_156_tl_1" n="N002"/>ganz der Musik widmen zu dürfen! Da gab es erst heftiges
       <lb facs="#facs_2_region_1706944709506_156_tl_2" n="N003"/>Widerstreben, dann langes Ueberlegen. Erst nachdem viele
-      <lb facs="#facs_2_region_1706944709506_156_tl_3" n="N004"/>Fürsprecher, Onkel <rs type="person">Gabillon</rs> an der Spitze, die Sache warm
+      <lb facs="#facs_2_region_1706944709506_156_tl_3" n="N004"/>Fürsprecher, Onkel <rs type="person" ref="#hsl_person_id_4306">Gabillon</rs> an der Spitze, die Sache warm
       <lb facs="#facs_2_region_1706944709506_156_tl_4" n="N005"/>unterstützten, nachdem schließlich auch der berühmte Clarinettist
-      <lb facs="#facs_2_region_1706944709506_156_tl_5" n="N006"/>Ivan <rs type="person">Müller</rs> sich über <rs type="person">Friedrich</rs>'s Talent sehr günstig aus¬
-      <lb facs="#facs_2_region_1706944709506_156_tl_6" n="N007"/>gesprochen hatte, entschloß sich Papa <rs type="person">Flotow</rs>, einzuwilligen.
+      <lb facs="#facs_2_region_1706944709506_156_tl_5" n="N006"/>Ivan <rs type="person" ref="#hsl_person_id_4307">Müller</rs> sich über <rs type="person" ref="#hsl_person_id_81">Friedrich</rs>’s Talent sehr günstig aus
+      <lb facs="#facs_2_region_1706944709506_156_tl_6" n="N007" break="no"/>gesprochen hatte, entschloß sich Papa <rs type="person" ref="#hsl_person_id_4302">Flotow</rs>, einzuwilligen.
       <lb facs="#facs_2_region_1706944709506_156_tl_7" n="N008"/>Unaufgeklärt und jedenfalls merkwürdig ist der Entschluß des
-      <lb facs="#facs_2_region_1706944709506_156_tl_8" n="N009"/>alten <rs type="person">Flotow</rs>, seinen Sohn sofort in <hi rendition="#em">
-                  <rs type="place">Paris</rs>
-               </hi> studiren zu
-      <lb facs="#facs_2_region_1706944709506_156_tl_9" n="N010"/>lassen. Man kennt kaum ein zweites Beispiel, daß ein an¬
-      <lb facs="#facs_2_region_1706944709506_156_tl_10" n="N011"/>gehender <rs type="place">deutsch</rs>er Compositions-Schüler mit Uebergehung
-      <lb facs="#facs_2_line_1706978427294_722" n="N012"/>jeder <rs type="place">deutsch</rs>en Musikschule zur Ausbildung unmittelbar nach
-      <lb facs="#facs_2_region_1706944709506_156_tl_11" n="N013"/>
-               <rs type="place">Paris</rs> geschickt worden ist. Und <rs type="place">Paris</rs> war damals von
-      <lb facs="#facs_2_region_1706944709506_156_tl_12" n="N014"/>
-               <rs type="place">Mecklenburg</rs> schwerer zu erreichen als heute <rs type="place">Newyork</rs>! Eine
+      <lb facs="#facs_2_region_1706944709506_156_tl_8" n="N009"/>alten <rs type="person" ref="#hsl_person_id_4302">Flotow</rs>, seinen Sohn sofort in <hi rendition="#em"><rs type="place" ref="#hsl_place_id_44">Paris</rs></hi> studiren zu
+      <lb facs="#facs_2_region_1706944709506_156_tl_9" n="N010"/>lassen. Man kennt kaum ein zweites Beispiel, daß ein an
+      <lb facs="#facs_2_region_1706944709506_156_tl_10" n="N011" break="no"/>gehender <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Compositions-Schüler mit Uebergehung
+      <lb facs="#facs_2_line_1706978427294_722" n="N012"/>jeder <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Musikschule zur Ausbildung unmittelbar nach
+      <lb facs="#facs_2_region_1706944709506_156_tl_11" n="N013"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> geschickt worden ist. Und <rs type="place" ref="#hsl_place_id_44">Paris</rs> war damals von
+      <lb facs="#facs_2_region_1706944709506_156_tl_12" n="N014"/><rs type="place" ref="#hsl_place_id_506">Mecklenburg</rs> schwerer zu erreichen als heute <rs type="place" ref="#hsl_place_id_186">Newyork</rs>! Eine
       <lb facs="#facs_2_region_1706944709506_156_tl_13" n="N015"/>Art Divination muß dem sonst ganz unmusikalischen Papa
       <lb facs="#facs_2_region_1706944709506_156_tl_14" n="N016"/>dieses Stichwort eingegeben haben. Weder war er im Stande,
       <lb facs="#facs_2_region_1706944709506_156_tl_15" n="N017"/>die musikalische Richtung seines Sohnes zu beurtheilen, noch
       <lb facs="#facs_2_region_1706944709506_156_tl_16" n="N018"/>lag diese in einigen unreifen Versuchen überhaupt erkennbar
-      <lb facs="#facs_2_region_1706944709506_156_tl_17" n="N019"/>zu Tage. Aber gewiß, der junge <rs type="person">Flotow</rs> gehörte nach <rs type="place">Paris</rs>.
-      <lb facs="#facs_2_region_1706944709506_156_tl_18" n="N020"/>Nicht als ob <rs type="place">Frankreich</rs> ihm große Erfolge bereitet hätte —
-      <lb facs="#facs_2_region_1706944709506_156_tl_19" n="N021"/>diese kamen ihm erst in <rs type="place">Deutschland</rs> — aber <rs type="place">Paris</rs> brachte
+      <lb facs="#facs_2_region_1706944709506_156_tl_17" n="N019"/>zu Tage. Aber gewiß, der junge <rs type="person" ref="#hsl_person_id_81">Flotow</rs> gehörte nach <rs type="place" ref="#hsl_place_id_44">Paris</rs>.
+      <lb facs="#facs_2_region_1706944709506_156_tl_18" n="N020"/>Nicht als ob <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> ihm große Erfolge bereitet hätte —
+      <lb facs="#facs_2_region_1706944709506_156_tl_19" n="N021"/>diese kamen ihm erst in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> — aber <rs type="place" ref="#hsl_place_id_44">Paris</rs> brachte
       <lb facs="#facs_2_region_1706944709506_156_tl_20" n="N022"/>eben jene Keime seines Talents zur Blüthe, durch welche
-      <lb facs="#facs_2_region_1706944709506_156_tl_21" n="N023"/>
-               <rs type="person">Flotow</rs> später <rs type="place">Deutschland</rs> bezaubert hat: Eleganz, leichter
+      <lb facs="#facs_2_region_1706944709506_156_tl_21" n="N023"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs> später <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> bezaubert hat: Eleganz, leichter
       <lb facs="#facs_2_region_1706944709506_156_tl_22" n="N024"/>Esprit, formelle Abrundung und über dem Allen der Sinn
       <lb facs="#facs_2_region_1706944709506_156_tl_23" n="N025"/>für das theatralisch Wirksame.
+            </p><p>
       <lb facs="#facs_2_region_1706944709506_156_tl_24" n="N026"/>Der alte Herr fährt selbst mit dem 16jährigen Sohne
-      <lb facs="#facs_2_region_1706944709506_156_tl_25" n="N027"/>nach <rs type="place">Paris</rs> und quartiert ihn bei einem pensionirten <rs type="place">französi¬</rs>
-               <lb facs="#facs_2_region_1706944709506_156_tl_26" n="N028"/>
-               <rs type="place">sch</rs>en <rs type="person">Major</rs> ein, der eine Mecklenburgerin geheiratet hatte.
-      <lb facs="#facs_2_region_1706944709506_156_tl_27" n="N029"/>Die besten Meister werden gewählt: Peter <hi rendition="#em">
-                  <rs type="person">Pixis</rs>
-               </hi> für das
-      <lb facs="#facs_2_region_1706944709506_156_tl_28" n="N030"/>Clavierspiel, <hi rendition="#em">
-                  <rs type="person">Reicha</rs>
-               </hi> für die Composition. Der junge <rs type="person">Flotow</rs>
-               <lb facs="#facs_2_region_1706944709506_156_tl_29" n="N031"/>arbeitet fleißig und componirt Allerlei. Er scheint sich schon
-      <lb facs="#facs_2_region_1706944709506_156_tl_30" n="N032"/>damals in die Rolle eines gefeierten Operncomponisten hinein¬
-      <lb facs="#facs_2_region_1706944709506_156_tl_31" n="N033"/>geträumt zu haben, denn vor der Première von <rs type="person">Rossini</rs>'s
-      <lb facs="#facs_2_region_1706944709506_156_tl_32" n="N034"/>„<rs type="bibl">Tell</rs>“ schreibt er der <rs type="person">Mutter</rs>: „Ich bin recht neugierig,
+      <lb facs="#facs_2_region_1706944709506_156_tl_25" n="N027"/>nach <rs type="place" ref="#hsl_place_id_44">Paris</rs> und quartiert ihn bei einem pensionirten <rs type="place" ref="#hsl_place_id_21">französi
+      <lb facs="#facs_2_region_1706944709506_156_tl_26" n="N028" break="no"/>sch</rs>en Major ein, der eine Mecklenburgerin geheiratet hatte.
+      <lb facs="#facs_2_region_1706944709506_156_tl_27" n="N029"/>Die besten Meister werden gewählt: Peter <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3364">Pixis</rs></hi> für das
+      <lb facs="#facs_2_region_1706944709506_156_tl_28" n="N030"/>Clavierspiel, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1002">Reicha</rs></hi> für die Composition. Der junge <rs type="person" ref="#hsl_person_id_81">Flotow</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1706944709506_156_tl_29" n="N031"/>arbeitet fleißig und componirt Allerlei. Er scheint sich schon
+      <lb facs="#facs_2_region_1706944709506_156_tl_30" n="N032"/>damals in die Rolle eines gefeierten Operncomponisten hinein
+      <lb facs="#facs_2_region_1706944709506_156_tl_31" n="N033" break="no"/>geträumt zu haben, denn vor der Première von <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s
+      <lb facs="#facs_2_region_1706944709506_156_tl_32" n="N034"/>„<rs type="bibl" ref="#hsl_work_id_186">Tell</rs>“ schreibt er der <rs type="person" ref="#hsl_person_id_4303">Mutter</rs>: „Ich bin recht neugierig,
       <lb facs="#facs_2_region_1706944709506_156_tl_33" n="N035"/>einmal so eine erste Vorstellung zu sehen, möchte auch gerne
-      <lb facs="#facs_2_line_1706978506853_756" n="N036"/>wissen, wie sich bei solchen Gelegenheiten der Componist be¬
-      <lb facs="#facs_2_line_1706978515214_761" n="N037"/>nimmt.“ Er hatte noch hübsch lange zu warten, bevor die
-      <lb facs="#facs_2_line_1706978468070_740" n="N038"/>Reihe an ihn kam! Plötzlich fiel ein schreckliches Ereigniß</p>
-            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_3_line_1706979101300_777" n="N001"/>verstörend in sein ruhiges Leben. Man fand eines Morgens
-      <lb facs="#facs_3_region_1706944722724_162_tl_1" n="N002"/>den alten <rs type="person">Major</rs> mit durchschnittenem Halse in seinem Bette.
+      <lb facs="#facs_2_line_1706978506853_756" n="N036"/>wissen, wie sich bei solchen Gelegenheiten der Componist be
+      <lb facs="#facs_2_line_1706978515214_761" n="N037" break="no"/>nimmt.“ Er hatte noch hübsch lange zu warten, bevor die
+      <lb facs="#facs_2_line_1706978468070_740" n="N038"/>Reihe an ihn kam! Plötzlich fiel ein schreckliches Ereigniß<space quantity="1" unit="char"/></p>
+            <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_3_line_1706979101300_777" n="N001"/>verstörend in sein ruhiges Leben. Man fand eines Morgens
+      <lb facs="#facs_3_region_1706944722724_162_tl_1" n="N002"/>den alten Major mit durchschnittenem Halse in seinem Bette.
       <lb facs="#facs_3_region_1706944722724_162_tl_2" n="N003"/>Die Familie stob auseinander, und Niemand kümmerte sich
       <lb facs="#facs_3_region_1706944722724_162_tl_3" n="N004"/>mehr um den jungen Fremden, der nun seine beste Stütze,
-      <lb facs="#facs_3_region_1706944722724_162_tl_4" n="N005"/>seinen einzigen Rathgeber verloren hatte. <rs type="person">Flotow</rs> miethete
+      <lb facs="#facs_3_region_1706944722724_162_tl_4" n="N005"/>seinen einzigen Rathgeber verloren hatte. <rs type="person" ref="#hsl_person_id_81">Flotow</rs> miethete
       <lb facs="#facs_3_region_1706944722724_162_tl_5" n="N006"/>ein billiges Dachstübchen und bestritt mit monatlichen
       <lb facs="#facs_3_region_1706944722724_162_tl_6" n="N007"/>200 Francs seine sämmtlichen Bedürfnisse. Eigentliche
       <lb facs="#facs_3_region_1706944722724_162_tl_7" n="N008"/>Armuth hat er nie gekannt, wol aber mußte er sich in
-      <lb facs="#facs_3_region_1706944722724_162_tl_8" n="N009"/>
-               <rs type="place">Paris</rs> sehr knapp behelfen und die scharfsinnigsten Combina¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_9" n="N010"/>tionen ausdenken, um auf die billigste Art die erste Heim¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_10" n="N011"/>reise zu bestreiten. Das ist immer eine werthvolle Vorschule
-      <lb facs="#facs_3_region_1706944722724_162_tl_11" n="N012"/>für's Leben; sie hat <rs type="person">Flotow</rs> in seinen guten Zeiten da¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_12" n="N013"/>vor bewahrt, die großthuerische Seite des „Cavaliers“ her¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_13" n="N014"/>vorzukehren. Unmittelbar nach der Juli-Revolution <date month="0" day="0" year="0">1830</date>
-               <lb facs="#facs_3_region_1706944722724_162_tl_14" n="N015"/>fand es Papa <rs type="person">Flotow</rs> dringend, den Sohn nach 2½ jähriger
-      <lb facs="#facs_3_region_1706944722724_162_tl_15" n="N016"/>Abwesenheit zurückzuberufen. Da konnte dieser in <rs type="place">Güstrow</rs>
-               <lb facs="#facs_3_region_1706944722724_162_tl_16" n="N017"/>die ersten patriotischen Localtriumphe als Pianist und Com¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_17" n="N018"/>positeur feiern. Im Mai <date month="0" day="0" year="0">1831</date> kehrt <rs type="person">Flotow</rs> nach <rs type="place">Paris</rs>
-               <lb facs="#facs_3_region_1706944722724_162_tl_18" n="N019"/>zurück. Er erfreut sich bald des Umgangs mit den berühm¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_19" n="N020"/>testen Componisten und erlangt Zutritt in die vornehmsten
-      <lb facs="#facs_3_region_1706944722724_162_tl_20" n="N021"/>Salons. Es war ein Leben voll geistreicher geselliger An¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_21" n="N022"/>regung, eine hohe Schule weltmännischen Benehmens, aber
-      <lb facs="#facs_3_region_1706944722724_162_tl_22" n="N023"/>auch ein Quell künstlerischer Zersplitterung. Für die Lieb¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_23" n="N024"/>haber-Theater jener aristokratischen Kreise hat <rs type="person">Flotow</rs> eine
+      <lb facs="#facs_3_region_1706944722724_162_tl_8" n="N009"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> sehr knapp behelfen und die scharfsinnigsten Combina
+      <lb facs="#facs_3_region_1706944722724_162_tl_9" n="N010" break="no"/>tionen ausdenken, um auf die billigste Art die erste Heim
+      <lb facs="#facs_3_region_1706944722724_162_tl_10" n="N011" break="no"/>reise zu bestreiten. Das ist immer eine werthvolle Vorschule
+      <lb facs="#facs_3_region_1706944722724_162_tl_11" n="N012"/>für’s Leben; sie hat <rs type="person" ref="#hsl_person_id_81">Flotow</rs> in seinen guten Zeiten da
+      <lb facs="#facs_3_region_1706944722724_162_tl_12" n="N013" break="no"/>vor bewahrt, die großthuerische Seite des „Cavaliers“ her
+      <lb facs="#facs_3_region_1706944722724_162_tl_13" n="N014" break="no"/>vorzukehren. Unmittelbar nach der Juli-Revolution <date>1830</date><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1706944722724_162_tl_14" n="N015"/>fand es Papa <rs type="person" ref="#hsl_person_id_4302">Flotow</rs> dringend, den Sohn nach 2½ jähriger
+      <lb facs="#facs_3_region_1706944722724_162_tl_15" n="N016"/>Abwesenheit zurückzuberufen. Da konnte dieser in <rs type="place" ref="#hsl_place_id_505">Güstrow</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1706944722724_162_tl_16" n="N017"/>die ersten patriotischen Localtriumphe als Pianist und Com
+      <lb facs="#facs_3_region_1706944722724_162_tl_17" n="N018" break="no"/>positeur feiern. Im Mai <date>1831</date> kehrt <rs type="person" ref="#hsl_person_id_81">Flotow</rs> nach <rs type="place" ref="#hsl_place_id_44">Paris</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1706944722724_162_tl_18" n="N019"/>zurück. Er erfreut sich bald des Umgangs mit den berühm
+      <lb facs="#facs_3_region_1706944722724_162_tl_19" n="N020" break="no"/>testen Componisten und erlangt Zutritt in die vornehmsten
+      <lb facs="#facs_3_region_1706944722724_162_tl_20" n="N021"/>Salons. Es war ein Leben voll geistreicher geselliger An
+      <lb facs="#facs_3_region_1706944722724_162_tl_21" n="N022" break="no"/>regung, eine hohe Schule weltmännischen Benehmens, aber
+      <lb facs="#facs_3_region_1706944722724_162_tl_22" n="N023"/>auch ein Quell künstlerischer Zersplitterung. Für die Lieb
+      <lb facs="#facs_3_region_1706944722724_162_tl_23" n="N024" break="no"/>haber-Theater jener aristokratischen Kreise hat <rs type="person" ref="#hsl_person_id_81">Flotow</rs> eine
       <lb facs="#facs_3_region_1706944722724_162_tl_24" n="N025"/>Anzahl kleiner Opern und Gelegenheitsstücke componirt,
       <lb facs="#facs_3_region_1706944722724_162_tl_25" n="N026"/>welche ihm die Zeit für Größeres raubten und unfruchtbar
       <lb facs="#facs_3_region_1706944722724_162_tl_26" n="N027"/>blieben für seine Laufbahn. Von Wichtigkeit wurde
       <lb facs="#facs_3_region_1706944722724_162_tl_27" n="N028"/>ihm die nähere Bekanntschaft mit dem Componisten
-      <lb facs="#facs_3_region_1706944722724_162_tl_28" n="N029"/>Albert <hi rendition="#em">
-                  <rs type="person">Grisar</rs>
-               </hi> und zwei renommirten Textdichtern,
-      <lb facs="#facs_3_region_1706944722724_162_tl_29" n="N030"/>St. <hi rendition="#em">
-                  <rs type="person">Georges</rs>
-               </hi> und de <hi rendition="#em">
-                  <rs type="person">Leuven</rs>
-               </hi>. Letzterer war in
-      <lb facs="#facs_3_region_1706944722724_162_tl_30" n="N031"/>Wirklichkeit ein Graf <hi rendition="#em">Ribbing</hi>, Sohn jenes <rs type="place">schwedi¬</rs>
-               <lb facs="#facs_3_region_1706944722724_162_tl_31" n="N032"/>
-               <rs type="place">sch</rs>en Grafen Adolph <rs type="person">Ribbing</rs>, der in der Verschwörung
-      <lb facs="#facs_3_region_1706944722724_162_tl_32" n="N033"/>
-               <rs type="person">Ankarström</rs>'s gegen <rs type="person">Gustav III.</rs> verwickelt gewesen. Graf
-      <lb facs="#facs_3_region_1706944722724_162_tl_33" n="N034"/>
-               <rs type="person">Ribbing</rs> war zum Tode verurtheilt, wurde aber begnadigt
-      <lb facs="#facs_3_region_1706944722724_162_tl_34" n="N035"/>und aus <rs type="place">Schweden</rs> verbannt. Er zog nach <rs type="place">Paris</rs>, wo sein
-      <lb facs="#facs_3_region_1706944722724_162_tl_35" n="N036"/>Sohn unter dem Namen de <rs type="person">Leuven</rs> einer der angesehensten
+      <lb facs="#facs_3_region_1706944722724_162_tl_28" n="N029"/>Albert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1461">Grisar</rs></hi> und zwei renommirten Textdichtern,
+      <lb facs="#facs_3_region_1706944722724_162_tl_29" n="N030"/>St. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1809">Georges</rs></hi> und de <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2074">Leuven</rs></hi>. Letzterer war in
+      <lb facs="#facs_3_region_1706944722724_162_tl_30" n="N031"/>Wirklichkeit ein Graf <hi rendition="#em">Ribbing</hi>, Sohn jenes <rs type="place" ref="#hsl_place_id_104">schwedi
+      <lb facs="#facs_3_region_1706944722724_162_tl_31" n="N032" break="no"/>sch</rs>en Grafen Adolph <rs type="person" ref="#hsl_person_id_4308">Ribbing</rs>, der in der Verschwörung
+      <lb facs="#facs_3_region_1706944722724_162_tl_32" n="N033"/><rs type="person" ref="#hsl_person_id_4296">Ankarström</rs>’s gegen <rs type="person" ref="#hsl_person_id_2323">Gustav III.</rs> verwickelt gewesen. Graf
+      <lb facs="#facs_3_region_1706944722724_162_tl_33" n="N034"/><rs type="person" ref="#hsl_person_id_4308">Ribbing</rs> war zum Tode verurtheilt, wurde aber begnadigt
+      <lb facs="#facs_3_region_1706944722724_162_tl_34" n="N035"/>und aus <rs type="place" ref="#hsl_place_id_104">Schweden</rs> verbannt. Er zog nach <rs type="place" ref="#hsl_place_id_44">Paris</rs>, wo sein
+      <lb facs="#facs_3_region_1706944722724_162_tl_35" n="N036"/>Sohn unter dem Namen de <rs type="person" ref="#hsl_person_id_2074">Leuven</rs> einer der angesehensten
       <lb facs="#facs_3_region_1706944722724_162_tl_36" n="N037"/>Theater-Schriftsteller wurde. Die erwähnten vornehmen
-      <lb facs="#facs_3_region_1706944722724_162_tl_37" n="N038"/>Privataufführungen machten den Namen <rs type="person">Flotow</rs> allmälig
-      <lb facs="#facs_3_region_1706944722724_162_tl_38" n="N039"/>in <rs type="place">Paris</rs> bekannt; man wurde aufmerksam auf sein Talent.
-      <lb facs="#facs_3_region_1706944722724_162_tl_39" n="N040"/>Dennoch blieben die Opernbühnen ihm noch immer ver¬
-      <lb facs="#facs_3_region_1706944722724_162_tl_40" n="N041"/>schlossen. Seine Bemühungen, von dem Director der Komi¬
-      <lb facs="#facs_3_line_1706979212270_819" n="N042"/>schen Oper, <hi rendition="#em">
-                  <rs type="person">Crosnier</rs>
-               </hi>, auch nur ein bescheidenes einactiges</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_3_region_1706944727634_165_tl_1" n="N001"/>Libretto zu erhalten, blieben vergeblich. Dieser Director ließ
-      <lb facs="#facs_3_region_1706944727634_165_tl_2" n="N002"/>
-               <rs type="person">Flotow</rs> niemals vor, so oft dieser ihn auch im Theater oder
+      <lb facs="#facs_3_region_1706944722724_162_tl_37" n="N038"/>Privataufführungen machten den Namen <rs type="person" ref="#hsl_person_id_81">Flotow</rs> allmälig
+      <lb facs="#facs_3_region_1706944722724_162_tl_38" n="N039"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs> bekannt; man wurde aufmerksam auf sein Talent.
+      <lb facs="#facs_3_region_1706944722724_162_tl_39" n="N040"/>Dennoch blieben die Opernbühnen ihm noch immer ver
+      <lb facs="#facs_3_region_1706944722724_162_tl_40" n="N041" break="no"/>schlossen. Seine Bemühungen, von dem Director der Komi
+      <lb facs="#facs_3_line_1706979212270_819" n="N042" break="no"/>schen Oper, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2354">Crosnier</rs></hi>, auch nur ein bescheidenes einactiges<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1706944727634_165_tl_1" n="N001"/>Libretto zu erhalten, blieben vergeblich. Dieser Director ließ
+      <lb facs="#facs_3_region_1706944727634_165_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs> niemals vor, so oft dieser ihn auch im Theater oder
       <lb facs="#facs_3_region_1706944727634_165_tl_3" n="N003"/>zu Hause aufsuchte. Der Diener hatte den strengsten Auftrag,
-      <lb facs="#facs_3_region_1706944727634_165_tl_4" n="N004"/>„den <rs type="place">deutsch</rs>en Monsieur“ jederzeit abzuweisen. Wie half sich
-      <lb facs="#facs_3_line_1706979153870_800" n="N005"/>der <rs type="place">deutsch</rs>e Monsieur? Er verband sich mit <hi rendition="#em">
-                  <rs type="person">Grisar</rs>
-               </hi>, dessen
+      <lb facs="#facs_3_region_1706944727634_165_tl_4" n="N004"/>„den <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Monsieur“ jederzeit abzuweisen. Wie half sich
+      <lb facs="#facs_3_line_1706979153870_800" n="N005"/>der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Monsieur? Er verband sich mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1461">Grisar</rs></hi>, dessen
       <lb facs="#facs_3_region_1706944727634_165_tl_5" n="N006"/>Ruf schon begründet war, zu gemeinschaftlicher Arbeit, unter
-      <lb facs="#facs_3_region_1706944727634_165_tl_6" n="N007"/>der Bedingung, daß die ersten Opern nur unter <rs type="person">Grisar</rs>'s
-      <lb facs="#facs_3_region_1706944727634_165_tl_7" n="N008"/>Namen gegeben werden sollten. So kam im Jahre <date month="0" day="0" year="0">1838</date>
-               <lb facs="#facs_3_region_1706944727634_165_tl_8" n="N009"/>im Théâtre de la Renaissance eine dreiactige Oper, „<hi rendition="#em">
-                  <rs type="bibl">Lady</rs>
-               </hi>
-               <lb facs="#facs_3_line_1706979076501_768" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Melvil</rs>
-               </hi>“, und im nächsten Jahr eine zweite, „<hi rendition="#em">
-                  <rs type="bibl">L'eau</rs>
-               </hi>
-               <lb facs="#facs_3_region_1706944727634_165_tl_9" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="bibl">merveilleuse</rs>
-               </hi>“, mit großem Erfolg zur Aufführung. Daß
-      <lb facs="#facs_3_region_1706944727634_165_tl_10" n="N012"/>diese beiden nur <rs type="person">Grisar</rs> zugeschriebenen Opern zur größeren
-      <lb facs="#facs_3_region_1706944727634_165_tl_11" n="N013"/>Hälfte von <hi rendition="#em">
-                  <rs type="person">Flotow</rs>
-               </hi> sind, ist bisher nicht bekannt ge¬
-      <lb facs="#facs_3_region_1706944727634_165_tl_12" n="N014"/>wesen. Mit einigem Stolz meldet er seinem <rs type="person">Vater</rs>, daß er
+      <lb facs="#facs_3_region_1706944727634_165_tl_6" n="N007"/>der Bedingung, daß die ersten Opern nur unter <rs type="person" ref="#hsl_person_id_1461">Grisar</rs>’s
+      <lb facs="#facs_3_region_1706944727634_165_tl_7" n="N008"/>Namen gegeben werden sollten. So kam im Jahre <date>1838</date><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1706944727634_165_tl_8" n="N009"/>im Théâtre de la Renaissance eine dreiactige Oper, „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2698">Lady
+      <lb facs="#facs_3_line_1706979076501_768" n="N010"/>Melvil</rs></hi>“, und im nächsten Jahr eine zweite, „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2700">L’eau
+      <lb facs="#facs_3_region_1706944727634_165_tl_9" n="N011"/>merveilleuse</rs></hi>“, mit großem Erfolg zur Aufführung. Daß
+      <lb facs="#facs_3_region_1706944727634_165_tl_10" n="N012"/>diese beiden nur <rs type="person" ref="#hsl_person_id_1461">Grisar</rs> zugeschriebenen Opern zur größeren
+      <lb facs="#facs_3_region_1706944727634_165_tl_11" n="N013"/>Hälfte von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_81">Flotow</rs></hi> sind, ist bisher nicht bekannt ge
+      <lb facs="#facs_3_region_1706944727634_165_tl_12" n="N014" break="no"/>wesen. Mit einigem Stolz meldet er seinem <rs type="person" ref="#hsl_person_id_4302">Vater</rs>, daß er
       <lb facs="#facs_3_region_1706944727634_165_tl_13" n="N015"/>in Folge dieser Arbeiten nahe an 8000 Francs verdient habe.
-      <lb facs="#facs_3_line_1706979176060_807" n="N016"/>Von einer dreiactigen Oper: „<hi rendition="#em">
-                  <rs type="bibl">Der Schiffbruch der</rs>
-               </hi>
-               <lb facs="#facs_3_region_1706944727634_165_tl_14" n="N017"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Medusa</rs>
-               </hi>“, waren die zwei besten Acte <rs type="person">Flotow</rs>'s Werk,
-      <lb facs="#facs_3_region_1706944727634_165_tl_15" n="N018"/>dessen Namen, wenn auch zum erstenmal, auf dem Theater¬
-      <lb facs="#facs_3_region_1706944727634_165_tl_16" n="N019"/>zettel der „Renaissance“ erschien. Das war also sein erster
-      <lb facs="#facs_3_region_1706944727634_165_tl_17" n="N020"/>wirklicher Erfolg in <rs type="place">Paris</rs> (<date month="0" day="0" year="0">1839</date>) — freilich auf einer
-      <lb facs="#facs_3_region_1706944727634_165_tl_18" n="N021"/>Bühne zweiten Rangs und getheilt mit einem andern Mit¬
-      <lb facs="#facs_3_region_1706944727634_165_tl_19" n="N022"/>arbeiter (<rs type="person">Pilati</rs>). An der Möglichkeit, eine noch so kleine
+      <lb facs="#facs_3_line_1706979176060_807" n="N016"/>Von einer dreiactigen Oper: „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2701">Der Schiffbruch der
+      <lb facs="#facs_3_region_1706944727634_165_tl_14" n="N017"/>Medusa</rs></hi>“, waren die zwei besten Acte <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s Werk,
+      <lb facs="#facs_3_region_1706944727634_165_tl_15" n="N018"/>dessen Namen, wenn auch zum erstenmal, auf dem Theater
+      <lb facs="#facs_3_region_1706944727634_165_tl_16" n="N019" break="no"/>zettel der „Renaissance“ erschien. Das war also sein erster
+      <lb facs="#facs_3_region_1706944727634_165_tl_17" n="N020"/>wirklicher Erfolg in <rs type="place" ref="#hsl_place_id_44">Paris</rs> (<date>1839</date>) — freilich auf einer
+      <lb facs="#facs_3_region_1706944727634_165_tl_18" n="N021"/>Bühne zweiten Rangs und getheilt mit einem andern Mit
+      <lb facs="#facs_3_region_1706944727634_165_tl_19" n="N022" break="no"/>arbeiter (<rs type="person" ref="#hsl_person_id_4309">Pilati</rs>). An der Möglichkeit, eine noch so kleine
       <lb facs="#facs_3_line_1706979195463_813" n="N023"/>Arbeit an der Großen Oper anzubringen, hatte er bereits
-      <lb facs="#facs_3_region_1706944727634_165_tl_20" n="N024"/>verzweifelt. Da läßt ihn eines Tages <hi rendition="#em">
-                  <rs type="person">Saint-Georges</rs>
-               </hi>
-               <lb facs="#facs_3_line_1706979115230_785" n="N025"/>zu sich bitten. „Wollen Sie einen Ballet-Act für die Große
+      <lb facs="#facs_3_region_1706944727634_165_tl_20" n="N024"/>verzweifelt. Da läßt ihn eines Tages <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1809">Saint-Georges</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_line_1706979115230_785" n="N025"/>zu sich bitten. „Wollen Sie einen Ballet-Act für die Große
       <lb facs="#facs_3_line_1706979118982_790" n="N026"/>Oper componiren?“ — „Ob ich will? Mit tausend Freuden!“
       <lb facs="#facs_3_region_1706944727634_165_tl_25" n="N027"/>— „Nun denn: das Ballet hat drei Acte, die Arbeit drängt,
-      <lb facs="#facs_3_region_1706944727634_165_tl_26" n="N028"/>für zwei Acte hat der Director bereits zwei Componisten ge¬
-      <lb facs="#facs_3_region_1706944727634_165_tl_27" n="N029"/>wählt; als den dritten habe ich Sie vorgeschlagen. Aber Sie
+      <lb facs="#facs_3_region_1706944727634_165_tl_26" n="N028"/>für zwei Acte hat der Director bereits zwei Componisten ge
+      <lb facs="#facs_3_region_1706944727634_165_tl_27" n="N029" break="no"/>wählt; als den dritten habe ich Sie vorgeschlagen. Aber Sie
       <lb facs="#facs_3_region_1706944727634_165_tl_28" n="N030"/>müssen sich verpflichten, in vier Wochen fertig zu sein.“
-      <lb facs="#facs_3_region_1706944727634_165_tl_29" n="N031"/>
-               <rs type="person">Flotow</rs> eilte mit dem ersten Acte überglücklich nach Hause
+      <lb facs="#facs_3_region_1706944727634_165_tl_29" n="N031"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs> eilte mit dem ersten Acte überglücklich nach Hause
       <lb facs="#facs_3_region_1706944727634_165_tl_30" n="N032"/>und lieferte die Partitur pünktlich ab. Dieser eine Act wurde
-      <lb facs="#facs_3_region_1706944727634_165_tl_31" n="N033"/>für <rs type="person">Flotow</rs>'s Zukunft von entscheidender Wichtigkeit; das
-      <lb facs="#facs_3_region_1706944727634_165_tl_32" n="N034"/>von <rs type="person">Saint-Georges</rs> bearbeitete Ballet war nämlich „<hi rendition="#em">
-                  <rs type="bibl">Lady</rs>
-               </hi>
-               <lb facs="#facs_3_line_1706979127781_795" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Harriett</rs>
-               </hi>“, dasselbe Sujet, das <rs type="person">Flotow</rs> später für seine
-      <lb facs="#facs_3_region_1706944727634_165_tl_35" n="N036"/>„<rs type="person">Martha</rs>“ benützte. Nichts Anziehenderes, als die scheinbar
+      <lb facs="#facs_3_region_1706944727634_165_tl_31" n="N033"/>für <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s Zukunft von entscheidender Wichtigkeit; das
+      <lb facs="#facs_3_region_1706944727634_165_tl_32" n="N034"/>von <rs type="person" ref="#hsl_person_id_1809">Saint-Georges</rs> bearbeitete Ballet war nämlich „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2702">Lady
+      <lb facs="#facs_3_line_1706979127781_795" n="N035"/>Harriett</rs></hi>“, dasselbe Sujet, das <rs type="person" ref="#hsl_person_id_81">Flotow</rs> später für seine
+      <lb facs="#facs_3_region_1706944727634_165_tl_35" n="N036"/>„<rs type="bibl" ref="#hsl_work_id_89">Martha</rs>“ benützte. Nichts Anziehenderes, als die scheinbar
       <lb facs="#facs_3_region_1706944727634_165_tl_36" n="N037"/>zusammenhanglose Kette von Zufällen zu verfolgen, an
-      <lb facs="#facs_3_region_1706944727634_165_tl_37" n="N038"/>welcher ein Autor zum ersehnten Ziele gelangt. <rs type="person">Flotow</rs> hatte
-      <lb facs="#facs_3_region_1706944727634_165_tl_38" n="N039"/>für eine von der Fürstin <rs type="person">Czartoryska</rs> veranstaltete Wohl¬
-      <lb facs="#facs_3_region_1706944727634_165_tl_39" n="N040"/>thätigkeits-Vorstellung eine kleine Oper: „<rs type="bibl">Le Duc de Guise</rs>“,
+      <lb facs="#facs_3_region_1706944727634_165_tl_37" n="N038"/>welcher ein Autor zum ersehnten Ziele gelangt. <rs type="person" ref="#hsl_person_id_81">Flotow</rs> hatte
+      <lb facs="#facs_3_region_1706944727634_165_tl_38" n="N039"/>für eine von der Fürstin <rs type="person" ref="#hsl_person_id_4316">Czartoryska</rs> veranstaltete Wohl
+      <lb facs="#facs_3_region_1706944727634_165_tl_39" n="N040" break="no"/>thätigkeits-Vorstellung eine kleine Oper: „<rs type="bibl" ref="#hsl_work_id_2703">Le Duc de Guise</rs>“,
       <lb facs="#facs_3_region_1706944727634_165_tl_40" n="N041"/>geschrieben. Unter den Choristen befand sich auch ein Hamburger,
-      <lb facs="#facs_3_line_1706979231237_825" n="N042"/>Namens F. W. <hi rendition="#em">
-                  <rs type="person">Riese</rs>
-               </hi>, mit dem sich <rs type="person">Flotow</rs> über Opern¬</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_3_region_1706944733084_168_tl_1" n="N001"/>texte unterhielt. Dieser <rs type="person">Riese</rs> schrieb ihm (unter dem
-      <lb facs="#facs_3_region_1706944733084_168_tl_2" n="N002"/>Pseudonym <rs type="person">Friedrich</rs>) das Libretto zur Oper „<rs type="bibl">Stradella</rs>“
-      <lb facs="#facs_3_region_1706944733084_168_tl_3" n="N003"/>und dann zur „<rs type="bibl">Martha</rs>“ — die beiden besten Opernbücher
-      <lb facs="#facs_3_region_1706944733084_168_tl_4" n="N004"/>
-               <rs type="person">Flotow</rs>'s und eigentlichen Pfeiler seines Ruhmes. Durch die
+      <lb facs="#facs_3_line_1706979231237_825" n="N042"/>Namens F. W. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2132">Riese</rs></hi>, mit dem sich <rs type="person" ref="#hsl_person_id_81">Flotow</rs> über Opern</p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1706944733084_168_tl_1" n="N001" break="no"/>texte unterhielt. Dieser <rs type="person" ref="#hsl_person_id_2132">Riese</rs> schrieb ihm (unter dem
+      <lb facs="#facs_3_region_1706944733084_168_tl_2" n="N002"/>Pseudonym <rs type="person" ref="#hsl_person_id_2132">Friedrich</rs>) das Libretto zur Oper „<rs type="bibl" ref="#hsl_work_id_266">Stradella</rs>“
+      <lb facs="#facs_3_region_1706944733084_168_tl_3" n="N003"/>und dann zur „<rs type="bibl" ref="#hsl_work_id_89">Martha</rs>“ — die beiden besten Opernbücher
+      <lb facs="#facs_3_region_1706944733084_168_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s und eigentlichen Pfeiler seines Ruhmes. Durch die
       <lb facs="#facs_3_region_1706944733084_168_tl_5" n="N005"/>Vermittlung dieses poetisirenden Hamburgers gelangte die
-      <lb facs="#facs_3_region_1706944733084_168_tl_6" n="N006"/>Oper „<hi rendition="#em">
-                  <rs type="bibl">Stradella</rs>
-               </hi>“ zur ersten Aufführung in <rs type="place">Hamburg</rs>
-               <lb facs="#facs_3_region_1706944733084_168_tl_7" n="N007"/>(<date month="0" day="0" year="0">1844</date>) und errang einen beispiellosen Erfolg. Bald er¬
-      <lb facs="#facs_3_region_1706944733084_168_tl_8" n="N008"/>probte <rs type="bibl">Stradella</rs> seine banditenbezähmende Hymne auf allen
-      <lb facs="#facs_3_region_1706944733084_168_tl_9" n="N009"/>
-               <rs type="place">deutsch</rs>en Bühnen. In <rs type="place">Wien</rs> zuerst im Wiedener Theater,
+      <lb facs="#facs_3_region_1706944733084_168_tl_6" n="N006"/>Oper „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_266">Stradella</rs></hi>“ zur ersten Aufführung in <rs type="place" ref="#hsl_place_id_69">Hamburg</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1706944733084_168_tl_7" n="N007"/>(<date>1844</date>) und errang einen beispiellosen Erfolg. Bald er
+      <lb facs="#facs_3_region_1706944733084_168_tl_8" n="N008" break="no"/>probte <rs type="bibl" ref="#hsl_work_id_266">Stradella</rs> seine banditenbezähmende Hymne auf allen
+      <lb facs="#facs_3_region_1706944733084_168_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> zuerst im Wiedener Theater,
       <lb facs="#facs_3_region_1706944733084_168_tl_10" n="N010"/>im selben Jahre noch im Kärntnerthor-Theater. Unverzüglich
       <lb facs="#facs_3_region_1706944733084_168_tl_11" n="N011"/>bestellte die entzückte Hofopern-Direction eine neue Oper bei
-      <lb facs="#facs_3_region_1706944733084_168_tl_12" n="N012"/>
-               <rs type="person">Flotow</rs>. Das war die „<hi rendition="#em">
-                  <rs type="bibl">Martha</rs>
-               </hi>“. Ihre Première
-      <lb facs="#facs_3_region_1706944733084_168_tl_13" n="N013"/>(25. November <date month="0" day="0" year="0">1847</date>) mit der <hi rendition="#em">
-                  <rs type="person">Zerr</rs>
-               </hi> und Therese <hi rendition="#em">
-                  <rs type="person">Schwarz</rs>
-               </hi>,
-      <lb facs="#facs_3_region_1706944733084_168_tl_14" n="N014"/>
-               <hi rendition="#em">
-                  <rs type="person">Erl</rs>
-               </hi> und Karl <hi rendition="#em">
-                  <rs type="person">Formes</rs>
-               </hi> bildete den Ausgangspunkt einer
+      <lb facs="#facs_3_region_1706944733084_168_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs>. Das war die „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_89">Martha</rs></hi>“. Ihre Première
+      <lb facs="#facs_3_region_1706944733084_168_tl_13" n="N013"/>(25. November <date>1847</date>) mit der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2931">Zerr</rs></hi> und Therese <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4317">Schwarz</rs></hi>,
+      <lb facs="#facs_3_region_1706944733084_168_tl_14" n="N014"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_71">Erl</rs></hi> und Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2932">Formes</rs></hi> bildete den Ausgangspunkt einer
       <lb facs="#facs_3_region_1706944733084_168_tl_15" n="N015"/>bereits durch 45 Jahre rüstig fortlaufenden Kette von
-      <lb facs="#facs_3_region_1706944733084_168_tl_16" n="N016"/>
-               <rs type="bibl">Martha</rs>-Erfolgen in allen Sprachen, in allen Ländern dies¬
-      <lb facs="#facs_3_region_1706944733084_168_tl_17" n="N017"/>seits und jenseits des Weltmeeres.
+      <lb facs="#facs_3_region_1706944733084_168_tl_16" n="N016"/><rs type="bibl" ref="#hsl_work_id_89">Martha</rs>-Erfolgen in allen Sprachen, in allen Ländern dies
+      <lb facs="#facs_3_region_1706944733084_168_tl_17" n="N017" break="no"/>seits und jenseits des Weltmeeres.
+            </p><p>
       <lb facs="#facs_3_region_1706944733084_168_tl_18" n="N018"/>Mit keiner seiner nachfolgenden Opern vermochte
-      <lb facs="#facs_3_region_1706944733084_168_tl_19" n="N019"/>
-               <rs type="person">Flotow</rs> die Wirkung <rs type="bibl">Stradella</rs>'s und <rs type="bibl">Martha</rs>'s auch nur
+      <lb facs="#facs_3_region_1706944733084_168_tl_19" n="N019"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs> die Wirkung <rs type="bibl" ref="#hsl_work_id_266">Stradella</rs>’s und <rs type="bibl" ref="#hsl_work_id_89">Martha</rs>’s auch nur
       <lb facs="#facs_3_region_1706944733084_168_tl_20" n="N020"/>annähernd zu erreichen. Seine Erfindung nimmt zusehends
       <lb facs="#facs_3_region_1706944733084_168_tl_21" n="N021"/>ab, seine Manier versteinert sich. Relativ am frischesten
-      <lb facs="#facs_3_region_1706944733084_168_tl_22" n="N022"/>zeigt ihn noch die Oper „<hi rendition="#em">
-                  <rs type="bibl">Indra</rs>
-               </hi>“ (<rs type="place">Wien</rs>
-               <date month="0" day="0" year="0">1852</date>). Da
-      <lb facs="#facs_3_region_1706944733084_168_tl_23" n="N023"/>findet sich doch neben der fadesten Behandlung des Pathe¬
-      <lb facs="#facs_3_region_1706944733084_168_tl_24" n="N024"/>tischen und Sentimentalen — jederzeit die schwache Seite
-      <lb facs="#facs_3_region_1706944733084_168_tl_25" n="N025"/>
-               <rs type="person">Flotow</rs>'s — ein ungemein farbenfrisches Bild des heiteren
-      <lb facs="#facs_3_region_1706944733084_168_tl_26" n="N026"/>Nachtlebens in <rs type="place">Lissabon</rs>. Wo er alle die originellen National-
-      <lb facs="#facs_3_region_1706944733084_168_tl_27" n="N027"/>Melodien her habe? „Von einem alten <rs type="place">spanisch</rs>en Sprach¬
-      <lb facs="#facs_3_region_1706944733084_168_tl_28" n="N028"/>lehrer in <rs type="place">Berlin</rs>,“ antwortete mir <rs type="person">Flotow</rs>, „einem drolligen
-      <lb facs="#facs_3_region_1706944733084_168_tl_29" n="N029"/>Kauz, der sich Abends zur Guitarre manchmal in musika¬
-      <lb facs="#facs_3_region_1706944733084_168_tl_30" n="N030"/>lischen Heimats-Erinnerungen erging. Ich ließ mir den
+      <lb facs="#facs_3_region_1706944733084_168_tl_22" n="N022"/>zeigt ihn noch die Oper „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_169">Indra</rs></hi>“ (<rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/><date>1852</date>). Da
+      <lb facs="#facs_3_region_1706944733084_168_tl_23" n="N023"/>findet sich doch neben der fadesten Behandlung des Pathe
+      <lb facs="#facs_3_region_1706944733084_168_tl_24" n="N024" break="no"/>tischen und Sentimentalen — jederzeit die schwache Seite
+      <lb facs="#facs_3_region_1706944733084_168_tl_25" n="N025"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s — ein ungemein farbenfrisches Bild des heiteren
+      <lb facs="#facs_3_region_1706944733084_168_tl_26" n="N026"/>Nachtlebens in <rs type="place" ref="#hsl_place_id_33">Lissabon</rs>. Wo er alle die originellen National-
+      <lb facs="#facs_3_region_1706944733084_168_tl_27" n="N027"/>Melodien her habe? „Von einem alten <rs type="place" ref="#hsl_place_id_2">spanisch</rs>en Sprach
+      <lb facs="#facs_3_region_1706944733084_168_tl_28" n="N028" break="no"/>lehrer in <rs type="place" ref="#hsl_place_id_9">Berlin</rs>,“ antwortete mir <rs type="person" ref="#hsl_person_id_81">Flotow</rs>, „einem drolligen
+      <lb facs="#facs_3_region_1706944733084_168_tl_29" n="N029"/>Kauz, der sich Abends zur Guitarre manchmal in musika
+      <lb facs="#facs_3_region_1706944733084_168_tl_30" n="N030" break="no"/>lischen Heimats-Erinnerungen erging. Ich ließ mir den
       <lb facs="#facs_3_region_1706944733084_168_tl_31" n="N031"/>Mann mit seiner Guitarre ein paarmal kommen, tractirte
       <lb facs="#facs_3_region_1706944733084_168_tl_32" n="N032"/>ihn reichlich mit Chocolade, und er sang mir seine Volkslieder
       <lb facs="#facs_3_region_1706944733084_168_tl_33" n="N033"/>vor, von denen ich einige gut brauchen konnte.“ Jeder von
-      <lb facs="#facs_3_region_1706944733084_168_tl_34" n="N034"/>
-               <rs type="person">Flotow</rs>'s Briefen spricht mit ungeheuchelter Bescheidenheit
-      <lb facs="#facs_3_region_1706944733084_168_tl_35" n="N035"/>von den unverdient großen Erfolgen, die er „dem Wohl¬
-      <lb facs="#facs_3_region_1706944733084_168_tl_36" n="N036"/>wollen des nachsichtigen <rs type="place">Wien</rs>er Publicums“ verdanke. Zeit¬
-      <lb facs="#facs_3_region_1706944733084_168_tl_37" n="N037"/>lebens hing er mit zärtlicher Dankbarkeit an <rs type="place">Wien</rs>. Aber
-      <lb facs="#facs_3_region_1706944733084_168_tl_38" n="N038"/>auch <rs type="place">Wien</rs> wurde nicht müde, den Componisten der
-      <lb facs="#facs_3_region_1706944733084_168_tl_39" n="N039"/>„<rs type="bibl">Martha</rs>“ zu immer neuen Schöpfungen aufzumuntern.
+      <lb facs="#facs_3_region_1706944733084_168_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s Briefen spricht mit ungeheuchelter Bescheidenheit
+      <lb facs="#facs_3_region_1706944733084_168_tl_35" n="N035"/>von den unverdient großen Erfolgen, die er „dem Wohl
+      <lb facs="#facs_3_region_1706944733084_168_tl_36" n="N036" break="no"/>wollen des nachsichtigen <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicums“ verdanke. Zeit
+      <lb facs="#facs_3_region_1706944733084_168_tl_37" n="N037" break="no"/>lebens hing er mit zärtlicher Dankbarkeit an <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Aber
+      <lb facs="#facs_3_region_1706944733084_168_tl_38" n="N038"/>auch <rs type="place" ref="#hsl_place_id_55">Wien</rs> wurde nicht müde, den Componisten der
+      <lb facs="#facs_3_region_1706944733084_168_tl_39" n="N039"/>„<rs type="bibl" ref="#hsl_work_id_89">Martha</rs>“ zu immer neuen Schöpfungen aufzumuntern.
       <lb facs="#facs_3_region_1706944733084_168_tl_40" n="N040"/>Anstatt jedoch aus frischem Holz zu schneiden, Neues zu
-      <lb facs="#facs_3_region_1706944733084_168_tl_41" n="N041"/>schaffen, begann <rs type="person">Flotow</rs>, vielleicht im Gefühle abnehmender
-      <lb facs="#facs_3_region_1706944733084_168_tl_42" n="N042"/>Kraft, allerhand alte Stücke umzuformen, zu leimen, zu</p>
-            <pb facs="#facs_4" n="4" xml:id="img_0004"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_4_line_1706979291773_846" n="N001"/>poliren. Schon für die „<rs type="bibl">Indra</rs>“ hatte theilweise seine ältere
-      <lb facs="#facs_4_region_1706944745833_174_tl_1" n="N002"/>Oper „<rs type="bibl">L'esclave de Camoëns</rs>“ herhalten müssen. Dann
-      <lb facs="#facs_4_region_1706944745833_174_tl_2" n="N003"/>entstanden aus dem „<rs type="bibl">Naufrage de la Méduse</rs>“ „<hi rendition="#em">
-                  <rs type="bibl">Die</rs>
-               </hi>
-               <lb facs="#facs_4_region_1706944745833_174_tl_3" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Matrosen</rs>
-               </hi>“, welche bei der <rs type="place">Wien</rs>er Aufführung rettungs¬
-      <lb facs="#facs_4_region_1706944745833_174_tl_4" n="N005"/>los untergingen. Ein gleiches Schicksal erreichte die Oper
-      <lb facs="#facs_4_region_1706944745833_174_tl_5" n="N006"/>„<hi rendition="#em">
-                  <rs type="bibl">Der Förster</rs>
-               </hi>“, eine <rs type="place">deutsch</rs>e Ueberarbeitung von <rs type="person">Flotow</rs>'s
-      <lb facs="#facs_4_line_1706979309189_852" n="N007"/>„<rs type="bibl">L'âmo en peine</rs>“. Hierauf kam noch <date month="0" day="0" year="0">1856</date> eine neue
-      <lb facs="#facs_4_region_1706944745833_174_tl_6" n="N008"/>
-               <rs type="place">deutsch</rs>e Original-Oper „<rs type="bibl">Albin</rs>“, eine <rs type="place">Tirol</rs>er Dorfgeschichte
+      <lb facs="#facs_3_region_1706944733084_168_tl_41" n="N041"/>schaffen, begann <rs type="person" ref="#hsl_person_id_81">Flotow</rs>, vielleicht im Gefühle abnehmender
+      <lb facs="#facs_3_region_1706944733084_168_tl_42" n="N042"/>Kraft, allerhand alte Stücke umzuformen, zu leimen, zu<space quantity="1" unit="char"/></p>
+            <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_4_line_1706979291773_846" n="N001"/>poliren. Schon für die „<rs type="bibl" ref="#hsl_work_id_169">Indra</rs>“ hatte theilweise seine ältere
+      <lb facs="#facs_4_region_1706944745833_174_tl_1" n="N002"/>Oper „<rs type="bibl" ref="#hsl_work_id_2704">L’esclave de Camoëns</rs>“ herhalten müssen. Dann
+      <lb facs="#facs_4_region_1706944745833_174_tl_2" n="N003"/>entstanden aus dem „<rs type="bibl" ref="#hsl_work_id_2701">Naufrage de la Méduse</rs>“ „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_686">Die
+      <lb facs="#facs_4_region_1706944745833_174_tl_3" n="N004"/>Matrosen</rs></hi>“, welche bei der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Aufführung rettungs
+      <lb facs="#facs_4_region_1706944745833_174_tl_4" n="N005" break="no"/>los untergingen. Ein gleiches Schicksal erreichte die Oper
+      <lb facs="#facs_4_region_1706944745833_174_tl_5" n="N006"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2706">Der Förster</rs></hi>“, eine <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Ueberarbeitung von <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s
+      <lb facs="#facs_4_line_1706979309189_852" n="N007"/>„<rs type="bibl" ref="#hsl_work_id_2705">L’âmo en peine</rs>“. Hierauf kam noch <date>1856</date> eine neue
+      <lb facs="#facs_4_region_1706944745833_174_tl_6" n="N008"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Original-Oper „<rs type="bibl" ref="#hsl_work_id_2707">Albin</rs>“, eine <rs type="place" ref="#hsl_place_id_81">Tirol</rs>er Dorfgeschichte
       <lb facs="#facs_4_region_1706944745833_174_tl_7" n="N009"/>mit großartig, poetischen Müllerburschen, sentimentalen
       <lb facs="#facs_4_region_1706944745833_174_tl_8" n="N010"/>Bäuerinnen und nach Patschouli duftenden Tannenwäldern.
-      <lb facs="#facs_4_region_1706944745833_174_tl_9" n="N011"/>Trotz der allgemeinen Sympathien für <hi rendition="#em">
-                  <rs type="person">Flotow</rs>
-               </hi> und seinen
-      <lb facs="#facs_4_region_1706944745833_174_tl_10" n="N012"/>Textdichter <hi rendition="#em">
-                  <rs type="person">Mosenthal</rs>
-               </hi> blieb das enttäuschte Publicum
+      <lb facs="#facs_4_region_1706944745833_174_tl_9" n="N011"/>Trotz der allgemeinen Sympathien für <hi rendition="#em"><rs type="person" ref="#hsl_person_id_81">Flotow</rs></hi> und seinen
+      <lb facs="#facs_4_region_1706944745833_174_tl_10" n="N012"/>Textdichter <hi rendition="#em"><rs type="person" ref="#hsl_person_id_188">Mosenthal</rs></hi> blieb das enttäuschte Publicum
       <lb facs="#facs_4_region_1706944745833_174_tl_11" n="N013"/>schon nach wenigen Reprisen aus. Dieser Mißerfolg hat
       <lb facs="#facs_4_region_1706944745833_174_tl_12" n="N014"/>den Componisten, wie seine Biographin erzählt, sein ganzes
       <lb facs="#facs_4_region_1706944745833_174_tl_13" n="N015"/>Leben lang schmerzlich bedrückt, und noch kurz vor seinem Tode
-      <lb facs="#facs_4_region_1706944745833_174_tl_14" n="N016"/>„schuf er Pläne zur Rehabilitirung“ dieses zum „<rs type="bibl">Müller von</rs>
-               <lb facs="#facs_4_region_1706944745833_174_tl_15" n="N017"/>
-               <rs type="bibl">Meran</rs>“ umgetauften <rs type="bibl">Albin</rs>. <rs type="person">Flotow</rs> hielt die größten
-      <lb facs="#facs_4_region_1706944745833_174_tl_16" n="N018"/>Stücke gerade auf dieses schwache Werk — ein neuer Be¬
-      <lb facs="#facs_4_region_1706944745833_174_tl_17" n="N019"/>weis, wie sehr ein Autor über den Werth seiner eigenen
-      <lb facs="#facs_4_region_1706944745833_174_tl_18" n="N020"/>Sachen sich täuschen kann. In <rs type="place">Wien</rs> gelangten noch zwei
-      <lb facs="#facs_4_region_1706944745833_174_tl_19" n="N021"/>spätere, aus dem <rs type="place">Französisch</rs>en übertragene Opern von
-      <lb facs="#facs_4_region_1706944745833_174_tl_20" n="N022"/>
-               <rs type="person">Flotow</rs> zur Aufführung, aber nicht im Hofoperntheater, wo
+      <lb facs="#facs_4_region_1706944745833_174_tl_14" n="N016"/>„schuf er Pläne zur Rehabilitirung“ dieses zum „<rs type="bibl" ref="#hsl_work_id_2708">Müller von
+      <lb facs="#facs_4_region_1706944745833_174_tl_15" n="N017"/>Meran</rs>“ umgetauften <rs type="bibl" ref="#hsl_work_id_2707">Albin</rs>. <rs type="person" ref="#hsl_person_id_81">Flotow</rs> hielt die größten
+      <lb facs="#facs_4_region_1706944745833_174_tl_16" n="N018"/>Stücke gerade auf dieses schwache Werk — ein neuer Be
+      <lb facs="#facs_4_region_1706944745833_174_tl_17" n="N019" break="no"/>weis, wie sehr ein Autor über den Werth seiner eigenen
+      <lb facs="#facs_4_region_1706944745833_174_tl_18" n="N020"/>Sachen sich täuschen kann. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> gelangten noch zwei
+      <lb facs="#facs_4_region_1706944745833_174_tl_19" n="N021"/>spätere, aus dem <rs type="place" ref="#hsl_place_id_21">Französisch</rs>en übertragene Opern von
+      <lb facs="#facs_4_region_1706944745833_174_tl_20" n="N022"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs> zur Aufführung, aber nicht im Hofoperntheater, wo
       <lb facs="#facs_4_region_1706944745833_174_tl_21" n="N023"/>man etwas mißtrauisch geworden war, sondern (mit der
-      <lb facs="#facs_4_region_1706944745833_174_tl_22" n="N024"/>
-               <hi rendition="#em">
-                  <rs type="person">Geistinger</rs>
-               </hi> und Albin <hi rendition="#em">
-                  <rs type="person">Swoboda</rs>
-               </hi>) im Wiedener Theater.
-      <lb facs="#facs_4_region_1706944745833_174_tl_23" n="N025"/>„<hi rendition="#em">
-                  <rs type="bibl">Zilda</rs>
-               </hi>“, <date month="0" day="0" year="0">1867</date>, ein orientalisches Märchen vom weisen
+      <lb facs="#facs_4_region_1706944745833_174_tl_22" n="N024"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_346">Geistinger</rs></hi> und Albin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_347">Swoboda</rs></hi>) im Wiedener Theater.
+      <lb facs="#facs_4_region_1706944745833_174_tl_23" n="N025"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2709">Zilda</rs></hi>“, <date>1867</date>, ein orientalisches Märchen vom weisen
       <lb facs="#facs_4_region_1706944745833_174_tl_24" n="N026"/>Khalifen und vom bestraften nichtsnutzigen Kadi, und eine
-      <lb facs="#facs_4_region_1706944745833_174_tl_25" n="N027"/>romantische Oper „<hi rendition="#em">
-                  <rs type="bibl">Sein Schatten</rs>
-               </hi>“ (<rs type="bibl">l'ombre</rs>), <date month="0" day="0" year="0">1871</date>,
+      <lb facs="#facs_4_region_1706944745833_174_tl_25" n="N027"/>romantische Oper „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2710">Sein Schatten</rs></hi>“ (<rs type="bibl" ref="#hsl_work_id_2710">l’ombre</rs>), <date>1871</date>,
       <lb facs="#facs_4_region_1706944745833_174_tl_26" n="N028"/>deren Romantik darin besteht, daß es sich abwechselnd um
       <lb facs="#facs_4_region_1706944745833_174_tl_27" n="N029"/>bereits erschossene und noch zu erschießende Officiere handelt.
-      <lb facs="#facs_4_region_1706944745833_174_tl_28" n="N030"/>So wurde denn jede spätere Oper von <rs type="person">Flotow</rs> immer etwas
+      <lb facs="#facs_4_region_1706944745833_174_tl_28" n="N030"/>So wurde denn jede spätere Oper von <rs type="person" ref="#hsl_person_id_81">Flotow</rs> immer etwas
       <lb facs="#facs_4_region_1706944745833_174_tl_29" n="N031"/>schmächtiger und blässer als die früheren, bis schließlich
-      <lb facs="#facs_4_region_1706944745833_174_tl_30" n="N032"/>von dem berühmten Componisten der „<rs type="bibl">Martha</rs>“ nichts
-      <lb facs="#facs_4_region_1706944745833_174_tl_31" n="N033"/>übrig blieb, als — „<rs type="bibl">sein Schatten</rs>“. Damit ist jedoch
-      <lb facs="#facs_4_region_1706944745833_174_tl_32" n="N034"/>der Kreis von <rs type="person">Flotow</rs>'s Opern-Compositionen noch
-      <lb facs="#facs_4_region_1706944745833_174_tl_33" n="N035"/>lange nicht geschlossen. Unsere <rs type="bibl">Biographie</rs> nennt noch
-      <lb facs="#facs_4_region_1706944745833_174_tl_34" n="N036"/>eine erkleckliche Anzahl von Opern aus <rs type="person">Flotow</rs>'s letzter
-      <lb facs="#facs_4_region_1706944745833_174_tl_35" n="N037"/>Zeit, welche auf ein bis zwei <rs type="place">deutsch</rs>en Bühnen rasch
-      <lb facs="#facs_4_region_1706944745833_174_tl_36" n="N038"/>verpufft sind, ohne überhaupt nach <rs type="place">Wien</rs> zu gelangen: „<rs type="bibl">Die</rs>
-               <lb facs="#facs_4_region_1706944745833_174_tl_37" n="N039"/>
-               <rs type="bibl">Großfürstin</rs>“, „<rs type="bibl">Rübezahl</rs>“, „<rs type="bibl">Johann Albrecht</rs>“, „<rs type="bibl">Naïda</rs>“,
-      <lb facs="#facs_4_region_1706944745833_174_tl_38" n="N040"/>„<rs type="bibl">Am Runenstein</rs>“, „<rs type="bibl">Die Blume von Harlem</rs>“, „<rs type="bibl">Das Burg¬</rs>
-               <lb facs="#facs_4_region_1706944745833_174_tl_39" n="N041"/>
-               <rs type="bibl">fräulein</rs>“; dann die Ballette: „<rs type="bibl">Libelle</rs>“, „<rs type="bibl">Der Tannkönig</rs>“ und
-      <lb facs="#facs_4_line_1706979332654_858" n="N042"/>„<rs type="bibl">Die Gruppe der Thetis</rs>“. Zwei Opern: „<rs type="bibl">Die Musikanten</rs>“</p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_4_region_1706944751323_177_tl_1" n="N001"/>und „<rs type="bibl">Sacuntala</rs>“, scheinen überhaupt noch nicht aufgeführt
-      <lb facs="#facs_4_region_1706944751323_177_tl_2" n="N002"/>zu sein. Man erkennt aus diesem Verzeichniß den unermüd¬
-      <lb facs="#facs_4_region_1706944751323_177_tl_3" n="N003"/>lichen Schaffensdrang <rs type="person">Flotow</rs>'s; die Arbeit war ihm Bedürfniß.
-      <lb facs="#facs_4_region_1706944751323_177_tl_4" n="N004"/>Von <rs type="person">Flotow</rs>'s späteren Lebensschicksalen haben wir noch
-      <lb facs="#facs_4_region_1706944751323_177_tl_5" n="N005"/>nachzuholen, daß er nach dem Tode seines <rs type="person">Vater</rs>s längere
+      <lb facs="#facs_4_region_1706944745833_174_tl_30" n="N032"/>von dem berühmten Componisten der „<rs type="bibl" ref="#hsl_work_id_89">Martha</rs>“ nichts
+      <lb facs="#facs_4_region_1706944745833_174_tl_31" n="N033"/>übrig blieb, als — „sein Schatten“. Damit ist jedoch
+      <lb facs="#facs_4_region_1706944745833_174_tl_32" n="N034"/>der Kreis von <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s Opern-Compositionen noch
+      <lb facs="#facs_4_region_1706944745833_174_tl_33" n="N035"/>lange nicht geschlossen. Unsere <rs type="bibl" ref="#hsl_work_id_2697">Biographie</rs> nennt noch
+      <lb facs="#facs_4_region_1706944745833_174_tl_34" n="N036"/>eine erkleckliche Anzahl von Opern aus <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s letzter
+      <lb facs="#facs_4_region_1706944745833_174_tl_35" n="N037"/>Zeit, welche auf ein bis zwei <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen rasch
+      <lb facs="#facs_4_region_1706944745833_174_tl_36" n="N038"/>verpufft sind, ohne überhaupt nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> zu gelangen: „<rs type="bibl" ref="#hsl_work_id_2711">Die
+      <lb facs="#facs_4_region_1706944745833_174_tl_37" n="N039"/>Großfürstin</rs>“, „<rs type="bibl" ref="#hsl_work_id_2712">Rübezahl</rs>“, „<rs type="bibl" ref="#hsl_work_id_2714">Johann Albrecht</rs>“, „<rs type="bibl" ref="#hsl_work_id_2713">Naïda</rs>“,
+      <lb facs="#facs_4_region_1706944745833_174_tl_38" n="N040"/>„<rs type="bibl" ref="#hsl_work_id_2715">Am Runenstein</rs>“, „<rs type="bibl" ref="#hsl_work_id_2716">Die Blume von Harlem</rs>“, „<rs type="bibl" ref="#hsl_work_id_2717">Das Burg
+      <lb facs="#facs_4_region_1706944745833_174_tl_39" n="N041" break="no"/>fräulein</rs>“; dann die Ballette: „<rs type="bibl" ref="#hsl_work_id_2718">Libelle</rs>“, „<rs type="bibl" ref="#hsl_work_id_2719">Der Tannkönig</rs>“ und
+      <lb facs="#facs_4_line_1706979332654_858" n="N042"/>„<rs type="bibl" ref="#hsl_work_id_2720">Die Gruppe der Thetis</rs>“. Zwei Opern: „<rs type="bibl" ref="#hsl_work_id_2721">Die Musikanten</rs>“<space quantity="1" unit="char"/></p>
+            <cb n="8"/>
+            <p prev="true">
+      <lb facs="#facs_4_region_1706944751323_177_tl_1" n="N001"/>und „<rs type="bibl" ref="#hsl_work_id_2722">Sacuntala</rs>“, scheinen überhaupt noch nicht aufgeführt
+      <lb facs="#facs_4_region_1706944751323_177_tl_2" n="N002"/>zu sein. Man erkennt aus diesem Verzeichniß den unermüd
+      <lb facs="#facs_4_region_1706944751323_177_tl_3" n="N003" break="no"/>lichen Schaffensdrang <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s; die Arbeit war ihm Bedürfniß.
+            </p><p>
+      <lb facs="#facs_4_region_1706944751323_177_tl_4" n="N004"/>Von <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s späteren Lebensschicksalen haben wir noch
+      <lb facs="#facs_4_region_1706944751323_177_tl_5" n="N005"/>nachzuholen, daß er nach dem Tode seines <rs type="person" ref="#hsl_person_id_4302">Vater</rs>s längere
       <lb facs="#facs_4_region_1706944751323_177_tl_6" n="N006"/>Zeit in eifriger landwirthschaftlicher Thätigkeit auf seinen
-      <lb facs="#facs_4_region_1706944751323_177_tl_7" n="N007"/>
-               <rs type="place">mecklenburgisch</rs>en Gütern verweilte. Als ihn da das Unglück
-      <lb facs="#facs_4_line_1706979253693_834" n="N008"/>traf, seine junge <rs type="person">Frau</rs> und sein <rs type="person">Kind</rs> zwei Jahre nach der
+      <lb facs="#facs_4_region_1706944751323_177_tl_7" n="N007"/><rs type="place" ref="#hsl_place_id_506">mecklenburgisch</rs>en Gütern verweilte. Als ihn da das Unglück
+      <lb facs="#facs_4_line_1706979253693_834" n="N008"/>traf, seine junge <rs type="person" ref="#hsl_person_id_4324">Frau</rs> und sein Kind zwei Jahre nach der
       <lb facs="#facs_4_region_1706944751323_177_tl_8" n="N009"/>Hochzeit zu verlieren, verkaufte er die Ländereien bis auf
-      <lb facs="#facs_4_region_1706944751323_177_tl_9" n="N010"/>das Erbgut, Teutendorf, mit welchem später sein Sohn <rs type="person" continued="true">Wil¬</rs>
-               <lb facs="#facs_4_line_1706979270229_840" n="N011"/>
-               <rs type="person" continued="true">helm</rs> belehnt wurde, und zog nach <rs type="place">Wien</rs>. In <rs type="place">Ober-Sievering</rs>,
-      <lb facs="#facs_4_region_1706944751323_177_tl_10" n="N012"/>am Abhange des <rs type="place">Kahlenberg</rs>es, erwarb er einen kleinen
-      <lb facs="#facs_4_region_1706944751323_177_tl_11" n="N013"/>Besitz, wo er mit seiner zweiten Frau, Anna <hi rendition="#em">
-                  <rs type="person">Theen</rs>
-               </hi>, sich
+      <lb facs="#facs_4_region_1706944751323_177_tl_9" n="N010"/>das Erbgut, Teutendorf, mit welchem später sein Sohn <rs type="person" ref="#hsl_person_id_4325">Wil
+      <lb facs="#facs_4_line_1706979270229_840" n="N011" break="no"/>helm</rs> belehnt wurde, und zog nach <rs type="place" ref="#hsl_place_id_55">Wien</rs>. In <rs type="place" ref="#hsl_place_id_508">Ober-Sievering</rs>,
+      <lb facs="#facs_4_region_1706944751323_177_tl_10" n="N012"/>am Abhange des <rs type="place" ref="#hsl_place_id_420">Kahlenberg</rs>es, erwarb er einen kleinen
+      <lb facs="#facs_4_region_1706944751323_177_tl_11" n="N013"/>Besitz, wo er mit seiner zweiten Frau, Anna <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4326">Theen</rs></hi>, sich
       <lb facs="#facs_4_region_1706944751323_177_tl_12" n="N014"/>ein gemüthlich stilles Heim einrichtete. Hier erreichte ihn der
-      <lb facs="#facs_4_region_1706944751323_177_tl_13" n="N015"/>Ruf seines <rs type="person">Landesherr</rs>n, die oberste Leitung des <rs type="place">Schwerin</rs>er
+      <lb facs="#facs_4_region_1706944751323_177_tl_13" n="N015"/>Ruf seines <rs type="person" ref="#hsl_person_id_4327">Landesherr</rs>n, die oberste Leitung des <rs type="place" ref="#hsl_place_id_507">Schwerin</rs>er
       <lb facs="#facs_4_region_1706944751323_177_tl_14" n="N016"/>Hoftheaters zu übernehmen. Ganz abgesehen davon, daß der
-      <lb facs="#facs_4_region_1706944751323_177_tl_15" n="N017"/>
-               <rs type="person">Großherzog</rs> einen <rs type="place">mecklenburgisch</rs>en Cavalier an der Spitze
-      <lb facs="#facs_4_region_1706944751323_177_tl_16" n="N018"/>seines Hoftheaters sehen wollte, war die Wahl sehr ein¬
-      <lb facs="#facs_4_region_1706944751323_177_tl_17" n="N019"/>leuchtend, denn <rs type="person">Flotow</rs> hatte sich in <rs type="place">Paris</rs> eine vollkommene
+      <lb facs="#facs_4_region_1706944751323_177_tl_15" n="N017"/><rs type="person" ref="#hsl_person_id_4327">Großherzog</rs> einen <rs type="place" ref="#hsl_place_id_506">mecklenburgisch</rs>en Cavalier an der Spitze
+      <lb facs="#facs_4_region_1706944751323_177_tl_16" n="N018"/>seines Hoftheaters sehen wollte, war die Wahl sehr ein
+      <lb facs="#facs_4_region_1706944751323_177_tl_17" n="N019" break="no"/>leuchtend, denn <rs type="person" ref="#hsl_person_id_81">Flotow</rs> hatte sich in <rs type="place" ref="#hsl_place_id_44">Paris</rs> eine vollkommene
       <lb facs="#facs_4_region_1706944751323_177_tl_18" n="N020"/>Kenntniß des gesammten Theaterwesens angeeignet und
       <lb facs="#facs_4_region_1706944751323_177_tl_19" n="N021"/>galt für einen ausgezeichneten Regisseur. „Ausgerüstet
-      <lb facs="#facs_4_region_1706944751323_177_tl_20" n="N022"/>mit großer Gewalt und kleinem Gehalt“, hat <rs type="person">Flotow</rs>
-               <lb facs="#facs_4_region_1706944751323_177_tl_21" n="N023"/>in seiner neuen Stellung nach Kräften Gutes gewirkt, ins¬
-      <lb facs="#facs_4_region_1706944751323_177_tl_22" n="N024"/>besondere durch die Acquisition des (heute noch thätigen)
-      <lb facs="#facs_4_region_1706944751323_177_tl_23" n="N025"/>Hofcapellmeisters Alois <hi rendition="#em">
-                  <rs type="person">Schmitt</rs>
-               </hi> die <rs type="place">Schwerin</rs>er Musik¬
-      <lb facs="#facs_4_region_1706944751323_177_tl_24" n="N026"/>zustände zu bedeutender Höhe gehoben. Sieben Jahre lang
-      <lb facs="#facs_4_line_1706979353702_865" n="N027"/>widmete er sich dieser Amtsführung, die er „einen sieben¬
-      <lb facs="#facs_4_region_1706944751323_177_tl_25" n="N028"/>jährigen Krieg“ nannte. Schließlich ward ihm die Stellung
+      <lb facs="#facs_4_region_1706944751323_177_tl_20" n="N022"/>mit großer Gewalt und kleinem Gehalt“, hat <rs type="person" ref="#hsl_person_id_81">Flotow</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_4_region_1706944751323_177_tl_21" n="N023"/>in seiner neuen Stellung nach Kräften Gutes gewirkt, ins
+      <lb facs="#facs_4_region_1706944751323_177_tl_22" n="N024" break="no"/>besondere durch die Acquisition des (heute noch thätigen)
+      <lb facs="#facs_4_region_1706944751323_177_tl_23" n="N025"/>Hofcapellmeisters Alois <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1213">Schmitt</rs></hi> die <rs type="place" ref="#hsl_place_id_507">Schwerin</rs>er Musik
+      <lb facs="#facs_4_region_1706944751323_177_tl_24" n="N026" break="no"/>zustände zu bedeutender Höhe gehoben. Sieben Jahre lang
+      <lb facs="#facs_4_line_1706979353702_865" n="N027"/>widmete er sich dieser Amtsführung, die er „einen sieben
+      <lb facs="#facs_4_region_1706944751323_177_tl_25" n="N028" break="no"/>jährigen Krieg“ nannte. Schließlich ward ihm die Stellung
       <lb facs="#facs_4_region_1706944751323_177_tl_26" n="N029"/>durch kleinliche Intriguen und Angriffe verleidet, und er
-      <lb facs="#facs_4_region_1706944751323_177_tl_27" n="N030"/>nahm <date month="0" day="0" year="0">1863</date> seinen Abschied. Daß <rs type="person">Flotow</rs>'s ehrlich liberale,
-      <lb facs="#facs_4_region_1706944751323_177_tl_28" n="N031"/>künstlerische Gesinnung sich am <rs type="place">Schwerin</rs>er Hofe wirklich
+      <lb facs="#facs_4_region_1706944751323_177_tl_27" n="N030"/>nahm <date>1863</date> seinen Abschied. Daß <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s ehrlich liberale,
+      <lb facs="#facs_4_region_1706944751323_177_tl_28" n="N031"/>künstlerische Gesinnung sich am <rs type="place" ref="#hsl_place_id_507">Schwerin</rs>er Hofe wirklich
       <lb facs="#facs_4_region_1706944751323_177_tl_29" n="N032"/>nicht heimisch fühlen konnte, mag folgendes Beispiel beweisen:
-      <lb facs="#facs_4_region_1706944751323_177_tl_30" n="N033"/>
-               <rs type="person">Flotow</rs> hatte auf besondere Bitte beim <rs type="person">Großherzog</rs> die Er¬
-      <lb facs="#facs_4_region_1706944751323_177_tl_31" n="N034"/>laubniß erwirkt, daß bei Hofconcerten die mitwirkenden
+      <lb facs="#facs_4_region_1706944751323_177_tl_30" n="N033"/><rs type="person" ref="#hsl_person_id_81">Flotow</rs> hatte auf besondere Bitte beim <rs type="person" ref="#hsl_person_id_4327">Großherzog</rs> die Er
+      <lb facs="#facs_4_region_1706944751323_177_tl_31" n="N034" break="no"/>laubniß erwirkt, daß bei Hofconcerten die mitwirkenden
       <lb facs="#facs_4_region_1706944751323_177_tl_32" n="N035"/>Künstler und Künstlerinnen am Souper an einer der kleinen
       <lb facs="#facs_4_region_1706944751323_177_tl_33" n="N036"/>Tafeln theilnehmen dürfen, welchen er selbst als Intendant
-      <lb facs="#facs_4_region_1706944751323_177_tl_34" n="N037"/>präsidiren wollte. Doch der <rs type="person">Hofmarschall</rs> fand diese Con¬
-      <lb facs="#facs_4_region_1706944751323_177_tl_35" n="N038"/>cession so unerhört, daß er auf eigene Faust einige Minuten
+      <lb facs="#facs_4_region_1706944751323_177_tl_34" n="N037"/>präsidiren wollte. Doch der Hofmarschall fand diese Con
+      <lb facs="#facs_4_region_1706944751323_177_tl_35" n="N038" break="no"/>cession so unerhört, daß er auf eigene Faust einige Minuten
       <lb facs="#facs_4_region_1706944751323_177_tl_36" n="N039"/>vor Beginn des Soupers die für die Künstler bestimmte
       <lb facs="#facs_4_region_1706944751323_177_tl_37" n="N040"/>Tafel abdecken ließ und „diese Leute“ heimschickte. Im Jahre
-      <lb facs="#facs_4_region_1706944751323_177_tl_38" n="N041"/>
-               <date month="0" day="0" year="0">1868</date> schritt <rs type="person">Flotow</rs> zur dritten Ehe (mit der <rs type="person">Verfasserin</rs>
-               <lb facs="#facs_4_region_1706944751323_177_tl_39" n="N042"/>der <rs type="bibl">Biographie</rs>) und lebte die nächsten fünf Jahre auf der</p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_4_region_1706944757073_180_tl_1" n="N001"/>seiner <rs type="person">Gattin</rs> gehörigen Besitzung in <rs type="place">Hirschwang</rs> bei
-      <lb facs="#facs_4_region_1706944757073_180_tl_2" n="N002"/>
-               <rs type="place">Reichenau</rs>, wo zahlreiche Gäste aus der <rs type="place">Wien</rs>er Kunstwelt
+      <lb facs="#facs_4_region_1706944751323_177_tl_38" n="N041"/><date>1868</date> schritt <rs type="person" ref="#hsl_person_id_81">Flotow</rs> zur dritten Ehe (mit der <rs type="person" ref="#hsl_person_id_4301">Verfasserin</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_4_region_1706944751323_177_tl_39" n="N042"/>der <rs type="bibl" ref="#hsl_work_id_2697">Biographie</rs>) und lebte die nächsten fünf Jahre auf der<space quantity="1" unit="char"/></p>
+            <cb n="9"/>
+            <p prev="true">
+      <lb facs="#facs_4_region_1706944757073_180_tl_1" n="N001"/>seiner <rs type="person" ref="#hsl_person_id_4301">Gattin</rs> gehörigen Besitzung in <rs type="place" ref="#hsl_place_id_509">Hirschwang</rs> bei
+      <lb facs="#facs_4_region_1706944757073_180_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_510">Reichenau</rs>, wo zahlreiche Gäste aus der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Kunstwelt
       <lb facs="#facs_4_region_1706944757073_180_tl_3" n="N003"/>sich gern einfanden. Die Besitzung überging später in das
-      <lb facs="#facs_4_region_1706944757073_180_tl_4" n="N004"/>Eigenthum des Baron Victor <rs type="person">Erlanger</rs>, und <rs type="person">Flotow</rs> ließ
-      <lb facs="#facs_4_region_1706944757073_180_tl_5" n="N005"/>sich für den Rest seines Lebens in <rs type="place">Darmstadt</rs> nieder. Von
-      <lb facs="#facs_4_region_1706944757073_180_tl_6" n="N006"/>dort kam er noch einmal, im April <date month="0" day="0" year="0">1882</date>, nach <rs type="place">Wien</rs>, um im
+      <lb facs="#facs_4_region_1706944757073_180_tl_4" n="N004"/>Eigenthum des Baron Victor <rs type="person" ref="#hsl_person_id_4328">Erlanger</rs>, und <rs type="person" ref="#hsl_person_id_81">Flotow</rs> ließ
+      <lb facs="#facs_4_region_1706944757073_180_tl_5" n="N005"/>sich für den Rest seines Lebens in <rs type="place" ref="#hsl_place_id_13">Darmstadt</rs> nieder. Von
+      <lb facs="#facs_4_region_1706944757073_180_tl_6" n="N006"/>dort kam er noch einmal, im April <date>1882</date>, nach <rs type="place" ref="#hsl_place_id_55">Wien</rs>, um im
       <lb facs="#facs_4_region_1706944757073_180_tl_7" n="N007"/>Hofoperntheater der <hi rendition="#em">fünfhundertsten</hi> Vorstellung seiner
-      <lb facs="#facs_4_region_1706944757073_180_tl_8" n="N008"/>„<rs type="bibl">Martha</rs>“ als Ehrengast beizuwohnen. Es war dies zugleich
+      <lb facs="#facs_4_region_1706944757073_180_tl_8" n="N008"/>„<rs type="bibl" ref="#hsl_work_id_89">Martha</rs>“ als Ehrengast beizuwohnen. Es war dies zugleich
       <lb facs="#facs_4_region_1706944757073_180_tl_9" n="N009"/>die schönste Feier seines siebzigsten Geburtstages. Einige Monate
       <lb facs="#facs_4_region_1706944757073_180_tl_10" n="N010"/>später hatte ihn ein Schlagfluß weggerafft. Der Himmel,
       <lb facs="#facs_4_region_1706944757073_180_tl_11" n="N011"/>der sich ihm meistens gnädig erwiesen, hat dem thätigen
       <lb facs="#facs_4_region_1706944757073_180_tl_12" n="N012"/>Manne die Qualen langer Krankheit erspart. Auch konnte
       <lb facs="#facs_4_region_1706944757073_180_tl_13" n="N013"/>er mit dem Glücksgefühle scheiden, seinen Ruhm und seinen
       <lb facs="#facs_4_region_1706944757073_180_tl_14" n="N014"/>Zusammenhang mit dem Publicum nicht überlebt zu haben.
-      <lb facs="#facs_4_region_1706944757073_180_tl_15" n="N015"/>Sind auch die Werke seiner späteren Periode rasch ver¬
-      <lb facs="#facs_4_region_1706944757073_180_tl_16" n="N016"/>schollen, <hi rendition="#em">
-                  <rs type="bibl">Stradella</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="bibl">Martha</rs>
-               </hi> führen — Ersterer
-      <lb facs="#facs_4_region_1706944757073_180_tl_17" n="N017"/>mindestens in <rs type="place">Deutschland</rs>, Letztere in der ganzen Welt —
+      <lb facs="#facs_4_region_1706944757073_180_tl_15" n="N015"/>Sind auch die Werke seiner späteren Periode rasch ver
+      <lb facs="#facs_4_region_1706944757073_180_tl_16" n="N016" break="no"/>schollen, <hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_266">Stradella</rs></hi> und <hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_89">Martha</rs></hi> führen — Ersterer
+      <lb facs="#facs_4_region_1706944757073_180_tl_17" n="N017"/>mindestens in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>, Letztere in der ganzen Welt —
       <lb facs="#facs_4_region_1706944757073_180_tl_18" n="N018"/>heute noch ihr fröhliches Dasein fort. Die Verbreitung und
-      <lb facs="#facs_4_region_1706944757073_180_tl_19" n="N019"/>Beliebtheit der „<rs type="bibl">Martha</rs>“ ist in der Geschichte der <rs type="place">deutsch</rs>en
+      <lb facs="#facs_4_region_1706944757073_180_tl_19" n="N019"/>Beliebtheit der „<rs type="bibl" ref="#hsl_work_id_89">Martha</rs>“ ist in der Geschichte der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en
       <lb facs="#facs_4_region_1706944757073_180_tl_20" n="N020"/>komischen Oper ohne Beispiel. Der letzte große Erfolg dieses
-      <lb facs="#facs_4_region_1706944757073_180_tl_21" n="N021"/>Genres, „<rs type="bibl">Der Trompeter von Säckingen</rs>“, reicht nicht ent¬
-      <lb facs="#facs_4_region_1706944757073_180_tl_22" n="N022"/>fernt daran; seine Töne sind nie über die Grenzen <rs type="place">Deutsch¬</rs>
-               <lb facs="#facs_4_region_1706944757073_180_tl_23" n="N023"/>
-               <rs type="place">land</rs>s gedrungen, und auch hier beginnen sie jetzt — schon
+      <lb facs="#facs_4_region_1706944757073_180_tl_21" n="N021"/>Genres, „<rs type="bibl" ref="#hsl_work_id_953">Der Trompeter von Säckingen</rs>“, reicht nicht ent
+      <lb facs="#facs_4_region_1706944757073_180_tl_22" n="N022" break="no"/>fernt daran; seine Töne sind nie über die Grenzen <rs type="place" ref="#hsl_place_id_14">Deutsch
+      <lb facs="#facs_4_region_1706944757073_180_tl_23" n="N023" break="no"/>land</rs>s gedrungen, und auch hier beginnen sie jetzt — schon
       <lb facs="#facs_4_region_1706944757073_180_tl_24" n="N024"/>nach zehn Jahren! — bedenklich einzufrieren, ohne viel
-      <lb facs="#facs_4_region_1706944757073_180_tl_25" n="N025"/>Aussicht, je wieder in ihrer alten <rs type="person">münchhausisch</rs>en Stärke
-      <lb facs="#facs_4_region_1706944757073_180_tl_26" n="N026"/>aufzuthauen. Eine so außerordentliche und anhaltende Popu¬
-      <lb facs="#facs_4_region_1706944757073_180_tl_27" n="N027"/>larität wie die der „<rs type="bibl">Martha</rs>“ ist niemals ohne zureichenden
+      <lb facs="#facs_4_region_1706944757073_180_tl_25" n="N025"/>Aussicht, je wieder in ihrer alten <rs type="person" ref="#hsl_person_id_4329">münchhausisch</rs>en Stärke
+      <lb facs="#facs_4_region_1706944757073_180_tl_26" n="N026"/>aufzuthauen. Eine so außerordentliche und anhaltende Popu
+      <lb facs="#facs_4_region_1706944757073_180_tl_27" n="N027" break="no"/>larität wie die der „<rs type="bibl" ref="#hsl_work_id_89">Martha</rs>“ ist niemals ohne zureichenden
       <lb facs="#facs_4_region_1706944757073_180_tl_28" n="N028"/>Grund, und dies muß, bei allem sonstigen Vorbehalt, auch
       <lb facs="#facs_4_region_1706944757073_180_tl_29" n="N029"/>der Kritiker anerkennen, der jetzt ihren trostlos abgenützten
       <lb facs="#facs_4_region_1706944757073_180_tl_30" n="N030"/>Melodien lieber aus dem Wege geht.
-      <lb facs="#facs_4_region_1706944757073_180_tl_31" n="N031"/>Der persönliche Charakter <rs type="person">Flotow</rs>'s erscheint in der
-      <lb facs="#facs_4_region_1706944757073_180_tl_32" n="N032"/>
-               <rs type="bibl">Biographie</rs> brav und liebenswürdig, wie wir ihn auch im
+            </p><p>
+      <lb facs="#facs_4_region_1706944757073_180_tl_31" n="N031"/>Der persönliche Charakter <rs type="person" ref="#hsl_person_id_81">Flotow</rs>’s erscheint in der
+      <lb facs="#facs_4_region_1706944757073_180_tl_32" n="N032"/><rs type="bibl" ref="#hsl_work_id_2697">Biographie</rs> brav und liebenswürdig, wie wir ihn auch im
       <lb facs="#facs_4_region_1706944757073_180_tl_33" n="N033"/>Umgange stets gefunden haben. Er war nicht blos vornehm
       <lb facs="#facs_4_region_1706944757073_180_tl_34" n="N034"/>in der Erscheinung, sondern auch in der Gesinnung. In
-      <lb facs="#facs_4_region_1706944757073_180_tl_35" n="N035"/>seinen Briefen und Tagebuchblättern findet sich nicht die ge¬
-      <lb facs="#facs_4_region_1706944757073_180_tl_36" n="N036"/>ringste mißgünstige oder geringschätzende Aeußerung über
+      <lb facs="#facs_4_region_1706944757073_180_tl_35" n="N035"/>seinen Briefen und Tagebuchblättern findet sich nicht die ge
+      <lb facs="#facs_4_region_1706944757073_180_tl_36" n="N036" break="no"/>ringste mißgünstige oder geringschätzende Aeußerung über
       <lb facs="#facs_4_region_1706944757073_180_tl_37" n="N037"/>einen seiner Collegen. Diese Tugend stammt gewiß zur
-      <lb facs="#facs_4_region_1706944757073_180_tl_38" n="N038"/>Hälfte aus natürlichem Wohlwollen, zur anderen Hälfte ver¬
-      <lb facs="#facs_4_region_1706944757073_180_tl_39" n="N039"/>dankt er sie <rs type="place">Paris</rs>. <rs type="place">Französisch</rs>e Componisten und Schrift¬
-      <lb facs="#facs_4_region_1706944757073_180_tl_40" n="N040"/>steller pflegen niemals über ihre Collegen wegwerfend zu
-      <lb facs="#facs_4_region_1706944757073_180_tl_41" n="N041"/>sprechen. In <rs type="place">Deutschland</rs> scheint das Gegentheil beliebter zu sein.</p>
+      <lb facs="#facs_4_region_1706944757073_180_tl_38" n="N038"/>Hälfte aus natürlichem Wohlwollen, zur anderen Hälfte ver
+      <lb facs="#facs_4_region_1706944757073_180_tl_39" n="N039" break="no"/>dankt er sie <rs type="place" ref="#hsl_place_id_44">Paris</rs>. <rs type="place" ref="#hsl_place_id_21">Französisch</rs>e Componisten und Schrift
+      <lb facs="#facs_4_region_1706944757073_180_tl_40" n="N040" break="no"/>steller pflegen niemals über ihre Collegen wegwerfend zu
+      <lb facs="#facs_4_region_1706944757073_180_tl_41" n="N041"/>sprechen. In <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> scheint das Gegentheil beliebter zu sein.</p>
          </div>
       </body>
    </text>
