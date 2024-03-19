@@ -109,6 +109,7 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2024-03-12">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-03-17">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2024-03-18" who="ampfiel">header, Zeilenumbrüche, Absätze</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -738,13 +739,14 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+      <head type="h1">
+            <lb facs="#facs_1_region_1684594410494_2654_tl_1" n="N001"/><hi rendition="#em">Musik</hi>.</head>
+      <head type="h2">
+            <lb facs="#facs_1_region_1684594410494_2654_tl_2" n="N002"/>(Hofoperntheater. — Liedertafel.)</head>
             <p>
-               <lb facs="#facs_1_region_1684594410494_2654_tl_1" n="N001"/>
-               <hi rendition="#em">Musik</hi>.
-      <lb facs="#facs_1_region_1684594410494_2654_tl_2" n="N002"/>(Hofoperntheater. — Liedertafel.)
       <lb facs="#facs_1_region_1684594410494_2654_tl_3" n="N003"/>Ed. H. Die Sommersaison im Hofoperntheater läßt sich
-      <lb facs="#facs_1_region_1684594410494_2654_tl_4" n="N004"/>weit besser an, als es sonst unmittelbar nach den Theater¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_5" n="N005"/>ferien der Fall zu sein pflegt. Die Abwesenheit zahlreicher noch
+      <lb facs="#facs_1_region_1684594410494_2654_tl_4" n="N004"/>weit besser an, als es sonst unmittelbar nach den Theater
+      <lb facs="#facs_1_region_1684594410494_2654_tl_5" n="N005" break="no"/>ferien der Fall zu sein pflegt. Die Abwesenheit zahlreicher noch
       <lb facs="#facs_1_region_1684594410494_2654_tl_6" n="N006"/>beurlaubter Mitglieder, die Unlust der Sänger, die, durch den
       <lb facs="#facs_1_region_1684594410494_2654_tl_7" n="N007"/>Anblick des spärlichen Publicums gelähmt, wieder auf dieses
       <lb facs="#facs_1_region_1684594410494_2654_tl_8" n="N008"/>ungünstig zurückwirken, dazu ein abgespieltes Repertoire und
@@ -752,194 +754,184 @@
       <lb facs="#facs_1_region_1684594410494_2654_tl_10" n="N010"/>sich besser in <rs type="place">Laxenburg</rs> oder auf dem <rs type="place">Liechtenstein</rs> genieße, als
       <lb facs="#facs_1_region_1684594410494_2654_tl_11" n="N011"/>im Cäciliengäßchen — dies Alles spricht für den wiederholt
       <lb facs="#facs_1_region_1684594410494_2654_tl_12" n="N012"/>angeregten Gedanken, die Opernferien mindestens um einen
-      <lb facs="#facs_1_region_1684594410494_2654_tl_13" n="N013"/>halben Monat zu verlängern. Den Vorschlag halten wir auf¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_14" n="N014"/>recht, obwol diesmal, wie gesagt, die <date month="0" day="0" year="0">Juli</date>-Vorstellungen anzie¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_15" n="N015"/>hender als gewöhnlich sind. Das Publicum bekommt in rascher
-      <lb facs="#facs_1_region_1684594410494_2654_tl_16" n="N016"/>Folge eine Reihe fünfactiger Lieblingsopern und dazu das Gast¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_17" n="N017"/>spiel des so sehr beliebten Tenoristen <hi rendition="#em">
-                  <rs type="person">Sontheim</rs>
-               </hi>. „<rs type="person">Eleazar</rs>“
-      <lb facs="#facs_1_region_1684594410494_2654_tl_18" n="N018"/>und „<rs type="person">Masaniello</rs>“ erwiesen sich abermals als <rs type="person">Sontheim</rs>’s weit¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_19" n="N019"/>aus beste Leistungen; es sind Heldenrollen, für welche die mar¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_20" n="N020"/>kige Fülle seines Organs und die realistische Kraft seiner Dar¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_21" n="N021"/>stellung wie geschaffen sind, während <rs type="person">Sontheim</rs>’s Persönlichkeit,
-      <lb facs="#facs_1_region_1684594410494_2654_tl_22" n="N022"/>zum Theil auch seine Vortragsweise gegen eigentliche Liebhaber¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_23" n="N023"/>rollen reagirt. Neu waren uns in der letzten Vorstellung der
+      <lb facs="#facs_1_region_1684594410494_2654_tl_13" n="N013"/>halben Monat zu verlängern. Den Vorschlag halten wir auf
+      <lb facs="#facs_1_region_1684594410494_2654_tl_14" n="N014" break="no"/>recht, obwol diesmal, wie gesagt, die <date month="0" day="0" year="0">Juli</date>-Vorstellungen anzie
+      <lb facs="#facs_1_region_1684594410494_2654_tl_15" n="N015" break="no"/>hender als gewöhnlich sind. Das Publicum bekommt in rascher
+      <lb facs="#facs_1_region_1684594410494_2654_tl_16" n="N016"/>Folge eine Reihe fünfactiger Lieblingsopern und dazu das Gast
+      <lb facs="#facs_1_region_1684594410494_2654_tl_17" n="N017" break="no"/>spiel des so sehr beliebten Tenoristen <hi rendition="#em">
+                  <rs type="person">Sontheim</rs></hi>. „<rs type="person">Eleazar</rs>“
+      <lb facs="#facs_1_region_1684594410494_2654_tl_18" n="N018"/>und „<rs type="person">Masaniello</rs>“ erwiesen sich abermals als <rs type="person">Sontheim</rs>’s weit
+      <lb facs="#facs_1_region_1684594410494_2654_tl_19" n="N019" break="no"/>aus beste Leistungen; es sind Heldenrollen, für welche die mar
+      <lb facs="#facs_1_region_1684594410494_2654_tl_20" n="N020" break="no"/>kige Fülle seines Organs und die realistische Kraft seiner Dar
+      <lb facs="#facs_1_region_1684594410494_2654_tl_21" n="N021" break="no"/>stellung wie geschaffen sind, während <rs type="person">Sontheim</rs>’s Persönlichkeit,
+      <lb facs="#facs_1_region_1684594410494_2654_tl_22" n="N022"/>zum Theil auch seine Vortragsweise gegen eigentliche Liebhaber
+      <lb facs="#facs_1_region_1684594410494_2654_tl_23" n="N023" break="no"/>rollen reagirt. Neu waren uns in der letzten Vorstellung der
       <lb facs="#facs_1_line_1710298594663_390" n="N024"/>„<rs type="bibl">Stummen</rs>“ blos Herr <hi rendition="#em">
                   <rs type="person">Wachtel</rs>
-               </hi> jun. als <rs type="person">Alfonso</rs> und Fräu¬
-      <lb facs="#facs_1_region_1684594410494_2654_tl_27" n="N025"/>lein <hi rendition="#em">
-                  <rs type="person">Jaksch</rs>
-               </hi> als <rs type="person">Fenella</rs>. Herr <rs type="person">Wachtel</rs> versinnlichte durch
+               </hi> jun. als <rs type="person">Alfonso</rs> und Fräu
+      <lb facs="#facs_1_region_1684594410494_2654_tl_27" n="N025" break="no"/>lein <hi rendition="#em">
+                  <rs type="person">Jaksch</rs></hi> als 
+                  <rs type="person">Fenella</rs>. Herr <rs type="person">Wachtel</rs> versinnlichte durch
       <lb facs="#facs_1_region_1684594410494_2654_tl_28" n="N026"/>Gesang und Erscheinung die äußerste Demokratisirung eines
       <lb facs="#facs_1_region_1684594410494_2654_tl_29" n="N027"/>
                <rs type="place">spanisch</rs>en Prinzen, während die nichtssagende Mimik und das
       <lb facs="#facs_1_region_1684594410494_2654_tl_30" n="N028"/>balletmäßige Puppenspiel des Fräuleins <rs type="person">Jaksch</rs> die rührende
       <lb facs="#facs_1_region_1684594410494_2654_tl_31" n="N029"/>Gestalt der <rs type="person">Fenella</rs> gründlich vernichtete. Fräulein <hi rendition="#em">
-                  <rs type="person">Jaksch</rs>
-               </hi> gilt
+                  <rs type="person">Jaksch</rs></hi> gilt
       <lb facs="#facs_1_region_1684594410494_2654_tl_32" n="N030"/>mit Recht für eine der ersten Springkräfte im Ballet, rein
       <lb facs="#facs_1_region_1684594410494_2654_tl_33" n="N031"/>dramatischen Aufgaben wie die „<rs type="bibl">Stumme von Portici</rs>“ ist sie
-      <lb facs="#facs_1_region_1684594410494_2654_tl_34" n="N032"/>nicht gewachsen.
+      <lb facs="#facs_1_region_1684594410494_2654_tl_34" n="N032"/>nicht gewachsen.</p>
+               <p>
       <lb facs="#facs_1_region_1684594410494_2654_tl_35" n="N033"/>Im Ganzen spricht der Beginn der Sommersaison für
       <lb facs="#facs_1_line_1710298647552_414" n="N034"/>die Einsicht und den redlichen Eifer der neuen Direction,
       <lb facs="#facs_1_region_1684594410494_2654_tl_36" n="N035"/>wenn sie uns auch so Manches noch schuldig geblieben ist.</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684594413824_2657_tl_1" n="N001"/>Wir wissen, daß Herr v. <hi rendition="#em">
-                  <rs type="person">Dingelstedt</rs>
-               </hi> nicht alles Wün¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_2" n="N002"/>schenswerthe im Augenblicke herbeischaffen kann, was seine
+            <p prev="true">
+      <lb facs="#facs_1_region_1684594413824_2657_tl_1" n="N001"/>Wir wissen, daß Herr v. <hi rendition="#em">
+                  <rs type="person">Dingelstedt</rs></hi> nicht alles Wün
+      <lb facs="#facs_1_region_1684594413824_2657_tl_2" n="N002" break="no"/>schenswerthe im Augenblicke herbeischaffen kann, was seine
       <lb facs="#facs_1_region_1684594413824_2657_tl_3" n="N003"/>Vorgänger vorzubereiten unterließen. Dafür möchten wir ihn
-      <lb facs="#facs_1_region_1684594413824_2657_tl_4" n="N004"/>aber ersuchen, wenigstens nicht preiszugeben, was seine Vor¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_5" n="N005"/>gänger Gutes geschaffen haben. Dazu rechnen wir die Theater¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_6" n="N006"/>gesetze, welche das Hervorrufen der Sänger <hi rendition="#em">bei offener</hi>
-               <lb facs="#facs_1_region_1684594413824_2657_tl_7" n="N007"/>
-               <hi rendition="#em">Scene</hi> untersagen, die Zahl der Hervorrufe nach dem Act¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_8" n="N008"/>schlusse auf drei beschränken, das Wiederholen einzelner Gesang¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_9" n="N009"/>stücke verbieten u. s. w. Derlei Verordnungen halten wir für
+      <lb facs="#facs_1_region_1684594413824_2657_tl_4" n="N004"/>aber ersuchen, wenigstens nicht preiszugeben, was seine Vor
+      <lb facs="#facs_1_region_1684594413824_2657_tl_5" n="N005" break="no"/>gänger Gutes geschaffen haben. Dazu rechnen wir die Theater
+      <lb facs="#facs_1_region_1684594413824_2657_tl_6" n="N006" break="no"/>gesetze, welche das Hervorrufen der Sänger <hi rendition="#em">bei offener
+      <lb facs="#facs_1_region_1684594413824_2657_tl_7" n="N007"/>Scene</hi> untersagen, die Zahl der Hervorrufe nach dem Act
+      <lb facs="#facs_1_region_1684594413824_2657_tl_8" n="N008" break="no"/>schlusse auf drei beschränken, das Wiederholen einzelner Gesang
+      <lb facs="#facs_1_region_1684594413824_2657_tl_9" n="N009" break="no"/>stücke verbieten u. s. w. Derlei Verordnungen halten wir für
       <lb facs="#facs_1_region_1684594413824_2657_tl_10" n="N010"/>etwas sehr Richtiges und Wichtiges. Es hat viel Zeit und
       <lb facs="#facs_1_region_1684594413824_2657_tl_11" n="N011"/>redliche Mühe von Seiten der Kritik gebraucht, um dieselben
-      <lb facs="#facs_1_region_1684594413824_2657_tl_12" n="N012"/>für das Hofoperntheater zu erringen, welches durch die Bei¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_13" n="N013"/>fallsraserei aus den Blüthentagen der <rs type="place">italienisch</rs>en Saison
+      <lb facs="#facs_1_region_1684594413824_2657_tl_12" n="N012"/>für das Hofoperntheater zu erringen, welches durch die Bei
+      <lb facs="#facs_1_region_1684594413824_2657_tl_13" n="N013" break="no"/>fallsraserei aus den Blüthentagen der <rs type="place">italienisch</rs>en Saison
       <lb facs="#facs_1_region_1684594413824_2657_tl_14" n="N014"/>arg demoralisirt war. Die Unersättlichkeit der Künstler ging
       <lb facs="#facs_1_region_1684594413824_2657_tl_15" n="N015"/>wachsend mit jener des Publicums Hand in Hand — Rufen
       <lb facs="#facs_1_region_1684594413824_2657_tl_16" n="N016"/>und Gerufenwerden war „das höchste Glück auf Erden“. Da
       <lb facs="#facs_1_region_1684594413824_2657_tl_17" n="N017"/>erbarmte sich die Hofbehörde des mißhandelten theatralischen
       <lb facs="#facs_1_region_1684594413824_2657_tl_18" n="N018"/>Anstandes und des ernsthaften Theiles des Publicums, und
-      <lb facs="#facs_1_region_1684594413824_2657_tl_19" n="N019"/>erließ jene wohlthätige Hausordnung. Nur allmälig und zö¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_20" n="N020"/>gernd fanden Künstler und Zuschauer sich in die neue Diät,
-      <lb facs="#facs_1_region_1684594413824_2657_tl_21" n="N021"/>die aber streng aufrechterhalten wurde, so daß jetzt seit lan¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_22" n="N022"/>ger Zeit fanatische Störungen des scenischen Zusammenhanges
+      <lb facs="#facs_1_region_1684594413824_2657_tl_19" n="N019"/>erließ jene wohlthätige Hausordnung. Nur allmälig und zö
+      <lb facs="#facs_1_region_1684594413824_2657_tl_20" n="N020" break="no"/>gernd fanden Künstler und Zuschauer sich in die neue Diät,
+      <lb facs="#facs_1_region_1684594413824_2657_tl_21" n="N021"/>die aber streng aufrechterhalten wurde, so daß jetzt seit lan
+      <lb facs="#facs_1_region_1684594413824_2657_tl_22" n="N022" break="no"/>ger Zeit fanatische Störungen des scenischen Zusammenhanges
       <lb facs="#facs_1_region_1684594413824_2657_tl_23" n="N023"/>nicht mehr vorkamen. Die erwähnte Verordnung steht noch in
       <lb facs="#facs_1_region_1684594413824_2657_tl_24" n="N024"/>Kraft und hängt in zahlreichen großgedruckten Placaten im
       <lb facs="#facs_1_region_1684594413824_2657_tl_25" n="N025"/>Theater, aber gehalten wird sie nicht mehr. Wir machten
-      <lb facs="#facs_1_region_1684594413824_2657_tl_26" n="N026"/>diese betrübende Wahrnehmung schon einigemale vor dem Ein¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_27" n="N027"/>tritte der Opernferien. Seit der Wiedereröffnung der Oper
+      <lb facs="#facs_1_region_1684594413824_2657_tl_26" n="N026"/>diese betrübende Wahrnehmung schon einigemale vor dem Ein
+      <lb facs="#facs_1_region_1684594413824_2657_tl_27" n="N027" break="no"/>tritte der Opernferien. Seit der Wiedereröffnung der Oper
       <lb facs="#facs_1_line_1710298613831_398" n="N028"/>jedoch blühen diese Ordnungswidrigkeiten in vollem Flor, die
       <lb facs="#facs_1_region_1684594413824_2657_tl_29" n="N029"/>Sänger (einheimische wie fremde) werden bei offener Scene
-      <lb facs="#facs_1_region_1684594413824_2657_tl_30" n="N030"/>gerufen und erscheinen ohneweiters, so oft man will. Unmög¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_31" n="N031"/>lich kann dies ohne stillschweigende Billigung der vorgesetzten
+      <lb facs="#facs_1_region_1684594413824_2657_tl_30" n="N030"/>gerufen und erscheinen ohneweiters, so oft man will. Unmög
+      <lb facs="#facs_1_region_1684594413824_2657_tl_31" n="N031" break="no"/>lich kann dies ohne stillschweigende Billigung der vorgesetzten
       <lb facs="#facs_1_region_1684594413824_2657_tl_32" n="N032"/>Behörde geschehen (bis jetzt standen Geldstrafen darauf), und
       <lb facs="#facs_1_region_1684594413824_2657_tl_33" n="N033"/>deßhalb müssen wir an die Direction selbst die Interpellation
-      <lb facs="#facs_1_region_1684594413824_2657_tl_34" n="N034"/>richten, warum sie eine schwer durchgesetzte und jahrelang be¬
-      <lb facs="#facs_1_region_1684594413824_2657_tl_35" n="N035"/>obachtete Theater-Ordnung jetzt leichtsinnig zerstören lasse?
-      <lb facs="#facs_1_region_1684594413824_2657_tl_36" n="N036"/>Unwichtig können diese Vorschriften nur demjenigen vorkom¬
-      <lb facs="#facs_1_line_1710298650860_417" n="N037"/>men, der keinen Sinn und keine Pietät für den Zusammen¬
-      <lb facs="#facs_1_line_1710298654202_420" n="N038"/>hang eines dramatischen Kunstwerkes hat. Gibt es etwas Stö¬</p>
+      <lb facs="#facs_1_region_1684594413824_2657_tl_34" n="N034"/>richten, warum sie eine schwer durchgesetzte und jahrelang be
+      <lb facs="#facs_1_region_1684594413824_2657_tl_35" n="N035" break="no"/>obachtete Theater-Ordnung jetzt leichtsinnig zerstören lasse?
+      <lb facs="#facs_1_region_1684594413824_2657_tl_36" n="N036"/>Unwichtig können diese Vorschriften nur demjenigen vorkom
+      <lb facs="#facs_1_line_1710298650860_417" n="N037" break="no"/>men, der keinen Sinn und keine Pietät für den Zusammen
+      <lb facs="#facs_1_line_1710298654202_420" n="N038" break="no"/>hang eines dramatischen Kunstwerkes hat. Gibt es etwas Stö</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684594417549_2660_tl_1" n="N001"/>renderes, als wenn die tragische Heldin, die in Wahnsinn da¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_2" n="N002"/>vonstürzt oder gar todt hinweggeschleppt wird, sofort bei offe¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_3" n="N003"/>ner Scene, also mitten in der Handlung, auf den Applaus
+            <p prev="true">
+      <lb facs="#facs_1_region_1684594417549_2660_tl_1" n="N001" break="no"/>renderes, als wenn die tragische Heldin, die in Wahnsinn da
+      <lb facs="#facs_1_region_1684594417549_2660_tl_2" n="N002" break="no"/>vonstürzt oder gar todt hinweggeschleppt wird, sofort bei offe
+      <lb facs="#facs_1_region_1684594417549_2660_tl_3" n="N003" break="no"/>ner Scene, also mitten in der Handlung, auf den Applaus
       <lb facs="#facs_1_region_1684594417549_2660_tl_4" n="N004"/>des Publicums lächelnd und kniend wieder aus der Coulisse
       <lb facs="#facs_1_region_1684594417549_2660_tl_5" n="N005"/>tritt, in zahllosen Verbeugungen alle mimischen Kunststücke
       <lb facs="#facs_1_region_1684594417549_2660_tl_6" n="N006"/>eitler Bescheidenheit erschöpft und zum Ueberflusse auch noch
       <lb facs="#facs_1_region_1684594417549_2660_tl_7" n="N007"/>eine Schicht Blumen und Kränze vom Boden aufsammelt!
-      <lb facs="#facs_1_region_1684594417549_2660_tl_8" n="N008"/>Noch schlimmer, wenn der Jubel nach einem Duett oder Ter¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_9" n="N009"/>zett losgeht. In der letzten Vorstellung der „<rs type="bibl">Favorite</rs>“ wurde
+      <lb facs="#facs_1_region_1684594417549_2660_tl_8" n="N008"/>Noch schlimmer, wenn der Jubel nach einem Duett oder Ter
+      <lb facs="#facs_1_region_1684594417549_2660_tl_9" n="N009" break="no"/>zett losgeht. In der letzten Vorstellung der „<rs type="bibl">Favorite</rs>“ wurde
       <lb facs="#facs_1_region_1684594417549_2660_tl_10" n="N010"/>das einleitende Duett zwischen den Herren <hi rendition="#em">
-                  <rs type="person">Sontheim</rs>
-               </hi> und
-      <lb facs="#facs_1_region_1684594417549_2660_tl_11" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="person">Draxler</rs>
-               </hi> nach deren Abtreten anhaltend beklatscht.
+                  <rs type="person">Sontheim</rs></hi> und
+      <lb facs="#facs_1_region_1684594417549_2660_tl_11" n="N011"/><hi rendition="#em">
+                  <rs type="person">Draxler</rs></hi> nach deren Abtreten anhaltend beklatscht.
       <lb facs="#facs_1_region_1684594417549_2660_tl_12" n="N012"/>Herr <hi rendition="#em">
-                  <rs type="person">Sontheim</rs>
-               </hi> kommt nach einer Weile, bedankt sich, sucht
+                  <rs type="person">Sontheim</rs></hi> kommt nach einer Weile, bedankt sich, sucht
       <lb facs="#facs_1_region_1684594417549_2660_tl_13" n="N013"/>mit den Blicken Herrn <hi rendition="#em">
-                  <rs type="person">Draxler</rs>
-               </hi>, winkt, geht in die Coulisse
-      <lb facs="#facs_1_region_1684594417549_2660_tl_14" n="N014"/>zurück und bringt endlich den würdigen Prior aus der Sa¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_15" n="N015"/>cristei des Dominicaner-Klosters an der Hand heraus. Nun
+                  <rs type="person">Draxler</rs></hi>, winkt, geht in die Coulisse
+      <lb facs="#facs_1_region_1684594417549_2660_tl_14" n="N014"/>zurück und bringt endlich den würdigen Prior aus der Sa
+      <lb facs="#facs_1_region_1684594417549_2660_tl_15" n="N015" break="no"/>cristei des Dominicaner-Klosters an der Hand heraus. Nun
       <lb facs="#facs_1_region_1684594417549_2660_tl_16" n="N016"/>bedanken sich Beide, das Publicum klatscht von neuem, der
       <lb facs="#facs_1_region_1684594417549_2660_tl_17" n="N017"/>Capellmeister läßt den erhobenen Tactstab von neuem fallen
       <lb facs="#facs_1_region_1684594417549_2660_tl_18" n="N018"/>und der Zusammenhang des Stückes wie die Stimmung des
-      <lb facs="#facs_1_region_1684594417549_2660_tl_19" n="N019"/>aufmerksamen Zuhörers sind schon nach der ersten Scene ge¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_20" n="N020"/>opfert. So ging es die Oper hindurch. Die größte Ueber¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_21" n="N021"/>raschung war uns aber für den letzten Act aufgespart, wo nach
-      <lb facs="#facs_1_region_1684594417549_2660_tl_22" n="N022"/>
-               <hi rendition="#em">
+      <lb facs="#facs_1_region_1684594417549_2660_tl_19" n="N019"/>aufmerksamen Zuhörers sind schon nach der ersten Scene ge
+      <lb facs="#facs_1_region_1684594417549_2660_tl_20" n="N020" break="no"/>opfert. So ging es die Oper hindurch. Die größte Ueber
+      <lb facs="#facs_1_region_1684594417549_2660_tl_21" n="N021" break="no"/>raschung war uns aber für den letzten Act aufgespart, wo nach
+      <lb facs="#facs_1_region_1684594417549_2660_tl_22" n="N022"/><hi rendition="#em">
                   <rs type="person">Sontheim</rs>’s</hi> Romanze von den Galerien ein tumultuarisches
-      <lb facs="#facs_1_region_1684594417549_2660_tl_23" n="N023"/>„Bis, bis, da capo!“ erschallte. Seit mehr als einem Decen¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_24" n="N024"/>nium hatten wir diesen hungrigen Ruf gottlob nicht gehört.
+      <lb facs="#facs_1_region_1684594417549_2660_tl_23" n="N023"/>„Bis, bis, da capo!“ erschallte. Seit mehr als einem Decen
+      <lb facs="#facs_1_region_1684594417549_2660_tl_24" n="N024" break="no"/>nium hatten wir diesen hungrigen Ruf gottlob nicht gehört.
       <lb facs="#facs_1_region_1684594417549_2660_tl_25" n="N025"/>Die Zuschauer wußten ja, daß den Sängern das Wiederholen
-      <lb facs="#facs_1_region_1684594417549_2660_tl_26" n="N026"/>untersagt war, und forderten es daher nicht. Jetzt, wo sie ge¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_27" n="N027"/>wahr werden, daß dem Hervorruf bei offener Scene trotz des
+      <lb facs="#facs_1_region_1684594417549_2660_tl_26" n="N026"/>untersagt war, und forderten es daher nicht. Jetzt, wo sie ge
+      <lb facs="#facs_1_region_1684594417549_2660_tl_27" n="N027" break="no"/>wahr werden, daß dem Hervorruf bei offener Scene trotz des
       <lb facs="#facs_1_line_1710298617910_401" n="N028"/>Verbotes ungenirt Folge geleistet wird, usurpiren sie sofort
       <lb facs="#facs_1_region_1684594417549_2660_tl_28" n="N029"/>auch das Recht, beliebige Stücke da capo zu verlangen. Man
-      <lb facs="#facs_1_region_1684594417549_2660_tl_29" n="N030"/>sieht an diesem Beispiele, in wie kurzer Zeit eine laxe Hand¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_30" n="N031"/>habung der Theater-Disciplin den fatalsten Einfluß ausübt.
-      <lb facs="#facs_1_region_1684594417549_2660_tl_31" n="N032"/>Nicht blos auf die Sänger, deren mühsam eingedämmte „Er¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_32" n="N033"/>scheinungs“-Sucht nun außer Rand und Band geräth, sondern
+      <lb facs="#facs_1_region_1684594417549_2660_tl_29" n="N030"/>sieht an diesem Beispiele, in wie kurzer Zeit eine laxe Hand
+      <lb facs="#facs_1_region_1684594417549_2660_tl_30" n="N031" break="no"/>habung der Theater-Disciplin den fatalsten Einfluß ausübt.
+      <lb facs="#facs_1_region_1684594417549_2660_tl_31" n="N032"/>Nicht blos auf die Sänger, deren mühsam eingedämmte „Er
+      <lb facs="#facs_1_region_1684594417549_2660_tl_32" n="N033" break="no"/>scheinungs“-Sucht nun außer Rand und Band geräth, sondern
       <lb facs="#facs_1_region_1684594417549_2660_tl_33" n="N034"/>noch mehr auf das Publicum, das ohnehin stets geneigt ist,
-      <lb facs="#facs_1_region_1684594417549_2660_tl_34" n="N035"/>das Kunstwerk über dem Künstler zu vergessen. Von der be¬
-      <lb facs="#facs_1_region_1684594417549_2660_tl_35" n="N036"/>zahlten Elstase der Claque wollen wir gar nicht sprechen, sie
-      <lb facs="#facs_1_region_1684594417549_2660_tl_36" n="N037"/>ist die lästigste von allen und nur durch die strenge Aufrecht¬
-      <lb facs="#facs_1_line_1710298660555_423" n="N038"/>haltung jener Thatergesetze im Zaum zu halten. Es ist kei¬</p>
+      <lb facs="#facs_1_region_1684594417549_2660_tl_34" n="N035"/>das Kunstwerk über dem Künstler zu vergessen. Von der be
+      <lb facs="#facs_1_region_1684594417549_2660_tl_35" n="N036" break="no"/>zahlten Elstase der Claque wollen wir gar nicht sprechen, sie
+      <lb facs="#facs_1_region_1684594417549_2660_tl_36" n="N037"/>ist die lästigste von allen und nur durch die strenge Aufrecht
+      <lb facs="#facs_1_line_1710298660555_423" n="N038" break="no"/>haltung jener Thatergesetze im Zaum zu halten. Es ist kei</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684594427898_2666_tl_1" n="N001"/>neswegs pedantisch, wenn wir großes Gewicht auf eine The¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_2" n="N002"/>ter-Disciplin legen, welche nicht der Ausdruck einer willkür¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_3" n="N003"/>lichen Etiquette, sondern der Achtung vor der Integrität des
+            <p prev="true">
+      <lb facs="#facs_2_region_1684594427898_2666_tl_1" n="N001" break="no"/>neswegs pedantisch, wenn wir großes Gewicht auf eine The
+      <lb facs="#facs_2_region_1684594427898_2666_tl_2" n="N002" break="no"/>ter-Disciplin legen, welche nicht der Ausdruck einer willkür
+      <lb facs="#facs_2_region_1684594427898_2666_tl_3" n="N003" break="no"/>lichen Etiquette, sondern der Achtung vor der Integrität des
       <lb facs="#facs_2_region_1684594427898_2666_tl_4" n="N004"/>Kunstwerkes ist. Das Wiener <hi rendition="#em">Burgtheater</hi> ist ein wahres
       <lb facs="#facs_2_region_1684594427898_2666_tl_5" n="N005"/>Muster in dieser Hinsicht; es geht in seiner strengen Decenz
       <lb facs="#facs_2_region_1684594427898_2666_tl_6" n="N006"/>noch weiter als das Théâtre Français in <rs type="place">Paris</rs> und gestattet
-      <lb facs="#facs_2_region_1684594427898_2666_tl_7" n="N007"/>den Hervorruf der Schauspieler nicht einmal nach dem Act¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_8" n="N008"/>schlusse. Diese Strenge beanspruchen wir für ein Operntheater
+      <lb facs="#facs_2_region_1684594427898_2666_tl_7" n="N007"/>den Hervorruf der Schauspieler nicht einmal nach dem Act
+      <lb facs="#facs_2_region_1684594427898_2666_tl_8" n="N008" break="no"/>schlusse. Diese Strenge beanspruchen wir für ein Operntheater
       <lb facs="#facs_2_region_1684594427898_2666_tl_9" n="N009"/>nicht, sie könnte für Tenoristen und Primadonneen tödtliche
       <lb facs="#facs_2_region_1684594427898_2666_tl_10" n="N010"/>Folgen haben. Im Burgtheater herrscht eine eigenthümlich
-      <lb facs="#facs_2_region_1684594427898_2666_tl_11" n="N011"/>wohlthuende Atmosphäre von Anstand und Mäßigung — Pu¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_12" n="N012"/>blicum und Künstler sind durch eine lange Lehrzeit dazu erzo¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_13" n="N013"/>gen worden und bedürfen keiner lärmenderen Demonstrationen.
+      <lb facs="#facs_2_region_1684594427898_2666_tl_11" n="N011"/>wohlthuende Atmosphäre von Anstand und Mäßigung — Pu
+      <lb facs="#facs_2_region_1684594427898_2666_tl_12" n="N012" break="no"/>blicum und Künstler sind durch eine lange Lehrzeit dazu erzo
+      <lb facs="#facs_2_region_1684594427898_2666_tl_13" n="N013" break="no"/>gen worden und bedürfen keiner lärmenderen Demonstrationen.
       <lb facs="#facs_2_region_1684594427898_2666_tl_14" n="N014"/>Man weiß dort auch ohne Hervorruf, wer die Lieblinge des
       <lb facs="#facs_2_region_1684594427898_2666_tl_15" n="N015"/>Publicums sind, und ein herzlicher, nicht betäubender Applaus
       <lb facs="#facs_2_region_1684594427898_2666_tl_16" n="N016"/>wiegt im Burgtheater schwerer als der schwerste Kranz „nächst
       <lb facs="#facs_2_region_1684594427898_2666_tl_17" n="N017"/>dem Kärntnerthor“. „Es gibt doch kein besseres Zeichen eines
-      <lb facs="#facs_2_region_1684594427898_2666_tl_19" n="N018"/>tüchtigen Kopfes, als eine schwere Hand," so sagt bei <rs type="person" continued="true">Shak¬</rs>
-               <lb facs="#facs_2_region_1684594427898_2666_tl_20" n="N019"/>
-               <rs type="person" continued="true">speare</rs> ein — Lohgärber. Um auf die Hausordnung des Hof¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_21" n="N020"/>operntheaters zurückzukommen: es ist gewiß, daß sie eher zu
+      <lb facs="#facs_2_region_1684594427898_2666_tl_19" n="N018"/>tüchtigen Kopfes, als eine schwere Hand," so sagt bei <rs type="person">Shak
+      <lb facs="#facs_2_region_1684594427898_2666_tl_20" n="N019" break="no"/>speare</rs> ein — Lohgärber. Um auf die Hausordnung des Hof
+      <lb facs="#facs_2_region_1684594427898_2666_tl_21" n="N020" break="no"/>operntheaters zurückzukommen: es ist gewiß, daß sie eher zu
       <lb facs="#facs_2_region_1684594427898_2666_tl_22" n="N021"/>wenig als zu viel verbietet. Da man doch offenbar die Sache
       <lb facs="#facs_2_region_1684594427898_2666_tl_23" n="N022"/>und nicht die Personen im Auge hat, so ist es z. B. ganz
-      <lb facs="#facs_2_region_1684594427898_2666_tl_24" n="N023"/>ungerechtfertigt, fremden Sängern zu gestatten, was den ein¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_25" n="N024"/>heimischen verboten ist; die Störung bleibt dieselbe. Eine con¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_26" n="N025"/>sequente ästhetische Polizei müßte noch weiter gehen: sie müßte
-      <lb facs="#facs_2_region_1684594427898_2666_tl_27" n="N026"/>das Hinabwerfen von Kränzen, Bouquets und anderen Wurf¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_28" n="N027"/>geschossen auf die offene Scene untersagen. Dafür ist in den
+      <lb facs="#facs_2_region_1684594427898_2666_tl_24" n="N023"/>ungerechtfertigt, fremden Sängern zu gestatten, was den ein
+      <lb facs="#facs_2_region_1684594427898_2666_tl_25" n="N024" break="no"/>heimischen verboten ist; die Störung bleibt dieselbe. Eine con
+      <lb facs="#facs_2_region_1684594427898_2666_tl_26" n="N025" break="no"/>sequente ästhetische Polizei müßte noch weiter gehen: sie müßte
+      <lb facs="#facs_2_region_1684594427898_2666_tl_27" n="N026"/>das Hinabwerfen von Kränzen, Bouquets und anderen Wurf
+      <lb facs="#facs_2_region_1684594427898_2666_tl_28" n="N027" break="no"/>geschossen auf die offene Scene untersagen. Dafür ist in den
       <lb facs="#facs_2_region_1684594427898_2666_tl_29" n="N028"/>Zwischenacten hinlänglich Raum und Zeit, gerade wie für das
-      <lb facs="#facs_2_region_1684594427898_2666_tl_30" n="N029"/>Hervorrufen. Diese immer störende, meistens unzeitige und sel¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_31" n="N030"/>ten unbestellte Schleuderei während des Stückes selbst ist, ge¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_32" n="N031"/>linde gesagt, eine Barbarei. Man verlege sie in die Zwischen¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_33" n="N032"/>acte; damit werden auch die schriftlichen Instructionen über¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_34" n="N033"/>flüssig (wir hatten solche von einer hiesigen Sängerin in Hän¬
-      <lb facs="#facs_2_region_1684594427898_2666_tl_35" n="N034"/>den), worin der Freund genau unterrichtet wird, nach welcher
+      <lb facs="#facs_2_region_1684594427898_2666_tl_30" n="N029"/>Hervorrufen. Diese immer störende, meistens unzeitige und sel
+      <lb facs="#facs_2_region_1684594427898_2666_tl_31" n="N030" break="no"/>ten unbestellte Schleuderei während des Stückes selbst ist, ge
+      <lb facs="#facs_2_region_1684594427898_2666_tl_32" n="N031" break="no"/>linde gesagt, eine Barbarei. Man verlege sie in die Zwischen
+      <lb facs="#facs_2_region_1684594427898_2666_tl_33" n="N032" break="no"/>acte; damit werden auch die schriftlichen Instructionen über
+      <lb facs="#facs_2_region_1684594427898_2666_tl_34" n="N033" break="no"/>flüssig (wir hatten solche von einer hiesigen Sängerin in Hän
+      <lb facs="#facs_2_region_1684594427898_2666_tl_35" n="N034" break="no"/>den), worin der Freund genau unterrichtet wird, nach welcher
       <lb facs="#facs_2_region_1684594427898_2666_tl_36" n="N035"/>Arie er den grünen Tribut zu werfen habe, den sie dann so
       <lb facs="#facs_2_region_1684594427898_2666_tl_37" n="N036"/>hold erschrocken an die bescheidene Brust drückt. Wir haben
       <lb facs="#facs_2_region_1684594427898_2666_tl_38" n="N037"/>wenig Hoffnung auf einen solchen neuen Verbotsparagraph
       <lb facs="#facs_2_line_1710298861234_629" n="N038"/>„de effusis et ejectis“; was wir aber beanspruchen, ist die</p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684594432221_2669_tl_1" n="N001"/>strenge Aufrechthaltung der alten Paragraphe. Entschließt sich
-      <lb facs="#facs_2_region_1684594432221_2669_tl_2" n="N002"/>die Direction nicht rasch dazu, so dürfte es im Hofopernthea¬
-      <lb facs="#facs_2_region_1684594432221_2669_tl_3" n="N003"/>ter bald zugehen wie bei einer Benefice-Vorstellung in einem
+            <p prev="true">
+      <lb facs="#facs_2_region_1684594432221_2669_tl_1" n="N001"/>strenge Aufrechthaltung der alten Paragraphe. Entschließt sich
+      <lb facs="#facs_2_region_1684594432221_2669_tl_2" n="N002"/>die Direction nicht rasch dazu, so dürfte es im Hofopernthea
+      <lb facs="#facs_2_region_1684594432221_2669_tl_3" n="N003" break="no"/>ter bald zugehen wie bei einer Benefice-Vorstellung in einem
       <lb facs="#facs_2_region_1684594432221_2669_tl_4" n="N004"/>
-               <rs type="place">italienisch</rs>en Städtchen. —
+               <rs type="place">italienisch</rs>en Städtchen. —</p>
+               <p>
       <lb facs="#facs_2_region_1684594432221_2669_tl_5" n="N005"/>Einmal im Zuge der musikalischen pia desideria, haben
       <lb facs="#facs_2_region_1684594432221_2669_tl_6" n="N006"/>wir auch einen Wunsch bezüglich unserer Sommer-Liedertafeln
-      <lb facs="#facs_2_region_1684594432221_2669_tl_7" n="N007"/>auf dem Herzen. Fanden wir in der Oper das unzeitige Vor¬
-      <lb facs="#facs_2_region_1684594432221_2669_tl_8" n="N008"/>treten der Sänger störend, so fragen wir umgekehrt die Lie¬
-      <lb facs="#facs_2_region_1684594432221_2669_tl_9" n="N009"/>dertafeln, warum ihre Sänger sich gar so sehr verstecken? Und
+      <lb facs="#facs_2_region_1684594432221_2669_tl_7" n="N007"/>auf dem Herzen. Fanden wir in der Oper das unzeitige Vor
+      <lb facs="#facs_2_region_1684594432221_2669_tl_8" n="N008" break="no"/>treten der Sänger störend, so fragen wir umgekehrt die Lie
+      <lb facs="#facs_2_region_1684594432221_2669_tl_9" n="N009" break="no"/>dertafeln, warum ihre Sänger sich gar so sehr verstecken? Und
       <lb facs="#facs_2_region_1684594432221_2669_tl_10" n="N010"/>zwar hinter Militärbanden verstecken, welche den besten und
       <lb facs="#facs_2_region_1684594432221_2669_tl_11" n="N011"/>größten Theil des Abends mit ihren Productionen in Beschlag
-      <lb facs="#facs_2_region_1684594432221_2669_tl_12" n="N012"/>nehmen. Diese Potpourris, Polkas und Flügelhorn-Variatio¬
-      <lb facs="#facs_2_region_1684594432221_2669_tl_13" n="N013"/>nen mögen in ihrer Art noch so schätzbar sein, das Publicum,
+      <lb facs="#facs_2_region_1684594432221_2669_tl_12" n="N012"/>nehmen. Diese Potpourris, Polkas und Flügelhorn-Variatio
+      <lb facs="#facs_2_region_1684594432221_2669_tl_13" n="N013" break="no"/>nen mögen in ihrer Art noch so schätzbar sein, das Publicum,
       <lb facs="#facs_2_region_1684594432221_2669_tl_14" n="N014"/>welches eine Gesangsproduction besucht, will doch vor Allem
-      <lb facs="#facs_2_region_1684594432221_2669_tl_15" n="N015"/>singen hören. Da gab der <hi rendition="#em">Akademische Gesang¬</hi>
-               <lb facs="#facs_2_region_1684594432221_2669_tl_16" n="N016"/>
-               <hi rendition="#em">verein</hi> kürzlich im Volksgarten eine Liedertafel, welche
+      <lb facs="#facs_2_region_1684594432221_2669_tl_15" n="N015"/>singen hören. Da gab der <hi rendition="#em">Akademische Gesang
+      <lb facs="#facs_2_region_1684594432221_2669_tl_16" n="N016" break="no"/>verein</hi> kürzlich im Volksgarten eine Liedertafel, welche
       <lb facs="#facs_2_region_1684594432221_2669_tl_17" n="N017"/>durch den bewährten Ruf seiner Sänger und ein anziehendes
       <lb facs="#facs_2_region_1684594432221_2669_tl_18" n="N018"/>Programm viele Musikfreunde herbeizog. Von 6 oder 7 Uhr
       <lb facs="#facs_2_region_1684594432221_2669_tl_19" n="N019"/>bis 9 Uhr hörte man blos Militärmusik, und zwar — ein
@@ -947,33 +939,30 @@
       <lb facs="#facs_2_line_1710298991233_705" n="N021"/>10 Uhr hatte man genau drei Gesangsnummern gehört, dann
       <lb facs="#facs_2_region_1684594432221_2669_tl_22" n="N022"/>begann wieder das Walten der Armee. Es wird kühl und
       <lb facs="#facs_2_region_1684594432221_2669_tl_23" n="N023"/>dunkel, man bezwingt die Unbehaglichkeit, um doch etwas von
-      <lb facs="#facs_2_region_1684594432221_2669_tl_24" n="N024"/>den Novitäten zu hören. Wir freuen uns auf den „<rs type="bibl">Hut im</rs>
-               <lb facs="#facs_2_region_1684594432221_2669_tl_25" n="N025"/>
-               <rs type="bibl">Meere</rs>“, ein allerliebstes Gedicht von V. <hi rendition="#em">
-                  <rs type="person">Scheffel</rs>
-               </hi>, mit einer
+      <lb facs="#facs_2_region_1684594432221_2669_tl_24" n="N024"/>den Novitäten zu hören. Wir freuen uns auf den „<rs type="bibl">Hut im
+      <lb facs="#facs_2_region_1684594432221_2669_tl_25" n="N025"/>Meere</rs>“, ein allerliebstes Gedicht von V. <hi rendition="#em">
+                  <rs type="person">Scheffel</rs></hi>, mit einer
       <lb facs="#facs_2_region_1684594432221_2669_tl_26" n="N026"/>ebenso allerliebsten Musik von <hi rendition="#em">
-                  <rs type="person">Engelsberg</rs>
-               </hi>. Endlich wird
+                  <rs type="person">Engelsberg</rs></hi>. Endlich wird
       <lb facs="#facs_2_region_1684594432221_2669_tl_27" n="N027"/>der Chor angestimmt, aber es ist halb Zwölf geworden, das
       <lb facs="#facs_2_region_1684594432221_2669_tl_28" n="N028"/>Publicum in vollem Aufbruch begriffen und spurlos versinkt
       <lb facs="#facs_2_region_1684594432221_2669_tl_29" n="N029"/>der „<rs type="bibl">Hut</rs>“, der um eine oder zwei Stunden früher hoch wie
-      <lb facs="#facs_2_region_1684594432221_2669_tl_31" n="N030"/>auf einer Geßlerstange triumphirt hätte.*) Unser Vorschlag
+      <lb facs="#facs_2_region_1684594432221_2669_tl_31" n="N030"/>auf einer Geßlerstange triumphirt hätte.
+                     <note type="footnote" n="*)">
+                           <lb facs="#facs_2_line_1710298877332_633" n="N035"/>Die äußerst beifällige Aufnahme der Productionen nament
+                           <lb facs="#facs_2_line_1710298880421_636" n="N036" break="no"/>lich eines sinnigen Chores von <hi rendition="#em">
+                                 <rs type="person">Engelsberg</rs></hi>: „Es hat nicht sollen
+                           <lb facs="#facs_2_line_1710298884992_639" n="N037"/>sein“, und eines recht packenden vom Chormeister <hi rendition="#em">
+                                 <rs type="person">Eyrich</rs></hi>, „Ade“,
+                           <lb facs="#facs_2_line_1710298888070_642" n="N038"/>wurde bereits früher erwähnt.
+                     </note> Unser Vorschlag
       <lb facs="#facs_2_region_1684594432221_2669_tl_33" n="N031"/>geht dahin, bei solchen Liedertafeln die Militär-Capelle (aber
-      <lb facs="#facs_2_region_1684594432221_2669_tl_34" n="N032"/>nicht mehr als Eine) auf eine mäßige Mitwirkung zu be¬
-      <lb facs="#facs_2_region_1684594432221_2669_tl_35" n="N033"/>schränken, die Gesangs-Productionen aber früher und möglichst
-      <lb facs="#facs_2_region_1684594432221_2669_tl_36" n="N034"/>ununterbrochen zur Aufführung zu bringen. Für jenen Theil
-      <lb facs="#facs_2_line_1710298877332_633" n="N035"/>*) Die äußerst beifällige Aufnahme der Productionen nament¬
-      <lb facs="#facs_2_line_1710298880421_636" n="N036"/>lich eines sinnigen Chores von <hi rendition="#em">
-                  <rs type="person">Engelsberg</rs>
-               </hi>: „Es hat nicht sollen
-      <lb facs="#facs_2_line_1710298884992_639" n="N037"/>sein“, und eines recht packenden vom Chormeister <hi rendition="#em">
-                  <rs type="person">Eyrich</rs>
-               </hi>, „Ade“,
-      <lb facs="#facs_2_line_1710298888070_642" n="N038"/>wurde bereits früher erwähnt.</p>
+      <lb facs="#facs_2_region_1684594432221_2669_tl_34" n="N032"/>nicht mehr als Eine) auf eine mäßige Mitwirkung zu be
+      <lb facs="#facs_2_region_1684594432221_2669_tl_35" n="N033" break="no"/>schränken, die Gesangs-Productionen aber früher und möglichst
+      <lb facs="#facs_2_region_1684594432221_2669_tl_36" n="N034"/>ununterbrochen zur Aufführung zu bringen. Für jenen Theil</p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684594437881_2672_tl_1" n="N001"/>des Publicums, der noch bis Mitternacht im Garten zu sitzen
+            <p prev="true">
+      <lb facs="#facs_2_region_1684594437881_2672_tl_1" n="N001"/>des Publicums, der noch bis Mitternacht im Garten zu sitzen
       <lb facs="#facs_2_region_1684594437881_2672_tl_2" n="N002"/>wünscht, möge dann aus den Schallbechern der Tubas und
       <lb facs="#facs_2_region_1684594437881_2672_tl_3" n="N003"/>Bombardons der Polkasegen so reichlich quillen, als es die
       <lb facs="#facs_2_line_1710298920899_656" n="N004"/>Empfänglichkeit der Hörer und die Lunge der kriegerischen
