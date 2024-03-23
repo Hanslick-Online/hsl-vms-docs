@@ -109,7 +109,8 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2024-02-29">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-03-17">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change when="2024-03-18" who="ampfiel">header, Zeilenumbrüche, Absätze</change>
+            <change when="2024-03-18" who="ampfiel">header, Zeilenumbrüche, Absätze</change>
+            <change when="2024-03-21" who="ampfiel">ref rs place</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1064,7 +1065,7 @@
       <lb facs="#facs_1_region_1684596043456_3171_tl_4" n="N004"/>guten Namens vor: die Pianistin Fräulein <hi rendition="#em">
                   <rs type="person">Mehlig</rs></hi> aus
       <lb facs="#facs_1_region_1684596043456_3171_tl_5" n="N005"/>
-               <rs type="place">Stuttgart</rs> und die <rs type="place">hannover</rs>’sche Kammersängerin Fräulein
+               <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs> und die <rs type="place" ref="#hsl_place_id_25">hannover</rs>’sche Kammersängerin Fräulein
       <lb facs="#facs_1_region_1684596043456_3171_tl_6" n="N006"/><hi rendition="#em">
                   <rs type="person">Ubrich</rs></hi>. Fräulein Anna <hi rendition="#em">
                   <rs type="person">Mehlig</rs></hi> spielte 
@@ -1153,7 +1154,7 @@
       <lb facs="#facs_1_region_1684596046750_3174_tl_33" n="N035"/>als „unclassisch“ verketzerten Wunsch einen der strengsten Hü
       <lb facs="#facs_1_region_1684596046750_3174_tl_34" n="N036" break="no"/>ter der musikalischen Classicität vorführen? Es ist der treff
       <lb facs="#facs_1_line_1709201034929_52" n="N037" break="no"/>liche <hi rendition="#em">Moriz <rs type="person">Hauptmann</rs></hi> in 
-                  <rs type="place">Leipzig</rs>, der kurz vor seinem</p>
+                  <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>, der kurz vor seinem</p>
             <cb n="3"/>
             <p prev="true">
       <lb facs="#facs_1_region_1684596050357_3177_tl_1" n="N001"/>Tode Nachstehendes über die Gewandhaus-Concerte schrieb:
@@ -1204,8 +1205,8 @@
                   <rs type="person">Mozart</rs>’s</hi> Festoper: „Il re pastore“
       <lb facs="#facs_2_region_1684596060647_3183_tl_1" n="N002"/>eignete sich jedenfalls viel besser für die friedliche Politik der
       <lb facs="#facs_2_region_1684596060647_3183_tl_2" n="N003"/>
-               <rs type="place">hannover</rs>’schen Sängerin. Der neunzehnjährige <rs type="person">Mozart</rs> compo
-      <lb facs="#facs_2_region_1684596060647_3183_tl_3" n="N004" break="no"/>nirte dieses Festspiel bekanntlich für ein Hoffest in <rs type="place">Salzburg</rs>
+               <rs type="place" ref="#hsl_place_id_25">hannover</rs>’schen Sängerin. Der neunzehnjährige <rs type="person">Mozart</rs> compo
+      <lb facs="#facs_2_region_1684596060647_3183_tl_3" n="N004" break="no"/>nirte dieses Festspiel bekanntlich für ein Hoffest in <rs type="place" ref="#hsl_place_id_49">Salzburg</rs>
       <lb facs="#facs_2_region_1684596060647_3183_tl_4" n="N005"/>(<date when="1775">1775</date>), also zu einer Zeit und unter Verhältnissen, welche
       <lb facs="#facs_2_region_1684596060647_3183_tl_5" n="N006"/>das Geleistete relativ bedeutend erscheinen lassen. An und für
       <lb facs="#facs_2_region_1684596060647_3183_tl_6" n="N007"/>sich kann uns aber diese Mischung von physiognomieloser Idea
@@ -1264,13 +1265,13 @@
       <lb facs="#facs_2_region_1684596064146_3186_tl_4" n="N004" break="no"/>risten und der Tänzerin kein besonderes Vergnügen daraus er
       <lb facs="#facs_2_region_1684596064146_3186_tl_5" n="N005" break="no"/>blühte, so wollen wir diese Angelegenheit und die Luft im Hof
       <lb facs="#facs_2_region_1684596064146_3186_tl_6" n="N006" break="no"/>operntheater als „bereinigt“ ansehen. Ungleich mehr Anlaß hatte
-      <lb facs="#facs_2_region_1684596064146_3186_tl_7" n="N007"/>die Direction, die <rs type="place">preußisch</rs>e Hofopernsängerin Frau <hi rendition="#em">
+      <lb facs="#facs_2_region_1684596064146_3186_tl_7" n="N007"/>die Direction, die <rs type="place" ref="#hsl_place_id_46">preußisch</rs>e Hofopernsängerin Frau <hi rendition="#em">
                   <rs type="person">Blume</rs></hi>
       <lb facs="#facs_2_region_1684596064146_3186_tl_8" n="N008"/>zu einem kurzen Gastspiel zu laden. Diese Sängerin besitzt in
       <lb facs="#facs_2_region_1684596064146_3186_tl_9" n="N009"/>
-               <rs type="place">Berlin</rs> die ersten dramatischen Rollen und die Sympathien
+               <rs type="place" ref="#hsl_place_id_9">Berlin</rs> die ersten dramatischen Rollen und die Sympathien
       <lb facs="#facs_2_region_1684596064146_3186_tl_10" n="N010"/>des Publicums; man kann ihr Lob in den Aufsätzen der nam
-      <lb facs="#facs_2_region_1684596064146_3186_tl_11" n="N011" break="no"/>haftesten <rs type="place">Berlin</rs>er Kritiker lesen. In der That verdankt Frau
+      <lb facs="#facs_2_region_1684596064146_3186_tl_11" n="N011" break="no"/>haftesten <rs type="place" ref="#hsl_place_id_9">Berlin</rs>er Kritiker lesen. In der That verdankt Frau
       <lb facs="#facs_2_region_1684596064146_3186_tl_12" n="N012"/><hi rendition="#em">
                   <rs type="person">Blume</rs></hi> der Natur schöne Vorzüge: ein gefälliges Aeußere,
       <lb facs="#facs_2_line_1709201223218_178" n="N013"/>eine volle und starke Stimme, die nur bei größeren Anstren
@@ -1278,7 +1279,7 @@
       <lb facs="#facs_2_line_1709201206621_166" n="N015"/>ganz willig zeigt. Frau <rs type="person">Blume</rs> trägt mit Empfingung vor,
       <lb facs="#facs_2_region_1684596064146_3186_tl_15" n="N016"/>spielt gut und spricht mit wohlthuender Deutlichkeit ein wirkliches
       <lb facs="#facs_2_region_1684596064146_3186_tl_16" n="N017"/>
-               <rs type="place">Deutsch</rs>. Das Publicum erkannte beifällig die Vorzüge und das auf
+               <rs type="place" ref="#hsl_place_id_14">Deutsch</rs>. Das Publicum erkannte beifällig die Vorzüge und das auf
       <lb facs="#facs_2_region_1684596064146_3186_tl_17" n="N018" break="no"/>richtige, künstlerische Bestreben der Sängerin, ohne sich für eine ihrer
       <lb facs="#facs_2_region_1684596064146_3186_tl_18" n="N019"/>Rollen zu begeistern. Selbst wenn Frau <rs type="person">Blume</rs> ihr Bestes
       <lb facs="#facs_2_region_1684596064146_3186_tl_19" n="N020"/>gab, sie erreichte ihr Ziel immer nur beinahe. Die Haupt
@@ -1300,7 +1301,7 @@
       <lb facs="#facs_2_region_1684596064146_3186_tl_34" n="N035" break="no"/>chen. <hi rendition="#em">
                   <rs type="person">Pamina</rs>
                </hi> in der „<rs type="bibl">Zauberflöte</rs>“, an sich keine dankbare
-      <lb facs="#facs_2_line_1709201247830_197" n="N036"/>Rolle, war diejenige, mit welcher unser <rs type="place">Berlin</rs>er Gast den
+      <lb facs="#facs_2_line_1709201247830_197" n="N036"/>Rolle, war diejenige, mit welcher unser <rs type="place" ref="#hsl_place_id_9">Berlin</rs>er Gast den
       <lb facs="#facs_2_line_1709201250090_200" n="N037"/>einstimmigsten Beifall errang. Frau <hi rendition="#em">
                   <rs type="person">Blume</rs></hi> läßt eine ach</p>
             <cb n="6"/>
@@ -1314,9 +1315,9 @@
       <lb facs="#facs_2_region_1684596067767_3189_tl_6" n="N006" break="no"/>nützt, indem es uns gegen den Werth des Einheimischen ge
       <lb facs="#facs_2_line_1709201475140_292" n="N007" break="no"/>rechter macht.</p>
                <p>
-      <lb facs="#facs_2_region_1684596067767_3189_tl_7" n="N008"/>In den lustigen Theatern an der <rs type="place">Wien</rs> und an der
+      <lb facs="#facs_2_region_1684596067767_3189_tl_7" n="N008"/>In den lustigen Theatern an der <rs type="place" ref="#hsl_place_id_55">Wien</rs> und an der
       <lb facs="#facs_2_region_1684596067767_3189_tl_8" n="N009"/>
-               <rs type="place">Donau</rs> wird seit einiger Zeit das Operetten-Geschäft wieder
+               <rs type="place" ref="#hsl_place_id_243">Donau</rs> wird seit einiger Zeit das Operetten-Geschäft wieder
       <lb facs="#facs_2_region_1684596067767_3189_tl_9" n="N010"/>erfolgreich betrieben. Das Carltheater brachte eine einactige
       <lb facs="#facs_2_region_1684596067767_3189_tl_10" n="N011"/>Operette von <hi rendition="#em">
                   <rs type="person">Offenbach</rs></hi>: „<rs type="bibl">Urlaub nach Zapfenstreich</rs>“ („<rs type="bibl">La
@@ -1338,7 +1339,7 @@
       <lb facs="#facs_2_region_1684596067767_3189_tl_25" n="N025"/>entschädigen könnten — eine räthselhafte Acquisition. Heirr
       <lb facs="#facs_2_region_1684596067767_3189_tl_26" n="N026"/><hi rendition="#em">
                   <rs type="person">Matras</rs></hi>, so ergötzlich als Localkomiker, kann nur mit großer
-      <lb facs="#facs_2_region_1684596067767_3189_tl_27" n="N027"/>Gefahr in ein anderes Gebiet, namentlich das der <rs type="place">französisch</rs>en
+      <lb facs="#facs_2_region_1684596067767_3189_tl_27" n="N027"/>Gefahr in ein anderes Gebiet, namentlich das der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
       <lb facs="#facs_2_region_1684596067767_3189_tl_28" n="N028"/>Operette, übertragen werden. Ebensowenig paßt Herr <hi rendition="#em">
                   <rs type="person">Eppich</rs></hi>
       <lb facs="#facs_2_region_1684596067767_3189_tl_29" n="N029"/>für den galanten Gardisten <rs type="person">Pompon</rs>; der überlaute, gellende
@@ -1363,8 +1364,8 @@
       <lb facs="#facs_3_region_1684596082175_3195_tl_6" n="N006"/>der Wien mit dem <rs type="bibl">Pfeil im Auge</rs>“, einem erbärmlichen
       <lb facs="#facs_3_region_1684596082175_3195_tl_7" n="N007"/>Machwerk, an welches man die besten darstellenden Kräfte
       <lb facs="#facs_3_line_1709202122560_397" n="N008"/>nutzlos verschwendet hat. Diese musikalische Burleske, welche
-      <lb facs="#facs_3_region_1684596082175_3195_tl_9" n="N009"/>in <rs type="place">Paris</rs> das Publicum eines der untersten Boulevard-Theater
-      <lb facs="#facs_3_region_1684596082175_3195_tl_10" n="N010"/>(Folies dramatiques) amüsirt, wurde aus dem <rs type="place">Französisch</rs>en
+      <lb facs="#facs_3_region_1684596082175_3195_tl_9" n="N009"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs> das Publicum eines der untersten Boulevard-Theater
+      <lb facs="#facs_3_region_1684596082175_3195_tl_10" n="N010"/>(Folies dramatiques) amüsirt, wurde aus dem <rs type="place" ref="#hsl_place_id_21">Französisch</rs>en
       <lb facs="#facs_3_region_1684596082175_3195_tl_11" n="N011"/>des <hi rendition="#em">
                   <rs type="person">Hervé</rs></hi> nicht blos übersetzt, sondern mit einer Menge
       <lb facs="#facs_3_region_1684596082175_3195_tl_12" n="N012"/>witzloser Scenen und Dialoge (natürlich mit fortwährendem
@@ -1406,9 +1407,9 @@
             <p prev="true">
       <lb facs="#facs_3_region_1684596085978_3198_tl_1" n="N001"/>in der „<rs type="bibl">Frau Meisterin</rs>“ überall ins Zeug und schlägt sich
       <lb facs="#facs_3_region_1684596085978_3198_tl_2" n="N002"/>einen Effect mit dem anderen todt! Nicht zwei Musikstücke
-      <lb facs="#facs_3_region_1684596085978_3198_tl_3" n="N003"/>nacheinander sind im selben Style gehalten: <rs type="place">Wien</rs>er Schnader
+      <lb facs="#facs_3_region_1684596085978_3198_tl_3" n="N003"/>nacheinander sind im selben Style gehalten: <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Schnader
       <lb facs="#facs_3_region_1684596085978_3198_tl_4" n="N004" break="no"/>hüpfel, sentimentale Romanzen, <rs type="person">Offenbach</rs>’sche Quadrillen-
-      <lb facs="#facs_3_region_1684596085978_3198_tl_5" n="N005"/>Motive, <rs type="place">deutsch</rs>e Liedertafelklänge, Coloratur-Arien, endlich ein
+      <lb facs="#facs_3_region_1684596085978_3198_tl_5" n="N005"/>Motive, <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Liedertafelklänge, Coloratur-Arien, endlich ein
       <lb facs="#facs_3_region_1684596085978_3198_tl_6" n="N006"/>von Domestiken in weißen Küchenschürzen gesungenes heroi
       <lb facs="#facs_3_region_1684596085978_3198_tl_7" n="N007" break="no"/>sches Finale, gegen welches die Waffenweihe in den „<rs type="bibl">Huge
       <lb facs="#facs_3_line_1709202126244_400" n="N008" break="no"/>notten</rs>“ ein harmloser Ländler ist! Schade um das Talent,
@@ -1430,7 +1431,7 @@
       <lb facs="#facs_3_region_1684596085978_3198_tl_22" n="N023"/>Nun waren rasch ein halbes oder ein ganzes Dutzend Stücke
       <lb facs="#facs_3_region_1684596085978_3198_tl_23" n="N024"/>zusammengeschustert, welche auf diese Vielseitigkeit des Aus
       <lb facs="#facs_3_region_1684596085978_3198_tl_24" n="N025" break="no"/>druckes speculirten und Fräulein <rs type="person">Gallmeyer</rs> unmittelbar nach
-      <lb facs="#facs_3_region_1684596085978_3198_tl_25" n="N026"/>einander tragisch und komisch, hoch<rs type="place">deutsch</rs> und lerchenfelderisch,
+      <lb facs="#facs_3_region_1684596085978_3198_tl_25" n="N026"/>einander tragisch und komisch, hoch<rs type="place" ref="#hsl_place_id_14">deutsch</rs> und lerchenfelderisch,
       <lb facs="#facs_3_region_1684596085978_3198_tl_26" n="N027"/>frivol und pathetisch sein ließen — Alles ohne vernünftigen
       <lb facs="#facs_3_region_1684596085978_3198_tl_27" n="N028"/>Sinn und Zusammenhang. Da man dies reiche Talent nicht
       <lb facs="#facs_3_region_1684596085978_3198_tl_28" n="N029"/>geistig zu verwerthen versteht, spannt man es einfach auf die

@@ -107,6 +107,8 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2024-02-25">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-03-17">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2024-03-18" who="ampfiel">header, Zeilenumbrüche, Absätze</change>
+         <change when="2024-03-21" who="ampfiel">ref rs place</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -976,10 +978,10 @@
       <lb facs="#facs_1_region_1684596609024_3393_tl_3" n="N003"/>Ed. H. Fräulein Philippine v. <hi rendition="#em">
                   <rs type="person">Edelsberg</rs></hi>, königlich
       <lb facs="#facs_1_region_1684596609024_3393_tl_4" n="N004"/>
-               <rs type="place">preußisch</rs>e Hofopernsängerin, hat in vier Opern: „<rs type="bibl">Faust</rs>“,
+               <rs type="place" ref="#hsl_place_id_46">preußisch</rs>e Hofopernsängerin, hat in vier Opern: „<rs type="bibl">Faust</rs>“,
       <lb facs="#facs_1_region_1684596609024_3393_tl_5" n="N005"/>„<rs type="bibl">Die Afrikanerin</rs>“, „<rs type="bibl">Der Prophet</rs>“ und „<rs type="bibl">Martha</rs>“, hier gastirt.
       <lb facs="#facs_1_region_1684596609024_3393_tl_6" n="N006"/>Die hervorragende Stellung, welche diese Sängerin zuletzt an
-      <lb facs="#facs_1_region_1684596609024_3393_tl_7" n="N007"/>den Hofbühnen zu <rs type="place">München</rs> und <rs type="place">Berlin</rs> einnahm, mußte das
+      <lb facs="#facs_1_region_1684596609024_3393_tl_7" n="N007"/>den Hofbühnen zu <rs type="place" ref="#hsl_place_id_39">München</rs> und <rs type="place" ref="#hsl_place_id_9">Berlin</rs> einnahm, mußte das
       <lb facs="#facs_1_line_1708617838350_57" n="N008"/>Publicum zu bedeutenden Ansprüchen berechtigen, die Kritik
       <lb facs="#facs_1_region_1684596609024_3393_tl_9" n="N009"/>dazu verpflichten. Bei ihrem ersten Auftreten in <hi rendition="#em">
                   <rs type="person">Gounod</rs>’s</hi>
@@ -1049,7 +1051,7 @@
       <lb facs="#facs_1_region_1684596613108_3396_tl_24" n="N026" break="no"/>gerin nicht zureichend und der Erfolg nicht größer als jener
       <lb facs="#facs_1_region_1684596613108_3396_tl_25" n="N027"/>der ersten Gastrolle gewesen. In der darauffolgenden Auf
       <lb facs="#facs_1_region_1684596613108_3396_tl_26" n="N028" break="no"/>führung der „<rs type="bibl">Afrikanerin</rs>“ feierte den eigentlichen Triumph eine
-      <lb facs="#facs_1_region_1684596613108_3396_tl_27" n="N029"/>schlanke, schwarzäugige junge Frau, welche seit Kurzem in <rs type="place">Brünn</rs>
+      <lb facs="#facs_1_region_1684596613108_3396_tl_27" n="N029"/>schlanke, schwarzäugige junge Frau, welche seit Kurzem in <rs type="place" ref="#hsl_place_id_228">Brünn</rs>
       <lb facs="#facs_1_region_1684596613108_3396_tl_28" n="N030"/>(also thatsächlich in der Wolle) sitzt und vordem unter dem Namen
       <lb facs="#facs_1_region_1684596613108_3396_tl_29" n="N031"/>Caroline <hi rendition="#em">
                   <rs type="person">Bettelheim</rs></hi> über <hi rendition="#em">
@@ -1067,7 +1069,7 @@
       <lb facs="#facs_1_region_1684596613108_3396_tl_40" n="N042" break="no"/>sos zu singen hat, gehört zu <rs type="person">Meyerbeer</rs>’s glücklichsten Inspi
       <lb facs="#facs_1_region_1684596613108_3396_tl_41" n="N043" break="no"/>rationen, bis zu dem Duett-Allegro in Fis-dur, welches, be
       <lb facs="#facs_1_region_1684596613108_3396_tl_42" n="N044" break="no"/>stimmt, den Gipfel des ganzen Actes zu bilden, leider nur
-      <lb facs="#facs_1_line_1708617954262_129" n="N045"/>eine Banalität im schlimmsten <rs type="place">italienisch</rs>en Geschmacke gewor</p>
+      <lb facs="#facs_1_line_1708617954262_129" n="N045"/>eine Banalität im schlimmsten <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Geschmacke gewor</p>
             <cb n="3"/>
             <p prev="true">
       <lb facs="#facs_1_line_1708617991124_146" n="N001" break="no"/>den ist. Fräulein <hi rendition="#em">
@@ -1123,7 +1125,7 @@
       <lb facs="#facs_1_region_1684596617341_3399_tl_36" n="N038" break="no"/>gleich besser dafür.</p>
                <p>
       <lb facs="#facs_1_region_1684596617341_3399_tl_37" n="N039"/><hi rendition="#em">Joseph <rs type="person">Joachim</rs>
-               </hi> hat <rs type="place">Wien</rs> verlassen. Er nahm Ab
+               </hi> hat <rs type="place" ref="#hsl_place_id_55">Wien</rs> verlassen. Er nahm Ab
       <lb facs="#facs_1_region_1684596617341_3399_tl_38" n="N040" break="no"/>schied an dem kältesten Tage dieses Winters; groß war sein
       <lb facs="#facs_1_region_1684596617341_3399_tl_39" n="N041"/>Spiel und groß die Kälte im ungeheizten Redoutensaale. Ihm
       <lb facs="#facs_1_region_1684596617341_3399_tl_40" n="N042"/>ist das Wunder gelungen, Frierende warm zuspielen und Zähne
@@ -1190,7 +1192,7 @@
       <lb facs="#facs_2_region_1684596631038_3408_tl_2" n="N002"/>als schon ein neuer Virtuose, der Pianist <hi rendition="#em">
                   <rs type="person">Zarzycki</rs></hi> aus
       <lb facs="#facs_2_line_1708618142580_301" n="N003"/>
-               <rs type="place">Warschau</rs>, angerückt kam. In <rs type="place">Paris</rs> und <rs type="place">London</rs> gut ange
+               <rs type="place" ref="#hsl_place_id_440">Warschau</rs>, angerückt kam. In <rs type="place" ref="#hsl_place_id_44">Paris</rs> und <rs type="place" ref="#hsl_place_id_34">London</rs> gut ange
       <lb facs="#facs_2_region_1684596631038_3408_tl_3" n="N004" break="no"/>schrieben, hätte der junge Pole zu günstigerem Zeitpunkte viel
       <lb facs="#facs_2_region_1684596631038_3408_tl_4" n="N005" break="no"/>leicht auch hier mehr durchgegriffen, als es jetzt der Fall war.
       <lb facs="#facs_2_region_1684596631038_3408_tl_5" n="N006"/>Kann man es aber unserer Zeit und unserem Publicum ver
