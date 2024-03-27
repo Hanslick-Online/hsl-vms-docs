@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 10272. Wien, Mittwoch, den 29. März 1893</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 10272. Wien, Mittwoch, den 29. März 1893</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1893-03-29">29.03.1893</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2024-02-22">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2024-03-06">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1282,27 +1281,29 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684862119727_103_tl_1" n="N001"/><head type="h1">Aus meinem Leben.</head>
+            <lb facs="#facs_1_region_1684862119727_103_tl_2" n="N002"/><head type="h2">Von Eduard <rs type="person" ref="#hsl_person_id_1">Hanslick</rs>.</head>
             <p>
-               <lb facs="#facs_1_line_1706602191370_1394" n="N001"/>Nr. 10272. Wien, Mittwoch, den 29. März 1893</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684862119727_103_tl_1" n="N001"/>Aus meinem Leben.
-      <lb facs="#facs_1_region_1684862119727_103_tl_2" n="N002"/>Von Eduard <rs type="person">Hanslick</rs>.
-      <lb facs="#facs_1_region_1684862119727_103_tl_3" n="N003"/>(October <date month="0" day="0" year="0">1848</date>.)*)
-      <lb facs="#facs_1_region_1684862119727_103_tl_4" n="N004"/>In <rs type="place">Wien</rs> wurde es allmälig immer schwüler; immer
+      <lb facs="#facs_1_region_1684862119727_103_tl_3" n="N003"/>(October <date>1848</date>.)
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_line_1706680717752_50" n="N035"/>Mit freundlicher Zustimmung J. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_238">Rodenberg</rs>’s</hi> entnehmen
+            <lb facs="#facs_1_line_1706680721145_53" n="N036"/>wir obiges Fragment dem (für das Aprilheft der „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1415">Deutschen
+            <lb facs="#facs_1_line_1706680723770_56" n="N037"/>Rundschau</rs></hi>“ bestimmten) zweiten Buche von <rs type="person" ref="#hsl_person_id_1">Hanslick</rs>’s <rs type="bibl" ref="#hsl_work_id_2182">Memoiren</rs>.
+            <lb facs="#facs_1_line_1706680725833_59" n="N038"/><hi rendition="#em">Die Redaction</hi>.
+            </note>
+      <lb facs="#facs_1_region_1684862119727_103_tl_4" n="N004"/>In <rs type="place" ref="#hsl_place_id_55">Wien</rs> wurde es allmälig immer schwüler; immer
       <lb facs="#facs_1_region_1684862119727_103_tl_5" n="N005"/>drohender das Wetterleuchten der politischen Atmosphäre.
       <lb facs="#facs_1_region_1684862119727_103_tl_6" n="N006"/>Nach dem kindischen Barricadenbau vom 26. Mai mußte
       <lb facs="#facs_1_line_1706680748689_65" n="N007"/>jeder Unbefangene einsehen, daß wir auf einer schiefen Ebene
       <lb facs="#facs_1_line_1706680766537_71" n="N008"/>herabrollten. Und wir rollten immer schneller und schneller
-      <lb facs="#facs_1_line_1706680788833_81" n="N009"/>bis zu dem grausigen 6. October, dem Tage der Ermor¬
-      <lb facs="#facs_1_region_1684862119727_103_tl_7" n="N010"/>dung des Kriegsministers <rs type="person">Latour</rs> durch einen wüthenden
+      <lb facs="#facs_1_line_1706680788833_81" n="N009"/>bis zu dem grausigen 6. October, dem Tage der Ermor
+      <lb facs="#facs_1_region_1684862119727_103_tl_7" n="N010" break="no"/>dung des Kriegsministers <rs type="person" ref="#hsl_person_id_4550">Latour</rs> durch einen wüthenden
       <lb facs="#facs_1_region_1684862119727_103_tl_8" n="N011"/>Pöbelhaufen. Auf dem Wege nach meiner Wohnung war
       <lb facs="#facs_1_line_1706680675457_5" n="N012"/>ich unwillkürlich von einer fluthenden Menschenmenge mit
       <lb facs="#facs_1_line_1706680678769_10" n="N013"/>fortgedrängt worden auf den „Hof“. Da sah ich die Leiche
-      <lb facs="#facs_1_region_1684862119727_103_tl_13" n="N014"/>
-               <rs type="person">Latour</rs>'s, blos mit einem Leintuche bekleidet, an einem
-      <lb facs="#facs_1_region_1684862119727_103_tl_14" n="N015"/>Laternenpfahle aufgehenkt, vor der Hauptwache des Kriegs¬
-      <lb facs="#facs_1_line_1706680813697_87" n="N016"/>ministeriums, wo unbegreiflicherweise der Officier mit seiner
+      <lb facs="#facs_1_region_1684862119727_103_tl_13" n="N014"/><rs type="person" ref="#hsl_person_id_4550">Latour</rs>’s, blos mit einem Leintuche bekleidet, an einem
+      <lb facs="#facs_1_region_1684862119727_103_tl_14" n="N015"/>Laternenpfahle aufgehenkt, vor der Hauptwache des Kriegs
+      <lb facs="#facs_1_line_1706680813697_87" n="N016" break="no"/>ministeriums, wo unbegreiflicherweise der Officier mit seiner
       <lb facs="#facs_1_line_1706680835681_96" n="N017"/>Compagnie unthätig zusah. Der Pöbel hatte die Gasflammen
       <lb facs="#facs_1_region_1684862119727_103_tl_15" n="N018"/>über dem Haupte des Ermordeten angezündet und schrie
       <lb facs="#facs_1_region_1684862119727_103_tl_16" n="N019"/>und johlte um die Leiche herum, setzte sie auch zeitweilig
@@ -1310,182 +1311,156 @@
       <lb facs="#facs_1_region_1684862119727_103_tl_18" n="N021"/>mich, im Innersten schauernd, aus der Menge heraus, welche
       <lb facs="#facs_1_region_1684862119727_103_tl_19" n="N022"/>den ganzen Platz anfüllte, und rannte fast bewußtlos nach
       <lb facs="#facs_1_region_1684862119727_103_tl_20" n="N023"/>Hause. Da zündete ich meine Lampe an und schlug einen Band
-      <lb facs="#facs_1_region_1684862119727_103_tl_21" n="N024"/>
-               <rs type="person">Goethe</rs> auf, um mich rein zu waschen von dem Gesehenen.
-      <lb facs="#facs_1_region_1684862119727_103_tl_22" n="N025"/>Am nächsten Morgen nahm ich in meinem gewöhn¬
-      <lb facs="#facs_1_region_1684862119727_103_tl_23" n="N026"/>lichen Kaffeehause eine Zeitung zur Hand; da war der
-      <lb facs="#facs_1_region_1684862119727_103_tl_24" n="N027"/>Mord <rs type="person">Latour</rs>'s als eine Heldenthat des Volkes gepriesen.
+      <lb facs="#facs_1_region_1684862119727_103_tl_21" n="N024"/><rs type="person" ref="#hsl_person_id_100">Goethe</rs> auf, um mich rein zu waschen von dem Gesehenen.
+            </p><p>
+      <lb facs="#facs_1_region_1684862119727_103_tl_22" n="N025"/>Am nächsten Morgen nahm ich in meinem gewöhn
+      <lb facs="#facs_1_region_1684862119727_103_tl_23" n="N026" break="no"/>lichen Kaffeehause eine Zeitung zur Hand; da war der
+      <lb facs="#facs_1_region_1684862119727_103_tl_24" n="N027"/>Mord <rs type="person" ref="#hsl_person_id_4550">Latour</rs>’s als eine Heldenthat des Volkes gepriesen.
       <lb facs="#facs_1_region_1684862119727_103_tl_25" n="N028"/>Ich konnte einen Ausruf des Abscheus nicht unterdrücken.
       <lb facs="#facs_1_region_1684862119727_103_tl_26" n="N029"/>Da fuhr mich eine Stimme vom Nebentische höhnisch an:
-      <lb facs="#facs_1_line_1706680685954_15" n="N030"/>„Na, ist vielleicht schad' um ihn? Ist Ihnen vielleicht gar
+      <lb facs="#facs_1_line_1706680685954_15" n="N030"/>„Na, ist vielleicht schad’ um ihn? Ist Ihnen vielleicht gar
       <lb facs="#facs_1_line_1706680691658_20" n="N031"/>leid um ihn?“ — „Ja,“ antwortete ich kurz und ging, um
       <lb facs="#facs_1_line_1706680698361_25" n="N032"/>jeder weiteren Replik auszuweichen. Böse Worte folgten
       <lb facs="#facs_1_line_1706680703729_30" n="N033"/>mir. Mich entsetzte diese moralische Verwilderung des sonst
-      <lb facs="#facs_1_region_1684862119727_103_tl_35" n="N034"/>so gutmüthigen <rs type="place">Wien</rs>er Volkes. Die sittliche Rohheit, die
-      <lb facs="#facs_1_line_1706680717752_50" n="N035"/>*) Mit freundlicher Zustimmung J. <hi rendition="#em">
-                  <rs type="person">Rodenberg</rs>'s</hi> entnehmen
-      <lb facs="#facs_1_line_1706680721145_53" n="N036"/>wir obiges Fragment dem (für das Aprilheft der „<hi rendition="#em">
-                  <rs type="bibl">Deutschen</rs>
-               </hi>
-               <lb facs="#facs_1_line_1706680723770_56" n="N037"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Rundschau</rs>
-               </hi>“ bestimmten) zweiten Buche von <rs type="person">Hanslick</rs>'s <rs type="bibl">Memoiren</rs>.
-      <lb facs="#facs_1_line_1706680725833_59" n="N038"/>
-               <hi rendition="#em">Die Redaction</hi>.</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1706680891042_108" n="N001"/>sich in den Urtheilen der revolutionären Blätter und des
+      <lb facs="#facs_1_region_1684862119727_103_tl_35" n="N034"/>so gutmüthigen <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Volkes. Die sittliche Rohheit, die<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1706680891042_108" n="N001"/>sich in den Urtheilen der revolutionären Blätter und des
       <lb facs="#facs_1_line_1706680910546_113" n="N002"/>aufgehetzten Volkes aussprach, schien mir nicht viel besser,
       <lb facs="#facs_1_region_1684862123090_106_tl_1" n="N003"/>als jene gräßliche Unthat selbst.
+            </p><p>
       <lb facs="#facs_1_region_1684862123090_106_tl_2" n="N004"/>Ich suchte mich wieder in mein Studium zu vertiefen,
-      <lb facs="#facs_1_region_1684862123090_106_tl_3" n="N005"/>aber es war kaum möglich, der zerstreuenden und auf¬
-      <lb facs="#facs_1_region_1684862123090_106_tl_4" n="N006"/>regenden Gewalt des politischen Sturmwindes zu entgehen.
+      <lb facs="#facs_1_region_1684862123090_106_tl_3" n="N005"/>aber es war kaum möglich, der zerstreuenden und auf
+      <lb facs="#facs_1_region_1684862123090_106_tl_4" n="N006" break="no"/>regenden Gewalt des politischen Sturmwindes zu entgehen.
       <lb facs="#facs_1_region_1684862123090_106_tl_5" n="N007"/>Meine Verwandten und fast alle Beamten hatten längst
-      <lb facs="#facs_1_region_1684862123090_106_tl_6" n="N008"/>
-               <rs type="place">Wien</rs> verlassen. Ich pflegte Abends, im September und
-      <lb facs="#facs_1_region_1684862123090_106_tl_7" n="N009"/>October, wo die Sehnsucht nach einer freundschaftlichen An¬
-      <lb facs="#facs_1_region_1684862123090_106_tl_8" n="N010"/>sprache und einer Erinnerung an Kunst und Wissenschaft
+      <lb facs="#facs_1_region_1684862123090_106_tl_6" n="N008"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> verlassen. Ich pflegte Abends, im September und
+      <lb facs="#facs_1_region_1684862123090_106_tl_7" n="N009"/>October, wo die Sehnsucht nach einer freundschaftlichen An
+      <lb facs="#facs_1_region_1684862123090_106_tl_8" n="N010" break="no"/>sprache und einer Erinnerung an Kunst und Wissenschaft
       <lb facs="#facs_1_region_1684862123090_106_tl_9" n="N011"/>fast brennend geworden, in einer kleinen Weinstube in der
-      <lb facs="#facs_1_region_1684862123090_106_tl_10" n="N012"/>Bäckerstraße mit den Componisten <hi rendition="#em">
-                  <rs type="person">Nottebohm</rs>
-               </hi> und
-      <lb facs="#facs_1_region_1684862123090_106_tl_11" n="N013"/>Franz <hi rendition="#em">
-                  <rs type="person">Jüllich</rs>
-               </hi>, dem Musikschriftsteller Graf <hi rendition="#em">
-                  <rs type="person">Laurencin</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684862123090_106_tl_12" n="N014"/>und einem in <rs type="place">skandinavisch</rs>er Literatur thätigen Beamten,
-      <lb facs="#facs_1_region_1684862123090_106_tl_13" n="N015"/>Karl <hi rendition="#em">
-                  <rs type="person">Oberleithner</rs>
-               </hi>, mich zusammenzufinden. Diese
-      <lb facs="#facs_1_region_1684862123090_106_tl_14" n="N016"/>Weinstube, in welcher wir uns meist ganz ungestört be¬
-      <lb facs="#facs_1_region_1684862123090_106_tl_15" n="N017"/>fanden, hatte <rs type="person">Nottebohm</rs> entdeckt, der Kenner und Schätzer
+      <lb facs="#facs_1_region_1684862123090_106_tl_10" n="N012"/>Bäckerstraße mit den Componisten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_365">Nottebohm</rs></hi> und
+      <lb facs="#facs_1_region_1684862123090_106_tl_11" n="N013"/>Franz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4547">Jüllich</rs></hi>, dem Musikschriftsteller Graf <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3613">Laurencin</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684862123090_106_tl_12" n="N014"/>und einem in <rs type="place" ref="#hsl_place_id_216">skandinavisch</rs>er Literatur thätigen Beamten,
+      <lb facs="#facs_1_region_1684862123090_106_tl_13" n="N015"/>Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4565">Oberleithner</rs></hi>, mich zusammenzufinden. Diese
+      <lb facs="#facs_1_region_1684862123090_106_tl_14" n="N016"/>Weinstube, in welcher wir uns meist ganz ungestört be
+      <lb facs="#facs_1_region_1684862123090_106_tl_15" n="N017" break="no"/>fanden, hatte <rs type="person" ref="#hsl_person_id_365">Nottebohm</rs> entdeckt, der Kenner und Schätzer
       <lb facs="#facs_1_region_1684862123090_106_tl_16" n="N018"/>eines „schönen Weines“. Wir Anderen waren Laien in diesem
-      <lb facs="#facs_1_region_1684862123090_106_tl_17" n="N019"/>Fache; insbesondere <rs type="person">Laurencin</rs> und ich bewiesen es, von
-      <lb facs="#facs_1_region_1684862123090_106_tl_18" n="N020"/>
-               <rs type="person">Nottebohm</rs> verspottet, indem wir nur ein Gläschen süßen
+      <lb facs="#facs_1_region_1684862123090_106_tl_17" n="N019"/>Fache; insbesondere <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> und ich bewiesen es, von
+      <lb facs="#facs_1_region_1684862123090_106_tl_18" n="N020"/><rs type="person" ref="#hsl_person_id_365">Nottebohm</rs> verspottet, indem wir nur ein Gläschen süßen
       <lb facs="#facs_1_region_1684862123090_106_tl_19" n="N021"/>Tokaiers oder Rusters tranken. Einige Schnitten Wurst
       <lb facs="#facs_1_region_1684862123090_106_tl_20" n="N022"/>dazu, das war das ganze Gelage.
-      <lb facs="#facs_1_region_1684862123090_106_tl_21" n="N023"/>Gustav <rs type="person">Nottebohm</rs>, ein Westfale und Protestant, der als
-      <lb facs="#facs_1_line_1706680937253_120" n="N024"/>angehender Componist sich noch der Unterweisung und Auf¬
-      <lb facs="#facs_1_region_1684862123090_106_tl_22" n="N025"/>munterung <rs type="person">Mendelssohn</rs>'s zu erfreuen gehabt, war ein tüchtig
+            </p><p>
+      <lb facs="#facs_1_region_1684862123090_106_tl_21" n="N023"/>Gustav <rs type="person" ref="#hsl_person_id_365">Nottebohm</rs>, ein Westfale und Protestant, der als
+      <lb facs="#facs_1_line_1706680937253_120" n="N024"/>angehender Componist sich noch der Unterweisung und Auf
+      <lb facs="#facs_1_region_1684862123090_106_tl_22" n="N025" break="no"/>munterung <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s zu erfreuen gehabt, war ein tüchtig
       <lb facs="#facs_1_region_1684862123090_106_tl_23" n="N026"/>geschulter Musiker. Sein feines, etwas anlehnendes Talent
-      <lb facs="#facs_1_region_1684862123090_106_tl_24" n="N027"/>hat er in einigen Clavierstücken in gewinnendster Weise be¬
-      <lb facs="#facs_1_region_1684862123090_106_tl_25" n="N028"/>wiesen, aber nicht lange cultivirt. Er wendete sich mit Vor¬
-      <lb facs="#facs_1_region_1684862123090_106_tl_26" n="N029"/>liebe bald der theoretischen und geschichtlichen Seite seiner
+      <lb facs="#facs_1_region_1684862123090_106_tl_24" n="N027"/>hat er in einigen Clavierstücken in gewinnendster Weise be
+      <lb facs="#facs_1_region_1684862123090_106_tl_25" n="N028" break="no"/>wiesen, aber nicht lange cultivirt. Er wendete sich mit Vor
+      <lb facs="#facs_1_region_1684862123090_106_tl_26" n="N029" break="no"/>liebe bald der theoretischen und geschichtlichen Seite seiner
       <lb facs="#facs_1_line_1706680956071_126" n="N030"/>Kunst zu und genoß als Lehrer der Composition, wie als
       <lb facs="#facs_1_region_1684862123090_106_tl_27" n="N031"/>musikalischer Forscher bekanntlich großes Ansehen. Seine
-      <lb facs="#facs_1_region_1684862123090_106_tl_28" n="N032"/>Bücher „<rs type="bibl">Beethoviana</rs>“, „<rs type="bibl">Mozartiana</rs>“, seine thematischen
-      <lb facs="#facs_1_region_1684862123090_106_tl_29" n="N033"/>
-               <rs type="bibl">Kataloge</rs> der <rs type="person">Beethoven</rs>'schen und <rs type="person">Schubert</rs>'schen Werke sind
+      <lb facs="#facs_1_region_1684862123090_106_tl_28" n="N032"/>Bücher „<rs type="bibl" ref="#hsl_work_id_2869 #hsl_work_id_2871">Beethoviana</rs>“, „<rs type="bibl" ref="#hsl_work_id_2870">Mozartiana</rs>“, seine thematischen
+      <lb facs="#facs_1_region_1684862123090_106_tl_29" n="N033"/><rs type="bibl" ref="#hsl_work_id_2560 #hsl_work_id_1398">Kataloge</rs> der <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’schen und <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’schen Werke sind
       <lb facs="#facs_1_region_1684862123090_106_tl_30" n="N034"/>Muster einer gewissenhaften, reinlichen Arbeit. In unserem
-      <lb facs="#facs_1_region_1684862123090_106_tl_31" n="N035"/>kleinen Kreise war er der Aelteste und übte eine gewisse Auto¬
-      <lb facs="#facs_1_region_1684862123090_106_tl_32" n="N036"/>rität. Er war ein spröder Hagestolz und Sonderling. Unter
+      <lb facs="#facs_1_region_1684862123090_106_tl_31" n="N035"/>kleinen Kreise war er der Aelteste und übte eine gewisse Auto
+      <lb facs="#facs_1_region_1684862123090_106_tl_32" n="N036" break="no"/>rität. Er war ein spröder Hagestolz und Sonderling. Unter
       <lb facs="#facs_1_region_1684862123090_106_tl_33" n="N037"/>einer außerordentlich breiten, zurückfliegenden Stirne blitzten
-      <lb facs="#facs_1_region_1684862123090_106_tl_34" n="N038"/>zwei giftig blaue Aeuglein hervor, welche neben der rothen
-      <lb facs="#facs_1_region_1684862123090_106_tl_35" n="N039"/>Nase und dem röthlichen Bart noch greller schienen. Er
-      <lb facs="#facs_1_region_1684862123090_106_tl_36" n="N040"/>hatte keine gesellschaftlichen „Manieren“, eckige Bewegungen,
-      <lb facs="#facs_1_region_1684862123090_106_tl_37" n="N041"/>eine scharf abgehackte, in kurzen Sätzen springende Rede¬</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684862126513_109_tl_1" n="N001"/>weise. Ein durchaus ehrenwerther, selbstständiger, in seiner
-      <lb facs="#facs_1_region_1684862126513_109_tl_2" n="N002"/>Lebensführung anspruchsloser Mann, war er doch keines¬
-      <lb facs="#facs_1_region_1684862126513_109_tl_3" n="N003"/>wegs ein liebenswürdiger oder bequemer Gesellschafter. Aber
+      <lb facs="#facs_1_region_1684862123090_106_tl_34" n="N038"/>zwei giftienen. Er
+      <lb facs="#facs_1_region_1684862123090_106_tl_36" n="N040"/>hatte keine gesellschaftlichen „Manieren“, eckige Bewegungen,ig blaue Aeuglein hervor, welche neben der rothen
+      <lb facs="#facs_1_region_1684862123090_106_tl_35" n="N039"/>Nase und dem röthlichen Bart noch greller sch
+      <lb facs="#facs_1_region_1684862123090_106_tl_37" n="N041"/>eine scharf abgehackte, in kurzen Sätzen springende Rede</p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684862126513_109_tl_1" n="N001" break="no"/>weise. Ein durchaus ehrenwerther, selbstständiger, in seiner
+      <lb facs="#facs_1_region_1684862126513_109_tl_2" n="N002"/>Lebensführung anspruchsloser Mann, war er doch keines
+      <lb facs="#facs_1_region_1684862126513_109_tl_3" n="N003" break="no"/>wegs ein liebenswürdiger oder bequemer Gesellschafter. Aber
       <lb facs="#facs_1_region_1684862126513_109_tl_4" n="N004"/>ich hielt mich gern zu ihm, da mir der Verkehr mit einem
       <lb facs="#facs_1_region_1684862126513_109_tl_5" n="N005"/>tüchtigen, praktischen Musiker, der mehr Bildung besaß als
-      <lb facs="#facs_1_region_1684862126513_109_tl_6" n="N006"/>die meisten seiner <rs type="place">Wien</rs>er Collegen, werthvoll war, und seine
-      <lb facs="#facs_1_region_1684862126513_109_tl_7" n="N007"/>warme Verehrung für <rs type="person">Mendelssohn</rs> und <rs type="person">Schumann</rs>, sowie
-      <lb facs="#facs_1_region_1684862126513_109_tl_8" n="N008"/>sein Widerwille gegen <rs type="person">Liszt</rs>'s Compositionen mich sympathisch
+      <lb facs="#facs_1_region_1684862126513_109_tl_6" n="N006"/>die meisten seiner <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Collegen, werthvoll war, und seine
+      <lb facs="#facs_1_region_1684862126513_109_tl_7" n="N007"/>warme Verehrung für <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> und <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, sowie
+      <lb facs="#facs_1_region_1684862126513_109_tl_8" n="N008"/>sein Widerwille gegen <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s Compositionen mich sympathisch
       <lb facs="#facs_1_region_1684862126513_109_tl_9" n="N009"/>berührten. In späteren Jahren haben Beschäftigung und
       <lb facs="#facs_1_region_1684862126513_109_tl_10" n="N010"/>Geselligkeit uns weiter von einander entfernt, wie dies leider
-      <lb facs="#facs_1_region_1684862126513_109_tl_11" n="N011"/>in großen Städten zu gehen pflegt. <rs type="person">Nottebohm</rs> ist nach
-      <lb facs="#facs_1_region_1684862126513_109_tl_12" n="N012"/>kurzer Krankheit im Jahre <date month="0" day="0" year="0">1882</date> gestorben; ein Verlust für
+      <lb facs="#facs_1_region_1684862126513_109_tl_11" n="N011"/>in großen Städten zu gehen pflegt. <rs type="person" ref="#hsl_person_id_365">Nottebohm</rs> ist nach
+      <lb facs="#facs_1_region_1684862126513_109_tl_12" n="N012"/>kurzer Krankheit im Jahre <date>1882</date> gestorben; ein Verlust für
       <lb facs="#facs_1_region_1684862126513_109_tl_13" n="N013"/>seine Freunde und für die Musikwissenschaft.
-      <lb facs="#facs_1_region_1684862126513_109_tl_14" n="N014"/>Ein Original ganz anderer Art war <hi rendition="#em">Graf Ferdi¬</hi>
-               <lb facs="#facs_1_region_1684862126513_109_tl_15" n="N015"/>
-               <hi rendition="#em">nand <rs type="person">Laurencin</rs>
-               </hi>. Im Gegensatze zu dem verstandes¬
-      <lb facs="#facs_1_region_1684862126513_109_tl_16" n="N016"/>scharfen, kritischen <rs type="person">Nottebohm</rs> war er der musikalische
+            </p><p>
+      <lb facs="#facs_1_region_1684862126513_109_tl_14" n="N014"/>Ein Original ganz anderer Art war <hi rendition="#em">Graf Ferdi
+      <lb facs="#facs_1_region_1684862126513_109_tl_15" n="N015" break="no"/>nand <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs></hi>. Im Gegensatze zu dem verstandes
+      <lb facs="#facs_1_region_1684862126513_109_tl_16" n="N016" break="no"/>scharfen, kritischen <rs type="person" ref="#hsl_person_id_365">Nottebohm</rs> war er der musikalische
       <lb facs="#facs_1_region_1684862126513_109_tl_17" n="N017"/>Enthusiast vom reinsten Wasser. Mir ist nie wieder ein
       <lb facs="#facs_1_region_1684862126513_109_tl_18" n="N018"/>Mensch begegnet, den Musik so vollkommen entzücken und
       <lb facs="#facs_1_region_1684862126513_109_tl_19" n="N019"/>beglücken konnte, der so ausschließlich in Musik webte, lebte
-      <lb facs="#facs_1_region_1684862126513_109_tl_20" n="N020"/>und — starb. Er war der Sohn eines <rs type="person">Kammerherrn</rs> des
-      <lb facs="#facs_1_region_1684862126513_109_tl_21" n="N021"/>Cardinals Erzbischofs <rs type="person">Rudolph</rs> und hat seine erste Jugendzeit
-      <lb facs="#facs_1_region_1684862126513_109_tl_22" n="N022"/>am Hofe dieses musikliebenden Fürsten in <rs type="place">Olmütz</rs> verlebt.
-      <lb facs="#facs_1_region_1684862126513_109_tl_23" n="N023"/>Er erinnerte sich noch des vortrefflichen Clavierspieles des <rs type="person" continued="true">Erz¬</rs>
-               <lb facs="#facs_1_region_1684862126513_109_tl_24" n="N024"/>
-               <rs type="person" continued="true">herzogs</rs>, dem bekanntlich <rs type="person">Beethoven</rs> Unterricht ertheilt und
-      <lb facs="#facs_1_region_1684862126513_109_tl_25" n="N025"/>seine <rs type="bibl">Missa solennis</rs> gewidmet hat. Seine musikalischen Stu¬
-      <lb facs="#facs_1_region_1684862126513_109_tl_26" n="N026"/>dien hatte <rs type="person">Laurencin</rs> bei <rs type="person">Tomaschek</rs> und bei dem Organisten
-      <lb facs="#facs_1_region_1684862126513_109_tl_27" n="N027"/>
-               <rs type="person">Pietsch</rs> in <rs type="place">Prag</rs> betrieben. Dann übersiedelte er nach <rs type="place">Wien</rs>,
-      <lb facs="#facs_1_region_1684862126513_109_tl_28" n="N028"/>wo er, mit einer bescheidenen Apanage von seiner Mutter
+      <lb facs="#facs_1_region_1684862126513_109_tl_20" n="N020"/>und — starb. Er war der Sohn eines <rs type="person" ref="#hsl_person_id_4548">Kammerherrn</rs> des
+      <lb facs="#facs_1_region_1684862126513_109_tl_21" n="N021"/>Cardinals Erzbischofs <rs type="person" ref="#hsl_person_id_791">Rudolph</rs> und hat seine erste Jugendzeit
+      <lb facs="#facs_1_region_1684862126513_109_tl_22" n="N022"/>am Hofe dieses musikliebenden Fürsten in <rs type="place" ref="#hsl_place_id_459">Olmütz</rs> verlebt.
+      <lb facs="#facs_1_region_1684862126513_109_tl_23" n="N023"/>Er erinnerte sich noch des vortrefflichen Clavierspieles des <rs type="person" ref="#hsl_person_id_791">Erz
+      <lb facs="#facs_1_region_1684862126513_109_tl_24" n="N024" break="no"/>herzogs</rs>, dem bekanntlich <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> Unterricht ertheilt und
+      <lb facs="#facs_1_region_1684862126513_109_tl_25" n="N025"/>seine <rs type="bibl" ref="#hsl_work_id_87">Missa solennis</rs> gewidmet hat. Seine musikalischen Stu
+      <lb facs="#facs_1_region_1684862126513_109_tl_26" n="N026" break="no"/>dien hatte <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> bei <rs type="person" ref="#hsl_person_id_951">Tomaschek</rs> und bei dem Organisten
+      <lb facs="#facs_1_region_1684862126513_109_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_4566">Pietsch</rs> in <rs type="place" ref="#hsl_place_id_45">Prag</rs> betrieben. Dann übersiedelte er nach <rs type="place" ref="#hsl_place_id_55">Wien</rs>,
+      <lb facs="#facs_1_region_1684862126513_109_tl_28" n="N028"/>wo er, mit einer bescheidenen Apanage von seiner <rs type="person" ref="#hsl_person_id_4545">Mutter</rs>
       <lb facs="#facs_1_region_1684862126513_109_tl_29" n="N029"/>ausgerüstet, hauptsächlich der Musik lebte. Wer kannte ihn
       <lb facs="#facs_1_region_1684862126513_109_tl_30" n="N030"/>nicht, den auffallend kleinen Mann mit dem sehr großen
-      <lb facs="#facs_1_region_1684862126513_109_tl_31" n="N031"/>Kopfe und den über die Brille hinausschielenden kurzsich¬
-      <lb facs="#facs_1_region_1684862126513_109_tl_32" n="N032"/>ligen Aeuglein? Wer hat ihn nicht an Sonntag Vormittagen,
+      <lb facs="#facs_1_region_1684862126513_109_tl_31" n="N031"/>Kopfe und den über die Brille hinausschielenden kurzsich
+      <lb facs="#facs_1_region_1684862126513_109_tl_32" n="N032" break="no"/>ligen Aeuglein? Wer hat ihn nicht an Sonntag Vormittagen,
       <lb facs="#facs_1_region_1684862126513_109_tl_33" n="N033"/>mit einer dicken Partitur unter dem Arm, durch die Straßen
-      <lb facs="#facs_1_region_1684862126513_109_tl_34" n="N034"/>eilen sehen? <rs type="person">Laurencin</rs> pflegte nämlich, der Musik wegen, zwei
-      <lb facs="#facs_1_region_1684862126513_109_tl_35" n="N035"/>Messen nach einander zu hören; er rannte von der Minoriten¬
-      <lb facs="#facs_1_region_1684862126513_109_tl_36" n="N036"/>kirche in die Hofburgcapelle und von da sofort in das
+      <lb facs="#facs_1_region_1684862126513_109_tl_34" n="N034"/>eilen sehen? <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> pflegte nämlich, der Musik wegen, zwei
+      <lb facs="#facs_1_region_1684862126513_109_tl_35" n="N035"/>Messen nach einander zu hören; er rannte von der Minoriten
+      <lb facs="#facs_1_region_1684862126513_109_tl_36" n="N036" break="no"/>kirche in die Hofburgcapelle und von da sofort in das
       <lb facs="#facs_1_region_1684862126513_109_tl_37" n="N037"/>Mittagsconcert der Philharmoniker oder der Gesellschaft der
       <lb facs="#facs_1_region_1684862126513_109_tl_38" n="N038"/>Musikfreunde. Um halb 5 Uhr Nachmittags war er in der
-      <lb facs="#facs_1_region_1684862126513_109_tl_39" n="N039"/>Quartett-Production <rs type="person">Jansa</rs>'s oder <rs type="person">Hellmesberger</rs>'s (welche
+      <lb facs="#facs_1_region_1684862126513_109_tl_39" n="N039"/>Quartett-Production <rs type="person" ref="#hsl_person_id_1858">Jansa</rs>’s oder <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>’s (welche
       <lb facs="#facs_1_region_1684862126513_109_tl_40" n="N040"/>erst in späteren Jahren auf die Sieben-Uhr-Stunde verlegt
-      <lb facs="#facs_1_line_1706680871002_102" n="N041"/>wurde) und um 7 Uhr, wenn es eine classische Oper gab,</p>
+      <lb facs="#facs_1_line_1706680871002_102" n="N041"/>wurde) und um 7 Uhr, wenn es eine classische Oper gab,<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684862142973_115_tl_1" n="N001"/>auf der vierten Galerie des Hofoperntheaters. Er konnte
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684862142973_115_tl_1" n="N001"/>auf der vierten Galerie des Hofoperntheaters. Er konnte
       <lb facs="#facs_2_region_1684862142973_115_tl_2" n="N002"/>unglaubliche Massen von Musik vertragen mit der gleichen
       <lb facs="#facs_2_region_1684862142973_115_tl_3" n="N003"/>Empfänglichkeit. Selbst die allerbekanntesten Werke, wie
-      <lb facs="#facs_2_region_1684862142973_115_tl_4" n="N004"/>
-               <rs type="person">Beethoven</rs>'s <rs type="bibl">Quartette</rs> op. 18, oder <rs type="person">Mozart</rs>'s <rs type="bibl">G-moll-</rs>
-               <lb facs="#facs_2_region_1684862142973_115_tl_5" n="N005"/>
-               <rs type="bibl">Symphonie</rs>, verfolgte er in jeder Aufführung eifrig mit¬
-      <lb facs="#facs_2_region_1684862142973_115_tl_6" n="N006"/>lesend in der Partitur. Dabei kritzelte er unaufhörlich mit
-      <lb facs="#facs_2_region_1684862142973_115_tl_7" n="N007"/>seinem Bleistift Notizen, deren Inhalt ich niemals ent¬
-      <lb facs="#facs_2_region_1684862142973_115_tl_8" n="N008"/>räthseln oder erfahren konnte. Bei jeder schönen Stelle, und
-      <lb facs="#facs_2_region_1684862142973_115_tl_9" n="N009"/>deren gab es für <rs type="person">Laurencin</rs> sehr viele, nickte er vergnügt
-      <lb facs="#facs_2_region_1684862142973_115_tl_10" n="N010"/>mit dem Kopfe, that einen Ausruf des Entzückens, schmun¬
-      <lb facs="#facs_2_region_1684862142973_115_tl_11" n="N011"/>zelte, lachte und setzte seinen Bleistift in wüthende Bewe¬
-      <lb facs="#facs_2_region_1684862142973_115_tl_12" n="N012"/>gung. Seine musikalische Empfänglichkeit und Begeisterung
+      <lb facs="#facs_2_region_1684862142973_115_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="bibl" ref="#hsl_work_id_470 #hsl_work_id_1270 #hsl_work_id_2866 #hsl_work_id_2867 #hsl_work_id_2868 #hsl_work_id_768">Quartette</rs> op. 18, oder <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s <rs type="bibl" ref="#hsl_work_id_358">G-moll-
+      <lb facs="#facs_2_region_1684862142973_115_tl_5" n="N005"/>Symphonie</rs>, verfolgte er in jeder Aufführung eifrig mit
+      <lb facs="#facs_2_region_1684862142973_115_tl_6" n="N006" break="no"/>lesend in der Partitur. Dabei kritzelte er unaufhörlich mit
+      <lb facs="#facs_2_region_1684862142973_115_tl_7" n="N007"/>seinem Bleistift Notizen, deren Inhalt ich niemals ent
+      <lb facs="#facs_2_region_1684862142973_115_tl_8" n="N008" break="no"/>räthseln oder erfahren konnte. Bei jeder schönen Stelle, und
+      <lb facs="#facs_2_region_1684862142973_115_tl_9" n="N009"/>deren gab es für <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> sehr viele, nickte er vergnügt
+      <lb facs="#facs_2_region_1684862142973_115_tl_10" n="N010"/>mit dem Kopfe, that einen Ausruf des Entzückens, schmun
+      <lb facs="#facs_2_region_1684862142973_115_tl_11" n="N011" break="no"/>zelte, lachte und setzte seinen Bleistift in wüthende Bewe
+      <lb facs="#facs_2_region_1684862142973_115_tl_12" n="N012" break="no"/>gung. Seine musikalische Empfänglichkeit und Begeisterung
       <lb facs="#facs_2_region_1684862142973_115_tl_13" n="N013"/>kannte keine Grenzlinie. Eine canonische Stimmführung in
-      <lb facs="#facs_2_region_1684862142973_115_tl_14" n="N014"/>irgend einer unbedeutenden Schulmeistermesse, eine sentimen¬
-      <lb facs="#facs_2_region_1684862142973_115_tl_15" n="N015"/>tale Modulation von <rs type="person">Spohr</rs>, der gewaltigste <rs type="person">Bach</rs>'sche Choral
-      <lb facs="#facs_2_region_1684862142973_115_tl_16" n="N016"/>und <rs type="person">Beethoven</rs>'s <rs type="bibl">Neunte Symphonie</rs> — Alles tauchte den
+      <lb facs="#facs_2_region_1684862142973_115_tl_14" n="N014"/>irgend einer unbedeutenden Schulmeistermesse, eine sentimen
+      <lb facs="#facs_2_region_1684862142973_115_tl_15" n="N015" break="no"/>tale Modulation von <rs type="person" ref="#hsl_person_id_293">Spohr</rs>, der gewaltigste <rs type="person" ref="#hsl_person_id_18">Bach</rs>’sche Choral
+      <lb facs="#facs_2_region_1684862142973_115_tl_16" n="N016"/>und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="bibl" ref="#hsl_work_id_272">Neunte Symphonie</rs> — Alles tauchte den
       <lb facs="#facs_2_region_1684862142973_115_tl_17" n="N017"/>beneidenswerthen Mann in die gleiche Fluth von Entzücken.
-      <lb facs="#facs_2_region_1684862142973_115_tl_18" n="N018"/>Er hatte in diesem Gebahren ohne Frage etwas Komi¬
-      <lb facs="#facs_2_region_1684862142973_115_tl_19" n="N019"/>sches, aber auch etwas Liebenswürdiges, durch kind¬
-      <lb facs="#facs_2_region_1684862142973_115_tl_20" n="N020"/>liche Naivetät Rührendes. Es versteht sich fast von
+      <lb facs="#facs_2_region_1684862142973_115_tl_18" n="N018"/>Er hatte in diesem Gebahren ohne Frage etwas Komi
+      <lb facs="#facs_2_region_1684862142973_115_tl_19" n="N019" break="no"/>sches, aber auch etwas Liebenswürdiges, durch kind
+      <lb facs="#facs_2_region_1684862142973_115_tl_20" n="N020" break="no"/>liche Naivetät Rührendes. Es versteht sich fast von
       <lb facs="#facs_2_region_1684862142973_115_tl_21" n="N021"/>selbst, daß einer solchen Gewalt fast elementarischen
-      <lb facs="#facs_2_region_1684862142973_115_tl_22" n="N022"/>Musikempfindens nicht eine gleiche Stärke ästhetischen Ur¬
-      <lb facs="#facs_2_region_1684862142973_115_tl_23" n="N023"/>theiles zur Seite stand. <rs type="person">Laurencin</rs> war auch sehr leicht aus
+      <lb facs="#facs_2_region_1684862142973_115_tl_22" n="N022"/>Musikempfindens nicht eine gleiche Stärke ästhetischen Ur
+      <lb facs="#facs_2_region_1684862142973_115_tl_23" n="N023" break="no"/>theiles zur Seite stand. <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> war auch sehr leicht aus
       <lb facs="#facs_2_region_1684862142973_115_tl_24" n="N024"/>seiner ursprünglichen Ansicht zu verdrängen. Wir gingen
-      <lb facs="#facs_2_region_1684862142973_115_tl_25" n="N025"/>einmal zusammen zu einer Aufführung von <rs type="person">Haydn</rs>'s mir
-      <lb facs="#facs_2_region_1684862146046_118_tl_21" n="N026"/>mals noch nicht bekannten „<rs type="bibl">Sieben Worten</rs>“. Auf dem
-      <lb facs="#facs_2_region_1684862142973_115_tl_26" n="N027"/>Wege hin überströmte <rs type="person">Laurencin</rs> von Bewunderung dieses
+      <lb facs="#facs_2_region_1684862142973_115_tl_25" n="N025"/>einmal zusammen zu einer Aufführung von <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s mir
+      <lb facs="#facs_2_region_1684862146046_118_tl_21" n="N026"/>mals noch nicht bekannten „<rs type="bibl" ref="#hsl_work_id_827">Sieben Worten</rs>“. Auf dem
+      <lb facs="#facs_2_region_1684862142973_115_tl_26" n="N027"/>Wege hin überströmte <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> von Bewunderung dieses
       <lb facs="#facs_2_line_1706681027122_155" n="N028"/>Werkes und versprach mir Wunderdinge davon. „Nun, was
-      <lb facs="#facs_2_region_1684862142973_115_tl_29" n="N029"/>habe ich dir gesagt?“ fragte er freudestrahlend beim Heraus¬
-      <lb facs="#facs_2_line_1706681066144_172" n="N030"/>gehen. „Aufrichtig gestanden,“ erwiderte ich, „habe ich mich
+      <lb facs="#facs_2_region_1684862142973_115_tl_29" n="N029"/>habe ich dir gesagt?“ fragte er freudestrahlend beim Heraus
+      <lb facs="#facs_2_line_1706681066144_172" n="N030" break="no"/>gehen. „Aufrichtig gestanden,“ erwiderte ich, „habe ich mich
       <lb facs="#facs_2_line_1706681070604_177" n="N031"/>schrecklich gelangweilt.“ Ich suchte dieses pietätlose Wort
       <lb facs="#facs_2_region_1684862142973_115_tl_34" n="N032"/>nach Möglichkeit zu rechtfertigen und empfing nach einer
-      <lb facs="#facs_2_region_1684862142973_115_tl_35" n="N033"/>Weile <rs type="person">Laurencin</rs>'s zustimmendes Votum: „Ja, du hast
-      <lb facs="#facs_2_line_1706681098018_189" n="N034"/>Recht, es ist doch eigentlich ein Zopf!“ <rs type="person">Laurencin</rs> schrieb
-      <lb facs="#facs_2_region_1684862142973_115_tl_38" n="N035"/>unter dem Namen <rs type="person">Philokales</rs> in die <rs type="bibl">Wiener Musikzeitung</rs>
-               <lb facs="#facs_2_region_1684862142973_115_tl_39" n="N036"/>von August <rs type="person">Schmidt</rs> und versah sie insbesondere mit Be¬
-      <lb facs="#facs_2_line_1706681171889_213" n="N037"/>richten über die Kirchenmusik-Aufführungen. Er hatte einen
-      <lb facs="#facs_2_region_1684862142973_115_tl_40" n="N038"/>
-               <rs type="bibl">Artikel</rs> über <rs type="person">Mendelssohn</rs>'s „<rs type="bibl">Elias</rs>“ angekündigt, ein Werk,
+      <lb facs="#facs_2_region_1684862142973_115_tl_35" n="N033"/>Weile <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs>’s zustimmendes Votum: „Ja, du hast
+      <lb facs="#facs_2_line_1706681098018_189" n="N034"/>Recht, es ist doch eigentlich ein Zopf!“ <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> schrieb
+      <lb facs="#facs_2_region_1684862142973_115_tl_38" n="N035"/>unter dem Namen <rs type="person" ref="#hsl_person_id_3613">Philokales</rs> in die <rs type="bibl" ref="#hsl_work_id_2285">Wiener Musikzeitung</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684862142973_115_tl_39" n="N036"/>von August <rs type="person" ref="#hsl_person_id_3766">Schmidt</rs> und versah sie insbesondere mit Be
+      <lb facs="#facs_2_line_1706681171889_213" n="N037" break="no"/>richten über die Kirchenmusik-Aufführungen. Er hatte einen
+      <lb facs="#facs_2_region_1684862142973_115_tl_40" n="N038"/><rs type="bibl" ref="#hsl_work_id_2864">Artikel</rs> über <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s „<rs type="bibl" ref="#hsl_work_id_206">Elias</rs>“ angekündigt, ein Werk,
       <lb facs="#facs_2_region_1684862142973_115_tl_41" n="N039"/>von dessen Schönheit er ganz erfüllt war. Der Gewalt
-      <lb facs="#facs_2_region_1684862142973_115_tl_42" n="N040"/>seiner Empfindung entsprach aber leider auch ein in Super¬
-      <lb facs="#facs_2_line_1706681190240_219" n="N041"/>lativen überströmender, sich in den längsten Perioden fort¬</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684862146046_118_tl_1" n="N001"/>windender Styl. <rs type="person">Laurencin</rs> hat viel <rs type="person">Hegel</rs> gelesen, was
-      <lb facs="#facs_2_region_1684862146046_118_tl_2" n="N002"/>schwerlich zur Klärung seiner etwas confusen Darstellungs¬
-      <lb facs="#facs_2_line_1706683938049_646" n="N003"/>weise beitragen konnte. Da begann er nun mit einer langen
+      <lb facs="#facs_2_region_1684862142973_115_tl_42" n="N040"/>seiner Empfindung entsprach aber leider auch ein in Super
+      <lb facs="#facs_2_line_1706681190240_219" n="N041" break="no"/>lativen überströmender, sich in den längsten Perioden fort</p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684862146046_118_tl_1" n="N001" break="no"/>windender Styl. <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> hat viel <rs type="person" ref="#hsl_person_id_378">Hegel</rs> gelesen, was
+      <lb facs="#facs_2_region_1684862146046_118_tl_2" n="N002"/>schwerlich zur Klärung seiner etwas confusen Darstellungs
+      <lb facs="#facs_2_line_1706683938049_646" n="N003" break="no"/>weise beitragen konnte. Da begann er nun mit einer langen
       <lb facs="#facs_2_line_1706683963856_651" n="N004"/>philosophischen Untersuchung des Begriffes „Oratorium“,
       <lb facs="#facs_2_region_1684862146046_118_tl_3" n="N005"/>welche mehrere Nummern der Zeitung füllte, dann folgte
       <lb facs="#facs_2_region_1684862146046_118_tl_4" n="N006"/>ein historischer Rückblick, abermals von ansehnlicher Länge,
@@ -1494,233 +1469,215 @@
       <lb facs="#facs_2_line_1706680990605_140" n="N009"/>Redaction nicht vom Fleck mit seiner gründlichen Analyse.
       <lb facs="#facs_2_region_1684862146046_118_tl_7" n="N010"/>Der Aufsatz gelangte ungefähr bis zur Kritik der zweiten
       <lb facs="#facs_2_region_1684862146046_118_tl_8" n="N011"/>oder dritten Nummer des Oratoriums — da riß dem guten
-      <lb facs="#facs_2_line_1706681013241_146" n="N012"/>August <rs type="person">Schmidt</rs> die Geduld: er strich das fürchterliche
+      <lb facs="#facs_2_line_1706681013241_146" n="N012"/>August <rs type="person" ref="#hsl_person_id_3766">Schmidt</rs> die Geduld: er strich das fürchterliche
       <lb facs="#facs_2_region_1684862146046_118_tl_9" n="N013"/>„Fortsetzung folgt“ unbarmherzig von dem Manuscript und
       <lb facs="#facs_2_region_1684862146046_118_tl_10" n="N014"/>versetzte dem bestürzten Grafen den vernichtenden Bescheid:
-      <lb facs="#facs_2_region_1684862146046_118_tl_11" n="N015"/>„Jetzt ist's aus.“ Es ist niemals eine Fortsetzung des groß¬
-      <lb facs="#facs_2_region_1684862146046_118_tl_12" n="N016"/>artigen <rs type="bibl">„Elias“-Artikel</rs>s erschienen.
-      <lb facs="#facs_2_region_1684862146046_118_tl_13" n="N017"/>Mit einem schüchternen Versuch, <rs type="person">Laurencin</rs> als Musik¬
-      <lb facs="#facs_2_region_1684862146046_118_tl_14" n="N018"/>referenten vorzuschlagen, bin ich einmal schlecht angekommen.
-      <lb facs="#facs_2_region_1684862146046_118_tl_15" n="N019"/>Es war bei Dr. Ignaz <rs type="person">Kuranda</rs>, dem Herausgeber der
-      <lb facs="#facs_2_line_1706681152818_209" n="N020"/>„<rs type="bibl">Ostdeutschen Post</rs>“ und hochverdienten Begründer der
-      <lb facs="#facs_2_region_1684862146046_118_tl_18" n="N021"/>„<rs type="bibl">Grenzboten</rs>“, die als verbotener, gierig verschmauster Lecker¬
-      <lb facs="#facs_2_line_1706681249545_232" n="N022"/>bissen eine so wichtige Rolle gespielt haben im vormärzlichen
-      <lb facs="#facs_2_line_1706681269378_238" n="N023"/>
-               <rs type="place">Oesterreich</rs>. Wir Wiener wissen, daß der geistvolle <rs type="person">Kuranda</rs>
-               <lb facs="#facs_2_region_1684862146046_118_tl_19" n="N024"/>mitunter recht komisch aussehen konnte. Die illustrirten Witz¬
-      <lb facs="#facs_2_line_1706681287537_244" n="N025"/>blätter lebten geraume Zeit von seiner mit drei Linien um¬
-      <lb facs="#facs_2_region_1684862146046_118_tl_20" n="N026"/>rissenen, sofort kenntlichen Caricatur. Wenn das kleine
+      <lb facs="#facs_2_region_1684862146046_118_tl_11" n="N015"/>„Jetzt ist’s aus.“ Es ist niemals eine Fortsetzung des groß
+      <lb facs="#facs_2_region_1684862146046_118_tl_12" n="N016" break="no"/>artigen <rs type="bibl" ref="#hsl_work_id_2864">„Elias“-Artikel</rs>s erschienen.
+            </p><p>
+      <lb facs="#facs_2_region_1684862146046_118_tl_13" n="N017"/>Mit einem schüchternen Versuch, <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> als Musik
+      <lb facs="#facs_2_region_1684862146046_118_tl_14" n="N018" break="no"/>referenten vorzuschlagen, bin ich einmal schlecht angekommen.
+      <lb facs="#facs_2_region_1684862146046_118_tl_15" n="N019"/>Es war bei Dr. Ignaz <rs type="person" ref="#hsl_person_id_4546">Kuranda</rs>, dem Herausgeber der
+      <lb facs="#facs_2_line_1706681152818_209" n="N020"/>„<rs type="bibl" ref="#hsl_work_id_2889">Ostdeutschen Post</rs>“ und hochverdienten Begründer der
+      <lb facs="#facs_2_region_1684862146046_118_tl_18" n="N021"/>„<rs type="bibl" ref="#hsl_work_id_465">Grenzboten</rs>“, die als verbotener, gierig verschmauster Lecker
+      <lb facs="#facs_2_line_1706681249545_232" n="N022" break="no"/>bissen eine so wichtige Rolle gespielt haben im vormärzlichen
+      <lb facs="#facs_2_line_1706681269378_238" n="N023"/><rs type="place" ref="#hsl_place_id_43">Oesterreich</rs>. Wir Wiener wissen, daß der geistvolle <rs type="person" ref="#hsl_person_id_4546">Kuranda</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684862146046_118_tl_19" n="N024"/>mitunter recht komisch aussehen konnte. Die illustrirten Witz
+      <lb facs="#facs_2_line_1706681287537_244" n="N025" break="no"/>blätter lebten geraume Zeit von seiner mit drei Linien um
+      <lb facs="#facs_2_region_1684862146046_118_tl_20" n="N026" break="no"/>rissenen, sofort kenntlichen Caricatur. Wenn das kleine
       <lb facs="#facs_2_region_1684862146046_118_tl_22" n="N027"/>hagere Männchen in Eifer gerieth — und das geschah
       <lb facs="#facs_2_region_1684862146046_118_tl_23" n="N028"/>sehr leicht — dann schien seine berühmte Nase noch
       <lb facs="#facs_2_region_1684862146046_118_tl_24" n="N029"/>weiter vorzuspringen, seine Bewegungen überhasteten sich
       <lb facs="#facs_2_region_1684862146046_118_tl_25" n="N030"/>und seine Stimme überschlug in einen wunderlichen,
-      <lb facs="#facs_2_region_1684862146046_118_tl_26" n="N031"/>
-               <rs type="place">orientalisch</rs> modulirenden Discant. <rs type="person">Kuranda</rs> ersuchte mich
-      <lb facs="#facs_2_line_1706681089104_181" n="N032"/>eines Tages, das Musikreferat in der „<rs type="bibl">Ostdeutschen Post</rs>“
+      <lb facs="#facs_2_region_1684862146046_118_tl_26" n="N031"/><rs type="place" ref="#hsl_place_id_526">orientalisch</rs> modulirenden Discant. <rs type="person" ref="#hsl_person_id_4546">Kuranda</rs> ersuchte mich
+      <lb facs="#facs_2_line_1706681089104_181" n="N032"/>eines Tages, das Musikreferat in der „<rs type="bibl" ref="#hsl_work_id_2889">Ostdeutschen Post</rs>“
       <lb facs="#facs_2_region_1684862146046_118_tl_27" n="N033"/>zu übernehmen. Das konnte ich nicht, denn ich sollte eben
-      <lb facs="#facs_2_region_1684862146046_118_tl_28" n="N034"/>nach <rs type="place">Klagenfurt</rs> verbannt werden — nicht wie <rs type="person">Görgey</rs> aus
+      <lb facs="#facs_2_region_1684862146046_118_tl_28" n="N034"/>nach <rs type="place" ref="#hsl_place_id_524">Klagenfurt</rs> verbannt werden — nicht wie <rs type="person" ref="#hsl_person_id_4567">Görgey</rs> aus
       <lb facs="#facs_2_region_1684862146046_118_tl_29" n="N035"/>politischen, sondern aus bureaukratischen Gründen. „So
       <lb facs="#facs_2_region_1684862146046_118_tl_30" n="N036"/>schlagen Sie mir jemand Anderen vor!“ Das war damals
-      <lb facs="#facs_2_region_1684862146046_118_tl_31" n="N037"/>wirklich nicht leicht; doch äußerte ich nach einigem Nach¬
-      <lb facs="#facs_2_region_1684862146046_118_tl_32" n="N038"/>denken, <rs type="person">Laurencin</rs> würde vermuthlich gern für die „<rs type="bibl">Ost¬</rs>
-               <lb facs="#facs_2_region_1684862146046_118_tl_33" n="N039"/>
-               <rs type="bibl">deutsche Post</rs>“ schreiben. „Ja, er wird schreiben, freilich er
-      <lb facs="#facs_2_region_1684862146046_118_tl_34" n="N040"/>wird schreiben,“ sprudelte <rs type="person">Kuranda</rs>, „aber — und hier flog
-      <lb facs="#facs_2_region_1684862146046_118_tl_35" n="N041"/>seine Stimme in die höchste Octave — „aber wer wird's</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_line_1706681121665_193" n="N001"/>lesen?“ Das klang so schlagend und zugleich so komisch, daß
+      <lb facs="#facs_2_region_1684862146046_118_tl_31" n="N037"/>wirklich nicht leicht; doch äußerte ich nach einigem Nach
+      <lb facs="#facs_2_region_1684862146046_118_tl_32" n="N038" break="no"/>denken, <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> würde vermuthlich gern für die „<rs type="bibl" ref="#hsl_work_id_2889">Ost
+      <lb facs="#facs_2_region_1684862146046_118_tl_33" n="N039" break="no"/>deutsche Post</rs>“ schreiben. „Ja, er wird schreiben, freilich er
+      <lb facs="#facs_2_region_1684862146046_118_tl_34" n="N040"/>wird schreiben,“ sprudelte <rs type="person" ref="#hsl_person_id_4546">Kuranda</rs>, „aber — und hier flog
+      <lb facs="#facs_2_region_1684862146046_118_tl_35" n="N041"/>seine Stimme in die höchste Octave — „aber wer wird’s<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1706681121665_193" n="N001"/>lesen?“ Das klang so schlagend und zugleich so komisch, daß
       <lb facs="#facs_2_region_1684862149767_121_tl_1" n="N002"/>ich vor Lachen nichts entgegnen konnte.
+            </p><p>
       <lb facs="#facs_2_region_1684862149767_121_tl_2" n="N003"/>Eine durchaus innerliche musikalische Natur, hatte
-      <lb facs="#facs_2_region_1684862149767_121_tl_3" n="N004"/>
-               <rs type="person">Laurencin</rs> unüberwindlichen Abscheu vor der „verfluchten
+      <lb facs="#facs_2_region_1684862149767_121_tl_3" n="N004"/><rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> unüberwindlichen Abscheu vor der „verfluchten
       <lb facs="#facs_2_region_1684862149767_121_tl_4" n="N005"/>Politik“ und jeder dahin einschlägigen Discussion. In
-      <lb facs="#facs_2_line_1706681139177_199" n="N006"/>Momenten der größten politischen Aufregung und Be¬
-      <lb facs="#facs_2_region_1684862149767_121_tl_5" n="N007"/>stürzung, während des Barricadenkampfes und des An¬
-      <lb facs="#facs_2_region_1684862149767_121_tl_6" n="N008"/>marsches <rs type="person">Jellacic</rs>' gegen <rs type="place">Wien</rs> fand ich <rs type="person">Laurencin</rs> in seiner
-      <lb facs="#facs_2_region_1684862149767_121_tl_7" n="N009"/>hochgelegenen Stube emsig vertieft in <rs type="person">Hegel</rs>'s „<rs type="bibl">Phäno¬</rs>
-               <lb facs="#facs_2_region_1684862149767_121_tl_8" n="N010"/>
-               <rs type="bibl">menologie</rs>“ oder in die <rs type="bibl">H-moll-Messe</rs> von <rs type="person">Bach</rs>. Er wußte
+      <lb facs="#facs_2_line_1706681139177_199" n="N006"/>Momenten der größten politischen Aufregung und Be
+      <lb facs="#facs_2_region_1684862149767_121_tl_5" n="N007" break="no"/>stürzung, während des Barricadenkampfes und des An
+      <lb facs="#facs_2_region_1684862149767_121_tl_6" n="N008" break="no"/>marsches <rs type="person" ref="#hsl_person_id_4568">Jellacic</rs>’ gegen <rs type="place" ref="#hsl_place_id_55">Wien</rs> fand ich <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> in seiner
+      <lb facs="#facs_2_region_1684862149767_121_tl_7" n="N009"/>hochgelegenen Stube emsig vertieft in <rs type="person" ref="#hsl_person_id_378">Hegel</rs>’s „<rs type="bibl" ref="#hsl_work_id_2863">Phäno
+      <lb facs="#facs_2_region_1684862149767_121_tl_8" n="N010" break="no"/>menologie</rs>“ oder in die <rs type="bibl" ref="#hsl_work_id_723">H-moll-Messe</rs> von <rs type="person" ref="#hsl_person_id_18">Bach</rs>. Er wußte
       <lb facs="#facs_2_region_1684862149767_121_tl_9" n="N011"/>gar nicht, was draußen vorging, wollte es auch nicht wissen.
       <lb facs="#facs_2_region_1684862149767_121_tl_10" n="N012"/>Eine zeitlang prakticirte er beim Landesgerichte und sollte
-      <lb facs="#facs_2_region_1684862149767_121_tl_11" n="N013"/>die erste Richteramtsprüfung machen. Da hatte er denn an¬
-      <lb facs="#facs_2_region_1684862149767_121_tl_12" n="N014"/>statt <rs type="person">Hegel</rs> und <rs type="person">Bach</rs> das <rs type="bibl">Strafgesetzbuch</rs> vor sich liegen.
-      <lb facs="#facs_2_region_1684862149767_121_tl_13" n="N015"/>Aber bei seiner philosophischen Gründlichkeit und Umständ¬
-      <lb facs="#facs_2_region_1684862149767_121_tl_14" n="N016"/>lichkeit blieb er immer an dem §. 7 haften, so daß man in
-      <lb facs="#facs_2_region_1684862149767_121_tl_15" n="N017"/>jedem Sinne sagen darf, er ist in seiner richterlichen Lauf¬
-      <lb facs="#facs_2_region_1684862149767_121_tl_16" n="N018"/>bahn nicht über den „Versuch“ hinausgekommen. Eine kleine
-      <lb facs="#facs_2_region_1684862149767_121_tl_17" n="N019"/>Erbschaft von seiner <rs type="person">Mutter</rs> machte es ihm später möglich,
+      <lb facs="#facs_2_region_1684862149767_121_tl_11" n="N013"/>die erste Richteramtsprüfung machen. Da hatte er denn an
+      <lb facs="#facs_2_region_1684862149767_121_tl_12" n="N014" break="no"/>statt <rs type="person" ref="#hsl_person_id_378">Hegel</rs> und <rs type="person" ref="#hsl_person_id_18">Bach</rs> das Strafgesetzbuch vor sich liegen.
+      <lb facs="#facs_2_region_1684862149767_121_tl_13" n="N015"/>Aber bei seiner philosophischen Gründlichkeit und Umständ
+      <lb facs="#facs_2_region_1684862149767_121_tl_14" n="N016" break="no"/>lichkeit blieb er immer an dem §. 7 haften, so daß man in
+      <lb facs="#facs_2_region_1684862149767_121_tl_15" n="N017"/>jedem Sinne sagen darf, er ist in seiner richterlichen Lauf
+      <lb facs="#facs_2_region_1684862149767_121_tl_16" n="N018" break="no"/>bahn nicht über den „Versuch“ hinausgekommen. Eine kleine
+      <lb facs="#facs_2_region_1684862149767_121_tl_17" n="N019"/>Erbschaft von seiner <rs type="person" ref="#hsl_person_id_4545">Mutter</rs> machte es ihm später möglich,
       <lb facs="#facs_2_region_1684862149767_121_tl_18" n="N020"/>diesem Berufe, für den er schlechterdings nicht paßte, rasch
-      <lb facs="#facs_2_region_1684862149767_121_tl_19" n="N021"/>Adieu zu sagen. <rs type="person">Laurencin</rs> hatte sich mit einer nicht mehr ganz
+      <lb facs="#facs_2_region_1684862149767_121_tl_19" n="N021"/>Adieu zu sagen. <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> hatte sich mit einer nicht mehr ganz
       <lb facs="#facs_2_region_1684862149767_121_tl_20" n="N022"/>jungen hochgebildeten Dame verlobt, welche als Gouvernante bei
-      <lb facs="#facs_2_region_1684862149767_121_tl_21" n="N023"/>einer gräflichen Familie in <rs type="place">Böhmen</rs> lebte. Ich ergötzte mich
+      <lb facs="#facs_2_region_1684862149767_121_tl_21" n="N023"/>einer gräflichen Familie in <rs type="place" ref="#hsl_place_id_1">Böhmen</rs> lebte. Ich ergötzte mich
       <lb facs="#facs_2_region_1684862149767_121_tl_22" n="N024"/>oft daran, ihn Abends im „Juridisch-politischen Leseverein“,
       <lb facs="#facs_2_region_1684862149767_121_tl_23" n="N025"/>diesem wohlthätigen Asyl für uns studirende Junggesellen,
       <lb facs="#facs_2_line_1706681298690_251" n="N026"/>emsig schreiben zu sehen, einen dicken Folianten vor sich. „Was
       <lb facs="#facs_2_line_1706681303097_256" n="N027"/>schreibst du denn da?“ — „O,“ erwiderte er mit einem
-      <lb facs="#facs_2_line_1706681307712_261" n="N028"/>glückstrahlenden Lächeln, „an meine göttlichst liebenswür¬
-      <lb facs="#facs_2_line_1706681313464_266" n="N029"/>digste <rs type="person">Antoinette</rs>.“ — „Und so viele Blätter?“ — „Ja, ich
+      <lb facs="#facs_2_line_1706681307712_261" n="N028"/>glückstrahlenden Lächeln, „an meine göttlichst liebenswür
+      <lb facs="#facs_2_line_1706681313464_266" n="N029" break="no"/>digste <rs type="person" ref="#hsl_person_id_4544">Antoinette</rs>.“ — „Und so viele Blätter?“ — „Ja, ich
       <lb facs="#facs_2_region_1684862149767_121_tl_32" n="N030"/>schreibe ihr täglich sechzehn bis vierundzwanzig Seiten, und
       <lb facs="#facs_2_region_1684862149767_121_tl_33" n="N031"/>ja kein Wort von der gottverdammten Politik — nur was
-      <lb facs="#facs_2_region_1684862149767_121_tl_34" n="N032"/>mein Herz mir dictirt!“ Seine <rs type="person">Mutter</rs>, „die alte aristokra¬
-      <lb facs="#facs_2_region_1684862149767_121_tl_35" n="N033"/>tische Frau“, wie er oft schmähte, wollte die Heirat nicht zu¬
-      <lb facs="#facs_2_region_1684862149767_121_tl_36" n="N034"/>geben. Später erreichte er doch sein Ziel und ward einer der
-      <lb facs="#facs_2_region_1684862149767_121_tl_37" n="N035"/>glücklichsten Ehemänner, die es gegeben hat. Der kleine <rs type="person">Laurencin</rs>
-               <lb facs="#facs_2_region_1684862149767_121_tl_38" n="N036"/>neben seiner ungewöhnlich großen <rs type="person">Frau</rs> bot freilich einen
-      <lb facs="#facs_2_region_1684862149767_121_tl_39" n="N037"/>komischen Anblick, aber seine Ehehälfte (von <rs type="person">Ambros</rs> „sein
+      <lb facs="#facs_2_region_1684862149767_121_tl_34" n="N032"/>mein Herz mir dictirt!“ Seine <rs type="person" ref="#hsl_person_id_4545">Mutter</rs>, „die alte aristokra
+      <lb facs="#facs_2_region_1684862149767_121_tl_35" n="N033" break="no"/>tische Frau“, wie er oft schmähte, wollte die Heirat nicht zu
+      <lb facs="#facs_2_region_1684862149767_121_tl_36" n="N034" break="no"/>geben. Später erreichte er doch sein Ziel und ward einer der
+      <lb facs="#facs_2_region_1684862149767_121_tl_37" n="N035"/>glücklichsten Ehemänner, die es gegeben hat. Der kleine <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684862149767_121_tl_38" n="N036"/>neben seiner ungewöhnlich großen <rs type="person" ref="#hsl_person_id_4544">Frau</rs> bot freilich einen
+      <lb facs="#facs_2_region_1684862149767_121_tl_39" n="N037"/>komischen Anblick, aber seine Ehehälfte (von <rs type="person" ref="#hsl_person_id_717">Ambros</rs> „sein
       <lb facs="#facs_2_region_1684862149767_121_tl_40" n="N038"/>Ehe-Siebenachtel“ genannt) wußte ihm das Leben zu glätten
       <lb facs="#facs_2_region_1684862149767_121_tl_41" n="N039"/>und zu verschönern. Es war der härteste Schlag für ihn,
-      <lb facs="#facs_2_region_1684862149767_121_tl_42" n="N040"/>als der Tod ihm seine <rs type="person">Antoinette</rs> raubte, und nie hat er
-      <lb facs="#facs_2_line_1706681219945_224" n="N041"/>sich völlig von diesem Schlage erholt. Die Musik mußte</p>
+      <lb facs="#facs_2_region_1684862149767_121_tl_42" n="N040"/>als der Tod ihm seine <rs type="person" ref="#hsl_person_id_4544">Antoinette</rs> raubte, und nie hat er
+      <lb facs="#facs_2_line_1706681219945_224" n="N041"/>sich völlig von diesem Schlage erholt. Die Musik mußte<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684862160261_127_tl_1" n="N001"/>ihm nun Alles sein und ward auch thatsächlich sein Alles.
-      <lb facs="#facs_3_line_1706681391065_290" n="N002"/>Im Jahre <date month="0" day="0" year="0">1891</date> hatte ich noch die Freude, im engsten
-      <lb facs="#facs_3_region_1684862160261_127_tl_2" n="N003"/>Freundeskreise den siebzigsten Geburtstag <rs type="person">Laurencin</rs>'s zu
-      <lb facs="#facs_3_region_1684862160261_127_tl_3" n="N004"/>feiern. Durch allerlei Künste hatte ich dieses Datum aus¬
-      <lb facs="#facs_3_region_1684862160261_127_tl_4" n="N005"/>gekundschaftet. Wie erquickte uns seine kindliche Freude, sein
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684862160261_127_tl_1" n="N001"/>ihm nun Alles sein und ward auch thatsächlich sein Alles.
+      <lb facs="#facs_3_line_1706681391065_290" n="N002"/>Im Jahre <date>1891</date> hatte ich noch die Freude, im engsten
+      <lb facs="#facs_3_region_1684862160261_127_tl_2" n="N003"/>Freundeskreise den siebzigsten Geburtstag <rs type="person" ref="#hsl_person_id_3613">Laurencin</rs>’s zu
+      <lb facs="#facs_3_region_1684862160261_127_tl_3" n="N004"/>feiern. Durch allerlei Künste hatte ich dieses Datum aus
+      <lb facs="#facs_3_region_1684862160261_127_tl_4" n="N005" break="no"/>gekundschaftet. Wie erquickte uns seine kindliche Freude, sein
       <lb facs="#facs_3_region_1684862160261_127_tl_5" n="N006"/>dankerfülltes Gemüth! In einem scherzhaften Toast sagte ich,
       <lb facs="#facs_3_region_1684862160261_127_tl_6" n="N007"/>auf seine Hinneigung zur neudeutschen Schule anspielend,
-      <lb facs="#facs_3_region_1684862160261_127_tl_7" n="N008"/>
-               <rs type="person">Laurencin</rs> habe zwar den übermäßigen und den verminderten
-      <lb facs="#facs_3_region_1684862160261_127_tl_8" n="N009"/>Dreiklang verherrlicht, aber seine Seele werde dereinst sicher¬
-      <lb facs="#facs_3_region_1684862160261_127_tl_9" n="N010"/>lich in Gestalt eines reinen Dreiklanges zum Himmel auf¬
-      <lb facs="#facs_3_region_1684862160261_127_tl_10" n="N011"/>steigen. Wir ahnten nicht, daß dies so bald geschehen werde.
-      <lb facs="#facs_3_line_1706681410120_299" n="N012"/>
-               <rs type="person">Laurencin</rs> hat seinen siebzigsten Geburtstag nur um wenige
+      <lb facs="#facs_3_region_1684862160261_127_tl_7" n="N008"/><rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> habe zwar den übermäßigen und den verminderten
+      <lb facs="#facs_3_region_1684862160261_127_tl_8" n="N009"/>Dreiklang verherrlicht, aber seine Seele werde dereinst sicher
+      <lb facs="#facs_3_region_1684862160261_127_tl_9" n="N010" break="no"/>lich in Gestalt eines reinen Dreiklanges zum Himmel auf
+      <lb facs="#facs_3_region_1684862160261_127_tl_10" n="N011" break="no"/>steigen. Wir ahnten nicht, daß dies so bald geschehen werde.
+      <lb facs="#facs_3_line_1706681410120_299" n="N012"/><rs type="person" ref="#hsl_person_id_3613">Laurencin</rs> hat seinen siebzigsten Geburtstag nur um wenige
       <lb facs="#facs_3_region_1684862160261_127_tl_11" n="N013"/>Wochen überlebt.
+            </p><p>
       <lb facs="#facs_3_region_1684862160261_127_tl_12" n="N014"/>Wenn wir in unserem stillen Weinstübchen uns des
       <lb facs="#facs_3_region_1684862160261_127_tl_13" n="N015"/>Abends von Musik unterhielten, so betraf das natürlich
       <lb facs="#facs_3_region_1684862160261_127_tl_14" n="N016"/>nur unsere musikalischen Studien und Erinnerungen. Von
-      <lb facs="#facs_3_region_1684862160261_127_tl_15" n="N017"/>
-               <hi rendition="#em">lebendiger</hi> Musik künstlerischen Gehalts war ja in dem
-      <lb facs="#facs_3_region_1684862160261_127_tl_16" n="N018"/>ganzen Revolutionsjahre nichts zu vernehmen. Die Concert¬
-      <lb facs="#facs_3_region_1684862160261_127_tl_17" n="N019"/>säle waren geschlossen, die Oper, die sich mit dem aller¬
-      <lb facs="#facs_3_region_1684862160261_127_tl_18" n="N020"/>nöthigsten Personal und abgespielten Werken behalf, verödet.
-      <lb facs="#facs_3_region_1684862160261_127_tl_19" n="N021"/>Dafür hörte man allenthalben das „<rs type="bibl">Fuchslied</rs>“, das zu einer
-      <lb facs="#facs_3_region_1684862160261_127_tl_20" n="N022"/>Art harmloser <rs type="bibl">Marseillaise</rs> der Studenten geworden war,
-      <lb facs="#facs_3_region_1684862160261_127_tl_21" n="N023"/>und das lyrische Frag- und Antwortspiel „<rs type="bibl">Was ist des</rs>
-               <lb facs="#facs_3_region_1684862160261_127_tl_22" n="N024"/>
-               <rs type="bibl">Deutschen Vaterland</rs>“. Ein sehr reactionärer hoher Militär-
+      <lb facs="#facs_3_region_1684862160261_127_tl_15" n="N017"/><hi rendition="#em">lebendiger</hi> Musik künstlerischen Gehalts war ja in dem
+      <lb facs="#facs_3_region_1684862160261_127_tl_16" n="N018"/>ganzen Revolutionsjahre nichts zu vernehmen. Die Concert
+      <lb facs="#facs_3_region_1684862160261_127_tl_17" n="N019" break="no"/>säle waren geschlossen, die Oper, die sich mit dem aller
+      <lb facs="#facs_3_region_1684862160261_127_tl_18" n="N020" break="no"/>nöthigsten Personal und abgespielten Werken behalf, verödet.
+      <lb facs="#facs_3_region_1684862160261_127_tl_19" n="N021"/>Dafür hörte man allenthalben das „<rs type="bibl" ref="#hsl_work_id_2890">Fuchslied</rs>“, das zu einer
+      <lb facs="#facs_3_region_1684862160261_127_tl_20" n="N022"/>Art harmloser <rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs> der Studenten geworden war,
+      <lb facs="#facs_3_region_1684862160261_127_tl_21" n="N023"/>und das lyrische Frag- und Antwortspiel „<rs type="bibl" ref="#hsl_work_id_2891">Was ist des
+      <lb facs="#facs_3_region_1684862160261_127_tl_22" n="N024"/>Deutschen Vaterland</rs>“. Ein sehr reactionärer hoher Militär-
       <lb facs="#facs_3_region_1684862160261_127_tl_23" n="N025"/>Beamter, in dessen Familie ich viel verkehrte, ärgerte sich
       <lb facs="#facs_3_region_1684862160261_127_tl_24" n="N026"/>täglich einigemale darüber, daß eine Treppe über ihm das
-      <lb facs="#facs_3_region_1684862160261_127_tl_25" n="N027"/>„<rs type="bibl">Fuchslied</rs>“ gespielt wurde; sofort setzte er sich ans Clavier
-      <lb facs="#facs_3_region_1684862160261_127_tl_26" n="N028"/>und spielte mit aller Macht die <rs type="place">österreichisch</rs>e <rs type="bibl">Volkshymne</rs>.
+      <lb facs="#facs_3_region_1684862160261_127_tl_25" n="N027"/>„<rs type="bibl" ref="#hsl_work_id_2890">Fuchslied</rs>“ gespielt wurde; sofort setzte er sich ans Clavier
+      <lb facs="#facs_3_region_1684862160261_127_tl_26" n="N028"/>und spielte mit aller Macht die <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>e <rs type="bibl" ref="#hsl_work_id_1005">Volkshymne</rs>.
       <lb facs="#facs_3_region_1684862160261_127_tl_27" n="N029"/>Man replicirte oben noch stärker mit „Was kommt dort von
-      <lb facs="#facs_3_region_1684862160261_127_tl_28" n="N030"/>der Höh'?“, worauf unten in wüthendem Fortissimo „<rs type="person">Gott</rs>
-               <lb facs="#facs_3_region_1684862160261_127_tl_29" n="N031"/>erhalte unsern Kaiser“ gehämmert wurde. Dieses musikalische
+      <lb facs="#facs_3_region_1684862160261_127_tl_28" n="N030"/>der Höh’?“, worauf unten in wüthendem Fortissimo „<rs type="person" ref="#hsl_person_id_416">Gott</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684862160261_127_tl_29" n="N031"/>erhalte unsern Kaiser“ gehämmert wurde. Dieses musikalische
       <lb facs="#facs_3_region_1684862160261_127_tl_30" n="N032"/>Duell zwischen zwei unsichtbaren Gegnern wiederholte sich
       <lb facs="#facs_3_region_1684862160261_127_tl_31" n="N033"/>mehrmals des Tages. Eine recht schöne Unterhaltung.
-      <lb facs="#facs_3_region_1684862160261_127_tl_32" n="N034"/>Das alte harmlose „<rs type="bibl">Fuchslied</rs>“ hatten die Wiener aus
-      <lb facs="#facs_3_region_1684862160261_127_tl_33" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Benedix</rs>'</hi> Studenten-Lustspiel „<rs type="bibl">Das bemooste Haupt</rs>“ kennen
+            </p><p>
+      <lb facs="#facs_3_region_1684862160261_127_tl_32" n="N034"/>Das alte harmlose „<rs type="bibl" ref="#hsl_work_id_2890">Fuchslied</rs>“ hatten die Wiener aus
+      <lb facs="#facs_3_region_1684862160261_127_tl_33" n="N035"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3300">Benedix</rs>’</hi> Studenten-Lustspiel „<rs type="bibl" ref="#hsl_work_id_2892">Das bemooste Haupt</rs>“ kennen
       <lb facs="#facs_3_region_1684862160261_127_tl_34" n="N036"/>gelernt, das allabendlich im Theater an der Wien gegeben
-      <lb facs="#facs_3_region_1684862160261_127_tl_35" n="N037"/>wurde. In diesem Stücke kommt auch eine solenne „Katzen¬
-      <lb facs="#facs_3_region_1684862160261_127_tl_36" n="N038"/>musik“ vor, die, von dem lernbegierigen <rs type="place">Wien</rs> schnell aufge¬
-      <lb facs="#facs_3_region_1684862160261_127_tl_37" n="N039"/>faßt und begeistert acclamirt, bald unzählige Katzenmusiken
+      <lb facs="#facs_3_region_1684862160261_127_tl_35" n="N037"/>wurde. In diesem Stücke kommt auch eine solenne „Katzen
+      <lb facs="#facs_3_region_1684862160261_127_tl_36" n="N038" break="no"/>musik“ vor, die, von dem lernbegierigen <rs type="place" ref="#hsl_place_id_55">Wien</rs> schnell aufge
+      <lb facs="#facs_3_region_1684862160261_127_tl_37" n="N039" break="no"/>faßt und begeistert acclamirt, bald unzählige Katzenmusiken
       <lb facs="#facs_3_region_1684862160261_127_tl_38" n="N040"/>ins Leben rief. Unvergeßlich bleibt mir eine davon, die mit
-      <lb facs="#facs_3_line_1706681474545_318" n="N041"/>
-               <hi rendition="#em">
-                  <rs type="person">Thalberg</rs>'s</hi> Abschiedsconcert in komische Verbindung gerieth.</p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1684862163752_130_tl_1" n="N001"/>Der berühmte Pianist, nach seiner letzten Nummer stürmisch
+      <lb facs="#facs_3_line_1706681474545_318" n="N041"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_830">Thalberg</rs>’s</hi> Abschiedsconcert in komische Verbindung gerieth.<space quantity="1" unit="char"/></p>
+            <cb n="8"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684862163752_130_tl_1" n="N001"/>Der berühmte Pianist, nach seiner letzten Nummer stürmisch
       <lb facs="#facs_3_region_1684862163752_130_tl_2" n="N002"/>hervorgerufen, setzte sich nochmals ans Clavier und begann
-      <lb facs="#facs_3_line_1706681513849_331" n="N003"/>mit der <rs type="bibl">Volkshymne</rs>, welcher ohne Zweifel brillante Varia¬
-      <lb facs="#facs_3_line_1706681528985_336" n="N004"/>tionen folgen sollten, aber schon während der ersten Tacte
+      <lb facs="#facs_3_line_1706681513849_331" n="N003"/>mit der <rs type="bibl" ref="#hsl_work_id_1005">Volkshymne</rs>, welcher ohne Zweifel brillante Varia
+      <lb facs="#facs_3_line_1706681528985_336" n="N004" break="no"/>tionen folgen sollten, aber schon während der ersten Tacte
       <lb facs="#facs_3_region_1684862163752_130_tl_3" n="N005"/>hörte man verdächtiges Pfeifen und Miauen von der Straße
-      <lb facs="#facs_3_region_1684862163752_130_tl_4" n="N006"/>her — <rs type="person">Thalberg</rs> merkte Unheil und schloß resignirt mit dem
+      <lb facs="#facs_3_region_1684862163752_130_tl_4" n="N006"/>her — <rs type="person" ref="#hsl_person_id_830">Thalberg</rs> merkte Unheil und schloß resignirt mit dem
       <lb facs="#facs_3_region_1684862163752_130_tl_5" n="N007"/>Thema <hi rendition="#em">ohne</hi> Variationen. Und in der That gerieth man
-      <lb facs="#facs_3_region_1684862163752_130_tl_6" n="N008"/>aus dem Concertsaal unmittelbar in ein anderes, sehr kräf¬
-      <lb facs="#facs_3_region_1684862163752_130_tl_7" n="N009"/>tiges Concert, welches in der Eigenschaft eines Ständchens
+      <lb facs="#facs_3_region_1684862163752_130_tl_6" n="N008"/>aus dem Concertsaal unmittelbar in ein anderes, sehr kräf
+      <lb facs="#facs_3_region_1684862163752_130_tl_7" n="N009" break="no"/>tiges Concert, welches in der Eigenschaft eines Ständchens
       <lb facs="#facs_3_region_1684862163752_130_tl_8" n="N010"/>der k. k. Polizei-Direction gebracht wurde. Das Publicum
-      <lb facs="#facs_3_region_1684862163752_130_tl_9" n="N011"/>war hier noch viel, viel zahlreicher als in <rs type="person">Thalberg</rs>'s Con¬
-      <lb facs="#facs_3_region_1684862163752_130_tl_10" n="N012"/>cert, schien aber nicht ebenso beifallslustig und anerkennend
+      <lb facs="#facs_3_region_1684862163752_130_tl_9" n="N011"/>war hier noch viel, viel zahlreicher als in <rs type="person" ref="#hsl_person_id_830">Thalberg</rs>’s Con
+      <lb facs="#facs_3_region_1684862163752_130_tl_10" n="N012" break="no"/>cert, schien aber nicht ebenso beifallslustig und anerkennend
       <lb facs="#facs_3_region_1684862163752_130_tl_11" n="N013"/>— es pfiff aus Leibeskräften.
-      <lb facs="#facs_3_region_1684862163752_130_tl_12" n="N014"/>Wenige Tage, bevor in <rs type="place">Wien</rs> das „<rs type="bibl">Fuchslied</rs>“ für immer
+            </p><p>
+      <lb facs="#facs_3_region_1684862163752_130_tl_12" n="N014"/>Wenige Tage, bevor in <rs type="place" ref="#hsl_place_id_55">Wien</rs> das „<rs type="bibl" ref="#hsl_work_id_2890">Fuchslied</rs>“ für immer
       <lb facs="#facs_3_region_1684862163752_130_tl_13" n="N015"/>verstummen sollte, an einem sonnigen October-Nachmittag,
-      <lb facs="#facs_3_region_1684862163752_130_tl_14" n="N016"/>stieß ich nächst der Universität auf den Dr. <hi rendition="#em">Alfred</hi>
-               <lb facs="#facs_3_region_1684862163752_130_tl_15" n="N017"/>
-               <hi rendition="#em">
-                  <rs type="person">Becher</rs>
-               </hi>. Er hatte sich aus dem harmlosen Componisten
-      <lb facs="#facs_3_region_1684862163752_130_tl_16" n="N018"/>und Musik-Kritiker in den radicalsten Journalisten der Re¬
-      <lb facs="#facs_3_region_1684862163752_130_tl_17" n="N019"/>volutionspartei umgewandelt. Das Gewehr geschultert, mit
+      <lb facs="#facs_3_region_1684862163752_130_tl_14" n="N016"/>stieß ich nächst der Universität auf den Dr. <hi rendition="#em">Alfred
+      <lb facs="#facs_3_region_1684862163752_130_tl_15" n="N017"/><rs type="person" ref="#hsl_person_id_414">Becher</rs></hi>. Er hatte sich aus dem harmlosen Componisten
+      <lb facs="#facs_3_region_1684862163752_130_tl_16" n="N018"/>und Musik-Kritiker in den radicalsten Journalisten der Re
+      <lb facs="#facs_3_region_1684862163752_130_tl_17" n="N019" break="no"/>volutionspartei umgewandelt. Das Gewehr geschultert, mit
       <lb facs="#facs_3_region_1684862163752_130_tl_18" n="N020"/>rasselndem Schleppsäbel und zerknülltem Calabreser begrüßte
       <lb facs="#facs_3_region_1684862163752_130_tl_19" n="N021"/>er mich kurz: „Wohin? Kommen Sie mit mir auf die
-      <lb facs="#facs_3_region_1684862163752_130_tl_20" n="N022"/>
-               <rs type="place">Rothenthurmbastei</rs>, wir brauchen noch junge Leute!“ —
+      <lb facs="#facs_3_region_1684862163752_130_tl_20" n="N022"/>Rothenthurmbastei, wir brauchen noch junge Leute!“ —
       <lb facs="#facs_3_region_1684862163752_130_tl_21" n="N023"/>„Fällt mir nicht ein,“ erwiderte ich. „Aber Sie, lieber
-      <lb facs="#facs_3_line_1706684997512_832" n="N024"/>
-               <rs type="person">Becher</rs>, sollten lieber mit mir kommen; ich wäre glücklich,
+      <lb facs="#facs_3_line_1706684997512_832" n="N024"/><rs type="person" ref="#hsl_person_id_414">Becher</rs>, sollten lieber mit mir kommen; ich wäre glücklich,
       <lb facs="#facs_3_line_1706681439057_309" n="N025"/>sähe ich Sie wieder zu Ihrer Kunst, zur Musik, zurückkehren
       <lb facs="#facs_3_line_1706681450529_314" n="N026"/>aus diesem aussichtslosen, verderblichen Treiben!“ — „Wird
-      <lb facs="#facs_3_region_1684862163752_130_tl_26" n="N027"/>auch geschehen, wird gewiß bald geschehen!“ rief er mir be¬
-      <lb facs="#facs_3_region_1684862163752_130_tl_27" n="N028"/>gütigend zu und eilte weiter. Ich habe ihn nie wieder ge¬
-      <lb facs="#facs_3_region_1684862163752_130_tl_28" n="N029"/>sehen. Er war kriegsrechtlich wegen Hochverraths verurtheilt
-      <lb facs="#facs_3_region_1684862163752_130_tl_29" n="N030"/>und am 23. November <date month="0" day="0" year="0">1848</date> erschossen worden. Obgleich
+      <lb facs="#facs_3_region_1684862163752_130_tl_26" n="N027"/>auch geschehen, wird gewiß bald geschehen!“ rief er mir be
+      <lb facs="#facs_3_region_1684862163752_130_tl_27" n="N028" break="no"/>gütigend zu und eilte weiter. Ich habe ihn nie wieder ge
+      <lb facs="#facs_3_region_1684862163752_130_tl_28" n="N029" break="no"/>sehen. Er war kriegsrechtlich wegen Hochverraths verurtheilt
+      <lb facs="#facs_3_region_1684862163752_130_tl_29" n="N030"/>und am 23. November <date>1848</date> erschossen worden. Obgleich
       <lb facs="#facs_3_region_1684862163752_130_tl_30" n="N031"/>ich eigentlich nie in intimerem freundschaftlichen Verkehre
       <lb facs="#facs_3_line_1706681348369_275" n="N032"/>mit ihm gestanden habe, ging mir sein schreckliches Ende doch
-      <lb facs="#facs_3_region_1684862163752_130_tl_31" n="N033"/>sehr nahe. <rs type="person">Becher</rs> war ein unsteter, leidenschaftlicher, aber
+      <lb facs="#facs_3_region_1684862163752_130_tl_31" n="N033"/>sehr nahe. <rs type="person" ref="#hsl_person_id_414">Becher</rs> war ein unsteter, leidenschaftlicher, aber
       <lb facs="#facs_3_region_1684862163752_130_tl_32" n="N034"/>sehr begabter und im Grunde redlicher Mensch gewesen;
-      <lb facs="#facs_3_region_1684862163752_130_tl_33" n="N035"/>überdies der beste Musikkritiker des vormärzlichen <rs type="place">Wien</rs>, ja
+      <lb facs="#facs_3_region_1684862163752_130_tl_33" n="N035"/>überdies der beste Musikkritiker des vormärzlichen <rs type="place" ref="#hsl_place_id_55">Wien</rs>, ja
       <lb facs="#facs_3_region_1684862163752_130_tl_34" n="N036"/>der einzige, der überhaupt ernst zu nehmen war. Von
-      <lb facs="#facs_3_region_1684862163752_130_tl_35" n="N037"/>
-               <rs type="place">deutsch</rs>en Eltern in <rs type="place">Manchester</rs> geboren, hatte er in <rs type="place">Leipzig</rs>
-               <lb facs="#facs_3_region_1684862163752_130_tl_36" n="N038"/>Musik studirt und eine große Verehrung für <rs type="person">Mendelssohn</rs>
-               <lb facs="#facs_3_region_1684862163752_130_tl_37" n="N039"/>von dort mitgenommen. In <rs type="place">Wien</rs> — ich weiß nicht, welcher
-      <lb facs="#facs_3_line_1706681374120_282" n="N040"/>Anlaß ihn hergeführt — gab er einige Musikstunden, com¬
-      <lb facs="#facs_3_region_1684862163752_130_tl_38" n="N041"/>ponirte und schrieb zeitweilig für die „<rs type="bibl">Sonntagsblätter</rs>“ und</p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1684862167180_133_tl_1" n="N001"/>
-               <rs type="person">Schmidt</rs>'s <rs type="bibl">Musikzeitung</rs>. Er hielt viel größere Stücke auf
+      <lb facs="#facs_3_region_1684862163752_130_tl_35" n="N037"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Eltern in <rs type="place" ref="#hsl_place_id_525">Manchester</rs> geboren, hatte er in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684862163752_130_tl_36" n="N038"/>Musik studirt und eine große Verehrung für <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684862163752_130_tl_37" n="N039"/>von dort mitgenommen. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> — ich weiß nicht, welcher
+      <lb facs="#facs_3_line_1706681374120_282" n="N040"/>Anlaß ihn hergeführt — gab er einige Musikstunden, com
+      <lb facs="#facs_3_region_1684862163752_130_tl_38" n="N041" break="no"/>ponirte und schrieb zeitweilig für die „<rs type="bibl" ref="#hsl_work_id_695">Sonntagsblätter</rs>“ und<space quantity="1" unit="char"/></p>
+            <cb n="9"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684862167180_133_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_3766">Schmidt</rs>’s <rs type="bibl" ref="#hsl_work_id_2285">Musikzeitung</rs>. Er hielt viel größere Stücke auf
       <lb facs="#facs_3_region_1684862167180_133_tl_2" n="N002"/>seine Compositionen, als auf seine Kritiken; mir schien das
       <lb facs="#facs_3_region_1684862167180_133_tl_3" n="N003"/>Umgekehrte richtig. Er war ein grübelnder Componist, welcher
-      <lb facs="#facs_3_region_1684862167180_133_tl_4" n="N004"/>geistreiche, oft abstruse Combination für musikalische Erfin¬
-      <lb facs="#facs_3_region_1684862167180_133_tl_5" n="N005"/>dung hielt. Ein Heft <rs type="bibl">Clavierstücke</rs>, meines Wissens die einzige
+      <lb facs="#facs_3_region_1684862167180_133_tl_4" n="N004"/>geistreiche, oft abstruse Combination für musikalische Erfin
+      <lb facs="#facs_3_region_1684862167180_133_tl_5" n="N005" break="no"/>dung hielt. Ein Heft <rs type="bibl" ref="#hsl_work_id_2893 #hsl_work_id_2899">Clavierstücke</rs>, meines Wissens die einzige
       <lb facs="#facs_3_region_1684862167180_133_tl_6" n="N006"/>gedruckte Composition von ihm, gewährte, theilweise an
-      <lb facs="#facs_3_region_1684862167180_133_tl_7" n="N007"/>
-               <rs type="person">Mendelssohn</rs> anlehnend, noch einiges Vergnügen; eine
-      <lb facs="#facs_3_region_1684862167180_133_tl_8" n="N008"/>
-               <rs type="bibl">Symphonie</rs> und ein <rs type="bibl">Streichquartett</rs> hingegen, beide auf den
-      <lb facs="#facs_3_region_1684862167180_133_tl_9" n="N009"/>späteren <rs type="person">Beethoven</rs> „fortbauend“, machten den Eindruck des
-      <lb facs="#facs_3_region_1684862167180_133_tl_10" n="N010"/>trostlos Erzwungenen. <rs type="person">Grillparzer</rs> hat <rs type="bibl">Becher</rs>'s Musik mit
-      <lb facs="#facs_3_region_1684862167180_133_tl_11" n="N011"/>folgendem Epigramm von wahrhaft vernichtender Anschaulich¬
-      <lb facs="#facs_3_region_1684862167180_133_tl_12" n="N012"/>keit charakterisirt:
-      <lb facs="#facs_3_line_1706681553721_355" n="N013"/>Dein Quartett klang, als wenn Einer
-      <lb facs="#facs_3_line_1706681556902_358" n="N014"/>Mit der Axt gewicht'gen Schlägen
-      <lb facs="#facs_3_line_1706681559825_361" n="N015"/>Und drei Weiber, welche sägen,
-      <lb facs="#facs_3_line_1706681564025_364" n="N016"/>Eine Klafter Holz verkleiner'!
+      <lb facs="#facs_3_region_1684862167180_133_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> anlehnend, noch einiges Vergnügen; eine
+      <lb facs="#facs_3_region_1684862167180_133_tl_8" n="N008"/><rs type="bibl" ref="#hsl_work_id_2894">Symphonie</rs> und ein <rs type="bibl" ref="#hsl_work_id_2896 #hsl_work_id_2898 #hsl_work_id_2897">Streichquartett</rs> hingegen, beide auf den
+      <lb facs="#facs_3_region_1684862167180_133_tl_9" n="N009"/>späteren <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> „fortbauend“, machten den Eindruck des
+      <lb facs="#facs_3_region_1684862167180_133_tl_10" n="N010"/>trostlos Erzwungenen. <rs type="person" ref="#hsl_person_id_721">Grillparzer</rs> hat <rs type="person" ref="#hsl_person_id_414">Becher</rs>’s Musik mit
+      <lb facs="#facs_3_region_1684862167180_133_tl_11" n="N011"/>folgendem Epigramm von wahrhaft vernichtender Anschaulich
+      <lb facs="#facs_3_region_1684862167180_133_tl_12" n="N012" break="no"/>keit charakterisirt:
+      <lb facs="#facs_3_line_1706681553721_355" n="N013"/><l>Dein Quartett klang, als wenn Einer</l>
+      <lb facs="#facs_3_line_1706681556902_358" n="N014"/><l>Mit der Axt gewicht’gen Schlägen</l>
+      <lb facs="#facs_3_line_1706681559825_361" n="N015"/><l>Und drei Weiber, welche sägen,</l>
+      <lb facs="#facs_3_line_1706681564025_364" n="N016"/><l>Eine Klafter Holz verkleiner’!</l>
+            </p><p>
       <lb facs="#facs_3_region_1684862167180_133_tl_13" n="N017"/>Wie eine traurige Ironie des Schicksals erscheint es,
-      <lb facs="#facs_3_region_1684862167180_133_tl_14" n="N018"/>daß <rs type="person">Becher</rs> im letzten Spirituel-Concert (Ende April) einen
-      <lb facs="#facs_3_line_1706681546858_346" n="N019"/>Trauermarsch mit Chor: „<rs type="bibl">Ueber den Gräbern der am</rs>
-               <lb facs="#facs_3_line_1706681550553_352" n="N020"/>
-               <rs type="bibl">13. März Gefallenen</rs>“, zur Aufführung brachte, in deren
-      <lb facs="#facs_3_region_1684862167180_133_tl_19" n="N021"/>Schlußstrophe er die <rs type="place">österreichisch</rs>e <rs type="bibl">Volkshymne</rs> verwebte!
+      <lb facs="#facs_3_region_1684862167180_133_tl_14" n="N018"/>daß <rs type="person" ref="#hsl_person_id_414">Becher</rs> im letzten Spirituel-Concert (Ende April) einen
+      <lb facs="#facs_3_line_1706681546858_346" n="N019"/>Trauermarsch mit Chor: „<rs type="bibl" ref="#hsl_work_id_2900">Ueber den Gräbern der am
+      <lb facs="#facs_3_line_1706681550553_352" n="N020"/>13. März Gefallenen</rs>“, zur Aufführung brachte, in deren
+      <lb facs="#facs_3_region_1684862167180_133_tl_19" n="N021"/>Schlußstrophe er die <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>e <rs type="bibl" ref="#hsl_work_id_1005">Volkshymne</rs> verwebte!
       <lb facs="#facs_3_region_1684862167180_133_tl_20" n="N022"/>Wenige Monate nach dieser patriotischen Gelegenheits-Musik
-      <lb facs="#facs_3_region_1684862167180_133_tl_21" n="N023"/>wurde der Componist als Hochverräther hingerichtet. <rs type="person">Becher</rs>
-               <lb facs="#facs_3_region_1684862167180_133_tl_22" n="N024"/>frappirte durch seine auffallende Erscheinung; eine lange,
-      <lb facs="#facs_3_region_1684862167180_133_tl_23" n="N025"/>hagere Gestalt mit einem <rs type="person">Shakespeare</rs>-Kopfe, von dessen
+      <lb facs="#facs_3_region_1684862167180_133_tl_21" n="N023"/>wurde der Componist als Hochverräther hingerichtet. <rs type="person" ref="#hsl_person_id_414">Becher</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684862167180_133_tl_22" n="N024"/>frappirte durch seine auffallende Erscheinung; eine lange,
+      <lb facs="#facs_3_region_1684862167180_133_tl_23" n="N025"/>hagere Gestalt mit einem <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs>-Kopfe, von dessen
       <lb facs="#facs_3_region_1684862167180_133_tl_24" n="N026"/>hoher, bereits etwas kahler Stirne lange, graublonde Haare
       <lb facs="#facs_3_region_1684862167180_133_tl_25" n="N027"/>bis auf die Schultern fielen. Er war sehr nachlässig gekleidet,
       <lb facs="#facs_3_region_1684862167180_133_tl_26" n="N028"/>nervös-unruhig in seinen Bewegungen und sah in Folge
-      <lb facs="#facs_3_region_1684862167180_133_tl_27" n="N029"/>seines unregelmäßigen Lebens früh gealtert aus. <rs type="person">Becher</rs>
-               <lb facs="#facs_3_region_1684862167180_133_tl_28" n="N030"/>mochte viel Aehnlichkeit mit dem genialen, unordentlichen und
-      <lb facs="#facs_3_region_1684862167180_133_tl_29" n="N031"/>gleichfalls dem Weine ergebenen F. A. <rs type="person">Kanne</rs> haben, dem
-      <lb facs="#facs_3_region_1684862167180_133_tl_30" n="N032"/>besten <rs type="place">Wien</rs>er Musikkritiker zu <rs type="person">Beethoven</rs>'s Zeit. Die Namen
-      <lb facs="#facs_3_region_1684862167180_133_tl_31" n="N033"/>
-               <rs type="person">Kanne</rs> und <rs type="person">Becher</rs> waren für Beide sehr bezeichnend. Wie
+      <lb facs="#facs_3_region_1684862167180_133_tl_27" n="N029"/>seines unregelmäßigen Lebens früh gealtert aus. <rs type="person" ref="#hsl_person_id_414">Becher</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684862167180_133_tl_28" n="N030"/>mochte viel Aehnlichkeit mit dem genialen, unordentlichen und
+      <lb facs="#facs_3_region_1684862167180_133_tl_29" n="N031"/>gleichfalls dem Weine ergebenen F. A. <rs type="person" ref="#hsl_person_id_2663">Kanne</rs> haben, dem
+      <lb facs="#facs_3_region_1684862167180_133_tl_30" n="N032"/>besten <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Musikkritiker zu <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Zeit. Die Namen
+      <lb facs="#facs_3_region_1684862167180_133_tl_31" n="N033"/><rs type="person" ref="#hsl_person_id_2663">Kanne</rs> und <rs type="person" ref="#hsl_person_id_414">Becher</rs> waren für Beide sehr bezeichnend. Wie
       <lb facs="#facs_3_region_1684862167180_133_tl_32" n="N034"/>es geschehen konnte, daß dieser der Politik ganz fernstehende
       <lb facs="#facs_3_region_1684862167180_133_tl_33" n="N035"/>fünfundvierzigjährige Mann sich so weit in das wüste Treiben
-      <lb facs="#facs_3_region_1684862167180_133_tl_34" n="N036"/>der extremsten <rs type="place">Wien</rs>er Revolutionspartei verstricken ließ, ist
+      <lb facs="#facs_3_region_1684862167180_133_tl_34" n="N036"/>der extremsten <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Revolutionspartei verstricken ließ, ist
       <lb facs="#facs_3_region_1684862167180_133_tl_35" n="N037"/>mir nie ganz klar geworden. Er hat seine nachgiebige
       <lb facs="#facs_3_region_1684862167180_133_tl_36" n="N038"/>Schwäche und Verblendung schwer gebüßt. Dem politischen
       <lb facs="#facs_3_region_1684862167180_133_tl_37" n="N039"/>Fortschritt ist er von gar keinem Nutzen gewesen, für die
-      <lb facs="#facs_3_region_1684862167180_133_tl_38" n="N040"/>musikalische Bildung <rs type="place">Wien</rs>s hätte er gewiß noch sehr förder¬
-      <lb facs="#facs_3_line_1706681494361_323" n="N041"/>lich gewirkt.</p>
+      <lb facs="#facs_3_region_1684862167180_133_tl_38" n="N040"/>musikalische Bildung <rs type="place" ref="#hsl_place_id_55">Wien</rs>s hätte er gewiß noch sehr förder
+      <lb facs="#facs_3_line_1706681494361_323" n="N041" break="no"/>lich gewirkt.</p>
          </div>
       </body>
    </text>
