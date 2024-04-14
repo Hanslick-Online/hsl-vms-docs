@@ -109,8 +109,9 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2024-02-25">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-03-17">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change when="2024-03-18" who="ampfiel">header, Zeilenumbrüche, Absätze</change>
-            <change when="2024-03-21" who="ampfiel">ref rs place</change>
+         <change when="2024-03-18" who="ampfiel">header, Zeilenumbrüche, Absätze</change>
+         <change when="2024-03-21" who="ampfiel">ref rs place</change>
+         <change when="2024-04-05" who="ampfiel">ref rs person und bibl fertig, space eingefügt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -866,68 +867,52 @@
       <head type="h1">
             <lb facs="#facs_1_region_1684596429633_3327_tl_1" n="N001"/><hi rendition="#em">Musik</hi>.</head>
       <head type="h2">
-            <lb facs="#facs_1_region_1684596429633_3327_tl_2" n="N002"/>(„<rs type="bibl">Figaro’s Hochzeit</rs>“. — Fräulein <hi rendition="#em">
-                  <rs type="person">Edelsberg</rs>
-               </hi> als <rs type="person">Fides</rs> und <rs type="person">Valentine</rs>. — Concerte.)</head>
+            <lb facs="#facs_1_region_1684596429633_3327_tl_2" n="N002"/>(„<rs type="bibl" ref="#hsl_work_id_4">Figaro’s Hochzeit</rs>“. — Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1540">Edelsberg</rs></hi> als <rs type="person" ref="#hsl_person_id_533">Fides</rs> und <rs type="person" ref="#hsl_person_id_666">Valentine</rs>. — Concerte.)</head>
             <p>
-      <lb facs="#facs_1_region_1684596429633_3327_tl_3" n="N003"/>Ed. A. <hi rendition="#em">
-                  <rs type="person">Mozart</rs>’s</hi> Geburtstag (<date when="">27. Januar</date>) wurde im
-      <lb facs="#facs_1_region_1684596429633_3327_tl_4" n="N004"/>Hofoperntheater durch eine Wiederholung von „<rs type="bibl">Figaro’s Hoch
+      <lb facs="#facs_1_region_1684596429633_3327_tl_3" n="N003"/>Ed. A. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi> Geburtstag (<date when="1756-01-27">27. Januar</date>) wurde im
+      <lb facs="#facs_1_region_1684596429633_3327_tl_4" n="N004"/>Hofoperntheater durch eine Wiederholung von „<rs type="bibl" ref="#hsl_work_id_4">Figaro’s Hoch
       <lb facs="#facs_1_line_1708618804304_875" n="N005" break="no"/>zeit</rs>“ gefeiert. Nachdem die gegenwärtige Besetzung dieser
       <lb facs="#facs_1_region_1684596429633_3327_tl_7" n="N006"/>Oper vor Kurzem besprochen wurde, gestattet man mir wol
       <lb facs="#facs_1_region_1684596429633_3327_tl_8" n="N007"/>heute einige allgemeine Bemerkungen. Sie sind der Nachhall
       <lb facs="#facs_1_region_1684596429633_3327_tl_9" n="N008"/>eines persönlichen Erlebnisses, nämlich einer Aufführung von
-      <lb facs="#facs_1_region_1684596429633_3327_tl_10" n="N009"/><hi rendition="#em">
-                  <rs type="person">Beaumarchais</rs>
-               </hi>’ Lustspiel „<rs type="bibl">Le mariage de Figaro</rs>“, die
+      <lb facs="#facs_1_region_1684596429633_3327_tl_10" n="N009"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs></hi>’ Lustspiel „<rs type="bibl" ref="#hsl_work_id_5">Le mariage de Figaro</rs>“, die
       <lb facs="#facs_1_region_1684596429633_3327_tl_11" n="N010"/>ich im Sommer in der Comédie Française sah und deren
-      <lb facs="#facs_1_region_1684596429633_3327_tl_12" n="N011"/>Bild mich nun Scene für Scene die ganze <hi rendition="#em">
-                  <rs type="person">Mozart</rs></hi>’sche
+      <lb facs="#facs_1_region_1684596429633_3327_tl_12" n="N011"/>Bild mich nun Scene für Scene die ganze <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi>’sche
       <lb facs="#facs_1_region_1684596429633_3327_tl_13" n="N012"/>Oper entlang verfolgt hat. Aus der bloßen Lectüre dieses be
       <lb facs="#facs_1_region_1684596429633_3327_tl_14" n="N013" break="no"/>rühmten Stückes bildet man sich kaum eine Vorstellung von
       <lb facs="#facs_1_region_1684596429633_3327_tl_15" n="N014"/>der geistig berauschenden Wirkung, die es von der Bühne
       <lb facs="#facs_1_region_1684596429633_3327_tl_16" n="N015"/>herab hervorbringt. Diese Erfahrung kann man nur noch in
-      <lb facs="#facs_1_region_1684596429633_3327_tl_17" n="N016"/>
-               <rs type="place" ref="#hsl_place_id_44">Paris</rs> machen, wo der „<rs type="bibl">Barbier von Sevilla</rs>“ und „<rs type="bibl">Figaro’s</rs>
-      <lb facs="#facs_1_region_1684596429633_3327_tl_18" n="N017"/>
-               <rs type="bibl">Hochzeit</rs>“ von <hi rendition="#em">
-                  <rs type="person">Beaumarchais</rs></hi> — Lustspiele, die zu der
+      <lb facs="#facs_1_region_1684596429633_3327_tl_17" n="N016"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> machen, wo der „<rs type="bibl" ref="#hsl_work_id_3054">Barbier von Sevilla</rs>“ und „<rs type="bibl" ref="#hsl_work_id_5">Figaro’s
+      <lb facs="#facs_1_region_1684596429633_3327_tl_18" n="N017"/>Hochzeit</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs></hi> — Lustspiele, die zu der
       <lb facs="#facs_1_region_1684596429633_3327_tl_19" n="N018"/>besten aller Zeiten gehören — niemals vom Repertoire ver
       <lb facs="#facs_1_region_1684596429633_3327_tl_20" n="N019" break="no"/>schwunden sind. In <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> hatte man beide Stücke aus
       <lb facs="#facs_1_region_1684596429633_3327_tl_21" n="N020"/>politischer Aengstlichkeit vom Theater möglichst ferngehalten;
       <lb facs="#facs_1_region_1684596429633_3327_tl_22" n="N021"/>wo sie dennoch zur Aufführung kamen, wurden sie bald durch
-      <lb facs="#facs_1_region_1684596429633_3327_tl_23" n="N022"/>die siegreichen Opern-Bearbeitungen von <hi rendition="#em">
-                  <rs type="person">Mozart</rs></hi>, <hi rendition="#em">
-                  <rs type="person">Pai
-      <lb facs="#facs_1_region_1684596429633_3327_tl_24" n="N023" break="no"/>siello</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Rossini</rs></hi> für immer verdrängt. So sehr die so
-      <lb facs="#facs_1_region_1684596429633_3327_tl_25" n="N024" break="no"/>cialen Zustände sich seit <rs type="person">Beaumarchais</rs> geändert haben, die
-      <lb facs="#facs_1_region_1684596429633_3327_tl_26" n="N025"/>demagogischen Blitze, die aus seinen zwei Figaro-Comödien
+      <lb facs="#facs_1_region_1684596429633_3327_tl_23" n="N022"/>die siegreichen Opern-Bearbeitungen von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_929">Pai
+      <lb facs="#facs_1_region_1684596429633_3327_tl_24" n="N023" break="no"/>siello</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi> für immer verdrängt. So sehr die so
+      <lb facs="#facs_1_region_1684596429633_3327_tl_25" n="N024" break="no"/>cialen Zustände sich seit <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs> geändert haben, die
+      <lb facs="#facs_1_region_1684596429633_3327_tl_26" n="N025"/>demagogischen Blitze, die aus seinen zwei <rs type="bibl" ref="#hsl_work_id_5 hsl_work_id_3054">Figaro-Comödien</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684596429633_3327_tl_27" n="N026"/>zucken und einst die Welt in Brand stecken halfen, sie schla
       <lb facs="#facs_1_region_1684596429633_3327_tl_28" n="N027" break="no"/>gen in <rs type="place" ref="#hsl_place_id_44">Paris</rs> noch immer prasselnd ein. Dem <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Thea
-      <lb facs="#facs_1_region_1684596429633_3327_tl_29" n="N028" break="no"/>ter-Besucher, der den Melodien des <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi>’schen „<rs type="bibl">Figaro</rs>“
+      <lb facs="#facs_1_region_1684596429633_3327_tl_29" n="N028" break="no"/>ter-Besucher, der den Melodien des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi>’schen „<rs type="bibl" ref="#hsl_work_id_4">Figaro</rs>“
       <lb facs="#facs_1_region_1684596429633_3327_tl_30" n="N029"/>andächtig lauscht, fällt es kaum mehr in den Sinn, welch
       <lb facs="#facs_1_region_1684596429633_3327_tl_31" n="N030"/>merkwürdige politische Rolle das <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Urbild dieser
       <lb facs="#facs_1_region_1684596429633_3327_tl_32" n="N031"/>Oper einst gespielt. Schon das erste (<date when="1775">1775</date> aufgeführte) Lust
-      <lb facs="#facs_1_region_1684596429633_3327_tl_33" n="N032" break="no"/>spiel von <hi rendition="#em">
-                  <rs type="person">Beaumarchais</rs>
-               </hi>: „<rs type="bibl">Le barbier de Séville</rs>“, wol
-      <lb facs="#facs_1_region_1684596429633_3327_tl_34" n="N033"/>das ergötzlichste Intriguenstück seit <rs type="person">Molière</rs>, war eine demo
+      <lb facs="#facs_1_region_1684596429633_3327_tl_33" n="N032" break="no"/>spiel von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_3054">Le barbier de Séville</rs>“, wol
+      <lb facs="#facs_1_region_1684596429633_3327_tl_34" n="N033"/>das ergötzlichste Intriguenstück seit <rs type="person" ref="#hsl_person_id_864">Molière</rs>, war eine demo
       <lb facs="#facs_1_region_1684596429633_3327_tl_35" n="N034" break="no"/>kratische That. Während sonst auf der Bühne wie im Leben
       <lb facs="#facs_1_region_1684596429633_3327_tl_36" n="N035"/>regelmäßig die Niedriggeborenen gefoppt und verspottet wur
-      <lb facs="#facs_1_region_1684596429633_3327_tl_37" n="N036" break="no"/>den, wendet sich hier plötzlich das Blatt, ein simpler <rs type="person">Barbier</rs>
+      <lb facs="#facs_1_region_1684596429633_3327_tl_37" n="N036" break="no"/>den, wendet sich hier plötzlich das Blatt, ein simpler <rs type="person" ref="#hsl_person_id_4689">Barbier</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684596429633_3327_tl_38" n="N037"/>leitet keck die Fäden der Intrigue und triumphirt durch seine
       <lb facs="#facs_1_region_1684596429633_3327_tl_39" n="N038"/>geistige Ueberlegenheit über die Reichen und Großen. Dieses
-      <lb facs="#facs_1_region_1684596429633_3327_tl_40" n="N039"/>Thema des Widerstandes, im „<rs type="bibl">Barbier</rs>“ mehr angedeutet
-      <lb facs="#facs_1_line_1708618876376_923" n="N040"/>und präludirt, bricht nun in „<rs type="bibl">Figaro’s Hochzeit</rs>“ in vollen</p>
+      <lb facs="#facs_1_region_1684596429633_3327_tl_40" n="N039"/>Thema des Widerstandes, im „<rs type="bibl" ref="#hsl_work_id_3054">Barbier</rs>“ mehr angedeutet
+      <lb facs="#facs_1_line_1708618876376_923" n="N040"/>und präludirt, bricht nun in „<rs type="bibl" ref="#hsl_work_id_5">Figaro’s Hochzeit</rs>“ in vollen</p>
             <cb n="2"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1684596432845_3330_tl_1" n="N001"/>Accorden los. „<rs type="bibl">Une folle journée, ou: Le ma
+      <lb facs="#facs_1_region_1684596432845_3330_tl_1" n="N001"/>Accorden los. „<rs type="bibl" ref="#hsl_work_id_5">Une folle journée, ou: Le ma
       <lb facs="#facs_1_region_1684596432845_3330_tl_2" n="N002" break="no"/>riage de Figaro</rs>“ wurde im Jahre <date when="1781">1781</date> vollendet
       <lb facs="#facs_1_region_1684596432845_3330_tl_3" n="N003"/>und eingereicht, aber erst nach dreijährigem unausgesetzten
-      <lb facs="#facs_1_region_1684596432845_3330_tl_4" n="N004"/>Kampf gegen zahllose Verbote und Hindernisse gelang es <rs type="person">Beau
+      <lb facs="#facs_1_region_1684596432845_3330_tl_4" n="N004"/>Kampf gegen zahllose Verbote und Hindernisse gelang es <rs type="person" ref="#hsl_person_id_11">Beau
       <lb facs="#facs_1_region_1684596432845_3330_tl_5" n="N005" break="no"/>marchais</rs>, die Comödie zu Aufführung zu bringen. Natürlich
       <lb facs="#facs_1_region_1684596432845_3330_tl_6" n="N006"/>war ganz <rs type="place" ref="#hsl_place_id_44">Paris</rs> in fieberhafter Spannung und belagerte am
       <lb facs="#facs_1_line_1708618899816_941" n="N007"/>Tage der ersten Vorstellung (<date when="1784-04-27">27. April 1784</date>) das Théâtre
@@ -935,46 +920,38 @@
       <lb facs="#facs_1_region_1684596432845_3330_tl_8" n="N009"/>Mittagbrot in den Logen und Garderoben der Schauspielerin
       <lb facs="#facs_1_region_1684596432845_3330_tl_9" n="N010" break="no"/>nen, um frühzeitig auf ihre Plätze zu gelangen. Das Stück
       <lb facs="#facs_1_region_1684596432845_3330_tl_10" n="N011"/>spielte von halb 6 bis 10 Uhr, eine bishin unerhört lange
-      <lb facs="#facs_1_region_1684596432845_3330_tl_11" n="N012"/>Dauer. Der Erfolg war stürmisch. „<rs type="bibl">Die Hochzeit des Figaro</rs>“
+      <lb facs="#facs_1_region_1684596432845_3330_tl_11" n="N012"/>Dauer. Der Erfolg war stürmisch. „<rs type="bibl" ref="#hsl_work_id_5">Die Hochzeit des Figaro</rs>“
       <lb facs="#facs_1_region_1684596432845_3330_tl_12" n="N013"/>wurde durch 68 Abende nacheinander gegeben und hat in acht
       <lb facs="#facs_1_region_1684596432845_3330_tl_13" n="N014"/>Monaten dem Theater an 300,000 Francs, dem Autor über
       <lb facs="#facs_1_region_1684596432845_3330_tl_14" n="N015"/>40,000 Francs reinen Gewinn getragen. Der Grundgedanke
       <lb facs="#facs_1_region_1684596432845_3330_tl_15" n="N016"/>der socialen Gleichberechtigung und der Ueberlegenheit des
       <lb facs="#facs_1_region_1684596432845_3330_tl_16" n="N017"/>Geistes ist mit glänzendem Witz und rücksichtsloser Kühnheit
-      <lb facs="#facs_1_line_1708618927750_969" n="N018"/>entwickelt. Es ist eine treffende Bemerkung von <hi rendition="#em">St. 
-            <rs type="person">Beuve</rs></hi>,
+      <lb facs="#facs_1_line_1708618927750_969" n="N018"/>entwickelt. Es ist eine treffende Bemerkung von <hi rendition="#em">St. <rs type="person" ref="#hsl_person_id_4690">Beuve</rs></hi>,
       <lb facs="#facs_1_region_1684596432845_3330_tl_17" n="N019"/>daß die damalige Gesellschaft ihren Untergang nicht in dem
       <lb facs="#facs_1_region_1684596432845_3330_tl_18" n="N020"/>Grade verdient haben würde, hätte sie nicht an dem Abende
       <lb facs="#facs_1_region_1684596432845_3330_tl_19" n="N021"/>und hundertmal nacheinander mit Entzücken dieser frechen Ver
       <lb facs="#facs_1_region_1684596432845_3330_tl_20" n="N022" break="no"/>spottung ihrer selbst beigewohnt. Noch unbegreiflicher bleibt,
       <lb facs="#facs_1_region_1684596432845_3330_tl_21" n="N023"/>daß der Hof selbst das Stück <date when="1785">1785</date> in Petit-Trianon spielte;
-      <lb facs="#facs_1_region_1684596432845_3330_tl_22" n="N024"/>die <rs type="person">Königin</rs> gab die <rs type="person">Rosine</rs>, der <rs type="person">Graf</rs> v. Artois den <rs type="person">Figaro</rs>.
-      <lb facs="#facs_1_region_1684596432845_3330_tl_23" n="N025"/>
-               <rs type="person">Beaumarchais</rs>’ „<rs type="person">Figaro</rs>“ war aber, wie sich <hi rendition="#em">
-                  <rs type="person">Napoleon</rs></hi> spä
+      <lb facs="#facs_1_region_1684596432845_3330_tl_22" n="N024"/>die <rs type="person" ref="#hsl_person_id_4298">Königin</rs> gab die <rs type="person" ref="#hsl_person_id_4687">Rosine</rs>, der <rs type="person" ref="#hsl_person_id_4693">Graf</rs> v. Artois den <rs type="person" ref="#hsl_person_id_4691">Figaro</rs>.
+      <lb facs="#facs_1_region_1684596432845_3330_tl_23" n="N025"/><rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>’ „<rs type="bibl" ref="#hsl_work_id_5">Figaro</rs>“ war aber, wie sich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_39">Napoleon</rs></hi> spä
       <lb facs="#facs_1_region_1684596432845_3330_tl_24" n="N026" break="no"/>ter ausdrückte, „la révolution déjà en action“.</p>
                <p>
-      <lb facs="#facs_1_region_1684596432845_3330_tl_25" n="N027"/><hi rendition="#em">
-                  <rs type="person">Mozart</rs></hi> (oder sein Textdichter L. da <hi rendition="#em">
-                  <rs type="person">Ponte</rs></hi>) folgt dem
+      <lb facs="#facs_1_region_1684596432845_3330_tl_25" n="N027"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> (oder sein Textdichter L. da <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1890">Ponte</rs></hi>) folgt dem
       <lb facs="#facs_1_region_1684596432845_3330_tl_26" n="N028"/>Gange des <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Lustspiels mit merkwürdiger Treue.
       <lb facs="#facs_1_region_1684596432845_3330_tl_27" n="N029"/>Wenn der Vorhang im Théâtre Français auffliegt und wir
-      <lb facs="#facs_1_region_1684596432845_3330_tl_28" n="N030"/>
-               <rs type="person">Figaro</rs> mit dem Zollstab das Zimmer ausmessen sehen, wäh
-      <lb facs="#facs_1_region_1684596432845_3330_tl_29" n="N031" break="no"/>rend <rs type="person">Susanne</rs> vor dem Spiegel ein kokettes Hütchen probirt,
-      <lb facs="#facs_1_region_1684596432845_3330_tl_30" n="N032"/>so glaubt man unwillkürlich, die Beiden würden das <rs type="person">Mozart</rs>
+      <lb facs="#facs_1_region_1684596432845_3330_tl_28" n="N030"/><rs type="person" ref="#hsl_person_id_4691">Figaro</rs> mit dem Zollstab das Zimmer ausmessen sehen, wäh
+      <lb facs="#facs_1_region_1684596432845_3330_tl_29" n="N031" break="no"/>rend <rs type="person" ref="#hsl_person_id_4692">Susanne</rs> vor dem Spiegel ein kokettes Hütchen probirt,
+      <lb facs="#facs_1_region_1684596432845_3330_tl_30" n="N032"/>so glaubt man unwillkürlich, die Beiden würden das <rs type="person" ref="#hsl_person_id_189">Mozart</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684596432845_3330_tl_31" n="N033" break="no"/>sche Duett anstimmen. Wir hören in der That dessen Worte,
-      <lb facs="#facs_1_region_1684596432845_3330_tl_32" n="N034"/>wenn auch nur gesprochen. <rs type="person">Bartholo</rs> und <rs type="person">Marzelline</rs> treten
-      <lb facs="#facs_1_region_1684596432845_3330_tl_33" n="N035"/>hierauf ein, zwischen dieser und <rs type="person">Susanne</rs> entbrennt der Zwei
-      <lb facs="#facs_1_line_1708618959936_1001" n="N036" break="no"/>kampf mit immer tieferen Knixen und spitzeren Worten. <hi rendition="#em">
-                  <rs type="person">Che
-      <lb facs="#facs_1_line_1708618984436_1014" n="N037" break="no"/>rubin</rs>
-               </hi> klagt <rs type="person">Susannen</rs> sein Herzeleid, entwendet das rothe
+      <lb facs="#facs_1_region_1684596432845_3330_tl_32" n="N034"/>wenn auch nur gesprochen. <rs type="person" ref="#hsl_person_id_4695">Bartholo</rs> und <rs type="person" ref="#hsl_person_id_4696">Marzelline</rs> treten
+      <lb facs="#facs_1_region_1684596432845_3330_tl_33" n="N035"/>hierauf ein, zwischen dieser und <rs type="person" ref="#hsl_person_id_4692">Susanne</rs> entbrennt der Zwei
+      <lb facs="#facs_1_line_1708618959936_1001" n="N036" break="no"/>kampf mit immer tieferen Knixen und spitzeren Worten. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4697">Che
+      <lb facs="#facs_1_line_1708618984436_1014" n="N037" break="no"/>rubin</rs></hi> klagt <rs type="person" ref="#hsl_person_id_4692">Susannen</rs> sein Herzeleid, entwendet das rothe
       <lb facs="#facs_1_region_1684596432845_3330_tl_36" n="N038"/>Seidenband, versteckt sich hinter den Lehnstuhl beim Eintritt
-      <lb facs="#facs_1_region_1684596432845_3330_tl_37" n="N039"/>des <rs type="person">Grafen</rs> u. s. f. — Alles wie in der Oper. Der zweite
-      <lb facs="#facs_1_region_1684596432845_3330_tl_38" n="N040"/>Act beginnt mit dem Gespräche zwischen der <rs type="person">Gräfin</rs> und <rs type="person">Susanne</rs>,
-      <lb facs="#facs_1_region_1684596432845_3330_tl_39" n="N041"/>welche schließlich den bittenden <rs type="person">Cherubin</rs> introducirt. Wäre
-      <lb facs="#facs_1_region_1684596432845_3330_tl_40" n="N042"/>nicht <rs type="person">Mozart</rs>’s <rs type="person">Pagen</rs>-Romanze so vollendet in ihrer Art,
+      <lb facs="#facs_1_region_1684596432845_3330_tl_37" n="N039"/>des <rs type="person" ref="#hsl_person_id_4698">Grafen</rs> u. s. f. — Alles wie in der Oper. Der zweite
+      <lb facs="#facs_1_region_1684596432845_3330_tl_38" n="N040"/>Act beginnt mit dem Gespräche zwischen der <rs type="person" ref="#hsl_person_id_4699">Gräfin</rs> und <rs type="person" ref="#hsl_person_id_4692">Susanne</rs>,
+      <lb facs="#facs_1_region_1684596432845_3330_tl_39" n="N041"/>welche schließlich den bittenden <rs type="person" ref="#hsl_person_id_4697">Cherubin</rs> introducirt. Wäre
+      <lb facs="#facs_1_region_1684596432845_3330_tl_40" n="N042"/>nicht <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s <rs type="person" ref="#hsl_person_id_462">Pagen</rs>-Romanze so vollendet in ihrer Art,
       <lb facs="#facs_1_line_1708618880076_926" n="N043"/>man müßte bedauern, daß er das wunderbar volks</p>
             <cb n="3"/>
             <p prev="true">
@@ -989,16 +966,15 @@
       <lb facs="#facs_1_region_1684596436949_3333_tl_3" n="N003"/>Im dritten Acte nimmt den breitesten Raum die Proceßscene
       <lb facs="#facs_1_region_1684596436949_3333_tl_4" n="N004"/>ein, eine beißende Satyre auf theils lächerliche, theils gewis
       <lb facs="#facs_1_region_1684596436949_3333_tl_5" n="N005" break="no"/>senlose Jurisdictionsformen. Diese unmusikalischeste Partie des
-      <lb facs="#facs_1_region_1684596436949_3333_tl_6" n="N006"/>Lustspiels erscheint in der <rs type="person">Mozart</rs>’schen Oper sehr gekürzt, so
-      <lb facs="#facs_1_line_1708618903011_944" n="N007"/>daß der dritte und vierte Act <rs type="person">Beaumarchais</rs>’ in den dritten
-      <lb facs="#facs_1_region_1684596436949_3333_tl_8" n="N008"/>von <rs type="person">Mozart</rs> zusammengezogen sind. Der letzte Act bringt hier
+      <lb facs="#facs_1_region_1684596436949_3333_tl_6" n="N006"/>Lustspiels erscheint in der <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’schen Oper sehr gekürzt, so
+      <lb facs="#facs_1_line_1708618903011_944" n="N007"/>daß der dritte und vierte Act <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>’ in den dritten
+      <lb facs="#facs_1_region_1684596436949_3333_tl_8" n="N008"/>von <rs type="person" ref="#hsl_person_id_189">Mozart</rs> zusammengezogen sind. Der letzte Act bringt hier
       <lb facs="#facs_1_region_1684596436949_3333_tl_9" n="N009"/>wie dort übereinstimmend das Intriguenspiel der Verkleideten
       <lb facs="#facs_1_region_1684596436949_3333_tl_10" n="N010"/>im Garten, dies tolle Hinüber und Herüber, das schließlich
       <lb facs="#facs_1_region_1684596436949_3333_tl_11" n="N011"/>einer bequemen Erhellung und Versöhnung Platz macht. Der
-      <lb facs="#facs_1_region_1684596436949_3333_tl_12" n="N012"/>lange Monolog <rs type="person">Figaro</rs>’s zu Anfang dieses Actes ist vielleicht
-      <lb facs="#facs_1_region_1684596436949_3333_tl_13" n="N013"/>das merkwürdigste Stück in dem Werke von <rs type="person">Beaumarchais</rs>.
-      <lb facs="#facs_1_region_1684596436949_3333_tl_14" n="N014"/>
-               <rs type="person">Figaro</rs>, im Dunkel auf einer Steinbank sitzend, harrt <rs type="person">Su
+      <lb facs="#facs_1_region_1684596436949_3333_tl_12" n="N012"/>lange Monolog <rs type="person" ref="#hsl_person_id_4691">Figaro</rs>’s zu Anfang dieses Actes ist vielleicht
+      <lb facs="#facs_1_region_1684596436949_3333_tl_13" n="N013"/>das merkwürdigste Stück in dem Werke von <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>.
+      <lb facs="#facs_1_region_1684596436949_3333_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_4691">Figaro</rs>, im Dunkel auf einer Steinbank sitzend, harrt <rs type="person" ref="#hsl_person_id_4692">Su
       <lb facs="#facs_1_region_1684596436949_3333_tl_15" n="N015" break="no"/>sannens</rs>, von der er sich betrogen wähnt. In dieser Pein des
       <lb facs="#facs_1_region_1684596436949_3333_tl_16" n="N016"/>Wartens läßt er seine ganze Vergangenheit in raschen Bildern
       <lb facs="#facs_1_region_1684596436949_3333_tl_17" n="N017"/>vor seinem Geiste Revue passiren. Wie er als elternloser Find
@@ -1006,19 +982,19 @@
       <lb facs="#facs_1_region_1684596436949_3333_tl_19" n="N019" break="no"/>werbe, Künste, Beschäftigungen nacheinander versucht, überall
       <lb facs="#facs_1_region_1684596436949_3333_tl_20" n="N020"/>den von Geburt oder Protection Bevorzugten weichen mußte,
       <lb facs="#facs_1_region_1684596436949_3333_tl_21" n="N021"/>trotz Fleiß und Talent dem Hunger und durch freisinnige
-      <lb facs="#facs_1_region_1684596436949_3333_tl_22" n="N022"/>Reden dem Kerker verfiel, bis er in das Haus des <rs type="person">Almaviva</rs>
-               <lb facs="#facs_1_region_1684596436949_3333_tl_23" n="N023"/>gekommen, wo ihn jetzt der Strudel der Intrigue zu Boden
+      <lb facs="#facs_1_region_1684596436949_3333_tl_22" n="N022"/>Reden dem Kerker verfiel, bis er in das Haus des <rs type="person" ref="#hsl_person_id_4698">Almaviva</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684596436949_3333_tl_23" n="N023"/>gekommen, wo ihn jetzt der Strudel der Intrigue zu Boden
       <lb facs="#facs_1_region_1684596436949_3333_tl_24" n="N024"/>reißt. Diese dunkle Lebensgeschichte, bald erhellt durch lustige
       <lb facs="#facs_1_region_1684596436949_3333_tl_25" n="N025"/>Witzfunken, bald durch die rothen Blitze eines grollenden Hu
       <lb facs="#facs_1_region_1684596436949_3333_tl_26" n="N026" break="no"/>mors, ist für sich ein kleines Drama, der Ernst des ganzen
       <lb facs="#facs_1_region_1684596436949_3333_tl_27" n="N027"/>Stückes concentrirt sich darin.</p>
                <p>
-      <lb facs="#facs_1_region_1684596436949_3333_tl_28" n="N028"/>So sehen wir alle Figuren und Scenen <rs type="person">Beaumarchais</rs>’
-      <lb facs="#facs_1_region_1684596436949_3333_tl_29" n="N029"/>in unserer gesungenen „<rs type="bibl">Hochzeit des Figaro</rs>“ treulich beibehal
+      <lb facs="#facs_1_region_1684596436949_3333_tl_28" n="N028"/>So sehen wir alle Figuren und Scenen <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>’
+      <lb facs="#facs_1_region_1684596436949_3333_tl_29" n="N029"/>in unserer gesungenen „<rs type="bibl" ref="#hsl_person_id_4">Hochzeit des Figaro</rs>“ treulich beibehal
       <lb facs="#facs_1_region_1684596436949_3333_tl_30" n="N030" break="no"/>ten, ja wie an der Fensterscheibe nachgepaust. Aber das Beste
       <lb facs="#facs_1_region_1684596436949_3333_tl_31" n="N031"/>und Eigenthümlichste des Originalstückes ging verloren: der
       <lb facs="#facs_1_region_1684596436949_3333_tl_32" n="N032"/>beispiellos schlagfertige und von einer bestimmten politischen
-      <lb facs="#facs_1_region_1684596436949_3333_tl_33" n="N033"/>Idee getragene <hi rendition="#em">Dialog</hi>. Dieser Dialog ist bei <rs type="person">Beaumarchais</rs>
+      <lb facs="#facs_1_region_1684596436949_3333_tl_33" n="N033"/>Idee getragene <hi rendition="#em">Dialog</hi>. Dieser Dialog ist bei <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684596436949_3333_tl_34" n="N034"/>ein unausgesetztes geistiges Turnier, in welchem die geschicktesten
       <lb facs="#facs_1_region_1684596436949_3333_tl_35" n="N035"/>Stöße immer noch geschickter parirt und zurückgegeben werden.
       <lb facs="#facs_1_line_1708618963219_1004" n="N036"/>Die zahlreichen epigrammatischen Spitzen des Lustspiels sind
@@ -1038,143 +1014,109 @@
       <lb facs="#facs_2_region_1684596446305_3339_tl_10" n="N007"/>betrifft, so erfuhren sie eine nothwendige Alteration schon
       <lb facs="#facs_2_region_1684596446305_3339_tl_11" n="N008"/>durch das Wesen der Musik, welche Witz und Reflexion zu
       <lb facs="#facs_2_region_1684596446305_3339_tl_12" n="N009"/>Gunsten der sich ausbreitenden Empfindung zurückdrängt. Man
-      <lb facs="#facs_2_region_1684596446305_3339_tl_13" n="N010"/>muß <hi rendition="#em">
-                  <rs type="person">Coquelin</rs>
-               </hi> als <rs type="person">Figaro</rs>, die beiden Schwestern <hi rendition="#em">
-                  <rs type="person">Brohan</rs></hi>
-      <lb facs="#facs_2_region_1684596446305_3339_tl_14" n="N011"/>als <rs type="person">Susanne</rs> und <rs type="person">Gräfin</rs> gesehen haben, um den ganzen Ab
+      <lb facs="#facs_2_region_1684596446305_3339_tl_13" n="N010"/>muß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4700">Coquelin</rs></hi> als <rs type="person" ref="#hsl_person_id_4691">Figaro</rs>, die beiden Schwestern <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4701 #hsl_person_id_4702">Brohan</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684596446305_3339_tl_14" n="N011"/>als <rs type="person" ref="#hsl_person_id_4692">Susanne</rs> und <rs type="person" ref="#hsl_person_id_4699">Gräfin</rs> gesehen haben, um den ganzen Ab
       <lb facs="#facs_2_region_1684596446305_3339_tl_15" n="N012" break="no"/>stand zu ermessen. Am meisten litt durch die Opernbearbeitung
-      <lb facs="#facs_2_region_1684596446305_3339_tl_16" n="N013"/>die bedeutende Physiognomie <rs type="person">Figaro</rs>’s; am wenigsten der <rs type="person">Page
+      <lb facs="#facs_2_region_1684596446305_3339_tl_16" n="N013"/>die bedeutende Physiognomie <rs type="person" ref="#hsl_person_id_4691">Figaro</rs>’s; am wenigsten der <rs type="person" ref="#hsl_person_id_4697">Page
       <lb facs="#facs_2_region_1684596446305_3339_tl_17" n="N014"/>Cherubin</rs>, für dessen süße, morgendämmernde Regungen die
       <lb facs="#facs_2_region_1684596446305_3339_tl_18" n="N015"/>Musik Farben besitzt, welche dem Dichter mangeln oder doch
-      <lb facs="#facs_2_region_1684596446305_3339_tl_19" n="N016"/>diesem Dichter mangelten. <rs type="person">Bartolo</rs>, <rs type="person">Basilio</rs>, <rs type="person">Antonio</rs>, <rs type="person">Don
-      <lb facs="#facs_2_region_1684596446305_3339_tl_20" n="N017"/>Curzio</rs>, <rs type="person">Marzelline</rs>, <rs type="person">Fanchette</rs> sind auch im Original keines
+      <lb facs="#facs_2_region_1684596446305_3339_tl_19" n="N016"/>diesem Dichter mangelten. <rs type="person" ref="#hsl_person_id_447">Bartolo</rs>, <rs type="person" ref="#hsl_person_id_448">Basilio</rs>, <rs type="person" ref="#hsl_person_id_4703">Antonio</rs>, <rs type="person" ref="#hsl_person_id_474">Don
+      <lb facs="#facs_2_region_1684596446305_3339_tl_20" n="N017"/>Curzio</rs>, <rs type="person" ref="#hsl_person_id_622">Marzelline</rs>, <rs type="person" ref="#hsl_person_id_4704">Fanchette</rs> sind auch im Original keines
       <lb facs="#facs_2_region_1684596446305_3339_tl_21" n="N018" break="no"/>wegs Hauptrollen, aber sie expliciren sich doch in einigen er
       <lb facs="#facs_2_region_1684596446305_3339_tl_22" n="N019" break="no"/>götzlichen Gesprächen, man weiß, wer sie sind und was sie
       <lb facs="#facs_2_region_1684596446305_3339_tl_23" n="N020"/>wollen. In der Oper hingegen stehen sie nur im Wege und
       <lb facs="#facs_2_region_1684596446305_3339_tl_24" n="N021"/>bringen eine lästige Buntheit und Unruhe in die Scene, ohne
-      <lb facs="#facs_2_region_1684596446305_3339_tl_25" n="N022"/>irgendwie unsere Theilnahme zu erregen. Von <rs type="person">Beaumarchais</rs>’
+      <lb facs="#facs_2_region_1684596446305_3339_tl_25" n="N022"/>irgendwie unsere Theilnahme zu erregen. Von <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>’
       <lb facs="#facs_2_region_1684596446305_3339_tl_26" n="N023"/>Lustspiel bleibt somit in dem Opern-Libretto nicht viel mehr
       <lb facs="#facs_2_region_1684596446305_3339_tl_27" n="N024"/>als die sauber abgeschälte Hülse des Factischen: die Handlung.
       <lb facs="#facs_2_region_1684596446305_3339_tl_28" n="N025"/>Sie allein hätte kein Lustspiel berühmt gemacht. Der Oper
       <lb facs="#facs_2_region_1684596446305_3339_tl_29" n="N026"/>bietet sie neben einigen wirksamen Situationen auch sehr un
       <lb facs="#facs_2_region_1684596446305_3339_tl_30" n="N027" break="no"/>günstige und schwierige. Dahin gehören fast alle Scenen,
       <lb facs="#facs_2_region_1684596446305_3339_tl_31" n="N028"/>welche die Handlung vorwärtsschieben und motiviren, wie der
-      <lb facs="#facs_2_region_1684596446305_3339_tl_32" n="N029"/>Proceß <rs type="person">Marzellinens</rs>, das Erkennen <rs type="person">Figaro</rs>’s als <rs type="person">Bartolo</rs>’s
-      <lb facs="#facs_2_region_1684596446305_3339_tl_33" n="N030"/>und <rs type="person">Marzellinens</rs> Sohn u. dgl. — sie sind in der Oper ge
+      <lb facs="#facs_2_region_1684596446305_3339_tl_32" n="N029"/>Proceß <rs type="person" ref="#hsl_person_id_622">Marzellinens</rs>, das Erkennen <rs type="person" ref="#hsl_person_id_534">Figaro</rs>’s als <rs type="person" ref="#hsl_person_id_447">Bartolo</rs>’s
+      <lb facs="#facs_2_region_1684596446305_3339_tl_33" n="N030"/>und <rs type="person" ref="#hsl_person_id_622">Marzellinens</rs> Sohn u. dgl. — sie sind in der Oper ge
       <lb facs="#facs_2_region_1684596446305_3339_tl_34" n="N031" break="no"/>radezu unverständlich.</p>
                <p>
-      <lb facs="#facs_2_region_1684596446305_3339_tl_35" n="N032"/>Vielleicht hätte <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> von den beiden <rs type="person">Figaro</rs>-Stücken
-      <lb facs="#facs_2_region_1684596446305_3339_tl_36" n="N033"/>
-               <rs type="person">Beaumarchais</rs>’ den „<rs type="bibl">Barbier von Sevilla</rs>“ zur Composition
-      <lb facs="#facs_2_region_1684596446305_3339_tl_37" n="N034"/>gewählt, wäre nicht <hi rendition="#em">
-                  <rs type="person">Paisiello</rs></hi> (<date when="1784">1784</date>) ihm hierin mit Glück
-      <lb facs="#facs_2_region_1684596446305_3339_tl_38" n="N035"/>zuvorgekommen. Der „<rs type="bibl">Barbier</rs>“ bietet der Musik ein ungleich
+      <lb facs="#facs_2_region_1684596446305_3339_tl_35" n="N032"/>Vielleicht hätte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> von den beiden <rs type="person" ref="#hsl_person_id_534 hsl_person_id_2807">Figaro</rs>-Stücken
+      <lb facs="#facs_2_region_1684596446305_3339_tl_36" n="N033"/><rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>’ den „<rs type="bibl" ref="#hsl_work_id_3054">Barbier von Sevilla</rs>“ zur Composition
+      <lb facs="#facs_2_region_1684596446305_3339_tl_37" n="N034"/>gewählt, wäre nicht <hi rendition="#em"><rs type="person" ref="#hsl_person_id_929">Paisiello</rs></hi> (<date when="1784">1784</date>) ihm hierin mit Glück
+      <lb facs="#facs_2_region_1684596446305_3339_tl_38" n="N035"/>zuvorgekommen. Der „<rs type="bibl" ref="#hsl_work_id_3054">Barbier</rs>“ bietet der Musik ein ungleich
       <lb facs="#facs_2_region_1684596446305_3339_tl_39" n="N036"/>günstigeres Feld, die lyrischen Elemente walten vor, die Hand
       <lb facs="#facs_2_region_1684596446305_3339_tl_40" n="N037" break="no"/>lung ist einfacher, gemüthlicher. Es war ein bedeutsamer Fin
-      <lb facs="#facs_2_region_1684596446305_3339_tl_41" n="N038" break="no"/>gerzeig, daß <rs type="person">Beaumarchais</rs> selbst den „<rs type="bibl">Barbier</rs>“ ursprünglich
-      <lb facs="#facs_2_region_1684596446305_3339_tl_42" n="N039"/>als Opern-Libretto geschrieben hatte, was ihm mit „<rs type="bibl">Figaro’s</rs>
-      <lb facs="#facs_2_region_1684596446305_3339_tl_43" n="N040"/>
-               <rs type="bibl">Hochzeit</rs>“ kaum beigefallen wäre. Die Vergleichung des <hi rendition="#em">
-                  <rs type="person">Mo
+      <lb facs="#facs_2_region_1684596446305_3339_tl_41" n="N038" break="no"/>gerzeig, daß <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs> selbst den „<rs type="bibl" ref="#hsl_work_id_3054">Barbier</rs>“ ursprünglich
+      <lb facs="#facs_2_region_1684596446305_3339_tl_42" n="N039"/>als Opern-Libretto geschrieben hatte, was ihm mit „<rs type="bibl" ref="#hsl_work_id_5">Figaro’s
+      <lb facs="#facs_2_region_1684596446305_3339_tl_43" n="N040"/>Hochzeit</rs>“ kaum beigefallen wäre. Die Vergleichung des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mo
       <lb facs="#facs_2_region_1684596446305_3339_tl_44" n="N041" break="no"/>zart</rs></hi>’schen Librettos mit dem Original-Lustspiel macht erst
       <lb facs="#facs_2_region_1684596446305_3339_tl_45" n="N042"/>recht deutlich, welch schwierige Aufgabe dem Tondichter zuge
       <lb facs="#facs_2_region_1684596446305_3339_tl_46" n="N043" break="no"/>fallen war und wie Außerordentliches er durch die eigenste</p>
             <cb n="5"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684596449982_3342_tl_1" n="N001"/>Kraft seiner Kunst geleistet. Die reine Schönheit der <hi rendition="#em">
-                  <rs type="person">Mo
-      <lb facs="#facs_2_line_1708619200270_1174" n="N002" break="no"/>zart</rs>
-               </hi>’schen Musik hat das Libretto mit einem idealen Geiste er
-      <lb facs="#facs_2_region_1684596449982_3342_tl_3" n="N003" break="no"/>füllt. Aber der Geist <hi rendition="#em">
-                  <rs type="person">Beaumarchais</rs>
-               </hi>’ ist es nicht. <rs type="person">Mo
-      <lb facs="#facs_2_region_1684596449982_3342_tl_4" n="N004" break="no"/>zart</rs>’s „<rs type="bibl">Figaro</rs>“ dünkt uns überhaupt mehr das Ideal einer
+      <lb facs="#facs_2_region_1684596449982_3342_tl_1" n="N001"/>Kraft seiner Kunst geleistet. Die reine Schönheit der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mo
+      <lb facs="#facs_2_line_1708619200270_1174" n="N002" break="no"/>zart</rs></hi>’schen Musik hat das Libretto mit einem idealen Geiste er
+      <lb facs="#facs_2_region_1684596449982_3342_tl_3" n="N003" break="no"/>füllt. Aber der Geist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs></hi>’ ist es nicht. <rs type="person" ref="#hsl_person_id_189">Mo
+      <lb facs="#facs_2_region_1684596449982_3342_tl_4" n="N004" break="no"/>zart</rs>’s „<rs type="bibl" ref="#hsl_work_id_4">Figaro</rs>“ dünkt uns überhaupt mehr das Ideal einer
       <lb facs="#facs_2_region_1684596449982_3342_tl_5" n="N005"/>vollkommen schönen Musik, als einer eminent komischen Oper.
       <lb facs="#facs_2_region_1684596449982_3342_tl_6" n="N006"/>Alles Lustspielmäßige, Komische darin läßt sich wirksamer,
-      <lb facs="#facs_2_region_1684596449982_3342_tl_7" n="N007"/>sprudelnder denken. <hi rendition="#em">
-                  <rs type="person">Mozart</rs>’s</hi>
-               <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Sinn beschwichtigte
+      <lb facs="#facs_2_region_1684596449982_3342_tl_7" n="N007"/>sprudelnder denken. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi><space quantity="1" unit="char"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Sinn beschwichtigte
       <lb facs="#facs_2_region_1684596449982_3342_tl_8" n="N008"/>lieber die Buffo-Elemente und bevorzugte die ruhigen, senti
-      <lb facs="#facs_2_region_1684596449982_3342_tl_9" n="N009" break="no"/>mentalen. Seine volle Resonanz findet <rs type="person">Beaumarchais</rs>’ Conve¬r
-      <lb facs="#facs_2_region_1684596449982_3342_tl_10" n="N010"/>sationston doch wol nur in romanischem Blut. Deshalb
+      <lb facs="#facs_2_region_1684596449982_3342_tl_9" n="N009" break="no"/>mentalen. Seine volle Resonanz findet <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>’ Conver
+      <lb facs="#facs_2_region_1684596449982_3342_tl_10" n="N010" break="no"/>sationston doch wol nur in romanischem Blut. Deshalb
       <lb facs="#facs_2_region_1684596449982_3342_tl_11" n="N011"/>meinte ein scharfsinniger Schriftsteller vor 50 Jahren, eine
-      <lb facs="#facs_2_line_1708619223807_1195" n="N012"/>„<rs type="bibl">Hochzeit des Figaro</rs>“ in echt <hi rendition="#em">
-                  <rs type="person">Beaumarchais</rs></hi>’schem Geist
-      <lb facs="#facs_2_region_1684596449982_3342_tl_13" n="N013"/>hätte eigentlich von <hi rendition="#em">
-                  <rs type="person">Paisiello</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Cimarosa</rs></hi> ge
-      <lb facs="#facs_2_region_1684596449982_3342_tl_14" n="N014" break="no"/>meinschaftlich componirt werden müssen. Von <hi rendition="#em">
-                  <rs type="person">Rossini</rs></hi>
-      <lb facs="#facs_2_region_1684596449982_3342_tl_15" n="N015"/>und <hi rendition="#em">
-                  <rs type="person">Auber</rs></hi>, würden wir heutzutage richtiger sagen. —</p>
+      <lb facs="#facs_2_line_1708619223807_1195" n="N012"/>„<rs type="bibl" ref="#hsl_work_id_4">Hochzeit des Figaro</rs>“ in echt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs></hi>’schem Geist
+      <lb facs="#facs_2_region_1684596449982_3342_tl_13" n="N013"/>hätte eigentlich von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_929">Paisiello</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_928">Cimarosa</rs></hi> ge
+      <lb facs="#facs_2_region_1684596449982_3342_tl_14" n="N014" break="no"/>meinschaftlich componirt werden müssen. Von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684596449982_3342_tl_15" n="N015"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs></hi>, würden wir heutzutage richtiger sagen. —</p>
                <p>
       <lb facs="#facs_2_region_1684596449982_3342_tl_16" n="N016"/>Die musikalische Ausbeute der letzten Woche war, der
       <lb facs="#facs_2_region_1684596449982_3342_tl_17" n="N017"/>Faschingsstimmung angemessen, nicht sehr reichlich. Das <hi rendition="#em">Phil
-      <lb facs="#facs_2_region_1684596449982_3342_tl_18" n="N018" break="no"/>harmonie-Concert</hi> vom <date when="">26. d. M.</date> spendete zwar keine
+      <lb facs="#facs_2_region_1684596449982_3342_tl_18" n="N018" break="no"/>harmonie-Concert</hi> vom <date when="1868-01-26">26. d. M.</date> spendete zwar keine
       <lb facs="#facs_2_region_1684596449982_3342_tl_19" n="N019"/>neuen Compositionen, brachte aber die bekannten (besonders
-      <lb facs="#facs_2_region_1684596449982_3342_tl_20" n="N020"/><hi rendition="#em">
-                  <rs type="person">Lachner</rs>’s</hi>
-               <rs type="bibl">E-moll-Suite</rs>) durch eleganteste Ausführung zu
-      <lb facs="#facs_2_region_1684596449982_3342_tl_21" n="N021"/>voller Geltung. Frau <hi rendition="#em">
-                  <rs type="person">Wilt</rs></hi> sang mit kräftiger Stimme, aber
-      <lb facs="#facs_2_region_1684596449982_3342_tl_22" n="N022"/>etwas larmoyantem Vortrage die E-dur-Arie der <hi rendition="#em">
-                  <rs type="person">Ilia</rs></hi> aus
-      <lb facs="#facs_2_region_1684596449982_3342_tl_23" n="N023"/>
-               <rs type="person">Mozart</rs>’s „<rs type="bibl">Idomeneo</rs>“, deren langer und langsamer Honigfluß
-      <lb facs="#facs_2_region_1684596449982_3342_tl_24" n="N024"/>unser Ohr bald so sehr übersättigt, daß es, wie <hi rendition="#em">
-                  <rs type="person">Tannhäuser</rs></hi>
+      <lb facs="#facs_2_region_1684596449982_3342_tl_20" n="N020"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_151">Lachner</rs>’s</hi><space quantity="1" unit="char"/><rs type="bibl" ref="#hsl_work_id_26">E-moll-Suite</rs>) durch eleganteste Ausführung zu
+      <lb facs="#facs_2_region_1684596449982_3342_tl_21" n="N021"/>voller Geltung. Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_327">Wilt</rs></hi> sang mit kräftiger Stimme, aber
+      <lb facs="#facs_2_region_1684596449982_3342_tl_22" n="N022"/>etwas larmoyantem Vortrage die E-dur-Arie der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1385">Ilia</rs></hi> aus
+      <lb facs="#facs_2_region_1684596449982_3342_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s „<rs type="bibl" ref="#hsl_work_id_868">Idomeneo</rs>“, deren langer und langsamer Honigfluß
+      <lb facs="#facs_2_region_1684596449982_3342_tl_24" n="N024"/>unser Ohr bald so sehr übersättigt, daß es, wie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684596449982_3342_tl_25" n="N025"/>im Venusberge, förmlich „nach Bitternissen“ schmachtet. —
-      <lb facs="#facs_2_region_1684596449982_3342_tl_26" n="N026"/>In der letzten Quartett-Soirée gefiel eine von den Herren I.
-      <lb facs="#facs_2_region_1684596449982_3342_tl_27" n="N027"/><hi rendition="#em">
-                  <rs type="person">Rubinstein</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Hellmesberger</rs>
-               </hi> gespielte „<rs type="bibl">Suite</rs>“ von
-      <lb facs="#facs_2_region_1684596449982_3342_tl_28" n="N028"/>Karl <hi rendition="#em">
-                  <rs type="person">Goldmark</rs></hi> noch entschiedener, als bei ihrer ersten Auf
+      <lb facs="#facs_2_region_1684596449982_3342_tl_26" n="N026"/>In der letzten Quartett-Soirée gefiel eine von den Herren J.
+      <lb facs="#facs_2_region_1684596449982_3342_tl_27" n="N027"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2041">Rubinstein</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs></hi> gespielte „<rs type="bibl" ref="#hsl_work_id_43">Suite</rs>“ von
+      <lb facs="#facs_2_region_1684596449982_3342_tl_28" n="N028"/>Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_101">Goldmark</rs></hi> noch entschiedener, als bei ihrer ersten Auf
       <lb facs="#facs_2_region_1684596449982_3342_tl_29" n="N029" break="no"/>führung vor zwei Jahren. — Indessen setzt Fräulein <hi rendition="#em">Phi
-      <lb facs="#facs_2_region_1684596449982_3342_tl_30" n="N030" break="no"/>lippine v. <rs type="person">Edelsberg</rs></hi> ihr Gastspiel im Hofoperntheater
+      <lb facs="#facs_2_region_1684596449982_3342_tl_30" n="N030" break="no"/>lippine v. <rs type="person" ref="#hsl_person_id_1540">Edelsberg</rs></hi> ihr Gastspiel im Hofoperntheater
       <lb facs="#facs_2_region_1684596449982_3342_tl_31" n="N031"/>mit günstigem, ja sich steigerndem Erfolge fort. Das Publi
       <lb facs="#facs_2_region_1684596449982_3342_tl_32" n="N032" break="no"/>cum scheint, wie dies oft bei neuen Erscheinungen geschieht,
       <lb facs="#facs_2_region_1684596449982_3342_tl_33" n="N033"/>mit den Eigenthümlichkeiten der Künstlerin allmälig vertrauter
       <lb facs="#facs_2_region_1684596449982_3342_tl_34" n="N034"/>und für ihre Vorzüge wärmer geworden zu sein. Die letz
-      <lb facs="#facs_2_line_1708619279960_1230" n="N035" break="no"/>ten Vorstellungen des „ <rs type="bibl">Prophet</rs>“ und der „<rs type="bibl">Hugenotten</rs>“
-      <lb facs="#facs_2_region_1684596449982_3342_tl_37" n="N036"/>haben dies dargethan. Zwar erheischen <rs type="person">Fides</rs> und <rs type="person">Va
+      <lb facs="#facs_2_line_1708619279960_1230" n="N035" break="no"/>ten Vorstellungen des „ <rs type="bibl" ref="#hsl_work_id_113">Prophet</rs>“ und der „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“
+      <lb facs="#facs_2_region_1684596449982_3342_tl_37" n="N036"/>haben dies dargethan. Zwar erheischen <rs type="person" ref="#hsl_person_id_533">Fides</rs> und <rs type="person" ref="#hsl_person_id_666">Va
       <lb facs="#facs_2_region_1684596449982_3342_tl_38" n="N037" break="no"/>lentine</rs>, die eine Rolle nach der Tiefe, die an
       <lb facs="#facs_2_region_1684596449982_3342_tl_39" n="N038" break="no"/>dere nach Höhe des Umfangs hin kräftigere Stimmmittel,
-      <lb facs="#facs_2_region_1684596449982_3342_tl_40" n="N039"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Edelsberg</rs></hi> hat aber in den meisten Scenen durch
-      <lb facs="#facs_2_region_1684596449982_3342_tl_41" n="N040"/>ihre effectvolle Darstellung darauf vergessen gemacht. Als <rs type="person">Fides</rs>
-      <lb facs="#facs_2_region_1684596449982_3342_tl_42" n="N041"/>erzielt Fräulein <rs type="person">Edelsberg</rs> schon durch ihre Maske einen be
+      <lb facs="#facs_2_region_1684596449982_3342_tl_40" n="N039"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1540">Edelsberg</rs></hi> hat aber in den meisten Scenen durch
+      <lb facs="#facs_2_region_1684596449982_3342_tl_41" n="N040"/>ihre effectvolle Darstellung darauf vergessen gemacht. Als <rs type="person" ref="#hsl_person_id_533">Fides</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684596449982_3342_tl_42" n="N041"/>erzielt Fräulein <rs type="person" ref="#hsl_person_id_1540">Edelsberg</rs> schon durch ihre Maske einen be
       <lb facs="#facs_2_region_1684596449982_3342_tl_43" n="N042" break="no"/>deutenden Eindruck; in dem dunklen faltigen Kleide, den wei
       <lb facs="#facs_2_region_1684596449982_3342_tl_44" n="N043" break="no"/>ßen Schleier um das Haupt, gleicht sie in ruhigen Momenten</p>
             <cb n="6"/>
             <p prev="true">
-       <lb facs="#facs_2_region_1684596453845_3345_tl_1" n="N001"/>einer <rs type="person">Mater dolorosa</rs> von <hi rendition="#em">
-                  <rs type="person">Tizian</rs></hi>. Im Einklange damit
+       <lb facs="#facs_2_region_1684596453845_3345_tl_1" n="N001"/>einer <rs type="bibl" ref="#hsl_work_id_3055">Mater dolorosa</rs> von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4605">Tizian</rs></hi>. Im Einklange damit
       <lb facs="#facs_2_line_1708619203568_1177" n="N002"/>standen ihre ausdrucksvollen und plastischen Bewegungen, ins
       <lb facs="#facs_2_region_1684596453845_3345_tl_2" n="N003" break="no"/>besondere in der Domscene. Hier gipfelte jener Vorzug, der
-      <lb facs="#facs_2_region_1684596453845_3345_tl_3" n="N004"/>uns bei der <rs type="person">Edelsberg</rs> am meisten imponirt: ihre genaue Kennt
+      <lb facs="#facs_2_region_1684596453845_3345_tl_3" n="N004"/>uns bei der <rs type="person" ref="#hsl_person_id_1540">Edelsberg</rs> am meisten imponirt: ihre genaue Kennt
       <lb facs="#facs_2_region_1684596453845_3345_tl_4" n="N005" break="no"/>niß und Beherrschung der Bühne. Mit welcher Sicherheit und
       <lb facs="#facs_2_region_1684596453845_3345_tl_5" n="N006"/>Freiheit waren die Pausen mit stummem Spiele ausgefüllt!
-      <lb facs="#facs_2_region_1684596453845_3345_tl_6" n="N007"/>Als <rs type="person">Valentine</rs> fiel Fräulein <rs type="person">Edelsberg</rs> schon im zweiten Acte
+      <lb facs="#facs_2_region_1684596453845_3345_tl_6" n="N007"/>Als <rs type="person" ref="#hsl_person_id_666">Valentine</rs> fiel Fräulein <rs type="person" ref="#hsl_person_id_1540">Edelsberg</rs> schon im zweiten Acte
       <lb facs="#facs_2_region_1684596453845_3345_tl_7" n="N008"/>durch vornehme und geschmackvolle Repräsentation auf. Im
       <lb facs="#facs_2_region_1684596453845_3345_tl_8" n="N009"/>Duette des dritten Actes änderte sie wohlweislich die selten ge
       <lb facs="#facs_2_region_1684596453845_3345_tl_9" n="N010" break="no"/>lingende und niemals schöne Stelle mit dem lang ausgehaltenen
       <lb facs="#facs_2_region_1684596453845_3345_tl_10" n="N011"/>hohen C, das dann wie eine müde Sternschnuppe herabfließt.
-      <lb facs="#facs_2_line_1708619227664_1198" n="N012"/>Alle <rs type="person">Valentinen</rs>, welche dieses Kunststückes nicht mit vollkom
+      <lb facs="#facs_2_line_1708619227664_1198" n="N012"/>Alle <rs type="person" ref="#hsl_person_id_666">Valentinen</rs>, welche dieses Kunststückes nicht mit vollkom
       <lb facs="#facs_2_region_1684596453845_3345_tl_11" n="N013" break="no"/>menster Leichtigkeit und Sicherheit gewiß sind, sollten es ruhig
       <lb facs="#facs_2_region_1684596453845_3345_tl_12" n="N014"/>umgehen; der Zuhörer steht, wie wir versichern können, keine
-      <lb facs="#facs_2_region_1684596453845_3345_tl_13" n="N015"/>kleine Angst dabei aus. Im vierten Acte war Fräulein <rs type="person">Edels
+      <lb facs="#facs_2_region_1684596453845_3345_tl_13" n="N015"/>kleine Angst dabei aus. Im vierten Acte war Fräulein <rs type="person" ref="#hsl_person_id_1540">Edels
       <lb facs="#facs_2_region_1684596453845_3345_tl_14" n="N016" break="no"/>berg</rs> allerdings mehr äußerlich effectvoll, als innerlich tiefbewegt
       <lb facs="#facs_2_region_1684596453845_3345_tl_15" n="N017"/>und rührend, allein auch hier erreichte ihre farbige Darstellung,
       <lb facs="#facs_2_region_1684596453845_3345_tl_16" n="N018"/>ihr Talent des „Machenkönnens“ das gewünschte Ziel. Fräu
-      <lb facs="#facs_2_region_1684596453845_3345_tl_17" n="N019" break="no"/>lein <rs type="person">Edelsberg</rs> wurde nach dem vierten Acte mit Herrn
-      <lb facs="#facs_2_region_1684596453845_3345_tl_18" n="N020"/><hi rendition="#em">
-                  <rs type="person">Adams</rs>
-               </hi> (der ihr als <rs type="person">Raoul</rs> wacker zur Seite stand) dreimal
+      <lb facs="#facs_2_region_1684596453845_3345_tl_17" n="N019" break="no"/>lein <rs type="person" ref="#hsl_person_id_1540">Edelsberg</rs> wurde nach dem vierten Acte mit Herrn
+      <lb facs="#facs_2_region_1684596453845_3345_tl_18" n="N020"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4109">Adams</rs></hi> (der ihr als <rs type="person" ref="#hsl_person_id_647">Raoul</rs> wacker zur Seite stand) dreimal
       <lb facs="#facs_2_region_1684596453845_3345_tl_19" n="N021"/>gerufen.</p>
          </div>
       </body>
