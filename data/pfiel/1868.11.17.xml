@@ -106,7 +106,8 @@
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2024-03-13">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-03-17">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change when="2024-03-18" who="ampfiel">header, Zeilenumbrüche, Absätze</change>
+            <change when="2024-03-18" who="ampfiel">header, Zeilenumbrüche, Absätze</change>
+            <change when="2024-03-25" who="ampfiel">ref rs place fertig</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1281,7 +1282,7 @@
             <lb facs="#facs_1_region_1684591142528_2360_tl_1" n="N001"/><hi rendition="#em"><rs type="person">Rossini</rs></hi>.</head>
                <p>
       <lb facs="#facs_1_region_1684591142528_2360_tl_2" n="N002"/>Ed. H. Gioachino <rs type="person">Rossini</rs>, der genialste und populärste
-      <lb facs="#facs_1_region_1684591142528_2360_tl_3" n="N003"/>Tondichter <rs type="place">Italien</rs>s, ist am <date when="1868-11-14">14. November</date> in <rs type="place">Paris</rs> gestorben.
+      <lb facs="#facs_1_region_1684591142528_2360_tl_3" n="N003"/>Tondichter <rs type="place" ref="#hsl_place_id_28">Italien</rs>s, ist am <date when="1868-11-14">14. November</date> in <rs type="place" ref="#hsl_place_id_44">Paris</rs> gestorben.
       <lb facs="#facs_1_region_1684591142528_2360_tl_4" n="N004"/>Man kann nicht sagen, daß das Ereigniß unerwartet kam, die
       <lb facs="#facs_1_line_1710381168987_869" n="N005"/>Krankheit und das hohe Alter des Meisters hatten darauf vor
       <lb facs="#facs_1_region_1684591142528_2360_tl_5" n="N006" break="no"/>bereitet. Allein die finstere, unwiderrufliche Thatsache ergreift
@@ -1295,7 +1296,7 @@
       <lb facs="#facs_1_region_1684591142528_2360_tl_12" n="N013"/>man ihm von irgend einem hochbejahrten Künstler, z. B. von
       <lb facs="#facs_1_line_1710381193409_882" n="N014"/><hi rendition="#em">
                   <rs type="person">Moscheles</rs></hi>, erzählte, wie derselbe noch frisch und rüstig ein
-      <lb facs="#facs_1_region_1684591142528_2360_tl_13" n="N015" break="no"/>hergehe. Unser Anakreon von <rs type="place">Passy</rs> blickte gerne aus nach den
+      <lb facs="#facs_1_region_1684591142528_2360_tl_13" n="N015" break="no"/>hergehe. Unser Anakreon von <rs type="place" ref="#hsl_place_id_111">Passy</rs> blickte gerne aus nach den
       <lb facs="#facs_1_region_1684591142528_2360_tl_14" n="N016"/>theuren Häuptern seiner Altersgenossen und fühlte sich ermu
       <lb facs="#facs_1_region_1684591142528_2360_tl_15" n="N017" break="no"/>thigt, wenn ihm keines fehlte. Vor dem frühen Grabe junger
       <lb facs="#facs_1_region_1684591142528_2360_tl_16" n="N018"/>Unsterblicher, wie <hi rendition="#em">
@@ -1307,7 +1308,7 @@
                   <rs type="person">Meyerbeer</rs></hi> hat ihn tief
       <lb facs="#facs_1_region_1684591142528_2360_tl_19" n="N021"/>beängstigt und ergriffen. Mit dem Heimgang <rs type="person">Meyerbeer</rs>’s war
       <lb facs="#facs_1_region_1684591142528_2360_tl_20" n="N022"/>das Triumvirat der gefeiertsten Operncomponisten der Jetzt
-      <lb facs="#facs_1_region_1684591142528_2360_tl_21" n="N023" break="no"/>zeit, war die musikalische Tiara von <rs type="place">Paris</rs> gesprengt. Vier
+      <lb facs="#facs_1_region_1684591142528_2360_tl_21" n="N023" break="no"/>zeit, war die musikalische Tiara von <rs type="place" ref="#hsl_place_id_44">Paris</rs> gesprengt. Vier
       <lb facs="#facs_1_region_1684591142528_2360_tl_22" n="N024"/>Jahre später folgte <hi rendition="#em">
                   <rs type="person">Rossini</rs></hi>, nun steht <hi rendition="#em">
                   <rs type="person">Auber</rs></hi>, der älteste
@@ -1331,8 +1332,8 @@
       <lb facs="#facs_1_region_1684591145908_2363_tl_2" n="N002"/>wie sie wenigen Sterblichen gegönnt sind.</p>
                <p>
       <lb facs="#facs_1_region_1684591145908_2363_tl_3" n="N003"/>
-               <rs type="person">Rossini</rs> wurde bekanntlich in <rs type="place">Pesaro</rs>, früher zum Kirchen
-      <lb facs="#facs_1_region_1684591145908_2363_tl_4" n="N004" break="no"/>staate, jetzt zum Königreiche <rs type="place">Italien</rs> gehörig, den <date when="1792-02-29">29. Februar
+               <rs type="person">Rossini</rs> wurde bekanntlich in <rs type="place" ref="#hsl_place_id_385">Pesaro</rs>, früher zum Kirchen
+      <lb facs="#facs_1_region_1684591145908_2363_tl_4" n="N004" break="no"/>staate, jetzt zum Königreiche <rs type="place" ref="#hsl_place_id_28">Italien</rs> gehörig, den <date when="1792-02-29">29. Februar
       <lb facs="#facs_1_region_1684591145908_2363_tl_5" n="N005"/>1792</date> geboren. Sein Vater, ein sorgloser, lustiger Mann, war
       <lb facs="#facs_1_region_1684591145908_2363_tl_6" n="N006"/>Stadttrompeter, nebenbei Aufseher der Schlächterei. Er hatte
       <lb facs="#facs_1_region_1684591145908_2363_tl_7" n="N007"/>sich mit Anna <rs type="person">Guidarini</rs>, einer schönen und stimmbegabten
@@ -1346,7 +1347,7 @@
       <lb facs="#facs_1_region_1684591145908_2363_tl_15" n="N015"/>zur Strafe zu einem Grobschmied in die Lehre gethan und er
       <lb facs="#facs_1_region_1684591145908_2363_tl_16" n="N016"/>eine zeitlang den Blasbalg getreten hatte, bat er, doch lieber
       <lb facs="#facs_1_line_1710381198086_885" n="N017"/>zur Tonkunst zurückkehren zu dürfen. Er wurde nun
-      <lb facs="#facs_1_region_1684591145908_2363_tl_18" n="N018"/>in das Lyceum von <rs type="place">Bologna</rs> gebracht, wo er unter
+      <lb facs="#facs_1_region_1684591145908_2363_tl_18" n="N018"/>in das Lyceum von <rs type="place" ref="#hsl_place_id_338">Bologna</rs> gebracht, wo er unter
       <lb facs="#facs_1_region_1684591145908_2363_tl_19" n="N019"/>der Leitung des P. <hi rendition="#em">
                   <rs type="person">Mattei</rs></hi>, Lieblingsschülers des be
       <lb facs="#facs_1_region_1684591145908_2363_tl_20" n="N020" break="no"/>rühmten P. <hi rendition="#em">
@@ -1358,20 +1359,20 @@
       <lb facs="#facs_1_region_1684591145908_2363_tl_24" n="N025" break="no"/>müthig ironische Lächeln, mit welchem mir <rs type="person">Rossini</rs> unter den
       <lb facs="#facs_1_region_1684591145908_2363_tl_25" n="N026"/>Porträt-Medaillons, welche die Decke seines Musiksalons in
       <lb facs="#facs_1_region_1684591145908_2363_tl_26" n="N027"/>
-               <rs type="place">Passy</rs> schmücken, den Kopf des P. <rs type="person">Mattei</rs> zeigte. „Sehen Sie,
+               <rs type="place" ref="#hsl_place_id_111">Passy</rs> schmücken, den Kopf des P. <rs type="person">Mattei</rs> zeigte. „Sehen Sie,
       <lb facs="#facs_1_region_1684591145908_2363_tl_27" n="N028"/>das ist mein berühmter Lehrer <hi rendition="#em">
                   <rs type="person">Mattei</rs></hi>, bei dem ich so we
       <lb facs="#facs_1_region_1684591145908_2363_tl_28" n="N029" break="no"/>nig profitirt habe! Er wollte mich immer nur Fugen, Canons
       <lb facs="#facs_1_region_1684591145908_2363_tl_29" n="N030"/>und achtstimmige Messen arbeiten lassen; er meinte es gut,
       <lb facs="#facs_1_line_1710381262498_924" n="N031"/>aber ich bin mit meinen kleinen Arien und Canzonetten doch
       <lb facs="#facs_1_region_1684591145908_2363_tl_30" n="N032"/>besser gefahren.“ Ob seiner schönen Sopranstimme der gesuch
-      <lb facs="#facs_1_region_1684591145908_2363_tl_31" n="N033" break="no"/>teste Sängerknabe in <rs type="place">Bologna</rs>, wurde der kleine <rs type="person">Rossini</rs> bald
+      <lb facs="#facs_1_region_1684591145908_2363_tl_31" n="N033" break="no"/>teste Sängerknabe in <rs type="place" ref="#hsl_place_id_338">Bologna</rs>, wurde der kleine <rs type="person">Rossini</rs> bald
       <lb facs="#facs_1_region_1684591145908_2363_tl_32" n="N034"/>auch das musikalische Factotum des dortigen Theaters und di
-      <lb facs="#facs_1_region_1684591145908_2363_tl_33" n="N035" break="no"/>rigirte eine Anzahl Opern, nach <rs type="place">italienisch</rs>er Sitte am Cla
+      <lb facs="#facs_1_region_1684591145908_2363_tl_33" n="N035" break="no"/>rigirte eine Anzahl Opern, nach <rs type="place" ref="#hsl_place_id_28">italienisch</rs>er Sitte am Cla
       <lb facs="#facs_1_region_1684591145908_2363_tl_34" n="N036" break="no"/>vier, desgleichen eine von Dilettanten veranstaltete Aufführung
       <lb facs="#facs_1_region_1684591145908_2363_tl_35" n="N037"/>von <hi rendition="#em">
                   <rs type="person">Haydn</rs>’s</hi> „<rs type="bibl">Schöpfung</rs>“. Im <date when="1806-08">August 1806</date> leitete er
-      <lb facs="#facs_1_region_1684591145908_2363_tl_36" n="N038"/>Opernvorstellungen in <rs type="place">Lugo</rs>, <rs type="place">Forli</rs>, <rs type="place">Sinigaglia</rs> und ande
+      <lb facs="#facs_1_region_1684591145908_2363_tl_36" n="N038"/>Opernvorstellungen in <rs type="place" ref="#hsl_place_id_528">Lugo</rs>, <rs type="place" ref="#hsl_place_id_529">Forli</rs>, <rs type="place" ref="#hsl_place_id_530">Sinigaglia</rs> und ande
       <lb facs="#facs_1_region_1684591145908_2363_tl_37" n="N039" break="no"/>ren untergeordneten Bühnen, wo seine Mutter mit frühzeitig
       <lb facs="#facs_1_line_1710381280542_936" n="N040"/>verblühter Stimme zweite Partien sang und der Vater das</p>
             <cb n="3"/>
@@ -1382,7 +1383,7 @@
       <lb facs="#facs_1_region_1684591150156_2366_tl_3" n="N003"/>und unter anhaltendem Widerstreben. Im Jahre <date when="1810">1810</date> trat
       <lb facs="#facs_1_region_1684591150156_2366_tl_4" n="N004"/>er zuerst mit einer einartigen Oper im San Mosè-Theater zu
       <lb facs="#facs_1_region_1684591150156_2366_tl_5" n="N005"/>
-               <rs type="place">Venedig</rs> vor das Publicum, welches den Versuch („<rs type="bibl">La
+               <rs type="place" ref="#hsl_place_id_89">Venedig</rs> vor das Publicum, welches den Versuch („<rs type="bibl">La
       <lb facs="#facs_1_region_1684591150156_2366_tl_6" n="N006"/>Cambiale di Matrimonio</rs>“) sehr beifällig aufnahm. Sein
       <lb facs="#facs_1_region_1684591150156_2366_tl_7" n="N007"/>Talent entfaltete sich von da an in überraschender Fülle und
       <lb facs="#facs_1_region_1684591150156_2366_tl_8" n="N008"/>Productivität, im Jahre <date when="1812">1812</date> brachte er nicht weniger als
@@ -1399,18 +1400,18 @@
                   <rs type="bibl">Tan
       <lb facs="#facs_1_region_1684591150156_2366_tl_17" n="N017" break="no"/>cred</rs></hi>“ hieß der entschiedenste Sieg seines Lebens, auf Flügeln
       <lb facs="#facs_1_region_1684591150156_2366_tl_18" n="N018"/>der Melodie „Ditanti palpiti“ zog der Ruhm <rs type="person">Rossini</rs>’s über
-      <lb facs="#facs_1_region_1684591150156_2366_tl_19" n="N019"/>die Grenzen <rs type="place">Italien</rs>s, um bald halb <rs type="place">Europa</rs> zu beherrschen.
+      <lb facs="#facs_1_region_1684591150156_2366_tl_19" n="N019"/>die Grenzen <rs type="place" ref="#hsl_place_id_28">Italien</rs>s, um bald halb <rs type="place" ref="#hsl_place_id_19">Europa</rs> zu beherrschen.
       <lb facs="#facs_1_region_1684591150156_2366_tl_22" n="N020"/>„<hi rendition="#em">
                   <rs type="bibl">Tancred</rs></hi>“ und „<hi rendition="#em">
                   <rs type="bibl">Die Italienerin in Algier</rs></hi>“, beide
-      <lb facs="#facs_1_line_1710381248242_916" n="N021"/>im selben Jahre <date when="1812">1812</date> in <rs type="place">Venedig</rs> gegeben, haben den Ruf
+      <lb facs="#facs_1_line_1710381248242_916" n="N021"/>im selben Jahre <date when="1812">1812</date> in <rs type="place" ref="#hsl_place_id_89">Venedig</rs> gegeben, haben den Ruf
       <lb facs="#facs_1_region_1684591150156_2366_tl_24" n="N022"/>des jungen Componisten für immer fest begründet und auch
-      <lb facs="#facs_1_region_1684591150156_2366_tl_25" n="N023"/>nach <rs type="place">Deutschland</rs> verbreitet, wo <rs type="person">Rossini</rs> vom Jahre <date month="0" day="0" year="0">1816</date> an
+      <lb facs="#facs_1_region_1684591150156_2366_tl_25" n="N023"/>nach <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> verbreitet, wo <rs type="person">Rossini</rs> vom Jahre <date when="1816">1816</date> an
       <lb facs="#facs_1_region_1684591150156_2366_tl_26" n="N024"/>Mode wurde. „<rs type="bibl">Tancred</rs>“ (der uns jetzt sehr veraltet klingt)
       <lb facs="#facs_1_region_1684591150156_2366_tl_27" n="N025"/>siegte mit der Naturgewalt einer überraschenden revolutionä
       <lb facs="#facs_1_region_1684591150156_2366_tl_28" n="N026" break="no"/>ren Erscheinung. Alles darin war dem damaligen Publicum
       <lb facs="#facs_1_region_1684591150156_2366_tl_29" n="N027"/>
-               <rs type="place">Italien</rs>s neu: der Charakter der Melodien, die Modu
+               <rs type="place" ref="#hsl_place_id_28">Italien</rs>s neu: der Charakter der Melodien, die Modu
       <lb facs="#facs_1_region_1684591150156_2366_tl_30" n="N028" break="no"/>lationen, die Instrumentirung, vor Allem aber der leben
       <lb facs="#facs_1_region_1684591150156_2366_tl_31" n="N029" break="no"/>digere, natürlichere Ton des Ganzen im Vergleiche zu den
       <lb facs="#facs_1_region_1684591150156_2366_tl_32" n="N030"/>conventionellen Fesseln der bisherigen steifen Opera seria.
@@ -1419,8 +1420,8 @@
                <rs type="person">Rossini</rs> aus der ihm besonders ans Herz gewachsenen „Opera
       <lb facs="#facs_1_region_1684591150156_2366_tl_35" n="N033"/>buffa“ in die Adern ihrer vornehmeren, prätentiösen Schwester,
       <lb facs="#facs_1_region_1684591150156_2366_tl_36" n="N034"/>der „Opera seria“, hinübergeleitet. Nach der Aufführung des
-      <lb facs="#facs_1_region_1684591150156_2366_tl_37" n="N035"/>„<rs type="bibl">Tancred</rs>“ hatte <rs type="person">Rossini</rs> in <rs type="place">Italien</rs> keinen Nebenbuhler mehr,
-      <lb facs="#facs_1_region_1684591150156_2366_tl_38" n="N036"/>die großen Theater von <rs type="place">Venedig</rs>, <rs type="place">Mailand</rs> und <rs type="place">Neapel</rs> stritten
+      <lb facs="#facs_1_region_1684591150156_2366_tl_37" n="N035"/>„<rs type="bibl">Tancred</rs>“ hatte <rs type="person">Rossini</rs> in <rs type="place" ref="#hsl_place_id_28">Italien</rs> keinen Nebenbuhler mehr,
+      <lb facs="#facs_1_region_1684591150156_2366_tl_38" n="N036"/>die großen Theater von <rs type="place" ref="#hsl_place_id_89">Venedig</rs>, <rs type="place" ref="#hsl_place_id_73">Mailand</rs> und <rs type="place" ref="#hsl_place_id_40">Neapel</rs> stritten
       <lb facs="#facs_1_region_1684591150156_2366_tl_39" n="N037"/>sich um jede seiner Partituren. Nach den minder erfolgreichen
       <lb facs="#facs_1_region_1684591150156_2366_tl_40" n="N038"/>Opern „<rs type="bibl">Aurelio in Palmira</rs>“ und „<rs type="bibl">Il Turco in Italia</rs>“
       <lb facs="#facs_1_region_1684591150156_2366_tl_41" n="N039"/>(<date when="1814">1814</date>) gab <rs type="person">Rossini</rs> sein Meisterstück im komischen Fach, den
@@ -1443,7 +1444,7 @@
       <lb facs="#facs_2_region_1684591161019_2372_tl_8" n="N009"/>einander ununterbrochen in die Hände. Binnen 13 Tagen
       <lb facs="#facs_2_region_1684591161019_2372_tl_9" n="N010"/>war die ganze Oper fertig, <rs type="person">Rossini</rs> hatte während der ganzen
       <lb facs="#facs_2_region_1684591161019_2372_tl_10" n="N011"/>Zeit das Zimmer nicht verlassen. Die erste Aufführung fand
-      <lb facs="#facs_2_region_1684591161019_2372_tl_11" n="N012"/>am <date when="1816-02-05">5. Februar 1816</date> im Teatro Argentina in <rs type="place">Rom</rs> statt, un
+      <lb facs="#facs_2_region_1684591161019_2372_tl_11" n="N012"/>am <date when="1816-02-05">5. Februar 1816</date> im Teatro Argentina in <rs type="place" ref="#hsl_place_id_47">Rom</rs> statt, un
       <lb facs="#facs_2_region_1684591161019_2372_tl_12" n="N013" break="no"/>ter dem (aus Rücksicht für <rs type="person">Paesiello</rs> geänderten) Titel: „<rs type="bibl">Al
       <lb facs="#facs_2_region_1684591161019_2372_tl_14" n="N014" break="no"/>maviva, oder: Die unnütze Vorsicht</rs>“. Die Oper fiel unter
       <lb facs="#facs_2_region_1684591161019_2372_tl_16" n="N015"/>großem Spectakel durch, da man sich fest vorgenommen hatte,
@@ -1453,8 +1454,8 @@
       <lb facs="#facs_2_region_1684591161019_2372_tl_20" n="N019" break="no"/>stehen und die Oper ging „alle stelle“.</p>
                <p>
       <lb facs="#facs_2_region_1684591161019_2372_tl_21" n="N020"/>Unmittelbar auf den heitern <rs type="bibl">Barbier</rs> folgte der tragische
-      <lb facs="#facs_2_region_1684591161019_2372_tl_22" n="N021"/>Mohr von <rs type="place">Venedig</rs>, „<rs type="bibl">Otello</rs>“. Diese Oper war für das San
-      <lb facs="#facs_2_region_1684591161019_2372_tl_23" n="N022"/>Carlo-Theater in <rs type="place">Neapel</rs> geschrieben, dessen unternehmender
+      <lb facs="#facs_2_region_1684591161019_2372_tl_22" n="N021"/>Mohr von <rs type="place" ref="#hsl_place_id_89">Venedig</rs>, „<rs type="bibl">Otello</rs>“. Diese Oper war für das San
+      <lb facs="#facs_2_region_1684591161019_2372_tl_23" n="N022"/>Carlo-Theater in <rs type="place" ref="#hsl_place_id_40">Neapel</rs> geschrieben, dessen unternehmender
       <lb facs="#facs_2_region_1684591161019_2372_tl_24" n="N023"/>Impresario, <hi rendition="#em">
                   <rs type="person">Barbaja</rs></hi>, 
                   <rs type="person">Rossini</rs> für acht Jahre (<date when="1814">1814</date> bis
@@ -1462,12 +1463,12 @@
                      <rs type="person">Barbaja</rs> besaß zwar keinerlei Bildung,
       <lb facs="#facs_2_region_1684591161019_2372_tl_26" n="N025"/>aber eine feine Spürnase für alle aufkeimenden Talente, außer
       <lb facs="#facs_2_region_1684591161019_2372_tl_27" n="N026" break="no"/>dem Rührigkeit und Geschäftsverstand. Man kennt die bedeu
-      <lb facs="#facs_2_region_1684591161019_2372_tl_28" n="N027" break="no"/>tende Rolle, welche dieser Mann, ursprünglich Kellner in <rs type="place">Mai
-      <lb facs="#facs_2_region_1684591161019_2372_tl_29" n="N028" break="no"/>land</rs>, dann <rs type="place">französisch</rs>er Armeelieferant, als Impresario in der
-      <lb facs="#facs_2_region_1684591161019_2372_tl_30" n="N029"/>Geschichte der <rs type="place">italienisch</rs>en und <rs type="place">deutsch</rs>en Oper gespielt hat.
+      <lb facs="#facs_2_region_1684591161019_2372_tl_28" n="N027" break="no"/>tende Rolle, welche dieser Mann, ursprünglich Kellner in <rs type="place" ref="#hsl_place_id_73">Mai
+      <lb facs="#facs_2_region_1684591161019_2372_tl_29" n="N028" break="no"/>land</rs>, dann <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Armeelieferant, als Impresario in der
+      <lb facs="#facs_2_region_1684591161019_2372_tl_30" n="N029"/>Geschichte der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en und <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Oper gespielt hat.
       <lb facs="#facs_2_region_1684591161019_2372_tl_31" n="N030"/>
                <rs type="person">Rossini</rs> mußte ihm contractmäßig jährlich zwei neue Opern
-      <lb facs="#facs_2_region_1684591161019_2372_tl_32" n="N031"/>liefern. Die namhaftesten aus dieser Periode (<date month="0" day="0" year="0">1815</date> bis <date month="0" day="0" year="0">1822</date>)
+      <lb facs="#facs_2_region_1684591161019_2372_tl_32" n="N031"/>liefern. Die namhaftesten aus dieser Periode (<date when="1815">1815</date> bis <date when="1822">1822</date>)
       <lb facs="#facs_2_region_1684591161019_2372_tl_33" n="N032"/>waren außer „<hi rendition="#em">
                   <rs type="bibl">Otello</rs></hi>“: „<hi rendition="#em">
                   <rs type="bibl">Elisabetta</rs></hi>“, „<hi rendition="#em">
@@ -1479,7 +1480,7 @@
       <lb facs="#facs_2_line_1710381495759_1143" n="N034"/>e Zoraida</rs></hi>“, „<hi rendition="#em">
                   <rs type="bibl">Maometto II.</rs></hi>“, sämmtlich für
       <lb facs="#facs_2_region_1684591161019_2372_tl_38" n="N035"/>
-               <rs type="place">Neapel</rs>. Außerdem für <rs type="place">Mailand</rs> und <rs type="place">Rom</rs>: „<hi rendition="#em">
+               <rs type="place" ref="#hsl_place_id_40">Neapel</rs>. Außerdem für <rs type="place" ref="#hsl_place_id_73">Mailand</rs> und <rs type="place" ref="#hsl_place_id_47">Rom</rs>: „<hi rendition="#em">
                   <rs type="bibl">La
       <lb facs="#facs_2_region_1684591161019_2372_tl_39" n="N036"/>Cenerentola</rs></hi>“, „<hi rendition="#em">
                   <rs type="bibl">La gazza ladra</rs></hi>“, „<hi rendition="#em">
@@ -1487,21 +1488,20 @@
       <lb facs="#facs_2_region_1684591161019_2372_tl_40" n="N037" break="no"/>tilda di Sabran</rs></hi>“, „<hi rendition="#em">
                   <rs type="bibl">Edoardo e Cristina</rs></hi>“ etc.
       <lb facs="#facs_2_region_1684591161019_2372_tl_41" n="N038"/>
-               <rs type="person">Barbaja</rs> hatte in <rs type="place">Neapel</rs> außer den beiden Theatern <rs type="place">San</rs>
-      <lb facs="#facs_2_region_1684591161019_2372_tl_42" n="N039"/>
-               <rs type="place">Carlo</rs> und <rs type="place">del Fondo</rs> auch die öffentliche Spielbank gepachtet,
+               <rs type="person">Barbaja</rs> hatte in <rs type="place" ref="#hsl_place_id_40">Neapel</rs> außer den beiden Theatern San
+      <lb facs="#facs_2_region_1684591161019_2372_tl_42" n="N039"/>Carlo und del Fondo auch die öffentliche Spielbank gepachtet,
       <lb facs="#facs_2_region_1684591161019_2372_tl_43" n="N040"/>deren Ertrag zum Theil die Kosten der Oper decken mußte.
       <lb facs="#facs_2_region_1684591161019_2372_tl_44" n="N041"/>
                <rs type="person">Rossini</rs> selbst erhielt damals außer seinem monatlichen Gehalt
       <lb facs="#facs_2_region_1684591161019_2372_tl_45" n="N042"/>von 500 Francs eine kleine Tantième von dem Erträgniß der</p>
             <cb n="6"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1710381437298_1112" n="N001"/>Roulette. Als in Folge der Revolution vom Jahre <date month="0" day="0" year="0">1820</date> die
+      <lb facs="#facs_2_line_1710381437298_1112" n="N001"/>Roulette. Als in Folge der Revolution vom Jahre <date when="1820">1820</date> die
       <lb facs="#facs_2_region_1684591164723_2375_tl_2" n="N002"/>öffentliche Spielbank verboten wurde, verlor die Oper in
       <lb facs="#facs_2_line_1710381543468_1160" n="N003"/>
-               <rs type="place">Neapel</rs> ihre ergiebigste Hilfsquelle, und <rs type="person">Barbaja</rs> entschloß sich,
+               <rs type="place" ref="#hsl_place_id_40">Neapel</rs> ihre ergiebigste Hilfsquelle, und <rs type="person">Barbaja</rs> entschloß sich,
       <lb facs="#facs_2_line_1710381545889_1163" n="N004"/>sein Glück in <hi rendition="#em">
-                  <rs type="place">Wien</rs></hi> zu versuchen. Mit einer vortrefflichen
+                  <rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> zu versuchen. Mit einer vortrefflichen
       <lb facs="#facs_2_region_1684591164723_2375_tl_3" n="N005"/>Gesellschaft, <rs type="person">Rossini</rs> und dessen Frau (Isabella <hi rendition="#em">
                   <rs type="person">Colbrand</rs></hi>)
       <lb facs="#facs_2_region_1684591164723_2375_tl_4" n="N006"/>an der Spitze, <hi rendition="#em">
@@ -1510,69 +1510,69 @@
                   <rs type="person">Donzelli</rs></hi>, Madame
       <lb facs="#facs_2_region_1684591164723_2375_tl_5" n="N007"/><hi rendition="#em">
                   <rs type="person">Fodor</rs></hi> etc., eröffnete 
-                  <rs type="person">Barbaja</rs> im Jahre <date month="0" day="0" year="0">1822</date> auf das glän
+                  <rs type="person">Barbaja</rs> im Jahre <date when="1822">1822</date> auf das glän
       <lb facs="#facs_2_region_1684591164723_2375_tl_6" n="N008" break="no"/>zendste die Saison im Kärntnerthor-Theater, und zwar mit
       <lb facs="#facs_2_region_1684591164723_2375_tl_7" n="N009"/>einer neuen Oper von Rossini: „<hi rendition="#em">
                   <rs type="bibl">Zelmira</rs></hi>“. Noch in seinem
       <lb facs="#facs_2_region_1684591164723_2375_tl_8" n="N010"/>letzten Lebensjahre sprach <rs type="person">Rossini</rs> mit lebhafter Freude von
-      <lb facs="#facs_2_region_1684591164723_2375_tl_9" n="N011"/>jenem <rs type="place">Wien</rs>er Aufenthalt und wie er da zum erstenmal ein
+      <lb facs="#facs_2_region_1684591164723_2375_tl_9" n="N011"/>jenem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Aufenthalt und wie er da zum erstenmal ein
       <lb facs="#facs_2_region_1684591164723_2375_tl_10" n="N012"/>vollkommen ruhiges, musikalisch aufmerksames Publicum ken
       <lb facs="#facs_2_region_1684591164723_2375_tl_11" n="N013" break="no"/>nen gelernt. <rs type="person">Rossini</rs>’s Musik versetzte die Wiener in einen
       <lb facs="#facs_2_line_1710381557128_1169" n="N014"/>Rausch des Entzückens. Sogar der Philosoph <hi rendition="#em">
                   <rs type="person">Hegel</rs></hi>, sonst
       <lb facs="#facs_2_region_1684591164723_2375_tl_12" n="N015"/>nichts weniger als ein Musik-Enthusiast, zog mit an dem
       <lb facs="#facs_2_region_1684591164723_2375_tl_13" n="N016"/>Siegeswagen des jungen Maestro und schrieb seiner Frau
-      <lb facs="#facs_2_region_1684591164723_2375_tl_14" n="N017"/>nach <rs type="place">Berlin</rs>: „So lange ich Geld für die <rs type="place">italienisch</rs>e Oper
-      <lb facs="#facs_2_region_1684591164723_2375_tl_15" n="N018"/>habe, gehe ich von <rs type="place">Wien</rs> nicht fort.“ Die <rs type="place">deutsch</rs>e Kritik
+      <lb facs="#facs_2_region_1684591164723_2375_tl_14" n="N017"/>nach <rs type="place" ref="#hsl_place_id_9">Berlin</rs>: „So lange ich Geld für die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper
+      <lb facs="#facs_2_region_1684591164723_2375_tl_15" n="N018"/>habe, gehe ich von <rs type="place" ref="#hsl_place_id_55">Wien</rs> nicht fort.“ Die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Kritik
       <lb facs="#facs_2_region_1684591164723_2375_tl_16" n="N019"/>glaubte sich verpflichtet, achselzuckend und nasenrümpfend auf
       <lb facs="#facs_2_region_1684591164723_2375_tl_18" n="N020"/>das „seichte und ungeschulte Talent“ <rs type="person">Rossini</rs>’s herabsehen zu
-      <lb facs="#facs_2_region_1684591164723_2375_tl_20" n="N021"/>müssen, in <rs type="place">Wien</rs> geschah dies übrigens in viel milderer Weise
-      <lb facs="#facs_2_region_1684591164723_2375_tl_21" n="N022"/>als in <rs type="place">Berlin</rs> und dem übrigen Nord<rs type="place">deutschland</rs>. Wenn <rs type="person">Fétis</rs>
-      <lb facs="#facs_2_region_1684591164723_2375_tl_22" n="N023"/>behauptet, die nord<rs type="place">deutsch</rs>e Kritik habe sich „complètement
+      <lb facs="#facs_2_region_1684591164723_2375_tl_20" n="N021"/>müssen, in <rs type="place" ref="#hsl_place_id_55">Wien</rs> geschah dies übrigens in viel milderer Weise
+      <lb facs="#facs_2_region_1684591164723_2375_tl_21" n="N022"/>als in <rs type="place" ref="#hsl_place_id_9">Berlin</rs> und dem übrigen Nord<rs type="place" ref="#hsl_place_id_14">deutschland</rs>. Wenn <rs type="person">Fétis</rs>
+      <lb facs="#facs_2_region_1684591164723_2375_tl_22" n="N023"/>behauptet, die nord<rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Kritik habe sich „complètement
       <lb facs="#facs_2_region_1684591164723_2375_tl_23" n="N024"/>inintelligent“ in Betreff der genialen Natur <rs type="person">Rossini</rs>’s ge
-      <lb facs="#facs_2_region_1684591164723_2375_tl_24" n="N025" break="no"/>zeigt, so muß man ihm vollkommen Recht geben. Die <rs type="place">deut
-      <lb facs="#facs_2_region_1684591164723_2375_tl_25" n="N026" break="no"/>sch</rs>en Journale (zumal die Musikzeitungen) der <date from="" to="">Zwanziger-
+      <lb facs="#facs_2_region_1684591164723_2375_tl_24" n="N025" break="no"/>zeigt, so muß man ihm vollkommen Recht geben. Die <rs type="place" ref="#hsl_place_id_14">deut
+      <lb facs="#facs_2_region_1684591164723_2375_tl_25" n="N026" break="no"/>sch</rs>en Journale (zumal die Musikzeitungen) der <date from="1810" to="1819">Zwanziger-
       <lb facs="#facs_2_region_1684591164723_2375_tl_26" n="N027"/>Jahre</date> bieten eine traurige Musterkarte von dünkelhaft abspre
       <lb facs="#facs_2_region_1684591164723_2375_tl_27" n="N028" break="no"/>chenden Urtheilen über die Unwissenheit <rs type="person">Rossini</rs>’s, die Tri
       <lb facs="#facs_2_region_1684591164723_2375_tl_28" n="N029" break="no"/>vialität der „<rs type="bibl">Italienerin in Algier</rs>“, das lärmende Orchester
-      <lb facs="#facs_2_region_1684591164723_2375_tl_30" n="N030"/>im „<rs type="bibl">Barbier</rs>“ u. dgl. Während das <rs type="place">deutsch</rs>e Publicum (oft
+      <lb facs="#facs_2_region_1684591164723_2375_tl_30" n="N030"/>im „<rs type="bibl">Barbier</rs>“ u. dgl. Während das <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Publicum (oft
       <lb facs="#facs_2_region_1684591164723_2375_tl_31" n="N031"/>nur zu sehr) geneigt ist, sich für ausländische Kunstproducte
-      <lb facs="#facs_2_region_1684591164723_2375_tl_32" n="N032"/>zu interessiren und zu erwärmen, hat die <rs type="place">deutsch</rs>e Kritik von
-      <lb facs="#facs_2_region_1684591164723_2375_tl_33" n="N033"/>jeher die Tendenz zu dem anderen Extrem gehabt und <rs type="place">italie
-      <lb facs="#facs_2_region_1684591164723_2375_tl_34" n="N034" break="no"/>nisch</rs>e oder <rs type="place">französisch</rs>e Componisten gern, um so tiefer in den Staub
+      <lb facs="#facs_2_region_1684591164723_2375_tl_32" n="N032"/>zu interessiren und zu erwärmen, hat die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Kritik von
+      <lb facs="#facs_2_region_1684591164723_2375_tl_33" n="N033"/>jeher die Tendenz zu dem anderen Extrem gehabt und <rs type="place" ref="#hsl_place_id_28">italie
+      <lb facs="#facs_2_region_1684591164723_2375_tl_34" n="N034" break="no"/>nisch</rs>e oder <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Componisten gern, um so tiefer in den Staub
       <lb facs="#facs_2_region_1684591164723_2375_tl_35" n="N035"/>getreten, je mehr Freude diese dem Publicum bereiteten. Von
       <lb facs="#facs_2_region_1684591164723_2375_tl_36" n="N036"/>
-               <rs type="place">Wien</rs> wendete sich <rs type="person">Rossini</rs> nach <rs type="place">Venedig</rs>, wo er (<date month="0" day="0" year="0">1823</date>) seine
+               <rs type="place" ref="#hsl_place_id_55">Wien</rs> wendete sich <rs type="person">Rossini</rs> nach <rs type="place" ref="#hsl_place_id_89">Venedig</rs>, wo er (<date month="0" day="0" year="0">1823</date>) seine
       <lb facs="#facs_2_region_1684591164723_2375_tl_37" n="N037"/>„<hi rendition="#em">
                   <rs type="bibl">Semiramide</rs></hi>“ aufführte, die letzte Oper, die er überhaupt
-      <lb facs="#facs_2_region_1684591164723_2375_tl_38" n="N038"/>für <rs type="place">Italien</rs> schrieb. Die Gleichgiltigkeit, mit welcher dieses
+      <lb facs="#facs_2_region_1684591164723_2375_tl_38" n="N038"/>für <rs type="place" ref="#hsl_place_id_28">Italien</rs> schrieb. Die Gleichgiltigkeit, mit welcher dieses
       <lb facs="#facs_2_region_1684591164723_2375_tl_39" n="N039"/>Werk aufgenommen wurde, trug dazu bei, daß <rs type="person">Rossini</rs> ohne
-      <lb facs="#facs_2_region_1684591164723_2375_tl_40" n="N040"/>Bedauern von seinem Vaterlande schied, um nach <rs type="place">London</rs> und
+      <lb facs="#facs_2_region_1684591164723_2375_tl_40" n="N040"/>Bedauern von seinem Vaterlande schied, um nach <rs type="place" ref="#hsl_place_id_34">London</rs> und
       <lb facs="#facs_2_region_1684591164723_2375_tl_41" n="N041"/>
-               <rs type="place">Paris</rs> zu gehen.</p>
+               <rs type="place" ref="#hsl_place_id_44">Paris</rs> zu gehen.</p>
                <p>
-      <lb facs="#facs_2_line_1710381583749_1180" n="N042"/>In <rs type="place">Paris</rs> stieß <rs type="person">Rossini</rs> auf mancherlei Schwierigkeiten.</p>
+      <lb facs="#facs_2_line_1710381583749_1180" n="N042"/>In <rs type="place" ref="#hsl_place_id_44">Paris</rs> stieß <rs type="person">Rossini</rs> auf mancherlei Schwierigkeiten.</p>
             <cb n="7"/>
             <p prev="true">
       <lb facs="#facs_2_region_1684591168372_2378_tl_1" n="N001"/>Seine Musik, sprudelnd, witzig, glänzend, ohne tiefere Em
-      <lb facs="#facs_2_region_1684591168372_2378_tl_2" n="N002" break="no"/>pfindung, scheint dem <rs type="place">französisch</rs>en Charakter besonders ver
+      <lb facs="#facs_2_region_1684591168372_2378_tl_2" n="N002" break="no"/>pfindung, scheint dem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Charakter besonders ver
       <lb facs="#facs_2_region_1684591168372_2378_tl_3" n="N003" break="no"/>wandt zu sein, so daß man <rs type="person">Rossini</rs> für geschaffen halten mochte,
       <lb facs="#facs_2_region_1684591168372_2378_tl_4" n="N004"/>der Lieblingscomponist einer Nation zu werden, deren Lieb
       <lb facs="#facs_2_region_1684591168372_2378_tl_5" n="N005" break="no"/>lingsautor <rs type="person">Voltaire</rs> ist. Trotzdem war <rs type="person">Rossini</rs>’s Wirkung in
       <lb facs="#facs_2_region_1684591168372_2378_tl_6" n="N006"/>
-               <rs type="place">Frankreich</rs> beiweitem nicht so groß, noch so schnell wie in
+               <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> beiweitem nicht so groß, noch so schnell wie in
       <lb facs="#facs_2_region_1684591168372_2378_tl_7" n="N007"/>
-               <rs type="place">Deutschland</rs>. Theils war es jener „Patriotisme d’antichambre“,
+               <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>. Theils war es jener „Patriotisme d’antichambre“,
       <lb facs="#facs_2_region_1684591168372_2378_tl_8" n="N008"/>welcher nur einheimische Producte schätzt, theils der Zunftneid
       <lb facs="#facs_2_region_1684591168372_2378_tl_9" n="N009"/>einer einflußreichen Componisten-Coterie, was sich dem Ein
       <lb facs="#facs_2_region_1684591168372_2378_tl_10" n="N010" break="no"/>dringen der <rs type="person">Rossini</rs>’schen Opern entgegenstemmte. Namentlich
       <lb facs="#facs_2_region_1684591168372_2378_tl_11" n="N011"/>der ehrgeizige Ferdinand <hi rendition="#em">
                   <rs type="person">Paër</rs></hi> war unermüdlich im Intri
-      <lb facs="#facs_2_region_1684591168372_2378_tl_12" n="N012" break="no"/>guiren; er hat als Director der <rs type="place">Italienisch</rs>en Oper in <rs type="place">Paris</rs>
+      <lb facs="#facs_2_region_1684591168372_2378_tl_12" n="N012" break="no"/>guiren; er hat als Director der <rs type="place" ref="#hsl_place_id_28">Italienisch</rs>en Oper in <rs type="place" ref="#hsl_place_id_44">Paris</rs>
       <lb facs="#facs_2_region_1684591168372_2378_tl_13" n="N013"/>das Kunststück zuwege gebracht, den Parisern <rs type="person">Rossini</rs> 8 Jahre
       <lb facs="#facs_2_line_1710381560939_1172" n="N014"/>lang zu verheimlichen. Im Jahre <date when="1824">1824</date> wurde nun <rs type="person">Rossini</rs>
       <lb facs="#facs_2_region_1684591168372_2378_tl_15" n="N015"/>zum Director der auf Rechnung der königlichen Civilliste ver
-      <lb facs="#facs_2_region_1684591168372_2378_tl_16" n="N016" break="no"/>walteten <rs type="place">Italienisch</rs>en Oper in <rs type="place">Paris</rs> ernannt. Das Institut
+      <lb facs="#facs_2_region_1684591168372_2378_tl_16" n="N016" break="no"/>walteten <rs type="place" ref="#hsl_place_id_28">Italienisch</rs>en Oper in <rs type="place" ref="#hsl_place_id_44">Paris</rs> ernannt. Das Institut
       <lb facs="#facs_2_region_1684591168372_2378_tl_17" n="N017"/>hatte an dem berühmten Componisten einen ebenso unzurei
       <lb facs="#facs_2_region_1684591168372_2378_tl_18" n="N018" break="no"/>chenden Director gewonnen, wie einige Jahre früher an der
       <lb facs="#facs_2_region_1684591168372_2378_tl_19" n="N019"/>gefeierten <hi rendition="#em">
@@ -1580,16 +1580,16 @@
                   <rs type="person">Rossini</rs> zog sich bald von der Theater-
       <lb facs="#facs_2_region_1684591168372_2378_tl_20" n="N020"/>Direction zurück, nachdem er durch die Aufführung des „<rs type="bibl">Cro
       <lb facs="#facs_2_region_1684591168372_2378_tl_21" n="N021" break="no"/>ciato</rs>“ die Bekanntschaft <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>’s</hi> mit dem <rs type="place">Paris</rs>er
-      <lb facs="#facs_2_region_1684591168372_2378_tl_22" n="N022"/>Publicum vermittelt hatte. In <rs type="place">Paris</rs> spielt sich nun die letzte
+                  <rs type="person">Meyerbeer</rs>’s</hi> mit dem <rs type="place" ref="#hsl_place_id_44">Paris</rs>er
+      <lb facs="#facs_2_region_1684591168372_2378_tl_22" n="N022"/>Publicum vermittelt hatte. In <rs type="place" ref="#hsl_place_id_44">Paris</rs> spielt sich nun die letzte
       <lb facs="#facs_2_region_1684591168372_2378_tl_23" n="N023"/>Periode von <rs type="person">Rossini</rs>’s schöpferischer Thätigkeit ab. Die eigen
       <lb facs="#facs_2_region_1684591168372_2378_tl_24" n="N024" break="no"/>thümlichen und starken künstlerischen Anregungen, die <rs type="person">Rossini</rs>
-      <lb facs="#facs_2_region_1684591168372_2378_tl_25" n="N025"/>in <rs type="place">Paris</rs>, und insbesondere von der <rs type="place">französisch</rs>en Oper em
+      <lb facs="#facs_2_region_1684591168372_2378_tl_25" n="N025"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, und insbesondere von der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Oper em
       <lb facs="#facs_2_region_1684591168372_2378_tl_26" n="N026" break="no"/>pfing, blieben nicht ohne Einwirkung auf seinen Styl. Zwar
       <lb facs="#facs_2_region_1684591168372_2378_tl_27" n="N027"/>wußte der immer bequemer werdende Maestro anfangs die
       <lb facs="#facs_2_region_1684591168372_2378_tl_28" n="N028"/>Hoffnung der Pariser auf eine Reihe von Originalwerken zu
-      <lb facs="#facs_2_region_1684591168372_2378_tl_29" n="N029"/>täuschen und sich mit der Bearbeitung älterer <rs type="place">italienisch</rs>er
-      <lb facs="#facs_2_region_1684591168372_2378_tl_30" n="N030"/>Opern abzufinden. So entstand die <rs type="place">französisch</rs>e Bearbeitung
+      <lb facs="#facs_2_region_1684591168372_2378_tl_29" n="N029"/>täuschen und sich mit der Bearbeitung älterer <rs type="place" ref="#hsl_place_id_28">italienisch</rs>er
+      <lb facs="#facs_2_region_1684591168372_2378_tl_30" n="N030"/>Opern abzufinden. So entstand die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Bearbeitung
       <lb facs="#facs_2_region_1684591168372_2378_tl_32" n="N031"/>der „<hi rendition="#em">
                   <rs type="bibl">Semiramide</rs></hi>“, so „
                   <rs type="bibl">Le siège de Corinthe</rs>“ aus
@@ -1610,21 +1610,21 @@
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="8"/>
             <p prev="true">
-      <lb facs="#facs_3_region_1684591178863_2384_tl_2" n="N001"/>enen Bearbeitungen schrieb <rs type="person">Rossini</rs> für <rs type="place">Paris</rs> zwei neue
+      <lb facs="#facs_3_region_1684591178863_2384_tl_2" n="N001"/>enen Bearbeitungen schrieb <rs type="person">Rossini</rs> für <rs type="place" ref="#hsl_place_id_44">Paris</rs> zwei neue
       <lb facs="#facs_3_region_1684591178863_2384_tl_3" n="N002"/>Opern: „<rs type="bibl">Le comte Ory</rs>“, ein elegantes, liebenswürdiges Lust
       <lb facs="#facs_3_region_1684591178863_2384_tl_4" n="N003" break="no"/>spiel, und sein Meisterstück im ernsten Styl: „<hi rendition="#em">
                   <rs type="bibl">Guillaume
       <lb facs="#facs_3_region_1684591178863_2384_tl_5" n="N004"/>Tell</rs></hi>“. Von dem Tage der ersten Aufführung des „
                   <rs type="bibl">Tell</rs>“,
-      <lb facs="#facs_3_region_1684591178863_2384_tl_6" n="N005"/>dem <date month="0" day="0" year="0">3. August 1829</date>, kann man eine neue Phase der drama
-      <lb facs="#facs_3_region_1684591178863_2384_tl_7" n="N006" break="no"/>tischen Musik, und nicht blos in <rs type="place">Frankreich</rs>, datiren. Nur
+      <lb facs="#facs_3_region_1684591178863_2384_tl_6" n="N005"/>dem <date when="1829-08-03">3. August 1829</date>, kann man eine neue Phase der drama
+      <lb facs="#facs_3_region_1684591178863_2384_tl_7" n="N006" break="no"/>tischen Musik, und nicht blos in <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>, datiren. Nur
       <lb facs="#facs_3_region_1684591178863_2384_tl_8" n="N007"/><hi rendition="#em">
                   <rs type="person">Auber</rs></hi> war ihm mit der „
                   <rs type="bibl">Stummen von Portici</rs>“ (<date when="1828">1828</date>)
       <lb facs="#facs_3_region_1684591178863_2384_tl_9" n="N008"/>in verwandtem Sinne, aber mit viel kleineren, fast liedartigen
       <lb facs="#facs_3_region_1684591178863_2384_tl_10" n="N009"/>Formen, unmittelbar vorangegangen. Es folgte <hi rendition="#em">
                   <rs type="person">Meyerbeer</rs></hi>,
-      <lb facs="#facs_3_region_1684591178863_2384_tl_11" n="N010"/>dessen „<rs type="bibl">Hugenotten</rs>“ (<date month="0" day="0" year="0">1836</date>) wir uns ohne den Einfluß von
+      <lb facs="#facs_3_region_1684591178863_2384_tl_11" n="N010"/>dessen „<rs type="bibl">Hugenotten</rs>“ (<date when="1836">1836</date>) wir uns ohne den Einfluß von
       <lb facs="#facs_3_region_1684591178863_2384_tl_12" n="N011"/>
                <rs type="person">Rossini</rs>’s „<rs type="bibl">Tell</rs>“ kaum denken können. Eine so imposante
       <lb facs="#facs_3_region_1684591178863_2384_tl_13" n="N012"/>Wandlung, wie sie <rs type="person">Rossini</rs>, nachdem er an 40 Opern geschrie
@@ -1668,20 +1668,20 @@
       <lb facs="#facs_3_region_1684591182461_2387_tl_4" n="N003" break="no"/>sini</rs>’schen Opern nur noch „<rs type="bibl">Tell</rs>“ und der „<rs type="bibl">Barbier</rs>“ ihre
       <lb facs="#facs_3_region_1684591182461_2387_tl_5" n="N004"/>volle Wirkung und Lebenskraft besitzen. Nur sie sind in
       <lb facs="#facs_3_region_1684591182461_2387_tl_6" n="N005"/>Wahrheit auf dem heutigen Repertoire heimisch und unentbehr
-      <lb facs="#facs_3_region_1684591182461_2387_tl_7" n="N006" break="no"/>lich. Nur hie und da und nur wenn vortreffliche <rs type="place">italienisch</rs>e
+      <lb facs="#facs_3_region_1684591182461_2387_tl_7" n="N006" break="no"/>lich. Nur hie und da und nur wenn vortreffliche <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e
       <lb facs="#facs_3_region_1684591182461_2387_tl_9" n="N007"/>Sänger interveniren, kommen noch die „<rs type="bibl">Italienerin</rs>“, „<rs type="bibl">Cene
       <lb facs="#facs_3_line_1710382147341_1475" n="N008" break="no"/>rentola</rs>“, „<rs type="bibl">Mosè</rs>“, „<rs type="bibl">Semiramis</rs>“, „
                   <rs type="bibl">Othello</rs>“ und „<rs type="bibl">Die Bela
       <lb facs="#facs_3_region_1684591182461_2387_tl_13" n="N009" break="no"/>gerung von Korinth</rs>“ zum Vorschein. Jede dieser Opern ent
       <lb facs="#facs_3_region_1684591182461_2387_tl_14" n="N010" break="no"/>hält einzelne wundervolle Nummern, aber mit jedem Jahre
       <lb facs="#facs_3_region_1684591182461_2387_tl_15" n="N011"/>scheint ein immer größeres Stück der Partitur zu verblassen,
-      <lb facs="#facs_3_region_1684591182461_2387_tl_16" n="N012"/>vorzüglich in den vier tragischen Opern. Man hat in <rs type="place">Wien</rs> in
+      <lb facs="#facs_3_region_1684591182461_2387_tl_16" n="N012"/>vorzüglich in den vier tragischen Opern. Man hat in <rs type="place" ref="#hsl_place_id_55">Wien</rs> in
       <lb facs="#facs_3_line_1710382074485_1428" n="N013"/>den letzten Jahren Gelegenheit gehabt, diese Wahrnehmung
       <lb facs="#facs_3_region_1684591182461_2387_tl_17" n="N014"/>wiederholt zu erproben. Ohne den Schmuck vorzüglicher Ge
       <lb facs="#facs_3_region_1684591182461_2387_tl_18" n="N015" break="no"/>sangsvirtuosen, also durch die bloße eigenste Kraft der Musik,
       <lb facs="#facs_3_region_1684591182461_2387_tl_19" n="N016"/>wirken diese Opern kaum mehr; sie sind daher auch von den
       <lb facs="#facs_3_region_1684591182461_2387_tl_20" n="N017"/>
-               <rs type="place">deutsch</rs>en Bühnen so gut wie verschwunden. Alle übrigen Opern
+               <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen so gut wie verschwunden. Alle übrigen Opern
       <lb facs="#facs_3_region_1684591182461_2387_tl_21" n="N018"/>
                <rs type="person">Rossini</rs>’s, also die weitaus zahlreichsten, sind verschollen. Man
       <lb facs="#facs_3_region_1684591182461_2387_tl_22" n="N019"/>darf die Gegenwart darob nicht schelten. <rs type="person">Rossini</rs> hat sein genia
@@ -1706,7 +1706,7 @@
       <lb facs="#facs_3_region_1684591182461_2387_tl_41" n="N038" break="no"/>spondenz des größten und einseitigsten <rs type="person">Rossini</rs>-Enthusiasten,
       <lb facs="#facs_3_region_1684591182461_2387_tl_42" n="N039"/><hi rendition="#em">
                   <rs type="person">Stendhal</rs></hi>, aus 
-                  <rs type="place">Mailand</rs> schon in den Jahren <date when="1820">1820</date> bis <date when="1822">1822</date>
+                  <rs type="place" ref="#hsl_place_id_73">Mailand</rs> schon in den Jahren <date when="1820">1820</date> bis <date when="1822">1822</date>
       <lb facs="#facs_3_region_1684591182461_2387_tl_43" n="N040"/>wiederholt die Worte: „On se dégôute de <rs type="person">Rossini</rs>“,
       <lb facs="#facs_3_line_1710382057503_1420" n="N041"/>„<rs type="person">Rossini</rs> ne fait que se répéter“ u. s. f. Das war kein</p>
             <cb n="10"/>
@@ -1722,7 +1722,7 @@
       <lb facs="#facs_3_region_1684591193484_2390_tl_8" n="N009"/>die sittliche Kraft eines <rs type="person">Mozart</rs> oder <rs type="person">Beethoven</rs> besessen — das
       <lb facs="#facs_3_region_1684591193484_2390_tl_9" n="N010"/>ist ein Gedanke, nicht auszudenken.</p>
                <p>
-      <lb facs="#facs_3_region_1684591193484_2390_tl_10" n="N011"/>Nachdem <rs type="person">Rossini</rs> im Jahre <date month="0" day="0" year="0">1829</date> die Feder niedergelegt
+      <lb facs="#facs_3_region_1684591193484_2390_tl_10" n="N011"/>Nachdem <rs type="person">Rossini</rs> im Jahre <date when="1829">1829</date> die Feder niedergelegt
       <lb facs="#facs_3_region_1684591193484_2390_tl_11" n="N012"/>hatte, mit der er den „<rs type="bibl">Wilhelm Tell</rs>“ geschrieben, nahm er sie
       <lb facs="#facs_3_line_1710382078321_1431" n="N013"/>nur mehr selten und flüchtig zur Hand, um irgend ein Ge
       <lb facs="#facs_3_region_1684591193484_2390_tl_13" n="N014" break="no"/>legenheitsstück, meist für seinen engeren Freundeskreis, zu
@@ -1732,7 +1732,7 @@
       <lb facs="#facs_3_region_1684591193484_2390_tl_17" n="N018" break="no"/>schönheit offenbart. Zwei kleinere (ungedruckt gebliebene)
       <lb facs="#facs_3_region_1684591193484_2390_tl_18" n="N019"/>Chöre: „<rs type="bibl">Chant des Titans</rs>“ und „<rs type="bibl">Chant de Noël</rs>“, sendete
       <lb facs="#facs_3_region_1684591193484_2390_tl_19" n="N020"/>
-               <rs type="person">Rossini</rs> im Jahre <date when="1866">1866</date> nach <rs type="place">Wien</rs> zur Aufführung in dem
+               <rs type="person">Rossini</rs> im Jahre <date when="1866">1866</date> nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> zur Aufführung in dem
       <lb facs="#facs_3_region_1684591193484_2390_tl_20" n="N021"/>von der Gemeinde für <rs type="person">Mozart</rs>’s Denkmal veranstalteten Con
       <lb facs="#facs_3_region_1684591193484_2390_tl_21" n="N022" break="no"/>certe. In seiner Zuschrift bat er „um Nachsicht für die beiden
       <lb facs="#facs_3_region_1684591193484_2390_tl_22" n="N023"/>bescheidenen Compositionen, welche nur das Eine Verdienst
