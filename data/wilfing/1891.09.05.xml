@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+              <title level="a">Nr. 9707. Wien, Samstag, den 5. September 1891</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 9707. Wien, Samstag, den 5. September 1891</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1891-09-05"></date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="kbamer ampfiel" when="2024-05-05">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2024-05-07">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1034,93 +1033,83 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1685080403315_109_tl_1" n="N001"/><head type="h1">G. <rs type="person">Meyerbeer</rs>.</head>
+            <lb facs="#facs_1_region_1685080403315_109_tl_2" n="N002"/><head type="h2">(Zur hundertsten Wiederkehr seines Geburtstages, 5. September <date>1791</date>.)</head>
             <p>
-               <lb facs="#facs_1_line_1712727485369_25" n="N001"/>Nr. 9707. Wien, Samstag, den 5. September 1891</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1685080403315_109_tl_1" n="N001"/>G. <rs type="person">Meyerbeer</rs>.
-      <lb facs="#facs_1_region_1685080403315_109_tl_2" n="N002"/>(Zur hundertsten Wiederkehr seines Geburtstages, 5. September <date>1791</date>.)
-      <lb facs="#facs_1_region_1685080403315_109_tl_3" n="N003"/>Ed. H. Wenn <rs type="person">Meyerbeer</rs> heute von irgend einem Aus¬
-      <lb facs="#facs_1_region_1685080403315_109_tl_4" n="N004"/>sichtspunkte des Jenseits auf die Erde herabsehen könnte,
-      <lb facs="#facs_1_region_1685080403315_109_tl_5" n="N005"/>etwa wie ein Schauspieler an seinem Benefice-Abend durch's
+      <lb facs="#facs_1_region_1685080403315_109_tl_3" n="N003"/>Ed. H. Wenn <rs type="person">Meyerbeer</rs> heute von irgend einem Aus
+      <lb facs="#facs_1_region_1685080403315_109_tl_4" n="N004" break="no"/>sichtspunkte des Jenseits auf die Erde herabsehen könnte,
+      <lb facs="#facs_1_region_1685080403315_109_tl_5" n="N005"/>etwa wie ein Schauspieler an seinem Benefice-Abend durch’s
       <lb facs="#facs_1_region_1685080403315_109_tl_6" n="N006"/>Guckloch späht — ich glaube, ein zufriedenes Lächeln würde
       <lb facs="#facs_1_region_1685080403315_109_tl_7" n="N007"/>sein ernstes, geistvolles Gesicht erhellen. In sämmtlichen
-      <lb facs="#facs_1_region_1685080403315_109_tl_8" n="N008"/>Hauptstädten <rs type="place">Europa</rs>s und ringsum in der Provinz würde
+      <lb facs="#facs_1_region_1685080403315_109_tl_8" n="N008"/>Hauptstädten <rs type="place" ref="#hsl_place_id_19">Europa</rs>s und ringsum in der Provinz würde
       <lb facs="#facs_1_region_1685080403315_109_tl_9" n="N009"/>er Festvorstellungen seiner Opern wahrnehmen, volle Häuser,
       <lb facs="#facs_1_region_1685080403315_109_tl_10" n="N010"/>rauschenden Beifall. Wendet dann der Jubilar von seinem
       <lb facs="#facs_1_region_1685080403315_109_tl_11" n="N011"/>Aussichtssterne den Blick nach der anderen Hemisphäre, so
       <lb facs="#facs_1_region_1685080403315_109_tl_12" n="N012"/>begegnet er demselben Schauspiel, denn die Musikfreunde von
-      <lb facs="#facs_1_region_1685080403315_109_tl_13" n="N013"/>
-               <rs type="place">Newyork</rs> und <rs type="place">Mexico</rs>, von <rs type="place">Rio</rs> und <rs type="place">San Francisco</rs> können
+      <lb facs="#facs_1_region_1685080403315_109_tl_13" n="N013"/><rs type="place" ref="#hsl_place_id_186">Newyork</rs> und <rs type="place" ref="#hsl_place_id_219">Mexico</rs>, von <rs type="place" ref="#hsl_place_id_125">Rio</rs> und <rs type="place" ref="#hsl_place_id_569">San Francisco</rs> können
       <lb facs="#facs_1_line_1712727512701_31" n="N014"/>sich noch immer nicht satt hören an den Melodien des
       <lb facs="#facs_1_line_1712727523441_36" n="N015"/>„<rs type="bibl">Robert</rs>“ und der „<rs type="bibl">Hugenotten</rs>“, die sie längst auswendig
-      <lb facs="#facs_1_region_1685080403315_109_tl_18" n="N016"/>wissen. Die Theater-Directoren sind diesmal nicht in Ver¬
-      <lb facs="#facs_1_region_1685080403315_109_tl_19" n="N017"/>legenheit, wie sie es bei den Jubiläen von <rs type="person">Spontini</rs>, <rs type="person" continued="true">Cheru¬</rs>
-               <lb facs="#facs_1_region_1685080403315_109_tl_20" n="N018"/>
-               <rs type="person" continued="true">bini</rs>, <rs type="person">Méhul</rs>, <rs type="person">Spohr</rs> und <rs type="person">Hérold</rs> gewesen, deren Opern erst
+      <lb facs="#facs_1_region_1685080403315_109_tl_18" n="N016"/>wissen. Die Theater-Directoren sind diesmal nicht in Ver
+      <lb facs="#facs_1_region_1685080403315_109_tl_19" n="N017" break="no"/>legenheit, wie sie es bei den Jubiläen von <rs type="person">Spontini</rs>, <rs type="person">Cheru
+      <lb facs="#facs_1_region_1685080403315_109_tl_20" n="N018" break="no"/>bini</rs>, <rs type="person">Méhul</rs>, <rs type="person">Spohr</rs> und <rs type="person">Hérold</rs> gewesen, deren Opern erst
       <lb facs="#facs_1_region_1685080403315_109_tl_21" n="N019"/>hastig hervorgesucht und neu scenirt werden mußten, sollte
       <lb facs="#facs_1_region_1685080403315_109_tl_22" n="N020"/>das Jubiläum dieser Meister nicht total ignorirt bleiben,
-      <lb facs="#facs_1_region_1685080403315_109_tl_23" n="N021"/>was oft genug auch geschah. <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>'s</hi> Opern be¬
-      <lb facs="#facs_1_region_1685080403315_109_tl_24" n="N022"/>dürfen keiner Wieder-Erweckung, sie sitzen fest in dem
+      <lb facs="#facs_1_region_1685080403315_109_tl_23" n="N021"/>was oft genug auch geschah. <hi rendition="#em"><rs type="person">Meyerbeer</rs>’s</hi> Opern be
+      <lb facs="#facs_1_region_1685080403315_109_tl_24" n="N022" break="no"/>dürfen keiner Wieder-Erweckung, sie sitzen fest in dem
       <lb facs="#facs_1_region_1685080403315_109_tl_25" n="N023"/>Repertoire aller Theater und herrschen da seit ihren ersten
-      <lb facs="#facs_1_line_1712727567684_46" n="N024"/>Aufführungen ununterbrochen. „<rs type="bibl">Robert der Teufel</rs>“, „<rs type="bibl">Die</rs>
-               <lb facs="#facs_1_line_1712727627412_52" n="N025"/>
-               <rs type="bibl">Hugenotten</rs>“, „<rs type="bibl">Der Prophet</rs>“ haben eine Zahl von
+      <lb facs="#facs_1_line_1712727567684_46" n="N024"/>Aufführungen ununterbrochen. „<rs type="bibl">Robert der Teufel</rs>“, „<rs type="bibl">Die
+      <lb facs="#facs_1_line_1712727627412_52" n="N025"/>Hugenotten</rs>“, „<rs type="bibl">Der Prophet</rs>“ haben eine Zahl von
       <lb facs="#facs_1_region_1685080403315_109_tl_30" n="N026"/>Bühnen erobert und eine Summe von Wiederholungen
       <lb facs="#facs_1_region_1685080403315_109_tl_31" n="N027"/>erlebt, wie in gleichem Zeitraume kaum eine andere große Oper.
-      <lb facs="#facs_1_region_1685080403315_109_tl_32" n="N028"/>Um nur <rs type="place">Wien</rs> zu citiren: die „<rs type="bibl">Hugenotten</rs>“ (am 19. De¬
-      <lb facs="#facs_1_region_1685080403315_109_tl_33" n="N029"/>cember <date>1839</date> zum erstenmale im Kärntnerthor-Theater ge¬
-      <lb facs="#facs_1_region_1685080403315_109_tl_34" n="N030"/>geben) sind im Lauf von 50 Jahren (<date>1889</date>) gegen 500mal
-      <lb facs="#facs_1_line_1712727804098_114" n="N031"/>aufgeführt worden, eine Ziffer, die in <rs type="place">Wien</rs> überhaupt nur
-      <lb facs="#facs_1_line_1712727634943_58" n="N032"/>von „<rs type="bibl">Don Juan</rs>“, erreicht worden ist. In <rs type="place">Paris</rs> haben
-      <lb facs="#facs_1_line_1712727640527_63" n="N033"/>„<rs type="bibl">Robert</rs>“ und die „<rs type="bibl">Hugenotten</rs>“ bereits die 1000. Auf¬
-      <lb facs="#facs_1_region_1685080403315_109_tl_39" n="N034"/>führung hinter sich. Eine Popularität wie diese ist ohne
+      <lb facs="#facs_1_region_1685080403315_109_tl_32" n="N028"/>Um nur <rs type="place" ref="#hsl_place_id_55">Wien</rs> zu citiren: die „<rs type="bibl">Hugenotten</rs>“ (am 19. De
+      <lb facs="#facs_1_region_1685080403315_109_tl_33" n="N029" break="no"/>cember <date>1839</date> zum erstenmale im Kärntnerthor-Theater ge
+      <lb facs="#facs_1_region_1685080403315_109_tl_34" n="N030" break="no"/>geben) sind im Lauf von 50 Jahren (<date>1889</date>) gegen 500mal
+      <lb facs="#facs_1_line_1712727804098_114" n="N031"/>aufgeführt worden, eine Ziffer, die in <rs type="place" ref="#hsl_place_id_55">Wien</rs> überhaupt nur
+      <lb facs="#facs_1_line_1712727634943_58" n="N032"/>von „<rs type="bibl">Don Juan</rs>“, erreicht worden ist. In <rs type="place" ref="#hsl_place_id_44">Paris</rs> haben
+      <lb facs="#facs_1_line_1712727640527_63" n="N033"/>„<rs type="bibl">Robert</rs>“ und die „<rs type="bibl">Hugenotten</rs>“ bereits die 1000. Auf
+      <lb facs="#facs_1_region_1685080403315_109_tl_39" n="N034" break="no"/>führung hinter sich. Eine Popularität wie diese ist ohne
       <lb facs="#facs_1_region_1685080403315_109_tl_40" n="N035"/>Beispiel. „<rs type="bibl">Robert</rs>“ versorgt seit 60 Jahren, „<rs type="bibl">Die Hugenotten</rs>“
       <lb facs="#facs_1_region_1685080403315_109_tl_41" n="N036"/>beherrschen seit 55 Jahren mit beinahe ungeschwächter Kraft
-      <lb facs="#facs_1_region_1685080403315_109_tl_42" n="N037"/>alle Opernbühnen. Und wenn ihre anfangs geradezu unge¬
-      <lb facs="#facs_1_region_1685080403315_109_tl_43" n="N038"/>heure Wirkung seither doch etwas nachgelassen hat, so ge¬
-      <lb facs="#facs_1_region_1685080403315_109_tl_44" n="N039"/>schah es eben in Folge dieser gehäuften Wiederholungen. In
+      <lb facs="#facs_1_region_1685080403315_109_tl_42" n="N037"/>alle Opernbühnen. Und wenn ihre anfangs geradezu unge
+      <lb facs="#facs_1_region_1685080403315_109_tl_43" n="N038" break="no"/>heure Wirkung seither doch etwas nachgelassen hat, so ge
+      <lb facs="#facs_1_region_1685080403315_109_tl_44" n="N039" break="no"/>schah es eben in Folge dieser gehäuften Wiederholungen. In
       <lb facs="#facs_1_line_1712727827999_123" n="N040"/>so langem Zeitverlauf sind die Aufführungen fast überall
-      <lb facs="#facs_1_line_1712727848364_130" n="N041"/>nachlässiger, schleuderischer geworden, überdies die Haupt¬</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1685080406839_112_tl_1" n="N001"/>partien nirgends mehr im Besitz so großer Gesangskünstler,
+      <lb facs="#facs_1_line_1712727848364_130" n="N041"/>nachlässiger, schleuderischer geworden, überdies die Haupt</p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1685080406839_112_tl_1" n="N001" break="no"/>partien nirgends mehr im Besitz so großer Gesangskünstler,
       <lb facs="#facs_1_region_1685080406839_112_tl_2" n="N002"/>so herrlicher Stimmen, wie ehedem. Trotzdem bewähren
-      <lb facs="#facs_1_region_1685080406839_112_tl_3" n="N003"/>
-               <rs type="person">Meyerbeer</rs>'s Opern heute noch ihre alte Zugkraft; „<rs type="bibl">Robert</rs>“
-      <lb facs="#facs_1_region_1685080406839_112_tl_4" n="N004"/>und „<rs type="bibl">Die Hugenotten</rs>“ mit Recht voran, nach ihnen „<rs type="bibl">Pro¬</rs>
-               <lb facs="#facs_1_region_1685080406839_112_tl_5" n="N005"/>
-               <rs type="bibl">phet</rs>“ und „<rs type="bibl">Afrikanerin</rs>“. Selbst der „<rs type="bibl">Nordstern</rs>“ und
-      <lb facs="#facs_1_line_1712727657869_71" n="N006"/>„<rs type="bibl">Dinorah</rs>“ — schwächere Producte <rs type="person">Meyerbeer</rs>'s in dem
+      <lb facs="#facs_1_region_1685080406839_112_tl_3" n="N003"/><rs type="person">Meyerbeer</rs>’s Opern heute noch ihre alte Zugkraft; „<rs type="bibl">Robert</rs>“
+      <lb facs="#facs_1_region_1685080406839_112_tl_4" n="N004"/>und „<rs type="bibl">Die Hugenotten</rs>“ mit Recht voran, nach ihnen „<rs type="bibl">Pro
+      <lb facs="#facs_1_region_1685080406839_112_tl_5" n="N005" break="no"/>phet</rs>“ und „<rs type="bibl">Afrikanerin</rs>“. Selbst der „<rs type="bibl">Nordstern</rs>“ und
+      <lb facs="#facs_1_line_1712727657869_71" n="N006"/>„<rs type="bibl">Dinorah</rs>“ — schwächere Producte <rs type="person">Meyerbeer</rs>’s in dem
       <lb facs="#facs_1_region_1685080406839_112_tl_8" n="N007"/>ihm fremderen Gebiet der Opéra comique — fehlen kaum
-      <lb facs="#facs_1_region_1685080406839_112_tl_9" n="N008"/>in einem Opernhause, das noch die Seltenheit einer glän¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_10" n="N009"/>zenden, jugendlichen Coloratur-Sängerin besitzt.
+      <lb facs="#facs_1_region_1685080406839_112_tl_9" n="N008"/>in einem Opernhause, das noch die Seltenheit einer glän
+      <lb facs="#facs_1_region_1685080406839_112_tl_10" n="N009" break="no"/>zenden, jugendlichen Coloratur-Sängerin besitzt.
+            </p><p>
       <lb facs="#facs_1_region_1685080406839_112_tl_11" n="N010"/>So könnte denn <rs type="person">Meyerbeer</rs> durch seinen himmlischen
       <lb facs="#facs_1_region_1685080406839_112_tl_12" n="N011"/>Lug-ins-Land wahrnehmen, daß seine Werke kräftig fortleben
       <lb facs="#facs_1_region_1685080406839_112_tl_13" n="N012"/>vor einem unermeßlichen, ihm mit seltener Anhänglichkeit
       <lb facs="#facs_1_region_1685080406839_112_tl_14" n="N013"/>treu gebliebenen Publicum. <rs type="person">Meyerbeer</rs> war so glücklich, sich
       <lb facs="#facs_1_region_1685080406839_112_tl_15" n="N014"/>noch bei Lebzeiten durch die glänzendsten Erfolge anerkannt
-      <lb facs="#facs_1_region_1685080406839_112_tl_16" n="N015"/>und belohnt zu sehen. Ungetrübt war diese Freude keines¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_17" n="N016"/>wegs. Man hat dem Mann, welcher persönlich neidlos, be¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_18" n="N017"/>scheiden und grenzenlos wohlthätig war, seinen Ruhm nach
+      <lb facs="#facs_1_region_1685080406839_112_tl_16" n="N015"/>und belohnt zu sehen. Ungetrübt war diese Freude keines
+      <lb facs="#facs_1_region_1685080406839_112_tl_17" n="N016" break="no"/>wegs. Man hat dem Mann, welcher persönlich neidlos, be
+      <lb facs="#facs_1_region_1685080406839_112_tl_18" n="N017" break="no"/>scheiden und grenzenlos wohlthätig war, seinen Ruhm nach
       <lb facs="#facs_1_region_1685080406839_112_tl_19" n="N018"/>Kräften vergällt. <rs type="person">Börne</rs>’s Ausspruch, daß Undankbarkeit gegen
       <lb facs="#facs_1_line_1712727554341_40" n="N019"/>die eigenen Landsleute im Charakter der Deutschen liege,
-      <lb facs="#facs_1_region_1685080406839_112_tl_20" n="N020"/>findet ein starkes Echo in den Erfahrungen <rs type="person">Meyerbeer</rs>'s. Je
+      <lb facs="#facs_1_region_1685080406839_112_tl_20" n="N020"/>findet ein starkes Echo in den Erfahrungen <rs type="person">Meyerbeer</rs>’s. Je
       <lb facs="#facs_1_region_1685080406839_112_tl_21" n="N021"/>wärmer die Franzosen ihn, den Fremden, anerkannten und
-      <lb facs="#facs_1_region_1685080406839_112_tl_22" n="N022"/>feierten, desto tiefer glaubte die <rs type="place">deutsch</rs>e Kritik ihn herab¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_23" n="N023"/>zerren zu müssen. Man neidete ihm Zweierlei: seinen Wohl¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_24" n="N024"/>stand und seine Erfolge. Was hat man ihm nicht Alles an¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_25" n="N025"/>gedichtet! Sinnlose Anekdoten, wie die, daß <rs type="person">Meyerbeer</rs>
-               <lb facs="#facs_1_region_1685080406839_112_tl_26" n="N026"/>sämmtliche Orgeln in <rs type="place">Paris</rs> angekauft habe, damit kein
-      <lb facs="#facs_1_region_1685080406839_112_tl_27" n="N027"/>Nebenbuhler diesen im „<rs type="bibl">Robert</rs>“ verwendeten Effect nach¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_28" n="N028"/>ahmen könne, wurden blindlings geglaubt und verbreitet. Am
-      <lb facs="#facs_1_region_1685080406839_112_tl_29" n="N029"/>lächerlichsten ist aber die bekannte Lieblingsverdächtigung: <rs type="person" continued="true">Meyer¬</rs>
-               <lb facs="#facs_1_region_1685080406839_112_tl_30" n="N030"/>
-               <rs type="person" continued="true">beer</rs> habe seine Erfolge auf Schleichwegen der Reclame und der Be¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_31" n="N031"/>stechung erreicht. Wer dergleichen für möglich hält, der macht dem
-      <lb facs="#facs_1_region_1685080406839_112_tl_32" n="N032"/>
-               <rs type="place">europäisch</rs>en Publicum und seinem eigenen Verstande ein
+      <lb facs="#facs_1_region_1685080406839_112_tl_22" n="N022"/>feierten, desto tiefer glaubte die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Kritik ihn herab
+      <lb facs="#facs_1_region_1685080406839_112_tl_23" n="N023" break="no"/>zerren zu müssen. Man neidete ihm Zweierlei: seinen Wohl
+      <lb facs="#facs_1_region_1685080406839_112_tl_24" n="N024" break="no"/>stand und seine Erfolge. Was hat man ihm nicht Alles an
+      <lb facs="#facs_1_region_1685080406839_112_tl_25" n="N025" break="no"/>gedichtet! Sinnlose Anekdoten, wie die, daß <rs type="person">Meyerbeer</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685080406839_112_tl_26" n="N026"/>sämmtliche Orgeln in <rs type="place" ref="#hsl_place_id_44">Paris</rs> angekauft habe, damit kein
+      <lb facs="#facs_1_region_1685080406839_112_tl_27" n="N027"/>Nebenbuhler diesen im „<rs type="bibl">Robert</rs>“ verwendeten Effect nach
+      <lb facs="#facs_1_region_1685080406839_112_tl_28" n="N028" break="no"/>ahmen könne, wurden blindlings geglaubt und verbreitet. Am
+      <lb facs="#facs_1_region_1685080406839_112_tl_29" n="N029"/>lächerlichsten ist aber die bekannte Lieblingsverdächtigung: <rs type="person">Meyer
+      <lb facs="#facs_1_region_1685080406839_112_tl_30" n="N030" break="no"/>beer</rs> habe seine Erfolge auf Schleichwegen der Reclame und der Be
+      <lb facs="#facs_1_region_1685080406839_112_tl_31" n="N031" break="no"/>stechung erreicht. Wer dergleichen für möglich hält, der macht dem
+      <lb facs="#facs_1_region_1685080406839_112_tl_32" n="N032"/><rs type="place" ref="#hsl_place_id_19">europäisch</rs>en Publicum und seinem eigenen Verstande ein
       <lb facs="#facs_1_region_1685080406839_112_tl_33" n="N033"/>schlechtes Compliment. Reclame und Bestechung können einen
       <lb facs="#facs_1_region_1685080406839_112_tl_34" n="N034"/>äußeren Erfolg für ein paar Theaterabende und in zwei
       <lb facs="#facs_1_region_1685080406839_112_tl_35" n="N035"/>oder drei Städten erschleichen, niemals aber für längere Zeit
@@ -1131,271 +1120,225 @@
       <lb facs="#facs_1_region_1685080406839_112_tl_39" n="N040"/>Grenzen verschollen sein. <rs type="person">Meyerbeer</rs> ist seit 27 Jahren todt;
       <lb facs="#facs_1_region_1685080406839_112_tl_40" n="N041"/>seine Opern wirken aber heute wie zu seinen Lebzeiten, der
       <lb facs="#facs_1_region_1685080406839_112_tl_41" n="N042"/>beste Beweis, daß man nicht von ihm bestochen ist, sondern
-      <lb facs="#facs_1_region_1685080406839_112_tl_42" n="N043"/>von seinen Melodien. <rs type="person">Meyerbeer</rs> war allerdings ein ängst¬
-      <lb facs="#facs_1_region_1685080406839_112_tl_43" n="N044"/>liches Genies, stets zweifelnd und besorgt um das Schicksal</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1685080410603_115_tl_1" n="N001"/>seiner Werke, das hindert nicht, daß diese durch ihren eigenen
+      <lb facs="#facs_1_region_1685080406839_112_tl_42" n="N043"/>von seinen Melodien. <rs type="person">Meyerbeer</rs> war allerdings ein ängst
+      <lb facs="#facs_1_region_1685080406839_112_tl_43" n="N044" break="no"/>liches Genies, stets zweifelnd und besorgt um das Schicksal<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1685080410603_115_tl_1" n="N001"/>seiner Werke, das hindert nicht, daß diese durch ihren eigenen
       <lb facs="#facs_1_region_1685080410603_115_tl_2" n="N002"/>Gehalt gesiegt und sich über ein halbes Jahrhundert lang
-      <lb facs="#facs_1_region_1685080410603_115_tl_3" n="N003"/>wirksam erhalten haben. Die <rs type="place">deutsch</rs>e Journalistik hat <rs type="person" continued="true">Meyer¬</rs>
-               <lb facs="#facs_1_region_1685080410603_115_tl_4" n="N004"/>
-               <rs type="person" continued="true">beer</rs> unausgesetzt mit gehässigem Eifer verfolgt; das Publi¬
-      <lb facs="#facs_1_region_1685080410603_115_tl_5" n="N005"/>cum aber ist ihm treu geblieben, überall, in allen Ländern.
+      <lb facs="#facs_1_region_1685080410603_115_tl_3" n="N003"/>wirksam erhalten haben. Die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Journalistik hat <rs type="person">Meyer
+      <lb facs="#facs_1_region_1685080410603_115_tl_4" n="N004" break="no"/>beer</rs> unausgesetzt mit gehässigem Eifer verfolgt; das Publi
+      <lb facs="#facs_1_region_1685080410603_115_tl_5" n="N005" break="no"/>cum aber ist ihm treu geblieben, überall, in allen Ländern.
       <lb facs="#facs_1_region_1685080410603_115_tl_6" n="N006"/>Er brauchte keine <rs type="person">Meyerbeer</rs>-Vereine zu gründen, kein eigenes
-      <lb facs="#facs_1_region_1685080410603_115_tl_7" n="N007"/>
-               <rs type="person">Meyerbeer</rs>-Theater zu erbauen; das ganze Publicum war
-      <lb facs="#facs_1_region_1685080410603_115_tl_8" n="N008"/>sein Verein und <rs type="place">Europa</rs> sein <rs type="place">Bayreuth</rs>.
+      <lb facs="#facs_1_region_1685080410603_115_tl_7" n="N007"/><rs type="person">Meyerbeer</rs>-Theater zu erbauen; das ganze Publicum war
+      <lb facs="#facs_1_region_1685080410603_115_tl_8" n="N008"/>sein Verein und <rs type="place" ref="#hsl_place_id_19">Europa</rs> sein <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>.
+            </p><p>
       <lb facs="#facs_1_region_1685080410603_115_tl_9" n="N009"/>Zaghafte, nervöse Naturen wie <rs type="person">Meyerbeer</rs> sind in der
       <lb facs="#facs_1_region_1685080410603_115_tl_10" n="N010"/>Regel sehr empfindlich. Der Schöpfer der „<rs type="bibl">Hugenotten</rs>“
       <lb facs="#facs_1_region_1685080410603_115_tl_11" n="N011"/>fühlte schmerzlich jeden Nadelstich der Kritik. Am tiefsten
-      <lb facs="#facs_1_line_1712727689353_80" n="N012"/>kränkte ihn die verächtlich wegwerfende Kritik Richard <hi rendition="#em">
-                  <rs type="person" continued="true">Wag¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1685080410603_115_tl_12" n="N013"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">ner</rs>'s</hi>, den er doch in schwersten Tagen thatkräftig unter¬
-      <lb facs="#facs_1_region_1685080410603_115_tl_13" n="N014"/>stützt und gefördert hatte. Die Frage der persönlichen Dank¬
-      <lb facs="#facs_1_region_1685080410603_115_tl_14" n="N015"/>barkeit möge hier gar nicht aufgeworfen, vielmehr willig zu¬
-      <lb facs="#facs_1_region_1685080410603_115_tl_15" n="N016"/>gestanden werden, daß man Gutes von einem Freunde
+      <lb facs="#facs_1_line_1712727689353_80" n="N012"/>kränkte ihn die verächtlich wegwerfende Kritik Richard <hi rendition="#em"><rs type="person">Wag
+      <lb facs="#facs_1_region_1685080410603_115_tl_12" n="N013" break="no"/>ner</rs>’s</hi>, den er doch in schwersten Tagen thatkräftig unter
+      <lb facs="#facs_1_region_1685080410603_115_tl_13" n="N014" break="no"/>stützt und gefördert hatte. Die Frage der persönlichen Dank
+      <lb facs="#facs_1_region_1685080410603_115_tl_14" n="N015" break="no"/>barkeit möge hier gar nicht aufgeworfen, vielmehr willig zu
+      <lb facs="#facs_1_region_1685080410603_115_tl_15" n="N016" break="no"/>gestanden werden, daß man Gutes von einem Freunde
       <lb facs="#facs_1_region_1685080410603_115_tl_16" n="N017"/>empfangen und doch seine Werke verfehlt finden könne. Aber
       <lb facs="#facs_1_region_1685080410603_115_tl_17" n="N018"/>ich glaube, daß das Bewußtsein genossener Wohlthaten jedem
-      <lb facs="#facs_1_region_1685080410603_115_tl_18" n="N019"/>nicht ganz verhärteten Gemüth von selbst einige Zurückhal¬
-      <lb facs="#facs_1_region_1685080410603_115_tl_19" n="N020"/>tung im Maß und Ausdruck eines öffentlichen Tadels auf¬
-      <lb facs="#facs_1_region_1685080410603_115_tl_20" n="N021"/>erlegen müßte. Obendrein wo es sich nicht um eine Abwehr,
+      <lb facs="#facs_1_region_1685080410603_115_tl_18" n="N019"/>nicht ganz verhärteten Gemüth von selbst einige Zurückhal
+      <lb facs="#facs_1_region_1685080410603_115_tl_19" n="N020" break="no"/>tung im Maß und Ausdruck eines öffentlichen Tadels auf
+      <lb facs="#facs_1_region_1685080410603_115_tl_20" n="N021" break="no"/>erlegen müßte. Obendrein wo es sich nicht um eine Abwehr,
       <lb facs="#facs_1_region_1685080410603_115_tl_21" n="N022"/>sondern um einen durch keine Nöthigung motivirten Angriff
       <lb facs="#facs_1_region_1685080410603_115_tl_22" n="N023"/>handelt. Man weiß, daß der junge unbekannte <rs type="person">Wagner</rs> die
-      <lb facs="#facs_1_line_1712727729964_88" n="N024"/>Annahme seines „<rs type="bibl">Rienzi</rs>“ in <rs type="place">Dresden</rs> (die seine Anstellung
-      <lb facs="#facs_1_line_1712727753913_98" n="N025"/>als Hof-Capellmeister zur Folge gehabt) nur <rs type="person">Meyerbeer</rs>
-               <lb facs="#facs_1_line_1712727782179_108" n="N026"/>verdankte, desgleichen die Aufführung des „<rs type="bibl">Fliegenden Hollän¬</rs>
-               <lb facs="#facs_1_region_1685080410603_115_tl_23" n="N027"/>
-               <rs type="bibl">der</rs>“ in <rs type="place">Berlin</rs>. „Ohne <rs type="person">Meyerbeer</rs> hätte ich in <rs type="place">Paris</rs> mit
+      <lb facs="#facs_1_line_1712727729964_88" n="N024"/>Annahme seines „<rs type="bibl">Rienzi</rs>“ in <rs type="place" ref="#hsl_place_id_15">Dresden</rs> (die seine Anstellung
+      <lb facs="#facs_1_line_1712727753913_98" n="N025"/>als Hof-Capellmeister zur Folge gehabt) nur <rs type="person">Meyerbeer</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1712727782179_108" n="N026"/>verdankte, desgleichen die Aufführung des „<rs type="bibl">Fliegenden Hollän
+      <lb facs="#facs_1_region_1685080410603_115_tl_23" n="N027" break="no"/>der</rs>“ in <rs type="place" ref="#hsl_place_id_9">Berlin</rs>. „Ohne <rs type="person">Meyerbeer</rs> hätte ich in <rs type="place" ref="#hsl_place_id_44">Paris</rs> mit
       <lb facs="#facs_1_region_1685080410603_115_tl_24" n="N028"/>meiner Frau verhungern können,“ sagte mir wörtlich
-      <lb facs="#facs_1_region_1685080410603_115_tl_25" n="N029"/>R. <rs type="person">Wagner</rs> im August <date>1846</date> in <rs type="place">Marienbad</rs>. Aber gleich auf
+      <lb facs="#facs_1_region_1685080410603_115_tl_25" n="N029"/>R. <rs type="person">Wagner</rs> im August <date>1846</date> in <rs type="place" ref="#hsl_place_id_79">Marienbad</rs>. Aber gleich auf
       <lb facs="#facs_1_region_1685080410603_115_tl_26" n="N030"/>dieses unbefangene Geständniß folgte eine Fluth von
-      <lb facs="#facs_1_region_1685080410603_115_tl_27" n="N031"/>Schmähungen gegen <rs type="person">Meyerbeer</rs>'s Musik, die nur „eine wider¬
-      <lb facs="#facs_1_region_1685080410603_115_tl_28" n="N032"/>wärtige Fratze“ sei. <rs type="person">Meyerbeer</rs>, dem meine jugendliche Neu¬
-      <lb facs="#facs_1_region_1685080410603_115_tl_29" n="N033"/>gier damals gern ein Wort über <rs type="person">Wagner</rs> entlockt hätte, sagte
+      <lb facs="#facs_1_region_1685080410603_115_tl_27" n="N031"/>Schmähungen gegen <rs type="person">Meyerbeer</rs>’s Musik, die nur „eine wider
+      <lb facs="#facs_1_region_1685080410603_115_tl_28" n="N032" break="no"/>wärtige Fratze“ sei. <rs type="person">Meyerbeer</rs>, dem meine jugendliche Neu
+      <lb facs="#facs_1_region_1685080410603_115_tl_29" n="N033" break="no"/>gier damals gern ein Wort über <rs type="person">Wagner</rs> entlockt hätte, sagte
       <lb facs="#facs_1_region_1685080410603_115_tl_30" n="N034"/>nichts weiter als: „Seine Opern gefallen sehr“ und wendete
-      <lb facs="#facs_1_region_1685080410603_115_tl_31" n="N035"/>sofort das Gespräch. An <rs type="person">Meyerbeer</rs>'s Richtung ist viel zu
+      <lb facs="#facs_1_region_1685080410603_115_tl_31" n="N035"/>sofort das Gespräch. An <rs type="person">Meyerbeer</rs>’s Richtung ist viel zu
       <lb facs="#facs_1_region_1685080410603_115_tl_32" n="N036"/>beklagen, in seinen Opern gar Manches zu verwerfen, und
       <lb facs="#facs_1_region_1685080410603_115_tl_33" n="N037"/>meine Leser wissen ganz gut, daß ich für das Raffinirte,
       <lb facs="#facs_1_region_1685080410603_115_tl_34" n="N038"/>Gewaltsame und Geschmacklose darin niemals blind oder
       <lb facs="#facs_1_region_1685080410603_115_tl_35" n="N039"/>nachsichtig gewesen. Aber in der Hauptsache, glaube
       <lb facs="#facs_1_region_1685080410603_115_tl_36" n="N040"/>ich, beurtheilt ihn <rs type="person">Wagner</rs> falsch und ungerecht. Er
       <lb facs="#facs_1_region_1685080410603_115_tl_37" n="N041"/>sagt nämlich in „<rs type="bibl">Oper und Drama</rs>“ (zweite Auflage,
-      <lb facs="#facs_1_region_1685080410603_115_tl_38" n="N042"/>Seite 91): „Beachtenswerth ist es vor Allem, daß <rs type="person" continued="true">Meyer¬</rs>
-               <lb facs="#facs_1_region_1685080410603_115_tl_39" n="N043"/>
-               <rs type="person" continued="true">beer</rs> diesem Gange der Opernmusik nur immer folgte, nie
-      <lb facs="#facs_1_line_1712727873309_135" n="N044"/>aber mit ihm, geschweige denn ihm irgendwie vorausging.</p>
+      <lb facs="#facs_1_region_1685080410603_115_tl_38" n="N042"/>Seite 91): „Beachtenswerth ist es vor Allem, daß <rs type="person">Meyer
+      <lb facs="#facs_1_region_1685080410603_115_tl_39" n="N043" break="no"/>beer</rs> diesem Gange der Opernmusik nur immer folgte, nie
+      <lb facs="#facs_1_line_1712727873309_135" n="N044"/>aber mit ihm, geschweige denn ihm irgendwie vorausging.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1685080422004_121_tl_1" n="N001"/>Er glich dem Staar, der der Pflugschar auf dem Felde
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685080422004_121_tl_1" n="N001"/>Er glich dem Staar, der der Pflugschar auf dem Felde
       <lb facs="#facs_2_region_1685080422004_121_tl_2" n="N002"/>folgt und aus der soeben aufgewühlten Ackerfurche lustig die
-      <lb facs="#facs_2_region_1685080422004_121_tl_3" n="N003"/>an die Luft gesetzten Regenwärmer aufpickt. Nicht Eine Rich¬
-      <lb facs="#facs_2_line_1712727943118_163" n="N004"/>tung ist ihm eigenthümlich, sondern jede hat er <hi rendition="#em">nur seinem</hi>
-               <lb facs="#facs_2_line_1712727946181_168" n="N005"/>
-               <hi rendition="#em">Vorgänger abgelauscht</hi>.“ Wenn <rs type="person">Meyerbeer</rs>, keine
-      <lb facs="#facs_2_region_1685080422004_121_tl_8" n="N006"/>Originalität besäße, nur Abgelauschtes und Erborgtes wieder¬
-      <lb facs="#facs_2_region_1685080422004_121_tl_9" n="N007"/>holte, nimmermehr hätten seine Opern eine so gewaltig zün¬
-      <lb facs="#facs_2_region_1685080422004_121_tl_10" n="N008"/>dende Wirkung machen und bis heute bewahren können.
+      <lb facs="#facs_2_region_1685080422004_121_tl_3" n="N003"/>an die Luft gesetzten Regenwärmer aufpickt. Nicht Eine Rich
+      <lb facs="#facs_2_line_1712727943118_163" n="N004" break="no"/>tung ist ihm eigenthümlich, sondern jede hat er <hi rendition="#em">nur seinem
+      <lb facs="#facs_2_line_1712727946181_168" n="N005"/>Vorgänger abgelauscht</hi>.“ Wenn <rs type="person">Meyerbeer</rs>, keine
+      <lb facs="#facs_2_region_1685080422004_121_tl_8" n="N006"/>Originalität besäße, nur Abgelauschtes und Erborgtes wieder
+      <lb facs="#facs_2_region_1685080422004_121_tl_9" n="N007" break="no"/>holte, nimmermehr hätten seine Opern eine so gewaltig zün
+      <lb facs="#facs_2_region_1685080422004_121_tl_10" n="N008" break="no"/>dende Wirkung machen und bis heute bewahren können.
       <lb facs="#facs_2_line_1712728038972_211" n="N009"/>Gerade das Originelle in „<rs type="bibl">Robert</rs>“ und den „<rs type="bibl">Hugenotten</rs>“
       <lb facs="#facs_2_line_1712728059517_217" n="N010"/>hat das Glück dieser Opern begründet. Wer sich der Zeit
-      <lb facs="#facs_2_region_1685080422004_121_tl_11" n="N011"/>erinnert, da diese Werke erschienen, dem ist auch das blen¬
-      <lb facs="#facs_2_region_1685080422004_121_tl_12" n="N012"/>dend Neue, ganz Eigenartige ihres Eindruckes unvergeßlich.
-      <lb facs="#facs_2_region_1685080422004_121_tl_13" n="N013"/>Was darin etwa an <rs type="person">Weber</rs>, <rs type="person">Rossini</rs>, <rs type="person">Auber</rs> erinnert, ist ver¬
-      <lb facs="#facs_2_region_1685080422004_121_tl_14" n="N014"/>schwindend gering gegen das ganz Eigenartige, specifisch
-      <lb facs="#facs_2_region_1685080422004_121_tl_15" n="N015"/>
-               <rs type="person">Meyerbeer</rs>'sche dieser Musik. Niemand würde eine <rs type="person" continued="true">Meyer¬</rs>
-               <lb facs="#facs_2_line_1712728080347_224" n="N016"/>
-               <rs type="person" continued="true">beer</rs>'sche Oper irgend einem andern Componisten zuschreiben
-      <lb facs="#facs_2_region_1685080422004_121_tl_16" n="N017"/>können. Man kann im Gegentheil behaupten, daß <rs type="person">Meyerbeer</rs>
-               <lb facs="#facs_2_region_1685080422004_121_tl_17" n="N018"/>mit „<rs type="bibl">Robert</rs>“ und den „<rs type="bibl">Hugenotten</rs>“ der modernen großen
+      <lb facs="#facs_2_region_1685080422004_121_tl_11" n="N011"/>erinnert, da diese Werke erschienen, dem ist auch das blen
+      <lb facs="#facs_2_region_1685080422004_121_tl_12" n="N012" break="no"/>dend Neue, ganz Eigenartige ihres Eindruckes unvergeßlich.
+      <lb facs="#facs_2_region_1685080422004_121_tl_13" n="N013"/>Was darin etwa an <rs type="person">Weber</rs>, <rs type="person">Rossini</rs>, <rs type="person">Auber</rs> erinnert, ist ver
+      <lb facs="#facs_2_region_1685080422004_121_tl_14" n="N014" break="no"/>schwindend gering gegen das ganz Eigenartige, specifisch
+      <lb facs="#facs_2_region_1685080422004_121_tl_15" n="N015"/><rs type="person">Meyerbeer</rs>’sche dieser Musik. Niemand würde eine <rs type="person">Meyer
+      <lb facs="#facs_2_line_1712728080347_224" n="N016" break="no"/>beer</rs>’sche Oper irgend einem andern Componisten zuschreiben
+      <lb facs="#facs_2_region_1685080422004_121_tl_16" n="N017"/>können. Man kann im Gegentheil behaupten, daß <rs type="person">Meyerbeer</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080422004_121_tl_17" n="N018"/>mit „<rs type="bibl">Robert</rs>“ und den „<rs type="bibl">Hugenotten</rs>“ der modernen großen
       <lb facs="#facs_2_region_1685080422004_121_tl_18" n="N019"/>Oper den Stempel <hi rendition="#em">seiner</hi> Persönlichkeit aufgedrückt hat.
-      <lb facs="#facs_2_region_1685080422004_121_tl_19" n="N020"/>Was auf gleichem Gebiet darauf folgte, und nicht blos in <rs type="place">Frank¬</rs>
-               <lb facs="#facs_2_region_1685080422004_121_tl_20" n="N021"/>
-               <rs type="place">reich</rs>, verräth mehr oder minder die Einwirkung <rs type="person">Meyerbeer</rs>'s:
-      <lb facs="#facs_2_line_1712727954479_174" n="N022"/>
-               <hi rendition="#em">
-                  <rs type="person">Halévy</rs>'s</hi> „<rs type="bibl">Jüdin</rs>“, „<rs type="bibl">Guido und Ginevra</rs>“, „<rs type="bibl">Karl VI.</rs>“,
-      <lb facs="#facs_2_line_1712727961157_179" n="N023"/>
-               <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi> „<rs type="bibl">Faust</rs>“ und „<rs type="bibl">Königin von Saba</rs>“, A. <hi rendition="#em">
-                  <rs type="person">Thomas</rs>'</hi>
-               <lb facs="#facs_2_region_1685080422004_121_tl_25" n="N024"/>„<rs type="bibl">Hamlet</rs>“, <hi rendition="#em">
-                  <rs type="person">Massenet</rs>'s</hi> „<rs type="bibl">König von Lahore</rs>“ und „<rs type="bibl">Cid</rs>“,
-      <lb facs="#facs_2_line_1712728101775_230" n="N025"/>
-               <hi rendition="#em">
-                  <rs type="person">Verdi</rs>'s</hi> „<rs type="bibl">Sicilianische Vesper</rs>“, <hi rendition="#em">
-                  <rs type="person">Donizetti</rs>'s</hi> „<rs type="bibl">Dom</rs>
-               <lb facs="#facs_2_line_1712728121143_236" n="N026"/>
-               <rs type="bibl">Sebastian</rs>“ und „<rs type="bibl">Favorite</rs>“. Und nicht auch <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi>
-               <lb facs="#facs_2_region_1685080422004_121_tl_26" n="N027"/>selbst? Er hat ganz Recht, wenn er in einem von Demuth
+      <lb facs="#facs_2_region_1685080422004_121_tl_19" n="N020"/>Was auf gleichem Gebiet darauf folgte, und nicht blos in <rs type="place" ref="#hsl_place_id_21">>Frank
+      <lb facs="#facs_2_region_1685080422004_121_tl_20" n="N021" break="no"/>reich</rs>, verräth mehr oder minder die Einwirkung <rs type="person">Meyerbeer</rs>’s:
+      <lb facs="#facs_2_line_1712727954479_174" n="N022"/><hi rendition="#em"><rs type="person">Halévy</rs>’s</hi> „<rs type="bibl">Jüdin</rs>“, „<rs type="bibl">Guido und Ginevra</rs>“, „<rs type="bibl">Karl VI.</rs>“,
+      <lb facs="#facs_2_line_1712727961157_179" n="N023"/><hi rendition="#em"><rs type="person">Gounod</rs>’s</hi> „<rs type="bibl">Faust</rs>“ und „<rs type="bibl">Königin von Saba</rs>“, A. <hi rendition="#em"><rs type="person">Thomas</rs>’</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080422004_121_tl_25" n="N024"/>„<rs type="bibl">Hamlet</rs>“, <hi rendition="#em"><rs type="person">Massenet</rs>’s</hi> „<rs type="bibl">König von Lahore</rs>“ und „<rs type="bibl">Cid</rs>“,
+      <lb facs="#facs_2_line_1712728101775_230" n="N025"/><hi rendition="#em"><rs type="person">Verdi</rs>’s</hi> „<rs type="bibl">Sicilianische Vesper</rs>“, <hi rendition="#em"><rs type="person">Donizetti</rs>’s</hi> „<rs type="bibl">Dom
+      <lb facs="#facs_2_line_1712728121143_236" n="N026"/>Sebastian</rs>“ und „<rs type="bibl">Favorite</rs>“. Und nicht auch <hi rendition="#em"><rs type="person">Wagner</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080422004_121_tl_26" n="N027"/>selbst? Er hat ganz Recht, wenn er in einem von Demuth
       <lb facs="#facs_2_region_1685080422004_121_tl_27" n="N028"/>und Dankbarkeit triefenden Briefe an <rs type="person">Meyerbeer</rs> (<date>1842</date>)
       <lb facs="#facs_2_line_1712728003663_190" n="N029"/>sich dessen „alleraufrichtigsten Schüler“ nennt; denn nicht
-      <lb facs="#facs_2_line_1712728009032_195" n="N030"/>blos „<rs type="bibl">Rienzi</rs>“ ist eine unverhohlene Nachbildung <rs type="person">Meyerbeer</rs>'s,
+      <lb facs="#facs_2_line_1712728009032_195" n="N030"/>blos „<rs type="bibl">Rienzi</rs>“ ist eine unverhohlene Nachbildung <rs type="person">Meyerbeer</rs>’s,
       <lb facs="#facs_2_region_1685080422004_121_tl_32" n="N031"/>auch „<rs type="bibl">Tannhäuser</rs>“ würde schwerlich existiren, wenn nie ein
-      <lb facs="#facs_2_region_1685080422004_121_tl_33" n="N032"/>
-               <rs type="person">Meyerbeer</rs> existirt hätte. Vollends unbegreiflich erscheint aber,
-      <lb facs="#facs_2_region_1685080422004_121_tl_34" n="N033"/>wie Jemand, sei er dem dramatischen Raffinement <rs type="person" continued="true">Meyer¬</rs>
-               <lb facs="#facs_2_region_1685080422004_121_tl_35" n="N034"/>
-               <rs type="person" continued="true">beer</rs>'s noch so sehr abhold, zweifeln könne an dessen großem
-      <lb facs="#facs_2_region_1685080422004_121_tl_36" n="N035"/>
-               <hi rendition="#em">musikalischen</hi> Talent. <rs type="person">Wagner</rs> aber nimmt keinen An¬
-      <lb facs="#facs_2_region_1685080422004_121_tl_37" n="N036"/>stand (in „<rs type="bibl">Oper und Drama</rs>“, Seite 80), „<rs type="person">Meyerbeer</rs>'s
-      <lb facs="#facs_2_line_1712728017856_202" n="N037"/>
-               <hi rendition="#em">specifisch musikalische Begabung vollkom¬</hi>
-               <lb facs="#facs_2_line_1712728021705_207" n="N038"/>
-               <hi rendition="#em">men auf Null zu setzen</hi>“! Man braucht nicht
-      <lb facs="#facs_2_line_1712728142998_244" n="N039"/>einmal die „<rs type="bibl">Hugenotten</rs>“ zu kennen, sondern nur „<rs type="bibl">Robert</rs>
-            </p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1712727932151_155" n="N001"/>
-               <rs type="bibl">der Teufel</rs>“, nur den ersten Act von „<rs type="bibl">Robert der Teufel</rs>“,
+      <lb facs="#facs_2_region_1685080422004_121_tl_33" n="N032"/><rs type="person">Meyerbeer</rs> existirt hätte. Vollends unbegreiflich erscheint aber,
+      <lb facs="#facs_2_region_1685080422004_121_tl_34" n="N033"/>wie Jemand, sei er dem dramatischen Raffinement <rs type="person">Meyer
+      <lb facs="#facs_2_region_1685080422004_121_tl_35" n="N034" break="no"/>beer</rs>’s noch so sehr abhold, zweifeln könne an dessen großem
+      <lb facs="#facs_2_region_1685080422004_121_tl_36" n="N035"/><hi rendition="#em">musikalischen</hi> Talent. <rs type="person">Wagner</rs> aber nimmt keinen An
+      <lb facs="#facs_2_region_1685080422004_121_tl_37" n="N036" break="no"/>stand (in „<rs type="bibl">Oper und Drama</rs>“, Seite 80), „<rs type="person">Meyerbeer</rs>’s
+      <lb facs="#facs_2_line_1712728017856_202" n="N037"/><hi rendition="#em">specifisch musikalische Begabung vollkom
+      <lb facs="#facs_2_line_1712728021705_207" n="N038" break="no"/>men auf Null zu setzen</hi>“! Man braucht nicht
+      <lb facs="#facs_2_line_1712728142998_244" n="N039"/>einmal die „<rs type="bibl">Hugenotten</rs>“ zu kennen, sondern nur „<rs type="bibl">Robert</rs><space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1712727932151_155" n="N001"/><rs type="bibl" prev="true">der Teufel</rs>“, nur den ersten Act von „<rs type="bibl">Robert der Teufel</rs>“,
       <lb facs="#facs_2_region_1685080425669_124_tl_1" n="N002"/>um darüber klar zu sein, daß hier eines der üppigsten
-      <lb facs="#facs_2_region_1685080425669_124_tl_2" n="N003"/>musikalischen Talente einen Reichthum an Erfindung ent¬
-      <lb facs="#facs_2_region_1685080425669_124_tl_3" n="N004"/>falte, wie er zu den größten Seltenheiten gehört.
+      <lb facs="#facs_2_region_1685080425669_124_tl_2" n="N003"/>musikalischen Talente einen Reichthum an Erfindung ent
+      <lb facs="#facs_2_region_1685080425669_124_tl_3" n="N004" break="no"/>falte, wie er zu den größten Seltenheiten gehört.
       <lb facs="#facs_2_region_1685080425669_124_tl_4" n="N005"/>Aber <rs type="person">Wagner</rs> war nicht immer so schlecht zu sprechen auf
-      <lb facs="#facs_2_region_1685080425669_124_tl_5" n="N006"/>
-               <rs type="person">Meyerbeer</rs>'s Opern. Es existirt ein durchaus von <rs type="person">Wagner</rs>'s
-      <lb facs="#facs_2_region_1685080425669_124_tl_6" n="N007"/>Hand geschriebener Aufsatz von fünf Folioseiten über <rs type="person" continued="true">Meyer¬</rs>
-               <lb facs="#facs_2_region_1685080425669_124_tl_7" n="N008"/>
-               <rs type="person" continued="true">beer</rs>, der Alles übertrifft, was der entzückteste <rs type="place">französisch</rs>e
+      <lb facs="#facs_2_region_1685080425669_124_tl_5" n="N006"/><rs type="person">Meyerbeer</rs>’s Opern. Es existirt ein durchaus von <rs type="person">Wagner</rs>’s
+      <lb facs="#facs_2_region_1685080425669_124_tl_6" n="N007"/>Hand geschriebener Aufsatz von fünf Folioseiten über <rs type="person">Meyer
+      <lb facs="#facs_2_region_1685080425669_124_tl_7" n="N008" break="no"/>beer</rs>, der Alles übertrifft, was der entzückteste <rs type="place" ref="#hsl_place_id_21">>französisch</rs>e
       <lb facs="#facs_2_region_1685080425669_124_tl_8" n="N009"/>Kritiker je zum Preise dieses Componisten schreiben konnte.
       <lb facs="#facs_2_region_1685080425669_124_tl_9" n="N010"/>Dieser ganz druckfertige Aufsatz, wahrscheinlich aus dem
       <lb facs="#facs_2_region_1685080425669_124_tl_10" n="N011"/>Jahre <date>1842</date>, war offenbar für eine Musikzeitung bestimmt.
       <lb facs="#facs_2_region_1685080425669_124_tl_11" n="N012"/>Warum er trotzdem nicht zur Veröffentlichung gelangte, ist
-      <lb facs="#facs_2_region_1685080425669_124_tl_12" n="N013"/>unbekannt; schade ist's jedenfalls. Der Besitzer dieses kostbaren
-      <lb facs="#facs_2_region_1685080425669_124_tl_13" n="N014"/>Autograph, Herr Leo <rs type="person">Liepmanssohn</rs> in <rs type="place">Berlin</rs>, hat es weis¬
-      <lb facs="#facs_2_region_1685080425669_124_tl_14" n="N015"/>lich vor der öffentlichen Versteigerung drucken lassen, damit es
-      <lb facs="#facs_2_region_1685080425669_124_tl_15" n="N016"/>nicht etwa von liebevoller Hand heimlich angekauft und un¬
-      <lb facs="#facs_2_region_1685080425669_124_tl_16" n="N017"/>gekannt aus der Welt geschafft werde. Nicht das Gelüfte
+      <lb facs="#facs_2_region_1685080425669_124_tl_12" n="N013"/>unbekannt; schade ist’s jedenfalls. Der Besitzer dieses kostbaren
+      <lb facs="#facs_2_region_1685080425669_124_tl_13" n="N014"/>Autograph, Herr Leo <rs type="person">Liepmanssohn</rs> in <rs type="place" ref="#hsl_place_id_9">Berlin</rs>, hat es weis
+      <lb facs="#facs_2_region_1685080425669_124_tl_14" n="N015" break="no"/>lich vor der öffentlichen Versteigerung drucken lassen, damit es
+      <lb facs="#facs_2_region_1685080425669_124_tl_15" n="N016"/>nicht etwa von liebevoller Hand heimlich angekauft und un
+      <lb facs="#facs_2_region_1685080425669_124_tl_16" n="N017" break="no"/>gekannt aus der Welt geschafft werde. Nicht das Gelüfte
       <lb facs="#facs_2_region_1685080425669_124_tl_17" n="N018"/>einer verspäteten Polemik, sondern der Wunsch, gerade an
-      <lb facs="#facs_2_region_1685080425669_124_tl_18" n="N019"/>
-               <rs type="person">Meyerbeer</rs>'s Jubiläum etwas zur Rettung seines Namens
-      <lb facs="#facs_2_region_1685080425669_124_tl_19" n="N020"/>beizutragen, veranlaßt mich, den <rs type="person">Wagner</rs>'schen Aufsatz, von
+      <lb facs="#facs_2_region_1685080425669_124_tl_18" n="N019"/><rs type="person">Meyerbeer</rs>’s Jubiläum etwas zur Rettung seines Namens
+      <lb facs="#facs_2_region_1685080425669_124_tl_19" n="N020"/>beizutragen, veranlaßt mich, den <rs type="person">Wagner</rs>’schen Aufsatz, von
       <lb facs="#facs_2_region_1685080425669_124_tl_20" n="N021"/>welchem in diesem Blatt bisher nicht die Rede gewesen,
       <lb facs="#facs_2_region_1685080425669_124_tl_21" n="N022"/>hervorzusuchen und einige Hauptsätze daraus mitzutheilen.
-      <lb facs="#facs_2_region_1685080425669_124_tl_22" n="N023"/>„Betrachten wir die Erscheinung <rs type="person">Meyerbeer</rs>'s,“ schreibt
+            </p><p>
+      <lb facs="#facs_2_region_1685080425669_124_tl_22" n="N023"/>„Betrachten wir die Erscheinung <rs type="person">Meyerbeer</rs>’s,“ schreibt
       <lb facs="#facs_2_region_1685080425669_124_tl_23" n="N024"/>R. <rs type="person">Wagner</rs>, „so werden wir sowol ihrer Tendenz als zumal
-      <lb facs="#facs_2_region_1685080425669_124_tl_24" n="N025"/>auch ihren äußeren Zügen nach unwillkürlich an <hi rendition="#em">
-                  <rs type="person">Händel</rs>
-               </hi>
-               <lb facs="#facs_2_region_1685080425669_124_tl_25" n="N026"/>und <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> erinnert, und selbst ein wesentlicher Theil in
-      <lb facs="#facs_2_region_1685080425669_124_tl_26" n="N027"/>der Richtung und Bildung <hi rendition="#em">
-                  <rs type="person">Mozart</rs>'s</hi> scheint sich hier
+      <lb facs="#facs_2_region_1685080425669_124_tl_24" n="N025"/>auch ihren äußeren Zügen nach unwillkürlich an <hi rendition="#em"><rs type="person">Händel</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080425669_124_tl_25" n="N026"/>und <hi rendition="#em"><rs type="person">Gluck</rs></hi> erinnert, und selbst ein wesentlicher Theil in
+      <lb facs="#facs_2_region_1685080425669_124_tl_26" n="N027"/>der Richtung und Bildung <hi rendition="#em"><rs type="person">Mozart</rs>’s</hi> scheint sich hier
       <lb facs="#facs_2_region_1685080425669_124_tl_27" n="N028"/>wiederholt zu haben. Vor allen Dingen ist nie aus dem
-      <lb facs="#facs_2_region_1685080425669_124_tl_28" n="N029"/>Auge zu verlieren, daß jene <hi rendition="#em">Deutsche waren, wie</hi>
-               <lb facs="#facs_2_region_1685080425669_124_tl_29" n="N030"/>
-               <hi rendition="#em">dieser es ist</hi> ... <rs type="person">Meyerbeer</rs> war so <rs type="place">deutsch</rs>, daß er
-      <lb facs="#facs_2_region_1685080425669_124_tl_30" n="N031"/>bald in die Fußstapfen seiner alten <rs type="place">deutsch</rs>en Vorfahren
+      <lb facs="#facs_2_region_1685080425669_124_tl_28" n="N029"/>Auge zu verlieren, daß jene <hi rendition="#em">Deutsche waren, wie
+      <lb facs="#facs_2_region_1685080425669_124_tl_29" n="N030"/>dieser es ist</hi> ... <rs type="person">Meyerbeer</rs> war so <rs type="place" ref="#hsl_place_id_14">deutsch</rs>, daß er
+      <lb facs="#facs_2_region_1685080425669_124_tl_30" n="N031"/>bald in die Fußstapfen seiner alten <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Vorfahren
       <lb facs="#facs_2_region_1685080425669_124_tl_31" n="N032"/>gerieth; diese zogen mit der vollen Kraft des Nordens über
-      <lb facs="#facs_2_region_1685080425669_124_tl_32" n="N033"/>die Alpen und eroberten sich das schöne <rs type="place">Italien</rs>. <rs type="person">Meyerbeer</rs>
-               <lb facs="#facs_2_region_1685080425669_124_tl_33" n="N034"/>ging nach <rs type="place">Italien</rs>, er machte selbst die üppigen Söhne des
+      <lb facs="#facs_2_region_1685080425669_124_tl_32" n="N033"/>die Alpen und eroberten sich das schöne <rs type="place" ref="#hsl_place_id_28">Italien</rs>. <rs type="person">Meyerbeer</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080425669_124_tl_33" n="N034"/>ging nach <rs type="place" ref="#hsl_place_id_28">Italien</rs>, er machte selbst die üppigen Söhne des
       <lb facs="#facs_2_region_1685080425669_124_tl_34" n="N035"/>Südens in seinen Tönen schwelgen, und dies war sein erster
       <lb facs="#facs_2_region_1685080425669_124_tl_35" n="N036"/>Sieg. Muß es nicht mit Stolz erfüllen, sich nicht nur das
       <lb facs="#facs_2_region_1685080425669_124_tl_36" n="N037"/>fremde Schöne zu eigen machen zu können, sondern selbst
       <lb facs="#facs_2_region_1685080425669_124_tl_37" n="N038"/>die, denen wir es entnehmen, sich der Veredlung desselben
-      <lb facs="#facs_2_region_1685080425669_124_tl_38" n="N039"/>erfreuen lassen zu können? Aber selbst damit sehen wir</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1685080434753_127_tl_1" n="N001"/>den <rs type="place">deutsch</rs>en Genius sich noch nicht begnügen, an diesem
-      <lb facs="#facs_2_region_1685080434753_127_tl_2" n="N002"/>Siege wollte er ja erst nur noch lernen. Die verschwim¬
-      <lb facs="#facs_2_region_1685080434753_127_tl_3" n="N003"/>menden, unbestimmten Nebel des Spiritualismus haben sich
+      <lb facs="#facs_2_region_1685080425669_124_tl_38" n="N039"/>erfreuen lassen zu können? Aber selbst damit sehen wir<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685080434753_127_tl_1" n="N001"/>den <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Genius sich noch nicht begnügen, an diesem
+      <lb facs="#facs_2_region_1685080434753_127_tl_2" n="N002"/>Siege wollte er ja erst nur noch lernen. Die verschwim
+      <lb facs="#facs_2_region_1685080434753_127_tl_3" n="N003" break="no"/>menden, unbestimmten Nebel des Spiritualismus haben sich
       <lb facs="#facs_2_region_1685080434753_127_tl_4" n="N004"/>zu Formen schönen, warmen Fleisches gestaltet, das reine,
-      <lb facs="#facs_2_region_1685080434753_127_tl_5" n="N005"/>keusche, <rs type="place">deutsch</rs>e Blut fließt aber in seinen Adern; die Gestalt
+      <lb facs="#facs_2_region_1685080434753_127_tl_5" n="N005"/>keusche, <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Blut fließt aber in seinen Adern; die Gestalt
       <lb facs="#facs_2_region_1685080434753_127_tl_6" n="N006"/>des Mannes ist fertig und tadellos — nun kann er schaffen
       <lb facs="#facs_2_region_1685080434753_127_tl_7" n="N007"/>und Thaten für die Ewigkeit verrichten ... Es war nun
       <lb facs="#facs_2_region_1685080434753_127_tl_8" n="N008"/>aber <rs type="person">Meyerbeer</rs>, der diese Manier erweiterte, ja der sie dann
-      <lb facs="#facs_2_region_1685080434753_127_tl_9" n="N009"/>zu einer <hi rendition="#em">allgemein giltigen classischen Schreib¬</hi>
-               <lb facs="#facs_2_region_1685080434753_127_tl_10" n="N010"/>
-               <hi rendition="#em">art erhob</hi>. Von gewissen gebräuchlichen und populären
+      <lb facs="#facs_2_region_1685080434753_127_tl_9" n="N009"/>zu einer <hi rendition="#em">allgemein giltigen classischen Schreib
+      <lb facs="#facs_2_region_1685080434753_127_tl_10" n="N010" break="no"/>art erhob</hi>. Von gewissen gebräuchlichen und populären
       <lb facs="#facs_2_region_1685080434753_127_tl_11" n="N011"/>Rhythmen und Melismen hat er die moderne Schreibart zu
       <lb facs="#facs_2_region_1685080434753_127_tl_12" n="N012"/>einem grandios einfachen Styl geführt, der den unendlichen
       <lb facs="#facs_2_region_1685080434753_127_tl_13" n="N013"/>Vorzug besitzt, daß er seine Basis in den Herzen und Ohren
-      <lb facs="#facs_2_region_1685080434753_127_tl_14" n="N014"/>des Volkes hat — und nicht blos als eine raffinirte Erfin¬
-      <lb facs="#facs_2_region_1685080434753_127_tl_15" n="N015"/>dung eines neuerungssüchtigen Kopfes vage und ohne
-      <lb facs="#facs_2_region_1685080434753_127_tl_16" n="N016"/>Grund und Boden in der Luft herumschwimmt ... <rs type="person" continued="true">Meyer¬</rs>
-               <lb facs="#facs_2_region_1685080434753_127_tl_17" n="N017"/>
-               <rs type="person" continued="true">beer</rs> schrieb Weltgeschichte, Geschichte der Herzen und Em¬
-      <lb facs="#facs_2_region_1685080434753_127_tl_18" n="N018"/>pfindungen, er zerschlug die Schranken der National-Vor¬
-      <lb facs="#facs_2_region_1685080434753_127_tl_19" n="N019"/>urtheile, vernichtete die beengenden Grenzen der Sprach-Idiome,
+      <lb facs="#facs_2_region_1685080434753_127_tl_14" n="N014"/>des Volkes hat — und nicht blos als eine raffinirte Erfin
+      <lb facs="#facs_2_region_1685080434753_127_tl_15" n="N015" break="no"/>dung eines neuerungssüchtigen Kopfes vage und ohne
+      <lb facs="#facs_2_region_1685080434753_127_tl_16" n="N016"/>Grund und Boden in der Luft herumschwimmt ... <rs type="person">Meyer
+      <lb facs="#facs_2_region_1685080434753_127_tl_17" n="N017" break="no"/>beer</rs> schrieb Weltgeschichte, Geschichte der Herzen und Em
+      <lb facs="#facs_2_region_1685080434753_127_tl_18" n="N018" break="no"/>pfindungen, er zerschlug die Schranken der National-Vor
+      <lb facs="#facs_2_region_1685080434753_127_tl_19" n="N019" break="no"/>urtheile, vernichtete die beengenden Grenzen der Sprach-Idiome,
       <lb facs="#facs_2_region_1685080434753_127_tl_20" n="N020"/>er schrieb Thaten der Musik, Musik, wie sie vor ihm <rs type="person">Händel</rs>,
-      <lb facs="#facs_2_region_1685080434753_127_tl_21" n="N021"/>
-               <rs type="person">Gluck</rs> und <rs type="person">Mozart</rs> schrieben, und diese waren <rs type="place">deutsch</rs>e und
-      <lb facs="#facs_2_region_1685080434753_127_tl_22" n="N022"/>
-               <rs type="person">Meyerbeer</rs> ist ein Deutscher ... <hi rendition="#em">Er hat sein <rs type="place">deutsch</rs>es</hi>
-               <lb facs="#facs_2_region_1685080434753_127_tl_23" n="N023"/>
-               <hi rendition="#em">Erbtheil bewahrt, die Naivetät der Empfin¬</hi>
-               <lb facs="#facs_2_region_1685080434753_127_tl_24" n="N024"/>
-               <hi rendition="#em">dung, die Keuschheit der Empfindung</hi>. Diese
+      <lb facs="#facs_2_region_1685080434753_127_tl_21" n="N021"/><rs type="person">Gluck</rs> und <rs type="person">Mozart</rs> schrieben, und diese waren <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e und
+      <lb facs="#facs_2_region_1685080434753_127_tl_22" n="N022"/><rs type="person">Meyerbeer</rs> ist ein Deutscher ... <hi rendition="#em">Er hat sein <rs type="place" ref="#hsl_place_id_14">deutsch</rs>es</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080434753_127_tl_23" n="N023"/><hi rendition="#em">Erbtheil bewahrt, die Naivetät der Empfin
+      <lb facs="#facs_2_region_1685080434753_127_tl_24" n="N024" break="no"/>dung, die Keuschheit der Empfindung</hi>. Diese
       <lb facs="#facs_2_region_1685080434753_127_tl_25" n="N025"/>jungfräulich verschönten Züge tiefen Gemüthes sind die
-      <lb facs="#facs_2_region_1685080434753_127_tl_26" n="N026"/>Poesie, das Genie <rs type="person">Meyerbeer</rs>'s; er hat ein unbeflecktes Ge¬
-      <lb facs="#facs_2_region_1685080434753_127_tl_27" n="N027"/>wissen, ein liebenswürdiges Bewußtsein bewahrt, das neben
+      <lb facs="#facs_2_region_1685080434753_127_tl_26" n="N026"/>Poesie, das Genie <rs type="person">Meyerbeer</rs>’s; er hat ein unbeflecktes Ge
+      <lb facs="#facs_2_region_1685080434753_127_tl_27" n="N027" break="no"/>wissen, ein liebenswürdiges Bewußtsein bewahrt, das neben
       <lb facs="#facs_2_region_1685080434753_127_tl_28" n="N028"/>den riesigsten Productionen oft selbst raffinirter Erfindungen
       <lb facs="#facs_2_region_1685080434753_127_tl_29" n="N029"/>in keuschen Strahlen ergänzt und sich bescheiden als den
       <lb facs="#facs_2_line_1712728180286_261" n="N030"/>tiefen Brunnen erkennen läßt, aus dem alle jene imposanten
       <lb facs="#facs_2_region_1685080434753_127_tl_32" n="N031"/>Wogen des königlichen Meeres geschöpft werden.“
+            </p><p>
       <lb facs="#facs_2_region_1685080434753_127_tl_33" n="N032"/>In diesem Tone geht es in mehr als 300 langen
       <lb facs="#facs_2_region_1685080434753_127_tl_34" n="N033"/>Zeilen fort. Man traut seinen Augen nicht und fragt sich
       <lb facs="#facs_2_region_1685080434753_127_tl_35" n="N034"/>bestürzt: Wie ist es möglich, daß <rs type="person">Wagner</rs>, wenn er auch nur
       <lb facs="#facs_2_region_1685080434753_127_tl_36" n="N035"/>die Hälfte von seinem Lobesartikel wirklich geglaubt hat,
       <lb facs="#facs_2_region_1685080434753_127_tl_37" n="N036"/>einige Jahre später mit so leidenschaftlicher Gehässigkeit über
-      <lb facs="#facs_2_region_1685080434753_127_tl_38" n="N037"/>
-               <rs type="person">Meyerbeer</rs> herfallen und alles früher Gesagte rundweg in
+      <lb facs="#facs_2_region_1685080434753_127_tl_38" n="N037"/><rs type="person">Meyerbeer</rs> herfallen und alles früher Gesagte rundweg in
       <lb facs="#facs_2_region_1685080434753_127_tl_39" n="N038"/>das Gegentheil verwandeln konnte? Wir stehen hier vor
-      <lb facs="#facs_2_line_1712728164951_252" n="N039"/>einem Räthsel, aber vor keinem schönen. Eine beiläufige Auf¬</p>
+      <lb facs="#facs_2_line_1712728164951_252" n="N039"/>einem Räthsel, aber vor keinem schönen. Eine beiläufige Auf</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1685080448331_133_tl_1" n="N001"/>klärung liefert vielleicht <rs type="person">Wagner</rs>'s Ausspruch: „Es hat etwas
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1685080448331_133_tl_1" n="N001" break="no"/>klärung liefert vielleicht <rs type="person">Wagner</rs>’s Ausspruch: „Es hat etwas
       <lb facs="#facs_3_region_1685080448331_133_tl_2" n="N002"/>tief Betrübendes, beim Ueberblick unserer Operngeschichte nur
       <lb facs="#facs_3_line_1712728197272_269" n="N003"/>von den Todten <hi rendition="#em">Gutes</hi> reden zu können, die Lebenden aber
       <lb facs="#facs_3_region_1685080448331_133_tl_5" n="N004"/>mit schonungsloser Bitterkeit verfolgen zu müssen.“ Das
       <lb facs="#facs_3_region_1685080448331_133_tl_6" n="N005"/>heißt, <rs type="person">Wagner</rs> wollte nicht blos als der erste, sondern als
       <lb facs="#facs_3_region_1685080448331_133_tl_7" n="N006"/>der <hi rendition="#em">einzige</hi> Tondichter der Gegenwart gelten. Seine
-      <lb facs="#facs_3_region_1685080448331_133_tl_8" n="N007"/>Parteigänger haben sich natürlich nur an das absolute Ver¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_9" n="N008"/>dammungsurtheil gehalten, das <rs type="person">Wagner</rs> in dem Aufsatze
-      <lb facs="#facs_3_region_1685080448331_133_tl_10" n="N009"/>„<rs type="bibl">Das Judenthum in der Musik</rs>“ und in dem Buche „<rs type="bibl">Oper</rs>
-               <lb facs="#facs_3_region_1685080448331_133_tl_11" n="N010"/>
-               <rs type="bibl">und Drama</rs>“ gegen <rs type="person">Meyerbeer</rs> schleudert. Ihr Haß spru¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_12" n="N011"/>delt um so heftiger, als sie sehen, daß trotz ihrer Anstren¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_13" n="N012"/>gungen die „<rs type="bibl">Hugenotten</rs>“ noch immer nicht von den „<rs type="bibl">Nibe¬</rs>
-               <lb facs="#facs_3_region_1685080448331_133_tl_14" n="N013"/>
-               <rs type="bibl">lungen</rs>“ verdrängt sind und neben „<rs type="bibl">Tristan und Isolde</rs>“
+      <lb facs="#facs_3_region_1685080448331_133_tl_8" n="N007"/>Parteigänger haben sich natürlich nur an das absolute Ver
+      <lb facs="#facs_3_region_1685080448331_133_tl_9" n="N008" break="no"/>dammungsurtheil gehalten, das <rs type="person">Wagner</rs> in dem Aufsatze
+      <lb facs="#facs_3_region_1685080448331_133_tl_10" n="N009"/>„<rs type="bibl">Das Judenthum in der Musik</rs>“ und in dem Buche „<rs type="bibl">Oper
+      <lb facs="#facs_3_region_1685080448331_133_tl_11" n="N010"/>und Drama</rs>“ gegen <rs type="person">Meyerbeer</rs> schleudert. Ihr Haß spru
+      <lb facs="#facs_3_region_1685080448331_133_tl_12" n="N011" break="no"/>delt um so heftiger, als sie sehen, daß trotz ihrer Anstren
+      <lb facs="#facs_3_region_1685080448331_133_tl_13" n="N012" break="no"/>gungen die „<rs type="bibl">Hugenotten</rs>“ noch immer nicht von den „<rs type="bibl">Nibe
+      <lb facs="#facs_3_region_1685080448331_133_tl_14" n="N013" break="no"/>lungen</rs>“ verdrängt sind und neben „<rs type="bibl">Tristan und Isolde</rs>“
       <lb facs="#facs_3_line_1712728219137_276" n="N014"/>sogar „<rs type="bibl">Robert der Teufel</rs> " ein fröhliches Dasein führt. Die
       <lb facs="#facs_3_region_1685080448331_133_tl_17" n="N015"/>von <rs type="person">Wagner</rs> anbefohlene „schonungslose Bitterkeit“ wird von
       <lb facs="#facs_3_region_1685080448331_133_tl_18" n="N016"/>seinen Anhängern mit einem Eifer bethätigt, der erheiternd
-      <lb facs="#facs_3_region_1685080448331_133_tl_19" n="N017"/>wirken müßte, wäre er nicht gar so häßlich. So wurde bei¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_20" n="N018"/>spielsweise ein vielversprechender junger Tenorist von seinen
-      <lb facs="#facs_3_region_1685080448331_133_tl_21" n="N019"/>
-               <rs type="person">Wagner</rs>'schen Freunden veranlaßt, in seinem Engagements-
-      <lb facs="#facs_3_region_1685080448331_133_tl_22" n="N020"/>Contracte auf die Clausel zu dringen, daß er niemals ver¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_23" n="N021"/>halten werden dürfe, in einer <rs type="person">Meyerbeer</rs>'schen Oper mitzu¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_24" n="N022"/>wirken! Dieser Künstler, der <rs type="place">französisch</rs>en Opern von <rs type="person">Gounod</rs>
-               <lb facs="#facs_3_region_1685080448331_133_tl_25" n="N023"/>und <rs type="person">Massenet</rs> seine besten Erfolge verdankt und für Rollen
+      <lb facs="#facs_3_region_1685080448331_133_tl_19" n="N017"/>wirken müßte, wäre er nicht gar so häßlich. So wurde bei
+      <lb facs="#facs_3_region_1685080448331_133_tl_20" n="N018" break="no"/>spielsweise ein vielversprechender junger Tenorist von seinen
+      <lb facs="#facs_3_region_1685080448331_133_tl_21" n="N019"/><rs type="person">Wagner</rs>’schen Freunden veranlaßt, in seinem Engagements-
+      <lb facs="#facs_3_region_1685080448331_133_tl_22" n="N020"/>Contracte auf die Clausel zu dringen, daß er niemals ver
+      <lb facs="#facs_3_region_1685080448331_133_tl_23" n="N021" break="no"/>halten werden dürfe, in einer <rs type="person">Meyerbeer</rs>’schen Oper mitzu
+      <lb facs="#facs_3_region_1685080448331_133_tl_24" n="N022" break="no"/>wirken! Dieser Künstler, der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Opern von <rs type="person">Gounod</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1685080448331_133_tl_25" n="N023"/>und <rs type="person">Massenet</rs> seine besten Erfolge verdankt und für Rollen
       <lb facs="#facs_3_region_1685080448331_133_tl_26" n="N024"/>wie <rs type="person">Raoul</rs> und <rs type="person">Robert</rs> wie geschaffen ist, mußte sich gegen
       <lb facs="#facs_3_region_1685080448331_133_tl_27" n="N025"/>seinen eigenen Vortheil urkundlich verbarricadiren, blos um
       <lb facs="#facs_3_region_1685080448331_133_tl_28" n="N026"/>als Wagnerianer seinen Haß gegen <rs type="person">Meyerbeer</rs> zu bezeugen.
-      <lb facs="#facs_3_region_1685080448331_133_tl_29" n="N027"/>Solchen Parteibestrebungen gegenüber bietet das Ver¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_30" n="N028"/>halten des Publicums und der Theater-Directionen bei der
-      <lb facs="#facs_3_region_1685080448331_133_tl_31" n="N029"/>Centennarfeier <rs type="person">Meyerbeer</rs>'s einen erfreulichen Anblick. Sie
+            </p><p>
+      <lb facs="#facs_3_region_1685080448331_133_tl_29" n="N027"/>Solchen Parteibestrebungen gegenüber bietet das Ver
+      <lb facs="#facs_3_region_1685080448331_133_tl_30" n="N028" break="no"/>halten des Publicums und der Theater-Directionen bei der
+      <lb facs="#facs_3_region_1685080448331_133_tl_31" n="N029"/>Centennarfeier <rs type="person">Meyerbeer</rs>’s einen erfreulichen Anblick. Sie
       <lb facs="#facs_3_region_1685080448331_133_tl_32" n="N030"/>beide wissen, daß sie dem Schöpfer der „<rs type="bibl">Hugenotten</rs>“ zu
       <lb facs="#facs_3_region_1685080448331_133_tl_33" n="N031"/>Dank verpflichtet sind, und freuen sich, dies laut und herzlich
       <lb facs="#facs_3_region_1685080448331_133_tl_34" n="N032"/>zu documentiren. Gerne feiern wir heute das Gedächtniß
-      <lb facs="#facs_3_region_1685080448331_133_tl_35" n="N033"/>eines Meisters von ebenso glänzendem Talent wie außer¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_36" n="N034"/>ordentlichem Kunstverstand, welcher durch die Verschmelzung
+      <lb facs="#facs_3_region_1685080448331_133_tl_35" n="N033"/>eines Meisters von ebenso glänzendem Talent wie außer
+      <lb facs="#facs_3_region_1685080448331_133_tl_36" n="N034" break="no"/>ordentlichem Kunstverstand, welcher durch die Verschmelzung
       <lb facs="#facs_3_region_1685080448331_133_tl_37" n="N035"/>reizendster Melodienfülle mit packendem dramatischen Leben
       <lb facs="#facs_3_region_1685080448331_133_tl_38" n="N036"/>ein halbes Jahrhundert lang mächtig auf die Gemüther aller
       <lb facs="#facs_3_region_1685080448331_133_tl_39" n="N037"/>Nationen gewirkt hat. Die heutige Feier gibt Zeugniß von
-      <lb facs="#facs_3_region_1685080448331_133_tl_40" n="N038"/>der ganz einzig dastehenden Popularität der <rs type="person">Meyerbeer</rs>'schen
-      <lb facs="#facs_3_region_1685080448331_133_tl_41" n="N039"/>Opern, deren letztes Stündlein gewiß noch lange nicht ge¬
-      <lb facs="#facs_3_region_1685080448331_133_tl_42" n="N040"/>schlagen hat.</p>
+      <lb facs="#facs_3_region_1685080448331_133_tl_40" n="N038"/>der ganz einzig dastehenden Popularität der <rs type="person">Meyerbeer</rs>’schen
+      <lb facs="#facs_3_region_1685080448331_133_tl_41" n="N039"/>Opern, deren letztes Stündlein gewiß noch lange nicht ge
+      <lb facs="#facs_3_region_1685080448331_133_tl_42" n="N040" break="no"/>schlagen hat.</p>
          </div>
       </body>
    </text>

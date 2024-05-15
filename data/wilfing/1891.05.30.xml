@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 9611. Wien, Samstag, den 30. Mai 1891</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 9611. Wien, Samstag, den 30. Mai 1891</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1891-05-30">30.05.1891</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2024-05-03">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2024-05-07">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1233,13 +1232,14 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1685080634485_192_tl_1" n="N001"/><head type="h1">Jenny <rs type="person">Lind</rs>. III.</head>
+            <lb facs="#facs_1_region_1685080634485_192_tl_2" n="N002"/><head type="h2">(Schlußartikel.)</head>
             <p>
-               <lb facs="#facs_1_line_1713076898739_577" n="N001"/>Nr. 9611. Wien, Samstag, den 30. Mai 1891</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1685080634485_192_tl_1" n="N001"/>Jenny <rs type="person">Lind</rs>.
-      <lb facs="#facs_1_region_1685080634485_192_tl_2" n="N002"/>III. (Schlußartikel.)
-      <lb facs="#facs_1_region_1685080634485_192_tl_3" n="N003"/>Ed. H.*) Wie oft machte ich die seltsame Erfahrung,
+      <lb facs="#facs_1_region_1685080634485_192_tl_3" n="N003"/>Ed. H.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_region_1685080634485_192_tl_38" n="N038"/>Siehe Nummer 9607 und 9608 der „<rs type="bibl">Neuen Freien Presse</rs>“.
+            </note><space unit="char" quantity="1"/>
+            Wie oft machte ich die seltsame Erfahrung,
       <lb facs="#facs_1_region_1685080634485_192_tl_4" n="N004"/>daß selbst die genialsten Künstlerinnen, Sängerinnen von
       <lb facs="#facs_1_region_1685080634485_192_tl_5" n="N005"/>feinstem Gehör für jeden fremden Mißklang, den Niedergang
       <lb facs="#facs_1_region_1685080634485_192_tl_6" n="N006"/>ihrer eigenen Stimme nicht bemerken. Aber daß gerade
@@ -1247,24 +1247,23 @@
       <lb facs="#facs_1_region_1685080634485_192_tl_8" n="N008"/>Jahre <date>1862</date> ihre Stimme für unversehrt halten konnte, hat
       <lb facs="#facs_1_region_1685080634485_192_tl_9" n="N009"/>mich überrascht. Vierundzwanzig Jahre waren verflossen
       <lb facs="#facs_1_region_1685080634485_192_tl_10" n="N010"/>seit ihrem ereignißvollen Auftreten als <rs type="person">Agathe</rs>; sechzehn
-      <lb facs="#facs_1_region_1685080634485_192_tl_11" n="N011"/>Jahre seit ihrem ersten <rs type="place">Wien</rs>er Gastspiel. Besaß sie wirklich
+      <lb facs="#facs_1_region_1685080634485_192_tl_11" n="N011"/>Jahre seit ihrem ersten <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Gastspiel. Besaß sie wirklich
       <lb facs="#facs_1_region_1685080634485_192_tl_12" n="N012"/>keine Erinnerung mehr an den himmlischen Wohllaut ihrer
       <lb facs="#facs_1_region_1685080634485_192_tl_13" n="N013"/>Stimme von damals, oder kein Ohr für die Veränderung,
       <lb facs="#facs_1_region_1685080634485_192_tl_14" n="N014"/>welche in langem Zeitverlauf damit vorgegangen? Wenige
       <lb facs="#facs_1_region_1685080634485_192_tl_15" n="N015"/>Tage vor meinem Besuch bei Jenny <rs type="person">Lind </rs>hatte ich sie doch
-      <lb facs="#facs_1_region_1685080634485_192_tl_16" n="N016"/>in <rs type="place">Exeterhall</rs> die Sopranpartie in der „<rs type="bibl">Schöpfung</rs>“ singen
-      <lb facs="#facs_1_region_1685080634485_192_tl_17" n="N017"/>hören. Mit welcher Bewegung harrte ich damals dem Mo¬
-      <lb facs="#facs_1_region_1685080634485_192_tl_18" n="N018"/>ment entgegen, wo <hi rendition="#em">sie</hi> heraustreten sollte! Ohne schön zu
+      <lb facs="#facs_1_region_1685080634485_192_tl_16" n="N016"/>in Exeterhall die Sopranpartie in der „<rs type="bibl">Schöpfung</rs>“ singen
+      <lb facs="#facs_1_region_1685080634485_192_tl_17" n="N017"/>hören. Mit welcher Bewegung harrte ich damals dem Mo
+      <lb facs="#facs_1_region_1685080634485_192_tl_18" n="N018" break="no"/>ment entgegen, wo <hi rendition="#em">sie</hi> heraustreten sollte! Ohne schön zu
       <lb facs="#facs_1_region_1685080634485_192_tl_19" n="N019"/>sein, hat sie doch stets mit der Kraft der Schönheit gewirkt;
-      <lb facs="#facs_1_region_1685080634485_192_tl_20" n="N020"/>der Gesang, welcher die dürftigsten Melodien <rs type="person">Bellini</rs>'s und
-      <lb facs="#facs_1_region_1685080634485_192_tl_21" n="N021"/>
-               <rs type="person">Donizetti</rs>'s idealisirte, schien immer auch einen Heiligenschein
+      <lb facs="#facs_1_region_1685080634485_192_tl_20" n="N020"/>der Gesang, welcher die dürftigsten Melodien <rs type="person">Bellini</rs>’s und
+      <lb facs="#facs_1_region_1685080634485_192_tl_21" n="N021"/><rs type="person">Donizetti</rs>’s idealisirte, schien immer auch einen Heiligenschein
       <lb facs="#facs_1_region_1685080634485_192_tl_22" n="N022"/>um die Sängerin selbst zu zaubern. Sie trat hervor, weiß und ohne
       <lb facs="#facs_1_region_1685080634485_192_tl_23" n="N023"/>Geschmeide, wie sonst. Sie erwiderte den jubelnden Empfang
       <lb facs="#facs_1_region_1685080634485_192_tl_24" n="N024"/>mit einem kurzen, gleichgiltigen Kopfnicken, wie sonst. Allein das
       <lb facs="#facs_1_region_1685080634485_192_tl_25" n="N025"/>ehedem prophetisch leuchtende Auge war glanzlos und müde
-      <lb facs="#facs_1_region_1685080634485_192_tl_26" n="N026"/>geworden; um den Mund trieben böse Falten ein unheim¬
-      <lb facs="#facs_1_region_1685080634485_192_tl_27" n="N027"/>liches Spiel. Nun hebt sie zu singen an, und ich erkenne
+      <lb facs="#facs_1_region_1685080634485_192_tl_26" n="N026"/>geworden; um den Mund trieben böse Falten ein unheim
+      <lb facs="#facs_1_region_1685080634485_192_tl_27" n="N027" break="no"/>liches Spiel. Nun hebt sie zu singen an, und ich erkenne
       <lb facs="#facs_1_region_1685080634485_192_tl_28" n="N028"/>die Stimme, wie man ein halbverwittertes Bild langsam
       <lb facs="#facs_1_region_1685080634485_192_tl_29" n="N029"/>wiedererkennt. Die Töne kommen schwach und verschleiert
       <lb facs="#facs_1_region_1685080634485_192_tl_30" n="N030"/>hervor, in den hohen kräftigen Stellen mit Anstrengung.
@@ -1274,81 +1273,73 @@
       <lb facs="#facs_1_region_1685080634485_192_tl_34" n="N034"/>ist, das freilich erreichte die <rs type="person">Lind</rs> noch immer, wie keine
       <lb facs="#facs_1_region_1685080634485_192_tl_35" n="N035"/>zweite Sängerin der Welt. An dem Beifall des Publicums
       <lb facs="#facs_1_region_1685080634485_192_tl_36" n="N036"/>konnte sie allerdings noch lange nicht gewahr werden, daß
-      <lb facs="#facs_1_region_1685080634485_192_tl_37" n="N037"/>ihre Stimme am Anfang des Endes stand. Das <rs type="place">englisch</rs>e
-      <lb facs="#facs_1_region_1685080634485_192_tl_38" n="N038"/>*) Siehe Nummer 9607 und 9608 der „<rs type="bibl">Neuen Freien Presse</rs>“.</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1685080638530_195_tl_1" n="N001"/>Publicum ist beispiellos in Sachen der Pietät, und in Jenny
-      <lb facs="#facs_1_region_1685080638530_195_tl_2" n="N002"/>
-               <rs type="person">Lind</rs> ehrte es die doppelte Virtuosität: der Kunst und der
+      <lb facs="#facs_1_region_1685080634485_192_tl_37" n="N037"/>ihre Stimme am Anfang des Endes stand. Das <rs type="place" ref="#hsl_place_id_17">englisch</rs>e<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1685080638530_195_tl_1" n="N001"/>Publicum ist beispiellos in Sachen der Pietät, und in Jenny
+      <lb facs="#facs_1_region_1685080638530_195_tl_2" n="N002"/><rs type="person">Lind</rs> ehrte es die doppelte Virtuosität: der Kunst und der
       <lb facs="#facs_1_region_1685080638530_195_tl_3" n="N003"/>Wohlthätigkeit. Als ich sie zuletzt im Jahre <date>1862</date> hörte,
       <lb facs="#facs_1_region_1685080638530_195_tl_4" n="N004"/>konnte die treffliche Frau mit ihren Tönen noch Schulen
-      <lb facs="#facs_1_region_1685080638530_195_tl_5" n="N005"/>und Spitäler erbauen, ihre Hörer kaum mehr.**)
-      <lb facs="#facs_1_region_1685080638530_195_tl_6" n="N006"/>Eine aus dem Herzen kommende, großartige Wohl¬
-      <lb facs="#facs_1_region_1685080638530_195_tl_7" n="N007"/>thätigkeit gehörte zu den schönsten Zügen ihres Charakters.
+      <lb facs="#facs_1_region_1685080638530_195_tl_5" n="N005"/>und Spitäler erbauen, ihre Hörer kaum mehr.
+            <note type="footnote" n="**)">
+            <lb facs="#facs_1_line_1713077023531_651" n="N029"/>Jenny Lind trat zum letztenmale in einem Wohlthätigkeits-
+            <lb facs="#facs_1_line_1713077026465_654" n="N030"/>Concert im Juli <date>1883</date> öffentlich auf; vier Jahre vor ihrem am
+            <lb facs="#facs_1_line_1713077029147_657" n="N031"/>2. November <date>1887</date> erfolgten Tode. Sie hat ein Alter von 67 Jahren
+            <lb facs="#facs_1_line_1713077031220_660" n="N032"/>erreicht.
+            </note>
+            </p><p>
+      <lb facs="#facs_1_region_1685080638530_195_tl_6" n="N006"/>Eine aus dem Herzen kommende, großartige Wohl
+      <lb facs="#facs_1_region_1685080638530_195_tl_7" n="N007" break="no"/>thätigkeit gehörte zu den schönsten Zügen ihres Charakters.
       <lb facs="#facs_1_region_1685080638530_195_tl_8" n="N008"/>Niemals zuvor oder nachher hat eine Sängerin einen so
-      <lb facs="#facs_1_region_1685080638530_195_tl_9" n="N009"/>großen Theil ihrer Einkünfte den Armen zugewendet. Wohl¬
-      <lb facs="#facs_1_region_1685080638530_195_tl_10" n="N010"/>thun erschien ihr nicht blos als heilige Pflicht, sondern
-      <lb facs="#facs_1_region_1685080638530_195_tl_11" n="N011"/>als der schönste Lohn ihrer Arbeit. In dem uns vorliegen¬
-      <lb facs="#facs_1_region_1685080638530_195_tl_12" n="N012"/>den Verzeichnisse ihrer Theater- und Concertabende von <date>1848</date>
-               <lb facs="#facs_1_region_1685080638530_195_tl_13" n="N013"/>bis <date>1850</date> sind die zu wohlthätigen Zwecken gegebenen mit
+      <lb facs="#facs_1_region_1685080638530_195_tl_9" n="N009"/>großen Theil ihrer Einkünfte den Armen zugewendet. Wohl
+      <lb facs="#facs_1_region_1685080638530_195_tl_10" n="N010" break="no"/>thun erschien ihr nicht blos als heilige Pflicht, sondern
+      <lb facs="#facs_1_region_1685080638530_195_tl_11" n="N011"/>als der schönste Lohn ihrer Arbeit. In dem uns vorliegen
+      <lb facs="#facs_1_region_1685080638530_195_tl_12" n="N012" break="no"/>den Verzeichnisse ihrer Theater- und Concertabende von <date>1848</date><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685080638530_195_tl_13" n="N013"/>bis <date>1850</date> sind die zu wohlthätigen Zwecken gegebenen mit
       <lb facs="#facs_1_region_1685080638530_195_tl_14" n="N014"/>einem Sternchen bezeichnet. Ein wahrer Sternenhimmel!
       <lb facs="#facs_1_region_1685080638530_195_tl_15" n="N015"/>Und in den späteren Jahren sang sie eigentlich nur noch für
-      <lb facs="#facs_1_region_1685080638530_195_tl_16" n="N016"/>die Armen. Wie sie ihr Talent als eine Himmelsgabe er¬
-      <lb facs="#facs_1_region_1685080638530_195_tl_17" n="N017"/>kannte, so hielt sie es auch für ihre Pflicht, das Erworbene
-      <lb facs="#facs_1_region_1685080638530_195_tl_18" n="N018"/>wieder zum Besten der Bedürftigen und Unglücklichen her¬
-      <lb facs="#facs_1_line_1713076995795_601" n="N019"/>zugeben; „was hereingeflossen ist, muß auch wieder heraus¬
-      <lb facs="#facs_1_line_1713076999004_606" n="N020"/>fließen!“ Ihre Wohlthätigkeit war eng verwoben mit ihrer
+      <lb facs="#facs_1_region_1685080638530_195_tl_16" n="N016"/>die Armen. Wie sie ihr Talent als eine Himmelsgabe er
+      <lb facs="#facs_1_region_1685080638530_195_tl_17" n="N017" break="no"/>kannte, so hielt sie es auch für ihre Pflicht, das Erworbene
+      <lb facs="#facs_1_region_1685080638530_195_tl_18" n="N018"/>wieder zum Besten der Bedürftigen und Unglücklichen her
+      <lb facs="#facs_1_line_1713076995795_601" n="N019" break="no"/>zugeben; „was hereingeflossen ist, muß auch wieder heraus
+      <lb facs="#facs_1_line_1713076999004_606" n="N020" break="no"/>fließen!“ Ihre Wohlthätigkeit war eng verwoben mit ihrer
       <lb facs="#facs_1_region_1685080638530_195_tl_23" n="N021"/>Kunst; sie machte es sogar bei ihrer Verheiratung zu einer
       <lb facs="#facs_1_region_1685080638530_195_tl_24" n="N022"/>Hauptbedingung, daß ihr Mann ihr in der Ausübung ihrer
       <lb facs="#facs_1_region_1685080638530_195_tl_25" n="N023"/>Wohlthätigkeit völlig freie Hand lasse. In allen Städten,
       <lb facs="#facs_1_region_1685080638530_195_tl_26" n="N024"/>wo sie sang, veranstaltete sie eine Aufführung zum Besten
       <lb facs="#facs_1_region_1685080638530_195_tl_27" n="N025"/>des Chor- und Orchester-Personals. Mit ihrem Gelde, zum
-      <lb facs="#facs_1_region_1685080638530_195_tl_28" n="N026"/>Theile auf ihre Anregung, sind in <rs type="place">Schweden</rs> und <rs type="place">England</rs>
-               <lb facs="#facs_1_line_1713076934364_584" n="N027"/>Schulen, Spitäler, Capellen gebaut oder doch wesentlich ver¬
-      <lb facs="#facs_1_region_1685080638530_195_tl_29" n="N028"/>größert worden.***)
-      <lb facs="#facs_1_line_1713077023531_651" n="N029"/>**) Jenny Lind trat zum letztenmale in einem Wohlthätigkeits-
-      <lb facs="#facs_1_line_1713077026465_654" n="N030"/>Concert im Juli <date>1883</date> öffentlich auf; vier Jahre vor ihrem am
-      <lb facs="#facs_1_line_1713077029147_657" n="N031"/>2. November <date>1887</date> erfolgten Tode. Sie hat ein Alter von 67 Jahren
-      <lb facs="#facs_1_line_1713077031220_660" n="N032"/>erreicht.
-      <lb facs="#facs_1_line_1713077034242_663" n="N033"/>***) Zwischen dem 4. December <date>1848</date> und dem 2. Februar <date>1849</date>,
-      <lb facs="#facs_1_line_1713077036740_666" n="N034"/>einem Zeitraume von weniger als neun Wochen, hatte Jenny <rs type="person">Lind</rs>
-               <lb facs="#facs_1_line_1713077039332_669" n="N035"/>in neun Concerten die hohe Summe von 8740 Pfd. St. zur Unter¬
-      <lb facs="#facs_1_line_1713077042515_672" n="N036"/>stützung von fünf Hospitälern, der <rs type="person">Mendelssohn</rs>-Stiftung und des sie
-      <lb facs="#facs_1_line_1713077045611_675" n="N037"/>begleitenden Orchesters gelöst. Wenn wir noch die Einnahme des
-      <lb facs="#facs_1_line_1713077047996_678" n="N038"/>Concerts für das <rs type="place">Brompton</rs>-Hospital vom vorhergehenden Juli hinzu¬
-      <lb facs="#facs_1_line_1713077050523_681" n="N039"/>nehmen, so ergibt sich eine Gesammtsumme von 10.500 Pfd. St.
-      <lb facs="#facs_1_line_1713077054539_684" n="N040"/>(210,000 Mark). In <hi rendition="#em">
-                  <rs type="place">Norwich</rs>
-               </hi> hatte sie aus dem Ertrage zweier
-      <lb facs="#facs_1_line_1713077057374_687" n="N041"/>Concerte das „Jenny-Lind-Kinderspital“ gegründet und bis zu
-      <lb facs="#facs_1_line_1713077060508_690" n="N042"/>ihrem Tode dafür so ausreichend gesorgt, daß die Anstalt im Jahre
-      <lb facs="#facs_1_line_1713077063548_693" n="N043"/>
-               <date>1890</date> 1230 kranken Kindern außerhalb des Hauses und 257 in den
-      <lb facs="#facs_1_line_1713077066283_696" n="N044"/>Sälen ärztliche Hilfe bieten konnte. Auf ihrer <rs type="place">amerikanisch</rs>en Reise
-      <lb facs="#facs_1_line_1713077068483_699" n="N045"/>hat Jenny <rs type="person">Lind</rs> der Stadt <rs type="place">Newyork</rs> allein mehr als 30,000 Dollars
-      <lb facs="#facs_1_line_1713077070499_702" n="N046"/>zu wohlthätigen Zwecken gespendet.</p>
-            <cb n="4"/>
+      <lb facs="#facs_1_region_1685080638530_195_tl_28" n="N026"/>Theile auf ihre Anregung, sind in <rs type="place" ref="#hsl_place_id_104">Schweden</rs> und <rs type="place" ref="#hsl_place_id_17">England</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1713076934364_584" n="N027"/>Schulen, Spitäler, Capellen gebaut oder doch wesentlich ver
+      <lb facs="#facs_1_region_1685080638530_195_tl_29" n="N028" break="no"/>größert worden.
+            <note type="footnote" n="***)">
+            <lb facs="#facs_1_line_1713077034242_663" n="N033"/>Zwischen dem 4. December <date>1848</date> und dem 2. Februar <date>1849</date>,
+            <lb facs="#facs_1_line_1713077036740_666" n="N034"/>einem Zeitraume von weniger als neun Wochen, hatte Jenny <rs type="person">Lind</rs><space quantity="1" unit="char"/>
+            <lb facs="#facs_1_line_1713077039332_669" n="N035"/>in neun Concerten die hohe Summe von 8740 Pfd. St. zur Unter
+            <lb facs="#facs_1_line_1713077042515_672" n="N036" break="no"/>stützung von fünf Hospitälern, der <rs type="person">Mendelssohn</rs>-Stiftung und des sie
+            <lb facs="#facs_1_line_1713077045611_675" n="N037"/>begleitenden Orchesters gelöst. Wenn wir noch die Einnahme des
+            <lb facs="#facs_1_line_1713077047996_678" n="N038"/>Concerts für das <rs type="place" ref="#hsl_place_id_567">Brompton</rs>-Hospital vom vorhergehenden Juli hinzu
+            <lb facs="#facs_1_line_1713077050523_681" n="N039" break="no"/>nehmen, so ergibt sich eine Gesammtsumme von 10.500 Pfd. St.
+            <lb facs="#facs_1_line_1713077054539_684" n="N040"/>(210,000 Mark). In <hi rendition="#em"><rs type="place" ref="#hsl_place_id_563">Norwich</rs></hi> hatte sie aus dem Ertrage zweier
+            <lb facs="#facs_1_line_1713077057374_687" n="N041"/>Concerte das „Jenny-Lind-Kinderspital“ gegründet und bis zu
+            <lb facs="#facs_1_line_1713077060508_690" n="N042"/>ihrem Tode dafür so ausreichend gesorgt, daß die Anstalt im Jahre
+            <lb facs="#facs_1_line_1713077063548_693" n="N043"/><date>1890</date> 1230 kranken Kindern außerhalb des Hauses und 257 in den
+            <lb facs="#facs_1_line_1713077066283_696" n="N044"/>Sälen ärztliche Hilfe bieten konnte. Auf ihrer <rs type="place" ref="#hsl_place_id_176">amerikanisch</rs>en Reise
+            <lb facs="#facs_1_line_1713077068483_699" n="N045"/>hat Jenny <rs type="person">Lind</rs> der Stadt <rs type="place" ref="#hsl_place_id_186">Newyork</rs> allein mehr als 30,000 Dollars
+            <lb facs="#facs_1_line_1713077070499_702" n="N046"/>zu wohlthätigen Zwecken gespendet.
+            </note></p>
+            <cb n="3"/>
             <p>
-               <lb facs="#facs_1_region_1685080650583_198_tl_1" n="N001"/>Zwei von Jenny <rs type="person">Lind</rs> herrührende Stiftungen inter¬
-      <lb facs="#facs_1_region_1685080650583_198_tl_2" n="N002"/>essiren uns besonders durch ihre künstlerische Bestimmung:
-      <lb facs="#facs_1_region_1685080650583_198_tl_3" n="N003"/>der „<hi rendition="#em">Stipendienfonds für die Erziehung und</hi>
-               <lb facs="#facs_1_region_1685080650583_198_tl_4" n="N004"/>
-               <hi rendition="#em">Unterstützung von Schülern der königlichen</hi>
-               <lb facs="#facs_1_region_1685080650583_198_tl_5" n="N005"/>
-               <hi rendition="#em">Theaterschule in <rs type="place">Stockholm</rs>
-               </hi>“ im Betrage von
-      <lb facs="#facs_1_region_1685080650583_198_tl_6" n="N006"/>80,000 Kronen (etwa 88,000 Mark), dann die „<hi rendition="#em">
-                  <rs type="person" continued="true">Mendels¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1685080650583_198_tl_7" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">sohn</rs>-Stiftung</hi>“. An <rs type="person">Mendelssohn</rs> hing Jenny <rs type="person">Lind</rs>
-               <lb facs="#facs_1_region_1685080650583_198_tl_8" n="N008"/>mit innigster Liebe und Verehrung. Sein Tod war für sie
+      <lb facs="#facs_1_region_1685080650583_198_tl_1" n="N001"/>Zwei von Jenny <rs type="person">Lind</rs> herrührende Stiftungen inter
+      <lb facs="#facs_1_region_1685080650583_198_tl_2" n="N002" break="no"/>essiren uns besonders durch ihre künstlerische Bestimmung:
+      <lb facs="#facs_1_region_1685080650583_198_tl_3" n="N003"/>der „<hi rendition="#em">Stipendienfonds für die Erziehung und
+      <lb facs="#facs_1_region_1685080650583_198_tl_4" n="N004"/>Unterstützung von Schülern der königlichen
+      <lb facs="#facs_1_region_1685080650583_198_tl_5" n="N005"/>Theaterschule in <rs type="place" ref="#hsl_place_id_431">Stockholm</rs></hi>“ im Betrage von
+      <lb facs="#facs_1_region_1685080650583_198_tl_6" n="N006"/>80,000 Kronen (etwa 88,000 Mark), dann die „<hi rendition="#em"><rs type="person">Mendels
+      <lb facs="#facs_1_region_1685080650583_198_tl_7" n="N007" break="no"/>sohn</rs>-Stiftung</hi>“. An <rs type="person">Mendelssohn</rs> hing Jenny <rs type="person">Lind</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685080650583_198_tl_8" n="N008"/>mit innigster Liebe und Verehrung. Sein Tod war für sie
       <lb facs="#facs_1_region_1685080650583_198_tl_9" n="N009"/>ein furchtbarer, nie verschmerzter Verlust. Am 22. Januar
-      <lb facs="#facs_1_line_1713077104091_714" n="N010"/>
-               <date>1848</date> schrieb sie an Frau v. <rs type="person">Jäger</rs> in <rs type="place">Wien</rs> (die sie ihre
-      <lb facs="#facs_1_line_1713077108539_720" n="N011"/>„<rs type="place">österreichisch</rs>e Mutter“ nannte): „Ach, Mutter! welcher
+      <lb facs="#facs_1_line_1713077104091_714" n="N010"/><date>1848</date> schrieb sie an Frau v. <rs type="person">Jäger</rs> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> (die sie ihre
+      <lb facs="#facs_1_line_1713077108539_720" n="N011"/>„<rs type="place" ref="#hsl_place_id_43">österreichisch</rs>e Mutter“ nannte): „Ach, Mutter! welcher
       <lb facs="#facs_1_region_1685080650583_198_tl_14" n="N012"/>Schlag war für mich der Tod von <rs type="person">Mendelssohn</rs>! es ist
       <lb facs="#facs_1_region_1685080650583_198_tl_15" n="N013"/>Ursache, warum ich so lange still war. Ich konnte die zwei
       <lb facs="#facs_1_region_1685080650583_198_tl_16" n="N014"/>ersten Monate nicht ein Wort aufs Papier setzen, und noch
@@ -1357,178 +1348,157 @@
       <lb facs="#facs_1_region_1685080650583_198_tl_19" n="N017"/>selten waren in der Welt zwei Menschen zu gleicher Zeit,
       <lb facs="#facs_1_region_1685080650583_198_tl_20" n="N018"/>die sich so verstanden und die so sympathisirten
       <lb facs="#facs_1_region_1685080650583_198_tl_21" n="N019"/>wie wir! Wie herrlich und wunderbar sind die Wege
-      <lb facs="#facs_1_region_1685080650583_198_tl_22" n="N020"/>
-               <rs type="person">Gott</rs>es — auf der einen Seite <hi rendition="#em">gibt Er Alles</hi>, auf der
+      <lb facs="#facs_1_region_1685080650583_198_tl_22" n="N020"/><rs type="person">Gott</rs>es — auf der einen Seite <hi rendition="#em">gibt Er Alles</hi>, auf der
       <lb facs="#facs_1_region_1685080650583_198_tl_23" n="N021"/>andern <hi rendition="#em">nimmt Er Alles</hi> weg! So ist das Leben — so
-      <lb facs="#facs_1_region_1685080650583_198_tl_24" n="N022"/>sieht es aus.“ Noch zwei volle Jahre nach <rs type="person">Mendelssohn</rs>'s
+      <lb facs="#facs_1_region_1685080650583_198_tl_24" n="N022"/>sieht es aus.“ Noch zwei volle Jahre nach <rs type="person">Mendelssohn</rs>’s
       <lb facs="#facs_1_region_1685080650583_198_tl_25" n="N023"/>Tod konnte sie es nicht über sich gewinnen, eines seiner
       <lb facs="#facs_1_region_1685080650583_198_tl_26" n="N024"/>Lieder zu singen. In Gemeinschaft mit einigen seiner intimsten
       <lb facs="#facs_1_region_1685080650583_198_tl_27" n="N025"/>Freunde beschloß sie, <rs type="person">Mendelssohn</rs> ein Denkmal zu setzen
-      <lb facs="#facs_1_region_1685080650583_198_tl_28" n="N026"/>durch Gründung einer Musikschule, welche <rs type="person">Mendelssohn</rs>'s
+      <lb facs="#facs_1_region_1685080650583_198_tl_28" n="N026"/>durch Gründung einer Musikschule, welche <rs type="person">Mendelssohn</rs>’s
       <lb facs="#facs_1_region_1685080650583_198_tl_29" n="N027"/>Namen führen und seine künstlerischen Grundsätze von Lehrer
       <lb facs="#facs_1_region_1685080650583_198_tl_30" n="N028"/>auf Schüler, von Generation auf Generation vererben sollte.
       <lb facs="#facs_1_region_1685080650583_198_tl_31" n="N029"/>Zur Ausführung dieses Planes sollte vorerst eine großartige
-      <lb facs="#facs_1_region_1685080650583_198_tl_32" n="N030"/>Aufführung des „<rs type="bibl">Elias</rs>“ in <rs type="place">Exeterhall</rs> dienen. <rs type="person">Mendelssohn</rs>
-               <lb facs="#facs_1_region_1685080650583_198_tl_33" n="N031"/>hatte den größeren Theil dieses Oratoriums zu einer Zeit
+      <lb facs="#facs_1_region_1685080650583_198_tl_32" n="N030"/>Aufführung des „<rs type="bibl">Elias</rs>“ in Exeterhall dienen. <rs type="person">Mendelssohn</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685080650583_198_tl_33" n="N031"/>hatte den größeren Theil dieses Oratoriums zu einer Zeit
       <lb facs="#facs_1_region_1685080650583_198_tl_34" n="N032"/>componirt, wo er mit Jenny <rs type="person">Lind</rs> in eifrigem Briefwechsel
-      <lb facs="#facs_1_region_1685080650583_198_tl_35" n="N033"/>stand; er hatte auf das genaueste ihre Stimme, ihren Vor¬
-      <lb facs="#facs_1_region_1685080650583_198_tl_36" n="N034"/>trag studirt und die Sopranpartie im „<rs type="bibl">Elias</rs>“ für sie
+      <lb facs="#facs_1_region_1685080650583_198_tl_35" n="N033"/>stand; er hatte auf das genaueste ihre Stimme, ihren Vor
+      <lb facs="#facs_1_region_1685080650583_198_tl_36" n="N034" break="no"/>trag studirt und die Sopranpartie im „<rs type="bibl">Elias</rs>“ für sie
       <lb facs="#facs_1_region_1685080650583_198_tl_37" n="N035"/>geschrieben. Die aus der epochemachenden Aufführung vom
       <lb facs="#facs_1_region_1685080650583_198_tl_38" n="N036"/>15. December <date>1848</date> erlöste Summe betrug tausend Pfund
       <lb facs="#facs_1_region_1685080650583_198_tl_39" n="N037"/>Sterling; sie wurde von dem Comité (unter dem Vorsitz
-      <lb facs="#facs_1_region_1685080650583_198_tl_40" n="N038"/>von Sir George <hi rendition="#em">
-                  <rs type="person">Smart</rs>
-               </hi> und Karl <hi rendition="#em">
-                  <rs type="person">Klingemann</rs>
-               </hi>) auf
+      <lb facs="#facs_1_region_1685080650583_198_tl_40" n="N038"/>von Sir George <hi rendition="#em"><rs type="person">Smart</rs></hi> und Karl <hi rendition="#em"><rs type="person">Klingemann</rs></hi>) auf
       <lb facs="#facs_1_region_1685080650583_198_tl_41" n="N039"/>Zinsen angelegt, die man bis 1856 anwachsen ließ und
       <lb facs="#facs_1_region_1685080650583_198_tl_42" n="N040"/>dann zum Kapital schlug. Nun glaubte das Comité den
       <lb facs="#facs_1_region_1685080650583_198_tl_43" n="N041"/>ersten „<rs type="person">Mendelssohn</rs>-Schüler“ ernennen zu dürfen. Die Wahl
-      <lb facs="#facs_1_region_1685080650583_198_tl_44" n="N042"/>fiel auf den jungen Arthur <hi rendition="#em">
-                  <rs type="person">Sullivan</rs>
-               </hi>. Auf ihn folgten
-      <lb facs="#facs_1_region_1685080650583_198_tl_45" n="N043"/>andere Schüler, welche einzig auf Grund ihrer Begabung</p>
+      <lb facs="#facs_1_region_1685080650583_198_tl_44" n="N042"/>fiel auf den jungen Arthur <hi rendition="#em"><rs type="person">Sullivan</rs></hi>. Auf ihn folgten
+      <lb facs="#facs_1_region_1685080650583_198_tl_45" n="N043"/>andere Schüler, welche einzig auf Grund ihrer Begabung<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1685080664444_204_tl_1" n="N001"/>gewählt wurden. Das Kapital beläuft sich jetzt auf mehr als
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685080664444_204_tl_1" n="N001"/>gewählt wurden. Das Kapital beläuft sich jetzt auf mehr als
       <lb facs="#facs_2_region_1685080664444_204_tl_2" n="N002"/>zweitausend Pfund Sterling.
-      <lb facs="#facs_2_region_1685080664444_204_tl_3" n="N003"/>Sehr eingehend behandeln die Verfasser Jenny <rs type="person">Lind</rs>'s
+            </p><p>
+      <lb facs="#facs_2_region_1685080664444_204_tl_3" n="N003"/>Sehr eingehend behandeln die Verfasser Jenny <rs type="person">Lind</rs>’s
       <lb facs="#facs_2_region_1685080664444_204_tl_4" n="N004"/>unerwarteten frühen Rücktritt vom Theater. Was konnte die
       <lb facs="#facs_2_region_1685080664444_204_tl_5" n="N005"/>Künstlerin veranlassen, auf der Höhe ihres Ruhmes, in
       <lb facs="#facs_2_region_1685080664444_204_tl_6" n="N006"/>ihrer vollsten Kraft und Blüthe der Bühne zu entsagen?
-      <lb facs="#facs_2_region_1685080664444_204_tl_7" n="N007"/>Man hat seinerzeit verschiedene Vermuthungen darüber aus¬
-      <lb facs="#facs_2_region_1685080664444_204_tl_8" n="N008"/>getauscht und hauptsächlich auf religiöse Scrupel und geist¬
-      <lb facs="#facs_2_region_1685080664444_204_tl_9" n="N009"/>lichen Einfluß gerathen. <hi rendition="#em">
-                  <rs type="person">Roger</rs>
-               </hi> erzählt in seinem „<rs type="bibl">Carnet</rs>
-               <lb facs="#facs_2_region_1685080664444_204_tl_10" n="N010"/>
-               <rs type="bibl">d'un ténor</rs>“, wie er zum letztenmale mit der <rs type="person">Lind</rs> im No¬
-      <lb facs="#facs_2_region_1685080664444_204_tl_11" n="N011"/>vember <date>1848</date> die „<rs type="bibl">Regimentstochter</rs>“ sang. „Geben Sie
-      <lb facs="#facs_2_region_1685080664444_204_tl_12" n="N012"/>jetzt gut Acht, <rs type="person">Roger</rs>,“ flüsterte sie ihm vor dem Schluß¬
-      <lb facs="#facs_2_line_1713077164484_731" n="N013"/>rondo zu, „es sind die letzten Töne, die Sie von mir auf
+      <lb facs="#facs_2_region_1685080664444_204_tl_7" n="N007"/>Man hat seinerzeit verschiedene Vermuthungen darüber aus
+      <lb facs="#facs_2_region_1685080664444_204_tl_8" n="N008" break="no"/>getauscht und hauptsächlich auf religiöse Scrupel und geist
+      <lb facs="#facs_2_region_1685080664444_204_tl_9" n="N009" break="no"/>lichen Einfluß gerathen. <hi rendition="#em"><rs type="person">Roger</rs></hi> erzählt in seinem „<rs type="bibl">Carnet
+      <lb facs="#facs_2_region_1685080664444_204_tl_10" n="N010"/>d’un ténor</rs>“, wie er zum letztenmale mit der <rs type="person">Lind</rs> im No
+      <lb facs="#facs_2_region_1685080664444_204_tl_11" n="N011" break="no"/>vember <date>1848</date> die „<rs type="bibl">Regimentstochter</rs>“ sang. „Geben Sie
+      <lb facs="#facs_2_region_1685080664444_204_tl_12" n="N012"/>jetzt gut Acht, <rs type="person">Roger</rs>,“ flüsterte sie ihm vor dem Schluß
+      <lb facs="#facs_2_line_1713077164484_731" n="N013" break="no"/>rondo zu, „es sind die letzten Töne, die Sie von mir auf
       <lb facs="#facs_2_line_1713077170211_736" n="N014"/>dem Theater hören!“ <rs type="person">Roger</rs>, ganz bestürzt, konnte es nicht
       <lb facs="#facs_2_line_1713077176739_741" n="N015"/>glauben. Und doch war es so. „Sie hat das Leben
       <lb facs="#facs_2_line_1713077181636_746" n="N016"/>einer Heiligen geführt,“ sagt <rs type="person">Roger</rs>, „aber man spricht
       <lb facs="#facs_2_region_1685080664444_204_tl_21" n="N017"/>von einem Bischofe, der ihr trotzdem Scrupel in
       <lb facs="#facs_2_line_1713077187604_753" n="N018"/>den Kopf gesetzt hat. <rs type="person">Gott</rs> möge ihn richten!“
       <lb facs="#facs_2_region_1685080664444_204_tl_24" n="N019"/>Unter dem „Bischof, den <rs type="person">Gott</rs> richten möge“, ist offenbar
-      <lb facs="#facs_2_region_1685080664444_204_tl_25" n="N020"/>der von <rs type="place">Norwich</rs> gemeint, Dr. Edward <rs type="person">Stanley</rs>, in dessen
+      <lb facs="#facs_2_region_1685080664444_204_tl_25" n="N020"/>der von <rs type="place" ref="#hsl_place_id_563">Norwich</rs> gemeint, Dr. Edward <rs type="person">Stanley</rs>, in dessen
       <lb facs="#facs_2_region_1685080664444_204_tl_26" n="N021"/>Hause die <rs type="person">Lind</rs> im Juli <date>1847</date> wohnte. Aber ihr Entschluß,
       <lb facs="#facs_2_region_1685080664444_204_tl_27" n="N022"/>die Bühne zu verlassen, reicht thatsächlich viel weiter zurück.
-      <lb facs="#facs_2_region_1685080664444_204_tl_28" n="N023"/>Schon im Jahre <date>1845</date>, unmittelbar nach ihren <rs type="place">Berlin</rs>er
-      <lb facs="#facs_2_region_1685080664444_204_tl_29" n="N024"/>Triumphen, theilt sie Frau <hi rendition="#em">
-                  <rs type="person">Grote</rs>
-               </hi> dieses Vorhaben mit
-      <lb facs="#facs_2_region_1685080664444_204_tl_30" n="N025"/>und begründet es mit ihrem Widerwillen gegen die „en¬
-      <lb facs="#facs_2_region_1685080664444_204_tl_31" n="N026"/>tourage“ der Bühne und mit der Ueberreizung ihrer durch
+      <lb facs="#facs_2_region_1685080664444_204_tl_28" n="N023"/>Schon im Jahre <date>1845</date>, unmittelbar nach ihren <rs type="place" ref="#hsl_place_id_9">Berlin</rs>er
+      <lb facs="#facs_2_region_1685080664444_204_tl_29" n="N024"/>Triumphen, theilt sie Frau <hi rendition="#em"><rs type="person">Grote</rs></hi> dieses Vorhaben mit
+      <lb facs="#facs_2_region_1685080664444_204_tl_30" n="N025"/>und begründet es mit ihrem Widerwillen gegen die „en
+      <lb facs="#facs_2_region_1685080664444_204_tl_31" n="N026" break="no"/>tourage“ der Bühne und mit der Ueberreizung ihrer durch
       <lb facs="#facs_2_region_1685080664444_204_tl_32" n="N027"/>das Theaterleben erschütterten Nerven. Aehnliche Aussprüche
-      <lb facs="#facs_2_region_1685080664444_204_tl_33" n="N028"/>enthalten ihre Briefe aus den folgenden Jahren. Aus <rs type="place">Wien</rs>,
+      <lb facs="#facs_2_region_1685080664444_204_tl_33" n="N028"/>enthalten ihre Briefe aus den folgenden Jahren. Aus <rs type="place" ref="#hsl_place_id_55">Wien</rs>,
       <lb facs="#facs_2_region_1685080664444_204_tl_34" n="N029"/>wo gerade die <rs type="person">Lind</rs>-Begeisterung „fast bis zur Tollheit
       <lb facs="#facs_2_region_1685080664444_204_tl_35" n="N030"/>reichte“, schreibt sie im Januar <date>1848</date> an eine Freundin, die
-      <lb facs="#facs_2_region_1685080664444_204_tl_36" n="N031"/>von einem <rs type="place">Paris</rs>er Engagement gehört haben will: „Was
-      <lb facs="#facs_2_region_1685080664444_204_tl_37" n="N032"/>stellst du dir nur vor? Ich nach <rs type="place">Paris</rs>! <hi rendition="#em">Von der Bühne</hi>
-               <lb facs="#facs_2_region_1685080664444_204_tl_38" n="N033"/>
-               <hi rendition="#em">will ich weg</hi> und weiter will ich nichts in der Welt.“
+      <lb facs="#facs_2_region_1685080664444_204_tl_36" n="N031"/>von einem <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Engagement gehört haben will: „Was
+      <lb facs="#facs_2_region_1685080664444_204_tl_37" n="N032"/>stellst du dir nur vor? Ich nach <rs type="place" ref="#hsl_place_id_44">Paris</rs>! <hi rendition="#em">Von der Bühne
+      <lb facs="#facs_2_region_1685080664444_204_tl_38" n="N033"/>will ich weg</hi> und weiter will ich nichts in der Welt.“
       <lb facs="#facs_2_region_1685080664444_204_tl_39" n="N034"/>Gewissenhaft legen die Biographen die verschiedenen Fäden
-      <lb facs="#facs_2_region_1685080664444_204_tl_40" n="N035"/>auseinander, die sich in der Seele der <rs type="person">Lind</rs> zu jenem Ent¬
-      <lb facs="#facs_2_region_1685080664444_204_tl_41" n="N036"/>schluß verflochten hatten. Nicht alle scheinen uns von erheb¬
-      <lb facs="#facs_2_region_1685080664444_204_tl_42" n="N037"/>licher Stärke. Die Sehnsucht nach der Heimat? Aber
-      <lb facs="#facs_2_region_1685080664444_204_tl_43" n="N038"/>Jenny <rs type="person">Lind</rs> hat sich ja nicht in <rs type="place">Schweden</rs>, sondern in
-      <lb facs="#facs_2_region_1685080664444_204_tl_44" n="N039"/>
-               <rs type="place">England</rs> bleibend niedergelassen! Die Mühsal des Herum¬
-      <lb facs="#facs_2_region_1685080664444_204_tl_45" n="N040"/>reisens und die Ersättigung an den Ovationen des
+      <lb facs="#facs_2_region_1685080664444_204_tl_40" n="N035"/>auseinander, die sich in der Seele der <rs type="person">Lind</rs> zu jenem Ent
+      <lb facs="#facs_2_region_1685080664444_204_tl_41" n="N036" break="no"/>schluß verflochten hatten. Nicht alle scheinen uns von erheb
+      <lb facs="#facs_2_region_1685080664444_204_tl_42" n="N037" break="no"/>licher Stärke. Die Sehnsucht nach der Heimat? Aber
+      <lb facs="#facs_2_region_1685080664444_204_tl_43" n="N038"/>Jenny <rs type="person">Lind</rs> hat sich ja nicht in <rs type="place" ref="#hsl_place_id_104">Schweden</rs>, sondern in
+      <lb facs="#facs_2_region_1685080664444_204_tl_44" n="N039"/><rs type="place" ref="#hsl_place_id_17">England</rs> bleibend niedergelassen! Die Mühsal des Herum
+      <lb facs="#facs_2_region_1685080664444_204_tl_45" n="N040" break="no"/>reisens und die Ersättigung an den Ovationen des
       <lb facs="#facs_2_region_1685080664444_204_tl_46" n="N041"/>Publicums? Beides blieb sich ja gleich, seit sie blos als
-      <lb facs="#facs_2_region_1685080664444_204_tl_47" n="N042"/>Concertsängerin <rs type="place">Deutschland</rs> und <rs type="place">Amerika</rs> bereiste! Was ihr
+      <lb facs="#facs_2_region_1685080664444_204_tl_47" n="N042"/>Concertsängerin <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> und <rs type="place" ref="#hsl_place_id_176">Amerika</rs> bereiste! Was ihr
       <lb facs="#facs_2_region_1685080664444_204_tl_48" n="N043"/>die Bühne verleidet hat, war ohne Zweifel deren „entourage“,
-      <lb facs="#facs_2_region_1685080664444_204_tl_49" n="N044"/>die fortwährende Reibung mit kleinlicher Intrigue, Eifer¬
-      <lb facs="#facs_2_line_1713077336339_796" n="N045"/>süchtelei und gemeiner Gesinnung. Ihre ideale Auffassung</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1685080668139_207_tl_1" n="N001"/>der Kunst ward ihr im Theater von diesem Unkraut ärger¬
-      <lb facs="#facs_2_region_1685080668139_207_tl_2" n="N002"/>lich umwuchert. <rs type="person">Jenny</rs>'s ideale Auffassung der Kunst, als
+      <lb facs="#facs_2_region_1685080664444_204_tl_49" n="N044"/>die fortwährende Reibung mit kleinlicher Intrigue, Eifer
+      <lb facs="#facs_2_line_1713077336339_796" n="N045" break="no"/>süchtelei und gemeiner Gesinnung. Ihre ideale Auffassung<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685080668139_207_tl_1" n="N001"/>der Kunst ward ihr im Theater von diesem Unkraut ärger
+      <lb facs="#facs_2_region_1685080668139_207_tl_2" n="N002" break="no"/>lich umwuchert. <rs type="person">Jenny</rs>’s ideale Auffassung der Kunst, als
       <lb facs="#facs_2_region_1685080668139_207_tl_3" n="N003"/>einer ihr auferlegten göttlichen Mission, hing wiederum mit
-      <lb facs="#facs_2_region_1685080668139_207_tl_4" n="N004"/>ihrer tief religiösen Natur zusammen. Eine gewisse protestan¬
-      <lb facs="#facs_2_region_1685080668139_207_tl_5" n="N005"/>tische Strenge hatte sie schon von ihrer nordischen Heimat
+      <lb facs="#facs_2_region_1685080668139_207_tl_4" n="N004"/>ihrer tief religiösen Natur zusammen. Eine gewisse protestan
+      <lb facs="#facs_2_region_1685080668139_207_tl_5" n="N005" break="no"/>tische Strenge hatte sie schon von ihrer nordischen Heimat
       <lb facs="#facs_2_region_1685080668139_207_tl_6" n="N006"/>mitbekommen — man erinnere sich an den Abscheu ihrer
       <lb facs="#facs_2_line_1713077270465_775" n="N007"/>Mutter vor dem Theater — ihr anhaltender Verkehr mit
-      <lb facs="#facs_2_region_1685080668139_207_tl_7" n="N008"/>frommen Familien in <rs type="place">England</rs> that das Uebrige. Die Ver¬
-      <lb facs="#facs_2_region_1685080668139_207_tl_8" n="N009"/>fasser constatiren, daß der <rs type="person">Bischof</rs> von <rs type="place">Norwich</rs> die <rs type="person">Lind</rs> zum
+      <lb facs="#facs_2_region_1685080668139_207_tl_7" n="N008"/>frommen Familien in <rs type="place" ref="#hsl_place_id_17">England</rs> that das Uebrige. Die Ver
+      <lb facs="#facs_2_region_1685080668139_207_tl_8" n="N009" break="no"/>fasser constatiren, daß der <rs type="person">Bischof</rs> von <rs type="place" ref="#hsl_place_id_563">Norwich</rs> die <rs type="person">Lind</rs> zum
       <lb facs="#facs_2_region_1685080668139_207_tl_9" n="N010"/>Verlassen der Bühne keineswegs überredet habe, wol aber,
-      <lb facs="#facs_2_region_1685080668139_207_tl_10" n="N011"/>daß er und seine Umgebung sie in diesem Entschlusse ein¬
-      <lb facs="#facs_2_region_1685080668139_207_tl_11" n="N012"/>dringlich bestärkten. Einem Poeten antwortet sie auf die
+      <lb facs="#facs_2_region_1685080668139_207_tl_10" n="N011"/>daß er und seine Umgebung sie in diesem Entschlusse ein
+      <lb facs="#facs_2_region_1685080668139_207_tl_11" n="N012" break="no"/>dringlich bestärkten. Einem Poeten antwortet sie auf die
       <lb facs="#facs_2_region_1685080668139_207_tl_12" n="N013"/>Widmung eines das Drama verherrlichenden Gedichts, „sie
-      <lb facs="#facs_2_line_1713077375171_807" n="N014"/>sei zu der Erkenntniß gelangt, daß alle auf der Bühne ver¬
-      <lb facs="#facs_2_region_1685080668139_207_tl_13" n="N015"/>gossenen Thränen falsche Thränen seien; sie habe, unbe¬
-      <lb facs="#facs_2_region_1685080668139_207_tl_14" n="N016"/>friedigt von ihren Erfolgen, die <rs type="bibl">Bibel</rs> aufgeschlagen und
+      <lb facs="#facs_2_line_1713077375171_807" n="N014"/>sei zu der Erkenntniß gelangt, daß alle auf der Bühne ver
+      <lb facs="#facs_2_region_1685080668139_207_tl_13" n="N015" break="no"/>gossenen Thränen falsche Thränen seien; sie habe, unbe
+      <lb facs="#facs_2_region_1685080668139_207_tl_14" n="N016" break="no"/>friedigt von ihren Erfolgen, die <rs type="bibl">Bibel</rs> aufgeschlagen und
       <lb facs="#facs_2_region_1685080668139_207_tl_15" n="N017"/>dort folgende Worte gelesen: „Mein neu gefundener Herr,
       <lb facs="#facs_2_region_1685080668139_207_tl_16" n="N018"/>der mich zuerst die wahren Thränen vergießen lehrte“.
       <lb facs="#facs_2_region_1685080668139_207_tl_17" n="N019"/>Ihr sublimirtes religiöses Bewußtsein rührt ohne Frage von
-      <lb facs="#facs_2_region_1685080668139_207_tl_18" n="N020"/>
-               <rs type="place">England</rs> her. Und doch hatte sie in Bezug auf die ver¬
-      <lb facs="#facs_2_line_1713077400218_818" n="N021"/>knöcherte Frömmigkeit der Engländer in einer eigenen Herzens¬
-      <lb facs="#facs_2_region_1685080668139_207_tl_19" n="N022"/>angelegenheit schmerzliche Erfahrungen gemacht. Jenny <rs type="person">Lind</rs>,
+      <lb facs="#facs_2_region_1685080668139_207_tl_18" n="N020"/><rs type="place" ref="#hsl_place_id_17">England</rs> her. Und doch hatte sie in Bezug auf die ver
+      <lb facs="#facs_2_line_1713077400218_818" n="N021" break="no"/>knöcherte Frömmigkeit der Engländer in einer eigenen Herzens
+      <lb facs="#facs_2_region_1685080668139_207_tl_19" n="N022" break="no"/>angelegenheit schmerzliche Erfahrungen gemacht. Jenny <rs type="person">Lind</rs>,
       <lb facs="#facs_2_region_1685080668139_207_tl_20" n="N023"/>die sich längst nach einem häuslichen Familienglück sehnte,
-      <lb facs="#facs_2_region_1685080668139_207_tl_21" n="N024"/>hatte sich mit einem jungen <rs type="place">englisch</rs>en Capitän <hi rendition="#em">
-                  <rs type="person">Harris</rs>
-               </hi>
-               <lb facs="#facs_2_region_1685080668139_207_tl_22" n="N025"/>verlobt. Aber an der pietistischen Strenge des Bräutigams,
+      <lb facs="#facs_2_region_1685080668139_207_tl_21" n="N024"/>hatte sich mit einem jungen <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Capitän <hi rendition="#em"><rs type="person">Harris</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080668139_207_tl_22" n="N025"/>verlobt. Aber an der pietistischen Strenge des Bräutigams,
       <lb facs="#facs_2_region_1685080668139_207_tl_23" n="N026"/>noch mehr an der religiösen Bornirtheit seiner Mutter,
-      <lb facs="#facs_2_region_1685080668139_207_tl_24" n="N027"/>welche das Theater für einen Satanstempel und die Schau¬
-      <lb facs="#facs_2_region_1685080668139_207_tl_25" n="N028"/>spieler sämmtlich für Teufelspriester erklärte, scheiterte die
+      <lb facs="#facs_2_region_1685080668139_207_tl_24" n="N027"/>welche das Theater für einen Satanstempel und die Schau
+      <lb facs="#facs_2_region_1685080668139_207_tl_25" n="N028" break="no"/>spieler sämmtlich für Teufelspriester erklärte, scheiterte die
       <lb facs="#facs_2_region_1685080668139_207_tl_26" n="N029"/>Verbindung. Obwol sie damals schon entschlossen war, die
       <lb facs="#facs_2_region_1685080668139_207_tl_27" n="N030"/>Bühne zu verlassen, empörte sie doch die Zumuthung, daß
       <lb facs="#facs_2_region_1685080668139_207_tl_28" n="N031"/>sie ihren Beruf, den sie so reinen Herzens gepflegt, als eine
       <lb facs="#facs_2_region_1685080668139_207_tl_29" n="N032"/>Schmach und Erniedrigung ansehen sollte. Ihre Freunde
       <lb facs="#facs_2_region_1685080668139_207_tl_30" n="N033"/>ließen nicht zu, daß im Heiratscontract die vom Bräutigam
-      <lb facs="#facs_2_region_1685080668139_207_tl_31" n="N034"/>geforderte Bedingung ausgenommen werde, Jenny <rs type="person">Lind</rs>
-               <lb facs="#facs_2_region_1685080668139_207_tl_32" n="N035"/>dürfe nie mehr die Bühne betreten. Diese Möglichkeit sollte
+      <lb facs="#facs_2_region_1685080668139_207_tl_31" n="N034"/>geforderte Bedingung ausgenommen werde, Jenny <rs type="person">Lind</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080668139_207_tl_32" n="N035"/>dürfe nie mehr die Bühne betreten. Diese Möglichkeit sollte
       <lb facs="#facs_2_region_1685080668139_207_tl_33" n="N036"/>ihr doch nicht auf Lebenszeit und für alle Fälle abgeschnitten
       <lb facs="#facs_2_region_1685080668139_207_tl_34" n="N037"/>sein. Der fromme <rs type="person">Capitän</rs> fand aber eine solche der Frau
       <lb facs="#facs_2_region_1685080668139_207_tl_35" n="N038"/>vorbehaltene Freiheit „un<rs type="bibl">biblisch</rs>“, und so ging die Heirat,
       <lb facs="#facs_2_region_1685080668139_207_tl_36" n="N039"/>für welche schon der Tag festgesetzt war, zurück.
+            </p><p>
       <lb facs="#facs_2_region_1685080668139_207_tl_37" n="N040"/>Eine andere Verlobung der <rs type="person">Lind</rs> scheiterte seltsamerweise
       <lb facs="#facs_2_line_1713077221323_762" n="N041"/>an dem entgegengesetzten Grunde: der Bräutigam war zu
       <lb facs="#facs_2_region_1685080668139_207_tl_38" n="N042"/>eng mit dem Theater verflochten. Jenny <rs type="person">Lind</rs> hatte schon
-      <lb facs="#facs_2_region_1685080668139_207_tl_39" n="N043"/>vor ihrer <rs type="place">Paris</rs>er Reise mit einem Sänger des <rs type="place">Stockholm</rs>er
-      <lb facs="#facs_2_region_1685080668139_207_tl_40" n="N044"/>Hoftheaters, Julius <hi rendition="#em">
-                  <rs type="person">Günther</rs>
-               </hi>, in Opern und Concerten
-      <lb facs="#facs_2_region_1685080668139_207_tl_41" n="N045"/>viel zusammen gesungen. Ihre Freundschaft befestigte und</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1685080671638_210_tl_1" n="N001"/>erwärmte sich in der Folge noch zusehends und führte im
-      <lb facs="#facs_2_region_1685080671638_210_tl_2" n="N002"/>Jahre <date>1848</date> zu einer förmlichen Verlobung. Jenny <rs type="person">Lind</rs>
-               <lb facs="#facs_2_region_1685080671638_210_tl_3" n="N003"/>reiste nach derselben nach <rs type="place">London</rs> zurück, wo sie zu Freunden
+      <lb facs="#facs_2_region_1685080668139_207_tl_39" n="N043"/>vor ihrer <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Reise mit einem Sänger des <rs type="place" ref="#hsl_place_id_431">Stockholm</rs>er
+      <lb facs="#facs_2_region_1685080668139_207_tl_40" n="N044"/>Hoftheaters, Julius <hi rendition="#em"><rs type="person">Günther</rs></hi>, in Opern und Concerten
+      <lb facs="#facs_2_region_1685080668139_207_tl_41" n="N045"/>viel zusammen gesungen. Ihre Freundschaft befestigte und<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685080671638_210_tl_1" n="N001"/>erwärmte sich in der Folge noch zusehends und führte im
+      <lb facs="#facs_2_region_1685080671638_210_tl_2" n="N002"/>Jahre <date>1848</date> zu einer förmlichen Verlobung. Jenny <rs type="person">Lind</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685080671638_210_tl_3" n="N003"/>reiste nach derselben nach <rs type="place" ref="#hsl_place_id_34">London</rs> zurück, wo sie zu Freunden
       <lb facs="#facs_2_region_1685080671638_210_tl_4" n="N004"/>noch voll Begeisterung über diese Verbindung sprach. Allein
-      <lb facs="#facs_2_region_1685080671638_210_tl_5" n="N005"/>
-               <rs type="person">Günther</rs> war, wie gesagt, Tenorist am <rs type="place">Stockholm</rs>er Theater
-      <lb facs="#facs_2_region_1685080671638_210_tl_6" n="N006"/>und sein ganzes Leben mit der Bühne verwoben. Diese Ver¬
-      <lb facs="#facs_2_region_1685080671638_210_tl_7" n="N007"/>bindung mußte daher engere Bande zwischen ihr und der
+      <lb facs="#facs_2_region_1685080671638_210_tl_5" n="N005"/><rs type="person">Günther</rs> war, wie gesagt, Tenorist am <rs type="place" ref="#hsl_place_id_431">Stockholm</rs>er Theater
+      <lb facs="#facs_2_region_1685080671638_210_tl_6" n="N006"/>und sein ganzes Leben mit der Bühne verwoben. Diese Ver
+      <lb facs="#facs_2_region_1685080671638_210_tl_7" n="N007" break="no"/>bindung mußte daher engere Bande zwischen ihr und der
       <lb facs="#facs_2_region_1685080671638_210_tl_8" n="N008"/>Theaterwelt herbeiführen, welche sie doch so sehr zu verlassen
-      <lb facs="#facs_2_region_1685080671638_210_tl_9" n="N009"/>wünschte. In <rs type="place">London</rs> gewannen die religiösen Anschauungen,
-      <lb facs="#facs_2_region_1685080671638_210_tl_10" n="N010"/>welche ihre <rs type="place">englisch</rs>e Umgebung in ihr entwickelte, einen
+      <lb facs="#facs_2_region_1685080671638_210_tl_9" n="N009"/>wünschte. In <rs type="place" ref="#hsl_place_id_34">London</rs> gewannen die religiösen Anschauungen,
+      <lb facs="#facs_2_region_1685080671638_210_tl_10" n="N010"/>welche ihre <rs type="place" ref="#hsl_place_id_17">englisch</rs>e Umgebung in ihr entwickelte, einen
       <lb facs="#facs_2_region_1685080671638_210_tl_11" n="N011"/>immer größeren Einfluß auf sie; ihr Widerwillen gegen
       <lb facs="#facs_2_region_1685080671638_210_tl_12" n="N012"/>das Theater wurde gesteigert, ihre Zukunftshoffnung getrübt.
-      <lb facs="#facs_2_region_1685080671638_210_tl_13" n="N013"/>
-               <rs type="person">Günther</rs> in dem fernen <rs type="place">Stockholm</rs> hatte kein Verständniß
-      <lb facs="#facs_2_region_1685080671638_210_tl_14" n="N014"/>und keine Sympathie für diese religiöse Strenge. Die An¬
-      <lb facs="#facs_2_region_1685080671638_210_tl_15" n="N015"/>schauungen und Grundsätze der beiden Brautleute divergirten
+      <lb facs="#facs_2_region_1685080671638_210_tl_13" n="N013"/><rs type="person">Günther</rs> in dem fernen <rs type="place" ref="#hsl_place_id_431">Stockholm</rs> hatte kein Verständniß
+      <lb facs="#facs_2_region_1685080671638_210_tl_14" n="N014"/>und keine Sympathie für diese religiöse Strenge. Die An
+      <lb facs="#facs_2_region_1685080671638_210_tl_15" n="N015" break="no"/>schauungen und Grundsätze der beiden Brautleute divergirten
       <lb facs="#facs_2_region_1685080671638_210_tl_16" n="N016"/>je länger, je weiter, und so wurde schließlich im October
-      <lb facs="#facs_2_region_1685080671638_210_tl_17" n="N017"/>
-               <date>1848</date> die Verlobung mit beiderseitiger Zustimmung auf¬
-      <lb facs="#facs_2_line_1713077387051_814" n="N018"/>gelöst. Erst in dem dritten ihrer Freier hat Jenny <rs type="person">Lind</rs> „den
-      <lb facs="#facs_2_region_1685080671638_210_tl_20" n="N019"/>Rechten“ gefunden: in Herrn <hi rendition="#em">Otto <rs type="person">Goldschmidt</rs>
-               </hi>, einem
-      <lb facs="#facs_2_region_1685080671638_210_tl_21" n="N020"/>jungen Clavier-Virtuosen und Componisten aus <rs type="place">Hamburg</rs>,
-      <lb facs="#facs_2_region_1685080671638_210_tl_22" n="N021"/>der schon in ihren <rs type="place">englisch</rs>en Concerten mitgewirkt hatte und
-      <lb facs="#facs_2_region_1685080671638_210_tl_23" n="N022"/>sie <date>1851</date> auf ihrer <rs type="place">amerikanisch</rs>en Tournée als Solo-Pianist
+      <lb facs="#facs_2_region_1685080671638_210_tl_17" n="N017"/><date>1848</date> die Verlobung mit beiderseitiger Zustimmung auf
+      <lb facs="#facs_2_line_1713077387051_814" n="N018" break="no"/>gelöst. Erst in dem dritten ihrer Freier hat Jenny <rs type="person">Lind</rs> „den
+      <lb facs="#facs_2_region_1685080671638_210_tl_20" n="N019"/>Rechten“ gefunden: in Herrn <hi rendition="#em">Otto <rs type="person">Goldschmidt</rs></hi>, einem
+      <lb facs="#facs_2_region_1685080671638_210_tl_21" n="N020"/>jungen Clavier-Virtuosen und Componisten aus <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>,
+      <lb facs="#facs_2_region_1685080671638_210_tl_22" n="N021"/>der schon in ihren <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Concerten mitgewirkt hatte und
+      <lb facs="#facs_2_region_1685080671638_210_tl_23" n="N022"/>sie <date>1851</date> auf ihrer <rs type="place" ref="#hsl_place_id_176">amerikanisch</rs>en Tournée als Solo-Pianist
       <lb facs="#facs_2_region_1685080671638_210_tl_24" n="N023"/>und Accompagnateur begleitete. Jenny <rs type="person">Lind</rs> vermälte sich
-      <lb facs="#facs_2_region_1685080671638_210_tl_25" n="N024"/>mit ihm in <rs type="place">Boston</rs>
-               <date>1852</date> und hat sechsunddreißig Jahre
+      <lb facs="#facs_2_region_1685080671638_210_tl_25" n="N024"/>mit ihm in <rs type="place" ref="#hsl_place_id_187">Boston</rs><space unit="char" quantity="1"/><date>1852</date> und hat sechsunddreißig Jahre
       <lb facs="#facs_2_region_1685080671638_210_tl_26" n="N025"/>lang, bis zu ihrem Lebensende, in glücklichster Ehe an der
       <lb facs="#facs_2_region_1685080671638_210_tl_27" n="N026"/>Seite dieses als Mensch und Künstler hochachtbaren Mannes
       <lb facs="#facs_2_region_1685080671638_210_tl_28" n="N027"/>gelebt.
+            </p><p>
       <lb facs="#facs_2_region_1685080671638_210_tl_29" n="N028"/>Ist es allzu gewagt, wenn ich zu den Gründen, aus
       <lb facs="#facs_2_region_1685080671638_210_tl_30" n="N029"/>welchen Jenny <rs type="person">Lind</rs> dem Theater entsagte, mir im Stillen
       <lb facs="#facs_2_region_1685080671638_210_tl_31" n="N030"/>noch einen dazu denke? Ein versteckteres Motiv, das die
@@ -1540,129 +1510,111 @@
       <lb facs="#facs_2_region_1685080671638_210_tl_37" n="N036"/>der Jenny <rs type="person">Lind</rs> nur mit schrankenloser Bewunderung, und
       <lb facs="#facs_2_region_1685080671638_210_tl_38" n="N037"/>dies mit Recht bezüglich aller jener Gestalten, welche mit
       <lb facs="#facs_2_region_1685080671638_210_tl_39" n="N038"/>ihrer Natur übereinstimmten, wie <rs type="person">Amina</rs>, <rs type="person">Lucia</rs>, <rs type="person">Marie</rs>,
-      <lb facs="#facs_2_region_1685080671638_210_tl_40" n="N039"/>
-               <rs type="person">Vielka</rs>, <rs type="person">Agathe</rs>. Einfaches, ungebrochenes Gefühl, träumerisches,
+      <lb facs="#facs_2_region_1685080671638_210_tl_40" n="N039"/><rs type="person">Vielka</rs>, <rs type="person">Agathe</rs>. Einfaches, ungebrochenes Gefühl, träumerisches,
       <lb facs="#facs_2_region_1685080671638_210_tl_41" n="N040"/>zartes Empfinden, heitere Anmuth, auch Hoheit und Würde
-      <lb facs="#facs_2_region_1685080671638_210_tl_42" n="N041"/>fanden in ihrer Darstellung den reinsten Ausdruck. Leiden¬
-      <lb facs="#facs_2_region_1685080671638_210_tl_43" n="N042"/>schaftliche Gluth hingegen in Liebe, Haß, Zorn und Eifer¬
-      <lb facs="#facs_2_region_1685080671638_210_tl_44" n="N043"/>sucht war ihr nur annähernd erreichbar; ihre weiche, etwas
+      <lb facs="#facs_2_region_1685080671638_210_tl_42" n="N041"/>fanden in ihrer Darstellung den reinsten Ausdruck. Leiden
+      <lb facs="#facs_2_region_1685080671638_210_tl_43" n="N042" break="no"/>schaftliche Gluth hingegen in Liebe, Haß, Zorn und Eifer
+      <lb facs="#facs_2_region_1685080671638_210_tl_44" n="N043" break="no"/>sucht war ihr nur annähernd erreichbar; ihre weiche, etwas
       <lb facs="#facs_2_line_1713077318872_789" n="N044"/>verschleierte Stimme wehrte sich gegen diese Ausbrüche ebenso
-      <lb facs="#facs_2_line_1713077356723_801" n="N045"/>instinctiv wie die ganze Natur der <rs type="person">Lind</rs>. Zwei charakteristische</p>
+      <lb facs="#facs_2_line_1713077356723_801" n="N045"/>instinctiv wie die ganze Natur der <rs type="person">Lind</rs>. Zwei charakteristische<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1685080685895_216_tl_1" n="N001"/>Beispiele boten ihre <hi rendition="#em">
-                  <rs type="person">Norma</rs>
-               </hi> und ihre <hi rendition="#em">
-                  <rs type="person">Valentine</rs>
-               </hi>,
-      <lb facs="#facs_3_region_1685080685895_216_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person">Roger</rs>
-               </hi>, der in höchster Bewunderung der <rs type="person">Lind</rs> ausruft:
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1685080685895_216_tl_1" n="N001"/>Beispiele boten ihre <hi rendition="#em"><rs type="person">Norma</rs></hi> und ihre <hi rendition="#em"><rs type="person">Valentine</rs></hi>,
+      <lb facs="#facs_3_region_1685080685895_216_tl_2" n="N002"/><hi rendition="#em"><rs type="person">Roger</rs></hi>, der in höchster Bewunderung der <rs type="person">Lind</rs> ausruft:
       <lb facs="#facs_3_region_1685080685895_216_tl_3" n="N003"/>„Welches Glück für mich, daß ich diese seltene Frau studiren
       <lb facs="#facs_3_region_1685080685895_216_tl_4" n="N004"/>kann!“, schreibt über ihre <rs type="person">Norma</rs> in sein Tagebuch: „Die
-      <lb facs="#facs_3_region_1685080685895_216_tl_5" n="N005"/>
-               <rs type="bibl">Casta diva</rs> singt sie sehr gut; diese Anrufung des Mondes
-      <lb facs="#facs_3_region_1685080685895_216_tl_6" n="N006"/>harmonirt mit ihrem träumerischen <rs type="place">deutsch</rs>en Naturell; aber
+      <lb facs="#facs_3_region_1685080685895_216_tl_5" n="N005"/><rs type="bibl">Casta diva</rs> singt sie sehr gut; diese Anrufung des Mondes
+      <lb facs="#facs_3_region_1685080685895_216_tl_6" n="N006"/>harmonirt mit ihrem träumerischen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Naturell; aber
       <lb facs="#facs_3_region_1685080685895_216_tl_7" n="N007"/>die Zornausbrüche des liebenden Weibes, der verrathenen
       <lb facs="#facs_3_region_1685080685895_216_tl_8" n="N008"/>Mutter — nein und tausendmal nein! Das ist klein und
-      <lb facs="#facs_3_region_1685080685895_216_tl_9" n="N009"/>verzweckt.“****) Für ihre <rs type="person">Valentine</rs> war es bezeichnend, daß sie
+      <lb facs="#facs_3_region_1685080685895_216_tl_9" n="N009"/>verzweckt.“
+            <note type="footnote" n="****)">
+            <lb facs="#facs_3_line_1713077459338_844" n="N040"/>Es ist aufgefallen, daß die Verfasser, welche doch Aussprüche,
+            <lb facs="#facs_3_line_1713077461440_847" n="N041"/>Briefe, Tagebuchblätter von so vielen unbekannten und unbedeutenden
+            <lb facs="#facs_3_line_1713077463336_850" n="N042"/>Personen abdrucken, die sehr interessanten Mittheilungen <hi rendition="#em"><rs type="person">Roger</rs>’s</hi><space quantity="1" unit="char"/>
+            <lb facs="#facs_3_line_1713077465566_853" n="N043"/>gänzlich ignoriren. Auch die höchste charakteristischen <rs type="bibl">Briefe</rs> der <hi rendition="#em">Jenny</hi><space quantity="1" unit="char"/>
+            <lb facs="#facs_3_line_1713077467538_856" n="N044"/><hi rendition="#em"><rs type="person">Lind</rs> an Franz <rs type="person">Hauser</rs></hi>, die ich zuerst im Jahre <date>1883</date> in
+            <lb facs="#facs_3_line_1713077469506_859" n="N045"/>diesen Blättern veröffentlichte, vermissen wir in ihrer Biographie.
+            </note><space unit="char" quantity="1"/>
+            Für ihre <rs type="person">Valentine</rs> war es bezeichnend, daß sie
       <lb facs="#facs_3_region_1685080685895_216_tl_10" n="N010"/>bei der Stelle im vierten Act: „ich klammere mich an dich!“
-      <lb facs="#facs_3_region_1685080685895_216_tl_11" n="N011"/>den Geliebten kaum zu berühren wagte, während alle be¬
-      <lb facs="#facs_3_region_1685080685895_216_tl_12" n="N012"/>deutenden Darstellerinnen sich hier in verzweifelter Angst
+      <lb facs="#facs_3_region_1685080685895_216_tl_11" n="N011"/>den Geliebten kaum zu berühren wagte, während alle be
+      <lb facs="#facs_3_region_1685080685895_216_tl_12" n="N012" break="no"/>deutenden Darstellerinnen sich hier in verzweifelter Angst
       <lb facs="#facs_3_region_1685080685895_216_tl_13" n="N013"/>thatsächlich an <rs type="person">Raoul</rs> „anklammern“, um ihn zurückzuhalten.
-      <lb facs="#facs_3_region_1685080685895_216_tl_14" n="N014"/>Schon aus <rs type="place">Paris</rs> schilderte Jenny <rs type="person">Lind</rs> in einem Briefe,
-      <lb facs="#facs_3_region_1685080685895_216_tl_15" n="N015"/>wie vortrefflich die <hi rendition="#em">
-                  <rs type="person">Rachel</rs>
-               </hi> „im Zorne“ sei, und fügt hinzu,
-      <lb facs="#facs_3_region_1685080685895_216_tl_16" n="N016"/>„aber zärtlich, nein, dazu eignet sie sich nicht. Ich bin ab¬
-      <lb facs="#facs_3_region_1685080685895_216_tl_17" n="N017"/>scheulich garstig, wenn ich zornig sein muß, aber dafür,
-      <lb facs="#facs_3_region_1685080685895_216_tl_18" n="N018"/>glaube ich, wieder besser in der Zärtlichkeit“. Sehr bedeu¬
-      <lb facs="#facs_3_region_1685080685895_216_tl_19" n="N019"/>tungsvoll ist eine Aeußerung Jenny <rs type="person">Lind</rs>'s zu A. P. <rs type="person">Stanley</rs>,
-      <lb facs="#facs_3_region_1685080685895_216_tl_20" n="N020"/>dem nachmaligen Decan von <rs type="place">Westminster</rs>: „sie könne
+      <lb facs="#facs_3_region_1685080685895_216_tl_14" n="N014"/>Schon aus <rs type="place" ref="#hsl_place_id_44">Paris</rs> schilderte Jenny <rs type="person">Lind</rs> in einem Briefe,
+      <lb facs="#facs_3_region_1685080685895_216_tl_15" n="N015"/>wie vortrefflich die <hi rendition="#em"><rs type="person">Rachel</rs></hi> „im Zorne“ sei, und fügt hinzu,
+      <lb facs="#facs_3_region_1685080685895_216_tl_16" n="N016"/>„aber zärtlich, nein, dazu eignet sie sich nicht. Ich bin ab
+      <lb facs="#facs_3_region_1685080685895_216_tl_17" n="N017" break="no"/>scheulich garstig, wenn ich zornig sein muß, aber dafür,
+      <lb facs="#facs_3_region_1685080685895_216_tl_18" n="N018"/>glaube ich, wieder besser in der Zärtlichkeit“. Sehr bedeu
+      <lb facs="#facs_3_region_1685080685895_216_tl_19" n="N019" break="no"/>tungsvoll ist eine Aeußerung Jenny <rs type="person">Lind</rs>’s zu A. P. <rs type="person">Stanley</rs>,
+      <lb facs="#facs_3_region_1685080685895_216_tl_20" n="N020"/>dem nachmaligen Decan von Westminster: „sie könne
       <lb facs="#facs_3_region_1685080685895_216_tl_21" n="N021"/>beim Darstellen auf der Bühne <hi rendition="#em">ihren</hi> Charakter
       <lb facs="#facs_3_region_1685080685895_216_tl_22" n="N022"/>nicht ganz verleugnen; denn wenn sie ihre Individualität
       <lb facs="#facs_3_region_1685080685895_216_tl_23" n="N023"/>zerstöre, so vernichte sie zugleich alles Gute, was an ihr
       <lb facs="#facs_3_region_1685080685895_216_tl_24" n="N024"/>sei, und sie habe es sich zum Grundsatz gemacht, nie solche
       <lb facs="#facs_3_region_1685080685895_216_tl_25" n="N025"/>Leidenschaften darzustellen, welche schlechte Gefühle erwecken
-      <lb facs="#facs_3_region_1685080685895_216_tl_26" n="N026"/>könnten. Daher auch ihre von der <hi rendition="#em">
-                  <rs type="person">Grisi</rs>
-               </hi> so sehr verschiedene
+      <lb facs="#facs_3_region_1685080685895_216_tl_26" n="N026"/>könnten. Daher auch ihre von der <hi rendition="#em"><rs type="person">Grisi</rs></hi> so sehr verschiedene
       <lb facs="#facs_3_region_1685080685895_216_tl_27" n="N027"/>Auffassung der <rs type="person">Norma</rs>. Andererseits werfe sie sich mit ganzer
       <lb facs="#facs_3_region_1685080685895_216_tl_28" n="N028"/>Seele in die Auffassung einer Rolle, welche sie sich nun
       <lb facs="#facs_3_region_1685080685895_216_tl_29" n="N029"/>einmal gemacht. Wenn sie dies nicht thun könne, was ihr
-      <lb facs="#facs_3_region_1685080685895_216_tl_30" n="N030"/>ein- oder zweimal begegnet sei, so wäre es ihr, als <hi rendition="#em">lüge</hi>
-               <lb facs="#facs_3_region_1685080685895_216_tl_31" n="N031"/>sie, und dann hätte sie auch nur Mißerfolg“. Ein Beweis
+      <lb facs="#facs_3_region_1685080685895_216_tl_30" n="N030"/>ein- oder zweimal begegnet sei, so wäre es ihr, als <hi rendition="#em">lüge</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1685080685895_216_tl_31" n="N031"/>sie, und dann hätte sie auch nur Mißerfolg“. Ein Beweis
       <lb facs="#facs_3_region_1685080685895_216_tl_32" n="N032"/>ihrer völligen Identificirung mit ihrer Rolle war, daß die
-      <lb facs="#facs_3_region_1685080685895_216_tl_33" n="N033"/>
-               <rs type="person">Nachtwandlerin</rs> sie so sehr ermüdete, da sie während des
+      <lb facs="#facs_3_region_1685080685895_216_tl_33" n="N033"/><rs type="person">Nachtwandlerin</rs> sie so sehr ermüdete, da sie während des
       <lb facs="#facs_3_region_1685080685895_216_tl_34" n="N034"/>Nachtwandelns die Augen nicht bewegen zu dürfen glaubte.
       <lb facs="#facs_3_region_1685080685895_216_tl_35" n="N035"/>In der Scene, wo <rs type="person">Amina</rs> über den morschen Steg schreitet
-      <lb facs="#facs_3_region_1685080685895_216_tl_36" n="N036"/>und die Kerze in die Tiefe fallen läßt, erlaubte Jenny <rs type="person">Lind</rs>
-               <lb facs="#facs_3_region_1685080685895_216_tl_37" n="N037"/>niemals, daß (wie es überall üblich war) eine gleich gekleidete
+      <lb facs="#facs_3_region_1685080685895_216_tl_36" n="N036"/>und die Kerze in die Tiefe fallen läßt, erlaubte Jenny <rs type="person">Lind</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1685080685895_216_tl_37" n="N037"/>niemals, daß (wie es überall üblich war) eine gleich gekleidete
       <lb facs="#facs_3_region_1685080685895_216_tl_38" n="N038"/>Stellvertreterin das gefährliche Wagniß bestehe. Nicht als
-      <lb facs="#facs_3_region_1685080685895_216_tl_39" n="N039"/>ob sie muthiger gewesen wäre, als andere Darstellerinnen der
-      <lb facs="#facs_3_line_1713077459338_844" n="N040"/>****) Es ist aufgefallen, daß die Verfasser, welche doch Aussprüche,
-      <lb facs="#facs_3_line_1713077461440_847" n="N041"/>Briefe, Tagebuchblätter von so vielen unbekannten und unbedeutenden
-      <lb facs="#facs_3_line_1713077463336_850" n="N042"/>Personen abdrucken, die sehr interessanten Mittheilungen <hi rendition="#em">
-                  <rs type="person">Roger</rs>'s</hi>
-               <lb facs="#facs_3_line_1713077465566_853" n="N043"/>gänzlich ignoriren. Auch die höchste charakteristischen <rs type="bibl">Briefe</rs> der <hi rendition="#em">Jenny</hi>
-               <lb facs="#facs_3_line_1713077467538_856" n="N044"/>
-               <hi rendition="#em">
-                  <rs type="person">Lind</rs> an Franz <rs type="person">Hauser</rs>
-               </hi>, die ich zuerst im Jahre <date>1883</date> in
-      <lb facs="#facs_3_line_1713077469506_859" n="N045"/>diesen Blättern veröffentlichte, vermissen wir in ihrer Biographie.</p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_line_1713077475341_865" n="N001"/>
-               <rs type="person">Nachtwandlerin</rs> — im Gegentheil, sie fürchtete sich jedesmal
+      <lb facs="#facs_3_region_1685080685895_216_tl_39" n="N039"/>ob sie muthiger gewesen wäre, als andere Darstellerinnen der<space quantity="1" unit="char"/></p>
+            <cb n="8"/>
+            <p prev="true">
+      <lb facs="#facs_3_line_1713077475341_865" n="N001"/><rs type="person">Nachtwandlerin</rs> — im Gegentheil, sie fürchtete sich jedesmal
       <lb facs="#facs_3_line_1713077478731_871" n="N002"/>entsetzlich vor diesem Moment. „Aber,“ sagte sie, „ich würde
-      <lb facs="#facs_3_region_1685080692722_219_tl_5" n="N003"/>mich geschämt haben, vor das Publicum zu treten und vor¬
-      <lb facs="#facs_3_region_1685080692722_219_tl_6" n="N004"/>zugeben, die Brücke überschritten zu haben, wenn ich es
+      <lb facs="#facs_3_region_1685080692722_219_tl_5" n="N003"/>mich geschämt haben, vor das Publicum zu treten und vor
+      <lb facs="#facs_3_region_1685080692722_219_tl_6" n="N004" break="no"/>zugeben, die Brücke überschritten zu haben, wenn ich es
       <lb facs="#facs_3_region_1685080692722_219_tl_7" n="N005"/>nicht wirklich gethan hätte.“ Eine Künstlerin, die mit solcher
       <lb facs="#facs_3_region_1685080692722_219_tl_8" n="N006"/>Inbrunst und Gewissenhaftigkeit in ihren Rollen aufging,
       <lb facs="#facs_3_region_1685080692722_219_tl_9" n="N007"/>mußte nicht nur mehr als Andere davon angegriffen, ja
       <lb facs="#facs_3_region_1685080692722_219_tl_10" n="N008"/>aufgerieben werden, sie mußte auch bald wahrnehmen, daß
-      <lb facs="#facs_3_region_1685080692722_219_tl_11" n="N009"/>der Kreis von Opernpartien, in welche sie ihre <hi rendition="#em">ganze</hi>
-               <lb facs="#facs_3_region_1685080692722_219_tl_12" n="N010"/>Seele und nur <hi rendition="#em">ihre</hi> Seele zu legen vermochte, ein sehr
+      <lb facs="#facs_3_region_1685080692722_219_tl_11" n="N009"/>der Kreis von Opernpartien, in welche sie ihre <hi rendition="#em">ganze</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1685080692722_219_tl_12" n="N010"/>Seele und nur <hi rendition="#em">ihre</hi> Seele zu legen vermochte, ein sehr
       <lb facs="#facs_3_region_1685080692722_219_tl_13" n="N011"/>begrenzter sei. Wie ermüdend, nach Jahren immer und
       <lb facs="#facs_3_region_1685080692722_219_tl_14" n="N012"/>immer wieder nur die <rs type="person">Nachtwandlerin</rs>, die <rs type="person">Regimentstochter</rs>,
-      <lb facs="#facs_3_region_1685080692722_219_tl_15" n="N013"/>
-               <rs type="person">Lucia</rs>, <rs type="person">Norma</rs> und <rs type="person">Alice</rs> zu singen! In jeder <hi rendition="#em">neuen</hi>
-               <lb facs="#facs_3_region_1685080692722_219_tl_16" n="N014"/>Rolle, die man ihr vorschlug, mochte aber ihre zunehmende
+      <lb facs="#facs_3_region_1685080692722_219_tl_15" n="N013"/><rs type="person">Lucia</rs>, <rs type="person">Norma</rs> und <rs type="person">Alice</rs> zu singen! In jeder <hi rendition="#em">neuen</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1685080692722_219_tl_16" n="N014"/>Rolle, die man ihr vorschlug, mochte aber ihre zunehmende
       <lb facs="#facs_3_region_1685080692722_219_tl_17" n="N015"/>sittliche und religiöse Empfindlichkeit Gefühle entdecken, die
       <lb facs="#facs_3_region_1685080692722_219_tl_18" n="N016"/>sie nicht „lügen“ könne und wolle. Wir begreifen die Wärme,
       <lb facs="#facs_3_region_1685080692722_219_tl_19" n="N017"/>mit welcher die Verfasser an der <rs type="person">Norma</rs> und anderen
-      <lb facs="#facs_3_region_1685080692722_219_tl_20" n="N018"/>Rollen der <rs type="person">Lind</rs> deren „eigenartige Verklärung und Ver¬
-      <lb facs="#facs_3_region_1685080692722_219_tl_21" n="N019"/>edlung“ rühmen; aber eigenartige Idealisirung kann mit¬
-      <lb facs="#facs_3_region_1685080692722_219_tl_22" n="N020"/>unter zur eigenmächtigen werden, die gegen die klare Absicht
-      <lb facs="#facs_3_region_1685080692722_219_tl_23" n="N021"/>des Dichters und Componisten streitet. So strenge Wahr¬
-      <lb facs="#facs_3_region_1685080692722_219_tl_24" n="N022"/>haftigkeit des Charakters erzeugt nothwendig eine Begrenzung
+      <lb facs="#facs_3_region_1685080692722_219_tl_20" n="N018"/>Rollen der <rs type="person">Lind</rs> deren „eigenartige Verklärung und Ver
+      <lb facs="#facs_3_region_1685080692722_219_tl_21" n="N019" break="no"/>edlung“ rühmen; aber eigenartige Idealisirung kann mit
+      <lb facs="#facs_3_region_1685080692722_219_tl_22" n="N020" break="no"/>unter zur eigenmächtigen werden, die gegen die klare Absicht
+      <lb facs="#facs_3_region_1685080692722_219_tl_23" n="N021"/>des Dichters und Componisten streitet. So strenge Wahr
+      <lb facs="#facs_3_region_1685080692722_219_tl_24" n="N022" break="no"/>haftigkeit des Charakters erzeugt nothwendig eine Begrenzung
       <lb facs="#facs_3_region_1685080692722_219_tl_25" n="N023"/>des dramatischen Talents, welches Entäußerung der eigenen
       <lb facs="#facs_3_region_1685080692722_219_tl_26" n="N024"/>Persönlichkeit verlangt.
+            </p><p>
       <lb facs="#facs_3_region_1685080692722_219_tl_27" n="N025"/>Wer sich aus allen diesen Zügen ein klares Bild von
       <lb facs="#facs_3_region_1685080692722_219_tl_28" n="N026"/>dem Charakter der <rs type="person">Lind</rs> macht, der wird es begreifen, daß
-      <lb facs="#facs_3_region_1685080692722_219_tl_29" n="N027"/>gerade sie unter wachsender Theater-Abneigung zu der Ueber¬
-      <lb facs="#facs_3_region_1685080692722_219_tl_30" n="N028"/>zeugung gelangte, nur als Concert- und Oratorien-Sängerin
+      <lb facs="#facs_3_region_1685080692722_219_tl_29" n="N027"/>gerade sie unter wachsender Theater-Abneigung zu der Ueber
+      <lb facs="#facs_3_region_1685080692722_219_tl_30" n="N028" break="no"/>zeugung gelangte, nur als Concert- und Oratorien-Sängerin
       <lb facs="#facs_3_region_1685080692722_219_tl_31" n="N029"/>ganz ihr bestes Selbst geben zu können. Jede dramatische
       <lb facs="#facs_3_region_1685080692722_219_tl_32" n="N030"/>Darstellung wirkt farbiger, kraftvoller, lebendiger als ein
       <lb facs="#facs_3_region_1685080692722_219_tl_33" n="N031"/>Concertvortrag, aber die Eindrücke, die wir von dem Lieder-
       <lb facs="#facs_3_region_1685080692722_219_tl_34" n="N032"/>und Oratoriengesang der <rs type="person">Lind</rs> bewahren, sind uns nicht
-      <lb facs="#facs_3_region_1685080692722_219_tl_35" n="N033"/>weniger theuer. Wir haben speciell in <rs type="place">Wien</rs> die köstlichsten
-      <lb facs="#facs_3_region_1685080692722_219_tl_36" n="N034"/>Erinnerungen an ihre Concerte im Jahre <date>1854</date>. Eine werth¬
-      <lb facs="#facs_3_region_1685080692722_219_tl_37" n="N035"/>volle, für den Musiker unschätzbare Beigabe sind die Noten¬
-      <lb facs="#facs_3_region_1685080692722_219_tl_38" n="N036"/>beispiele, welche Herr Otto <rs type="person">Goldschmidt</rs> als Anhang zu der
-      <lb facs="#facs_3_region_1685080692722_219_tl_39" n="N037"/>Biographie gespendet hat: zwei ihrer originellsten <rs type="place">schwedisch</rs>en
+      <lb facs="#facs_3_region_1685080692722_219_tl_35" n="N033"/>weniger theuer. Wir haben speciell in <rs type="place" ref="#hsl_place_id_55">Wien</rs> die köstlichsten
+      <lb facs="#facs_3_region_1685080692722_219_tl_36" n="N034"/>Erinnerungen an ihre Concerte im Jahre <date>1854</date>. Eine werth
+      <lb facs="#facs_3_region_1685080692722_219_tl_37" n="N035" break="no"/>volle, für den Musiker unschätzbare Beigabe sind die Noten
+      <lb facs="#facs_3_region_1685080692722_219_tl_38" n="N036" break="no"/>beispiele, welche Herr Otto <rs type="person">Goldschmidt</rs> als Anhang zu der
+      <lb facs="#facs_3_region_1685080692722_219_tl_39" n="N037"/>Biographie gespendet hat: zwei ihrer originellsten <rs type="place" ref="#hsl_place_id_104">schwedisch</rs>en
       <lb facs="#facs_3_region_1685080692722_219_tl_40" n="N038"/>Lieder und eine Anzahl eigener Cadenzen und Verzierungen,
       <lb facs="#facs_3_region_1685080692722_219_tl_41" n="N039"/>mit welchen Jenny <rs type="person">Lind</rs> ihre Lieblingsarien auszuschmücken
       <lb facs="#facs_3_region_1685080692722_219_tl_42" n="N040"/>pflegte. Wer, wie ich, zu den Glücklichen zählt, welche Jenny
-      <lb facs="#facs_3_region_1685080692722_219_tl_43" n="N041"/>
-               <rs type="person">Lind</rs> auf der Bühne, im Oratorium und im Concertsaal in
+      <lb facs="#facs_3_region_1685080692722_219_tl_43" n="N041"/><rs type="person">Lind</rs> auf der Bühne, im Oratorium und im Concertsaal in
       <lb facs="#facs_3_region_1685080692722_219_tl_44" n="N042"/>ihrer Blüthe gekannt haben, der wiederholt von ganzem Herzen
-      <lb facs="#facs_3_region_1685080692722_219_tl_45" n="N043"/>
-               <rs type="person">Mendelssohn</rs>'s Ausspruch: Sie war eine der größten Künst¬
-      <lb facs="#facs_3_region_1685080692722_219_tl_46" n="N044"/>lerinnen, die je gelebt haben, und die größte, die ich kenne.</p>
+      <lb facs="#facs_3_region_1685080692722_219_tl_45" n="N043"/><rs type="person">Mendelssohn</rs>’s Ausspruch: Sie war eine der größten Künst
+      <lb facs="#facs_3_region_1685080692722_219_tl_46" n="N044" break="no"/>lerinnen, die je gelebt haben, und die größte, die ich kenne.</p>
          </div>
       </body>
    </text>

@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 9492. Wien, Mittwoch, den 28. Januar 1891</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 9492. Wien, Mittwoch, den 28. Januar 1891</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1891-01-28">28.01.1891</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2024-04-30">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2024-05-07">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1001,258 +1000,199 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1685081553588_535_tl_1" n="N001"/><head type="h1">Ferdinand <rs type="person">Herold</rs>.</head>
+            <lb facs="#facs_1_region_1685081553588_535_tl_2" n="N002"/><head type="h2">(Zum hundertjährigen Jubiläum.)</head>
             <p>
-               <lb facs="#facs_1_line_1713849703471_31" n="N001"/>Nr. 9492. Wien, Mittwoch, den 28. Januar 1891</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1685081553588_535_tl_1" n="N001"/>Ferdinand <rs type="person">Herold</rs>.
-      <lb facs="#facs_1_region_1685081553588_535_tl_2" n="N002"/>(Zum hundertjährigen Jubiläum.)
       <lb facs="#facs_1_region_1685081553588_535_tl_3" n="N003"/>Ed. H. Heute vor hundert Jahren, am 28. Januar
-      <lb facs="#facs_1_region_1685081553588_535_tl_4" n="N004"/>
-               <date>1791</date>, ward Ferdinand <rs type="person">Herold</rs>, der Componist des „<rs type="bibl">Zampa</rs>“
-      <lb facs="#facs_1_region_1685081553588_535_tl_5" n="N005"/>und des „<rs type="bibl">Zweikampfs</rs>“, in <rs type="place">Paris</rs> geboren. Durch sein inten¬
-      <lb facs="#facs_1_region_1685081553588_535_tl_6" n="N006"/>sives, eigenartiges Talent und dessen starke, nachhaltige Wir¬
-      <lb facs="#facs_1_region_1685081553588_535_tl_7" n="N007"/>kungen behauptet <rs type="person">Herold</rs> einen ausgezeichneten Platz in der
-      <lb facs="#facs_1_region_1685081553588_535_tl_8" n="N008"/>Geschichte der <rs type="place">französisch</rs>en Oper. Seine Nation zählt ihn
+      <lb facs="#facs_1_region_1685081553588_535_tl_4" n="N004"/><date>1791</date>, ward Ferdinand <rs type="person">Herold</rs>, der Componist des „<rs type="bibl">Zampa</rs>“
+      <lb facs="#facs_1_region_1685081553588_535_tl_5" n="N005"/>und des „<rs type="bibl">Zweikampfs</rs>“, in <rs type="place" ref="#hsl_place_id_44">Paris</rs> geboren. Durch sein inten
+      <lb facs="#facs_1_region_1685081553588_535_tl_6" n="N006" break="no"/>sives, eigenartiges Talent und dessen starke, nachhaltige Wir
+      <lb facs="#facs_1_region_1685081553588_535_tl_7" n="N007" break="no"/>kungen behauptet <rs type="person">Herold</rs> einen ausgezeichneten Platz in der
+      <lb facs="#facs_1_region_1685081553588_535_tl_8" n="N008"/>Geschichte der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Oper. Seine Nation zählt ihn
       <lb facs="#facs_1_region_1685081553588_535_tl_9" n="N009"/>zu ihrem Ruhmesbesitz und nennt ihn vorzugsweise den
-      <lb facs="#facs_1_line_1713849752266_47" n="N010"/>„Poeten der <rs type="place">französisch</rs>en Musik“, auch den „<rs type="place">französisch</rs>en
-      <lb facs="#facs_1_line_1713849756954_52" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi>“. „<rs type="person">Herold</rs> avait la qualité, moi j'ai la quantité,“
-      <lb facs="#facs_1_region_1685081553588_535_tl_14" n="N012"/>äußerte <hi rendition="#em">
-                  <rs type="person">Auber</rs>
-               </hi>, um den Unterschied zwischen ihnen Beiden
-      <lb facs="#facs_1_region_1685081553588_535_tl_15" n="N013"/>zu charakterisiren. Der Componist der „<rs type="bibl">Stummen von</rs>
-               <lb facs="#facs_1_line_1713849763154_57" n="N014"/>
-               <rs type="bibl">Portici</rs>“ ist hier ungerecht gegen sich selbst, denn auch ihm
+      <lb facs="#facs_1_line_1713849752266_47" n="N010"/>„Poeten der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Musik“, auch den „<rs type="place" ref="#hsl_place_id_21">französisch</rs>en
+      <lb facs="#facs_1_line_1713849756954_52" n="N011"/><hi rendition="#em"><rs type="person">Weber</rs></hi>“. „<rs type="person">Herold</rs> avait la qualité, moi j’ai la quantité,“
+      <lb facs="#facs_1_region_1685081553588_535_tl_14" n="N012"/>äußerte <hi rendition="#em"><rs type="person">Auber</rs></hi>, um den Unterschied zwischen ihnen Beiden
+      <lb facs="#facs_1_region_1685081553588_535_tl_15" n="N013"/>zu charakterisiren. Der Componist der „<rs type="bibl">Stummen von
+      <lb facs="#facs_1_line_1713849763154_57" n="N014"/>Portici</rs>“ ist hier ungerecht gegen sich selbst, denn auch ihm
       <lb facs="#facs_1_region_1685081553588_535_tl_18" n="N015"/>verdanken wir Werke von „Qualität“ — allein ein Körnchen
       <lb facs="#facs_1_region_1685081553588_535_tl_19" n="N016"/>Wahrheit steckt doch in seinem Aperçu. In seinen besten
-      <lb facs="#facs_1_region_1685081553588_535_tl_20" n="N017"/>Momenten zeigt <hi rendition="#em">
-                  <rs type="person">Herold</rs>'s</hi> Talent mehr Tiefe und mehr Farbe,
-      <lb facs="#facs_1_region_1685081553588_535_tl_21" n="N018"/>als <rs type="person">Auber</rs>'s leicht hinflatternde Musik. Der Zeit nach <rs type="place">Frankreich</rs>s
-      <lb facs="#facs_1_region_1685081553588_535_tl_22" n="N019"/>erster romantischer Componist, hat <rs type="person">Herold</rs> auch in <rs type="place">Deutschland</rs> die
+      <lb facs="#facs_1_region_1685081553588_535_tl_20" n="N017"/>Momenten zeigt <hi rendition="#em"><rs type="person">Herold</rs>’s</hi> Talent mehr Tiefe und mehr Farbe,
+      <lb facs="#facs_1_region_1685081553588_535_tl_21" n="N018"/>als <rs type="person">Auber</rs>’s leicht hinflatternde Musik. Der Zeit nach <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s
+      <lb facs="#facs_1_region_1685081553588_535_tl_22" n="N019"/>erster romantischer Componist, hat <rs type="person">Herold</rs> auch in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> die
       <lb facs="#facs_1_region_1685081553588_535_tl_23" n="N020"/>lebhaftesten Sympathien gefunden, ja mit seinem „<rs type="bibl">Zampa</rs>“
       <lb facs="#facs_1_region_1685081553588_535_tl_24" n="N021"/>hier stärker und nachhaltiger gewirkt, als in seiner Heimat.
-      <lb facs="#facs_1_region_1685081553588_535_tl_25" n="N022"/>Auf die Festvorstellung, mit welcher <rs type="place">Paris</rs> heute den hun¬
-      <lb facs="#facs_1_region_1685081553588_535_tl_26" n="N023"/>dertsten Geburtstag seines Lieblingscomponisten feiert, dürfte
-      <lb facs="#facs_1_region_1685081553588_535_tl_27" n="N024"/>nur die allgemeine Trauer über <hi rendition="#em">
-                  <rs type="person">Delibes</rs>'</hi> plötzliches Hin¬
-      <lb facs="#facs_1_region_1685081553588_535_tl_28" n="N025"/>scheiden einen dunklen Schatten werfen. Nicht nur sämmt¬
-      <lb facs="#facs_1_region_1685081553588_535_tl_29" n="N026"/>liche Opernbühnen <rs type="place">Frankreich</rs>s, auch die hervorragendsten
-      <lb facs="#facs_1_region_1685081553588_535_tl_30" n="N027"/>
-               <rs type="place">deutsch</rs>en werden den Tag mit der Aufführung eines <rs type="person">Herold</rs>'¬
-      <lb facs="#facs_1_region_1685081553588_535_tl_31" n="N028"/>schen Werkes feiern. Es würde sich ein Gleiches auch für
-      <lb facs="#facs_1_region_1685081553588_535_tl_32" n="N029"/>
-               <rs type="place">Wien</rs> geziemt haben. Erst kürzlich, bei den Gastspielen
-      <lb facs="#facs_1_region_1685081553588_535_tl_33" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Bulss</rs>'</hi> und <hi rendition="#em">
-                  <rs type="person">Scheidemantel</rs>'s</hi>, hat sich die unversehrte
-      <lb facs="#facs_1_region_1685081553588_535_tl_34" n="N031"/>Lebenskraft des „<rs type="bibl">Zampa</rs>“ — nach sechzig Jahren — neuer¬
-      <lb facs="#facs_1_region_1685081553588_535_tl_35" n="N032"/>dings bewährt, und auch „<rs type="bibl">Der Zweikampf</rs>“ wäre ähnlicher
-      <lb facs="#facs_1_region_1685081553588_535_tl_36" n="N033"/>Theilnahme sicher, wenn unser Operntheater ihn gut zu be¬
-      <lb facs="#facs_1_region_1685081553588_535_tl_37" n="N034"/>setzen vermöchte. In den Dreißiger- und Vierziger-Jahren
-      <lb facs="#facs_1_region_1685081553588_535_tl_38" n="N035"/>gehörte <rs type="person">Herold</rs> zu den populärsten Componisten in <rs type="place">Wien</rs>.</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1685081558120_538_tl_1" n="N001"/>„<rs type="bibl">Zampa</rs>“ war schon zwei Jahre nach seiner <rs type="place">Paris</rs>er Pre¬
-      <lb facs="#facs_1_region_1685081558120_538_tl_2" n="N002"/>mière in <rs type="place">Wien</rs> eingebürgert, eben so schnell der „<rs type="bibl">Zwei¬</rs>
-               <lb facs="#facs_1_region_1685081558120_538_tl_3" n="N003"/>
-               <rs type="bibl">kampf</rs>“. Und dies zur Zeit unserer reichsten Opern-
-      <lb facs="#facs_1_region_1685081558120_538_tl_4" n="N004"/>Ernte aus <rs type="place">Frankreich</rs>, <rs type="place">Italien</rs> und <rs type="place">Deutschland</rs>, da
+      <lb facs="#facs_1_region_1685081553588_535_tl_25" n="N022"/>Auf die Festvorstellung, mit welcher <rs type="place" ref="#hsl_place_id_44">Paris</rs> heute den hun
+      <lb facs="#facs_1_region_1685081553588_535_tl_26" n="N023" break="no"/>dertsten Geburtstag seines Lieblingscomponisten feiert, dürfte
+      <lb facs="#facs_1_region_1685081553588_535_tl_27" n="N024"/>nur die allgemeine Trauer über <hi rendition="#em"><rs type="person">Delibes</rs>’</hi> plötzliches Hin
+      <lb facs="#facs_1_region_1685081553588_535_tl_28" n="N025" break="no"/>scheiden einen dunklen Schatten werfen. Nicht nur sämmt
+      <lb facs="#facs_1_region_1685081553588_535_tl_29" n="N026" break="no"/>liche Opernbühnen <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s, auch die hervorragendsten
+      <lb facs="#facs_1_region_1685081553588_535_tl_30" n="N027"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en werden den Tag mit der Aufführung eines <rs type="person">Herold</rs>’
+      <lb facs="#facs_1_region_1685081553588_535_tl_31" n="N028" break="no"/>schen Werkes feiern. Es würde sich ein Gleiches auch für
+      <lb facs="#facs_1_region_1685081553588_535_tl_32" n="N029"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> geziemt haben. Erst kürzlich, bei den Gastspielen
+      <lb facs="#facs_1_region_1685081553588_535_tl_33" n="N030"/><hi rendition="#em"><rs type="person">Bulss</rs>’</hi> und <hi rendition="#em"><rs type="person">Scheidemantel</rs>’s</hi>, hat sich die unversehrte
+      <lb facs="#facs_1_region_1685081553588_535_tl_34" n="N031"/>Lebenskraft des „<rs type="bibl">Zampa</rs>“ — nach sechzig Jahren — neuer
+      <lb facs="#facs_1_region_1685081553588_535_tl_35" n="N032" break="no"/>dings bewährt, und auch „<rs type="bibl">Der Zweikampf</rs>“ wäre ähnlicher
+      <lb facs="#facs_1_region_1685081553588_535_tl_36" n="N033"/>Theilnahme sicher, wenn unser Operntheater ihn gut zu be
+      <lb facs="#facs_1_region_1685081553588_535_tl_37" n="N034" break="no"/>setzen vermöchte. In den Dreißiger- und Vierziger-Jahren
+      <lb facs="#facs_1_region_1685081553588_535_tl_38" n="N035"/>gehörte <rs type="person">Herold</rs> zu den populärsten Componisten in <rs type="place" ref="#hsl_place_id_55">Wien</rs>.<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1685081558120_538_tl_1" n="N001"/>„<rs type="bibl">Zampa</rs>“ war schon zwei Jahre nach seiner <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Pre
+      <lb facs="#facs_1_region_1685081558120_538_tl_2" n="N002" break="no"/>mière in <rs type="place" ref="#hsl_place_id_55">Wien</rs> eingebürgert, eben so schnell der „<rs type="bibl">Zwei
+      <lb facs="#facs_1_region_1685081558120_538_tl_3" n="N003" break="no"/>kampf</rs>“. Und dies zur Zeit unserer reichsten Opern-
+      <lb facs="#facs_1_region_1685081558120_538_tl_4" n="N004"/>Ernte aus <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>, <rs type="place" ref="#hsl_place_id_28">Italien</rs> und <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>, da
       <lb facs="#facs_1_region_1685081558120_538_tl_5" n="N005"/>man nicht, wie heute, durch Mißwachs ausgehungert,
       <lb facs="#facs_1_region_1685081558120_538_tl_6" n="N006"/>nach jedem anständigen Mittelgut zu greifen genöthigt war.
-      <lb facs="#facs_1_region_1685081558120_538_tl_7" n="N007"/>Die <rs type="place">Wien</rs>er Oper ist <rs type="person">Herold</rs> tief verpflichtet. „<rs type="bibl">Zampa</rs>“ hat
+      <lb facs="#facs_1_region_1685081558120_538_tl_7" n="N007"/>Die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Oper ist <rs type="person">Herold</rs> tief verpflichtet. „<rs type="bibl">Zampa</rs>“ hat
       <lb facs="#facs_1_region_1685081558120_538_tl_8" n="N008"/>in vier Theatern das Publicum angelockt: in der Hofoper,
       <lb facs="#facs_1_region_1685081558120_538_tl_9" n="N009"/>an der Wien, in der Josephstadt, zuletzt am Schottenring.
       <lb facs="#facs_1_line_1713849740875_40" n="N010"/>Unsere bedeutendsten Sänger: <rs type="person">Wild</rs>, <rs type="person">Binder</rs>, <rs type="person">Breiting</rs>, <rs type="person">Erl</rs>,
-      <lb facs="#facs_1_region_1685081558120_538_tl_10" n="N011"/>
-               <rs type="person">Pöck</rs>, <rs type="person">Pischek</rs>, wetteiferten in der Titelrolle. Auch „<rs type="bibl">Der</rs>
-               <lb facs="#facs_1_region_1685081558120_538_tl_11" n="N012"/>
-               <rs type="bibl">Zweikampf</rs>“ hatte bei uns eine Periode größter Beliebtheit;
-      <lb facs="#facs_1_region_1685081558120_538_tl_12" n="N013"/>kleinerer Opern von <rs type="person">Herold</rs>, wie „<rs type="bibl">Marie</rs>“, „<rs type="bibl">Das Zauber¬</rs>
-               <lb facs="#facs_1_region_1685081558120_538_tl_13" n="N014"/>
-               <rs type="bibl">glöckchen</rs>“ u. a. gar nicht zu gedenken. In dem Reigen der
-      <lb facs="#facs_1_region_1685081558120_538_tl_14" n="N015"/>musikalischen Hauptstädte, welche <rs type="person">Herold</rs>'s Jubiläum feiern,
-      <lb facs="#facs_1_region_1685081558120_538_tl_15" n="N016"/>glänzt <rs type="place">Wien</rs> — durch seine Abwesenheit. Es spielt wieder
+      <lb facs="#facs_1_region_1685081558120_538_tl_10" n="N011"/><rs type="person">Pöck</rs>, <rs type="person">Pischek</rs>, wetteiferten in der Titelrolle. Auch „<rs type="bibl">Der
+      <lb facs="#facs_1_region_1685081558120_538_tl_11" n="N012"/>Zweikampf</rs>“ hatte bei uns eine Periode größter Beliebtheit;
+      <lb facs="#facs_1_region_1685081558120_538_tl_12" n="N013"/>kleinerer Opern von <rs type="person">Herold</rs>, wie „<rs type="bibl">Marie</rs>“, „<rs type="bibl">Das Zauber
+      <lb facs="#facs_1_region_1685081558120_538_tl_13" n="N014" break="no"/>glöckchen</rs>“ u. a. gar nicht zu gedenken. In dem Reigen der
+      <lb facs="#facs_1_region_1685081558120_538_tl_14" n="N015"/>musikalischen Hauptstädte, welche <rs type="person">Herold</rs>’s Jubiläum feiern,
+      <lb facs="#facs_1_region_1685081558120_538_tl_15" n="N016"/>glänzt <rs type="place" ref="#hsl_place_id_55">Wien</rs> — durch seine Abwesenheit. Es spielt wieder
       <lb facs="#facs_1_region_1685081558120_538_tl_16" n="N017"/>dieselbe traurige Rolle, die das Hofoperntheater an dem
-      <lb facs="#facs_1_region_1685081561845_541_tl_18" n="N018"/>hundertsten Geburtstage von <hi rendition="#em">
-                  <rs type="person">Spohr</rs>
-               </hi>, von <hi rendition="#em">
-                  <rs type="person">Boieldieu</rs>
-               </hi>
-               <lb facs="#facs_1_region_1685081558120_538_tl_17" n="N019"/>und von <hi rendition="#em">
-                  <rs type="person">Auber</rs>
-               </hi> gespielt hat.
-      <lb facs="#facs_1_region_1685081558120_538_tl_18" n="N020"/>Ferdinand <rs type="person">Herold</rs> entstammte einer Musikerfamilie <rs type="place">deut¬</rs>
-               <lb facs="#facs_1_region_1685081558120_538_tl_19" n="N021"/>
-               <rs type="place">sch</rs>er Abkunft. Der <rs type="person">Großvater</rs> war Organist in einem <rs type="person" continued="true">elsäs¬</rs>
-               <lb facs="#facs_1_region_1685081558120_538_tl_20" n="N022"/>
-               <rs type="person" continued="true">sisch</rs>en Städtchen; der <rs type="person">Vater</rs>, im <rs type="place">Elsaß</rs> geboren, hatte in
-      <lb facs="#facs_1_region_1685081558120_538_tl_21" n="N023"/>
-               <rs type="place">Hamburg</rs> bei Ph. Emanuel <rs type="person">Bach</rs> studirt und später als
-      <lb facs="#facs_1_region_1685081558120_538_tl_22" n="N024"/>Clavierlehrer seinen Wohnsitz in <rs type="place">Paris</rs> genommen. Er hat
+      <lb facs="#facs_1_region_1685081561845_541_tl_18" n="N018"/>hundertsten Geburtstage von <hi rendition="#em"><rs type="person">Spohr</rs></hi>, von <hi rendition="#em"><rs type="person">Boieldieu</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685081558120_538_tl_17" n="N019"/>und von <hi rendition="#em"><rs type="person">Auber</rs></hi> gespielt hat.
+            </p><p>
+      <lb facs="#facs_1_region_1685081558120_538_tl_18" n="N020"/>Ferdinand <rs type="person">Herold</rs> entstammte einer Musikerfamilie <rs type="place" ref="#hsl_place_id_14">deut
+      <lb facs="#facs_1_region_1685081558120_538_tl_19" n="N021" break="no"/>sch</rs>er Abkunft. Der <rs type="person">Großvater</rs> war Organist in einem <rs type="person">elsäs
+      <lb facs="#facs_1_region_1685081558120_538_tl_20" n="N022" break="no"/>sisch</rs>en Städtchen; der <rs type="person">Vater</rs>, im <rs type="place" ref="#hsl_place_id_221">Elsaß</rs> geboren, hatte in
+      <lb facs="#facs_1_region_1685081558120_538_tl_21" n="N023"/><rs type="place" ref="#hsl_place_id_69">Hamburg</rs> bei Ph. Emanuel <rs type="person">Bach</rs> studirt und später als
+      <lb facs="#facs_1_region_1685081558120_538_tl_22" n="N024"/>Clavierlehrer seinen Wohnsitz in <rs type="place" ref="#hsl_place_id_44">Paris</rs> genommen. Er hat
       <lb facs="#facs_1_region_1685081558120_538_tl_23" n="N025"/>eine Menge Sachen für Clavier und für Harfe componirt.
-      <lb facs="#facs_1_region_1685081558120_538_tl_24" n="N026"/>Sein Freund und Landsmann Louis <hi rendition="#em">
-                  <rs type="person">Adam</rs>
-               </hi>, Vater
+      <lb facs="#facs_1_region_1685081558120_538_tl_24" n="N026"/>Sein Freund und Landsmann Louis <hi rendition="#em"><rs type="person">Adam</rs></hi>, Vater
       <lb facs="#facs_1_region_1685081558120_538_tl_25" n="N027"/>des <rs type="person">Componisten</rs> des „<rs type="bibl">Postillon von Lonjumeau</rs>“
       <lb facs="#facs_1_region_1685081558120_538_tl_26" n="N028"/>und Gründer einer berühmten Clavierschule, war
-      <lb facs="#facs_1_region_1685081558120_538_tl_27" n="N029"/>der Pathe <rs type="person">Ferdinand</rs>'s. Der Tod des alten <rs type="person">Herold</rs>
-               <lb facs="#facs_1_region_1685081558120_538_tl_28" n="N030"/>versetzte die <rs type="person">Witwe</rs> in peinliche Sorgen um die Zukunft ihres
-      <lb facs="#facs_1_region_1685081558120_538_tl_29" n="N031"/>
-               <rs type="person">Sohn</rs>es. Nur für Musik passionirt, wollte dieser von einer
-      <lb facs="#facs_1_region_1685081558120_538_tl_30" n="N032"/>Beamten-Carrière nichts hören, obwol der Minister <rs type="person">Chaptal</rs>
-               <lb facs="#facs_1_region_1685081558120_538_tl_31" n="N033"/>ihm Anstellung und Beförderung versprach. Da hatte die
-      <lb facs="#facs_1_region_1685081558120_538_tl_32" n="N034"/>
-               <rs type="person">Mutter</rs> den kühnen Einfall, eine Composition des zwölf¬
-      <lb facs="#facs_1_region_1685081558120_538_tl_33" n="N035"/>jährigen <rs type="person">Ferdinand </rs>dem alten <hi rendition="#em">
-                  <rs type="person">Grétry</rs>
-               </hi> vorzulegen. Der
+      <lb facs="#facs_1_region_1685081558120_538_tl_27" n="N029"/>der Pathe <rs type="person">Ferdinand</rs>’s. Der Tod des alten <rs type="person">Herold</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685081558120_538_tl_28" n="N030"/>versetzte die <rs type="person">Witwe</rs> in peinliche Sorgen um die Zukunft ihres
+      <lb facs="#facs_1_region_1685081558120_538_tl_29" n="N031"/><rs type="person">Sohn</rs>es. Nur für Musik passionirt, wollte dieser von einer
+      <lb facs="#facs_1_region_1685081558120_538_tl_30" n="N032"/>Beamten-Carrière nichts hören, obwol der Minister <rs type="person">Chaptal</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685081558120_538_tl_31" n="N033"/>ihm Anstellung und Beförderung versprach. Da hatte die
+      <lb facs="#facs_1_region_1685081558120_538_tl_32" n="N034"/><rs type="person">Mutter</rs> den kühnen Einfall, eine Composition des zwölf
+      <lb facs="#facs_1_region_1685081558120_538_tl_33" n="N035" break="no"/>jährigen <rs type="person">Ferdinand </rs>dem alten <hi rendition="#em"><rs type="person">Grétry</rs></hi> vorzulegen. Der
       <lb facs="#facs_1_region_1685081558120_538_tl_34" n="N036"/>berühmte Componist des „<rs type="bibl">Richard Löwenherz</rs>“ prüfte das
       <lb facs="#facs_1_region_1685081558120_538_tl_35" n="N037"/>Stück aufmerksam und reichte es der <rs type="person">Mutter</rs> mit den
       <lb facs="#facs_1_region_1685081558120_538_tl_36" n="N038"/>Worten: „Das ist voller Fehler; aber er soll nur fortfahren.
-      <lb facs="#facs_1_line_1713849805081_69" n="N039"/>Sie können sicher auf seine Zukunft zählen.“ Die brave</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1685081561845_541_tl_1" n="N001"/>
-               <rs type="person">Frau</rs> hat das Eintreffen dieser Vorhersagung erlebt, sie hat
+      <lb facs="#facs_1_line_1713849805081_69" n="N039"/>Sie können sicher auf seine Zukunft zählen.“ Die brave<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1685081561845_541_tl_1" n="N001"/><rs type="person">Frau</rs> hat das Eintreffen dieser Vorhersagung erlebt, sie hat
       <lb facs="#facs_1_region_1685081561845_541_tl_2" n="N002"/>den Triumph des „<rs type="bibl">Zampa</rs>“ und des „<rs type="bibl">Zweikampfs</rs>“ erlebt,
       <lb facs="#facs_1_region_1685081561845_541_tl_3" n="N003"/>aber auch den herbsten Schmerz: ihren <rs type="person">Sohn</rs> um volle
       <lb facs="#facs_1_region_1685081561845_541_tl_4" n="N004"/>27 Jahre zu überleben. Sechzehnjährig trat <rs type="person">Herold</rs> ins
       <lb facs="#facs_1_region_1685081561845_541_tl_5" n="N005"/>Conservatorium, ein tüchtiger Violinspieler und Pianist
       <lb facs="#facs_1_region_1685081561845_541_tl_6" n="N006"/>ersten Ranges. In der Composition unterrichtete ihn
-      <lb facs="#facs_1_region_1685081561845_541_tl_7" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person">Méhul</rs>
-               </hi>. Er liebte den Jüngling zärtlich und be¬
-      <lb facs="#facs_1_region_1685081561845_541_tl_8" n="N008"/>wahrte ihm zeitlebens die treueste Freundschaft. Als
-      <lb facs="#facs_1_region_1685081561845_541_tl_9" n="N009"/>preisgekrönter Stipendist der Regierung ging <rs type="person">Herold</rs>
-               <lb facs="#facs_1_region_1685081561845_541_tl_10" n="N010"/>nach <rs type="place">Rom</rs> und ein Jahr später nach <rs type="place">Neapel</rs>, wo er die
-      <lb facs="#facs_1_region_1685081561845_541_tl_11" n="N011"/>Töchter <rs type="person">Murat</rs>'s im Clavierspiel unterrichtete. Am 5. Ja¬
-      <lb facs="#facs_1_region_1685081561845_541_tl_12" n="N012"/>nuar <date>1815</date> erlebten die Neapolitaner ein seltenes, merkwür¬
-      <lb facs="#facs_1_region_1685081561845_541_tl_13" n="N013"/>diges Schauspiel: sie hörten und applaudirten eine von
-      <lb facs="#facs_1_region_1685081561845_541_tl_14" n="N014"/>einem Franzosen componirte <rs type="place">italienisch</rs>e Oper. Das war „<rs type="bibl">Die</rs>
-               <lb facs="#facs_1_region_1685081561845_541_tl_15" n="N015"/>
-               <rs type="bibl">Jugend Heinrich's des Fünften</rs>“ von <rs type="person">Herold</rs>. Die Oper gefiel
+      <lb facs="#facs_1_region_1685081561845_541_tl_7" n="N007"/><hi rendition="#em"><rs type="person">Méhul</rs></hi>. Er liebte den Jüngling zärtlich und be
+      <lb facs="#facs_1_region_1685081561845_541_tl_8" n="N008" break="no"/>wahrte ihm zeitlebens die treueste Freundschaft. Als
+      <lb facs="#facs_1_region_1685081561845_541_tl_9" n="N009"/>preisgekrönter Stipendist der Regierung ging <rs type="person">Herold</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685081561845_541_tl_10" n="N010"/>nach <rs type="place" ref="#hsl_place_id_47">Rom</rs> und ein Jahr später nach <rs type="place" ref="#hsl_place_id_40">Neapel</rs>, wo er die
+      <lb facs="#facs_1_region_1685081561845_541_tl_11" n="N011"/>Töchter <rs type="person">Murat</rs>’s im Clavierspiel unterrichtete. Am 5. Ja
+      <lb facs="#facs_1_region_1685081561845_541_tl_12" n="N012" break="no"/>nuar <date>1815</date> erlebten die Neapolitaner ein seltenes, merkwür
+      <lb facs="#facs_1_region_1685081561845_541_tl_13" n="N013" break="no"/>diges Schauspiel: sie hörten und applaudirten eine von
+      <lb facs="#facs_1_region_1685081561845_541_tl_14" n="N014"/>einem Franzosen componirte <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper. Das war „<rs type="bibl">Die
+      <lb facs="#facs_1_region_1685081561845_541_tl_15" n="N015"/>Jugend Heinrich’s des Fünften</rs>“ von <rs type="person">Herold</rs>. Die Oper gefiel
       <lb facs="#facs_1_region_1685081561845_541_tl_16" n="N016"/>und erhielt sich auf dem Repertoire. Der junge Autor schrieb
       <lb facs="#facs_1_region_1685081561845_541_tl_17" n="N017"/>sehr unbefangen darüber in sein Tagebuch: „Ich glaube, es
       <lb facs="#facs_1_line_1713849832592_77" n="N018"/>ist ein verfehltes Werk. Bei jeder Aufführung entdecke ich
       <lb facs="#facs_1_region_1685081561845_541_tl_19" n="N019"/>neue Fehler: unbedeutende Phrasen, Längen, Ideen, die
       <lb facs="#facs_1_region_1685081561845_541_tl_20" n="N020"/>hübsch im Zimmer und unwirksam im Theater sind. Ich
       <lb facs="#facs_1_region_1685081561845_541_tl_21" n="N021"/>will aus diesem Versuche Nutzen ziehen für künftige bessere
-      <lb facs="#facs_1_region_1685081561845_541_tl_22" n="N022"/>Arbeiten.“ Die Italiener warfen ihm vor, <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> zum
+      <lb facs="#facs_1_region_1685081561845_541_tl_22" n="N022"/>Arbeiten.“ Die Italiener warfen ihm vor, <hi rendition="#em"><rs type="person">Mozart</rs></hi> zum
       <lb facs="#facs_1_region_1685081561845_541_tl_23" n="N023"/>Vorbild genommen und „gelehrt“ geschrieben zu haben. Er
       <lb facs="#facs_1_region_1685081561845_541_tl_24" n="N024"/>läßt sich nicht beirren und schreibt an seine <rs type="person">Mutter</rs>: „Das
       <lb facs="#facs_1_region_1685081561845_541_tl_25" n="N025"/>ernsthafte Genre der Italiener halte ich für schlecht; ich will
-      <lb facs="#facs_1_region_1685081561845_541_tl_26" n="N026"/>in <rs type="place">Deutschland</rs> studiren.“ Der vierundzwanzigjährige <rs type="person">Herold</rs>,
-      <lb facs="#facs_1_region_1685081561845_541_tl_27" n="N027"/>von <rs type="person">Méhul</rs> in ernster Schule erzogen und stets für <rs type="place">deutsch</rs>e
-      <lb facs="#facs_1_region_1685081561845_541_tl_28" n="N028"/>Tondichtungen eingenommen, fühlte sich während seines zwei¬
-      <lb facs="#facs_1_region_1685081561845_541_tl_29" n="N029"/>jährigen Aufenthaltes in <rs type="place">Italien</rs> immer mehr von der <rs type="place">ita¬</rs>
-               <lb facs="#facs_1_region_1685081561845_541_tl_30" n="N030"/>
-               <rs type="place">lienisch</rs>en Musik abgestoßen. Im selben Maße wächst
-      <lb facs="#facs_1_region_1685081561845_541_tl_31" n="N031"/>seine Sehnsucht nach <rs type="place">Deutschland</rs>, vor Allem nach
-      <lb facs="#facs_1_region_1685081561845_541_tl_32" n="N032"/>
-               <rs type="place">Wien</rs>. Unter vielen Mühen und Gefahren unternimmt
-      <lb facs="#facs_1_region_1685081561845_541_tl_33" n="N033"/>er die Reise. In <rs type="place">Venedig</rs> hört er noch den berühmten
-      <lb facs="#facs_1_region_1685081561845_541_tl_34" n="N034"/>Sopranisten <hi rendition="#em">
-                  <rs type="person">Velluti</rs>
-               </hi> im letzten Stadium seines Ruhmes.
-      <lb facs="#facs_1_region_1685081561845_541_tl_35" n="N035"/>Ein sonderbarer Kauz; was er im Alter an Tönen ein¬
-      <lb facs="#facs_1_region_1685081561845_541_tl_36" n="N036"/>büßte, das ersetzte er an Federn auf seinem Helm. Er
+      <lb facs="#facs_1_region_1685081561845_541_tl_26" n="N026"/>in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> studiren.“ Der vierundzwanzigjährige <rs type="person">Herold</rs>,
+      <lb facs="#facs_1_region_1685081561845_541_tl_27" n="N027"/>von <rs type="person">Méhul</rs> in ernster Schule erzogen und stets für <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e
+      <lb facs="#facs_1_region_1685081561845_541_tl_28" n="N028"/>Tondichtungen eingenommen, fühlte sich während seines zwei
+      <lb facs="#facs_1_region_1685081561845_541_tl_29" n="N029" break="no"/>jährigen Aufenthaltes in <rs type="place" ref="#hsl_place_id_28">Italien</rs> immer mehr von der <rs type="place" ref="#hsl_place_id_28">ita
+      <lb facs="#facs_1_region_1685081561845_541_tl_30" n="N030" break="no"/>lienisch</rs>en Musik abgestoßen. Im selben Maße wächst
+      <lb facs="#facs_1_region_1685081561845_541_tl_31" n="N031"/>seine Sehnsucht nach <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>, vor Allem nach
+      <lb facs="#facs_1_region_1685081561845_541_tl_32" n="N032"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>. Unter vielen Mühen und Gefahren unternimmt
+      <lb facs="#facs_1_region_1685081561845_541_tl_33" n="N033"/>er die Reise. In <rs type="place" ref="#hsl_place_id_89">Venedig</rs> hört er noch den berühmten
+      <lb facs="#facs_1_region_1685081561845_541_tl_34" n="N034"/>Sopranisten <hi rendition="#em"><rs type="person">Velluti</rs></hi> im letzten Stadium seines Ruhmes.
+      <lb facs="#facs_1_region_1685081561845_541_tl_35" n="N035"/>Ein sonderbarer Kauz; was er im Alter an Tönen ein
+      <lb facs="#facs_1_region_1685081561845_541_tl_36" n="N036" break="no"/>büßte, das ersetzte er an Federn auf seinem Helm. Er
       <lb facs="#facs_1_region_1685081561845_541_tl_37" n="N037"/>wollte schließlich in jeder Oper sein erstes Entrée nur zu
       <lb facs="#facs_1_region_1685081561845_541_tl_38" n="N038"/>Pferde machen, und zwar von einem Hügel herab, aus dem
-      <lb facs="#facs_1_region_1685081561845_541_tl_39" n="N039"/>Hintergrunde der Bühne. Vierzehn Tage nach seiner Ab¬</p>
+      <lb facs="#facs_1_region_1685081561845_541_tl_39" n="N039"/>Hintergrunde der Bühne. Vierzehn Tage nach seiner Ab</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1685081572287_547_tl_1" n="N001"/>reise von <rs type="place">Venedig</rs> erreicht <rs type="person">Herold</rs> in miserablem Zustand
-      <lb facs="#facs_2_region_1685081572287_547_tl_2" n="N002"/>
-               <rs type="place">Wien</rs>. Mit Mühe gelingt es ihm, der keinen Paß besitzt,
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685081572287_547_tl_1" n="N001" break="no"/>reise von <rs type="place" ref="#hsl_place_id_89">Venedig</rs> erreicht <rs type="person">Herold</rs> in miserablem Zustand
+      <lb facs="#facs_2_region_1685081572287_547_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>. Mit Mühe gelingt es ihm, der keinen Paß besitzt,
       <lb facs="#facs_2_region_1685081572287_547_tl_3" n="N003"/>Aufnahme in einem kleinen Vorstadtwirthshaus zu finden.
-      <lb facs="#facs_2_region_1685081572287_547_tl_4" n="N004"/>Seine Lage wird immer bedenklicher; <rs type="place">Oesterreich</rs> im Krieg
-      <lb facs="#facs_2_region_1685081572287_547_tl_5" n="N005"/>mit <rs type="place">Frankreich</rs>, die Polizei auf der Jagd nach ausweislosen
-      <lb facs="#facs_2_region_1685081572287_547_tl_6" n="N006"/>Fremden und <rs type="place">französisch</rs>en Spionen. Nach vielen verge¬
-      <lb facs="#facs_2_region_1685081572287_547_tl_7" n="N007"/>lichen Schritten, eine Aufenthaltsbewilligung zu erlangen,
+      <lb facs="#facs_2_region_1685081572287_547_tl_4" n="N004"/>Seine Lage wird immer bedenklicher; <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> im Krieg
+      <lb facs="#facs_2_region_1685081572287_547_tl_5" n="N005"/>mit <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>, die Polizei auf der Jagd nach ausweislosen
+      <lb facs="#facs_2_region_1685081572287_547_tl_6" n="N006"/>Fremden und <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Spionen. Nach vielen verge
+      <lb facs="#facs_2_region_1685081572287_547_tl_7" n="N007" break="no"/>lichen Schritten, eine Aufenthaltsbewilligung zu erlangen,
       <lb facs="#facs_2_region_1685081572287_547_tl_8" n="N008"/>klopft er endlich an die Thür des Hofcapellmeisters
-      <lb facs="#facs_2_region_1685081572287_547_tl_9" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person">Salieri</rs>
-               </hi>. Dieser vielverlästerte und doch stets hilfreiche
+      <lb facs="#facs_2_region_1685081572287_547_tl_9" n="N009"/><hi rendition="#em"><rs type="person">Salieri</rs></hi>. Dieser vielverlästerte und doch stets hilfreiche
       <lb facs="#facs_2_region_1685081572287_547_tl_10" n="N010"/>Mann verschafft dem jungen Unbekannten Zutritt zum Fürsten
-      <lb facs="#facs_2_region_1685081572287_547_tl_11" n="N011"/>
-               <rs type="person">Talleyrand</rs>, dem Vertreter <rs type="place">Frankreich</rs>s beim <rs type="place">Wien</rs>er Congreß.
-      <lb facs="#facs_2_region_1685081572287_547_tl_12" n="N012"/>
-               <rs type="person">Herold</rs> bleibt fortan unbelästigt. So oft als möglich besucht
+      <lb facs="#facs_2_region_1685081572287_547_tl_11" n="N011"/><rs type="person">Talleyrand</rs>, dem Vertreter <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s beim <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Congreß.
+      <lb facs="#facs_2_region_1685081572287_547_tl_12" n="N012"/><rs type="person">Herold</rs> bleibt fortan unbelästigt. So oft als möglich besucht
       <lb facs="#facs_2_region_1685081572287_547_tl_13" n="N013"/>er das Kärntnerthor-Theater. Er ist entzückt von dem
-      <lb facs="#facs_2_region_1685081572287_547_tl_14" n="N014"/>
-               <rs type="place">Wien</rs>er Orchester, entzückt von den Opern <hi rendition="#em">
-                  <rs type="person">Salieri</rs>'s</hi>,
-      <lb facs="#facs_2_region_1685081572287_547_tl_15" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="person">Gyrowetz</rs>'</hi>, <hi rendition="#em">
-                  <rs type="person">Weigl</rs>'s</hi>, am meisten aber von der „<rs type="bibl">Zauber¬</rs>
-               <lb facs="#facs_2_region_1685081572287_547_tl_16" n="N016"/>
-               <rs type="bibl">flöte</rs>“.
-      <lb facs="#facs_2_region_1685081572287_547_tl_17" n="N017"/>
-               <rs type="person">Herold</rs> war ein Kind der Stimmung, des augenblick¬
-      <lb facs="#facs_2_region_1685081572287_547_tl_18" n="N018"/>lichen Eindrucks. Er spottet selbst über seine wetterwendige
-      <lb facs="#facs_2_line_1713849901696_97" n="N019"/>Natur: „Jetzt, wo ich ruhig in <rs type="place">Wien</rs> leben kann, brenne
-      <lb facs="#facs_2_line_1713849905569_102" n="N020"/>ich vor Verlangen, abzureisen.“ Und seitdem er <rs type="place">italienisch</rs>e
+      <lb facs="#facs_2_region_1685081572287_547_tl_14" n="N014"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Orchester, entzückt von den Opern <hi rendition="#em"><rs type="person">Salieri</rs>’s</hi>,
+      <lb facs="#facs_2_region_1685081572287_547_tl_15" n="N015"/><hi rendition="#em"><rs type="person">Gyrowetz</rs>’</hi>, <hi rendition="#em"><rs type="person">Weigl</rs>’s</hi>, am meisten aber von der „<rs type="bibl">Zauber
+      <lb facs="#facs_2_region_1685081572287_547_tl_16" n="N016" break="no"/>flöte</rs>“.
+            </p><p>
+      <lb facs="#facs_2_region_1685081572287_547_tl_17" n="N017"/><rs type="person">Herold</rs> war ein Kind der Stimmung, des augenblick
+      <lb facs="#facs_2_region_1685081572287_547_tl_18" n="N018" break="no"/>lichen Eindrucks. Er spottet selbst über seine wetterwendige
+      <lb facs="#facs_2_line_1713849901696_97" n="N019"/>Natur: „Jetzt, wo ich ruhig in <rs type="place" ref="#hsl_place_id_55">Wien</rs> leben kann, brenne
+      <lb facs="#facs_2_line_1713849905569_102" n="N020"/>ich vor Verlangen, abzureisen.“ Und seitdem er <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e
       <lb facs="#facs_2_line_1713849911175_107" n="N021"/>Musik nicht mehr zu hören bekommt, befällt ihn eine Art
       <lb facs="#facs_2_line_1713849920833_112" n="N022"/>Sehnsucht nach ihr. „So sehr ich zufrieden bin,“ schreibt
-      <lb facs="#facs_2_region_1685081572287_547_tl_27" n="N023"/>er in seinem Tagebuch, „<rs type="place">Italien</rs> verlassen zu haben, um den
-      <lb facs="#facs_2_region_1685081572287_547_tl_28" n="N024"/>
-               <rs type="place">deutsch</rs>en Geschmack zu studiren, ich erkenne doch, daß es
+      <lb facs="#facs_2_region_1685081572287_547_tl_27" n="N023"/>er in seinem Tagebuch, „<rs type="place" ref="#hsl_place_id_28">Italien</rs> verlassen zu haben, um den
+      <lb facs="#facs_2_region_1685081572287_547_tl_28" n="N024"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Geschmack zu studiren, ich erkenne doch, daß es
       <lb facs="#facs_2_region_1685081572287_547_tl_29" n="N025"/>vielleicht gefährlich wäre, ausschließlich diese starke, gedrängte
       <lb facs="#facs_2_region_1685081572287_547_tl_30" n="N026"/>Musik zu hören, die nur zum Ohre und zum Verstande
       <lb facs="#facs_2_region_1685081572287_547_tl_31" n="N027"/>spricht, nicht zur Seele. Ach, was habe ich nicht Alles der
-      <lb facs="#facs_2_region_1685081572287_547_tl_32" n="N028"/>
-               <rs type="place">italienisch</rs>en Musik Böses nachgesagt! Jetzt erkenne ich mein
+      <lb facs="#facs_2_region_1685081572287_547_tl_32" n="N028"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Musik Böses nachgesagt! Jetzt erkenne ich mein
       <lb facs="#facs_2_region_1685081572287_547_tl_33" n="N029"/>Unrecht täglich mehr.“ Man sieht, in seinem Innern bereitet
-      <lb facs="#facs_2_region_1685081572287_547_tl_34" n="N030"/>sich ein Compromiß vor zwischen <rs type="place">deutsch</rs>em und <rs type="place">italienisch</rs>em
-      <lb facs="#facs_2_region_1685081572287_547_tl_35" n="N031"/>Styl, im Sinn und Geschmack seiner eigenen, der <rs type="place">franzö¬</rs>
-               <lb facs="#facs_2_region_1685081572287_547_tl_36" n="N032"/>
-               <rs type="place">sisch</rs>en Nation. Auf dem Rückweg nach <rs type="place">Paris</rs> verweilt <rs type="person">Herold</rs>
-               <lb facs="#facs_2_region_1685081572287_547_tl_37" n="N033"/>in <rs type="place">München</rs>. Immer hinterher nach seinem Ideal, der
-      <lb facs="#facs_2_region_1685081572287_547_tl_38" n="N034"/>
-               <rs type="place">deutsch</rs>en Musik, eilt er in ein großes, vom ganzen Hof
-      <lb facs="#facs_2_region_1685081572287_547_tl_39" n="N035"/>besuchtes Concert. „Un Mr. <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi>, directeur du théâtre
-      <lb facs="#facs_2_region_1685081572287_547_tl_40" n="N036"/>de <rs type="place">Prague</rs>“, spielt ein <rs type="bibl">Clavier-Concert</rs> und ein <rs type="bibl">Duo mit</rs>
-               <lb facs="#facs_2_region_1685081572287_547_tl_41" n="N037"/>
-               <rs type="bibl">Clarinette</rs> eigener Composition. <rs type="person">Herold</rs> findet sein Spiel
+      <lb facs="#facs_2_region_1685081572287_547_tl_34" n="N030"/>sich ein Compromiß vor zwischen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>em und <rs type="place" ref="#hsl_place_id_28">italienisch</rs>em
+      <lb facs="#facs_2_region_1685081572287_547_tl_35" n="N031"/>Styl, im Sinn und Geschmack seiner eigenen, der <rs type="place" ref="#hsl_place_id_21">franzö
+      <lb facs="#facs_2_region_1685081572287_547_tl_36" n="N032" break="no"/>sisch</rs>en Nation. Auf dem Rückweg nach <rs type="place" ref="#hsl_place_id_44">Paris</rs> verweilt <rs type="person">Herold</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685081572287_547_tl_37" n="N033"/>in <rs type="place" ref="#hsl_place_id_39">München</rs>. Immer hinterher nach seinem Ideal, der
+      <lb facs="#facs_2_region_1685081572287_547_tl_38" n="N034"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Musik, eilt er in ein großes, vom ganzen Hof
+      <lb facs="#facs_2_region_1685081572287_547_tl_39" n="N035"/>besuchtes Concert. „Un Mr. <hi rendition="#em"><rs type="person">Weber</rs></hi>, directeur du théâtre
+      <lb facs="#facs_2_region_1685081572287_547_tl_40" n="N036"/>de <rs type="place" ref="#hsl_place_id_45">Prague</rs>“, spielt ein <rs type="bibl">Clavier-Concert</rs> und ein <rs type="bibl">Duo mit
+      <lb facs="#facs_2_region_1685081572287_547_tl_41" n="N037"/>Clarinette</rs> eigener Composition. <rs type="person">Herold</rs> findet sein Spiel
       <lb facs="#facs_2_region_1685081572287_547_tl_42" n="N038"/>virtuos, doch ohne Geschmack; in der Composition nicht Eine
       <lb facs="#facs_2_region_1685081572287_547_tl_43" n="N039"/>schöne Idee; das <rs type="bibl">Clarinett-Duo</rs> zum Einschlafen.“ Dieser „Mr.
-      <lb facs="#facs_2_region_1685081572287_547_tl_44" n="N040"/>
-               <rs type="person">Weber</rs>“ war kein Anderer, als der Componist des <rs type="bibl">Freischütz</rs>en,</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1685081577739_550_tl_1" n="N001"/>den <rs type="person">Herold</rs> später so schwärmerisch verehren sollte.*) Der
-      <lb facs="#facs_2_region_1685081577739_550_tl_2" n="N002"/>Aufenthalt in <rs type="place">München</rs> war das letzte Capitel in <rs type="person">Herold</rs>'s
-      <lb facs="#facs_2_region_1685081577739_550_tl_3" n="N003"/>musikalischer Reisenovelle. Wir finden ihn im Herbst <date>1815</date>
-               <lb facs="#facs_2_region_1685081577739_550_tl_4" n="N004"/>wieder in <rs type="place">Paris</rs>. Er erlangt trotz aller Bemühungen kein
+      <lb facs="#facs_2_region_1685081572287_547_tl_44" n="N040"/><rs type="person">Weber</rs>“ war kein Anderer, als der Componist des <rs type="bibl">Freischütz</rs>en,<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685081577739_550_tl_1" n="N001"/>den <rs type="person">Herold</rs> später so schwärmerisch verehren sollte.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_2_line_1713849990641_157" n="N034"/>Das fast unbegreiflich abfällige Urtheil des jungen <rs type="person">Herold</rs><space quantity="1" unit="char"/>
+            <lb facs="#facs_2_line_1713849993261_160" n="N035"/>hat einen seiner neueren <rs type="person">Biographen</rs> zu der Vermuthung verleitet,
+            <lb facs="#facs_2_line_1713849996015_163" n="N036"/>der <rs type="place" ref="#hsl_place_id_39">München</rs>er Concertgeber sei nicht Karl Maria <rs type="person">Weber</rs>, sondern
+            <lb facs="#facs_2_line_1713849998665_166" n="N037"/>der <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Conservatoriums-Director <hi rendition="#em">Dionys</hi><space quantity="1" unit="char"/><rs type="person">Weber</rs> gewesen. Es
+            <lb facs="#facs_2_line_1713850001448_169" n="N038"/>war aber doch Karl Maria <rs type="person">Weber</rs>, der im Sommer <date>1815</date> in <rs type="place" ref="#hsl_place_id_39">München</rs><space quantity="1" unit="char"/>
+            <lb facs="#facs_2_line_1713850004735_172" n="N039"/>sein <rs type="bibl">C-dur-Concert</rs> und das <rs type="bibl">Clarinett-Duo</rs> mit <hi rendition="#em"><rs type="person">Bärmann</rs></hi> gespielt
+            <lb facs="#facs_2_line_1713850007855_175" n="N040"/>hat. Dionys <rs type="person">Weber</rs> war ein Theoretiker, aber kein Clavierspieler von
+            <lb facs="#facs_2_line_1713850009880_178" n="N041"/>Ruf und niemals in <rs type="place" ref="#hsl_place_id_39">München</rs> concertirt.
+            </note>
+            Der
+      <lb facs="#facs_2_region_1685081577739_550_tl_2" n="N002"/>Aufenthalt in <rs type="place" ref="#hsl_place_id_39">München</rs> war das letzte Capitel in <rs type="person">Herold</rs>’s
+      <lb facs="#facs_2_region_1685081577739_550_tl_3" n="N003"/>musikalischer Reisenovelle. Wir finden ihn im Herbst <date>1815</date><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685081577739_550_tl_4" n="N004"/>wieder in <rs type="place" ref="#hsl_place_id_44">Paris</rs>. Er erlangt trotz aller Bemühungen kein
       <lb facs="#facs_2_line_1713850034744_185" n="N005"/>Textbuch, wol aber eine vorübergehende Anstellung an der
-      <lb facs="#facs_2_region_1685081577739_550_tl_5" n="N006"/>von Madame <rs type="person">Catalani</rs> dirigirten <rs type="place">italienisch</rs>en Oper, als
+      <lb facs="#facs_2_region_1685081577739_550_tl_5" n="N006"/>von Madame <rs type="person">Catalani</rs> dirigirten <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Oper, als
       <lb facs="#facs_2_region_1685081577739_550_tl_6" n="N007"/>Gesangs-Correpetitor und Begleiter auf dem Clavier. Die
-      <lb facs="#facs_2_line_1713850059057_191" n="N008"/>
-               <rs type="person">Catalani</rs> wollte nur immer allein glänzen, und da sie eine
-      <lb facs="#facs_2_line_1713850143617_197" n="N009"/>ebenso klägliche Darstellerin war, wie blendende Concert¬
-      <lb facs="#facs_2_region_1685081577739_550_tl_7" n="N010"/>sängerin, deren Stimme keine Seele hatte, sondern nur
-      <lb facs="#facs_2_region_1685081577739_550_tl_8" n="N011"/>Raketen, so war das Theater durch ihre Direction bald voll¬
-      <lb facs="#facs_2_line_1713850169560_204" n="N012"/>ständig ruinirt. Im Begriff, eine große Concerttour durch
-      <lb facs="#facs_2_region_1685081577739_550_tl_9" n="N013"/>ganz <rs type="place">Europa</rs> zu machen, wünschte sie <rs type="person">Herold</rs> als „compo¬
-      <lb facs="#facs_2_region_1685081577739_550_tl_10" n="N014"/>siteur-accompagnateur“ mitzunehmen. Schon hatte er, nach
+      <lb facs="#facs_2_line_1713850059057_191" n="N008"/><rs type="person">Catalani</rs> wollte nur immer allein glänzen, und da sie eine
+      <lb facs="#facs_2_line_1713850143617_197" n="N009"/>ebenso klägliche Darstellerin war, wie blendende Concert
+      <lb facs="#facs_2_region_1685081577739_550_tl_7" n="N010" break="no"/>sängerin, deren Stimme keine Seele hatte, sondern nur
+      <lb facs="#facs_2_region_1685081577739_550_tl_8" n="N011"/>Raketen, so war das Theater durch ihre Direction bald voll
+      <lb facs="#facs_2_line_1713850169560_204" n="N012" break="no"/>ständig ruinirt. Im Begriff, eine große Concerttour durch
+      <lb facs="#facs_2_region_1685081577739_550_tl_9" n="N013"/>ganz <rs type="place" ref="#hsl_place_id_19">Europa</rs> zu machen, wünschte sie <rs type="person">Herold</rs> als „compo
+      <lb facs="#facs_2_region_1685081577739_550_tl_10" n="N014" break="no"/>siteur-accompagnateur“ mitzunehmen. Schon hatte er, nach
       <lb facs="#facs_2_region_1685081577739_550_tl_11" n="N015"/>langem Zaudern, zugesagt, als ein unvermuthetes Ereigniß
-      <lb facs="#facs_2_region_1685081577739_550_tl_12" n="N016"/>ihn in <rs type="place">Paris</rs> zurückhielt, und zwar für sein ganzes Leben.
-      <lb facs="#facs_2_region_1685081577739_550_tl_13" n="N017"/>
-               <hi rendition="#em">
-                  <rs type="person">Boieldieu</rs>
-               </hi>, der Componist der <rs type="bibl">Weißen Frau</rs>, läßt eines
+      <lb facs="#facs_2_region_1685081577739_550_tl_12" n="N016"/>ihn in <rs type="place" ref="#hsl_place_id_44">Paris</rs> zurückhielt, und zwar für sein ganzes Leben.
+      <lb facs="#facs_2_region_1685081577739_550_tl_13" n="N017"/><hi rendition="#em"><rs type="person">Boieldieu</rs></hi>, der Componist der <rs type="bibl">Weißen Frau</rs>, läßt eines
       <lb facs="#facs_2_line_1713849891465_90" n="N018"/>Tages den ihm persönlich unbekannten <rs type="person">Herold</rs> zu sich bitten
       <lb facs="#facs_2_region_1685081577739_550_tl_14" n="N019"/>und sagt ihm mit freundlichem, zeitweilig von Schmerzen
       <lb facs="#facs_2_region_1685081577739_550_tl_15" n="N020"/>verzerrtem Lächeln: „Ich habe jetzt eine <rs type="bibl">Oper</rs> in der
@@ -1261,59 +1201,35 @@
       <lb facs="#facs_2_line_1713849954561_129" n="N023"/>zweiten componiren?“ Wie von einem Blitz der Vorsehung
       <lb facs="#facs_2_region_1685081577739_550_tl_22" n="N024"/>getroffen, blieb <rs type="person">Herold</rs> einige Minuten sprachlos, dann nahm
       <lb facs="#facs_2_region_1685081577739_550_tl_23" n="N025"/>er an und hat dem Meister, der ihm so großmüthig eine
-      <lb facs="#facs_2_region_1685081577739_550_tl_24" n="N026"/>Carrière eröffnete, zeitlebens die rührendste Dankbarkeit be¬
-      <lb facs="#facs_2_region_1685081577739_550_tl_25" n="N027"/>wahrt. Sie blieben von dem Augenblick herzliche Freunde;
+      <lb facs="#facs_2_region_1685081577739_550_tl_24" n="N026"/>Carrière eröffnete, zeitlebens die rührendste Dankbarkeit be
+      <lb facs="#facs_2_region_1685081577739_550_tl_25" n="N027" break="no"/>wahrt. Sie blieben von dem Augenblick herzliche Freunde;
       <lb facs="#facs_2_region_1685081577739_550_tl_26" n="N028"/>dem Aelteren von Beiden war es bestimmt, den Jüngeren
       <lb facs="#facs_2_region_1685081577739_550_tl_27" n="N029"/>zu beweinen. Ihre gemeinsam componirte Oper war ein
-      <lb facs="#facs_2_region_1685081577739_550_tl_28" n="N030"/>Gelegenheitsstück, das als musikalisches Feuerwerk zur Hoch¬
-      <lb facs="#facs_2_region_1685081577739_550_tl_29" n="N031"/>zeit des Herzogs von <rs type="person">Berry</rs> abgebrannt werden sollte. Es
+      <lb facs="#facs_2_region_1685081577739_550_tl_28" n="N030"/>Gelegenheitsstück, das als musikalisches Feuerwerk zur Hoch
+      <lb facs="#facs_2_region_1685081577739_550_tl_29" n="N031" break="no"/>zeit des Herzogs von <rs type="person">Berry</rs> abgebrannt werden sollte. Es
       <lb facs="#facs_2_region_1685081577739_550_tl_30" n="N032"/>hieß „<rs type="bibl">Charles de France</rs>“ und wurde mit Erfolg gegeben.
-      <lb facs="#facs_2_region_1685081577739_550_tl_31" n="N033"/>Als Mitarbeiter <rs type="person">Boieldieu</rs>'s durfte <rs type="person">Herold</rs> sich nunmehr an
-      <lb facs="#facs_2_line_1713849990641_157" n="N034"/>*) Das fast unbegreiflich abfällige Urtheil des jungen <rs type="person">Herold</rs>
-               <lb facs="#facs_2_line_1713849993261_160" n="N035"/>hat einen seiner neueren <rs type="person">Biographen</rs> zu der Vermuthung verleitet,
-      <lb facs="#facs_2_line_1713849996015_163" n="N036"/>der <rs type="place">München</rs>er Concertgeber sei nicht Karl Maria <rs type="person">Weber</rs>, sondern
-      <lb facs="#facs_2_line_1713849998665_166" n="N037"/>der <rs type="place">Prag</rs>er Conservatoriums-Director <hi rendition="#em">Dionys</hi>
-               <rs type="person">Weber</rs> gewesen. Es
-      <lb facs="#facs_2_line_1713850001448_169" n="N038"/>war aber doch Karl Maria <rs type="person">Weber</rs>, der im Sommer <date>1815</date> in <rs type="place">München</rs>
-               <lb facs="#facs_2_line_1713850004735_172" n="N039"/>sein <rs type="bibl">C-dur-Concert</rs> und das <rs type="bibl">Clarinett-Duo</rs> mit <hi rendition="#em">
-                  <rs type="person">Bärmann</rs>
-               </hi> gespielt
-      <lb facs="#facs_2_line_1713850007855_175" n="N040"/>hat. Dionys <rs type="person">Weber</rs> war ein Theoretiker, aber kein Clavierspieler von
-      <lb facs="#facs_2_line_1713850009880_178" n="N041"/>Ruf und niemals in <rs type="place">München</rs> concertirt.</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1685081582384_553_tl_1" n="N001"/>namhafte Textdichter heranwagen. <hi rendition="#em">
-                  <rs type="person">Théaulon</rs>
-               </hi> gab ihm
-      <lb facs="#facs_2_region_1685081582384_553_tl_2" n="N002"/>sein Libretto „<rs type="bibl">Les rosières</rs>.“ Diese Oper, in welcher <rs type="person">Herold</rs>
-               <lb facs="#facs_2_region_1685081582384_553_tl_3" n="N003"/>noch nicht sich selbst gefunden, sondern bald <rs type="person">Mozart</rs>'s, bald
-      <lb facs="#facs_2_region_1685081582384_553_tl_4" n="N004"/>
-               <rs type="person">Mehul</rs>'s Styl nachgeahmt hatte, fand ob einiger reizender
+      <lb facs="#facs_2_region_1685081577739_550_tl_31" n="N033"/>Als Mitarbeiter <rs type="person">Boieldieu</rs>’s durfte <rs type="person">Herold</rs> sich nunmehr an<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685081582384_553_tl_1" n="N001"/>namhafte Textdichter heranwagen. <hi rendition="#em"><rs type="person">Théaulon</rs></hi> gab ihm
+      <lb facs="#facs_2_region_1685081582384_553_tl_2" n="N002"/>sein Libretto „<rs type="bibl">Les rosières</rs>.“ Diese Oper, in welcher <rs type="person">Herold</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685081582384_553_tl_3" n="N003"/>noch nicht sich selbst gefunden, sondern bald <rs type="person">Mozart</rs>’s, bald
+      <lb facs="#facs_2_region_1685081582384_553_tl_4" n="N004"/><rs type="person">Mehul</rs>’s Styl nachgeahmt hatte, fand ob einiger reizender
       <lb facs="#facs_2_region_1685081582384_553_tl_5" n="N005"/>Melodien großen Beifall und zahlreiche Wiederholungen. Noch
-      <lb facs="#facs_2_region_1685081582384_553_tl_6" n="N006"/>dasselbe Jahr (<date>1817</date>) brachte<rs type="person"> Herold</rs>'s Zauber-Oper „<hi rendition="#em">
-                  <rs type="bibl">Les</rs>
-               </hi>
-               <lb facs="#facs_2_region_1685081582384_553_tl_7" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="bibl">clochettes</rs>
-               </hi>“. Das Sujet ist das bekannte <rs type="bibl">Märchen</rs> von
-      <lb facs="#facs_2_region_1685081582384_553_tl_8" n="N008"/>
-               <rs type="person">Aladin</rs> und seiner Wunderlampe. Man hatte nur die
-      <lb facs="#facs_2_region_1685081582384_553_tl_9" n="N009"/>Lampe in ein Glöckchen verwandelt und den Namen <rs type="person">Aladin</rs>
-               <lb facs="#facs_2_region_1685081582384_553_tl_10" n="N010"/>in <rs type="person">Azolin</rs>, aus Rücksicht für eine von der Großen Oper
+      <lb facs="#facs_2_region_1685081582384_553_tl_6" n="N006"/>dasselbe Jahr (<date>1817</date>) brachte <rs type="person">Herold</rs>’s Zauber-Oper „<hi rendition="#em"><rs type="bibl">Les
+      <lb facs="#facs_2_region_1685081582384_553_tl_7" n="N007"/>clochettes</rs></hi>“. Das Sujet ist das bekannte <rs type="bibl">Märchen</rs> von
+      <lb facs="#facs_2_region_1685081582384_553_tl_8" n="N008"/><rs type="person">Aladin</rs> und seiner Wunderlampe. Man hatte nur die
+      <lb facs="#facs_2_region_1685081582384_553_tl_9" n="N009"/>Lampe in ein Glöckchen verwandelt und den Namen <rs type="person">Aladin</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685081582384_553_tl_10" n="N010"/>in <rs type="person">Azolin</rs>, aus Rücksicht für eine von der Großen Oper
       <lb facs="#facs_2_region_1685081582384_553_tl_11" n="N011"/>angenommene „<rs type="bibl">Wunderlampe</rs>“ von Nicolo <rs type="person">Isouard</rs>,
       <lb facs="#facs_2_region_1685081582384_553_tl_12" n="N012"/>welche aber erst fünf Jahre später zur Aufführung kam.
-      <lb facs="#facs_2_region_1685081582384_553_tl_13" n="N013"/>Das „<rs type="bibl">Zauberglöckchen</rs>“ war der erste große Erfolg <rs type="person">Herold</rs>'s
-      <lb facs="#facs_2_region_1685081582384_553_tl_14" n="N014"/>und ein Kassenmagnet für das Theater. In <rs type="place">Wien</rs> wurde
+      <lb facs="#facs_2_region_1685081582384_553_tl_13" n="N013"/>Das „<rs type="bibl">Zauberglöckchen</rs>“ war der erste große Erfolg <rs type="person">Herold</rs>’s
+      <lb facs="#facs_2_region_1685081582384_553_tl_14" n="N014"/>und ein Kassenmagnet für das Theater. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> wurde
       <lb facs="#facs_2_region_1685081582384_553_tl_15" n="N015"/>das „<rs type="bibl">Zauberglöckchen</rs>“ <date>1821</date> mit zwei Gesangseinlagen von
-      <lb facs="#facs_2_region_1685081582384_553_tl_16" n="N016"/>
-               <hi rendition="#em">Franz <rs type="person">Schubert</rs>
-               </hi> gegeben. Auch Ballette für die Große
-      <lb facs="#facs_2_region_1685081582384_553_tl_17" n="N017"/>Oper componirte <rs type="person">Herold</rs>, sechs an der Zahl, von denen „<rs type="bibl">La</rs>
-               <lb facs="#facs_2_line_1713850188681_211" n="N018"/>
-               <rs type="bibl">fille mal gardée</rs>“ und die „<rs type="bibl">Somnambule villageoise</rs>“ (mit
-      <lb facs="#facs_2_region_1685081582384_553_tl_20" n="N019"/>
-               <rs type="person">Scribe</rs>) die beliebtesten waren. Die Kunst, Balletmusik zu
+      <lb facs="#facs_2_region_1685081582384_553_tl_16" n="N016"/><hi rendition="#em">Franz <rs type="person">Schubert</rs></hi> gegeben. Auch Ballette für die Große
+      <lb facs="#facs_2_region_1685081582384_553_tl_17" n="N017"/>Oper componirte <rs type="person">Herold</rs>, sechs an der Zahl, von denen „<rs type="bibl">La
+      <lb facs="#facs_2_line_1713850188681_211" n="N018"/>fille mal gardée</rs>“ und die „<rs type="bibl">Somnambule villageoise</rs>“ (mit
+      <lb facs="#facs_2_region_1685081582384_553_tl_20" n="N019"/><rs type="person">Scribe</rs>) die beliebtesten waren. Die Kunst, Balletmusik zu
       <lb facs="#facs_2_region_1685081582384_553_tl_21" n="N020"/>schreiben, war damals nicht viel mehr, als eine Kunst des
       <lb facs="#facs_2_region_1685081582384_553_tl_22" n="N021"/>Arrangirens. Die Melodien, welche der Componist aus alten
       <lb facs="#facs_2_region_1685081582384_553_tl_23" n="N022"/>und neuen Werken entnahm, oft auch aus Vaudeville-
@@ -1322,57 +1238,43 @@
       <lb facs="#facs_2_region_1685081582384_553_tl_26" n="N025"/>durch ein Erinnerungsmotiv aus irgend einem bekannten
       <lb facs="#facs_2_region_1685081582384_553_tl_27" n="N026"/>Stück. So hat <rs type="person">Herold</rs> zu dem Streit der beiden Bäuerinnen
       <lb facs="#facs_2_line_1713850207815_217" n="N027"/>in der „<rs type="bibl">ländlichen Nachtwandlerin</rs>“ das bekannte Zankduett
-      <lb facs="#facs_2_region_1685081582384_553_tl_30" n="N028"/>aus „<rs type="bibl">Maurer und Schlosser</rs>" sehr glücklich angebracht. An
+      <lb facs="#facs_2_region_1685081582384_553_tl_30" n="N028"/>aus „<rs type="bibl">Maurer und Schlosser</rs>“ sehr glücklich angebracht. An
       <lb facs="#facs_2_region_1685081582384_553_tl_31" n="N029"/>graziösen Stücken eigener Erfindung ließ er es übrigens auch
       <lb facs="#facs_2_region_1685081582384_553_tl_32" n="N030"/>im Ballet nicht fehlen.
-      <lb facs="#facs_2_region_1685081582384_553_tl_33" n="N031"/>Wir kommen nun zu den drei Opern, welche <rs type="person">Herold</rs>'s
-      <lb facs="#facs_2_region_1685081582384_553_tl_34" n="N032"/>Ruhm begründet und weit über <rs type="place">Frankreich</rs>s Grenzen hinaus
-      <lb facs="#facs_2_region_1685081582384_553_tl_35" n="N033"/>verbreitet haben. Die erste, „<hi rendition="#em">
-                  <rs type="bibl">Marie</rs>
-               </hi>“ (in <rs type="place">Deutschland</rs> mit
+            </p><p>
+      <lb facs="#facs_2_region_1685081582384_553_tl_33" n="N031"/>Wir kommen nun zu den drei Opern, welche <rs type="person">Herold</rs>’s
+      <lb facs="#facs_2_region_1685081582384_553_tl_34" n="N032"/>Ruhm begründet und weit über <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s Grenzen hinaus
+      <lb facs="#facs_2_region_1685081582384_553_tl_35" n="N033"/>verbreitet haben. Die erste, „<hi rendition="#em"><rs type="bibl">Marie</rs></hi>“ (in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> mit
       <lb facs="#facs_2_line_1713850218041_222" n="N034"/>dem Nebentitel „<rs type="bibl">Verborgene Liebe</rs>“), ist eine rührende kleine
       <lb facs="#facs_2_region_1685081582384_553_tl_38" n="N035"/>Dorfgeschichte, die (<date>1826</date>) großen Erfolg und eine blitzschnelle
       <lb facs="#facs_2_region_1685081582384_553_tl_39" n="N036"/>Popularität erlangt hat. Die zarte, natürliche Empfindung,
       <lb facs="#facs_2_region_1685081582384_553_tl_40" n="N037"/>welche die <rs type="person">Hauptrolle</rs> beseelt, gewann alle Herzen; im
       <lb facs="#facs_2_region_1685081582384_553_tl_41" n="N038"/>Uebrigen hat „<rs type="bibl">Marie</rs>“ noch nicht die künstlerische Reife und
-      <lb facs="#facs_2_region_1685081582384_553_tl_42" n="N039"/>Selbstständigkeit der beiden letzten <rs type="bibl">Opern</rs>
-               <rs type="person">Herold</rs>'s und ver¬
-      <lb facs="#facs_2_region_1685081582384_553_tl_43" n="N040"/>räth den starken Einfluß <rs type="person">Rossini</rs>'s. Diesem Zauber konnte</p>
+      <lb facs="#facs_2_region_1685081582384_553_tl_42" n="N039"/>Selbstständigkeit der beiden letzten <rs type="bibl">Opern</rs><space quantity="1" unit="char"/><rs type="person">Herold</rs>’s und ver
+      <lb facs="#facs_2_region_1685081582384_553_tl_43" n="N040" break="no"/>räth den starken Einfluß <rs type="person">Rossini</rs>’s. Diesem Zauber konnte<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1685081594224_560_tl_1" n="N001"/>sich in den Zwanziger-Jahren thatsächlich kein Operncomponist
-      <lb facs="#facs_3_region_1685081594224_560_tl_2" n="N002"/>entziehen. Im Contact mit <rs type="person">Rossini</rs> haben <rs type="person">Herold</rs> wie <rs type="person">Auber</rs>
-               <lb facs="#facs_3_region_1685081594224_560_tl_3" n="N003"/>ihre ersten Funken gesprüht. <rs type="place">Wien</rs> brachte die „<rs type="bibl">Marie</rs>“ noch
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1685081594224_560_tl_1" n="N001"/>sich in den Zwanziger-Jahren thatsächlich kein Operncomponist
+      <lb facs="#facs_3_region_1685081594224_560_tl_2" n="N002"/>entziehen. Im Contact mit <rs type="person">Rossini</rs> haben <rs type="person">Herold</rs> wie <rs type="person">Auber</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1685081594224_560_tl_3" n="N003"/>ihre ersten Funken gesprüht. <rs type="place" ref="#hsl_place_id_55">Wien</rs> brachte die „<rs type="bibl">Marie</rs>“ noch
       <lb facs="#facs_3_region_1685081594224_560_tl_4" n="N004"/>im selben Jahr zur Aufführung und hat sich lange an ihr
-      <lb facs="#facs_3_region_1685081594224_560_tl_5" n="N005"/>ergötzt. Zu dieser Zeit begannen die <rs type="place">Paris</rs>er Conservato¬
-      <lb facs="#facs_3_region_1685081594224_560_tl_6" n="N006"/>riums-Concerte <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi> eifrig zu culti¬
-      <lb facs="#facs_3_region_1685081594224_560_tl_7" n="N007"/>viren. <rs type="person">Herold</rs> begeisterte sich an ihren Werken und suchte in
-      <lb facs="#facs_3_region_1685081594224_560_tl_8" n="N008"/>seinen letzten Opern die <rs type="person">Rossini</rs>'schen Flitter kräftig abzuschütteln.
-      <lb facs="#facs_3_region_1685081594224_560_tl_9" n="N009"/>Der Erfolg des „<hi rendition="#em">
-                  <rs type="bibl">Zampa</rs>
-               </hi>“ (<date>1831</date>) in <rs type="place">Paris</rs> war günstig,
-      <lb facs="#facs_3_region_1685081594224_560_tl_10" n="N010"/>aber von kurzer Dauer. Die Oper begeisterte <rs type="place">Deutschland</rs>,
-      <lb facs="#facs_3_region_1685081594224_560_tl_11" n="N011"/>eroberte sich die bedeutendsten Bühnen <rs type="place">Italien</rs>s, siegte in allen
-      <lb facs="#facs_3_region_1685081594224_560_tl_12" n="N012"/>
-               <rs type="place">französisch</rs>en Provinzstädten, während in <rs type="place">Paris</rs> die Erinne¬
-      <lb facs="#facs_3_region_1685081594224_560_tl_13" n="N013"/>rung daran eingeschlafen schien. Desto glänzender gestaltete
-      <lb facs="#facs_3_region_1685081594224_560_tl_14" n="N014"/>sich in <rs type="place">Paris</rs> der Triumph von <rs type="person">Herold</rs>'s nächster Oper:
-      <lb facs="#facs_3_line_1713850235816_232" n="N015"/>„<hi rendition="#em">
-                  <rs type="bibl">Le Pré-aux-Clercs</rs>
-               </hi>“ (die Schreiberwiese, in <rs type="place">deutsch</rs>er
+      <lb facs="#facs_3_region_1685081594224_560_tl_5" n="N005"/>ergötzt. Zu dieser Zeit begannen die <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Conservato
+      <lb facs="#facs_3_region_1685081594224_560_tl_6" n="N006" break="no"/>riums-Concerte <hi rendition="#em"><rs type="person">Beethoven</rs></hi> und <hi rendition="#em"><rs type="person">Weber</rs></hi> eifrig zu culti
+      <lb facs="#facs_3_region_1685081594224_560_tl_7" n="N007" break="no"/>viren. <rs type="person">Herold</rs> begeisterte sich an ihren Werken und suchte in
+      <lb facs="#facs_3_region_1685081594224_560_tl_8" n="N008"/>seinen letzten Opern die <rs type="person">Rossini</rs>’schen Flitter kräftig abzuschütteln.
+      <lb facs="#facs_3_region_1685081594224_560_tl_9" n="N009"/>Der Erfolg des „<hi rendition="#em"><rs type="bibl">Zampa</rs></hi>“ (<date>1831</date>) in <rs type="place" ref="#hsl_place_id_44">Paris</rs> war günstig,
+      <lb facs="#facs_3_region_1685081594224_560_tl_10" n="N010"/>aber von kurzer Dauer. Die Oper begeisterte <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>,
+      <lb facs="#facs_3_region_1685081594224_560_tl_11" n="N011"/>eroberte sich die bedeutendsten Bühnen <rs type="place" ref="#hsl_place_id_28">Italien</rs>s, siegte in allen
+      <lb facs="#facs_3_region_1685081594224_560_tl_12" n="N012"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>en Provinzstädten, während in <rs type="place" ref="#hsl_place_id_44">Paris</rs> die Erinne
+      <lb facs="#facs_3_region_1685081594224_560_tl_13" n="N013" break="no"/>rung daran eingeschlafen schien. Desto glänzender gestaltete
+      <lb facs="#facs_3_region_1685081594224_560_tl_14" n="N014"/>sich in <rs type="place" ref="#hsl_place_id_44">Paris</rs> der Triumph von <rs type="person">Herold</rs>’s nächster Oper:
+      <lb facs="#facs_3_line_1713850235816_232" n="N015"/>„<hi rendition="#em"><rs type="bibl">Le Pré-aux-Clercs</rs></hi>“ (die Schreiberwiese, in <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er
       <lb facs="#facs_3_region_1685081594224_560_tl_17" n="N016"/>Bearbeitung „<rs type="bibl">Der Zweikampf</rs>“), deren leichterer, anmuthig
-      <lb facs="#facs_3_region_1685081594224_560_tl_18" n="N017"/>geistreicher Styl dem <rs type="place">französisch</rs>en Geschmacke mehr zusagte.
-      <lb facs="#facs_3_region_1685081594224_560_tl_19" n="N018"/>„<rs type="bibl">Zampa</rs>“ hat in <rs type="place">Paris</rs> bis heute gegen 600 Aufführungen er¬
-      <lb facs="#facs_3_region_1685081594224_560_tl_20" n="N019"/>lebt: „<hi rendition="#em">
-                  <rs type="bibl">Der Zweikampf</rs>
-               </hi>“ feierte bereits im Jahre <date>1871</date> seine
-      <lb facs="#facs_3_region_1685081594224_560_tl_21" n="N020"/>
-               <hi rendition="#em">tausendste</hi> und dürfte jetzt bei der Zahl 1500 angelangt
+      <lb facs="#facs_3_region_1685081594224_560_tl_18" n="N017"/>geistreicher Styl dem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Geschmacke mehr zusagte.
+      <lb facs="#facs_3_region_1685081594224_560_tl_19" n="N018"/>„<rs type="bibl">Zampa</rs>“ hat in <rs type="place" ref="#hsl_place_id_44">Paris</rs> bis heute gegen 600 Aufführungen er
+      <lb facs="#facs_3_region_1685081594224_560_tl_20" n="N019" break="no"/>lebt: „<hi rendition="#em"><rs type="bibl">Der Zweikampf</rs></hi>“ feierte bereits im Jahre <date>1871</date> seine
+      <lb facs="#facs_3_region_1685081594224_560_tl_21" n="N020"/><hi rendition="#em">tausendste</hi> und dürfte jetzt bei der Zahl 1500 angelangt
       <lb facs="#facs_3_region_1685081594224_560_tl_22" n="N021"/>sein. In der Opéra Comique ist nur die „<rs type="bibl">Weiße Frau</rs>“
       <lb facs="#facs_3_region_1685081594224_560_tl_23" n="N022"/>von gleichem Erfolge begünstigt gewesen. Beide Opern, „<rs type="bibl">Zampa</rs>“
       <lb facs="#facs_3_region_1685081594224_560_tl_24" n="N023"/>wie „<rs type="bibl">Der Zweikampf</rs>“, sind unseren Lesern zu wohl bekannt,
@@ -1388,8 +1290,8 @@
       <lb facs="#facs_3_region_1685081594224_560_tl_34" n="N033"/>für ihn so verhängnißvollen Triumph gelebt. Er starb am
       <lb facs="#facs_3_region_1685081594224_560_tl_35" n="N034"/>19. Januar <date>1833</date>, erst 42 Jahre alt. Sein Leben konnte
       <lb facs="#facs_3_region_1685081594224_560_tl_36" n="N035"/>im Ganzen ein glückliches heißen; er wußte von schlechten
-      <lb facs="#facs_3_region_1685081594224_560_tl_37" n="N036"/>Textbüchern zu erzählen, aber nicht von eigentlichen Miß¬
-      <lb facs="#facs_3_region_1685081594224_560_tl_38" n="N037"/>erfolgen; er hatte nach Neigung geheiratet, ein ansehnliches
+      <lb facs="#facs_3_region_1685081594224_560_tl_37" n="N036"/>Textbüchern zu erzählen, aber nicht von eigentlichen Miß
+      <lb facs="#facs_3_region_1685081594224_560_tl_38" n="N037" break="no"/>erfolgen; er hatte nach Neigung geheiratet, ein ansehnliches
       <lb facs="#facs_3_region_1685081594224_560_tl_39" n="N038"/>Vermögen erworben und volle Befriedigung gefunden daheim,
       <lb facs="#facs_3_line_1713850244744_237" n="N039"/>bei seinen zärtlich geliebten Kindern. Er besaß Glück, besaß
       <lb facs="#facs_3_line_1713850249992_242" n="N040"/>Ruhm, besaß Alles — nur das Leben, das jetzt so schön zu

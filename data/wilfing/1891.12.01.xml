@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 9794. Wien, Dienstag, den 1. December 1891</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -37,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 9794. Wien, Dienstag, den 1. December 1891</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1891-12-01">01.12.1891</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2024-05-06">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2024-05-07">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1092,127 +1091,116 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1685020616844_375_tl_1" n="N001"/><head type="h1">Die <rs type="person">Mozart</rs>-Feier.</head>
             <p>
-               <lb facs="#facs_1_line_1712468501984_22" n="N001"/>Nr. 9794. Wien, Dienstag, den 1. December 1891</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1685020616844_375_tl_1" n="N001"/>Die <rs type="person">Mozart</rs>-Feier.
-      <lb facs="#facs_1_region_1685020616844_375_tl_2" n="N002"/>Ed. H. Ganz <rs type="place">Deutschland</rs> begeht jetzt mit festlichen Auf¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_3" n="N003"/>führungen <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi>'scher Werke die hundertste Wiederkehr
-      <lb facs="#facs_1_region_1685020616844_375_tl_4" n="N004"/>seines Todestages. <rs type="place">Wien</rs> steht voran in reichlichster Vertre¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_5" n="N005"/>tung sämmtlicher Kunstgattungen, welche der universellste
-      <lb facs="#facs_1_region_1685020616844_375_tl_6" n="N006"/>aller Tondichter gepflegt und gehoben hat. Das Hofopern¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_7" n="N007"/>theater feiert in chronologischem Cyklus den dramatischen
-      <lb facs="#facs_1_region_1685020616844_375_tl_8" n="N008"/>Tondichter, die Gesellschaft der Musikfreunde und das Phil¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_9" n="N009"/>harmonische Concert den Kirchencomponisten und Sympho¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_10" n="N010"/>niker, drei Quartettvereine (<rs type="person">Rosé</rs>, <rs type="person">Hellmesberger</rs>, <rs type="person">Winkler</rs>)
+      <lb facs="#facs_1_region_1685020616844_375_tl_2" n="N002"/>Ed. H. Ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> begeht jetzt mit festlichen Auf
+      <lb facs="#facs_1_region_1685020616844_375_tl_3" n="N003" break="no"/>führungen <hi rendition="#em"><rs type="person">Mozart</rs></hi>’scher Werke die hundertste Wiederkehr
+      <lb facs="#facs_1_region_1685020616844_375_tl_4" n="N004"/>seines Todestages. <rs type="place" ref="#hsl_place_id_55">Wien</rs> steht voran in reichlichster Vertre
+      <lb facs="#facs_1_region_1685020616844_375_tl_5" n="N005" break="no"/>tung sämmtlicher Kunstgattungen, welche der universellste
+      <lb facs="#facs_1_region_1685020616844_375_tl_6" n="N006"/>aller Tondichter gepflegt und gehoben hat. Das Hofopern
+      <lb facs="#facs_1_region_1685020616844_375_tl_7" n="N007" break="no"/>theater feiert in chronologischem Cyklus den dramatischen
+      <lb facs="#facs_1_region_1685020616844_375_tl_8" n="N008"/>Tondichter, die Gesellschaft der Musikfreunde und das Phil
+      <lb facs="#facs_1_region_1685020616844_375_tl_9" n="N009" break="no"/>harmonische Concert den Kirchencomponisten und Sympho
+      <lb facs="#facs_1_region_1685020616844_375_tl_10" n="N010" break="no"/>niker, drei Quartettvereine (<rs type="person">Rosé</rs>, <rs type="person">Hellmesberger</rs>, <rs type="person">Winkler</rs>)
       <lb facs="#facs_1_region_1685020616844_375_tl_11" n="N011"/>wetteifern in der Ausführung seiner schönsten Kammermusiken.
-      <lb facs="#facs_1_region_1685020616844_375_tl_12" n="N012"/>Sänger und Virtuosen endlich treten hinzu und vervollstän¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_13" n="N013"/>digen sein Wirken auf der Orgel, auf dem Clavier und im
+      <lb facs="#facs_1_region_1685020616844_375_tl_12" n="N012"/>Sänger und Virtuosen endlich treten hinzu und vervollstän
+      <lb facs="#facs_1_region_1685020616844_375_tl_13" n="N013" break="no"/>digen sein Wirken auf der Orgel, auf dem Clavier und im
       <lb facs="#facs_1_region_1685020616844_375_tl_14" n="N014"/>einfachen Liede. Wie man im Jahre <date>1856</date> allerwärts den
-      <lb facs="#facs_1_region_1685020616844_375_tl_15" n="N015"/>hundertsten Geburtstag <rs type="person">Mozart</rs>'s festlich beging, so erinnert
+      <lb facs="#facs_1_region_1685020616844_375_tl_15" n="N015"/>hundertsten Geburtstag <rs type="person">Mozart</rs>’s festlich beging, so erinnert
       <lb facs="#facs_1_region_1685020616844_375_tl_16" n="N016"/>man sich jetzt des Tages, der uns den Meister für immer
-      <lb facs="#facs_1_region_1685020616844_375_tl_17" n="N017"/>entriß. Jeder Gedenktag ist gut und heilig, der uns <rs type="person">Mozart</rs>
-               <lb facs="#facs_1_region_1685020616844_375_tl_18" n="N018"/>in die Arme führt und uns seine Größe zum Bewußtsein
-      <lb facs="#facs_1_region_1685020616844_375_tl_19" n="N019"/>bringt. Freilich ist's ein Trauertag, und einer der schmerz¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_20" n="N020"/>lichsten, den wir am 5. December feiern. Wir stehen dies¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_21" n="N021"/>mal im Schatten jenes Glücksgefühls, dass beim <rs type="person">Mozart</rs>-
+      <lb facs="#facs_1_region_1685020616844_375_tl_17" n="N017"/>entriß. Jeder Gedenktag ist gut und heilig, der uns <rs type="person">Mozart</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685020616844_375_tl_18" n="N018"/>in die Arme führt und uns seine Größe zum Bewußtsein
+      <lb facs="#facs_1_region_1685020616844_375_tl_19" n="N019"/>bringt. Freilich ist’s ein Trauertag, und einer der schmerz
+      <lb facs="#facs_1_region_1685020616844_375_tl_20" n="N020" break="no"/>lichsten, den wir am 5. December feiern. Wir stehen dies
+      <lb facs="#facs_1_region_1685020616844_375_tl_21" n="N021" break="no"/>mal im Schatten jenes Glücksgefühls, dass beim <rs type="person">Mozart</rs>-
       <lb facs="#facs_1_region_1685020616844_375_tl_22" n="N022"/>Jubiläum von <date>1856</date> alle Herzen sonnig durchströmte. Dort
       <lb facs="#facs_1_region_1685020616844_375_tl_23" n="N023"/>der Anfang, hier das Ende. Welcher Götterfrühling,
-      <lb facs="#facs_1_line_1712468687476_72" n="N024"/>diese Kindheit <rs type="person">Mozart</rs>'s, mit der wunderbar schnellen Ent¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_24" n="N025"/>wicklung seines Genies, seinen frühen Triumphen, seinen
+      <lb facs="#facs_1_line_1712468687476_72" n="N024"/>diese Kindheit <rs type="person">Mozart</rs>’s, mit der wunderbar schnellen Ent
+      <lb facs="#facs_1_region_1685020616844_375_tl_24" n="N025" break="no"/>wicklung seines Genies, seinen frühen Triumphen, seinen
       <lb facs="#facs_1_region_1685020616844_375_tl_25" n="N026"/>stolzen Hoffnungen! Er hat wahrlich Alles gehalten, was
-      <lb facs="#facs_1_region_1685020616844_375_tl_26" n="N027"/>er versprach; <hi rendition="#em">ihm</hi> aber hielt das Leben nicht, was er er¬
-      <lb facs="#facs_1_region_1685020616844_375_tl_27" n="N028"/>warten, was er fordern konnte. Es war das Schicksal des
+      <lb facs="#facs_1_region_1685020616844_375_tl_26" n="N027"/>er versprach; <hi rendition="#em">ihm</hi> aber hielt das Leben nicht, was er er
+      <lb facs="#facs_1_region_1685020616844_375_tl_27" n="N028" break="no"/>warten, was er fordern konnte. Es war das Schicksal des
       <lb facs="#facs_1_region_1685020616844_375_tl_28" n="N029"/>in der Jugend Vergötterten, daß mit dem Wachsen seines
       <lb facs="#facs_1_region_1685020616844_375_tl_29" n="N030"/>Genies der Antheil der Zeitgenossen nicht gleichfalls wuchs,
       <lb facs="#facs_1_region_1685020616844_375_tl_30" n="N031"/>sondern abnahm und den größten Tondichter auf der Höhe
       <lb facs="#facs_1_region_1685020616844_375_tl_31" n="N032"/>seiner Meisterschaft arm und verkannt sterben ließ. Indem
       <lb facs="#facs_1_region_1685020616844_375_tl_32" n="N033"/>wir jetzt hundert Jahre zurückblicken, ziehen die düsteren
-      <lb facs="#facs_1_region_1685020616844_375_tl_33" n="N034"/>Bildern von <rs type="person">Mozart</rs>'s letzter Lebenszeit an uns vorüber.
+      <lb facs="#facs_1_region_1685020616844_375_tl_33" n="N034"/>Bildern von <rs type="person">Mozart</rs>’s letzter Lebenszeit an uns vorüber.
       <lb facs="#facs_1_region_1685020616844_375_tl_34" n="N035"/>Müde, überangestrengt, bedrückt von Sorgen um das tägliche
-      <lb facs="#facs_1_line_1712468752778_102" n="N036"/>Brot, sank er auf das Krankenlager, das nach 15 Tagen</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1685020619968_378_tl_1" n="N001"/>sein Todesbett wurde. Die letzten zehn Jahre, die frucht¬
-      <lb facs="#facs_1_region_1685020619968_378_tl_2" n="N002"/>barsten, glorreichsten für seine Kunst, waren die drückendsten
+      <lb facs="#facs_1_line_1712468752778_102" n="N036"/>Brot, sank er auf das Krankenlager, das nach 15 Tagen<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1685020619968_378_tl_1" n="N001"/>sein Todesbett wurde. Die letzten zehn Jahre, die frucht
+      <lb facs="#facs_1_region_1685020619968_378_tl_2" n="N002" break="no"/>barsten, glorreichsten für seine Kunst, waren die drückendsten
       <lb facs="#facs_1_region_1685020619968_378_tl_3" n="N003"/>für ihn selbst. Im Jahre <date>81</date> schrieb <rs type="person">Mozart</rs> die erste seiner
       <lb facs="#facs_1_region_1685020619968_378_tl_4" n="N004"/>reifen, epochemachenden Opern: „<rs type="bibl">Idomeneo</rs>“; im Jahre
-      <lb facs="#facs_1_region_1685020619968_378_tl_5" n="N005"/>
-               <date>91</date> schuf er seine letzte Oper, „<rs type="bibl">Die Zauberflöte</rs>“, und
-      <lb facs="#facs_1_region_1685020619968_378_tl_6" n="N006"/>that seinen letzten Athemzug. In diesen kurzen Zeit¬
-      <lb facs="#facs_1_region_1685020619968_378_tl_7" n="N007"/>raum von zehn Jahren hat er den unerschöpflichen Reich¬
-      <lb facs="#facs_1_region_1685020619968_378_tl_8" n="N008"/>thum seiner großen Schöpfungen zusammengedrängt.
-      <lb facs="#facs_1_line_1712468528613_27" n="N009"/>Die unheilvolle Wendung in <rs type="person">Mozart</rs>'s Leben beginnt eigent¬
-      <lb facs="#facs_1_line_1712468549785_33" n="N010"/>lich mit seiner Verheiratung in <rs type="place">Wien</rs>. Sie führte das Zer¬
-      <lb facs="#facs_1_region_1685020619968_378_tl_9" n="N011"/>würfniß mit seinem <rs type="person">Vater</rs> herbei, machte ihn als Künstler
+      <lb facs="#facs_1_region_1685020619968_378_tl_5" n="N005"/><date>91</date> schuf er seine letzte Oper, „<rs type="bibl">Die Zauberflöte</rs>“, und
+      <lb facs="#facs_1_region_1685020619968_378_tl_6" n="N006"/>that seinen letzten Athemzug. In diesen kurzen Zeit
+      <lb facs="#facs_1_region_1685020619968_378_tl_7" n="N007" break="no"/>raum von zehn Jahren hat er den unerschöpflichen Reich
+      <lb facs="#facs_1_region_1685020619968_378_tl_8" n="N008" break="no"/>thum seiner großen Schöpfungen zusammengedrängt.
+      <lb facs="#facs_1_line_1712468528613_27" n="N009"/>Die unheilvolle Wendung in <rs type="person">Mozart</rs>’s Leben beginnt eigent
+      <lb facs="#facs_1_line_1712468549785_33" n="N010" break="no"/>lich mit seiner Verheiratung in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Sie führte das Zer
+      <lb facs="#facs_1_region_1685020619968_378_tl_9" n="N011" break="no"/>würfniß mit seinem <rs type="person">Vater</rs> herbei, machte ihn als Künstler
       <lb facs="#facs_1_region_1685020619968_378_tl_10" n="N012"/>abhängig von Verlegern und Gönnern und veranlaßte die
       <lb facs="#facs_1_line_1712468809992_129" n="N013"/>fortan steigenden Geldverlegenheiten, welche einer voreiligen
       <lb facs="#facs_1_region_1685020619968_378_tl_11" n="N014"/>Heirat und anwachsenden Kinderzahl schnell zu folgen
-      <lb facs="#facs_1_region_1685020619968_378_tl_12" n="N015"/>pflegen. Ueberdies war seine so zärtlich geliebte <rs type="person">Constanze</rs>
-               <lb facs="#facs_1_region_1685020619968_378_tl_13" n="N016"/>schwerlich die Frau, die man einem <rs type="person">Mozart</rs> wünschen
+      <lb facs="#facs_1_region_1685020619968_378_tl_12" n="N015"/>pflegen. Ueberdies war seine so zärtlich geliebte <rs type="person">Constanze</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685020619968_378_tl_13" n="N016"/>schwerlich die Frau, die man einem <rs type="person">Mozart</rs> wünschen
       <lb facs="#facs_1_region_1685020619968_378_tl_14" n="N017"/>mochte; nicht nur besaß sie kein rechtes Verständniß für
       <lb facs="#facs_1_region_1685020619968_378_tl_15" n="N018"/>seine künstlerische Bedeutung, ihr fehlte auch der praktische
       <lb facs="#facs_1_region_1685020619968_378_tl_16" n="N019"/>Sinn und die energische Hand, welche einem so schwankenden
       <lb facs="#facs_1_region_1685020619968_378_tl_17" n="N020"/>Hauswesen noththat.
+            </p><p>
       <lb facs="#facs_1_line_1712468833424_135" n="N021"/>In seiner „<rs type="bibl">Festschrift zur Mozart-Centenarfeier 1891</rs>“
       <lb facs="#facs_1_region_1685020619968_378_tl_18" n="N022"/>veröffentlicht der um die <rs type="person">Mozart</rs>-Forschung vielfach verdiente
-      <lb facs="#facs_1_region_1685020619968_378_tl_19" n="N023"/>Director <hi rendition="#em">Joh. Ev. <rs type="person">Engl</rs>
-               </hi>
-               <rs type="person"/> in <rs type="place">Salzburg</rs> drei bisher unbe¬
-      <lb facs="#facs_1_region_1685020619968_378_tl_20" n="N024"/>kannt gebliebene Briefe <rs type="person">Mozart</rs>'s aus dessen letzter Zeit.
+      <lb facs="#facs_1_region_1685020619968_378_tl_19" n="N023"/>Director <hi rendition="#em">Joh. Ev. <rs type="person">Engl</rs></hi> in <rs type="place" ref="#hsl_place_id_49">Salzburg</rs> drei bisher unbe
+      <lb facs="#facs_1_region_1685020619968_378_tl_20" n="N024" break="no"/>kannt gebliebene Briefe <rs type="person">Mozart</rs>’s aus dessen letzter Zeit.
       <lb facs="#facs_1_region_1685020619968_378_tl_21" n="N025"/>Sie sprechen von schwerer finanzieller Bedrängniß. Aber
-      <lb facs="#facs_1_line_1712468853552_142" n="N026"/>stets weiß <rs type="person">Mozart</rs> diese trüben Mittheilungen an seine <rs type="person">Frau</rs>
-               <lb facs="#facs_1_region_1685020619968_378_tl_22" n="N027"/>durch heitere tröstliche Ausblicke und zärtliche Spässe zu er¬
-      <lb facs="#facs_1_region_1685020619968_378_tl_23" n="N028"/>hellen! Er schreibt ihr (October <date>1790</date>) aus <rs type="place">Frankfurt</rs> a. M.,
+      <lb facs="#facs_1_line_1712468853552_142" n="N026"/>stets weiß <rs type="person">Mozart</rs> diese trüben Mittheilungen an seine <rs type="person">Frau</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685020619968_378_tl_22" n="N027"/>durch heitere tröstliche Ausblicke und zärtliche Spässe zu er
+      <lb facs="#facs_1_region_1685020619968_378_tl_23" n="N028" break="no"/>hellen! Er schreibt ihr (October <date>1790</date>) aus <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs> a. M.,
       <lb facs="#facs_1_region_1685020619968_378_tl_24" n="N029"/>wo er eben ein erfolgloses Concert gegeben, er werde
       <lb facs="#facs_1_region_1685020619968_378_tl_25" n="N030"/>gleich nach seiner Rückkehr durchaus nicht im Stande sein,
       <lb facs="#facs_1_region_1685020619968_378_tl_26" n="N031"/>800 oder 1000 fl. an seine Gläubiger abzuzahlen, doch
-      <lb facs="#facs_1_region_1685020619968_378_tl_27" n="N032"/>wolle er in <rs type="place">Wien</rs> fleißig arbeiten und Lectionen geben.
+      <lb facs="#facs_1_region_1685020619968_378_tl_27" n="N032"/>wolle er in <rs type="place" ref="#hsl_place_id_55">Wien</rs> fleißig arbeiten und Lectionen geben.
       <lb facs="#facs_1_region_1685020619968_378_tl_28" n="N033"/>„Suche nur meinen Vorsatz, Scolaren zu nehmen, bekannter
-      <lb facs="#facs_1_line_1712468874736_148" n="N034"/>zu machen!“ Das echt <rs type="person">Mozart</rs>'sche Postscriptum lautet:
+      <lb facs="#facs_1_line_1712468874736_148" n="N034"/>zu machen!“ Das echt <rs type="person">Mozart</rs>’sche Postscriptum lautet:
       <lb facs="#facs_1_region_1685020619968_378_tl_29" n="N035"/>„Als ich dir einige Seiten schrieb, fiel mir auch manche
-      <lb facs="#facs_1_line_1712468723280_91" n="N036"/>Thräne auf's Papier; nun aber lustig, — fange auf — es
-      <lb facs="#facs_1_line_1712468728248_97" n="N037"/>fliegen viele Busserl herum!“ Das unglückliche Stunden¬
-      <lb facs="#facs_1_region_1685020619968_378_tl_34" n="N038"/>geben, welche Qual für <rs type="person">Mozart</rs>! Er verlangte für eine
-      <lb facs="#facs_1_region_1685020619968_378_tl_35" n="N039"/>Lection einen halben Ducaten, damals etwas über zwei Gul¬</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1685020622937_381_tl_1" n="N001"/>den. Mehr als drei oder vier Lectionen konnte er aber nicht
-      <lb facs="#facs_1_line_1712468586833_45" n="N002"/>annehmen und bekam oft diese nicht. Der uralte Hofcapell¬
-      <lb facs="#facs_1_region_1685020622937_381_tl_2" n="N003"/>meister und ehedem beliebte Operncomponist <hi rendition="#em">
-                  <rs type="person">Gyrowetz</rs>
-               </hi>,
+      <lb facs="#facs_1_line_1712468723280_91" n="N036"/>Thräne auf’s Papier; nun aber lustig, — fange auf — es
+      <lb facs="#facs_1_line_1712468728248_97" n="N037"/>fliegen viele Busserl herum!“ Das unglückliche Stunden
+      <lb facs="#facs_1_region_1685020619968_378_tl_34" n="N038" break="no"/>geben, welche Qual für <rs type="person">Mozart</rs>! Er verlangte für eine
+      <lb facs="#facs_1_region_1685020619968_378_tl_35" n="N039"/>Lection einen halben Ducaten, damals etwas über zwei Gul</p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1685020622937_381_tl_1" n="N001" break="no"/>den. Mehr als drei oder vier Lectionen konnte er aber nicht
+      <lb facs="#facs_1_line_1712468586833_45" n="N002"/>annehmen und bekam oft diese nicht. Der uralte Hofcapell
+      <lb facs="#facs_1_region_1685020622937_381_tl_2" n="N003" break="no"/>meister und ehedem beliebte Operncomponist <hi rendition="#em"><rs type="person">Gyrowetz</rs></hi>,
       <lb facs="#facs_1_region_1685020622937_381_tl_3" n="N004"/>den ich als Student manchmal besuchte, erzählte mir, wie
-      <lb facs="#facs_1_region_1685020622937_381_tl_4" n="N005"/>er am Tag vor seiner Abreise nach <rs type="place">Italien</rs>
-               <rs type="person">Mozart</rs> auf dem
-      <lb facs="#facs_1_line_1712468782872_119" n="N006"/>
-               <rs type="place">Stephansplatz</rs>e begegnet und sich von ihm verabschiedet habe:
+      <lb facs="#facs_1_region_1685020622937_381_tl_4" n="N005"/>er am Tag vor seiner Abreise nach <rs type="place" ref="#hsl_place_id_28">Italien</rs><space quantity="1" unit="char"/><rs type="person">Mozart</rs> auf dem
+      <lb facs="#facs_1_line_1712468782872_119" n="N006"/><rs type="place" ref="#hsl_place_id_571">Stephansplatz</rs>e begegnet und sich von ihm verabschiedet habe:
       <lb facs="#facs_1_region_1685020622937_381_tl_7" n="N007"/>„O, Sie Glücklicher,“ rief <rs type="person">Mozart</rs> schmerzlich aus, „der Sie
-      <lb facs="#facs_1_region_1685020622937_381_tl_8" n="N008"/>nach <rs type="place">Italien</rs> reisen! Könnte ich doch mit! Aber ich muß
-      <lb facs="#facs_1_region_1685020622937_381_tl_9" n="N009"/>hier herumlaufen und Lectionen geben für's tägliche Brot.“
+      <lb facs="#facs_1_region_1685020622937_381_tl_8" n="N008"/>nach <rs type="place" ref="#hsl_place_id_28">Italien</rs> reisen! Könnte ich doch mit! Aber ich muß
+      <lb facs="#facs_1_region_1685020622937_381_tl_9" n="N009"/>hier herumlaufen und Lectionen geben für’s tägliche Brot.“
       <lb facs="#facs_1_region_1685020622937_381_tl_10" n="N010"/>Was <rs type="person">Mozart</rs> damals wünschte und anstrebte, war „ein gutes
       <lb facs="#facs_1_region_1685020622937_381_tl_11" n="N011"/>Engagement an einem Hofe“. Aber Kaiser <rs type="person">Leopold II.</rs> gab
       <lb facs="#facs_1_region_1685020622937_381_tl_12" n="N012"/>seinem Ansuchen um die zweite Hofcapellmeister-Stelle nicht
       <lb facs="#facs_1_region_1685020622937_381_tl_13" n="N013"/>statt, sondern verlieh sie dem <rs type="person">Salieri</rs>. Auch wurde <rs type="person">Mozart</rs> weder
       <lb facs="#facs_1_region_1685020622937_381_tl_14" n="N014"/>zu Hofmusiken geladen, wie <rs type="person">Salieri</rs>, <rs type="person">Haydn</rs>, die beiden
-      <lb facs="#facs_1_region_1685020622937_381_tl_15" n="N015"/>
-               <rs type="person">Stadler</rs>, noch zur Kaiserkrönung nach <rs type="place">Frankfurt</rs>. Die auf
-      <lb facs="#facs_1_region_1685020622937_381_tl_16" n="N016"/>eigene Faust unternommene Kunstreise nach <rs type="place">Frankfurt</rs> brachte
+      <lb facs="#facs_1_region_1685020622937_381_tl_15" n="N015"/><rs type="person">Stadler</rs>, noch zur Kaiserkrönung nach <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs>. Die auf
+      <lb facs="#facs_1_region_1685020622937_381_tl_16" n="N016"/>eigene Faust unternommene Kunstreise nach <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs> brachte
       <lb facs="#facs_1_region_1685020622937_381_tl_17" n="N017"/>nichts ein, ja sie häufte neue Schulden zu den alten. Dem
-      <lb facs="#facs_1_line_1712468659408_61" n="N018"/>braven Kaufmanne <rs type="person">Puchberg</rs>, der ihm wiederholt mit Dar¬
-      <lb facs="#facs_1_region_1685020622937_381_tl_18" n="N019"/>lehen aushalf, schuldete <rs type="person">Mozart</rs> bereits über 2000 Gulden.
+      <lb facs="#facs_1_line_1712468659408_61" n="N018"/>braven Kaufmanne <rs type="person">Puchberg</rs>, der ihm wiederholt mit Dar
+      <lb facs="#facs_1_region_1685020622937_381_tl_18" n="N019" break="no"/>lehen aushalf, schuldete <rs type="person">Mozart</rs> bereits über 2000 Gulden.
       <lb facs="#facs_1_region_1685020622937_381_tl_19" n="N020"/>Vielleicht war er überdies in den Händen von Wucherern.
       <lb facs="#facs_1_region_1685020622937_381_tl_20" n="N021"/>Auch dem Versatzamt blieb er nicht fern; vor der Reise
-      <lb facs="#facs_1_region_1685020622937_381_tl_21" n="N022"/>nach <rs type="place">Frankfurt</rs> mußte er sein ganzes Silbergeräth versetzen.
-      <lb facs="#facs_1_region_1685020622937_381_tl_22" n="N023"/>Noch im Mai <date>1791</date> hatte er sich um die <hi rendition="#em">unbesoldete</hi>
-               <lb facs="#facs_1_region_1685020622937_381_tl_23" n="N024"/>Adjunctenstelle an Seite des alten Capellmeisters <rs type="person">Hofmann</rs>
-               <lb facs="#facs_1_region_1685020622937_381_tl_24" n="N025"/>in der Stephanskirche beworben, blos um eventuell die An¬
-      <lb facs="#facs_1_region_1685020622937_381_tl_25" n="N026"/>wartschaft auf dessen Amt zu bekommen. Aber der hochbetagte
+      <lb facs="#facs_1_region_1685020622937_381_tl_21" n="N022"/>nach <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs> mußte er sein ganzes Silbergeräth versetzen.
+      <lb facs="#facs_1_region_1685020622937_381_tl_22" n="N023"/>Noch im Mai <date>1791</date> hatte er sich um die <hi rendition="#em">unbesoldete</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685020622937_381_tl_23" n="N024"/>Adjunctenstelle an Seite des alten Capellmeisters <rs type="person">Hofmann</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685020622937_381_tl_24" n="N025"/>in der Stephanskirche beworben, blos um eventuell die An
+      <lb facs="#facs_1_region_1685020622937_381_tl_25" n="N026" break="no"/>wartschaft auf dessen Amt zu bekommen. Aber der hochbetagte
       <lb facs="#facs_1_region_1685020622937_381_tl_26" n="N027"/>Domcapellmeister überlebte den 36jährigen Adjuncten.
-      <lb facs="#facs_1_region_1685020622937_381_tl_27" n="N028"/>Unter so drückenden Verhältnissen neigte sich <rs type="person">Mozart</rs>'s
+            </p><p>
+      <lb facs="#facs_1_region_1685020622937_381_tl_27" n="N028"/>Unter so drückenden Verhältnissen neigte sich <rs type="person">Mozart</rs>’s
       <lb facs="#facs_1_region_1685020622937_381_tl_28" n="N029"/>Leben seinem Ende zu. Lange sehen wir sein glückliches
       <lb facs="#facs_1_region_1685020622937_381_tl_29" n="N030"/>Temperament, seinen natürlichen Frohsinn vorhalten. Erst
       <lb facs="#facs_1_region_1685020622937_381_tl_30" n="N031"/>mit der unheimlichen Bestellung des <rs type="bibl">Requiem</rs>s versagte sein
@@ -1223,11 +1211,11 @@
       <lb facs="#facs_1_region_1685020622937_381_tl_34" n="N036"/>ich mich seit ein paar Jahren mit diesem wahren, besten
       <lb facs="#facs_1_region_1685020622937_381_tl_35" n="N037"/>Freunde des Menschen so bekannt gemacht, daß sein Bild
       <lb facs="#facs_1_region_1685020622937_381_tl_36" n="N038"/>nicht allein nichts Schreckendes mehr für mich hat, sondern
-      <lb facs="#facs_1_line_1712468770664_107" n="N039"/>sehr viel Beruhigendes und Tröstendes.“ Auf Grund dieser</p>
+      <lb facs="#facs_1_line_1712468770664_107" n="N039"/>sehr viel Beruhigendes und Tröstendes.“ Auf Grund dieser<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_line_1712469027967_187" n="N001"/>Briefstelle wird hie und da behauptet, <rs type="person">Mozart</rs> habe den Tod
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1712469027967_187" n="N001"/>Briefstelle wird hie und da behauptet, <rs type="person">Mozart</rs> habe den Tod
       <lb facs="#facs_2_region_1685020635769_387_tl_1" n="N002"/>mit heiterer Ruhe erwartet. Wie wäre es aber denkbar, daß
       <lb facs="#facs_2_region_1685020635769_387_tl_2" n="N003"/>ein lebensfroher Mensch wie <rs type="person">Mozart</rs> in der Vollkraft
       <lb facs="#facs_2_region_1685020635769_387_tl_3" n="N004"/>seiner Jahre und seines Schaffens, an der Seite einer
@@ -1237,9 +1225,8 @@
       <lb facs="#facs_2_region_1685020635769_387_tl_7" n="N008"/>welcher seine Freunde und <rs type="person">Constanze</rs> ihn während der letzten
       <lb facs="#facs_2_region_1685020635769_387_tl_8" n="N009"/>Monate nicht zu reißen vermochten, was war sie Anderes,
       <lb facs="#facs_2_line_1712469146944_275" n="N010"/>als Todesahnung, Todesfurcht? In einem (wahrscheinlich
-      <lb facs="#facs_2_line_1712469167992_281" n="N011"/>an L. da <rs type="person">Ponte</rs> gerichteten) <rs type="place">italienisch</rs>en Briefe schreibt
-      <lb facs="#facs_2_region_1685020635769_387_tl_9" n="N012"/>
-               <rs type="person">Mozart</rs>: „Mein Kopf ist wie zerstückt, meine Kraft gelähmt,
+      <lb facs="#facs_2_line_1712469167992_281" n="N011"/>an L. da <rs type="person">Ponte</rs> gerichteten) <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Briefe schreibt
+      <lb facs="#facs_2_region_1685020635769_387_tl_9" n="N012"/><rs type="person">Mozart</rs>: „Mein Kopf ist wie zerstückt, meine Kraft gelähmt,
       <lb facs="#facs_2_region_1685020635769_387_tl_10" n="N013"/>und das Bild jenes Unbekannten (der das <rs type="bibl">Requiem</rs> bestellte)
       <lb facs="#facs_2_region_1685020635769_387_tl_11" n="N014"/>steht immer vor meinen Augen. Ich sehe ihn beharrlich, wie
       <lb facs="#facs_2_line_1712469045640_205" n="N015"/>er mich bittet, antreibt und ungeduldig die Arbeit abverlangt.
@@ -1250,111 +1237,94 @@
       <lb facs="#facs_2_region_1685020635769_387_tl_23" n="N020"/>das wahr und tief heraus, aus schwer bedrücktem Herzen!
       <lb facs="#facs_2_region_1685020635769_387_tl_24" n="N021"/>Ja, <rs type="person">Mozart</rs> war wol der Letzte, der auf das Anpochen des
       <lb facs="#facs_2_region_1685020635769_387_tl_25" n="N022"/>Sensenmannes mit ruhiger Heiterkeit „Herein!“ rufen mochte.
-      <lb facs="#facs_2_region_1685020635769_387_tl_26" n="N023"/>Vielmehr bestätigt er den Ausspruch La <rs type="person">Rochefoucauld</rs>'s: „Tout
-      <lb facs="#facs_2_line_1712469090592_244" n="N024"/>homme, qui sait voir la mort, telle qu'elle est, trouve que
-      <lb facs="#facs_2_line_1712469096568_250" n="N025"/>c'est une chose épouvantable.“
-      <lb facs="#facs_2_region_1685020635769_387_tl_31" n="N026"/>Irrig ist auch die viel verbreitete Meinung, <rs type="person">Mozart</rs>'s
+      <lb facs="#facs_2_region_1685020635769_387_tl_26" n="N023"/>Vielmehr bestätigt er den Ausspruch La <rs type="person">Rochefoucauld</rs>’s: „Tout
+      <lb facs="#facs_2_line_1712469090592_244" n="N024"/>homme, qui sait voir la mort, telle qu’elle est, trouve que
+      <lb facs="#facs_2_line_1712469096568_250" n="N025"/>c’est une chose épouvantable.“
+            </p><p>
+      <lb facs="#facs_2_region_1685020635769_387_tl_31" n="N026"/>Irrig ist auch die viel verbreitete Meinung, <rs type="person">Mozart</rs>’s
       <lb facs="#facs_2_region_1685020635769_387_tl_32" n="N027"/>Zeitgenossen seien gleich nach seinem Tode zum Bewußtsein
       <lb facs="#facs_2_line_1712469257295_319" n="N028"/>ihrer Indolenz und Ungerechtigkeit gekommen. In diesem
-      <lb facs="#facs_2_region_1685020635769_387_tl_33" n="N029"/>Falle wäre schon das armselige Leichenbegängniß, die Gleich¬
-      <lb facs="#facs_2_region_1685020635769_387_tl_34" n="N030"/>giltigkeit gegen seine alsbald unauffindbare Grabstätte, endlich
+      <lb facs="#facs_2_region_1685020635769_387_tl_33" n="N029"/>Falle wäre schon das armselige Leichenbegängniß, die Gleich
+      <lb facs="#facs_2_region_1685020635769_387_tl_34" n="N030" break="no"/>giltigkeit gegen seine alsbald unauffindbare Grabstätte, endlich
       <lb facs="#facs_2_region_1685020635769_387_tl_35" n="N031"/>die jahrelange klägliche Dürftigkeit seiner <rs type="person">Frau</rs> und Kinder
-      <lb facs="#facs_2_region_1685020635769_387_tl_36" n="N032"/>nicht denkbar gewesen. <rs type="person">Mozart</rs>'s Hinterlassenschaft betrug
+      <lb facs="#facs_2_region_1685020635769_387_tl_36" n="N032"/>nicht denkbar gewesen. <rs type="person">Mozart</rs>’s Hinterlassenschaft betrug
       <lb facs="#facs_2_region_1685020635769_387_tl_37" n="N033"/>sechzig Gulden, seine sämmtlichen Habseligkeiten wurden auf
-      <lb facs="#facs_2_region_1685020635769_387_tl_38" n="N034"/>nicht ganz verhundert Gulden, seine Schulden auf drei¬
-      <lb facs="#facs_2_region_1685020635769_387_tl_39" n="N035"/>tausend Gulden geschätzt. Kaiser <rs type="person">Leopold II.</rs> bewilligte zwar
-      <lb facs="#facs_2_region_1685020635769_387_tl_40" n="N036"/>für <rs type="person">Mozart</rs>'s <rs type="person">Witwe</rs> eine Pension von zweihundertfünfzig
+      <lb facs="#facs_2_region_1685020635769_387_tl_38" n="N034"/>nicht ganz verhundert Gulden, seine Schulden auf drei
+      <lb facs="#facs_2_region_1685020635769_387_tl_39" n="N035" break="no"/>tausend Gulden geschätzt. Kaiser <rs type="person">Leopold II.</rs> bewilligte zwar
+      <lb facs="#facs_2_region_1685020635769_387_tl_40" n="N036"/>für <rs type="person">Mozart</rs>’s <rs type="person">Witwe</rs> eine Pension von zweihundertfünfzig
       <lb facs="#facs_2_region_1685020635769_387_tl_41" n="N037"/>Gulden, daß er aber die Schulden bezahlte, wie wir soeben
-      <lb facs="#facs_2_line_1712469314606_338" n="N038"/>in einem neuen <rs type="person">Mozart</rs>-Artikel lesen, ist ungenau. Er hat</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1685020639196_390_tl_1" n="N001"/>nur reichlich beigesteuert zu dem Concert, welches die Witwe
-      <lb facs="#facs_2_region_1685020639196_390_tl_2" n="N002"/>im Saale des Hof-Traiteurs <rs type="person">Jahn</rs> in der <rs type="place">Himmelpfortgasse</rs>
-               <lb facs="#facs_2_region_1685020639196_390_tl_3" n="N003"/>veranstaltete. Auch später noch, bis zu ihrer zweiten Verhei¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_4" n="N004"/>ratung mit dem <rs type="place">russisch</rs>en Staatsrathe <hi rendition="#em">
-                  <rs type="person">Nissen</rs>
-               </hi>, gab <rs type="person">Constanze</rs>
-               <lb facs="#facs_2_region_1685020639196_390_tl_5" n="N005"/>in verschiedenen Städten Akademien zum Besten der Familie,
-      <lb facs="#facs_2_region_1685020639196_390_tl_6" n="N006"/>wobei ihr kleiner Sohn <rs type="person">Wolfgang</rs> Lieder aus der „<rs type="bibl">Zauber¬</rs>
-               <lb facs="#facs_2_line_1712469357487_350" n="N007"/>
-               <rs type="bibl">flöte</rs>“ sang. Aber nicht blos gegen <rs type="person">Mozart</rs>'s Familie, auch
+      <lb facs="#facs_2_line_1712469314606_338" n="N038"/>in einem neuen <rs type="person">Mozart</rs>-Artikel lesen, ist ungenau. Er hat<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685020639196_390_tl_1" n="N001"/>nur reichlich beigesteuert zu dem Concert, welches die Witwe
+      <lb facs="#facs_2_region_1685020639196_390_tl_2" n="N002"/>im Saale des Hof-Traiteurs <rs type="person">Jahn</rs> in der <rs type="place" ref="#hsl_place_id_572">Himmelpfortgasse</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685020639196_390_tl_3" n="N003"/>veranstaltete. Auch später noch, bis zu ihrer zweiten Verhei
+      <lb facs="#facs_2_region_1685020639196_390_tl_4" n="N004" break="no"/>ratung mit dem <rs type="place" ref="#hsl_place_id_48">russisch</rs>en Staatsrathe <hi rendition="#em"><rs type="person">Nissen</rs></hi>, gab <rs type="person">Constanze</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685020639196_390_tl_5" n="N005"/>in verschiedenen Städten Akademien zum Besten der Familie,
+      <lb facs="#facs_2_region_1685020639196_390_tl_6" n="N006"/>wobei ihr kleiner Sohn <rs type="person">Wolfgang</rs> Lieder aus der „<rs type="bibl">Zauber
+      <lb facs="#facs_2_line_1712469357487_350" n="N007" break="no"/>flöte</rs>“ sang. Aber nicht blos gegen <rs type="person">Mozart</rs>’s Familie, auch
       <lb facs="#facs_2_region_1685020639196_390_tl_7" n="N008"/>gegen seine Werke blieb man noch lange Zeit gleichgiltig.
-      <lb facs="#facs_2_region_1685020639196_390_tl_8" n="N009"/>Als die <rs type="person">Witwe</rs>
-               <rs type="person">Mozart</rs>'s einen Clavierauszug von „<rs type="bibl">Ido¬</rs>
-               <lb facs="#facs_2_region_1685020639196_390_tl_9" n="N010"/>
-               <rs type="bibl">meneo</rs>“ nach der Original-Partitur auf Pränumeration an¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_10" n="N011"/>kündigte, meldete sich — Niemand. Auch mit dem letzten
-      <lb facs="#facs_2_region_1685020639196_390_tl_11" n="N012"/>
-               <rs type="bibl">Clavier-Concert</rs> von <rs type="person">Mozart</rs> (Nr. 17 B-dur), dessen Heraus¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_12" n="N013"/>gabe sie nicht aus eigenen Mitteln bestreiten konnte, hatte die
-      <lb facs="#facs_2_region_1685020639196_390_tl_13" n="N014"/>
-               <rs type="person">Witwe</rs> den gleichen entmuthigenden Erfolg.
+      <lb facs="#facs_2_region_1685020639196_390_tl_8" n="N009"/>Als die <rs type="person">Witwe</rs><space quantity="1" unit="char"/><rs type="person">Mozart</rs>’s einen Clavierauszug von „<rs type="bibl">Ido
+      <lb facs="#facs_2_region_1685020639196_390_tl_9" n="N010" break="no"/>meneo</rs>“ nach der Original-Partitur auf Pränumeration an
+      <lb facs="#facs_2_region_1685020639196_390_tl_10" n="N011" break="no"/>kündigte, meldete sich — Niemand. Auch mit dem letzten
+      <lb facs="#facs_2_region_1685020639196_390_tl_11" n="N012"/><rs type="bibl">Clavier-Concert</rs> von <rs type="person">Mozart</rs> (Nr. 17 B-dur), dessen Heraus
+      <lb facs="#facs_2_region_1685020639196_390_tl_12" n="N013" break="no"/>gabe sie nicht aus eigenen Mitteln bestreiten konnte, hatte die
+      <lb facs="#facs_2_region_1685020639196_390_tl_13" n="N014"/><rs type="person">Witwe</rs> den gleichen entmuthigenden Erfolg.
+            </p><p>
       <lb facs="#facs_2_region_1685020639196_390_tl_14" n="N015"/>Das sind unsäglich traurige, beschämende Erinnerungen.
       <lb facs="#facs_2_region_1685020639196_390_tl_15" n="N016"/>Aus dem niederdrückenden Gefühle derselben erhebt uns nur
-      <lb facs="#facs_2_region_1685020639196_390_tl_16" n="N017"/>die Wahrnehmung, daß jetzt die Nachwelt an <rs type="person">Mozart</rs>'s Wer¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_17" n="N018"/>ken gutzumachen sucht, was seine Zeitgenossen an ihm selbst
-      <lb facs="#facs_2_line_1712469203911_297" n="N019"/>gesündigt. Ein Fest, wie das von ganz <rs type="place">Europa</rs> gefeierte
-      <lb facs="#facs_2_region_1685020639196_390_tl_20" n="N020"/>
-               <hi rendition="#em">
-                  <rs type="person">Don-Juan</rs>-</hi>Jubiläum (<date>1887</date>) ist in der gesammten
-      <lb facs="#facs_2_region_1685020639196_390_tl_21" n="N021"/>Kunstgeschichte ohne Beispiel. Und jetzt wetteifern die Opern¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_22" n="N022"/>bühnen, die großen und kleinen Concert-Institute in der
+      <lb facs="#facs_2_region_1685020639196_390_tl_16" n="N017"/>die Wahrnehmung, daß jetzt die Nachwelt an <rs type="person">Mozart</rs>’s Wer
+      <lb facs="#facs_2_region_1685020639196_390_tl_17" n="N018" break="no"/>ken gutzumachen sucht, was seine Zeitgenossen an ihm selbst
+      <lb facs="#facs_2_line_1712469203911_297" n="N019"/>gesündigt. Ein Fest, wie das von ganz <rs type="place" ref="#hsl_place_id_19">Europa</rs> gefeierte
+      <lb facs="#facs_2_region_1685020639196_390_tl_20" n="N020"/><hi rendition="#em"><rs type="person">Don-Juan</rs>-</hi>Jubiläum (<date>1887</date>) ist in der gesammten
+      <lb facs="#facs_2_region_1685020639196_390_tl_21" n="N021"/>Kunstgeschichte ohne Beispiel. Und jetzt wetteifern die Opern
+      <lb facs="#facs_2_region_1685020639196_390_tl_22" n="N022" break="no"/>bühnen, die großen und kleinen Concert-Institute in der
       <lb facs="#facs_2_region_1685020639196_390_tl_23" n="N023"/>würdigen Vorführung der Werke unseres Tondichters.
-      <lb facs="#facs_2_region_1685020639196_390_tl_24" n="N024"/>Es ist eine Art großartiger <rs type="person">Mozart</rs>-Ausstellung, wo¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_25" n="N025"/>mit heute die musikalische Welt die hundertste Wie¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_26" n="N026"/>derkehr seines Todestages in ernster Feier begeht.
+      <lb facs="#facs_2_region_1685020639196_390_tl_24" n="N024"/>Es ist eine Art großartiger <rs type="person">Mozart</rs>-Ausstellung, wo
+      <lb facs="#facs_2_region_1685020639196_390_tl_25" n="N025" break="no"/>mit heute die musikalische Welt die hundertste Wie
+      <lb facs="#facs_2_region_1685020639196_390_tl_26" n="N026" break="no"/>derkehr seines Todestages in ernster Feier begeht.
       <lb facs="#facs_2_region_1685020639196_390_tl_27" n="N027"/>Die Philharmoniker machten den Anfang mit einem Concert,
-      <lb facs="#facs_2_region_1685020639196_390_tl_28" n="N028"/>das Hofcapellmeister Hanns <rs type="person">Richter</rs> aus <rs type="person">Mozart</rs>'schen Wer¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_29" n="N029"/>ken sinnreich zusammengestellt hatte. Die „<rs type="bibl">Maurerische</rs>
-               <lb facs="#facs_2_region_1685020639196_390_tl_30" n="N030"/>
-               <rs type="bibl">Trauermusik</rs>“ leitete mit ihrer schwermüthigen Feierlichkeit
-      <lb facs="#facs_2_region_1685020639196_390_tl_31" n="N031"/>in die dem Gedenktage entsprechende Stimmung und er¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_32" n="N032"/>innerte zugleich an die humanen und freisinnigen Bestrebun¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_33" n="N033"/>gen <rs type="person">Mozart</rs>'s als Mitglied des Freimaurer-Ordens. Es ist
-      <lb facs="#facs_2_region_1685020639196_390_tl_34" n="N034"/>eine Gelegenheits-Composition zu der in der Loge „zur ge¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_35" n="N035"/>krönten Hoffnung“ abgehaltenen Trauerfeier für zwei Frei¬
-      <lb facs="#facs_2_line_1712469295927_333" n="N036"/>maurer-„Brüder“; eine Klage von schlichtem, ungesucht
-      <lb facs="#facs_2_region_1685020639196_390_tl_38" n="N037"/>würdevollem Ausdrucke. Die tiefen Grabestöne der Basset¬
-      <lb facs="#facs_2_region_1685020639196_390_tl_39" n="N038"/>hörner und des Contrafagotts verstärken die düstere Färbung</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1685020643218_393_tl_1" n="N001"/>dieses Adagios, dessen charaktervolle Klangschönheit wir übri¬
-      <lb facs="#facs_2_region_1685020643218_393_tl_2" n="N002"/>gens höher stellen, als ihren musikalischen Ideengehalt. Eine
-      <lb facs="#facs_2_region_1685020643218_393_tl_3" n="N003"/>zweite kürzere Instrumental-Composition von <rs type="person">Mozart</rs>, <rs type="bibl">Adagio</rs>
-               <lb facs="#facs_2_region_1685020643218_393_tl_4" n="N004"/>
-               <rs type="bibl">und Fuge</rs> in C-moll, kam im Philharmonischen Concert zur
+      <lb facs="#facs_2_region_1685020639196_390_tl_28" n="N028"/>das Hofcapellmeister Hanns <rs type="person">Richter</rs> aus <rs type="person">Mozart</rs>’schen Wer
+      <lb facs="#facs_2_region_1685020639196_390_tl_29" n="N029" break="no"/>ken sinnreich zusammengestellt hatte. Die „<rs type="bibl">Maurerische
+      <lb facs="#facs_2_region_1685020639196_390_tl_30" n="N030"/>Trauermusik</rs>“ leitete mit ihrer schwermüthigen Feierlichkeit
+      <lb facs="#facs_2_region_1685020639196_390_tl_31" n="N031"/>in die dem Gedenktage entsprechende Stimmung und er
+      <lb facs="#facs_2_region_1685020639196_390_tl_32" n="N032" break="no"/>innerte zugleich an die humanen und freisinnigen Bestrebun
+      <lb facs="#facs_2_region_1685020639196_390_tl_33" n="N033" break="no"/>gen <rs type="person">Mozart</rs>’s als Mitglied des Freimaurer-Ordens. Es ist
+      <lb facs="#facs_2_region_1685020639196_390_tl_34" n="N034"/>eine Gelegenheits-Composition zu der in der Loge „zur ge
+      <lb facs="#facs_2_region_1685020639196_390_tl_35" n="N035" break="no"/>krönten Hoffnung“ abgehaltenen Trauerfeier für zwei Frei
+      <lb facs="#facs_2_line_1712469295927_333" n="N036" break="no"/>maurer-„Brüder“; eine Klage von schlichtem, ungesucht
+      <lb facs="#facs_2_region_1685020639196_390_tl_38" n="N037"/>würdevollem Ausdrucke. Die tiefen Grabestöne der Basset
+      <lb facs="#facs_2_region_1685020639196_390_tl_39" n="N038" break="no"/>hörner und des Contrafagotts verstärken die düstere Färbung<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1685020643218_393_tl_1" n="N001"/>dieses Adagios, dessen charaktervolle Klangschönheit wir übri
+      <lb facs="#facs_2_region_1685020643218_393_tl_2" n="N002" break="no"/>gens höher stellen, als ihren musikalischen Ideengehalt. Eine
+      <lb facs="#facs_2_region_1685020643218_393_tl_3" n="N003"/>zweite kürzere Instrumental-Composition von <rs type="person">Mozart</rs>, <rs type="bibl">Adagio
+      <lb facs="#facs_2_region_1685020643218_393_tl_4" n="N004"/>und Fuge</rs> in C-moll, kam im Philharmonischen Concert zur
       <lb facs="#facs_2_region_1685020643218_393_tl_5" n="N005"/>ersten Aufführung. <rs type="person">Mozart</rs> hatte diese Composition, ein
       <lb facs="#facs_2_region_1685020643218_393_tl_6" n="N006"/>großes Meisterstück in kleiner Form, ursprünglich für zwei
       <lb facs="#facs_2_region_1685020643218_393_tl_7" n="N007"/>Claviere geschrieben, dann erst für das Streichquartett gesetzt.
       <lb facs="#facs_2_region_1685020643218_393_tl_8" n="N008"/>In dem richtigen Gefühle, daß sein ungemein energischer
-      <lb facs="#facs_2_region_1685020643218_393_tl_9" n="N009"/>Charakter eine stärkere Tonfülle verlangt, läßt H. <rs type="person">Richter</rs>
-               <lb facs="#facs_2_region_1685020643218_393_tl_10" n="N010"/>das Stück vom ganzen Streichorchester spielen. Freilich werden
-      <lb facs="#facs_2_region_1685020643218_393_tl_11" n="N011"/>sich wenige Orchester finden, welche das kunstvolle Stimmen¬
-      <lb facs="#facs_2_region_1685020643218_393_tl_12" n="N012"/>gewebe dieser Fuge mit solcher Klarheit auszuführen ver¬
-      <lb facs="#facs_2_region_1685020643218_393_tl_13" n="N013"/>möchten, wie unsere Philharmoniker. Der Applaus nach dieser
+      <lb facs="#facs_2_region_1685020643218_393_tl_9" n="N009"/>Charakter eine stärkere Tonfülle verlangt, läßt H. <rs type="person">Richter</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685020643218_393_tl_10" n="N010"/>das Stück vom ganzen Streichorchester spielen. Freilich werden
+      <lb facs="#facs_2_region_1685020643218_393_tl_11" n="N011"/>sich wenige Orchester finden, welche das kunstvolle Stimmen
+      <lb facs="#facs_2_region_1685020643218_393_tl_12" n="N012" break="no"/>gewebe dieser Fuge mit solcher Klarheit auszuführen ver
+      <lb facs="#facs_2_region_1685020643218_393_tl_13" n="N013" break="no"/>möchten, wie unsere Philharmoniker. Der Applaus nach dieser
       <lb facs="#facs_2_region_1685020643218_393_tl_14" n="N014"/>Leistung steigerte sich zum Jubel nach jedem Satze der
-      <lb facs="#facs_2_region_1685020643218_393_tl_15" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Es-dur-Symphonie</rs>
-               </hi>, diesem Ideal an Grazie, Wohl¬
-      <lb facs="#facs_2_region_1685020643218_393_tl_16" n="N016"/>laut und unaufdringlicher contrapunktischer Kunst. Mit be¬
-      <lb facs="#facs_2_region_1685020643218_393_tl_17" n="N017"/>sonderer Freude begrüßten wir <rs type="person">Mozart</rs>'s letztes <rs type="bibl">Claviercon¬</rs>
-               <lb facs="#facs_2_region_1685020643218_393_tl_18" n="N018"/>
-               <rs type="bibl">cert</rs> (B-dur, Nr. 17), das in <rs type="place">Wien</rs> wahrscheinlich nicht ge¬
-      <lb facs="#facs_2_region_1685020643218_393_tl_19" n="N019"/>hört worden ist, seit <rs type="person">Mozart</rs> selbst es in einer seiner Aka¬
-      <lb facs="#facs_2_region_1685020643218_393_tl_20" n="N020"/>demien spielte. Es ist ein überaus freundliches, klangschönes
+      <lb facs="#facs_2_region_1685020643218_393_tl_15" n="N015"/><hi rendition="#em"><rs type="bibl">Es-dur-Symphonie</rs></hi>, diesem Ideal an Grazie, Wohl
+      <lb facs="#facs_2_region_1685020643218_393_tl_16" n="N016" break="no"/>laut und unaufdringlicher contrapunktischer Kunst. Mit be
+      <lb facs="#facs_2_region_1685020643218_393_tl_17" n="N017" break="no"/>sonderer Freude begrüßten wir <rs type="person">Mozart</rs>’s letztes <rs type="bibl">Claviercon
+      <lb facs="#facs_2_region_1685020643218_393_tl_18" n="N018" break="no"/>cert</rs> (B-dur, Nr. 17), das in <rs type="place" ref="#hsl_place_id_55">Wien</rs> wahrscheinlich nicht ge
+      <lb facs="#facs_2_region_1685020643218_393_tl_19" n="N019" break="no"/>hört worden ist, seit <rs type="person">Mozart</rs> selbst es in einer seiner Aka
+      <lb facs="#facs_2_region_1685020643218_393_tl_20" n="N020" break="no"/>demien spielte. Es ist ein überaus freundliches, klangschönes
       <lb facs="#facs_2_region_1685020643218_393_tl_21" n="N021"/>Werk, aus dem zwar nicht der volle Gedankenreichthum,
       <lb facs="#facs_2_line_1712469226295_303" n="N022"/>aber doch die ganze Liebenswürdigkeit und heitere Anmuth
       <lb facs="#facs_2_region_1685020643218_393_tl_22" n="N023"/>seines Schöpfers ausklingt. Das Rondo hat dasselbe Thema
-      <lb facs="#facs_2_region_1685020643218_393_tl_23" n="N024"/>wie <rs type="person">Mozart</rs>'s zur selben Zeit (Januar <date>1791</date>) für eine
+      <lb facs="#facs_2_region_1685020643218_393_tl_23" n="N024"/>wie <rs type="person">Mozart</rs>’s zur selben Zeit (Januar <date>1791</date>) für eine
       <lb facs="#facs_2_region_1685020643218_393_tl_24" n="N025"/>Kinderzeitschrift componirtes Lied: „Komm lieber Mai und
       <lb facs="#facs_2_region_1685020643218_393_tl_25" n="N026"/>mache die Bäume wieder grün“, das sich noch im Munde
-      <lb facs="#facs_2_region_1685020643218_393_tl_26" n="N027"/>der Kinder erhalten haben soll. Fräulein <hi rendition="#em">Marie <rs type="person" continued="true">Bau¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1685020643218_393_tl_27" n="N028"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">meyer</rs>
-               </hi>, vom Publicum mit herzlichem Applaus begrüßt
+      <lb facs="#facs_2_region_1685020643218_393_tl_26" n="N027"/>der Kinder erhalten haben soll. Fräulein <hi rendition="#em">Marie <rs type="person">Bau
+      <lb facs="#facs_2_region_1685020643218_393_tl_27" n="N028" break="no"/>meyer</rs></hi>, vom Publicum mit herzlichem Applaus begrüßt
       <lb facs="#facs_2_region_1685020643218_393_tl_28" n="N029"/>zeigte sich da als vollendete <rs type="person">Mozart</rs>spielerin. Das dünkt wol
       <lb facs="#facs_2_region_1685020643218_393_tl_29" n="N030"/>unserer heutigen Clavier-Artillerie nichts Besonderes und ist
       <lb facs="#facs_2_region_1685020643218_393_tl_30" n="N031"/>doch bereits eine rechte Seltenheit. Die modernen Virtuosen
@@ -1362,90 +1332,73 @@
       <lb facs="#facs_2_region_1685020643218_393_tl_32" n="N033"/>zu verblüffen. Aber <rs type="person">Mozart</rs> spielen, wie er gespielt sein will,
       <lb facs="#facs_2_region_1685020643218_393_tl_33" n="N034"/>ist eine Kunst für sich, die neben anderen Tugenden
       <lb facs="#facs_2_region_1685020643218_393_tl_34" n="N035"/>noch die seltenste verlangt: künstlerische Bescheidenheit.
-      <lb facs="#facs_2_region_1685020643218_393_tl_35" n="N036"/>In Fräulein <hi rendition="#em">
-                  <rs type="person">Baumeyer</rs>
-               </hi> sehen wir den unvergeßlichen
-      <lb facs="#facs_2_region_1685020643218_393_tl_36" n="N037"/>
-               <rs type="person">Mozart</rs>-Vortrag ihres Meisters Julius <rs type="person">Epstein</rs> neu aufleben.
-      <lb facs="#facs_2_line_1712469333391_343" n="N038"/>Einer Künstlerin, welche allerschwierigste Aufgaben, wie</p>
+      <lb facs="#facs_2_region_1685020643218_393_tl_35" n="N036"/>In Fräulein <hi rendition="#em"><rs type="person">Baumeyer</rs></hi> sehen wir den unvergeßlichen
+      <lb facs="#facs_2_region_1685020643218_393_tl_36" n="N037"/><rs type="person">Mozart</rs>-Vortrag ihres Meisters Julius <rs type="person">Epstein</rs> neu aufleben.
+      <lb facs="#facs_2_line_1712469333391_343" n="N038"/>Einer Künstlerin, welche allerschwierigste Aufgaben, wie<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1685020655976_399_tl_1" n="N001"/>
-               <rs type="person">Brahms</rs>' <rs type="bibl">D-moll-Concert</rs>, tadellos bewältigt, steht es dop¬
-      <lb facs="#facs_3_region_1685020655976_399_tl_2" n="N002"/>pelt schön, wenn sie ein <rs type="person">Mozart</rs>'sches <rs type="bibl">Concert</rs> mit voller
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1685020655976_399_tl_1" n="N001"/><rs type="person">Brahms</rs>’ <rs type="bibl">D-moll-Concert</rs>, tadellos bewältigt, steht es dop
+      <lb facs="#facs_3_region_1685020655976_399_tl_2" n="N002" break="no"/>pelt schön, wenn sie ein <rs type="person">Mozart</rs>’sches <rs type="bibl">Concert</rs> mit voller
       <lb facs="#facs_3_region_1685020655976_399_tl_3" n="N003"/>Hingebung spielt, ohne mit eigenen virtuosen Cadenzen für
       <lb facs="#facs_3_region_1685020655976_399_tl_4" n="N004"/>ihre Eitelkeit zu sorgen. Fräulein <rs type="person">Baumeyer</rs> begnügte sich
-      <lb facs="#facs_3_region_1685020655976_399_tl_5" n="N005"/>pietätvoll mit den von <rs type="person">Mozart</rs> selbst hinzucomponirten Ca¬
-      <lb facs="#facs_3_region_1685020655976_399_tl_6" n="N006"/>denzen, welche über eine geläufige Scalentechnik, Arpeggien
+      <lb facs="#facs_3_region_1685020655976_399_tl_5" n="N005"/>pietätvoll mit den von <rs type="person">Mozart</rs> selbst hinzucomponirten Ca
+      <lb facs="#facs_3_region_1685020655976_399_tl_6" n="N006" break="no"/>denzen, welche über eine geläufige Scalentechnik, Arpeggien
       <lb facs="#facs_3_region_1685020655976_399_tl_7" n="N007"/>und etliche Triller nicht hinausgehen. Mit ihrem schönen,
       <lb facs="#facs_3_region_1685020655976_399_tl_8" n="N008"/>singenden Anschlag, ihrem perlenden Passagenspiel, vor Allem
       <lb facs="#facs_3_region_1685020655976_399_tl_9" n="N009"/>mit ihrer feinen musikalischen Empfindung, die nirgends zu
       <lb facs="#facs_3_region_1685020655976_399_tl_10" n="N010"/>viel oder zu wenig thut, hat Fräulein <rs type="person">Baumeyer</rs> dem
-      <lb facs="#facs_3_region_1685020655976_399_tl_11" n="N011"/>
-               <rs type="person">Mozart</rs>'schen <rs type="bibl">Concert</rs> zu einer Wirkung verholfen, welche man
+      <lb facs="#facs_3_region_1685020655976_399_tl_11" n="N011"/><rs type="person">Mozart</rs>’schen <rs type="bibl">Concert</rs> zu einer Wirkung verholfen, welche man
       <lb facs="#facs_3_region_1685020655976_399_tl_12" n="N012"/>ihm kaum zugetraut hätte.
+            </p><p>
       <lb facs="#facs_3_region_1685020655976_399_tl_13" n="N013"/>Schade, daß sich immer erst ein Jubiläum einstellen
-      <lb facs="#facs_3_region_1685020655976_399_tl_14" n="N014"/>muß, damit man ein <rs type="person">Mozart</rs>'sches Concert zu hören be¬
-      <lb facs="#facs_3_region_1685020655976_399_tl_15" n="N015"/>komme. Diesem Gedanken entstammt eine eben erschienene
-      <lb facs="#facs_3_region_1685020655976_399_tl_16" n="N016"/>sehr beherzigenswerthe Schrift von dem Director der <rs type="place">Leipzig</rs>er
-      <lb facs="#facs_3_region_1685020655976_399_tl_17" n="N017"/>Gewandhaus-Concerte, Professor Karl <hi rendition="#em">
-                  <rs type="person">Reinecke</rs>
-               </hi>: „<rs type="bibl">Zur</rs>
-               <lb facs="#facs_3_region_1685020655976_399_tl_18" n="N018"/>
-               <rs type="bibl">Wiederbelebung der Mozart'schen Clavierconcerte</rs>.“ Seit
-      <lb facs="#facs_3_line_1712469877878_522" n="N019"/>Ferdinand <hi rendition="#em">
-                  <rs type="person">Hiller</rs>
-               </hi> todt ist und Clara <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> nicht
+      <lb facs="#facs_3_region_1685020655976_399_tl_14" n="N014"/>muß, damit man ein <rs type="person">Mozart</rs>’sches Concert zu hören be
+      <lb facs="#facs_3_region_1685020655976_399_tl_15" n="N015" break="no"/>komme. Diesem Gedanken entstammt eine eben erschienene
+      <lb facs="#facs_3_region_1685020655976_399_tl_16" n="N016"/>sehr beherzigenswerthe Schrift von dem Director der <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>er
+      <lb facs="#facs_3_region_1685020655976_399_tl_17" n="N017"/>Gewandhaus-Concerte, Professor Karl <hi rendition="#em"><rs type="person">Reinecke</rs></hi>: „<rs type="bibl">Zur
+      <lb facs="#facs_3_region_1685020655976_399_tl_18" n="N018"/>Wiederbelebung der Mozart’schen Clavierconcerte</rs>.“ Seit
+      <lb facs="#facs_3_line_1712469877878_522" n="N019"/>Ferdinand <hi rendition="#em"><rs type="person">Hiller</rs></hi> todt ist und Clara <hi rendition="#em"><rs type="person">Schumann</rs></hi> nicht
       <lb facs="#facs_3_line_1712469898653_529" n="N020"/>mehr öffentlich auftritt, hat Karl <rs type="person">Reinecke</rs> als <rs type="person">Mozart</rs>spieler
       <lb facs="#facs_3_region_1685020655976_399_tl_19" n="N021"/>keinen Rivalen in ganz <rs type="person">Deutschland</rs>. Er ist wie kein Zweiter
-      <lb facs="#facs_3_region_1685020655976_399_tl_20" n="N022"/>dazu berufen, über Auffassung und Ausführung <rs type="person">Mozart</rs>'scher
-      <lb facs="#facs_3_region_1685020655976_399_tl_21" n="N023"/>Claviermusik ein gewichtiges Wort zu sprechen. Für die Ver¬
-      <lb facs="#facs_3_region_1685020655976_399_tl_22" n="N024"/>nachlässigung der <rs type="person">Mozart</rs>'schen Clavierconcerte will er weder
+      <lb facs="#facs_3_region_1685020655976_399_tl_20" n="N022"/>dazu berufen, über Auffassung und Ausführung <rs type="person">Mozart</rs>’scher
+      <lb facs="#facs_3_region_1685020655976_399_tl_21" n="N023"/>Claviermusik ein gewichtiges Wort zu sprechen. Für die Ver
+      <lb facs="#facs_3_region_1685020655976_399_tl_22" n="N024" break="no"/>nachlässigung der <rs type="person">Mozart</rs>’schen Clavierconcerte will er weder
       <lb facs="#facs_3_region_1685020655976_399_tl_23" n="N025"/>das Publicum noch die Virtuosen <hi rendition="#em">allein</hi> verantwortlich
-      <lb facs="#facs_3_region_1685020655976_399_tl_24" n="N026"/>machen. Es müsse doch einige Schuld auch an den Clavier¬
-      <lb facs="#facs_3_region_1685020655976_399_tl_25" n="N027"/>concerten selbst liegen. „Gewiß,“ sagt <rs type="person">Reinecke</rs>, „bieten sie
-      <lb facs="#facs_3_region_1685020655976_399_tl_26" n="N028"/>dem Spieler Gelegenheit, durch seine Vortragskunst und Ge¬
-      <lb facs="#facs_3_region_1685020655976_399_tl_27" n="N029"/>läufigkeit zu glänzen — aber <hi rendition="#em">nicht genügend</hi>, weil
-      <lb facs="#facs_3_region_1685020655976_399_tl_28" n="N030"/>
-               <rs type="person">Mozart</rs> nach damaligem Branche Manches (um nicht zu
+      <lb facs="#facs_3_region_1685020655976_399_tl_24" n="N026"/>machen. Es müsse doch einige Schuld auch an den Clavier
+      <lb facs="#facs_3_region_1685020655976_399_tl_25" n="N027" break="no"/>concerten selbst liegen. „Gewiß,“ sagt <rs type="person">Reinecke</rs>, „bieten sie
+      <lb facs="#facs_3_region_1685020655976_399_tl_26" n="N028"/>dem Spieler Gelegenheit, durch seine Vortragskunst und Ge
+      <lb facs="#facs_3_region_1685020655976_399_tl_27" n="N029" break="no"/>läufigkeit zu glänzen — aber <hi rendition="#em">nicht genügend</hi>, weil
+      <lb facs="#facs_3_region_1685020655976_399_tl_28" n="N030"/><rs type="person">Mozart</rs> nach damaligem Branche Manches (um nicht zu
       <lb facs="#facs_3_region_1685020655976_399_tl_29" n="N031"/>sagen Vieles) in seinen Concerten nicht so aufschrieb, wie er
       <lb facs="#facs_3_region_1685020655976_399_tl_30" n="N032"/>selbst es spielte und wie er es von Anderen gespielt haben
-      <lb facs="#facs_3_region_1685020655976_399_tl_31" n="N033"/>wollte, sondern Vieles nur in Umrissen gab, <hi rendition="#em">die auszu¬</hi>
-               <lb facs="#facs_3_region_1685020655976_399_tl_32" n="N034"/>
-               <hi rendition="#em">führen von dem Spieler verlangt ward</hi>.“ Zu
-      <lb facs="#facs_3_region_1685020655976_399_tl_33" n="N035"/>
-               <rs type="person">Mozart</rs>'s Zeiten war dem Concertspieler eine viel größere
+      <lb facs="#facs_3_region_1685020655976_399_tl_31" n="N033"/>wollte, sondern Vieles nur in Umrissen gab, <hi rendition="#em">die auszu
+      <lb facs="#facs_3_region_1685020655976_399_tl_32" n="N034" break="no"/>führen von dem Spieler verlangt ward</hi>.“ Zu
+      <lb facs="#facs_3_region_1685020655976_399_tl_33" n="N035"/><rs type="person">Mozart</rs>’s Zeiten war dem Concertspieler eine viel größere
       <lb facs="#facs_3_region_1685020655976_399_tl_34" n="N036"/>Selbstständigkeit eingeräumt, als heutzutage der Fall ist.
       <lb facs="#facs_3_region_1685020655976_399_tl_35" n="N037"/>Schon der allgemeine Brauch der „Cadenz“ beweist es;
-      <lb facs="#facs_3_region_1685020655976_399_tl_36" n="N038"/>desgleichen der Umstand, daß <rs type="person">Mozart</rs> in seinen Cla¬</p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_line_1712469575463_425" n="N001"/>vierconcerten fast kein einziges Vortragszeichen auf¬
-      <lb facs="#facs_3_region_1685020659684_402_tl_1" n="N002"/>schreibt, während er seine Compositionen für Clavier
+      <lb facs="#facs_3_region_1685020655976_399_tl_36" n="N038"/>desgleichen der Umstand, daß <rs type="person">Mozart</rs> in seinen Cla</p>
+            <cb n="8"/>
+            <p prev="true">
+      <lb facs="#facs_3_line_1712469575463_425" n="N001" break="no"/>vierconcerten fast kein einziges Vortragszeichen auf
+      <lb facs="#facs_3_region_1685020659684_402_tl_1" n="N002" break="no"/>schreibt, während er seine Compositionen für Clavier
       <lb facs="#facs_3_line_1712469599983_434" n="N003"/>allein meistens sehr genau bezeichnet. Aber nicht allein
       <lb facs="#facs_3_region_1685020659684_402_tl_2" n="N004"/>die sogenannte <hi rendition="#em">große</hi> Cadenz vertraute <rs type="person">Mozart</rs> dem Spieler
-      <lb facs="#facs_3_line_1712469647142_443" n="N005"/>an; er verlangte von ihm auch, daß er die kleinen Ueber¬
-      <lb facs="#facs_3_region_1685020659684_402_tl_3" n="N006"/>gänge vor der Wiederkehr eines Hauptthemas, wenn diesem
+      <lb facs="#facs_3_line_1712469647142_443" n="N005"/>an; er verlangte von ihm auch, daß er die kleinen Ueber
+      <lb facs="#facs_3_region_1685020659684_402_tl_3" n="N006" break="no"/>gänge vor der Wiederkehr eines Hauptthemas, wenn diesem
       <lb facs="#facs_3_region_1685020659684_402_tl_4" n="N007"/>eine Fermate vorherging, nach selbstständiger Empfindung
       <lb facs="#facs_3_region_1685020659684_402_tl_5" n="N008"/>hinzufüge. Letzteres beweist eine Anzahl Blättchen seiner
       <lb facs="#facs_3_region_1685020659684_402_tl_6" n="N009"/>eigenen Handschrift, welche lauter derartige „Eingänge“, wie
-      <lb facs="#facs_3_region_1685020659684_402_tl_7" n="N010"/>
-               <rs type="person">Mozart</rs> sie nannte, enthalten und welche dem Verfasser im
+      <lb facs="#facs_3_region_1685020659684_402_tl_7" n="N010"/><rs type="person">Mozart</rs> sie nannte, enthalten und welche dem Verfasser im
       <lb facs="#facs_3_line_1712469672215_452" n="N011"/>Autograph vorliegen. <rs type="person">Mozart</rs> hat dieselben muthmaßlich für
       <lb facs="#facs_3_region_1685020659684_402_tl_8" n="N012"/>seine Schüler und Schülerinnen, die Derartiges nicht selbst
       <lb facs="#facs_3_region_1685020659684_402_tl_9" n="N013"/>erfinden konnten, aufgeschrieben — ein Beweis, daß er an
       <lb facs="#facs_3_region_1685020659684_402_tl_10" n="N014"/>solchen Stellen kleine Ueberleitungen zum Thema verlangte.
-      <lb facs="#facs_3_region_1685020659684_402_tl_11" n="N015"/>
-               <rs type="person">Reinecke</rs> citirt auch in Notenbeispielen Stellen aus <rs type="person">Mozart</rs>'schen
+      <lb facs="#facs_3_region_1685020659684_402_tl_11" n="N015"/><rs type="person">Reinecke</rs> citirt auch in Notenbeispielen Stellen aus <rs type="person">Mozart</rs>’schen
       <lb facs="#facs_3_line_1712469701550_465" n="N016"/>Concerten, Tacte und Perioden von solcher Dürftigkeit, wie
       <lb facs="#facs_3_region_1685020659684_402_tl_12" n="N017"/>man deren in seinen übrigen Werken nirgends findet und
       <lb facs="#facs_3_region_1685020659684_402_tl_13" n="N018"/>die <rs type="person">Mozart</rs> gewiß nicht so gespielt hat, noch so gespielt haben
       <lb facs="#facs_3_region_1685020659684_402_tl_14" n="N019"/>wollte, wie er sie notirte. Auffallend ist ferner, daß
-      <lb facs="#facs_3_region_1685020659684_402_tl_15" n="N020"/>
-               <rs type="person">Mozart</rs> in seinen übrigen Clavierwerken fast ausnahmslos
+      <lb facs="#facs_3_region_1685020659684_402_tl_15" n="N020"/><rs type="person">Mozart</rs> in seinen übrigen Clavierwerken fast ausnahmslos
       <lb facs="#facs_3_region_1685020659684_402_tl_16" n="N021"/>die langsameren Themen und Cantilenen (wenn sie öfter
       <lb facs="#facs_3_line_1712469733070_474" n="N022"/>als zweimal auftreten) bei jedesmaliger Wiederkehr mit
       <lb facs="#facs_3_region_1685020659684_402_tl_17" n="N023"/>den mannigfaltigsten melismatischen Varianten ausstattet,
@@ -1459,11 +1412,11 @@
       <lb facs="#facs_3_line_1712469781999_492" n="N031"/>Wo und wie der Spieler solche Veränderungen, Verzierungen,
       <lb facs="#facs_3_line_1712469825199_505" n="N032"/>Verstärkungen vorzunehmen habe, welche — ohne dem Styl
       <lb facs="#facs_3_region_1685020659684_402_tl_26" n="N033"/>der Composition zu widersprechen — deren Wirkung erhöhen,
-      <lb facs="#facs_3_region_1685020659684_402_tl_27" n="N034"/>darüber gibt <rs type="person">Reinecke</rs>'s <rs type="bibl">Schrift</rs> die klarsten und detaillirtesten
-      <lb facs="#facs_3_region_1685020659684_402_tl_28" n="N035"/>Nachweise. Möge sie recht viele Leser von künstlerischer Ein¬
-      <lb facs="#facs_3_region_1685020659684_402_tl_29" n="N036"/>sicht finden — dann werden <rs type="person">Reinecke</rs>'s Bemühungen um die
-      <lb facs="#facs_3_region_1685020659684_402_tl_30" n="N037"/>„<rs type="bibl">Wiederbelebung der Mozart'schen Clavierconcerte</rs>“ nicht frucht¬
-      <lb facs="#facs_3_line_1712470002662_556" n="N038"/>los bleiben.</p>
+      <lb facs="#facs_3_region_1685020659684_402_tl_27" n="N034"/>darüber gibt <rs type="person">Reinecke</rs>’s <rs type="bibl">Schrift</rs> die klarsten und detaillirtesten
+      <lb facs="#facs_3_region_1685020659684_402_tl_28" n="N035"/>Nachweise. Möge sie recht viele Leser von künstlerischer Ein
+      <lb facs="#facs_3_region_1685020659684_402_tl_29" n="N036" break="no"/>sicht finden — dann werden <rs type="person">Reinecke</rs>’s Bemühungen um die
+      <lb facs="#facs_3_region_1685020659684_402_tl_30" n="N037"/>„<rs type="bibl">Wiederbelebung der Mozart’schen Clavierconcerte</rs>“ nicht frucht
+      <lb facs="#facs_3_line_1712470002662_556" n="N038" break="no"/>los bleiben.</p>
          </div>
       </body>
    </text>
