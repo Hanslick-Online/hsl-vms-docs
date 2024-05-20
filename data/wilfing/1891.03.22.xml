@@ -106,7 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2024-05-01">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-05-07">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2024-05-20">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
@@ -1073,7 +1073,7 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
             <lb facs="#facs_1_region_1685081213403_406_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
-            <lb facs="#facs_1_region_1685081213403_406_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl">Sicilianische Bauernehre</rs></hi>“ [„<rs type="bibl">Cavalleria rusticana</rs>“] von Pietro <hi rendition="#em"><rs type="person">Mascagni</rs></hi>.)</head>
+            <lb facs="#facs_1_region_1685081213403_406_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_848">Sicilianische Bauernehre</rs></hi>“ [„<rs type="bibl" ref="#hsl_work_id_848">Cavalleria rusticana</rs>“] von Pietro <hi rendition="#em"><rs type="person" ref="#hsl_person_id_993">Mascagni</rs></hi>.)</head>
             <p>
       <lb facs="#facs_1_region_1685081213403_406_tl_3" n="N003"/>Ed. H. In <rs type="place" ref="#hsl_place_id_28">Italien</rs> kommen alljährlich 30 bis 40 neue
       <lb facs="#facs_1_region_1685081213403_406_tl_4" n="N004"/>Opern zur ersten Aufführung, im vorigen Jahre (<date>1890</date>)
@@ -1085,24 +1085,24 @@
       <lb facs="#facs_1_region_1685081213403_406_tl_9" n="N010"/>Tonsetzer haben sich durch mißlungene oder halbgelungene
       <lb facs="#facs_1_region_1685081213403_406_tl_10" n="N011"/>Opernversuche erst zu ihren Meisterwerken durchtasten müssen.
       <lb facs="#facs_1_line_1713502897846_48" n="N012"/>„Die ersten Hunde und die ersten Opern wirft man ins
-      <lb facs="#facs_1_line_1713502902862_53" n="N013"/>Wasser,“ pflegte Karl Maria <rs type="person">Weber</rs> zu sagen. Aber mehr
+      <lb facs="#facs_1_line_1713502902862_53" n="N013"/>Wasser,“ pflegte Karl Maria <rs type="person" ref="#hsl_person_id_321">Weber</rs> zu sagen. Aber mehr
       <lb facs="#facs_1_region_1685081213403_406_tl_15" n="N014"/>als eine Seltenheit, ein geradezu unerhörtes Ereigniß ist es,
       <lb facs="#facs_1_region_1685081213403_406_tl_16" n="N015"/>daß der <hi rendition="#em">erste</hi> dramatische Versuch eines jungen Italieners
       <lb facs="#facs_1_region_1685081213403_406_tl_17" n="N016"/>nicht nur in ganz <rs type="place" ref="#hsl_place_id_28">Italien</rs> als Meisterwerk gefeiert, sondern
       <lb facs="#facs_1_region_1685081213403_406_tl_18" n="N017"/>sofort auch auf den größten <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen in <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er
-      <lb facs="#facs_1_region_1685081213403_406_tl_19" n="N018"/>Sprache gegeben wird. Die „<rs type="bibl">Cavalleria rusticana</rs>“ von
-      <lb facs="#facs_1_region_1685081213403_406_tl_20" n="N019"/><rs type="person">Mascagni</rs> ist in der Musikgeschichte das erste Beispiel eines
+      <lb facs="#facs_1_region_1685081213403_406_tl_19" n="N018"/>Sprache gegeben wird. Die „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria rusticana</rs>“ von
+      <lb facs="#facs_1_region_1685081213403_406_tl_20" n="N019"/><rs type="person" ref="#hsl_person_id_993">Mascagni</rs> ist in der Musikgeschichte das erste Beispiel eines
       <lb facs="#facs_1_region_1685081213403_406_tl_21" n="N020"/>so raschen, fast augenblicklichen internationalen Erfolges. Wie
       <lb facs="#facs_1_region_1685081213403_406_tl_22" n="N021"/>lange mußten die berühmtesten <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Meister auf diese Ehre
-      <lb facs="#facs_1_region_1685081213403_406_tl_23" n="N022"/>warten! <hi rendition="#em"><rs type="person">Rossini</rs></hi> hatte ein Dutzend Opern geschrieben, bevor
-      <lb facs="#facs_1_region_1685081213403_406_tl_24" n="N023"/>sein „<rs type="bibl">Tancred</rs>“ über die <rs type="place" ref="#hsl_place_id_330">Alpen</rs> drang. Als <hi rendition="#em"><rs type="person">Bellini</rs></hi> durch seinen
-      <lb facs="#facs_1_region_1685081213403_406_tl_25" n="N024"/>„<rs type="bibl">Piraten</rs>“, <hi rendition="#em"><rs type="person">Donizetti</rs></hi> durch „<rs type="bibl">Anna Bolena</rs>“, <hi rendition="#em"><rs type="person">Verdi</rs></hi> durch
-      <lb facs="#facs_1_region_1685081213403_406_tl_26" n="N025"/>den „<rs type="bibl">Ernani</rs>“ in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> bekannt wurde, standen sie längst
+      <lb facs="#facs_1_region_1685081213403_406_tl_23" n="N022"/>warten! <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi> hatte ein Dutzend Opern geschrieben, bevor
+      <lb facs="#facs_1_region_1685081213403_406_tl_24" n="N023"/>sein „<rs type="bibl" ref="#hsl_work_id_544">Tancred</rs>“ über die <rs type="place" ref="#hsl_place_id_330">Alpen</rs> drang. Als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_26">Bellini</rs></hi> durch seinen
+      <lb facs="#facs_1_region_1685081213403_406_tl_25" n="N024"/>„<rs type="bibl" ref="#hsl_work_id_3135">Piraten</rs>“, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_63">Donizetti</rs></hi> durch „<rs type="bibl" ref="#hsl_work_id_1493">Anna Bolena</rs>“, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi> durch
+      <lb facs="#facs_1_region_1685081213403_406_tl_26" n="N025"/>den „<rs type="bibl" ref="#hsl_work_id_204">Ernani</rs>“ in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> bekannt wurde, standen sie längst
       <lb facs="#facs_1_region_1685081213403_406_tl_27" n="N026"/>in hohem Ansehen bei ihren Landsleuten. Obendrein waren
       <lb facs="#facs_1_region_1685081213403_406_tl_28" n="N027"/>ihre Opern durch die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Stagiones in <rs type="place" ref="#hsl_place_id_55">Wien</rs> immer
       <lb facs="#facs_1_region_1685081213403_406_tl_29" n="N028"/>auf <rs type="place" ref="#hsl_place_id_14">deutsch</rs>em Boden schon eingeführt und erprobt, ehe sie
       <lb facs="#facs_1_region_1685081213403_406_tl_30" n="N029"/>in <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Sprache förmliches Bürgerrecht bei uns er
-      <lb facs="#facs_1_region_1685081213403_406_tl_31" n="N030" break="no"/>langten. Der „<rs type="bibl">Cavalleria rusticana</rs>“ war allerdings der Um
+      <lb facs="#facs_1_region_1685081213403_406_tl_31" n="N030" break="no"/>langten. Der „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria rusticana</rs>“ war allerdings der Um
       <lb facs="#facs_1_region_1685081213403_406_tl_32" n="N031" break="no"/>stand sehr förderlich, daß sie bei einer Preisvertheilung über
       <lb facs="#facs_1_region_1685081213403_406_tl_33" n="N032"/>siebzig Mitbewerber gesiegt hat. Dramatische Preisaus
       <lb facs="#facs_1_region_1685081213403_406_tl_34" n="N033" break="no"/>schreibungen treiben meistentheils nur Mittelgut an die
@@ -1110,14 +1110,14 @@
       <lb facs="#facs_1_region_1685081213403_406_tl_36" n="N035"/>fernhalten, während alle Stiefkinder des Glückes und des
       <lb facs="#facs_1_region_1685081213403_406_tl_37" n="N036"/>Talentes ihre sitzengebliebenen Partituren bei dieser Gelegen
       <lb facs="#facs_1_region_1685081213403_406_tl_38" n="N037" break="no"/>heit wieder offeriren. Es war eine neue originelle Idee des
-      <lb facs="#facs_1_region_1685081213403_406_tl_39" n="N038"/><rs type="place" ref="#hsl_place_id_73">Mailänd</rs>er Musikverlegers <hi rendition="#em"><rs type="person">Sonzogno</rs></hi>, nur solche Concur
+      <lb facs="#facs_1_region_1685081213403_406_tl_39" n="N038"/><rs type="place" ref="#hsl_place_id_73">Mailänd</rs>er Musikverlegers <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1784">Sonzogno</rs></hi>, nur solche Concur
       <lb facs="#facs_1_region_1685081213403_406_tl_40" n="N039" break="no"/>renten zuzulassen, welche noch niemals etwas für das Theater
-      <lb facs="#facs_1_line_1713503059229_96" n="N040"/>geschehen haben. <hi rendition="#em">Pietro <rs type="person">Massagni</rs></hi>, ein etwas leicht</p>
+      <lb facs="#facs_1_line_1713503059229_96" n="N040"/>geschehen haben. <hi rendition="#em">Pietro <rs type="person" ref="#hsl_person_id_993">Mascagni</rs></hi>, ein etwas leicht</p>
             <cb n="2"/>
             <p prev="true">
       <lb facs="#facs_1_region_1685081226985_409_tl_1" n="N001" break="no"/>sinniger Bursche von 25 Jahren, befand sich in diesem
       <lb facs="#facs_1_region_1685081226985_409_tl_2" n="N002"/>Fall. Ein großmüthiger Mäcen hatte den Bäckersohn aus
-      <lb facs="#facs_1_region_1685081226985_409_tl_3" n="N003"/><rs type="place" ref="#hsl_place_id_556">Livorno</rs> ins <rs type="place" ref="#hsl_place_id_73">Mailänd</rs>er Conservatorium gebracht. <rs type="person">Pietro</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685081226985_409_tl_3" n="N003"/><rs type="place" ref="#hsl_place_id_556">Livorno</rs> ins <rs type="place" ref="#hsl_place_id_73">Mailänd</rs>er Conservatorium gebracht. <rs type="person" ref="#hsl_person_id_993">Pietro</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1685081226985_409_tl_4" n="N004"/>langweilt das trockene Studium; er geht durch, wandert als
       <lb facs="#facs_1_region_1685081226985_409_tl_5" n="N005"/>Capellmeister einer fliegenden Operntruppe von Ort zu Ort
       <lb facs="#facs_1_region_1685081226985_409_tl_6" n="N006"/>und bleibt endlich in dem Städtchen <rs type="place" ref="#hsl_place_id_557">Cerignola</rs> als Dirigent
@@ -1125,50 +1125,50 @@
       <lb facs="#facs_1_region_1685081226985_409_tl_8" n="N008"/>Beurtheilung. Ohne einen täglichen praktischen Verkehr
       <lb facs="#facs_1_region_1685081226985_409_tl_9" n="N009"/>mit der Bühne und dem Orchester wäre die sichere, effect
       <lb facs="#facs_1_region_1685081226985_409_tl_10" n="N010" break="no"/>kundige Technik, die sein Erstlingswerk aufweist, nicht
-      <lb facs="#facs_1_region_1685081226985_409_tl_11" n="N011"/>erklärlich. Aus einem Zeitungsblatt erfährt <rs type="person">Mascagni</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1685081226985_409_tl_11" n="N011"/>erklärlich. Aus einem Zeitungsblatt erfährt <rs type="person" ref="#hsl_person_id_993">Mascagni</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1685081226985_409_tl_12" n="N012"/>zufällig von der Preisausschreibung für die beste einactige
       <lb facs="#facs_1_line_1713503101397_109" n="N013"/>Oper. In zwei Monaten hat er seine Partitur vollendet
       <lb facs="#facs_1_region_1685081226985_409_tl_13" n="N014"/>und eingeschickt. Sie erhält den ersten Preis und wird in
       <lb facs="#facs_1_region_1685081226985_409_tl_14" n="N015"/><rs type="place" ref="#hsl_place_id_47">Rom</rs> im Teatro Constanza unter unbeschreiblichem Jubel
       <lb facs="#facs_1_region_1685081226985_409_tl_15" n="N016"/>am 18. Mai <date>1890</date> aufgeführt. Am selben Morgen noch ein
-      <lb facs="#facs_1_region_1685081226985_409_tl_16" n="N017"/>Namenloser, geht Pietro <rs type="person">Mascagni</rs> als berühmter Mann zu
+      <lb facs="#facs_1_region_1685081226985_409_tl_16" n="N017"/>Namenloser, geht Pietro <rs type="person" ref="#hsl_person_id_993">Mascagni</rs> als berühmter Mann zu
       <lb facs="#facs_1_region_1685081226985_409_tl_17" n="N018"/>Bett. Noch sind kaum zehn Monate seit jener ersten Auf
-      <lb facs="#facs_1_region_1685081226985_409_tl_18" n="N019" break="no"/>führung verflossen, und schon ist die „<rs type="bibl">Cavalleria rusticana</rs>“
+      <lb facs="#facs_1_region_1685081226985_409_tl_18" n="N019" break="no"/>führung verflossen, und schon ist die „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria rusticana</rs>“
       <lb facs="#facs_1_line_1713502921061_57" n="N020"/>ein fester Bestandtheil des <rs type="place" ref="#hsl_place_id_19">europäisch</rs>en Repertoires.
             </p><p>
-      <lb facs="#facs_1_region_1685081226985_409_tl_19" n="N021"/>Das Libretto der „<rs type="bibl">Cavalleria rusticana</rs>“ gehört zu den
+      <lb facs="#facs_1_region_1685081226985_409_tl_19" n="N021"/>Das Libretto der „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria rusticana</rs>“ gehört zu den
       <lb facs="#facs_1_region_1685081226985_409_tl_20" n="N022"/>Glücksfällen des jungen Componisten. Die dramatische Kraft
-      <lb facs="#facs_1_region_1685081226985_409_tl_21" n="N023"/>und die außerordentliche Popularität des gleichnamigen Volks
-      <lb facs="#facs_1_region_1685081226985_409_tl_22" n="N024" break="no"/>stücks von Giovanni <rs type="person">Verga</rs> haben der Oper mächtig vor
+      <lb facs="#facs_1_region_1685081226985_409_tl_21" n="N023"/>und die außerordentliche Popularität des gleichnamigen <rs type="bibl" ref="#hsl_work_id_3136">Volks
+      <lb facs="#facs_1_region_1685081226985_409_tl_22" n="N024" break="no"/>stück</rs>s von Giovanni <rs type="person" ref="#hsl_person_id_2005">Verga</rs> haben der Oper mächtig vor
       <lb facs="#facs_1_region_1685081226985_409_tl_23" n="N025" break="no"/>gearbeitet. Diese ist auch bezüglich des Textes ein Unicum.
       <lb facs="#facs_1_region_1685081226985_409_tl_24" n="N026"/>Von einem ländlichen Singspiel in einem Act erwartet Jeder
-      <lb facs="#facs_1_region_1685081226985_409_tl_25" n="N027" break="no"/>mann eine heitere oder idyllische Handlung. Die „<rs type="bibl">Cavalleria
+      <lb facs="#facs_1_region_1685081226985_409_tl_25" n="N027" break="no"/>mann eine heitere oder idyllische Handlung. Die „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria
       <lb facs="#facs_1_region_1685081226985_409_tl_26" n="N028"/>rusticana</rs>“ ist ein kleines Trauerspiel, eine richtige Dorf
       <lb facs="#facs_1_region_1685081226985_409_tl_27" n="N029" break="no"/>tragödie mit wilden Leidenschaften und blutigem Ausgang.
       <lb facs="#facs_1_line_1713503133844_121" n="N030"/>In einem <rs type="place" ref="#hsl_place_id_306">sicilianisch</rs>en Dorfe hat der junge Gastwirth
-      <lb facs="#facs_1_region_1685081226985_409_tl_28" n="N031"/><rs type="person">Turriddu</rs>, ehe er zu den Soldaten eingereiht wurde, ein
-      <lb facs="#facs_1_region_1685081226985_409_tl_29" n="N032"/>kokettes schönes Mädchen, <rs type="person">Lola</rs>, geliebt. Vom Heer zurück
-      <lb facs="#facs_1_region_1685081226985_409_tl_30" n="N033" break="no"/>gekehrt, findet er sie als das Weib des Fuhrmanns <rs type="person">Alfio</rs> und
+      <lb facs="#facs_1_region_1685081226985_409_tl_28" n="N031"/><rs type="person" ref="#hsl_person_id_4231">Turriddu</rs>, ehe er zu den Soldaten eingereiht wurde, ein
+      <lb facs="#facs_1_region_1685081226985_409_tl_29" n="N032"/>kokettes schönes Mädchen, <rs type="person" ref="#hsl_person_id_4402">Lola</rs>, geliebt. Vom Heer zurück
+      <lb facs="#facs_1_region_1685081226985_409_tl_30" n="N033" break="no"/>gekehrt, findet er sie als das Weib des Fuhrmanns <rs type="person" ref="#hsl_person_id_4401">Alfio</rs> und
       <lb facs="#facs_1_line_1713503155948_129" n="N034"/>sucht Trost in den Armen der ihn leidenschaftlich liebenden
-      <lb facs="#facs_1_line_1713502946957_65" n="N035"/><rs type="person">Santuzza</rs>. <rs type="person">Lola</rs> weiß jedoch den <rs type="person">Turriddu</rs> wieder in ihre Netze
-      <lb facs="#facs_1_region_1685081226985_409_tl_31" n="N036"/>zu locken. Er stößt <rs type="person">Santuzza</rs> von sich, die nun, von Eifersucht
-      <lb facs="#facs_1_region_1685081226985_409_tl_32" n="N037"/>getrieben, dem <rs type="person">Alfio</rs> das sträfliche Verhältniß seines Weibes
-      <lb facs="#facs_1_region_1685081226985_409_tl_33" n="N038"/>zu <rs type="person">Turriddu</rs> verräth. <rs type="person">Alfio</rs> rächt sich an dem Räuber seiner
+      <lb facs="#facs_1_line_1713502946957_65" n="N035"/><rs type="person" ref="#hsl_person_id_3665">Santuzza</rs>. <rs type="person" ref="#hsl_person_id_4402">Lola</rs> weiß jedoch den <rs type="person" ref="#hsl_person_id_4231">Turriddu</rs> wieder in ihre Netze
+      <lb facs="#facs_1_region_1685081226985_409_tl_31" n="N036"/>zu locken. Er stößt <rs type="person" ref="#hsl_person_id_3665">Santuzza</rs> von sich, die nun, von Eifersucht
+      <lb facs="#facs_1_region_1685081226985_409_tl_32" n="N037"/>getrieben, dem <rs type="person" ref="#hsl_person_id_4401">Alfio</rs> das sträfliche Verhältniß seines Weibes
+      <lb facs="#facs_1_region_1685081226985_409_tl_33" n="N038"/>zu <rs type="person" ref="#hsl_person_id_4231">Turriddu</rs> verräth. <rs type="person" ref="#hsl_person_id_4401">Alfio</rs> rächt sich an dem Räuber seiner
       <lb facs="#facs_1_region_1685081226985_409_tl_34" n="N039"/>Ehre, indem er ihn im Messerkampf tödtet. Dies Alles ge
       <lb facs="#facs_1_region_1685081226985_409_tl_35" n="N040" break="no"/>schieht am Ostersonntag im Verlauf des Gottesdienstes, vor
-      <lb facs="#facs_1_region_1685081226985_409_tl_36" n="N041"/>der Kirche. Die von Herrn Oskar <hi rendition="#em"><rs type="person">Berggrün</rs></hi> verfaßte
+      <lb facs="#facs_1_region_1685081226985_409_tl_36" n="N041"/>der Kirche. Die von Herrn Oskar <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4813">Berggrün</rs></hi> verfaßte
       <lb facs="#facs_1_region_1685081226985_409_tl_37" n="N042"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Uebersetzung gehört zu der schleuderhaftesten Markt
       <lb facs="#facs_1_region_1685081226985_409_tl_38" n="N043" break="no"/>waare. Daß sie auch praktisch geradezu unbrauchbar ist, be
       <lb facs="#facs_1_region_1685081226985_409_tl_39" n="N044" break="no"/>weist der nothgedrungene Vorgang der Opern-Directionen<space quantity="1" unit="char"/></p>
             <cb n="3"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1685081234567_412_tl_1" n="N001"/>von <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>, <rs type="place" ref="#hsl_place_id_15">Dresden</rs> und <rs type="place" ref="#hsl_place_id_55">Wien</rs>, welche <rs type="person">Berggrün</rs>’s
+      <lb facs="#facs_1_region_1685081234567_412_tl_1" n="N001"/>von <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>, <rs type="place" ref="#hsl_place_id_15">Dresden</rs> und <rs type="place" ref="#hsl_place_id_55">Wien</rs>, welche <rs type="person" ref="#hsl_person_id_4813">Berggrün</rs>’s
       <lb facs="#facs_1_region_1685081234567_412_tl_2" n="N002"/>Uebersetzung total umarbeiten mußten. Hier wird thatsächlich
       <lb facs="#facs_1_region_1685081234567_412_tl_3" n="N003"/>ein ganz anderer Text gesungen, als der des gedruckten
-      <lb facs="#facs_1_region_1685081234567_412_tl_4" n="N004"/>Librettos. Herr <rs type="person">Berggrün</rs> hat seine Unfähigkeit als Uebersetzer
-      <lb facs="#facs_1_region_1685081234567_412_tl_5" n="N005"/>bereits an <hi rendition="#em"><rs type="person">Samara</rs>’s</hi> Oper „<rs type="bibl">Flora mirabilis</rs>“ bewiesen,
+      <lb facs="#facs_1_region_1685081234567_412_tl_4" n="N004"/>Librettos. Herr <rs type="person" ref="#hsl_person_id_4813">Berggrün</rs> hat seine Unfähigkeit als Uebersetzer
+      <lb facs="#facs_1_region_1685081234567_412_tl_5" n="N005"/>bereits an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2307">Samara</rs>’s</hi> Oper „<rs type="bibl" ref="#hsl_work_id_3137">Flora mirabilis</rs>“ bewiesen,
       <lb facs="#facs_1_region_1685081234567_412_tl_6" n="N006"/>welche eine Blüthenlese, eine wahre Flora miserabilis an
-      <lb facs="#facs_1_region_1685081234567_412_tl_7" n="N007"/>Schnitzern darbietet. Herrn <rs type="person">Berggrün</rs>’s Methode ist sehr einfach.
+      <lb facs="#facs_1_region_1685081234567_412_tl_7" n="N007"/>Schnitzern darbietet. Herrn <rs type="person" ref="#hsl_person_id_4813">Berggrün</rs>’s Methode ist sehr einfach.
       <lb facs="#facs_1_region_1685081234567_412_tl_8" n="N008"/>Er macht eine rohe metrische Uebertragung und schreibt nun
       <lb facs="#facs_1_region_1685081234567_412_tl_9" n="N009"/>ruhig Silbe unter Note in die Partitur, unbekümmert, ob
       <lb facs="#facs_1_line_1713502991940_76" n="N010"/>der musikalische Accent dazu stimmt oder nicht. Gleich in
@@ -1176,19 +1176,19 @@
       <lb facs="#facs_1_region_1685081234567_412_tl_11" n="N012"/>legt er auf die erste Sylbe O den Nachdruck. Es macht sich
       <lb facs="#facs_1_region_1685081234567_412_tl_12" n="N013"/>reizend, wenn ein halbdutzendmal gesungen wird: „O—rangen
       <lb facs="#facs_1_line_1713503110437_116" n="N014"/>duften, die Lerche singt; jetzt ist Zeit für Jedermann, fröh
-      <lb facs="#facs_1_region_1685081234567_412_tl_15" n="N015" break="no"/>lich zu singen das süße Lied!“ Eine andere classische <rs type="person">Berg
+      <lb facs="#facs_1_region_1685081234567_412_tl_15" n="N015" break="no"/>lich zu singen das süße Lied!“ Eine andere classische <rs type="person" ref="#hsl_person_id_4813">Berg
       <lb facs="#facs_1_region_1685081234567_412_tl_16" n="N016" break="no"/>grün</rs>iade ist der Refrain: „Niemand froher sein <hi rendition="#em">kann</hi> —
       <lb facs="#facs_1_region_1685081234567_412_tl_17" n="N017"/>als ein wack’rer Fuhr<hi rendition="#em">mann</hi>!“ Schon seine Titel-Ueber
-      <lb facs="#facs_1_region_1685081234567_412_tl_18" n="N018" break="no"/>setzung „<rs type="bibl">Ländliche Ritterlichkeit</rs>“ mit dem häßlichen Gleich
+      <lb facs="#facs_1_region_1685081234567_412_tl_18" n="N018" break="no"/>setzung „<rs type="bibl" ref="#hsl_work_id_848">Ländliche Ritterlichkeit</rs>“ mit dem häßlichen Gleich
       <lb facs="#facs_1_region_1685081234567_412_tl_19" n="N019" break="no"/>klang in der Mitte beider Wörter verräth den Mangel an
       <lb facs="#facs_1_region_1685081234567_412_tl_20" n="N020"/>musikalischem Gehör. Daß eine Opernübersetzung erstens gut
       <lb facs="#facs_1_region_1685081234567_412_tl_21" n="N021"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs> und zweitens richtig musikalisch sein muß, scheint der
-      <lb facs="#facs_1_region_1685081234567_412_tl_22" n="N022"/>Mann nie gehört zu haben. Zum Glück kann Herr <rs type="person">Son
-      <lb facs="#facs_1_region_1685081234567_412_tl_23" n="N023" break="no"/>zogno</rs>, welcher die Theater zwingt, das <rs type="person">Berggrün</rs>’sche
+      <lb facs="#facs_1_region_1685081234567_412_tl_22" n="N022"/>Mann nie gehört zu haben. Zum Glück kann Herr <rs type="person" ref="#hsl_person_id_1784">Son
+      <lb facs="#facs_1_region_1685081234567_412_tl_23" n="N023" break="no"/>zogno</rs>, welcher die Theater zwingt, das <rs type="person" ref="#hsl_person_id_4813">Berggrün</rs>’sche
       <lb facs="#facs_1_region_1685081234567_412_tl_24" n="N024"/>„<rs type="place" ref="#hsl_place_id_14">Deutsch</rs>“ an der Kasse zu verkaufen, nicht auch die Künstler
       <lb facs="#facs_1_region_1685081234567_412_tl_25" n="N025"/>verhalten, es zu singen.
             </p><p>
-      <lb facs="#facs_1_region_1685081234567_412_tl_26" n="N026"/>Aus der Musik zur „<rs type="bibl">Cavalleria</rs>“ spricht unverkennbar
+      <lb facs="#facs_1_region_1685081234567_412_tl_26" n="N026"/>Aus der Musik zur „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria</rs>“ spricht unverkennbar
       <lb facs="#facs_1_region_1685081234567_412_tl_27" n="N027"/>ein frisches, energisches und ehrliches Talent. In unserer
       <lb facs="#facs_1_region_1685081234567_412_tl_28" n="N028"/>musikalisch talentarmen Zeit konnte es nicht ausbleiben, daß
       <lb facs="#facs_1_region_1685081234567_412_tl_29" n="N029"/>der Jubel über diese neue Erscheinung alle Besinnung
@@ -1197,13 +1197,13 @@
       <lb facs="#facs_1_region_1685081234567_412_tl_32" n="N032" break="no"/>bungen, von denen ein Beispiel später citirt werden soll,
       <lb facs="#facs_1_region_1685081234567_412_tl_33" n="N033"/>dürfen uns trotzdem nicht irremachen. Ein so allgemeiner
       <lb facs="#facs_1_region_1685081234567_412_tl_34" n="N034"/>und spontaner großer Erfolg ist niemals ohne zureichenden
-      <lb facs="#facs_1_region_1685081234567_412_tl_35" n="N035"/>Grund. Die Eigenthümlichkeit <rs type="person">Mascagni</rs>’s ließe sich vielleicht am
+      <lb facs="#facs_1_region_1685081234567_412_tl_35" n="N035"/>Grund. Die Eigenthümlichkeit <rs type="person" ref="#hsl_person_id_993">Mascagni</rs>’s ließe sich vielleicht am
       <lb facs="#facs_1_region_1685081234567_412_tl_36" n="N036"/>kürzesten damit bezeichnen, daß er durchaus national <rs type="place" ref="#hsl_place_id_28">italienisch</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_line_1713503014812_82" n="N037"/>und doch zugleich <rs type="place" ref="#hsl_place_id_19">europäisch</rs> modern ist. Nirgends verleugnet er
       <lb facs="#facs_1_region_1685081234567_412_tl_37" n="N038"/>den Italiener. Der Charakter seiner Melodien, ihr Vor
       <lb facs="#facs_1_region_1685081234567_412_tl_38" n="N039" break="no"/>herrschen vor der Begleitung, die sinnenfällige Rhythmik,
       <lb facs="#facs_1_region_1685081234567_412_tl_39" n="N040"/>die Schlußphrasen der leidenschaftlicheren Gesänge — Alles
-      <lb facs="#facs_1_region_1685081234567_412_tl_40" n="N041"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>. Hingegen herrschen in der „<rs type="bibl">Cavalleria</rs>“ modernere
+      <lb facs="#facs_1_region_1685081234567_412_tl_40" n="N041"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>. Hingegen herrschen in der „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria</rs>“ modernere
       <lb facs="#facs_1_region_1685081234567_412_tl_41" n="N042"/>Anschauungen bezüglich des Dramatischen. Die Musik ent
       <lb facs="#facs_1_line_1713503038692_90" n="N043" break="no"/>wickelt sich streng scenisch, ohne die alte Arien-Schablone und
       <lb facs="#facs_1_line_1713503082652_101" n="N044"/>die alten, lästigen Wortwiederholungen. Durchaus einheitlich,<space quantity="1" unit="char"/></p>
@@ -1214,13 +1214,13 @@
       <lb facs="#facs_2_region_1685081248719_418_tl_2" n="N002" break="no"/>büßer, keinen Passagen- und Trilleraufputz, keine wider
       <lb facs="#facs_2_region_1685081248719_418_tl_3" n="N003" break="no"/>sinnigen Effecte. Die Harmonie wie die Orchestrirung lassen
       <lb facs="#facs_2_region_1685081248719_418_tl_4" n="N004"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en und <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Einfluß durchblicken, aber keine
-      <lb facs="#facs_2_region_1685081248719_418_tl_5" n="N005"/>directe Nachahmung <rs type="person">Wagner</rs>’s; den Hörer bedrückt weder
+      <lb facs="#facs_2_region_1685081248719_418_tl_5" n="N005"/>directe Nachahmung <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s; den Hörer bedrückt weder
       <lb facs="#facs_2_region_1685081248719_418_tl_6" n="N006"/>die Tyrannei der Leitmotive noch der unendlichen Melodie.
-      <lb facs="#facs_2_region_1685081248719_418_tl_7" n="N007"/>Die Sonne der <rs type="bibl">Nibelungen</rs> hat auch jenseits der Alpen
-      <lb facs="#facs_2_region_1685081248719_418_tl_8" n="N008"/>manchen <rs type="person">wagner</rs>isirenden Componisten ausgebrütet, der —
-      <lb facs="#facs_2_region_1685081248719_418_tl_9" n="N009"/>wie <rs type="person">Halm</rs>’s <rs type="person">Ingomar</rs> nach dem Ausspruche von Robert
-      <lb facs="#facs_2_region_1685081248719_418_tl_10" n="N010"/><rs type="person">Prutz</rs> — „lieber ein Lump auf <rs type="place" ref="#hsl_place_id_23">Griechisch</rs> ist, als ein honetter
-      <lb facs="#facs_2_line_1713503229484_153" n="N011"/>Tektosage“. <rs type="person">Mascagni</rs> gehört nicht zu diesen. Er ist eine
+      <lb facs="#facs_2_region_1685081248719_418_tl_7" n="N007"/>Die Sonne der <rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs> hat auch jenseits der Alpen
+      <lb facs="#facs_2_region_1685081248719_418_tl_8" n="N008"/>manchen <rs type="person" ref="#hsl_person_id_319">wagner</rs>isirenden Componisten ausgebrütet, der —
+      <lb facs="#facs_2_region_1685081248719_418_tl_9" n="N009"/>wie <rs type="person" ref="#hsl_person_id_2017">Halm</rs>’s <rs type="person" ref="#hsl_person_id_2015">Ingomar</rs> nach dem Ausspruche von Robert
+      <lb facs="#facs_2_region_1685081248719_418_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_2419">Prutz</rs> — „lieber ein Lump auf <rs type="place" ref="#hsl_place_id_23">Griechisch</rs> ist, als ein honetter
+      <lb facs="#facs_2_line_1713503229484_153" n="N011"/>Tektosage“. <rs type="person" ref="#hsl_person_id_993">Mascagni</rs> gehört nicht zu diesen. Er ist eine
       <lb facs="#facs_2_region_1685081248719_418_tl_13" n="N012"/>ursprüngliche Natur, wenngleich, meines Dafürhaltens, kein
       <lb facs="#facs_2_region_1685081248719_418_tl_14" n="N013"/>bahnbrechendes Genie, das eine geschichtliche Furche zieht.
       <lb facs="#facs_2_region_1685081248719_418_tl_15" n="N014"/>Worin sein Talent sich am stärksten und augenfälligsten zeigt,
@@ -1230,34 +1230,34 @@
       <lb facs="#facs_2_region_1685081248719_418_tl_19" n="N018"/>durchglühen die ganze Oper, welche von Anfang bis zu Ende nicht
       <lb facs="#facs_2_region_1685081248719_418_tl_20" n="N019"/>blos interessirt, sondern packt. Wie düster, unheimlich drohend
       <lb facs="#facs_2_region_1685081248719_418_tl_21" n="N020"/>schleicht die Fis-moll-Einleitung zu der ersten Scene zwischen
-      <lb facs="#facs_2_region_1685081248719_418_tl_22" n="N021"/><rs type="person">Santuzza</rs> und <rs type="person">Lucia</rs>; wie schauerlich ergreifend pocht das
-      <lb facs="#facs_2_region_1685081248719_418_tl_23" n="N022"/>tiefe Es der Bässe bei dem Ausrufe <rs type="person">Lola</rs>’s: „O <rs type="person">Gott</rs>, das
+      <lb facs="#facs_2_region_1685081248719_418_tl_22" n="N021"/><rs type="person" ref="#hsl_person_id_3665">Santuzza</rs> und <rs type="person" ref="#hsl_person_id_4812">Lucia</rs>; wie schauerlich ergreifend pocht das
+      <lb facs="#facs_2_region_1685081248719_418_tl_23" n="N022"/>tiefe Es der Bässe bei dem Ausrufe <rs type="person" ref="#hsl_person_id_4402">Lola</rs>’s: „O <rs type="person" ref="#hsl_person_id_416">Gott</rs>, das
       <lb facs="#facs_2_line_1713503259493_162" n="N023"/>Unglück naht!“; wie angstvoll aufgescheucht schwirren die
-      <lb facs="#facs_2_region_1685081248719_418_tl_26" n="N024"/>Violinen, als <rs type="person">Turriddu</rs> vor seinem Todesgange nach der
+      <lb facs="#facs_2_region_1685081248719_418_tl_26" n="N024"/>Violinen, als <rs type="person" ref="#hsl_person_id_4231">Turriddu</rs> vor seinem Todesgange nach der
       <lb facs="#facs_2_region_1685081248719_418_tl_27" n="N025"/>Mutter ruft! Gar mancher treffliche Zug von feiner oder
       <lb facs="#facs_2_region_1685081248719_418_tl_28" n="N026"/>energischer Charakteristik wäre hier anzuführen. Ja, man
       <lb facs="#facs_2_region_1685081248719_418_tl_29" n="N027"/>könnte in dieser Oper vortrefflich Alles nennen, was im
       <lb facs="#facs_2_region_1685081248719_418_tl_30" n="N028"/>weiteren Sinne das Gebiet der musikalischen Conversation
       <lb facs="#facs_2_region_1685081248719_418_tl_31" n="N029"/>streift, mehr der aufgeregten Rede und Gegenrede angehört,
       <lb facs="#facs_2_region_1685081248719_418_tl_32" n="N030"/>als dem eigentlichen Gesange. Rein musikalisch hingegen ist
-      <lb facs="#facs_2_line_1713503342316_189" n="N031"/>mir die Erfindung <rs type="person">Mascagni</rs>’s zwar ansprechend, frisch, aber
+      <lb facs="#facs_2_line_1713503342316_189" n="N031"/>mir die Erfindung <rs type="person" ref="#hsl_person_id_993">Mascagni</rs>’s zwar ansprechend, frisch, aber
       <lb facs="#facs_2_line_1713503363844_197" n="N032"/>keineswegs reich oder originell erschienen. Melodien von jener
       <lb facs="#facs_2_region_1685081248719_418_tl_33" n="N033"/>schönen, unverwischbaren Prägung, wie sie aus den besseren
-      <lb facs="#facs_2_region_1685081248719_418_tl_34" n="N034"/>Opern von <rs type="person">Bellini</rs>, <rs type="person">Donizetti</rs>, <rs type="person">Verdi</rs> hervorglänzen, wird
-      <lb facs="#facs_2_region_1685081248719_418_tl_35" n="N035"/>man in der „<rs type="bibl">Cavalleria</rs>“ schwerlich namhaft machen. Wenn
-      <lb facs="#facs_2_line_1713503382308_204" n="N036"/>man den dramatischen Heißsporn <rs type="person">Mascagni</rs> speciell als
-      <lb facs="#facs_2_region_1685081248719_418_tl_36" n="N037"/>„Melodien-<rs type="person">Krösus</rs>“ feierte, ist man im ersten Rausche zu
+      <lb facs="#facs_2_region_1685081248719_418_tl_34" n="N034"/>Opern von <rs type="person" ref="#hsl_person_id_26">Bellini</rs>, <rs type="person" ref="#hsl_person_id_63">Donizetti</rs>, <rs type="person" ref="#hsl_person_id_312">Verdi</rs> hervorglänzen, wird
+      <lb facs="#facs_2_region_1685081248719_418_tl_35" n="N035"/>man in der „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria</rs>“ schwerlich namhaft machen. Wenn
+      <lb facs="#facs_2_line_1713503382308_204" n="N036"/>man den dramatischen Heißsporn <rs type="person" ref="#hsl_person_id_993">Mascagni</rs> speciell als
+      <lb facs="#facs_2_region_1685081248719_418_tl_36" n="N037"/>„Melodien-<rs type="person" ref="#hsl_person_id_2911">Krösus</rs>“ feierte, ist man im ersten Rausche zu
       <lb facs="#facs_2_region_1685081248719_418_tl_37" n="N038"/>weit gegangen. Man sehe sich die Melodien an, die als solche
       <lb facs="#facs_2_region_1685081248719_418_tl_38" n="N039"/>in der Oper selbstständig auftreten und wirken: das (auch
       <lb facs="#facs_2_region_1685081248719_418_tl_39" n="N040"/>in der Ouvertüre vorkommende) Andante appassionato
-      <lb facs="#facs_2_region_1685081248719_418_tl_40" n="N041"/><rs type="person">Santuzza</rs>’s: „Nein, <rs type="person">Turriddu</rs>, o bleibe!“, die Serenade
-      <lb facs="#facs_2_region_1685081248719_418_tl_41" n="N042"/><rs type="person">Turriddu</rs>’s, <rs type="person">Alfio</rs>’s Rache-Allegro in F-moll, das Gebet
+      <lb facs="#facs_2_region_1685081248719_418_tl_40" n="N041"/><rs type="person" ref="#hsl_person_id_3665">Santuzza</rs>’s: „Nein, <rs type="person" ref="#hsl_person_id_4231">Turriddu</rs>, o bleibe!“, die Serenade
+      <lb facs="#facs_2_region_1685081248719_418_tl_41" n="N042"/><rs type="person" ref="#hsl_person_id_4231">Turriddu</rs>’s, <rs type="person" ref="#hsl_person_id_4401">Alfio</rs>’s Rache-Allegro in F-moll, das Gebet
       <lb facs="#facs_2_line_1713503401500_210" n="N043"/>„Preisen laßt uns den Herrn“ und Aehnliches — Neuheit,<space quantity="1" unit="char"/></p>
             <cb n="5"/>
             <p prev="true">
       <lb facs="#facs_2_region_1685081253471_421_tl_1" n="N001"/>Originalität wird man ihnen nicht nachrühmen können. Die
       <lb facs="#facs_2_region_1685081253471_421_tl_2" n="N002"/>reizendste, zugleich einfachste und natürlichste Melodie ist das
-      <lb facs="#facs_2_line_1713503438612_223" n="N003"/>Stornello der <rs type="person">Lola</rs>, ein Volkslied, wie man ihrer hundert in
+      <lb facs="#facs_2_line_1713503438612_223" n="N003"/>Stornello der <rs type="person" ref="#hsl_person_id_4402">Lola</rs>, ein Volkslied, wie man ihrer hundert in
       <lb facs="#facs_2_region_1685081253471_421_tl_3" n="N004"/><rs type="place" ref="#hsl_place_id_28">Italien</rs> hören oder in <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Volksliedersammlungen
       <lb facs="#facs_2_line_1713503455572_229" n="N005"/>finden kann. Nicht viel besser als mit diesen pathetischen und
       <lb facs="#facs_2_region_1685081253471_421_tl_4" n="N006"/>sentimentalen Gesängen steht es mit den lustigen — sie ent
@@ -1265,10 +1265,10 @@
       <lb facs="#facs_2_region_1685081253471_421_tl_6" n="N008"/>suchen diesen Mangel (dessen sich der Componist wahrschein
       <lb facs="#facs_2_region_1685081253471_421_tl_7" n="N009" break="no"/>lich bewußt ist) durch eine erzwungene, scharfe Charakteristik
       <lb facs="#facs_2_region_1685081253471_421_tl_8" n="N010"/>zu verdecken. Das Fuhrmannslied mit seiner Molltonart
-      <lb facs="#facs_2_line_1713503200260_139" n="N011"/>und den heftig rückenden Modulationen straft <rs type="person">Alfio</rs>’s Ver
+      <lb facs="#facs_2_line_1713503200260_139" n="N011"/>und den heftig rückenden Modulationen straft <rs type="person" ref="#hsl_person_id_4401">Alfio</rs>’s Ver
       <lb facs="#facs_2_region_1685081253471_421_tl_9" n="N012" break="no"/>sicherung: „Ich bleibe doch stets froh“, Lügen; es ist nicht
       <lb facs="#facs_2_line_1713503296389_175" n="N013"/>„froh“, sondern aufgeregt, wild, trotzig. Natürlichen, frisch
-      <lb facs="#facs_2_region_1685081253471_421_tl_12" n="N014" break="no"/>quellenden Frohsinn vermisse ich auch in dem Trinklied <rs type="person">Tur
+      <lb facs="#facs_2_region_1685081253471_421_tl_12" n="N014" break="no"/>quellenden Frohsinn vermisse ich auch in dem Trinklied <rs type="person" ref="#hsl_person_id_4231">Tur
       <lb facs="#facs_2_region_1685081253471_421_tl_13" n="N015" break="no"/>riddu</rs>’s, das erst im Refrain durch den hübschen Rhythmus
       <lb facs="#facs_2_region_1685081253471_421_tl_14" n="N016"/>von drei zu drei Tacten sich wirksam aufschwingt. Und der
       <lb facs="#facs_2_region_1685081253471_421_tl_15" n="N017"/>Eingangschor, athmet er wirklich die naive Sonntagslustigkeit
@@ -1277,35 +1277,35 @@
             </p><p>
       <lb facs="#facs_2_region_1685081253471_421_tl_18" n="N020"/>Daß den Hörer manche Melodie entzückt, die an sich
       <lb facs="#facs_2_region_1685081253471_421_tl_19" n="N021"/>weder besonders neu noch vornehm ist, kommt großentheils
-      <lb facs="#facs_2_region_1685081253471_421_tl_20" n="N022"/>auf Rechnung der wirksamen Instrumentation. <rs type="person">Mascagni</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685081253471_421_tl_20" n="N022"/>auf Rechnung der wirksamen Instrumentation. <rs type="person" ref="#hsl_person_id_993">Mascagni</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1685081253471_421_tl_21" n="N023"/>ist ein Meister der Orchestrirung; er übt diese Meisterschaft
       <lb facs="#facs_2_region_1685081253471_421_tl_22" n="N024"/>in der Regel als echter Künstler, mißbraucht sie aber auch
       <lb facs="#facs_2_region_1685081253471_421_tl_23" n="N025"/>häufig zu rein materiellen Effecten. Gleich die Ouvertüre
       <lb facs="#facs_2_line_1713503279668_166" n="N026"/>gewinnt uns durch ihre Klangschönheit. Leider hat der Com
-      <lb facs="#facs_2_region_1685081253471_421_tl_24" n="N027" break="no"/>ponist sich durch <rs type="person">Meyerbeer</rs>’s Beispiel (in „<rs type="bibl">Dinorah</rs>“) zu
+      <lb facs="#facs_2_region_1685081253471_421_tl_24" n="N027" break="no"/>ponist sich durch <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s Beispiel (in „<rs type="bibl" ref="#hsl_work_id_211">Dinorah</rs>“) zu
       <lb facs="#facs_2_region_1685081253471_421_tl_25" n="N028"/>dem falschen Effecte verleiten lassen, mitten in der Ouver
-      <lb facs="#facs_2_region_1685081253471_421_tl_26" n="N029" break="no"/>türe, hinter dem Vorhange, <rs type="person">Turriddu</rs> seine Serenade singen
-      <lb facs="#facs_2_region_1685081253471_421_tl_27" n="N030"/>zu lassen. Die Serenade gehört auf die Bühne, vor <rs type="person">Lola</rs>’s
+      <lb facs="#facs_2_region_1685081253471_421_tl_26" n="N029" break="no"/>türe, hinter dem Vorhange, <rs type="person" ref="#hsl_person_id_4231">Turriddu</rs> seine Serenade singen
+      <lb facs="#facs_2_region_1685081253471_421_tl_27" n="N030"/>zu lassen. Die Serenade gehört auf die Bühne, vor <rs type="person" ref="#hsl_person_id_4402">Lola</rs>’s
       <lb facs="#facs_2_region_1685081253471_421_tl_28" n="N031"/>Fenster. Durch Klangschönheit entzückt auch das berühmte
       <lb facs="#facs_2_region_1685081253471_421_tl_29" n="N032"/>Orchester-Intermezzo, in welchem ein mächtig anschwellendes
       <lb facs="#facs_2_line_1713503504027_249" n="N033"/>Unisono der Violinen sich mit Harfen-Accorden und Orgel
       <lb facs="#facs_2_region_1685081253471_421_tl_30" n="N034" break="no"/>tönen zu einer Art Sphärenmusik verflößt. Vor
-      <lb facs="#facs_2_line_1713503525724_256" n="N035" break="no"/>trefflich versteht sich <rs type="person">Mascagni</rs> auf die Beredtsam
+      <lb facs="#facs_2_line_1713503525724_256" n="N035" break="no"/>trefflich versteht sich <rs type="person" ref="#hsl_person_id_993">Mascagni</rs> auf die Beredtsam
       <lb facs="#facs_2_region_1685081253471_421_tl_31" n="N036" break="no"/>keit der einzelnen Instrumente. Er bringt da mit
       <lb facs="#facs_2_region_1685081253471_421_tl_32" n="N037" break="no"/>unter auch seltenere, vornehmere Instrumental-Effecte, womit
       <lb facs="#facs_2_region_1685081253471_421_tl_33" n="N038"/>nicht gesagt sein soll, daß er sie zuerst erfunden hat. Die
       <lb facs="#facs_2_region_1685081253471_421_tl_34" n="N039"/>wiederholten leisen Schläge auf die große Trommel (im
-      <lb facs="#facs_2_region_1685081253471_421_tl_35" n="N040"/>Finale, gleich nach der Herausforderung) hat <hi rendition="#em"><rs type="person">Verdi</rs></hi> für
+      <lb facs="#facs_2_region_1685081253471_421_tl_35" n="N040"/>Finale, gleich nach der Herausforderung) hat <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi> für
       <lb facs="#facs_2_region_1685081253471_421_tl_36" n="N041"/>den Ausdruck schwüler Beklemmung bereits in der Sterbe
-      <lb facs="#facs_2_region_1685081253471_421_tl_37" n="N042" break="no"/>scene der <rs type="person">Desdemona</rs> verwendet, ja früher schon im „<rs type="bibl">Rigo
+      <lb facs="#facs_2_region_1685081253471_421_tl_37" n="N042" break="no"/>scene der <rs type="person" ref="#hsl_person_id_4814">Desdemona</rs> verwendet, ja früher schon im „<rs type="bibl" ref="#hsl_work_id_59">Rigo
             <lb facs="#facs_2_region_1685081253471_421_tl_38" n="N043" break="no"/>letto</rs>“. Der schöne Effet der vereinzelten tiefen Harfentöne,<space quantity="1" unit="char"/></p>
             <cb n="6"/>
             <p prev="true">
       <lb facs="#facs_2_region_1685081257571_424_tl_1" n="N001"/>welche in dem „Intermezzo“ die Dominante und Tonika (g, c)
-      <lb facs="#facs_2_region_1685081257571_424_tl_2" n="N002"/>anschlagen, stammt von <hi rendition="#em"><rs type="person">Boito</rs></hi> aus dem Duett <rs type="person">Faust</rs>’s mit
-      <lb facs="#facs_2_region_1685081257571_424_tl_3" n="N003"/><rs type="person">Gretchen</rs>. Die bedenkliche Seite von <rs type="person">Mascagni</rs>’s Instrumen
+      <lb facs="#facs_2_region_1685081257571_424_tl_2" n="N002"/>anschlagen, stammt von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_37">Boito</rs></hi> aus dem Duett <rs type="person" ref="#hsl_person_id_4815">Faust</rs>’s mit
+      <lb facs="#facs_2_region_1685081257571_424_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_4816">Gretchen</rs>. Die bedenkliche Seite von <rs type="person" ref="#hsl_person_id_993">Mascagni</rs>’s Instrumen
       <lb facs="#facs_2_region_1685081257571_424_tl_4" n="N004" break="no"/>tirung ist das Getöse, der betäubende Lärm, in dem er sich
-      <lb facs="#facs_2_region_1685081257571_424_tl_5" n="N005"/>häufig gefällt. Darin geht er über <rs type="person">Verdi</rs> hinaus und ver
+      <lb facs="#facs_2_region_1685081257571_424_tl_5" n="N005"/>häufig gefällt. Darin geht er über <rs type="person" ref="#hsl_person_id_312">Verdi</rs> hinaus und ver
       <lb facs="#facs_2_region_1685081257571_424_tl_6" n="N006" break="no"/>kehrt den Frohsinn lustiger Dorfbewohner in den Aufruhr
       <lb facs="#facs_2_region_1685081257571_424_tl_7" n="N007"/>einer Revolutions-Scene. Um das „Fuhrmannslied“ zu
       <lb facs="#facs_2_region_1685081257571_424_tl_8" n="N008"/>accompagniren, arbeiten alle Blechinstrumente, Pauken, große
@@ -1313,84 +1313,84 @@
       <lb facs="#facs_2_region_1685081257571_424_tl_10" n="N010" break="no"/>los ist das häufige Verdoppeln der Gesangsmelodie durch
       <lb facs="#facs_2_region_1685081257571_424_tl_11" n="N011"/>Posaunen, noch geschmackloser die Nothzüchtigung der Po
       <lb facs="#facs_2_region_1685081257571_424_tl_12" n="N012" break="no"/>saunen zu raschen, figurirten Stellen, wie in dem ersten Chor
-      <lb facs="#facs_2_region_1685081257571_424_tl_13" n="N013"/>und in <rs type="person">Alfio</rs>’s Lied. Unsere Hoffnung, <rs type="person">Mascagni</rs>’s viel
+      <lb facs="#facs_2_region_1685081257571_424_tl_13" n="N013"/>und in <rs type="person" ref="#hsl_person_id_4401">Alfio</rs>’s Lied. Unsere Hoffnung, <rs type="person" ref="#hsl_person_id_993">Mascagni</rs>’s viel
       <lb facs="#facs_2_region_1685081257571_424_tl_14" n="N014" break="no"/>gerühmtes reformatorisches Verdienst werde sich auch in einer
       <lb facs="#facs_2_region_1685081257571_424_tl_15" n="N015"/>Veredlung und Mäßigung des unerträglich angewachsenen
       <lb facs="#facs_2_region_1685081257571_424_tl_16" n="N016"/>Orchesterlärms äußern, ist getäuscht worden.
             </p><p>
-      <lb facs="#facs_2_region_1685081257571_424_tl_17" n="N017"/>Wie verhält sich die neue Oper zu <hi rendition="#em"><rs type="person">Verdi</rs></hi>? In einer
+      <lb facs="#facs_2_region_1685081257571_424_tl_17" n="N017"/>Wie verhält sich die neue Oper zu <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi>? In einer
       <lb facs="#facs_2_region_1685081257571_424_tl_18" n="N018"/>eben erschienenen und nach allen Seiten hin verschickten
-      <lb facs="#facs_2_region_1685081257571_424_tl_19" n="N019"/>Broschüre: „<rs type="bibl">Zur Erklärung der Cavalleria rusticana</rs>“ wird
-      <lb facs="#facs_2_region_1685081257571_424_tl_20" n="N020"/>jeder musikalische Zusammenhang <rs type="person">Mascagni</rs>’s mit <rs type="person">Verdi</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1685081257571_424_tl_21" n="N021"/>rundweg geleugnet. Der Verfasser, ein Herr <hi rendition="#em"><rs type="person">Pudor</rs></hi>, dessen
+      <lb facs="#facs_2_region_1685081257571_424_tl_19" n="N019"/>Broschüre: „<rs type="bibl" ref="#hsl_work_id_3139">Zur Erklärung der Cavalleria rusticana</rs>“ wird
+      <lb facs="#facs_2_region_1685081257571_424_tl_20" n="N020"/>jeder musikalische Zusammenhang <rs type="person" ref="#hsl_person_id_993">Mascagni</rs>’s mit <rs type="person" ref="#hsl_person_id_312">Verdi</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685081257571_424_tl_21" n="N021"/>rundweg geleugnet. Der Verfasser, ein Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4234">Pudor</rs></hi>, dessen
       <lb facs="#facs_2_region_1685081257571_424_tl_22" n="N022"/>Aufsätze sich durch einen sehr starken Ton des Selbstgefühls
-      <lb facs="#facs_2_region_1685081257571_424_tl_23" n="N023"/>auszeichnen, nennt die <rs type="bibl">Cavalleria rusticana</rs> „<hi rendition="#em">das erste
+      <lb facs="#facs_2_region_1685081257571_424_tl_23" n="N023"/>auszeichnen, nennt die <rs type="bibl" ref="#hsl_work_id_848">Cavalleria rusticana</rs> „<hi rendition="#em">das erste
       <lb facs="#facs_2_region_1685081257571_424_tl_24" n="N024"/>Werk der neuen Zeit</hi>“, „<hi rendition="#em">die erste musikalische
       <lb facs="#facs_2_line_1713503481965_239" n="N025"/>Offenbarung</hi>“, „ein Werk, das noch die <hi rendition="#em">ganze musi
       <lb facs="#facs_2_line_1713503487732_245" n="N026" break="no"/>kalische Welt erschüttern</hi> wird“! An diese kleinen
-      <lb facs="#facs_2_region_1685081257571_424_tl_31" n="N027"/>Schmeicheleien knüpft Herr <rs type="person">Pudor</rs> die Behauptung, <rs type="person">Mascagni</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1685081257571_424_tl_32" n="N028"/>habe mit <hi rendition="#em"><rs type="person">Verdi</rs> gar nichts gemein</hi>. Bei <rs type="person">Verdi</rs> sei
+      <lb facs="#facs_2_region_1685081257571_424_tl_31" n="N027"/>Schmeicheleien knüpft Herr <rs type="person" ref="#hsl_person_id_4234">Pudor</rs> die Behauptung, <rs type="person" ref="#hsl_person_id_993">Mascagni</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685081257571_424_tl_32" n="N028"/>habe mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs> gar nichts gemein</hi>. Bei <rs type="person" ref="#hsl_person_id_312">Verdi</rs> sei
       <lb facs="#facs_2_line_1713503320740_182" n="N029"/>Alles nur „Gefühls-Raffinement, Gefühls-Renommage, Ge
       <lb facs="#facs_2_region_1685081257571_424_tl_33" n="N030" break="no"/>fühlsheuchelei, seine Musik pomphaft, aber innerlich hohl etc.“
-      <lb facs="#facs_2_region_1685081257571_424_tl_34" n="N031"/>Nur Jemand, der <rs type="person">Verdi</rs> nicht kennt, kann so sprechen. <rs type="person">Verdi</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1685081257571_424_tl_34" n="N031"/>Nur Jemand, der <rs type="person" ref="#hsl_person_id_312">Verdi</rs> nicht kennt, kann so sprechen. <rs type="person" ref="#hsl_person_id_312">Verdi</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1685081257571_424_tl_35" n="N032"/>war niemals ein Gefühlsheuchler; auch was uns in seinen
       <lb facs="#facs_2_region_1685081257571_424_tl_36" n="N033"/>Opern übertrieben und roh erscheint, hat er aufrichtig so
-      <lb facs="#facs_2_region_1685081257571_424_tl_37" n="N034"/>empfunden und unbefangen herausgesagt. Ob <rs type="person">Mascagni</rs> ihn
+      <lb facs="#facs_2_region_1685081257571_424_tl_37" n="N034"/>empfunden und unbefangen herausgesagt. Ob <rs type="person" ref="#hsl_person_id_993">Mascagni</rs> ihn
       <lb facs="#facs_2_region_1685081257571_424_tl_38" n="N035"/>übertreffen werde, das mögen seine künftigen größeren Werke
-      <lb facs="#facs_2_region_1685081257571_424_tl_39" n="N036"/>darthun; in der „<rs type="bibl">Cavalleria</rs>“ erreicht er keineswegs die
+      <lb facs="#facs_2_region_1685081257571_424_tl_39" n="N036"/>darthun; in der „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria</rs>“ erreicht er keineswegs die
       <lb facs="#facs_2_region_1685081257571_424_tl_40" n="N037"/>Melodienfrische, die Originalität, die unerschöpfliche Erfindung
-      <lb facs="#facs_2_region_1685081257571_424_tl_41" n="N038"/><rs type="person">Verdi</rs>’s. Er enthält sich nur mancher Geschmacklosigkeiten des
-      <lb facs="#facs_2_region_1685081257571_424_tl_42" n="N039"/>früheren <rs type="person">Verdi</rs>, und dies verdankt er der Zeit, den musikalisch
+      <lb facs="#facs_2_region_1685081257571_424_tl_41" n="N038"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s. Er enthält sich nur mancher Geschmacklosigkeiten des
+      <lb facs="#facs_2_region_1685081257571_424_tl_42" n="N039"/>früheren <rs type="person" ref="#hsl_person_id_312">Verdi</rs>, und dies verdankt er der Zeit, den musikalisch
       <lb facs="#facs_2_region_1685081257571_424_tl_43" n="N040"/>veränderten Anschauungen der Zeit, in welcher er aufwuchs;
-      <lb facs="#facs_2_region_1685081257571_424_tl_44" n="N041"/>er verdankt es zum großen Theile <rs type="person">Verdi</rs> selbst, dessen „<rs type="bibl">Aïda</rs>“
-      <lb facs="#facs_2_region_1685081257571_424_tl_45" n="N042"/>und „<rs type="bibl">Otello</rs>“ ihre Spuren in die „<rs type="bibl">Cavalleria</rs>“ unver
+      <lb facs="#facs_2_region_1685081257571_424_tl_44" n="N041"/>er verdankt es zum großen Theile <rs type="person" ref="#hsl_person_id_312">Verdi</rs> selbst, dessen „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“
+      <lb facs="#facs_2_region_1685081257571_424_tl_45" n="N042"/>und „<rs type="bibl" ref="#hsl_work_id_74">Otello</rs>“ ihre Spuren in die „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria</rs>“ unver
       <lb facs="#facs_2_line_1713503420140_217" n="N043" break="no"/>kennbar eingedrückt haben. „On est toujours le fils de<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p prev="true">
-      <lb facs="#facs_3_region_1685081269323_430_tl_1" n="N001"/>quelcun,“ sagt <rs type="person">Beaumarchais</rs>. Auch <rs type="person">Mascagni</rs> ist nicht vom
+      <lb facs="#facs_3_region_1685081269323_430_tl_1" n="N001"/>quelcun,“ sagt <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>. Auch <rs type="person" ref="#hsl_person_id_993">Mascagni</rs> ist nicht vom
       <lb facs="#facs_3_region_1685081269323_430_tl_2" n="N002"/>Himmel gefallen, und als sein musikalischer Vater kann
-      <lb facs="#facs_3_region_1685081269323_430_tl_3" n="N003"/>schlechterdings nur <rs type="person">Verdi</rs> bezeichnet werden. Von <rs type="person">Verdi</rs> hat
-      <lb facs="#facs_3_region_1685081269323_430_tl_4" n="N004"/>die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper, hat speciell <rs type="person">Mascagni</rs> die leidenschaft
+      <lb facs="#facs_3_region_1685081269323_430_tl_3" n="N003"/>schlechterdings nur <rs type="person" ref="#hsl_person_id_312">Verdi</rs> bezeichnet werden. Von <rs type="person" ref="#hsl_person_id_312">Verdi</rs> hat
+      <lb facs="#facs_3_region_1685081269323_430_tl_4" n="N004"/>die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper, hat speciell <rs type="person" ref="#hsl_person_id_993">Mascagni</rs> die leidenschaft
       <lb facs="#facs_3_line_1713503544291_266" n="N005" break="no"/>liche Spannung, die mächtigen Steigerungen, die Musik
-      <lb facs="#facs_3_line_1713503547068_271" n="N006"/>„welche Blut zieht“. Von dem jungen <rs type="person">Verdi</rs> hat er die
+      <lb facs="#facs_3_line_1713503547068_271" n="N006"/>„welche Blut zieht“. Von dem jungen <rs type="person" ref="#hsl_person_id_312">Verdi</rs> hat er die
       <lb facs="#facs_3_region_1685081269323_430_tl_9" n="N007"/>lodernde Sinnlichkeit, von dem alten die declamatorische Prä
       <lb facs="#facs_3_region_1685081269323_430_tl_10" n="N008" break="no"/>gung. Und wie so manche melodische und harmonische Wen
       <lb facs="#facs_3_region_1685081269323_430_tl_11" n="N009" break="no"/>dung dazu? Klingt nicht gleich die Serenade in der Ouvertüre
-      <lb facs="#facs_3_region_1685081269323_430_tl_12" n="N010"/><rs type="person">Verdi</rs>sch? Ist nicht <rs type="person">Turriddu</rs>’s A-moll-Satz: „Lass’ mich,
-      <lb facs="#facs_3_region_1685081269323_430_tl_13" n="N011"/><rs type="person">Santuzza</rs>!“ mit seinem Triolengeklopfe <rs type="person">Verdi</rs>sch? Und
-      <lb facs="#facs_3_region_1685081269323_430_tl_14" n="N012"/><rs type="person">Alfio</rs>’s wüthendes F-moll-Allegro (im Duett mit <rs type="person">Santuzza</rs>),
-      <lb facs="#facs_3_region_1685081269323_430_tl_15" n="N013"/>und die banalen Unisonos in dem Duett zwischen <rs type="person">Turriddu</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_3_region_1685081269323_430_tl_16" n="N014"/>und <rs type="person">Santuzza</rs> — sind sie nicht <rs type="person">Verdi</rs>sch?
+      <lb facs="#facs_3_region_1685081269323_430_tl_12" n="N010"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>sch? Ist nicht <rs type="person" ref="#hsl_person_id_4231">Turriddu</rs>’s A-moll-Satz: „Lass’ mich,
+      <lb facs="#facs_3_region_1685081269323_430_tl_13" n="N011"/><rs type="person" ref="#hsl_person_id_3665">Santuzza</rs>!“ mit seinem Triolengeklopfe <rs type="person" ref="#hsl_person_id_312">Verdi</rs>sch? Und
+      <lb facs="#facs_3_region_1685081269323_430_tl_14" n="N012"/><rs type="person" ref="#hsl_person_id_4401">Alfio</rs>’s wüthendes F-moll-Allegro (im Duett mit <rs type="person" ref="#hsl_person_id_3665">Santuzza</rs>),
+      <lb facs="#facs_3_region_1685081269323_430_tl_15" n="N013"/>und die banalen Unisonos in dem Duett zwischen <rs type="person" ref="#hsl_person_id_4231">Turriddu</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1685081269323_430_tl_16" n="N014"/>und <rs type="person" ref="#hsl_person_id_3665">Santuzza</rs> — sind sie nicht <rs type="person" ref="#hsl_person_id_312">Verdi</rs>sch?
             </p><p>
       <lb facs="#facs_3_region_1685081269323_430_tl_17" n="N015"/>Ueber die enthusiastische Aufnahme der neuen Oper und
-      <lb facs="#facs_3_region_1685081269323_430_tl_18" n="N016"/>die von Director <hi rendition="#em"><rs type="person">Jahn</rs></hi> so meisterhaft geleitete vorzügliche
+      <lb facs="#facs_3_region_1685081269323_430_tl_18" n="N016"/>die von Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_979">Jahn</rs></hi> so meisterhaft geleitete vorzügliche
       <lb facs="#facs_3_region_1685081269323_430_tl_19" n="N017"/>Aufführung wurde bereits gestern in Kürze berichtet. Herr
-      <lb facs="#facs_3_region_1685081269323_430_tl_20" n="N018"/><hi rendition="#em"><rs type="person">Müller</rs></hi> hat als <rs type="person">Turriddu</rs> einen wohlverdienten großen
+      <lb facs="#facs_3_region_1685081269323_430_tl_20" n="N018"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1348">Müller</rs></hi> hat als <rs type="person" ref="#hsl_person_id_4231">Turriddu</rs> einen wohlverdienten großen
       <lb facs="#facs_3_region_1685081269323_430_tl_21" n="N019"/>Erfolg erzielt. Er darf diese schwierige und anstrengende
       <lb facs="#facs_3_region_1685081269323_430_tl_22" n="N020"/>Rolle zu seinen allerbesten zählen. In Maske, Mimik und
       <lb facs="#facs_3_region_1685081269323_430_tl_23" n="N021"/>Action verkörperte er vollständig den durch inneren Zwist
       <lb facs="#facs_3_region_1685081269323_430_tl_24" n="N022"/>verstörten, leidenschaftlichen Sicilianer. Die Gewalt der Si
-      <lb facs="#facs_3_region_1685081269323_430_tl_25" n="N023" break="no"/>tuation und der Musik riß Herrn <rs type="person">Müller</rs> zu lebendigerem
+      <lb facs="#facs_3_region_1685081269323_430_tl_25" n="N023" break="no"/>tuation und der Musik riß Herrn <rs type="person" ref="#hsl_person_id_1348">Müller</rs> zu lebendigerem
       <lb facs="#facs_3_region_1685081269323_430_tl_26" n="N024"/>Spiele hin, als wir in der Regel an ihm gewohnt sind;
       <lb facs="#facs_3_region_1685081269323_430_tl_27" n="N025"/>den rührenden Abschied von der Mutter sang und spielte er
       <lb facs="#facs_3_region_1685081269323_430_tl_28" n="N026"/>mit ergreifender Wirkung. Gleich stürmischen Beifall fand
-      <lb facs="#facs_3_region_1685081269323_430_tl_29" n="N027"/>Fräulein <hi rendition="#em"><rs type="person">Schläger</rs></hi> als <rs type="person">Santuzza</rs>. Sie war voll Feuer und
+      <lb facs="#facs_3_region_1685081269323_430_tl_29" n="N027"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3064">Schläger</rs></hi> als <rs type="person" ref="#hsl_person_id_3665">Santuzza</rs>. Sie war voll Feuer und
       <lb facs="#facs_3_region_1685081269323_430_tl_30" n="N028"/>Leidenschaft; leider verleitet sie die Rolle zu häufiger Ueber
       <lb facs="#facs_3_region_1685081269323_430_tl_31" n="N029" break="no"/>anstrengung ihrer Höhe, die also forcirt nicht mehr gut klingt.
       <lb facs="#facs_3_region_1685081269323_430_tl_32" n="N030"/>Auch würde es ihre im Ganzen so gelungene Leistung
       <lb facs="#facs_3_region_1685081269323_430_tl_33" n="N031"/>noch verschönern, wenn sie das kreischende Parlando bei
-      <lb facs="#facs_3_region_1685081269323_430_tl_34" n="N032"/><rs type="person">Turriddu</rs>’s Abgang in die Kirche mäßigen und das zwei
+      <lb facs="#facs_3_region_1685081269323_430_tl_34" n="N032"/><rs type="person" ref="#hsl_person_id_4231">Turriddu</rs>’s Abgang in die Kirche mäßigen und das zwei
       <lb facs="#facs_3_region_1685081269323_430_tl_35" n="N033" break="no"/>malige, sehr unschöne Hinfallen vermeiden möchte. Einmal
       <lb facs="#facs_3_region_1685081269323_430_tl_36" n="N034"/>am Schluß der Oper, wäre uns dieser Anblick ganz genügend.
       <lb facs="#facs_3_region_1685081269323_430_tl_37" n="N035"/>Ein Sonnenstrahl in dem düsteren Gewölk dieser Tragödie
-      <lb facs="#facs_3_region_1685081269323_430_tl_38" n="N036"/>ist die <rs type="person">Lola</rs> von Fräulein <hi rendition="#em"><rs type="person">Forster</rs></hi>; man kann für Auge
+      <lb facs="#facs_3_region_1685081269323_430_tl_38" n="N036"/>ist die <rs type="person" ref="#hsl_person_id_4402">Lola</rs> von Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1055">Forster</rs></hi>; man kann für Auge
       <lb facs="#facs_3_region_1685081269323_430_tl_39" n="N037"/>und Ohr nicht schöner sorgen. Vortrefflich bewährt sich Herr
-      <lb facs="#facs_3_region_1685081269323_430_tl_40" n="N038"/><hi rendition="#em"><rs type="person">Neidl</rs></hi> als <rs type="person">Alfio</rs>, sehr tüchtig, wie immer, Frau <hi rendition="#em"><rs type="person">Kaulich</rs></hi><space quantity="1" unit="char"/>
-      <lb facs="#facs_3_region_1685081269323_430_tl_41" n="N039"/>in der kleinen Rolle der <rs type="person">Lucia</rs>. Nachdem auch von Seite des
+      <lb facs="#facs_3_region_1685081269323_430_tl_40" n="N038"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1428">Neidl</rs></hi> als <rs type="person" ref="#hsl_person_id_4401">Alfio</rs>, sehr tüchtig, wie immer, Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1057">Kaulich</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1685081269323_430_tl_41" n="N039"/>in der kleinen Rolle der <rs type="person" ref="#hsl_person_id_4812">Lucia</rs>. Nachdem auch von Seite des
       <lb facs="#facs_3_region_1685081269323_430_tl_42" n="N040"/>Orchesters und des Chors, wie der scenischen Ausstattung
       <lb facs="#facs_3_region_1685081269323_430_tl_43" n="N041"/>die höchsten Ansprüche erfüllt waren, konnte der große Erfolg
-      <lb facs="#facs_3_region_1685081269323_430_tl_44" n="N042"/>der „<rs type="bibl">Cavalleria rusticana</rs>“ auch in <rs type="place" ref="#hsl_place_id_55">Wien</rs> nicht zweifelhaft sein.</p>
+      <lb facs="#facs_3_region_1685081269323_430_tl_44" n="N042"/>der „<rs type="bibl" ref="#hsl_work_id_848">Cavalleria rusticana</rs>“ auch in <rs type="place" ref="#hsl_place_id_55">Wien</rs> nicht zweifelhaft sein.</p>
          </div>
       </body>
    </text>
