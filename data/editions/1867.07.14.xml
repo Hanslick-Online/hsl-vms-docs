@@ -108,6 +108,7 @@
          <change who="delsner" when="2023-10-09">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2023-11-30" who="ampfiel">Format, Umbrüche, ref für place</change>
          <change when="2023-12-11" who="ampfiel">ref fertig ausgefüllt, space eingefügt</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -868,11 +869,11 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="1"/>
-               <head type="h1"><lb facs="#facs_2_region_1684569368886_2297_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>.</head>
-               <head type="h2"><lb facs="#facs_2_region_1684569368886_2297_tl_2" n="N002"/>(<hi rendition="#em">Concurs der Gesangvereine</hi>.)</head>
-                  <p>
+            <head type="h1"><lb facs="#facs_2_region_1684569368886_2297_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>.</head>
+            <head type="h2"><lb facs="#facs_2_region_1684569368886_2297_tl_2" n="N002"/>(<hi rendition="#em">Concurs der Gesangvereine</hi>.)</head>
+            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <p>
       <lb facs="#facs_2_region_1684569368886_2297_tl_3" n="N003"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_44">Paris</rs></hi>, <date when="1867-07-10">10. Juli</date>.
       <lb facs="#facs_2_line_1696349890609_1405" n="N004"/>Ed. H. Die Palmen- und Orchideenhäuser im Jardin
       <lb facs="#facs_2_region_1684569368886_2297_tl_4" n="N005"/>réservé des Ausstellungsparkes hatten in den letzten Tagen
@@ -890,10 +891,9 @@
       <lb facs="#facs_2_region_1684569368886_2297_tl_16" n="N017"/>Ausstellung — einer Schwindelbühne, welche, nach kurzem
       <lb facs="#facs_2_region_1684569368886_2297_tl_17" n="N018"/>Scheinleben, ihre Vorstellungen gerade eingestellt hatte und
       <lb facs="#facs_2_region_1684569368886_2297_tl_18" n="N019"/>anderweitiger Benützung offen stand. Zusammen, in Einen
-      <lb facs="#facs_2_line_1696350523061_1689" n="N020"/>massenhaften Chor vereinigt, hatten wir diese 300 <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
-                  </p>
+      <lb facs="#facs_2_line_1696350523061_1689" n="N020"/>massenhaften Chor vereinigt, hatten wir diese 300 <rs type="place" ref="#hsl_place_id_21">französisch</rs>en<space unit="char" quantity="1"/></p>
             <cb n="2"/>
-               <p prev="true">
+            <p prev="true">
       <lb facs="#facs_2_line_1696349933544_1422" n="N001"/>Vereine schon Tags zuvor gehört, allerdings unter entsetzlichen
       <lb facs="#facs_2_line_1696349946810_1431" n="N002"/>akustischen Verhältnissen. Das „Festival“ (ein aus dem <rs type="place" ref="#hsl_place_id_17">Eng
       <lb facs="#facs_2_region_1684569372078_2300_tl_3" n="N003" break="no"/>lisch</rs>en ohne Noth und Geschmack entlehntes Wort für „Musik
@@ -924,8 +924,8 @@
       <lb facs="#facs_2_region_1684569372078_2300_tl_27" n="N028"/>bei der ganzen Armee steht bevor. Welch treffliches Resultat
       <lb facs="#facs_2_region_1684569372078_2300_tl_28" n="N029"/>würden ähnliche Einrichtungen in der <hi rendition="#em"><rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_2_line_1696350359073_1564" n="N030"/>Armee erzielen, die sich so unvergleichlich musikalischeren Ma
-      <lb facs="#facs_2_region_1684569372078_2300_tl_29" n="N031" break="no"/>terials rühmen darf!</p>
-               <p>
+      <lb facs="#facs_2_region_1684569372078_2300_tl_29" n="N031" break="no"/>terials rühmen darf!
+            </p><p>
       <lb facs="#facs_2_region_1684569372078_2300_tl_30" n="N032"/>Die <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Gesangvereine recrutiren sich (in <rs type="place" ref="#hsl_place_id_44">Paris</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684569372078_2300_tl_31" n="N033"/>fast ausschließlich, in der Provinz größtentheils) aus den ar
       <lb facs="#facs_2_region_1684569372078_2300_tl_32" n="N034" break="no"/>beitenden Classen; bei uns bestehen sie überwiegend aus musi
@@ -939,7 +939,7 @@
       <lb facs="#facs_2_line_1696350005936_1452" n="N042"/>und vermittelt ihnen zugleich ein wohlthuendes Bewußtsein des
       <lb facs="#facs_2_line_1696350008224_1455" n="N043"/>Zusammengehörens und Wechselseitigkeit. Denn die Mit</p>
             <cb n="3"/>
-               <p prev="true">
+            <p prev="true">
       <lb facs="#facs_2_line_1696349935697_1425" n="N001" break="no"/>glieder eines Sängerbundes betrachten einander als Brüder,
       <lb facs="#facs_2_region_1684569376129_2303_tl_1" n="N002"/>und der letzte dieser Vereine will seine Fahne respectirt wissen.
       <lb facs="#facs_2_region_1684569376129_2303_tl_2" n="N003"/>Die Regierung hat an der Gründung dieser Gesangvereine
@@ -985,7 +985,7 @@
       <lb facs="#facs_2_line_1696350011344_1458" n="N043" break="no"/>zeugung aussprechen, die Einstellung der jährlichen Preiscon</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="4"/>
-               <p prev="true">
+            <p prev="true">
       <lb facs="#facs_3_line_1696365819712_1848" n="N001" break="no"/>curse würde sofort das Aufhören aller Gesangvereine zur Folge
       <lb facs="#facs_3_region_1684569389802_2309_tl_2" n="N002"/>haben. Hier wie überall in <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> üben Ehrgeiz und Eitel
       <lb facs="#facs_3_region_1684569389802_2309_tl_3" n="N003" break="no"/>keit einen großen Einfluß. Man wird sie nachsichtiger beur
@@ -1028,9 +1028,9 @@
       <lb facs="#facs_3_region_1684569389802_2309_tl_39" n="N040"/>sehr spärlich über <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> ausgegossen. Unter den zahlrei
       <lb facs="#facs_3_region_1684569389802_2309_tl_40" n="N041" break="no"/>chen <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Vereinen, welche ich bei dieser Jury zu hören
       <lb facs="#facs_3_region_1684569389802_2309_tl_41" n="N042"/>bekam, habe ich nicht Eine schöne, echte Tenorstimme wahrge
-      <lb facs="#facs_3_region_1684569389802_2309_tl_42" n="N043" break="no"/>nommen und nur wenige Bässe von bedeutender Kraft und</p>
+      <lb facs="#facs_3_region_1684569389802_2309_tl_42" n="N043" break="no"/>nommen und nur wenige Bässe von bedeutender Kraft und<space unit="char" quantity="1"/></p>
             <cb n="5"/>
-               <p prev="true">
+            <p prev="true">
       <lb facs="#facs_3_line_1696365822892_1851" n="N001"/>Tiefe. Aus dem Süden <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s kommen die besseren
       <lb facs="#facs_3_region_1684569393695_2312_tl_1" n="N002"/>Stimmen, aber die rohesten und ungeschultesten Sänger; die
       <lb facs="#facs_3_region_1684569393695_2312_tl_2" n="N003"/>nördlichen Provinzen senden musikalischere Sänger, aber mit
@@ -1073,9 +1073,9 @@
       <lb facs="#facs_3_region_1684569393695_2312_tl_37" n="N040"/>älteren Literatur, welche den vierstimmigen Männerchor bekannt
       <lb facs="#facs_3_line_1696365926722_1920" n="N041" break="no"/>lich noch nicht pflegte, haben sie einige Arrangements und singen
       <lb facs="#facs_3_region_1684569393695_2312_tl_38" n="N042"/>z. B. „<rs type="bibl" ref="#hsl_work_id_2078">Die Nacht</rs>“ von <rs type="person" ref="#hsl_person_id_227">Rameau</rs> mit Brummstimmen! Die
-      <lb facs="#facs_3_line_1696365913162_1908" n="N043"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>en Componisten fühlen sich im Männerchor offenbar</p>
+      <lb facs="#facs_3_line_1696365913162_1908" n="N043"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>en Componisten fühlen sich im Männerchor offenbar<space unit="char" quantity="1"/></p>
             <cb n="6"/>
-               <p prev="true">
+            <p prev="true">
       <lb facs="#facs_3_region_1684569399302_2315_tl_1" n="N001"/>nicht heimisch; selbst die beliebtesten Chöre von Ambroise <rs type="person" ref="#hsl_person_id_305">Tho
       <lb facs="#facs_3_region_1684569399302_2315_tl_2" n="N002" break="no"/>mas</rs>, <rs type="person" ref="#hsl_person_id_102">Gounod</rs>, <rs type="person" ref="#hsl_person_id_969">David</rs> etc. sind gekünstelt, unerquicklich und me
       <lb facs="#facs_3_region_1684569399302_2315_tl_3" n="N003" break="no"/>lodielos. Von <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Chören haben nur einige wenige sich
@@ -1103,8 +1103,8 @@
       <lb facs="#facs_3_region_1684569399302_2315_tl_24" n="N025"/>im <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en und <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Chorgesange die schönsten Blüthen
       <lb facs="#facs_3_line_1696365901912_1900" n="N026"/>treibt, ist der frische, lebenswarme Hauch des <hi rendition="#em">Volksliedes</hi>;
       <lb facs="#facs_3_region_1684569399302_2315_tl_26" n="N027"/>was dem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Männergesange so empfindlich ab
-      <lb facs="#facs_3_region_1684569399302_2315_tl_27" n="N028" break="no"/>geht und noth thut, ist eben das Element des Volksliedes.</p>
-               <p>
+      <lb facs="#facs_3_region_1684569399302_2315_tl_27" n="N028" break="no"/>geht und noth thut, ist eben das Element des Volksliedes.
+            </p><p>
       <lb facs="#facs_3_region_1684569399302_2315_tl_28" n="N029"/>Die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Artigkeit gegen fremde Gäste verleugnete
       <lb facs="#facs_3_region_1684569399302_2315_tl_29" n="N030"/>sich auch diesmal nicht; der <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Gesellschaft mit dem
       <lb facs="#facs_3_region_1684569399302_2315_tl_30" n="N031"/>wunderlichen Namen wurde zwar kein „Preis“, aber als Zei
