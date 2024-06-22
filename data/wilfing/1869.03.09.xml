@@ -108,6 +108,7 @@
          <change who="delsner" when="2024-05-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2024-05-18" who="ampfiel">header, Absätze, Fußnoten, Zeilenumbrüche</change>
          <change when="2024-05-24" who="ampfiel">ref rs ausgefüllt</change>
+         <change when="2024-06-15" who="ampfiel">" und ' ausgetauscht, space eingefügt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1122,37 +1123,38 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>            
       <head type="h1">
-            <lb facs="#facs_1_region_1684590056920_2047_tl_1" n="N001"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s „<rs type="bibl" ref="#hsl_work_id_3182">Judenthum in der Musik</rs>".</head>
+            <lb facs="#facs_1_region_1684590056920_2047_tl_1" n="N001"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s „<rs type="bibl" ref="#hsl_work_id_3182">Judenthum in der Musik</rs>“.</head>
       <head type="h2">
             <lb facs="#facs_1_region_1684590056920_2047_tl_2" n="N002"/><hi rendition="#em">Motto</hi>: Der Jude wird verbrannt.
-            <lb facs="#facs_1_line_1715186388121_576" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_697">Lessing</rs></hi></head>
+            <lb facs="#facs_1_line_1715186388121_576" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_697">Lessing</rs></hi><space quantity="1" unit="char"/>
+      </head>
             <p>      
       <lb facs="#facs_1_region_1684590056920_2047_tl_3" n="N004"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, der seit einiger Zeit die unentbehrliche
       <lb facs="#facs_1_region_1684590056920_2047_tl_4" n="N005"/>Selbstverherrlichung wieder durch fleißige Broschüren-Fabrica
       <lb facs="#facs_1_region_1684590056920_2047_tl_5" n="N006" break="no"/>tion betreibt, hat soeben eine neue Flugschrift unter dem Titel:
-      <lb facs="#facs_1_region_1684590056920_2047_tl_6" n="N007"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_3182">Das Judenthum in der Musik</rs></hi>" (<rs type="place" ref="#hsl_place_id_32">Leipzig</rs> bei J. J.
+      <lb facs="#facs_1_region_1684590056920_2047_tl_6" n="N007"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_3182">Das Judenthum in der Musik</rs></hi>“ (<rs type="place" ref="#hsl_place_id_32">Leipzig</rs> bei J. J.
       <lb facs="#facs_1_region_1684590056920_2047_tl_7" n="N008"/><rs type="person" ref="#hsl_person_id_4879">Weber</rs>) veröffentlicht. Das Scheußlichste in der gesammten
       <lb facs="#facs_1_region_1684590056920_2047_tl_8" n="N009"/>Schöpfung sind die <hi rendition="#em">Juden</hi>, und <hi rendition="#em">Juden</hi> sind alle diejenigen,
       <lb facs="#facs_1_region_1684590056920_2047_tl_9" n="N010"/>die Herrn Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nicht anbeten — das ist ungefähr
       <lb facs="#facs_1_region_1684590056920_2047_tl_10" n="N011"/>der leitende Gedanke dieses zwar dünnen, aber giftgeschwollenen
       <lb facs="#facs_1_region_1684590056920_2047_tl_11" n="N012"/>Büchleins. Es ist Frau Marie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4878">Muchanoff</rs></hi>, gebornen Gräfin
       <lb facs="#facs_1_region_1684590056920_2047_tl_12" n="N013"/><rs type="person" ref="#hsl_person_id_4878">Nesselrode</rs>, dedicirt und beginnt mit der Klage, „daß jede der
-      <lb facs="#facs_1_region_1684590056920_2047_tl_13" n="N014"/>künstlerischen Leistungen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s in der Tagespresse nicht
+      <lb facs="#facs_1_region_1684590056920_2047_tl_13" n="N014"/>künstlerischen Leistungen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s in der Tagespresse nicht
       <lb facs="#facs_1_region_1684590056920_2047_tl_14" n="N015"/>nur <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s, sondern auch <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s und <rs type="place" ref="#hsl_place_id_17">England</rs>s
-      <lb facs="#facs_1_region_1684590056920_2047_tl_15" n="N016"/>einer auf Herabsetzung ausgehenden Feindseligkeit begegne".
+      <lb facs="#facs_1_region_1684590056920_2047_tl_15" n="N016"/>einer auf Herabsetzung ausgehenden Feindseligkeit begegne“.
       <lb facs="#facs_1_region_1684590056920_2047_tl_16" n="N017"/>Den Grund dieser so weit verzweigten Feindseligkeit findet
       <lb facs="#facs_1_region_1684590056920_2047_tl_17" n="N018"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> in einer allgemeinen, organisirten Verschwörung der
       <lb facs="#facs_1_region_1684590056920_2047_tl_18" n="N019"/><hi rendition="#em">Juden</hi> gegen ihn. Durch einen Aufsatz („<rs type="bibl" ref="#hsl_work_id_3182">Das Judenthum
-      <lb facs="#facs_1_region_1684590056920_2047_tl_19" n="N020"/>in der Musik</rs>") welchen <rs type="person" ref="#hsl_person_id_319">Wagner</rs> im Jahre <date when="1850">1850</date> in die
+      <lb facs="#facs_1_region_1684590056920_2047_tl_19" n="N020"/>in der Musik</rs>“) welchen <rs type="person" ref="#hsl_person_id_319">Wagner</rs> im Jahre <date when="1850">1850</date> in die
       <lb facs="#facs_1_region_1684590056920_2047_tl_20" n="N021"/><rs type="bibl" ref="#hsl_work_id_669">Leipziger Musikzeitung</rs> drucken ließ, seien alle Feinde des
       <lb facs="#facs_1_region_1684590056920_2047_tl_21" n="N022"/>Schweinefleisches auch die seinigen geworden und trachten seit
       <lb facs="#facs_1_region_1684590056920_2047_tl_22" n="N023" break="no"/>her auf alle mögliche Art sich an ihm zu rächen. Der Auf
-      <lb facs="#facs_1_region_1684590056920_2047_tl_23" n="N024" break="no"/>satz soll nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s Versicherung ein ungeheures Aufsehen ge
+      <lb facs="#facs_1_region_1684590056920_2047_tl_23" n="N024" break="no"/>satz soll nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Versicherung ein ungeheures Aufsehen ge
       <lb facs="#facs_1_region_1684590056920_2047_tl_24" n="N025" break="no"/>macht und ihm die bitterste Feindschaft eingetragen haben, ob
       <lb facs="#facs_1_region_1684590056920_2047_tl_25" n="N026" break="no"/>wol merkwürdigerweise nicht der Name R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, sondern
       <lb facs="#facs_1_region_1684590056920_2047_tl_26" n="N027"/>K. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Freigedank</rs></hi> darunter stand, und der Redacteur F. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1745">Bren
       <lb facs="#facs_1_region_1684590056920_2047_tl_27" n="N028" break="no"/>del</rs></hi> sich niemals herbeiließ, den wahren Verfasser zu verrathen!
-      <lb facs="#facs_1_region_1684590056920_2047_tl_28" n="N029"/>Es gehört in der That <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>'sches Selbstbewußtsein dazu,
+      <lb facs="#facs_1_region_1684590056920_2047_tl_28" n="N029"/>Es gehört in der That <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>’sches Selbstbewußtsein dazu,
       <lb facs="#facs_1_region_1684590056920_2047_tl_29" n="N030"/>um zu glauben, daß die gesammte Kunstwelt und Journalistik
       <lb facs="#facs_1_region_1684590056920_2047_tl_30" n="N031"/>noch immer an einen vor 19 Jahren erschienenen pseudony
       <lb facs="#facs_1_region_1684590056920_2047_tl_31" n="N032" break="no"/>men Aufsatz in der <rs type="bibl" ref="#hsl_work_id_669">Leipziger Musikzeitung</rs> denke, und daß
@@ -1160,7 +1162,7 @@
             <cb n="2"/>
             <p prev="true">
       <lb facs="#facs_1_region_1684590060866_2050_tl_1" n="N001"/>Rache der Juden gegen jenes Feuilleton sei. Ich bekenne, erst heute
-      <lb facs="#facs_1_region_1684590060866_2050_tl_2" n="N002"/>durch <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s Flugschrift von jenem Artikel und seiner illustren
+      <lb facs="#facs_1_region_1684590060866_2050_tl_2" n="N002"/>durch <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Flugschrift von jenem Artikel und seiner illustren
       <lb facs="#facs_1_region_1684590060866_2050_tl_3" n="N003"/>Herkunft Kenntniß erhalten zu haben. Dasselbe dürfte bei
       <lb facs="#facs_1_region_1684590060866_2050_tl_4" n="N004"/>der großen Mehrzahl meiner Collegen der Fall sein. Allein
       <lb facs="#facs_1_region_1684590060866_2050_tl_5" n="N005"/>das glaubt <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nimmermehr, er ist überzeugt oder stellt
@@ -1179,20 +1181,20 @@
       <lb facs="#facs_1_region_1684590060866_2050_tl_17" n="N017"/>Da es dem Verfasser „um die Rechtfertigung seines <hi rendition="#em">unüber
       <lb facs="#facs_1_region_1684590060866_2050_tl_18" n="N018" break="no"/>windlichen Widerwillens</hi> gegen jüdisches Wesen“ zu thun
       <lb facs="#facs_1_region_1684590060866_2050_tl_19" n="N019"/>ist, so malt er natürlich ohne alles Licht. Die äußere Er
-      <lb facs="#facs_1_region_1684590060866_2050_tl_20" n="N020" break="no"/>scheinung des Juden ist ein „unangenehmes Naturspiel", aber
+      <lb facs="#facs_1_region_1684590060866_2050_tl_20" n="N020" break="no"/>scheinung des Juden ist ein „unangenehmes Naturspiel“, aber
       <lb facs="#facs_1_region_1684590060866_2050_tl_21" n="N021"/>beileibe kein Unglück für den Juden, weil er „bei diesem Un
-      <lb facs="#facs_1_region_1684590060866_2050_tl_22" n="N022" break="no"/>glücke sich ganz wohl fühlt". Auf der Bühne könne man sich
+      <lb facs="#facs_1_region_1684590060866_2050_tl_22" n="N022" break="no"/>glücke sich ganz wohl fühlt“. Auf der Bühne könne man sich
       <lb facs="#facs_1_region_1684590060866_2050_tl_23" n="N023"/>„keinen antiken oder modernen Charakter von einem Juden
       <lb facs="#facs_1_region_1684590060866_2050_tl_24" n="N024"/>dargestellt denken, ohne unwillkürlich das bis zur Lächerlichkeit
-      <lb facs="#facs_1_region_1684590060866_2050_tl_25" n="N025"/>Ungeeignete einer solchen Vorstellung zu empfinden". (Ob sich
-      <lb facs="#facs_1_region_1684590060866_2050_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s christliches Gemüth wirklich gesträubt hätte, durch
-      <lb facs="#facs_1_region_1684590060866_2050_tl_27" n="N027"/>das Talent der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_31">Bettelheim</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4124">Efillag</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1807">Sontheim</rs>'s</hi>
+      <lb facs="#facs_1_region_1684590060866_2050_tl_25" n="N025"/>Ungeeignete einer solchen Vorstellung zu empfinden“. (Ob sich
+      <lb facs="#facs_1_region_1684590060866_2050_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s christliches Gemüth wirklich gesträubt hätte, durch
+      <lb facs="#facs_1_region_1684590060866_2050_tl_27" n="N027"/>das Talent der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_31">Bettelheim</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4124">Efillag</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1807">Sontheim</rs>’s</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684590060866_2050_tl_28" n="N028"/>Erfolge zu erringen?)</p>
                <p>
       <lb facs="#facs_1_region_1684590060866_2050_tl_29" n="N029"/>Der <hi rendition="#em">gebildete</hi> Jude ist „der herzloseste aller Men
       <lb facs="#facs_1_region_1684590060866_2050_tl_30" n="N030" break="no"/>schen und steht nur im Zusammenhange mit denen, welche sein
-      <lb facs="#facs_1_region_1684590060866_2050_tl_31" n="N031"/>Geld bedürfen". (Aus solchen Begegnungen scheint <rs type="person" ref="#hsl_person_id_319">Wagner</rs>
-               <lb facs="#facs_1_region_1684590060866_2050_tl_32" n="N032"/>seine gesammte Kenntniß der gebildeten Juden geschöpft zu
+      <lb facs="#facs_1_region_1684590060866_2050_tl_31" n="N031"/>Geld bedürfen“. (Aus solchen Begegnungen scheint <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684590060866_2050_tl_32" n="N032"/>seine gesammte Kenntniß der gebildeten Juden geschöpft zu
       <lb facs="#facs_1_region_1684590060866_2050_tl_33" n="N033"/>haben.) Endlich geht der Verfasser auf das Verhältniß der
       <lb facs="#facs_1_region_1684590060866_2050_tl_34" n="N034"/>Juden zur Kunst über. „Was der gebildete Jude auszusprechen
       <lb facs="#facs_1_line_1715186754195_676" n="N035"/>hatte, wenn er künstlerisch sich kundgeben wollte, konnte natür</p>
@@ -1200,77 +1202,75 @@
             <p prev="true">
       <lb facs="#facs_1_region_1684590064689_2053_tl_1" n="N001" break="no"/>lich nur das <hi rendition="#em">Gleichgiltige und Triviale</hi> sein, weil
       <lb facs="#facs_1_region_1684590064689_2053_tl_2" n="N002"/>sein ganzer Trieb zur Kunst ja nur ein luxuriöser, unnöthiger
-      <lb facs="#facs_1_region_1684590064689_2053_tl_3" n="N003"/>war." Nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs> muß jede künstlerische Thätigkeit eines
+      <lb facs="#facs_1_region_1684590064689_2053_tl_3" n="N003"/>war.“ Nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs> muß jede künstlerische Thätigkeit eines
       <lb facs="#facs_1_region_1684590064689_2053_tl_4" n="N004"/>Juden „nothwendig die Eigenschaft der Kälte, der Gleichgiltig
       <lb facs="#facs_1_region_1684590064689_2053_tl_5" n="N005" break="no"/>keit bis zur Trivialität und Lächerlichkeit an sich haben“. Und
       <lb facs="#facs_1_region_1684590064689_2053_tl_6" n="N006"/>welchen Namen nennt er unmittelbar nach dieser Thesis?
-      <lb facs="#facs_1_region_1684590064689_2053_tl_7" n="N007"/>Keinen geringeren als <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_21">Mendelssohn-Bartholdy</rs>'s</hi>,
+      <lb facs="#facs_1_region_1684590064689_2053_tl_7" n="N007"/>Keinen geringeren als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn-Bartholdy</rs>’s</hi>,
       <lb facs="#facs_1_region_1684590064689_2053_tl_8" n="N008"/>oder wie er mit verlogener Empfindsamkeit sagt, „des frühe
-      <lb facs="#facs_1_region_1684590064689_2053_tl_9" n="N009"/>verschiedenen <rs type="person" ref="#hsl_person_id_21">Mendelssohn-Bartholdy</rs>". <rs type="person" ref="#hsl_person_id_319">Wagner</rs> behauptet,
-      <lb facs="#facs_1_region_1684590064689_2053_tl_10" n="N010"/><hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi> habe es trotz seines Talentes nie ermögli
+      <lb facs="#facs_1_region_1684590064689_2053_tl_9" n="N009"/>verschiedenen <rs type="person" ref="#hsl_person_id_21">Mendelssohn-Bartholdy</rs>“. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> behauptet,
+      <lb facs="#facs_1_region_1684590064689_2053_tl_10" n="N010"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi> habe es trotz seines Talentes nie ermögli
       <lb facs="#facs_1_region_1684590064689_2053_tl_11" n="N011" break="no"/>chen können, <hi rendition="#em">auch nur ein einzigesmal</hi> die tiefe, Herz
       <lb facs="#facs_1_region_1684590064689_2053_tl_12" n="N012"/>und Seele ergreifende Wirkung auf uns hervorzubringen, welche
       <lb facs="#facs_1_region_1684590064689_2053_tl_13" n="N013"/>wir von der Kunst erwarten. Ich glaube, daß Tausende un
-      <lb facs="#facs_1_region_1684590064689_2053_tl_14" n="N014" break="no"/>serer Leser mir beistimmen werden, wenn ich Herrn <rs type="person" ref="#hsl_person_id_319">Wagner</rs>
-      <lb facs="#facs_1_region_1684590064689_2053_tl_15" n="N015"/>versichere, daß das einfachste Lied <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>'s (von seinen
+      <lb facs="#facs_1_region_1684590064689_2053_tl_14" n="N014" break="no"/>serer Leser mir beistimmen werden, wenn ich Herrn <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684590064689_2053_tl_15" n="N015"/>versichere, daß das einfachste Lied <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s (von seinen
       <lb facs="#facs_1_region_1684590064689_2053_tl_16" n="N016"/>großen Schöpfungen gar nicht zu reden) uns mehr an „Herz
-      <lb facs="#facs_1_region_1684590064689_2053_tl_17" n="N017"/>und Seele" dringt, als zehn Opern à la „<rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs>".
-      <lb facs="#facs_1_region_1684590064689_2053_tl_18" n="N018"/>Man kann sich vorstellen, wie laut und hitzig <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s</hi>
-      <lb facs="#facs_1_region_1684590064689_2053_tl_19" n="N019"/>Hepp, Hepp! nun hinter <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> erschallt. <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>'s
+      <lb facs="#facs_1_region_1684590064689_2053_tl_17" n="N017"/>und Seele“ dringt, als zehn Opern à la „<rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs>“.
+      <lb facs="#facs_1_region_1684590064689_2053_tl_18" n="N018"/>Man kann sich vorstellen, wie laut und hitzig <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684590064689_2053_tl_19" n="N019"/>Hepp, Hepp! nun hinter <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> erschallt. <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s
       <lb facs="#facs_1_region_1684590064689_2053_tl_20" n="N020"/>Kunst habe eigentlich nur darin bestanden, „zu <hi rendition="#em">täuschen</hi>,
       <lb facs="#facs_1_region_1684590064689_2053_tl_21" n="N021"/>und dieses namentlich damit, daß er jenen von uns näher
       <lb facs="#facs_1_region_1684590064689_2053_tl_22" n="N022"/>charakterisirten (jüdischen) Jargon seiner gelangweilten Zuhö
       <lb facs="#facs_1_region_1684590064689_2053_tl_23" n="N023" break="no"/>rerschaft als modern-pikante Aussprache aller der Trivialitä
       <lb facs="#facs_1_region_1684590064689_2053_tl_24" n="N024" break="no"/>ten aufheftete, welche ihr so wiederholt oft schon in ihrer na
-      <lb facs="#facs_1_region_1684590064689_2053_tl_25" n="N025" break="no"/>türlichen Albernheit vorgeführt worden waren". <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi>
+      <lb facs="#facs_1_region_1684590064689_2053_tl_25" n="N025" break="no"/>türlichen Albernheit vorgeführt worden waren“. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684590064689_2053_tl_26" n="N026"/>ist für <rs type="person" ref="#hsl_person_id_319">Wagner</rs> (der das Publicum niemals mit Opern
-      <lb facs="#facs_1_region_1684590064689_2053_tl_27" n="N027"/>wie die „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs></hi>" durch volle 40 Jahre „getäuscht"
+      <lb facs="#facs_1_region_1684590064689_2053_tl_27" n="N027"/>wie die „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs></hi>“ durch volle 40 Jahre „getäuscht“
       <lb facs="#facs_1_region_1684590064689_2053_tl_28" n="N028"/>hat) eine „tragikomische Erscheinung, wie überhaupt das Kalt
-      <lb facs="#facs_1_region_1684590064689_2053_tl_29" n="N029" break="no"/>lassende, wirklich Lächerliche das Bezeichnende des Judenthums"
+      <lb facs="#facs_1_region_1684590064689_2053_tl_29" n="N029" break="no"/>lassende, wirklich Lächerliche das Bezeichnende des Judenthums“
       <lb facs="#facs_1_region_1684590064689_2053_tl_30" n="N030"/>bildet. Nur bei eingetretener completer Lebensunfähigkeit der
       <lb facs="#facs_1_region_1684590064689_2053_tl_31" n="N031"/>Musik konnten Juden in dieselbe eintreten. „Erst wenn der
       <lb facs="#facs_1_region_1684590064689_2053_tl_32" n="N032"/>innere Tod eines Körpers offenbar ist, gewinnen die außerhalb
       <lb facs="#facs_1_region_1684590064689_2053_tl_33" n="N033"/>liegenden Elemente die Kraft, sich seiner zu bemächtigen, aber
       <lb facs="#facs_1_region_1684590064689_2053_tl_34" n="N034"/>nur um ihn zu zersetzen; dann löst sich das Fleisch dieses Kör
-      <lb facs="#facs_1_line_1715186758652_679" n="N035" break="no"/>pers in wimmelnde Viellebigkeit von Würmern auf." Nach</p>
+      <lb facs="#facs_1_line_1715186758652_679" n="N035" break="no"/>pers in wimmelnde Viellebigkeit von Würmern auf.“ Nach</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684590075514_2059_tl_1" n="N001" break="no"/>dem noch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_116">Heine</rs></hi> ob seiner „gedichteten Lügen" ausgezischt und
-      <lb facs="#facs_2_region_1684590075514_2059_tl_2" n="N002"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_40">Börne</rs></hi> applaudirt worden, weil er an der „Selbstvernichtung"
+      <lb facs="#facs_2_region_1684590075514_2059_tl_1" n="N001" break="no"/>dem noch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_116">Heine</rs></hi> ob seiner „gedichteten Lügen“ ausgezischt und
+      <lb facs="#facs_2_region_1684590075514_2059_tl_2" n="N002"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_40">Börne</rs></hi> applaudirt worden, weil er an der „Selbstvernichtung“
       <lb facs="#facs_2_region_1684590075514_2059_tl_3" n="N003"/>des Judenthums gearbeitet habe, kommt <rs type="person" ref="#hsl_person_id_319">Wagner</rs> ausführlich
       <lb facs="#facs_2_line_1715186817142_733" n="N004"/>auf die entsetzlichen Folgen seines pseudonymen Artikels vom
       <lb facs="#facs_2_region_1684590075514_2059_tl_5" n="N005"/>Jahre <date when="1850">1850</date> zurück. <hi rendition="#em"><rs type="place" ref="#hsl_place_id_32">Leipzig</rs></hi> habe durch die langjährige
-      <lb facs="#facs_2_region_1684590075514_2059_tl_6" n="N006"/>Wirksamkeit Felix <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>'s „die eigentliche musikalisch
-      <lb facs="#facs_2_region_1684590075514_2059_tl_7" n="N007"/><hi rendition="#em">Judentaufe</hi> erhalten", <rs type="place" ref="#hsl_place_id_32">Leipzig</rs> sei „ausschließlich <hi rendition="#em">Juden
-      <lb facs="#facs_2_region_1684590075514_2059_tl_8" n="N008" break="no"/>musik-Weltstadt</hi>" etc. In diesem widerlichen, gemeinen Tone,
+      <lb facs="#facs_2_region_1684590075514_2059_tl_6" n="N006"/>Wirksamkeit Felix <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s „die eigentliche musikalisch
+      <lb facs="#facs_2_region_1684590075514_2059_tl_7" n="N007"/><hi rendition="#em">Judentaufe</hi> erhalten“, <rs type="place" ref="#hsl_place_id_32">Leipzig</rs> sei „ausschließlich <hi rendition="#em">Juden
+      <lb facs="#facs_2_region_1684590075514_2059_tl_8" n="N008" break="no"/>musik-Weltstadt</hi>“ etc. In diesem widerlichen, gemeinen Tone,
       <lb facs="#facs_2_region_1684590075514_2059_tl_9" n="N009"/>der einem fanatischen Bettelmönche Ehre machen würde, geht nun die
       <lb facs="#facs_2_region_1684590075514_2059_tl_10" n="N010"/>ganze Broschüre weiter. Also in der Judenmusik-Weltstadt habe
       <lb facs="#facs_2_region_1684590075514_2059_tl_11" n="N011"/>sich damals die Verschwörung organisirt, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> „als den
-      <lb facs="#facs_2_region_1684590075514_2059_tl_13" n="N012"/>Verfasser jenes Aufsatzes fortan zu ignoriren", ihn hingegen
-      <lb facs="#facs_2_region_1684590075514_2059_tl_15" n="N013"/>durch „systematische Verleumdung und Verfolgung" auf dem
+      <lb facs="#facs_2_region_1684590075514_2059_tl_13" n="N012"/>Verfasser jenes Aufsatzes fortan zu ignoriren“, ihn hingegen
+      <lb facs="#facs_2_region_1684590075514_2059_tl_15" n="N013"/>durch „systematische Verleumdung und Verfolgung“ auf dem
       <lb facs="#facs_2_region_1684590075514_2059_tl_16" n="N014"/>Gebiete seiner literarischen und musikalischen Thätigkeit zu be
       <lb facs="#facs_2_region_1684590075514_2059_tl_17" n="N015" break="no"/>strafen. Als erster Verleumder sei Professor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4880">Bischoff</rs></hi> in der
       <lb facs="#facs_2_region_1684590075514_2059_tl_18" n="N016"/><rs type="bibl" ref="#hsl_work_id_3183">Kölnischen Zeitung</rs> aufgetreten, „ein Freund und Bewunderer
-      <lb facs="#facs_2_region_1684590075514_2059_tl_19" n="N017"/>des Herrn Ferdinand <rs type="person" ref="#hsl_person_id_124">Hiller</rs>“. (Merkwürdigerweise wird <rs type="person" ref="#hsl_person_id_124">Hiller</rs>
+      <lb facs="#facs_2_region_1684590075514_2059_tl_19" n="N017"/>des Herrn Ferdinand <rs type="person" ref="#hsl_person_id_124">Hiller</rs>“. (Merkwürdigerweise wird <rs type="person" ref="#hsl_person_id_124">Hiller</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684590075514_2059_tl_20" n="N018"/>in der Broschüre nicht weiter mißhandelt, obgleich er einige
-      <lb facs="#facs_2_region_1684590075514_2059_tl_21" n="N019"/>Aufsätze von vernichtender Vortrefflichkeit gegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s
+      <lb facs="#facs_2_region_1684590075514_2059_tl_21" n="N019"/>Aufsätze von vernichtender Vortrefflichkeit gegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
       <lb facs="#facs_2_region_1684590075514_2059_tl_22" n="N020"/>Theorien veröffentlicht hat.) Nun sei der Unterzeichnete aufge
-      <lb facs="#facs_2_region_1684590075514_2059_tl_23" n="N021" break="no"/>treten mit seinem „Libell" über das <hi rendition="#em">Musikalisch-Schöne</hi>.
+      <lb facs="#facs_2_region_1684590075514_2059_tl_23" n="N021" break="no"/>treten mit seinem „Libell“ über das <hi rendition="#em">Musikalisch-Schöne</hi>.
       <lb facs="#facs_2_region_1684590075514_2059_tl_24" n="N022"/>Gegen diese Bezeichnung muß ich protestiren. Meine Schrift
       <lb facs="#facs_2_region_1684590075514_2059_tl_25" n="N023"/>„<rs type="bibl" ref="#hsl_work_id_1083">Vom Musikalisch-Schönen</rs>“ (deren Werth R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> na
       <lb facs="#facs_2_region_1684590075514_2059_tl_26" n="N024" break="no"/>türlich nach Belieben taxiren mag) ist eine durchaus ernst
       <lb facs="#facs_2_region_1684590075514_2059_tl_27" n="N025" break="no"/>hafte theoretische Untersuchung, ein streng wissenschaftlicher
       <lb facs="#facs_2_region_1684590075514_2059_tl_28" n="N026"/>Versuch, die Grundbegriffe musikalischer Aesthetik neu zu
       <lb facs="#facs_2_region_1684590075514_2059_tl_29" n="N027"/>prüfen und zu erklären. Anders ist sie auch nie aufgefaßt
-      <lb facs="#facs_2_region_1684590075514_2059_tl_30" n="N028"/>worden, wenngleich neben anderen Tonsetzern auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>
-      <lb facs="#facs_2_region_1684590075514_2059_tl_31" n="N029"/>darin zur Sprache kommt. Hätte ich ein Libell gegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>
+      <lb facs="#facs_2_region_1684590075514_2059_tl_30" n="N028"/>worden, wenngleich neben anderen Tonsetzern auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684590075514_2059_tl_31" n="N029"/>darin zur Sprache kommt. Hätte ich ein Libell gegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684590075514_2059_tl_32" n="N030"/>schreiben wollen, so würde ich wol auch einen pikanteren Titel
       <lb facs="#facs_2_region_1684590075514_2059_tl_33" n="N031"/>im Geschmack von dessen neuester Flugschrift gefunden haben,
       <lb facs="#facs_2_region_1684590075514_2059_tl_34" n="N032"/>z. B.: Der Größenwahnsinn in der Musik. Daß ich unter den
-      <lb facs="#facs_2_region_1684590075514_2059_tl_35" n="N033"/>Vertretern echt musikalischer Schönheit nach <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, <rs type="person" ref="#hsl_person_id_189">Mozart</rs>
+      <lb facs="#facs_2_region_1684590075514_2059_tl_35" n="N033"/>Vertretern echt musikalischer Schönheit nach <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, <rs type="person" ref="#hsl_person_id_189">Mozart</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684590075514_2059_tl_36" n="N034"/>und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> auch den jüdischen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi> angeführt,
       <lb facs="#facs_2_line_1715186888676_804" n="N035"/>wurmt Herrn <rs type="person" ref="#hsl_person_id_319">Wagner</rs> so sehr, daß er sich zu der aberwitzigen</p>
             <cb n="5"/>
@@ -1278,13 +1278,13 @@
       <lb facs="#facs_2_line_1715186906730_816" n="N001"/>Behauptung hinreißen läßt, ich hätte, blos um <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendels
       <lb facs="#facs_2_region_1684590079368_2062_tl_1" n="N002" break="no"/>sohn</rs></hi> „mit Manier auf den Thron zu erheben, ihm auch
       <lb facs="#facs_2_region_1684590079368_2062_tl_2" n="N003"/>einige <hi rendition="#em">christliche</hi> Nobilitäten, wie Robert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>, zur
-      <lb facs="#facs_2_line_1715186820140_736" n="N004"/>Seite gestellt"! Von der Schrift über das „<rs type="bibl" ref="#hsl_work_id_1083">Musikalisch-Schöne</rs>"
+      <lb facs="#facs_2_line_1715186820140_736" n="N004"/>Seite gestellt“! Von der Schrift über das „<rs type="bibl" ref="#hsl_work_id_1083">Musikalisch-Schöne</rs>“
       <lb facs="#facs_2_region_1684590079368_2062_tl_3" n="N005"/>sei nun alles weitere Unglück ausgegangen: „Der Verfasser
       <lb facs="#facs_2_region_1684590079368_2062_tl_4" n="N006"/>hatte sich dadurch in allgemeinen Respect gesetzt und sich eine
       <lb facs="#facs_2_line_1715187018753_917" n="N007"/>Stellung gemacht, welche ihm Bedeutung gab, wenn er, als
       <lb facs="#facs_2_line_1715186924555_834" n="N008"/>angestaunter Aesthetiker, nun im gelesensten politischen Blatte
       <lb facs="#facs_2_region_1684590079368_2062_tl_5" n="N009"/>auch als Recensent auftrat und mich und meine künstlerischen
-      <lb facs="#facs_2_region_1684590079368_2062_tl_6" n="N010"/>Leistungen für null und nichtig erklärte." Mein „Nimbus"
+      <lb facs="#facs_2_region_1684590079368_2062_tl_6" n="N010"/>Leistungen für null und nichtig erklärte.“ Mein „Nimbus“
       <lb facs="#facs_2_region_1684590079368_2062_tl_7" n="N011"/>sei auch die Ursache, daß, so weit als Zeitungen in der Welt
       <lb facs="#facs_2_region_1684590079368_2062_tl_8" n="N012"/>gelesen werden, eben dieser Ton über <rs type="person" ref="#hsl_person_id_319">Wagner</rs> zum Styl ge
       <lb facs="#facs_2_region_1684590079368_2062_tl_9" n="N013" break="no"/>worden ist, welchen überall anzutreffen Madame <rs type="person" ref="#hsl_person_id_4878">Muchanoff</rs>,
@@ -1297,72 +1297,69 @@
       <lb facs="#facs_2_region_1684590079368_2062_tl_16" n="N020" break="no"/>rühmtesten Musik-Schriftsteller Otto <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs></hi>, dessen Kritiken
       <lb facs="#facs_2_region_1684590079368_2062_tl_17" n="N021"/>über „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ und „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ an hinrichterlicher Wucht
       <lb facs="#facs_2_region_1684590079368_2062_tl_18" n="N022"/>Alles übertreffen, was ich je über <rs type="person" ref="#hsl_person_id_319">Wagner</rs> geschrieben? Warum
-      <lb facs="#facs_2_region_1684590079368_2062_tl_19" n="N023"/>nennt er nicht aus <rs type="place" ref="#hsl_place_id_55">Wien</rs> <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2407">Speidel</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4877">Schelle</rs></hi>, die —
+      <lb facs="#facs_2_region_1684590079368_2062_tl_19" n="N023"/>nennt er nicht aus <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2407">Speidel</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4877">Schelle</rs></hi>, die —
       <lb facs="#facs_2_region_1684590079368_2062_tl_20" n="N024"/>zwar ebensowenig Juden als ich — ihn doch nicht um ein
       <lb facs="#facs_2_region_1684590079368_2062_tl_21" n="N025"/>Haar christlicher behandelt haben? Ganz kürzlich hat der Kunst
       <lb facs="#facs_2_region_1684590079368_2062_tl_22" n="N026" break="no"/>historiker <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3129">Lübke</rs></hi> mit liebenswürdigen Humor ihm ein Gleiches
       <lb facs="#facs_2_region_1684590079368_2062_tl_23" n="N027"/>erwiesen, wofür er natürlich in <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs> sofort in die jüdische
-      <lb facs="#facs_2_region_1684590079368_2062_tl_24" n="N028"/>Matrikel eingetragen wurde. Warum erinnert sich <rs type="person" ref="#hsl_person_id_319">Wagner</rs>
-      <lb facs="#facs_2_region_1684590079368_2062_tl_25" n="N029"/>nicht des geistvollen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_786">Hinrich</rs>'s</hi>, welcher ihm anfangs mit leb
+      <lb facs="#facs_2_region_1684590079368_2062_tl_24" n="N028"/>Matrikel eingetragen wurde. Warum erinnert sich <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684590079368_2062_tl_25" n="N029"/>nicht des geistvollen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_786">Hinrich</rs>’s</hi>, welcher ihm anfangs mit leb
       <lb facs="#facs_2_region_1684590079368_2062_tl_26" n="N030" break="no"/>haftester Sympathie entgegenkam, aber je länger er schrieb und
-      <lb facs="#facs_2_region_1684590079368_2062_tl_27" n="N031"/>je genauer er <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s Opern studirte, desto kälter und ab
-      <lb facs="#facs_2_region_1684590079368_2062_tl_28" n="N032" break="no"/>lehnender wurde, so daß der „biedere Brendel" seine letzten
-      <lb facs="#facs_2_region_1684590079368_2062_tl_29" n="N033"/>Aufsätze gar nicht mehr aufnahm? Beklagt sich doch <rs type="person" ref="#hsl_person_id_319">Wagner</rs>
+      <lb facs="#facs_2_region_1684590079368_2062_tl_27" n="N031"/>je genauer er <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Opern studirte, desto kälter und ab
+      <lb facs="#facs_2_region_1684590079368_2062_tl_28" n="N032" break="no"/>lehnender wurde, so daß der „biedere Brendel“ seine letzten
+      <lb facs="#facs_2_region_1684590079368_2062_tl_29" n="N033"/>Aufsätze gar nicht mehr aufnahm? Beklagt sich doch <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684590079368_2062_tl_30" n="N034"/>ausdrücklich über Adolph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2827">Stahr</rs></hi> und Robert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1708">Franz</rs></hi>,
-      <lb facs="#facs_2_line_1715186892817_807" n="N035"/>die im Sommer <date when="1850">1850</date> einmal, „aber genau <hi rendition="#em">nur</hi>
-            </p>
+      <lb facs="#facs_2_line_1715186892817_807" n="N035"/>die im Sommer <date when="1850">1850</date> einmal, „aber genau <hi rendition="#em">nur</hi><space quantity="1" unit="char"/></p>
             <cb n="6"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1715186910135_819" n="N001"/><hi rendition="#em">einmal</hi>", das Wort für ihn ergriffen hätten!
-      <lb facs="#facs_2_region_1684590083526_2065_tl_2" n="N002"/>Auch mir wirft <rs type="person" ref="#hsl_person_id_319">Wagner</rs> die „fast enthusiastische Neigung"
+      <lb facs="#facs_2_line_1715186910135_819" n="N001"/><hi rendition="#em">einmal</hi>“, das Wort für ihn ergriffen hätten!
+      <lb facs="#facs_2_region_1684590083526_2065_tl_2" n="N002"/>Auch mir wirft <rs type="person" ref="#hsl_person_id_319">Wagner</rs> die „fast enthusiastische Neigung“
       <lb facs="#facs_2_region_1684590083526_2065_tl_3" n="N003"/>vor, die ich anfänglich für ihn empfand und jetzt nicht mehr
       <lb facs="#facs_2_region_1684590083526_2065_tl_4" n="N004"/>empfinde. Guter Herr <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, das ging vielen Leuten so.
       <lb facs="#facs_2_region_1684590083526_2065_tl_5" n="N005"/>Ich habe den starken Eindruck nie verleugnet, noch mich dessen
       <lb facs="#facs_2_region_1684590083526_2065_tl_6" n="N006"/>je geschämt, welchen ich als junger Student in <rs type="place" ref="#hsl_place_id_15">Dresden</rs> von
-      <lb facs="#facs_2_line_1715187021427_920" n="N007"/>der blendenden Aufführung des „Tannhäuser" empfing. Ich
+      <lb facs="#facs_2_line_1715187021427_920" n="N007"/>der blendenden Aufführung des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ empfing. Ich
       <lb facs="#facs_2_line_1715186927615_837" n="N008"/>berichtete darüber der <rs type="bibl" ref="#hsl_person_id_2285">Wiener Musikzeitung</rs> in einem Aufsatze,
       <lb facs="#facs_2_region_1684590083526_2065_tl_9" n="N009"/>der zwar im Lobe etwas überschwenglich, aber trotzdem für
-      <lb facs="#facs_2_region_1684590083526_2065_tl_10" n="N010"/>die zahlreichen Schwächen des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>" nichts weniger
-      <lb facs="#facs_2_region_1684590083526_2065_tl_11" n="N011"/>als blind war. Daß ich zu einer Zeit, wo man in <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs>
+      <lb facs="#facs_2_region_1684590083526_2065_tl_10" n="N010"/>die zahlreichen Schwächen des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ nichts weniger
+      <lb facs="#facs_2_region_1684590083526_2065_tl_11" n="N011"/>als blind war. Daß ich zu einer Zeit, wo man in <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684590083526_2065_tl_12" n="N012"/>den Namen Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> noch nicht kannte, zufällig der
       <lb facs="#facs_2_region_1684590083526_2065_tl_13" n="N013"/>Erste gewesen sein mag, der die Aufführung des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäu
-      <lb facs="#facs_2_region_1684590083526_2065_tl_14" n="N014" break="no"/>ser</rs>" öffentlich warm befürwortete, dessen freue ich mich heute
+      <lb facs="#facs_2_region_1684590083526_2065_tl_14" n="N014" break="no"/>ser</rs>“ öffentlich warm befürwortete, dessen freue ich mich heute
       <lb facs="#facs_2_region_1684590083526_2065_tl_15" n="N015"/>noch.
                   <note type="footnote" n="*)">
-                        <lb facs="#facs_2_region_1684590083526_2065_tl_34" n="N031"/>Ich habe auch für die Aufführung der (gekürzten) „<hi rendition="#em">
-                              <rs type="bibl" ref="#hsl_work_id_217">Mei
-                        <lb facs="#facs_2_line_1715187060579_963" n="N032" break="no"/>stersinger</rs></hi>" in <rs type="place" ref="#hsl_place_id_55">Wien</rs> plaidirt, nicht als ob ich diese Oper für ein
+                        <lb facs="#facs_2_region_1684590083526_2065_tl_34" n="N031"/>Ich habe auch für die Aufführung der (gekürzten) „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_217">Mei
+                        <lb facs="#facs_2_line_1715187060579_963" n="N032" break="no"/>stersinger</rs></hi>“ in <rs type="place" ref="#hsl_place_id_55">Wien</rs> plaidirt, nicht als ob ich diese Oper für ein
                         <lb facs="#facs_2_line_1715187065128_966" n="N033"/>Meisterwerk hielte, aber weil sie von allen seit geraumer Zeit erschie
                         <lb facs="#facs_2_line_1715187070880_969" n="N034" break="no"/>nenen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Opern die interessanteste und eigenthümlichste ist, daher
                         <lb facs="#facs_2_line_1715187075407_972" n="N035"/>der Kenntniß des Publicums nicht vorenthalten bleiben soll.
                   </note> Mein Irrthum bestand nur in dem sanguinischen
       <lb facs="#facs_2_region_1684590083526_2065_tl_16" n="N016"/>Glauben, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> werde in seinen späteren Opern die reiz-
-      <lb facs="#facs_2_region_1684590083526_2065_tl_18" n="N017"/>und gehaltvollen Elemente, die sich im „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>" finden,
+      <lb facs="#facs_2_region_1684590083526_2065_tl_18" n="N017"/>und gehaltvollen Elemente, die sich im „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ finden,
       <lb facs="#facs_2_region_1684590083526_2065_tl_20" n="N018"/>zu immer reinerer Schönheit steigern und abklären, hingegen
       <lb facs="#facs_2_region_1684590083526_2065_tl_21" n="N019"/>das Unmusikalische, Ungesunde, die spiritualistisch maskirte Tri
       <lb facs="#facs_2_region_1684590083526_2065_tl_22" n="N020" break="no"/>vialität ausscheiden. Das Gegentheil davon ist eingetroffen:
-      <lb facs="#facs_2_region_1684590083526_2065_tl_23" n="N021"/>jede folgende Oper <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s ist unmelodischer, lang
+      <lb facs="#facs_2_region_1684590083526_2065_tl_23" n="N021"/>jede folgende Oper <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s ist unmelodischer, lang
       <lb facs="#facs_2_region_1684590083526_2065_tl_24" n="N022" break="no"/>weiliger, lärmender und abstruser geworden. Ebenso wird
       <lb facs="#facs_2_region_1684590083526_2065_tl_25" n="N023"/>seine Broschüre mit jedem Bogen leidenschaftlicher, gehässiger und
-      <lb facs="#facs_2_region_1684590083526_2065_tl_26" n="N024"/>verlogener. Die eine Lüge, mein angebliches „Judenthum",
+      <lb facs="#facs_2_region_1684590083526_2065_tl_26" n="N024"/>verlogener. Die eine Lüge, mein angebliches „Judenthum“,
       <lb facs="#facs_2_region_1684590083526_2065_tl_27" n="N025"/>will ich der blinden Wuth eines Mannes zugute halten, wel
-      <lb facs="#facs_2_region_1684590083526_2065_tl_28" n="N026" break="no"/>cher, wie der Rabbiner in <rs type="person" ref="#hsl_person_id_116">Heine</rs>'s „<rs type="bibl" ref="#hsl_work_id_1629">Disputation</rs>", immer mit
+      <lb facs="#facs_2_region_1684590083526_2065_tl_28" n="N026" break="no"/>cher, wie der Rabbiner in <rs type="person" ref="#hsl_person_id_116">Heine</rs>’s „<rs type="bibl" ref="#hsl_work_id_1629">Disputation</rs>“, immer mit
       <lb facs="#facs_2_region_1684590083526_2065_tl_29" n="N027"/>dem blanken Messerchen herumfährt, um harmlos vorüberge
       <lb facs="#facs_2_region_1684590083526_2065_tl_30" n="N028" break="no"/>hende Christen meuchlings zu beschneiden. Die zweite Lüge be
       <lb facs="#facs_2_region_1684590083526_2065_tl_31" n="N029" break="no"/>trifft nicht mich allein. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> behauptet nämlich, Th. Fr.
-      <lb facs="#facs_2_region_1684590083526_2065_tl_32" n="N030"/><hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_379">Vischer</rs></hi> (den er als „einen gutartigen, durchaus blonden <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en</p>
+      <lb facs="#facs_2_region_1684590083526_2065_tl_32" n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_379">Vischer</rs></hi> (den er als „einen gutartigen, durchaus blonden <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p prev="true">
-               <lb facs="#facs_3_region_1684590095522_2071_tl_1" n="N001"/>Aesthetiker" zu häuseln die Frechheit hat) habe mir die Aus
-      <lb facs="#facs_3_region_1684590095522_2071_tl_2" n="N002" break="no"/>führung des musikalischen Theiles in seiner „<rs type="bibl" ref="#hsl_work_id_319">Aesthetik</rs>" an
+      <lb facs="#facs_3_region_1684590095522_2071_tl_1" n="N001"/>Aesthetiker“ zu häuseln die Frechheit hat) habe mir die Aus
+      <lb facs="#facs_3_region_1684590095522_2071_tl_2" n="N002" break="no"/>führung des musikalischen Theiles in seiner „<rs type="bibl" ref="#hsl_work_id_319">Aesthetik</rs>“ an
       <lb facs="#facs_3_region_1684590095522_2071_tl_3" n="N003" break="no"/>vertraut, und zieht aus diesem Verhältnisse neue Erklärungs
-      <lb facs="#facs_3_region_1684590095522_2071_tl_4" n="N004" break="no"/>gründe für meine „schnelle Berühmtheit" u. dgl. Da man
+      <lb facs="#facs_3_region_1684590095522_2071_tl_4" n="N004" break="no"/>gründe für meine „schnelle Berühmtheit“ u. dgl. Da man
       <lb facs="#facs_3_region_1684590095522_2071_tl_5" n="N005"/>füglich annehmen muß, Herr <rs type="person" ref="#hsl_person_id_319">Wagner</rs> habe diese, von ihm so
-      <lb facs="#facs_3_region_1684590095522_2071_tl_6" n="N006"/>sehr herabgesetzte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_379">Vischer</rs></hi>'sche <rs type="bibl" ref="#hsl_work_id_319">Aesthetik</rs> wenigstens einmal in
+      <lb facs="#facs_3_region_1684590095522_2071_tl_6" n="N006"/>sehr herabgesetzte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_379">Vischer</rs></hi>’sche <rs type="bibl" ref="#hsl_work_id_319">Aesthetik</rs> wenigstens einmal in
       <lb facs="#facs_3_region_1684590095522_2071_tl_7" n="N007"/>der Hand gehabt, so kann ihm auch unmöglich entgangen sein,
-      <lb facs="#facs_3_region_1684590095522_2071_tl_8" n="N008"/>daß der ganze musikalische Theil (bis auf wenige von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_379">Vischer</rs></hi>
+      <lb facs="#facs_3_region_1684590095522_2071_tl_8" n="N008"/>daß der ganze musikalische Theil (bis auf wenige von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_379">Vischer</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_3_region_1684590095522_2071_tl_9" n="N009"/>selbst geschriebene Paragraphe) einzig und allein von Professor
       <lb facs="#facs_3_region_1684590095522_2071_tl_10" n="N010"/>Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_719">Köstlin</rs></hi> in <rs type="place" ref="#hsl_place_id_584">Tübingen</rs> herrühre, welcher als tüchtiger
       <lb facs="#facs_3_region_1684590095522_2071_tl_11" n="N011"/>Musiker und Philosoph anerkannt und nicht nur kein Jude,
@@ -1371,21 +1368,21 @@
       <lb facs="#facs_3_region_1684590095522_2071_tl_13" n="N013"/>Nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs> kann man sich den noch fortwirkenden
       <lb facs="#facs_3_region_1684590095522_2071_tl_14" n="N014"/>unermeßlichen Einfluß jenes pseudonymen Judenartikels von
       <lb facs="#facs_3_region_1684590095522_2071_tl_15" n="N015"/><date when="1850">1850</date> nicht groß genug vorstellen; er versichert: „Auch was
-      <lb facs="#facs_3_region_1684590095522_2071_tl_16" n="N016"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi> widerfuhr, rührt von der Wirkung jenes Artikels her!"
+      <lb facs="#facs_3_region_1684590095522_2071_tl_16" n="N016"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi> widerfuhr, rührt von der Wirkung jenes Artikels her!“
       <lb facs="#facs_3_region_1684590095522_2071_tl_17" n="N017"/>Man sieht, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> wird vollständig zum Kinde. Den „Ab
-      <lb facs="#facs_3_region_1684590095522_2071_tl_18" n="N018" break="no"/>fall“ <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs>'s</hi> (dessen wahrhafte, künstlerische Natur den
+      <lb facs="#facs_3_region_1684590095522_2071_tl_18" n="N018" break="no"/>fall“ <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs>’s</hi> (dessen wahrhafte, künstlerische Natur den
       <lb facs="#facs_3_region_1684590095522_2071_tl_19" n="N019"/>Humbug der Zukunftsmusik eben nicht länger ertragen konnte)
       <lb facs="#facs_3_region_1684590095522_2071_tl_20" n="N020"/>erklärt <rs type="person" ref="#hsl_person_id_319">Wagner</rs> gleichfalls aus der Wirkung seines jüdischen
-      <lb facs="#facs_3_region_1684590095522_2071_tl_21" n="N021"/>„Medusenschildes". Auch in <hi rendition="#em"><rs type="place" ref="#hsl_place_id_44">Paris</rs></hi> und <hi rendition="#em"><rs type="place" ref="#hsl_place_id_34">London</rs></hi> herrsche
-      <lb facs="#facs_3_region_1684590095522_2071_tl_22" n="N022"/>dieselbe „organisirte Verschwörung" gegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs> (natürlich,
+      <lb facs="#facs_3_region_1684590095522_2071_tl_21" n="N021"/>„Medusenschildes“. Auch in <hi rendition="#em"><rs type="place" ref="#hsl_place_id_44">Paris</rs></hi> und <hi rendition="#em"><rs type="place" ref="#hsl_place_id_34">London</rs></hi> herrsche
+      <lb facs="#facs_3_region_1684590095522_2071_tl_22" n="N022"/>dieselbe „organisirte Verschwörung“ gegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs> (natürlich,
       <lb facs="#facs_3_region_1684590095522_2071_tl_23" n="N023"/>dort hat man nichts Dringenderes zu thun, als die <rs type="bibl" ref="#hsl_work_id_669">Leipziger
       <lb facs="#facs_3_region_1684590095522_2071_tl_24" n="N024"/>Musikzeitschrift</rs> vom Jahre <date when="1850">1850</date> zu lesen). Die allgemeine
       <lb facs="#facs_3_region_1684590095522_2071_tl_25" n="N025"/>Antipathie, auf die er in <rs type="place" ref="#hsl_place_id_34">London</rs> stieß, erklärt er sich nebenbei
       <lb facs="#facs_3_region_1684590095522_2071_tl_26" n="N026"/>aus dem „eigenthümlichen Charakter der mehr auf dem
       <lb facs="#facs_3_region_1684590095522_2071_tl_27" n="N027"/>Alten als auf dem Neuen Testamente fußenden <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Re
-      <lb facs="#facs_3_region_1684590095522_2071_tl_28" n="N028" break="no"/>ligion"! Nach dem Kriege gegen die Journalistik stürmt <rs type="person" ref="#hsl_person_id_319">Wag
+      <lb facs="#facs_3_region_1684590095522_2071_tl_28" n="N028" break="no"/>ligion“! Nach dem Kriege gegen die Journalistik stürmt <rs type="person" ref="#hsl_person_id_319">Wag
       <lb facs="#facs_3_region_1684590095522_2071_tl_29" n="N029" break="no"/>ner</rs>, keinen Augenblick verlassen von seiner fixen Idee, gegen
-      <lb facs="#facs_3_region_1684590095522_2071_tl_30" n="N030"/>die Theater-Directionen. „Bereits erleben Sie," apostrophiert
+      <lb facs="#facs_3_region_1684590095522_2071_tl_30" n="N030"/>die Theater-Directionen. „Bereits erleben Sie,“ apostrophiert
       <lb facs="#facs_3_region_1684590095522_2071_tl_31" n="N031"/>er die geborne Gräfin <rs type="person" ref="#hsl_person_id_4878">Nesselrode</rs>, „daß, nachdem meine frühe
       <lb facs="#facs_3_region_1684590095522_2071_tl_32" n="N032" break="no"/>ren Opern fast überall auf den <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Theatern sich Bahn
       <lb facs="#facs_3_region_1684590095522_2071_tl_33" n="N033"/>gebrochen haben, jedes meiner neueren Werke auf ein träges,
@@ -1394,10 +1391,10 @@
       <lb facs="#facs_3_region_1684590095522_2071_tl_36" n="N036"/>Juden-Agitation</hi> auf die Bühne gedrungen und ihrem</p>
             <cb n="8"/>
             <p prev="true">
-      <lb facs="#facs_3_line_1715187183401_1026" n="N001"/>Erfolge war nicht mehr viel anzuhaben."
+      <lb facs="#facs_3_line_1715187183401_1026" n="N001"/>Erfolge war nicht mehr viel anzuhaben.“
                   <note type="footnote" n="*)">
                         <lb facs="#facs_3_region_1684590099332_2074_tl_33" n="N034"/>Für <rs type="place" ref="#hsl_place_id_55">Wien</rs> paßt diese jüdische Zeitrechnung nicht; „<rs type="bibl" ref="#hsl_work_id_40">Tann
-                        <lb facs="#facs_3_region_1684590099332_2074_tl_34" n="N035" break="no"/>häuser</rs>" wurde am Hofoperntheater zuerst <date when="1859">1859</date>, „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ <date when="1858">1858</date>
+                        <lb facs="#facs_3_region_1684590099332_2074_tl_34" n="N035" break="no"/>häuser</rs>“ wurde am Hofoperntheater zuerst <date when="1859">1859</date>, „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ <date when="1858">1858</date><space quantity="1" unit="char"/>
                         <lb facs="#facs_3_line_1715187281663_1094" n="N036"/>gegeben.
                   </note> Eine solche Ant
       <lb facs="#facs_3_line_1715187196677_1037" n="N002" break="no"/>wort gibt sich nur ein von Eitelkeit gänzlich verblendeter
@@ -1412,22 +1409,22 @@
       <lb facs="#facs_3_region_1684590099332_2074_tl_10" n="N011"/>sogar manches Opfer bringen. Wagt er sich trotzdem nicht daran,
       <lb facs="#facs_3_region_1684590099332_2074_tl_11" n="N012"/>so muß er sich überzeugt haben, daß diese Opern keinen oder
       <lb facs="#facs_3_region_1684590099332_2074_tl_12" n="N013"/>doch einen die Mühen und Kosten nicht lohnenden Er
-      <lb facs="#facs_3_region_1684590099332_2074_tl_13" n="N014" break="no"/>folg versprechen. Wenn warme Anhänger des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>"
-      <lb facs="#facs_3_line_1715187226112_1061" n="N015"/>gegen eine Musik wie „<rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs>" protestiren, so
-      <lb facs="#facs_3_line_1715187228532_1064" n="N016"/>liegt die Ursache einzig und allein in „<rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs>",
+      <lb facs="#facs_3_region_1684590099332_2074_tl_13" n="N014" break="no"/>folg versprechen. Wenn warme Anhänger des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“
+      <lb facs="#facs_3_line_1715187226112_1061" n="N015"/>gegen eine Musik wie „<rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs>“ protestiren, so
+      <lb facs="#facs_3_line_1715187228532_1064" n="N016"/>liegt die Ursache einzig und allein in „<rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs>“,
       <lb facs="#facs_3_region_1684590099332_2074_tl_14" n="N017"/>und wenn ein Theater-Director erklärt, er könne „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“
-      <lb facs="#facs_3_line_1715187234391_1069" n="N018"/>und den „<rs type="bibl" ref="#hsl_work_id_237">Holländer</rs>" erträglich besetzen und ausstatten, aber
-      <lb facs="#facs_3_region_1684590099332_2074_tl_18" n="N019"/>nimmermehr die „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>" oder „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>", so liegt
-      <lb facs="#facs_3_region_1684590099332_2074_tl_19" n="N020"/>die Schuld wieder einzig und allein an den „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>" und
+      <lb facs="#facs_3_line_1715187234391_1069" n="N018"/>und den „<rs type="bibl" ref="#hsl_work_id_237">Holländer</rs>“ erträglich besetzen und ausstatten, aber
+      <lb facs="#facs_3_region_1684590099332_2074_tl_18" n="N019"/>nimmermehr die „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>“ oder „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“, so liegt
+      <lb facs="#facs_3_region_1684590099332_2074_tl_19" n="N020"/>die Schuld wieder einzig und allein an den „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>“ und
       <lb facs="#facs_3_region_1684590099332_2074_tl_20" n="N021"/>der „<rs type="bibl" ref="#hsl_work_id_217">Meistersingern</rs>“. Nicht jedes Theater kann wie die <rs type="place" ref="#hsl_place_id_39">Münche
       <lb facs="#facs_3_region_1684590099332_2074_tl_21" n="N022" break="no"/>n</rs>er Hofoper eine eigene kostspielige Geburtsklinik für Richard
       <lb facs="#facs_3_region_1684590099332_2074_tl_22" n="N023"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> unterhalten. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> läßt sich in seiner Leidenschaft
       <lb facs="#facs_3_region_1684590099332_2074_tl_23" n="N024" break="no"/>lichkeit zu der impertinenten Behauptung hinreißen, er habe in
       <lb facs="#facs_3_region_1684590099332_2074_tl_24" n="N025"/>der Correspondenz mit den Leitern der <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs>er</hi> und der <hi rendition="#em"><rs type="place" ref="#hsl_place_id_9">Ber
-      <lb facs="#facs_3_region_1684590099332_2074_tl_25" n="N026" break="no"/>lin</rs>er</hi> Hofopern „aus den von ihnen angewendeten <hi rendition="#em">Kniffen</hi>
+      <lb facs="#facs_3_region_1684590099332_2074_tl_25" n="N026" break="no"/>lin</rs>er</hi> Hofopern „aus den von ihnen angewendeten <hi rendition="#em">Kniffen</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_3_region_1684590099332_2074_tl_26" n="N027"/>ersehen, daß es ihnen nicht allein <hi rendition="#em">darum zu thun</hi> war, die
-      <lb facs="#facs_3_region_1684590099332_2074_tl_27" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>" <hi rendition="#em">nicht geben</hi> zu dürfen, sondern auch <hi rendition="#em">zu ver
-      <lb facs="#facs_3_region_1684590099332_2074_tl_28" n="N029" break="no"/>hindern</hi>, daß sie auf anderen Theatern gegeben werden".
+      <lb facs="#facs_3_region_1684590099332_2074_tl_27" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“ <hi rendition="#em">nicht geben</hi> zu dürfen, sondern auch <hi rendition="#em">zu ver
+      <lb facs="#facs_3_region_1684590099332_2074_tl_28" n="N029" break="no"/>hindern</hi>, daß sie auf anderen Theatern gegeben werden“.
       <lb facs="#facs_3_region_1684590099332_2074_tl_29" n="N030"/>Was die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofoper betrifft, so bin ich in der
       <lb facs="#facs_3_region_1684590099332_2074_tl_30" n="N031"/>Lage, Herrn <rs type="person" ref="#hsl_person_id_319">Wagner</rs> des Gegentheiles zu versichern.
       <lb facs="#facs_3_region_1684590099332_2074_tl_31" n="N032"/>Man beharrte nur auf dem Begehren, die nothwendigsten
@@ -1436,36 +1433,36 @@
             <cb n="9"/>
             <p prev="true">
       <lb facs="#facs_3_line_1715187185966_1029" n="N001"/>verständiger Director wird sein Publicum mit einer Oper von
-      <lb facs="#facs_3_line_1715187199865_1040" n="N002"/>so abenteurlicher, einschläfernder Länge heimsuchen. <rs type="person" ref="#hsl_person_id_319">Wagner</rs>
+      <lb facs="#facs_3_line_1715187199865_1040" n="N002"/>so abenteurlicher, einschläfernder Länge heimsuchen. <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_3_region_1684590102826_2077_tl_2" n="N003"/>thut sich aber etwas darauf zugute, daß er jetzt „bisher noch
       <lb facs="#facs_3_region_1684590102826_2077_tl_3" n="N004"/>nie für nöthig gehaltene Bedingungen an seine Einwilligung
-      <lb facs="#facs_3_line_1715187295691_1105" n="N005"/>zur Aufführung eines neuen Werkes stelle". Die „Einmischung
-      <lb facs="#facs_3_region_1684590102826_2077_tl_6" n="N006"/>des jüdischen Wesens in unsere Kunstzustände" scheint also in
+      <lb facs="#facs_3_line_1715187295691_1105" n="N005"/>zur Aufführung eines neuen Werkes stelle“. Die „Einmischung
+      <lb facs="#facs_3_region_1684590102826_2077_tl_6" n="N006"/>des jüdischen Wesens in unsere Kunstzustände“ scheint also in
       <lb facs="#facs_3_region_1684590102826_2077_tl_8" n="N007"/>diesem Falle von ihm selbst auszugehen? — Nachdem <rs type="person" ref="#hsl_person_id_319">Wagner</rs> im
       <lb facs="#facs_3_region_1684590102826_2077_tl_9" n="N008"/>Vorübergehen noch Julius <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4876">Fröbel</rs></hi> (der so manche Lanze für
       <lb facs="#facs_3_region_1684590102826_2077_tl_10" n="N009"/>ihn gebrochen) einen Fußtritt versetzt hat, stolpert er plötzlich
       <lb facs="#facs_3_region_1684590102826_2077_tl_11" n="N010"/>über den Namen Robert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>. Ueber den muß doch
       <lb facs="#facs_3_region_1684590102826_2077_tl_12" n="N011"/>auch etwas Nachtheiliges gesagt werden — das ist nicht leicht...
-      <lb facs="#facs_3_region_1684590102826_2077_tl_13" n="N012"/>Richtig, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat's schon. „Vergleichen Sie," spricht er zu
+      <lb facs="#facs_3_region_1684590102826_2077_tl_13" n="N012"/>Richtig, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat’s schon. „Vergleichen Sie,“ spricht er zu
       <lb facs="#facs_3_region_1684590102826_2077_tl_14" n="N013"/>Madame <rs type="person" ref="#hsl_person_id_4878">Muchanoff</rs>, geborne Gräfin v. Nesselrode, „den Ro
       <lb facs="#facs_3_region_1684590102826_2077_tl_15" n="N014" break="no"/>bert <rs type="person" ref="#hsl_person_id_282">Schumann</rs> der ersten und den der zweiten Hälfte seines
       <lb facs="#facs_3_region_1684590102826_2077_tl_16" n="N015"/>Schaffens: dort plastischer Gestaltungstrieb, hier Verfließen
       <lb facs="#facs_3_region_1684590102826_2077_tl_17" n="N016"/>in schwültige Fläche.“ Und was ist die Ursache? Etwa, wie wir bisher
-      <lb facs="#facs_3_region_1684590102826_2077_tl_18" n="N017"/>glaubten, <rs type="person" ref="#hsl_person_id_282">Schumann</rs>'s nervöse Krankheit und Verdüsterung, welche
+      <lb facs="#facs_3_region_1684590102826_2077_tl_18" n="N017"/>glaubten, <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s nervöse Krankheit und Verdüsterung, welche
       <lb facs="#facs_3_region_1684590102826_2077_tl_19" n="N018"/>in seinem tragischen Ende bald eine so entsetzliche Erklärung
       <lb facs="#facs_3_region_1684590102826_2077_tl_20" n="N019"/>fand? Mit nichten. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> versichert uns, der Grund von
-      <lb facs="#facs_3_region_1684590102826_2077_tl_21" n="N020"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs>'s abnehmender Productionskraft sei in dem Ein
-      <lb facs="#facs_3_region_1684590102826_2077_tl_22" n="N021" break="no"/>flusse der „Einmischung des jüdischen Wesens" zu suchen!
-      <lb facs="#facs_3_region_1684590102826_2077_tl_23" n="N022"/>Wenn <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s Broschüre bis zu dieser Stelle überwiegend
+      <lb facs="#facs_3_region_1684590102826_2077_tl_21" n="N020"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s abnehmender Productionskraft sei in dem Ein
+      <lb facs="#facs_3_region_1684590102826_2077_tl_22" n="N021" break="no"/>flusse der „Einmischung des jüdischen Wesens“ zu suchen!
+      <lb facs="#facs_3_region_1684590102826_2077_tl_23" n="N022"/>Wenn <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Broschüre bis zu dieser Stelle überwiegend
       <lb facs="#facs_3_region_1684590102826_2077_tl_24" n="N023"/>den Eindruck des Lächerlichen machte, so schlägt dieser Eindruck
       <lb facs="#facs_3_region_1684590102826_2077_tl_25" n="N024"/>hier geradezu in Ekel um. Wir schlagen das widerwärtige
       <lb facs="#facs_3_region_1684590102826_2077_tl_26" n="N025"/>Buch zu, das seinem Verfasser wenig Freunde und wol auch
       <lb facs="#facs_3_region_1684590102826_2077_tl_27" n="N026"/>den Juden wenig Feinde zuführen wird. Für die Charakte
-      <lb facs="#facs_3_region_1684590102826_2077_tl_28" n="N027" break="no"/>ristik <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s hat es eigentlich nur ein psychiatrisches In
+      <lb facs="#facs_3_region_1684590102826_2077_tl_28" n="N027" break="no"/>ristik <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s hat es eigentlich nur ein psychiatrisches In
       <lb facs="#facs_3_region_1684590102826_2077_tl_29" n="N028" break="no"/>teresse. Die maßloseste Selbstvergötterung hat hier einen
       <lb facs="#facs_3_region_1684590102826_2077_tl_30" n="N029"/>Gipfel erstiegen, auf dem ein Mensch mit gesunden Gehirn
       <lb facs="#facs_3_region_1684590102826_2077_tl_31" n="N030" break="no"/>functionen nicht mehr zu athmen vermag. Man muß unwill
-      <lb facs="#facs_3_region_1684590102826_2077_tl_32" n="N031" break="no"/>kürlich an den alttestamentarischen Vorgänger R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s,
+      <lb facs="#facs_3_region_1684590102826_2077_tl_32" n="N031" break="no"/>kürlich an den alttestamentarischen Vorgänger R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s,
       <lb facs="#facs_3_region_1684590102826_2077_tl_33" n="N032"/>an König <rs type="person" ref="#hsl_person_id_1582">Nebukadnezar</rs> denken, der sich so lange für einen
       <lb facs="#facs_3_region_1684590102826_2077_tl_34" n="N033"/>Gott hielt, bis er sich in einen ganz gewöhnlichen Ochsen ver
       <lb facs="#facs_3_region_1684590102826_2077_tl_35" n="N034" break="no"/>wandelte, Heu fraß und von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi> in Musik gesetzt wurde.
