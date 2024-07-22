@@ -106,7 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2024-07-18">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-07-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2024-07-22">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
@@ -1269,32 +1269,19 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_2_region_1706945732892_249_tl_2" n="N001"/><head type="h1">Neue Werke über Musik.</head>
+            <lb facs="#facs_2_region_1706945732892_249_tl_3" n="N002"/><head type="h2">Angezeigt von Ed. H.</head>
             <p>
-               <lb facs="#facs_1_line_1718653197634_494" n="N001"/></p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_2_region_1706945732892_249_tl_2" n="N001"/>Neue Werke über Musik.
-      <lb facs="#facs_2_region_1706945732892_249_tl_3" n="N002"/>Angezeigt von Ed. H.
-      <lb facs="#facs_2_region_1706945732892_249_tl_4" n="N003"/>„<hi rendition="#em">
-                  <rs type="bibl">Führer durch den Concertsaal</rs>
-               </hi>“ von Hermann
-      <lb facs="#facs_2_line_1720339988137_551" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="person">Kretzschmar</rs>
-               </hi> (II. Abtheilung, 1. Theil). <rs type="place">Leipzig</rs>, bei A. G.
-      <lb facs="#facs_2_line_1720340044870_557" n="N005"/>
-               <rs type="person">Liebeskind</rs>, <date month="0" day="0" year="0">1888</date>. Den ersten, <date month="0" day="0" year="0">1887</date> erschienenen Band („<rs type="bibl">Sym¬</rs>
-               <lb facs="#facs_2_line_1720340235785_561" n="N006"/>
-               <rs type="bibl">phonie und Suite</rs>“) haben wir seinerzeit mit der gebührenden An¬
-      <lb facs="#facs_2_line_1720340319789_577" n="N007"/>erkennung besprochen und empfohlen. Die zweite <rs type="bibl">Abtheilung</rs> ist
+      <lb facs="#facs_2_region_1706945732892_249_tl_4" n="N003"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_3355">Führer durch den Concertsaal</rs></hi>“ von Hermann
+      <lb facs="#facs_2_line_1720339988137_551" n="N004"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1826">Kretzschmar</rs></hi> (<rs type="bibl" ref="#hsl_work_id_3357">II. Abtheilung, 1. Theil</rs>). <rs type="place" ref="#ähsl_place_id_32">Leipzig</rs>, bei A. G.
+      <lb facs="#facs_2_line_1720340044870_557" n="N005"/>Liebeskind, <date>1888</date>. Den ersten, <date>1887</date> erschienenen Band („<rs type="bibl" ref="#hsl_work_id_3356">Sym
+      <lb facs="#facs_2_line_1720340235785_561" n="N006" break="no"/>phonie und Suite</rs>“) haben wir seinerzeit mit der gebührenden An
+      <lb facs="#facs_2_line_1720340319789_577" n="N007" break="no"/>erkennung besprochen und empfohlen. Die zweite <rs type="bibl" ref="#hsl_work_id_3357 #hsl_work_id_3358">Abtheilung</rs> ist
       <lb facs="#facs_2_line_1720340353807_581" n="N008"/>ausschließlich „kirchlichen Werken“ gewidmet. Es liegt von dieser
-      <lb facs="#facs_2_line_1720340397846_585" n="N009"/>Abtheilung derzeit nur der <hi rendition="#em">erste <rs type="bibl">Band</rs>
-               </hi> vor, welcher auf mehr
+      <lb facs="#facs_2_line_1720340397846_585" n="N009"/>Abtheilung derzeit nur der <hi rendition="#em">erste <rs type="bibl" ref="#hsl_work_id_3357">Band</rs></hi> vor, welcher auf mehr
       <lb facs="#facs_2_region_1706945732892_249_tl_17" n="N010"/>als vierhalbhundert Seiten die Passionsmusiken, Messen, Hymnen,
       <lb facs="#facs_2_line_1720340475016_592" n="N011"/>Psalmen und Cantaten behandelt; erst der noch ausstehende zweite
-      <lb facs="#facs_2_line_1720340534576_599" n="N012"/>
-               <rs type="bibl">Band</rs> wird sich mit den Oratorien beschäftigen. Man sieht, wie
+      <lb facs="#facs_2_line_1720340534576_599" n="N012"/><rs type="bibl" ref="#hsl_work_id_3358">Band</rs> wird sich mit den Oratorien beschäftigen. Man sieht, wie
       <lb facs="#facs_2_line_1720340598747_607" n="N013"/>sehr dem geehrten Verfasser der Stoff unter den Händen gewachsen,
       <lb facs="#facs_2_line_1720340634364_613" n="N014"/>ja angeschwollen ist. <hi rendition="#em">Zwei</hi> Bände dieses Umfanges, blos für
       <lb facs="#facs_2_line_1720340670759_619" n="N015"/>geistliche Compositionen, die <hi rendition="#em">im Concertsaale</hi> aufgeführt
@@ -1303,483 +1290,366 @@
       <lb facs="#facs_2_line_1720340939119_669" n="N018"/>vielmehr dem Verfasser danken, daß er sein Führeramt auch auf
       <lb facs="#facs_2_line_1720340996707_677" n="N019"/>wenig bekannte Kirchenmusiken ausdehnt, ja, über die Kritik der
       <lb facs="#facs_2_line_1720341044075_681" n="N020"/>einzelnen Werke hinausgehend, eine Art gedrängter Geschichte der
-      <lb facs="#facs_2_line_1720341086196_689" n="N021"/>Kirchenmusik liefert. Aber zu dem Titel „<rs type="bibl">Führer durch den</rs>
-               <lb facs="#facs_2_line_1720341112168_693" n="N022"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Concertsaal</rs>
-               </hi>“ scheint uns so umgangreiche Behandlung der
-      <lb facs="#facs_2_line_1720341182374_715" n="N023"/>
-               <hi rendition="#em">Kirchenmusik</hi> nicht mehr recht zu stimmen. Wir müssen
-      <lb facs="#facs_2_line_1720341204084_719" n="N024"/>auf Grund von <rs type="person">Kretzschmar</rs>'s <rs type="bibl">Buch</rs> wol annehmen, daß es in
-      <lb facs="#facs_2_line_1720341287869_725" n="N025"/>
-               <rs type="place">Norddeutschland</rs> einige besonders bevorzugte Concertsäle (etwa in
-      <lb facs="#facs_2_region_1706945732892_249_tl_53" n="N026"/>
-               <rs type="place">Berlin</rs> und <rs type="place">Leipzig</rs>) gibt, in welchen alle von dem Verfasser be¬
-      <lb facs="#facs_2_region_1706945732892_249_tl_54" n="N027"/>sprochenen Kirchenmusiken wirklich vorkommen — aber das werden
-      <lb facs="#facs_2_line_1720341338037_731" n="N028"/>immer nur seltene Ausnahmen sein. Für <hi rendition="#em">
-                  <rs type="place">Wien</rs>
-               </hi> hätte ein viel
-      <lb facs="#facs_2_line_1720341372501_737" n="N029"/>schmächtigerer „Führer“ durch die Musica sacra ausgereicht; wenig¬
-      <lb facs="#facs_2_line_1720341438642_749" n="N030"/>stens die Hälfte der von <rs type="person">Kretzschmar</rs> beurtheilten Kirchen-Compo¬
-      <lb facs="#facs_2_line_1720341485084_761" n="N031"/>sitionen sind unseren Concertsälen vollständig fremd geblieben. Es
-      <lb facs="#facs_2_line_1720341509337_765" n="N032"/>wäre schön, wenn gerade die <rs type="person">Kretzschmar</rs>'schen Analysen zur Auf¬
-      <lb facs="#facs_2_line_1720341563463_780" n="N033"/>führung mancher bedeutenden Kirchen-Composition bei uns die
-      <lb facs="#facs_2_line_1720341598927_787" n="N034"/>Anregung bieten würden. Wie im <rs type="bibl">ersten</rs>, so auch im <rs type="bibl">zweiten</rs>
-               <lb facs="#facs_2_region_1706945732892_249_tl_69" n="N035"/>Bande hat der Verfasser die schwierige Aufgabe vorzüglich gelöst,
+      <lb facs="#facs_2_line_1720341086196_689" n="N021"/>Kirchenmusik liefert. Aber zu dem Titel „<rs type="bibl" ref="#hsl_work_id_3355">Führer durch den
+      <lb facs="#facs_2_line_1720341112168_693" n="N022"/><hi rendition="#em">Concertsaal</hi></rs>“ scheint uns so umgangreiche Behandlung der
+      <lb facs="#facs_2_line_1720341182374_715" n="N023"/><hi rendition="#em">Kirchenmusik</hi> nicht mehr recht zu stimmen. Wir müssen
+      <lb facs="#facs_2_line_1720341204084_719" n="N024"/>auf Grund von <rs type="person" ref="#hsl_person_id_1826">Kretzschmar</rs>’s <rs type="bibl" ref="#hsl_work_id_3357">Buch</rs> wol annehmen, daß es in
+      <lb facs="#facs_2_line_1720341287869_725" n="N025"/><rs type="place" ref="#hsl_place_id_502">Norddeutschland</rs> einige besonders bevorzugte Concertsäle (etwa in
+      <lb facs="#facs_2_region_1706945732892_249_tl_53" n="N026"/><rs type="place" ref="#hsl_place_id_9">Berlin</rs> und <rs type="place" ref="#ähsl_place_id_32">Leipzig</rs>) gibt, in welchen alle von dem Verfasser be
+      <lb facs="#facs_2_region_1706945732892_249_tl_54" n="N027" break="no"/>sprochenen Kirchenmusiken wirklich vorkommen — aber das werden
+      <lb facs="#facs_2_line_1720341338037_731" n="N028"/>immer nur seltene Ausnahmen sein. Für <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> hätte ein viel
+      <lb facs="#facs_2_line_1720341372501_737" n="N029"/>schmächtigerer „Führer“ durch die Musica sacra ausgereicht; wenig
+      <lb facs="#facs_2_line_1720341438642_749" n="N030" break="no"/>stens die Hälfte der von <rs type="person" ref="#hsl_person_id_1826">Kretzschmar</rs> beurtheilten Kirchen-Compo
+      <lb facs="#facs_2_line_1720341485084_761" n="N031" break="no"/>sitionen sind unseren Concertsälen vollständig fremd geblieben. Es
+      <lb facs="#facs_2_line_1720341509337_765" n="N032"/>wäre schön, wenn gerade die <rs type="person" ref="#hsl_person_id_1826">Kretzschmar</rs>’schen Analysen zur Auf
+      <lb facs="#facs_2_line_1720341563463_780" n="N033" break="no"/>führung mancher bedeutenden Kirchen-Composition bei uns die
+      <lb facs="#facs_2_line_1720341598927_787" n="N034"/>Anregung bieten würden. Wie im <rs type="bibl" ref="#hsl_work_id_3356">ersten</rs>, so auch im <rs type="bibl" ref="#hsl_work_id_3357">zweiten</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1706945732892_249_tl_69" n="N035"/>Bande hat der Verfasser die schwierige Aufgabe vorzüglich gelöst,
       <lb facs="#facs_2_region_1706945732892_249_tl_70" n="N036"/>den Bau und Inhalt der einzelnen Tondichtungen dem Leser, stets
       <lb facs="#facs_2_region_1706945732892_249_tl_71" n="N037"/>an der Hand zahlreicher Notenbeispiele, klar auseinanderzusetzen.
       <lb facs="#facs_2_region_1706945732892_249_tl_72" n="N038"/>Neben diesen analytischen und kritischen Ausführungen erhalten wir
       <lb facs="#facs_2_region_1706945732892_249_tl_73" n="N039"/>auch interessante Erzählungen von den Schicksalen berühmter
-      <lb facs="#facs_2_region_1706945732892_249_tl_74" n="N040"/>Meisterwerke in früherer Zeit, z. B. der <rs type="bibl">Matthäus-Passion</rs> von
-      <lb facs="#facs_2_region_1706945732892_249_tl_75" n="N041"/>S. <rs type="person">Bach</rs> der <rs type="bibl">Festmesse</rs> von <rs type="person">Beethoven</rs> u. A. Daß wir nicht
+      <lb facs="#facs_2_region_1706945732892_249_tl_74" n="N040"/>Meisterwerke in früherer Zeit, z. B. der <rs type="bibl" ref="#hsl_work_id_294">Matthäus-Passion</rs> von
+      <lb facs="#facs_2_region_1706945732892_249_tl_75" n="N041"/>S. <rs type="person" ref="#hsl_person_id_18">Bach</rs> der <rs type="bibl" ref="#hsl_work_id_2244">Festmesse</rs> von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> u. A. Daß wir nicht
       <lb facs="#facs_2_region_1706945732892_249_tl_76" n="N042"/>überall mit der Kritik des Verfassers übereinstimmen können, haben
-      <lb facs="#facs_2_region_1706945732892_249_tl_77" n="N043"/>wir bereits bei Gelegenheit des ersten <rs type="bibl">Band</rs>es gestanden. Auch
-      <lb facs="#facs_2_region_1706945732892_249_tl_78" n="N044"/>in der vorliegenden zweiten <rs type="bibl">Abtheilung</rs> befremdet mitunter das
+      <lb facs="#facs_2_region_1706945732892_249_tl_77" n="N043"/>wir bereits bei Gelegenheit des ersten <rs type="bibl" ref="#hsl_work_id_3356">Band</rs>es gestanden. Auch
+      <lb facs="#facs_2_region_1706945732892_249_tl_78" n="N044"/>in der vorliegenden zweiten <rs type="bibl" ref="#hsl_work_id_3357">Abtheilung</rs> befremdet mitunter das
       <lb facs="#facs_2_region_1706945732892_249_tl_79" n="N045"/>zu weit getriebene Wohlwollen gegen eine gewisse Classe von Musik,
       <lb facs="#facs_2_region_1706945732892_249_tl_80" n="N046"/>welche zwar von den Concertvereinen nicht schlechtweg abgelehnt
       <lb facs="#facs_2_region_1706945732892_249_tl_81" n="N047"/>werden kann, die aber doch von einem so classisch gebildeten Kenner
-      <lb facs="#facs_2_region_1706945732892_249_tl_82" n="N048"/>wie <rs type="person">Kretzschmar</rs> in die Grenzen ihrer wahren Bedeutung zurück¬
-      <lb facs="#facs_2_region_1706945732892_249_tl_83" n="N049"/>gewiesen werden sollte. Die Hochstellung der <hi rendition="#em">Kirchen</hi>-Compo¬
-      <lb facs="#facs_2_region_1706945732892_249_tl_84" n="N050"/>sitionen von <rs type="person">Liszt</rs> und <rs type="person">Berlioz</rs> muß bei einem Autor auffallen,
+      <lb facs="#facs_2_region_1706945732892_249_tl_82" n="N048"/>wie <rs type="person" ref="#hsl_person_id_1826">Kretzschmar</rs> in die Grenzen ihrer wahren Bedeutung zurück
+      <lb facs="#facs_2_region_1706945732892_249_tl_83" n="N049" break="no"/>gewiesen werden sollte. Die Hochstellung der <hi rendition="#em">Kirchen</hi>-Compo
+      <lb facs="#facs_2_region_1706945732892_249_tl_84" n="N050" break="no"/>sitionen von <rs type="person" ref="#hsl_person_id_164">Liszt</rs> und <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> muß bei einem Autor auffallen,
       <lb facs="#facs_2_line_1720342896746_833" n="N051"/>der mit so echter Erkenntniß und Begeisterung von den geistlichen
-      <lb facs="#facs_2_line_1720342927102_839" n="N052"/>Werken eines <rs type="person">Bach</rs>, <rs type="person">Händel</rs>, <rs type="person">Beethoven</rs>, <rs type="person">Cherubini</rs>, <rs type="person">Mendelssohn</rs>
-               <lb facs="#facs_2_line_1720342960252_843" n="N053"/>und <rs type="person">Brahms</rs> spricht. Wir sehen der Fortsetzung des so verdienst¬
-      <lb facs="#facs_2_line_1720343028661_855" n="N054"/>vollen „<rs type="bibl">Führers</rs>“ mit Spannung entgegen — möge sie bald er¬
-      <lb facs="#facs_2_line_1720343097716_863" n="N055"/>scheinen!
-      <lb facs="#facs_2_region_1706945732892_249_tl_96" n="N056"/>Adolph <hi rendition="#em">
-                  <rs type="person">Prosniz</rs>
-               </hi>: „<hi rendition="#em">
-                  <rs type="bibl">Compendium der Musik¬</rs>
-               </hi>
-               <lb facs="#facs_2_line_1720343139218_871" n="N057"/>
-               <hi rendition="#em">
-                  <rs type="bibl">geschichte für Schule und Conservatorien</rs>
-               </hi>“. (<rs type="place">Wien</rs>,
-      <lb facs="#facs_2_line_1720343191759_879" n="N058"/>bei Wetzler-Engelmann, <date month="0" day="0" year="0">1889</date>.) Herr <rs type="person">Prosniz</rs>, Professor am <rs type="place">Wien</rs>er
+      <lb facs="#facs_2_line_1720342927102_839" n="N052"/>Werken eines <rs type="person" ref="#hsl_person_id_18">Bach</rs>, <rs type="person" ref="#hsl_person_id_108">Händel</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>, <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1720342960252_843" n="N053"/>und <rs type="person" ref="#hsl_person_id_41">Brahms</rs> spricht. Wir sehen der Fortsetzung des so verdienst
+      <lb facs="#facs_2_line_1720343028661_855" n="N054" break="no"/>vollen „<rs type="bibl" ref="#hsl_work_id_3355">Führers</rs>“ mit Spannung entgegen — möge sie bald er
+      <lb facs="#facs_2_line_1720343097716_863" n="N055" break="no"/>scheinen!
+            </p><p>
+      <lb facs="#facs_2_region_1706945732892_249_tl_96" n="N056"/>Adolph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5063">Prosniz</rs></hi>: „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_3333">Compendium der Musik
+      <lb facs="#facs_2_line_1720343139218_871" n="N057" break="no"/>geschichte für Schule und Conservatorien</rs></hi>“. (<rs type="place" ref="#hsl_place_id_55">Wien</rs>,
+      <lb facs="#facs_2_line_1720343191759_879" n="N058"/>bei Wetzler-Engelmann, <date>1889</date>.) Herr <rs type="person" ref="#hsl_person_id_5063">Prosniz</rs>, Professor am <rs type="place" ref="#hsl_place_id_55">Wien</rs>er
       <lb facs="#facs_2_line_1720343252408_885" n="N059"/>Conservatorium, kommt dem vielfach empfundenen Bedürfnisse nach
       <lb facs="#facs_2_region_1706945732892_249_tl_104" n="N060"/>einem kurzgefaßten und doch wissenschaftlich stichhältigen Handbuche
       <lb facs="#facs_2_line_1720343310295_892" n="N061"/>der Musikgeschichte entgegen. Zu bedauern bleibt nur, daß er mit
       <lb facs="#facs_2_line_1720343360256_896" n="N062"/>der Herausgabe nicht gewartet hat bis zum wirklichen Abschlusse
-      <lb facs="#facs_2_line_1720343410916_904" n="N063"/>seiner Aufgabe, sondern es vorzog (ganz wie bei seinem „<rs type="bibl">Handbuch</rs>
-               <lb facs="#facs_2_line_1720343590898_908" n="N064"/>
-               <rs type="bibl">der Clavier-Literatur</rs>“), nur die bis zum Ende des 16. Jahrhunderts
+      <lb facs="#facs_2_line_1720343410916_904" n="N063"/>seiner Aufgabe, sondern es vorzog (ganz wie bei seinem „<rs type="bibl" ref="#hsl_work_id_3359">Handbuch
+      <lb facs="#facs_2_line_1720343590898_908" n="N064"/>der Clavier-Literatur</rs>“), nur die bis zum Ende des 16. Jahrhunderts
       <lb facs="#facs_2_line_1720343634997_921" n="N065"/>reichende <hi rendition="#em">erste Hälfte</hi> zu veröffentlichen. Solche Theilung, die
-      <lb facs="#facs_2_region_1706945732892_249_tl_115" n="N066"/>bei umfangreichen, auf selbstständiger Forschung beruhenden <rs type="bibl">Ge¬</rs>
-               <lb facs="#facs_2_region_1706945732892_249_tl_116" n="N067"/>
-               <rs type="bibl">schichtswerk</rs>en, wie das <rs type="person">Ambros</rs>'sche, sehr natürlich ist, empfiehlt
+      <lb facs="#facs_2_region_1706945732892_249_tl_115" n="N066"/>bei umfangreichen, auf selbstständiger Forschung beruhenden <rs type="bibl" ref="#hsl_work_id_3360">Ge
+      <lb facs="#facs_2_region_1706945732892_249_tl_116" n="N067" break="no"/>schichtswerk</rs>en, wie das <rs type="person" ref="#hsl_person_id_717">Ambros</rs>’sche, sehr natürlich ist, empfiehlt
       <lb facs="#facs_2_line_1720343780817_939" n="N068"/>sich nicht auch für ein kurzgefaßtes Handbuch zum Schulgebrauch;
       <lb facs="#facs_2_line_1720343825085_946" n="N069"/>dieses will der Schüler complet in Händen haben. Nun werden
       <lb facs="#facs_2_region_1706945732892_249_tl_121" n="N070"/>Leser und Käufer wahrscheinlich auf das abschließende zweite Heft
       <lb facs="#facs_2_line_1720343888337_953" n="N071"/>warten. Den schwierigsten Theil seiner Aufgabe hatte der Verfasser
       <lb facs="#facs_2_line_1720343919732_959" n="N072"/>jedenfalls in der ersten Abtheilung zu lösen, und er hat sie sehr
-      <lb facs="#facs_2_line_1720343944344_963" n="N073"/>geschickt gelöst. Dornige Partien, wie die alt<rs type="place">griechisch</rs>e Musik, die
+      <lb facs="#facs_2_line_1720343944344_963" n="N073"/>geschickt gelöst. Dornige Partien, wie die alt<rs type="place" ref="#hsl_place_id_23">griechisch</rs>e Musik, die
       <lb facs="#facs_2_region_1706945732892_249_tl_129" n="N074"/>Lehre von den Kirchentönen, die Erklärung der Neumen, Mensur,
-      <lb facs="#facs_2_region_1706945732892_249_tl_130" n="N075"/>Solmisation sind ausreichend und deutlich behandelt, für den be¬
-      <lb facs="#facs_2_line_1720344087429_978" n="N076"/>stimmten praktischen Schulzweck vielleicht etwas zu eingehend. Möge
-      <lb facs="#facs_2_line_1720344124490_988" n="N077"/>der geschätzte Verfasser sein „<rs type="bibl">Compendium</rs>“ recht bald zum Ab¬
-      <lb facs="#facs_2_region_1706945732892_249_tl_136" n="N078"/>schluß bringen; der Erfolg wird nicht ausbleiben.
-      <lb facs="#facs_2_line_1720344234060_1002" n="N079"/>Dr. Adolph <hi rendition="#em">
-                  <rs type="person">Kohut</rs>
-               </hi>: „<rs type="bibl">
-                  <hi rendition="#em">Johannes Miksch</hi>, der größte</rs>
-               <lb facs="#facs_2_line_1720344294074_1008" n="N080"/>
-               <rs type="bibl">deutsche Singemeister, und sein System</rs>.“ (<rs type="place">Leipzig</rs>, bei Karl <rs type="person">Rühle</rs>,
-      <lb facs="#facs_2_line_1720344345544_1016" n="N081"/>
-               <date month="0" day="0" year="0">1890</date>.) Johannes <rs type="person">Miksch</rs>, geboren <date month="0" day="0" year="0">1765</date> zu <rs type="place">Georgenthal</rs> in <rs type="place">Böh¬</rs>
-               <lb facs="#facs_2_line_1720344387090_1026" n="N082"/>
-               <rs type="place">men</rs>, kam bereits mit zwölf Jahren an das katholische Cavell¬
-      <lb facs="#facs_2_line_1720344531527_1040" n="N083"/>knaben-Institut nach <rs type="place">Dresden</rs>, um hier zum Tonkünstler ausge¬
-      <lb facs="#facs_2_line_1720344622851_1063" n="N084"/>bildet zu werden. Er wurde Mitglied der kurfürstlichen <rs type="place">italienisch</rs>en
-      <lb facs="#facs_2_region_1706945732892_249_tl_149" n="N085"/>Oper in <rs type="place">Dresden</rs>, dann Kammersänger und entzückte mit seiner
+      <lb facs="#facs_2_region_1706945732892_249_tl_130" n="N075"/>Solmisation sind ausreichend und deutlich behandelt, für den be
+      <lb facs="#facs_2_line_1720344087429_978" n="N076" break="no"/>stimmten praktischen Schulzweck vielleicht etwas zu eingehend. Möge
+      <lb facs="#facs_2_line_1720344124490_988" n="N077"/>der geschätzte Verfasser sein „<rs type="bibl" ref="#hsl_work_id_3333">Compendium</rs>“ recht bald zum Ab
+      <lb facs="#facs_2_region_1706945732892_249_tl_136" n="N078" break="no"/>schluß bringen; der Erfolg wird nicht ausbleiben.
+            </p><p>
+      <lb facs="#facs_2_line_1720344234060_1002" n="N079"/>Dr. Adolph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3764">Kohut</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_3361"><hi rendition="#em">Johannes Miksch</hi>, der größte
+      <lb facs="#facs_2_line_1720344294074_1008" n="N080"/>deutsche Singemeister, und sein System</rs>.“ (<rs type="place" ref="#ähsl_place_id_32">Leipzig</rs>, bei Karl <rs type="person" ref="#hsl_person_id_5064">Rühle</rs>,
+      <lb facs="#facs_2_line_1720344345544_1016" n="N081"/><date>1890</date>.) Johannes <rs type="person" ref="#hsl_person_id_5062">Miksch</rs>, geboren <date>1765</date> zu <rs type="place" ref="#hsl_place_id_588">Georgenthal</rs> in <rs type="place" ref="#hsl_place_id_1">Böh
+      <lb facs="#facs_2_line_1720344387090_1026" n="N082" break="no"/>men</rs>, kam bereits mit zwölf Jahren an das katholische Cavell
+      <lb facs="#facs_2_line_1720344531527_1040" n="N083" break="no"/>knaben-Institut nach <rs type="place" ref="#hsl_place_id_15">Dresden</rs>, um hier zum Tonkünstler ausge
+      <lb facs="#facs_2_line_1720344622851_1063" n="N084" break="no"/>bildet zu werden. Er wurde Mitglied der kurfürstlichen <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en
+      <lb facs="#facs_2_region_1706945732892_249_tl_149" n="N085"/>Oper in <rs type="place" ref="#hsl_place_id_15">Dresden</rs>, dann Kammersänger und entzückte mit seiner
       <lb facs="#facs_2_region_1706945732892_249_tl_150" n="N086"/>wohlgeschulten Baritonstimme Kenner und Laien. Die berühmten
-      <lb facs="#facs_2_region_1706945732892_249_tl_151" n="N087"/>Sängerinnen Agnese <hi rendition="#em">
-                  <rs type="person">Schebest</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Schröder-Devrient</rs>
-               </hi>,
-      <lb facs="#facs_2_line_1720344708192_1074" n="N088"/>die Sänger <hi rendition="#em">
-                  <rs type="person">Mitterwurzer</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Sieber</rs>
-               </hi> u. A. verdanken ihm
+      <lb facs="#facs_2_region_1706945732892_249_tl_151" n="N087"/>Sängerinnen Agnese <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5065">Schebest</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_267">Schröder-Devrient</rs></hi>,
+      <lb facs="#facs_2_line_1720344708192_1074" n="N088"/>die Sänger <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5066">Mitterwurzer</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5067">Sieber</rs></hi> u. A. verdanken ihm
       <lb facs="#facs_2_line_1720344744139_1080" n="N089"/>ihre Ausbildung. Es spricht für die pädagogische Bedeutung und
-      <lb facs="#facs_2_line_1720344786821_1092" n="N090"/>den trefflichen Charakter des Mannes, daß alle seine Schüler zeit¬
-      <lb facs="#facs_2_region_1706945732892_249_tl_158" n="N091"/>lebens mit größter Liebe und Dankbarkeit an ihm hingen. Sein
-      <lb facs="#facs_2_region_1706945732892_249_tl_159" n="N092"/>System war das der classischen <rs type="place">italienisch</rs>en Gesangschule, wie sie
-      <lb facs="#facs_2_line_1720344865475_1109" n="N093"/>von dem berühmten Tenoristen Anton <hi rendition="#em">
-                  <rs type="person">Raff</rs>
-               </hi>, einem Schüler
-      <lb facs="#facs_2_line_1720344908274_1115" n="N094"/>
-               <rs type="person">Bernacchi</rs>'s, und dem Castraten <hi rendition="#em">
-                  <rs type="person">Caselli</rs>
-               </hi> ihm überliefert war.
-      <lb facs="#facs_2_line_1720344950464_1120" n="N095"/>Ueber seine Lehrmethode gibt die <rs type="person">Kohnt</rs>'sche <rs type="bibl">Broschüre</rs> ziemlich
-      <lb facs="#facs_2_line_1720345020800_1133" n="N096"/>genaue Auskunst in ungedruckten Briefen und Aufsätzen von <rs type="person">Miksch</rs>,
-      <lb facs="#facs_2_line_1720345060673_1137" n="N097"/>dann in Tagebuchblättern seines Schülers G. W. <rs type="person">Teschner</rs>. Diese
-      <lb facs="#facs_2_line_1720345102171_1143" n="N098"/>Mittheilungen sind durchaus interessant, für Sänger und Gesang¬
-      <lb facs="#facs_2_line_1720345172995_1164" n="N099"/>lehrer belehrend. Ohne an den anerkannten hohen Verdiensten
-      <lb facs="#facs_2_region_1706945732892_249_tl_174" n="N100"/>
-               <rs type="person">Miksch</rs>'s im mindesten mäkeln zu wollen, glaube ich doch, es wäre
+      <lb facs="#facs_2_line_1720344786821_1092" n="N090"/>den trefflichen Charakter des Mannes, daß alle seine Schüler zeit
+      <lb facs="#facs_2_region_1706945732892_249_tl_158" n="N091" break="no"/>lebens mit größter Liebe und Dankbarkeit an ihm hingen. Sein
+      <lb facs="#facs_2_region_1706945732892_249_tl_159" n="N092"/>System war das der classischen <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Gesangschule, wie sie
+      <lb facs="#facs_2_line_1720344865475_1109" n="N093"/>von dem berühmten Tenoristen Anton <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5068">Raff</rs></hi>, einem Schüler
+      <lb facs="#facs_2_line_1720344908274_1115" n="N094"/><rs type="person" ref="#hsl_person_id_5069">Bernacchi</rs>’s, und dem Castraten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5070">Caselli</rs></hi> ihm überliefert war.
+      <lb facs="#facs_2_line_1720344950464_1120" n="N095"/>Ueber seine Lehrmethode gibt die <rs type="person" ref="#hsl_person_id_3764">Kohut</rs>’sche <rs type="bibl" ref="#hsl_work_id_3361">Broschüre</rs> ziemlich
+      <lb facs="#facs_2_line_1720345020800_1133" n="N096"/>genaue Auskunst in ungedruckten Briefen und Aufsätzen von <rs type="person" ref="#hsl_person_id_5062">Miksch</rs>,
+      <lb facs="#facs_2_line_1720345060673_1137" n="N097"/>dann in Tagebuchblättern seines Schülers G. W. <rs type="person" ref="#hsl_person_id_5071">Teschner</rs>. Diese
+      <lb facs="#facs_2_line_1720345102171_1143" n="N098"/>Mittheilungen sind durchaus interessant, für Sänger und Gesang
+      <lb facs="#facs_2_line_1720345172995_1164" n="N099" break="no"/>lehrer belehrend. Ohne an den anerkannten hohen Verdiensten
+      <lb facs="#facs_2_region_1706945732892_249_tl_174" n="N100"/><rs type="person" ref="#hsl_person_id_5062">Miksch</rs>’s im mindesten mäkeln zu wollen, glaube ich doch, es wäre
       <lb facs="#facs_2_region_1706945732892_249_tl_175" n="N101"/>passender gewesen, ihn auf dem Titelblatte lieber den „großen“
       <lb facs="#facs_2_line_1720345274943_1170" n="N102"/>als den „größten“ Singemeister zu nennen. Das hat einen etwas
       <lb facs="#facs_2_line_1720346469606_1174" n="N103"/>prahlerischen Beigeschmack und reizt zu Rangstreiten, die für alle
       <lb facs="#facs_2_line_1720346507429_1180" n="N104"/>Theile unangenehm und von keinem Gerichtshofe zu entscheiden
       <lb facs="#facs_2_line_1720346542818_1186" n="N105"/>sind. War nicht z. B. der verstorbene Conservatoriums-Director
-      <lb facs="#facs_2_line_1720346580372_1192" n="N106"/>in <rs type="place">München</rs>, Franz <hi rendition="#em">
-                  <rs type="person">Hauser</rs>
-               </hi>, ein gleich vortrefflicher Gesang¬
-      <lb facs="#facs_2_region_1706945732892_249_tl_187" n="N107"/>lehrer, der die gefeierte Henriette <hi rendition="#em">
-                  <rs type="person">Sontag</rs>
-               </hi>, Frau <hi rendition="#em">
-                  <rs type="person">Vogl</rs>
-               </hi> in
-      <lb facs="#facs_2_region_1706945732892_249_tl_188" n="N108"/>
-               <rs type="place">München</rs>, den Kammersänger v. <hi rendition="#em">
-                  <rs type="person">Milde</rs>
-               </hi> in <rs type="place">Weimar</rs> u. A. zu
+      <lb facs="#facs_2_line_1720346580372_1192" n="N106"/>in <rs type="place" ref="#hsl_place_id_39">München</rs>, Franz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1832">Hauser</rs></hi>, ein gleich vortrefflicher Gesang
+      <lb facs="#facs_2_region_1706945732892_249_tl_187" n="N107" break="no"/>lehrer, der die gefeierte Henriette <hi rendition="#em"><rs type="person" ref="#hsl_person_id_263">Sontag</rs></hi>, Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1029">Vogl</rs></hi> in
+      <lb facs="#facs_2_region_1706945732892_249_tl_188" n="N108"/><rs type="place" ref="#hsl_place_id_39">München</rs>, den Kammersänger v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5072">Milde</rs></hi> in <rs type="place" ref="#hsl_place_id_41">Weimar</rs> u. A. zu
       <lb facs="#facs_2_region_1706945732892_249_tl_189" n="N109"/>seinen Schülern zählte? Andere werden Andere nennen. Die
-      <lb facs="#facs_2_line_1720346755009_1226" n="N110"/>Mittheilung, <hi rendition="#em">
-                  <rs type="person">Miksch</rs>
-               </hi> habe C. M. <rs type="person">Weber</rs> zur Aenderung der
-      <lb facs="#facs_2_line_1720346798473_1232" n="N111"/>(ursprünglich beim <rs type="person">Eremiten</rs> spielenden) Exposition des „<rs type="bibl">Freischütz</rs>“
-      <lb facs="#facs_2_line_1720346847660_1243" n="N112"/>bewogen, wird durch Max v. <rs type="person">Weber</rs> (II., 70) widerlegt, nach
-      <lb facs="#facs_2_line_1720346884557_1249" n="N113"/>welchem <rs type="person">Weber</rs>'s <hi rendition="#em">
-                  <rs type="person">Frau</rs>
-               </hi> diese wichtige Umstaltung bewirkt hat
-      <lb facs="#facs_2_line_1720346925642_1255" n="N114"/>In dieser <rs type="bibl">Weber-Biographie</rs> findet sich (II., 89) folgendes etwas
-      <lb facs="#facs_2_line_1720346980230_1259" n="N115"/>abweichendes Urtheil über <hi rendition="#em">
-                  <rs type="person">Miksch</rs>
-               </hi>: „<rs type="person">Miksch</rs> war kein Meister
+      <lb facs="#facs_2_line_1720346755009_1226" n="N110"/>Mittheilung, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5062">Miksch</rs></hi> habe C. M. <rs type="person" ref="#hsl_person_id_321">Weber</rs> zur Aenderung der
+      <lb facs="#facs_2_line_1720346798473_1232" n="N111"/>(ursprünglich beim <rs type="person" ref="#hsl_person_id_2888">Eremiten</rs> spielenden) Exposition des „<rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>“
+      <lb facs="#facs_2_line_1720346847660_1243" n="N112"/>bewogen, wird durch Max v. <rs type="person" ref="#hsl_person_id_838">Weber</rs> (II., 70) widerlegt, nach
+      <lb facs="#facs_2_line_1720346884557_1249" n="N113"/>welchem <rs type="person" ref="#hsl_person_id_321">Weber</rs>’s <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5073">Frau</rs></hi> diese wichtige Umstaltung bewirkt hat
+      <lb facs="#facs_2_line_1720346925642_1255" n="N114"/>In dieser <rs type="bibl" ref="#hsl_work_id_1115">Weber-Biographie</rs> findet sich (II., 89) folgendes etwas
+      <lb facs="#facs_2_line_1720346980230_1259" n="N115"/>abweichendes Urtheil über <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5062">Miksch</rs></hi>: „<rs type="person" ref="#hsl_person_id_5062">Miksch</rs> war kein Meister
       <lb facs="#facs_2_region_1706945732892_249_tl_206" n="N116"/>für die Kunst der psychologischen Durchdringung der Musikwerke,
       <lb facs="#facs_2_line_1720347053008_1266" n="N117"/>das Temperament des Gesanges ging ihm ab; das Gemüth, den
       <lb facs="#facs_2_line_1720347103707_1272" n="N118"/>Ausdruck der Leidenschaft, cultivirte er nicht bei seinem Unterricht,
-      <lb facs="#facs_2_line_1720347138827_1280" n="N119"/>aber er war groß im systematischen Gesangsunterricht, im Gehor¬
-      <lb facs="#facs_2_line_1720347233011_1302" n="N120"/>sammachen der Kehle, im Geschmack des Vortrages und in der
-      <lb facs="#facs_2_region_1706945732892_249_tl_216" n="N121"/>Bildung des Ohren. <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi> pflegte daher zu sagen, daß <rs type="person">Miksch</rs>
-               <lb facs="#facs_2_region_1706945732892_249_tl_217" n="N122"/>unter Aufsicht der größte Chorlehrmeister der Welt, ohne Aufsicht
+      <lb facs="#facs_2_line_1720347138827_1280" n="N119"/>aber er war groß im systematischen Gesangsunterricht, im Gehor
+      <lb facs="#facs_2_line_1720347233011_1302" n="N120" break="no"/>sammachen der Kehle, im Geschmack des Vortrages und in der
+      <lb facs="#facs_2_region_1706945732892_249_tl_216" n="N121"/>Bildung des Ohren. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs></hi> pflegte daher zu sagen, daß <rs type="person" ref="#hsl_person_id_5062">Miksch</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1706945732892_249_tl_217" n="N122"/>unter Aufsicht der größte Chorlehrmeister der Welt, ohne Aufsicht
       <lb facs="#facs_2_region_1706945732892_249_tl_218" n="N123"/>der Ruin aller Stimmen sei.“</p>
-            <cb n="3"/>
+            <cb n="2"/>
             <p>
-               <lb facs="#facs_2_line_1720347532753_1328" n="N001"/>Dr. Alfred <hi rendition="#em">
-                  <rs type="person">Kalisch</rs>
-               </hi>: „<rs type="bibl">Gotthold Ephraim Lessing als Musik-</rs>
-               <lb facs="#facs_2_line_1720347568958_1334" n="N002"/>
-               <rs type="bibl">Aesthetiker</rs>.“ (<rs type="place">Dresden</rs>, bei F. <rs type="person">Oehlmann</rs>, <date month="0" day="0" year="0">1889</date>.) Alles, was sich in
-      <lb facs="#facs_2_line_1720347605970_1338" n="N003"/>
-               <rs type="person">Lessing</rs>'s Werken über Musik vorfindet, ist von dem Verfasser mit
+      <lb facs="#facs_2_line_1720347532753_1328" n="N001"/>Dr. Alfred <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5074">Kalisch</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_3362">Gotthold Ephraim Lessing als Musik-
+      <lb facs="#facs_2_line_1720347568958_1334" n="N002"/>Aesthetiker</rs>.“ (<rs type="place" ref="#hsl_place_id_15">Dresden</rs>, bei F. <rs type="person" ref="#hsl_person_id_5075">Oehlmann</rs>, <date>1889</date>.) Alles, was sich in
+      <lb facs="#facs_2_line_1720347605970_1338" n="N003"/><rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s Werken über Musik vorfindet, ist von dem Verfasser mit
       <lb facs="#facs_2_line_1720347658530_1346" n="N004"/>großem Fleiße übersichtlich zusammengestellt. Die Ernte ist nicht
-      <lb facs="#facs_2_line_1720347719811_1352" n="N005"/>ergiebig, ja wenn man den Umfang und die Bedeutung der ge¬
-      <lb facs="#facs_2_line_1720347808387_1365" n="N006"/>sammten philosophischen und kritischen Thätigkeit <rs type="person">Lessing</rs>'s ins Auge
-      <lb facs="#facs_2_region_1706945737602_252_tl_17" n="N007"/>faßt, auffallend dürftig. Daß ein Mann wie <rs type="person">Lessing</rs> die Musik
+      <lb facs="#facs_2_line_1720347719811_1352" n="N005"/>ergiebig, ja wenn man den Umfang und die Bedeutung der ge
+      <lb facs="#facs_2_line_1720347808387_1365" n="N006" break="no"/>sammten philosophischen und kritischen Thätigkeit <rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s ins Auge
+      <lb facs="#facs_2_region_1706945737602_252_tl_17" n="N007"/>faßt, auffallend dürftig. Daß ein Mann wie <rs type="person" ref="#hsl_person_id_697">Lessing</rs> die Musik
       <lb facs="#facs_2_region_1706945737602_252_tl_18" n="N008"/>im Allgemeinen nicht ganz seines Nachdenkens unwerth fand, daß
-      <lb facs="#facs_2_region_1706945737602_252_tl_19" n="N009"/>insbesondere ihr Verhältniß zum Drama den <rs type="place">Hamburg</rs>er Dama¬
-      <lb facs="#facs_2_line_1720348009397_1386" n="N010"/>turgen interessiren mußte, versteht sich von selbst. Aber eine lebhafte
+      <lb facs="#facs_2_region_1706945737602_252_tl_19" n="N009"/>insbesondere ihr Verhältniß zum Drama den <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Dama
+      <lb facs="#facs_2_line_1720348009397_1386" n="N010" break="no"/>turgen interessiren mußte, versteht sich von selbst. Aber eine lebhafte
       <lb facs="#facs_2_line_1720348044916_1390" n="N011"/>Neigung zur Musik hat er niemals empfunden, was je aus der
-      <lb facs="#facs_2_line_1720348078127_1394" n="N012"/>ganzen Natur dieses durchaus verstandesmäßig angelegten, stahl¬
-      <lb facs="#facs_2_line_1720348145793_1403" n="N013"/>blanken und stahlharten Geistes sehr erklärlich ist. Daß <rs type="person">Lessing</rs>'s
+      <lb facs="#facs_2_line_1720348078127_1394" n="N012"/>ganzen Natur dieses durchaus verstandesmäßig angelegten, stahl
+      <lb facs="#facs_2_line_1720348145793_1403" n="N013" break="no"/>blanken und stahlharten Geistes sehr erklärlich ist. Daß <rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s
       <lb facs="#facs_2_line_1720348187982_1409" n="N014"/>musikalische Kenntnisse ebenso nebensächlich waren, wie seine Liebe
-      <lb facs="#facs_2_line_1720348215945_1413" n="N015"/>zur Musik, dürfte trotz der Bemühungen des übrigens vorurtheils¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_34" n="N016"/>freien Verfassers feststehen. Von irgend welchem Musikunterricht,
-      <lb facs="#facs_2_region_1706945737602_252_tl_35" n="N017"/>den Lessing in der Jugend erhalten habe, wissen seine Biographen
-      <lb facs="#facs_2_line_1720348335586_1434" n="N018"/>gar nichts. „<hi rendition="#em">Vielleicht</hi>,“ sagt <rs type="person">Kalisch</rs> (S. 2), „vielleicht darf
-      <lb facs="#facs_2_line_1720348377818_1439" n="N019"/>die <hi rendition="#em">Vermuthung</hi> ausgesprochen werden, daß <rs type="person">Lessing</rs>'s <rs type="person">Vater</rs>
-               <lb facs="#facs_2_line_1720348448982_1452" n="N020"/>mit dem Religions-Unterricht auch die Anweisung im Choral¬
-      <lb facs="#facs_2_line_1720348493405_1470" n="N021"/>gesang und in Allem, was damit zusammenhängt, verbunden habe.“
-      <lb facs="#facs_2_line_1720371931063_15" n="N022"/>Diese Vermuthung ist ebenso vage wie die weiter folgende: „Ob¬
-      <lb facs="#facs_2_line_1720371997533_22" n="N023"/>wol die Biographen <rs type="person">Lessing</rs>'s nichts davon verlauten lassen, ist
+      <lb facs="#facs_2_line_1720348215945_1413" n="N015"/>zur Musik, dürfte trotz der Bemühungen des übrigens vorurtheils
+      <lb facs="#facs_2_region_1706945737602_252_tl_34" n="N016" break="no"/>freien Verfassers feststehen. Von irgend welchem Musikunterricht,
+      <lb facs="#facs_2_region_1706945737602_252_tl_35" n="N017"/>den <rs type="person" ref="#hsl_person_id_697">Lessing</rs> in der Jugend erhalten habe, wissen seine Biographen
+      <lb facs="#facs_2_line_1720348335586_1434" n="N018"/>gar nichts. „<hi rendition="#em">Vielleicht</hi>,“ sagt <rs type="person" ref="#hsl_person_id_5074">Kalisch</rs> (S. 2), „vielleicht darf
+      <lb facs="#facs_2_line_1720348377818_1439" n="N019"/>die <hi rendition="#em">Vermuthung</hi> ausgesprochen werden, daß <rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s <rs type="person" ref="#hsl_person_id_5076">Vater</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1720348448982_1452" n="N020"/>mit dem Religions-Unterricht auch die Anweisung im Choral
+      <lb facs="#facs_2_line_1720348493405_1470" n="N021" break="no"/>gesang und in Allem, was damit zusammenhängt, verbunden habe.“
+      <lb facs="#facs_2_line_1720371931063_15" n="N022"/>Diese Vermuthung ist ebenso vage wie die weiter folgende: „Ob
+      <lb facs="#facs_2_line_1720371997533_22" n="N023" break="no"/>wol die Biographen <rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s nichts davon verlauten lassen, ist
       <lb facs="#facs_2_region_1706945737602_252_tl_49" n="N024"/>man doch wol zu der <hi rendition="#em">Annahme</hi> berechtigt, daß ein persönlicher
-      <lb facs="#facs_2_line_1720372060165_27" n="N025"/>Verkehr zwischen <rs type="person">Lessing</rs> und <hi rendition="#em">
-                  <rs type="person">Marpurg</rs>
-               </hi> stattgefunden habe.“
-      <lb facs="#facs_2_line_1720372139984_33" n="N026"/>(S. 5.) Das satirische <rs type="bibl">Gedicht</rs>, das der zwanzigjährige <rs type="person">Lessing</rs>
-               <lb facs="#facs_2_line_1720372171275_39" n="N027"/>
-               <hi rendition="#em">gegen</hi>
-               <rs type="person">Marpurg</rs> losgelassen und das eine förmliche Verachtung
+      <lb facs="#facs_2_line_1720372060165_27" n="N025"/>Verkehr zwischen <rs type="person" ref="#hsl_person_id_697">Lessing</rs> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_388">Marpurg</rs></hi> stattgefunden habe.“
+      <lb facs="#facs_2_line_1720372139984_33" n="N026"/>(S. 5.) Das satirische <rs type="bibl" ref="#hsl_work_id_3363">Gedicht</rs>, das der zwanzigjährige <rs type="person" ref="#hsl_person_id_697">Lessing</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1720372171275_39" n="N027"/><hi rendition="#em">gegen</hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_388">Marpurg</rs> losgelassen und das eine förmliche Verachtung
       <lb facs="#facs_2_region_1706945737602_252_tl_57" n="N028"/>aller Kunstregeln in der Musik predigt, spricht eher dawider. Die
-      <lb facs="#facs_2_line_1720372242615_44" n="N029"/>großen Meister <rs type="person">Bach</rs> und <rs type="person">Händel</rs> erwähnt <rs type="person">Lessing</rs> gar nicht: die
-      <lb facs="#facs_2_region_1706945737602_252_tl_60" n="N030"/>Oper nur, um sich über ihren Unsinn lustig zu machen. <rs type="person">Kalisch</rs>
-               <lb facs="#facs_2_region_1706945737602_252_tl_61" n="N031"/>citirt ein <rs type="bibl">Jugendgedicht</rs>, worin <rs type="person">Lessing</rs> verschiedene Menschenclassen
+      <lb facs="#facs_2_line_1720372242615_44" n="N029"/>großen Meister <rs type="person" ref="#hsl_person_id_18">Bach</rs> und <rs type="person" ref="#hsl_person_id_108">Händel</rs> erwähnt <rs type="person" ref="#hsl_person_id_697">Lessing</rs> gar nicht: die
+      <lb facs="#facs_2_region_1706945737602_252_tl_60" n="N030"/>Oper nur, um sich über ihren Unsinn lustig zu machen. <rs type="person" ref="#hsl_person_id_5074">Kalisch</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1706945737602_252_tl_61" n="N031"/>citirt ein <rs type="bibl" ref="#hsl_work_id_3366">Jugendgedicht</rs>, worin <rs type="person" ref="#hsl_person_id_697">Lessing</rs> verschiedene Menschenclassen
       <lb facs="#facs_2_region_1706945737602_252_tl_62" n="N032"/>aufzählt, denen er <hi rendition="#em">nicht</hi> zu gefallen wünscht: „Allen Narren, die
       <lb facs="#facs_2_region_1706945737602_252_tl_63" n="N033"/>sich isten — zum Exempel Pietisten — zum Exempel Rabulisten
       <lb facs="#facs_2_region_1706945737602_252_tl_64" n="N034"/>— und nicht weniger Linguisten — und nicht weniger Stylisten —
-      <lb facs="#facs_2_line_1720372427339_72" n="N035"/>und nicht wenig Componisten“ etc. In diesem harmlosen Reim¬
-      <lb facs="#facs_2_line_1720372467282_78" n="N036"/>spiele erblickt <rs type="person">Kalisch</rs> einen Beweiß, „daß <rs type="person">Lessing</rs> Werke vieler
+      <lb facs="#facs_2_line_1720372427339_72" n="N035"/>und nicht wenig Componisten“ etc. In diesem harmlosen Reim
+      <lb facs="#facs_2_line_1720372467282_78" n="N036" break="no"/>spiele erblickt <rs type="person" ref="#hsl_person_id_5074">Kalisch</rs> einen Beweiß, „daß <rs type="person" ref="#hsl_person_id_697">Lessing</rs> Werke vieler
       <lb facs="#facs_2_line_1720372497851_82" n="N037"/>Componisten gehört und in sich aufgenommen hat“! Es stehen im
-      <lb facs="#facs_2_line_1720372523351_86" n="N038"/>
-               <rs type="person">Lessing</rs>, wie ich glaube, nur <hi rendition="#em">zwei</hi> längere zusammenhängende
+      <lb facs="#facs_2_line_1720372523351_86" n="N038"/><rs type="person" ref="#hsl_person_id_697">Lessing</rs>, wie ich glaube, nur <hi rendition="#em">zwei</hi> längere zusammenhängende
       <lb facs="#facs_2_line_1720372544864_90" n="N039"/>Erörterungen, die für den Musik-Aesthetiker von Wichtigkeit sind:
-      <lb facs="#facs_2_region_1706945737602_252_tl_76" n="N040"/>das bekannte <rs type="bibl">Fragment</rs> zum <rs type="person">Laokoon</rs> über die Verbindung der
-      <lb facs="#facs_2_region_1706945737602_252_tl_77" n="N041"/>Musik und der Poesie, welches wie eine Prophezeiung <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi>'¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_78" n="N042"/>scher Grundsätze klingt; sodann der <rs type="bibl">Aufsatz</rs> über Zwischenactmusik
-      <lb facs="#facs_2_region_1706945737602_252_tl_79" n="N043"/>im 26. und 27. Stück der <rs type="bibl">Hamburgischen Dramaturgie</rs>. In
+      <lb facs="#facs_2_region_1706945737602_252_tl_76" n="N040"/>das bekannte <rs type="bibl" ref="#hsl_work_id_3364">Fragment</rs> zum <rs type="person" ref="#hsl_person_id_698">Laokoon</rs> über die Verbindung der
+      <lb facs="#facs_2_region_1706945737602_252_tl_77" n="N041"/>Musik und der Poesie, welches wie eine Prophezeiung <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>’
+      <lb facs="#facs_2_region_1706945737602_252_tl_78" n="N042" break="no"/>scher Grundsätze klingt; sodann der Aufsatz über Zwischenactmusik
+      <lb facs="#facs_2_region_1706945737602_252_tl_79" n="N043"/>im 26. und 27. Stück der <rs type="bibl" ref="#hsl_work_id_3365">Hamburgischen Dramaturgie</rs>. In
       <lb facs="#facs_2_region_1706945737602_252_tl_80" n="N044"/>diesem Excurs, der neben geistvollen, treffenden Bemerkungen auch
-      <lb facs="#facs_2_region_1706945737602_252_tl_81" n="N045"/>höchst anfechtbare vorbringt,*) kritisirt <rs type="person">Lessing</rs> eine von <hi rendition="#em">
-                  <rs type="person" continued="true">Agri¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1706945737602_252_tl_82" n="N046"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">cola</rs>
-               </hi> componirte Zwischenactmusik zu <rs type="person">Voltaire</rs>'s „<rs type="bibl">Semiramis</rs>“.
-      <lb facs="#facs_2_region_1706945737602_252_tl_83" n="N047"/>Die musikalisch-technische Analyse, mit welcher uns <rs type="person">Lessing</rs> hier
-      <lb facs="#facs_2_region_1706945737602_252_tl_84" n="N048"/>überrascht und welche sich in die kleinsten Details der Instru¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_85" n="N049"/>mentirung einläßt, scheint dem Verfasser besonders imponirt und
-      <lb facs="#facs_2_region_1706945737602_252_tl_86" n="N050"/>ihn von den gründlichen Musikkenntnissen <rs type="person">Lessing</rs>'s vollends über¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_87" n="N051"/>zeugt zu haben. Mich macht gerade dieses musikalische Detail
-      <lb facs="#facs_2_region_1706945737602_252_tl_88" n="N052"/>stutzig. Wenn ein Schriftsteller von der Productivität <rs type="person">Lessing</rs>'s zum
+      <lb facs="#facs_2_region_1706945737602_252_tl_81" n="N045"/>höchst anfechtbare vorbringt,*) kritisirt <rs type="person" ref="#hsl_person_id_697">Lessing</rs> eine von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4891">Agri
+      <lb facs="#facs_2_region_1706945737602_252_tl_82" n="N046" break="no"/>cola</rs></hi> componirte <rs type="bibl" ref="#hsl_work_id_3368">Zwischenactmusik</rs> zu <rs type="person" ref="#hsl_person_id_1391">Voltaire</rs>’s „<rs type="bibl" ref="#hsl_work_id_3367">Semiramis</rs>“.
+      <lb facs="#facs_2_region_1706945737602_252_tl_83" n="N047"/>Die musikalisch-technische Analyse, mit welcher uns <rs type="person" ref="#hsl_person_id_697">Lessing</rs> hier
+      <lb facs="#facs_2_region_1706945737602_252_tl_84" n="N048"/>überrascht und welche sich in die kleinsten Details der Instru
+      <lb facs="#facs_2_region_1706945737602_252_tl_85" n="N049" break="no"/>mentirung einläßt, scheint dem Verfasser besonders imponirt und
+      <lb facs="#facs_2_region_1706945737602_252_tl_86" n="N050"/>ihn von den gründlichen Musikkenntnissen <rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s vollends über
+      <lb facs="#facs_2_region_1706945737602_252_tl_87" n="N051" break="no"/>zeugt zu haben. Mich macht gerade dieses musikalische Detail
+      <lb facs="#facs_2_region_1706945737602_252_tl_88" n="N052"/>stutzig. Wenn ein Schriftsteller von der Productivität <rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s zum
       <lb facs="#facs_2_region_1706945737602_252_tl_89" n="N053"/>ersten- und letztenmale in seinem Leben ein Musikwerk ausführlich
       <lb facs="#facs_2_region_1706945737602_252_tl_90" n="N054"/>beurtheilt und gleich mit so verdächtig genauen, rein technischen
-      <lb facs="#facs_2_region_1706945737602_252_tl_91" n="N055"/>Details, dann darf man wol annehmen, daß der befreundete Com¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_92" n="N056"/>ponist ihm diese Details geliefert hat. Wäre <rs type="person">Lessing</rs> wirklich hin¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_93" n="N057"/>reichend musikalisch gewesen, um zu unterscheiden, wann in dem
+      <lb facs="#facs_2_region_1706945737602_252_tl_91" n="N055"/>Details, dann darf man wol annehmen, daß der befreundete Com
+      <lb facs="#facs_2_region_1706945737602_252_tl_92" n="N056" break="no"/>ponist ihm diese Details geliefert hat. Wäre <rs type="person" ref="#hsl_person_id_697">Lessing</rs> wirklich hin
+      <lb facs="#facs_2_region_1706945737602_252_tl_93" n="N057" break="no"/>reichend musikalisch gewesen, um zu unterscheiden, wann in dem
       <lb facs="#facs_2_region_1706945737602_252_tl_94" n="N058"/>Stücke „G-Hörner mit E-Hörnern abwechseln“, wann „die
       <lb facs="#facs_2_region_1706945737602_252_tl_95" n="N059"/>Fagotte mit dem Grundbaß gehen“ und „verstärkende Hoboën und
       <lb facs="#facs_2_region_1706945737602_252_tl_96" n="N060"/>Flöten hinzutreten“, dann hätte er gewiß noch einmal in seinem
-      <lb facs="#facs_2_line_1720421401619_31" n="N061"/>Leben Anlaß genommen, sich über irgend eine Composition auszu¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_99" n="N062"/>sprechen. <rs type="person">Lessing</rs>'s Biograph G. E. <rs type="person">Guhrauer</rs>, dem es gewiß
+      <lb facs="#facs_2_line_1720421401619_31" n="N061"/>Leben Anlaß genommen, sich über irgend eine Composition auszu
+      <lb facs="#facs_2_region_1706945737602_252_tl_99" n="N062" break="no"/>sprechen. <rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s Biograph G. E. <rs type="person" ref="#hsl_person_id_5077">Guhrauer</rs>, dem es gewiß
       <lb facs="#facs_2_line_1720421498701_45" n="N063"/>an Bewunderung für seinen Helden nicht fehlte, sagt über das
-      <lb facs="#facs_2_line_1720421595363_54" n="N064"/>früher erwähnte <rs type="bibl">Laokoon Fragment</rs>, <rs type="person">Lessing</rs> habe darin auf das
-      <lb facs="#facs_2_line_1720421621397_58" n="N065"/>Verhältniß zwischen Poesie und Musik ebenso scharfe Blicke ge¬
-      <lb facs="#facs_2_line_1720421656247_64" n="N066"/>worfen, als über das Verhältniß der Poesie und Malerei, „wenn
+      <lb facs="#facs_2_line_1720421595363_54" n="N064"/>früher erwähnte <rs type="bibl" ref="#hsl_work_id_3364">Laokoon Fragment</rs>, <rs type="person" ref="#hsl_person_id_697">Lessing</rs> habe darin auf das
+      <lb facs="#facs_2_line_1720421621397_58" n="N065"/>Verhältniß zwischen Poesie und Musik ebenso scharfe Blicke ge
+      <lb facs="#facs_2_line_1720421656247_64" n="N066" break="no"/>worfen, als über das Verhältniß der Poesie und Malerei, „wenn
       <lb facs="#facs_2_line_1720421705030_73" n="N067"/>er gleich von der Musik noch weniger Kenntnisse gehabt zu haben
       <lb facs="#facs_2_line_1720421734819_79" n="N068"/>scheint, als von den bildenden Künsten“. Ueber letztere maße ich
       <lb facs="#facs_2_region_1706945737602_252_tl_113" n="N069"/>mir kein Urtheil an; über die <hi rendition="#em">musikalischen</hi> Kenntnisse
-      <lb facs="#facs_2_line_1720421807976_90" n="N070"/>
-               <rs type="person">Lessing</rs>'s scheint mir <rs type="person">Guhrauer</rs> richtiger zu urtheilen, als Dr. <rs type="person">Kalisch</rs>.
-      <lb facs="#facs_2_line_1720421857398_94" n="N071"/>Hanns v. <hi rendition="#em">
-                  <rs type="person">Wolzogen</rs>
-               </hi>: „<rs type="bibl">Wagner und die Thier¬</rs>
-               <lb facs="#facs_2_line_1720421888706_98" n="N072"/>
-               <rs type="bibl">welt</rs>.“ (<rs type="place">Leipzig</rs>, bei H. <rs type="person">Hartung</rs>, <date month="0" day="0" year="0">1890</date>.) In dieser Broschüre
-      <lb facs="#facs_2_line_1720421937659_102" n="N073"/>schildert und verherrlicht Herr v. <rs type="person">Wolzogen</rs> in seinem bekannten
-      <lb facs="#facs_2_line_1720421956425_106" n="N074"/>schwärmerischen Pathos die Beziehungen <rs type="person">Wagner</rs>'s zur Thierwelt.
-      <lb facs="#facs_2_region_1706945737602_252_tl_124" n="N075"/>Er betrachtet die Rolle, welche die Thiere sowol in <rs type="person">Wagner</rs>'s
+      <lb facs="#facs_2_line_1720421807976_90" n="N070"/><rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s scheint mir <rs type="person" ref="#hsl_person_id_5077">Guhrauer</rs> richtiger zu urtheilen, als Dr. <rs type="person" ref="#hsl_person_id_5074">Kalisch</rs>.
+            </p><p>
+      <lb facs="#facs_2_line_1720421857398_94" n="N071"/>Hanns v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_3369">Wagner und die Thier
+      <lb facs="#facs_2_line_1720421888706_98" n="N072" break="no"/>welt</rs>.“ (<rs type="place" ref="#ähsl_place_id_32">Leipzig</rs>, bei H. Hartung, <date>1890</date>.) In dieser Broschüre
+      <lb facs="#facs_2_line_1720421937659_102" n="N073"/>schildert und verherrlicht Herr v. <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs> in seinem bekannten
+      <lb facs="#facs_2_line_1720421956425_106" n="N074"/>schwärmerischen Pathos die Beziehungen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s zur Thierwelt.
+      <lb facs="#facs_2_region_1706945737602_252_tl_124" n="N075"/>Er betrachtet die Rolle, welche die Thiere sowol in <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
       <lb facs="#facs_2_line_1720422038070_115" n="N076"/>Bühnenwerken als in seinem Privatleben spielten. Was den ersten
-      <lb facs="#facs_2_line_1720422086544_119" n="N077"/>Punkt betrifft, so scheint mir der Verfasser mit einiger Gewalt¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_129" n="N078"/>samkeit vorzugehen. Der Schwan im „<rs type="bibl">Lohengrin</rs>“, die Taube im
-      <lb facs="#facs_2_region_1706945737602_252_tl_130" n="N079"/>„<rs type="bibl">Parsifal</rs>“, der <rs type="person">Lindwurm</rs> im „<rs type="bibl">Siegfried</rs>“ werden citirt, sogar
-      <lb facs="#facs_2_line_1720422167877_129" n="N080"/>„die reizenden Elementarwesen der <hi rendition="#em">
-                  <rs type="person">Rheintöchter</rs>
-               </hi>“, welche doch
-      <lb facs="#facs_2_line_1720422237503_138" n="N081"/>keine Thiere sind! „Mit dem <hi rendition="#em">
-                  <rs type="person">Rienzi</rs>
-               </hi>“ brachte <rs type="person">Wagner</rs> das
+      <lb facs="#facs_2_line_1720422086544_119" n="N077"/>Punkt betrifft, so scheint mir der Verfasser mit einiger Gewalt
+      <lb facs="#facs_2_region_1706945737602_252_tl_129" n="N078" break="no"/>samkeit vorzugehen. Der Schwan im „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“, die Taube im
+      <lb facs="#facs_2_region_1706945737602_252_tl_130" n="N079"/>„<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“, der <rs type="person" ref="#hsl_person_id_3167">Lindwurm</rs> im „<rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs>“ werden citirt, sogar
+      <lb facs="#facs_2_line_1720422167877_129" n="N080"/>„die reizenden Elementarwesen der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5002 #hsl_person_id_5001 #hsl_person_id_5000">Rheintöchter</rs></hi>“, welche doch
+      <lb facs="#facs_2_line_1720422237503_138" n="N081"/>keine Thiere sind! „Mit dem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1630">Rienzi</rs></hi>“ brachte <rs type="person" ref="#hsl_person_id_319">Wagner</rs> das
       <lb facs="#facs_2_line_1720422286525_142" n="N082"/>erste Thier, das edle Roß, als Symbol des kriegerischen Sieges,
-      <lb facs="#facs_2_line_1720422310383_146" n="N083"/>auf die Bühne.“ (S. 18.) Hat Herr v. <rs type="person">Wolzogen</rs> niemals den
-      <lb facs="#facs_2_region_1706945737602_252_tl_141" n="N084"/>
-               <rs type="person">Masaniello</rs> zu Pferde gesehen, desgleichen die <rs type="person">Königin</rs> in den
-      <lb facs="#facs_2_region_1706945737602_252_tl_142" n="N085"/>„<rs type="bibl">Hugenotten</rs>“, den <rs type="place">deutsch</rs>en <rs type="person">Kaiser</rs> in der „<rs type="bibl">Jüdin</rs>“ u. s. w.?
+      <lb facs="#facs_2_line_1720422310383_146" n="N083"/>auf die Bühne.“ (S. 18.) Hat Herr v. <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs> niemals den
+      <lb facs="#facs_2_region_1706945737602_252_tl_141" n="N084"/><rs type="person" ref="#hsl_person_id_3516">Masaniello</rs> zu Pferde gesehen, desgleichen die <rs type="person" ref="#hsl_person_id_4962">Königin</rs> in den
+      <lb facs="#facs_2_region_1706945737602_252_tl_142" n="N085"/>„<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“, den <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en <rs type="person" ref="#hsl_person_id_5080">Kaiser</rs> in der „<rs type="bibl" ref="#hsl_work_id_1161">Jüdin</rs>“ u. s. w.?
       <lb facs="#facs_2_line_1720422413530_156" n="N086"/>Das war natürlich bloßer Bühnenschmuck; bedeutend ist Alles nur
-      <lb facs="#facs_2_region_1706945737602_252_tl_145" n="N087"/>bei <rs type="person">Wagner</rs>. Im ersten Acte des „<rs type="bibl">Tannhäuser</rs>“ findet der Ver¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_146" n="N088"/>fasser wieder den <hi rendition="#em">Schwan</hi> der <rs type="person">Leda</rs> und den <hi rendition="#em">Stier</hi> der <rs type="person">Europa</rs>
-               <lb facs="#facs_2_region_1706945737602_252_tl_147" n="N089"/>(bekanntlich erst viel später für die <hi rendition="#em">
-                  <rs type="place">Paris</rs>er</hi> Aufführung einge¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_148" n="N090"/>fügt) sehr bedeutungsvoll, ebenso wie die <hi rendition="#em">Rosse</hi>, <hi rendition="#em">Hunde</hi> und
-      <lb facs="#facs_2_region_1706945737602_252_tl_149" n="N091"/>
-               <hi rendition="#em">Falken</hi> am Schlusse des Actes. <rs type="person">Wolzogen</rs> erblickt darin „zugleich
+      <lb facs="#facs_2_region_1706945737602_252_tl_145" n="N087"/>bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs>. Im ersten Acte des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ findet der Ver
+      <lb facs="#facs_2_region_1706945737602_252_tl_146" n="N088" break="no"/>fasser wieder den <hi rendition="#em">Schwan</hi> der <rs type="person" ref="#hsl_person_id_5079">Leda</rs> und den <hi rendition="#em">Stier</hi> der <rs type="person" ref="#hsl_person_id_5081">Europa</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1706945737602_252_tl_147" n="N089"/>(bekanntlich erst viel später für die <hi rendition="#em"><rs type="place" ref="#hsl_place_id_44">Paris</rs>er</hi> Aufführung einge
+      <lb facs="#facs_2_region_1706945737602_252_tl_148" n="N090" break="no"/>fügt) sehr bedeutungsvoll, ebenso wie die <hi rendition="#em">Rosse</hi>, <hi rendition="#em">Hunde</hi> und
+      <lb facs="#facs_2_region_1706945737602_252_tl_149" n="N091"/><hi rendition="#em">Falken</hi> am Schlusse des Actes. <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs> erblickt darin „zugleich
       <lb facs="#facs_2_region_1706945737602_252_tl_150" n="N092"/>eine mahnende Andeutung, daß in einer solchen Welt übermüthig
-      <lb facs="#facs_2_region_1706945737602_252_tl_151" n="N093"/>lustiger Jagdfreuden der leidenschaftlich tiefe und menschlich wahr¬
-      <lb facs="#facs_2_region_1706945737602_252_tl_152" n="N094"/>haft empfindende Ritter aus dem <rs type="person">Venus</rs>berge ebensowenig seinen
+      <lb facs="#facs_2_region_1706945737602_252_tl_151" n="N093"/>lustiger Jagdfreuden der leidenschaftlich tiefe und menschlich wahr
+      <lb facs="#facs_2_region_1706945737602_252_tl_152" n="N094" break="no"/>haft empfindende Ritter aus dem <rs type="person" ref="#hsl_person_id_1390">Venus</rs>berge ebensowenig seinen
       <lb facs="#facs_2_line_1720423182342_180" n="N095"/>Platz finden werde, als wie die keusche Jungfrau, die heilige
-      <lb facs="#facs_2_line_1720423221759_184" n="N096"/>
-               <rs type="person">Elisabeth</rs>“. Wunderbar, was sich Alles in die „Rosse, Hunde und
-      <lb facs="#facs_2_region_1706945737602_252_tl_157" n="N097"/>Falken“ hineingeheimnissen läßt! Im „<rs type="bibl">Fliegenden Holländer</rs>“, in
-      <lb facs="#facs_2_line_1720423302093_191" n="N098"/>den „<rs type="bibl">Meistersingern</rs>“ und — wie alle Welt glaubt — auch im
-      <lb facs="#facs_2_line_1720423356873_197" n="N099"/>„<rs type="bibl">Tristan</rs>“ kommen keine Thiere vor. Aber <rs type="person">Wolzogen</rs>'s Auge sieht
-      <lb facs="#facs_2_line_1720423389833_201" n="N100"/>schärfer; sagt nicht am Schlusse des dritten Actes <rs type="person">Kurvenal</rs> zu
-      <lb facs="#facs_2_line_1720423413378_207" n="N101"/>
-               <rs type="person">Tristan</rs>: „Am Hügel ob weidet er (der Hirt) deine <hi rendition="#em">Heerde</hi>“?
+      <lb facs="#facs_2_line_1720423221759_184" n="N096"/><rs type="person" ref="#hsl_person_id_522">Elisabeth</rs>“. Wunderbar, was sich Alles in die „Rosse, Hunde und
+      <lb facs="#facs_2_region_1706945737602_252_tl_157" n="N097"/>Falken“ hineingeheimnissen läßt! Im „<rs type="bibl" ref="#hsl_work_id_237">Fliegenden Holländer</rs>“, in
+      <lb facs="#facs_2_line_1720423302093_191" n="N098"/>den „<rs type="bibl" ref="#hsl_work_id_217">Meistersingern</rs>“ und — wie alle Welt glaubt — auch im
+      <lb facs="#facs_2_line_1720423356873_197" n="N099"/>„<rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>“ kommen keine Thiere vor. Aber <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs>’s Auge sieht
+      <lb facs="#facs_2_line_1720423389833_201" n="N100"/>schärfer; sagt nicht am Schlusse des dritten Actes <rs type="person" ref="#hsl_person_id_2875">Kurvenal</rs> zu
+      <lb facs="#facs_2_line_1720423413378_207" n="N101"/><rs type="person" ref="#hsl_person_id_1025">Tristan</rs>: „Am Hügel ob weidet er (der Hirt) deine <hi rendition="#em">Heerde</hi>“?
       <lb facs="#facs_2_line_1720423476672_211" n="N102"/>Die Emsigkeit, mit welcher in diesem Buche alle Thierspuren in
-      <lb facs="#facs_2_region_1706945737602_252_tl_168" n="N103"/>
-               <rs type="person">Wagner</rs>'s Leben aufgeschnüffelt werden, grenzt oft ans Komische.
+      <lb facs="#facs_2_region_1706945737602_252_tl_168" n="N103"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Leben aufgeschnüffelt werden, grenzt oft ans Komische.
       <lb facs="#facs_2_region_1706945737602_252_tl_169" n="N104"/>Als „mannigfach bedeutungsvoll“ wird hervorgehoben, daß das
-      <lb facs="#facs_2_line_1720424034816_217" n="N105"/>Geburtshaus <rs type="person">Wagner</rs>'s ehedem „zum rothen und weißen Löwen“
-      <lb facs="#facs_2_line_1720424102440_222" n="N106"/>hieß und <rs type="person">Wagner</rs>'s Stiefvater „Ludwig <hi rendition="#em">
-                  <rs type="person">Geyer</rs>
-               </hi>“! Noch beredter
-      <lb facs="#facs_2_line_1720424164306_228" n="N107"/>wird <rs type="person">Wolzogen</rs>, wenn er von <rs type="person">Wagner</rs>'s Liebe zu seinen Haus¬
-      <lb facs="#facs_2_line_1720424196803_234" n="N108"/>thieren spricht. Mit der rührenden Genauigkeit des berufsmäßigen
-      <lb facs="#facs_2_region_1706945737602_252_tl_179" n="N109"/>Wagnerianers citirt er jede Stelle aus <rs type="person">Wagner</rs>'s Briefwechsel mit
-      <lb facs="#facs_2_line_1720424226304_239" n="N110"/>
-               <rs type="person">Liszt</rs>, <rs type="person">Ulrich</rs> etc., worin der Hund Peps und der Papagei Papo
-      <lb facs="#facs_2_line_1720424247373_243" n="N111"/>erwähnt werden. Auch <hi rendition="#em">
-                  <rs type="person">Schopenhauer</rs>
-               </hi> hat seinen Hund,
-      <lb facs="#facs_2_line_1720424301023_255" n="N112"/>Friedrich <hi rendition="#em">
-                  <rs type="person">Hebbel</rs>
-               </hi> sein Eichhörnchen zärtlich geliebt — gegen die
+      <lb facs="#facs_2_line_1720424034816_217" n="N105"/>Geburtshaus <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s ehedem „zum rothen und weißen Löwen“
+      <lb facs="#facs_2_line_1720424102440_222" n="N106"/>hieß und <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Stiefvater „Ludwig <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5083">Geyer</rs></hi>“! Noch beredter
+      <lb facs="#facs_2_line_1720424164306_228" n="N107"/>wird <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs>, wenn er von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Liebe zu seinen Haus
+      <lb facs="#facs_2_line_1720424196803_234" n="N108" break="no"/>thieren spricht. Mit der rührenden Genauigkeit des berufsmäßigen
+      <lb facs="#facs_2_region_1706945737602_252_tl_179" n="N109"/>Wagnerianers citirt er jede Stelle aus <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Briefwechsel mit
+      <lb facs="#facs_2_line_1720424226304_239" n="N110"/><rs type="person" ref="#hsl_person_id_164">Liszt</rs>, <rs type="person" ref="#hsl_person_id_5082">Ulrich</rs> etc., worin der Hund Peps und der Papagei Papo
+      <lb facs="#facs_2_line_1720424247373_243" n="N111"/>erwähnt werden. Auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs></hi> hat seinen Hund,
+      <lb facs="#facs_2_line_1720424301023_255" n="N112"/>Friedrich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_115">Hebbel</rs></hi> sein Eichhörnchen zärtlich geliebt — gegen die
       <lb facs="#facs_2_line_1720424356103_275" n="N113"/>Menschen waren Beide nicht eben weichherzig — aber man hat
-      <lb facs="#facs_2_line_1720424438791_281" n="N114"/>kein solches Aufhebens davon gemacht, geschweige denn eine Bro¬
-      <lb facs="#facs_2_line_1720424477467_291" n="N115"/>schüre. Charakteristisch ist allerdings <rs type="person">Wagner</rs>'s Geständnis, er habe
+      <lb facs="#facs_2_line_1720424438791_281" n="N114"/>kein solches Aufhebens davon gemacht, geschweige denn eine Bro
+      <lb facs="#facs_2_line_1720424477467_291" n="N115" break="no"/>schüre. Charakteristisch ist allerdings <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Geständnis, er habe
       <lb facs="#facs_2_line_1720424640595_301" n="N116"/>„<hi rendition="#em">noch nie so viel geweint</hi>“, als um seinen Papagei. Als
       <lb facs="#facs_2_line_1720424687649_307" n="N117"/>eine kleine persönliche Erinnerung darf ich hier einschalten, daß ich
       <lb facs="#facs_2_line_1720424713873_313" n="N118"/>selbst noch so glücklich war, diesen berühmten Papagei kennen zu
-      <lb facs="#facs_2_line_1720424741335_319" n="N119"/>lernen. Es war in <rs type="place">Marienbad</rs> im Sommer <date month="0" day="0" year="0">1846</date>. Der prächtig
+      <lb facs="#facs_2_line_1720424741335_319" n="N119"/>lernen. Es war in <rs type="place" ref="#hsl_place_id_79">Marienbad</rs> im Sommer <date>1846</date>. Der prächtig
       <lb facs="#facs_2_line_1720424782352_323" n="N120"/>schillernde majestätische Vogel schrie so entsetzlich, daß ich meine
-      <lb facs="#facs_2_line_1720424815727_329" n="N121"/>Verwunderung nicht unterdrücken konnte, wie es <rs type="person">Wagner</rs> möglich
-      <lb facs="#facs_2_line_1720424836627_333" n="N122"/>sei, bei diesem wüthenden Gekrächze ein zusammenhängendes Ge¬
-      <lb facs="#facs_2_line_1720424870143_337" n="N123"/>spräch zu führen oder gar zu componiren. „O, das genirt mich
-      <lb facs="#facs_2_line_1720424910602_341" n="N124"/>gar nicht,“ erwiderte <rs type="person">Wagner</rs>; „habe ich doch andererseits das
-      <lb facs="#facs_2_region_1706945737602_252_tl_214" n="N125"/>Glück, eine <rs type="person">Frau</rs> zu besitzen, die nicht Clavier spielt!“ Ueber die
-      <lb facs="#facs_2_region_1706945737602_252_tl_215" n="N126"/>*) Vgl. den Aufsatz „<rs type="bibl">Zwischenactmusik</rs>“ in meinem Büchlein
-      <lb facs="#facs_2_region_1706945737602_252_tl_216" n="N127"/>„<rs type="bibl">Suite</rs>“ (<rs type="place">Wien</rs>, bei Karl <rs type="person">Prochaska</rs>, <date month="0" day="0" year="0">1884</date>).</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1706945744992_255_tl_3" n="N001"/>Hunde <rs type="person">Wagner</rs>'s erhalten wir von <rs type="person">Wolzogen</rs> die genauesten genea¬
-      <lb facs="#facs_2_line_1720425054051_365" n="N002"/>logischen Nachrichten: „<hi rendition="#em">Peps</hi> starb im Jahre <date month="0" day="0" year="0">1855</date>, dem <rs type="bibl">Wal¬</rs>
-               <lb facs="#facs_2_line_1720425065583_371" n="N003"/>
-               <rs type="bibl">küre</rs>n- und <rs type="person">Schopenhauer</rs>-Jahre. Zwar erhielt Peps mit der Zeit
+      <lb facs="#facs_2_line_1720424815727_329" n="N121"/>Verwunderung nicht unterdrücken konnte, wie es <rs type="person" ref="#hsl_person_id_319">Wagner</rs> möglich
+      <lb facs="#facs_2_line_1720424836627_333" n="N122"/>sei, bei diesem wüthenden Gekrächze ein zusammenhängendes Ge
+      <lb facs="#facs_2_line_1720424870143_337" n="N123" break="no"/>spräch zu führen oder gar zu componiren. „O, das genirt mich
+      <lb facs="#facs_2_line_1720424910602_341" n="N124"/>gar nicht,“ erwiderte <rs type="person" ref="#hsl_person_id_319">Wagner</rs>; „habe ich doch andererseits das
+      <lb facs="#facs_2_region_1706945737602_252_tl_214" n="N125"/>Glück, eine <rs type="person" ref="#hsl_person_id_2868">Frau</rs> zu besitzen, die nicht Clavier spielt!“ Ueber die
+      <lb facs="#facs_2_region_1706945737602_252_tl_215" n="N126"/>*) Vgl. den Aufsatz „<rs type="bibl" ref="#hsl_work_id_3370">Zwischenactmusik</rs>“ in meinem Büchlein
+      <lb facs="#facs_2_region_1706945737602_252_tl_216" n="N127"/>„<rs type="bibl" ref="#hsl_work_id_1520">Suite</rs>“ (<rs type="place" ref="#hsl_place_id_55">Wien</rs>, bei Karl <rs type="person" ref="#hsl_person_id_1720">Prochaska</rs>, <date>1884</date>).<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1706945744992_255_tl_3" n="N001"/>Hunde <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s erhalten wir von <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs> die genauesten genea
+      <lb facs="#facs_2_line_1720425054051_365" n="N002" break="no"/>logischen Nachrichten: „<hi rendition="#em">Peps</hi> starb im Jahre <date>1855</date>, dem <rs type="bibl" ref="#hsl_work_id_649">Wal
+      <lb facs="#facs_2_line_1720425065583_371" n="N003" break="no"/>küre</rs>n- und <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>-Jahre. Zwar erhielt Peps mit der Zeit
       <lb facs="#facs_2_region_1706945744992_255_tl_9" n="N004"/>einen freundlichen Nachfolger, doch konnte er diesen nicht vergessen
       <lb facs="#facs_2_line_1720425082103_376" n="N005"/>machen, wie er denn auch <hi rendition="#em">zu seinem Andenken</hi> den Namen
-      <lb facs="#facs_2_line_1720425093432_380" n="N006"/>
-               <hi rendition="#em">Fips</hi> empfing.“ Der große Hund, den <rs type="person">Wagner</rs> in <rs type="place">Penzing</rs> bei
-      <lb facs="#facs_2_line_1720425103492_384" n="N007"/>
-               <rs type="place">Wien</rs> gehabt, hieß <hi rendition="#em">Pol</hi>, dessen Nachfolger in <rs type="place">Luzern</rs>
-               <hi rendition="#em">Ruß</hi>.
-      <lb facs="#facs_2_line_1720425112103_388" n="N008"/>An die Stelle des in <rs type="place">Bayreuth</rs> bestatteten Ruß trat bald eine
-      <lb facs="#facs_2_region_1706945744992_255_tl_22" n="N009"/>Familie prächtiger Bernhardiner. „Da war der gewaltige ur¬
-      <lb facs="#facs_2_line_1720425139793_395" n="N010"/>wüchsige schwarze <hi rendition="#em">Marke</hi> und seine <hi rendition="#em">Gemalin</hi>, die wild
+      <lb facs="#facs_2_line_1720425093432_380" n="N006"/><hi rendition="#em">Fips</hi> empfing.“ Der große Hund, den <rs type="person" ref="#hsl_person_id_319">Wagner</rs> in <rs type="place" ref="#hsl_place_id_320">Penzing</rs> bei
+      <lb facs="#facs_2_line_1720425103492_384" n="N007"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> gehabt, hieß <hi rendition="#em">Pol</hi>, dessen Nachfolger in <rs type="place" ref="#hsl_place_id_105">Luzern</rs><space quantity="1" unit="char"/><hi rendition="#em">Ruß</hi>.
+      <lb facs="#facs_2_line_1720425112103_388" n="N008"/>An die Stelle des in <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> bestatteten Ruß trat bald eine
+      <lb facs="#facs_2_region_1706945744992_255_tl_22" n="N009"/>Familie prächtiger Bernhardiner. „Da war der gewaltige ur
+      <lb facs="#facs_2_line_1720425139793_395" n="N010" break="no"/>wüchsige schwarze <hi rendition="#em">Marke</hi> und seine <hi rendition="#em">Gemalin</hi>, die wild
       <lb facs="#facs_2_line_1720425148918_399" n="N011"/>dämonische und doch so liebevolle weiße <hi rendition="#em">Brange</hi> (Brangäne),
-      <lb facs="#facs_2_region_1706945744992_255_tl_27" n="N012"/>welche der heftige Herzschlag ihrer so feurigen Natur zu rasch da¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_29" n="N013"/>hinraffte! Ihren Platz nahm dann <hi rendition="#em">Kunde</hi> (Kundry) ein, die
+      <lb facs="#facs_2_region_1706945744992_255_tl_27" n="N012"/>welche der heftige Herzschlag ihrer so feurigen Natur zu rasch da
+      <lb facs="#facs_2_region_1706945744992_255_tl_29" n="N013" break="no"/>hinraffte! Ihren Platz nahm dann <hi rendition="#em">Kunde</hi> (Kundry) ein, die
       <lb facs="#facs_2_region_1706945744992_255_tl_30" n="N014"/>elegante nordische Preishündin, leider auch nur auf kurze Zeit!
       <lb facs="#facs_2_line_1720425178873_410" n="N015"/>Von den <hi rendition="#em">Kindern</hi> dieser Paare nenne ich noch <hi rendition="#em">Fasolt</hi> und
-      <lb facs="#facs_2_line_1720425188861_414" n="N016"/>
-               <hi rendition="#em">Fafner</hi>.“ Und so geht es fort, bis der Verfasser schließlich bei
+      <lb facs="#facs_2_line_1720425188861_414" n="N016"/><hi rendition="#em">Fafner</hi>.“ Und so geht es fort, bis der Verfasser schließlich bei
       <lb facs="#facs_2_line_1720425222695_418" n="N017"/>den Enkeln dieser geweihten Dynastie, <hi rendition="#em">Frisch</hi> und <hi rendition="#em">Fricko</hi>,
-      <lb facs="#facs_2_line_1720425229151_422" n="N018"/>
-               <hi rendition="#em">Froh</hi> und <hi rendition="#em">Freya</hi> glücklich anlangt. Nach diesem genealogischen
-      <lb facs="#facs_2_line_1720425240040_426" n="N019"/>Kalender bringt <rs type="person">Wolzogen</rs> nicht mehr viel Neues. Wir kennen
-      <lb facs="#facs_2_line_1720425248827_430" n="N020"/>die <rs type="person">Schopenhauer</rs>'sche Lehre vom „Mitleiden“ und die darauf be¬
-      <lb facs="#facs_2_line_1720425264247_434" n="N021"/>züglichen Aussprüche Richard <rs type="person">Wagner</rs>'s, der ja, nach <rs type="person">Wolzogen</rs>'s
-      <lb facs="#facs_2_line_1720425272422_438" n="N022"/>Versicherung, „<rs type="person">Schopenhauer</rs>'s Lehre selbstständig auf dem <hi rendition="#em">Ge¬</hi>
-               <lb facs="#facs_2_line_1720425279410_442" n="N023"/>
-               <hi rendition="#em">biete der Kunst verkörpert</hi> und auf dem Gebiete der
-      <lb facs="#facs_2_line_1720425286297_446" n="N024"/>
-               <hi rendition="#em">Religion</hi> vervollständigt hat“! Wir kennen auch seine Abhand¬
-      <lb facs="#facs_2_line_1720425292400_450" n="N025"/>lung über „<rs type="bibl">Kunst und Religion</rs>“, worin er die sittliche Depra¬
-      <lb facs="#facs_2_line_1720425302927_454" n="N026"/>vation des Menschengeschlechts von der „Verzehrung der lebenden
+      <lb facs="#facs_2_line_1720425229151_422" n="N018"/><hi rendition="#em">Froh</hi> und <hi rendition="#em">Freya</hi> glücklich anlangt. Nach diesem genealogischen
+      <lb facs="#facs_2_line_1720425240040_426" n="N019"/>Kalender bringt <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs> nicht mehr viel Neues. Wir kennen
+      <lb facs="#facs_2_line_1720425248827_430" n="N020"/>die <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>’sche Lehre vom „Mitleiden“ und die darauf be
+      <lb facs="#facs_2_line_1720425264247_434" n="N021" break="no"/>züglichen Aussprüche Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s, der ja, nach <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs>’s
+      <lb facs="#facs_2_line_1720425272422_438" n="N022"/>Versicherung, „<rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>’s Lehre selbstständig auf dem <hi rendition="#em">Ge
+      <lb facs="#facs_2_line_1720425279410_442" n="N023" break="no"/>biete der Kunst verkörpert</hi> und auf dem Gebiete der
+      <lb facs="#facs_2_line_1720425286297_446" n="N024"/><hi rendition="#em">Religion</hi> vervollständigt hat“! Wir kennen auch seine Abhand
+      <lb facs="#facs_2_line_1720425292400_450" n="N025" break="no"/>lung über „<rs type="bibl" ref="#hsl_work_id_3372">Kunst und Religion</rs>“, worin er die sittliche Depra
+      <lb facs="#facs_2_line_1720425302927_454" n="N026" break="no"/>vation des Menschengeschlechts von der „Verzehrung der lebenden
       <lb facs="#facs_2_region_1706945744992_255_tl_58" n="N027"/>Mitwesen“ herschreibt und von dem <hi rendition="#em">Fluch</hi> spricht, „den wir, den
-      <lb facs="#facs_2_region_1706945744992_255_tl_59" n="N028"/>reißenden Thieren selbst und gleichstellend, durch den Genuß <hi rendition="#em">ani¬</hi>
-               <lb facs="#facs_2_line_1720425327852_460" n="N029"/>
-               <hi rendition="#em">malischer Nahrung</hi> auf uns geladen“. Leider hat es
-      <lb facs="#facs_2_line_1720425369329_471" n="N030"/>
-               <rs type="person">Wagner</rs> verschmäht, durch sein allmächtiges persönliches Beispiel
+      <lb facs="#facs_2_region_1706945744992_255_tl_59" n="N028"/>reißenden Thieren selbst und gleichstellend, durch den Genuß <hi rendition="#em">ani
+      <lb facs="#facs_2_line_1720425327852_460" n="N029" break="no"/>malischer Nahrung</hi> auf uns geladen“. Leider hat es
+      <lb facs="#facs_2_line_1720425369329_471" n="N030"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> verschmäht, durch sein allmächtiges persönliches Beispiel
       <lb facs="#facs_2_line_1720425381691_475" n="N031"/>die Verbreitung seiner „Mitleidslehre“ zu unterstützen. Er hat
       <lb facs="#facs_2_line_1720425390310_479" n="N032"/>den Beitritt zum Thierschutzverein abgelehnt und ist an seinem
       <lb facs="#facs_2_line_1720425396714_483" n="N033"/>Mittagstisch zeitlebens dem Genuß animalischer Nahrung treu
-      <lb facs="#facs_2_region_1706945744992_255_tl_73" n="N034"/>geblieben, welchen er in seinen Schriften als fluchwürdige Ver¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_74" n="N035"/>sündigung an der Natur brandmarkt.
-      <lb facs="#facs_2_region_1706945744992_255_tl_75" n="N036"/>Otto <rs type="person">Neitzel</rs>: „<rs type="bibl">Der Führer durch die <hi rendition="#em">Oper</hi> des Theaters</rs>
-               <lb facs="#facs_2_line_1720425423133_490" n="N037"/>
-               <rs type="bibl">der Gegenwart</rs>.“ (Erster Band: <rs type="bibl">Deutsche Opern</rs>. <rs type="place">Leipzig</rs>, bei
-      <lb facs="#facs_2_line_1720425430227_494" n="N038"/>
-               <rs type="person">Liebeskind</rs>, <date month="0" day="0" year="0">1890</date>.) Das Buch gibt sich als ein Seitenstück zu
-      <lb facs="#facs_2_line_1720425437709_498" n="N039"/>
-               <hi rendition="#em">
-                  <rs type="person">Kretzschmar</rs>'s</hi> so günstig aufgenommenem „<rs type="bibl">Führer durch den</rs>
-               <lb facs="#facs_2_line_1720425446739_502" n="N040"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Concertsaal</rs>
-               </hi>“, welchen es aber in keiner Hinsicht erreicht. Der
+      <lb facs="#facs_2_region_1706945744992_255_tl_73" n="N034"/>geblieben, welchen er in seinen Schriften als fluchwürdige Ver
+      <lb facs="#facs_2_region_1706945744992_255_tl_74" n="N035" break="no"/>sündigung an der Natur brandmarkt.
+            </p><p>
+      <lb facs="#facs_2_region_1706945744992_255_tl_75" n="N036"/>Otto <rs type="person" ref="#hsl_person_id_5084">Neitzel</rs>: „<rs type="bibl" ref="#hsl_work_id_3373">Der Führer durch die <hi rendition="#em">Oper</hi> des Theaters
+      <lb facs="#facs_2_line_1720425423133_490" n="N037"/>der Gegenwart</rs>.“ (Erster Band: <rs type="bibl" ref="#hsl_work_id_3374">Deutsche Opern</rs>. <rs type="place" ref="#ähsl_place_id_32">Leipzig</rs>, bei
+      <lb facs="#facs_2_line_1720425430227_494" n="N038"/>Liebeskind, <date>1890</date>.) Das Buch gibt sich als ein Seitenstück zu
+      <lb facs="#facs_2_line_1720425437709_498" n="N039"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1826">Kretzschmar</rs>’s</hi> so günstig aufgenommenem „<rs type="bibl" ref="#hsl_work_id_3355">Führer durch den
+      <lb facs="#facs_2_line_1720425446739_502" n="N040"/><hi rendition="#em">Concertsaal</hi></rs>“, welchen es aber in keiner Hinsicht erreicht. Der
       <lb facs="#facs_2_region_1706945744992_255_tl_85" n="N041"/>Verfasser stellt sich eine sehr umfangreiche Aufgabe: er will uns
       <lb facs="#facs_2_region_1706945744992_255_tl_86" n="N042"/>„eine klare Anschauung von der ganzen Handlung, den Charakteren
       <lb facs="#facs_2_region_1706945744992_255_tl_87" n="N043"/>und der Musik in <hi rendition="#em">allen</hi> auf dem Repertoire befindlichen Opern
       <lb facs="#facs_2_region_1706945744992_255_tl_88" n="N044"/>vermitteln“. Nachdem der uns vorliegende erste Band auf nahezu
-      <lb facs="#facs_2_region_1706945744992_255_tl_89" n="N045"/>300 Seiten nur zehn Opern (vier von <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>, fünf von <hi rendition="#em">
-                  <rs type="person" continued="true">Mo¬</rs>
-               </hi>
-               <lb facs="#facs_2_line_1720425460334_511" n="N046"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">zart</rs>
-               </hi> und die eine von <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>) erledigt, so dürfte der
-      <lb facs="#facs_2_line_1720425467335_515" n="N047"/>
-               <rs type="person">Neitzel</rs>'sche „<rs type="bibl">Führer</rs>“ zu einer großartigen Bibliothek angewachsen
+      <lb facs="#facs_2_region_1706945744992_255_tl_89" n="N045"/>300 Seiten nur zehn Opern (vier von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>, fünf von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mo
+      <lb facs="#facs_2_line_1720425460334_511" n="N046" break="no"/>zart</rs></hi> und die eine von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi>) erledigt, so dürfte der
+      <lb facs="#facs_2_line_1720425467335_515" n="N047"/><rs type="person" ref="#hsl_person_id_5084">Neitzel</rs>’sche „<rs type="bibl" ref="#hsl_work_id_3373">Führer</rs>“ zu einer großartigen Bibliothek angewachsen
       <lb facs="#facs_2_line_1720425478310_519" n="N048"/>sein, bevor er „<hi rendition="#em">alle</hi> auf dem Repertoire befindlichen Opern“
       <lb facs="#facs_2_line_1720425483613_523" n="N049"/>erläutert hat. Da seine Analysen die dramatische, musikalische und
       <lb facs="#facs_2_region_1706945744992_255_tl_99" n="N050"/>scenische Beschaffenheit der einzelnen Opern umfassen, muß jede
-      <lb facs="#facs_2_region_1706945744992_255_tl_100" n="N051"/>dieser Kategorien sich mit recht unzulänglicher Ausführung be¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_101" n="N052"/>gnügen. Schon mit dem Inhaltsverzeichnisse müssen wir rechten.
-      <lb facs="#facs_2_region_1706945744992_255_tl_102" n="N053"/>Wie kommt der Verfasser dazu, die „<rs type="bibl">Entführung aus dem Serail</rs>“
-      <lb facs="#facs_2_region_1706945744992_255_tl_103" n="N054"/>zu den komischen Opern zu zählen und „<rs type="bibl">Figaro's Hochzeit</rs>“ zu den
+      <lb facs="#facs_2_region_1706945744992_255_tl_100" n="N051"/>dieser Kategorien sich mit recht unzulänglicher Ausführung be
+      <lb facs="#facs_2_region_1706945744992_255_tl_101" n="N052" break="no"/>gnügen. Schon mit dem Inhaltsverzeichnisse müssen wir rechten.
+      <lb facs="#facs_2_region_1706945744992_255_tl_102" n="N053"/>Wie kommt der Verfasser dazu, die „<rs type="bibl" ref="#hsl_work_id_1292">Entführung aus dem Serail</rs>“
+      <lb facs="#facs_2_region_1706945744992_255_tl_103" n="N054"/>zu den komischen Opern zu zählen und „<rs type="bibl" ref="#hsl_work_id_4">Figaro’s Hochzeit</rs>“ zu den
       <lb facs="#facs_2_line_1720425492507_532" n="N055"/>ernsten? Beide sind komische Opern und wurden niemals für
-      <lb facs="#facs_2_line_1720425498164_536" n="N056"/>etwas Anderes gehalten. <rs type="person">Gluck</rs>'s „<rs type="bibl">Armida</rs>“ und <rs type="person">Mozart</rs>'s „<rs type="bibl">Così</rs>
-               <lb facs="#facs_2_line_1720425502857_540" n="N057"/>
-               <rs type="bibl">fan tutte</rs>“ registrirt er gleichmäßig unter „<rs type="place">Deutsch</rs>e Opern“, ob¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_110" n="N058"/>wol erstere eine <rs type="place">französisch</rs>e, letztere eine <rs type="place">italienisch</rs>e Oper ist; un¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_111" n="N059"/>beschadet der <rs type="place">deutsch</rs>en Herkunft ihrer Componisten. Am weitläufig¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_112" n="N060"/>sten wird die Handlung jeder Oper erzählt, Scene für Scene,
-      <lb facs="#facs_2_region_1706945744992_255_tl_113" n="N061"/>was bei so allbekannten Textbüchern wie „<rs type="bibl">Die Zauberflöte</rs>“,
-      <lb facs="#facs_2_line_1720425517826_551" n="N062"/>„<rs type="bibl">Fidelio</rs>“, „<rs type="bibl">Figaro's Hochzeit</rs>“ oder „<rs type="bibl">Don Juan</rs>“ uns mehr er¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_116" n="N063"/>müdet als belehrt. Am ungenügendsten ist alles Historische behan¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_117" n="N064"/>delt. An dem Libretto von „<rs type="bibl">Figaro's Hochzeit</rs>“ ist doch das Ver¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_118" n="N065"/>hältniß desselben zu <rs type="person">Beaumarchais</rs>' epochemachendem <rs type="bibl">Lust¬</rs>
-               <lb facs="#facs_2_region_1706945744992_255_tl_119" n="N066"/>
-               <rs type="bibl">spiel</rs> das Allerwichtigste und Interessanteste. Herr <rs type="person">Neitzel</rs> begnügt
-      <lb facs="#facs_2_region_1706945744992_255_tl_120" n="N067"/>sich zu sagen, daß Da <rs type="person">Ponte</rs>'s Libretto „ein Meisterstück“ und
-      <lb facs="#facs_2_region_1706945744992_255_tl_121" n="N068"/>„geschickt aus <rs type="person">Beaumarchais</rs> geschöpft“ sei. Ueber die Entstehung
-      <lb facs="#facs_2_region_1706945744992_255_tl_122" n="N069"/>und die ganz einzige Stellung von <rs type="person">Mozart</rs>'s „<rs type="bibl">Entführung</rs>“, als der
-      <lb facs="#facs_2_region_1706945744992_255_tl_123" n="N070"/>ersten classischen Oper in <rs type="place">deutsch</rs>er Sprache, verliert der Verfasser
-      <lb facs="#facs_2_region_1706945744992_255_tl_124" n="N071"/>kein Wort. Herr Otto <rs type="person">Neitzel</rs> ist Musiker, Componist einer kürz¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_125" n="N072"/>lich in <rs type="place">Köln</rs> mit Beifall aufgeführten Oper: „<rs type="bibl">Der alte Dessauer</rs>“;
+      <lb facs="#facs_2_line_1720425498164_536" n="N056"/>etwas Anderes gehalten. <rs type="person" ref="#hsl_person_id_99">Gluck</rs>’s „<rs type="bibl" ref="#hsl_work_id_260">Armida</rs>“ und <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s „<rs type="bibl" ref="#hsl_work_id_1030">Così
+      <lb facs="#facs_2_line_1720425502857_540" n="N057"/>fan tutte</rs>“ registrirt er gleichmäßig unter „<rs type="place" ref="#hsl_place_id_14">Deutsch</rs>e Opern“, ob
+      <lb facs="#facs_2_region_1706945744992_255_tl_110" n="N058" break="no"/>wol erstere eine <rs type="place" ref="#hsl_place_id_21">französisch</rs>e, letztere eine <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper ist; un
+      <lb facs="#facs_2_region_1706945744992_255_tl_111" n="N059" break="no"/>beschadet der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Herkunft ihrer Componisten. Am weitläufig
+      <lb facs="#facs_2_region_1706945744992_255_tl_112" n="N060" break="no"/>sten wird die Handlung jeder Oper erzählt, Scene für Scene,
+      <lb facs="#facs_2_region_1706945744992_255_tl_113" n="N061"/>was bei so allbekannten Textbüchern wie „<rs type="bibl" ref="#hsl_work_id_350">Die Zauberflöte</rs>“,
+      <lb facs="#facs_2_line_1720425517826_551" n="N062"/>„<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“, „<rs type="bibl" ref="#hsl_work_id_4">Figaro’s Hochzeit</rs>“ oder „<rs type="bibl" ref="#hsl_work_id_174">Don Juan</rs>“ uns mehr er
+      <lb facs="#facs_2_region_1706945744992_255_tl_116" n="N063" break="no"/>müdet als belehrt. Am ungenügendsten ist alles Historische behan
+      <lb facs="#facs_2_region_1706945744992_255_tl_117" n="N064" break="no"/>delt. An dem Libretto von „<rs type="bibl" ref="#hsl_work_id_4">Figaro’s Hochzeit</rs>“ ist doch das Ver
+      <lb facs="#facs_2_region_1706945744992_255_tl_118" n="N065" break="no"/>hältniß desselben zu <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs>’ epochemachendem <rs type="bibl" ref="#hsl_work_id_5">Lust
+      <lb facs="#facs_2_region_1706945744992_255_tl_119" n="N066" break="no"/>spiel</rs> das Allerwichtigste und Interessanteste. Herr <rs type="person" ref="#hsl_person_id_5084">Neitzel</rs> begnügt
+      <lb facs="#facs_2_region_1706945744992_255_tl_120" n="N067"/>sich zu sagen, daß Da <rs type="person" ref="#hsl_person_id_1890">Ponte</rs>’s Libretto „ein Meisterstück“ und
+      <lb facs="#facs_2_region_1706945744992_255_tl_121" n="N068"/>„geschickt aus <rs type="person" ref="#hsl_person_id_11">Beaumarchais</rs> geschöpft“ sei. Ueber die Entstehung
+      <lb facs="#facs_2_region_1706945744992_255_tl_122" n="N069"/>und die ganz einzige Stellung von <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s „<rs type="bibl" ref="#hsl_work_id_1292">Entführung</rs>“, als der
+      <lb facs="#facs_2_region_1706945744992_255_tl_123" n="N070"/>ersten classischen Oper in <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Sprache, verliert der Verfasser
+      <lb facs="#facs_2_region_1706945744992_255_tl_124" n="N071"/>kein Wort. Herr Otto <rs type="person" ref="#hsl_person_id_5084">Neitzel</rs> ist Musiker, Componist einer kürz
+      <lb facs="#facs_2_region_1706945744992_255_tl_125" n="N072" break="no"/>lich in <rs type="place" ref="#hsl_place_id_68">Köln</rs> mit Beifall aufgeführten Oper: „<rs type="bibl" ref="#hsl_work_id_3371">Der alte Dessauer</rs>“;
       <lb facs="#facs_2_line_1720425536023_565" n="N073"/>das Musikalische nimmt daher seine Aufmerksamkeit vorwiegend in
       <lb facs="#facs_2_region_1706945744992_255_tl_128" n="N074"/>Anspruch. Fast von jeder einzelnen Nummer der betreffenden Oper
       <lb facs="#facs_2_region_1706945744992_255_tl_129" n="N075"/>bringt er ein oder mehrere Notenbeispiele und begleitet sie mit
       <lb facs="#facs_2_region_1706945744992_255_tl_130" n="N076"/>erläuternden Worten. Es sind Umschreibungen, die uns mit großer
       <lb facs="#facs_2_region_1706945744992_255_tl_131" n="N077"/>Redseligkeit meistens recht Selbstverständliches sagen. Wir nehmen
-      <lb facs="#facs_2_region_1706945744992_255_tl_132" n="N078"/>aufs Gerathewohl eines der kürzeren Beispiele heraus, die Erzäh¬
-      <lb facs="#facs_2_region_1706945744992_255_tl_133" n="N079"/>lung der ersten Scene in „<rs type="bibl">Fidelio</rs>“:
-      <lb facs="#facs_2_line_1720425563778_575" n="N080"/>Die Bühne stellt den Hof des Staatsgefängnisses dar. <rs type="person">Mar¬</rs>
-               <lb facs="#facs_2_line_1720425579197_579" n="N081"/>
-               <rs type="person">celline</rs>, die Tochter <rs type="person">Rocco</rs>'s, ist mit Plätten beschäftigt; <rs type="person">Jacquino</rs>, der
+      <lb facs="#facs_2_region_1706945744992_255_tl_132" n="N078"/>aufs Gerathewohl eines der kürzeren Beispiele heraus, die Erzäh
+      <lb facs="#facs_2_region_1706945744992_255_tl_133" n="N079" break="no"/>lung der ersten Scene in „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“:
+            </p><p>
+      <lb facs="#facs_2_line_1720425563778_575" n="N080"/>Die Bühne stellt den Hof des Staatsgefängnisses dar. <rs type="person" ref="#hsl_person_id_5061">Mar
+      <lb facs="#facs_2_line_1720425579197_579" n="N081" break="no"/>celline</rs>, die Tochter <rs type="person" ref="#hsl_person_id_3549">Rocco</rs>’s, ist mit Plätten beschäftigt; <rs type="person" ref="#hsl_person_id_2404">Jacquino</rs>, der
       <lb facs="#facs_2_line_1720425607659_585" n="N082"/>Pförtner des Gefängnisses, benützt die Gelegenheit, um ihr nicht ohne
       <lb facs="#facs_2_line_1720425627774_592" n="N083"/>Verlegenheit, doch auch nicht ohne Selbstbewußtsein von Liebe und
-      <lb facs="#facs_2_line_1720425636514_596" n="N084"/>Ehe zu sprechen. <rs type="person">Marcelline</rs>, die ihn früher begünstigt hat, weist ihn
+      <lb facs="#facs_2_line_1720425636514_596" n="N084"/>Ehe zu sprechen. <rs type="person" ref="#hsl_person_id_5061">Marcelline</rs>, die ihn früher begünstigt hat, weist ihn
       <lb facs="#facs_2_region_1706945744992_255_tl_148" n="N085"/>zurück: „Ich weiß, daß der Arme sich quälet, es thut mir so leid auch
-      <lb facs="#facs_2_region_1706945744992_255_tl_150" n="N086"/>um ihn! <rs type="person">Fidelio</rs> hab' ich gewählet.“ Die Musik entspricht dem schlich¬
-      <lb facs="#facs_2_line_1720425683662_616" n="N087"/>ten, harmlosen Empfindungskreise des bürgerlichen Lebens. Sehr be¬
-      <lb facs="#facs_2_line_1720425696111_620" n="N088"/>zeichnend ist das Stocken <rs type="person">Jacquino</rs>'s, bevor er sich zu seinem Werbe-
+      <lb facs="#facs_2_region_1706945744992_255_tl_150" n="N086"/>um ihn! <rs type="person" ref="#hsl_person_id_480">Fidelio</rs> hab’ ich gewählet.“ Die Musik entspricht dem schlich
+      <lb facs="#facs_2_line_1720425683662_616" n="N087" break="no"/>ten, harmlosen Empfindungskreise des bürgerlichen Lebens. Sehr be
+      <lb facs="#facs_2_line_1720425696111_620" n="N088" break="no"/>zeichnend ist das Stocken <rs type="person" ref="#hsl_person_id_2404">Jacquino</rs>’s, bevor er sich zu seinem Werbe-
       <lb facs="#facs_2_line_1720425707774_624" n="N089"/>Antrage entschließt, wiedergegeben, so in der dreimal wiederholten
       <lb facs="#facs_2_line_1720425720696_633" n="N090"/>Figur im Anfang (Notenbeispiel), welche später vor den Worten: „Ich
       <lb facs="#facs_2_line_1720425730893_637" n="N091"/>habe dich zum Weib gewählet“, etwas mehr in Fluß kommt. Die
       <lb facs="#facs_2_line_1720425738688_641" n="N092"/>Musik drückt hier das aus, was man mit der Redensart „um den
       <lb facs="#facs_2_line_1720425743883_645" n="N093"/>heißen Brei gehen“ bezeichnet. Das Pochen an der Pforte, welches
-      <lb facs="#facs_2_region_1706945744992_255_tl_168" n="N094"/>
-               <rs type="person">Jacquino</rs>'s Herzensergießungen zweimal unterbricht, ist genau in der
+      <lb facs="#facs_2_region_1706945744992_255_tl_168" n="N094"/><rs type="person" ref="#hsl_person_id_2404">Jacquino</rs>’s Herzensergießungen zweimal unterbricht, ist genau in der
       <lb facs="#facs_2_line_1720425772069_659" n="N095"/>Musik wiedergegeben (Notenbeispiel), und es ist selbstverständlich, daß
       <lb facs="#facs_2_line_1720425782680_663" n="N096"/>das Pochen auf der Bühne mit diesen Noten zusammenfallen muß.
-      <lb facs="#facs_2_line_1720425802912_673" n="N097"/>Nur sobald <rs type="person">Marcelline</rs>
-               <rs type="person">Fidelio</rs>'s Erwähnung thut, wird die Musik
-      <lb facs="#facs_2_region_1706945744992_255_tl_176" n="N098"/>zarter und inniger. Nachdem <rs type="person">Jacquino</rs> den letzten der pochenden
+      <lb facs="#facs_2_line_1720425802912_673" n="N097"/>Nur sobald <rs type="person" ref="#hsl_person_id_5061">Marcelline</rs><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_480">Fidelio</rs>’s Erwähnung thut, wird die Musik
+      <lb facs="#facs_2_region_1706945744992_255_tl_176" n="N098"/>zarter und inniger. Nachdem <rs type="person" ref="#hsl_person_id_2404">Jacquino</rs> den letzten der pochenden
       <lb facs="#facs_2_region_1706945744992_255_tl_177" n="N099"/>Störenfriede schon etwas unwirsch angefahren hat, erschallt aus dem
-      <lb facs="#facs_2_region_1706945744992_255_tl_178" n="N100"/>Schloßgarten rechts immer befehlerischer <rs type="person">Rocco</rs>'s Stimme, und der arme
+      <lb facs="#facs_2_region_1706945744992_255_tl_178" n="N100"/>Schloßgarten rechts immer befehlerischer <rs type="person" ref="#hsl_person_id_3549">Rocco</rs>’s Stimme, und der arme
       <lb facs="#facs_2_region_1706945744992_255_tl_181" n="N101"/>Bursche muß diesmal endgiltig auf seine Liebeswerbung verzichten
-      <lb facs="#facs_2_region_1706945744992_255_tl_182" n="N102"/>Jetzt ist <rs type="person">Marcelline</rs> endlich allein, nichts hält ihre Gedanken mehr ab
+      <lb facs="#facs_2_region_1706945744992_255_tl_182" n="N102"/>Jetzt ist <rs type="person" ref="#hsl_person_id_5061">Marcelline</rs> endlich allein, nichts hält ihre Gedanken mehr ab
       <lb facs="#facs_2_line_1720425877190_696" n="N103"/>sich dem Gegenstande ihrer Liebe zu weihen. Sie wünscht mit ihm
       <lb facs="#facs_2_region_1706945744992_255_tl_186" n="N104"/>vereint zu sein; bei allen Verrichtungen ihres stillen häuslichen Lebens
       <lb facs="#facs_2_line_1720425911938_713" n="N105"/>empfindet sie seine beseligende Nähe: die Hoffnung schon erfüllt ihre
       <lb facs="#facs_2_line_1720425915823_716" n="N106"/>Brust mit unaussprechlich süßer Lust. (Notenbeispiel.) Die Musik ist,
-      <lb facs="#facs_2_line_1720425919319_719" n="N107"/>so sehnsuchtsvoll sie ist, so harmlos und treuherzig. Sehr feinsinnig be¬
-      <lb facs="#facs_2_line_1720425922810_722" n="N108"/>zeichnet der Uebergang vom Moll zum Dur mit seinem mächtig an¬
-      <lb facs="#facs_2_line_1720425925937_725" n="N109"/>schwellenden Fis und den nachfolgenden Triolen (Notenbeispiel) das
+      <lb facs="#facs_2_line_1720425919319_719" n="N107"/>so sehnsuchtsvoll sie ist, so harmlos und treuherzig. Sehr feinsinnig be
+      <lb facs="#facs_2_line_1720425922810_722" n="N108" break="no"/>zeichnet der Uebergang vom Moll zum Dur mit seinem mächtig an
+      <lb facs="#facs_2_line_1720425925937_725" n="N109" break="no"/>schwellenden Fis und den nachfolgenden Triolen (Notenbeispiel) das
       <lb facs="#facs_2_line_1720425937876_732" n="N110"/>Nahen der Hoffnung, die alle Sorgen, alle Mißhelligkeiten in süße
       <lb facs="#facs_2_line_1720425950927_735" n="N111"/>Liebeswonne auflöst.
+            </p><p>
       <lb facs="#facs_2_region_1706945744992_255_tl_193" n="N112"/>Ich denke mir es einfacher, nützlicher und anziehender, sich
       <lb facs="#facs_2_line_1720425958360_740" n="N113"/>den Clavierauszug der Oper selbst aufs Pult zu legen, anstatt
       <lb facs="#facs_2_line_1720425968268_744" n="N114"/>diese langen Beschreibungen zu lesen. Denn für musikkundige Leser
-      <lb facs="#facs_2_line_1720426009919_785" n="N115"/>ist <rs type="person">Neitzel</rs>'s „<rs type="bibl">Führer</rs>“ doch jedenfalls bestimmt, da nur solche beim
-      <lb facs="#facs_2_line_1720426017036_789" n="N116"/>Lesen der zahlreichen Notenbeispiele sich dieselbeen gleich zu ver¬
-      <lb facs="#facs_2_line_1720426023913_793" n="N117"/>gegenwärtigen wissen. Herrn <rs type="person">Neitzel</rs>'s „<rs type="bibl">Führer</rs>“ ist mit großem
+      <lb facs="#facs_2_line_1720426009919_785" n="N115"/>ist <rs type="person" ref="#hsl_person_id_5084">Neitzel</rs>’s „<rs type="bibl" ref="#hsl_work_id_3373">Führer</rs>“ doch jedenfalls bestimmt, da nur solche beim
+      <lb facs="#facs_2_line_1720426017036_789" n="N116"/>Lesen der zahlreichen Notenbeispiele sich dieselbeen gleich zu ver
+      <lb facs="#facs_2_line_1720426023913_793" n="N117" break="no"/>gegenwärtigen wissen. Herrn <rs type="person" ref="#hsl_person_id_5084">Neitzel</rs>’s „<rs type="bibl" ref="#hsl_work_id_3373">Führer</rs>“ ist mit großem
       <lb facs="#facs_2_line_1720426031182_797" n="N118"/>Fleiße zusammengestellt; neue, geistreiche Bemerkungen oder auch
       <lb facs="#facs_2_line_1720426041577_801" n="N119"/>nur stylistisch reizvolle Wendungen sind uns jedoch darin nicht
-      <lb facs="#facs_2_region_1706945744992_255_tl_210" n="N120"/>aufgefallen. Die citirte Stelle über „<rs type="bibl">Fidelio</rs>“ kann zugleich als
+      <lb facs="#facs_2_region_1706945744992_255_tl_210" n="N120"/>aufgefallen. Die citirte Stelle über „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“ kann zugleich als
       <lb facs="#facs_2_region_1706945744992_255_tl_211" n="N121"/>Stylprobe gelten.</p>
          </div>
       </body>
