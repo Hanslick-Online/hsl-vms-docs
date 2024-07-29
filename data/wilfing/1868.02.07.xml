@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="7. Februar 1868">7. Februar 1868</date>
+                        <date when="1868-02-07">7. Februar 1868</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,7 +108,8 @@
       </profileDesc>
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="delsner" when="2024-03-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2024-07-24" who="kbamer">Formatierung. Edition aller Personen, Werke, Orte, Daten.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -825,331 +826,240 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684596335960_3293_tl_1" n="N001"/>„<rs type="bibl">Romeo und Julie</rs>“ von <rs type="person">Gounod</rs>
-               <lb facs="#facs_1_region_1684596335960_3293_tl_2" n="N002"/>(Erste Aufführung im Hofoperntheater am <date month="0" day="0" year="0">5. Februar d. J</date>.)
-      <lb facs="#facs_1_region_1684596335960_3293_tl_3" n="N003"/>Ed. H. Die neueste Oper von <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> ist hier mit
+      <head type="h1"><lb facs="#facs_1_region_1684596335960_3293_tl_1" n="N001"/>„<rs type="bibl" ref="#hsl_work_id_56">Romeo und Julie</rs>“ von <rs type="person" ref="#hsl_person_id_102">Gounod</rs></head>
+      <head type="h2"><lb facs="#facs_1_region_1684596335960_3293_tl_2" n="N002"/>(Erste Aufführung im Hofoperntheater am <date when="1868-02-05">5. Februar d. J</date>.)</head>
+     <p>
+      <lb facs="#facs_1_region_1684596335960_3293_tl_3" n="N003"/>Ed. H. Die neueste Oper von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi> ist hier mit
       <lb facs="#facs_1_region_1684596335960_3293_tl_4" n="N004"/>einem Effect gespielt und mit einer Wärme aufgenommen
-      <lb facs="#facs_1_region_1684596335960_3293_tl_5" n="N005"/>worden, wie sie der persönlich anwesende Componist nur wün¬
-      <lb facs="#facs_1_region_1684596335960_3293_tl_6" n="N006"/>schen konnte. Das Publicum hatte große Erwartungen an
+      <lb facs="#facs_1_region_1684596335960_3293_tl_5" n="N005"/>worden, wie sie der persönlich anwesende Componist nur wün
+      <lb facs="#facs_1_region_1684596335960_3293_tl_6" n="N006" break="no"/>schen konnte. Das Publicum hatte große Erwartungen an
       <lb facs="#facs_1_region_1684596335960_3293_tl_7" n="N007"/>das Werk, aber auch eine große Vorliebe für den Tondichter
-      <lb facs="#facs_1_region_1684596335960_3293_tl_8" n="N008"/>mitgebracht. Ist doch seit den „<rs type="bibl">Hugenotten</rs>“ keine Oper so
-      <lb facs="#facs_1_region_1684596335960_3293_tl_9" n="N009"/>entschiedener Liebling des <rs type="place">Wien</rs>er Publicums geworden und
-      <lb facs="#facs_1_region_1684596335960_3293_tl_10" n="N010"/>geblieben, wie <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi> „<rs type="bibl">Faust</rs>“. Gerade vor sechs Jahren
-      <lb facs="#facs_1_region_1684596335960_3293_tl_11" n="N011"/>(am <date month="0" day="0" year="0">2. Februar 1862</date>) hielt „<rs type="bibl">Faust</rs>“ seinen Einzug in <rs type="place">Wien</rs>,
+      <lb facs="#facs_1_region_1684596335960_3293_tl_8" n="N008"/>mitgebracht. Ist doch seit den „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“ keine Oper so
+      <lb facs="#facs_1_region_1684596335960_3293_tl_9" n="N009"/>entschiedener Liebling des <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicums geworden und
+      <lb facs="#facs_1_region_1684596335960_3293_tl_10" n="N010"/>geblieben, wie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“. Gerade vor sechs Jahren
+      <lb facs="#facs_1_region_1684596335960_3293_tl_11" n="N011"/>(am <date when="1862-02-02">2. Februar 1862</date>) hielt „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ seinen Einzug in <rs type="place" ref="#hsl_place_id_55">Wien</rs>,
       <lb facs="#facs_1_region_1684596335960_3293_tl_12" n="N012"/>mit einer Wirkung, deren bis heute ungeschwächte Kraft den
       <lb facs="#facs_1_region_1684596335960_3293_tl_13" n="N013"/>Triumph jenes ersten Abends an Werth noch überbietet. In
-      <lb facs="#facs_1_region_1684596335960_3293_tl_14" n="N014"/>gleicher Weise eroberte und behauptet „<rs type="bibl">Faust</rs>“ auf allen ande¬
-      <lb facs="#facs_1_region_1684596335960_3293_tl_15" n="N015"/>ren Bühnen das Feld. <rs type="place">Deutschland</rs> insbesondere begrüßte
-      <lb facs="#facs_1_region_1684596335960_3293_tl_16" n="N016"/>
-               <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi> „<rs type="bibl">Faust</rs>“, trotz mancher Schwächen und Flecken,
-      <lb facs="#facs_1_region_1684596335960_3293_tl_17" n="N017"/>freudig als eine der liebenswürdigsten Opern-Productionen un¬
-      <lb facs="#facs_1_region_1684596335960_3293_tl_18" n="N018"/>serer Zeit, als ein Werk, das in glücklicher Verbindung <rs type="place">deut¬</rs>
-               <lb facs="#facs_1_region_1684596335960_3293_tl_19" n="N019"/>
-               <rs type="place">sch</rs>en und <rs type="place">französisch</rs>en Musikstyles neben glänzendster Technik
+      <lb facs="#facs_1_region_1684596335960_3293_tl_14" n="N014"/>gleicher Weise eroberte und behauptet „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ auf allen ande
+      <lb facs="#facs_1_region_1684596335960_3293_tl_15" n="N015" break="no"/>ren Bühnen das Feld. <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> insbesondere begrüßte
+      <lb facs="#facs_1_region_1684596335960_3293_tl_16" n="N016"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“, trotz mancher Schwächen und Flecken,
+      <lb facs="#facs_1_region_1684596335960_3293_tl_17" n="N017"/>freudig als eine der liebenswürdigsten Opern-Productionen un
+      <lb facs="#facs_1_region_1684596335960_3293_tl_18" n="N018" break="no"/>serer Zeit, als ein Werk, das in glücklicher Verbindung <rs type="place" ref="#hsl_place_id_14">deut
+      <lb facs="#facs_1_region_1684596335960_3293_tl_19" n="N019" break="no"/>sch</rs>en und <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Musikstyles neben glänzendster Technik
       <lb facs="#facs_1_region_1684596335960_3293_tl_20" n="N020"/>einen feinen Geist, ein echtes, warmes Gemüth offenbart. Es
       <lb facs="#facs_1_region_1684596335960_3293_tl_21" n="N021"/>leuchtet von selbst ein, daß der Sänger des Liebesduettes im
-      <lb facs="#facs_1_region_1684596335960_3293_tl_22" n="N022"/>„<rs type="bibl">Faust</rs>“ sich unwiderstehlich angelockt fühlen mußte von der
-      <lb facs="#facs_1_region_1684596335960_3293_tl_23" n="N023"/>Tragödie, „die die Liebe selbst geschrieben“, von <rs type="person">Shakespeare</rs>'s
-      <lb facs="#facs_1_region_1684596335960_3293_tl_24" n="N024"/>„<hi rendition="#em">
-                  <rs type="bibl">Romeo und Julie</rs>
-               </hi>“. Für die musikalische Eignung dieses
-      <lb facs="#facs_1_region_1684596335960_3293_tl_25" n="N025"/>Gedichtes braucht <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> nicht erst zu plaidiren, das thut
-      <lb facs="#facs_1_region_1684596335960_3293_tl_26" n="N026"/>die Musikgeschichte, indem sie ein gutes Halbdutzend „<rs type="person">Romeo</rs>“-
-      <lb facs="#facs_1_region_1684596335960_3293_tl_27" n="N027"/>Opern verzeichnet. Auf eine Vergleichung derselben mit <hi rendition="#em">
-                  <rs type="person" continued="true">Gou¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684596335960_3293_tl_28" n="N028"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">nod</rs>
-               </hi>'s Werk müssen wir hier verzichten, schon deßhalb, weil
-      <lb facs="#facs_1_region_1684596335960_3293_tl_29" n="N029"/>solche Versuche ohne Notenbeispiele ihren besten Werth verlie¬
-      <lb facs="#facs_1_region_1684596335960_3293_tl_30" n="N030"/>ren. Nur einige Punkte möchten wir berühren, welche nicht
-      <lb facs="#facs_1_region_1684596335960_3293_tl_31" n="N031"/>blos <rs type="person">Gounod</rs>'s Arbeit, sondern die verschiedene Auffassungs¬
-      <lb facs="#facs_1_region_1684596335960_3293_tl_32" n="N032"/>weise ganzer Literatur-Perioden, sowie den großen Fortschritt
+      <lb facs="#facs_1_region_1684596335960_3293_tl_22" n="N022"/>„<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ sich unwiderstehlich angelockt fühlen mußte von der
+      <lb facs="#facs_1_region_1684596335960_3293_tl_23" n="N023"/>Tragödie, „die die Liebe selbst geschrieben“, von <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs>ʼs
+      <lb facs="#facs_1_region_1684596335960_3293_tl_24" n="N024"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_57">Romeo und Julie</rs></hi>“. Für die musikalische Eignung dieses
+      <lb facs="#facs_1_region_1684596335960_3293_tl_25" n="N025"/>Gedichtes braucht <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi> nicht erst zu plaidiren, das thut
+      <lb facs="#facs_1_region_1684596335960_3293_tl_26" n="N026"/>die Musikgeschichte, indem sie ein gutes Halbdutzend „<rs type="person" ref="#hsl_person_id_3712">Romeo</rs>“-
+      <lb facs="#facs_1_region_1684596335960_3293_tl_27" n="N027"/>Opern verzeichnet. Auf eine Vergleichung derselben mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gou
+      <lb facs="#facs_1_region_1684596335960_3293_tl_28" n="N028" break="no"/>nod</rs></hi>ʼs Werk müssen wir hier verzichten, schon deßhalb, weil
+      <lb facs="#facs_1_region_1684596335960_3293_tl_29" n="N029"/>solche Versuche ohne Notenbeispiele ihren besten Werth verlie
+      <lb facs="#facs_1_region_1684596335960_3293_tl_30" n="N030" break="no"/>ren. Nur einige Punkte möchten wir berühren, welche nicht
+      <lb facs="#facs_1_region_1684596335960_3293_tl_31" n="N031"/>blos <rs type="person" ref="#hsl_person_id_102">Gounod</rs>ʼs Arbeit, sondern die verschiedene Auffassungs
+      <lb facs="#facs_1_region_1684596335960_3293_tl_32" n="N032" break="no"/>weise ganzer Literatur-Perioden, sowie den großen Fortschritt
       <lb facs="#facs_1_line_1709294083049_67" n="N033"/>beleuchten, den unsere Zeit in dem dramatischen Theile der
-      <lb facs="#facs_1_region_1684596335960_3293_tl_34" n="N034"/>Opernmusik gemacht.</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_line_1709294126174_88" n="N001"/>
-               <hi rendition="#em">
-                  <rs type="person">Benda</rs>'s</hi> dreiactige Oper „<rs type="bibl">Romeo und Julie</rs>“, vor
+      <lb facs="#facs_1_region_1684596335960_3293_tl_34" n="N034"/>Opernmusik gemacht.<space quantity="1" unit="char"/></p>
+   <cb n="2"/>
+      <p>
+      <lb facs="#facs_1_line_1709294126174_88" n="N001"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3976">Benda</rs>ʼs</hi> dreiactige Oper „<rs type="bibl" ref="#hsl_work_id_3406">Romeo und Julie</rs>“, vor
       <lb facs="#facs_1_region_1684596339364_3296_tl_1" n="N002"/>nahezu 100 Jahren ein Lieblingsstück der Deutschen und von
-      <lb facs="#facs_1_region_1684596339364_3296_tl_2" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Forkel</rs>
-               </hi> hoch über die <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>'schen Opern gesetzt, ist das rich¬
-      <lb facs="#facs_1_region_1684596339364_3296_tl_3" n="N004"/>tige „deutsche Singspiel“. Sie beschäftigt nur vier singende
+      <lb facs="#facs_1_region_1684596339364_3296_tl_2" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_385">Forkel</rs></hi> hoch über die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>ʼschen Opern gesetzt, ist das rich
+      <lb facs="#facs_1_region_1684596339364_3296_tl_3" n="N004" break="no"/>tige „<rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Singspiel“. Sie beschäftigt nur vier singende
       <lb facs="#facs_1_region_1684596339364_3296_tl_4" n="N005"/>Personen, verwendet sehr viel gesprochenen Dialog, hat weder
       <lb facs="#facs_1_region_1684596339364_3296_tl_5" n="N006"/>Finales noch größere Ensembles, nur einen kurzen Chorsatz
-      <lb facs="#facs_1_region_1684596339364_3296_tl_6" n="N007"/>zum Schluß. Die Oper beginnt gleich mit der Arie<rs type="person"> Julien</rs>s
+      <lb facs="#facs_1_region_1684596339364_3296_tl_6" n="N007"/>zum Schluß. Die Oper beginnt gleich mit der Arie<rs type="person" ref="#hsl_person_id_5117"> Julien</rs>s
       <lb facs="#facs_1_region_1684596339364_3296_tl_7" n="N008"/>vom „flammenhufigen Gespann“ und dem Liebesduett, das
-      <lb facs="#facs_1_region_1684596339364_3296_tl_8" n="N009"/>
-               <rs type="person">Gounod</rs> im vierten Acte bringt; alles Frühere schien also dem
+      <lb facs="#facs_1_region_1684596339364_3296_tl_8" n="N009"/><rs type="person" ref="#hsl_person_id_102">Gounod</rs> im vierten Acte bringt; alles Frühere schien also dem
       <lb facs="#facs_1_region_1684596339364_3296_tl_9" n="N010"/>Componisten unbrauchbar. Außer dem Liebespaare hören wir
-      <lb facs="#facs_1_region_1684596339364_3296_tl_10" n="N011"/>blos <rs type="person">
-                  <hi rendition="#em">Capulet</hi>
-               </rs>(kleine hohe Bariton-Partie) und <hi rendition="#em">
-                  <rs type="person">Laura</rs>
-               </hi>, eine
+      <lb facs="#facs_1_region_1684596339364_3296_tl_10" n="N011"/>blos <rs type="person" ref="#hsl_person_id_5118"><hi rendition="#em">Capulet</hi></rs>(kleine hohe Bariton-Partie) und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5119">Laura</rs></hi>, eine
       <lb facs="#facs_1_line_1711369557972_72" n="N012"/>verjüngte „Amme“ in Soubretten-Format, welche Arien wie
       <lb facs="#facs_1_region_1684596339364_3296_tl_13" n="N013"/>„Ehrlichkeit und Treue sind mein höchstes Gut“ vorträgt. In
-      <lb facs="#facs_1_region_1684596339364_3296_tl_14" n="N014"/>der Schlußscene erwacht die scheintodte <rs type="person">Julie</rs>, bevor <rs type="person">Romeo</rs>
-               <lb facs="#facs_1_region_1684596339364_3296_tl_15" n="N015"/>Gift genommen, die Beiden umarmen sich unter den Glück¬
-      <lb facs="#facs_1_region_1684596339364_3296_tl_16" n="N016"/>wünschen der herbeieilenden Verwandten und empfehlen sich als
-      <lb facs="#facs_1_region_1684596339364_3296_tl_17" n="N017"/>Verlobte. Im dramatischen Ausdrucke, namentlich der Reci¬
-      <lb facs="#facs_1_region_1684596339364_3296_tl_18" n="N018"/>tative, steht das alte <hi rendition="#em">
-                  <rs type="person">Benda</rs>
-               </hi>'sche Singspiel immer noch höher
-      <lb facs="#facs_1_region_1684596339364_3296_tl_19" n="N019"/>als die <rs type="place">italienisch</rs>en Bearbeitungen von <hi rendition="#em">
-                  <rs type="person">Zingarelli</rs>
-               </hi> (<date month="0" day="0" year="0">1796</date>)
-      <lb facs="#facs_1_region_1684596339364_3296_tl_20" n="N020"/>
-               <hi rendition="#em">
-                  <rs type="person">Vaccai</rs>
-               </hi> (<date month="0" day="0" year="0">1826</date>) und <hi rendition="#em">
-                  <rs type="person">Bellini</rs>
-               </hi> (<date month="0" day="0" year="0">1830</date>). Die Existenz dieser
+      <lb facs="#facs_1_region_1684596339364_3296_tl_14" n="N014"/>der Schlußscene erwacht die scheintodte <rs type="person" ref="#hsl_person_id_5117">Julie</rs>, bevor <rs type="person" ref="#hsl_person_id_5122">Romeo</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684596339364_3296_tl_15" n="N015"/>Gift genommen, die Beiden umarmen sich unter den Glück
+      <lb facs="#facs_1_region_1684596339364_3296_tl_16" n="N016" break="no"/>wünschen der herbeieilenden Verwandten und empfehlen sich als
+      <lb facs="#facs_1_region_1684596339364_3296_tl_17" n="N017"/>Verlobte. Im dramatischen Ausdrucke, namentlich der Reci
+      <lb facs="#facs_1_region_1684596339364_3296_tl_18" n="N018" break="no"/>tative, steht das alte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3976">Benda</rs></hi>ʼsche Singspiel immer noch höher
+      <lb facs="#facs_1_region_1684596339364_3296_tl_19" n="N019"/>als die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Bearbeitungen von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs></hi> (<date when="1796">1796</date>)
+      <lb facs="#facs_1_region_1684596339364_3296_tl_20" n="N020"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3977">Vaccai</rs></hi> (<date when="1826">1826</date>) und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_26">Bellini</rs></hi> (<date when="1830">1830</date>). Die Existenz dieser
       <lb facs="#facs_1_region_1684596339364_3296_tl_21" n="N021"/>Opern ruhte auf zwei bis drei süßen Melodien, ihren Erfolg
       <lb facs="#facs_1_region_1684596339364_3296_tl_22" n="N022"/>verdankten sie den größten Gesangskünstlern und schönsten
-      <lb facs="#facs_1_region_1684596339364_3296_tl_23" n="N023"/>Stimmen <rs type="place">Italien</rs>s. Wie diese Componisten mit <rs type="person">Shakespeare</rs>ʼs
+      <lb facs="#facs_1_region_1684596339364_3296_tl_23" n="N023"/>Stimmen <rs type="place" ref="#hsl_place_id_28">Italien</rs>s. Wie diese Componisten mit <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs>ʼs
       <lb facs="#facs_1_region_1684596339364_3296_tl_24" n="N024"/>Tragödie umsprangen, ist schmählich; sie war ihnen ein Nagel
       <lb facs="#facs_1_region_1684596339364_3296_tl_25" n="N025"/>wie ein anderer, Cantilenen und Triller darau aufzuhängen.
-      <lb facs="#facs_1_region_1684596339364_3296_tl_26" n="N026"/>Das <rs type="place">wälsch</rs>e Kleeblatt dachte offenbar wie der Musikant in
-      <lb facs="#facs_1_region_1684596339364_3296_tl_27" n="N027"/>
-               <rs type="person">Shakespeare</rs>ʼs „<rs type="bibl">Romeo</rs>“: „Meiner Treu, die Sachen könnten
+      <lb facs="#facs_1_region_1684596339364_3296_tl_26" n="N026"/>Das <rs type="place" ref="#hsl_place_id_28">wälsch</rs>e Kleeblatt dachte offenbar wie der Musikant in
+      <lb facs="#facs_1_region_1684596339364_3296_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_287">Shakespeare</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_57">Romeo</rs>“: „Meiner Treu, die Sachen könnten
       <lb facs="#facs_1_region_1684596339364_3296_tl_28" n="N028"/>besser aussehen, aber sie klingen doch gut.“ Außer den beiden
-      <lb facs="#facs_1_region_1684596339364_3296_tl_29" n="N029"/>Liebenden und <rs type="person">Capulet</rs> haben die <rs type="place">italienisch</rs>en Componisten aus
-      <lb facs="#facs_1_region_1684596339364_3296_tl_30" n="N030"/>
-               <rs type="person">Shakespeare</rs> nur noch den „bestimmten Bräutigam“ eingeführt;
-      <lb facs="#facs_1_region_1684596339364_3296_tl_31" n="N031"/>
-               <rs type="person">Bellini</rs> fügt den „<rs type="person">Arzt <hi rendition="#em">Lorenzo</hi>
-               </rs> als kleine Nebenrolle bei.
-      <lb facs="#facs_1_region_1684596339364_3296_tl_32" n="N032"/>Die Rolle des <hi rendition="#em">
-                  <rs type="person">Romeo</rs>
-               </hi> schrieben sowol <rs type="person">Zingarelli</rs> als <rs type="person">Vaccai</rs>
-               <lb facs="#facs_1_region_1684596339364_3296_tl_33" n="N033"/>und <rs type="person">Bellini</rs> für eine <hi rendition="#em">Sopran</hi>stimme; die Musik dieser drei
+      <lb facs="#facs_1_region_1684596339364_3296_tl_29" n="N029"/>Liebenden und <rs type="person" ref="#hsl_person_id_3782">Capulet</rs> haben die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Componisten aus
+      <lb facs="#facs_1_region_1684596339364_3296_tl_30" n="N030"/><rs type="person" ref="#hsl_person_id_287">Shakespeare</rs> nur noch den „bestimmten Bräutigam“ eingeführt;
+      <lb facs="#facs_1_region_1684596339364_3296_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_26">Bellini</rs> fügt den „<rs type="person" ref="#hsl_person_id_5120">Arzt <hi rendition="#em">Lorenzo</hi></rs> als kleine Nebenrolle bei.
+      <lb facs="#facs_1_region_1684596339364_3296_tl_32" n="N032"/>Die Rolle des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3712">Romeo</rs></hi> schrieben sowol <rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs> als <rs type="person" ref="#hsl_person_id_3977">Vaccai</rs>
+      <lb facs="#facs_1_region_1684596339364_3296_tl_33" n="N033"/>und <rs type="person" ref="#hsl_person_id_26">Bellini</rs> für eine <hi rendition="#em">Sopran</hi>stimme; die Musik dieser drei
       <lb facs="#facs_1_region_1684596339364_3296_tl_34" n="N034"/>lyrischen Tragödien besteht fast durchwegs aus weibisch-süßlichen
       <lb facs="#facs_1_region_1684596339364_3296_tl_35" n="N035"/>Melodien, die sich unter einer Schmucklast von Trillern und
-      <lb facs="#facs_1_line_1711369900346_109" n="N036"/>Passagen wiegen. Bei <hi rendition="#em">
-                  <rs type="person">Zingarelli</rs>
-               </hi> liegt die musikalische
+      <lb facs="#facs_1_line_1711369900346_109" n="N036"/>Passagen wiegen. Bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs></hi> liegt die musikalische
       <lb facs="#facs_1_line_1711369922228_114" n="N037"/>Charakteristik noch so sehr in der Kindheit, man seine
-      <lb facs="#facs_1_line_1709294117357_81" n="N038"/>„<rs type="bibl">Romeo</rs>“-Ouverture vor jeder komischen Oper spielen könnte.</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1709294126174_87" n="N001"/>Der schwächste Componist besitzt heutzutage ein feineres Ge¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_2" n="N002"/>fühl für den charakteristischen Ausdruck, als es damals Zele¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_3" n="N003"/>britäten wie <rs type="person">Zingarelli</rs> besaßen. <hi rendition="#em">
-                  <rs type="person">Bellini</rs>'s</hi> „<rs type="bibl">Montecchi und</rs>
-               <lb facs="#facs_1_region_1684596343191_3299_tl_4" n="N004"/>
-               <rs type="bibl">Capuletti</rs>“, allerdings reicher und ausdrucksvoller als die
+      <lb facs="#facs_1_line_1709294117357_81" n="N038"/>„<rs type="bibl" ref="#hsl_work_id_3407">Romeo</rs>“-Ouverture vor jeder komischen Oper spielen könnte.<space quantity="1" unit="char"/></p>
+   <cb n="3"/>
+     <p>
+      <lb facs="#facs_1_line_1709294126174_87" n="N001"/>Der schwächste Componist besitzt heutzutage ein feineres Ge
+      <lb facs="#facs_1_region_1684596343191_3299_tl_2" n="N002" break="no"/>fühl für den charakteristischen Ausdruck, als es damals Zele
+      <lb facs="#facs_1_region_1684596343191_3299_tl_3" n="N003" break="no"/>britäten wie <rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs> besaßen. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs</hi> „<rs type="bibl" ref="#hsl_work_id_1218">Montecchi und
+      <lb facs="#facs_1_region_1684596343191_3299_tl_4" n="N004" break="no"/>Capuletti</rs>“, allerdings reicher und ausdrucksvoller als die
       <lb facs="#facs_1_region_1684596343191_3299_tl_5" n="N005"/>Opern jener beiden Vorgänger, sind im unbestrittenen Besitze
-      <lb facs="#facs_1_region_1684596343191_3299_tl_6" n="N006"/>der Preismedaille für musikalische Langweile und Charakter¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_7" n="N007"/>losigkeit. Wie ernst und edel steht <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> da gegen jene
-      <lb facs="#facs_1_region_1684596343191_3299_tl_8" n="N008"/>drei auf <rs type="person">Julien</rs>s Grab unter Rosenbüschen girrenden Turtel¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_9" n="N009"/>tauben! Man braucht nur <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi> Personen-Verzeichniß
-      <lb facs="#facs_1_region_1684596343191_3299_tl_10" n="N010"/>anzusehen (<rs type="person">Mercutio</rs>!), um den fundamentalen Unterschied und
+      <lb facs="#facs_1_region_1684596343191_3299_tl_6" n="N006"/>der Preismedaille für musikalische Langweile und Charakter
+      <lb facs="#facs_1_region_1684596343191_3299_tl_7" n="N007" break="no"/>losigkeit. Wie ernst und edel steht <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi> da gegen jene
+      <lb facs="#facs_1_region_1684596343191_3299_tl_8" n="N008"/>drei auf <rs type="person" ref="#hsl_person_id_3035">Julien</rs>s Grab unter Rosenbüschen girrenden Turtel
+      <lb facs="#facs_1_region_1684596343191_3299_tl_9" n="N009" break="no"/>tauben! Man braucht nur <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>ʼs</hi> Personen-Verzeichniß
+      <lb facs="#facs_1_region_1684596343191_3299_tl_10" n="N010"/>anzusehen (<rs type="person" ref="#hsl_person_id_3951">Mercutio</rs>!), um den fundamentalen Unterschied und
       <lb facs="#facs_1_region_1684596343191_3299_tl_11" n="N011"/>den dramatischen Fortschritt zu bemerken, welcher seine und
       <lb facs="#facs_1_region_1684596343191_3299_tl_12" n="N012"/>die gegenwärtige Opernauffassung überhaupt von jenem älteren
-      <lb facs="#facs_1_region_1684596343191_3299_tl_13" n="N013"/>Verfahren trennt.
-      <lb facs="#facs_1_region_1684596343191_3299_tl_14" n="N014"/>Ob man in <rs type="place">Deutschland</rs> abermals gegen <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> das
-      <lb facs="#facs_1_region_1684596343191_3299_tl_15" n="N015"/>crimen laesae majestatis an <rs type="person">Shakespeare</rs> aussprechen wird,
-      <lb facs="#facs_1_region_1684596343191_3299_tl_16" n="N016"/>wie früher an <hi rendition="#em">
-                  <rs type="person">Goethe</rs>
-               </hi>? Wir könnten auch diesmal den An¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_17" n="N017"/>klägern nicht beitreten. Zu allen Zeiten war die Tragödie gro¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_18" n="N018"/>ßer Dichter ein unangefochtenes Stoffgebiet für die Componi¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_19" n="N019"/>sten; von Profanation möchten wir nur sprechen, wo Dramen
+      <lb facs="#facs_1_region_1684596343191_3299_tl_13" n="N013"/>Verfahren trennt.</p>
+    <p>
+      <lb facs="#facs_1_region_1684596343191_3299_tl_14" n="N014"/>Ob man in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> abermals gegen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi> das
+      <lb facs="#facs_1_region_1684596343191_3299_tl_15" n="N015"/>crimen laesae majestatis an <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs> aussprechen wird,
+      <lb facs="#facs_1_region_1684596343191_3299_tl_16" n="N016"/>wie früher an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_100">Goethe</rs></hi>? Wir könnten auch diesmal den An
+      <lb facs="#facs_1_region_1684596343191_3299_tl_17" n="N017" break="no"/>klägern nicht beitreten. Zu allen Zeiten war die Tragödie gro
+      <lb facs="#facs_1_region_1684596343191_3299_tl_18" n="N018" break="no"/>ßer Dichter ein unangefochtenes Stoffgebiet für die Componi
+      <lb facs="#facs_1_region_1684596343191_3299_tl_19" n="N019" break="no"/>sten; von Profanation möchten wir nur sprechen, wo Dramen
       <lb facs="#facs_1_region_1684596343191_3299_tl_20" n="N020"/>so geistlos, willkürlich und frivol zersungen wurden, wie die
-      <lb facs="#facs_1_region_1684596343191_3299_tl_21" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Schiller</rs>
-               </hi>'schen durch <hi rendition="#em">
-                  <rs type="person">Verdi</rs>
-               </hi>. Triviale Musik ist dasjenige,
-      <lb facs="#facs_1_region_1684596343191_3299_tl_22" n="N022"/>was profanirt. Uebrigens hat man bisher kein einziges Bei¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_23" n="N023"/>spiel, daß eine Opernmusik, sei sie die beste oder die schlech¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_24" n="N024"/>teste, ihr klassisches Original verleidet oder verdrängt hätte.
-      <lb facs="#facs_1_region_1684596343191_3299_tl_25" n="N025"/>Vorzuziehen wäre es freilich, wir hätten Textdichter von hin¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_26" n="N026"/>reichend schöpferischer Phantasie, um neue Stoffe für die Oper
-      <lb facs="#facs_1_region_1684596343191_3299_tl_27" n="N027"/>zu gestalten; da aber auf diesem Gebiete die <hi rendition="#em">Erfindung</hi>
-               <lb facs="#facs_1_region_1684596343191_3299_tl_28" n="N028"/>versiegt scheint, muß man sich mit der <hi rendition="#em">Geschicklichkeit</hi> zu¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_29" n="N029"/>friedenstellen, welche Dramen von bedeutendem Inhalte und
+      <lb facs="#facs_1_region_1684596343191_3299_tl_21" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_248">Schiller</rs></hi>ʼschen durch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi>. Triviale Musik ist dasjenige,
+      <lb facs="#facs_1_region_1684596343191_3299_tl_22" n="N022"/>was profanirt. Uebrigens hat man bisher kein einziges Bei
+      <lb facs="#facs_1_region_1684596343191_3299_tl_23" n="N023" break="no"/>spiel, daß eine Opernmusik, sei sie die beste oder die schlech
+      <lb facs="#facs_1_region_1684596343191_3299_tl_24" n="N024" break="no"/>teste, ihr klassisches Original verleidet oder verdrängt hätte.
+      <lb facs="#facs_1_region_1684596343191_3299_tl_25" n="N025"/>Vorzuziehen wäre es freilich, wir hätten Textdichter von hin
+      <lb facs="#facs_1_region_1684596343191_3299_tl_26" n="N026" break="no"/>reichend schöpferischer Phantasie, um neue Stoffe für die Oper
+      <lb facs="#facs_1_region_1684596343191_3299_tl_27" n="N027"/>zu gestalten; da aber auf diesem Gebiete die <hi rendition="#em">Erfindung</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684596343191_3299_tl_28" n="N028"/>versiegt scheint, muß man sich mit der <hi rendition="#em">Geschicklichkeit</hi> zu
+      <lb facs="#facs_1_region_1684596343191_3299_tl_29" n="N029" break="no"/>friedenstellen, welche Dramen von bedeutendem Inhalte und
       <lb facs="#facs_1_region_1684596343191_3299_tl_30" n="N030"/>populärer Wirkung für den Tondichter nachzubilden versteht.
-      <lb facs="#facs_1_region_1684596343191_3299_tl_31" n="N031"/>Geschicklichkeit und literarischen Anstand muß man der Bear¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_32" n="N032"/>beitung „<rs type="bibl">Romeo</rs>ʼs“ von <hi rendition="#em">
-                  <rs type="person">Barbier</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Carré</rs>
-               </hi> nachrühmen.
-      <lb facs="#facs_1_region_1684596343191_3299_tl_33" n="N033"/>Man kann dem Libretto und der Musik gar Manches vorwer¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_34" n="N034"/>fen, nicht aber den Librettisten oder dem Compositeur, daß sie
-      <lb facs="#facs_1_region_1684596343191_3299_tl_35" n="N035"/>Shakespeare für frivole Effecte blos ausbeuten wollten. Sie
-      <lb facs="#facs_1_region_1684596343191_3299_tl_36" n="N036"/>hielten sich möglichst treu an das Original. Die einzigen nen¬
-      <lb facs="#facs_1_region_1684596343191_3299_tl_37" n="N037"/>nenswerthen Zusätze sind der „<rs type="person">Page</rs>“ (eigentlich eine Umwand¬
-      <lb facs="#facs_1_line_1709294117357_80" n="N038"/>lung des Bedienten <rs type="person">Balthasar</rs>) und die Hochzeitsfeier <rs type="person">Julien</rs>s</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684596359598_3305_tl_1" n="N001"/>mit <rs type="person">Paris</rs> im vierten Acte. Der <rs type="person">Page</rs> war nothwendig, um
-      <lb facs="#facs_2_region_1684596359598_3305_tl_2" n="N002"/>eine Sopranstimme für die Ensembles zu gewinnen, das Hoch¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_3" n="N003"/>zeitsfest, um zwischen die traurigen Scenen des vierten Actes
-      <lb facs="#facs_2_region_1684596359598_3305_tl_4" n="N004"/>und die Todtengruft im fünften Acte ein halbwegs erfrischen¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_5" n="N005"/>des Bild einzufügen. Bemerkenswerth ist schließlich die Aende¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_6" n="N006"/>rung, daß bei <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi>
-               <rs type="person">Julie</rs>, im Sarge erwachend, ihren
-      <lb facs="#facs_2_region_1684596359598_3305_tl_7" n="N007"/>
-               <rs type="person">Romeo</rs> noch am Leben trifft, während sie ihn bei <rs type="person">Shakespeare</rs>
-               <lb facs="#facs_2_region_1684596359598_3305_tl_8" n="N008"/>bekanntlich bereits todt zu ihren Füßen hingestreckt findet. Den
-      <lb facs="#facs_2_region_1684596359598_3305_tl_9" n="N009"/>
-               <rs type="place">englisch</rs>en Dichter leitete ein tiefes und zartes Gefühl bei die¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_10" n="N010"/>sem Schlusse, aber für den Musiker ist er unmöglich. Ohne
-      <lb facs="#facs_2_region_1684596359598_3305_tl_11" n="N011"/>ein letztes Schlußduett zwischen <rs type="person">Romeo</rs> und <rs type="person">Julie</rs> kann keine
-      <lb facs="#facs_2_region_1684596359598_3305_tl_12" n="N012"/>Oper dieses Namens existiren, wie denn auch <rs type="person">Gounod</rs>'s Vor¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_13" n="N013"/>gänger, <hi rendition="#em">
-                  <rs type="person">Zingarelli</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Vaccai</rs>
-               </hi>, und <hi rendition="#em">
-                  <rs type="person">Bellini</rs>
-               </hi>, die gleiche
+      <lb facs="#facs_1_region_1684596343191_3299_tl_31" n="N031"/>Geschicklichkeit und literarischen Anstand muß man der Bear
+      <lb facs="#facs_1_region_1684596343191_3299_tl_32" n="N032" break="no"/>beitung „<rs type="bibl" ref="#hsl_person_id_3712">Romeo</rs>ʼs“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_90">Barbier</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_84">Carré</rs></hi> nachrühmen.
+      <lb facs="#facs_1_region_1684596343191_3299_tl_33" n="N033"/>Man kann dem Libretto und der Musik gar Manches vorwer
+      <lb facs="#facs_1_region_1684596343191_3299_tl_34" n="N034" break="no"/>fen, nicht aber den Librettisten oder dem Compositeur, daß sie
+      <lb facs="#facs_1_region_1684596343191_3299_tl_35" n="N035"/><rs type="person" ref="#hsl_person_id_287">Shakespeare</rs> für frivole Effecte blos ausbeuten wollten. Sie
+      <lb facs="#facs_1_region_1684596343191_3299_tl_36" n="N036"/>hielten sich möglichst treu an das Original. Die einzigen nen
+      <lb facs="#facs_1_region_1684596343191_3299_tl_37" n="N037" break="no"/>nenswerthen Zusätze sind der „<rs type="person" ref="#hsl_person_id_3954">Page</rs>“ (eigentlich eine Umwand
+      <lb facs="#facs_1_line_1709294117357_80" n="N038" break="no"/>lung des Bedienten <rs type="person" ref="#hsl_person_id_3955">Balthasar</rs>) und die Hochzeitsfeier <rs type="person" ref="#hsl_person_id_3035">Julien</rs>s<space quantity="1" unit="char"/></p>
+  <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+    <cb n="4"/>
+    <p prev="true">
+      <lb facs="#facs_2_region_1684596359598_3305_tl_1" n="N001"/>mit <rs type="person" ref="#hsl_work_id_56">Paris</rs> im vierten Acte. Der <rs type="person" ref="#hsl_person_id_3954">Page</rs> war nothwendig, um
+      <lb facs="#facs_2_region_1684596359598_3305_tl_2" n="N002"/>eine Sopranstimme für die Ensembles zu gewinnen, das Hoch
+      <lb facs="#facs_2_region_1684596359598_3305_tl_3" n="N003" break="no"/>zeitsfest, um zwischen die traurigen Scenen des vierten Actes
+      <lb facs="#facs_2_region_1684596359598_3305_tl_4" n="N004"/>und die Todtengruft im fünften Acte ein halbwegs erfrischen
+      <lb facs="#facs_2_region_1684596359598_3305_tl_5" n="N005" break="no"/>des Bild einzufügen. Bemerkenswerth ist schließlich die Aende
+      <lb facs="#facs_2_region_1684596359598_3305_tl_6" n="N006" break="no"/>rung, daß bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi><rs type="person" ref="#hsl_person_id_3035">Julie</rs>, im Sarge erwachend, ihren
+      <lb facs="#facs_2_region_1684596359598_3305_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_3034">Romeo</rs> noch am Leben trifft, während sie ihn bei <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684596359598_3305_tl_8" n="N008"/>bekanntlich bereits todt zu ihren Füßen hingestreckt findet. Den
+      <lb facs="#facs_2_region_1684596359598_3305_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_17">englisch</rs>en Dichter leitete ein tiefes und zartes Gefühl bei die
+      <lb facs="#facs_2_region_1684596359598_3305_tl_10" n="N010" break="no"/>sem Schlusse, aber für den Musiker ist er unmöglich. Ohne
+      <lb facs="#facs_2_region_1684596359598_3305_tl_11" n="N011"/>ein letztes Schlußduett zwischen <rs type="person" ref="#hsl_person_id_3034">Romeo</rs> und <rs type="person" ref="#hsl_person_id_3035">Julie</rs> kann keine
+      <lb facs="#facs_2_region_1684596359598_3305_tl_12" n="N012"/>Oper dieses Namens existiren, wie denn auch <rs type="person" ref="#hsl_person_id_102">Gounod</rs>ʼs Vor
+      <lb facs="#facs_2_region_1684596359598_3305_tl_13" n="N013" break="no"/>gänger, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3977">Vaccai</rs></hi>, und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_26">Bellini</rs></hi>, die gleiche
       <lb facs="#facs_2_region_1684596359598_3305_tl_14" n="N014"/>Abänderung vornahmen und vornehmen mußten. Uebrigens ist
-      <lb facs="#facs_2_region_1684596359598_3305_tl_15" n="N015"/>auch in <rs type="person">Shakespeare</rs>'s Tragödie gerade dieser Ausgang vielfach
-      <lb facs="#facs_2_region_1684596359598_3305_tl_16" n="N016"/>angefochten worden; <hi rendition="#em">
-                  <rs type="person">Weisse</rs>
-               </hi> behauptete sogar (in seiner Ueber¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_17" n="N017"/>setzungs-Vorrede), <rs type="person">Shakespeare</rs> müsse nach einer schlechten Ueber¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_18" n="N018"/>setzung der Original-Novelle gearbeitet haben, welche die
-      <lb facs="#facs_2_region_1684596359598_3305_tl_19" n="N019"/>Haupt-Katastrophe — das Erwachen <rs type="person">Julien</rs>s, während <rs type="person">Romeo</rs>
-               <lb facs="#facs_2_region_1684596359598_3305_tl_20" n="N020"/>noch lebt — vergessen habe.
-      <lb facs="#facs_2_region_1684596359598_3305_tl_21" n="N021"/>Welchʼ reiche musikalische Quelle aus dem <rs type="person">Shakespeare</rs>¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_22" n="N022"/>schen Gedichte fließt, bedarf keines Nachweises. Aber auch be¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_23" n="N023"/>denkliche Nachtheile für die Opernwirkung überkommt der Com¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_24" n="N024"/>ponist direct aus dem Original. <rs type="person">Shakespeare</rs>'s Liebesdrama
+      <lb facs="#facs_2_region_1684596359598_3305_tl_15" n="N015"/>auch in <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs>ʼs Tragödie gerade dieser Ausgang vielfach
+      <lb facs="#facs_2_region_1684596359598_3305_tl_16" n="N016"/>angefochten worden; <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4826">Weisse</rs></hi> behauptete sogar (in seiner Ueber
+      <lb facs="#facs_2_region_1684596359598_3305_tl_17" n="N017" break="no"/>setzungs-Vorrede), <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs> müsse nach einer schlechten Ueber
+      <lb facs="#facs_2_region_1684596359598_3305_tl_18" n="N018" break="no"/>setzung der Original-Novelle gearbeitet haben, welche die
+      <lb facs="#facs_2_region_1684596359598_3305_tl_19" n="N019"/>Haupt-Katastrophe — das Erwachen <rs type="person" ref="#hsl_person_id_3519">Julien</rs>s, während <rs type="person" ref="#hsl_person_id_3712">Romeo</rs>
+      <lb facs="#facs_2_region_1684596359598_3305_tl_20" n="N020"/>noch lebt — vergessen habe.</p>
+    <p>
+      <lb facs="#facs_2_region_1684596359598_3305_tl_21" n="N021"/>Welchʼ reiche musikalische Quelle aus dem <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs>
+      <lb facs="#facs_2_region_1684596359598_3305_tl_22" n="N022" break="no"/>schen Gedichte fließt, bedarf keines Nachweises. Aber auch be
+      <lb facs="#facs_2_region_1684596359598_3305_tl_23" n="N023" break="no"/>denkliche Nachtheile für die Opernwirkung überkommt der Com
+      <lb facs="#facs_2_region_1684596359598_3305_tl_24" n="N024" break="no"/>ponist direct aus dem Original. <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs>ʼs Liebesdrama
       <lb facs="#facs_2_region_1684596359598_3305_tl_25" n="N025"/>ist gewissermaßen Ein großes Duett. In der Oper, welche
       <lb facs="#facs_2_region_1684596359598_3305_tl_26" n="N026"/>alle lyrischen Elemente noch breiter entfalten muß, wird alles
       <lb facs="#facs_2_region_1684596359598_3305_tl_27" n="N027"/>Licht auf die Träger derselben, auf die beiden Liebenden, fallen
       <lb facs="#facs_2_region_1684596359598_3305_tl_28" n="N028"/>und sämmtliche übrigen Personen tief in den Schatten stellen.
-      <lb facs="#facs_2_region_1684596359598_3305_tl_29" n="N029"/>Das Duett „Romeo und Julie“, legt sich in <rs type="person">Gounod</rs>ʼs
+      <lb facs="#facs_2_region_1684596359598_3305_tl_29" n="N029"/>Das Duett „Romeo und Julie“, legt sich in <rs type="person" ref="#hsl_person_id_102">Gounod</rs>ʼs
       <lb facs="#facs_2_region_1684596359598_3305_tl_30" n="N030"/>Oper in 4 einzelne Duette auseinander, welche einen großen
       <lb facs="#facs_2_region_1684596359598_3305_tl_31" n="N031"/>Raum des Ganzen einnehmen. Sie skizziren gleichsam die
-      <lb facs="#facs_2_region_1684596359598_3305_tl_32" n="N032"/>Lebensgeschichte dieser Liebe zwischen <rs type="person">Romeo</rs> und <rs type="person">Julie</rs> von
-      <lb facs="#facs_2_region_1684596359598_3305_tl_33" n="N033"/>deren erstem Keimen bis zur tragischen Vernichtung, und ver¬
-      <lb facs="#facs_2_region_1684596359598_3305_tl_34" n="N034"/>halten sich zu einander in ihrem Fortgange etwa wie die 4
+      <lb facs="#facs_2_region_1684596359598_3305_tl_32" n="N032"/>Lebensgeschichte dieser Liebe zwischen <rs type="person" ref="#hsl_person_id_3034">Romeo</rs> und <rs type="person" ref="#hsl_person_id_3035">Julie</rs> von
+      <lb facs="#facs_2_region_1684596359598_3305_tl_33" n="N033"/>deren erstem Keimen bis zur tragischen Vernichtung, und ver
+      <lb facs="#facs_2_region_1684596359598_3305_tl_34" n="N034" break="no"/>halten sich zu einander in ihrem Fortgange etwa wie die 4
       <lb facs="#facs_2_region_1684596359598_3305_tl_35" n="N035"/>Jahreszeiten oder die 4 Altersstufen. Es sind dies: die erste
       <lb facs="#facs_2_region_1684596359598_3305_tl_36" n="N036"/>Begegnung auf dem Balle, die Balcon-Scene im zweiten Acte,
-      <lb facs="#facs_2_line_1711370627705_202" n="N037"/>das große Liebes- und Abschiedsduett im vierten, endlich das</p>
+      <lb facs="#facs_2_line_1711370627705_202" n="N037"/>das große Liebes- und Abschiedsduett im vierten, endlich das<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684596364570_3308_tl_1" n="N001"/>letzte Wiedersehen in der Gruft. Der erfindungsreichste Com¬
-      <lb facs="#facs_2_region_1684596364570_3308_tl_2" n="N002"/>ponist würde hier der Gefahr der Monotonie und Wiederholung
-      <lb facs="#facs_2_region_1684596364570_3308_tl_3" n="N003"/>kaum entgehen können; <rs type="person">Gounod</rs> hat seine beste Kraft
+            <p prev="true">
+      <lb facs="#facs_2_region_1684596364570_3308_tl_1" n="N001"/>letzte Wiedersehen in der Gruft. Der erfindungsreichste Com
+      <lb facs="#facs_2_region_1684596364570_3308_tl_2" n="N002" break="no"/>ponist würde hier der Gefahr der Monotonie und Wiederholung
+      <lb facs="#facs_2_region_1684596364570_3308_tl_3" n="N003"/>kaum entgehen können; <rs type="person" ref="#hsl_person_id_102">Gounod</rs> hat seine beste Kraft
       <lb facs="#facs_2_region_1684596364570_3308_tl_4" n="N004"/>daran gesetzt, die vier Liebesduette sind die Sterne seiner Oper
-      <lb facs="#facs_2_region_1684596364570_3308_tl_5" n="N005"/>geworden. Diese Sterne fließen aber zu einer Art von Milch¬
-      <lb facs="#facs_2_region_1684596364570_3308_tl_6" n="N006"/>straße zusammen, deren Licht eine blasse, flimmernde Einfärbig¬
-      <lb facs="#facs_2_region_1684596364570_3308_tl_7" n="N007"/>keit über das ganze Bild ergießt. Ein zweiter Nachtheil der
+      <lb facs="#facs_2_region_1684596364570_3308_tl_5" n="N005"/>geworden. Diese Sterne fließen aber zu einer Art von Milch
+      <lb facs="#facs_2_region_1684596364570_3308_tl_6" n="N006" break="no"/>straße zusammen, deren Licht eine blasse, flimmernde Einfärbig
+      <lb facs="#facs_2_region_1684596364570_3308_tl_7" n="N007" break="no"/>keit über das ganze Bild ergießt. Ein zweiter Nachtheil der
       <lb facs="#facs_2_region_1684596364570_3308_tl_8" n="N008"/>Oper liegt darin, daß von allen fünf Acten nur der erste
       <lb facs="#facs_2_region_1684596364570_3308_tl_9" n="N009"/>mit einer vollen Chorwirkung abschließt. Den zweiten Act
-      <lb facs="#facs_2_region_1684596364570_3308_tl_10" n="N010"/>endigt <rs type="person">Romeo</rs> allein, den dritten gleichfalls, obwol der auf der
+      <lb facs="#facs_2_region_1684596364570_3308_tl_10" n="N010"/>endigt <rs type="person" ref="#hsl_person_id_3034">Romeo</rs> allein, den dritten gleichfalls, obwol der auf der
       <lb facs="#facs_2_region_1684596364570_3308_tl_11" n="N011"/>Bühne versammelte Chor der beiden feindlichen Parteien einen
       <lb facs="#facs_2_region_1684596364570_3308_tl_12" n="N012"/>kräftigen, breiteren Abschluß nahe genug legte. Zu Ende des
       <lb facs="#facs_2_region_1684596364570_3308_tl_13" n="N013"/>vierten Actes fällt der Chor nur mit dem kurzen Ausrufe:
       <lb facs="#facs_2_region_1684596364570_3308_tl_14" n="N014"/>„Morte! juste ciel!“ ein, den ganzen fünften Act endlich
       <lb facs="#facs_2_region_1684596364570_3308_tl_15" n="N015"/>spielen nur die beiden Hauptpersonen. Ein Chorabschluß des
-      <lb facs="#facs_2_region_1684596364570_3308_tl_16" n="N016"/>letzten Actes liegt zwar bei <rs type="person">Shakespeare</rs> fertig da: die Versöh¬
-      <lb facs="#facs_2_region_1684596364570_3308_tl_17" n="N017"/>nung der feindlichen Familien an den Leichen ihrer Kinder;
-      <lb facs="#facs_2_region_1684596364570_3308_tl_18" n="N018"/>
-               <rs type="person">Gounod</rs> ließ ihn jedoch unbenützt, um die eigenthümliche und
+      <lb facs="#facs_2_region_1684596364570_3308_tl_16" n="N016"/>letzten Actes liegt zwar bei <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs> fertig da: die Versöh
+      <lb facs="#facs_2_region_1684596364570_3308_tl_17" n="N017" break="no"/>nung der feindlichen Familien an den Leichen ihrer Kinder;
+      <lb facs="#facs_2_region_1684596364570_3308_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_102">Gounod</rs> ließ ihn jedoch unbenützt, um die eigenthümliche und
       <lb facs="#facs_2_region_1684596364570_3308_tl_19" n="N019"/>einheitliche Stimmung seines Duetts nicht ganz zum Schluß
       <lb facs="#facs_2_region_1684596364570_3308_tl_20" n="N020"/>zu stören und überdies einen Act auszudehnen, der eine noch
-      <lb facs="#facs_2_region_1684596364570_3308_tl_21" n="N021"/>längere Dauer schwer vertragen hätte.
-      <lb facs="#facs_2_region_1684596364570_3308_tl_22" n="N022"/>Die Sorgfalt und Gewandtheit, die wir dem <rs type="place">französisch</rs>en
+      <lb facs="#facs_2_region_1684596364570_3308_tl_21" n="N021"/>längere Dauer schwer vertragen hätte.</p>
+   <p>
+      <lb facs="#facs_2_region_1684596364570_3308_tl_22" n="N022"/>Die Sorgfalt und Gewandtheit, die wir dem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
       <lb facs="#facs_2_region_1684596364570_3308_tl_23" n="N023"/>Libretto nachgerühmt, äußert sich nicht blos in dem scenischen
-      <lb facs="#facs_2_region_1684596364570_3308_tl_24" n="N024"/>Bau, sondern noch mehr in der Diction. Die Verse sind flie¬
-      <lb facs="#facs_2_region_1684596364570_3308_tl_25" n="N025"/>ßend, der Ausdruck gewählt ohne Ziererei, viele Stellen sind
-      <lb facs="#facs_2_region_1684596364570_3308_tl_26" n="N026"/>aus <rs type="person">Shakespeare</rs> fast wörtlich sehr geschickt übersetzt. Vergleicht
-      <lb facs="#facs_2_region_1684596364570_3308_tl_27" n="N027"/>man, wie die Herren <hi rendition="#em">
-                  <rs type="person">Barbier</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Carré</rs>
-               </hi> diese Stellen
-      <lb facs="#facs_2_region_1684596364570_3308_tl_28" n="N028"/>aus dem Englischen übertrugen und wie hingegen Herr Theo¬
-      <lb facs="#facs_2_region_1684596364570_3308_tl_29" n="N029"/>dor <hi rendition="#em">
-                  <rs type="person">Gaßmann</rs>
-               </hi> sie <rs type="place">deutsch</rs> wiedergab, so steht die <rs type="place">deutsch</rs>e
-      <lb facs="#facs_2_region_1684596364570_3308_tl_30" n="N030"/>Uebersetzungskunst wahrhaft bettelhaft hinter der <rs type="place">französisch</rs>en
+      <lb facs="#facs_2_region_1684596364570_3308_tl_24" n="N024"/>Bau, sondern noch mehr in der Diction. Die Verse sind flie
+      <lb facs="#facs_2_region_1684596364570_3308_tl_25" n="N025" break="no"/>ßend, der Ausdruck gewählt ohne Ziererei, viele Stellen sind
+      <lb facs="#facs_2_region_1684596364570_3308_tl_26" n="N026"/>aus <rs type="person" ref="#hsl_person_id_287">Shakespeare</rs> fast wörtlich sehr geschickt übersetzt. Vergleicht
+      <lb facs="#facs_2_region_1684596364570_3308_tl_27" n="N027"/>man, wie die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_90">Barbier</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_84">Carré</rs></hi> diese Stellen
+      <lb facs="#facs_2_region_1684596364570_3308_tl_28" n="N028"/>aus dem Englischen übertrugen und wie hingegen Herr Theo
+      <lb facs="#facs_2_region_1684596364570_3308_tl_29" n="N029" break="no"/>dor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5121">Gaßmann</rs></hi> sie <rs type="place" ref="#hsl_place_id_14">deutsch</rs> wiedergab, so steht die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e
+      <lb facs="#facs_2_region_1684596364570_3308_tl_30" n="N030"/>Uebersetzungskunst wahrhaft bettelhaft hinter der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
       <lb facs="#facs_2_region_1684596364570_3308_tl_31" n="N031"/>zurück. Was soll man zu Versen sagen wie folgende: „Nie
-      <lb facs="#facs_2_region_1684596364570_3308_tl_32" n="N032"/>hab' ich dich gereizt oder dir gegrollt — Doch <hi rendition="#em">lernen dich</hi>
-               <lb facs="#facs_2_line_1711370966420_257" n="N033"/>
-               <hi rendition="#em">lieben gewollt</hi>!“ (Im<rs type="place"> Französisch</rs>en: „Je ne t'ai jamais
+      <lb facs="#facs_2_region_1684596364570_3308_tl_32" n="N032"/>habʼ ich dich gereizt oder dir gegrollt — Doch <hi rendition="#em">lernen dich</hi>
+      <lb facs="#facs_2_line_1711370966420_257" n="N033"/><hi rendition="#em">lieben gewollt</hi>!“ (Im <rs type="place" ref="#hsl_place_id_21">Französisch</rs>en: „Je ne tʼai jamais
       <lb facs="#facs_2_line_1711371008691_265" n="N034"/>offensé — Tybalt, des haines le temps est passé!“) Oder
       <lb facs="#facs_2_region_1684596364570_3308_tl_37" n="N035"/>zu folgender Tristan-Isolderei: „Stets dir nahʼ sein, du Engel,
-      <lb facs="#facs_2_region_1684596364570_3308_tl_38" n="N036"/>werd' ich — All mein Dasein ist für dich nur Huldigung —
-      <lb facs="#facs_2_line_1711370678183_211" n="N037"/>Durchstrahlʼ mein Dunkel, du Himmelglanzumlohte!“ (Im </p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684596368521_3311_tl_1" n="N001"/>Originale heißt die Stelle: „Où va mon coeur, où vont
+      <lb facs="#facs_2_region_1684596364570_3308_tl_38" n="N036"/>werdʼ ich — All mein Dasein ist für dich nur Huldigung —
+      <lb facs="#facs_2_line_1711370678183_211" n="N037"/>Durchstrahlʼ mein Dunkel, du Himmelglanzumlohte!“ (Im <space quantity="1" unit="char"/></p>
+   <cb n="6"/>
+   <p prev="true">
+      <lb facs="#facs_2_region_1684596368521_3311_tl_1" n="N001"/>Originale heißt die Stelle: „Où va mon coeur, où vont
       <lb facs="#facs_2_region_1684596368521_3311_tl_2" n="N002"/>mes yeux — Dispose en reine de ma vie — Verse
       <lb facs="#facs_2_region_1684596368521_3311_tl_3" n="N003"/>mon âme inassouvie. — Toute la lumière des cieux!“
-      <lb facs="#facs_2_region_1684596368521_3311_tl_4" n="N004"/>Der verwundete <rs type="person">Mercutio</rs> ruft bei <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> aus: „Soutenez-
-      <lb facs="#facs_2_region_1684596368521_3311_tl_5" n="N005"/>moi!“ Herr <hi rendition="#em">
-                  <rs type="person">Gaßmann</rs>
-               </hi> glaubt aber einen Fetzen aus <rs type="person" continued="true">Shake¬</rs>
-               <lb facs="#facs_2_line_1711371212408_278" n="N006"/>
-               <rs type="person" continued="true">speare</rs> anbringen müssen und übersetzt: „Ich bin
-      <lb facs="#facs_2_line_1711371223336_282" n="N007"/>ein stiller Mann“ — was hier geradezu einen komi¬
-      <lb facs="#facs_2_region_1684596368521_3311_tl_10" n="N008"/>schen Effect macht. Wir haben diese Proben auf
+      <lb facs="#facs_2_region_1684596368521_3311_tl_4" n="N004"/>Der verwundete <rs type="person" ref="#hsl_person_id_3951">Mercutio</rs> ruft bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi> aus: „Soutenez-
+      <lb facs="#facs_2_region_1684596368521_3311_tl_5" n="N005"/>moi!“ Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5121">Gaßmann</rs></hi> glaubt aber einen Fetzen aus <rs type="person" ref="#hsl_person_id_287">Shake
+      <lb facs="#facs_2_line_1711371212408_278" n="N006" break="no"/>speare</rs> anbringen müssen und übersetzt: „Ich bin
+      <lb facs="#facs_2_line_1711371223336_282" n="N007"/>ein stiller Mann“ — was hier geradezu einen komi
+      <lb facs="#facs_2_region_1684596368521_3311_tl_10" n="N008" break="no"/>schen Effect macht. Wir haben diese Proben auf
       <lb facs="#facs_2_region_1684596368521_3311_tl_11" n="N009"/>Gerathewohl herausgestochen, um (wie wir leider schon so
-      <lb facs="#facs_2_region_1684596368521_3311_tl_12" n="N010"/>oft gethan) auf die Stümperei der <rs type="place">deutsch</rs>en Text-Ueber¬
-      <lb facs="#facs_2_region_1684596368521_3311_tl_13" n="N011"/>setzungen aufmerksam zu machen. Die Deutschen sind aner¬
-      <lb facs="#facs_2_region_1684596368521_3311_tl_14" n="N012"/>kannt die ersten Uebersetzungskünstler, wo es sich um große,
-      <lb facs="#facs_2_region_1684596368521_3311_tl_15" n="N013"/>ernste Aufgaben handelt; was den kleinen Markt, den Tages¬
-      <lb facs="#facs_2_region_1684596368521_3311_tl_16" n="N014"/>bedarf, vor Allem aber die Oper betrifft, wird in der ganzen
+      <lb facs="#facs_2_region_1684596368521_3311_tl_12" n="N010"/>oft gethan) auf die Stümperei der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Text-Ueber
+      <lb facs="#facs_2_region_1684596368521_3311_tl_13" n="N011" break="no"/>setzungen aufmerksam zu machen. Die Deutschen sind aner
+      <lb facs="#facs_2_region_1684596368521_3311_tl_14" n="N012" break="no"/>kannt die ersten Uebersetzungskünstler, wo es sich um große,
+      <lb facs="#facs_2_region_1684596368521_3311_tl_15" n="N013"/>ernste Aufgaben handelt; was den kleinen Markt, den Tages
+      <lb facs="#facs_2_region_1684596368521_3311_tl_16" n="N014" break="no"/>bedarf, vor Allem aber die Oper betrifft, wird in der ganzen
       <lb facs="#facs_2_region_1684596368521_3311_tl_17" n="N015"/>Welt nicht so schlecht übersetzt, als bei uns. Wie viel kann
       <lb facs="#facs_2_region_1684596368521_3311_tl_18" n="N016"/>man hierin von den Franzosen lernen! Wenn der Franzose
-      <lb facs="#facs_2_region_1684596368521_3311_tl_19" n="N017"/>aus dem <rs type="place">Deutsch</rs>en oder <rs type="place">Englisch</rs>en übersetzt, so wird er manch¬
-      <lb facs="#facs_2_region_1684596368521_3311_tl_20" n="N018"/>mal Ausdrücke und Satzverbindungen ändern, vielleicht auch
+      <lb facs="#facs_2_region_1684596368521_3311_tl_19" n="N017"/>aus dem <rs type="place" ref="#hsl_place_id_14">Deutsch</rs>en oder <rs type="place" ref="#hsl_place_id_17">Englisch</rs>en übersetzt, so wird er manch
+      <lb facs="#facs_2_region_1684596368521_3311_tl_20" n="N018" break="no"/>mal Ausdrücke und Satzverbindungen ändern, vielleicht auch
       <lb facs="#facs_2_region_1684596368521_3311_tl_21" n="N019"/>mißverstehen, aber was er niederschreibt, wird klar, fließend und
-      <lb facs="#facs_2_region_1684596368521_3311_tl_22" n="N020"/>gut <rs type="place">Französisch</rs> sein. Er wird lieber von dem Wortlaute des Ori¬
-      <lb facs="#facs_2_region_1684596368521_3311_tl_23" n="N021"/>ginals abweichen, ehe er seine eigene Sprache von oben und von
-      <lb facs="#facs_2_region_1684596368521_3311_tl_24" n="N022"/>unten rädert. Dafür fehlt den <rs type="place">deutsch</rs>en Alltagsübersetzern alles
+      <lb facs="#facs_2_region_1684596368521_3311_tl_22" n="N020"/>gut <rs type="place" ref="#hsl_place_id_21">Französisch</rs> sein. Er wird lieber von dem Wortlaute des Ori
+      <lb facs="#facs_2_region_1684596368521_3311_tl_23" n="N021" break="no"/>ginals abweichen, ehe er seine eigene Sprache von oben und von
+      <lb facs="#facs_2_region_1684596368521_3311_tl_24" n="N022"/>unten rädert. Dafür fehlt den <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Alltagsübersetzern alles
       <lb facs="#facs_2_region_1684596368521_3311_tl_25" n="N023"/>feinere Gefühl, jedes Wort und jede Wendung wird sklavisch
       <lb facs="#facs_2_region_1684596368521_3311_tl_26" n="N024"/>wiedergegeben; wie der Leser sich dann aus dem barbarischen
       <lb facs="#facs_2_region_1684596368521_3311_tl_27" n="N025"/>Kauderwälsch zurechtfinde, das ist seine Sache. Gereimte
       <lb facs="#facs_2_region_1684596368521_3311_tl_28" n="N026"/>Textbücher zu einer gegebenen Musik zu übersetzen, ist keine
-      <lb facs="#facs_2_region_1684596368521_3311_tl_29" n="N027"/>leichte Aufgabe; man gebe sie daher nur Leuten, welche <rs type="place">Deutsch</rs>
-               <lb facs="#facs_2_region_1684596368521_3311_tl_30" n="N028"/>können und Musik verstehen. Nachdem das Eigenthumsrecht
-      <lb facs="#facs_2_region_1684596368521_3311_tl_31" n="N029"/>der Verleger von <rs type="person">Gounod</rs>'s „<rs type="bibl">Romeo</rs>“ sich auch auf die Li¬
-      <lb facs="#facs_2_region_1684596368521_3311_tl_32" n="N030"/>brettos erstreckt, durften im Hofoperntheater keine anderen
-      <lb facs="#facs_2_region_1684596368521_3311_tl_33" n="N031"/>Textbücher verkauft werden, als die autorisirten des <rs type="place">Darm¬</rs>
-               <lb facs="#facs_2_region_1684596368521_3311_tl_34" n="N032"/>
-               <rs type="place">städt</rs>er Uebersetzers. Glücklicherweise ging die Direction nicht
+      <lb facs="#facs_2_region_1684596368521_3311_tl_29" n="N027"/>leichte Aufgabe; man gebe sie daher nur Leuten, welche <rs type="place" ref="#hsl_place_id_14">Deutsch</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684596368521_3311_tl_30" n="N028"/>können und Musik verstehen. Nachdem das Eigenthumsrecht
+      <lb facs="#facs_2_region_1684596368521_3311_tl_31" n="N029"/>der Verleger von <rs type="person" ref="#hsl_person_id_102">Gounod</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_56">Romeo</rs>“ sich auch auf die Li
+      <lb facs="#facs_2_region_1684596368521_3311_tl_32" n="N030" break="no"/>brettos erstreckt, durften im Hofoperntheater keine anderen
+      <lb facs="#facs_2_region_1684596368521_3311_tl_33" n="N031"/>Textbücher verkauft werden, als die autorisirten des <rs type="place" ref="#hsl_place_id_13">Darm
+      <lb facs="#facs_2_region_1684596368521_3311_tl_34" n="N032" break="no"/>städt</rs>er Uebersetzers. Glücklicherweise ging die Direction nicht
       <lb facs="#facs_2_region_1684596368521_3311_tl_35" n="N033"/>gleichgiltig an diesem Sprach-Attentate vorüber und übersetzte
-      <lb facs="#facs_2_region_1684596368521_3311_tl_36" n="N034"/>für die Aufführung die schlimmsten Stellen aus dem <hi rendition="#em">
-                  <rs type="person" continued="true">Gaß¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684596368521_3311_tl_37" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi>'schen ins <rs type="person">Deutsch</rs>e, so daß wir in „<rs type="bibl">Romeo und Julie</rs>“
+      <lb facs="#facs_2_region_1684596368521_3311_tl_36" n="N034"/>für die Aufführung die schlimmsten Stellen aus dem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5121">Gaß
+      <lb facs="#facs_2_region_1684596368521_3311_tl_37" n="N035" break="no"/>mann</rs></hi>ʼschen ins <rs type="person" ref="#hsl_place_id_14">Deutsch</rs>e, so daß wir in „<rs type="bibl" ref="#hsl_work_id_56">Romeo und Julie</rs>“
       <lb facs="#facs_2_region_1684596368521_3311_tl_38" n="N036"/>doch wenigstens bessere Verse zu hören bekommen, als zu lesen
       <lb facs="#facs_2_line_1711370678183_210" n="N037"/>zu kaufen.</p>
          </div>
