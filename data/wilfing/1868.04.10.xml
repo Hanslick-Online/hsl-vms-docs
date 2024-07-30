@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="10. April 1868">10. April 1868</date>
+                        <date when="1868-04-10">10. April 1868</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -107,8 +107,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+         <change who="kbamer ampfiel" when="2024-04-28">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2024-07-30" who="kbamer">Formatierung. Alle Werke, Daten, Orte, Personen ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -874,74 +875,50 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
             <p>
-               <lb facs="#facs_1_region_1684595635924_3024_tl_1" n="N001"/>Concerte.
+      <lb facs="#facs_1_region_1684595635924_3024_tl_1" n="N001"/>Concerte.
       <lb facs="#facs_1_region_1684595635924_3024_tl_2" n="N002"/>Ed. H. „Vom Eise befreit sind Strom und Bäche durch
       <lb facs="#facs_1_region_1684595635924_3024_tl_3" n="N003"/>des Frühlings holden, belebenden Blick“ — wem klingen sie
-      <lb facs="#facs_1_region_1684595635924_3024_tl_4" n="N004"/>nicht jetzt im Ohr, die Worte <rs type="person">Faust</rs>ʼs, aus welchen die ganze
+      <lb facs="#facs_1_region_1684595635924_3024_tl_4" n="N004"/>nicht jetzt im Ohr, die Worte <rs type="person" ref="#hsl_person_id_709">Faust</rs>ʼs, aus welchen die ganze
       <lb facs="#facs_1_region_1684595635924_3024_tl_5" n="N005"/>Freudigkeit der Osterstimmung quillt, wie Sonnenwärme und
-      <lb facs="#facs_1_region_1684595635924_3024_tl_6" n="N006"/>junges Grün? An sie darf nicht denken, wer <hi rendition="#em">
-                  <rs type="person">Schubert</rs>ʼs</hi>
-               <lb facs="#facs_1_region_1684595635924_3024_tl_7" n="N007"/>„<rs type="bibl">Oster-Cantate</rs>“ („<rs type="bibl">Lazarus</rs>“) hören geht. „Charfreitags-Cantate“
+                  <lb facs="#facs_1_region_1684595635924_3024_tl_6" n="N006"/>junges Grün? An sie darf nicht denken, wer <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684595635924_3024_tl_7" n="N007"/>„<rs type="bibl" ref="#hsl_work_id_1293">Oster-Cantate</rs>“ („<rs type="bibl" ref="#hsl_work_id_1293">Lazarus</rs>“) hören geht. „Charfreitags-Cantate“
       <lb facs="#facs_1_region_1684595635924_3024_tl_8" n="N008"/>wäre die treffendere Bezeichnung für ein geistliches Drama,
       <lb facs="#facs_1_region_1684595635924_3024_tl_9" n="N009"/>dessen erster Theil am Sterbebette, dessen zweiter auf dem
-      <lb facs="#facs_1_region_1684595635924_3024_tl_10" n="N010"/>Begräbnißplatze spielt. Den dritten Theil des <hi rendition="#em">
-                  <rs type="person">Riemayer</rs>
-               </hi>¬
-      <lb facs="#facs_1_region_1684595635924_3024_tl_11" n="N011"/>schen Gedichtes, welcher mit der Erweckung des <rs type="person">Lazarus</rs> tir¬
-      <lb facs="#facs_1_region_1684595635924_3024_tl_12" n="N012"/>umphirend abschließt, hat <hi rendition="#em">
-                  <rs type="person">Schubert</rs>
-               </hi>, den bisherigen Nachfor¬
-      <lb facs="#facs_1_region_1684595635924_3024_tl_13" n="N013"/>schungen zufolge, nicht componirt. Ein schwerer Verlust, denn
-      <lb facs="#facs_1_region_1684595635924_3024_tl_14" n="N014"/>
-               <rs type="person">Schubert</rs>'s Musik, dem Leben befreundeter als dem Tode,
-      <lb facs="#facs_1_region_1684595635924_3024_tl_15" n="N015"/>hätte, ähnlich dem christlichen Mythus, welcher in der Aufer¬
-      <lb facs="#facs_1_region_1684595635924_3024_tl_16" n="N016"/>stehung des todten <rs type="person">Lazarus</rs> die Auferstehung Aller am jüng¬
-      <lb facs="#facs_1_region_1684595635924_3024_tl_17" n="N017"/>sten Tage vorbildete, in der Wiederbelebung dieses Einzelnen
-      <lb facs="#facs_1_region_1684595635924_3024_tl_18" n="N018"/>das Leben selbst und seine Herrlichkeit gefeiert. Das „<rs type="bibl">Lazarus</rs>“-
-      <lb facs="#facs_1_region_1684595635924_3024_tl_19" n="N019"/>Fragment, im Jahre <date month="0" day="0" year="0">1863</date> durch das Verdienst <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>ʼs</hi>
-               <lb facs="#facs_1_region_1684595635924_3024_tl_20" n="N020"/>zum erstenmale zu Gehör gebracht, erlebte nun seine zweite
-      <lb facs="#facs_1_region_1684595635924_3024_tl_21" n="N021"/>Aufführung am Chardienstag in dem „Außerordentlichen Con¬
-      <lb facs="#facs_1_region_1684595635924_3024_tl_22" n="N022"/>certe der Gesellschaft der Musikfreunde“. Diese reicher ausge¬
-      <lb facs="#facs_1_region_1684595635924_3024_tl_23" n="N023"/>stattete und seiner ausgearbeitete Wiederholung ließ uns die
+      <lb facs="#facs_1_region_1684595635924_3024_tl_10" n="N010"/>Begräbnißplatze spielt. Den dritten Theil des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2027">Niemayer</rs></hi>
+      <lb facs="#facs_1_region_1684595635924_3024_tl_11" n="N011" break="no"/>schen Gedichtes, welcher mit der Erweckung des <rs type="person" ref="#hsl_person_id_2862">Lazarus</rs> tir
+      <lb facs="#facs_1_region_1684595635924_3024_tl_12" n="N012" break="no"/>umphirend abschließt, hat <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs></hi>, den bisherigen Nachfor
+      <lb facs="#facs_1_region_1684595635924_3024_tl_13" n="N013" break="no"/>schungen zufolge, nicht componirt. Ein schwerer Verlust, denn
+      <lb facs="#facs_1_region_1684595635924_3024_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>ʼs Musik, dem Leben befreundeter als dem Tode,
+      <lb facs="#facs_1_region_1684595635924_3024_tl_15" n="N015"/>hätte, ähnlich dem christlichen Mythus, welcher in der Aufer
+      <lb facs="#facs_1_region_1684595635924_3024_tl_16" n="N016" break="no"/>stehung des todten <rs type="person" ref="#hsl_person_id_2862">Lazarus</rs> die Auferstehung Aller am jüng
+      <lb facs="#facs_1_region_1684595635924_3024_tl_17" n="N017" break="no"/>sten Tage vorbildete, in der Wiederbelebung dieses Einzelnen
+      <lb facs="#facs_1_region_1684595635924_3024_tl_18" n="N018"/>das Leben selbst und seine Herrlichkeit gefeiert. Das „<rs type="bibl" ref="#hsl_work_id_1293">Lazarus</rs>“-
+                  <lb facs="#facs_1_region_1684595635924_3024_tl_19" n="N019"/>Fragment, im Jahre <date when="1863">1863</date> durch das Verdienst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684595635924_3024_tl_20" n="N020"/>zum erstenmale zu Gehör gebracht, erlebte nun seine zweite
+      <lb facs="#facs_1_region_1684595635924_3024_tl_21" n="N021"/>Aufführung am Chardienstag in dem „Außerordentlichen Con
+      <lb facs="#facs_1_region_1684595635924_3024_tl_22" n="N022" break="no"/>certe der Gesellschaft der Musikfreunde“. Diese reicher ausge
+      <lb facs="#facs_1_region_1684595635924_3024_tl_23" n="N023" break="no"/>stattete und seiner ausgearbeitete Wiederholung ließ uns die
       <lb facs="#facs_1_region_1684595635924_3024_tl_24" n="N024"/>hohen Schönheiten der Tondichtung noch viel tiefer empfinden.
-      <lb facs="#facs_1_region_1684595635924_3024_tl_25" n="N025"/>„<rs type="bibl">Lazarus</rs>“ besitzt die ganze Innigkeit der Empfindung, den
+      <lb facs="#facs_1_region_1684595635924_3024_tl_25" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_1293">Lazarus</rs>“ besitzt die ganze Innigkeit der Empfindung, den
       <lb facs="#facs_1_region_1684595635924_3024_tl_26" n="N026"/>melodischen Reichthum und die dramatische Lebendigkeit, deren
-      <lb facs="#facs_1_region_1684595635924_3024_tl_27" n="N027"/>Vereinigung den Genius <hi rendition="#em">
-                  <rs type="person">Schubert</rs>ʼs</hi> charakterisirt. Wie
+      <lb facs="#facs_1_region_1684595635924_3024_tl_27" n="N027"/>Vereinigung den Genius <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs>ʼs</hi> charakterisirt. Wie
       <lb facs="#facs_1_region_1684595635924_3024_tl_28" n="N028"/>rührend und schönheitsverklärt schwebt die erste Arie der
-      <lb facs="#facs_1_region_1684595635924_3024_tl_29" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person">Maria</rs>
-               </hi> empor, wie überirdisch klingt die Erzählung
-      <lb facs="#facs_1_region_1684595635924_3024_tl_30" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Jemina</rs>ʼs</hi> von ihrer Auferweckung, wie leidenschaftlich-dra¬
-      <lb facs="#facs_1_region_1684595635924_3024_tl_31" n="N031"/>matisch die Arie des verzweifelnden <hi rendition="#em">
-                  <rs type="person">Simon</rs>
-               </hi>! Gesänge wie diese
-      <lb facs="#facs_1_region_1684595635924_3024_tl_32" n="N032"/>gehören zu dem Schönsten, was <rs type="person">Schubert</rs> geschaffen hat,
+      <lb facs="#facs_1_region_1684595635924_3024_tl_29" n="N029"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5202">Maria</rs></hi> empor, wie überirdisch klingt die Erzählung
+      <lb facs="#facs_1_region_1684595635924_3024_tl_30" n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5203">Jemina</rs>ʼs</hi> von ihrer Auferweckung, wie leidenschaftlich-dra
+      <lb facs="#facs_1_region_1684595635924_3024_tl_31" n="N031" break="no"/>matisch die Arie des verzweifelnden <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5204">Simon</rs></hi>! Gesänge wie diese
+      <lb facs="#facs_1_region_1684595635924_3024_tl_32" n="N032"/>gehören zu dem Schönsten, was <rs type="person" ref="#hsl_person_id_279">Schubert</rs> geschaffen hat,
       <lb facs="#facs_1_region_1684595635924_3024_tl_33" n="N033"/>und zu dem Ergreifendsten, was die Musik überhaupt besitzt.
-      <lb facs="#facs_1_region_1684595635924_3024_tl_34" n="N034"/>Es gehört die ganze innere Freudigkeit und Klarheit <hi rendition="#em">
-                  <rs type="person" continued="true">Schu¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684595635924_3024_tl_35" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bert</rs>
-               </hi>ʼscher Musik dazu, um dem Verwesungsgeruch, der diese
+      <lb facs="#facs_1_region_1684595635924_3024_tl_34" n="N034"/>Es gehört die ganze innere Freudigkeit und Klarheit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schu
+      <lb facs="#facs_1_region_1684595635924_3024_tl_35" n="N035" break="no"/>bert</rs></hi>ʼscher Musik dazu, um dem Verwesungsgeruch, der diese
       <lb facs="#facs_1_region_1684595635924_3024_tl_36" n="N036"/>Dichtung durchzieht, fast alles Beklemmende zu nehmen. „Fast“,
-      <lb facs="#facs_1_line_1711710623234_577" n="N037"/>denn gänzlich vermochte selbst <hi rendition="#em">
-                  <rs type="person">Schubert</rs>'s</hi> Genius die un¬</p>
+      <lb facs="#facs_1_line_1711710623234_577" n="N037"/>denn gänzlich vermochte selbst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs>ʼs</hi> Genius die un</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684595639680_3027_tl_1" n="N001"/>heilvolle Einförmigkeit des Textes nicht zu besiegen. Der Ton¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_2" n="N002"/>dichter hätte zu seiner melodiösen Blüthenfülle auch noch
-      <lb facs="#facs_1_region_1684595639680_3027_tl_3" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s</hi> einschneidende Kraft und <hi rendition="#em">
-                  <rs type="person">Bach</rs>'s</hi> contrapunk¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_4" n="N004"/>tische Meisterschaft besitzen müssen, um der thränenseligen Mo¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_5" n="N005"/>notonie dieses Gegenstandes völlig Herr zu werden. Das
+            <p prev="true">
+      <lb facs="#facs_1_region_1684595639680_3027_tl_1" n="N001" break="no"/>heilvolle Einförmigkeit des Textes nicht zu besiegen. Der Ton
+      <lb facs="#facs_1_region_1684595639680_3027_tl_2" n="N002" break="no"/>dichter hätte zu seiner melodiösen Blüthenfülle auch noch
+      <lb facs="#facs_1_region_1684595639680_3027_tl_3" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs</hi> einschneidende Kraft und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_18">Bach</rs>ʼs</hi> contrapunk
+      <lb facs="#facs_1_region_1684595639680_3027_tl_4" n="N004" break="no"/>tische Meisterschaft besitzen müssen, um der thränenseligen Mo
+      <lb facs="#facs_1_region_1684595639680_3027_tl_5" n="N005" break="no"/>notonie dieses Gegenstandes völlig Herr zu werden. Das
       <lb facs="#facs_1_region_1684595639680_3027_tl_6" n="N006"/>ununterbrochene Festhalten derselben Stimmung, musikalisch
       <lb facs="#facs_1_region_1684595639680_3027_tl_7" n="N007"/>potenzirt durch das stete Vorherrschen der langsamen Tempi
       <lb facs="#facs_1_region_1684595639680_3027_tl_8" n="N008"/>im 4/4 Tact, die langen ariosen Recitative, das Fehlen der
@@ -949,297 +926,201 @@
       <lb facs="#facs_1_region_1684595639680_3027_tl_10" n="N010"/>unleugbar erschlaffend. Am empfindlichsten vermißt man das
       <lb facs="#facs_1_region_1684595639680_3027_tl_11" n="N011"/>Gegengewicht polyphon gearbeiteter, ja auch nur reich figurirter
       <lb facs="#facs_1_region_1684595639680_3027_tl_12" n="N012"/>Sätze und kräftiger Chöre. Der Chor ist nur am Schlusse
-      <lb facs="#facs_1_region_1684595639680_3027_tl_13" n="N013"/>jeder Abtheilung, beidemal als langsamer Klagegesang, verwen¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_14" n="N014"/>det. Diese Eigenheiten geben dem Ganzen einen fast lieder¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_15" n="N015"/>spielartigen Charakter, der von dem strengeren Begriff des
+      <lb facs="#facs_1_region_1684595639680_3027_tl_13" n="N013"/>jeder Abtheilung, beidemal als langsamer Klagegesang, verwen
+      <lb facs="#facs_1_region_1684595639680_3027_tl_14" n="N014" break="no"/>det. Diese Eigenheiten geben dem Ganzen einen fast lieder
+      <lb facs="#facs_1_region_1684595639680_3027_tl_15" n="N015" break="no"/>spielartigen Charakter, der von dem strengeren Begriff des
       <lb facs="#facs_1_region_1684595639680_3027_tl_16" n="N016"/>Oratorien-Styls (auch abgesehen von dem gänzlichen Abgang
       <lb facs="#facs_1_region_1684595639680_3027_tl_17" n="N017"/>des <hi rendition="#em">epischen</hi> Elementes) seitab steht. Zwischen ergreifend
-      <lb facs="#facs_1_region_1684595639680_3027_tl_18" n="N018"/>schönen Nummern dehnen sich im „<rs type="bibl">Lazarus</rs>“ bedeutende
+      <lb facs="#facs_1_region_1684595639680_3027_tl_18" n="N018"/>schönen Nummern dehnen sich im „<rs type="bibl" ref="#hsl_work_id_1293">Lazarus</rs>“ bedeutende
       <lb facs="#facs_1_region_1684595639680_3027_tl_19" n="N019"/>Strecken, die nicht freizusprechen sind von rhythmischer und
       <lb facs="#facs_1_region_1684595639680_3027_tl_20" n="N020"/>harmonischer Monotonie, von weichlicher, hie und da auch an
       <lb facs="#facs_1_region_1684595639680_3027_tl_21" n="N021"/>ältere Opern-Componisten erinnernder Empfindsamkeit. An
       <lb facs="#facs_1_region_1684595639680_3027_tl_22" n="N022"/>jenen Wunderblüthen des musikalischen Todtenkranzes wird sich
       <lb facs="#facs_1_region_1684595639680_3027_tl_23" n="N023"/>der Hörer jederzeit erquicken; er wird staunen, bis zu welchem
-      <lb facs="#facs_1_region_1684595639680_3027_tl_24" n="N024"/>Grade <rs type="person">Schubert</rs> es vermocht habe, Leben in dies Sterben zu
+      <lb facs="#facs_1_region_1684595639680_3027_tl_24" n="N024"/>Grade <rs type="person" ref="#hsl_person_id_279">Schubert</rs> es vermocht habe, Leben in dies Sterben zu
       <lb facs="#facs_1_region_1684595639680_3027_tl_25" n="N025"/>bringen. Aber der Total-Eindruck des ganzen Werkes wird
       <lb facs="#facs_1_region_1684595639680_3027_tl_26" n="N026"/>niemals ein ungemischter, wahrhaft befreiender sein, so lange
       <lb facs="#facs_1_region_1684595639680_3027_tl_27" n="N027"/>nicht eine kundige und vorurtheilsfreie Hand daran zu kürzen
-      <lb facs="#facs_1_region_1684595639680_3027_tl_28" n="N028"/>sich entschließt.
-      <lb facs="#facs_1_region_1684595639680_3027_tl_29" n="N029"/>Was wir zu der schmerzerfüllten Schönheit des „<rs type="bibl">La¬</rs>
-               <lb facs="#facs_1_region_1684595639680_3027_tl_30" n="N030"/>
-               <rs type="bibl">zarus</rs>“ noch hinzuwünschen mochten, das brachte am selben
-      <lb facs="#facs_1_region_1684595639680_3027_tl_31" n="N031"/>Abende in reichem Maße das „<rs type="bibl">Kyrie</rs>“ aus <hi rendition="#em">
-                  <rs type="person">Bach</rs>'s</hi>
-               <rs type="bibl">H-moll-</rs>
-               <lb facs="#facs_1_region_1684595639680_3027_tl_32" n="N032"/>
-               <rs type="bibl">Messe</rs>: mannhafte Energie in der Klage und jene Gewalt der
-      <lb facs="#facs_1_region_1684595639680_3027_tl_33" n="N033"/>Polyphonie, welche das musikalische Denken hinreichend be¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_34" n="N034"/>schäftigt, um die zersetzende Macht wehmüthigen Empfindens zu
-      <lb facs="#facs_1_region_1684595639680_3027_tl_35" n="N035"/>paralysiren. Am selben Tage des vorigen Jahres hatte Hof¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_36" n="N036"/>capellmeister <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> die „<rs type="bibl">Hohe Messe</rs>“ von <rs type="person">Bach</rs> mit Aus¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_37" n="N037"/>nahme des „<rs type="bibl">Kyrie</rs>“ und „<rs type="bibl">Gloria</rs>“ aufgeführt. Aeußere Hin¬
-      <lb facs="#facs_1_region_1684595639680_3027_tl_38" n="N038"/>dernisse vereitelten diesmal die Aufführung des „<rs type="bibl">Gloria</rs>“,
-      <lb facs="#facs_1_line_1711710792351_621" n="N039"/>des einzigen Satzes, der uns somit zur vollständigen Bekannt¬
-      <lb facs="#facs_1_line_1711710636421_593" n="N040"/>schaft dieser großen Tonschöpfung noch fehlt. Aus diesem </p>
+      <lb facs="#facs_1_region_1684595639680_3027_tl_28" n="N028"/>sich entschließt.</p>
+   <p><lb facs="#facs_1_region_1684595639680_3027_tl_29" n="N029"/>Was wir zu der schmerzerfüllten Schönheit des „<rs type="bibl" ref="#hsl_work_id_1293">La
+      <lb facs="#facs_1_region_1684595639680_3027_tl_30" n="N030" break="no"/>zarus</rs>“ noch hinzuwünschen mochten, das brachte am selben
+      <lb facs="#facs_1_region_1684595639680_3027_tl_31" n="N031"/>Abende in reichem Maße das „<rs type="bibl" ref="#hsl_work_id_3521">Kyrie</rs>“ aus <hi rendition="#em"><rs type="person" ref="#hsl_person_id_18">Bach</rs>ʼs</hi><space quantity="1" unit="char"/><rs type="bibl" ref="#hsl_work_id_723">H-moll-
+      <lb facs="#facs_1_region_1684595639680_3027_tl_32" n="N032" break="no"/>Messe</rs>: mannhafte Energie in der Klage und jene Gewalt der
+      <lb facs="#facs_1_region_1684595639680_3027_tl_33" n="N033"/>Polyphonie, welche das musikalische Denken hinreichend be
+      <lb facs="#facs_1_region_1684595639680_3027_tl_34" n="N034" break="no"/>schäftigt, um die zersetzende Macht wehmüthigen Empfindens zu
+      <lb facs="#facs_1_region_1684595639680_3027_tl_35" n="N035"/>paralysiren. Am selben Tage des vorigen Jahres hatte Hof
+      <lb facs="#facs_1_region_1684595639680_3027_tl_36" n="N036" break="no"/>capellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> die „<rs type="bibl" ref="#hsl_work_id_723">Hohe Messe</rs>“ von <rs type="person" ref="#hsl_person_id_18">Bach</rs> mit Aus
+      <lb facs="#facs_1_region_1684595639680_3027_tl_37" n="N037" break="no"/>nahme des „<rs type="bibl" ref="#hsl_work_id_3521">Kyrie</rs>“ und „<rs type="bibl" ref="#hsl_work_id_3520">Gloria</rs>“ aufgeführt. Aeußere Hin
+      <lb facs="#facs_1_region_1684595639680_3027_tl_38" n="N038" break="no"/>dernisse vereitelten diesmal die Aufführung des „<rs type="bibl" ref="#hsl_work_id_3520">Gloria</rs>“,
+      <lb facs="#facs_1_line_1711710792351_621" n="N039"/>des einzigen Satzes, der uns somit zur vollständigen Bekannt
+         <lb facs="#facs_1_line_1711710636421_593" n="N040" break="no"/>schaft dieser großen Tonschöpfung noch fehlt. Aus diesem<space quantity="1" unit="char"/></p>
             <cb n="3"/>
             <p>
-               <lb facs="#facs_1_line_1714147242578_476" n="N001"/>Grunde und wegen des imposanten Gegensatzes, welchen gerade
-      <lb facs="#facs_1_region_1684595643362_3030_tl_2" n="N002"/>der trompetenschmetternde Triumph des „<rs type="bibl">Gloria</rs>“ gegen das
-      <lb facs="#facs_1_region_1684595643362_3030_tl_3" n="N003"/>düstere „<rs type="bibl">Kyrie</rs>“ bildet, bedauern wir den Ausfall dieses (aller¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_4" n="N004"/>dings sehr ausgedehnten) Meßtheiles im letzten Concerte.
-      <lb facs="#facs_1_region_1684595643362_3030_tl_5" n="N005"/>„<rs type="bibl">Kyrie</rs>“ und „<rs type="bibl">Gloria</rs>“ der <rs type="bibl">Bach'schen Messe</rs> gehören überdies
+      <lb facs="#facs_1_line_1714147242578_476" n="N001"/>Grunde und wegen des imposanten Gegensatzes, welchen gerade
+      <lb facs="#facs_1_region_1684595643362_3030_tl_2" n="N002"/>der trompetenschmetternde Triumph des „<rs type="bibl" ref="#hsl_work_id_3520">Gloria</rs>“ gegen das
+      <lb facs="#facs_1_region_1684595643362_3030_tl_3" n="N003"/>düstere „<rs type="bibl" ref="#hsl_work_id_3521">Kyrie</rs>“ bildet, bedauern wir den Ausfall dieses (aller
+      <lb facs="#facs_1_region_1684595643362_3030_tl_4" n="N004" break="no"/>dings sehr ausgedehnten) Meßtheiles im letzten Concerte.
+      <lb facs="#facs_1_region_1684595643362_3030_tl_5" n="N005"/>„<rs type="bibl" ref="#hsl_work_id_3521">Kyrie</rs>“ und „<rs type="bibl" ref="#hsl_work_id_3520">Gloria</rs>“ der <rs type="bibl" ref="#hsl_work_id_723">Bachʼschen Messe</rs> gehören überdies
       <lb facs="#facs_1_region_1684595643362_3030_tl_6" n="N006"/>auch noch historisch zusammen, indem diese beiden (im Jahre
-      <lb facs="#facs_1_region_1684595643362_3030_tl_7" n="N007"/>
-               <date month="0" day="0" year="0">1733</date> von <rs type="person">Bach</rs> an <rs type="person">Friedrich August II. von Sachsen</rs> selbst¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_8" n="N008"/>ständig überschickten) Sätze den ursprünglichen Kern des gan¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_9" n="N009"/>zen Werkes bilden, dem der Autor erst später und allmälig
-      <lb facs="#facs_1_region_1684595643362_3030_tl_10" n="N010"/>die anderen Theile, mit Benützung älterer Cantaten, hinzu¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_11" n="N011"/>fügte. Was Sebastian <rs type="person">Bach</rs>, den eifrigen, strengen Prote¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_12" n="N012"/>stanten, zur Composition der ganzen katholischen Messe veran¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_13" n="N013"/>laßt haben mag, hat man sich oft gefragt. Die einfachste Er¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_14" n="N014"/>klärung dünkt uns, daß <rs type="person">Bach</rs> von der Größe und dem Reich¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_15" n="N015"/>thume des lateinischen Meßtextes, welcher in kurzen Sätzen
+      <lb facs="#facs_1_region_1684595643362_3030_tl_7" n="N007"/><date when="1733">1733</date> von <rs type="person" ref="#hsl_person_id_18">Bach</rs> an <rs type="person" ref="#hsl_person_id_4387">Friedrich August II. von Sachsen</rs> selbst
+      <lb facs="#facs_1_region_1684595643362_3030_tl_8" n="N008" break="no"/>ständig überschickten) Sätze den ursprünglichen Kern des gan
+      <lb facs="#facs_1_region_1684595643362_3030_tl_9" n="N009" break="no"/>zen Werkes bilden, dem der Autor erst später und allmälig
+      <lb facs="#facs_1_region_1684595643362_3030_tl_10" n="N010"/>die anderen Theile, mit Benützung älterer Cantaten, hinzu
+      <lb facs="#facs_1_region_1684595643362_3030_tl_11" n="N011" break="no"/>fügte. Was Sebastian <rs type="person" ref="#hsl_person_id_18">Bach</rs>, den eifrigen, strengen Prote
+      <lb facs="#facs_1_region_1684595643362_3030_tl_12" n="N012" break="no"/>stanten, zur Composition der ganzen katholischen Messe veran
+      <lb facs="#facs_1_region_1684595643362_3030_tl_13" n="N013" break="no"/>laßt haben mag, hat man sich oft gefragt. Die einfachste Er
+      <lb facs="#facs_1_region_1684595643362_3030_tl_14" n="N014" break="no"/>klärung dünkt uns, daß <rs type="person" ref="#hsl_person_id_18">Bach</rs> von der Größe und dem Reich
+      <lb facs="#facs_1_region_1684595643362_3030_tl_15" n="N015" break="no"/>thume des lateinischen Meßtextes, welcher in kurzen Sätzen
       <lb facs="#facs_1_region_1684595643362_3030_tl_16" n="N016"/>die ganze kirchliche Gedanken- und Empfindungswelt umfaßt
       <lb facs="#facs_1_region_1684595643362_3030_tl_17" n="N017"/>und dem Componisten eine der bedeutendsten und dankbarsten
       <lb facs="#facs_1_region_1684595643362_3030_tl_18" n="N018"/>Aufgaben bietet, sich mächtig angezogen und aufgefordert
       <lb facs="#facs_1_region_1684595643362_3030_tl_19" n="N019"/>fühlte. Es fehlt seiner Composition die katholische Färbung,
       <lb facs="#facs_1_region_1684595643362_3030_tl_20" n="N020"/>der confessionelle Accent, ja die praktische Eignung für den
-      <lb facs="#facs_1_region_1684595643362_3030_tl_21" n="N021"/>Gottesdienst, allein an Tiefe und Fülle der religiösen Em¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_22" n="N022"/>pfindung, an Größe des Gedankens und der Kunstvollendung
-      <lb facs="#facs_1_region_1684595643362_3030_tl_23" n="N023"/>steht sie mit der — unserer modernen Anschauung sympa¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_24" n="N024"/>thischeren, aber kaum großartigeren — Festmesse von <hi rendition="#em">
-                  <rs type="person" continued="true">Beetho¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684595643362_3030_tl_25" n="N025"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">ven</rs>
-               </hi> zu oberst aller musikalischen Messen. Das „<hi rendition="#em">
-                  <rs type="bibl">Kyrie</rs>
-               </hi>“, wel¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_26" n="N026"/>ches wir im letzten Concerte hörten, besteht aus drei Num¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_27" n="N027"/>mern; einem im größten Style fugirten Chor, dessen Thema
+      <lb facs="#facs_1_region_1684595643362_3030_tl_21" n="N021"/>Gottesdienst, allein an Tiefe und Fülle der religiösen Em
+      <lb facs="#facs_1_region_1684595643362_3030_tl_22" n="N022" break="no"/>pfindung, an Größe des Gedankens und der Kunstvollendung
+      <lb facs="#facs_1_region_1684595643362_3030_tl_23" n="N023"/>steht sie mit der — unserer modernen Anschauung sympa
+      <lb facs="#facs_1_region_1684595643362_3030_tl_24" n="N024" break="no"/>thischeren, aber kaum großartigeren — Festmesse von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beetho
+      <lb facs="#facs_1_region_1684595643362_3030_tl_25" n="N025" break="no"/>en</rs></hi> zu oberst aller musikalischen Messen. Das „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_3521">Kyrie</rs></hi>“, wel
+      <lb facs="#facs_1_region_1684595643362_3030_tl_26" n="N026" break="no"/>ches wir im letzten Concerte hörten, besteht aus drei Num
+      <lb facs="#facs_1_region_1684595643362_3030_tl_27" n="N027" break="no"/>mern; einem im größten Style fugirten Chor, dessen Thema
       <lb facs="#facs_1_region_1684595643362_3030_tl_28" n="N028"/>zu den merkwürdigsten Erfindungen und dessen Durchführung
-      <lb facs="#facs_1_region_1684595643362_3030_tl_29" n="N029"/>zu den großartigsten Contrapunktirungen selbst bei <rs type="person">Bach</rs> ge¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_30" n="N030"/>hört. Es folgt das „<rs type="bibl">Christe eleyson</rs>“ als Duett für zwei
+      <lb facs="#facs_1_region_1684595643362_3030_tl_29" n="N029"/>zu den großartigsten Contrapunktirungen selbst bei <rs type="person" ref="#hsl_person_id_18">Bach</rs> ge
+      <lb facs="#facs_1_region_1684595643362_3030_tl_30" n="N030" break="no"/>hört. Es folgt das „<rs type="bibl" ref="#hsl_work_id_3522">Christe eleyson</rs>“ als Duett für zwei
       <lb facs="#facs_1_region_1684595643362_3030_tl_31" n="N031"/>Sopranstimmen, blos von zwei Instrumentalstimmen (erste
-      <lb facs="#facs_1_region_1684595643362_3030_tl_32" n="N032"/>und zweite Violine unisono und Grundbaß) begleitet, ein Ton¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_33" n="N033"/>stück, in welchem der <rs type="person">Bach</rs>'sche Genius, wie so manchmal in
-      <lb facs="#facs_1_region_1684595643362_3030_tl_34" n="N034"/>Arien und Duetten, sich zur <rs type="person">Bach</rs>'schen Manier, zum Forma¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_35" n="N035"/>lismus verengt und deßhalb eine tiefere Wirkung auf den Hö¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_36" n="N036"/>rer nicht hervorbringt. Um so gewaltiger erbraust der fol¬
-      <lb facs="#facs_1_region_1684595643362_3030_tl_37" n="N037"/>gende kürzere, streng fugirte Alla-breve-Chor „<rs type="bibl">Kyrie eleyson</rs>“,
-      <lb facs="#facs_1_region_1684595643362_3030_tl_38" n="N038"/>welcher diesen Meßtheil in erhabener Weise abschließt. Zwi¬
-      <lb facs="#facs_1_line_1711710757549_610" n="N039"/>schen das <rs type="person">Bach</rs>ʼsche „<rs type="bibl">Kyrie</rs>“ und <rs type="person">Schubert</rs>ʼs „<rs type="bibl">Lazarus</rs>“
-      <lb facs="#facs_1_line_1711710636421_592" n="N040"/>hatte Herr <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> mit seiner Berechnung zwei Chöre ohne</p>
+      <lb facs="#facs_1_region_1684595643362_3030_tl_32" n="N032"/>und zweite Violine unisono und Grundbaß) begleitet, ein Ton
+      <lb facs="#facs_1_region_1684595643362_3030_tl_33" n="N033" break="no"/>stück, in welchem der <rs type="person" ref="#hsl_person_id_18">Bach</rs>ʼsche Genius, wie so manchmal in
+      <lb facs="#facs_1_region_1684595643362_3030_tl_34" n="N034"/>Arien und Duetten, sich zur <rs type="person" ref="#hsl_person_id_18">Bach</rs>ʼschen Manier, zum Forma
+      <lb facs="#facs_1_region_1684595643362_3030_tl_35" n="N035" break="no"/>lismus verengt und deßhalb eine tiefere Wirkung auf den Hö
+      <lb facs="#facs_1_region_1684595643362_3030_tl_36" n="N036" break="no"/>rer nicht hervorbringt. Um so gewaltiger erbraust der fol
+      <lb facs="#facs_1_region_1684595643362_3030_tl_37" n="N037" break="no"/>gende kürzere, streng fugirte Alla-breve-Chor „<rs type="bibl" ref="#hsl_work_id_3521">Kyrie eleyson</rs>“,
+      <lb facs="#facs_1_region_1684595643362_3030_tl_38" n="N038"/>welcher diesen Meßtheil in erhabener Weise abschließt. Zwi
+      <lb facs="#facs_1_line_1711710757549_610" n="N039" break="no"/>schen das <rs type="person" ref="#hsl_person_id_18">Bach</rs>ʼsche „<rs type="bibl" ref="#hsl_work_id_3521">Kyrie</rs>“ und <rs type="person" ref="#hsl_person_id_279">Schubert</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_1293">Lazarus</rs>“
+                  <lb facs="#facs_1_line_1711710636421_592" n="N040"/>hatte Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> mit seiner Berechnung zwei Chöre ohne<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684595655067_3036_tl_1" n="N001"/>Orchester-Begleitung und von hellerer Färbung eingeschaltet:
-      <lb facs="#facs_2_region_1684595655067_3036_tl_2" n="N002"/>eine „<rs type="bibl">alte <hi rendition="#em">Marien-Litanei</hi> der Hirten</rs>“, von anmuthiger
-      <lb facs="#facs_2_line_1711710819932_635" n="N003"/>Naivetät und schönen Klangeffecten, dann <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>'s</hi>
-               <lb facs="#facs_2_region_1684595655067_3036_tl_3" n="N004"/>geistvolle, ungemein wirksame Composition des 43. Psalms
-      <lb facs="#facs_2_region_1684595655067_3036_tl_4" n="N005"/>(„<rs type="bibl">Richte mich, Gott</rs>“). Die Ausführung des ganzen Concer¬
-      <lb facs="#facs_2_region_1684595655067_3036_tl_5" n="N006"/>tes verdient die wärmste Anerkennung. Man könnte streiten,
+            <p prev="true">
+      <lb facs="#facs_2_region_1684595655067_3036_tl_1" n="N001"/>Orchester-Begleitung und von hellerer Färbung eingeschaltet:
+      <lb facs="#facs_2_region_1684595655067_3036_tl_2" n="N002"/>eine „<rs type="bibl" ref="#hsl_work_id_3523">alte <hi rendition="#em">Marien-Litanei</hi> der Hirten</rs>“, von anmuthiger
+                  <lb facs="#facs_2_line_1711710819932_635" n="N003"/>Naivetät und schönen Klangeffecten, dann <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684595655067_3036_tl_3" n="N004"/>geistvolle, ungemein wirksame Composition des 43. Psalms
+      <lb facs="#facs_2_region_1684595655067_3036_tl_4" n="N005"/>(„<rs type="bibl" ref="#hsl_work_id_1253">Richte mich, Gott</rs>“). Die Ausführung des ganzen Concer
+      <lb facs="#facs_2_region_1684595655067_3036_tl_5" n="N006" break="no"/>tes verdient die wärmste Anerkennung. Man könnte streiten,
       <lb facs="#facs_2_line_1714297050561_589" n="N007"/>ob der „Singverein“ sich durch sein zartes Pianissimo in der
-      <lb facs="#facs_2_line_1714297070218_594" n="N008"/>
-               <rs type="bibl">Marien-Litanei</rs> oder durch den kräftigen Schwung in dem
-      <lb facs="#facs_2_region_1684595655067_3036_tl_10" n="N009"/>
-               <rs type="bibl">Mendelssohn'schen Psalm</rs> mehr ausgezeichnet habe — genug,
-      <lb facs="#facs_2_region_1684595655067_3036_tl_11" n="N010"/>daß beide Nummern wiederholt werden mußten. Im „<hi rendition="#em">
-                  <rs type="bibl">La¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684595655067_3036_tl_12" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="bibl">zarus</rs>
-               </hi>“ sang Herr <hi rendition="#em">
-                  <rs type="person">Prihoda</rs>
-               </hi> die Titelrolle mit edler, maß¬
-      <lb facs="#facs_2_region_1684595655067_3036_tl_13" n="N012"/>voller Empfindung, Herr <hi rendition="#em">
-                  <rs type="person">Krenn</rs>
-               </hi> mit lobenswerthem Eifer
-      <lb facs="#facs_2_region_1684595655067_3036_tl_14" n="N013"/>den <rs type="person">Nathanael</rs>, dessen <rs type="bibl">C-dur-Arie</rs> allerdings für eine kräftigere
-      <lb facs="#facs_2_region_1684595655067_3036_tl_15" n="N014"/>Stimme gedacht ist. Herr v. <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi> trug die schwierige
-      <lb facs="#facs_2_region_1684595655067_3036_tl_16" n="N015"/>Arie des Sadducäers <rs type="person">Simon</rs> echt künstlerisch mit durchgrei¬
-      <lb facs="#facs_2_line_1714297169573_608" n="N016"/>fender Wirkung vor. Das reichste Maß des Lobes gebührt
-      <lb facs="#facs_2_region_1684595655067_3036_tl_19" n="N017"/>diesmal Frau Marie <hi rendition="#em">
-                  <rs type="person">Wilt</rs>
-               </hi>, welche nebst ihrer eigenen Partie
-      <lb facs="#facs_2_region_1684595655067_3036_tl_20" n="N018"/>(<rs type="person">Jemina</rs>) noch in letzter Stunde den bedeutenden Part der
-      <lb facs="#facs_2_line_1711710842352_659" n="N019"/>„<rs type="person">Maria</rs>“ aus Gefälligkeit übernommen hatte und beide mit 
-      <lb facs="#facs_2_region_1684595655067_3036_tl_22" n="N020"/>gleicher Trefflichkeit durchführte. Fräulein Anna v. <hi rendition="#em">
-                  <rs type="person">Asten</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684595655067_3036_tl_23" n="N021"/>(die jüngere Schwester unserer geschätzten Pianistin Julie
-      <lb facs="#facs_2_region_1684595655067_3036_tl_24" n="N022"/>v. <hi rendition="#em">
-                  <rs type="person">Asten</rs>
-               </hi>) trat als <rs type="person">Martha</rs> im „<rs type="bibl">Lazarus</rs>“ zum erstenmale
+      <lb facs="#facs_2_line_1714297070218_594" n="N008"/><rs type="bibl" ref="#hsl_work_id_3523">Marien-Litanei</rs> oder durch den kräftigen Schwung in dem
+      <lb facs="#facs_2_region_1684595655067_3036_tl_10" n="N009"/><rs type="bibl" ref="#hsl_work_id_1253">Mendelssohnʼschen Psalm</rs> mehr ausgezeichnet habe — genug,
+      <lb facs="#facs_2_region_1684595655067_3036_tl_11" n="N010"/>daß beide Nummern wiederholt werden mußten. Im „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1293">La
+      <lb facs="#facs_2_region_1684595655067_3036_tl_12" n="N011" break="no"/>zarus</rs></hi>“ sang Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1121">Prihoda</rs></hi> die Titelrolle mit edler, maß
+      <lb facs="#facs_2_region_1684595655067_3036_tl_13" n="N012" break="no"/>voller Empfindung, Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5205">Krenn</rs></hi> mit lobenswerthem Eifer
+      <lb facs="#facs_2_region_1684595655067_3036_tl_14" n="N013"/>den <rs type="person" ref="#hsl_person_id_5206">Nathanael</rs>, dessen <rs type="bibl" ref="#hsl_work_id_1293">C-dur-Arie</rs> allerdings für eine kräftigere
+      <lb facs="#facs_2_region_1684595655067_3036_tl_15" n="N014"/>Stimme gedacht ist. Herr v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_33">Bignio</rs></hi> trug die schwierige
+      <lb facs="#facs_2_region_1684595655067_3036_tl_16" n="N015"/><rs type="bibl" ref="#hsl_work_id_1293">Arie des Sadducäers</rs><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_5204">Simon</rs> echt künstlerisch mit durchgrei
+      <lb facs="#facs_2_line_1714297169573_608" n="N016" break="no"/>fender Wirkung vor. Das reichste Maß des Lobes gebührt
+      <lb facs="#facs_2_region_1684595655067_3036_tl_19" n="N017"/>diesmal Frau Marie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_327">Wilt</rs></hi>, welche nebst ihrer eigenen Partie
+      <lb facs="#facs_2_region_1684595655067_3036_tl_20" n="N018"/>(<rs type="person" ref="#hsl_person_id_5203">Jemina</rs>) noch in letzter Stunde den bedeutenden Part der
+      <lb facs="#facs_2_line_1711710842352_659" n="N019"/>„<rs type="person" ref="#hsl_person_id_5202">Maria</rs>“ aus Gefälligkeit übernommen hatte und beide mit 
+                  <lb facs="#facs_2_region_1684595655067_3036_tl_22" n="N020"/>gleicher Trefflichkeit durchführte. Fräulein Anna v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5207">Asten</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684595655067_3036_tl_23" n="N021"/>(die jüngere Schwester unserer geschätzten Pianistin Julie
+      <lb facs="#facs_2_region_1684595655067_3036_tl_24" n="N022"/>v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1542">Asten</rs></hi>) trat als <rs type="person" ref="#hsl_person_id_5208">Martha</rs> im „<rs type="bibl" ref="#hsl_work_id_1293">Lazarus</rs>“ zum erstenmale
       <lb facs="#facs_2_region_1684595655067_3036_tl_25" n="N023"/>vor die Oeffentlichkeit; ihr frischer, klangvoller Mezzo-Sopran
-      <lb facs="#facs_2_region_1684595655067_3036_tl_26" n="N024"/>und ihre musikalische Festigkeit berechtigen zu schöner Hoff¬
-      <lb facs="#facs_2_region_1684595655067_3036_tl_27" n="N025"/>nung. Das Publicum spendete allen Mitwirkenden, insbe¬
-      <lb facs="#facs_2_region_1684595655067_3036_tl_28" n="N026"/>dere dem verdienstvollen Leiter dieser trefflichen Production,
-      <lb facs="#facs_2_region_1684595655067_3036_tl_29" n="N027"/>Herrn Hofkapellmeister <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi>, Zeichen lebhaften Dankes.
-      <lb facs="#facs_2_region_1684595655067_3036_tl_30" n="N028"/>Wir erwähnen zweier gut besuchter und sehr beifällig
+      <lb facs="#facs_2_region_1684595655067_3036_tl_26" n="N024"/>und ihre musikalische Festigkeit berechtigen zu schöner Hoff
+      <lb facs="#facs_2_region_1684595655067_3036_tl_27" n="N025" break="no"/>nung. Das Publicum spendete allen Mitwirkenden, insbe
+      <lb facs="#facs_2_region_1684595655067_3036_tl_28" n="N026" break="no"/>dere dem verdienstvollen Leiter dieser trefflichen Production,
+      <lb facs="#facs_2_region_1684595655067_3036_tl_29" n="N027"/>Herrn Hofkapellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi>, Zeichen lebhaften Dankes.</p>
+   <p><lb facs="#facs_2_region_1684595655067_3036_tl_30" n="N028"/>Wir erwähnen zweier gut besuchter und sehr beifällig
       <lb facs="#facs_2_region_1684595655067_3036_tl_31" n="N029"/>aufgenommener Productionen: des zweiten „Historischen Concerts“
-      <lb facs="#facs_2_region_1684595655067_3036_tl_32" n="N030"/>von Herrn <hi rendition="#em">
-                  <rs type="person">Zellner</rs>
-               </hi> und des „Heiteren Musikabends“ von Herrn
-      <lb facs="#facs_2_region_1684595655067_3036_tl_33" n="N031"/>
-               <hi rendition="#em">
-                  <rs type="person">Käßmayer</rs>
-               </hi> in den Blumensälen; leider konnten wir denselben
+      <lb facs="#facs_2_region_1684595655067_3036_tl_32" n="N030"/>von Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2300">Zellner</rs></hi> und des „Heiteren Musikabends“ von Herrn
+      <lb facs="#facs_2_region_1684595655067_3036_tl_33" n="N031"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_143">Käßmayer</rs></hi> in den Blumensälen; leider konnten wir denselben
       <lb facs="#facs_2_region_1684595655067_3036_tl_34" n="N032"/>nicht selbst beiwohnen. Sodann ist die betrübende Nachricht zu melden,
-      <lb facs="#facs_2_region_1684595655067_3036_tl_35" n="N033"/>daß das „Florentiner Quartett“ der Herren <hi rendition="#em">Jean Becker</hi>
-               <lb facs="#facs_2_region_1684595655067_3036_tl_36" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="person">Masi</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Chiostri</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Hilpert</rs>
-               </hi> nun doch endlich von den
-      <lb facs="#facs_2_region_1684595655067_3036_tl_37" n="N035"/>Wienern sich verabschiedet hat. Es geschah dies mit der zehn¬
-      <lb facs="#facs_2_region_1684595655067_3036_tl_38" n="N036"/>ten Quartett-Soirée (im kleinen Redoutensaal), worin <hi rendition="#em">
-                  <rs type="person" continued="true">Mendels¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684595655067_3036_tl_39" n="N037"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">sohn</rs>'s</hi>
-               <rs type="bibl">Es-dur</rs>, <hi rendition="#em">
-                  <rs type="person">Schubert</rs>'s</hi>
-               <rs type="bibl">D-moll-</rs> und <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>ʼs</hi>
-               <lb facs="#facs_2_region_1684595655067_3036_tl_40" n="N038"/>
-               <rs type="bibl">F-dur-Quartett</rs> (aus <rs type="bibl">op. 18</rs>) zur Aufführung kamen. Das
-      <lb facs="#facs_2_region_1684595655067_3036_tl_41" n="N039"/>Publicum blieb aber nach dem dritten Stücke beharrlich klat¬
-      <lb facs="#facs_2_line_1711710810057_629" n="N040"/>schend und rufend auf seinen Plätzen, bis die Künstler noch die</p>
+         <lb facs="#facs_2_region_1684595655067_3036_tl_35" n="N033"/>daß das „Florentiner Quartett“ der Herren <hi rendition="#em">Jean <rs type="person" ref="#hsl_person_id_4507"></rs>Becker</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684595655067_3036_tl_36" n="N034"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5139">Masi</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5140">Chiostri</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_126">Hilpert</rs></hi> nun doch endlich von den
+      <lb facs="#facs_2_region_1684595655067_3036_tl_37" n="N035"/>Wienern sich verabschiedet hat. Es geschah dies mit der zehn
+      <lb facs="#facs_2_region_1684595655067_3036_tl_38" n="N036" break="no"/>ten Quartett-Soirée (im kleinen Redoutensaal), worin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendels
+            <lb facs="#facs_2_region_1684595655067_3036_tl_39" n="N037" break="no"/>sohn</rs>ʼs</hi><rs type="bibl" ref="#hsl_work_id_3457">Es-dur</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs>ʼs</hi><rs type="bibl" ref="#hsl_work_id_1396">D-moll-</rs> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684595655067_3036_tl_40" n="N038"/><rs type="bibl" ref="#hsl_work_id_470">F-dur-Quartett</rs> (aus <rs type="bibl" ref="#hsl_work_id_470">op. 18</rs>) zur Aufführung kamen. Das
+      <lb facs="#facs_2_region_1684595655067_3036_tl_41" n="N039"/>Publicum blieb aber nach dem dritten Stücke beharrlich klat
+         <lb facs="#facs_2_line_1711710810057_629" n="N040" break="no"/>schend und rufend auf seinen Plätzen, bis die Künstler noch die<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_line_1711710826254_643" n="N001"/>von ihnen eingeführte <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi>'sche „<rs type="bibl">Serenade</rs>“ als letzten Ab¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_1" n="N002"/>schiedsgruß boten. Wie wir mit Vergnügen hören, ist es kein
-      <lb facs="#facs_2_line_1711710819932_634" n="N003"/>Abschied für immer; das <hi rendition="#em">
-                  <rs type="person">Becker</rs>
-               </hi>ʼsche Quartett wird zu An¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_3" n="N004"/>fang der nächsten Concert-Saison wieder hier eintreffen und
-      <lb facs="#facs_2_region_1684595658717_3039_tl_4" n="N005"/>einen Abonnements-Cyklus von Quartett-Productionen veranstal¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_5" n="N006"/>ten. Man darf wol den Succeß des Florentiner Quartett-Vereins
-      <lb facs="#facs_2_region_1684595658717_3039_tl_6" n="N007"/>für den größten und überraschendsten der ganzen abgelaufenen Mu¬
-      <lb facs="#facs_2_line_1711710992376_688" n="N008"/>sik-Saison erklären. Die fremden Künstler kamen sehr spät hier an,
+            <p prev="true">
+      <lb facs="#facs_2_line_1711710826254_643" n="N001"/>von ihnen eingeführte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi>ʼsche „<rs type="bibl" ref="#hsl_work_id_3525">Serenade</rs>“ als letzten Ab
+      <lb facs="#facs_2_region_1684595658717_3039_tl_1" n="N002" break="no"/>schiedsgruß boten. Wie wir mit Vergnügen hören, ist es kein
+      <lb facs="#facs_2_line_1711710819932_634" n="N003"/>Abschied für immer; das <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi>ʼsche Quartett wird zu An
+      <lb facs="#facs_2_region_1684595658717_3039_tl_3" n="N004" break="no"/>fang der nächsten Concert-Saison wieder hier eintreffen und
+      <lb facs="#facs_2_region_1684595658717_3039_tl_4" n="N005"/>einen Abonnements-Cyklus von Quartett-Productionen veranstal
+      <lb facs="#facs_2_region_1684595658717_3039_tl_5" n="N006" break="no"/>ten. Man darf wol den Succeß des Florentiner Quartett-Vereins
+      <lb facs="#facs_2_region_1684595658717_3039_tl_6" n="N007"/>für den größten und überraschendsten der ganzen abgelaufenen Mu
+      <lb facs="#facs_2_line_1711710992376_688" n="N008" break="no"/>sik-Saison erklären. Die fremden Künstler kamen sehr spät hier an,
       <lb facs="#facs_2_region_1684595658717_3039_tl_7" n="N009"/>das Publicum, das neben zahllosen anderen Concerten
-      <lb facs="#facs_2_region_1684595658717_3039_tl_8" n="N010"/>nicht weniger als acht <hi rendition="#em">
-                  <rs type="person">Hellmesberger</rs>
-               </hi>'sche und drei <hi rendition="#em">
-                  <rs type="person" continued="true">Joa¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684595658717_3039_tl_9" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">chim</rs>
-               </hi>'sche Quartett-Productionen gehört hatte, war überwältigt
+      <lb facs="#facs_2_region_1684595658717_3039_tl_8" n="N010"/>nicht weniger als acht <hi rendition="#em"><rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs></hi>ʼsche und drei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joa
+      <lb facs="#facs_2_region_1684595658717_3039_tl_9" n="N011" break="no"/>chim</rs></hi>ʼsche Quartett-Productionen gehört hatte, war überwältigt
       <lb facs="#facs_2_region_1684595658717_3039_tl_10" n="N012"/>und fand sich zu der ersten Soirée der „Florentiner“ sehr
-      <lb facs="#facs_2_region_1684595658717_3039_tl_11" n="N013"/>spärlich ein. Dennoch war der Erfolg dieses Abends ent¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_12" n="N014"/>scheidend; er verbreitete rasch das übereinstimmende, zweifellose
-      <lb facs="#facs_2_region_1684595658717_3039_tl_13" n="N015"/>Urtheil, <rs type="place">Wien</rs> habe niemals ein so vollendetes Quartett gehört.
-      <lb facs="#facs_2_region_1684595658717_3039_tl_14" n="N016"/>Schon die zweite Production war überfüllt, und die <hi rendition="#em">
-                  <rs type="person">Becker</rs>
-               </hi>¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_15" n="N017"/>sche Gesellschaft konnte deren <hi rendition="#em">zehn</hi> nach einander geben, ohne
+      <lb facs="#facs_2_region_1684595658717_3039_tl_11" n="N013"/>spärlich ein. Dennoch war der Erfolg dieses Abends ent
+      <lb facs="#facs_2_region_1684595658717_3039_tl_12" n="N014" break="no"/>scheidend; er verbreitete rasch das übereinstimmende, zweifellose
+      <lb facs="#facs_2_region_1684595658717_3039_tl_13" n="N015"/>Urtheil, <rs type="place" ref="#hsl_place_id_55">Wien</rs> habe niemals ein so vollendetes Quartett gehört.
+                  <lb facs="#facs_2_region_1684595658717_3039_tl_14" n="N016"/>Schon die zweite Production war überfüllt, und die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684595658717_3039_tl_15" n="N017" break="no"/>sche Gesellschaft konnte deren <hi rendition="#em">zehn</hi> nach einander geben, ohne
       <lb facs="#facs_2_region_1684595658717_3039_tl_16" n="N018"/>daß der Antheil des Publicums nachließ. Ja man lauschte
       <lb facs="#facs_2_line_1711710842352_658" n="N019"/>ihrem Zusammenspiel je öfter mit desto größerem Behagen,
-      <lb facs="#facs_2_region_1684595658717_3039_tl_17" n="N020"/>ein Zeichen, daß die Wirkung aus echter künstlerischer Gediegen¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_18" n="N021"/>heit und nicht aus blendenden Scheinkünften hervorgegangen
-      <lb facs="#facs_2_region_1684595658717_3039_tl_19" n="N022"/>war. Indem diese vier Künstler sich ausschließlich dem Quartett¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_20" n="N023"/>spiel widmen, seit einigen Jahren mit erstaunlichem Fleiß tag¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_21" n="N024"/>täglich zusammen spielend, hat ihr Vortrag eine technische
-      <lb facs="#facs_2_region_1684595658717_3039_tl_22" n="N025"/>Sicherheit und ruhige Continuität erlangt, wie sie ge¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_23" n="N026"/>wöhnlich nur älteren Künstlern eigen ist. Andererseits be¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_24" n="N027"/>sitzen sie aber als junge Leute jene Wärme und frische
+      <lb facs="#facs_2_region_1684595658717_3039_tl_17" n="N020"/>ein Zeichen, daß die Wirkung aus echter künstlerischer Gediegen
+      <lb facs="#facs_2_region_1684595658717_3039_tl_18" n="N021" break="no"/>heit und nicht aus blendenden Scheinkünften hervorgegangen
+      <lb facs="#facs_2_region_1684595658717_3039_tl_19" n="N022"/>war. Indem diese vier Künstler sich ausschließlich dem Quartett
+      <lb facs="#facs_2_region_1684595658717_3039_tl_20" n="N023" break="no"/>spiel widmen, seit einigen Jahren mit erstaunlichem Fleiß tag
+      <lb facs="#facs_2_region_1684595658717_3039_tl_21" n="N024" break="no"/>täglich zusammen spielend, hat ihr Vortrag eine technische
+      <lb facs="#facs_2_region_1684595658717_3039_tl_22" n="N025"/>Sicherheit und ruhige Continuität erlangt, wie sie ge
+      <lb facs="#facs_2_region_1684595658717_3039_tl_23" n="N026" break="no"/>wöhnlich nur älteren Künstlern eigen ist. Andererseits be
+      <lb facs="#facs_2_region_1684595658717_3039_tl_24" n="N027" break="no"/>sitzen sie aber als junge Leute jene Wärme und frische
       <lb facs="#facs_2_region_1684595658717_3039_tl_25" n="N028"/>Sinnlichkeit, welche vor Pedanterie und Formalismus
-      <lb facs="#facs_2_region_1684595658717_3039_tl_26" n="N029"/>bewahrt. Wir haben Compositionen der verschiedensten Mei¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_27" n="N030"/>ster und von verschiedenster Stylgattung von ihnen gleich treff¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_28" n="N031"/>lich interpretiren hören. Das subjective Bedenken, das wir
+      <lb facs="#facs_2_region_1684595658717_3039_tl_26" n="N029"/>bewahrt. Wir haben Compositionen der verschiedensten Mei
+      <lb facs="#facs_2_region_1684595658717_3039_tl_27" n="N030" break="no"/>ster und von verschiedenster Stylgattung von ihnen gleich treff
+      <lb facs="#facs_2_region_1684595658717_3039_tl_28" n="N031" break="no"/>lich interpretiren hören. Das subjective Bedenken, das wir
       <lb facs="#facs_2_region_1684595658717_3039_tl_29" n="N032"/>vielleicht hie und da gegen ein Zeitmaß, eine Vortragsnuance
       <lb facs="#facs_2_region_1684595658717_3039_tl_30" n="N033"/>u. dgl. hatten, kann uns an der Anerkennung nicht hindern,
-      <lb facs="#facs_2_region_1684595658717_3039_tl_31" n="N034"/>daß wir einer gleichen Meisterschaft im Quartettspiel nie zu¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_32" n="N035"/>vor begegnet sind. Wer das <hi rendition="#em">
-                  <rs type="person">Becker</rs>
-               </hi>ʼsche Quartett mit an¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_33" n="N036"/>deren vergleichen will, wird billigerweise die schwierigeren Ver¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_34" n="N037"/>hältnisse dieser anderen Quartettspieler hervorheben, welche,
-      <lb facs="#facs_2_region_1684595658717_3039_tl_35" n="N038"/>durch regelmäßigen Theater-, Concert- und Kirchendienst ange¬
-      <lb facs="#facs_2_region_1684595658717_3039_tl_36" n="N039"/>strengt, unmöglich mit so fleißigen und frischen Kräften täg¬
-      <lb facs="#facs_2_line_1711710832702_651" n="N040"/>lich üben können; er wird dergestalt zu erklären </p>
+      <lb facs="#facs_2_region_1684595658717_3039_tl_31" n="N034"/>daß wir einer gleichen Meisterschaft im Quartettspiel nie zu
+      <lb facs="#facs_2_region_1684595658717_3039_tl_32" n="N035" break="no"/>vor begegnet sind. Wer das <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi>ʼsche Quartett mit an
+      <lb facs="#facs_2_region_1684595658717_3039_tl_33" n="N036" break="no"/>deren vergleichen will, wird billigerweise die schwierigeren Ver
+      <lb facs="#facs_2_region_1684595658717_3039_tl_34" n="N037" break="no"/>hältnisse dieser anderen Quartettspieler hervorheben, welche,
+      <lb facs="#facs_2_region_1684595658717_3039_tl_35" n="N038"/>durch regelmäßigen Theater-, Concert- und Kirchendienst ange
+      <lb facs="#facs_2_region_1684595658717_3039_tl_36" n="N039" break="no"/>strengt, unmöglich mit so fleißigen und frischen Kräften täg
+                  <lb facs="#facs_2_line_1711710832702_651" n="N040" break="no"/>lich üben können; er wird dergestalt zu erklären <space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1711710826254_642" n="N001"/>
-               <hi rendition="#em">warum</hi> sie die Meisterschaft des <hi rendition="#em">
-                  <rs type="person">Becker</rs>
-               </hi>ʼschen Quartetts
+            <p prev="true">
+      <lb facs="#facs_2_line_1711710826254_642" n="N001"/><hi rendition="#em">warum</hi> sie die Meisterschaft des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi>ʼschen Quartetts
       <lb facs="#facs_2_region_1684595662779_3042_tl_2" n="N002"/>nicht erreichen. Wenn aber der Local-Patriotismus so weit
-      <lb facs="#facs_2_region_1684595662779_3042_tl_3" n="N003"/>geht, das letztere Factum überhaupt zu leugnen und zu be¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_4" n="N004"/>haupten, wir hätten längst, was <hi rendition="#em">
-                  <rs type="person">Becker</rs>
-               </hi> und seine Genossen
-      <lb facs="#facs_2_line_1711711040199_701" n="N005"/>leisten, ebenso gut und besser zu Hause, dann schlägt die „Ge¬
-      <lb facs="#facs_2_line_1711711044870_705" n="N006"/>rechtigkeit“ für das Gute in die crasseste Ungerechtigkeit gegen
-      <lb facs="#facs_2_region_1684595662779_3042_tl_9" n="N007"/>das Bessere und Beste über. Das <rs type="place">Wien</rs>er Publicum hat
-      <lb facs="#facs_2_line_1711710992376_687" n="N008"/>bei aller Pietät für das Einheimische sich von solchem musika¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_11" n="N009"/>lischen Chauvinismus freigehalten, der wahrlich keinem Theil
-      <lb facs="#facs_2_region_1684595662779_3042_tl_12" n="N010"/>zum Nutzen gedeiht.
-      <lb facs="#facs_2_region_1684595662779_3042_tl_13" n="N011"/>Der Palmsonntag brachte die Aufführung von <hi rendition="#em">
-                  <rs type="person">Haydn</rs>'s</hi>
-               <lb facs="#facs_2_region_1684595662779_3042_tl_14" n="N012"/>„<rs type="bibl">Jahreszeiten</rs>“ im Burgtheater. Ueber die Physiognomie dieser
-      <lb facs="#facs_2_region_1684595662779_3042_tl_15" n="N013"/>ziemlich stereotypen Productionen des Tonkünstler-Pensions¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_16" n="N014"/>vereins „Haydn“ ist wenig Neues zu melden. Die erbärmliche
-      <lb facs="#facs_2_region_1684595662779_3042_tl_17" n="N015"/>Akustik des Locales, welche selbst die unvergleichliche Klangwir¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_18" n="N016"/>kung von Stücken wie die „<rs type="bibl">Jagd</rs>“ und das „<rs type="bibl">Winzerfest</rs>“ im
-      <lb facs="#facs_2_region_1684595662779_3042_tl_19" n="N017"/>„<rs type="bibl">Herbst</rs>“ lahmlegt, ist längst bekannt und beklagt, und nach¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_20" n="N018"/>dem die Direction des „Haydn“ nicht den leisesten Schritt
+      <lb facs="#facs_2_region_1684595662779_3042_tl_3" n="N003"/>geht, das letztere Factum überhaupt zu leugnen und zu be
+      <lb facs="#facs_2_region_1684595662779_3042_tl_4" n="N004" break="no"/>haupten, wir hätten längst, was <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi> und seine Genossen
+      <lb facs="#facs_2_line_1711711040199_701" n="N005"/>leisten, ebenso gut und besser zu Hause, dann schlägt die „Ge
+      <lb facs="#facs_2_line_1711711044870_705" n="N006" break="no"/>rechtigkeit“ für das Gute in die crasseste Ungerechtigkeit gegen
+                  <lb facs="#facs_2_region_1684595662779_3042_tl_9" n="N007"/>das Bessere und Beste über. Das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum hat
+      <lb facs="#facs_2_line_1711710992376_687" n="N008"/>bei aller Pietät für das Einheimische sich von solchem musika
+      <lb facs="#facs_2_region_1684595662779_3042_tl_11" n="N009" break="no"/>lischen Chauvinismus freigehalten, der wahrlich keinem Theil
+      <lb facs="#facs_2_region_1684595662779_3042_tl_12" n="N010"/>zum Nutzen gedeiht.</p>
+               <p><lb facs="#facs_2_region_1684595662779_3042_tl_13" n="N011"/>Der Palmsonntag brachte die Aufführung von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs>ʼs</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684595662779_3042_tl_14" n="N012"/>„<rs type="bibl" ref="#hsl_work_id_244">Jahreszeiten</rs>“ im Burgtheater. Ueber die Physiognomie dieser
+      <lb facs="#facs_2_region_1684595662779_3042_tl_15" n="N013"/>ziemlich stereotypen Productionen des Tonkünstler-Pensions
+      <lb facs="#facs_2_region_1684595662779_3042_tl_16" n="N014" break="no"/>vereins „Haydn“ ist wenig Neues zu melden. Die erbärmliche
+      <lb facs="#facs_2_region_1684595662779_3042_tl_17" n="N015"/>Akustik des Locales, welche selbst die unvergleichliche Klangwir
+      <lb facs="#facs_2_region_1684595662779_3042_tl_18" n="N016" break="no"/>kung von Stücken wie die „<rs type="bibl" ref="#hsl_work_id_164">Jagd</rs>“ und das „Winzerfest“ im
+      <lb facs="#facs_2_region_1684595662779_3042_tl_19" n="N017"/>„<rs type="bibl" ref="#hsl_work_id_244">Herbst</rs>“ lahmlegt, ist längst bekannt und beklagt, und nach
+      <lb facs="#facs_2_region_1684595662779_3042_tl_20" n="N018" break="no"/>dem die Direction des „Haydn“ nicht den leisesten Schritt
       <lb facs="#facs_2_region_1684595662779_3042_tl_21" n="N019"/>thut, um ein besseres Locale zu erhalten, so kann man sich
       <lb facs="#facs_2_region_1684595662779_3042_tl_22" n="N020"/>füglich auch jedes Mitleids entschlagen. Chöre und Orchester
-      <lb facs="#facs_2_region_1684595662779_3042_tl_23" n="N021"/>sind etwas stärker als vordem, hingegen haben die einst regel¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_24" n="N022"/>mäßig von <hi rendition="#em">
-                  <rs type="person">Staudigl</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Erl</rs>
-               </hi> und der <hi rendition="#em">
-                  <rs type="person">Hasselt</rs>
-               </hi> gesungenen
-      <lb facs="#facs_2_region_1684595662779_3042_tl_25" n="N023"/>Solopartien bessere Zeiten gesehen. Fräulein <hi rendition="#em">
-                  <rs type="person">Benza</rs>
-               </hi>, hier
-      <lb facs="#facs_2_region_1684595662779_3042_tl_26" n="N024"/>wie überall voll Feuer und Eifer, brachte einzelnes sehr Ge¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_27" n="N025"/>lungenes; im Allgemeinen ist ihre theatralische, heftige Vor¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_28" n="N026"/>tragsweise für den Oratorienstyl (namentlich im Recitativ)
+      <lb facs="#facs_2_region_1684595662779_3042_tl_23" n="N021"/>sind etwas stärker als vordem, hingegen haben die einst regel
+      <lb facs="#facs_2_region_1684595662779_3042_tl_24" n="N022" break="no"/>mäßig von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_296">Staudigl</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_71">Erl</rs></hi> und der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_111">Hasselt</rs></hi> gesungenen
+      <lb facs="#facs_2_region_1684595662779_3042_tl_25" n="N023"/>Solopartien bessere Zeiten gesehen. Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2954">Benza</rs></hi>, hier
+      <lb facs="#facs_2_region_1684595662779_3042_tl_26" n="N024"/>wie überall voll Feuer und Eifer, brachte einzelnes sehr Ge
+      <lb facs="#facs_2_region_1684595662779_3042_tl_27" n="N025" break="no"/>lungenes; im Allgemeinen ist ihre theatralische, heftige Vor
+      <lb facs="#facs_2_region_1684595662779_3042_tl_28" n="N026" break="no"/>tragsweise für den Oratorienstyl (namentlich im Recitativ)
       <lb facs="#facs_2_region_1684595662779_3042_tl_29" n="N027"/>wenig geeignet. Vor lauter einzelnen starken Accenten und
-      <lb facs="#facs_2_region_1684595662779_3042_tl_30" n="N028"/>Tonschwellungen gelangt ihr Vortrag nie zu jenem edlen, ru¬
-      <lb facs="#facs_2_region_1684595662779_3042_tl_31" n="N029"/>higen Fluß, den solche Musik erheischt. Fräulein <hi rendition="#em">
-                  <rs type="person">Benza</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684595662779_3042_tl_32" n="N030"/>wurde häufig applaudirt, auch Herr <hi rendition="#em">
-                  <rs type="person">Adams</rs>
-               </hi>, welcher sich in
+      <lb facs="#facs_2_region_1684595662779_3042_tl_30" n="N028"/>Tonschwellungen gelangt ihr Vortrag nie zu jenem edlen, ru
+         <lb facs="#facs_2_region_1684595662779_3042_tl_31" n="N029" break="no"/>higen Fluß, den solche Musik erheischt. Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2954">Benza</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684595662779_3042_tl_32" n="N030"/>wurde häufig applaudirt, auch Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4109">Adams</rs></hi>, welcher sich in
       <lb facs="#facs_2_region_1684595662779_3042_tl_33" n="N031"/>dem ihm ziemlich fernliegenden Oratorien-Gesange recht gut
-      <lb facs="#facs_2_region_1684595662779_3042_tl_34" n="N032"/>zurechtfand. Herrn Dr. <hi rendition="#em">
-                  <rs type="person">Krückl</rs>'s</hi> verständige, noch nicht ganz
+      <lb facs="#facs_2_region_1684595662779_3042_tl_34" n="N032"/>zurechtfand. Herrn Dr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4542">Krückl</rs>ʼs</hi> verständige, noch nicht ganz
       <lb facs="#facs_2_region_1684595662779_3042_tl_35" n="N033"/>von der Jurisprudenz losgeschälte Vortragsweise paßt vielleicht
       <lb facs="#facs_2_region_1684595662779_3042_tl_36" n="N034"/>am besten für das Oratorium; wäre seine Stimme so kräftig
       <lb facs="#facs_2_region_1684595662779_3042_tl_37" n="N035"/>im großen Raume, als sie im Salon sympathisch klingt, ihre
-      <lb facs="#facs_2_region_1684595662779_3042_tl_38" n="N036"/>Wirkung würde vollständig sein. Die Aufführung der „<rs type="bibl">Jah¬</rs>
-               <lb facs="#facs_2_region_1684595662779_3042_tl_39" n="N037"/>
-               <rs type="bibl">reszeiten</rs>“, von Herrn Capellmeister <hi rendition="#em">
-                  <rs type="person">Esser</rs>
-               </hi> dirigirt, war sehr
-      <lb facs="#facs_2_region_1684595662779_3042_tl_40" n="N038"/>besucht; sie und das „<rs type="bibl">Lazarus</rs>-Concert“ dürften für diese Saison
+      <lb facs="#facs_2_region_1684595662779_3042_tl_38" n="N036"/>Wirkung würde vollständig sein. Die Aufführung der „<rs type="bibl" ref="#hsl_work_id_244">Jah
+      <lb facs="#facs_2_region_1684595662779_3042_tl_39" n="N037" break="no"/>reszeiten</rs>“, von Herrn Capellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_74">Esser</rs></hi> dirigirt, war sehr
+      <lb facs="#facs_2_region_1684595662779_3042_tl_40" n="N038"/>besucht; sie und das „<rs type="bibl" ref="#hsl_work_id_1293">Lazarus</rs>-Concert“ dürften für diese Saison
       <lb facs="#facs_2_region_1684595662779_3042_tl_41" n="N039"/>die letzten größeren Concerte gewesen sein. Vom Eis befreit
       <lb facs="#facs_2_line_1711710832702_650" n="N040"/>sind Strom und Bäche!</p>
          </div>
