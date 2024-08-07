@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace/>
-                        <date when="11. August 1868">11. August 1868</date>
+                        <date when="1868-08-11">11. August 1868</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -107,8 +107,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+         <change who="kbamer ampfiel" when="2024-07-18">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2024-08-05" who="kbamer">Formatierung. Alle Werke, Orte, Personen, Daten ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1323,571 +1324,414 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684594214053_2604_tl_1" n="N001"/>
-               <rs type="person">Beethoven</rs> als Concertgeber.
-      <lb facs="#facs_1_region_1684594214053_2604_tl_2" n="N002"/>Ed. H. <rs type="person">Beethoven</rs> ist in <rs type="place">Wien</rs> bekanntlich als Clavier¬
-      <lb facs="#facs_1_line_1720006218147_531" n="N003"/>spieler wie als Dirigent wiederholt vor das Publicum getreten. 
-      <lb facs="#facs_1_region_1684594214053_2604_tl_3" n="N004"/>Die eigentliche Periode des Virtuosen <rs type="person">Beethoven</rs> war das erste
+            
+      <lb facs="#facs_1_region_1684594214053_2604_tl_1" n="N001"/><head type="h1"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> als Concertgeber.</head>
+               <p> <lb facs="#facs_1_region_1684594214053_2604_tl_2" n="N002"/>Ed. H. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> ist in <rs type="place" ref="#hsl_place_id_55">Wien</rs> bekanntlich als Clavier
+      <lb facs="#facs_1_line_1720006218147_531" n="N003" break="no"/>spieler wie als Dirigent wiederholt vor das Publicum getreten. 
+      <lb facs="#facs_1_region_1684594214053_2604_tl_3" n="N004"/>Die eigentliche Periode des Virtuosen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> war das erste
       <lb facs="#facs_1_region_1684594214053_2604_tl_4" n="N005"/>Decennium dieses Jahrhunderts, vollständig beschlossen lag sie
-      <lb facs="#facs_1_region_1684594214053_2604_tl_5" n="N006"/>in dem Zeitraume <date month="0" day="0" year="0">1795 bis 1814</date>. Man kann nicht sagen,
-      <lb facs="#facs_1_region_1684594214053_2604_tl_6" n="N007"/>daß <rs type="person">Beethoven</rs> in dieser langen Zeit häufig concertirt habe,
+      <lb facs="#facs_1_region_1684594214053_2604_tl_5" n="N006"/>in dem Zeitraume <date from="1795" to="1814">1795 bis 1814</date>. Man kann nicht sagen,
+      <lb facs="#facs_1_region_1684594214053_2604_tl_6" n="N007"/>daß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in dieser langen Zeit häufig concertirt habe,
       <lb facs="#facs_1_region_1684594214053_2604_tl_7" n="N008"/>noch weniger, daß er es gerne that. Ohne Zweifel war er auch
       <lb facs="#facs_1_region_1684594214053_2604_tl_8" n="N009"/>als Virtuose die bedeutendste und eigenthümlichste Gestalt seiner
-      <lb facs="#facs_1_region_1684594214053_2604_tl_9" n="N010"/>Periode. Trotzdem war seine öffentliche Wirksamkeit als Vir¬
-      <lb facs="#facs_1_region_1684594214053_2604_tl_10" n="N011"/>tuose weder so stetig und intensiv, noch so erfolgreich wie jene
-      <lb facs="#facs_1_region_1684594214053_2604_tl_11" n="N012"/>
-               <rs type="person">Mozart</rs>'s. Er gab sein Bestes, namentlich im freien Phanta¬
-      <lb facs="#facs_1_region_1684594214053_2604_tl_12" n="N013"/>siren, ohne Zweifel in Privatkreisen. <rs type="person">Beethoven</rs>'s erstes öffent¬
-      <lb facs="#facs_1_region_1684594214053_2604_tl_13" n="N014"/>liches Auftreten in <rs type="place">Wien</rs> war am <date month="0" day="0" year="0">29. März 1795</date> in der
+      <lb facs="#facs_1_region_1684594214053_2604_tl_9" n="N010"/>Periode. Trotzdem war seine öffentliche Wirksamkeit als Vir
+      <lb facs="#facs_1_region_1684594214053_2604_tl_10" n="N011" break="no"/>tuose weder so stetig und intensiv, noch so erfolgreich wie jene
+      <lb facs="#facs_1_region_1684594214053_2604_tl_11" n="N012"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼs. Er gab sein Bestes, namentlich im freien Phanta
+      <lb facs="#facs_1_region_1684594214053_2604_tl_12" n="N013" break="no"/>siren, ohne Zweifel in Privatkreisen. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs erstes öffent
+      <lb facs="#facs_1_region_1684594214053_2604_tl_13" n="N014" break="no"/>liches Auftreten in <rs type="place" ref="#hsl_place_id_55">Wien</rs> war am <date when="1795-03-29">29. März 1795</date> in der
       <lb facs="#facs_1_region_1684594214053_2604_tl_14" n="N015"/>Akademie der Tonkünstler-Societät, wo er zum erstenmale sein
-      <lb facs="#facs_1_region_1684594214053_2604_tl_15" n="N016"/>
-               <rs type="bibl">C-dur-Concert, Op. 15</rs>, vortrug. In derselben Societät spielte
-      <lb facs="#facs_1_region_1684594214053_2604_tl_16" n="N017"/>er am <date month="0" day="0" year="0">2. April 1798</date> den Clavierpart seines Quintetts,
-      <lb facs="#facs_1_region_1684594214053_2604_tl_17" n="N018"/>
-               <rs type="bibl">Op. 16</rs>. Wir sehen ihn mit collegialer Bereitwilligkeit nicht
-      <lb facs="#facs_1_region_1684594214053_2604_tl_18" n="N019"/>nur dieses Pensions-Institut, sondern auch die Concerte be¬
-      <lb facs="#facs_1_region_1684594214053_2604_tl_19" n="N020"/>freundeter Künstler unterstützen. So spielte er seine Sonate
-      <lb facs="#facs_1_region_1684594214053_2604_tl_20" n="N021"/>
-               <rs type="bibl">Op. 17</rs> mit dem Hornisten <hi rendition="#em">
-                  <rs type="person">Punto</rs>
-               </hi> in dessen erstem Con¬
-      <lb facs="#facs_1_region_1684594214053_2604_tl_21" n="N022"/>cert am <date month="0" day="0" year="0">18. April 1800</date> und seine große <rs type="bibl">A-dur-Sonate,</rs>
-               <lb facs="#facs_1_region_1684594214053_2604_tl_22" n="N023"/>
-               <rs type="bibl">Op. 47</rs>, mit dem <rs type="place">englisch</rs>en Violin-Virtuosen <hi rendition="#em">
-                  <rs type="person">Bridgetower</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684594214053_2604_tl_23" n="N024"/>am <date month="0" day="0" year="0">17. Mai 1803</date>. Für diesen hatte Beethoven die Sonate
-      <lb facs="#facs_1_region_1684594214053_2604_tl_24" n="N025"/>ursprünglich geschrieben, welche er später dem berühmten Gei¬
-      <lb facs="#facs_1_region_1684594214053_2604_tl_25" n="N026"/>ger Rudolph <hi rendition="#em">
-                  <rs type="person">Kreutzer</rs>
-               </hi> dedicirte und die seither unter der Be¬
-      <lb facs="#facs_1_region_1684594214053_2604_tl_26" n="N027"/>nennung „<rs type="bibl">Die Kreutzer-Sonate</rs>“ gefeiert ist.
-      <lb facs="#facs_1_region_1684594214053_2604_tl_27" n="N028"/>Die Concerte des Violinspielers und Orchester-Directors
-      <lb facs="#facs_1_region_1684594214053_2604_tl_28" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person">Clement</rs>
-               </hi> und des Opern-Regisseurs im Theater an der <rs type="place">Wien</rs>,
-      <lb facs="#facs_1_region_1684594214053_2604_tl_29" n="N030"/>Seb. <hi rendition="#em">
-                  <rs type="person">Meyer</rs>
-               </hi> (des ersten „Pizarro“), unterstützte <rs type="person">Beethoven</rs>
-               <lb facs="#facs_1_region_1684594214053_2604_tl_30" n="N031"/>wiederholt als Virtuose und Dirigent.
-      <lb facs="#facs_1_region_1684594214053_2604_tl_31" n="N032"/>Akademien „zu seinem Vortheil“ gab <rs type="person">Beethoven</rs> im ersten
+      <lb facs="#facs_1_region_1684594214053_2604_tl_15" n="N016"/><rs type="bibl" ref="#hsl_work_id_3614">C-dur-Concert, Op. 15</rs>, vortrug. In derselben Societät spielte
+      <lb facs="#facs_1_region_1684594214053_2604_tl_16" n="N017"/>er am <date when="1798-04-02">2. April 1798</date> den Clavierpart seines Quintetts,
+      <lb facs="#facs_1_region_1684594214053_2604_tl_17" n="N018"/><rs type="bibl" ref="#hsl_work_id_928">Op. 16</rs>. Wir sehen ihn mit collegialer Bereitwilligkeit nicht
+      <lb facs="#facs_1_region_1684594214053_2604_tl_18" n="N019"/>nur dieses Pensions-Institut, sondern auch die Concerte be
+      <lb facs="#facs_1_region_1684594214053_2604_tl_19" n="N020" break="no"/>freundeter Künstler unterstützen. So spielte er seine Sonate
+      <lb facs="#facs_1_region_1684594214053_2604_tl_20" n="N021"/><rs type="bibl" ref="#hsl_work_id_3615">Op. 17</rs> mit dem Hornisten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_220">Punto</rs></hi> in dessen erstem Con
+      <lb facs="#facs_1_region_1684594214053_2604_tl_21" n="N022" break="no"/>cert am <date when="1800-04-18">18. April 1800</date> und seine große <rs type="bibl" ref="#hsl_work_id_867">A-dur-Sonate,
+            <lb facs="#facs_1_region_1684594214053_2604_tl_22" n="N023"/>Op. 47</rs>, mit dem <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Violin-Virtuosen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4226">Bridgetower</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684594214053_2604_tl_23" n="N024"/>am <date when="1803-05-17">17. Mai 1803</date>. Für diesen hatte <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> die Sonate
+      <lb facs="#facs_1_region_1684594214053_2604_tl_24" n="N025"/>ursprünglich geschrieben, welche er später dem berühmten Gei
+      <lb facs="#facs_1_region_1684594214053_2604_tl_25" n="N026" break="no"/>ger Rudolph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3221">Kreutzer</rs></hi> dedicirte und die seither unter der Be
+      <lb facs="#facs_1_region_1684594214053_2604_tl_26" n="N027" break="no"/>nennung „<rs type="bibl" ref="#hsl_work_id_867">Die Kreutzer-Sonate</rs>“ gefeiert ist.</p>
+   <p><lb facs="#facs_1_region_1684594214053_2604_tl_27" n="N028"/>Die Concerte des Violinspielers und Orchester-Directors
+      <lb facs="#facs_1_region_1684594214053_2604_tl_28" n="N029"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4125">Clement</rs></hi> und des Opern-Regisseurs im Theater an der <rs type="place" ref="#hsl_place_id_610">Wien</rs>,
+         <lb facs="#facs_1_region_1684594214053_2604_tl_29" n="N030"/>Seb. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5362">Meyer</rs></hi> (des ersten „Pizarro“), unterstützte <rs type="person" ref="#hsl_person_id_25">Beethoven</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684594214053_2604_tl_30" n="N031"/>wiederholt als Virtuose und Dirigent.</p>
+   <p><lb facs="#facs_1_region_1684594214053_2604_tl_31" n="N032"/>Akademien „zu seinem Vortheil“ gab <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> im ersten
       <lb facs="#facs_1_region_1684594214053_2604_tl_32" n="N033"/>Decennium dieses Jahrhunderts mehrere im Burgtheater und
-      <lb facs="#facs_1_region_1684594214053_2604_tl_33" n="N034"/>im Theater an der <rs type="place">Wien</rs>, wobei er mehr Gewicht darauf legte,
+      <lb facs="#facs_1_region_1684594214053_2604_tl_33" n="N034"/>im Theater an der <rs type="place" ref="#hsl_place_id_55">Wien</rs>, wobei er mehr Gewicht darauf legte,
       <lb facs="#facs_1_region_1684594214053_2604_tl_34" n="N035"/>sich als Componist zu zeigen, denn als Clavierspieler. Eine
-      <lb facs="#facs_1_region_1684594214053_2604_tl_35" n="N036"/>solche Akademie war die vom <date month="0" day="0" year="0">2. April 1800</date>, wo Beethoven's
-      <lb facs="#facs_1_region_1684594214053_2604_tl_36" n="N037"/>
-               <rs type="bibl">
-                  <hi rendition="#em">Septett</hi>, Op. 20</rs>, und seine <rs type="bibl">C-dur-Symphonie</rs> zur ersten
-      <lb facs="#facs_1_region_1684594214053_2604_tl_37" n="N038"/>Aufführung gelangten. Fremde Compositionen hat <rs type="person">Beethoven</rs>
-               <lb facs="#facs_1_region_1684594214053_2604_tl_38" n="N039"/>niemals öffentlich gespielt, aller Wahrscheinlichkeit nach ebenso¬
-      <lb facs="#facs_1_line_1720006227138_537" n="N040"/>wenig in Privatcirkeln. Zu seinem Vortheile gab <rs type="person">Beethoven</rs>
-            </p>
+      <lb facs="#facs_1_region_1684594214053_2604_tl_35" n="N036"/>solche Akademie war die vom <date when="1800-04-02">2. April 1800</date>, wo <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs
+      <lb facs="#facs_1_region_1684594214053_2604_tl_36" n="N037"/><rs type="bibl" ref="#hsl_work_id_3616"><hi rendition="#em">Septett</hi>, Op. 20</rs>, und seine <rs type="bibl" ref="#hsl_work_id_274">C-dur-Symphonie</rs> zur ersten
+      <lb facs="#facs_1_region_1684594214053_2604_tl_37" n="N038"/>Aufführung gelangten. Fremde Compositionen hat <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>
+      <lb facs="#facs_1_region_1684594214053_2604_tl_38" n="N039"/>niemals öffentlich gespielt, aller Wahrscheinlichkeit nach ebenso
+      <lb facs="#facs_1_line_1720006227138_537" n="N040" break="no"/>wenig in Privatcirkeln. Zu seinem Vortheile gab <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>
+         <space quantity="1" unit="char"/> </p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684594219693_2607_tl_1" n="N001"/>die denkwürdigen Akademien vom <date month="0" day="0" year="0">5. April 1803</date> und <date month="0" day="0" year="0" continued="true">22. De¬</date>
-               <lb facs="#facs_1_region_1684594219693_2607_tl_2" n="N002"/>
-               <date month="0" day="0" year="0" continued="true">cember 1808</date>. In ersterer spielte er zum erstenmale sein
-      <lb facs="#facs_1_region_1684594219693_2607_tl_3" n="N003"/>
-               <rs type="bibl">C-moll-Concert</rs>, dirigirte die <rs type="bibl">D-dur-Symphonie</rs> und die
-      <lb facs="#facs_1_region_1684594219693_2607_tl_4" n="N004"/>Cantate: „<rs type="bibl">Christus am Oelberge</rs>“. („Herr <rs type="person">Beethoven</rs>,“
-      <lb facs="#facs_1_region_1684594219693_2607_tl_5" n="N005"/>schreibt der Correspondent der <rs type="bibl">Leipz. A. M. Z.</rs>, „ließ sich
+            <p prev="true">
+      <lb facs="#facs_1_region_1684594219693_2607_tl_1" n="N001"/>die denkwürdigen Akademien vom <date when="1803-04-05">5. April 1803</date> und <date when="1808-12-11">22. De
+      <lb facs="#facs_1_region_1684594219693_2607_tl_2" n="N002" break="no"/>cember 1808</date>. In ersterer spielte er zum erstenmale sein
+      <lb facs="#facs_1_region_1684594219693_2607_tl_3" n="N003"/><rs type="bibl" ref="#hsl_work_id_2210">C-moll-Concert</rs>, dirigirte die <rs type="bibl" ref="#hsl_work_id_688">D-dur-Symphonie</rs> und die
+      <lb facs="#facs_1_region_1684594219693_2607_tl_4" n="N004"/>Cantate: „<rs type="bibl" ref="#hsl_work_id_707">Christus am Oelberge</rs>“. („Herr <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>,“
+      <lb facs="#facs_1_region_1684594219693_2607_tl_5" n="N005"/>schreibt der Correspondent der <rs type="bibl" ref="#hsl_work_id_669">Leipz. A. M. Z.</rs>, „ließ sich
       <lb facs="#facs_1_line_1720006218147_530" n="N006"/>die ersten Plätze doppelt, die gesperrten dreifach, jede Loge statt
       <lb facs="#facs_1_region_1684594219693_2607_tl_7" n="N007"/>4 fl. mit 12 fl. bezahlen.“) In der zweiten erschien unter Anderm
-      <lb facs="#facs_1_region_1684594219693_2607_tl_8" n="N008"/>zum erstenmale die „<hi rendition="#em">
-                  <rs type="bibl">Phantasie</rs>
-               </hi>“ für Clavier, Chor und Orchester.
-      <lb facs="#facs_1_region_1684594219693_2607_tl_9" n="N009"/>Es war jene berühmte oder berüchtigte Aufführung, von
-      <lb facs="#facs_1_region_1684594219693_2607_tl_10" n="N010"/>welcher J. F. <hi rendition="#em">
-                  <rs type="person">Reichardt</rs>
-               </hi> als Augenzeuge berichtet: Das
-      <lb facs="#facs_1_region_1684594219693_2607_tl_11" n="N011"/>Orchester warf in der <rs type="bibl">Clavier-Phantasie</rs> um. <rs type="person">Beethoven</rs>, dar¬
-      <lb facs="#facs_1_region_1684594219693_2607_tl_12" n="N012"/>über erbost, sprang vom Clavier auf, tadelte laut das Orchester
-      <lb facs="#facs_1_region_1684594219693_2607_tl_13" n="N013"/>und ließ das Stück von vorne anfangen. Am <date month="0" day="0" year="0">11. April 1814</date>
-               <lb facs="#facs_1_region_1684594219693_2607_tl_14" n="N014"/>spielte <rs type="person">Beethoven</rs> sein <rs type="bibl">B-dur-Trio, Op. 97</rs>, zum erstenmale
-      <lb facs="#facs_1_region_1684594219693_2607_tl_15" n="N015"/>(mit <hi rendition="#em">
-                  <rs type="person">Schuppanzigh</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Linke</rs>
-               </hi>) in einer Wohlthätigkeits¬
-      <lb facs="#facs_1_region_1684594219693_2607_tl_16" n="N016"/>Akademie beim „römischen Kaiser“. Dasselbe Werk wurde im
-      <lb facs="#facs_1_region_1684594219693_2607_tl_17" n="N017"/>Mai desselben Jahres in einer <rs type="person">Schuppanzigh</rs>'schen Quartett-
-      <lb facs="#facs_1_region_1684594219693_2607_tl_18" n="N018"/>Matinée im <rs type="place">Prater</rs> wiederholt; es war <hi rendition="#em">das letzte öffent¬</hi>
-               <lb facs="#facs_1_region_1684594219693_2607_tl_19" n="N019"/>
-               <hi rendition="#em">liche Auftreten <rs type="person">Beethoven</rs>'s als Clavierspieler</hi>.
-      <lb facs="#facs_1_region_1684594219693_2607_tl_20" n="N020"/>
-               <rs type="person">Beethoven</rs>'s Clavierspiel im Jahre <date month="0" day="0" year="0">1798</date> wird vor dem <rs type="place">Wie¬</rs>
-               <lb facs="#facs_1_region_1684594219693_2607_tl_21" n="N021"/>
-               <rs type="place">n</rs>er Correspondenten der <rs type="bibl">Leipziger Musikzeitung</rs> mit folgenden
-      <lb facs="#facs_1_region_1684594219693_2607_tl_22" n="N022"/>Worten charakterisirt: „<rs type="person">Beethoven</rs>'s Clavierspiel ist äußerst
-      <lb facs="#facs_1_region_1684594219693_2607_tl_23" n="N023"/>brillant, doch weniger delicat und schlägt zuweilen ins Undeut¬
-      <lb facs="#facs_1_region_1684594219693_2607_tl_24" n="N024"/>liche über. Er zeigt sich am allervortheilhaftesten in der freien
+      <lb facs="#facs_1_region_1684594219693_2607_tl_8" n="N008"/>zum erstenmale die „<rs type="bibl" ref="#hsl_work_id_277"><hi rendition="#em">Phantasie</hi>“ für Clavier, Chor und Orchester</rs>.</p>
+   <p><lb facs="#facs_1_region_1684594219693_2607_tl_9" n="N009"/>Es war jene berühmte oder berüchtigte Aufführung, von
+      <lb facs="#facs_1_region_1684594219693_2607_tl_10" n="N010"/>welcher J. F. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_233">Reichardt</rs></hi> als Augenzeuge berichtet: Das
+      <lb facs="#facs_1_region_1684594219693_2607_tl_11" n="N011"/>Orchester warf in der <rs type="bibl" ref="#hsl_work_id_277">Clavier-Phantasie</rs> um. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, dar
+      <lb facs="#facs_1_region_1684594219693_2607_tl_12" n="N012" break="no"/>über erbost, sprang vom Clavier auf, tadelte laut das Orchester
+         <lb facs="#facs_1_region_1684594219693_2607_tl_13" n="N013"/>und ließ das Stück von vorne anfangen. Am <date when="1814-04-11">11. April 1814</date><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684594219693_2607_tl_14" n="N014"/>spielte <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> sein <rs type="bibl" ref="#hsl_work_id_667">B-dur-Trio, Op. 97</rs>, zum erstenmale
+      <lb facs="#facs_1_region_1684594219693_2607_tl_15" n="N015"/>(mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_947">Schuppanzigh</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_948">Linke</rs></hi>) in einer Wohlthätigkeits
+      <lb facs="#facs_1_region_1684594219693_2607_tl_16" n="N016" break="no"/>Akademie beim „römischen Kaiser“. Dasselbe Werk wurde im
+      <lb facs="#facs_1_region_1684594219693_2607_tl_17" n="N017"/>Mai desselben Jahres in einer <rs type="person" ref="#hsl_person_id_947">Schuppanzigh</rs>ʼschen Quartett-
+      <lb facs="#facs_1_region_1684594219693_2607_tl_18" n="N018"/>Matinée im <rs type="place" ref="#hsl_place_id_225">Prater</rs> wiederholt; es war <hi rendition="#em">das letzte öffent
+      <lb facs="#facs_1_region_1684594219693_2607_tl_19" n="N019" break="no"/>liche Auftreten <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs als Clavierspieler</hi>.
+      <lb facs="#facs_1_region_1684594219693_2607_tl_20" n="N020"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Clavierspiel im Jahre <date when="1798">1798</date> wird vor dem <rs type="place" ref="#hsl_place_id_55">Wie
+      <lb facs="#facs_1_region_1684594219693_2607_tl_21" n="N021" break="no"/>n</rs>er Correspondenten der <rs type="bibl" ref="#hsl_work_id_669">Leipziger Musikzeitung</rs> mit folgenden
+      <lb facs="#facs_1_region_1684594219693_2607_tl_22" n="N022"/>Worten charakterisirt: „<rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Clavierspiel ist äußerst
+      <lb facs="#facs_1_region_1684594219693_2607_tl_23" n="N023"/>brillant, doch weniger delicat und schlägt zuweilen ins Undeut
+      <lb facs="#facs_1_region_1684594219693_2607_tl_24" n="N024" break="no"/>liche über. Er zeigt sich am allervortheilhaftesten in der freien
       <lb facs="#facs_1_region_1684594219693_2607_tl_25" n="N025"/>Phantasie. Und hier ist es wirklich ganz außerordentlich, mit
       <lb facs="#facs_1_region_1684594219693_2607_tl_26" n="N026"/>welcher Leichtigkeit und zugleich Festigkeit in der Ideenfolge
-      <lb facs="#facs_1_region_1684594219693_2607_tl_27" n="N027"/>
-               <rs type="person">Beethoven</rs> auf der Stelle jedes ihm gegebene Thema nicht
+      <lb facs="#facs_1_region_1684594219693_2607_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> auf der Stelle jedes ihm gegebene Thema nicht
       <lb facs="#facs_1_region_1684594219693_2607_tl_28" n="N028"/>etwa in den Figuren variirt (womit mancher Virtuose Glück
-      <lb facs="#facs_1_region_1684594219693_2607_tl_29" n="N029"/>und — Wind macht), sondern wirklich <hi rendition="#em">ausführt</hi>. Seit <hi rendition="#em">
-                  <rs type="person" continued="true">Mo¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684594219693_2607_tl_30" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">zart</rs>ʼs</hi> Tode, der mir hier noch immer das Non plus ultra
+      <lb facs="#facs_1_region_1684594219693_2607_tl_29" n="N029"/>und — Wind macht), sondern wirklich <hi rendition="#em">ausführt</hi>. Seit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mo
+      <lb facs="#facs_1_region_1684594219693_2607_tl_30" n="N030" break="no"/>zart</rs>ʼs</hi> Tode, der mir hier noch immer das Non plus ultra
       <lb facs="#facs_1_region_1684594219693_2607_tl_31" n="N031"/>bleibt, habe ich diese Art des Genusses nirgends in dem Maße
-      <lb facs="#facs_1_region_1684594219693_2607_tl_32" n="N032"/>gefunden, in dem sie mir bei <rs type="person">Beethoven</rs> zu Theil wurde.“
+      <lb facs="#facs_1_region_1684594219693_2607_tl_32" n="N032"/>gefunden, in dem sie mir bei <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> zu Theil wurde.“
       <lb facs="#facs_1_region_1684594219693_2607_tl_33" n="N033"/>Denselben nachhaltigen Eindruck einer gigantischen Kraft und
-      <lb facs="#facs_1_region_1684594219693_2607_tl_34" n="N034"/>Ideenfülle mußte <rs type="person">Beethoven</rs>'s Vortrag in jedem empfänglichen
-      <lb facs="#facs_1_region_1684594219693_2607_tl_35" n="N035"/>Hörer zurücklassen. Die eigentlichen Meister der Technik konn¬
-      <lb facs="#facs_1_region_1684594219693_2607_tl_36" n="N036"/>ten aber sein Spiel durchaus nicht tadellos finden. <hi rendition="#em">
-                  <rs type="person" continued="true">Cheru¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684594219693_2607_tl_37" n="N037"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bini</rs>
-               </hi> nannte es mit Einem Worte <hi rendition="#em">rauh</hi>. J. B. <hi rendition="#em">
-                  <rs type="person">Cramer</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684594219693_2607_tl_38" n="N038"/>stieß sich nicht so sehr an der Rauhheit als an der Ungleich¬
-      <lb facs="#facs_1_region_1684594219693_2607_tl_39" n="N039"/>heit und Unzuverlässigkeit des Virtuosen <rs type="person">Beethoven</rs>, von dem
+     <lb facs="#facs_1_region_1684594219693_2607_tl_34" n="N034"/>Ideenfülle mußte <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Vortrag in jedem empfänglichen
+      <lb facs="#facs_1_region_1684594219693_2607_tl_35" n="N035"/>Hörer zurücklassen. Die eigentlichen Meister der Technik konn
+      <lb facs="#facs_1_region_1684594219693_2607_tl_36" n="N036" break="no"/>ten aber sein Spiel durchaus nicht tadellos finden. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_47">Cheru
+            <lb facs="#facs_1_region_1684594219693_2607_tl_37" n="N037" break="no"/>bini</rs></hi> nannte es mit Einem Worte <hi rendition="#em">rauh</hi>. J. B. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1162">Cramer</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684594219693_2607_tl_38" n="N038"/>stieß sich nicht so sehr an der Rauhheit als an der Ungleich
+      <lb facs="#facs_1_region_1684594219693_2607_tl_39" n="N039" break="no"/>heit und Unzuverlässigkeit des Virtuosen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, von dem
       <lb facs="#facs_1_region_1684594219693_2607_tl_40" n="N040"/>er dasselbe Stück heute voll Geist und Ausdruck vortragen
       <lb facs="#facs_1_region_1684594219693_2607_tl_41" n="N041"/>hörte und am folgenden Tage launenhaft und verworren. Nach
-      <lb facs="#facs_1_region_1684594219693_2607_tl_42" n="N042"/>
-               <hi rendition="#em">
-                  <rs type="person">Clementi</rs>ʼs</hi> Aeußerung, der <rs type="person">Beethoven</rs> noch im Jahre <date month="0" day="0" year="0">1807</date>
-               <lb facs="#facs_1_line_1720006234726_545" n="N043"/>hörte, war dessen Spiel „nur wenig ausgebildet, nicht selten</p>
+         <lb facs="#facs_1_region_1684594219693_2607_tl_42" n="N042"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5363">Clementi</rs>ʼs</hi> Aeußerung, der <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> noch im Jahre <date when="1807">1807</date><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_line_1720006234726_545" n="N043"/>hörte, war dessen Spiel „nur wenig ausgebildet, nicht selten<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684594223687_2610_tl_1" n="N001"/>ungestüm wie er selbst, immer jedoch voll Geist“. Selbst
-      <lb facs="#facs_1_region_1684594223687_2610_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person">Czerny</rs>
-               </hi>, der jederzeit Höfliche und Bescheidene, wagt die Be¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_3" n="N003"/>merkung, daß <rs type="person">Beethoven</rs>'s Spiel in Bezug auf Reinheit
+            <p prev="true">
+      <lb facs="#facs_1_region_1684594223687_2610_tl_1" n="N001"/>ungestüm wie er selbst, immer jedoch voll Geist“. Selbst
+      <lb facs="#facs_1_region_1684594223687_2610_tl_2" n="N002"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1823">Czerny</rs></hi>, der jederzeit Höfliche und Bescheidene, wagt die Be
+      <lb facs="#facs_1_region_1684594223687_2610_tl_3" n="N003" break="no"/>merkung, daß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Spiel in Bezug auf Reinheit
       <lb facs="#facs_1_region_1684594223687_2610_tl_4" n="N004"/>und Deutlichkeit „nicht immer“ als Muster dienen konnte.
       <lb facs="#facs_1_region_1684594223687_2610_tl_5" n="N005"/>An der Richtigkeit dessen, worin diese sachkundigen und unb¬e
       <lb facs="#facs_1_region_1684594223687_2610_tl_6" n="N006"/>fangenen Urtheile zusammenstimmen, ist keinen Augenblick zu
       <lb facs="#facs_1_region_1684594223687_2610_tl_7" n="N007"/>zweifeln. Es paßt auch vollkommen zu dem Bilde, das wir
-      <lb facs="#facs_1_region_1684594223687_2610_tl_8" n="N008"/>aus <rs type="person">Beethoven</rs>'s Compositionen und seiner ganzen Persönlich¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_9" n="N009"/>keit uns von dieser großartig vulcanischen Natur machen,
+      <lb facs="#facs_1_region_1684594223687_2610_tl_8" n="N008"/>aus <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Compositionen und seiner ganzen Persönlich
+      <lb facs="#facs_1_region_1684594223687_2610_tl_9" n="N009" break="no"/>keit uns von dieser großartig vulcanischen Natur machen,
       <lb facs="#facs_1_region_1684594223687_2610_tl_10" n="N010"/>welche den mächtigen Ideengehalt über die formale Schönheit
-      <lb facs="#facs_1_region_1684594223687_2610_tl_11" n="N011"/>setzte und in der Entfesselung seiner Gedankenfülle die tadel¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_12" n="N012"/>lose Abrundung des Technischen übersah oder gering achtete.
-      <lb facs="#facs_1_region_1684594223687_2610_tl_13" n="N013"/>Der große Einfluß <rs type="person">Beethoven</rs>'s auf die heutige Clavier¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_14" n="N014"/>musik ging mehr von Beethoven dem Clavier-Componisten, als
-      <lb facs="#facs_1_region_1684594223687_2610_tl_15" n="N015"/>dem Clavierspieler aus. Auf die Clavier-Virtuosität <hi rendition="#em">seiner</hi>
-               <lb facs="#facs_1_region_1684594223687_2610_tl_16" n="N016"/>Zeit hat <rs type="person">Beethoven</rs> nicht so unmittelbar und bestimmend ein¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_17" n="N017"/>gewirkt; theils weil er als Pianist früh aus der Oeffentlich¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_18" n="N018"/>keit zurücktrat, theils weil sich bald neben ihm, gleichsam über ihn
+      <lb facs="#facs_1_region_1684594223687_2610_tl_11" n="N011"/>setzte und in der Entfesselung seiner Gedankenfülle die tadel
+      <lb facs="#facs_1_region_1684594223687_2610_tl_12" n="N012" break="no"/>lose Abrundung des Technischen übersah oder gering achtete.</p>
+   <p><lb facs="#facs_1_region_1684594223687_2610_tl_13" n="N013"/>Der große Einfluß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs auf die heutige Clavier
+      <lb facs="#facs_1_region_1684594223687_2610_tl_14" n="N014" break="no"/>musik ging mehr von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> dem Clavier-Componisten, als
+         <lb facs="#facs_1_region_1684594223687_2610_tl_15" n="N015"/>dem Clavierspieler aus. Auf die Clavier-Virtuosität <hi rendition="#em">seiner</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684594223687_2610_tl_16" n="N016"/>Zeit hat <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> nicht so unmittelbar und bestimmend ein
+      <lb facs="#facs_1_region_1684594223687_2610_tl_17" n="N017" break="no"/>gewirkt; theils weil er als Pianist früh aus der Oeffentlich
+      <lb facs="#facs_1_region_1684594223687_2610_tl_18" n="N018" break="no"/>keit zurücktrat, theils weil sich bald neben ihm, gleichsam über ihn
       <lb facs="#facs_1_region_1684594223687_2610_tl_19" n="N019"/>hinweg, eine <hi rendition="#em">neue</hi> Richtung der Clavier-Virtuosität gebildet
-      <lb facs="#facs_1_region_1684594223687_2610_tl_20" n="N020"/>hatte: die von <hi rendition="#em">
-                  <rs type="person">Hummel</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Moscheles</rs>
-               </hi> repräsentirte. Es
-      <lb facs="#facs_1_region_1684594223687_2610_tl_21" n="N021"/>ist festzuhalten, daß bei <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> von eigent¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_22" n="N022"/>lichem Virtuosenthum noch nicht die Rede sein kann. Beide
-      <lb facs="#facs_1_region_1684594223687_2610_tl_23" n="N023"/>waren vor Allem Tondichter im großen Style, welche neben¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_24" n="N024"/>bei auch für Clavier componirten und in ihrem Claviersatze
-      <lb facs="#facs_1_region_1684594223687_2610_tl_25" n="N025"/>wiederum zunächst den Componisten und dann erst den Vir¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_26" n="N026"/>tuosen geltend machten. Ihre Clavierwerke waren Kunstwerke
+      <lb facs="#facs_1_region_1684594223687_2610_tl_20" n="N020"/>hatte: die von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_382">Hummel</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_950">Moscheles</rs></hi> repräsentirte. Es
+      <lb facs="#facs_1_region_1684594223687_2610_tl_21" n="N021"/>ist festzuhalten, daß bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> von eigent
+      <lb facs="#facs_1_region_1684594223687_2610_tl_22" n="N022" break="no"/>lichem Virtuosenthum noch nicht die Rede sein kann. Beide
+      <lb facs="#facs_1_region_1684594223687_2610_tl_23" n="N023"/>waren vor Allem Tondichter im großen Style, welche neben
+      <lb facs="#facs_1_region_1684594223687_2610_tl_24" n="N024" break="no"/>bei auch für Clavier componirten und in ihrem Claviersatze
+      <lb facs="#facs_1_region_1684594223687_2610_tl_25" n="N025"/>wiederum zunächst den Componisten und dann erst den Vir
+      <lb facs="#facs_1_region_1684594223687_2610_tl_26" n="N026" break="no"/>tuosen geltend machten. Ihre Clavierwerke waren Kunstwerke
       <lb facs="#facs_1_region_1684594223687_2610_tl_27" n="N027"/>von selbstständigem Gehalte, nicht auf Bravour berechnet, noch
-      <lb facs="#facs_1_region_1684594223687_2610_tl_28" n="N028"/>weniger auf eine bestimmte Bravour ihrer Autoren. Die Vir¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_29" n="N029"/>tuosität <rs type="person">Mozart</rs>'s und <rs type="person">Beethoven</rs>'s bestand darin, diese ihre
+      <lb facs="#facs_1_region_1684594223687_2610_tl_28" n="N028"/>weniger auf eine bestimmte Bravour ihrer Autoren. Die Vir
+      <lb facs="#facs_1_region_1684594223687_2610_tl_29" n="N029" break="no"/>tuosität <rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼs und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs bestand darin, diese ihre
       <lb facs="#facs_1_region_1684594223687_2610_tl_30" n="N030"/>Kunstwerke vollendet vorzutragen. Immer war die Composition
-      <lb facs="#facs_1_region_1684594223687_2610_tl_31" n="N031"/>und nicht das Spiel die Hauptsache, stets die Idee des Ton¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_32" n="N032"/>dichters, nicht die Persönlichkeit des Spielers. Wir sehen an
+      <lb facs="#facs_1_region_1684594223687_2610_tl_31" n="N031"/>und nicht das Spiel die Hauptsache, stets die Idee des Ton
+      <lb facs="#facs_1_region_1684594223687_2610_tl_32" n="N032" break="no"/>dichters, nicht die Persönlichkeit des Spielers. Wir sehen an
       <lb facs="#facs_1_region_1684594223687_2610_tl_33" n="N033"/>ihnen Virtuosität, aber noch kein Virtuosenthum. Letzteres,
       <lb facs="#facs_1_region_1684594223687_2610_tl_34" n="N034"/>als charakteristische und compacte Erscheinung betrachtet, kann
       <lb facs="#facs_1_region_1684594223687_2610_tl_35" n="N035"/>erst von der Zeit datirt werden, wo die Kunstfertigkeit des
-      <lb facs="#facs_1_region_1684594223687_2610_tl_36" n="N036"/>Spielers weit stärker in den Vordergrund trat und die glän¬
-      <lb facs="#facs_1_region_1684594223687_2610_tl_37" n="N037"/>zendste Geltung für sich beanspruchte oder fand. Wir können
-      <lb facs="#facs_1_region_1684594223687_2610_tl_38" n="N038"/>diese Epoche, nach dem Maßstabe jener Zeit, von <hi rendition="#em">
-                  <rs type="person">Hummel</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684594223687_2610_tl_39" n="N039"/>datiren, der auch das systematische Reisen auf seine Kunst
+      <lb facs="#facs_1_region_1684594223687_2610_tl_36" n="N036"/>Spielers weit stärker in den Vordergrund trat und die glän
+      <lb facs="#facs_1_region_1684594223687_2610_tl_37" n="N037" break="no"/>zendste Geltung für sich beanspruchte oder fand. Wir können
+         <lb facs="#facs_1_region_1684594223687_2610_tl_38" n="N038"/>diese Epoche, nach dem Maßstabe jener Zeit, von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_382">Hummel</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684594223687_2610_tl_39" n="N039"/>datiren, der auch das systematische Reisen auf seine Kunst
       <lb facs="#facs_1_region_1684594223687_2610_tl_40" n="N040"/>sammt dem ganzen Apparate eines lucrativen Concertgebers
-      <lb facs="#facs_1_region_1684594223687_2610_tl_41" n="N041"/>allgemein machte.
-      <lb facs="#facs_1_region_1684594223687_2610_tl_42" n="N042"/>Als <hi rendition="#em">Dirigent</hi> betheiligte sich <rs type="person">Beethoven</rs> in der Regel
-      <lb facs="#facs_1_line_1720006234725_544" n="N043"/>an Concerten, wenn es die erste Aufführung eines seiner grö¬</p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684594241980_2616_tl_1" n="N001"/>seren Werke galt. So hörte man (in <hi rendition="#em">
-                  <rs type="person">Clement</rs>'s</hi> Concert
-      <lb facs="#facs_2_region_1684594241980_2616_tl_2" n="N002"/>vom <date month="0" day="0" year="0">7. April 1805</date>) unter <rs type="person">Beethoven</rs>'s Leitung zuerst die
-      <lb facs="#facs_2_region_1684594241980_2616_tl_3" n="N003"/>
-               <rs type="bibl">heroische Symphonie in Es-dur</rs> (damals und später noch als
-      <lb facs="#facs_2_line_1720006365171_566" n="N004"/>„<rs type="bibl">Symphonie in <hi rendition="#em">Dis</hi>
-               </rs>“ auf dem Programme verzeichnet). Er
-      <lb facs="#facs_2_region_1684594241980_2616_tl_5" n="N005"/>dirigirte ferner die ersten Aufführungen seiner <rs type="bibl">A-dur-Sym¬</rs>
-               <lb facs="#facs_2_region_1684594241980_2616_tl_6" n="N006"/>
-               <rs type="bibl">phonie</rs> und der „<rs type="bibl">Schlacht von Vittoria</rs>“ am <date month="0" day="0" year="0" continued="true">8. December</date>
-               <lb facs="#facs_2_region_1684594241980_2616_tl_7" n="N007"/>
-               <date month="0" day="0" year="0" continued="true">1813</date>, seiner <rs type="bibl">achten Symphonie</rs> am <date month="0" day="0" year="0">29. November 1814</date>
-               <lb facs="#facs_2_region_1684594241980_2616_tl_8" n="N008"/>u.s.w. <rs type="person">Beethoven</rs>'s zunehmende Taubheit, sowie seine unge¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_9" n="N009"/>duldige Heftigkeit, welche die Verständigung mit dem Orchester
-      <lb facs="#facs_2_region_1684594241980_2616_tl_10" n="N010"/>noch erschwerte, veranlaßten ihn, in den letzten zwölf bis vier¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_11" n="N011"/>zehn Jahren seines Lebens nur mehr sehr selten als Dirigent
-      <lb facs="#facs_2_region_1684594241980_2616_tl_12" n="N012"/>oder Concert-Veranstalter aufzutreten. Der Erfolg dieser Con¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_13" n="N013"/>certe stand nicht gleich: in manchen Fällen war er ein außer¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_14" n="N014"/>ordentlicher, eine wahre Huldigung des ganzen Publicums zu
+      <lb facs="#facs_1_region_1684594223687_2610_tl_41" n="N041"/>allgemein machte.</p>
+   <p><lb facs="#facs_1_region_1684594223687_2610_tl_42" n="N042"/>Als <hi rendition="#em">Dirigent</hi> betheiligte sich <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in der Regel
+      <lb facs="#facs_1_line_1720006234725_544" n="N043"/>an Concerten, wenn es die erste Aufführung eines seiner grö</p>
+         <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+         <cb n="4"/>
+         <p prev="true">
+      <lb facs="#facs_2_region_1684594241980_2616_tl_1" n="N001" break="no"/>seren Werke galt. So hörte man (in <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4125">Clement</rs>ʼs</hi> Concert
+      <lb facs="#facs_2_region_1684594241980_2616_tl_2" n="N002"/>vom <date when="1805-04-07">7. April 1805</date>) unter <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Leitung zuerst die
+      <lb facs="#facs_2_region_1684594241980_2616_tl_3" n="N003"/><rs type="bibl" ref="#hsl_work_id_42">heroische Symphonie in Es-dur</rs> (damals und später noch als
+      <lb facs="#facs_2_line_1720006365171_566" n="N004"/>„<rs type="bibl" ref="#hsl_work_id_42">Symphonie in <hi rendition="#em">Dis</hi></rs>“ auf dem Programme verzeichnet). Er
+      <lb facs="#facs_2_region_1684594241980_2616_tl_5" n="N005"/>dirigirte ferner die ersten Aufführungen seiner <rs type="bibl" ref="#hsl_work_id_593">A-dur-Sym
+      <lb facs="#facs_2_region_1684594241980_2616_tl_6" n="N006" break="no"/>phonie</rs> und der „<rs type="bibl" ref="#hsl_work_id_1354">Schlacht von Vittoria</rs>“ am <date when="1813-12-08">8. December
+      <lb facs="#facs_2_region_1684594241980_2616_tl_7" n="N007"/>1813</date>, seiner <rs type="bibl" ref="#hsl_work_id_273">achten Symphonie</rs> am <date when="1814-11-29">29. November 1814</date>
+      <lb facs="#facs_2_region_1684594241980_2616_tl_8" n="N008"/>u.s.w. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs zunehmende Taubheit, sowie seine unge
+      <lb facs="#facs_2_region_1684594241980_2616_tl_9" n="N009" break="no"/>duldige Heftigkeit, welche die Verständigung mit dem Orchester
+      <lb facs="#facs_2_region_1684594241980_2616_tl_10" n="N010"/>noch erschwerte, veranlaßten ihn, in den letzten zwölf bis vier
+      <lb facs="#facs_2_region_1684594241980_2616_tl_11" n="N011" break="no"/>zehn Jahren seines Lebens nur mehr sehr selten als Dirigent
+      <lb facs="#facs_2_region_1684594241980_2616_tl_12" n="N012"/>oder Concert-Veranstalter aufzutreten. Der Erfolg dieser Con
+      <lb facs="#facs_2_region_1684594241980_2616_tl_13" n="N013" break="no"/>certe stand nicht gleich: in manchen Fällen war er ein außer
+      <lb facs="#facs_2_region_1684594241980_2616_tl_14" n="N014" break="no"/>ordentlicher, eine wahre Huldigung des ganzen Publicums zu
       <lb facs="#facs_2_region_1684594241980_2616_tl_15" n="N015"/>den Füßen eines Triumphators. Seine höchste Höhe erreichte
-      <lb facs="#facs_2_region_1684594241980_2616_tl_16" n="N016"/>dieser Enthusiasmus in drei Aufführungen: zuerst in dem Fest¬
-      <lb facs="#facs_2_line_1721305101937_233" n="N017"/>concerte im Universitäts-Saale (<date month="0" day="0" year="0">8. December 1813</date>)
-      <lb facs="#facs_2_line_1721305118702_238" n="N018"/>wo <rs type="person">Beethoven</rs>'s <rs type="bibl">A-dur-Symphonie</rs> und seine „<rs type="bibl">Schlacht</rs>
-               <lb facs="#facs_2_region_1684594241980_2616_tl_22" n="N019"/>
-               <rs type="bibl">bei Vittoria</rs>“ in prachtvoller Aufführung zum erstenmale
-      <lb facs="#facs_2_region_1684594241980_2616_tl_23" n="N020"/>gegeben wurden. (Bei der <rs type="bibl">Schlacht-Symphonie</rs> wirkten die ersten
-      <lb facs="#facs_2_region_1684594241980_2616_tl_24" n="N021"/>Künstler, wie <hi rendition="#em">
-                  <rs type="person">Spohr</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Mayseder</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Schuppanzigh</rs>
-               </hi>, im Or¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_25" n="N022"/>chester mit, <hi rendition="#em">
-                  <rs type="person">Hummel</rs>
-               </hi> schlug die große Trommel, <hi rendition="#em">
-                  <rs type="person">Salieri</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684594241980_2616_tl_26" n="N023"/>dirigirte die Kanonenschläge.) Sodann in der Aufführung der
-      <lb facs="#facs_2_region_1684594241980_2616_tl_27" n="N024"/>Cantate „<hi rendition="#em">
-                  <rs type="bibl">Der glorreiche Augenblick</rs>
-               </hi>“ im Redoutensaal
-      <lb facs="#facs_2_line_1721305243840_254" n="N025"/>während der Congreßfeste (<date month="0" day="0" year="0">29. November 1814</date>), endlich in
-      <lb facs="#facs_2_region_1684594241980_2616_tl_30" n="N026"/>der denkwürdigen Akademie vom <date month="0" day="0" year="0">7. Mai 1827</date> im großen
-      <lb facs="#facs_2_region_1684594241980_2616_tl_31" n="N027"/>Redoutensaale, wo Beethoven seine <rs type="bibl">neunte Symphonie</rs> auf¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_32" n="N028"/>führte und zum letztenmale öffentlich dirigirte. Er hatte nur
+      <lb facs="#facs_2_region_1684594241980_2616_tl_16" n="N016"/>dieser Enthusiasmus in drei Aufführungen: zuerst in dem Fest
+      <lb facs="#facs_2_line_1721305101937_233" n="N017" break="no"/>concerte im Universitäts-Saale (<date when="1813-12-08">8. December 1813</date>)
+      <lb facs="#facs_2_line_1721305118702_238" n="N018"/>wo <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs <rs type="bibl" ref="#hsl_work_id_593">A-dur-Symphonie</rs> und seine „<rs type="bibl" ref="#hsl_work_id_1354">Schlacht
+      <lb facs="#facs_2_region_1684594241980_2616_tl_22" n="N019"/>bei Vittoria</rs>“ in prachtvoller Aufführung zum erstenmale
+      <lb facs="#facs_2_region_1684594241980_2616_tl_23" n="N020"/>gegeben wurden. (Bei der <rs type="bibl" ref="#hsl_work_id_1354">Schlacht-Symphonie</rs> wirkten die ersten
+      <lb facs="#facs_2_region_1684594241980_2616_tl_24" n="N021"/>Künstler, wie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_293">Spohr</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_939">Mayseder</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_947">Schuppanzigh</rs></hi>, im Or
+         <lb facs="#facs_2_region_1684594241980_2616_tl_25" n="N022" break="no"/>chester mit, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_382">Hummel</rs></hi> schlug die große Trommel, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_754">Salieri</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684594241980_2616_tl_26" n="N023"/>dirigirte die Kanonenschläge.) Sodann in der Aufführung der
+      <lb facs="#facs_2_region_1684594241980_2616_tl_27" n="N024"/>Cantate „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1537">Der glorreiche Augenblick</rs></hi>“ im Redoutensaal
+      <lb facs="#facs_2_line_1721305243840_254" n="N025"/>während der Congreßfeste (<date when="1814-11-29">29. November 1814</date>), endlich in
+      <lb facs="#facs_2_region_1684594241980_2616_tl_30" n="N026"/>der denkwürdigen Akademie vom <date when="1827-05-07">7. Mai 1827</date> im großen
+      <lb facs="#facs_2_region_1684594241980_2616_tl_31" n="N027"/>Redoutensaale, wo <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> seine <rs type="bibl" ref="#hsl_work_id_272">neunte Symphonie</rs> auf
+      <lb facs="#facs_2_region_1684594241980_2616_tl_32" n="N028" break="no"/>führte und zum letztenmale öffentlich dirigirte. Er hatte nur
       <lb facs="#facs_2_region_1684594241980_2616_tl_33" n="N029"/>zum Scheine dirigirt, denn die Mitwirkenden waren heimlich
-      <lb facs="#facs_2_region_1684594241980_2616_tl_34" n="N030"/>übereingekommen, sich nur an die Zeichen des ersten Violin¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_35" n="N031"/>spielers und des Chordirigenten zu halten, nicht an das Tac¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_36" n="N032"/>tiren <rs type="person">Beethoven</rs>'s, der in seiner Taubheit das Orchester eben¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_37" n="N033"/>sowenig hörte, als den brausenden Beifallssturm des Publi¬
-      <lb facs="#facs_2_line_1721305319538_267" n="N034"/>cums. War bei dem Erfolge „<rs type="bibl">Schlacht von Vittoria</rs>“
-      <lb facs="#facs_2_line_1721305347804_272" n="N035"/>und des „<rs type="bibl">glorreichen Augenblickes</rs>“ patriotische Enthusias¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_42" n="N036"/>mus mit thätig gewesen, so vereinigte sich in jener Abschieds¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_43" n="N037"/>Akademie vom Jahre <date month="0" day="0" year="0">1824</date> die Begeisterung für den Genius
-      <lb facs="#facs_2_region_1684594241980_2616_tl_44" n="N038"/>mit der schmerzlichen Theilnahme für den unglücklichen Men¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_45" n="N039"/>schen, um <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> einen Triumph ohnegleichen zu berei¬
-      <lb facs="#facs_2_region_1684594241980_2616_tl_46" n="N040"/>ten. Wenn der Erfolg in anderen Fällen nicht auf gleicher
+      <lb facs="#facs_2_region_1684594241980_2616_tl_34" n="N030"/>übereingekommen, sich nur an die Zeichen des ersten Violin
+      <lb facs="#facs_2_region_1684594241980_2616_tl_35" n="N031" break="no"/>spielers und des Chordirigenten zu halten, nicht an das Tac
+      <lb facs="#facs_2_region_1684594241980_2616_tl_36" n="N032" break="no"/>tiren <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs, der in seiner Taubheit das Orchester eben
+      <lb facs="#facs_2_region_1684594241980_2616_tl_37" n="N033" break="no"/>sowenig hörte, als den brausenden Beifallssturm des Publi
+      <lb facs="#facs_2_line_1721305319538_267" n="N034" break="no"/>cums. War bei dem Erfolge „<rs type="bibl" ref="#hsl_work_id_1354">Schlacht von Vittoria</rs>“
+      <lb facs="#facs_2_line_1721305347804_272" n="N035"/>und des „<rs type="bibl" ref="#hsl_work_id_1537">glorreichen Augenblickes</rs>“ patriotische Enthusias
+      <lb facs="#facs_2_region_1684594241980_2616_tl_42" n="N036" break="no"/>mus mit thätig gewesen, so vereinigte sich in jener Abschieds
+      <lb facs="#facs_2_region_1684594241980_2616_tl_43" n="N037" break="no"/>Akademie vom Jahre <date when="1824">1824</date> die Begeisterung für den Genius
+      <lb facs="#facs_2_region_1684594241980_2616_tl_44" n="N038"/>mit der schmerzlichen Theilnahme für den unglücklichen Men
+      <lb facs="#facs_2_region_1684594241980_2616_tl_45" n="N039" break="no"/>schen, um <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> einen Triumph ohnegleichen zu berei
+      <lb facs="#facs_2_region_1684594241980_2616_tl_46" n="N040" break="no"/>ten. Wenn der Erfolg in anderen Fällen nicht auf gleicher
       <lb facs="#facs_2_region_1684594241980_2616_tl_47" n="N041"/>Höhe stand, so waren die Eigenthümlichkeiten des Meisters
-      <lb facs="#facs_2_line_1720006373855_572" n="N042"/>zum Theile selbst schuld daran. Er war als Concert-Veran¬</p>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684594250566_2619_tl_1" n="N001"/>stalter nicht glücklich. Einmal muthete er dem Hörer viel zu
-      <lb facs="#facs_2_region_1684594250566_2619_tl_2" n="N002"/>viel zu und brachte Monstre-Programme, welche die Fassungs¬
-      <lb facs="#facs_2_region_1684594250566_2619_tl_3" n="N003"/>kraft eines unvorbereiteten Publicums weit übersteigen muß¬
-      <lb facs="#facs_2_line_1720006365171_565" n="N004"/>ten. Was soll man dazu sagen, wenn Beethoven in Einem
-      <lb facs="#facs_2_region_1684594250566_2619_tl_4" n="N005"/>Concerte (<date month="0" day="0" year="0">17. December 1808</date>) nebst einer <rs type="bibl">Arie</rs>
-               <hi rendition="#em">zwei neue</hi>
-               <lb facs="#facs_2_region_1684594250566_2619_tl_5" n="N006"/>Symphonien (<rs type="bibl">Nr. 5</rs> und <rs type="bibl">6</rs>), <hi rendition="#em">drei</hi> Sätze einer <rs type="bibl">Messe</rs>
-               <lb facs="#facs_2_region_1684594250566_2619_tl_6" n="N007"/>
-               <rs type="bibl">(C-dur)</rs> und <hi rendition="#em">zwei</hi> große mehrsätzige Clavier-Compositionen
-      <lb facs="#facs_2_region_1684594250566_2619_tl_7" n="N008"/>(<rs type="bibl">Concert in G-dur</rs>, <rs type="bibl">Phantasie mit Chor und Orchester</rs>) auf¬
-      <lb facs="#facs_2_region_1684594250566_2619_tl_8" n="N009"/>führen ließ? „Wir haben da in der bittersten Kälte (das
-      <lb facs="#facs_2_line_1721305540677_298" n="N010"/>Theater war nicht geheizt) von halb 7 bis halb 11 Uhr aus¬
-      <lb facs="#facs_2_line_1721305553795_302" n="N011"/>gehalten,“ reibt <hi rendition="#em">
-                  <rs type="person">Reichardt</rs>
-               </hi> über dieses Concert. „Die
-      <lb facs="#facs_2_line_1721305789560_307" n="N012"/>eine <rs type="bibl">Pastoral-Symphonie</rs>,“ setzt er hinzu, „dauerte schon län¬
-      <lb facs="#facs_2_region_1684594250566_2619_tl_15" n="N013"/>ger, als bei uns ein ganzes Hofconcert dauern darf.“ Dabei
-      <lb facs="#facs_2_region_1684594250566_2619_tl_16" n="N014"/>muß die Aufführung dieser überaus schwierigen, ganz ungenü¬
-      <lb facs="#facs_2_region_1684594250566_2619_tl_17" n="N015"/>gend probirten Stücke abschreckend gewesen sein. Sänger und
+      <lb facs="#facs_2_line_1720006373855_572" n="N042"/>zum Theile selbst schuld daran. Er war als Concert-Veran</p>
+               <cb n="5"/>
+               <p prev="true">
+      <lb facs="#facs_2_region_1684594250566_2619_tl_1" n="N001" break="no"/>stalter nicht glücklich. Einmal muthete er dem Hörer viel zu
+      <lb facs="#facs_2_region_1684594250566_2619_tl_2" n="N002"/>viel zu und brachte Monstre-Programme, welche die Fassungs
+      <lb facs="#facs_2_region_1684594250566_2619_tl_3" n="N003" break="no"/>kraft eines unvorbereiteten Publicums weit übersteigen muß
+      <lb facs="#facs_2_line_1720006365171_565" n="N004" break="no"/>ten. Was soll man dazu sagen, wenn <rs type="person" ref="#hsl_person_id_25"> Beethoven</rs> in Einem
+      <lb facs="#facs_2_region_1684594250566_2619_tl_4" n="N005"/>Concerte (<date when="1808-12-07">17. December 1808</date>) nebst einer <rs type="bibl" ref="#hsl_work_id_3631">Arie</rs><hi rendition="#em">zwei neue</hi>
+      <lb facs="#facs_2_region_1684594250566_2619_tl_5" n="N006"/>Symphonien (<rs type="bibl" ref="#hsl_work_id_278">Nr. 5</rs> und <rs type="bibl" ref="#hsl_work_id_408">6</rs>), <hi rendition="#em">drei</hi> Sätze einer <rs type="bibl" ref="#hsl_work_id_2244">Messe
+      <lb facs="#facs_2_region_1684594250566_2619_tl_6" n="N007"/>(C-dur)</rs> und <hi rendition="#em">zwei</hi> große mehrsätzige Clavier-Compositionen
+      <lb facs="#facs_2_region_1684594250566_2619_tl_7" n="N008"/>(<rs type="bibl" ref="#hsl_work_id_1058">Concert in G-dur</rs>, <rs type="bibl" ref="#hsl_work_id_277">Phantasie mit Chor und Orchester</rs>) auf
+      <lb facs="#facs_2_region_1684594250566_2619_tl_8" n="N009" break="no"/>führen ließ? „Wir haben da in der bittersten Kälte (das
+      <lb facs="#facs_2_line_1721305540677_298" n="N010"/>Theater war nicht geheizt) von halb 7 bis halb 11 Uhr aus
+      <lb facs="#facs_2_line_1721305553795_302" n="N011" break="no"/>gehalten,“ reibt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_233">Reichardt</rs></hi> über dieses Concert. „Die
+      <lb facs="#facs_2_line_1721305789560_307" n="N012"/>eine <rs type="bibl" ref="#hsl_work_id_408">Pastoral-Symphonie</rs>,“ setzt er hinzu, „dauerte schon län
+      <lb facs="#facs_2_region_1684594250566_2619_tl_15" n="N013" break="no"/>ger, als bei uns ein ganzes Hofconcert dauern darf.“ Dabei
+      <lb facs="#facs_2_region_1684594250566_2619_tl_16" n="N014"/>muß die Aufführung dieser überaus schwierigen, ganz ungenü
+      <lb facs="#facs_2_region_1684594250566_2619_tl_17" n="N015" break="no"/>gend probirten Stücke abschreckend gewesen sein. Sänger und
       <lb facs="#facs_2_region_1684594250566_2619_tl_18" n="N016"/>Orchester, aus sehr heterogenen Bestandtheilen zusammengesetzt,
       <lb facs="#facs_2_line_1720006387018_580" n="N017"/>hatten nicht einmal von allen Stücken Eine vollständige Probe 
-      <lb facs="#facs_2_region_1684594250566_2619_tl_20" n="N018"/>abgehalten!
-      <lb facs="#facs_2_region_1684594250566_2619_tl_21" n="N019"/>In dem Subscriptions-Concerte vom <date month="0" day="0" year="0">Februar 1807</date> ließ
-      <lb facs="#facs_2_region_1684594250566_2619_tl_22" n="N020"/>
-               <rs type="person">Beethoven</rs> eine neue <rs type="bibl">Symphonie (Nr. 4)</rs> und dazu die
-      <lb facs="#facs_2_region_1684594250566_2619_tl_23" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="bibl">drei ersten</rs>
-               </hi> aufführen; in dem Concerte vom <date month="0" day="0" year="0" continued="true">27. Februar</date>
-               <lb facs="#facs_2_region_1684594250566_2619_tl_24" n="N022"/>
-               <date month="0" day="0" year="0" continued="true">1814</date> gab er die Symphonien in <rs type="bibl">A-dur</rs> und <rs type="bibl">F-dur</rs>, das
-      <lb facs="#facs_2_region_1684594250566_2619_tl_25" n="N023"/>
-               <rs type="bibl">Terzett „Empi tremate“</rs> und die ganze „<rs type="bibl">Schlacht bei Vit¬</rs>
-               <lb facs="#facs_2_region_1684594250566_2619_tl_26" n="N024"/>
-               <rs type="bibl">toria</rs>“! Der Concertzettel vom <date month="0" day="0" year="0">7. Mai 1824</date> verkündigte: die
-      <lb facs="#facs_2_region_1684594250566_2619_tl_27" n="N025"/>große <rs type="bibl">Ouvertüre in C (Op. 124)</rs>, vier Sätze aus der <rs type="bibl">D-moll-</rs>
-               <lb facs="#facs_2_region_1684594250566_2619_tl_28" n="N026"/>
-               <rs type="bibl">Messe</rs> und die <rs type="bibl">neunte Symphonie</rs>! *) Wir fragen nun, ob
-      <lb facs="#facs_2_region_1684594250566_2619_tl_29" n="N027"/>nicht heutzutage noch, wo das musikalische Publicum und un¬
-      <lb facs="#facs_2_region_1684594250566_2619_tl_30" n="N028"/>sere so weit vorgeschrittenen Orchester mit diesen Werken ge¬
-      <lb facs="#facs_2_region_1684594250566_2619_tl_31" n="N029"/>nau vertraut sind, eine solche Häufung des Größten und Ge¬
-      <lb facs="#facs_2_region_1684594250566_2619_tl_32" n="N030"/>waltigsten äußerst gewagt erschiene? Welcher Componist würde
+      <lb facs="#facs_2_region_1684594250566_2619_tl_20" n="N018"/>abgehalten!</p>
+   <p><lb facs="#facs_2_region_1684594250566_2619_tl_21" n="N019"/>In dem Subscriptions-Concerte vom <date when="1807-02">Februar 1807</date> ließ
+      <lb facs="#facs_2_region_1684594250566_2619_tl_22" n="N020"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> eine neue <rs type="bibl" ref="#hsl_work_id_410">Symphonie (Nr. 4)</rs> und dazu die
+      <lb facs="#facs_2_region_1684594250566_2619_tl_23" n="N021"/><hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_274,#hsl_work_id_688,#hsl_work_id_42">drei ersten</rs></hi> aufführen; in dem Concerte vom <date when="1814-02-27">27. Februar
+      <lb facs="#facs_2_region_1684594250566_2619_tl_24" n="N022"/>1814</date> gab er die Symphonien in <rs type="bibl" ref="#hsl_work_id_593">A-dur</rs> und <rs type="bibl" ref="#hsl_work_id_273">F-dur</rs>, das
+      <lb facs="#facs_2_region_1684594250566_2619_tl_25" n="N023"/><rs type="bibl" ref="#hsl_work_id_3629">Terzett „Empi tremate“</rs> und die ganze „<rs type="bibl" ref="#hsl_work_id_1354">Schlacht bei Vit
+      <lb facs="#facs_2_region_1684594250566_2619_tl_26" n="N024" break="no"/>toria</rs>“! Der Concertzettel vom <date when="1824-05-07">7. Mai 1824</date> verkündigte: die
+      <lb facs="#facs_2_region_1684594250566_2619_tl_27" n="N025"/>große <rs type="bibl" ref="#hsl_work_id_797">Ouvertüre in C (Op. 124)</rs>, vier Sätze aus der <rs type="bibl" ref="#hsl_work_id_87">D-moll-
+      <lb facs="#facs_2_region_1684594250566_2619_tl_28" n="N026" break="no"/>Messe</rs> und die <rs type="bibl" ref="#hsl_work_id_272">neunte Symphonie</rs>!
+            <note type="footnote" n="*)">
+      <lb facs="#facs_2_line_1721303478352_32" n="N039"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> hatte auch noch das <rs type="bibl" ref="#hsl_work_id_87">Sanctus und Benedictus</rs> aus
+      <lb facs="#facs_2_line_1721303491768_36" n="N040"/>der <rs type="bibl" ref="#hsl_work_id_87">D-Messe</rs> geben wollen und bereits probiren lassen; im letzten
+      <lb facs="#facs_2_line_1721303497841_40" n="N041"/>Augenblicke der Unmöglichkeit einer solchen Concertdauer
+      <lb facs="#facs_2_line_1720006373855_571" n="N042"/>weichen. (<rs type="person" ref="#hsl_person_id_249">Schindler</rs>, II. p. 70.)</note> Wir fragen nun, ob
+      <lb facs="#facs_2_region_1684594250566_2619_tl_29" n="N027"/>nicht heutzutage noch, wo das musikalische Publicum und un
+      <lb facs="#facs_2_region_1684594250566_2619_tl_30" n="N028" break="no"/>sere so weit vorgeschrittenen Orchester mit diesen Werken ge
+      <lb facs="#facs_2_region_1684594250566_2619_tl_31" n="N029" break="no"/>nau vertraut sind, eine solche Häufung des Größten und Ge
+      <lb facs="#facs_2_region_1684594250566_2619_tl_32" n="N030" break="no"/>waltigsten äußerst gewagt erschiene? Welcher Componist würde
       <lb facs="#facs_2_line_1721306096977_333" n="N031"/>es gegenwärtig, auch nur zwei Symphonien in Einem
       <lb facs="#facs_2_region_1684594250566_2619_tl_35" n="N032"/>Concerte zu bringen? Nun denke man sich überdies — es ist
       <lb facs="#facs_2_region_1684594250566_2619_tl_36" n="N033"/>keine leichte Operation der Phantasie — in die Zeit zurück,
-      <lb facs="#facs_2_region_1684594250566_2619_tl_37" n="N034"/>wo diese größten <rs type="person">Beethoven</rs>'schen Schöpfungen neu waren und
-      <lb facs="#facs_2_region_1684594250566_2619_tl_38" n="N035"/>zum erstenmale wie ein Elementar-Ereigniß in ein unvorberei¬
-      <lb facs="#facs_2_region_1684594250566_2619_tl_39" n="N036"/>tetes Publicum einschlugen. Hatte dieses Publicum nicht vollauf
+      <lb facs="#facs_2_region_1684594250566_2619_tl_37" n="N034"/>wo diese größten <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼschen Schöpfungen neu waren und
+      <lb facs="#facs_2_region_1684594250566_2619_tl_38" n="N035"/>zum erstenmale wie ein Elementar-Ereigniß in ein unvorberei
+      <lb facs="#facs_2_region_1684594250566_2619_tl_39" n="N036" break="no"/>tetes Publicum einschlugen. Hatte dieses Publicum nicht vollauf
       <lb facs="#facs_2_region_1684594250566_2619_tl_40" n="N037"/>zu thun, auf Einem Sitze auch nur Eines dieser Riesenwerke
-      <lb facs="#facs_2_region_1684594250566_2619_tl_41" n="N038"/>mit voller Aufmerksamkeit zu hören und in sich zu verarbei¬
-      <lb facs="#facs_2_line_1721303478352_32" n="N039"/>*) <rs type="person">Beethoven</rs> hatte auch noch das <rs type="bibl">Sanctus und Benedictus</rs> aus
-      <lb facs="#facs_2_line_1721303491768_36" n="N040"/>der <rs type="bibl">D-Messe</rs> geben wollen und bereits probiren lassen; im letzten
-      <lb facs="#facs_2_line_1721303497841_40" n="N041"/>Augenblicke der Unmöglichkeit einer solchen Concertdauer
-      <lb facs="#facs_2_line_1720006373855_571" n="N042"/>weichen. (<rs type="person">Schindler</rs>, II. p. 70.)</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684594255243_2622_tl_1" n="N001"/>ten, obendrein bei einer Aufführung, welche die Intentionen
+      <lb facs="#facs_2_region_1684594250566_2619_tl_41" n="N038"/>mit voller Aufmerksamkeit zu hören und in sich zu verarbei</p>
+     
+         <cb n="6"/>
+      <p prev="true"><lb facs="#facs_2_region_1684594255243_2622_tl_1" n="N001" break="no"/>ten, obendrein bei einer Aufführung, welche die Intentionen
       <lb facs="#facs_2_region_1684594255243_2622_tl_2" n="N002"/>des Tondichters zur guten Hälfte verfehlte oder verzerrte?
-      <lb facs="#facs_2_region_1684594255243_2622_tl_3" n="N003"/>(Von der <rs type="bibl">D-Messe</rs> und der <rs type="bibl">neunten Symphonie</rs> wurden nur
-      <lb facs="#facs_2_region_1684594255243_2622_tl_4" n="N004"/>zwei Proben gehalten.)
-      <lb facs="#facs_2_region_1684594255243_2622_tl_5" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s</hi> persönliches Auftreten war zwar geeignet,
-      <lb facs="#facs_2_region_1684594255243_2622_tl_6" n="N006"/>das Publicum mit Respect zu erfüllen, nicht aber, seine Schö¬
-      <lb facs="#facs_2_region_1684594255243_2622_tl_7" n="N007"/>pfungen ins beste Licht zu setzen. Die titanenhafte Rücksichts¬
-      <lb facs="#facs_2_region_1684594255243_2622_tl_8" n="N008"/>losigkeit seines Wesens, geschärft durch den Verdruß über die
+      <lb facs="#facs_2_region_1684594255243_2622_tl_3" n="N003"/>(Von der <rs type="bibl" ref="#hsl_work_id_87">D-Messe</rs> und der <rs type="bibl" ref="#hsl_work_id_272">neunten Symphonie</rs> wurden nur
+      <lb facs="#facs_2_region_1684594255243_2622_tl_4" n="N004"/>zwei Proben gehalten.)</p>
+   <p><lb facs="#facs_2_region_1684594255243_2622_tl_5" n="N005"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs</hi> persönliches Auftreten war zwar geeignet,
+      <lb facs="#facs_2_region_1684594255243_2622_tl_6" n="N006"/>das Publicum mit Respect zu erfüllen, nicht aber, seine Schö
+      <lb facs="#facs_2_region_1684594255243_2622_tl_7" n="N007" break="no"/>pfungen ins beste Licht zu setzen. Die titanenhafte Rücksichts
+      <lb facs="#facs_2_region_1684594255243_2622_tl_8" n="N008" break="no"/>losigkeit seines Wesens, geschärft durch den Verdruß über die
       <lb facs="#facs_2_region_1684594255243_2622_tl_9" n="N009"/>mangelhafte Ausführung und die eigene Schwerhörigkeit, machte
       <lb facs="#facs_2_region_1684594255243_2622_tl_10" n="N010"/>sich bei solchen öffentlichen Productionen oft in befremdendster
-      <lb facs="#facs_2_region_1684594255243_2622_tl_11" n="N011"/>Weise geltend. Wenn die Mittheilungen von <hi rendition="#em">
-                  <rs type="person">Reichardt</rs>
-               </hi>,
-      <lb facs="#facs_2_region_1684594255243_2622_tl_12" n="N012"/>
-               <hi rendition="#em">
-                  <rs type="person">Spohr</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Ries</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Seyfried</rs>
-               </hi> und Anderen über <rs type="person">Beethoven</rs>'s
-      <lb facs="#facs_2_region_1684594255243_2622_tl_13" n="N013"/>Concerte, wenn ihre Schilderungen der Tactirmethode <rs type="person" continued="true">Beetho¬</rs>
-               <lb facs="#facs_2_region_1684594255243_2622_tl_14" n="N014"/>
-               <rs type="person" continued="true">ven</rs>'s auch nur zur Hälfte wahr sind — und warum sollten
+      <lb facs="#facs_2_region_1684594255243_2622_tl_11" n="N011"/>Weise geltend. Wenn die Mittheilungen von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_233">Reichardt</rs></hi>,
+      <lb facs="#facs_2_region_1684594255243_2622_tl_12" n="N012"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_293">Spohr</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1206">Ries</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1941">Seyfried</rs></hi> und Anderen über <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs
+      <lb facs="#facs_2_region_1684594255243_2622_tl_13" n="N013"/>Concerte, wenn ihre Schilderungen der Tactirmethode <rs type="person" ref="#hsl_person_id_25">Beetho
+      <lb facs="#facs_2_region_1684594255243_2622_tl_14" n="N014" break="no"/>ven</rs>ʼs auch nur zur Hälfte wahr sind — und warum sollten
       <lb facs="#facs_2_region_1684594255243_2622_tl_15" n="N015"/>sie es nicht ganz sein? — so mußte wol selbst das loyalste
-      <lb facs="#facs_2_region_1684594255243_2622_tl_16" n="N016"/>Publicum mitunter Anfechtungen von Verstimmung oder Hei¬
-      <lb facs="#facs_2_line_1720006387017_579" n="N017"/>terkeit erfahren. *) Und dennoch nahm das Wiener Publicum
-      <lb facs="#facs_2_region_1684594255243_2622_tl_17" n="N018"/>diesfalls von seinem großen Meister willig hin, was es von
-      <lb facs="#facs_2_region_1684594255243_2622_tl_18" n="N019"/>keinem Zweiten ohne einiges „Spectakel“ sich hätte bieten las¬
-      <lb facs="#facs_2_region_1684594255243_2622_tl_19" n="N020"/>sen. Außer Zweifel scheint uns die Thatsache, daß <rs type="person" continued="true">Beetho¬</rs>
-               <lb facs="#facs_2_region_1684594255243_2622_tl_20" n="N021"/>
-               <rs type="person" continued="true">ven</rs>'s Compositionen <hi rendition="#em">ohne</hi> seine persönliche Mitwirkung auf
-      <lb facs="#facs_2_region_1684594255243_2622_tl_21" n="N022"/>das Publicum eine günstigere und sich schneller ausbreitende
-      <lb facs="#facs_2_region_1684594255243_2622_tl_22" n="N023"/>Wirkung machten, daß seine Clavier-Concerte und Trios un¬
-      <lb facs="#facs_2_region_1684594255243_2622_tl_23" n="N024"/>ter den Fingern <hi rendition="#em">
-                  <rs type="person">Czerny</rs>'s</hi>, <hi rendition="#em">
-                  <rs type="person">Bocklet</rs>ʼs</hi> und <hi rendition="#em">
-                  <rs type="person">Moscheles</rs>ʼ</hi>,
-      <lb facs="#facs_2_line_1720006406596_587" n="N025"/>*) Wir citiren statt dieser bekannten Schilderung die Erzählung
+      <lb facs="#facs_2_region_1684594255243_2622_tl_16" n="N016"/>Publicum mitunter Anfechtungen von Verstimmung oder Hei
+      <lb facs="#facs_2_line_1720006387017_579" n="N017" break="no"/>terkeit erfahren. 
+            <note type="footnote" n="*)">
+      <lb facs="#facs_2_line_1720006406596_587" n="N025"/>Wir citiren statt dieser bekannten Schilderung die Erzählung
       <lb facs="#facs_2_line_1720006426493_593" n="N026"/>eines gebildeten und unbefangenen Fremden, des schwebischen Dichters
-      <lb facs="#facs_2_region_1684594255243_2622_tl_28" n="N027"/>
-               <hi rendition="#em">
-                  <rs type="person">Atterbohm</rs>
-               </hi>, der im Jahre <date month="0" day="0" year="0">1808</date>
-               <rs type="place">Wien</rs> besuchte und <rs type="person">Beethoven</rs> in
-      <lb facs="#facs_2_line_1720006450527_599" n="N028"/>einem Privatconcert kennen lernte. „Er dirigirte (schreibt <hi rendition="#em">
-                  <rs type="person" continued="true">Atter¬</rs>
-               </hi>
-               <lb facs="#facs_2_line_1720006481688_604" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bohm</rs>
-               </hi> in seinen Memoiren) selbst das Concert, bei dem ich ihn sah;
-      <lb facs="#facs_2_region_1684594255243_2622_tl_34" n="N030"/>man führte nur Stücke von ihm oder von Meistern auf, die er hin¬
-      <lb facs="#facs_2_line_1720006652169_647" n="N031"/>länglich kannte, um deren Musik innerlich zu hören, denn daß er mit
+      <lb facs="#facs_2_region_1684594255243_2622_tl_28" n="N027"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5378">Atterbohm</rs></hi>, der im Jahre <date when="1808">1808</date><rs type="place" ref="#hsl_place_id_55">Wien</rs> besuchte und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in
+      <lb facs="#facs_2_line_1720006450527_599" n="N028"/>einem Privatconcert kennen lernte. „Er dirigirte (schreibt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5378">Atter
+      <lb facs="#facs_2_line_1720006481688_604" n="N029" break="no"/>bohm</rs></hi> in seinen Memoiren) selbst das Concert, bei dem ich ihn sah;
+      <lb facs="#facs_2_region_1684594255243_2622_tl_34" n="N030"/>man führte nur Stücke von ihm oder von Meistern auf, die er hin
+      <lb facs="#facs_2_line_1720006652169_647" n="N031" break="no"/>länglich kannte, um deren Musik innerlich zu hören, denn daß er mit
       <lb facs="#facs_2_line_1720006656186_652" n="N032"/>dem äußeren Ohr von ihr nichts hörte, obwol sein scharfes Auge die
       <lb facs="#facs_2_line_1720006660546_657" n="N033"/>die Art ihrer Ausführung fast immer bewahrte, sah ich besonders bei
       <lb facs="#facs_2_region_1684594255243_2622_tl_35" n="N034"/>einer großen, obwol kurzen Tactverwirrung der Spielenden und dann
-      <lb facs="#facs_2_line_1720006527842_612" n="N035"/>bei einem Piano, welches dieselben in der Hast nicht als solches aus¬
-      <lb facs="#facs_2_region_1684594255243_2622_tl_38" n="N036"/>drückten. <rs type="person">Beethoven</rs> merkte nichts von Allem. Er stand wie auf einer
-      <lb facs="#facs_2_line_1720006563204_618" n="N037"/>abgeschlossenen Insel und dirigirte den Flug seiner dunklen dämoni¬
-      <lb facs="#facs_2_line_1720006577986_623" n="N038"/>schen Harmonien in die Menschenwelt mit den seltsamen Bewegun¬
-      <lb facs="#facs_2_line_1720006595626_628" n="N039"/>gen; so z. B. commandirte er pinissimo damit, daß er leise nieder¬
-      <lb facs="#facs_2_line_1720006612123_633" n="N040"/>kniete und die Arme gegen den Fußboden streckte, beim fortissimo
+      <lb facs="#facs_2_line_1720006527842_612" n="N035"/>bei einem Piano, welches dieselben in der Hast nicht als solches aus
+      <lb facs="#facs_2_region_1684594255243_2622_tl_38" n="N036" break="no"/>drückten. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> merkte nichts von Allem. Er stand wie auf einer
+      <lb facs="#facs_2_line_1720006563204_618" n="N037"/>abgeschlossenen Insel und dirigirte den Flug seiner dunklen dämoni
+      <lb facs="#facs_2_line_1720006577986_623" n="N038" break="no"/>schen Harmonien in die Menschenwelt mit den seltsamen Bewegun
+      <lb facs="#facs_2_line_1720006595626_628" n="N039" break="no"/>gen; so z. B. commandirte er pinissimo damit, daß er leise nieder
+      <lb facs="#facs_2_line_1720006612123_633" n="N040" break="no"/>kniete und die Arme gegen den Fußboden streckte, beim fortissimo
       <lb facs="#facs_2_line_1720006627275_638" n="N041"/>schnellte er dann wie ein losgelassener elastischer Bogen in die Höhe,
       <lb facs="#facs_2_line_1720006632297_642" n="N042"/>schien über seine Länge hinauszuwachsen und schlug die Arme weit
       <lb facs="#facs_2_region_1684594255243_2622_tl_52" n="N043"/>auseinander; zwischen diesen beiden Extremen hielt er sich beständig
-      <lb facs="#facs_2_region_1684594255243_2622_tl_53" n="N044"/>in einer auf- und niederschwebenden Stellung.“</p>
+      <lb facs="#facs_2_region_1684594255243_2622_tl_53" n="N044"/>in einer auf- und niederschwebenden Stellung.“</note> Und dennoch nahm das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum
+      <lb facs="#facs_2_region_1684594255243_2622_tl_17" n="N018"/>diesfalls von seinem großen Meister willig hin, was es von
+      <lb facs="#facs_2_region_1684594255243_2622_tl_18" n="N019"/>keinem Zweiten ohne einiges „Spectakel“ sich hätte bieten las
+      <lb facs="#facs_2_region_1684594255243_2622_tl_19" n="N020" break="no"/>sen. Außer Zweifel scheint uns die Thatsache, daß <rs type="person" ref="#hsl_person_id_25">Beetho
+      <lb facs="#facs_2_region_1684594255243_2622_tl_20" n="N021" break="no"/>ven</rs>ʼs Compositionen <hi rendition="#em">ohne</hi> seine persönliche Mitwirkung auf
+      <lb facs="#facs_2_region_1684594255243_2622_tl_21" n="N022"/>das Publicum eine günstigere und sich schneller ausbreitende
+      <lb facs="#facs_2_region_1684594255243_2622_tl_22" n="N023"/>Wirkung machten, daß seine Clavier-Concerte und Trios un
+      <lb facs="#facs_2_region_1684594255243_2622_tl_23" n="N024" break="no"/>ter den Fingern <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1823">Czerny</rs>ʼs</hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2373">Bocklet</rs>ʼs</hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_950">Moscheles</rs>ʼ</hi>,
+         <space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
-            <p>
-               <lb facs="#facs_3_region_1684594272364_2628_tl_1" n="N001"/>seine Symphonien und Ouvertüren unter der Anführung
-      <lb facs="#facs_3_region_1684594272364_2628_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person">Schuppanzigh</rs>ʼs</hi>, <hi rendition="#em">
-                  <rs type="person">Clement</rs>ʼs</hi> oder <rs type="person">Umlaufʼs</rs> mehr an¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_3" n="N003"/>gesprochen und sich schneller eingebürgert haben, als durch
-      <lb facs="#facs_3_region_1684594272364_2628_tl_4" n="N004"/>
-               <rs type="person">Beethoven</rs>'s eigene Intervention.
-      <lb facs="#facs_3_region_1684594272364_2628_tl_5" n="N005"/>Im Verhältniß zu der Länge seines (35jährigen) Wir¬
-      <lb facs="#facs_3_line_1720006877491_683" n="N006"/>keus in <rs type="place">Wien</rs> erscheint in der That <rs type="person">Beethoven</rs>'s Auftreten vor
+            <p prev="true">
+      <lb facs="#facs_3_region_1684594272364_2628_tl_1" n="N001"/>seine Symphonien und Ouvertüren unter der Anführung
+      <lb facs="#facs_3_region_1684594272364_2628_tl_2" n="N002"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_947">Schuppanzigh</rs>ʼs</hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4125">Clement</rs>ʼs</hi> oder <rs type="person" ref="#hsl_person_id_2589">Umlaufʼs</rs> mehr an
+      <lb facs="#facs_3_region_1684594272364_2628_tl_3" n="N003" break="no"/>gesprochen und sich schneller eingebürgert haben, als durch
+      <lb facs="#facs_3_region_1684594272364_2628_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs eigene Intervention.</p>
+   <p><lb facs="#facs_3_region_1684594272364_2628_tl_5" n="N005"/>Im Verhältniß zu der Länge seines (35jährigen) Wir
+      <lb facs="#facs_3_line_1720006877491_683" n="N006" break="no"/>keus in <rs type="place" ref="#hsl_place_id_55">Wien</rs> erscheint in der That <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Auftreten vor
       <lb facs="#facs_3_region_1684594272364_2628_tl_7" n="N007"/>dem Publicum ein seltenes. Offenbar hatte er von Jahr zu
-      <lb facs="#facs_3_region_1684594272364_2628_tl_8" n="N008"/>Jahr weniger Freude daran. Die Concert-Programme bewei¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_9" n="N009"/>sen jedoch, daß <rs type="person">Beethoven</rs>'s Werke seiner persönlichen Mitwir¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_10" n="N010"/>kung nicht bedürften, um eine bemerkenswerthe Stellung in
-      <lb facs="#facs_3_region_1684594272364_2628_tl_11" n="N011"/>dem <rs type="place">Wien</rs>er Musikleben einzunehmen. Verbitterte Biographen
-      <lb facs="#facs_3_region_1684594272364_2628_tl_12" n="N012"/>möchten uns am liebsten weißmachen, es sei zu <rs type="person">Beethoven</rs>ʼs
+      <lb facs="#facs_3_region_1684594272364_2628_tl_8" n="N008"/>Jahr weniger Freude daran. Die Concert-Programme bewei
+      <lb facs="#facs_3_region_1684594272364_2628_tl_9" n="N009" break="no"/>sen jedoch, daß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Werke seiner persönlichen Mitwir
+      <lb facs="#facs_3_region_1684594272364_2628_tl_10" n="N010" break="no"/>kung nicht bedürften, um eine bemerkenswerthe Stellung in
+      <lb facs="#facs_3_region_1684594272364_2628_tl_11" n="N011"/>dem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Musikleben einzunehmen. Verbitterte Biographen
+      <lb facs="#facs_3_region_1684594272364_2628_tl_12" n="N012"/>möchten uns am liebsten weißmachen, es sei zu <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs
       <lb facs="#facs_3_region_1684594272364_2628_tl_13" n="N013"/>Lebzeiten seine Musik nur äußerst selten und vorübergehend
       <lb facs="#facs_3_region_1684594272364_2628_tl_14" n="N014"/>vorgeführt worden. Das ist ein arger Irrthum, wie nach
       <lb facs="#facs_3_region_1684594272364_2628_tl_15" n="N015"/>einer Prüfung der Beweismittel wol Jeder zugestehen wird,
       <lb facs="#facs_3_region_1684594272364_2628_tl_16" n="N016"/>der nicht, eine Entwicklung von vierzig Jahren ignorirend, den
       <lb facs="#facs_3_region_1684594272364_2628_tl_17" n="N017"/>Maßstab <hi rendition="#em">unserer</hi> Musikzustände an jene Zeit legt. Nicht
-      <lb facs="#facs_3_region_1684594272364_2628_tl_18" n="N018"/>erst nach des Meisters Tode oder in seinen letzten Lebensjah¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_19" n="N019"/>ren, sondern schon zwei Decennien früher nahmen <rs type="person">Beethoven</rs>ʼs
+      <lb facs="#facs_3_region_1684594272364_2628_tl_18" n="N018"/>erst nach des Meisters Tode oder in seinen letzten Lebensjah
+      <lb facs="#facs_3_region_1684594272364_2628_tl_19" n="N019" break="no"/>ren, sondern schon zwei Decennien früher nahmen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs
       <lb facs="#facs_3_region_1684594272364_2628_tl_20" n="N020"/>Werke (von den letzten, schwerfaßlichen der dritten Periode
-      <lb facs="#facs_3_region_1684594272364_2628_tl_21" n="N021"/>immer abgesehen, für welche ein allgemeineres, tieferes Ver¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_22" n="N022"/>ständniß erst nach dem Jahre <date month="0" day="0" year="0">1830</date> anbrach) einen hervor¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_23" n="N023"/>ragenden und gesicherten Platz in den <rs type="place">Wien</rs>er Concert-Pro¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_24" n="N024"/>grammen ein. Am reichlichsten war <rs type="person">Beethoven</rs> in den Qua¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_25" n="N025"/>tett-Soiréen von <hi rendition="#em">
-                  <rs type="person">Schuppanzigh</rs>
-               </hi> vertreten. Wie wir der
-      <lb facs="#facs_3_region_1684594272364_2628_tl_26" n="N026"/>bei Wallishausser erschienenen „<rs type="bibl">Theater-Almanach von 1824</rs>“
-      <lb facs="#facs_3_region_1684594272364_2628_tl_27" n="N027"/>entnehmen, wurden im Laufe des Jahres <date month="0" day="0" year="0">1824</date> nicht weniger
-      <lb facs="#facs_3_region_1684594272364_2628_tl_28" n="N028"/>als <hi rendition="#em">fünfundzwanzig</hi> Stücke von <rs type="person">Beethoven</rs> (darunter natür¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_29" n="N029"/>lich einige Wiederholungen) in <rs type="person">Schuppanzigh</rs>'s Productionen
+      <lb facs="#facs_3_region_1684594272364_2628_tl_21" n="N021"/>immer abgesehen, für welche ein allgemeineres, tieferes Ver
+      <lb facs="#facs_3_region_1684594272364_2628_tl_22" n="N022" break="no"/>ständniß erst nach dem Jahre <date when="1830">1830</date> anbrach) einen hervor
+      <lb facs="#facs_3_region_1684594272364_2628_tl_23" n="N023" break="no"/>ragenden und gesicherten Platz in den <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Concert-Pro
+      <lb facs="#facs_3_region_1684594272364_2628_tl_24" n="N024" break="no"/>grammen ein. Am reichlichsten war <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in den Qua
+      <lb facs="#facs_3_region_1684594272364_2628_tl_25" n="N025" break="no"/>tett-Soiréen von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_947">Schuppanzigh</rs></hi> vertreten. Wie wir der
+      <lb facs="#facs_3_region_1684594272364_2628_tl_26" n="N026"/>bei <rs type="person" ref="#hsl_person_id_5379">Wallishausser</rs> erschienenen „<rs type="bibl" ref="#hsl_work_id_3630">Theater-Almanach von 1824</rs>“
+      <lb facs="#facs_3_region_1684594272364_2628_tl_27" n="N027"/>entnehmen, wurden im Laufe des Jahres <date when="1824">1824</date> nicht weniger
+     <lb facs="#facs_3_region_1684594272364_2628_tl_28" n="N028"/>als <hi rendition="#em">fünfundzwanzig</hi> Stücke von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> (darunter natür
+      <lb facs="#facs_3_region_1684594272364_2628_tl_29" n="N029" break="no"/>lich einige Wiederholungen) in <rs type="person" ref="#hsl_person_id_947">Schuppanzigh</rs>ʼs Productionen
       <lb facs="#facs_3_region_1684594272364_2628_tl_30" n="N030"/>gespielt — eine imposante Zahl, wenn man erwägt, daß jede
       <lb facs="#facs_3_region_1684594272364_2628_tl_31" n="N031"/>dieser Productionen nur drei Nummern enthielt. In den
-      <lb facs="#facs_3_region_1684594272364_2628_tl_32" n="N032"/>zwei Cyklen <rs type="person">Schuppanzigh</rs>'s vom Jahre <date month="0" day="0" year="0">1824</date> stellt sich das
-      <lb facs="#facs_3_region_1684594272364_2628_tl_33" n="N033"/>Verhältniß der Componisten so heraus, daß <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> mit
-      <lb facs="#facs_3_region_1684594272364_2628_tl_34" n="N034"/>acht, <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> mit zehn und <rs type="person">Beethoven</rs> gleichfalls mit zehn
+      <lb facs="#facs_3_region_1684594272364_2628_tl_32" n="N032"/>zwei Cyklen <rs type="person" ref="#hsl_person_id_947">Schuppanzigh</rs>ʼs vom Jahre <date when="1824">1824</date> stellt sich das
+      <lb facs="#facs_3_region_1684594272364_2628_tl_33" n="N033"/>Verhältniß der Componisten so heraus, daß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> mit
+      <lb facs="#facs_3_region_1684594272364_2628_tl_34" n="N034"/>acht, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi> mit zehn und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> gleichfalls mit zehn
       <lb facs="#facs_3_region_1684594272364_2628_tl_35" n="N035"/>Quartetten vertreten ist — eine Proportion, über welche man
       <lb facs="#facs_3_region_1684594272364_2628_tl_36" n="N036"/>mit Berücksichtigung der damaligen Zeit nur staunen kann.
-      <lb facs="#facs_3_region_1684594272364_2628_tl_37" n="N037"/>Von größeren Werken <rs type="person">Beethoven</rs>'s waren die zu seinen Leb¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_38" n="N038"/>zeiten populärsten und am häufigsten gegebenen: „<rs type="bibl">Die Schlach¬</rs>
-               <lb facs="#facs_3_region_1684594272364_2628_tl_39" n="N039"/>
-               <rs type="bibl">bei Vittoria</rs>“ und „<rs type="bibl">Christus am Oelberg</rs>“, zwei Compositio¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_40" n="N040"/>nen, die wir jetzt allerdings nicht mehr zu seinen bedeutendere
-      <lb facs="#facs_3_region_1684594272364_2628_tl_41" n="N041"/>zählen. Die „<rs type="bibl">Schlacht-Symphonie</rs>“ ist von den Wogen der po¬
-      <lb facs="#facs_3_region_1684594272364_2628_tl_42" n="N042"/>litischen Zeitströmung hoch getragen und — auch wieder fort¬
-      <lb facs="#facs_3_line_1720006890859_693" n="N043"/>gespüllt worden. Sie wurde sehr häufig und immer mit Enthus¬</p>
+      <lb facs="#facs_3_region_1684594272364_2628_tl_37" n="N037"/>Von größeren Werken <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs waren die zu seinen Leb
+      <lb facs="#facs_3_region_1684594272364_2628_tl_38" n="N038" break="no"/>zeiten populärsten und am häufigsten gegebenen: „<rs type="bibl" ref="#hsl_work_id_1354">Die Schlacht
+      <lb facs="#facs_3_region_1684594272364_2628_tl_39" n="N039"/>bei Vittoria</rs>“ und „<rs type="bibl" ref="#hsl_work_id_707">Christus am Oelberg</rs>“, zwei Compositio
+      <lb facs="#facs_3_region_1684594272364_2628_tl_40" n="N040" break="no"/>nen, die wir jetzt allerdings nicht mehr zu seinen bedeutendere
+      <lb facs="#facs_3_region_1684594272364_2628_tl_41" n="N041"/>zählen. Die „<rs type="bibl" ref="#hsl_work_id_1354">Schlacht-Symphonie</rs>“ ist von den Wogen der po
+      <lb facs="#facs_3_region_1684594272364_2628_tl_42" n="N042" break="no"/>litischen Zeitströmung hoch getragen und — auch wieder fort
+      <lb facs="#facs_3_line_1720006890859_693" n="N043" break="no"/>gespüllt worden. Sie wurde sehr häufig und immer mit Enthus</p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_line_1720007135333_750" n="N001"/>siasmus gehört. „<rs type="bibl">Christtus am Oelberg</rs>“ - selbst der gram¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_2" n="N002"/>matikalische Fehler „am“ statt „auf dem“ ist echt <rs type="place">wien</rs>erisch
-      <lb facs="#facs_3_region_1684594277645_2631_tl_3" n="N003"/>— genoß nirgends eine solche Beliebtheit wie in <rs type="place">Wien</rs>, wo
+            <p prev="true">
+      <lb facs="#facs_3_line_1720007135333_750" n="N001" break="no"/>siasmus gehört. „<rs type="bibl" ref="#hsl_work_id_707">Christtus am Oelberg</rs>“ - selbst der gram
+      <lb facs="#facs_3_region_1684594277645_2631_tl_2" n="N002" break="no"/>matikalische Fehler „am“ statt „auf dem“ ist echt <rs type="place" ref="#hsl_place_id_55">wien</rs>erisch
+      <lb facs="#facs_3_region_1684594277645_2631_tl_3" n="N003"/>— genoß nirgends eine solche Beliebtheit wie in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, wo
       <lb facs="#facs_3_region_1684594277645_2631_tl_4" n="N004"/>man eben noch an eine weltlichere, theatralischere Auffassung
-      <lb facs="#facs_3_region_1684594277645_2631_tl_5" n="N005"/>der Oratorien gewöhnt war. Für den Anklang, den <rs type="person" continued="true">Beetho¬</rs>
-               <lb facs="#facs_3_line_1720006877490_682" n="N006"/>
-               <rs type="person" continued="true">ven</rs>'s „<rs type="bibl">Christus</rs>“ in <rs type="place">Wien</rs> fand, sprechen dessen Wiederholun¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_6" n="N007"/>gen im Burgtheater, in den Gesellschafts- und Spirituell-Con¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_7" n="N008"/>certen, endlich der Umstand, daß die „Gesellschaft der <rs type="place">öster¬</rs>
-               <lb facs="#facs_3_region_1684594277645_2631_tl_8" n="N009"/>
-               <rs type="place">reichisch</rs>en Musikfreunde“ sich dadurch veranlaßt sah, im Jahre
-      <lb facs="#facs_3_region_1684594277645_2631_tl_9" n="N010"/>
-               <date month="0" day="0" year="0">1815</date>
-               <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> um die Composition eines neuen Orato¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_10" n="N011"/>riums anzugehen. Die Gesellschaft offerirte ihm für den ein¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_11" n="N012"/>jährigen ausschließlichen Gebrauch des Werkes (nicht für das
-      <lb facs="#facs_3_region_1684594277645_2631_tl_12" n="N013"/>Eigenthum) <hi rendition="#em">dreihundert</hi> Ducaten. <rs type="person">Beethoven</rs> erklärte den
+      <lb facs="#facs_3_region_1684594277645_2631_tl_5" n="N005"/>der Oratorien gewöhnt war. Für den Anklang, den <rs type="person" ref="#hsl_person_id_25">Beetho
+      <lb facs="#facs_3_line_1720006877490_682" n="N006" break="no"/>ven</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_707">Christus</rs>“ in <rs type="place" ref="#hsl_place_id_55">Wien</rs> fand, sprechen dessen Wiederholun
+      <lb facs="#facs_3_region_1684594277645_2631_tl_6" n="N007" break="no"/>gen im Burgtheater, in den Gesellschafts- und Spirituell-Con
+      <lb facs="#facs_3_region_1684594277645_2631_tl_7" n="N008" break="no"/>certen, endlich der Umstand, daß die „Gesellschaft der <rs type="place" ref="#hsl_place_id_43">öster
+      <lb facs="#facs_3_region_1684594277645_2631_tl_8" n="N009" break="no"/>reichisch</rs>en Musikfreunde“ sich dadurch veranlaßt sah, im Jahre
+      <lb facs="#facs_3_region_1684594277645_2631_tl_9" n="N010"/><date when="1815">1815</date><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> um die Composition eines neuen Orato
+      <lb facs="#facs_3_region_1684594277645_2631_tl_10" n="N011" break="no"/>riums anzugehen. Die Gesellschaft offerirte ihm für den ein
+      <lb facs="#facs_3_region_1684594277645_2631_tl_11" n="N012" break="no"/>jährigen ausschließlichen Gebrauch des Werkes (nicht für das
+      <lb facs="#facs_3_region_1684594277645_2631_tl_12" n="N013"/>Eigenthum) <hi rendition="#em">dreihundert</hi> Ducaten. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> erklärte den
       <lb facs="#facs_3_region_1684594277645_2631_tl_13" n="N014"/>Antrag für „sehr ehrenvoll“, nahm ihn an und erhielt nach
-      <lb facs="#facs_3_region_1684594277645_2631_tl_14" n="N015"/>seinem Wunsche einen Vorschuß, dessen Empfang er <date month="0" day="0" year="0">1819</date> be¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_15" n="N016"/>stätigte. Das ihm zuerst vorgeschlagene Gedicht von <hi rendition="#em">J. v. <rs type="person" continued="true">Sey¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684594277645_2631_tl_16" n="N017"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">fried</rs>
-               </hi> nahm er nicht in Arbeit; er wünschte ein anderes. Die
-      <lb facs="#facs_3_region_1684594277645_2631_tl_17" n="N018"/>Gesellschaft ließ ihm freie Wahl. <hi rendition="#em">
-                  <rs type="person">Bernard</rs>
-               </hi>, Redacteur der
-      <lb facs="#facs_3_region_1684594277645_2631_tl_18" n="N019"/>Modenzeitung, übernahm es, ein neues zu liefern, und ver¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_19" n="N020"/>einigte sich mit <rs type="person">Beethoven</rs> über den Gegenstand. Die Arbeit
-      <lb facs="#facs_3_region_1684594277645_2631_tl_20" n="N021"/>kam jedoch bekanntlich nie zu Stande.
-      <lb facs="#facs_3_region_1684594277645_2631_tl_21" n="N022"/>Diese Bestellung war die erste, zu welcher die kurz zuvor
-      <lb facs="#facs_3_region_1684594277645_2631_tl_22" n="N023"/>entstandene „Gesellschaft der Musikfreunde“ sich überhaupt ent¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_23" n="N024"/>schloß, mit einem Mißerfolg, an welchem <hi rendition="#em">sie</hi>, wie wir gesehen,
-      <lb facs="#facs_3_region_1684594277645_2631_tl_24" n="N025"/>nicht der schuldige Theil war.
-      <lb facs="#facs_3_region_1684594277645_2631_tl_25" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s</hi>
-               <rs type="bibl">sieben erste Symphonien</rs>, seine Ouve¬
-      <lb facs="#facs_3_line_1721806895592_174" n="N027"/>türen, Chöre aus „<rs type="bibl">Christus am Oelberg</rs>“, „<rs type="bibl">Ruinen von</rs>
-               <lb facs="#facs_3_line_1721806948687_183" n="N028"/>
-               <rs type="bibl">Athen</rs>“ und „<rs type="bibl">König Stephan</rs>“ treffen wir in den Gesellschafts-
-      <lb facs="#facs_3_region_1684594277645_2631_tl_30" n="N029"/>Concerten, den „Concerts spirituels“, den Augarten-Conce¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_31" n="N030"/>ten u. s. w. sehr häufig. Noch bemerkenswerther ist, daß in
-      <lb facs="#facs_3_region_1684594277645_2631_tl_32" n="N031"/>dem Zeitraume von <date month="0" day="0" year="0">1815</date> bis <date month="0" day="0" year="0">1830</date> beinahe jede <hi rendition="#em">Wohl¬</hi>
-               <lb facs="#facs_3_region_1684594277645_2631_tl_33" n="N032"/>
-               <hi rendition="#em">thätigkeits-Akademie</hi> mit einer der Ouvertüren von
-      <lb facs="#facs_3_region_1684594277645_2631_tl_34" n="N033"/>
-               <rs type="person">Beethoven</rs> eingeleitet oder geschlossen wurde; sie hatten in den
-      <lb facs="#facs_3_region_1684594277645_2631_tl_35" n="N034"/>Zwanziger-Jahren die <rs type="person">Mozart</rs>ʼschen und <rs type="person">Cherubini</rs>ʼschen Ouver¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_36" n="N035"/>türen nicht nur längst eingeholt, sondern überflügelt. Die
+      <lb facs="#facs_3_region_1684594277645_2631_tl_14" n="N015"/>seinem Wunsche einen Vorschuß, dessen Empfang er <date when="1819">1819</date> be
+      <lb facs="#facs_3_region_1684594277645_2631_tl_15" n="N016" break="no"/>stätigte. Das ihm zuerst vorgeschlagene Gedicht von <hi rendition="#em">J. v. <rs type="person" ref="#hsl_person_id_2648">Sey
+      <lb facs="#facs_3_region_1684594277645_2631_tl_16" n="N017" break="no"/>fried</rs></hi> nahm er nicht in Arbeit; er wünschte ein anderes. Die
+      <lb facs="#facs_3_region_1684594277645_2631_tl_17" n="N018"/>Gesellschaft ließ ihm freie Wahl. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2235">Bernard</rs></hi>, Redacteur der
+      <lb facs="#facs_3_region_1684594277645_2631_tl_18" n="N019"/><rs type="bibl" ref="#hsl_work_id_1353">Modenzeitung</rs>, übernahm es, ein neues zu liefern, und ver
+      <lb facs="#facs_3_region_1684594277645_2631_tl_19" n="N020" break="no"/>einigte sich mit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> über den Gegenstand. Die Arbeit
+      <lb facs="#facs_3_region_1684594277645_2631_tl_20" n="N021"/>kam jedoch bekanntlich nie zu Stande.</p>
+      <p><lb facs="#facs_3_region_1684594277645_2631_tl_21" n="N022"/>Diese Bestellung war die erste, zu welcher die kurz zuvor
+      <lb facs="#facs_3_region_1684594277645_2631_tl_22" n="N023"/>entstandene „Gesellschaft der Musikfreunde“ sich überhaupt ent
+      <lb facs="#facs_3_region_1684594277645_2631_tl_23" n="N024" break="no"/>schloß, mit einem Mißerfolg, an welchem <hi rendition="#em">sie</hi>, wie wir gesehen,
+      <lb facs="#facs_3_region_1684594277645_2631_tl_24" n="N025"/>nicht der schuldige Theil war.</p>
+      <p><lb facs="#facs_3_region_1684594277645_2631_tl_25" n="N026"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs</hi><rs type="bibl" ref="#hsl_work_id_274,#hsl_work_id_688,#hsl_work_id_42,#hsl_work_id_410,#hsl_work_id_278,#hsl_work_id_408,#hsl_work_id_593">sieben erste Symphonien</rs>, seine Ouve
+      <lb facs="#facs_3_line_1721806895592_174" n="N027" break="no"/>türen, Chöre aus „<rs type="bibl" ref="#hsl_work_id_707">Christus am Oelberg</rs>“, „<rs type="bibl" ref="#hsl_work_id_529">Ruinen von
+      <lb facs="#facs_3_line_1721806948687_183" n="N028"/>Athen</rs>“ und „<rs type="bibl" ref="#hsl_work_id_526">König Stephan</rs>“ treffen wir in den Gesellschafts-
+      <lb facs="#facs_3_region_1684594277645_2631_tl_30" n="N029"/>Concerten, den „Concerts spirituels“, den Augarten-Conce
+      <lb facs="#facs_3_region_1684594277645_2631_tl_31" n="N030" break="no"/>ten u. s. w. sehr häufig. Noch bemerkenswerther ist, daß in
+      <lb facs="#facs_3_region_1684594277645_2631_tl_32" n="N031"/>dem Zeitraume von <date when="1815">1815</date> bis <date when="1830">1830</date> beinahe jede <hi rendition="#em">Wohl
+      <lb facs="#facs_3_region_1684594277645_2631_tl_33" n="N032" break="no"/>thätigkeits-Akademie</hi> mit einer der Ouvertüren von
+      <lb facs="#facs_3_region_1684594277645_2631_tl_34" n="N033"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> eingeleitet oder geschlossen wurde; sie hatten in den
+      <lb facs="#facs_3_region_1684594277645_2631_tl_35" n="N034"/>Zwanziger-Jahren die <rs type="person" ref="#hsl_person_id_189">Mozart</rs>ʼschen und <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>ʼschen Ouver
+      <lb facs="#facs_3_region_1684594277645_2631_tl_36" n="N035" break="no"/>türen nicht nur längst eingeholt, sondern überflügelt. Die
       <lb facs="#facs_3_region_1684594277645_2631_tl_37" n="N036"/>Wohlthätigkeits-Akademien schätzen wir aber hier deßwegen als
-      <lb facs="#facs_3_region_1684594277645_2631_tl_38" n="N037"/>einen Maßstab der Popularität, weil sie, auf ein großes Pu¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_39" n="N038"/>blicum abzielend, wirklich nur dasjenige wählten, was dem
+      <lb facs="#facs_3_region_1684594277645_2631_tl_38" n="N037"/>einen Maßstab der Popularität, weil sie, auf ein großes Pu
+      <lb facs="#facs_3_region_1684594277645_2631_tl_39" n="N038" break="no"/>blicum abzielend, wirklich nur dasjenige wählten, was dem
       <lb facs="#facs_3_region_1684594277645_2631_tl_40" n="N039"/>Publicum gefiel und es anlockte. Auch die <hi rendition="#em">Virtuosen-</hi>
-               <lb facs="#facs_3_region_1684594277645_2631_tl_41" n="N040"/>
-               <hi rendition="#em">Concerte</hi> (sie wurden zu <rs type="person">Beethoven</rs>'s Lebzeiten fast aus¬
-      <lb facs="#facs_3_region_1684594277645_2631_tl_42" n="N041"/>nahmslos mit Orchester-Begleitung gegeben) sehen wir in den
-      <lb facs="#facs_3_region_1684594277645_2631_tl_43" n="N042"/>Zwanziger-Jahren zum großen Theile mit irgend einer Beetho¬
-      <lb facs="#facs_3_line_1720006890858_692" n="N043"/>venʼschen Ouvertüre geziert. Am seltensten wurden von <rs type="person" continued="true">Bee¬</rs>
+      <lb facs="#facs_3_region_1684594277645_2631_tl_41" n="N040"/><hi rendition="#em">Concerte</hi> (sie wurden zu <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs Lebzeiten fast aus
+      <lb facs="#facs_3_region_1684594277645_2631_tl_42" n="N041" break="no"/>nahmslos mit Orchester-Begleitung gegeben) sehen wir in den
+      <lb facs="#facs_3_region_1684594277645_2631_tl_43" n="N042"/>Zwanziger-Jahren zum großen Theile mit irgend einer <rs type="person" ref="#hsl_person_id_25">Beetho
+      <lb facs="#facs_3_line_1720006890858_692" n="N043" break="no"/>ven</rs>ʼschen Ouvertüre geziert. Am seltensten wurden von <rs type="person" ref="#hsl_person_id_25">Bee</rs>
             </p>
             <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_line_1720006898321_700" n="N001"/>
-               <rs type="person" continued="true">thoven</rs>'s Werken die Clavier-Compositionen öffentlich aufge¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_2" n="N002"/>führt. Rücksichtlich der Sonaten hatte dies seinen Grund
-      <lb facs="#facs_3_region_1684594281827_2634_tl_3" n="N003"/>darin, daß die Sonate damals überhaupt nicht für concert¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_4" n="N004"/>fähig galt, sondern ihre Stelle in häuslichen Productionen
-      <lb facs="#facs_3_region_1684594281827_2634_tl_5" n="N005"/>fand. *) Diese Entschuldigung gilt allerdings nicht für die ver¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_6" n="N006"/>hältnißmäßig geringe Vertretung der <rs type="person">Beethoven</rs>'schen Clavier-
-      <lb facs="#facs_3_region_1684594281827_2634_tl_7" n="N007"/>
-               <hi rendition="#em">Concerte</hi> auf den <rs type="place">Wien</rs>er Programmen. Sie haben sich
+            <p prev="true">
+      <lb facs="#facs_3_line_1720006898321_700" n="N001" break="no"/><rs type="person" ref="#hsl_person_id_25">thoven</rs>ʼs Werken die Clavier-Compositionen öffentlich aufge
+      <lb facs="#facs_3_region_1684594281827_2634_tl_2" n="N002" break="no"/>führt. Rücksichtlich der Sonaten hatte dies seinen Grund
+      <lb facs="#facs_3_region_1684594281827_2634_tl_3" n="N003"/>darin, daß die Sonate damals überhaupt nicht für concert
+      <lb facs="#facs_3_region_1684594281827_2634_tl_4" n="N004" break="no"/>fähig galt, sondern ihre Stelle in häuslichen Productionen
+      <lb facs="#facs_3_region_1684594281827_2634_tl_5" n="N005"/>fand. 
+             <note type="footnote" n="*)">
+      <lb facs="#facs_3_region_1684594281827_2634_tl_36" n="N036"/>*) Doch gab es bemerkenswerthe Ausnahmen, wie z. B. die
+      <lb facs="#facs_3_region_1684594281827_2634_tl_37" n="N037"/>Virtuosin Madame <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5380">de Bigot</rs></hi>, welche schon im ersten Decennium
+      <lb facs="#facs_3_region_1684594281827_2634_tl_38" n="N038"/>dieses Jahrhundertes in <rs type="place" ref="#hsl_place_id_55">Wien</rs> Concerte gab, deren ganzes Programm
+      <lb facs="#facs_3_line_1720006946034_711" n="N039"/>aus <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi>ʼschen Composition, und zwar den schwierigsten,
+      <lb facs="#facs_3_line_1720006959200_716" n="N040"/>bestehend. Die Sonntags-Matinéen Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1823">Czerny</rs>ʼs</hi> in den Jahren
+      <lb facs="#facs_3_region_1684594281827_2634_tl_43" n="N041"/><date when="1817">1817</date> bis <date when="1819">1819</date> enthielten gleichfalls ausschließlich Clavierstücke von
+      <lb facs="#facs_3_line_1720006988176_722" n="N042"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>.</note> Diese Entschuldigung gilt allerdings nicht für die ver
+      <lb facs="#facs_3_region_1684594281827_2634_tl_6" n="N006" break="no"/>hältnißmäßig geringe Vertretung der <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼschen Clavier-
+      <lb facs="#facs_3_region_1684594281827_2634_tl_7" n="N007"/><hi rendition="#em">Concerte</hi> auf den <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Programmen. Sie haben sich
       <lb facs="#facs_3_region_1684594281827_2634_tl_8" n="N008"/>(sowie das Violin-Concert) erst in den letzten Lebensjahren
-      <lb facs="#facs_3_region_1684594281827_2634_tl_9" n="N009"/>
-               <rs type="person">Beethoven</rs>'s dauernd eingebürgert. Ebensowenig als der Vor¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_10" n="N010"/>trag von Clavier-Sonaten waren ehedem Lieder mit Clavier¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_11" n="N011"/>begleitung in öffentlichen Concerten gebräuchlich; erst gegen
+      <lb facs="#facs_3_region_1684594281827_2634_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs dauernd eingebürgert. Ebensowenig als der Vor
+      <lb facs="#facs_3_region_1684594281827_2634_tl_10" n="N010" break="no"/>trag von Clavier-Sonaten waren ehedem Lieder mit Clavier
+      <lb facs="#facs_3_region_1684594281827_2634_tl_11" n="N011" break="no"/>begleitung in öffentlichen Concerten gebräuchlich; erst gegen
       <lb facs="#facs_3_region_1684594281827_2634_tl_12" n="N012"/>das Ende der Zwanziger Jahre wagte sich das Lied (und das
       <lb facs="#facs_3_region_1684594281827_2634_tl_13" n="N013"/>Vocalquartett) neben die „Arie“ in den Concertsaal. (Dadurch
       <lb facs="#facs_3_region_1684594281827_2634_tl_14" n="N014"/>erklärt sich auch großentheils die verspätete Anerkennung Franz
-      <lb facs="#facs_3_region_1684594281827_2634_tl_15" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="person">Schubert</rs>'s</hi>, der seine Carrière mit Liedern begann und sein
-      <lb facs="#facs_3_region_1684594281827_2634_tl_16" n="N016"/>Bestes in diesem Fache leistete. <rs type="person">Beethoven</rs>'s „<rs type="bibl">Adelaide</rs>“, damals
+      <lb facs="#facs_3_region_1684594281827_2634_tl_15" n="N015"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs>ʼs</hi>, der seine Carrière mit Liedern begann und sein
+      <lb facs="#facs_3_region_1684594281827_2634_tl_16" n="N016"/>Bestes in diesem Fache leistete. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_599">Adelaide</rs>“, damals
       <lb facs="#facs_3_region_1684594281827_2634_tl_17" n="N017"/>schon ein Werk von außerordentlicher Popularität und in allen
       <lb facs="#facs_3_region_1684594281827_2634_tl_18" n="N018"/>Dilettantenkreisen gesungen, erschien ausnahmsweise mehrmals
-      <lb facs="#facs_3_region_1684594281827_2634_tl_19" n="N019"/>in Concerten; der Correspondent der <rs type="bibl">A. M. Z</rs>. (<rs type="person">1813</rs>) be¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_20" n="N020"/>merkt bei einem solchen Anlasse (<hi rendition="#em">
-                  <rs type="person">Wild</rs>
-               </hi> hatte, von <hi rendition="#em">
-                  <rs type="person">Gyrowetz</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684594281827_2634_tl_21" n="N021"/>accompagnirt, die „<rs type="bibl">Adelaide</rs>“, öffentlich gesungen), „daß Ge¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_22" n="N022"/>sänge mit Clavierbegleitung nicht in einen Concertsaal gehö¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_23" n="N023"/>ren.“ In der Werthschätzung des Liedes wie der Sonate hat
-      <lb facs="#facs_3_region_1684594281827_2634_tl_24" n="N024"/>in den <date month="0" day="0" year="0">Dreißiger</date>-Jahren ein löblicher Umschwung stattgefunden
-      <lb facs="#facs_3_region_1684594281827_2634_tl_25" n="N025"/>da die frühere Uebung eine allgemeine, keineswegs auf <rs type="place">Wien</rs>
-               <lb facs="#facs_3_region_1684594281827_2634_tl_26" n="N026"/>oder auf einen bestimmten Componisten beschränkt war, so kann
-      <lb facs="#facs_3_region_1684594281827_2634_tl_27" n="N027"/>sie auch den Wiener Zeitgenossen des Meisters unmöglich im¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_28" n="N028"/>putirt werden.
-      <lb facs="#facs_3_region_1684594281827_2634_tl_29" n="N029"/>Daß <rs type="person">Beethoven</rs>, namentlich mit seinen größeren Werken,
-      <lb facs="#facs_3_region_1684594281827_2634_tl_30" n="N030"/>in den <date month="0" day="0" year="0">Zwanziger</date>-Jahren nicht so oft auf den Programmen er¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_31" n="N031"/>schien als heutzutage, wo wir mit ganz anderen geistigen und
+      <lb facs="#facs_3_region_1684594281827_2634_tl_19" n="N019"/>in Concerten; der Correspondent der <rs type="bibl" ref="#hsl_work_id_669">A. M. Z</rs>. (<date when="1813">1813</date>) be
+                  <lb facs="#facs_3_region_1684594281827_2634_tl_20" n="N020" break="no"/>merkt bei einem solchen Anlasse (<hi rendition="#em"><rs type="person" ref="#hsl_person_id_325">Wild</rs></hi> hatte, von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_942">Gyrowetz</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684594281827_2634_tl_21" n="N021"/>accompagnirt, die „<rs type="bibl" ref="#hsl_work_id_599">Adelaide</rs>“, öffentlich gesungen), „daß Ge
+      <lb facs="#facs_3_region_1684594281827_2634_tl_22" n="N022" break="no"/>sänge mit Clavierbegleitung nicht in einen Concertsaal gehö
+      <lb facs="#facs_3_region_1684594281827_2634_tl_23" n="N023" break="no"/>ren.“ In der Werthschätzung des Liedes wie der Sonate hat
+      <lb facs="#facs_3_region_1684594281827_2634_tl_24" n="N024"/>in den <date from="1830" to="1839">Dreißiger</date>-Jahren ein löblicher Umschwung stattgefunden
+                  <lb facs="#facs_3_region_1684594281827_2634_tl_25" n="N025"/>da die frühere Uebung eine allgemeine, keineswegs auf <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684594281827_2634_tl_26" n="N026"/>oder auf einen bestimmten Componisten beschränkt war, so kann
+      <lb facs="#facs_3_region_1684594281827_2634_tl_27" n="N027"/>sie auch den <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Zeitgenossen des Meisters unmöglich im
+      <lb facs="#facs_3_region_1684594281827_2634_tl_28" n="N028" break="no"/>putirt werden.</p>
+   <p><lb facs="#facs_3_region_1684594281827_2634_tl_29" n="N029"/>Daß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, namentlich mit seinen größeren Werken,
+      <lb facs="#facs_3_region_1684594281827_2634_tl_30" n="N030"/>in den <date from="1820" to="1829">Zwanziger</date>-Jahren nicht so oft auf den Programmen er
+      <lb facs="#facs_3_region_1684594281827_2634_tl_31" n="N031" break="no"/>schien als heutzutage, wo wir mit ganz anderen geistigen und
       <lb facs="#facs_3_region_1684594281827_2634_tl_32" n="N032"/>materiellen Mitteln an ihn herantreten, liegt in der Natur
       <lb facs="#facs_3_region_1684594281827_2634_tl_33" n="N033"/>der Sache. Mit Rücksicht auf die musikalischen Zustände jener
-      <lb facs="#facs_3_region_1684594281827_2634_tl_34" n="N034"/>Zeit kann man von einer positiven Vernachlässigung oder Un¬
-      <lb facs="#facs_3_region_1684594281827_2634_tl_35" n="N035"/>terschätzung <rs type="person">Beethoven</rs>'s in <rs type="place">Wien</rs> nicht sprechen.
-      <lb facs="#facs_3_region_1684594281827_2634_tl_36" n="N036"/>*) Doch gab es bemerkenswerthe Ausnahmen, wie z. B. die
-      <lb facs="#facs_3_region_1684594281827_2634_tl_37" n="N037"/>Virtuosin Madame <hi rendition="#em">
-                  <rs type="person">de Bigot</rs>
-               </hi>, welche schon im ersten Decennium
-      <lb facs="#facs_3_region_1684594281827_2634_tl_38" n="N038"/>dieses Jahrhundertes in <rs type="place">Wien</rs> Concerte gab, deren ganzes Programm
-      <lb facs="#facs_3_line_1720006946034_711" n="N039"/>aus <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>ʼschen Composition, und zwar den schwierigsten,
-      <lb facs="#facs_3_line_1720006959200_716" n="N040"/>bestehend. Die Sonntags-Matinéen Karl <hi rendition="#em">
-                  <rs type="person">Czerny</rs>ʼs</hi> in den Jahren
-      <lb facs="#facs_3_region_1684594281827_2634_tl_43" n="N041"/>
-               <date month="0" day="0" year="0">1817</date> bis <date month="0" day="0" year="0">1819</date> enthielten gleichfalls ausschließlich Clavierstücke von
-      <lb facs="#facs_3_line_1720006988176_722" n="N042"/>
-               <rs type="person">Beethoven</rs>.</p>
+      <lb facs="#facs_3_region_1684594281827_2634_tl_34" n="N034"/>Zeit kann man von einer positiven Vernachlässigung oder Un
+      <lb facs="#facs_3_region_1684594281827_2634_tl_35" n="N035" break="no"/>terschätzung <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>ʼs in <rs type="place" ref="#hsl_place_id_55">Wien</rs> nicht sprechen.
+      </p>
          </div>
       </body>
    </text>

@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="16. Juni 1868">16. Juni 1868</date>
+                        <date when="1868-06-16">16. Juni 1868</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -107,8 +107,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+         <change who="kbamer ampfiel" when="2024-06-04">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2024-08-04" who="kbamer">Formatierung. Alle Werke, Orte, Daten, Personen ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1113,75 +1114,56 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684594968319_2817_tl_1" n="N001"/>Eine Biographie <rs type="person">Bellini</rs>ʼs.
-      <lb facs="#facs_1_region_1684594968319_2817_tl_2" n="N002"/>II. (Schluß.)
-      <lb facs="#facs_1_region_1684594968319_2817_tl_3" n="N003"/>Ed. H. An der „<hi rendition="#em">
-                  <rs type="bibl">Sonnambula</rs>
-               </hi>“ arbeitete <rs type="person">Bellini</rs> mit
+            
+      <lb facs="#facs_1_region_1684594968319_2817_tl_1" n="N001"/><head type="h1">Eine Biographie <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs.</head>
+      <lb facs="#facs_1_region_1684594968319_2817_tl_2" n="N002"/><head type="h2">II. (Schluß.)</head>
+      <p><lb facs="#facs_1_region_1684594968319_2817_tl_3" n="N003"/>Ed. H. An der „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_352">Sonnambula</rs></hi>“ arbeitete <rs type="person" ref="#hsl_person_id_26">Bellini</rs> mit
       <lb facs="#facs_1_region_1684594968319_2817_tl_4" n="N004"/>ganzer Seele und froher Zuversicht, war ja die Titelrolle der
-      <lb facs="#facs_1_region_1684594968319_2817_tl_5" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="person">Pasta</rs>
-               </hi> anvertraut, jener genialen Künstlerin, die schon im
-      <lb facs="#facs_1_region_1684594968319_2817_tl_6" n="N006"/>Anfange ihrer Laufbahn den großen Tragöden <hi rendition="#em">
-                  <rs type="person">Talma</rs>
-               </hi> zu
+      <lb facs="#facs_1_region_1684594968319_2817_tl_5" n="N005"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_932">Pasta</rs></hi> anvertraut, jener genialen Künstlerin, die schon im
+      <lb facs="#facs_1_region_1684594968319_2817_tl_6" n="N006"/>Anfange ihrer Laufbahn den großen Tragöden <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4333">Talma</rs></hi> zu
       <lb facs="#facs_1_line_1717486788181_32" n="N007"/>dem Ausrufe hinriß: „Dieses Kind hat gefunden, was ich
-      <lb facs="#facs_1_line_1714733906577_227" n="N008"/>seit zwanzig Jahren suche.“ Judith <rs type="person">Pasta</rs>, die zweite 
-      <lb facs="#facs_1_region_1684594968319_2817_tl_10" n="N009"/>Schöpferin der <rs type="person">Norma</rs> und <rs type="person">Amina</rs>, hat <rs type="person">Bellini</rs>, dessen
-      <lb facs="#facs_1_region_1684594968319_2817_tl_11" n="N010"/>begeistertste Interpretin sie war, um volle dreißig Jahre über¬
-      <lb facs="#facs_1_region_1684594968319_2817_tl_12" n="N011"/>lebt. „<hi rendition="#em">
-                  <rs type="bibl">La Sonnambula</rs>
-               </hi>“, zum erstenmale am <date month="0" day="0" year="0" continued="true">6. März</date>
-               <lb facs="#facs_1_region_1684594968319_2817_tl_13" n="N012"/>
-               <date month="0" day="0" year="0" continued="true">1831</date> aufgeführt, versetzte die Mailänder in einen Rausch des
-      <lb facs="#facs_1_region_1684594968319_2817_tl_14" n="N013"/>Entzückens und war überhaupt der größte Erfolg <rs type="person">Bellini</rs>'s.
-      <lb facs="#facs_1_line_1714733337379_21" n="N014"/>Herr Arthur <hi rendition="#em">
-                  <rs type="person">Pougin</rs>
-               </hi> findet, daß keines der anderen Werke 
-      <lb facs="#facs_1_region_1684594968319_2817_tl_15" n="N015"/>
-               <rs type="person">Bellini</rs>'s auf der Höhe der „<rs type="bibl">Sonnambula</rs>“ stehe. Diese An¬
-      <lb facs="#facs_1_region_1684594968319_2817_tl_16" n="N016"/>sicht (übrigens auch von anderen Schriftstellern getheilt) ist
+      <lb facs="#facs_1_line_1714733906577_227" n="N008"/>seit zwanzig Jahren suche.“ Judith <rs type="person" ref="#hsl_person_id_932">Pasta</rs>, die zweite 
+      <lb facs="#facs_1_region_1684594968319_2817_tl_10" n="N009"/>Schöpferin der <rs type="person" ref="#hsl_person_id_4899">Norma</rs> und <rs type="person" ref="#hsl_person_id_437">Amina</rs>, hat <rs type="person" ref="#hsl_person_id_26">Bellini</rs>, dessen
+      <lb facs="#facs_1_region_1684594968319_2817_tl_11" n="N010"/>begeistertste Interpretin sie war, um volle dreißig Jahre über
+      <lb facs="#facs_1_region_1684594968319_2817_tl_12" n="N011" break="no"/>lebt. „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_352">La Sonnambula</rs></hi>“, zum erstenmale am <date when="1831-03-06">6. März
+     <lb facs="#facs_1_region_1684594968319_2817_tl_13" n="N012"/>1831</date> aufgeführt, versetzte die Mailänder in einen Rausch des
+      <lb facs="#facs_1_region_1684594968319_2817_tl_14" n="N013"/>Entzückens und war überhaupt der größte Erfolg <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs.
+      <lb facs="#facs_1_line_1714733337379_21" n="N014"/>Herr Arthur <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1761">Pougin</rs></hi> findet, daß keines der anderen Werke 
+      <lb facs="#facs_1_region_1684594968319_2817_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs auf der Höhe der „<rs type="bibl" ref="#hsl_work_id_352">Sonnambula</rs>“ stehe. Diese An
+      <lb facs="#facs_1_region_1684594968319_2817_tl_16" n="N016" break="no"/>sicht (übrigens auch von anderen Schriftstellern getheilt) ist
       <lb facs="#facs_1_region_1684594968319_2817_tl_17" n="N017"/>unseres Erachtens ein Irrthum und ein Unrecht gegen die
-      <lb facs="#facs_1_region_1684594968319_2817_tl_18" n="N018"/>unmittelbar darauffolgende Oper <rs type="person">Bellini</rs>'s. Wir meinen die
-      <lb facs="#facs_1_region_1684594968319_2817_tl_19" n="N019"/>„<rs type="bibl">Norma</rs>“. <rs type="person">Romani</rs> hatte den Stoff abermals aus einem
-      <lb facs="#facs_1_region_1684594968319_2817_tl_20" n="N020"/>
-               <rs type="place">französisch</rs>en Drama, „<rs type="bibl">Norma</rs>“ von <hi rendition="#em">
-                  <rs type="person">Soumet</rs>
-               </hi>, hergeholt.
-      <lb facs="#facs_1_region_1684594968319_2817_tl_21" n="N021"/>Die Direction der Scala in <rs type="place">Mailand</rs> hatte dem Componisten
+      <lb facs="#facs_1_region_1684594968319_2817_tl_18" n="N018"/>unmittelbar darauffolgende Oper <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs. Wir meinen die
+      <lb facs="#facs_1_region_1684594968319_2817_tl_19" n="N019"/>„<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“. <rs type="person" ref="#hsl_person_id_2026">Romani</rs> hatte den Stoff abermals aus einem
+      <lb facs="#facs_1_region_1684594968319_2817_tl_20" n="N020"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>en Drama, „<rs type="bibl" ref="#hsl_work_id_3611">Norma</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3237">Soumet</rs></hi>, hergeholt.
+      <lb facs="#facs_1_region_1684594968319_2817_tl_21" n="N021"/>Die Direction der Scala in <rs type="place" ref="#hsl_place_id_73">Mailand</rs> hatte dem Componisten
       <lb facs="#facs_1_region_1684594968319_2817_tl_22" n="N022"/>das damals ungewöhnlich hohe Honorar von 3000 Ducaten
-      <lb facs="#facs_1_region_1684594968319_2817_tl_23" n="N023"/>und die besten Gesangskünstler (<rs type="person">Pasta</rs>, Julia <rs type="person">Grisi</rs>, <rs type="person">Donzelli</rs>,
-      <lb facs="#facs_1_region_1684594968319_2817_tl_24" n="N024"/>
-               <rs type="person">Regrini</rs>) zugestanden. Noch im selben Jahre der ersten Auf¬
-      <lb facs="#facs_1_line_1714733343821_29" n="N025"/>führung der „<rs type="bibl">Nachtwandlerin</rs>“ ging „<rs type="bibl">Norma</rs>“, am <date month="0" day="0" year="0" continued="true">26. Decem¬</date>
-               <lb facs="#facs_1_region_1684594968319_2817_tl_26" n="N026"/>
-               <date month="0" day="0" year="0" continued="true">ber 1831</date>, in Scene. Wenn man überall liest, die Oper habe
-      <lb facs="#facs_1_region_1684594968319_2817_tl_27" n="N027"/>nur mäßig angesprochen, so ist dies sehr ungenau; „<rs type="bibl">Norma</rs>“
-      <lb facs="#facs_1_region_1684594968319_2817_tl_28" n="N028"/>fiel entschieden durch. Ein bisher ungedruckter Brief <rs type="person">Bellini</rs>'s
-      <lb facs="#facs_1_region_1684594968319_2817_tl_29" n="N029"/>an seinen Freund Francesco <rs type="person">Florimo</rs> gibt darüber die beste
+      <lb facs="#facs_1_region_1684594968319_2817_tl_23" n="N023"/>und die besten Gesangskünstler (<rs type="person" ref="#hsl_person_id_932">Pasta</rs>, Julia <rs type="person" ref="#hsl_person_id_862">Grisi</rs>, <rs type="person" ref="#hsl_person_id_2289">Donzelli</rs>,
+      <lb facs="#facs_1_region_1684594968319_2817_tl_24" n="N024"/><rs type="person" ref="#hsl_person_id_5351">Negrini</rs>) zugestanden. Noch im selben Jahre der ersten Auf
+      <lb facs="#facs_1_line_1714733343821_29" n="N025" break="no"/>führung der „<rs type="bibl" ref="#hsl_work_id_352">Nachtwandlerin</rs>“ ging „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“, am <date when="1831-12-26">26. Decem
+      <lb facs="#facs_1_region_1684594968319_2817_tl_26" n="N026" break="no"/>ber 1831</date>, in Scene. Wenn man überall liest, die Oper habe
+     <lb facs="#facs_1_region_1684594968319_2817_tl_27" n="N027"/>nur mäßig angesprochen, so ist dies sehr ungenau; „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“
+      <lb facs="#facs_1_region_1684594968319_2817_tl_28" n="N028"/>fiel entschieden durch. Ein bisher ungedruckter Brief <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs
+       <lb facs="#facs_1_region_1684594968319_2817_tl_29" n="N029"/>an seinen Freund Francesco <rs type="person" ref="#hsl_person_id_3818">Florimo</rs> gibt darüber die beste
       <lb facs="#facs_1_region_1684594968319_2817_tl_30" n="N030"/>Auskunft. „Ich schreibe dir“, so beginnt der interessante
       <lb facs="#facs_1_line_1714733350098_35" n="N031"/>Brief, „unter dem Eindrucke des Schmerzes, eines tiefen
-      <lb facs="#facs_1_line_1714733354400_41" n="N032"/>Schmerzes, den ich gar nicht auszudruecken vermag, den aber </p>
+            <lb facs="#facs_1_line_1714733354400_41" n="N032"/>Schmerzes, den ich gar nicht auszudruecken vermag, den aber<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684594973511_2820_tl_1" n="N001"/>du allein versehen kannst. Ich komme aus der Scala, erste
-      <lb facs="#facs_1_region_1684594973511_2820_tl_2" n="N002"/>Aufführung der „<rs type="bibl">Norma</rs>“. Wirst du es glauben? Fiasco!
+            <p prev="true">
+       <lb facs="#facs_1_region_1684594973511_2820_tl_1" n="N001"/>du allein versehen kannst. Ich komme aus der Scala, erste
+      <lb facs="#facs_1_region_1684594973511_2820_tl_2" n="N002"/>Aufführung der „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“. Wirst du es glauben? Fiasco!
       <lb facs="#facs_1_region_1684594973511_2820_tl_3" n="N003"/>Fiasco! vollständiges Fiasco! Ja, das Publicum war strenge!
-      <lb facs="#facs_1_region_1684594973511_2820_tl_4" n="N004"/>es schien eigens gekommen, mich zu verurtheilen, und mit Ueber¬
-      <lb facs="#facs_1_region_1684594973511_2820_tl_5" n="N005"/>stürzung (so glaube ich wenigstens) bereitete es meiner armen
-      <lb facs="#facs_1_region_1684594973511_2820_tl_6" n="N006"/>„<rs type="bibl">Norma</rs>“, das Schicksal der <rs type="person">Priesterin</rs> selbst. Ich habe sie
-      <lb facs="#facs_1_line_1717487143801_74" n="N007"/>nicht wiedererkannt, meine lieben Mailänder, welche den „<rs type="bibl">Pi¬</rs>
-               <lb facs="#facs_1_line_1717487177651_80" n="N008"/>
-               <rs type="bibl">raten</rs>“, die „<rs type="bibl">Straniera</rs>“ und „<rs type="bibl">Sonnambula</rs>“ mit Enthusias¬
-      <lb facs="#facs_1_region_1684594973511_2820_tl_11" n="N009"/>mus aufgenommen hatten, und doch glaubte ich, ihnen eine
-      <lb facs="#facs_1_region_1684594973511_2820_tl_12" n="N010"/>würdige Schwester der letzteren vorzuführen. Zu meinem Un¬
-      <lb facs="#facs_1_line_1714733331661_12" n="N011"/>glücke habe ich mich getäuscht, meine Voraussicht war falsch,
+      <lb facs="#facs_1_region_1684594973511_2820_tl_4" n="N004"/>es schien eigens gekommen, mich zu verurtheilen, und mit Ueber
+      <lb facs="#facs_1_region_1684594973511_2820_tl_5" n="N005" break="no"/>stürzung (so glaube ich wenigstens) bereitete es meiner armen
+      <lb facs="#facs_1_region_1684594973511_2820_tl_6" n="N006"/>„<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“, das Schicksal der <rs type="person" ref="#hsl_person_id_4899">Priesterin</rs> selbst. Ich habe sie
+     <lb facs="#facs_1_line_1717487143801_74" n="N007"/>nicht wiedererkannt, meine lieben Mailänder, welche den „<rs type="bibl" ref="#hsl_work_id_3135">Pi
+     <lb facs="#facs_1_line_1717487177651_80" n="N008" break="no"/>raten</rs>“, die „<rs type="bibl" ref="#hsl_work_id_3608">Straniera</rs>“ und „<rs type="bibl" ref="#hsl_work_id_352">Sonnambula</rs>“ mit Enthusias
+      <lb facs="#facs_1_region_1684594973511_2820_tl_11" n="N009" break="no"/>mus aufgenommen hatten, und doch glaubte ich, ihnen eine
+      <lb facs="#facs_1_region_1684594973511_2820_tl_12" n="N010"/>würdige Schwester der letzteren vorzuführen. Zu meinem Un
+      <lb facs="#facs_1_line_1714733331661_12" n="N011" break="no"/>glücke habe ich mich getäuscht, meine Voraussicht war falsch,
       <lb facs="#facs_1_region_1684594973511_2820_tl_14" n="N012"/>meine Hoffnungen sind gescheitert. Und trotz alledem — ich
       <lb facs="#facs_1_region_1684594973511_2820_tl_15" n="N013"/>sage es zu dir allein und das Herz auf den Lippen — falls
       <lb facs="#facs_1_region_1684594973511_2820_tl_16" n="N014"/>nicht die Leidenschaft mich blendet: die Introduction, das
-      <lb facs="#facs_1_region_1684594973511_2820_tl_17" n="N015"/>Erscheinen <rs type="person">Norma</rs>ʼs und ihre Cavatine, das Duett
+      <lb facs="#facs_1_region_1684594973511_2820_tl_17" n="N015"/>Erscheinen <rs type="person" ref="#hsl_person_id_4899">Norma</rs>ʼs und ihre Cavatine, das Duett
       <lb facs="#facs_1_region_1684594973511_2820_tl_18" n="N016"/>der beiden Frauen mit dem darauffolgenden Terzett,
       <lb facs="#facs_1_line_1714733337379_20" n="N017"/>das Finale des ersten Actes, das andere Frauenduett
       <lb facs="#facs_1_region_1684594973511_2820_tl_20" n="N018"/>und das ganze zweite Finale, von der Kriegeshymne
@@ -1192,25 +1174,23 @@
       <lb facs="#facs_1_region_1684594973511_2820_tl_25" n="N023"/>hoffe ich von seinem gegen mich gefällten Urtheilsspruche noch
       <lb facs="#facs_1_region_1684594973511_2820_tl_26" n="N024"/>zu appelliren, und falls das Publicum von seinem Irrthum
       <lb facs="#facs_1_region_1684594973511_2820_tl_27" n="N025"/>zurückkommen sollte, dann habe ich den Proceß gewonnen und
-      <lb facs="#facs_1_region_1684594973511_2820_tl_28" n="N026"/>darf „<rs type="bibl">Norma</rs>“ laut für mein bestes Werk erklären. Wenn
+      <lb facs="#facs_1_region_1684594973511_2820_tl_28" n="N026"/>darf „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“ laut für mein bestes Werk erklären. Wenn
       <lb facs="#facs_1_region_1684594973511_2820_tl_29" n="N027"/>nicht, so werde ich in mein traurig Los mich ergeben und
       <lb facs="#facs_1_line_1717487340051_107" n="N028"/>mir zum Troste sagen: Haben nicht die Römer sogar die
-      <lb facs="#facs_1_line_1717487374739_118" n="N029"/>„<rs type="bibl">Olympiade</rs>“ des göttlichen <rs type="person">Pergolese</rs> ausgezischt?“ Aus die¬
-      <lb facs="#facs_1_region_1684594973511_2820_tl_33" n="N030"/>sen Bekenntnissen des schmerzlich getroffenen Tondichters spricht
+      <lb facs="#facs_1_line_1717487374739_118" n="N029"/>„<rs type="bibl" ref="#L’olimpiade">Olympiade</rs>“ des göttlichen <rs type="person" ref="#hsl_person_id_211">Pergolese</rs> ausgezischt?“ Aus die
+      <lb facs="#facs_1_region_1684594973511_2820_tl_33" n="N030" break="no"/>sen Bekenntnissen des schmerzlich getroffenen Tondichters spricht
       <lb facs="#facs_1_region_1684594973511_2820_tl_34" n="N031"/>ein echtes und rechtes Künstlerbewußtsein. Es zeugt von klarer
-      <lb facs="#facs_1_region_1684594973511_2820_tl_35" n="N032"/>Selbsterkenntniß, wenn <rs type="person">Bellini</rs> die durchgefallene „<rs type="bibl">Norma</rs>“
+      <lb facs="#facs_1_region_1684594973511_2820_tl_35" n="N032"/>Selbsterkenntniß, wenn <rs type="person" ref="#hsl_person_id_26">Bellini</rs> die durchgefallene „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“
       <lb facs="#facs_1_region_1684594973511_2820_tl_36" n="N033"/>für seine beste Oper und sich für zufrieden erklärt, falls er
       <lb facs="#facs_1_line_1714733350098_34" n="N034"/>auf derselben Höhe sich erhalten würde. Letzterer Wunsch ist
-      <lb facs="#facs_1_line_1714733365773_49" n="N035"/>leider nicht in Erfüllung gegangen. In der „<rs type="bibl">Norma</rs>“ hat </p>
+                  <lb facs="#facs_1_line_1714733365773_49" n="N035"/>leider nicht in Erfüllung gegangen. In der „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“ hat<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684594977987_2823_tl_1" n="N001"/>
-               <rs type="person">Bellini</rs>ʼs Talent den höchsten ihm erreichbaren Gipfel erklom¬
-      <lb facs="#facs_1_region_1684594977987_2823_tl_2" n="N002"/>men was noch folgt („<rs type="bibl">Beatrice di Tenda</rs>“ und die „<rs type="bibl">Puri¬</rs>
-               <lb facs="#facs_1_region_1684594977987_2823_tl_3" n="N003"/>
-               <rs type="bibl">taner</rs>“) ist ein jäher Sturz von dieser Höhe. Wenn es noch
+            <p prev="true">
+      <lb facs="#facs_1_region_1684594977987_2823_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs Talent den höchsten ihm erreichbaren Gipfel erklom
+      <lb facs="#facs_1_region_1684594977987_2823_tl_2" n="N002" break="no"/>men was noch folgt („<rs type="bibl" ref="#hsl_work_id_3206">Beatrice di Tenda</rs>“ und die „<rs type="bibl" ref="#hsl_work_id_177">Puri
+      <lb facs="#facs_1_region_1684594977987_2823_tl_3" n="N003" break="no"/>taner</rs>“) ist ein jäher Sturz von dieser Höhe. Wenn es noch
       <lb facs="#facs_1_region_1684594977987_2823_tl_4" n="N004"/>eines äußeren Beweises bedürfte für die hervorragende und
-      <lb facs="#facs_1_region_1684594977987_2823_tl_5" n="N005"/>eigenthümliche Bedeutung „<rs type="bibl">Norma</rs>ʼs“ unter den <rs type="person">Bellini</rs>ʼschen
+      <lb facs="#facs_1_region_1684594977987_2823_tl_5" n="N005"/>eigenthümliche Bedeutung „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>ʼs“ unter den <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼschen
       <lb facs="#facs_1_region_1684594977987_2823_tl_6" n="N006"/>Opern, das Fiasco der ersten Aufführung liefert denselben.
       <lb facs="#facs_1_region_1684594977987_2823_tl_7" n="N007"/>Nicht als ob der Durchfall einer Oper deren Vorzüglichkeit
       <lb facs="#facs_1_region_1684594977987_2823_tl_8" n="N008"/>und verkannte Genialität darthun würde, das Zischen des
@@ -1218,379 +1198,257 @@
       <lb facs="#facs_1_region_1684594977987_2823_tl_10" n="N010"/>als neue Machwerke, und letztere viel häufiger. Aber gerade
       <lb facs="#facs_1_region_1684594977987_2823_tl_11" n="N011"/>unter den speciellen Verhältnissen von Zeit und Ort deutete
       <lb facs="#facs_1_region_1684594977987_2823_tl_12" n="N012"/>das Stützigwerden der Mailänder darauf hin, daß in der
-      <lb facs="#facs_1_region_1684594977987_2823_tl_13" n="N013"/>„<rs type="bibl">Norma</rs>“ besondere Eigenthümlichkeiten steckten, Vorzüge höhe¬
-      <lb facs="#facs_1_region_1684594977987_2823_tl_14" n="N014"/>rer und stärkerer Gattung, die das bequeme Niveau der
-      <lb facs="#facs_1_region_1684594977987_2823_tl_15" n="N015"/>„<rs type="bibl">Straniera</rs>“ und „<rs type="bibl">Sonnambula</rs>“ überragten und auf die man
-      <lb facs="#facs_1_region_1684594977987_2823_tl_16" n="N016"/>nicht gefaßt war. Man fand etwas Anderes, als man er¬
-      <lb facs="#facs_1_region_1684594977987_2823_tl_17" n="N017"/>wartet hatte; daß dieses Andere ein Mehr sei, wurde einem
-      <lb facs="#facs_1_region_1684594977987_2823_tl_18" n="N018"/>Publicum, das eben erst in der weichlichen „<rs type="bibl">Nachtwandlerin</rs>“
+      <lb facs="#facs_1_region_1684594977987_2823_tl_13" n="N013"/>„<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“ besondere Eigenthümlichkeiten steckten, Vorzüge höhe
+      <lb facs="#facs_1_region_1684594977987_2823_tl_14" n="N014" break="no"/>rer und stärkerer Gattung, die das bequeme Niveau der
+      <lb facs="#facs_1_region_1684594977987_2823_tl_15" n="N015"/>„<rs type="bibl" ref="#hsl_work_id_3608">Straniera</rs>“ und „<rs type="bibl" ref="#hsl_work_id_352">Sonnambula</rs>“ überragten und auf die man
+      <lb facs="#facs_1_region_1684594977987_2823_tl_16" n="N016"/>nicht gefaßt war. Man fand etwas Anderes, als man er
+      <lb facs="#facs_1_region_1684594977987_2823_tl_17" n="N017" break="no"/>wartet hatte; daß dieses Andere ein Mehr sei, wurde einem
+      <lb facs="#facs_1_region_1684594977987_2823_tl_18" n="N018"/>Publicum, das eben erst in der weichlichen „<rs type="bibl" ref="#hsl_work_id_352">Nachtwandlerin</rs>“
       <lb facs="#facs_1_region_1684594977987_2823_tl_19" n="N019"/>sein höchstes Ideal gefunden, beim ersten Hören nicht klar.
-      <lb facs="#facs_1_region_1684594977987_2823_tl_20" n="N020"/>Bellini empfand das Mißgeschick seiner Oper so schmerzlich,
-      <lb facs="#facs_1_region_1684594977987_2823_tl_21" n="N021"/>daß er, wie sein Freund <hi rendition="#em">
-                  <rs type="person">Pacini</rs>
-               </hi> erzählt, bittere Thränen
-      <lb facs="#facs_1_region_1684594977987_2823_tl_22" n="N022"/>vergoß. Von einer Freundin befragt, welche seiner Partitu¬
-      <lb facs="#facs_1_region_1684594977987_2823_tl_23" n="N023"/>ren er retten würde, wenn man bei einem Schiffbruche alle
-      <lb facs="#facs_1_region_1684594977987_2823_tl_24" n="N024"/>bis auf Eine über Bord werfen wollte? — rief <rs type="person">Bellini</rs> leb¬
-      <lb facs="#facs_1_line_1717487750740_162" n="N025"/>haft: Ah, meine geliebte „<rs type="bibl">Norma</rs>“! Glücklicherweise litt
-      <lb facs="#facs_1_region_1684594977987_2823_tl_27" n="N026"/>„<rs type="bibl">Norma</rs>“ keinen wirklichen Schiffbruch, sie erhob sich schnell
+      <lb facs="#facs_1_region_1684594977987_2823_tl_20" n="N020"/><rs type="person" ref="#hsl_person_id_26">Bellini</rs> empfand das Mißgeschick seiner Oper so schmerzlich,
+      <lb facs="#facs_1_region_1684594977987_2823_tl_21" n="N021"/>daß er, wie sein Freund <hi rendition="#em"><rs type="person" ref="#hsl_person_id_334">Pacini</rs></hi> erzählt, bittere Thränen
+      <lb facs="#facs_1_region_1684594977987_2823_tl_22" n="N022"/>vergoß. Von einer Freundin befragt, welche seiner Partitu
+      <lb facs="#facs_1_region_1684594977987_2823_tl_23" n="N023" break="no"/>ren er retten würde, wenn man bei einem Schiffbruche alle
+      <lb facs="#facs_1_region_1684594977987_2823_tl_24" n="N024"/>bis auf Eine über Bord werfen wollte? — rief <rs type="person" ref="#hsl_person_id_26">Bellini</rs> leb
+      <lb facs="#facs_1_line_1717487750740_162" n="N025" break="no"/>haft: Ah, meine geliebte „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“! Glücklicherweise litt
+      <lb facs="#facs_1_region_1684594977987_2823_tl_27" n="N026"/>„<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“ keinen wirklichen Schiffbruch, sie erhob sich schnell
       <lb facs="#facs_1_region_1684594977987_2823_tl_28" n="N027"/>wieder und lief mit vollen Segeln und lorbeergeschmückten
-      <lb facs="#facs_1_region_1684594977987_2823_tl_29" n="N028"/>Wimpeln in alle lyrischen Häfen <rs type="place">Europa</rs>s ein. In <rs type="place">Italien</rs>
-               <lb facs="#facs_1_region_1684594977987_2823_tl_30" n="N029"/>selbst suchte das Publicum durch verdoppelten Beifallsjubel die
-      <lb facs="#facs_1_region_1684594977987_2823_tl_31" n="N030"/>Scharte des ersten Abends auszuwetzen.
-      <lb facs="#facs_1_region_1684594977987_2823_tl_32" n="N031"/>Die Freude über den nachträglichen Triumph der „<rs type="bibl">Norma</rs>“
-      <lb facs="#facs_1_region_1684594977987_2823_tl_33" n="N032"/>schien in <rs type="person">Bellini</rs> die Sehnsucht nach seinem theuren Meister
-      <lb facs="#facs_1_region_1684594977987_2823_tl_34" n="N033"/>
-               <rs type="person">Zingarelli</rs> und seiten jahrelang vermißten Angehörigen in
-      <lb facs="#facs_1_region_1684594977987_2823_tl_35" n="N034"/>
-               <rs type="place">Catania</rs> neu anzufachen. Er kam im <date month="0" day="0" year="0">Januar 1883</date> in Ne¬
-      <lb facs="#facs_1_line_1714733365773_48" n="N035"/>pel an, wo er unverzüglich zu <rs type="person">Zingarelli</rs> eilte. Während sich</p>
+                  <lb facs="#facs_1_region_1684594977987_2823_tl_29" n="N028"/>Wimpeln in alle lyrischen Häfen <rs type="place" ref="#hsl_place_id_19">Europa</rs>s ein. In <rs type="place" ref="#hsl_place_id_28">Italien</rs><space quantity="1" unit="char"/>
+     <lb facs="#facs_1_region_1684594977987_2823_tl_30" n="N029"/>selbst suchte das Publicum durch verdoppelten Beifallsjubel die
+      <lb facs="#facs_1_region_1684594977987_2823_tl_31" n="N030"/>Scharte des ersten Abends auszuwetzen.</p>
+   <p><lb facs="#facs_1_region_1684594977987_2823_tl_32" n="N031"/>Die Freude über den nachträglichen Triumph der „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“
+       <lb facs="#facs_1_region_1684594977987_2823_tl_33" n="N032"/>schien in <rs type="person" ref="#hsl_person_id_26">Bellini</rs> die Sehnsucht nach seinem theuren Meister
+      <lb facs="#facs_1_region_1684594977987_2823_tl_34" n="N033"/><rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs> und seiten jahrelang vermißten Angehörigen in
+      <lb facs="#facs_1_region_1684594977987_2823_tl_35" n="N034"/><rs type="place" ref="#hsl_place_id_606">Catania</rs> neu anzufachen. Er kam im <date when="1883-01">Januar 1883</date> in <rs type="place" ref="#hsl_place_id_40">Nea
+            <lb facs="#facs_1_line_1714733365773_48" n="N035"/>pel</rs> an, wo er unverzüglich zu <rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs> eilte. Während sich<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684594992647_2829_tl_1" n="N001"/>die Beiden in den Armen lagen, hatte die Nachricht von <rs type="person" continued="true">Bel¬</rs>
-               <lb facs="#facs_2_region_1684594992647_2829_tl_2" n="N002"/>
-               <rs type="person" continued="true">sini</rs>'s Anwesenheit wie ein Blitz in alle Classen des Conser¬
-      <lb facs="#facs_2_line_1714733383756_58" n="N003"/>vatoriums geschlagen, und die Zöglinge drängten sich in freu¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_4" n="N004"/>diger Aufregung um den berühmt gewordenen einstigen Schüler
-      <lb facs="#facs_2_region_1684594992647_2829_tl_5" n="N005"/>der Anstalt. <rs type="person">Bellini</rs> blieb zwei volle Wochen im Conservato¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_6" n="N006"/>rium bei <rs type="person">Zingarelli</rs>, dem er die Partitur der „<rs type="bibl">Norma</rs>“ wid¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_7" n="N007"/>mete. Er widerstand den Lockungen <hi rendition="#em">
-                  <rs type="person">Barbaja</rs>'s</hi>, der nicht
+            <p prev="true">
+      <lb facs="#facs_2_region_1684594992647_2829_tl_1" n="N001"/>die Beiden in den Armen lagen, hatte die Nachricht von <rs type="person" ref="#hsl_person_id_26">Bel
+      <lb facs="#facs_2_region_1684594992647_2829_tl_2" n="N002" break="no"/>sini</rs>ʼs Anwesenheit wie ein Blitz in alle Classen des Conser
+      <lb facs="#facs_2_line_1714733383756_58" n="N003" break="no"/>vatoriums geschlagen, und die Zöglinge drängten sich in freu
+      <lb facs="#facs_2_region_1684594992647_2829_tl_4" n="N004" break="no"/>diger Aufregung um den berühmt gewordenen einstigen Schüler
+      <lb facs="#facs_2_region_1684594992647_2829_tl_5" n="N005"/>der Anstalt. <rs type="person" ref="#hsl_person_id_26">Bellini</rs> blieb zwei volle Wochen im Conservato
+      <lb facs="#facs_2_region_1684594992647_2829_tl_6" n="N006" break="no"/>rium bei <rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs>, dem er die Partitur der „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“ wid
+      <lb facs="#facs_2_region_1684594992647_2829_tl_7" n="N007" break="no"/>mete. Er widerstand den Lockungen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_839">Barbaja</rs>ʼs</hi>, der nicht
       <lb facs="#facs_2_region_1684594992647_2829_tl_8" n="N008"/>weniger als drei neue Opern von ihm begehrte, und eilte nach
-      <lb facs="#facs_2_region_1684594992647_2829_tl_9" n="N009"/>
-               <rs type="place">Catania</rs>, wo ihm die Einwohnerschaft einen feierlichen Empfang
+      <lb facs="#facs_2_region_1684594992647_2829_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_606">Catania</rs>, wo ihm die Einwohnerschaft einen feierlichen Empfang
       <lb facs="#facs_2_region_1684594992647_2829_tl_10" n="N010"/>bereitete. Die Bewohner des Städtchens waren unendlich stolz
       <lb facs="#facs_2_region_1684594992647_2829_tl_11" n="N011"/>auf ihren gefeierten Landsmann; das Patriarchalische dieses
-      <lb facs="#facs_2_region_1684594992647_2829_tl_12" n="N012"/>Verhältnisses fand seinen hübschesten Ausdruck bei einer Auf¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_13" n="N013"/>führung des „<rs type="bibl">Piraten</rs>“, wo <rs type="person">Bellini</rs>, lärmend hervorgerufen,
+      <lb facs="#facs_2_region_1684594992647_2829_tl_12" n="N012"/>Verhältnisses fand seinen hübschesten Ausdruck bei einer Auf
+      <lb facs="#facs_2_region_1684594992647_2829_tl_13" n="N013" break="no"/>führung des „<rs type="bibl" ref="#hsl_work_id_3135">Piraten</rs>“, wo <rs type="person" ref="#hsl_person_id_26">Bellini</rs>, lärmend hervorgerufen,
       <lb facs="#facs_2_region_1684594992647_2829_tl_14" n="N014"/>mehrmals seinen vor Freude halb närrischen Vater mit an
       <lb facs="#facs_2_region_1684594992647_2829_tl_15" n="N015"/>der Hand herausführte. Inmitten dieser Freuden und Ehren
-      <lb facs="#facs_2_region_1684594992647_2829_tl_16" n="N016"/>litt <rs type="person">Bellini</rs> unter der fixen Idee, daß er seine Heimat zum
-      <lb facs="#facs_2_region_1684594992647_2829_tl_17" n="N017"/>letztenmale sehe. Immer häufiger wurden diese Anfälle melan¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_18" n="N018"/>cholischen Trübsinns. In solcher Stimmung mag er in <rs type="place">Ca¬</rs>
-               <lb facs="#facs_2_region_1684594992647_2829_tl_19" n="N019"/>
-               <rs type="place">tania</rs> den Plan gefaßt haben, den „<rs type="bibl">Orest</rs>“ von <hi rendition="#em">
-                  <rs type="person">Alfieri</rs>
-               </hi>, ganz
+       <lb facs="#facs_2_region_1684594992647_2829_tl_16" n="N016"/>litt <rs type="person" ref="#hsl_person_id_26">Bellini</rs> unter der fixen Idee, daß er seine Heimat zum
+      <lb facs="#facs_2_region_1684594992647_2829_tl_17" n="N017"/>letztenmale sehe. Immer häufiger wurden diese Anfälle melan
+      <lb facs="#facs_2_region_1684594992647_2829_tl_18" n="N018" break="no"/>cholischen Trübsinns. In solcher Stimmung mag er in <rs type="place" ref="#hsl_place_id_606">Ca
+     <lb facs="#facs_2_region_1684594992647_2829_tl_19" n="N019" break="no"/>tania</rs> den Plan gefaßt haben, den „<rs type="bibl" ref="#hsl_work_id_3613">Orest</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5352">Alfieri</rs></hi>, ganz
       <lb facs="#facs_2_region_1684594992647_2829_tl_20" n="N020"/>so wie ihn der Poet geschrieben, in Musik zu setzen. Der Plan
-      <lb facs="#facs_2_region_1684594992647_2829_tl_21" n="N021"/>wurde nicht verwirklicht, <rs type="person">Bellini</rs> selbst mochte gefühlt haben,
+      <lb facs="#facs_2_region_1684594992647_2829_tl_21" n="N021"/>wurde nicht verwirklicht, <rs type="person" ref="#hsl_person_id_26">Bellini</rs> selbst mochte gefühlt haben,
       <lb facs="#facs_2_region_1684594992647_2829_tl_22" n="N022"/>daß seine elegische Lyra keine Töne für die Verzweiflung des
-      <lb facs="#facs_2_region_1684594992647_2829_tl_23" n="N023"/>
-               <rs type="person">Orest</rs> und das furchtbare Rächeramt der Furien besitze. <rs type="person" continued="true">Bel¬</rs>
-               <lb facs="#facs_2_region_1684594992647_2829_tl_24" n="N024"/>
-               <rs type="person" continued="true">lini</rs> kehrte nach <rs type="place">Mailand</rs> zurück, um sich bald darauf nach
-      <lb facs="#facs_2_region_1684594992647_2829_tl_25" n="N025"/>
-               <rs type="place">Venedig</rs> zu begeben, zur ersten Aufführung seiner neuen Oper
-      <lb facs="#facs_2_region_1684594992647_2829_tl_26" n="N026"/>„<hi rendition="#em">
-                  <rs type="bibl">Beatrice di Tenda</rs>
-               </hi>“. Er hatte das Werk unter sehr
-      <lb facs="#facs_2_region_1684594992647_2829_tl_27" n="N027"/>verstimmenden Einflüssen componirt. Dahin gehörten die bös¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_28" n="N028"/>willig verbreiteten Gerüchte von tadelnden Kritiken <rs type="person">Bellini</rs>ʼs,
-      <lb facs="#facs_2_region_1684594992647_2829_tl_29" n="N029"/>gegen den „<rs type="bibl">Tancred</rs>“ von <rs type="person">Rossini</rs>, ferner sein Zerwürfniß mit
-      <lb facs="#facs_2_region_1684594992647_2829_tl_30" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Romani</rs>
-               </hi>, welcher, mehr mit Liebschaften als mit Versen be¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_31" n="N031"/>schäftigt, den Componisten wiederholt in dringendsten Momen¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_32" n="N032"/>ten im Stiche ließ. „<rs type="bibl">Beatrice di Tenda</rs>“ wurde in der
-      <lb facs="#facs_2_region_1684594992647_2829_tl_33" n="N033"/>Fenice am <date month="0" day="0" year="0">16. März 1833</date> aufgeführt und erlebte einen ent¬
-      <lb facs="#facs_2_region_1684594992647_2829_tl_34" n="N034"/>schiedenen Mißerfolg. Ein für das <rs type="place">italienisch</rs>e Theaterleben
-      <lb facs="#facs_2_region_1684594992647_2829_tl_35" n="N035"/>charakteristischer Zwischenfall verdient erwähnt zu werden. Das</p>
+      <lb facs="#facs_2_region_1684594992647_2829_tl_23" n="N023"/><rs type="person" ref="#hsl_work_id_3613">Orest</rs> und das furchtbare Rächeramt der Furien besitze. <rs type="person" ref="#hsl_person_id_26">Bel
+      <lb facs="#facs_2_region_1684594992647_2829_tl_24" n="N024" break="no"/>lini</rs> kehrte nach <rs type="place" ref="#hsl_place_id_73">Mailand</rs> zurück, um sich bald darauf nach
+      <lb facs="#facs_2_region_1684594992647_2829_tl_25" n="N025"/><rs type="place" ref="#hsl_place_id_89">Venedig</rs> zu begeben, zur ersten Aufführung seiner neuen Oper
+      <lb facs="#facs_2_region_1684594992647_2829_tl_26" n="N026"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_3206">Beatrice di Tenda</rs></hi>“. Er hatte das Werk unter sehr
+      <lb facs="#facs_2_region_1684594992647_2829_tl_27" n="N027"/>verstimmenden Einflüssen componirt. Dahin gehörten die bös
+      <lb facs="#facs_2_region_1684594992647_2829_tl_28" n="N028" break="no"/>willig verbreiteten Gerüchte von tadelnden Kritiken <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs,
+      <lb facs="#facs_2_region_1684594992647_2829_tl_29" n="N029"/>gegen den „<rs type="bibl" ref="#hsl_work_id_544">Tancred</rs>“ von <rs type="person" ref="#hsl_person_id_241">Rossini</rs>, ferner sein Zerwürfniß mit
+      <lb facs="#facs_2_region_1684594992647_2829_tl_30" n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2026">Romani</rs></hi>, welcher, mehr mit Liebschaften als mit Versen be
+      <lb facs="#facs_2_region_1684594992647_2829_tl_31" n="N031" break="no"/>schäftigt, den Componisten wiederholt in dringendsten Momen
+      <lb facs="#facs_2_region_1684594992647_2829_tl_32" n="N032" break="no"/>ten im Stiche ließ. „<rs type="bibl" ref="#hsl_work_id_3206">Beatrice di Tenda</rs>“ wurde in der
+      <lb facs="#facs_2_region_1684594992647_2829_tl_33" n="N033"/>Fenice am <date when="1833-03-16">16. März 1833</date> aufgeführt und erlebte einen ent
+      <lb facs="#facs_2_region_1684594992647_2829_tl_34" n="N034" break="no"/>schiedenen Mißerfolg. Ein für das <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Theaterleben
+                  <lb facs="#facs_2_region_1684594992647_2829_tl_35" n="N035"/>charakteristischer Zwischenfall verdient erwähnt zu werden. Das<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_line_1714733398191_74" n="N001"/>gegen <rs type="person">Bellini</rs> eingenommene Publicum äußerte während der
+            <p prev="true">
+      <lb facs="#facs_2_line_1714733398191_74" n="N001"/>gegen <rs type="person" ref="#hsl_person_id_26">Bellini</rs> eingenommene Publicum äußerte während der
       <lb facs="#facs_2_region_1684594996015_2832_tl_2" n="N002"/>Vorstellung auf alle Art seine Mißstimmung; als einmal das
       <lb facs="#facs_2_line_1714733383756_57" n="N003"/>Murren und Zischen besonders auffallend wurde, glaubte die
-      <lb facs="#facs_2_region_1684594996015_2832_tl_3" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="person">Pasta</rs>
-               </hi> dies unerklärliche Uebelwollen auf sich beziehen zu müs¬
-      <lb facs="#facs_2_region_1684594996015_2832_tl_4" n="N005"/>sen und gerieth in leidenschaftlichen Zorn. Mit seltener
+      <lb facs="#facs_2_region_1684594996015_2832_tl_3" n="N004"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_932">Pasta</rs></hi> dies unerklärliche Uebelwollen auf sich beziehen zu müs
+      <lb facs="#facs_2_region_1684594996015_2832_tl_4" n="N005" break="no"/>sen und gerieth in leidenschaftlichen Zorn. Mit seltener
       <lb facs="#facs_2_region_1684594996015_2832_tl_5" n="N006"/>Geistesgegenwart ergreift sie die Gelegenheit, ihm Ausdruck zu
-      <lb facs="#facs_2_line_1717488186631_236" n="N007"/>leihen; sie wendet sich in it den Worten <rs type="person">Beatrice</rs>ʼs: „Se amar
-      <lb facs="#facs_2_line_1717488213717_241" n="N008"/>pon puoi, rispettami!“ *) statt an den <rs type="person">Herzog</rs> direct an das
+      <lb facs="#facs_2_line_1717488186631_236" n="N007"/>leihen; sie wendet sich in it den Worten <rs type="person" ref="#hsl_person_id_5358">Beatrice</rs>ʼs: „Se amar
+      <lb facs="#facs_2_line_1717488213717_241" n="N008"/>pon puoi, rispettami!“ 
+                  <note type="footnote" n="*)">
+      <lb facs="#facs_2_region_1684594996015_2832_tl_36" n="N034"/>„Wenn du mich nicht lieben kannst, so achte mich!“</note> statt an den <rs type="person" ref="#hsl_person_id_5359">Herzog</rs> direct an das
       <lb facs="#facs_2_region_1684594996015_2832_tl_10" n="N009"/>Publicum und schleudert diese Apostrophe mit höchster Kraft
       <lb facs="#facs_2_region_1684594996015_2832_tl_11" n="N010"/>ins Parterre. Eine dröhnende Beifallssalve lohnt ihre seltene
       <lb facs="#facs_2_region_1684594996015_2832_tl_12" n="N011"/>Kühnheit, und die Oper geht ohne weitere Störung zu Ende.
-      <lb facs="#facs_2_region_1684594996015_2832_tl_13" n="N012"/>Doch hat „<rs type="bibl">Beatrice</rs>“ niemals Beliebtheit erlangt — ein Schick¬
-      <lb facs="#facs_2_line_1714733394024_66" n="N013"/>sal, das in der Mittelmäßigkeit der Partitur eine völlig aus¬ 
-      <lb facs="#facs_2_region_1684594996015_2832_tl_15" n="N014"/>reichende Erklärung findet.
-      <lb facs="#facs_2_region_1684594996015_2832_tl_16" n="N015"/>Unaufgehalten durch den Unfall der „<rs type="bibl">Beatrice</rs>“ flog der
-      <lb facs="#facs_2_region_1684594996015_2832_tl_17" n="N016"/>Ruhm <rs type="person">Bellini</rs>'s in alle Lande. Der kaum 32jährige Compo¬
-      <lb facs="#facs_2_region_1684594996015_2832_tl_18" n="N017"/>nist zählte zu den gefeiertsten Namen in <rs type="place">Europa</rs>. Die lockend¬
-      <lb facs="#facs_2_region_1684594996015_2832_tl_19" n="N018"/>sten Anträge kamen ihm aus <rs type="place">London</rs> und <rs type="place">Paris</rs>. In <rs type="place">London</rs>
-               <lb facs="#facs_2_line_1717488299622_256" n="N019"/>hatte er gegen ein Honorar von 12,000 Francs „<rs type="bibl">Norma</rs>“
-      <lb facs="#facs_2_region_1684594996015_2832_tl_22" n="N020"/>und „<rs type="bibl">Sonnambula</rs>“ (mit der <hi rendition="#em">
-                  <rs type="person">Pasta</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Méric-Lalande</rs>
-               </hi> und
-      <lb facs="#facs_2_region_1684594996015_2832_tl_23" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Donzelli</rs>
-               </hi> in den Hauptrollen) einzustudiren und zu dirigi¬
-      <lb facs="#facs_2_region_1684594996015_2832_tl_24" n="N022"/>ren. Hierauf ging er nach <rs type="place">Paris</rs>, wo der freundschaftliche Ver¬
-      <lb facs="#facs_2_region_1684594996015_2832_tl_25" n="N023"/>kehr mit <hi rendition="#em">
-                  <rs type="person">Cherubini</rs>
-               </hi> und <rs type="person">
-                  <hi rendition="#em">Rossini</hi>,</rs> außerdem Zerstreuungen
+      <lb facs="#facs_2_region_1684594996015_2832_tl_13" n="N012"/>Doch hat „<rs type="bibl" ref="#hsl_work_id_3206">Beatrice</rs>“ niemals Beliebtheit erlangt — ein Schick
+      <lb facs="#facs_2_line_1714733394024_66" n="N013" break="no"/>sal, das in der Mittelmäßigkeit der Partitur eine völlig aus
+      <lb facs="#facs_2_region_1684594996015_2832_tl_15" n="N014" break="no"/>reichende Erklärung findet.</p>
+   <p><lb facs="#facs_2_region_1684594996015_2832_tl_16" n="N015"/>Unaufgehalten durch den Unfall der „<rs type="bibl" ref="#hsl_work_id_3206">Beatrice</rs>“ flog der
+      <lb facs="#facs_2_region_1684594996015_2832_tl_17" n="N016"/>Ruhm <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs in alle Lande. Der kaum 32jährige Compo
+      <lb facs="#facs_2_region_1684594996015_2832_tl_18" n="N017" break="no"/>nist zählte zu den gefeiertsten Namen in <rs type="place" ref="#hsl_place_id_19">Europa</rs>. Die lockend
+         <lb facs="#facs_2_region_1684594996015_2832_tl_19" n="N018" break="no"/>sten Anträge kamen ihm aus <rs type="place" ref="#hsl_place_id_34">London</rs> und <rs type="place" ref="#hsl_place_id_44">Paris</rs>. In <rs type="place" ref="#hsl_place_id_34">London</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1717488299622_256" n="N019"/>hatte er gegen ein Honorar von 12,000 Francs „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“
+      <lb facs="#facs_2_region_1684594996015_2832_tl_22" n="N020"/>und „<rs type="bibl" ref="#hsl_work_id_352">Sonnambula</rs>“ (mit der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_932">Pasta</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5346">Méric-Lalande</rs></hi> und
+      <lb facs="#facs_2_region_1684594996015_2832_tl_23" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2289">Donzelli</rs></hi> in den Hauptrollen) einzustudiren und zu dirigi
+      <lb facs="#facs_2_region_1684594996015_2832_tl_24" n="N022" break="no"/>ren. Hierauf ging er nach <rs type="place" ref="#hsl_place_id_44">Paris</rs>, wo der freundschaftliche Ver
+      <lb facs="#facs_2_region_1684594996015_2832_tl_25" n="N023" break="no"/>kehr mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_47">Cherubini</rs></hi> und <rs type="person" ref="#hsl_person_id_241"><hi rendition="#em">Rossini</hi>,</rs> außerdem Zerstreuungen
       <lb facs="#facs_2_region_1684594996015_2832_tl_26" n="N024"/>und Huldigungen aller Art ihn vollauf beschäftigten. Er hatte eine
-      <lb facs="#facs_2_region_1684594996015_2832_tl_27" n="N025"/>neue Oper für das Théâtre Italien in <rs type="place">Paris</rs> zu schreiben. Mit <hi rendition="#em">
-                  <rs type="person" continued="true">Ro¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684594996015_2832_tl_28" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mani</rs>
-               </hi> entzweit, mußte <rs type="person">Bellini</rs> sich wider Willen einem anderen
-      <lb facs="#facs_2_region_1684594996015_2832_tl_29" n="N027"/>Textdichter anvertrauen. Er wählte den Conte <hi rendition="#em">
-                  <rs type="person">Pepoli</rs>
-               </hi>, wel¬
-      <lb facs="#facs_2_region_1684594996015_2832_tl_30" n="N028"/>cher ihm das Libretto zu den „<rs type="bibl">Puritanern</rs>“ fabricirte. Es war
-      <lb facs="#facs_2_region_1684594996015_2832_tl_31" n="N029"/>einem Drama von <hi rendition="#em">
-                  <rs type="person">Ancelot</rs>
-               </hi> („<rs type="bibl">Cavaliere und Rundhütte</rs>“) nach¬
-      <lb facs="#facs_2_region_1684594996015_2832_tl_32" n="N030"/>gebildet, welches seinerseits wieder aus einem Walter <rs type="person">Scott</rs>¬
-      <lb facs="#facs_2_region_1684594996015_2832_tl_33" n="N031"/>schen Roman entstanden war. Nur schwer verstand sich <rs type="person" continued="true">Bel¬</rs>
-               <lb facs="#facs_2_region_1684594996015_2832_tl_34" n="N032"/>
-               <rs type="person" continued="true">lini</rs> mit seinem neuen Mitarbeiter, dessen Dichtungsweise ihm
+      <lb facs="#facs_2_region_1684594996015_2832_tl_27" n="N025"/>neue Oper für das Théâtre Italien in <rs type="place" ref="#hsl_place_id_44">Paris</rs> zu schreiben. Mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2026">Ro
+      <lb facs="#facs_2_region_1684594996015_2832_tl_28" n="N026" break="no"/>mani</rs></hi> entzweit, mußte <rs type="person" ref="#hsl_person_id_26">Bellini</rs> sich wider Willen einem anderen
+      <lb facs="#facs_2_region_1684594996015_2832_tl_29" n="N027"/>Textdichter anvertrauen. Er wählte den Conte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2088">Pepoli</rs></hi>, wel
+      <lb facs="#facs_2_region_1684594996015_2832_tl_30" n="N028" break="no"/>cher ihm das Libretto zu den „<rs type="bibl" ref="#hsl_work_id_177">Puritanern</rs>“ fabricirte. Es war
+      <lb facs="#facs_2_region_1684594996015_2832_tl_31" n="N029"/>einem Drama von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5361">Ancelot</rs></hi> („<rs type="bibl">Cavaliere und Rundhütte</rs>“) nach
+      <lb facs="#facs_2_region_1684594996015_2832_tl_32" n="N030" break="no"/>gebildet, welches seinerseits wieder aus einem Walter <rs type="person" ref="#hsl_person_id_5360">Scott</rs>
+      <lb facs="#facs_2_region_1684594996015_2832_tl_33" n="N031" break="no"/>schen Roman entstanden war. Nur schwer verstand sich <rs type="person" ref="#hsl_person_id_26">Bel
+      <lb facs="#facs_2_region_1684594996015_2832_tl_34" n="N032" break="no"/>lini</rs> mit seinem neuen Mitarbeiter, dessen Dichtungsweise ihm
       <lb facs="#facs_2_region_1684594996015_2832_tl_35" n="N033"/>ungewohnt und unsympathisch war. „Ich fühle jetzt,“ schreibt
-      <lb facs="#facs_2_region_1684594996015_2832_tl_36" n="N034"/>*) „Wenn du mich nicht lieben kannst, so achte mich!“</p>
+         <space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1714733398191_73" n="N001"/>er an einen Freund, „daß, falls ich noch für <rs type="place">Italien</rs> compo¬
-      <lb facs="#facs_2_region_1684595001584_2835_tl_1" n="N002"/>niren sollte, ich es nicht ohne <hi rendition="#em">
-                  <rs type="person">Romani</rs>
-               </hi> kann. Alle Anderen
+            <p prev="true">
+      <lb facs="#facs_2_line_1714733398191_73" n="N001"/>er an einen Freund, „daß, falls ich noch für <rs type="place" ref="#hsl_place_id_28">Italien</rs> compo
+      <lb facs="#facs_2_region_1684595001584_2835_tl_1" n="N002" break="no"/>niren sollte, ich es nicht ohne <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2026">Romani</rs></hi> kann. Alle Anderen
       <lb facs="#facs_2_region_1684595001584_2835_tl_2" n="N003"/>sind kalt, abgeschmackt und ohne Leidenschaft. Ich muß meine
-      <lb facs="#facs_2_region_1684595001584_2835_tl_3" n="N004"/>Eigenliebe der Kunst zum Opfer bringen und alle Mittel ver¬
-      <lb facs="#facs_2_region_1684595001584_2835_tl_4" n="N005"/>suchen, mich ihm wieder zu nähern.“ Die Beiden haben sich
-      <lb facs="#facs_2_region_1684595001584_2835_tl_5" n="N006"/>wirklich kurze Zeit darauf vollständig wieder versöhnt. Um ru¬
-      <lb facs="#facs_2_region_1684595001584_2835_tl_6" n="N007"/>higer arbeiten zu können, zog <rs type="person">Bellini</rs> mit einer befreundeten
-      <lb facs="#facs_2_region_1684595001584_2835_tl_7" n="N008"/>Familie nach <rs type="place">Puteaux</rs>, einer kleinen Sommerfrische an der
-      <lb facs="#facs_2_region_1684595001584_2835_tl_8" n="N009"/>
-               <rs type="place">Seine</rs> nahe bei <rs type="place">Paris</rs>. Die Arbeit lag ihm sehr am Herzen:
-      <lb facs="#facs_2_region_1684595001584_2835_tl_9" n="N010"/>ein Erfolg in <rs type="place">Paris</rs> hatte entscheidende Wichtigkeit, überdies
-      <lb facs="#facs_2_region_1684595001584_2835_tl_10" n="N011"/>war die Rivalität <hi rendition="#em">
-                  <rs type="person">Donizetti</rs>ʼs</hi> zu bestehen, welcher gleichzeitig
-      <lb facs="#facs_2_region_1684595001584_2835_tl_11" n="N012"/>für dieselbe Bühne den „<rs type="bibl">Marino Falieri</rs>“ schrieb. <rs type="person">Bellini</rs>
-               <lb facs="#facs_2_line_1714733394024_65" n="N013"/>verwendetet auf die „<rs type="bibl">Puritaner</rs>“ mehr Mühe und Sorgfalt,
-      <lb facs="#facs_2_region_1684595001584_2835_tl_12" n="N014"/>als auf seine früheren Werke, zeigte auch jede Nummer,so¬
-      <lb facs="#facs_2_line_1717488604484_303" n="N015"/>bald sie fertig war, <rs type="person">Rossini</rs>; doch wurde er, je näher dem Ab¬
-      <lb facs="#facs_2_line_1717491046245_308" n="N016"/>schlusse, desto ängstlicher. „<rs type="bibl">I Puritani di Scozia</rs>“ — so lau¬
-      <lb facs="#facs_2_region_1684595001584_2835_tl_17" n="N017"/>tete ursprünglich der Titel — wurden am <date month="0" day="0" year="0">25. Januar 1835</date>
-               <lb facs="#facs_2_region_1684595001584_2835_tl_18" n="N018"/>in <rs type="place">Paris</rs> zum erstenmale gegeben. Die Aufführung (mit Julia
-      <lb facs="#facs_2_region_1684595001584_2835_tl_19" n="N019"/>
-               <hi rendition="#em">
-                  <rs type="person">Grisi</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Rubini</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Lablache</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Tamburini</rs>
-               </hi>) war wun¬
-      <lb facs="#facs_2_region_1684595001584_2835_tl_20" n="N020"/>dervoll, der Beifall enthusiastisch, kurz der Total-Eindruck so
-      <lb facs="#facs_2_region_1684595001584_2835_tl_21" n="N021"/>bestechend, daß ein besserer Kritiker als Herr <rs type="person">Pougin</rs> (<hi rendition="#em">
-                  <rs type="person" continued="true">Castil-</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684595001584_2835_tl_22" n="N022"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">Blaze</rs>
-               </hi> nämlich) am anderen Tage im Journal des Debats
-      <lb facs="#facs_2_line_1717491153693_323" n="N023"/>mit Entschiedenheit behauptete, „que le talent de Mr. <rs type="person" continued="true">Bel¬</rs>
-               <lb facs="#facs_2_line_1717491173556_327" n="N024"/>
-               <rs type="person" continued="true">lini</rs> a singulièrement grandi“. Das Gegentheil ist wahr:
-      <lb facs="#facs_2_region_1684595001584_2835_tl_27" n="N025"/>nur die Instrumentirung und sonstige Mache ist etwas sorg¬
-      <lb facs="#facs_2_region_1684595001584_2835_tl_28" n="N026"/>fältiger als früher (was bei Individualitäten wie <rs type="person">Bellini</rs> von
+      <lb facs="#facs_2_region_1684595001584_2835_tl_3" n="N004"/>Eigenliebe der Kunst zum Opfer bringen und alle Mittel ver
+      <lb facs="#facs_2_region_1684595001584_2835_tl_4" n="N005" break="no"/>suchen, mich ihm wieder zu nähern.“ Die Beiden haben sich
+      <lb facs="#facs_2_region_1684595001584_2835_tl_5" n="N006"/>wirklich kurze Zeit darauf vollständig wieder versöhnt. Um ru
+      <lb facs="#facs_2_region_1684595001584_2835_tl_6" n="N007" break="no"/>higer arbeiten zu können, zog <rs type="person" ref="#hsl_person_id_26">Bellini</rs> mit einer befreundeten
+      <lb facs="#facs_2_region_1684595001584_2835_tl_7" n="N008"/>Familie nach <rs type="place" ref="#hsl_place_id_609">Puteaux</rs>, einer kleinen Sommerfrische an der
+      <lb facs="#facs_2_region_1684595001584_2835_tl_8" n="N009"/><rs type="place" ref="#hsl_place_id_355">Seine</rs> nahe bei <rs type="place" ref="#hsl_place_id_44">Paris</rs>. Die Arbeit lag ihm sehr am Herzen:
+      <lb facs="#facs_2_region_1684595001584_2835_tl_9" n="N010"/>ein Erfolg in <rs type="place" ref="#hsl_place_id_44">Paris</rs> hatte entscheidende Wichtigkeit, überdies
+      <lb facs="#facs_2_region_1684595001584_2835_tl_10" n="N011"/>war die Rivalität <hi rendition="#em"><rs type="person" ref="#hsl_person_id_63">Donizetti</rs>ʼs</hi> zu bestehen, welcher gleichzeitig
+                  <lb facs="#facs_2_region_1684595001584_2835_tl_11" n="N012"/>für dieselbe Bühne den „<rs type="bibl" ref="#hsl_work_id_1506">Marino Falieri</rs>“ schrieb. <rs type="person" ref="#hsl_person_id_26">Bellini</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1714733394024_65" n="N013"/>verwendetet auf die „<rs type="bibl" ref="#hsl_work_id_177">Puritaner</rs>“ mehr Mühe und Sorgfalt,
+      <lb facs="#facs_2_region_1684595001584_2835_tl_12" n="N014"/>als auf seine früheren Werke, zeigte auch jede Nummer,so
+      <lb facs="#facs_2_line_1717488604484_303" n="N015" break="no"/>bald sie fertig war, <rs type="person" ref="#hsl_person_id_241">Rossini</rs>; doch wurde er, je näher dem Ab
+      <lb facs="#facs_2_line_1717491046245_308" n="N016" break="no"/>schlusse, desto ängstlicher. „<rs type="bibl" ref="#hsl_work_id_177">I Puritani di Scozia</rs>“ — so lau
+      <lb facs="#facs_2_region_1684595001584_2835_tl_17" n="N017" break="no"/>tete ursprünglich der Titel — wurden am <date when="1835-01-25">25. Januar 1835</date>
+      <lb facs="#facs_2_region_1684595001584_2835_tl_18" n="N018"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs> zum erstenmale gegeben. Die Aufführung (mit Julia
+      <lb facs="#facs_2_region_1684595001584_2835_tl_19" n="N019"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_862">Grisi</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2290">Rubini</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_482">Lablache</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2562">Tamburini</rs></hi>) war wun
+      <lb facs="#facs_2_region_1684595001584_2835_tl_20" n="N020" break="no"/>dervoll, der Beifall enthusiastisch, kurz der Total-Eindruck so
+      <lb facs="#facs_2_region_1684595001584_2835_tl_21" n="N021"/>bestechend, daß ein besserer Kritiker als Herr <rs type="person" ref="#hsl_person_id_1761">Pougin</rs> (<hi rendition="#em"><rs type="person" ref="#hsl_person_id_811">Castil-
+            <lb facs="#facs_2_region_1684595001584_2835_tl_22" n="N022" break="no"/>Blaze</rs></hi> nämlich) am anderen Tage im <rs type="bibl" ref="#hsl_work_id_639">Journal des Debats</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1717491153693_323" n="N023"/>mit Entschiedenheit behauptete, „que le talent de Mr. <rs type="person" ref="#hsl_person_id_26">Bel
+      <lb facs="#facs_2_line_1717491173556_327" n="N024" break="no"/>lini</rs> a singulièrement grandi“. Das Gegentheil ist wahr:
+      <lb facs="#facs_2_region_1684595001584_2835_tl_27" n="N025"/>nur die Instrumentirung und sonstige Mache ist etwas sorg
+      <lb facs="#facs_2_region_1684595001584_2835_tl_28" n="N026" break="no"/>fältiger als früher (was bei Individualitäten wie <rs type="person" ref="#hsl_person_id_26">Bellini</rs> von
       <lb facs="#facs_2_region_1684595001584_2835_tl_29" n="N027"/>geringer Wichtigkeit); die Kraft der Erfindung, sowie das
       <lb facs="#facs_2_region_1684595001584_2835_tl_30" n="N028"/>dramatische Feuer sind auffallend gesunken im Vergleiche
-      <lb facs="#facs_2_region_1684595001584_2835_tl_31" n="N029"/>mit „<rs type="bibl">Norma</rs>“. Die beiden gefeiertesten und populär gewordenen
+      <lb facs="#facs_2_region_1684595001584_2835_tl_31" n="N029"/>mit „<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“. Die beiden gefeiertesten und populär gewordenen
       <lb facs="#facs_2_region_1684595001584_2835_tl_32" n="N030"/>Nummern, das Unisono-Trompeten-Duett der beiden Bassisten
-      <lb facs="#facs_2_region_1684595001584_2835_tl_33" n="N031"/>und die Bravour-Polacca der wahnsinnigen <rs type="person">Elvira</rs> gehören zu
-      <lb facs="#facs_2_region_1684595001584_2835_tl_34" n="N032"/>dem Trivialsten, was <rs type="person">Bellini</rs> je geschrieben. Der Rest ist
-      <lb facs="#facs_2_region_1684595001584_2835_tl_35" n="N033"/>Langeweile. Natürlich schwört auch Herr Arthur <rs type="person">Pougin</rs> auf
+      <lb facs="#facs_2_region_1684595001584_2835_tl_33" n="N031"/>und die Bravour-Polacca der wahnsinnigen <rs type="person" ref="#hsl_person_id_524">Elvira</rs> gehören zu
+      <lb facs="#facs_2_region_1684595001584_2835_tl_34" n="N032"/>dem Trivialsten, was <rs type="person" ref="#hsl_person_id_26">Bellini</rs> je geschrieben. Der Rest ist
+      <lb facs="#facs_2_region_1684595001584_2835_tl_35" n="N033"/>Langeweile. Natürlich schwört auch Herr Arthur <rs type="person" ref="#hsl_person_id_1761">Pougin</rs> auf
       <lb facs="#facs_2_region_1684595001584_2835_tl_36" n="N034"/>die neue Entwicklungsphase, die „modification profonde“,
-      <lb facs="#facs_2_region_1684595001584_2835_tl_37" n="N035"/>welche <rs type="person">Bellini</rs>'s Styl in den „<rs type="bibl">Puritanern</rs>“ vollzogen habe.</p>
+      <lb facs="#facs_2_region_1684595001584_2835_tl_37" n="N035"/>welche <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs Styl in den „<rs type="bibl" ref="#hsl_work_id_177">Puritanern</rs>“ vollzogen habe.</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p>
-               <lb facs="#facs_3_region_1684595016268_2841_tl_1" n="N001"/>Die Zeit hat bereits entschieden: die „<rs type="bibl">Puritaner</rs>“ sind von den
+      <lb facs="#facs_3_region_1684595016268_2841_tl_1" n="N001"/>Die Zeit hat bereits entschieden: die „<rs type="bibl" ref="#hsl_work_id_177">Puritaner</rs>“ sind von den
       <lb facs="#facs_3_line_1714733417243_85" n="N002"/>meisten Bühnen verschwunden oder fristen im Schatten der
-      <lb facs="#facs_3_region_1684595016268_2841_tl_2" n="N003"/>„<rs type="bibl">Norma</rs>“ und „<rs type="bibl">Sonnambula</rs>“ nur noch ein kümmerliches
-      <lb facs="#facs_3_region_1684595016268_2841_tl_3" n="N004"/>Leben. Die „<rs type="bibl">Puritaner</rs>“ waren <rs type="person">Bellini</rs>'s letzte Composition.
-      <lb facs="#facs_3_region_1684595016268_2841_tl_4" n="N005"/>Von einer früheren Oper, „<hi rendition="#em">
-                  <rs type="bibl">Ernani</rs>
-               </hi>“, welcher <rs type="person">Bellini</rs> ein
+      <lb facs="#facs_3_region_1684595016268_2841_tl_2" n="N003"/>„<rs type="bibl" ref="#hsl_work_id_81">Norma</rs>“ und „<rs type="bibl" ref="#hsl_work_id_352">Sonnambula</rs>“ nur noch ein kümmerliches
+      <lb facs="#facs_3_region_1684595016268_2841_tl_3" n="N004"/>Leben. Die „<rs type="bibl" ref="#hsl_work_id_177">Puritaner</rs>“ waren <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs letzte Composition.
+      <lb facs="#facs_3_region_1684595016268_2841_tl_4" n="N005"/>Von einer früheren Oper, „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_204">Ernani</rs></hi>“, welcher <rs type="person" ref="#hsl_person_id_26">Bellini</rs> ein
       <lb facs="#facs_3_region_1684595016268_2841_tl_5" n="N006"/>einzigesmal ganz flüchtig mit dem Bemerken erwähnt, sie sei
       <lb facs="#facs_3_region_1684595016268_2841_tl_6" n="N007"/>verboten worden und habe ihm einiges melodisches Material
-      <lb facs="#facs_3_region_1684595016268_2841_tl_7" n="N008"/>für die „<rs type="bibl">Nachtwandlerin</rs>“ geliefert, ist nirgends eine Spur oder
-      <lb facs="#facs_3_region_1684595016268_2841_tl_8" n="N009"/>nähere Nachricht aufzufinden. Nach dem Erfolg der „<rs type="bibl">Puri¬</rs>
-               <lb facs="#facs_3_region_1684595016268_2841_tl_9" n="N010"/>
-               <rs type="bibl">taner</rs>“, sah sich <rs type="person">Bellini</rs> mit Ehren und Auszeichnungen über¬
-      <lb facs="#facs_3_region_1684595016268_2841_tl_10" n="N011"/>häuft, er war so glückselig, als ein Sterblicher nur sein kann.
-      <lb facs="#facs_3_region_1684595016268_2841_tl_11" n="N012"/>Leider war dieses Glück von kurzer Dauer. <rs type="person">Bellini</rs> hatte sich
-      <lb facs="#facs_3_region_1684595016268_2841_tl_12" n="N013"/>in <rs type="place">Paris</rs> zu sehr der Arbeit und zu sehr den Vergnügungen
+      <lb facs="#facs_3_region_1684595016268_2841_tl_7" n="N008"/>für die „<rs type="bibl" ref="#hsl_work_id_352">Nachtwandlerin</rs>“ geliefert, ist nirgends eine Spur oder
+      <lb facs="#facs_3_region_1684595016268_2841_tl_8" n="N009"/>nähere Nachricht aufzufinden. Nach dem Erfolg der „<rs type="bibl" ref="#hsl_work_id_177">Puri
+      <lb facs="#facs_3_region_1684595016268_2841_tl_9" n="N010" break="no"/>taner</rs>“, sah sich <rs type="person" ref="#hsl_person_id_26">Bellini</rs> mit Ehren und Auszeichnungen über
+      <lb facs="#facs_3_region_1684595016268_2841_tl_10" n="N011" break="no"/>häuft, er war so glückselig, als ein Sterblicher nur sein kann.
+      <lb facs="#facs_3_region_1684595016268_2841_tl_11" n="N012"/>Leider war dieses Glück von kurzer Dauer. <rs type="person" ref="#hsl_person_id_26">Bellini</rs> hatte sich
+      <lb facs="#facs_3_region_1684595016268_2841_tl_12" n="N013"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs> zu sehr der Arbeit und zu sehr den Vergnügungen
       <lb facs="#facs_3_region_1684595016268_2841_tl_13" n="N014"/>hingegeben; er verfiel in eine krankhafte Abspannung und mußte
-      <lb facs="#facs_3_region_1684595016268_2841_tl_14" n="N015"/>nach den ersten Wiederholungen der „<rs type="bibl">Puritaner</rs>“ auf Geheiß
-      <lb facs="#facs_3_region_1684595016268_2841_tl_15" n="N016"/>der Aerzte nach dem stillen <rs type="place">Puteaux</rs> zurück, wo man ihm alle
+      <lb facs="#facs_3_region_1684595016268_2841_tl_14" n="N015"/>nach den ersten Wiederholungen der „<rs type="bibl" ref="#hsl_work_id_177">Puritaner</rs>“ auf Geheiß
+      <lb facs="#facs_3_region_1684595016268_2841_tl_15" n="N016"/>der Aerzte nach dem stillen <rs type="place" ref="#hsl_place_id_609">Puteaux</rs> zurück, wo man ihm alle
       <lb facs="#facs_3_region_1684595016268_2841_tl_16" n="N017"/>Besuche, bis auf wenige, strenge fernhielt. Eine zeitlang schien
-      <lb facs="#facs_3_region_1684595016268_2841_tl_17" n="N018"/>sein Zustand Besserung zu verheißen; erst gegen Anfang <date month="0" day="0" year="0" continued="true">Sep¬</date>
-               <lb facs="#facs_3_region_1684595016268_2841_tl_18" n="N019"/>
-               <date month="0" day="0" year="0" continued="true">tember</date> stellte sich die furchtbare Unterleibskrankheit wieder ein,
-      <lb facs="#facs_3_region_1684595016268_2841_tl_19" n="N020"/>welche ihn einige Jahre früher in <rs type="place">Mailand</rs> fast an den Rand
+      <lb facs="#facs_3_region_1684595016268_2841_tl_17" n="N018"/>sein Zustand Besserung zu verheißen; erst gegen Anfang <date when="1835-09">Sep
+      <lb facs="#facs_3_region_1684595016268_2841_tl_18" n="N019"/>tember</date> stellte sich die furchtbare Unterleibskrankheit wieder ein,
+      <lb facs="#facs_3_region_1684595016268_2841_tl_19" n="N020"/>welche ihn einige Jahre früher in <rs type="place" ref="#hsl_place_id_73">Mailand</rs> fast an den Rand
       <lb facs="#facs_3_region_1684595016268_2841_tl_20" n="N021"/>des Grabes gebracht. Diesmal war die Kunst der berühmtesten
-      <lb facs="#facs_3_region_1684595016268_2841_tl_21" n="N022"/>Aerzte, die Pflege der hingebendsten Freunde vergeblich, <rs type="person" continued="true">Bel¬</rs>
-               <lb facs="#facs_3_region_1684595016268_2841_tl_22" n="N023"/>
-               <rs type="person" continued="true">lini</rs> starb am <date month="0" day="0" year="0">23. September 1835</date>. Wie fast immer, wenn
+      <lb facs="#facs_3_region_1684595016268_2841_tl_21" n="N022"/>Aerzte, die Pflege der hingebendsten Freunde vergeblich, <rs type="person" ref="#hsl_person_id_26">Bel
+      <lb facs="#facs_3_region_1684595016268_2841_tl_22" n="N023" break="no"/>lini</rs> starb am <date when="1835-09-23">23. September 1835</date>. Wie fast immer, wenn
       <lb facs="#facs_3_region_1684595016268_2841_tl_23" n="N024"/>ein berühmter Mann in jungen Jahren stirbt, so verbreitete
-      <lb facs="#facs_3_region_1684595016268_2841_tl_24" n="N025"/>sich auch gleich nach <rs type="person">Bellini</rs>'s Tod das Gerücht, er sei ver¬
-      <lb facs="#facs_3_region_1684595016268_2841_tl_25" n="N026"/>giftet worden. Die ärztliche Section des Leichnams erwies
-      <lb facs="#facs_3_region_1684595016268_2841_tl_26" n="N027"/>dieses Gerücht als vollständig grundlos. <rs type="place">Frankreich</rs> bereitete
+      <lb facs="#facs_3_region_1684595016268_2841_tl_24" n="N025"/>sich auch gleich nach <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs Tod das Gerücht, er sei ver
+      <lb facs="#facs_3_region_1684595016268_2841_tl_25" n="N026" break="no"/>giftet worden. Die ärztliche Section des Leichnams erwies
+      <lb facs="#facs_3_region_1684595016268_2841_tl_26" n="N027"/>dieses Gerücht als vollständig grundlos. <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> bereitete
       <lb facs="#facs_3_region_1684595016268_2841_tl_27" n="N028"/>dem theuren Todten eine würdige Leichenfeier. Vier berühmte
-      <lb facs="#facs_3_region_1684595016268_2841_tl_28" n="N029"/>Componisten (<rs type="place">französisch</rs> gewordene Landsleute <rs type="person">Bellini</rs>'s), näm¬
-      <lb facs="#facs_3_region_1684595016268_2841_tl_29" n="N030"/>lich <hi rendition="#em">
-                  <rs type="person">Cherubini</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Caraffa</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Paër</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Rossini</rs>
-               </hi>, trugen
-      <lb facs="#facs_3_region_1684595016268_2841_tl_30" n="N031"/>die Enden des Bahrtuches; <hi rendition="#em">
-                  <rs type="person">Lablache</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Tamburini</rs>
-               </hi>,
-      <lb facs="#facs_3_region_1684595016268_2841_tl_31" n="N032"/>
-               <hi rendition="#em">
-                  <rs type="person">Ivanoff</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Rubini</rs>
-               </hi> sangen die Grabgesänge in der Kirche.
+      <lb facs="#facs_3_region_1684595016268_2841_tl_28" n="N029"/>Componisten (<rs type="place" ref="#hsl_place_id_21">französisch</rs> gewordene Landsleute <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs), näm
+      <lb facs="#facs_3_region_1684595016268_2841_tl_29" n="N030" break="no"/>lich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_47">Cherubini</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3393">Caraffa</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1166">Paër</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi>, trugen
+      <lb facs="#facs_3_region_1684595016268_2841_tl_30" n="N031"/>die Enden des Bahrtuches; <hi rendition="#em"><rs type="person" ref="#hsl_person_id_482">Lablache</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2562">Tamburini</rs></hi>,
+      <lb facs="#facs_3_region_1684595016268_2841_tl_31" n="N032"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5357">Ivanoff</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2290">Rubini</rs></hi> sangen die Grabgesänge in der Kirche.
       <lb facs="#facs_3_region_1684595016268_2841_tl_32" n="N033"/>Trotz des Regengüsses folgte eine unabsehbare Menge dem
-      <lb facs="#facs_3_region_1684595016268_2841_tl_33" n="N034"/>Sarge nach dem Père-Lachaise, wo Ferdinand <hi rendition="#em">
-                  <rs type="person">Paër</rs>
-               </hi> im Namen
-      <lb facs="#facs_3_line_1714733424117_93" n="N035"/>des Institut de France, <hi rendition="#em">Orioli</hi> im Namen <rs type="place">Italien</rs>s am</p>
+      <lb facs="#facs_3_region_1684595016268_2841_tl_33" n="N034"/>Sarge nach dem <rs type="place" ref="#hsl_place_id_159">Père-Lachaise</rs>, wo Ferdinand <hi rendition="#em"> <rs type="person" ref="#hsl_person_id_1166">Paër</rs></hi> im Namen
+                  <lb facs="#facs_3_line_1714733424117_93" n="N035"/>des Institut de France, <hi rendition="#em">Orioli</hi> im Namen <rs type="place" ref="#hsl_place_id_28">Italien</rs>s am<space quantity="1" unit="char"/></p>
             <cb n="8"/>
             <p>
-               <lb facs="#facs_3_region_1684595019649_2844_tl_1" n="N001"/>offenen Grabe sprachen. Eine öffentliche Subscription deckte die
-      <lb facs="#facs_3_line_1714733417243_84" n="N002"/>Kosten des schönen Monumentes, das sich über dem Grabe er¬
-      <lb facs="#facs_3_region_1684595019649_2844_tl_3" n="N003"/>hebt. <rs type="person">Bellini</rs> ruht in dem „Bosquet des Musiciens“, wie im
-      <lb facs="#facs_3_region_1684595019649_2844_tl_4" n="N004"/>Volksmunde jener gartenähnliche Theil des Père-Lachaise heißt,
-      <lb facs="#facs_3_region_1684595019649_2844_tl_5" n="N005"/>der die Gräber von <hi rendition="#em">
-                  <rs type="person">Méhul</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Gosser</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Catel</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Isouard</rs>
-               </hi>,
-      <lb facs="#facs_3_region_1684595019649_2844_tl_6" n="N006"/>
-               <hi rendition="#em">
-                  <rs type="person">Panseron</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Boieldieu</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Herold</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Chopin</rs>
-               </hi> und anderer
-      <lb facs="#facs_3_region_1684595019649_2844_tl_7" n="N007"/>Tonkünstler dicht neben einander versammelt. Im Jahre <date month="0" day="0" year="0">1865</date>,
-      <lb facs="#facs_3_region_1684595019649_2844_tl_8" n="N008"/>also dreißig Jahre nach <rs type="person">Bellini</rs>ʼs Tod, reclamirte die Gemeinde
-      <lb facs="#facs_3_region_1684595019649_2844_tl_9" n="N009"/>
-               <rs type="place">Catania</rs> seinen Leichnam; nachdem ihr Gesuch bis jetzt unbe¬
-      <lb facs="#facs_3_region_1684595019649_2844_tl_10" n="N010"/>antwortet geblieben ist, darf man wol annehmen, die Leichen¬
-      <lb facs="#facs_3_region_1684595019649_2844_tl_11" n="N011"/>gräberei werde unterbleiben.
-      <lb facs="#facs_3_region_1684595019649_2844_tl_12" n="N012"/>Herr Arthur <rs type="person">Pougin</rs> schließt sein Buch mit einem langen
-      <lb facs="#facs_3_region_1684595019649_2844_tl_13" n="N013"/>Capitel, überschrieben „Le génie de <rs type="person">Bellini</rs>“. Es ist ein ge¬
-      <lb facs="#facs_3_region_1684595019649_2844_tl_14" n="N014"/>wöhnliches, dilettantisch-phrasenreiches Geplander. Auf den
-      <lb facs="#facs_3_region_1684595019649_2844_tl_15" n="N015"/>Kern der Sache, das eigentliche Musikalische, ist nirgends ein¬
-      <lb facs="#facs_3_region_1684595019649_2844_tl_16" n="N016"/>gegangen; nicht eine einzige Oper wird aufmerksam kritisirt,
-      <lb facs="#facs_3_region_1684595019649_2844_tl_17" n="N017"/>nicht ein einziges hervorragendes Musikstück zergliedert. Nir¬
-      <lb facs="#facs_3_region_1684595019649_2844_tl_18" n="N018"/>gends bringt der Verfasser eine halbwegs neue Bemerkung,
-      <lb facs="#facs_3_region_1684595019649_2844_tl_19" n="N019"/>einen scharf charakterisirenden Zug; selbst so naheliegende Beob¬
-      <lb facs="#facs_3_region_1684595019649_2844_tl_20" n="N020"/>achtungen, wie z. B. daß <rs type="person">Bellini</rs>'s Melodien fast regelmäßig
+      <lb facs="#facs_3_region_1684595019649_2844_tl_1" n="N001"/>offenen Grabe sprachen. Eine öffentliche Subscription deckte die
+      <lb facs="#facs_3_line_1714733417243_84" n="N002"/>Kosten des schönen Monumentes, das sich über dem Grabe er
+      <lb facs="#facs_3_region_1684595019649_2844_tl_3" n="N003" break="no"/>hebt. <rs type="person" ref="#hsl_person_id_26">Bellini</rs> ruht in dem „Bosquet des Musiciens“, wie im
+      <lb facs="#facs_3_region_1684595019649_2844_tl_4" n="N004"/>Volksmunde jener gartenähnliche Theil des <rs type="place" ref="#hsl_place_id_159">Père-Lachaise</rs> heißt,
+      <lb facs="#facs_3_region_1684595019649_2844_tl_5" n="N005"/>der die Gräber von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_179">Méhul</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_968">Gosser</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_45">Catel</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_133">Isouard</rs></hi>,
+      <lb facs="#facs_3_region_1684595019649_2844_tl_6" n="N006"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5356">Panseron</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_36">Boieldieu</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4796">Herold</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_48">Chopin</rs></hi> und anderer
+      <lb facs="#facs_3_region_1684595019649_2844_tl_7" n="N007"/>Tonkünstler dicht neben einander versammelt. Im Jahre <date when="1865">1865</date>,
+      <lb facs="#facs_3_region_1684595019649_2844_tl_8" n="N008"/>also dreißig Jahre nach <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs Tod, reclamirte die Gemeinde
+      <lb facs="#facs_3_region_1684595019649_2844_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_606">Catania</rs> seinen Leichnam; nachdem ihr Gesuch bis jetzt unbe
+      <lb facs="#facs_3_region_1684595019649_2844_tl_10" n="N010" break="no"/>antwortet geblieben ist, darf man wol annehmen, die Leichen
+      <lb facs="#facs_3_region_1684595019649_2844_tl_11" n="N011" break="no"/>gräberei werde unterbleiben.</p>
+   <p><lb facs="#facs_3_region_1684595019649_2844_tl_12" n="N012"/>Herr Arthur <rs type="person" ref="#hsl_person_id_1761">Pougin</rs> schließt sein Buch mit einem langen
+      <lb facs="#facs_3_region_1684595019649_2844_tl_13" n="N013"/>Capitel, überschrieben „Le génie de <rs type="person" ref="#hsl_person_id_26">Bellini</rs>“. Es ist ein ge
+      <lb facs="#facs_3_region_1684595019649_2844_tl_14" n="N014" break="no"/>wöhnliches, dilettantisch-phrasenreiches Geplander. Auf den
+      <lb facs="#facs_3_region_1684595019649_2844_tl_15" n="N015"/>Kern der Sache, das eigentliche Musikalische, ist nirgends ein
+      <lb facs="#facs_3_region_1684595019649_2844_tl_16" n="N016" break="no"/>gegangen; nicht eine einzige Oper wird aufmerksam kritisirt,
+      <lb facs="#facs_3_region_1684595019649_2844_tl_17" n="N017"/>nicht ein einziges hervorragendes Musikstück zergliedert. Nir
+      <lb facs="#facs_3_region_1684595019649_2844_tl_18" n="N018" break="no"/>gends bringt der Verfasser eine halbwegs neue Bemerkung,
+      <lb facs="#facs_3_region_1684595019649_2844_tl_19" n="N019"/>einen scharf charakterisirenden Zug; selbst so naheliegende Beob
+      <lb facs="#facs_3_region_1684595019649_2844_tl_20" n="N020" break="no"/>achtungen, wie z. B. daß <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs Melodien fast regelmäßig
       <lb facs="#facs_3_region_1684595019649_2844_tl_21" n="N021"/>auf der Terz anheben und mit Beginn des zweiten Theiles
-      <lb facs="#facs_3_region_1684595019649_2844_tl_22" n="N022"/>nach der Moll-Tonart moduliren, scheint Herr <rs type="person">Pougin</rs> nie ge¬
-      <lb facs="#facs_3_line_1714733432049_101" n="N023"/>macht zu haben. Ja sein Urtheil spaltet sich mitunter seltsam
+      <lb facs="#facs_3_region_1684595019649_2844_tl_22" n="N022"/>nach der Moll-Tonart moduliren, scheint Herr <rs type="person" ref="#hsl_person_id_1761">Pougin</rs> nie ge
+      <lb facs="#facs_3_line_1714733432049_101" n="N023" break="no"/>macht zu haben. Ja sein Urtheil spaltet sich mitunter seltsam
       <lb facs="#facs_3_region_1684595019649_2844_tl_24" n="N024"/>widersprechend. Im Verlaufe des biographischen Theiles hat
-      <lb facs="#facs_3_region_1684595019649_2844_tl_25" n="N025"/>er nämlich für die erfolggekrönten Opern <rs type="person">Bellini</rs>ʼs nur Lob,
-      <lb facs="#facs_3_region_1684595019649_2844_tl_26" n="N026"/>meist das enthusiastische vom Schlage der <rs type="place">italienisch</rs>en Rekro¬
-      <lb facs="#facs_3_region_1684595019649_2844_tl_27" n="N027"/>logie. Hingegen glaubt er im Schlußcapitel vom „génie de
-      <lb facs="#facs_3_region_1684595019649_2844_tl_28" n="N028"/>
-               <rs type="person">Bellini</rs>“ den ernsten Kritiker hervorkehren zu müssen und nimmt
+      <lb facs="#facs_3_region_1684595019649_2844_tl_25" n="N025"/>er nämlich für die erfolggekrönten Opern <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs nur Lob,
+      <lb facs="#facs_3_region_1684595019649_2844_tl_26" n="N026"/>meist das enthusiastische vom Schlage der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Rekro
+      <lb facs="#facs_3_region_1684595019649_2844_tl_27" n="N027" break="no"/>logie. Hingegen glaubt er im Schlußcapitel vom „génie de
+      <lb facs="#facs_3_region_1684595019649_2844_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_26">Bellini</rs>“ den ernsten Kritiker hervorkehren zu müssen und nimmt
       <lb facs="#facs_3_region_1684595019649_2844_tl_29" n="N029"/>dem Tondichter häufig mit der linken Hand weg, was er ihm
       <lb facs="#facs_3_region_1684595019649_2844_tl_30" n="N030"/>mit der Rechten gegeben. Nachdem er früher die überraschende
-      <lb facs="#facs_3_region_1684595019649_2844_tl_31" n="N031"/>„neue Stylphase“ in den „<hi rendition="#em">
-                  <rs type="bibl">Puritanern</rs>
-               </hi>“ gerühmt, sagt er am
-      <lb facs="#facs_3_region_1684595019649_2844_tl_32" n="N032"/>Schluß: <rs type="person">Bellini</rs> sei immer derselbe geblieben, eine Eigenschaft,
+      <lb facs="#facs_3_region_1684595019649_2844_tl_31" n="N031"/>„neue Stylphase“ in den „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_177">Puritanern</rs></hi>“ gerühmt, sagt er am
+     <lb facs="#facs_3_region_1684595019649_2844_tl_32" n="N032"/>Schluß: <rs type="person" ref="#hsl_person_id_26">Bellini</rs> sei immer derselbe geblieben, eine Eigenschaft,
       <lb facs="#facs_3_region_1684595019649_2844_tl_33" n="N033"/>die, ein Glück für seine kurze Carrière, ihm bei längerem
       <lb facs="#facs_3_region_1684595019649_2844_tl_34" n="N034"/>Leben zum Unheil ausgeschlagen wäre, da er unfähig war,
-      <lb facs="#facs_3_line_1714733439954_109" n="N035"/>seinen Styl zu erneuern oder auch nur zu kräftigen“. <rs type="person">Bellini</rs>, heißt</p>
+         <lb facs="#facs_3_line_1714733439954_109" n="N035"/>seinen Styl zu erneuern oder auch nur zu kräftigen“. <rs type="person" ref="#hsl_person_id_26">Bellini</rs>, heißt<space quantity="1" unit="char"/></p>
             <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1684595027489_2847_tl_1" n="N001"/>es weiter, habe, „keine jener bleibenden Schöpfungen geliefert, welche
-      <lb facs="#facs_3_region_1684595027489_2847_tl_2" n="N002"/>die Grenzen der Kunst erweitern, wie „<hi rendition="#em">
-                  <rs type="bibl">Alceste</rs>
-               </hi>“, „<hi rendition="#em">
-                  <rs type="bibl">Don Juan</rs>
-               </hi>“.
-      <lb facs="#facs_3_line_1717492095968_429" n="N003"/>„<hi rendition="#em">
-                  <rs type="bibl">Freischütz</rs>
-               </hi>“ und der „<hi rendition="#em">
-                  <rs type="bibl">Zweikampf</rs>
-               </hi>“ (pré aux clercs) von
-      <lb facs="#facs_3_line_1717492100832_434" n="N004"/>Herold“!! Daß <rs type="person">Bellini</rs>ʼs begrenztes, aber echtes Talent wirk¬
-      <lb facs="#facs_3_region_1684595027489_2847_tl_7" n="N005"/>lich neue Elemente in die <rs type="place">italienisch</rs>e Oper eingeführt und die
-      <lb facs="#facs_3_region_1684595027489_2847_tl_8" n="N006"/>Grenzen der <rs type="person">Rossini</rs>ʼschen Opera seria nach Seiten der Em¬
-      <lb facs="#facs_3_region_1684595027489_2847_tl_9" n="N007"/>pfindung, des ausdrucksvollen Gesanges erweitert habe, das
-      <lb facs="#facs_3_region_1684595027489_2847_tl_10" n="N008"/>bergißt Herr <rs type="person">Pougin</rs> zu sagen. Oder er will es nicht sagen,
-      <lb facs="#facs_3_region_1684595027489_2847_tl_11" n="N009"/>da er sein Buch sehr unnöthigerweise <hi rendition="#em">
-                  <rs type="person">Rossini</rs>
-               </hi> gewidmet hat. Da
-      <lb facs="#facs_3_region_1684595027489_2847_tl_12" n="N010"/>darf denn der eine Vorzug, welcher <rs type="person">Bellini</rs> gegenüber dem
-      <lb facs="#facs_3_region_1684595027489_2847_tl_13" n="N011"/>genialeren <rs type="person">Rossini</rs> zu statten kommt, nämlich der seelenvolle
+            <p prev="true">
+      <lb facs="#facs_3_region_1684595027489_2847_tl_1" n="N001"/>es weiter, habe, „keine jener bleibenden Schöpfungen geliefert, welche
+      <lb facs="#facs_3_region_1684595027489_2847_tl_2" n="N002"/>die Grenzen der Kunst erweitern, wie „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_267">Alceste</rs></hi>“, „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_174">Don Juan</rs></hi>“.
+      <lb facs="#facs_3_line_1717492095968_429" n="N003"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs></hi>“ und der „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1701">Zweikampf</rs></hi>“ (<rs type="person" ref="#hsl_work_id_1701">pré aux clercs</rs>) von
+      <lb facs="#facs_3_line_1717492100832_434" n="N004"/>Herold“!! Daß <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs begrenztes, aber echtes Talent wirk
+      <lb facs="#facs_3_region_1684595027489_2847_tl_7" n="N005" break="no"/>lich neue Elemente in die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper eingeführt und die
+      <lb facs="#facs_3_region_1684595027489_2847_tl_8" n="N006"/>Grenzen der <rs type="person" ref="#hsl_person_id_241">Rossini</rs>ʼschen Opera seria nach Seiten der Em
+      <lb facs="#facs_3_region_1684595027489_2847_tl_9" n="N007" break="no"/>pfindung, des ausdrucksvollen Gesanges erweitert habe, das
+      <lb facs="#facs_3_region_1684595027489_2847_tl_10" n="N008"/>bergißt Herr <rs type="person" ref="#hsl_person_id_1761">Pougin</rs> zu sagen. Oder er will es nicht sagen,
+      <lb facs="#facs_3_region_1684595027489_2847_tl_11" n="N009"/>da er sein Buch sehr unnöthigerweise <hi rendition="#em"> <rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi> gewidmet hat. Da
+      <lb facs="#facs_3_region_1684595027489_2847_tl_12" n="N010"/>darf denn der eine Vorzug, welcher <rs type="person" ref="#hsl_person_id_26">Bellini</rs> gegenüber dem
+      <lb facs="#facs_3_region_1684595027489_2847_tl_13" n="N011"/>genialeren <rs type="person" ref="#hsl_person_id_241">Rossini</rs> zu statten kommt, nämlich der seelenvolle
       <lb facs="#facs_3_region_1684595027489_2847_tl_14" n="N012"/>Ernst der Empfindung, die Rückkehr zum einfachen getragenen
-      <lb facs="#facs_3_region_1684595027489_2847_tl_15" n="N013"/>Gesang nach <rs type="person">Rossini</rs>'s Bravour-Ueberladung, nicht hervorgeho¬
-      <lb facs="#facs_3_region_1684595027489_2847_tl_16" n="N014"/>ben werden. *) Dafür wird eine Anzahl von Aussprüchen
-      <lb facs="#facs_3_region_1684595027489_2847_tl_17" n="N015"/>
-               <rs type="person">Bellini</rs>ʼs erzählt, die sämmtlich darthun sollen, daß dieser die
-      <lb facs="#facs_3_region_1684595027489_2847_tl_18" n="N016"/>
-               <rs type="person">Rossini</rs>'schen Opern als höchsten Gipfelpunkt der Kunst, ins¬
-      <lb facs="#facs_3_region_1684595027489_2847_tl_19" n="N017"/>besondere „<rs type="bibl">Semiramis</rs>“ als ein „erhabenes Wunderwerk des
-      <lb facs="#facs_3_region_1684595027489_2847_tl_20" n="N018"/>menschlichen Geistes“ verehrt habe.
-      <lb facs="#facs_3_region_1684595027489_2847_tl_21" n="N019"/>„<rs type="person">Bellini</rs> war mehr Poet als Musiker,“ so lautet die
-      <lb facs="#facs_3_region_1684595027489_2847_tl_22" n="N020"/>ganz hohle Effectphrase, in welche der Verfasser schließlich sein
-      <lb facs="#facs_3_region_1684595027489_2847_tl_23" n="N021"/>Urtheil über <rs type="person">Bellini</rs> zusammenfaßt. Wie viel hübscher und
-      <lb facs="#facs_3_region_1684595027489_2847_tl_24" n="N022"/>treffender ist das Wort eines <rs type="place">italienisch</rs>en Schriftstellers:
-      <lb facs="#facs_3_line_1714733432049_100" n="N023"/>
-               <rs type="person">Bellini</rs> sei der „Petrarca der Musik“.
-      <lb facs="#facs_3_region_1684595027489_2847_tl_25" n="N024"/>*) Dieses Element in <rs type="person">Bellini</rs>ʼs Musik fiel gleich anfangs selbst
-      <lb facs="#facs_3_line_1714733493062_119" n="N025"/>den laienhaftesten und befangensten <rs type="person">Rossini</rs>-Schwärmern auf, wenn sie
-      <lb facs="#facs_3_line_1714733504671_124" n="N026"/>es auch oft wunderlich genug auslegten. So schreibt <hi rendition="#em">
-                  <rs type="person">Stendhal</rs>
-               </hi>,
-      <lb facs="#facs_3_line_1714733541620_133" n="N027"/>dessen „Correspondance inédite“ Herr <rs type="person">Pougin</rs> nicht zu kennen scheint,
-      <lb facs="#facs_3_line_1714733571003_139" n="N028"/>im Jahre <date month="0" day="0" year="0">1831</date> nach einer Aufführung der „<rs type="bibl">Straniera</rs>“: „<rs type="person">Bellini</rs> ist
-      <lb facs="#facs_3_line_1714733583131_144" n="N029"/>ganz entschieden nur eine Art <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>, seine Melodie ist nichts als
+      <lb facs="#facs_3_region_1684595027489_2847_tl_15" n="N013"/>Gesang nach <rs type="person" ref="#hsl_person_id_241">Rossini</rs>ʼs Bravour-Ueberladung, nicht hervorgeho
+      <lb facs="#facs_3_region_1684595027489_2847_tl_16" n="N014" break="no"/>ben werden. 
+         <note type="footnote" n="*)">
+      <lb facs="#facs_3_region_1684595027489_2847_tl_25" n="N024"/>Dieses Element in <rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs Musik fiel gleich anfangs selbst
+      <lb facs="#facs_3_line_1714733493062_119" n="N025"/>den laienhaftesten und befangensten <rs type="person" ref="#hsl_person_id_241">Rossini</rs>-Schwärmern auf, wenn sie
+      <lb facs="#facs_3_line_1714733504671_124" n="N026"/>es auch oft wunderlich genug auslegten. So schreibt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_931">Stendhal</rs></hi>,
+      <lb facs="#facs_3_line_1714733541620_133" n="N027"/>dessen „Correspondance inédite“ Herr <rs type="person" ref="#hsl_person_id_1761">Pougin</rs> nicht zu kennen scheint,
+      <lb facs="#facs_3_line_1714733571003_139" n="N028"/>im Jahre <date when="1831">1831</date> nach einer Aufführung der „<rs type="bibl" ref="#hsl_work_id_3608">Straniera</rs>“: „<rs type="person" ref="#hsl_person_id_26">Bellini</rs> ist
+      <lb facs="#facs_3_line_1714733583131_144" n="N029"/>ganz entschieden nur eine Art <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>, seine Melodie ist nichts als
       <lb facs="#facs_3_line_1714733595769_149" n="N030"/>ein obligates Recitativ, kein Gesang.“ Der geistreiche Mann war
-      <lb facs="#facs_3_line_1714733627122_154" n="N031"/>überhaupt in musikalischen Dingen ein schlechter Prophet. <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>
-               </hi>
-               <lb facs="#facs_3_line_1714733647064_160" n="N032"/>ist ihm (<date month="0" day="0" year="0">1820</date>) „ein Mann etwa wie <rs type="person">Marmontel</rs> oder <rs type="person">Lacretelle</rs>; ein
+               <lb facs="#facs_3_line_1714733627122_154" n="N031"/>überhaupt in musikalischen Dingen ein schlechter Prophet. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_line_1714733647064_160" n="N032"/>ist ihm (<date when="1820">1820</date>) „ein Mann etwa wie <rs type="person" ref="#hsl_person_id_173">Marmontel</rs> oder <rs type="person" ref="#hsl_person_id_5354">Lacretelle</rs>; ein
       <lb facs="#facs_3_line_1714733660298_165" n="N033"/>klein bischen Talent, aber von Genie nicht mehr, als auf die flache
-      <lb facs="#facs_3_line_1714733673443_170" n="N034"/>Hand geht“. Von <hi rendition="#em">
-                  <rs type="person">Donizetti</rs>
-               </hi> schreibt <rs type="person">Stendhal</rs> im Jahre <date month="0" day="0" year="0">1824</date>:
+      <lb facs="#facs_3_line_1714733673443_170" n="N034"/>Hand geht“. Von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_63">Donizetti</rs></hi> schreibt <rs type="person" ref="#hsl_person_id_931">Stendhal</rs> im Jahre <date when="1824">1824</date>:
       <lb facs="#facs_3_line_1714733439954_108" n="N035"/>„Er ist ein und schöner junger Mann, kalt und ohne eine Spur
-      <lb facs="#facs_3_line_1714733698560_177" n="N036"/>von Talent.“</p>
+      <lb facs="#facs_3_line_1714733698560_177" n="N036"/>von Talent.“</note> Dafür wird eine Anzahl von Aussprüchen
+      <lb facs="#facs_3_region_1684595027489_2847_tl_17" n="N015"/><rs type="person" ref="#hsl_person_id_26">Bellini</rs>ʼs erzählt, die sämmtlich darthun sollen, daß dieser die
+      <lb facs="#facs_3_region_1684595027489_2847_tl_18" n="N016"/><rs type="person" ref="#hsl_person_id_241">Rossini</rs>ʼschen Opern als höchsten Gipfelpunkt der Kunst, ins
+      <lb facs="#facs_3_region_1684595027489_2847_tl_19" n="N017" break="no"/>besondere „<rs type="bibl" ref="#hsl_work_id_52">Semiramis</rs>“ als ein „erhabenes Wunderwerk des
+      <lb facs="#facs_3_region_1684595027489_2847_tl_20" n="N018"/>menschlichen Geistes“ verehrt habe.
+      <lb facs="#facs_3_region_1684595027489_2847_tl_21" n="N019"/>„<rs type="person" ref="#hsl_person_id_26">Bellini</rs> war mehr Poet als Musiker,“ so lautet die
+      <lb facs="#facs_3_region_1684595027489_2847_tl_22" n="N020"/>ganz hohle Effectphrase, in welche der Verfasser schließlich sein
+      <lb facs="#facs_3_region_1684595027489_2847_tl_23" n="N021"/>Urtheil über <rs type="person" ref="#hsl_person_id_26">Bellini</rs> zusammenfaßt. Wie viel hübscher und
+      <lb facs="#facs_3_region_1684595027489_2847_tl_24" n="N022"/>treffender ist das Wort eines <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Schriftstellers:
+      <lb facs="#facs_3_line_1714733432049_100" n="N023"/><rs type="person" ref="#hsl_person_id_26"><rs type="person" ref="#hsl_person_id_26"></rs>Bellini</rs> sei der „<rs type="person" ref="#hsl_person_id_5353">Petrarca</rs> der Musik“.
+      </p>
          </div>
       </body>
    </text>
