@@ -107,7 +107,11 @@
       </profileDesc>
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>            
+            
+            <!--              Suchen:     (¬)(<\/(?:\w+)>)*(?:\s*\n\s*)*(<\/(?:\w+)>)*(?:\s*\n\s*)*(<[^>]+)(\/>)(?:\s*\n\s*)*(<[^>]+>)?(?:\s*\n\s*<[^>]+>)*
+                              Ersetzen:   \n      $4 break="no"/>
+            -->
       </revisionDesc>
    </teiHeader>
    <facsimile>
