@@ -72,14 +72,12 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Nr. 1923. Wien, Donnerstag, den 6. Januar 1870.</title>
+                     <title>Nr. 1923. Wien, Donnerstag, den 6. Januar 1870.</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Morgenblatt.</title>
+                     <title type="sub">Morgenblatt.</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
@@ -87,7 +85,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="6. Januar 1870">6. Januar 1870</date>
+                        <date when="1870-01-06">6. Januar 1870</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -107,11 +105,8 @@
       </profileDesc>
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>            
-            
-            <!--              Suchen:     (¬)(<\/(?:\w+)>)*(?:\s*\n\s*)*(<\/(?:\w+)>)*(?:\s*\n\s*)*(<[^>]+)(\/>)(?:\s*\n\s*)*(<[^>]+>)?(?:\s*\n\s*<[^>]+>)*
-                              Ersetzen:   \n      $4 break="no"/>
-            -->
+            <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>             
+            <change when="2024-10-03" who="ampfiel">lb, p, header, space(DATUM von Transkribus fehlt noch)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -948,19 +943,18 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684588048056_1363_tl_1" n="N001"/>Hofoperntheater.
-      <lb facs="#facs_1_region_1684588048056_1363_tl_2" n="N002"/>(„<rs type="bibl">Der Freischütz</rs>“. Gastspiel von Fräulein <rs type="person">Murska</rs>.)
+      <head type="h1">
+            <lb facs="#facs_1_region_1684588048056_1363_tl_1" n="N001"/>Hofoperntheater.</head>
+      <head type="h2">
+            <lb facs="#facs_1_region_1684588048056_1363_tl_2" n="N002"/>(„<rs type="bibl">Der Freischütz</rs>“. Gastspiel von Fräulein <rs type="person">Murska</rs>.)</head>
+            <p>      
       <lb facs="#facs_1_region_1684588048056_1363_tl_3" n="N003"/>Ed. H. Ein guter und würdiger Gedanke war es, das
-      <lb facs="#facs_1_line_1719072237072_15" n="N004"/>neue Opernhaus am Neujahrstage <date month="0" day="0" year="0">1870</date> mit <rs type="person">Weber</rs>'s „<rs type="bibl">Frei¬</rs>
-               <lb facs="#facs_1_region_1684588048056_1363_tl_4" n="N005"/>
-               <rs type="bibl">schütz</rs>“ zu eröffnen. Massenhaft strömte das Publicum hinzu,
-      <lb facs="#facs_1_region_1684588048056_1363_tl_5" n="N006"/>hatte es doch lange vorher Wunderdinge von der neuen Aus¬
-      <lb facs="#facs_1_region_1684588048056_1363_tl_6" n="N007"/>stattung rühmen hören. Insbesondere <rs type="person">Hoffmann</rs>'s „<rs type="bibl">Wolfs¬</rs>
-               <lb facs="#facs_1_region_1684588048056_1363_tl_7" n="N008"/>
-               <rs type="bibl">schlucht</rs>“ sollte für den „<rs type="bibl">Freischütz</rs>“ werden, was die <rs type="place">egypti¬</rs>
-               <lb facs="#facs_1_region_1684588048056_1363_tl_8" n="N009"/>
-               <rs type="place">sch</rs>en Landschaften dieses Malers für <rs type="person">Mozart</rs>'s „<rs type="bibl">Zauberflöte</rs>“:
+      <lb facs="#facs_1_line_1719072237072_15" n="N004"/>neue Opernhaus am Neujahrstage <date when="1870">1870</date> mit <rs type="person">Weber</rs>'s „<rs type="bibl">Frei
+      <lb facs="#facs_1_region_1684588048056_1363_tl_4" n="N005" break="no"/>schütz</rs>“ zu eröffnen. Massenhaft strömte das Publicum hinzu,
+      <lb facs="#facs_1_region_1684588048056_1363_tl_5" n="N006"/>hatte es doch lange vorher Wunderdinge von der neuen Aus
+      <lb facs="#facs_1_region_1684588048056_1363_tl_6" n="N007" break="no"/>stattung rühmen hören. Insbesondere <rs type="person">Hoffmann</rs>'s „<rs type="bibl">Wolfs
+      <lb facs="#facs_1_region_1684588048056_1363_tl_7" n="N008" break="no"/>schlucht</rs>“ sollte für den „<rs type="bibl">Freischütz</rs>“ werden, was die <rs type="place">egypti
+      <lb facs="#facs_1_region_1684588048056_1363_tl_8" n="N009" break="no"/>sch</rs>en Landschaften dieses Malers für <rs type="person">Mozart</rs>'s „<rs type="bibl">Zauberflöte</rs>“:
       <lb facs="#facs_1_line_1719072370709_72" n="N010"/>der Hauptmagnet, wo nicht die Hauptsache. Zwischen beiden
       <lb facs="#facs_1_region_1684588048056_1363_tl_10" n="N011"/>Leistungen liegt aber eine tiefe Kluft, und jener erste Erfolg
       <lb facs="#facs_1_region_1684588048056_1363_tl_11" n="N012"/>wird sich kaum wiederholen. Das Publicum, das sich an
@@ -979,51 +973,50 @@
       <lb facs="#facs_1_region_1684588048056_1363_tl_21" n="N024"/>seiner Art ein würdiges Seitenstück zu der Waldpartie im
       <lb facs="#facs_1_region_1684588048056_1363_tl_22" n="N025"/>letzten Acte. Als Hintergrund figurirt leider ein perspectivisch
       <lb facs="#facs_1_region_1684588048056_1363_tl_23" n="N026"/>unmögliches Dörfchen mit gletscherartigen Gebirgen, welche in
-      <lb facs="#facs_1_region_1684588048056_1363_tl_24" n="N027"/>vier bis fünf verschiedenfarbigen Beleuchtungen das Auge ver¬
-      <lb facs="#facs_1_region_1684588048056_1363_tl_25" n="N028"/>wirren und den Charakter der Landschaft problematisch machen.
+      <lb facs="#facs_1_region_1684588048056_1363_tl_24" n="N027"/>vier bis fünf verschiedenfarbigen Beleuchtungen das Auge ver
+      <lb facs="#facs_1_region_1684588048056_1363_tl_25" n="N028" break="no"/>wirren und den Charakter der Landschaft problematisch machen.
       <lb facs="#facs_1_region_1684588048056_1363_tl_26" n="N029"/>Wir zählen nicht zu den rigorosen Ausstattungskrittlern, welche
       <lb facs="#facs_1_region_1684588048056_1363_tl_27" n="N030"/>an jede Gartenbank auf der Scene den Maßstab historischer
       <lb facs="#facs_1_region_1684588048056_1363_tl_28" n="N031"/>und geographischer Treue legen, im Gegentheil dünkt uns
       <lb facs="#facs_1_region_1684588048056_1363_tl_29" n="N032"/>solch auf die Spitze getriebener Realismus ein Unheil für die
       <lb facs="#facs_1_region_1684588048056_1363_tl_30" n="N033"/>dramatische Kunst. Ist aber unsere Decorations-Malerei
-      <lb facs="#facs_1_region_1684588048056_1363_tl_31" n="N034"/>einmal so weit gegangen, die „<rs type="bibl">Zauberflöte</rs>“ als einen wissen¬
-      <lb facs="#facs_1_region_1684588048056_1363_tl_32" n="N035"/>schaftlich getreuen Bilder-Atlas von <rs type="place">Egypten</rs> aufzufassen, so
+      <lb facs="#facs_1_region_1684588048056_1363_tl_31" n="N034"/>einmal so weit gegangen, die „<rs type="bibl">Zauberflöte</rs>“ als einen wissen
+      <lb facs="#facs_1_region_1684588048056_1363_tl_32" n="N035" break="no"/>schaftlich getreuen Bilder-Atlas von <rs type="place">Egypten</rs> aufzufassen, so
       <lb facs="#facs_1_region_1684588048056_1363_tl_33" n="N036"/>sollte sie sich auch in <rs type="place">Böhmen</rs> kein Alpenglühen erlauben. Das
       <lb facs="#facs_1_region_1684588048056_1363_tl_34" n="N037"/>ist eine unverdiente Schmeichelei für das Land, sowie der
-      <lb facs="#facs_1_region_1684588048056_1363_tl_35" n="N038"/>See, auf welchen <rs type="person">Agathe</rs> hinausblickt, und die imposante Förster¬
-      <lb facs="#facs_1_region_1684588048056_1363_tl_36" n="N039"/>wohnung mit den gothischen Kirchenfenstern. Endlich beruhi¬
-      <lb facs="#facs_1_region_1684588048056_1363_tl_37" n="N040"/>gen sich die rothen, violetten, blauen Lichter über der Alpen¬
-      <lb facs="#facs_1_region_1684588048056_1363_tl_38" n="N041"/>landschaft des ersten Actes und weichen einer lange entbehrten</p>
+      <lb facs="#facs_1_region_1684588048056_1363_tl_35" n="N038"/>See, auf welchen <rs type="person">Agathe</rs> hinausblickt, und die imposante Förster
+      <lb facs="#facs_1_region_1684588048056_1363_tl_36" n="N039" break="no"/>wohnung mit den gothischen Kirchenfenstern. Endlich beruhi
+      <lb facs="#facs_1_region_1684588048056_1363_tl_37" n="N040" break="no"/>gen sich die rothen, violetten, blauen Lichter über der Alpen
+      <lb facs="#facs_1_region_1684588048056_1363_tl_38" n="N041" break="no"/>landschaft des ersten Actes und weichen einer lange entbehrten<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684588051806_1366_tl_1" n="N001"/>anständigen Dunkelheit: <rs type="person">Samiel</rs> erscheint. Das heißt, eine
+            <p prev="true">
+      <lb facs="#facs_1_region_1684588051806_1366_tl_1" n="N001"/>anständigen Dunkelheit: <rs type="person">Samiel</rs> erscheint. Das heißt, eine
       <lb facs="#facs_1_region_1684588051806_1366_tl_2" n="N002"/>vom Scheitel bis zur Sohle rothgekleidete Fratze wird mittelst
       <lb facs="#facs_1_region_1684588051806_1366_tl_3" n="N003"/>einer prakticablen Leiste über die Bühne <hi rendition="#em">geschoben</hi>, das
       <lb facs="#facs_1_region_1684588051806_1366_tl_4" n="N004"/>rechte Bein preßt sie etwas ängstlich auf eine eiserne Stütze,
       <lb facs="#facs_1_region_1684588051806_1366_tl_5" n="N005"/>das linke hält sie in die Höhe, wie ein Grotesktänzer im
       <lb facs="#facs_1_region_1684588051806_1366_tl_6" n="N006"/>Ballet. Die Wirkung ist einfach komisch. Man muß diesen
-      <lb facs="#facs_1_line_1719072241070_18" n="N007"/>Teufelssiegellack mit eigenen Augen gesehen haben, um zu be¬
-      <lb facs="#facs_1_region_1684588051806_1366_tl_8" n="N008"/>greifen, wohin die Sucht führt, in alten Opern überall ohne
+      <lb facs="#facs_1_line_1719072241070_18" n="N007"/>Teufelssiegellack mit eigenen Augen gesehen haben, um zu be
+      <lb facs="#facs_1_region_1684588051806_1366_tl_8" n="N008" break="no"/>greifen, wohin die Sucht führt, in alten Opern überall ohne
       <lb facs="#facs_1_region_1684588051806_1366_tl_9" n="N009"/>Noth Neues anzubringen, Alles, auch das Gute und Richtige,
       <lb facs="#facs_1_region_1684588051806_1366_tl_10" n="N010"/>anders zu machen. Dämonische Kräfte wie <rs type="person">Samiel</rs>, vom Dichter
       <lb facs="#facs_1_region_1684588051806_1366_tl_11" n="N011"/>und Componisten wohlweislich mehr angedeutet als ausgeführt,
-      <lb facs="#facs_1_region_1684588051806_1366_tl_12" n="N012"/>wollen auf der Bühne in einem mysteriösen Halbdunkel ge¬
-      <lb facs="#facs_1_line_1719072373193_75" n="N013"/>halten sein. Herr Franz <hi rendition="#em">
-                  <rs type="person">Gaul</rs>
-               </hi> (von dem die übrigen kleid¬
-      <lb facs="#facs_1_region_1684588051806_1366_tl_13" n="N014"/>samen und charakteristischen Costüme herrühren) ist unschuldig
+      <lb facs="#facs_1_region_1684588051806_1366_tl_12" n="N012"/>wollen auf der Bühne in einem mysteriösen Halbdunkel ge
+      <lb facs="#facs_1_line_1719072373193_75" n="N013" break="no"/>halten sein. Herr Franz <hi rendition="#em">
+                  <rs type="person">Gaul</rs></hi> (von dem die übrigen kleid
+      <lb facs="#facs_1_region_1684588051806_1366_tl_13" n="N014" break="no"/>samen und charakteristischen Costüme herrühren) ist unschuldig
       <lb facs="#facs_1_region_1684588051806_1366_tl_14" n="N015"/>an diesem von Herrn <rs type="person">Hoffmann</rs> persönlich ausstaffirten <rs type="person">Samiel</rs>.
       <lb facs="#facs_1_region_1684588051806_1366_tl_15" n="N016"/>In <rs type="place">Wien</rs> und wol auf allen <rs type="place">deutsch</rs>en Bühnen erschien
       <lb facs="#facs_1_region_1684588051806_1366_tl_16" n="N017"/>
-               <rs type="person">Samiel</rs> bisher dunkel gekleidet, allenfalls in schwarzem, roth¬
-      <lb facs="#facs_1_region_1684588051806_1366_tl_17" n="N018"/>gefüttertem Mantel; auch hielt man sich an die Vorschrift des
-      <lb facs="#facs_1_region_1684588051806_1366_tl_18" n="N019"/>Originaltextes: „<rs type="person">Samiel</rs> tritt, fast bewegungslos, im Hinter¬
-      <lb facs="#facs_1_region_1684588051806_1366_tl_19" n="N020"/>grund einen Schritt aus dem Gebüsche“. Aehnliche genaue
+               <rs type="person">Samiel</rs> bisher dunkel gekleidet, allenfalls in schwarzem, roth
+      <lb facs="#facs_1_region_1684588051806_1366_tl_17" n="N018" break="no"/>gefüttertem Mantel; auch hielt man sich an die Vorschrift des
+      <lb facs="#facs_1_region_1684588051806_1366_tl_18" n="N019"/>Originaltextes: „<rs type="person">Samiel</rs> tritt, fast bewegungslos, im Hinter
+      <lb facs="#facs_1_region_1684588051806_1366_tl_19" n="N020" break="no"/>grund einen Schritt aus dem Gebüsche“. Aehnliche genaue
       <lb facs="#facs_1_line_1719072344512_61" n="N021"/>Vorschriften geben Dichter und Componist über alle Vorgänge
       <lb facs="#facs_1_region_1684588051806_1366_tl_20" n="N022"/>in der <rs type="bibl">Wolfsschlucht</rs>; es scheint aber, als wollte man ihnen
-      <lb facs="#facs_1_region_1684588051806_1366_tl_21" n="N023"/>darüber gar keine Stimme mehr einräumen. Das Arran¬
-      <lb facs="#facs_1_region_1684588051806_1366_tl_22" n="N024"/>gement der <rs type="bibl">Wolfsschlucht</rs> durch Herrn <rs type="person">Hoffmann</rs> ist voll¬
-      <lb facs="#facs_1_region_1684588051806_1366_tl_23" n="N025"/>ständig neue Erfindung. Wir hätten nichts dagegen, wenn
+      <lb facs="#facs_1_region_1684588051806_1366_tl_21" n="N023"/>darüber gar keine Stimme mehr einräumen. Das Arran
+      <lb facs="#facs_1_region_1684588051806_1366_tl_22" n="N024" break="no"/>gement der <rs type="bibl">Wolfsschlucht</rs> durch Herrn <rs type="person">Hoffmann</rs> ist voll
+      <lb facs="#facs_1_region_1684588051806_1366_tl_23" n="N025" break="no"/>ständig neue Erfindung. Wir hätten nichts dagegen, wenn
       <lb facs="#facs_1_region_1684588051806_1366_tl_24" n="N026"/>das Neue zugleich besser wäre, eine technisch vervollkommnete,
       <lb facs="#facs_1_region_1684588051806_1366_tl_25" n="N027"/>richtigere und poetischere Darstellung des Gedichtes, als man
       <lb facs="#facs_1_region_1684588051806_1366_tl_26" n="N028"/>bisher gekannt. Gerade das können wir aber in der neuen
@@ -1037,21 +1030,21 @@
       <lb facs="#facs_1_region_1684588051806_1366_tl_33" n="N035"/>Ehemals, zur Zeit höchster Gesangsbravour, benützte der
       <lb facs="#facs_1_region_1684588051806_1366_tl_34" n="N036"/>Sänger eine Arie, eine wiederkehrende Melodie oder Cadenz
       <lb facs="#facs_1_region_1684588051806_1366_tl_35" n="N037"/>zur Einflechtung seiner eigenen Einfälle, Verzierungen, Varianten;
-      <lb facs="#facs_1_region_1684588051806_1366_tl_36" n="N038"/>nicht blos reproducirend, sondern productiv wollte er an gün¬
-      <lb facs="#facs_1_region_1684588051806_1366_tl_37" n="N039"/>stiger Stelle erscheinen, und wirklich producirte der geschmack¬
-      <lb facs="#facs_1_line_1719072309894_41" n="N040"/>volle Sänger mitunter ganz gut in schlechten Opern. Desto
+      <lb facs="#facs_1_region_1684588051806_1366_tl_36" n="N038"/>nicht blos reproducirend, sondern productiv wollte er an gün
+      <lb facs="#facs_1_region_1684588051806_1366_tl_37" n="N039" break="no"/>stiger Stelle erscheinen, und wirklich producirte der geschmack
+      <lb facs="#facs_1_line_1719072309894_41" n="N040" break="no"/>volle Sänger mitunter ganz gut in schlechten Opern. Desto
       <lb facs="#facs_1_region_1684588051806_1366_tl_39" n="N041"/>schlimmer in wahrhaft dramatischen Werken. Noch vor dreißig
       <lb facs="#facs_1_region_1684588051806_1366_tl_40" n="N042"/>Jahren erweiterten gefeierte Sängerinnen <rs type="person">Agathe</rs>ns pathetischen
       <lb facs="#facs_1_region_1684588051806_1366_tl_41" n="N043"/>Ausruf: „O schöne Nacht!“ zu einer förmlichen Coloratur-
-      <lb facs="#facs_1_line_1719072321024_50" n="N044"/>Passage. Die Sänger sind längst im Vortrag treuer und be¬</p>
+      <lb facs="#facs_1_line_1719072321024_50" n="N044"/>Passage. Die Sänger sind längst im Vortrag treuer und be</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684588055172_1369_tl_1" n="N001"/>scheidener geworden, sei es, daß sie an Geschmacksbildung ge¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_2" n="N002"/>wonnen oder an Kehlengeläufigkeit verloren haben. Heutzu¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_3" n="N003"/>tage figuriren als Repräsentanten der hochmüthig gewordenen
+            <p prev="true">
+      <lb facs="#facs_1_region_1684588055172_1369_tl_1" n="N001" break="no"/>scheidener geworden, sei es, daß sie an Geschmacksbildung ge
+      <lb facs="#facs_1_region_1684588055172_1369_tl_2" n="N002" break="no"/>wonnen oder an Kehlengeläufigkeit verloren haben. Heutzu
+      <lb facs="#facs_1_region_1684588055172_1369_tl_3" n="N003" break="no"/>tage figuriren als Repräsentanten der hochmüthig gewordenen
       <lb facs="#facs_1_region_1684588055172_1369_tl_4" n="N004"/>Virtuosität die Decorations-Maler mit ihren Gehilfen von
-      <lb facs="#facs_1_region_1684588055172_1369_tl_5" n="N005"/>der Maschinerie und Beleuchtung. Ihr Studium geht we¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_6" n="N006"/>niger dahin, wie der vom Componisten beabsichtigte Eindruck
+      <lb facs="#facs_1_region_1684588055172_1369_tl_5" n="N005"/>der Maschinerie und Beleuchtung. Ihr Studium geht we
+      <lb facs="#facs_1_region_1684588055172_1369_tl_6" n="N006" break="no"/>niger dahin, wie der vom Componisten beabsichtigte Eindruck
       <lb facs="#facs_1_region_1684588055172_1369_tl_7" n="N007"/>der Scene zweckmäßig zu unterstützen sei, als vielmehr, wie
       <lb facs="#facs_1_region_1684588055172_1369_tl_8" n="N008"/>sie die Aufmerksamkeit von der Musik weg auf ihre eigene
       <lb facs="#facs_1_region_1684588055172_1369_tl_9" n="N009"/>decorative Leistung ablenken könnten. Der virtuose Decorateur
@@ -1061,109 +1054,107 @@
       <lb facs="#facs_1_region_1684588055172_1369_tl_13" n="N013"/>Unfug, sie — ganz gegen die Absicht des Componisten und
       <lb facs="#facs_1_region_1684588055172_1369_tl_14" n="N014"/>gegen die dramatische Oekonomie des Stückes — zu einem
       <lb facs="#facs_1_region_1684588055172_1369_tl_15" n="N015"/>selbstständigen „dritten Act“ auszurenken, nahm man natürlich
-      <lb facs="#facs_1_region_1684588055172_1369_tl_16" n="N016"/>vom alten Theater herüber. Das alle Aufmerksamkeit ge¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_17" n="N017"/>waltsam auf sich ziehende Hauptstück der Decoration ist ein
+      <lb facs="#facs_1_region_1684588055172_1369_tl_16" n="N016"/>vom alten Theater herüber. Das alle Aufmerksamkeit ge
+      <lb facs="#facs_1_region_1684588055172_1369_tl_17" n="N017" break="no"/>waltsam auf sich ziehende Hauptstück der Decoration ist ein
       <lb facs="#facs_1_region_1684588055172_1369_tl_18" n="N018"/>imposanter, lebendiger Wasserfall, dessen Rauschen die Musik
       <lb facs="#facs_1_region_1684588055172_1369_tl_19" n="N019"/>wie den Dialog ungenirt übertönt. Noch schlimmer als dies
       <lb facs="#facs_1_region_1684588055172_1369_tl_20" n="N020"/>Rauschen ist die unausstehliche elektrische Beleuchtung, welche
       <lb facs="#facs_1_line_1719072348767_64" n="N021"/>nach einander und gleichzeitig rothe, blaue, grüne Lichter über
       <lb facs="#facs_1_region_1684588055172_1369_tl_22" n="N022"/>den Wasserfall tanzen läßt. Damit nimmt man der Scenerie
-      <lb facs="#facs_1_region_1684588055172_1369_tl_23" n="N023"/>den Charakter des Schrecklichen, Unheimlichen, um eine glän¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_24" n="N024"/>zende Spielerei zu gewinnen. Wir würden denjenigen für den
+      <lb facs="#facs_1_region_1684588055172_1369_tl_23" n="N023"/>den Charakter des Schrecklichen, Unheimlichen, um eine glän
+      <lb facs="#facs_1_region_1684588055172_1369_tl_24" n="N024" break="no"/>zende Spielerei zu gewinnen. Wir würden denjenigen für den
       <lb facs="#facs_1_region_1684588055172_1369_tl_25" n="N025"/>besten Freund der Direction halten, der ihr den elektrischen
       <lb facs="#facs_1_region_1684588055172_1369_tl_26" n="N026"/>Apparat und all ihre farbigen Lichter versteckte, so daß sie
       <lb facs="#facs_1_region_1684588055172_1369_tl_27" n="N027"/>einige Wochen lang mit den gewöhnlichen Abstufungen von
       <lb facs="#facs_1_region_1684588055172_1369_tl_28" n="N028"/>Hell und Dunkel ausreichen müßte. Eine Entziehungscur von
-      <lb facs="#facs_1_region_1684588055172_1369_tl_29" n="N029"/>unausbleiblich wohlthätigen Folgen! Kehren wir zur Wolfs¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_30" n="N030"/>schlucht zurück. <rs type="person">Caspar</rs> hat sich mit der Siegellackstange be¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_31" n="N031"/>sprochen und <rs type="person">Max</rs> erscheint. Das heißt, wir hören (so gut
+      <lb facs="#facs_1_region_1684588055172_1369_tl_29" n="N029"/>unausbleiblich wohlthätigen Folgen! Kehren wir zur <rs type="bibl">Wolfs
+      <lb facs="#facs_1_region_1684588055172_1369_tl_30" n="N030" break="no"/>schlucht</rs> zurück. <rs type="person">Caspar</rs> hat sich mit der Siegellackstange be
+      <lb facs="#facs_1_region_1684588055172_1369_tl_31" n="N031" break="no"/>sprochen und <rs type="person">Max</rs> erscheint. Das heißt, wir hören (so gut
       <lb facs="#facs_1_region_1684588055172_1369_tl_32" n="N032"/>es der Wasserfall erlaubt) seine Stimme, sehen aber von
       <lb facs="#facs_1_region_1684588055172_1369_tl_33" n="N033"/>
                <rs type="person">Max</rs> selbst auch nicht die Nasenspitze. Die unzweckmäßige
-      <lb facs="#facs_1_region_1684588055172_1369_tl_34" n="N034"/>Decoration versteckt ihn vollständig für alle nicht auf der äußer¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_35" n="N035"/>sten Rechten sitzenden Zuschauer, welche dafür wieder gar
+      <lb facs="#facs_1_region_1684588055172_1369_tl_34" n="N034"/>Decoration versteckt ihn vollständig für alle nicht auf der äußer
+      <lb facs="#facs_1_region_1684588055172_1369_tl_35" n="N035" break="no"/>sten Rechten sitzenden Zuschauer, welche dafür wieder gar
       <lb facs="#facs_1_region_1684588055172_1369_tl_36" n="N036"/>nichts sehen von den auf der anderen Seite auftauchenden
-      <lb facs="#facs_1_region_1684588055172_1369_tl_37" n="N037"/>Phantomen der <rs type="person">Mutter</rs> und <rs type="person">Agathe</rs>ns. Das Kugelgießen be¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_38" n="N038"/>ginnt; ein dicker Uhu, viel zu nah und zu groß, bewegt sal¬
-      <lb facs="#facs_1_region_1684588055172_1369_tl_39" n="N039"/>bungsvoll die Flügel, wie ein predigender Mönch die Arme.
+      <lb facs="#facs_1_region_1684588055172_1369_tl_37" n="N037"/>Phantomen der <rs type="person">Mutter</rs> und <rs type="person">Agathe</rs>ns. Das Kugelgießen be
+      <lb facs="#facs_1_region_1684588055172_1369_tl_38" n="N038" break="no"/>ginnt; ein dicker Uhu, viel zu nah und zu groß, bewegt sal
+      <lb facs="#facs_1_region_1684588055172_1369_tl_39" n="N039" break="no"/>bungsvoll die Flügel, wie ein predigender Mönch die Arme.
       <lb facs="#facs_1_line_1719072312825_44" n="N040"/>Der dahinsausende wilde Eber, die vier feurigen Räder —
       <lb facs="#facs_1_region_1684588055172_1369_tl_40" n="N041"/>Erscheinungen, welche nicht blos Gewohnheit und Tradition,
       <lb facs="#facs_1_region_1684588055172_1369_tl_41" n="N042"/>sondern die ausgesprochene, in der Tonmalerei verwirklichte
       <lb facs="#facs_1_region_1684588055172_1369_tl_42" n="N043"/>Absicht des Componisten für sich haben — sind im neuen
-      <lb facs="#facs_1_line_1719072324952_53" n="N044"/>Opernhause gestrichen. Dafür walzen im Hintergrund einige</p>
+      <lb facs="#facs_1_line_1719072324952_53" n="N044"/>Opernhause gestrichen. Dafür walzen im Hintergrund einige<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_2_region_1684588067985_1375_tl_1" n="N001"/>Teufel und umschleichen den Kugelherd ein halbes Dutzend gräu¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_2" n="N002"/>liche Thiere („Viecher“ sagen wir in <rs type="place">Wien</rs>), deren Abstam¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_3" n="N003"/>mung von den zwei räudigen Kötern aus der <rs type="place">egyptisch</rs>en
-      <lb facs="#facs_2_region_1684588067985_1375_tl_4" n="N004"/>„<rs type="bibl">Zauberflöte</rs>“ unverkennbar ist. Nun erschallt der wilde Sechs¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_5" n="N005"/>achteltact in As, mit den schauerlichen gestopften Tönen der
+            <p prev="true">
+      <lb facs="#facs_2_region_1684588067985_1375_tl_1" n="N001"/>Teufel und umschleichen den Kugelherd ein halbes Dutzend gräu
+      <lb facs="#facs_2_region_1684588067985_1375_tl_2" n="N002" break="no"/>liche Thiere („Viecher“ sagen wir in <rs type="place">Wien</rs>), deren Abstam
+      <lb facs="#facs_2_region_1684588067985_1375_tl_3" n="N003" break="no"/>mung von den zwei räudigen Kötern aus der <rs type="place">egyptisch</rs>en
+      <lb facs="#facs_2_region_1684588067985_1375_tl_4" n="N004"/>„<rs type="bibl">Zauberflöte</rs>“ unverkennbar ist. Nun erschallt der wilde Sechs
+      <lb facs="#facs_2_region_1684588067985_1375_tl_5" n="N005" break="no"/>achteltact in As, mit den schauerlichen gestopften Tönen der
       <lb facs="#facs_2_line_1719247700076_358" n="N006"/>Hörner, diese geniale Tonmalerei der „wilden Jagd“. Aber
       <lb facs="#facs_2_region_1684588067985_1375_tl_6" n="N007"/>wo bleibt sie selbst, die wilde Jagd? Vergebens spähen wir
       <lb facs="#facs_2_region_1684588067985_1375_tl_7" n="N008"/>nach ihr. Erst <hi rendition="#em">nach</hi> diesem malenden Orchestersatz, der doch
-      <lb facs="#facs_2_region_1684588067985_1375_tl_8" n="N009"/>untrennbar mit dem Sichtbarwerden des wilden Heeres zu¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_9" n="N010"/>sammenhängt, erscheint letzteres, und zwar wieder in ¬ganz
+      <lb facs="#facs_2_region_1684588067985_1375_tl_8" n="N009"/>untrennbar mit dem Sichtbarwerden des wilden Heeres zu
+      <lb facs="#facs_2_region_1684588067985_1375_tl_9" n="N010" break="no"/>sammenhängt, erscheint letzteres, und zwar wieder in ¬ganz
       <lb facs="#facs_2_region_1684588067985_1375_tl_10" n="N011"/>neuer Auffassung. Anstatt wolkengleich, als phantastische
       <lb facs="#facs_2_region_1684588067985_1375_tl_11" n="N012"/>Schattenbilder über den Horizont zu fliegen, senken sich aus
       <lb facs="#facs_2_region_1684588067985_1375_tl_12" n="N013"/>den Soffitten leibhaftige berittene Männer raketenschwingend
-      <lb facs="#facs_2_region_1684588067985_1375_tl_13" n="N014"/>herab, von <rs type="person">Max</rs> und <rs type="person">Caspar</rs> fast mit den Händen zu grei¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_14" n="N015"/>fen. Ein ärgeres Verkennen dieser Scene, ein plumperes
+      <lb facs="#facs_2_region_1684588067985_1375_tl_13" n="N014"/>herab, von <rs type="person">Max</rs> und <rs type="person">Caspar</rs> fast mit den Händen zu grei
+      <lb facs="#facs_2_region_1684588067985_1375_tl_14" n="N015" break="no"/>fen. Ein ärgeres Verkennen dieser Scene, ein plumperes
       <lb facs="#facs_2_region_1684588067985_1375_tl_15" n="N016"/>Illustriren des Geisterspuks ist uns selten vorgekommen. Zur
       <lb facs="#facs_2_region_1684588067985_1375_tl_16" n="N017"/>Versinnlichung der wilden Jagd gibt es gar kein scenisches
-      <lb facs="#facs_2_region_1684588067985_1375_tl_17" n="N018"/>Mittel, welches das bisher gebräuchliche Schattenspiel zu er¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_18" n="N019"/>setzen vermöchte, diese körperlos dahinfliegenden, sich bald aus¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_19" n="N020"/>dehnenden, bald zusammenziehenden Luftgestalten von Jägern,
+      <lb facs="#facs_2_region_1684588067985_1375_tl_17" n="N018"/>Mittel, welches das bisher gebräuchliche Schattenspiel zu er
+      <lb facs="#facs_2_region_1684588067985_1375_tl_18" n="N019" break="no"/>setzen vermöchte, diese körperlos dahinfliegenden, sich bald aus
+      <lb facs="#facs_2_region_1684588067985_1375_tl_19" n="N020" break="no"/>dehnenden, bald zusammenziehenden Luftgestalten von Jägern,
       <lb facs="#facs_2_region_1684588067985_1375_tl_20" n="N021"/>Rossen und Hunden! C. M. <rs type="person">Weber</rs> lobte bei der ersten Aufführung
-      <lb facs="#facs_2_region_1684588067985_1375_tl_21" n="N022"/>seines „<rs type="bibl">Freischütz</rs>“ (<date month="0" day="0" year="0">1821</date> in <rs type="place">Berlin</rs>) die geistreiche Idee des Deco¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_22" n="N023"/>rations-Malers <rs type="person">Gropius</rs>, das wilde Heer sich gleichsam aus
-      <lb facs="#facs_2_region_1684588067985_1375_tl_23" n="N024"/>dem abziehenden Rauch des Feuers, bei welchem <rs type="person">Caspar</rs> Ku¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_24" n="N025"/>geln gießt, entwickeln zu lassen. <rs type="person">Weber</rs> und <rs type="person">Gropius</rs> wollten
+      <lb facs="#facs_2_region_1684588067985_1375_tl_21" n="N022"/>seines „<rs type="bibl">Freischütz</rs>“ (<date when="1821">1821</date> in 
+                  <rs type="place">Berlin</rs>) die geistreiche Idee des Deco
+      <lb facs="#facs_2_region_1684588067985_1375_tl_22" n="N023" break="no"/>rations-Malers <rs type="person">Gropius</rs>, das wilde Heer sich gleichsam aus
+      <lb facs="#facs_2_region_1684588067985_1375_tl_23" n="N024"/>dem abziehenden Rauch des Feuers, bei welchem <rs type="person">Caspar</rs> Ku
+      <lb facs="#facs_2_region_1684588067985_1375_tl_24" n="N025" break="no"/>geln gießt, entwickeln zu lassen. <rs type="person">Weber</rs> und <rs type="person">Gropius</rs> wollten
       <lb facs="#facs_2_region_1684588067985_1375_tl_25" n="N026"/>eben auch das Schauerliche mit poetischem Sinne aufgefaßt
       <lb facs="#facs_2_region_1684588067985_1375_tl_26" n="N027"/>sehen. Nach dem Erscheinen dieser reitenden Bengel erheben
       <lb facs="#facs_2_region_1684588067985_1375_tl_27" n="N028"/>sich im Vordergrunde der Bühne dichte Rauchsäulen; man
       <lb facs="#facs_2_region_1684588067985_1375_tl_28" n="N029"/>sieht und hört nichts mehr von <rs type="person">Max</rs> und <rs type="person">Caspar</rs> (welche,
       <lb facs="#facs_2_region_1684588067985_1375_tl_29" n="N030"/>um nicht zu ersticken, offenbar längst die Bühne verlassen
-      <lb facs="#facs_2_region_1684588067985_1375_tl_30" n="N031"/>haben), dafür kutschirt der rothe <rs type="person">Samiel</rs> auf einer Art Vélo¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_31" n="N032"/>cipède über die Bühne, welche endlich nur noch ein Chaos
-      <lb facs="#facs_2_region_1684588067985_1375_tl_32" n="N033"/>von Rauch und Funken darstellt. Wir können in dieser ge¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_33" n="N034"/>priesenen „<rs type="bibl">Wolfsschlucht</rs>“ nur ein grobes, poesieloses Mate¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_34" n="N035"/>rialisiren der Gespensterwelt erblicken, das bei allem Aufge¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_35" n="N036"/>bot der Mittel (weil eben falscher Mittel) nicht einmal den
-      <lb facs="#facs_2_region_1684588067985_1375_tl_36" n="N037"/>Eindruck des Schauerlichen hervorbringt. Die Tendenz unse¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_37" n="N038"/>res neuen Opernhauses, auf Ballet-Effecte zu speculiren, hat
+      <lb facs="#facs_2_region_1684588067985_1375_tl_30" n="N031"/>haben), dafür kutschirt der rothe <rs type="person">Samiel</rs> auf einer Art Vélo
+      <lb facs="#facs_2_region_1684588067985_1375_tl_31" n="N032" break="no"/>cipède über die Bühne, welche endlich nur noch ein Chaos
+      <lb facs="#facs_2_region_1684588067985_1375_tl_32" n="N033"/>von Rauch und Funken darstellt. Wir können in dieser ge
+      <lb facs="#facs_2_region_1684588067985_1375_tl_33" n="N034" break="no"/>priesenen „<rs type="bibl">Wolfsschlucht</rs>“ nur ein grobes, poesieloses Mate
+      <lb facs="#facs_2_region_1684588067985_1375_tl_34" n="N035" break="no"/>rialisiren der Gespensterwelt erblicken, das bei allem Aufge
+      <lb facs="#facs_2_region_1684588067985_1375_tl_35" n="N036" break="no"/>bot der Mittel (weil eben falscher Mittel) nicht einmal den
+      <lb facs="#facs_2_region_1684588067985_1375_tl_36" n="N037"/>Eindruck des Schauerlichen hervorbringt. Die Tendenz unse
+      <lb facs="#facs_2_region_1684588067985_1375_tl_37" n="N038" break="no"/>res neuen Opernhauses, auf Ballet-Effecte zu speculiren, hat
       <lb facs="#facs_2_region_1684588067985_1375_tl_38" n="N039"/>sich im „<rs type="bibl">Freischütz</rs>“ zu solcher Handgreiflichkeit gesteigert, daß
-      <lb facs="#facs_2_region_1684588067985_1375_tl_39" n="N040"/>es hohe Zeit ist, an die Umkehr zu denken. Will man durch¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_40" n="N041"/>aus das Aeußerste leisten in Beleuchtungs-Effecten, Maschi¬
-      <lb facs="#facs_2_region_1684588067985_1375_tl_41" n="N042"/>nenwundern und Decorationsprunk, so thue man es im
-      <lb facs="#facs_2_region_1684588067985_1375_tl_42" n="N043"/>
-               <hi rendition="#em">Ballet</hi>, das ist der Platz dafür. Unsere guten Opern lasse
-      <lb facs="#facs_2_line_1719247721493_369" n="N044"/>man ungeschoren; sie sind geschaffen, damit wir uns am</p>
+      <lb facs="#facs_2_region_1684588067985_1375_tl_39" n="N040"/>es hohe Zeit ist, an die Umkehr zu denken. Will man durch
+      <lb facs="#facs_2_region_1684588067985_1375_tl_40" n="N041" break="no"/>aus das Aeußerste leisten in Beleuchtungs-Effecten, Maschi
+      <lb facs="#facs_2_region_1684588067985_1375_tl_41" n="N042" break="no"/>nenwundern und Decorationsprunk, so thue man es im
+      <lb facs="#facs_2_region_1684588067985_1375_tl_42" n="N043"/><hi rendition="#em">Ballet</hi>, das ist der Platz dafür. Unsere guten Opern lasse
+      <lb facs="#facs_2_line_1719247721493_369" n="N044"/>man ungeschoren; sie sind geschaffen, damit wir uns am<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684588071548_1378_tl_1" n="N001"/>Schönen hörend und sehend erbauen, nicht damit uns Hören
+            <p prev="true">
+      <lb facs="#facs_2_region_1684588071548_1378_tl_1" n="N001"/>Schönen hörend und sehend erbauen, nicht damit uns Hören
       <lb facs="#facs_2_region_1684588071548_1378_tl_2" n="N002"/>und Sehen vergeht. Die Aufnahme der neuen Decorationen
-      <lb facs="#facs_2_region_1684588071548_1378_tl_3" n="N003"/>war verschieden; während der Wald im letzten Acte lebhaf¬
-      <lb facs="#facs_2_region_1684588071548_1378_tl_4" n="N004"/>teste allgemeine Anerkennung fand, erfreute sich die Wolfs¬
-      <lb facs="#facs_2_region_1684588071548_1378_tl_5" n="N005"/>schlucht nur der Zustimmung der Galerien. Der Wasserfall
+      <lb facs="#facs_2_region_1684588071548_1378_tl_3" n="N003"/>war verschieden; während der Wald im letzten Acte lebhaf
+      <lb facs="#facs_2_region_1684588071548_1378_tl_4" n="N004" break="no"/>teste allgemeine Anerkennung fand, erfreute sich die Wolfs
+      <lb facs="#facs_2_region_1684588071548_1378_tl_5" n="N005" break="no"/>schlucht nur der Zustimmung der Galerien. Der Wasserfall
       <lb facs="#facs_2_line_1719247702586_361" n="N006"/>wurde applaudirt, worauf natürlich die beiden Decorations-
       <lb facs="#facs_2_region_1684588071548_1378_tl_7" n="N007"/>Maler <hi rendition="#em">
-                  <rs type="person">Hoffmann</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Burghart</rs>
-               </hi> sofort Hand in Hand
+                  <rs type="person">Hoffmann</rs></hi> und <hi rendition="#em">
+                  <rs type="person">Burghart</rs></hi> sofort Hand in Hand
       <lb facs="#facs_2_region_1684588071548_1378_tl_8" n="N008"/>aus der Coulisse traten, um die Schrecknisse der Wolfsschlucht
-      <lb facs="#facs_2_region_1684588071548_1378_tl_9" n="N009"/>durch zahlreiche zierliche Verbeugungen zu mildern. Wir be¬
-      <lb facs="#facs_2_region_1684588071548_1378_tl_10" n="N010"/>dauern nur, daß der Maschinist Herr <hi rendition="#em">
-                  <rs type="person">Dreilich</rs>
-               </hi>, welcher ohne
+      <lb facs="#facs_2_region_1684588071548_1378_tl_9" n="N009"/>durch zahlreiche zierliche Verbeugungen zu mildern. Wir be
+      <lb facs="#facs_2_region_1684588071548_1378_tl_10" n="N010" break="no"/>dauern nur, daß der Maschinist Herr <hi rendition="#em">
+                  <rs type="person">Dreilich</rs></hi>, welcher ohne
       <lb facs="#facs_2_line_1719247756295_383" n="N011"/>Zweifel auch gemeint war, nicht mit herauskam; drei Frack hoch
       <lb facs="#facs_2_region_1684588071548_1378_tl_11" n="N012"/>macht sich eine solche „Erscheinung“ in der Wildniß gewiß
-      <lb facs="#facs_2_region_1684588071548_1378_tl_12" n="N013"/>noch hübscher.
+      <lb facs="#facs_2_region_1684588071548_1378_tl_12" n="N013"/>noch hübscher.</p>
+               <p>
       <lb facs="#facs_2_region_1684588071548_1378_tl_13" n="N014"/>Es geschieht ganz im Geiste des neuen Opernhauses,
       <lb facs="#facs_2_region_1684588071548_1378_tl_14" n="N015"/>wenn wir auf die Musik erst in zweiter Linie zu sprechen
-      <lb facs="#facs_2_region_1684588071548_1378_tl_15" n="N016"/>kommen. Glücklicherweise läßt sich über die musikalische Aus¬
-      <lb facs="#facs_2_region_1684588071548_1378_tl_16" n="N017"/>führung des „<rs type="bibl">Freischütz</rs>“ fast nur Rühmliches sagen. Kein
+      <lb facs="#facs_2_region_1684588071548_1378_tl_15" n="N016"/>kommen. Glücklicherweise läßt sich über die musikalische Aus
+      <lb facs="#facs_2_region_1684588071548_1378_tl_16" n="N017" break="no"/>führung des „<rs type="bibl">Freischütz</rs>“ fast nur Rühmliches sagen. Kein
       <lb facs="#facs_2_region_1684588071548_1378_tl_17" n="N018"/>elektrisches Licht, sondern die echte Sonnenwärme der Kunst
       <lb facs="#facs_2_line_1719247777574_397" n="N019"/>durchglühte sie. Fräulein <hi rendition="#em">
                   <rs type="person">Ehnn</rs>
@@ -1171,25 +1162,23 @@
       <lb facs="#facs_2_region_1684588071548_1378_tl_18" n="N020"/>vor der Vorstellung als unpäßlich, um Nachsicht bittend
       <lb facs="#facs_2_region_1684588071548_1378_tl_19" n="N021"/>annoncirt. Ihrem Gesang merkte man die Indisposition nicht
       <lb facs="#facs_2_region_1684588071548_1378_tl_20" n="N022"/>an, hingegen plaidiren wir gerne „mildernde Umstände“ für
-      <lb facs="#facs_2_region_1684588071548_1378_tl_21" n="N023"/>ihre monotone Prosa und gleichgiltige Action. Als <rs type="person">Aennchen</rs>
-               <lb facs="#facs_2_region_1684588071548_1378_tl_22" n="N024"/>feierte Fräulein <hi rendition="#em">
-                  <rs type="person">Boschetti</rs>
-               </hi> in ehrenvoller Weise ihren defi¬
-      <lb facs="#facs_2_region_1684588071548_1378_tl_23" n="N025"/>nitiven Eintritt in den Verband des Hofoperntheaters. Ihre
+      <lb facs="#facs_2_region_1684588071548_1378_tl_21" n="N023"/>ihre monotone Prosa und gleichgiltige Action. Als 
+                     <rs type="person">Aennchen</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684588071548_1378_tl_22" n="N024"/>feierte Fräulein <hi rendition="#em">
+                  <rs type="person">Boschetti</rs></hi> in ehrenvoller Weise ihren defi
+      <lb facs="#facs_2_region_1684588071548_1378_tl_23" n="N025" break="no"/>nitiven Eintritt in den Verband des Hofoperntheaters. Ihre
       <lb facs="#facs_2_region_1684588071548_1378_tl_24" n="N026"/>jugendfrische Stimme und ihr gewandter, namentlich in den
       <lb facs="#facs_2_region_1684588071548_1378_tl_25" n="N027"/>Coloraturstellen flüssiger Vortrag kamen in beiden Arien zu
       <lb facs="#facs_2_region_1684588071548_1378_tl_26" n="N028"/>voller Geltung. Den <rs type="person">Max</rs> sang zum erstenmale Herr <hi rendition="#em">
-                  <rs type="person">Adams</rs>
-               </hi>,
+                  <rs type="person">Adams</rs></hi>,
       <lb facs="#facs_2_region_1684588071548_1378_tl_27" n="N029"/>den <rs type="person">Caspar</rs> Herr <hi rendition="#em">
-                  <rs type="person">Schmid</rs>
-               </hi>. Beide Rollen gehören zu den
+                  <rs type="person">Schmid</rs></hi>. Beide Rollen gehören zu den
       <lb facs="#facs_2_region_1684588071548_1378_tl_28" n="N030"/>schönsten, ausdrucksvollsten Gestalten der gesammten Opern-
       <lb facs="#facs_2_region_1684588071548_1378_tl_29" n="N031"/>Literatur, zu den Musterbeispielen musikalischer Charakteristik,
-      <lb facs="#facs_2_region_1684588071548_1378_tl_30" n="N032"/>trotzdem sind sie keine sogenannten „dankbaren“ Partien. <rs type="person">Max</rs>
-               <lb facs="#facs_2_region_1684588071548_1378_tl_31" n="N033"/>tritt in einer einzigen Nummer glänzend hervor (der Arie im
-      <lb facs="#facs_2_region_1684588071548_1378_tl_32" n="N034"/>ersten Act); überdies leidet er durch die ungünstige Nummern¬
-      <lb facs="#facs_2_region_1684588071548_1378_tl_33" n="N035"/>vertheilung, daß seine beste Wirksamkeit im zweiten Acte
+      <lb facs="#facs_2_region_1684588071548_1378_tl_30" n="N032"/>trotzdem sind sie keine sogenannten „dankbaren“ Partien. <rs type="person">Max</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684588071548_1378_tl_31" n="N033"/>tritt in einer einzigen Nummer glänzend hervor (der Arie im
+      <lb facs="#facs_2_region_1684588071548_1378_tl_32" n="N034"/>ersten Act); überdies leidet er durch die ungünstige Nummern
+      <lb facs="#facs_2_region_1684588071548_1378_tl_33" n="N035" break="no"/>vertheilung, daß seine beste Wirksamkeit im zweiten Acte
       <lb facs="#facs_2_region_1684588071548_1378_tl_34" n="N036"/>vorüber ist und die Partie bis gegen den Schluß der Oper
       <lb facs="#facs_2_region_1684588071548_1378_tl_35" n="N037"/>immer weiter zurücktritt. Die Rolle des <rs type="person">Caspar</rs>, nur mit
       <lb facs="#facs_2_region_1684588071548_1378_tl_36" n="N038"/>zwei Solonummern im ersten Acte bedacht, hat dann blos
@@ -1197,61 +1186,49 @@
       <lb facs="#facs_2_region_1684588071548_1378_tl_38" n="N040"/>ist, am Schluß der Oper hat man ihrer fast vergessen.
       <lb facs="#facs_2_region_1684588071548_1378_tl_39" n="N041"/>Um so größere Anerkennung verdienen die Leistungen der
       <lb facs="#facs_2_region_1684588071548_1378_tl_40" n="N042"/>beiden genannten Sänger. Herrn <hi rendition="#em">
-                  <rs type="person">Adams</rs>
-               </hi> fehlt nur die weiche,
+                  <rs type="person">Adams</rs></hi> fehlt nur die weiche,
       <lb facs="#facs_2_region_1684588071548_1378_tl_41" n="N043"/>jugendliche Fülle des Organs, welche gerade von dem Ideal
       <lb facs="#facs_2_line_1719247724936_372" n="N044"/>des <rs type="person">Max</rs> sich schwer trennen läßt. Herr <hi rendition="#em">
-                  <rs type="person">Schmid</rs>
-               </hi> sang</p>
+            <rs type="person">Schmid</rs></hi> sang<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684588089645_1381_tl_1" n="N001"/>vortrefflich, namentlich das Trinklied; dem dramatischen Theile
-      <lb facs="#facs_2_region_1684588089645_1381_tl_2" n="N002"/>der Rolle, welche dem eigentlichen Charakterspieler ein dank¬
-      <lb facs="#facs_2_region_1684588089645_1381_tl_3" n="N003"/>bares Feld öffnet, wurde er nicht ganz gerecht. An dem un¬
-      <lb facs="#facs_2_region_1684588089645_1381_tl_4" n="N004"/>geschickten Arrangement im letzten Acte, welches die Gestalt
+            <p prev="true">
+      <lb facs="#facs_2_region_1684588089645_1381_tl_1" n="N001"/>vortrefflich, namentlich das Trinklied; dem dramatischen Theile
+      <lb facs="#facs_2_region_1684588089645_1381_tl_2" n="N002"/>der Rolle, welche dem eigentlichen Charakterspieler ein dank
+      <lb facs="#facs_2_region_1684588089645_1381_tl_3" n="N003" break="no"/>bares Feld öffnet, wurde er nicht ganz gerecht. An dem un
+      <lb facs="#facs_2_region_1684588089645_1381_tl_4" n="N004" break="no"/>geschickten Arrangement im letzten Acte, welches die Gestalt
       <lb facs="#facs_2_region_1684588089645_1381_tl_5" n="N005"/>
                <rs type="person">Caspar</rs>'s sowol auf dem Baume als auf dem Boden dem
-      <lb facs="#facs_2_region_1684588089645_1381_tl_6" n="N006"/>Zuschauer beinahe vollständig entzieht, trägt Herr <rs type="person">Schmid</rs>
-               <lb facs="#facs_2_region_1684588089645_1381_tl_7" n="N007"/>keine Schuld. Zur letzten Phrase sollte <rs type="person">Caspar</rs>, nebenbei be¬
-      <lb facs="#facs_2_region_1684588089645_1381_tl_8" n="N008"/>merkt, sich höchstens auf die Knie erheben. Die Herren <hi rendition="#em">
-                  <rs type="person" continued="true">Ro¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684588089645_1381_tl_9" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">kitansky</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Lay</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Neumann</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Campe</rs>
-               </hi> gaben ihre
+      <lb facs="#facs_2_region_1684588089645_1381_tl_6" n="N006"/>Zuschauer beinahe vollständig entzieht, trägt Herr <rs type="person">Schmid</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684588089645_1381_tl_7" n="N007"/>keine Schuld. Zur letzten Phrase sollte <rs type="person">Caspar</rs>, nebenbei be
+      <lb facs="#facs_2_region_1684588089645_1381_tl_8" n="N008" break="no"/>merkt, sich höchstens auf die Knie erheben. Die Herren <hi rendition="#em">
+                  <rs type="person">Ro
+      <lb facs="#facs_2_region_1684588089645_1381_tl_9" n="N009" break="no"/>kitansky</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Lay</rs></hi>, <hi rendition="#em">
+                  <rs type="person">Neumann</rs></hi> und <hi rendition="#em">
+                  <rs type="person">Campe</rs></hi> gaben ihre
       <lb facs="#facs_2_region_1684588089645_1381_tl_10" n="N010"/>kleineren Rollen sehr lobenswerth, was man von den zwei
       <lb facs="#facs_2_line_1719247759923_386" n="N011"/>ersten Brautjungfern nicht sagen kann. Ihren Vortrag des
       <lb facs="#facs_2_region_1684588089645_1381_tl_12" n="N012"/>„Jungfernkranzes“ möchten wir nicht zu den Freuden des
       <lb facs="#facs_2_region_1684588089645_1381_tl_13" n="N013"/>Brautstandes zählen. Hofcapellmeister <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> hatte den
+                  <rs type="person">Herbeck</rs></hi> hatte den
       <lb facs="#facs_2_region_1684588089645_1381_tl_14" n="N014"/>„<rs type="bibl">Freischütz</rs>“ mit hingebendem Eifer einstudirt und wußte in
       <lb facs="#facs_2_region_1684588089645_1381_tl_15" n="N015"/>der Ausführung die kräftigsten Wirkungen mit der feinsten
-      <lb facs="#facs_2_region_1684588089645_1381_tl_16" n="N016"/>Schattirung des Details zu vereinigen. Ob <rs type="person">Herbeck</rs> vom musi¬
-      <lb facs="#facs_2_region_1684588089645_1381_tl_17" n="N017"/>kalischen Standpunkte mit dem Unfuge der neuen <rs type="bibl">Wolfsschlucht</rs>
-               <lb facs="#facs_2_region_1684588089645_1381_tl_18" n="N018"/>einverstanden oder dagegen machtlos sei, wäre interessant zu
+      <lb facs="#facs_2_region_1684588089645_1381_tl_16" n="N016"/>Schattirung des Details zu vereinigen. Ob <rs type="person">Herbeck</rs> vom musi
+      <lb facs="#facs_2_region_1684588089645_1381_tl_17" n="N017" break="no"/>kalischen Standpunkte mit dem Unfuge der neuen <rs type="bibl">Wolfsschlucht</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684588089645_1381_tl_18" n="N018"/>einverstanden oder dagegen machtlos sei, wäre interessant zu
       <lb facs="#facs_2_line_1719247780626_400" n="N019"/>erfahren. „Woran,“ fragt <hi rendition="#em">
-                  <rs type="person">Heine</rs>
-               </hi> grollend über die Schlech¬
-      <lb facs="#facs_2_region_1684588089645_1381_tl_20" n="N020"/>tigkeit der Welt,
+                  <rs type="person">Heine</rs></hi> grollend über die Schlech
+      <lb facs="#facs_2_region_1684588089645_1381_tl_20" n="N020" break="no"/>tigkeit der Welt,
       <lb facs="#facs_2_line_1719247797374_418" n="N021"/>„Woran liegt die Schuld? Ist etwa
       <lb facs="#facs_2_line_1719247800075_421" n="N022"/>Doch der Herr nicht ganz allmächtig?
       <lb facs="#facs_2_line_1719247802037_424" n="N023"/>Oder treibt er selbst den Unfug?
       <lb facs="#facs_2_line_1719247804966_427" n="N024"/>Ach, das wäre niederträchtig.“
       <lb facs="#facs_2_region_1684588089645_1381_tl_25" n="N025"/>Das kurze Gastspiel der Sängerin <hi rendition="#em">
-                  <rs type="person">Murska</rs>
-               </hi> bietet der
-      <lb facs="#facs_2_region_1684588089645_1381_tl_26" n="N026"/>Kritik wenig Stoff. Wir haben Fräulein <rs type="person">Murska</rs> als enga¬
-      <lb facs="#facs_2_region_1684588089645_1381_tl_27" n="N027"/>girtes Mitglied dieser Bühne so oft die abgeleierte „<rs type="person">Martha</rs>“
-      <lb facs="#facs_2_region_1684588089645_1381_tl_28" n="N028"/>und „<rs type="person">Lucia</rs>“ singen hören, mitunter auch vor halbleeren Bän¬
-      <lb facs="#facs_2_region_1684588089645_1381_tl_29" n="N029"/>ken, daß wir höchstens unser Befremden über die unbillige
+                  <rs type="person">Murska</rs></hi> bietet der
+      <lb facs="#facs_2_region_1684588089645_1381_tl_26" n="N026"/>Kritik wenig Stoff. Wir haben Fräulein <rs type="person">Murska</rs> als enga
+      <lb facs="#facs_2_region_1684588089645_1381_tl_27" n="N027" break="no"/>girtes Mitglied dieser Bühne so oft die abgeleierte „<rs type="person">Martha</rs>“
+      <lb facs="#facs_2_region_1684588089645_1381_tl_28" n="N028"/>und „<rs type="person">Lucia</rs>“ singen hören, mitunter auch vor halbleeren Bän
+      <lb facs="#facs_2_region_1684588089645_1381_tl_29" n="N029" break="no"/>ken, daß wir höchstens unser Befremden über die unbillige
       <lb facs="#facs_2_region_1684588089645_1381_tl_30" n="N030"/>Zurücksetzung der Abonnenten aussprechen könnten, welchen
       <lb facs="#facs_2_region_1684588089645_1381_tl_31" n="N031"/>man durch ein consequentes „Abonnement suspendu“ jede
       <lb facs="#facs_2_region_1684588089645_1381_tl_32" n="N032"/>
@@ -1265,16 +1242,13 @@
       <lb facs="#facs_2_region_1684588089645_1381_tl_38" n="N038"/>einige Rollen, oder genauer: für einige Glanzstellen dieser
       <lb facs="#facs_2_region_1684588089645_1381_tl_39" n="N039"/>Rollen. Wer nichts Anderes verlangt in der Oper, der wird
       <lb facs="#facs_2_region_1684588089645_1381_tl_40" n="N040"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Murska</rs>
-               </hi> mit lebhafter Befriedigung, ja mit Be¬
-      <lb facs="#facs_2_region_1684588089645_1381_tl_41" n="N041"/>wunderung hören. Das Publicum zeichnete Fräulein <rs type="person">Murska</rs>
-               <lb facs="#facs_2_region_1684588089645_1381_tl_42" n="N042"/>durch stürmischen Applaus und wiederholten Hervorruf aus —
+                  <rs type="person">Murska</rs></hi> mit lebhafter Befriedigung, ja mit Be
+      <lb facs="#facs_2_region_1684588089645_1381_tl_41" n="N041" break="no"/>wunderung hören. Das Publicum zeichnete Fräulein <rs type="person">Murska</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684588089645_1381_tl_42" n="N042"/>durch stürmischen Applaus und wiederholten Hervorruf aus —
       <lb facs="#facs_2_region_1684588089645_1381_tl_43" n="N043"/>Ehrenbezeigungen, an welchen auch die Herren v. <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684588089645_1381_tl_44" n="N044"/>und <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi> verdienten Antheil hatten.</p>
+            <rs type="person">Bignio</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684588089645_1381_tl_44" n="N044"/>und <hi rendition="#em">
+                  <rs type="person">Müller</rs></hi> verdienten Antheil hatten.</p>
          </div>
       </body>
    </text>
