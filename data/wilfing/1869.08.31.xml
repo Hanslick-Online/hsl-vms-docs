@@ -88,7 +88,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="31. August 1869">31. August 1869</date>
+                        <date when="1869-08-31">31. August 1869</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -107,8 +107,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
+         <change who="kbamer ampfiel" when="2024-08-27">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change when="2024-09-23" who="kbamer">Formatierung. Alle Werke, Daten Personen und Orte ediert.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -501,127 +502,80 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684589579745_1860_tl_1" n="N001"/>Musikalisches aus <rs type="place">München</rs>.
-      <lb facs="#facs_1_region_1684589579745_1860_tl_2" n="N002"/>(Orig.-Corr. der „<rs type="bibl">Neuen Freien Presse</rs>“)
-      <lb facs="#facs_1_region_1684589579745_1860_tl_3" n="N003"/>
-               <rs type="place">München</rs>, <date month="0" day="0" year="0">29. August</date>.
-      <lb facs="#facs_1_region_1684589579745_1860_tl_4" n="N004"/>Ed. H. <rs type="place">München</rs> darf sich mit einigem Stolz die einzige
-      <lb facs="#facs_1_region_1684589579745_1860_tl_5" n="N005"/>
-               <rs type="place">deutsch</rs>e Stadt nennen, die durch die Ankündigung einer ein¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_6" n="N006"/>zelnen Theater-Vorstellung Hunderte von Fremden aus allen
-      <lb facs="#facs_1_region_1684589579745_1860_tl_7" n="N007"/>Theilen <rs type="place">Deutschland</rs>s und weiter her anzulocken vermag. Wie
-      <lb facs="#facs_1_region_1684589579745_1860_tl_8" n="N008"/>im vorigen Jahre <rs type="person">Wagner</rs>'s „<hi rendition="#em">
-                  <rs type="bibl">Meistersinger</rs>
-               </hi>“, früher noch
-      <lb facs="#facs_1_region_1684589579745_1860_tl_9" n="N009"/>„<hi rendition="#em">
-                  <rs type="bibl">Tristan und Isolde</rs>
-               </hi>“, so ist es jetzt das „<hi rendition="#em">
-                  <rs type="bibl">Rheingold</rs>
-               </hi>“
-      <lb facs="#facs_1_region_1684589579745_1860_tl_10" n="N010"/>desselben Componisten, das einen Schwarm von Fremden her¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_11" n="N011"/>beigelockt hat. Diese Namen bezeugen, daß <rs type="place">München</rs> seine
+            
+      <lb facs="#facs_1_region_1684589579745_1860_tl_1" n="N001"/><head type="h1">Musikalisches aus <rs type="place" ref="#hsl_place_id_39">München</rs>.</head>
+      <lb facs="#facs_1_region_1684589579745_1860_tl_2" n="N002"/><head type="h2">(Orig.-Corr. der „<rs type="bibl" ref="#hsl_work_id_82">Neuen Freien Presse</rs>“)</head>
+      <lb facs="#facs_1_region_1684589579745_1860_tl_3" n="N003"/><head type="h3"><rs type="place" ref="#hsl_place_id_39">München</rs>, <date when="1869-08-29">29. August</date>.</head>
+   <p><lb facs="#facs_1_region_1684589579745_1860_tl_4" n="N004"/>Ed. H. <rs type="place" ref="#hsl_place_id_39">München</rs> darf sich mit einigem Stolz die einzige
+      <lb facs="#facs_1_region_1684589579745_1860_tl_5" n="N005"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Stadt nennen, die durch die Ankündigung einer ein
+      <lb facs="#facs_1_region_1684589579745_1860_tl_6" n="N006" break="no"/>zelnen Theater-Vorstellung Hunderte von Fremden aus allen
+      <lb facs="#facs_1_region_1684589579745_1860_tl_7" n="N007"/>Theilen <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s und weiter her anzulocken vermag. Wie
+      <lb facs="#facs_1_region_1684589579745_1860_tl_8" n="N008"/>im vorigen Jahre <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼs „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs></hi>“, früher noch
+      <lb facs="#facs_1_region_1684589579745_1860_tl_9" n="N009"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs></hi>“, so ist es jetzt das „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs></hi>“
+      <lb facs="#facs_1_region_1684589579745_1860_tl_10" n="N010"/>desselben Componisten, das einen Schwarm von Fremden her
+      <lb facs="#facs_1_region_1684589579745_1860_tl_11" n="N011" break="no"/>beigelockt hat. Diese Namen bezeugen, daß <rs type="place" ref="#hsl_place_id_39">München</rs> seine
       <lb facs="#facs_1_region_1684589579745_1860_tl_12" n="N012"/>musikalische Attractionskraft zu mindestens gleichen Theilen mit
-      <lb facs="#facs_1_region_1684589579745_1860_tl_13" n="N013"/>
-               <hi rendition="#em">Richard <rs type="person">Wagner</rs>
-               </hi> theilt, und es steht als eine für <rs type="person">Wagner</rs>
-               <lb facs="#facs_1_region_1684589579745_1860_tl_14" n="N014"/>rühmliche kunsthistorische Thatsache fest, daß von allen <rs type="place">deut¬</rs>
-               <lb facs="#facs_1_region_1684589579745_1860_tl_15" n="N015"/>
-               <rs type="place">sch</rs>en Opern-Componisten nur <hi rendition="#em">er</hi> eine so aufregende Neugierde
+      <lb facs="#facs_1_region_1684589579745_1860_tl_13" n="N013"/><hi rendition="#em">Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> theilt, und es steht als eine für <rs type="person" ref="#hsl_person_id_319">Wagner</rs>
+      <lb facs="#facs_1_region_1684589579745_1860_tl_14" n="N014"/>rühmliche kunsthistorische Thatsache fest, daß von allen <rs type="place" ref="#hsl_place_id_14">deut¬sch</rs>en Opern-Componisten nur <hi rendition="#em">er</hi> eine so aufregende Neugierde
       <lb facs="#facs_1_line_1724775804410_2015" n="N016"/>auf große Entfernungen hin zu erwecken vermag. Die Musiker,
-      <lb facs="#facs_1_line_1724775836702_2020" n="N017"/>welche „<rs type="bibl">Rheingolds</rs>“ oder der „<rs type="bibl">Meistersinger</rs>“ wegen eigens
-      <lb facs="#facs_1_region_1684589579745_1860_tl_20" n="N018"/>nach <rs type="place">München</rs> reisen, wissen, daß sie etwas in seiner Art Un¬
-      <lb facs="#facs_1_line_1724775878414_2028" n="N019"/>gewöhnliches, Eigenthümliches hören und sehen werden, Com¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_21" n="N020"/>position und Aufführung von so besonderer Art, daß diese
-      <lb facs="#facs_1_region_1684589579745_1860_tl_22" n="N021"/>möglicherweise auch ein Unicum und aus <rs type="place">München</rs> beschränkt
-      <lb facs="#facs_1_region_1684589579745_1860_tl_23" n="N022"/>bleibt. Die mit größten Kosten und unsäglicher Mühe vorbe¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_24" n="N023"/>reiteten ersten Vorstellungen <rs type="person">Wagner</rs>'scher Opern erreichen hier
+      <lb facs="#facs_1_line_1724775836702_2020" n="N017"/>welche „<rs type="bibl" ref="#hsl_work_id_238">Rheingolds</rs>“ oder der „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“ wegen eigens
+      <lb facs="#facs_1_region_1684589579745_1860_tl_20" n="N018"/>nach <rs type="place" ref="#hsl_place_id_39">München</rs> reisen, wissen, daß sie etwas in seiner Art Un
+      <lb facs="#facs_1_line_1724775878414_2028" n="N019" break="no"/>gewöhnliches, Eigenthümliches hören und sehen werden, Com
+      <lb facs="#facs_1_region_1684589579745_1860_tl_21" n="N020" break="no"/>position und Aufführung von so besonderer Art, daß diese
+      <lb facs="#facs_1_region_1684589579745_1860_tl_22" n="N021"/>möglicherweise auch ein Unicum und aus <rs type="place" ref="#hsl_place_id_39">München</rs> beschränkt
+      <lb facs="#facs_1_region_1684589579745_1860_tl_23" n="N022"/>bleibt. Die mit größten Kosten und unsäglicher Mühe vorbe
+      <lb facs="#facs_1_region_1684589579745_1860_tl_24" n="N023" break="no"/>reiteten ersten Vorstellungen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼscher Opern erreichen hier
       <lb facs="#facs_1_region_1684589579745_1860_tl_25" n="N024"/>in der That etwas von der Wirkung der olympischen Spiele:
       <lb facs="#facs_1_region_1684589579745_1860_tl_26" n="N025"/>das Zusammenströmen einer großen Fremdenmenge zu einem
-      <lb facs="#facs_1_region_1684589579745_1860_tl_27" n="N026"/>ganz ausnahmsweisen theatralischen Fest. Schon die General¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_28" n="N027"/>probe (vorgestern) spielte vor einem Parterre von künstlerischen
+      <lb facs="#facs_1_region_1684589579745_1860_tl_27" n="N026"/>ganz ausnahmsweisen theatralischen Fest. Schon die General
+      <lb facs="#facs_1_region_1684589579745_1860_tl_28" n="N027" break="no"/>probe (vorgestern) spielte vor einem Parterre von künstlerischen
       <lb facs="#facs_1_region_1684589579745_1860_tl_29" n="N028"/>und literarischen Notabilitäten. Es verlohnte sich wol, die
       <lb facs="#facs_1_region_1684589579745_1860_tl_30" n="N029"/>Eintretenden zu mustern, welche durch die enge Pforte sich in
-      <lb facs="#facs_1_region_1684589579745_1860_tl_31" n="N030"/>den halberleuchteten Saal drängten. Da kommt zuerst <hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684589579745_1860_tl_32" n="N031"/>im schwarzen, zugeknöpften Abbé-Kleid, das ihm so natürlich und cha¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_33" n="N032"/>rakteristisch steht, als hätte er nie ein anderes getragen. Die stark ver¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_34" n="N033"/>blühte, aber noch immer interessante Blondine am Arme <rs type="person">Liszt</rs>'s
-      <lb facs="#facs_1_region_1684589579745_1860_tl_35" n="N034"/>ist die Gräfin <hi rendition="#em">
-                  <rs type="person">Kalergis-Muchanoff</rs>
-               </hi>, einst berühmt durch
+         <lb facs="#facs_1_region_1684589579745_1860_tl_31" n="N030"/>den halberleuchteten Saal drängten. Da kommt zuerst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684589579745_1860_tl_32" n="N031"/>im schwarzen, zugeknöpften Abbé-Kleid, das ihm so natürlich und cha
+      <lb facs="#facs_1_region_1684589579745_1860_tl_33" n="N032" break="no"/>rakteristisch steht, als hätte er nie ein anderes getragen. Die stark ver
+      <lb facs="#facs_1_region_1684589579745_1860_tl_34" n="N033" break="no"/>blühte, aber noch immer interessante Blondine am Arme <rs type="person" ref="#hsl_person_id_164">Liszt</rs>ʼs
+      <lb facs="#facs_1_region_1684589579745_1860_tl_35" n="N034"/>ist die Gräfin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4878">Kalergis-Muchanoff</rs></hi>, einst berühmt durch
       <lb facs="#facs_1_region_1684589579745_1860_tl_36" n="N035"/>Schönheit und diplomatischen Einfluß, neuerlich durch die
-      <lb facs="#facs_1_region_1684589579745_1860_tl_37" n="N036"/>Dedication der anrüchigen <rs type="bibl">Judenthum-Broschüre</rs> von R. <rs type="person" continued="true">Wag¬</rs>
-               <lb facs="#facs_1_region_1684589579745_1860_tl_38" n="N037"/>
-               <rs type="person" continued="true">ner</rs>. Die mächtige, breitschulterige Gestalt, welche hinter <rs type="person">Liszt</rs>
-               <lb facs="#facs_1_region_1684589579745_1860_tl_39" n="N038"/>auftaucht, gehört dem genialen <rs type="place">russisch</rs>en Novellisten Iwan
-      <lb facs="#facs_1_region_1684589579745_1860_tl_40" n="N039"/>
-               <hi rendition="#em">
-                  <rs type="person">Turgenieff</rs>
-               </hi>; ein prachtvoller Kopf mit dichten weißen Haa¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_41" n="N040"/>ren, unter denen die tiefschwarzen Augen um so feuriger her¬
-      <lb facs="#facs_1_region_1684589579745_1860_tl_42" n="N041"/>vorleuchten. Er kommt von <rs type="place">Baden-Baden</rs>, natürlich mit Ma¬</p>
+      <lb facs="#facs_1_region_1684589579745_1860_tl_37" n="N036"/>Dedication der anrüchigen <rs type="bibl" ref="#hsl_work_id_3182">Judenthum-Broschüre</rs> von R. <rs type="person" ref="#hsl_person_id_319">Wag
+            <lb facs="#facs_1_region_1684589579745_1860_tl_38" n="N037" break="no"/>ner</rs>. Die mächtige, breitschulterige Gestalt, welche hinter <rs type="person" ref="#hsl_person_id_164">Liszt</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684589579745_1860_tl_39" n="N038"/>auftaucht, gehört dem genialen <rs type="place" ref="#hsl_place_id_48">russisch</rs>en Novellisten Iwan
+      <lb facs="#facs_1_region_1684589579745_1860_tl_40" n="N039"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1705">Turgenieff</rs></hi>; ein prachtvoller Kopf mit dichten weißen Haa
+      <lb facs="#facs_1_region_1684589579745_1860_tl_41" n="N040" break="no"/>ren, unter denen die tiefschwarzen Augen um so feuriger her
+      <lb facs="#facs_1_region_1684589579745_1860_tl_42" n="N041" break="no"/>vorleuchten. Er kommt von <rs type="place" ref="#hsl_place_id_6">Baden-Baden</rs>, natürlich mit Ma</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684589589826_1863_tl_1" n="N001"/>dame <hi rendition="#em">
-                  <rs type="person">Viardot-Garcia</rs>
-               </hi>, der berühmten Sängerin, deren
-      <lb facs="#facs_1_region_1684589589826_1863_tl_2" n="N002"/>geistvoller Umgang den <rs type="place">russisch</rs>en Dichter seit Jahren voll¬
-      <lb facs="#facs_1_region_1684589589826_1863_tl_3" n="N003"/>ständig zu fesseln scheint. <hi rendition="#em">Manuel <rs type="person">Garcia</rs>
-               </hi>, der berühmten
+            <p prev="true">
+      <lb facs="#facs_1_region_1684589589826_1863_tl_1" n="N001" break="no"/>dame <hi rendition="#em"><rs type="person" ref="#hsl_person_id_313">Viardot-Garcia</rs></hi>, der berühmten Sängerin, deren
+      <lb facs="#facs_1_region_1684589589826_1863_tl_2" n="N002"/>geistvoller Umgang den <rs type="place" ref="#hsl_place_id_48">russisch</rs>en Dichter seit Jahren voll
+      <lb facs="#facs_1_region_1684589589826_1863_tl_3" n="N003" break="no"/>ständig zu fesseln scheint. <hi rendition="#em">Manuel <rs type="person" ref="#hsl_person_id_4905">Garcia</rs></hi>, der berühmten
       <lb facs="#facs_1_region_1684589589826_1863_tl_4" n="N004"/>Schwester nicht minder berühmter Bruder, sitzt ihr zur Linken.
-      <lb facs="#facs_1_region_1684589589826_1863_tl_5" n="N005"/>Er hat den Ruf des ersten Gesanglehrers und Stimmphysio¬
-      <lb facs="#facs_1_region_1684589589826_1863_tl_6" n="N006"/>logen der Gegenwart. Mit ihm kommt aus <rs type="place">London</rs> der durch
+      <lb facs="#facs_1_region_1684589589826_1863_tl_5" n="N005"/>Er hat den Ruf des ersten Gesanglehrers und Stimmphysio
+      <lb facs="#facs_1_region_1684589589826_1863_tl_6" n="N006" break="no"/>logen der Gegenwart. Mit ihm kommt aus <rs type="place" ref="#hsl_place_id_34">London</rs> der durch
       <lb facs="#facs_1_region_1684589589826_1863_tl_7" n="N007"/>seine Häßlichkeit noch mehr als durch seine Kritiken berühmte
-      <lb facs="#facs_1_region_1684589589826_1863_tl_8" n="N008"/>Musikschriftsteller <hi rendition="#em">
-                  <rs type="person">Chorley</rs>
-               </hi>. Wer nennt all die anderen Na¬
-      <lb facs="#facs_1_line_1724775389356_1960" n="N009"/>men! <hi rendition="#em">
-                  <rs type="person">Henfelt</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Leschetitzky</rs>
-               </hi> aus <rs type="place">Petersburg</rs>, <hi rendition="#em">
-                  <rs type="person">Joachim</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684589589826_1863_tl_9" n="N010"/>sammt Frau aus <rs type="place">Salzburg</rs>, <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Goldmark</rs>
-               </hi>,
-      <lb facs="#facs_1_region_1684589589826_1863_tl_10" n="N011"/>v. <hi rendition="#em">
-                  <rs type="person">Lützow</rs>
-               </hi>, L. A. <hi rendition="#em">
-                  <rs type="person">Frankl</rs>
-               </hi> und viele andere Künstler und
-      <lb facs="#facs_1_region_1684589589826_1863_tl_11" n="N012"/>Schriftsteller aus <rs type="place">Wien</rs>, eine Unzahl deutscher Musiker, Capell¬
-      <lb facs="#facs_1_region_1684589589826_1863_tl_12" n="N013"/>meister und Journalisten, worunter die ganze äußerste
-      <lb facs="#facs_1_region_1684589589826_1863_tl_13" n="N014"/>Linke der <rs type="person">Wagner</rs>'schen Partei, das rothe Jacobinerthum der
-      <lb facs="#facs_1_region_1684589589826_1863_tl_14" n="N015"/>Musik, fast vollständig vertreten ist. Nur <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> selbst und
-      <lb facs="#facs_1_region_1684589589826_1863_tl_15" n="N016"/>sein eifrigster Apostel <hi rendition="#em">
-                  <rs type="person">Bülow</rs>
-               </hi>, die gefeierten Helden der vorjäh¬
-      <lb facs="#facs_1_region_1684589589826_1863_tl_16" n="N017"/>rigen „<rs type="bibl">Meistersinger</rs>“-Aufführung, weilen ferne. Früher innigste
+      <lb facs="#facs_1_region_1684589589826_1863_tl_8" n="N008"/>Musikschriftsteller <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2292">Chorley</rs></hi>. Wer nennt all die anderen Na
+                  <lb facs="#facs_1_line_1724775389356_1960" n="N009" break="no"/>men! <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5545">Henfelt</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5544">Leschetitzky</rs></hi> aus <rs type="place" ref="#hsl_place_id_50">Petersburg</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684589589826_1863_tl_9" n="N010"/>sammt Frau aus <rs type="place" ref="#hsl_place_id_49">Salzburg</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_101">Goldmark</rs></hi>,
+      <lb facs="#facs_1_region_1684589589826_1863_tl_10" n="N011"/>v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2042">Lützow</rs></hi>, L. A. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1174">Frankl</rs></hi> und viele andere Künstler und
+      <lb facs="#facs_1_region_1684589589826_1863_tl_11" n="N012"/>Schriftsteller aus <rs type="place" ref="#hsl_place_id_55">Wien</rs>, eine Unzahl <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Musiker, Capell
+      <lb facs="#facs_1_region_1684589589826_1863_tl_12" n="N013" break="no"/>meister und Journalisten, worunter die ganze äußerste
+      <lb facs="#facs_1_region_1684589589826_1863_tl_13" n="N014"/>Linke der <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼschen Partei, das rothe Jacobinerthum der
+      <lb facs="#facs_1_region_1684589589826_1863_tl_14" n="N015"/>Musik, fast vollständig vertreten ist. Nur <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> selbst und
+      <lb facs="#facs_1_region_1684589589826_1863_tl_15" n="N016"/>sein eifrigster Apostel <hi rendition="#em"><rs type="person" ref="#hsl_person_id_44">Bülow</rs></hi>, die gefeierten Helden der vorjäh
+      <lb facs="#facs_1_region_1684589589826_1863_tl_16" n="N017" break="no"/>rigen „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“-Aufführung, weilen ferne. Früher innigste
       <lb facs="#facs_1_region_1684589589826_1863_tl_17" n="N018"/>Freunde, stehen sie einander jetzt fremd, ja feindlich gegenüber.
       <lb facs="#facs_1_region_1684589589826_1863_tl_18" n="N019"/>Die traurige Ursache dieser Entzweiung ist jetzt ein öffentliches
-      <lb facs="#facs_1_region_1684589589826_1863_tl_19" n="N020"/>Geheimniß, sie hat <hi rendition="#em">
-                  <rs type="person">Bülow</rs>
-               </hi> wie mit einem Zauberschlag hier
+      <lb facs="#facs_1_region_1684589589826_1863_tl_19" n="N020"/>Geheimniß, sie hat <hi rendition="#em"><rs type="person" ref="#hsl_person_id_44">Bülow</rs></hi> wie mit einem Zauberschlag hier
       <lb facs="#facs_1_region_1684589589826_1863_tl_20" n="N021"/>alle Sympathien wieder zugewendet. Er will nicht mehr nach
-      <lb facs="#facs_1_line_1724775878414_2027" n="N022"/>
-               <rs type="place">München</rs> zurückkehren, das an ihm eine schwer zu ersetzende
-      <lb facs="#facs_1_region_1684589589826_1863_tl_22" n="N023"/>künstlerische Kraft verliert.
-      <lb facs="#facs_1_region_1684589589826_1863_tl_23" n="N024"/>Diese große Schaar berühmter und unberühmter „<rs type="bibl">Rhein¬</rs>
-               <lb facs="#facs_1_region_1684589589826_1863_tl_24" n="N025"/>
-               <rs type="bibl">gold</rs>“-Pilger sieht sich seit heute Morgens auf das peinlichste
-      <lb facs="#facs_1_region_1684589589826_1863_tl_25" n="N026"/>überrascht und enttäuscht. Die für heute Abend angesagte Vor¬
-      <lb facs="#facs_1_region_1684589589826_1863_tl_26" n="N027"/>stellung — die Morgenblätter bringen noch wohlgemuth den
-      <lb facs="#facs_1_region_1684589589826_1863_tl_27" n="N028"/>Theaterzettel des „<rs type="bibl">Rheingold</rs>“ — ist plötzlich <hi rendition="#em">abgesagt</hi>. Auf
-      <lb facs="#facs_1_region_1684589589826_1863_tl_28" n="N029"/>Befehl des <rs type="person">Königs</rs>, wie es heißt, der mit der Generalprobe
-      <lb facs="#facs_1_region_1684589589826_1863_tl_29" n="N030"/>nicht zufrieden gewesen sein soll. Wann die Oper zur Auffüh¬
-      <lb facs="#facs_1_region_1684589589826_1863_tl_30" n="N031"/>rung kommen wird, ist noch gänzlich unbekannt. Wir wollen
+      <lb facs="#facs_1_line_1724775878414_2027" n="N022"/><rs type="place" ref="#hsl_place_id_39">München</rs> zurückkehren, das an ihm eine schwer zu ersetzende
+      <lb facs="#facs_1_region_1684589589826_1863_tl_22" n="N023"/>künstlerische Kraft verliert.</p>
+   <p><lb facs="#facs_1_region_1684589589826_1863_tl_23" n="N024"/>Diese große Schaar berühmter und unberühmter „<rs type="bibl" ref="#hsl_work_id_238">Rhein
+      <lb facs="#facs_1_region_1684589589826_1863_tl_24" n="N025" break="no"/>gold</rs>“-Pilger sieht sich seit heute Morgens auf das peinlichste
+      <lb facs="#facs_1_region_1684589589826_1863_tl_25" n="N026"/>überrascht und enttäuscht. Die für heute Abend angesagte Vor
+      <lb facs="#facs_1_region_1684589589826_1863_tl_26" n="N027" break="no"/>stellung — die Morgenblätter bringen noch wohlgemuth den
+      <lb facs="#facs_1_region_1684589589826_1863_tl_27" n="N028"/>Theaterzettel des „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“ — ist plötzlich <hi rendition="#em">abgesagt</hi>. Auf
+      <lb facs="#facs_1_region_1684589589826_1863_tl_28" n="N029"/>Befehl des <rs type="person" ref="#hsl_person_id_1026">Königs</rs>, wie es heißt, der mit der Generalprobe
+      <lb facs="#facs_1_region_1684589589826_1863_tl_29" n="N030"/>nicht zufrieden gewesen sein soll. Wann die Oper zur Auffüh
+      <lb facs="#facs_1_region_1684589589826_1863_tl_30" n="N031" break="no"/>rung kommen wird, ist noch gänzlich unbekannt. Wir wollen
       <lb facs="#facs_1_region_1684589589826_1863_tl_31" n="N032"/>einräumen, daß die Generalprobe noch nicht ganz vollkommen
       <lb facs="#facs_1_region_1684589589826_1863_tl_32" n="N033"/>war, wenn sie uns auch im Großen und Ganzen befriedigend
       <lb facs="#facs_1_region_1684589589826_1863_tl_33" n="N034"/>erschien; allein den Hunderten von Fremden, die eigens für
@@ -629,53 +583,45 @@
       <lb facs="#facs_1_region_1684589589826_1863_tl_35" n="N036"/>spielt man mit solchem Aufschub einen schlimmen Streich, Sie
       <lb facs="#facs_1_region_1684589589826_1863_tl_36" n="N037"/>hatten es gewiß vorgezogen, eine nicht bis ins letzte Detail
       <lb facs="#facs_1_region_1684589589826_1863_tl_37" n="N038"/>ausgefeilte Aufführung als gar keine zu sehen. Der ebenso
-      <lb facs="#facs_1_region_1684589589826_1863_tl_38" n="N039"/>liebenswürdige als um das <rs type="place">München</rs>er Theaterwesen hochver¬
-      <lb facs="#facs_1_region_1684589589826_1863_tl_39" n="N040"/>diente Intendant Baron <hi rendition="#em">
-                  <rs type="person">Perfall</rs>
-               </hi> ist unschuldig daran. Der
+      <lb facs="#facs_1_region_1684589589826_1863_tl_38" n="N039"/>liebenswürdige als um das <rs type="place" ref="#hsl_place_id_39">München</rs>er Theaterwesen hochver
+      <lb facs="#facs_1_region_1684589589826_1863_tl_39" n="N040" break="no"/>diente Intendant Baron <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2864">Perfall</rs></hi> ist unschuldig daran. Der
       <lb facs="#facs_1_region_1684589589826_1863_tl_40" n="N041"/>größte Theil der Fremden dürfte nicht in der Lage sein, aufs
-      <lb facs="#facs_1_region_1684589589826_1863_tl_41" n="N042"/>Unbestimmte hin den Aufenthalt hier zu verlängern; nur We¬
-      <lb facs="#facs_1_region_1684589589826_1863_tl_42" n="N043"/>nige fügen sich <rs type="person">Schmerling</rs>ʼs Devise: „Wir können warten.“
-      <lb facs="#facs_1_line_1724775373541_1946" n="N044"/>Wenn nicht die neue Oper selbst, so haben die fremden</p>
+      <lb facs="#facs_1_region_1684589589826_1863_tl_41" n="N042"/>Unbestimmte hin den Aufenthalt hier zu verlängern; nur We
+      <lb facs="#facs_1_region_1684589589826_1863_tl_42" n="N043" break="no"/>nige fügen sich <rs type="person" ref="#hsl_person_id_3785">Schmerling</rs>ʼs Devise: „Wir können warten.“</p>
+               <p><lb facs="#facs_1_line_1724775373541_1946" n="N044"/>Wenn nicht die neue Oper selbst, so haben die fremden<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684589601563_1866_tl_1" n="N001"/>Musiker doch eine andere bemerkenswerthe Neuigkeit hier ken¬
-      <lb facs="#facs_1_region_1684589601563_1866_tl_2" n="N002"/>nen gelernt; die vollständige architektonische Reform der Bühne
+            <p prev="true">
+      <lb facs="#facs_1_region_1684589601563_1866_tl_1" n="N001"/>Musiker doch eine andere bemerkenswerthe Neuigkeit hier ken
+      <lb facs="#facs_1_region_1684589601563_1866_tl_2" n="N002" break="no"/>nen gelernt; die vollständige architektonische Reform der Bühne
       <lb facs="#facs_1_region_1684589601563_1866_tl_3" n="N003"/>und des Orchesters. Die Beschreibung der ebenso großartigen
       <lb facs="#facs_1_region_1684589601563_1866_tl_4" n="N004"/>als praktischen und einfachen Einrichtung, des Decorations-
       <lb facs="#facs_1_region_1684589601563_1866_tl_5" n="N005"/>und Maschinenwesens (ohne Dampfmaschine) würde uns zu
-      <lb facs="#facs_1_region_1684589601563_1866_tl_6" n="N006"/>tief in rein technische Details führen. Aber den epochemachen¬
-      <lb facs="#facs_1_region_1684589601563_1866_tl_7" n="N007"/>den ersten Versuch einer neuen Gestaltung des <hi rendition="#em">Orchesters</hi>
-               <lb facs="#facs_1_region_1684589601563_1866_tl_8" n="N008"/>müssen wir erwähnen. Das Orchester ist nämlich so tief ge¬
-      <lb facs="#facs_1_line_1724775389356_1959" n="N009"/>legt, daß man von den Parterresitzen keinen einzigen der Mu¬
-      <lb facs="#facs_1_region_1684589601563_1866_tl_10" n="N010"/>siker sieht, sondern höchstens hin und wieder den Tactstab des
-      <lb facs="#facs_1_region_1684589601563_1866_tl_11" n="N011"/>Dirigenten. Der ästhetische Gewinn, über die Köpfe der Mu¬
-      <lb facs="#facs_1_region_1684589601563_1866_tl_12" n="N012"/>siker hinweg eine vollkommen freie Aussicht auf die Bühne zu
+      <lb facs="#facs_1_region_1684589601563_1866_tl_6" n="N006"/>tief in rein technische Details führen. Aber den epochemachen
+                  <lb facs="#facs_1_region_1684589601563_1866_tl_7" n="N007" break="no"/>den ersten Versuch einer neuen Gestaltung des <hi rendition="#em">Orchesters</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684589601563_1866_tl_8" n="N008"/>müssen wir erwähnen. Das Orchester ist nämlich so tief ge
+      <lb facs="#facs_1_line_1724775389356_1959" n="N009" break="no"/>legt, daß man von den Parterresitzen keinen einzigen der Mu
+      <lb facs="#facs_1_region_1684589601563_1866_tl_10" n="N010" break="no"/>siker sieht, sondern höchstens hin und wieder den Tactstab des
+      <lb facs="#facs_1_region_1684589601563_1866_tl_11" n="N011"/>Dirigenten. Der ästhetische Gewinn, über die Köpfe der Mu
+      <lb facs="#facs_1_region_1684589601563_1866_tl_12" n="N012" break="no"/>siker hinweg eine vollkommen freie Aussicht auf die Bühne zu
       <lb facs="#facs_1_region_1684589601563_1866_tl_13" n="N013"/>haben, ist nicht hoch genug anzuschlagen. Er scheint uns mit
       <lb facs="#facs_1_region_1684589601563_1866_tl_14" n="N014"/>dem etwas gedämpfteren Klange des Orchesters, der übrigens
       <lb facs="#facs_1_region_1684589601563_1866_tl_15" n="N015"/>den Sängern sehr zu statten kommt, nicht zu theuer bezahlt.
-      <lb facs="#facs_1_region_1684589601563_1866_tl_16" n="N016"/>Die Schallkraft des Orchesters erschien uns allerdings <hi rendition="#em">etwas</hi>
-               <lb facs="#facs_1_region_1684589601563_1866_tl_17" n="N017"/>schwächer als sonst, aber nicht zu schwach. Die Akustik ist herr¬
-      <lb facs="#facs_1_region_1684589601563_1866_tl_18" n="N018"/>lich, läßt den Charakter jedes einzelnen Instrumentes distinct
+                  <lb facs="#facs_1_region_1684589601563_1866_tl_16" n="N016"/>Die Schallkraft des Orchesters erschien uns allerdings <hi rendition="#em">etwas</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684589601563_1866_tl_17" n="N017"/>schwächer als sonst, aber nicht zu schwach. Die Akustik ist herr
+      <lb facs="#facs_1_region_1684589601563_1866_tl_18" n="N018" break="no"/>lich, läßt den Charakter jedes einzelnen Instrumentes distinct
       <lb facs="#facs_1_region_1684589601563_1866_tl_19" n="N019"/>hervortreten und verbindet die verschiedenen Klangfarben zu
       <lb facs="#facs_1_region_1684589601563_1866_tl_20" n="N020"/>schönster Harmonie. Eine zweckmäßige Verbesserung ist auch
       <lb facs="#facs_1_region_1684589601563_1866_tl_21" n="N021"/>das terrassenförmig angelegte Podium im Orchester: das tiefere
       <lb facs="#facs_1_region_1684589601563_1866_tl_22" n="N022"/>für die Bläser und Schlag-Instrumente, das höhere für das
       <lb facs="#facs_1_region_1684589601563_1866_tl_23" n="N023"/>Streichquartett. Die Idee zu dieser Reform ging von Baron
-      <lb facs="#facs_1_region_1684589601563_1866_tl_24" n="N024"/>
-               <hi rendition="#em">
-                  <rs type="person">Perfall</rs>
-               </hi> aus, die Ausführung ist das Verdienst des wahr¬
-      <lb facs="#facs_1_region_1684589601563_1866_tl_25" n="N025"/>haft genialen Mechanikers <hi rendition="#em">
-                  <rs type="person">Brand</rs>
-               </hi> aus <rs type="place">Darmstadt</rs>. Die von
-      <lb facs="#facs_1_region_1684589601563_1866_tl_26" n="N026"/>ihm herrührende neue Einrichtung des <rs type="place">München</rs>er Theaters
+      <lb facs="#facs_1_region_1684589601563_1866_tl_24" n="N024"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2864">Perfall</rs></hi> aus, die Ausführung ist das Verdienst des wahr
+      <lb facs="#facs_1_region_1684589601563_1866_tl_25" n="N025" break="no"/>haft genialen Mechanikers <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5543">Brand</rs></hi> aus <rs type="place" ref="#hsl_place_id_13">Darmstadt</rs>. Die von
+      <lb facs="#facs_1_region_1684589601563_1866_tl_26" n="N026"/>ihm herrührende neue Einrichtung des <rs type="place" ref="#hsl_place_id_39">München</rs>er Theaters
       <lb facs="#facs_1_region_1684589601563_1866_tl_27" n="N027"/>sollte von allen Bühnentechnikern studirt und insbesondere die
       <lb facs="#facs_1_region_1684589601563_1866_tl_28" n="N028"/>eben geschilderte Neugestaltung des Orchester-Raumes überall
-      <lb facs="#facs_1_region_1684589601563_1866_tl_29" n="N029"/>nachgeahmt werden.
-      <lb facs="#facs_1_region_1684589601563_1866_tl_30" n="N030"/>
-               <hi rendition="#em">Nachschrift</hi>. Soeben höre ich, daß die Intendanz ent¬
-      <lb facs="#facs_1_region_1684589601563_1866_tl_31" n="N031"/>schlossen ist, <rs type="person">Wagner</rs>'s „<rs type="bibl">Rheingold</rs>“ am nächsten Dienstag oder
+      <lb facs="#facs_1_region_1684589601563_1866_tl_29" n="N029"/>nachgeahmt werden.</p>
+      <p><lb facs="#facs_1_region_1684589601563_1866_tl_30" n="N030"/><hi rendition="#em">Nachschrift</hi>. Soeben höre ich, daß die Intendanz ent
+      <lb facs="#facs_1_region_1684589601563_1866_tl_31" n="N031" break="no"/>schlossen ist, <rs type="person" ref="#hsl_person_id_319">Wagner</rs>ʼs „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“ am nächsten Dienstag oder
       <lb facs="#facs_1_region_1684589601563_1866_tl_32" n="N032"/>Mittwoch aufzuführen, in welchem Falle ich nicht ermangeln
       <lb facs="#facs_1_region_1684589601563_1866_tl_33" n="N033"/>werde, Ihnen Bericht zu erstatten.</p>
          </div>
