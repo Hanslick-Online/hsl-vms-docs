@@ -19,10 +19,6 @@ jobs:
       run: |
         apt-get update && apt-get install ant -y --no-install-recommend
         ./scripts/sh/dl_saxon.sh
-    - name: Install Ant-Contrib
-      run: |
-        wget https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
-        mv ant-contrib-1.0b3.jar /usr/share/ant/lib
     - name: Fetch data
       run: |
         ./scripts/sh/fetch_data.sh
