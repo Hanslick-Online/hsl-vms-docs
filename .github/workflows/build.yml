@@ -9,10 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Perform Checkout
-      uses: actions/checkout@v3
-    - name: Install Saxon, Ant and Fundament
+      uses: actions/checkout@v4
+    - name: Setup Java / Ant
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'zulu'
+        java-version: '11'
+    - name: Install Ant
       run: |
-        apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
+        apt-get update && apt-get install ant -y --no-install-recommend
+        wget https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-7J.zip/download && unzip download -d saxon && rm -rf download
         ./scripts/sh/dl_saxon.sh
     - name: Install Ant-Contrib
       run: |
