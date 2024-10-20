@@ -36,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -103,13 +103,14 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="final">
          <change who="kbamer ampfiel" when="2024-05-09">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-05-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2024-05-18" who="ampfiel">header, Absätze, Fußnoten, Zeilenumbrüche</change>
          <change when="2024-05-24" who="ampfiel">ref rs ausgefüllt</change>
          <change when="2024-06-15" who="ampfiel">" und ' ausgetauscht, space eingefügt</change>
          <change when="2024-09-20" who="ampfiel">space eingefügt vor p prev="true"</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1123,13 +1124,11 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>            
-      <head type="h1">
-            <lb facs="#facs_1_region_1684590056920_2047_tl_1" n="N001"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s „<rs type="bibl" ref="#hsl_work_id_3182">Judenthum in der Musik</rs>“.</head>
-      <head type="h2">
-            <lb facs="#facs_1_region_1684590056920_2047_tl_2" n="N002"/><hi rendition="#em">Motto</hi>: Der Jude wird verbrannt.
-            <lb facs="#facs_1_line_1715186388121_576" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_697">Lessing</rs></hi><space quantity="1" unit="char"/>
-      </head>
-            <p>      
+      <head type="h1"><lb facs="#facs_1_region_1684590056920_2047_tl_1" n="N001"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s „<rs type="bibl" ref="#hsl_work_id_3182">Judenthum in der Musik</rs>“.</head>
+      <p>
+      <lb facs="#facs_1_region_1684590056920_2047_tl_2" n="N002"/><hi rendition="#em">Motto</hi>: Der Jude wird verbrannt.
+      <lb facs="#facs_1_line_1715186388121_576" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_697">Lessing</rs></hi><space quantity="1" unit="char"/>
+      </p><p>      
       <lb facs="#facs_1_region_1684590056920_2047_tl_3" n="N004"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, der seit einiger Zeit die unentbehrliche
       <lb facs="#facs_1_region_1684590056920_2047_tl_4" n="N005"/>Selbstverherrlichung wieder durch fleißige Broschüren-Fabrica
       <lb facs="#facs_1_region_1684590056920_2047_tl_5" n="N006" break="no"/>tion betreibt, hat soeben eine neue Flugschrift unter dem Titel:
@@ -1393,7 +1392,7 @@
             <cb n="8"/>
             <p prev="true">
       <lb facs="#facs_3_line_1715187183401_1026" n="N001"/>Erfolge war nicht mehr viel anzuhaben.“
-                  <note type="footnote" n="*)">
+                  <note type="footnote" n="**)">
                         <lb facs="#facs_3_region_1684590099332_2074_tl_33" n="N034"/>Für <rs type="place" ref="#hsl_place_id_55">Wien</rs> paßt diese jüdische Zeitrechnung nicht; „<rs type="bibl" ref="#hsl_work_id_40">Tann
                         <lb facs="#facs_3_region_1684590099332_2074_tl_34" n="N035" break="no"/>häuser</rs>“ wurde am Hofoperntheater zuerst <date when="1859">1859</date>, „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ <date when="1858">1858</date><space quantity="1" unit="char"/>
                         <lb facs="#facs_3_line_1715187281663_1094" n="N036"/>gegeben.

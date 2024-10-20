@@ -36,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -103,13 +103,14 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="final">
          <change who="kbamer ampfiel" when="2024-05-14">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-05-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2024-05-18" who="ampfiel">header, Absätze, Fußnote, Zeilenumbrüche</change>
          <change when="2024-06-04" who="ampfiel">rs ref ausgefüllt</change>
          <change when="2024-06-21" who="ampfiel">" und ' ausgetauscht, space eingefügt</change>
          <change when="2024-09-20" who="ampfiel">space eingefügt vor p prev="true"</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -986,9 +987,9 @@
       <lb facs="#facs_1_region_1684589675416_1888_tl_39" n="N038"/>lied des Carltheaters, den kühnen Schritt vom „<rs type="bibl" ref="#hsl_work_id_922">Pariser 
       <lb facs="#facs_1_region_1684589675416_1888_tl_40" n="N039"/>Leben</rs>“ zu den „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“ mit Sicherheit und Anstand voll 
       <lb facs="#facs_1_region_1684589675416_1888_tl_41" n="N040" break="no"/>bracht hat. Von diesem relativen Maße abgesehen, war jedoch 
-      <lb facs="#facs_1_line_1715188064337_1731" n="N041"/>diese <rs type="person" ref="#hsl_person_id_666">Valentine</rs> eine sehr ungenügende Leistung. Die volle,</p>
+      <lb facs="#facs_1_line_1715188064337_1731" n="N041"/>diese <rs type="person" ref="#hsl_person_id_666">Valentine</rs> eine sehr ungenügende Leistung. Die volle,<space unit="char" quantity="1"/></p>
             <cb n="3"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_1_region_1684589678491_1891_tl_1" n="N001"/>durch Kraft und dunkle Färbung für heroische Partien so be 
       <lb facs="#facs_1_region_1684589678491_1891_tl_2" n="N002" break="no"/>vorzugte Stimme der Sängerin kam über rein materielle 
       <lb facs="#facs_1_region_1684589678491_1891_tl_3" n="N003"/>Effecte nicht hinaus; derbes Auftragen und überwiegend tre 
