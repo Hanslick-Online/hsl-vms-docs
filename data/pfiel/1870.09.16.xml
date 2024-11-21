@@ -105,8 +105,9 @@
       </profileDesc>
       <revisionDesc status="draft">
          <change who="kbamer ampfiel" when="2024-10-09">Transkribus OCR und Lektorat.</change>
-            <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change when="2024-10-07" who="ampfiel">header, p, lb, space</change>
+         <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2024-10-07" who="ampfiel">header, p, lb, space</change>
+         <change when="2024-11-12" who="ampfiel">rs ref angefangen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -972,7 +973,7 @@
       <lb facs="#facs_1_line_1719427496205_2109" n="N010" break="no"/>vollen, poetischen Leistungen von Fräulein <hi rendition="#em">
                   <rs type="person">Ehnn</rs></hi> und Herrn
       <lb facs="#facs_1_region_1684586241328_690_tl_10" n="N011"/><hi rendition="#em">
-                  <rs type="person">Beck</rs></hi> ins neue Opernhaus herübergenommen. Sowol die
+                  <rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> ins neue Opernhaus herübergenommen. Sowol die
       <lb facs="#facs_1_region_1684586241328_690_tl_11" n="N012"/>(von <rs type="person">Herbeck</rs> geleitete) musikalische Ausführung, als die
       <lb facs="#facs_1_region_1684586241328_690_tl_12" n="N013"/>Mise-en-scène verdienen alles Lob. Letztere ist bis auf ge
       <lb facs="#facs_1_region_1684586241328_690_tl_13" n="N014" break="no"/>ringe, nicht sehr glückliche Aenderungen, welche der größere
@@ -996,12 +997,12 @@
                <p>
       <lb facs="#facs_1_region_1684586241328_690_tl_31" n="N032"/>Im <hi rendition="#em">Carltheater</hi> hat der gefeierte Tenorist Herr
       <lb facs="#facs_1_region_1684586241328_690_tl_32" n="N033"/><hi rendition="#em">
-                  <rs type="person">Wachtel</rs></hi> nunmehr auch den <rs type="person">Fra Diavolo</rs> nebst einer
+                  <rs type="person">Wachtel</rs></hi> nunmehr auch den <rs type="person" ref="#hsl_person_id_536">Fra Diavolo</rs> nebst einer
       <lb facs="#facs_1_region_1684586241328_690_tl_33" n="N034"/>Scenenreihe aus „<rs type="bibl">Tell</rs>“, „<rs type="bibl">Hugenotten</rs>“ und „<rs type="bibl">Troubadour</rs>“
       <lb facs="#facs_1_region_1684586241328_690_tl_34" n="N035"/>vorgeführt. Etwas Effectvolleres, Blendenderes als <rs type="person">Wachtel</rs>'s
       <lb facs="#facs_1_line_1719427526487_2147" n="N036"/>Vortrag der <rs type="person">Troubadour</rs>-Arie kann man sich nicht vorstellen, das
       <lb facs="#facs_1_region_1684586241328_690_tl_36" n="N037"/>ist geradezu ein Unicum. In dem zärtlichen Andante dieser Arie
-      <lb facs="#facs_1_region_1684586241328_690_tl_37" n="N038"/>erreicht <rs type="person">Wachtel</rs> die besten seiner <rs type="place">italienisch</rs>en Collegen, in dem
+      <lb facs="#facs_1_region_1684586241328_690_tl_37" n="N038"/>erreicht <rs type="person">Wachtel</rs> die besten seiner <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Collegen, in dem
       <lb facs="#facs_1_region_1684586241328_690_tl_38" n="N039"/>schmetternden Allegro übertrifft er sie alle. Auch in den
       <lb facs="#facs_1_region_1684586241328_690_tl_39" n="N040"/>Fragmenten aus „<rs type="bibl">Tell</rs>“ und den „
                      <rs type="bibl">Hugenotten</rs>“ brachte <rs type="person">Wachtel</rs><space quantity="1" unit="char"/>
@@ -1020,7 +1021,7 @@
       <lb facs="#facs_1_region_1684586245284_693_tl_7" n="N008"/>erfolgreich <rs type="person">Wachtel</rs> an der Schulung seiner Mittel gearbeitet
       <lb facs="#facs_1_region_1684586245284_693_tl_8" n="N009"/>hat, hier steht er unleugbar an einer Grenze seiner künstle
       <lb facs="#facs_1_region_1684586245284_693_tl_9" n="N010" break="no"/>rischen Individualität. <hi rendition="#em">
-                  <rs type="person">Auber</rs>'s</hi> „<rs type="bibl">Fra Diavolo</rs>“, der wenig
+                  <rs type="person" ref="#hsl_person_id_16">Auber</rs>'s</hi> „<rs type="bibl">Fra Diavolo</rs>“, der wenig
       <lb facs="#facs_1_region_1684586245284_693_tl_10" n="N011"/>Gelegenheit zur Kraftentfaltung bietet, stellte <rs type="person">Wachtel</rs>'s fein nuan
       <lb facs="#facs_1_region_1684586245284_693_tl_11" n="N012" break="no"/>cirten Vortrag, seine deutliche Aussprache und schauspielerische
       <lb facs="#facs_1_line_1719427576078_2199" n="N013"/>Gewandtheit in den Vordergrund. In der Barcarole des zweiten
@@ -1032,25 +1033,25 @@
       <lb facs="#facs_1_region_1684586245284_693_tl_17" n="N019"/>dritten Actes schien Herr <rs type="person">Wachtel</rs> etwas ermüdet, was bei
       <lb facs="#facs_1_region_1684586245284_693_tl_18" n="N020"/>einer so anstrengenden Gastspiel-Campagne kein Wunder ist.
       <lb facs="#facs_1_region_1684586245284_693_tl_19" n="N021"/>Sonst war er vollkommen der verwegene, galante Abenteurer,
-      <lb facs="#facs_1_region_1684586245284_693_tl_20" n="N022"/>den <rs type="person">Scribe</rs> und <rs type="person">Auber</rs> aus 
-                  <rs type="person">Fra Diavolo</rs> gemacht. Dieser
-      <lb facs="#facs_1_region_1684586245284_693_tl_21" n="N023"/>Bandit <rs type="person">Fra Diavolo</rs> ist keine fingirte Person. Er machte
-      <lb facs="#facs_1_region_1684586245284_693_tl_22" n="N024"/>den Feldzug von <date when="1799">1799</date> in der <rs type="place">neapolitanisch</rs>en Armee mit,
+      <lb facs="#facs_1_region_1684586245284_693_tl_20" n="N022"/>den <rs type="person" ref="#hsl_person_id_284">Scribe</rs> und <rs type="person" ref="#hsl_person_id_16">Auber</rs> aus 
+                  <rs type="bibl">Fra Diavolo</rs> gemacht. Dieser
+      <lb facs="#facs_1_region_1684586245284_693_tl_21" n="N023"/>Bandit <rs type="person" ref="#hsl_person_id_536">Fra Diavolo</rs> ist keine fingirte Person. Er machte
+      <lb facs="#facs_1_region_1684586245284_693_tl_22" n="N024"/>den Feldzug von <date when="1799">1799</date> in der <rs type="place" ref="#hsl_place_id_40">neapolitanisch</rs>en Armee mit,
       <lb facs="#facs_1_region_1684586245284_693_tl_23" n="N025"/>kehrte hierauf zu seinem früheren Räuberhandwerk zurück, ward
       <lb facs="#facs_1_region_1684586245284_693_tl_24" n="N026"/>endlich von einem Bauer, zu dem er sich verwundet geflüchtet
       <lb facs="#facs_1_region_1684586245284_693_tl_25" n="N027"/>hatte, angegeben und am <date when="1806-11-10">10. November 1806</date> auf dem Markt
-      <lb facs="#facs_1_region_1684586245284_693_tl_26" n="N028" break="no"/>platz zu <rs type="place">Neapel</rs> hingerichtet. Washington <rs type="person">Irving</rs> hat diesen
+      <lb facs="#facs_1_region_1684586245284_693_tl_26" n="N028" break="no"/>platz zu <rs type="place" ref="#hsl_place_id_40">Neapel</rs> hingerichtet. Washington <rs type="person">Irving</rs> hat diesen
       <lb facs="#facs_1_region_1684586245284_693_tl_27" n="N029"/>Räuberhauptmann zum Helden einer Erzählung (in den „<rs type="bibl">Tales
       <lb facs="#facs_1_region_1684586245284_693_tl_28" n="N030"/>of a traveller</rs>“) gemacht, nach welcher <hi rendition="#em">
-                  <rs type="person">Scribe</rs></hi> sein vortreff
+                  <rs type="person" ref="#hsl_person_id_284">Scribe</rs></hi> sein vortreff
       <lb facs="#facs_1_region_1684586245284_693_tl_29" n="N031" break="no"/>liches Libretto bildete. Fräulein <hi rendition="#em">
                   <rs type="person">Rudolff</rs></hi> sang mit ihren
       <lb facs="#facs_1_region_1684586245284_693_tl_30" n="N032"/>bescheidenen Mitteln die <rs type="person">Zerline</rs> ganz vortrefflich und spielte
       <lb facs="#facs_1_region_1684586245284_693_tl_31" n="N033"/>die große Scene im zweiten Act frisch und natürlich. Außer
       <lb facs="#facs_1_region_1684586245284_693_tl_32" n="N034"/>dieser Sängerin gebührt noch Herrn <hi rendition="#em">
                   <rs type="person">Eppich</rs></hi> unbedingtes Lob
-      <lb facs="#facs_1_region_1684586245284_693_tl_33" n="N035"/>für seine äußerst wirksame Darstellung des <rs type="person">Beppo</rs>. Diese
-      <lb facs="#facs_1_region_1684586245284_693_tl_34" n="N036"/>Figur erinnerte lebhaft an den mustergiltigen <rs type="person">Beppo</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684586245284_693_tl_33" n="N035"/>für seine äußerst wirksame Darstellung des <rs type="person" ref="#hsl_person_id_4590">Beppo</rs>. Diese
+      <lb facs="#facs_1_region_1684586245284_693_tl_34" n="N036"/>Figur erinnerte lebhaft an den mustergiltigen Beppo
       <lb facs="#facs_1_region_1684586245284_693_tl_35" n="N037"/><hi rendition="#em">
                   <rs type="person">Campe</rs>'s</hi>, des bescheidenen, eifrigen und tüchtigen Künstlers,
       <lb facs="#facs_1_line_1719427593776_2230" n="N038"/>welcher kürzlich in einem entlegenen Alpenthal Heilung suchte
@@ -1059,16 +1060,16 @@
       <lb facs="#facs_1_region_1684586245284_693_tl_37" n="N040"/>„<rs type="bibl">Mignon</rs>“, „
                      <rs type="bibl">Die weiße Frau</rs>“, „<rs type="bibl">Der Postillon</rs>“, „<rs type="bibl">Fra
       <lb facs="#facs_1_region_1684586245284_693_tl_39" n="N041"/>Diavolo</rs>“ — das waren die herrschenden Opern der letzten
-      <lb facs="#facs_1_region_1684586245284_693_tl_40" n="N042"/>Wochen. Lauter <rs type="place">französisch</rs>e Musik. Es stimmt immer er
+      <lb facs="#facs_1_region_1684586245284_693_tl_40" n="N042"/>Wochen. Lauter <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Musik. Es stimmt immer er
       <lb facs="#facs_1_region_1684586245284_693_tl_41" n="N043" break="no"/>freulich, wenn in Kriegszeiten die Pflege von Theater und
       <lb facs="#facs_1_line_1719427626052_2255" n="N044"/>Musik unbeirrt bleibt von politischer und nationaler Gegner</p>
             <cb n="3"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1684586248517_696_tl_1" n="N001" break="no"/>schaft. In <rs type="place">Wien</rs> war dies jederzeit der Fall; während der
+      <lb facs="#facs_1_region_1684586248517_696_tl_1" n="N001" break="no"/>schaft. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> war dies jederzeit der Fall; während der
       <lb facs="#facs_1_region_1684586248517_696_tl_2" n="N002"/><rs type="person">napoleonisch</rs>en Kriege und des Congresses hatten die Opern
       <lb facs="#facs_1_line_1719427549524_2169" n="N003"/>von <rs type="person">Cherubini</rs>, <rs type="person">Méhul</rs>, 
                   <rs type="person">Isouard</rs>, <rs type="person">Boieldieu</rs> sogar die Ober
-      <lb facs="#facs_1_region_1684586248517_696_tl_4" n="N004" break="no"/>hand. Möchte das siegreiche <rs type="place">Deutschland</rs> sich gegenüber den
+      <lb facs="#facs_1_region_1684586248517_696_tl_4" n="N004" break="no"/>hand. Möchte das siegreiche <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> sich gegenüber den
       <lb facs="#facs_1_region_1684586248517_696_tl_5" n="N005"/>Erzeugnissen der Kunst die gleiche Unbefangenheit bewahren!
       <lb facs="#facs_1_region_1684586248517_696_tl_6" n="N006"/>Das wünschen wir sehnlich, wenn auch ohne große Zuversicht.
       <lb facs="#facs_1_region_1684586248517_696_tl_7" n="N007"/>Auf das materielle, das blutige Unheil eines Krieges folgen
@@ -1076,39 +1077,39 @@
       <lb facs="#facs_1_region_1684586248517_696_tl_9" n="N009"/>Nationen, die ein freundlich reger Wechselverkehr verband,
       <lb facs="#facs_1_region_1684586248517_696_tl_10" n="N010"/>stehen sich mit Einemmale schroff, entfremdet gegenüber, und
       <lb facs="#facs_1_region_1684586248517_696_tl_11" n="N011"/>die innerlich fortnagende Gehässigkeit lebt weit hinaus über
-      <lb facs="#facs_1_region_1684586248517_696_tl_12" n="N012"/>das Datum des Friedensschlusses. Bei der in Nord<rs type="place">deutsch
+      <lb facs="#facs_1_region_1684586248517_696_tl_12" n="N012"/>das Datum des Friedensschlusses. Bei der in Nord<rs type="place" ref="#hsl_place_id_14">deutsch
       <lb facs="#facs_1_region_1684586248517_696_tl_13" n="N013" break="no"/>land</rs> herrschenden Stimmung, welche neben dem großen Kriege
-      <lb facs="#facs_1_region_1684586248517_696_tl_14" n="N014"/>bereits die kleine Razzia gegen Fremdwörter, <rs type="place">Paris</rs>er Moden
+      <lb facs="#facs_1_region_1684586248517_696_tl_14" n="N014"/>bereits die kleine Razzia gegen Fremdwörter, <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Moden
       <lb facs="#facs_1_region_1684586248517_696_tl_15" n="N015"/>und dergleichen betreibt, steht zu befürchten, daß man bald
-      <lb facs="#facs_1_region_1684586248517_696_tl_16" n="N016"/>mit nationalen Protesten gegen <rs type="place">französisch</rs>e Opern und Lust
+      <lb facs="#facs_1_region_1684586248517_696_tl_16" n="N016"/>mit nationalen Protesten gegen <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Opern und Lust
       <lb facs="#facs_1_region_1684586248517_696_tl_17" n="N017" break="no"/>spiele auftreten werde. Diese Stimmen dürften um so lauter
       <lb facs="#facs_1_region_1684586248517_696_tl_18" n="N018"/>ertönen, als hinter ihrem Franzosenhasse unzweifelhaft als
       <lb facs="#facs_1_region_1684586248517_696_tl_19" n="N019"/>zweites egoistisches Motiv die Sehnsucht nach einem artisti
       <lb facs="#facs_1_region_1684586248517_696_tl_20" n="N020" break="no"/>schen hohen Schutzzoll oder Einfuhrverbot steckt. Erst wenn
-      <lb facs="#facs_1_region_1684586248517_696_tl_21" n="N021"/><rs type="place">Deutschland</rs> bewiesen hat, daß es nicht blos bessere Feldherren,
+      <lb facs="#facs_1_region_1684586248517_696_tl_21" n="N021"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs> bewiesen hat, daß es nicht blos bessere Feldherren,
       <lb facs="#facs_1_region_1684586248517_696_tl_22" n="N022"/>sondern auch bessere Theaterdichter und Opern-Componisten besitzt,
-      <lb facs="#facs_1_region_1684586248517_696_tl_23" n="N023"/>als <rs type="place">Frankreich</rs>, wird man die Ausschließung <rs type="place">französisch</rs>er Kunst
+      <lb facs="#facs_1_region_1684586248517_696_tl_23" n="N023"/>als <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>, wird man die Ausschließung <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Kunst
       <lb facs="#facs_1_region_1684586248517_696_tl_24" n="N024"/>wenngleich nicht billigen, doch allenfalls entschuldigen können. Aber
       <lb facs="#facs_1_region_1684586248517_696_tl_25" n="N025"/>bei allen ästhetischen Mängeln der Theaterstücke von <rs type="person">Sardou</rs>,
       <lb facs="#facs_1_region_1684586248517_696_tl_26" n="N026"/>
                <rs type="person">Augier</rs>, <rs type="person">Feuillet</rs>, <rs type="person">Dumas</rs> Sohn, 
-                  <rs type="person">Auber</rs>, <rs type="person">Gounod</rs>, <rs type="person">Thomas</rs> etc.
+                  <rs type="person" ref="#hsl_person_id_16">Auber</rs>, <rs type="person">Gounod</rs>, <rs type="person">Thomas</rs> etc.
       <lb facs="#facs_1_region_1684586248517_696_tl_27" n="N027"/>scheint uns doch das Eine festzustehen, daß dieselben von der
-      <lb facs="#facs_1_region_1684586248517_696_tl_28" n="N028"/>gegenwärtigen <rs type="place">deutsch</rs>en Production nicht übertroffen oder
-      <lb facs="#facs_1_region_1684586248517_696_tl_29" n="N029"/>überflüssig gemacht werden. Hat auch nur <rs type="person">Offenbach</rs>'s Talent
+      <lb facs="#facs_1_region_1684586248517_696_tl_28" n="N028"/>gegenwärtigen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Production nicht übertroffen oder
+      <lb facs="#facs_1_region_1684586248517_696_tl_29" n="N029"/>überflüssig gemacht werden. Hat auch nur <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>'s Talent
       <lb facs="#facs_1_region_1684586248517_696_tl_30" n="N030"/>in seiner bescheidenen Unterhaltssphäre irgend einen Rivalen
-      <lb facs="#facs_1_region_1684586248517_696_tl_31" n="N031"/>in <rs type="place">Deutschland</rs>? Und doch lasen wir jüngst in einem <rs type="place">Dres
-      <lb facs="#facs_1_region_1684586248517_696_tl_32" n="N032" break="no"/>den</rs>er Journale den Antrag, es möchten sich alle <rs type="place">deutsch</rs>en
+      <lb facs="#facs_1_region_1684586248517_696_tl_31" n="N031"/>in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>? Und doch lasen wir jüngst in einem <rs type="place" ref="#hsl_place_id_15">Dres
+      <lb facs="#facs_1_region_1684586248517_696_tl_32" n="N032" break="no"/>den</rs>er Journale den Antrag, es möchten sich alle <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en
       <lb facs="#facs_1_region_1684586248517_696_tl_33" n="N033"/>Theater-Directionen auf Ehrenwort verpflichten, nie wieder
-      <lb facs="#facs_1_region_1684586248517_696_tl_34" n="N034"/>eine Note von <rs type="person">Offenbach</rs> aufzuführen — weil dieser bereits
+      <lb facs="#facs_1_region_1684586248517_696_tl_34" n="N034"/>eine Note von <rs type="person" ref="#hsl_person_id_202">Offenbach</rs> aufzuführen — weil dieser bereits
       <lb facs="#facs_1_region_1684586248517_696_tl_35" n="N035"/>als Jüngling naturalisirte Franzose vor zwölf Jahren einen
       <lb facs="#facs_1_region_1684586248517_696_tl_36" n="N036"/>
                <rs type="person">Napoleon</rs>-<rs type="bibl">Marsch</rs>, <rs type="person">Napoleon</rs>-<rs type="bibl">Chor</rs> oder etwas dergleichen com
-      <lb facs="#facs_1_region_1684586248517_696_tl_37" n="N037" break="no"/>ponirt hat. Verbot etwa <rs type="place">Frankreich</rs> die Opern <hi rendition="#em">
+      <lb facs="#facs_1_region_1684586248517_696_tl_37" n="N037" break="no"/>ponirt hat. Verbot etwa <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> die Opern <hi rendition="#em">
                   <rs type="person">Spontini</rs>'s</hi>,
       <lb facs="#facs_1_line_1719427597654_2233" n="N038"/>als dieser Schützling und Verherrlicher des ersten Kaiserreiches
-      <lb facs="#facs_1_region_1684586248517_696_tl_38" n="N039"/>später in <rs type="place">Berlin</rs> die <rs type="place">preußisch</rs>e Siegeshymme „<rs type="bibl">Borussia</rs>“ schrieb?
-      <lb facs="#facs_1_region_1684586248517_696_tl_39" n="N040"/>Oder möchten wir unseren Johann <rs type="person">Strauß</rs> wegen seines <rs type="bibl">Louis-
+      <lb facs="#facs_1_region_1684586248517_696_tl_38" n="N039"/>später in <rs type="place" ref="#hsl_place_id_9">Berlin</rs> die <rs type="place" ref="#hsl_place_id_46">preußisch</rs>e Siegeshymme „<rs type="bibl">Borussia</rs>“ schrieb?
+      <lb facs="#facs_1_region_1684586248517_696_tl_39" n="N040"/>Oder möchten wir unseren Johann <rs type="person" ref="#hsl_person_id_299">Strauß</rs> wegen seines <rs type="bibl">Louis-
       <lb facs="#facs_1_line_1719427683338_2359" n="N041"/>Napoleon-Marsches</rs> auf den musikalischen Inder setzen? Nim
       <lb facs="#facs_1_line_1719427688658_2364" n="N042" break="no"/>mermehr, in der Kunst protestiren wir gegen das Einschmug
       <lb facs="#facs_1_region_1684586248517_696_tl_44" n="N043" break="no"/>geln politischer Motive und wollen die freundlichste Trösterin
@@ -1116,32 +1117,32 @@
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p>
-      <lb facs="#facs_2_region_1684586259060_702_tl_1" n="N001"/>Vor dem Uebergewicht <rs type="place">französisch</rs>er Production braucht
-      <lb facs="#facs_2_region_1684586259060_702_tl_2" n="N002"/>übrigens <rs type="place">Deutschland</rs> für die nächsten Jahre nicht bange zu
-      <lb facs="#facs_2_region_1684586259060_702_tl_3" n="N003"/>sein. Solch niederschmetternder Schlag, wie er jetzt <rs type="place">Frankreich</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684586259060_702_tl_4" n="N004"/>traf und <rs type="place">Paris</rs> noch bevorsteht, lähmt auf lange hinaus die
+      <lb facs="#facs_2_region_1684586259060_702_tl_1" n="N001"/>Vor dem Uebergewicht <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Production braucht
+      <lb facs="#facs_2_region_1684586259060_702_tl_2" n="N002"/>übrigens <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> für die nächsten Jahre nicht bange zu
+      <lb facs="#facs_2_region_1684586259060_702_tl_3" n="N003"/>sein. Solch niederschmetternder Schlag, wie er jetzt <rs type="place" ref="#hsl_place_id_21">Frankreich</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684586259060_702_tl_4" n="N004"/>traf und <rs type="place" ref="#hsl_place_id_44">Paris</rs> noch bevorsteht, lähmt auf lange hinaus die
       <lb facs="#facs_2_region_1684586259060_702_tl_5" n="N005"/>Fähigkeit und Lust zu künstlerischem Schaffen. Die nächsten
-      <lb facs="#facs_2_region_1684586259060_702_tl_6" n="N006"/>Winter werden zeigen, daß der Krieg in <rs type="place">Frankreich</rs> nicht blos
+      <lb facs="#facs_2_region_1684586259060_702_tl_6" n="N006"/>Winter werden zeigen, daß der Krieg in <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> nicht blos
       <lb facs="#facs_2_region_1684586259060_702_tl_7" n="N007"/>die Ernte auf den Feldern, sondern auch die Saaten des
-      <lb facs="#facs_2_region_1684586259060_702_tl_8" n="N008"/>Geistes zermalmt hat. Welcher <rs type="place">französisch</rs>e Dichter oder Com
+      <lb facs="#facs_2_region_1684586259060_702_tl_8" n="N008"/>Geistes zermalmt hat. Welcher <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Dichter oder Com
       <lb facs="#facs_2_region_1684586259060_702_tl_9" n="N009" break="no"/>ponist fände jetzt die Stimmung für poetische Träume! Wie
       <lb facs="#facs_2_region_1684586259060_702_tl_10" n="N010"/>mag es dem weichen, liebenswürdigen Ambroise <hi rendition="#em">
             <rs type="person">Thomas</rs></hi><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684586259060_702_tl_11" n="N011"/>zu Muthe sein, dessen Vaterstadt <rs type="place">Metz</rs> Ströme von Blut
+      <lb facs="#facs_2_region_1684586259060_702_tl_11" n="N011"/>zu Muthe sein, dessen Vaterstadt <rs type="place" ref="#hsl_place_id_468">Metz</rs> Ströme von Blut
       <lb facs="#facs_2_region_1684586259060_702_tl_12" n="N012"/>umfließen, wie dem stets erregten, idealistischen Schwärmer
       <lb facs="#facs_2_region_1684586259060_702_tl_13" n="N013"/><hi rendition="#em">
                   <rs type="person">Gounod</rs></hi> und dem armen <hi rendition="#em">
-                  <rs type="person">Auber</rs></hi>, welcher jetzt in seinem
-      <lb facs="#facs_2_region_1684586259060_702_tl_14" n="N014"/>Uralter noch eine Belagerung von <rs type="place">Paris</rs> erleben muß? Er,
+                  <rs type="person" ref="#hsl_person_id_16">Auber</rs></hi>, welcher jetzt in seinem
+      <lb facs="#facs_2_region_1684586259060_702_tl_14" n="N014"/>Uralter noch eine Belagerung von <rs type="place" ref="#hsl_place_id_44">Paris</rs> erleben muß? Er,
       <lb facs="#facs_2_region_1684586259060_702_tl_15" n="N015"/>in dessen Kindheit die Enthauptung <rs type="person">Ludwig</rs>'s XVI. fällt und
       <lb facs="#facs_2_region_1684586259060_702_tl_16" n="N016"/>dessen langer Lebensweg die Tage des Consulates, des ersten
       <lb facs="#facs_2_region_1684586259060_702_tl_17" n="N017"/>Kaiserreiches, die Vertreibung <rs type="person">Karl</rs>'s X. und <rs type="person">Louis Philipp</rs>'s,
       <lb facs="#facs_2_line_1719427717242_2396" n="N018"/>das ganze Drama von <rs type="person">Louis Napoleon</rs>'s Glück und Ende
       <lb facs="#facs_2_region_1684586259060_702_tl_19" n="N019"/>begleitet hat, er muß sich oder wenigstens seinen Namen jetzt
-      <lb facs="#facs_2_region_1684586259060_702_tl_20" n="N020"/>in die Reihen der <rs type="place">Paris</rs>er Nationalgarde stellen! Welche Reihe
+      <lb facs="#facs_2_region_1684586259060_702_tl_20" n="N020"/>in die Reihen der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Nationalgarde stellen! Welche Reihe
       <lb facs="#facs_2_region_1684586259060_702_tl_21" n="N021"/>weltgeschichtlicher colossaler Bilder in seiner Erinnerung, welch
-      <lb facs="#facs_2_region_1684586259060_702_tl_22" n="N022"/>trostloser Blick vom Grabesrande in die Zukunft <rs type="place">Frankreich</rs>s!
-      <lb facs="#facs_2_region_1684586259060_702_tl_23" n="N023"/>Die <rs type="place">französisch</rs>e Musik, deren sichtbares Oberhaupt <rs type="person">Auber</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684586259060_702_tl_22" n="N022"/>trostloser Blick vom Grabesrande in die Zukunft <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s!
+      <lb facs="#facs_2_region_1684586259060_702_tl_23" n="N023"/>Die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Musik, deren sichtbares Oberhaupt <rs type="person" ref="#hsl_person_id_16">Auber</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684586259060_702_tl_24" n="N024"/>noch immer vorstellt, hat unter der neuen Republik keine
       <lb facs="#facs_2_region_1684586259060_702_tl_25" n="N025"/>Blüthentage zu erwarten. Die republikanische Regierungsform
       <lb facs="#facs_2_region_1684586259060_702_tl_26" n="N026"/>ist in ihrem Wesen nüchtern, sparsam und gleichgiltig gegen
@@ -1163,7 +1164,7 @@
       <lb facs="#facs_2_region_1684586259060_702_tl_41" n="N041" break="no"/>zeugt dies; nicht viel weniger seine ausschließliche Vorliebe für
       <lb facs="#facs_2_region_1684586259060_702_tl_42" n="N042"/>weichlich spielende, geistlos melodiöse Musik. Ferdinand <hi rendition="#em">
             <rs type="person">Paër</rs></hi><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684586259060_702_tl_43" n="N043"/>der süßliche <rs type="place">italienisch</rs>e Tonsetzer und feine, intrigante Höf
+      <lb facs="#facs_2_region_1684586259060_702_tl_43" n="N043"/>der süßliche <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Tonsetzer und feine, intrigante Höf
       <lb facs="#facs_2_region_1684586259060_702_tl_44" n="N044" break="no"/>ling, war <rs type="person">Napoleon</rs>'s Lieblings-Componist; <rs type="person">Napoleon</rs> bevor
       <lb facs="#facs_2_line_1719427832901_2542" n="N045" break="no"/>zugte ihn persönlich, unter Zurücksetzung ungleich würdigerer<space quantity="1" unit="char"/></p>
             <cb n="5"/>
@@ -1195,21 +1196,21 @@
       <lb facs="#facs_2_region_1684586264153_705_tl_20" n="N022"/>so konnte man sicher sein, daß seine Gedanken weit, weit von
       <lb facs="#facs_2_region_1684586264153_705_tl_21" n="N023"/>dem entfernt schweiften, was auf der Bühne oder im Orche
       <lb facs="#facs_2_region_1684586264153_705_tl_22" n="N024" break="no"/>ster vorging. Doch hat er das Opfer, Musik anzuhören, jedes
-      <lb facs="#facs_2_region_1684586264153_705_tl_23" n="N025" break="no"/>mal willig gebracht, wenn es für den Ruhm eines <rs type="place">französi
+      <lb facs="#facs_2_region_1684586264153_705_tl_23" n="N025" break="no"/>mal willig gebracht, wenn es für den Ruhm eines <rs type="place" ref="#hsl_place_id_21">französi
       <lb facs="#facs_2_region_1684586264153_705_tl_24" n="N026" break="no"/>sch</rs>en Talents zuträglich schien. Auch hat die größte individuelle
       <lb facs="#facs_2_region_1684586264153_705_tl_25" n="N027"/>Unempfindlichkeit für Musik ihn nicht gehindert, manche wohl
       <lb facs="#facs_2_line_1719427814984_2516" n="N028" break="no"/>thätige künstlerische Maßregel ins Leben zu rufen oder doch
       <lb facs="#facs_2_region_1684586264153_705_tl_26" n="N029"/>zu fördern. Zwei wichtige, eingreifende Reformen dankt man
       <lb facs="#facs_2_region_1684586264153_705_tl_27" n="N030"/>der Regierung 
-                  <rs type="person">Napoleon</rs>'s III.: die eine betraf blos <rs type="place">Frankreich</rs><space quantity="1" unit="char"/>
+                  <rs type="person">Napoleon</rs>'s III.: die eine betraf blos <rs type="place" ref="#hsl_place_id_21">Frankreich</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684586264153_705_tl_28" n="N031"/>und bestand in der Aufhebung der drückenden alten Privilegien
       <lb facs="#facs_2_region_1684586264153_705_tl_29" n="N032"/>bestimmter Theater, also in der Einführung der „Theaterfrei
       <lb facs="#facs_2_region_1684586264153_705_tl_30" n="N033" break="no"/>heit“ (<date when="1863">1863</date>); die andere, die auf friedlichem Wege sich bereits
       <lb facs="#facs_2_region_1684586264153_705_tl_31" n="N034"/>die halbe Welt erobert, war die Einführung einer tieferen,
       <lb facs="#facs_2_region_1684586264153_705_tl_32" n="N035"/>unveränderlichen Orchesterstimmung, des „diapason normal“
       <lb facs="#facs_2_region_1684586264153_705_tl_33" n="N036"/>(<date when="1859">1859</date>). <rs type="person">Louis</rs> Napoleon erhob ferner die dritte Opernbühne
-      <lb facs="#facs_2_region_1684586264153_705_tl_34" n="N037"/>von <rs type="place">Paris</rs>, das Théâtre Lyrique, dessen Hauptverdienst in
-      <lb facs="#facs_2_line_1719427742649_2432" n="N038"/>der Einführung classischer <rs type="place">deutsch</rs>er Opern lag, zum Rang
+      <lb facs="#facs_2_region_1684586264153_705_tl_34" n="N037"/>von <rs type="place" ref="#hsl_place_id_44">Paris</rs>, das Théâtre Lyrique, dessen Hauptverdienst in
+      <lb facs="#facs_2_line_1719427742649_2432" n="N038"/>der Einführung classischer <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Opern lag, zum Rang
       <lb facs="#facs_2_region_1684586264153_705_tl_35" n="N039"/>eines kaiserlichen Theaters mit einer jährlichen Subvention
       <lb facs="#facs_2_region_1684586264153_705_tl_36" n="N040"/>von einmalhunderttausend Francs. Eine andere reformatorische
       <lb facs="#facs_2_region_1684586264153_705_tl_37" n="N041"/>Maßregel ist das Decret vom <date when="1864-05-04">4. Mai 1864</date>, welches die
@@ -1223,7 +1224,7 @@
       <lb facs="#facs_2_region_1684586267605_708_tl_2" n="N002"/>Rome“) durch die Composition einer dreiactigen Oper zu
       <lb facs="#facs_2_region_1684586267605_708_tl_3" n="N003"/>veranstalten, zu welcher die Direction selbst das Textbuch
       <lb facs="#facs_2_line_1719427767667_2463" n="N004"/>liefern muß. Diese jungen Musiker, Maler, Architekten wur
-      <lb facs="#facs_2_region_1684586267605_708_tl_5" n="N005" break="no"/>den stets vom Kaiser zur Tafel nach <rs type="place">St. Cloud</rs> geladen, zur
+      <lb facs="#facs_2_region_1684586267605_708_tl_5" n="N005" break="no"/>den stets vom Kaiser zur Tafel nach <rs type="place" ref="#hsl_place_id_118">St. Cloud</rs> geladen, zur
       <lb facs="#facs_2_region_1684586267605_708_tl_6" n="N006"/>Aufführung der preisgekrönten Opern oder Cantaten fand sich
       <lb facs="#facs_2_region_1684586267605_708_tl_7" n="N007"/>der ganze kaiserliche Hof nebst den Ministern und General-
       <lb facs="#facs_2_region_1684586267605_708_tl_8" n="N008"/>Intendanten ein. Die jüngste zur Aufmunterung der Com
@@ -1235,31 +1236,31 @@
       <lb facs="#facs_2_region_1684586267605_708_tl_14" n="N014" break="no"/>stand eines vorhergehenden Concurses, in welchem für die beste
       <lb facs="#facs_2_region_1684586267605_708_tl_15" n="N015"/>Arbeit ein Preis von 3000 Francs ausgesetzt ist. Es sind
       <lb facs="#facs_2_line_1719427788615_2485" n="N016"/>dies Regierungsmaßregeln von hoher künstlerischer Libe
-      <lb facs="#facs_2_region_1684586267605_708_tl_17" n="N017" break="no"/>ralität. Ueberhaupt erfreuen sich in <rs type="place">Frankreich</rs> die
+      <lb facs="#facs_2_region_1684586267605_708_tl_17" n="N017" break="no"/>ralität. Ueberhaupt erfreuen sich in <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> die
       <lb facs="#facs_2_region_1684586267605_708_tl_18" n="N018"/>ausgezeichnetsten Componisten einer völligen Gleichstel
       <lb facs="#facs_2_region_1684586267605_708_tl_19" n="N019" break="no"/>lung mit den ersten Poeten und Gelehrten, und diese
       <lb facs="#facs_2_line_1719427801577_2500" n="N020"/>Auszeichnung genossen sie zu keiner Zeit in so hohem Maße,
       <lb facs="#facs_2_region_1684586267605_708_tl_20" n="N021"/>wie unter <rs type="person">Napoleon</rs> III. Die sechs hervorragendsten Com
-      <lb facs="#facs_2_region_1684586267605_708_tl_21" n="N022" break="no"/>ponisten in <rs type="place">Paris</rs> sind wirkliche Mitglieder des „Instituts“,
+      <lb facs="#facs_2_region_1684586267605_708_tl_21" n="N022" break="no"/>ponisten in <rs type="place" ref="#hsl_place_id_44">Paris</rs> sind wirkliche Mitglieder des „Instituts“,
       <lb facs="#facs_2_region_1684586267605_708_tl_22" n="N023"/>und auch von den unscheinbareren entbehrt kaum Einer des
       <lb facs="#facs_2_region_1684586267605_708_tl_23" n="N024"/>ersehnten Legionskreuzes. Daß einem berühmten Opern-Com
       <lb facs="#facs_2_region_1684586267605_708_tl_24" n="N025" break="no"/>ponisten nur ob dieser Eigenschaft die Würde eines Senators
       <lb facs="#facs_2_region_1684586267605_708_tl_25" n="N026"/>und das Großkreuz der Ehrenlegion zu Theil wird (<hi rendition="#em">
-                  <rs type="person">Auber</rs></hi>),
+                  <rs type="person" ref="#hsl_person_id_16">Auber</rs></hi>),
       <lb facs="#facs_2_region_1684586267605_708_tl_26" n="N027"/>also die höchsten im Staate existirenden Auszeichnungen, kommt
-      <lb facs="#facs_2_line_1719427818988_2519" n="N028"/>wol nur in <rs type="place">Frankreich</rs> vor. Unter <rs type="person">Louis</rs> Napoleon erhielten
-      <lb facs="#facs_2_region_1684586267605_708_tl_28" n="N029"/>vier der schönsten Straßen die Namen Rue <rs type="person">Rossini</rs>, <rs type="person">Meyer
+      <lb facs="#facs_2_line_1719427818988_2519" n="N028"/>wol nur in <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> vor. Unter <rs type="person">Louis</rs> Napoleon erhielten
+      <lb facs="#facs_2_region_1684586267605_708_tl_28" n="N029"/>vier der schönsten Straßen die Namen Rue <rs type="person">Rossini</rs>, <rs type="person" ref="#hsl_person_id_182">Meyer
       <lb facs="#facs_2_region_1684586267605_708_tl_29" n="N030" break="no"/>beer</rs>, 
-                  <rs type="person">Halévy</rs>, <rs type="person">Auber</rs>, und man hat damit nicht gewartet bis
+                  <rs type="person">Halévy</rs>, <rs type="person" ref="#hsl_person_id_16">Auber</rs>, und man hat damit nicht gewartet bis
       <lb facs="#facs_2_region_1684586267605_708_tl_30" n="N031"/>nach dem Tode dieser Männer.
                   <note type="footnote" n="*)">
-                        <lb facs="#facs_2_line_1719427874535_2619" n="N041"/>Beiläufig gefragt, warum hat <rs type="place">Wien</rs>, das jährlich eine Anzahl
+                        <lb facs="#facs_2_line_1719427874535_2619" n="N041"/>Beiläufig gefragt, warum hat <rs type="place" ref="#hsl_place_id_55">Wien</rs>, das jährlich eine Anzahl
                         <lb facs="#facs_2_line_1719427877668_2622" n="N042"/>neuer Straßen baut und soeben die Taufe der „Sechskrügelgasse“ ge
                         <lb facs="#facs_2_line_1719427880756_2625" n="N043" break="no"/>feiert hat, noch keine „<hi rendition="#em">
-                                    <rs type="person">Strauß</rs></hi>“- und keine „<hi rendition="#em">
+                                    <rs type="person" ref="#hsl_person_id_299">Strauß</rs></hi>“- und keine „<hi rendition="#em">
                                     <rs type="person">Lanner</rs></hi>“-Gasse? Sind
-                        <lb facs="#facs_2_line_1719427884190_2628" n="N044"/>es nicht die populärsten musikalischen Namen der nach<rs type="person">beethoven</rs>'schen
-                        <lb facs="#facs_2_line_1719427886777_2631" n="N045"/>Zeit in <rs type="place">Wien</rs>, Namen von echtem Klang und <rs type="place">europäisch</rs>en Ruf?
+                        <lb facs="#facs_2_line_1719427884190_2628" n="N044"/>es nicht die populärsten musikalischen Namen der nach<rs type="person" ref="#hsl_person_id_25">beethoven</rs>'schen
+                        <lb facs="#facs_2_line_1719427886777_2631" n="N045"/>Zeit in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, Namen von echtem Klang und <rs type="place" ref="#hsl_place_id_19">europäisch</rs>en Ruf?
                   </note> Das sind nachahmens
       <lb facs="#facs_2_region_1684586267605_708_tl_31" n="N032" break="no"/>werthe Vorgänge. Durch Verfügungen von Oben vermag
       <lb facs="#facs_2_region_1684586267605_708_tl_32" n="N033"/>man allerdings keine Talente hervorzurufen, aber es bleibt

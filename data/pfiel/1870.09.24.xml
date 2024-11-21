@@ -107,6 +107,7 @@
          <change who="kbamer ampfiel" when="2024-09-11">Transkribus OCR und Lektorat.</change>
             <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
             <change when="2024-10-07" who="ampfiel">header, lb, p, space</change>
+            <change when="2024-11-12" who="ampfiel">rs ref angefangen</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -796,109 +797,102 @@
       <head type="h1">
             <lb facs="#facs_1_region_1684586137272_653_tl_1" n="N001"/><hi rendition="#em">Musik</hi>.</head>
       <head type="h2">
-            <lb facs="#facs_1_region_1684586137272_653_tl_2" n="N002"/>(Das <rs type="person">Beethoven</rs>-Fest. — Theater an der Wien. — Hofoperntheater.)</head>
+            <lb facs="#facs_1_region_1684586137272_653_tl_2" n="N002"/>(Das <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Fest. — Theater an der Wien. — Hofoperntheater.)</head>
             <p>      
-      <lb facs="#facs_1_region_1684586137272_653_tl_3" n="N003"/>Ed. H. Das Comité für die <rs type="person">Beethoven</rs>-Feier in <rs type="place">Wien</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684586137272_653_tl_3" n="N003"/>Ed. H. Das Comité für die <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Feier in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684586137272_653_tl_4" n="N004"/>hat soeben zwei bemerkenswerthe Abänderungen seines ursprüng¬
       <lb facs="#facs_1_region_1684586137272_653_tl_5" n="N005"/>lichen Festprogrammes bekanntgegeben. Es hat fürs erste be¬
       <lb facs="#facs_1_region_1684586137272_653_tl_6" n="N006"/>schlossen, daß das Jubiläum vom <date when="1870-10-20">20. October</date> auf den <date when="1870-12-16">16. De
-      <lb facs="#facs_1_region_1684586137272_653_tl_7" n="N007" break="no"/>cember</date>, als den Geburtstag <rs type="person">Beethoven</rs>'s, verlegt und daß
+      <lb facs="#facs_1_region_1684586137272_653_tl_7" n="N007" break="no"/>cember</date>, als den Geburtstag <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s, verlegt und daß
       <lb facs="#facs_1_region_1684586137272_653_tl_8" n="N008"/>dabei der projectirte große Fackelzug zu unterbleiben habe.
       <lb facs="#facs_1_region_1684586137272_653_tl_9" n="N009"/>Diesen Abänderungen zollen wir unbedingten Beifall, denn sie
       <lb facs="#facs_1_region_1684586137272_653_tl_10" n="N010"/>geben dem Festprogramme wenigstens nachträglich jenen Cha¬
       <lb facs="#facs_1_region_1684586137272_653_tl_11" n="N011"/>rakter, welchen es unseres Erachtens von allem Anfang hätte
       <lb facs="#facs_1_region_1684586137272_653_tl_12" n="N012"/>haben sollen. Der Respect vor dem richtigen Datum ist die
       <lb facs="#facs_1_region_1684586137272_653_tl_13" n="N013"/>erste Pflicht und Signatur einer wahrhaften Erinnerungsfeier.
-      <lb facs="#facs_1_region_1684586137272_653_tl_14" n="N014"/>Für <hi rendition="#em">
-                  <rs type="place">Wien</rs></hi> mindestens schickt es sich nicht, an einem belie¬
+      <lb facs="#facs_1_region_1684586137272_653_tl_14" n="N014"/>Für <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> mindestens schickt es sich nicht, an einem belie¬
       <lb facs="#facs_1_region_1684586137272_653_tl_15" n="N015"/>bigen Tage eines beliebigen Monats Musik und dabei sich
       <lb facs="#facs_1_region_1684586137272_653_tl_16" n="N016"/>weiszumachen, man feiere den Tag, der uns vor hundert
-      <lb facs="#facs_1_region_1684586137272_653_tl_17" n="N017"/>Jahren <rs type="person">Beethoven</rs> schenkte. Wenn kleinere Städte, wie <rs type="place">Bonn</rs>,
-      <lb facs="#facs_1_region_1684586137272_653_tl_18" n="N018"/>
-               <rs type="place">Aachen</rs>, <rs type="place">Weimar</rs>, dieses Jubiläum schon im Sommer begingen,
+      <lb facs="#facs_1_region_1684586137272_653_tl_17" n="N017"/>Jahren <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> schenkte. Wenn kleinere Städte, wie <rs type="place" ref="#hsl_place_id_67">Bonn</rs>,
+      <lb facs="#facs_1_region_1684586137272_653_tl_18" n="N018"/><rs type="place" ref="#hsl_place_id_238">Aachen</rs>, <rs type="place" ref="#hsl_place_id_41">Weimar</rs>, dieses Jubiläum schon im Sommer begingen,
       <lb facs="#facs_1_region_1684586137272_653_tl_19" n="N019"/>so haben sie dafür die triftigste Entschuldigung in der Unmög¬
       <lb facs="#facs_1_region_1684586137272_653_tl_20" n="N020"/>lichkeit, zur Winterszeit eine hinreichend große Anzahl aus¬
       <lb facs="#facs_1_region_1684586137272_653_tl_21" n="N021"/>übender Musiker herbeiziehen zu können. Die großen Instru¬
       <lb facs="#facs_1_region_1684586137272_653_tl_22" n="N022"/>mental- und Chormassen, die auserlesenen Virtuosen und Ge¬
       <lb facs="#facs_1_region_1684586137272_653_tl_23" n="N023"/>sangskünstler, deren ein solches Jubiläums-Concert bedarf,
       <lb facs="#facs_1_region_1684586137272_653_tl_24" n="N024"/>stehen ihnen nicht zur Verfügung; kommen doch die gewöhn¬
-      <lb facs="#facs_1_region_1684586137272_653_tl_25" n="N025"/>lichen <rs type="place">rheinisch</rs>en Musikfeste nur durch die Mitwirkung des
-      <lb facs="#facs_1_region_1684586137272_653_tl_26" n="N026"/>ganzen <rs type="place">Rheinland</rs>es zu Stande. Wäre man aber selbst der
+      <lb facs="#facs_1_region_1684586137272_653_tl_25" n="N025"/>lichen <rs type="place" ref="#hsl_place_id_279">rheinisch</rs>en Musikfeste nur durch die Mitwirkung des
+      <lb facs="#facs_1_region_1684586137272_653_tl_26" n="N026"/>ganzen <rs type="place" ref="#hsl_place_id_279">Rheinland</rs>es zu Stande. Wäre man aber selbst der
       <lb facs="#facs_1_region_1684586137272_653_tl_27" n="N027"/>Künstler gewiß, so würden doch viele Zuhörer fehlen bei einem
-      <lb facs="#facs_1_region_1684586137272_653_tl_28" n="N028"/>December-Concert am <rs type="place">Rhein</rs>. Will eine Stadt wie <rs type="place">Bonn</rs> bei
-      <lb facs="#facs_1_region_1684586137272_653_tl_29" n="N029"/>solchem Anlaß auf die Theilnahme von ganz <rs type="place">Deutschland</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684586137272_653_tl_28" n="N028"/>December-Concert am <rs type="place" ref="#hsl_place_id_245">Rhein</rs>. Will eine Stadt wie <rs type="place" ref="#hsl_place_id_67">Bonn</rs> bei
+      <lb facs="#facs_1_region_1684586137272_653_tl_29" n="N029"/>solchem Anlaß auf die Theilnahme von ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684586137272_653_tl_30" n="N030"/>zählen, so muß sie neben den Kunstproductionen den Zauber
       <lb facs="#facs_1_region_1684586137272_653_tl_31" n="N031"/>ihrer Landschaft, Reiselust und Ferienstimmung ins Treffen
       <lb facs="#facs_1_line_1719428021555_2752" n="N032"/>führen. Wenn die Rebenhügel zu grünen beginnen, die laue<space quantity="1" unit="char"/></p>
             <cb n="2"/>
             <p prev="true">
-      <lb facs="#facs_1_line_1719427970914_2686" n="N001"/>Sommernacht zu Gartenfesten und <rs type="place">Rhein</rs>fahrten lockt, dann
+      <lb facs="#facs_1_line_1719427970914_2686" n="N001"/>Sommernacht zu Gartenfesten und <rs type="place" ref="#hsl_place_id_245">Rhein</rs>fahrten lockt, dann
       <lb facs="#facs_1_region_1684586140345_656_tl_2" n="N002"/>entfalten diese Städte ihren eigenthümlichen Reiz, die Bewohner
-      <lb facs="#facs_1_line_1719427982438_2699" n="N003"/>ihre sprichwörtliche Fröhlichkeit und Gastfreundschaft. <hi rendition="#em">
-            <rs type="place">Wien</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1719427982438_2699" n="N003"/>ihre sprichwörtliche Fröhlichkeit und Gastfreundschaft. <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684586140345_656_tl_4" n="N004"/>hingegen besitzt eine mehr als hinreichende Armee von Spie¬
-      <lb facs="#facs_1_region_1684586140345_656_tl_5" n="N005"/>lern und Sängern, um zur Ehre <rs type="person">Beethoven</rs>'s auf eigene Faust
+      <lb facs="#facs_1_region_1684586140345_656_tl_5" n="N005"/>lern und Sängern, um zur Ehre <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s auf eigene Faust
       <lb facs="#facs_1_line_1719427993862_2711" n="N006"/>zu kämpfen und zu siegen; sein musikalisches Publicum ist
       <lb facs="#facs_1_region_1684586140345_656_tl_7" n="N007"/>ferner stark genug, um das Ausbleiben von Fremden ver¬
       <lb facs="#facs_1_region_1684586140345_656_tl_8" n="N008"/>schmerzen zu lassen. Wo aber diese beiden Bedingungen ein¬
       <lb facs="#facs_1_region_1684586140345_656_tl_9" n="N009"/>treffen, da gibt es gar keine Entschuldigung für das willkür¬
-      <lb facs="#facs_1_region_1684586140345_656_tl_10" n="N010"/>liche Escomptiren von <rs type="person">Beethoven</rs>'s Geburtstag. Und gerade
-      <lb facs="#facs_1_region_1684586140345_656_tl_11" n="N011"/>der Umstand, daß bisher keine Stadt ein großes <rs type="person">Beethoven</rs>-
-      <lb facs="#facs_1_region_1684586140345_656_tl_12" n="N012"/>Fest auf den <date when="1870-12-16">16. December</date> angesetzt hat, verpflichtet 
-                  <rs type="place">Wien</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684586140345_656_tl_10" n="N010"/>liche Escomptiren von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s Geburtstag. Und gerade
+      <lb facs="#facs_1_region_1684586140345_656_tl_11" n="N011"/>der Umstand, daß bisher keine Stadt ein großes <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-
+      <lb facs="#facs_1_region_1684586140345_656_tl_12" n="N012"/>Fest auf den <date when="1870-12-16">16. December</date> angesetzt hat, verpflichtet <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684586140345_656_tl_13" n="N013"/>doppelt, den wirklichen und nicht einen fingirten Geburtstag
       <lb facs="#facs_1_region_1684586140345_656_tl_14" n="N014"/>seines größten Bürgers zu feiern.</p>
                <p>
-      <lb facs="#facs_1_region_1684586140345_656_tl_15" n="N015"/>Mit der Verlegung des <rs type="person">Beethoven</rs>-Festes auf den Decem¬
+      <lb facs="#facs_1_region_1684586140345_656_tl_15" n="N015"/>Mit der Verlegung des <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Festes auf den Decem¬
       <lb facs="#facs_1_region_1684586140345_656_tl_16" n="N016"/>ber, wohin es gehört, fiel natürlich auch der beabsichtigte
-      <lb facs="#facs_1_region_1684586140345_656_tl_17" n="N017"/>Monstre-Fackelzug durch die Straßen von <rs type="place">Wien</rs>. Dank
+      <lb facs="#facs_1_region_1684586140345_656_tl_17" n="N017"/>Monstre-Fackelzug durch die Straßen von <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Dank
       <lb facs="#facs_1_region_1684586140345_656_tl_18" n="N018"/>der braven Decemberkälte, daß sie einen Beschluß beseitigt
       <lb facs="#facs_1_region_1684586140345_656_tl_19" n="N019"/>hat, welchen zu beseitigen wol Sache der richtigen Einsicht
-      <lb facs="#facs_1_region_1684586140345_656_tl_20" n="N020"/>gewesen wäre. Wir können nämlich den Namen <hi rendition="#em">
-            <rs type="person">Beethoven</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684586140345_656_tl_20" n="N020"/>gewesen wäre. Wir können nämlich den Namen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684586140345_656_tl_21" n="N021"/>nicht in Einklang bringen mit einer volksfestartigen, durch
       <lb facs="#facs_1_region_1684586140345_656_tl_22" n="N022"/>Fackeln, Processionen und Reden aufgeputzten Feier. Dem
-      <lb facs="#facs_1_region_1684586140345_656_tl_23" n="N023"/><rs type="person">Beethoven</rs>-Comité schwebten offenbar die unvergeßlichen Tage
-      <lb facs="#facs_1_region_1684586140345_656_tl_24" n="N024"/>der <rs type="person">Schiller</rs>-Feier (<date when="1859-11">November 1859</date>) vor, wo endloser Jubel
+      <lb facs="#facs_1_region_1684586140345_656_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Comité schwebten offenbar die unvergeßlichen Tage
+      <lb facs="#facs_1_region_1684586140345_656_tl_24" n="N024"/>der <rs type="person" ref="#hsl_person_id_248">Schiller</rs>-Feier (<date when="1859-11">November 1859</date>) vor, wo endloser Jubel
       <lb facs="#facs_1_region_1684586140345_656_tl_25" n="N025"/>die Stadt durchdrang, die Begeisterung der Führer im ganzen
       <lb facs="#facs_1_region_1684586140345_656_tl_26" n="N026"/>Volke widerhallte und Männer jedes Alters, jedes Standes
       <lb facs="#facs_1_region_1684586140345_656_tl_27" n="N027"/>sich dazu drängten, den unabsehbaren Fackelzug zu Ehren
-      <lb facs="#facs_1_region_1684586140345_656_tl_28" n="N028"/>
-               <rs type="person">Schiller</rs>'s zu vergrößern. Man beabsichtigte ohne Zweifel das
-      <lb facs="#facs_1_region_1684586140345_656_tl_29" n="N029"/>
-               <rs type="person">Beethoven</rs>-Fest zu einer zweiten Auflage jenes <rs type="person">Schiller</rs>-Jubi¬
+      <lb facs="#facs_1_region_1684586140345_656_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_248">Schiller</rs>'s zu vergrößern. Man beabsichtigte ohne Zweifel das
+      <lb facs="#facs_1_region_1684586140345_656_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Fest zu einer zweiten Auflage jenes <rs type="person" ref="#hsl_person_id_248">Schiller</rs>-Jubi¬
       <lb facs="#facs_1_region_1684586140345_656_tl_30" n="N030"/>läums zu machen. Es dünkt uns aber ein großer Irrthum,
-      <lb facs="#facs_1_region_1684586140345_656_tl_31" n="N031"/>für <rs type="person">Beethoven</rs> denselben tausendstimmigen Anklang im Volke
+      <lb facs="#facs_1_region_1684586140345_656_tl_31" n="N031"/>für <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> denselben tausendstimmigen Anklang im Volke
       <lb facs="#facs_1_region_1684586140345_656_tl_32" n="N032"/>vorauszusetzen, und ein Fehler, auf diese Voraussetzung hin
       <lb facs="#facs_1_region_1684586140345_656_tl_33" n="N033"/>eine Huldigung zu organisiren, welche ohne jene begeisterte
       <lb facs="#facs_1_region_1684586140345_656_tl_34" n="N034"/>allgemeine Theilnahme keine mehr ist. Als Gegenstand einer
-      <lb facs="#facs_1_region_1684586140345_656_tl_35" n="N035"/>solchen Nationalfeier hat <rs type="person">Schiller</rs> in dem ganzen Gebiete der
+      <lb facs="#facs_1_region_1684586140345_656_tl_35" n="N035"/>solchen Nationalfeier hat <rs type="person" ref="#hsl_person_id_248">Schiller</rs> in dem ganzen Gebiete der
       <lb facs="#facs_1_line_1719428027835_2756" n="N036"/>Künste keinen Rivalen. Kein Tonsetzer vermag die unermeß</p>
             <cb n="3"/>
             <p prev="true">
       <lb facs="#facs_1_line_1719427974469_2689" n="N001" break="no"/>liche und dabei edle Popularität eines Dichters zu erreichen,
-      <lb facs="#facs_1_region_1684586143463_659_tl_1" n="N002"/>der wie <rs type="person">Schiller</rs> vom ganzen Volke als Priester der Freiheit
+      <lb facs="#facs_1_region_1684586143463_659_tl_1" n="N002"/>der wie <rs type="person" ref="#hsl_person_id_248">Schiller</rs> vom ganzen Volke als Priester der Freiheit
       <lb facs="#facs_1_line_1719427984913_2702" n="N003"/>und Aufklärung, als Lehrer der Cultur und Sittlichkeit ver¬
       <lb facs="#facs_1_region_1684586143463_659_tl_2" n="N004"/>ehrt wird. In diesem Sinne kann der größte Tondichter
       <lb facs="#facs_1_region_1684586143463_659_tl_3" n="N005"/>nicht Priester und Lehrer seines Volkes sein, da er, auf den
       <lb facs="#facs_1_line_1719427996996_2714" n="N006"/>Ton beschränkt, Gedanken und Ueberzeugungen nicht auszu¬
       <lb facs="#facs_1_region_1684586143463_659_tl_4" n="N007"/>sprechen vermag.</p>
                <p>
-      <lb facs="#facs_1_region_1684586143463_659_tl_5" n="N008"/>Durch <rs type="person">Schiller</rs> ist die ganze Bildung unserer Nation
+      <lb facs="#facs_1_region_1684586143463_659_tl_5" n="N008"/>Durch <rs type="person" ref="#hsl_person_id_248">Schiller</rs> ist die ganze Bildung unserer Nation
       <lb facs="#facs_1_region_1684586143463_659_tl_6" n="N009"/>hindurchgegangen und nimmt bei jedem Einzelnen diesen Weg
       <lb facs="#facs_1_region_1684586143463_659_tl_7" n="N010"/>noch immer; an seine Worte knüpft das Volk seine höchsten
       <lb facs="#facs_1_region_1684586143463_659_tl_8" n="N011"/>sittlichen Ideen. Kein Städtchen gibt es, in welchem man
-      <lb facs="#facs_1_region_1684586143463_659_tl_9" n="N012"/>nicht <rs type="person">Schiller</rs>'s Dramen spielte, keine Dachkammer, die nicht
-      <lb facs="#facs_1_region_1684586143463_659_tl_10" n="N013"/>einen Band <rs type="person">Schiller</rs> beherbergt, kein <rs type="place">deutsch</rs>es Schulkind,
+      <lb facs="#facs_1_region_1684586143463_659_tl_9" n="N012"/>nicht <rs type="person" ref="#hsl_person_id_248">Schiller</rs>'s Dramen spielte, keine Dachkammer, die nicht
+      <lb facs="#facs_1_region_1684586143463_659_tl_10" n="N013"/>einen Band <rs type="person" ref="#hsl_person_id_248">Schiller</rs> beherbergt, kein <rs type="place" ref="#hsl_place_id_14">deutsch</rs>es Schulkind,
       <lb facs="#facs_1_region_1684586143463_659_tl_11" n="N014"/>das nicht die „<rs type="bibl">Glocke</rs>“ oder den „<rs type="bibl">Taucher</rs>“ gelernt hätte.
-      <lb facs="#facs_1_region_1684586143463_659_tl_12" n="N015"/>Eine solche Volksthümlichkeit besitzt <rs type="person">Beethoven</rs> nicht entfernt
+      <lb facs="#facs_1_region_1684586143463_659_tl_12" n="N015"/>Eine solche Volksthümlichkeit besitzt <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> nicht entfernt
       <lb facs="#facs_1_region_1684586143463_659_tl_13" n="N016"/>und wird sie nie besitzen. Auf hundert Studenten, auf tau¬
-      <lb facs="#facs_1_region_1684586143463_659_tl_14" n="N017"/>send Handwerker, welche ihren <rs type="person">Schiller</rs> kennen und verehren,
-      <lb facs="#facs_1_region_1684586143463_659_tl_15" n="N018"/>kommt vielleicht Einer, der eine <rs type="person">Beethoven</rs>'sche Symphonie
-      <lb facs="#facs_1_region_1684586143463_659_tl_16" n="N019"/>gehört hat. Gegen den <rs type="person">Schiller</rs>-Cultus gehalten, ist jener
-      <lb facs="#facs_1_region_1684586143463_659_tl_17" n="N020"/><rs type="person">Beethoven</rs>'s ein exclusiver, aristokratischer. Eine sehr große
+      <lb facs="#facs_1_region_1684586143463_659_tl_14" n="N017"/>send Handwerker, welche ihren <rs type="person" ref="#hsl_person_id_248">Schiller</rs> kennen und verehren,
+      <lb facs="#facs_1_region_1684586143463_659_tl_15" n="N018"/>kommt vielleicht Einer, der eine <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'sche Symphonie
+      <lb facs="#facs_1_region_1684586143463_659_tl_16" n="N019"/>gehört hat. Gegen den <rs type="person" ref="#hsl_person_id_248">Schiller</rs>-Cultus gehalten, ist jener
+      <lb facs="#facs_1_region_1684586143463_659_tl_17" n="N020"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s ein exclusiver, aristokratischer. Eine sehr große
       <lb facs="#facs_1_region_1684586143463_659_tl_18" n="N021"/>und immer noch anwachsende Hörerschaft schaart sich begeistert
-      <lb facs="#facs_1_region_1684586143463_659_tl_19" n="N022"/>um <rs type="person">Beethoven</rs>, allein sie ist nicht das Volk, sondern eine
+      <lb facs="#facs_1_region_1684586143463_659_tl_19" n="N022"/>um <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, allein sie ist nicht das Volk, sondern eine
       <lb facs="#facs_1_region_1684586143463_659_tl_20" n="N023"/>Gemeinde — eine musikalisch geschulte oder doch vorgebildete
       <lb facs="#facs_1_region_1684586143463_659_tl_21" n="N024"/>Gemeinde. Ein Tondichter, welcher, fern von den populären
       <lb facs="#facs_1_region_1684586143463_659_tl_22" n="N025"/>Weisen des Liedes und der Tanzmusik, in den höchsten, com¬
@@ -908,86 +902,75 @@
       <lb facs="#facs_1_region_1684586143463_659_tl_26" n="N029"/>da, im unmittelbarsten Contact mit einem großen gemischten
       <lb facs="#facs_1_region_1684586143463_659_tl_27" n="N030"/>Publicum, nicht blos zum <hi rendition="#em">Ohre</hi>, sondern zu <hi rendition="#em">allen</hi> Sin¬
       <lb facs="#facs_1_region_1684586143463_659_tl_28" n="N031"/>nen desselben spricht. <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s</hi> einzige Oper „<rs type="bibl">Fidelio</rs>“
+                  <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s</hi> einzige Oper „<rs type="bibl">Fidelio</rs>“
       <lb facs="#facs_1_region_1684586143463_659_tl_29" n="N032"/>hat niemals auf die Massen gewirkt, immer nur auf ein exclu¬
-      <lb facs="#facs_1_region_1684586143463_659_tl_30" n="N033"/>sives musikalisches Publicum. <hi rendition="#em">
-                  <rs type="person">Mozart</rs></hi> ist der ungleich volks¬
+      <lb facs="#facs_1_region_1684586143463_659_tl_30" n="N033"/>sives musikalisches Publicum. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> ist der ungleich volks¬
       <lb facs="#facs_1_region_1684586143463_659_tl_31" n="N034"/>thümlichere Componist, durch die „<rs type="bibl">Zauberflöte</rs>“ und „<rs type="bibl">Don
       <lb facs="#facs_1_region_1684586143463_659_tl_32" n="N035"/>Juan</rs>“ in Fleisch und Blut der Nation übergegangen, und
-      <lb facs="#facs_1_line_1719428031312_2759" n="N036"/>trotzdem, wer erinnert sich nicht, wie auffallend das <rs type="person">Mozart</rs>-</p>
+      <lb facs="#facs_1_line_1719428031312_2759" n="N036"/>trotzdem, wer erinnert sich nicht, wie auffallend das <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684586153709_665_tl_1" n="N001"/>Fest in <rs type="place">Salzburg</rs> (<date when="1856">1856</date>) mit seinem Fackelzug um die Statue,
+      <lb facs="#facs_2_region_1684586153709_665_tl_1" n="N001"/>Fest in <rs type="place" ref="#hsl_place_id_49">Salzburg</rs> (<date when="1856">1856</date>) mit seinem Fackelzug um die Statue,
       <lb facs="#facs_2_region_1684586153709_665_tl_2" n="N002"/>der volksthümlichen Resonanz, des Echos in der Bevölkerung
-      <lb facs="#facs_2_region_1684586153709_665_tl_3" n="N003"/>entbehrte! Selbst ein Jubiläum <hi rendition="#em">
-                  <rs type="person">Weber</rs>'s</hi> würde im eigent¬
-      <lb facs="#facs_2_region_1684586153709_665_tl_4" n="N004"/>lichen Volk von <rs type="place">Deutschland</rs> auf einen allgemeineren, enthu¬
+      <lb facs="#facs_2_region_1684586153709_665_tl_3" n="N003"/>entbehrte! Selbst ein Jubiläum <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs>'s</hi> würde im eigent¬
+      <lb facs="#facs_2_region_1684586153709_665_tl_4" n="N004"/>lichen Volk von <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> auf einen allgemeineren, enthu¬
       <lb facs="#facs_2_region_1684586153709_665_tl_5" n="N005"/>siastischeren Anklang zählen dürfen, denn sein „<rs type="bibl">Freischütz</rs>“ hat
       <lb facs="#facs_2_region_1684586153709_665_tl_6" n="N006"/>Herz und Sinn der Nation mit einem Zauber getroffen, wie
-      <lb facs="#facs_2_region_1684586153709_665_tl_7" n="N007"/>keine <rs type="person">Beethoven</rs>'sche Composition. Vom König bis zum gemei¬
+      <lb facs="#facs_2_region_1684586153709_665_tl_7" n="N007"/>keine <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'sche Composition. Vom König bis zum gemei¬
       <lb facs="#facs_2_region_1684586153709_665_tl_8" n="N008"/>nen Soldaten herab sang Alles die Melodien aus dem „<rs type="bibl">Frei
-      <lb facs="#facs_2_region_1684586153709_665_tl_9" n="N009" break="no"/>schütz</rs>“, die Neger in <rs type="place">Brasilien</rs>, die Holzknechte am <rs type="place">Ohio</rs> sin¬
-      <lb facs="#facs_2_region_1684586153709_665_tl_10" n="N010"/>gen sie. Wer hat einen Mann aus dem Volke <rs type="person">Beethoven</rs>'sche
+      <lb facs="#facs_2_region_1684586153709_665_tl_9" n="N009" break="no"/>schütz</rs>“, die Neger in <rs type="place" ref="#hsl_place_id_136">Brasilien</rs>, die Holzknechte am <rs type="place" ref="#hsl_place_id_694">Ohio</rs> sin¬
+      <lb facs="#facs_2_region_1684586153709_665_tl_10" n="N010"/>gen sie. Wer hat einen Mann aus dem Volke <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'sche
       <lb facs="#facs_2_region_1684586153709_665_tl_11" n="N011"/>Melodien singen gehört? Die begeisterte, verständnißfrohe
-      <lb facs="#facs_2_region_1684586153709_665_tl_12" n="N012"/>Stimmung, welche beim <rs type="person">Schiller</rs>-Feste die ganze Bevölkerung
+      <lb facs="#facs_2_region_1684586153709_665_tl_12" n="N012"/>Stimmung, welche beim <rs type="person" ref="#hsl_person_id_248">Schiller</rs>-Feste die ganze Bevölkerung
       <lb facs="#facs_2_region_1684586153709_665_tl_13" n="N013"/>durchdrang, läßt sich nicht willkürlich anordnen, nicht auf einen
       <lb facs="#facs_2_region_1684586153709_665_tl_14" n="N014"/>anderen, sei es noch so großen Künstler übertragen. Wollte
-      <lb facs="#facs_2_region_1684586153709_665_tl_15" n="N015"/>man <rs type="person">Schiller</rs> und <rs type="person">Beethoven</rs> lediglich als Meister in ihrer
-      <lb facs="#facs_2_region_1684586153709_665_tl_16" n="N016"/>Kunst gegen einander wägen, <rs type="person">Beethoven</rs> würde wahrlich nicht als
+      <lb facs="#facs_2_region_1684586153709_665_tl_15" n="N015"/>man <rs type="person" ref="#hsl_person_id_248">Schiller</rs> und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> lediglich als Meister in ihrer
+      <lb facs="#facs_2_region_1684586153709_665_tl_16" n="N016"/>Kunst gegen einander wägen, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> würde wahrlich nicht als
       <lb facs="#facs_2_region_1684586153709_665_tl_17" n="N017"/>der Leichtere befunden. Aber die künstlerische Vollendung
-      <lb facs="#facs_2_region_1684586153709_665_tl_18" n="N018"/>
-               <rs type="person">Schiller</rs>'s ist es nicht allein, was sein Jubiläum zu einem
+      <lb facs="#facs_2_region_1684586153709_665_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_248">Schiller</rs>'s ist es nicht allein, was sein Jubiläum zu einem
       <lb facs="#facs_2_region_1684586153709_665_tl_19" n="N019"/>Nationalfeste ohnegleichen gestaltete; die nationale und po¬
-      <lb facs="#facs_2_region_1684586153709_665_tl_20" n="N020"/>litische Gewalt seines Namens mußte hinzutreten. In <rs type="place">Oester
+      <lb facs="#facs_2_region_1684586153709_665_tl_20" n="N020"/>litische Gewalt seines Namens mußte hinzutreten. In <rs type="place" ref="#hsl_place_id_43">Oester
       <lb facs="#facs_2_region_1684586153709_665_tl_21" n="N021" break="no"/>reich</rs> namentlich war an jenem Feste der große Dichter zugleich
       <lb facs="#facs_2_region_1684586153709_665_tl_22" n="N022"/>unser politischer Fürsprecher. Durch ihn und an ihn wurden
       <lb facs="#facs_2_region_1684586153709_665_tl_23" n="N023"/>unsere polizeilich überwachten politischen Wünsche laut aus¬
       <lb facs="#facs_2_region_1684586153709_665_tl_24" n="N024"/>gesprochen.</p>
                <p>
       <lb facs="#facs_2_region_1684586153709_665_tl_25" n="N025"/>Wie viel stiller, aristokratischer, fast unberührt von der
-      <lb facs="#facs_2_region_1684586153709_665_tl_26" n="N026"/>Theilnahme des Volkes verlief nicht <hi rendition="#em">
-                  <rs type="person">Goethe</rs>'s</hi> Säcularfeier
-      <lb facs="#facs_2_region_1684586153709_665_tl_27" n="N027"/>(<date when="1849">1849</date>) in 
-                     <rs type="place">Wien</rs>, ja in ganz <rs type="place">Deutschland</rs>! Und vollends
-      <lb facs="#facs_2_region_1684586153709_665_tl_28" n="N028"/><hi rendition="#em">
-                  <rs type="person">Beethoven</rs></hi>, der tiefsinnige, allem Profanen abgewendete,
+      <lb facs="#facs_2_region_1684586153709_665_tl_26" n="N026"/>Theilnahme des Volkes verlief nicht <hi rendition="#em"><rs type="person" ref="#hsl_person_id_100">Goethe</rs>'s</hi> Säcularfeier
+      <lb facs="#facs_2_region_1684586153709_665_tl_27" n="N027"/>(<date when="1849">1849</date>) in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, ja in ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>! Und vollends
+      <lb facs="#facs_2_region_1684586153709_665_tl_28" n="N028"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi>, der tiefsinnige, allem Profanen abgewendete,
       <lb facs="#facs_2_region_1684586153709_665_tl_29" n="N029"/>große Magier! Kann man seine geistige Nachkommenschaft,
       <lb facs="#facs_2_region_1684586153709_665_tl_30" n="N030"/>kann man seine lebendige Wirkung auf die Nation jener
-      <lb facs="#facs_2_region_1684586153709_665_tl_31" n="N031"/>
-               <rs type="person">Goethe</rs>'s gleichstellen? Die Persönlichkeit <rs type="person">Beethoven</rs>'s war
-      <lb facs="#facs_2_region_1684586153709_665_tl_32" n="N032"/>allerdings demokratischer als <rs type="person">Goethe</rs>'s, aber sein Kunstgebiet,
+      <lb facs="#facs_2_region_1684586153709_665_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_100">Goethe</rs>'s gleichstellen? Die Persönlichkeit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s war
+      <lb facs="#facs_2_region_1684586153709_665_tl_32" n="N032"/>allerdings demokratischer als <rs type="person" ref="#hsl_person_id_100">Goethe</rs>'s, aber sein Kunstgebiet,
       <lb facs="#facs_2_region_1684586153709_665_tl_33" n="N033"/>die reine Instrumental-Musik auf ihrer sublimsten Höhe, ist
       <lb facs="#facs_2_line_1719428080877_2850" n="N034"/>exclusiv und aristokratisch. „<rs type="bibl">Faust</rs>“, „
                      <rs type="bibl">Egmont</rs>“, „<rs type="bibl">Götz von
       <lb facs="#facs_2_line_1719428084835_2854" n="N035"/>Berliching</rs>“ — jedes dieser Stücke ist für sich populärer in
-      <lb facs="#facs_2_region_1684586153709_665_tl_38" n="N036"/>
-               <rs type="place">Deutschland</rs>, als alle Symphonien und Quartette <rs type="person">Beethoven</rs>'s<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_2_region_1684586153709_665_tl_38" n="N036"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs>, als alle Symphonien und Quartette <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s<space quantity="1" unit="char"/></p>
             <cb n="5"/>
             <p prev="true">
       <lb facs="#facs_2_region_1684586162168_668_tl_1" n="N001"/>zusammengenommen. Darum wiederholen wir: Kein Volksfest,
       <lb facs="#facs_2_region_1684586162168_668_tl_2" n="N002"/>kein Monstre-Fackelzug, keine Appellation an die Massen zu
       <lb facs="#facs_2_region_1684586162168_668_tl_3" n="N003"/>Ehren dieses auf einsamer Höhe wandelnden Riesengeistes!
-      <lb facs="#facs_2_region_1684586162168_668_tl_4" n="N004"/>Man versammle die Gemeinde <rs type="person">Beethoven</rs>'s im Tempel, nicht
+      <lb facs="#facs_2_region_1684586162168_668_tl_4" n="N004"/>Man versammle die Gemeinde <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s im Tempel, nicht
       <lb facs="#facs_2_region_1684586162168_668_tl_5" n="N005"/>auf dem Forum. Man feiere seinen Genius in seiner eigenen
       <lb facs="#facs_2_region_1684586162168_668_tl_6" n="N006"/>Sprache, durch seine eigenen Werke und nicht anders. Wir
-      <lb facs="#facs_2_region_1684586162168_668_tl_7" n="N007"/>freuen uns, daß das <rs type="place">Wien</rs>er Comité diesen für unsere Empfin¬
+      <lb facs="#facs_2_region_1684586162168_668_tl_7" n="N007"/>freuen uns, daß das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Comité diesen für unsere Empfin¬
       <lb facs="#facs_2_region_1684586162168_668_tl_8" n="N008"/>dung einzig richtigen Standpunkt durch seine neuesten Be¬
       <lb facs="#facs_2_region_1684586162168_668_tl_9" n="N009"/>schlüsse eingenommen hat. In der Kirche, auf der Bühne, vor
-      <lb facs="#facs_2_region_1684586162168_668_tl_10" n="N010"/>Allem im Concertsaal wird <rs type="person">Beethoven</rs>'s Schaffen in seiner
+      <lb facs="#facs_2_region_1684586162168_668_tl_10" n="N010"/>Allem im Concertsaal wird <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s Schaffen in seiner
       <lb facs="#facs_2_region_1684586162168_668_tl_11" n="N011"/>ganzen reichen Blüthenfülle entfaltet und in möglichster Voll¬
       <lb facs="#facs_2_line_1719428108399_2872" n="N012"/>endung dargestellt sein; das trefflichste Orchester, die größten
       <lb facs="#facs_2_region_1684586162168_668_tl_13" n="N013"/>Chormassen, die bedeutendsten Virtuosen reichen sich die Hände
-      <lb facs="#facs_2_region_1684586162168_668_tl_14" n="N014"/>zu dieser echten <rs type="person">Beethoven</rs>-Feier.
+      <lb facs="#facs_2_region_1684586162168_668_tl_14" n="N014"/>zu dieser echten <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Feier.
                   <note type="footnote" n="*)">
                         <lb facs="#facs_2_line_1719428140346_2923" n="N030"/>Unter den mitwirkenden fremden Künstlern nennt das Pro¬
-                        <lb facs="#facs_2_line_1719428142903_2926" n="N031"/>gramm bekanntlich auch Clara <hi rendition="#em">
-                              <rs type="person">Schumann</rs></hi>. Auf ausdrücklichen
-                        <lb facs="#facs_2_line_1719428145228_2929" n="N032"/>Wunsch der verehrten Künstlerin muß ich die von Herrn F. <hi rendition="#em">
-                              <rs type="person">Schelle</rs></hi><space quantity="1" unit="char"/>
-                        <lb facs="#facs_2_line_1719428147373_2932" n="N033"/>in der alten „<rs type="bibl">Presse</rs>“ gethane Aeußerung, Frau <rs type="person">Schumann</rs> habe das
-                        <lb facs="#facs_2_line_1719428150567_2935" n="N034"/>
-                              <rs type="place">Wien</rs>er <rs type="person">Beethoven</rs>-Comité „keiner Antwort gewürdigt“, für einen Irr¬
+                        <lb facs="#facs_2_line_1719428142903_2926" n="N031"/>gramm bekanntlich auch Clara <hi rendition="#em"><rs type="person" ref="#hsl_person_id_281">Schumann</rs></hi>. Auf ausdrücklichen
+                        <lb facs="#facs_2_line_1719428145228_2929" n="N032"/>Wunsch der verehrten Künstlerin muß ich die von Herrn E. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4877">Schelle</rs></hi><space quantity="1" unit="char"/>
+                        <lb facs="#facs_2_line_1719428147373_2932" n="N033"/>in der alten „<rs type="bibl">Presse</rs>“ gethane Aeußerung, Frau <rs type="person" ref="#hsl_person_id_281">Schumann</rs> habe das
+                        <lb facs="#facs_2_line_1719428150567_2935" n="N034"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Comité „keiner Antwort gewürdigt“, für einen Irr¬
                         <lb facs="#facs_2_line_1719428154232_2938" n="N035"/>thum erklären, welcher nur durch den wahrscheinlichen Verlust eines
                         <lb facs="#facs_2_line_1719428156586_2941" n="N036"/>entscheidenden Briefes entstanden sein kann.
                   </note></p>
@@ -996,20 +979,18 @@
       <lb facs="#facs_2_region_1684586162168_668_tl_16" n="N016"/>Tagen zwei Novitäten: eine Operette „<hi rendition="#em">
                   <rs type="bibl">Der schöne Rit
       <lb facs="#facs_2_region_1684586162168_668_tl_17" n="N017" break="no"/>ter Dunois</rs></hi>“, von Charles <hi rendition="#em">
-                  <rs type="person">Lecocq</rs></hi>, im Theater an der
-      <lb facs="#facs_2_region_1684586162168_668_tl_18" n="N018"/>Wien, und die erste Aufführung von <rs type="person">Meyerbeer</rs>'s „<hi rendition="#em">
+                  <rs type="person" ref="#hsl_person_id_3633">Lecocq</rs></hi>, im Theater an der
+      <lb facs="#facs_2_region_1684586162168_668_tl_18" n="N018"/>Wien, und die erste Aufführung von <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>'s „<hi rendition="#em">
                   <rs type="bibl">Robert</rs></hi>“
-      <lb facs="#facs_2_region_1684586162168_668_tl_19" n="N019"/>im neuen Opernhause. Die Operette von <rs type="person">Lecocq</rs> ist buchstäb
+      <lb facs="#facs_2_region_1684586162168_668_tl_19" n="N019"/>im neuen Opernhause. Die Operette von <rs type="person" ref="#hsl_person_id_3633">Lecocq</rs> ist buchstäb
       <lb facs="#facs_2_region_1684586162168_668_tl_20" n="N020" break="no"/>lich unter aller Kritik; sie verdient keine Kritik, sondern nur
       <lb facs="#facs_2_region_1684586162168_668_tl_21" n="N021"/>einen entschiedenen Protest, den wir hiemit an die Adresse der
       <lb facs="#facs_2_region_1684586162168_668_tl_22" n="N022"/>Direction richten. Uns wenigstens bleibt es unerklärlich, daß
-      <lb facs="#facs_2_region_1684586162168_668_tl_23" n="N023"/>eine so intelligente Künstlerin, wie Marie <rs type="person">Geistinger</rs>, ihre
+      <lb facs="#facs_2_region_1684586162168_668_tl_23" n="N023"/>eine so intelligente Künstlerin, wie Marie <rs type="person" ref="#hsl_person_id_346">Geistinger</rs>, ihre
       <lb facs="#facs_2_region_1684586162168_668_tl_24" n="N024"/>Bühne so ganz talentlosen, künstlerisch wie sittlich gleich un¬
       <lb facs="#facs_2_region_1684586162168_668_tl_25" n="N025"/>anständigen Machwerken eröffnen mag. Wer sich dieses sau¬
-      <lb facs="#facs_2_region_1684586162168_668_tl_26" n="N026"/>beren „<rs type="bibl">Ritter Dunois</rs>“ annimmt und für Herrn <hi rendition="#em">
-            <rs type="person">Lecocq</rs></hi><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684586162168_668_tl_27" n="N027"/>gleiches Recht mit <hi rendition="#em">
-                  <rs type="person">Offenbach</rs></hi> anspricht, der verräth nur,
+      <lb facs="#facs_2_region_1684586162168_668_tl_26" n="N026"/>beren „<rs type="bibl">Ritter Dunois</rs>“ annimmt und für Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3633">Lecocq</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684586162168_668_tl_27" n="N027"/>gleiches Recht mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_202">Offenbach</rs></hi> anspricht, der verräth nur,
       <lb facs="#facs_2_region_1684586162168_668_tl_28" n="N028"/>daß ihm (in Bezug auf Musik) die erste Grundbedingung zum
       <lb facs="#facs_2_region_1684586162168_668_tl_29" n="N029"/>Kritiker fehlt: zu entscheiden, wo Talent steckt und wo keines.</p>
             <cb n="6"/>
@@ -1021,28 +1002,22 @@
       <lb facs="#facs_2_region_1684586167007_671_tl_5" n="N005"/>halle der Prinzessin beim Einzuge der Ritter wird man kaum
       <lb facs="#facs_2_region_1684586167007_671_tl_6" n="N006"/>auf irgend einer anderen Bühne antreffen. Daß auch bei die¬
       <lb facs="#facs_2_region_1684586167007_671_tl_7" n="N007"/>ser Vorstellung die Pracht manchmal zur Ueberladung neigt,
-      <lb facs="#facs_2_region_1684586167007_671_tl_8" n="N008"/>ist nicht zu leugnen. Von <hi rendition="#em">
-                  <rs type="person">Brioschi</rs>'s</hi> neuen Decorationen
+      <lb facs="#facs_2_region_1684586167007_671_tl_8" n="N008"/>ist nicht zu leugnen. Von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_42">Brioschi</rs>'s</hi> neuen Decorationen
       <lb facs="#facs_2_region_1684586167007_671_tl_9" n="N009"/>ist wol das Lager im ersten Acte die schönste und künstlerisch
-      <lb facs="#facs_2_region_1684586167007_671_tl_10" n="N010"/>werthvollste. Sein Klosterfriedhof (mit dem Dome von <rs type="place">Pa
+      <lb facs="#facs_2_region_1684586167007_671_tl_10" n="N010"/>werthvollste. Sein Klosterfriedhof (mit dem Dome von <rs type="place" ref="#hsl_place_id_692">Pa
       <lb facs="#facs_2_region_1684586167007_671_tl_11" n="N011" break="no"/>lermo</rs> als Hintergrund) hat schöne Einzelheiten, erreicht aber
       <lb facs="#facs_2_line_1719428113126_2875" n="N012"/>nicht die poetische, einheitliche Wirkung der früheren (in den
       <lb facs="#facs_2_region_1684586167007_671_tl_12" n="N013"/>meisten Operntheatern eingebürgerten) Decoration, welche als
       <lb facs="#facs_2_region_1684586167007_671_tl_13" n="N014"/>Hauptmotiv den Kreuzgang des verfallenen Karthäuser¬
-      <lb facs="#facs_2_region_1684586167007_671_tl_14" n="N015"/>klosters in <rs type="place">Villeneuve</rs> bei <rs type="place">Avignon</rs> benützt. Sehr effectvoll ist
+      <lb facs="#facs_2_region_1684586167007_671_tl_14" n="N015"/>klosters in <rs type="place" ref="#hsl_place_id_693">Villeneuve</rs> bei <rs type="place" ref="#hsl_place_id_657">Avignon</rs> benützt. Sehr effectvoll ist
       <lb facs="#facs_2_region_1684586167007_671_tl_15" n="N016"/>das Arrangement der Nonnen-Auferstehung, sowie die Ver¬
       <lb facs="#facs_2_region_1684586167007_671_tl_16" n="N017"/>wendung des elektrischen Lichtes bei dem Solotanze der <rs type="person">He
-      <lb facs="#facs_2_region_1684586167007_671_tl_17" n="N018" break="no"/>lena</rs>. Die Aufführung, unter Herrn <hi rendition="#em">
-                  <rs type="person">Dessoff</rs>'s</hi> Leitung,
+      <lb facs="#facs_2_region_1684586167007_671_tl_17" n="N018" break="no"/>lena</rs>. Die Aufführung, unter Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_56">Dessoff</rs>'s</hi> Leitung,
       <lb facs="#facs_2_region_1684586167007_671_tl_18" n="N019"/>zeichnete sich durch große Präcision aus und war in manchen
       <lb facs="#facs_2_region_1684586167007_671_tl_19" n="N020"/>Punkten, z. B. dem Höllenchor im dritten Acte, musikalisch wirk¬
       <lb facs="#facs_2_region_1684586167007_671_tl_20" n="N021"/>sam retouchirt. Die Hauptrollen haben ihre bekannten und be¬
-      <lb facs="#facs_2_region_1684586167007_671_tl_21" n="N022"/>währten Repräsentanten beibehalten: die Damen <hi rendition="#em">
-                  <rs type="person">Wilt</rs></hi> und
-      <lb facs="#facs_2_region_1684586167007_671_tl_22" n="N023"/><hi rendition="#em">
-                  <rs type="person">Rabatinsky</rs></hi>, die Herren <hi rendition="#em">
-                  <rs type="person">Müller</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Schmid</rs></hi>, welche
+      <lb facs="#facs_2_region_1684586167007_671_tl_21" n="N022"/>währten Repräsentanten beibehalten: die Damen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_327">Wilt</rs></hi> und
+      <lb facs="#facs_2_region_1684586167007_671_tl_22" n="N023"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2310">Rabatinsky</rs></hi>, die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1348">Müller</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_271">Schmid</rs></hi>, welche
       <lb facs="#facs_2_region_1684586167007_671_tl_23" n="N024"/>sämmtlich im Gesange Vorzügliches leisten. In dramatischer
       <lb facs="#facs_2_region_1684586167007_671_tl_24" n="N025"/>Hinsicht blieben sie Alle uns Mancherlei schuldig. Die Con¬
       <lb facs="#facs_2_region_1684586167007_671_tl_25" n="N026"/>touren der Hauptpersonen sind freilich vom Dichter und Com¬
@@ -1050,10 +1025,8 @@
       <lb facs="#facs_2_region_1684586167007_671_tl_27" n="N028"/>nicht möglich ist; aber die reichliche Gelegenheit, die sie dem
       <lb facs="#facs_2_region_1684586167007_671_tl_28" n="N029"/>denkenden, talent vollen Schauspieler zu psychologischer Moti¬
       <lb facs="#facs_2_region_1684586167007_671_tl_29" n="N030"/>virung und feinerem Detail bieten, bleibt fast gänzlich
-      <lb facs="#facs_2_region_1684586167007_671_tl_30" n="N031"/>unbenützt. Die genannten Künstler, desgleichen Fräulein <hi rendition="#em">
-                  <rs type="person">Sal
-      <lb facs="#facs_2_region_1684586167007_671_tl_31" n="N032" break="no"/>vioni</rs></hi> und Herr <hi rendition="#em">
-                  <rs type="person">Broschi</rs></hi> wurden durch reichlichen Bei¬
+      <lb facs="#facs_2_region_1684586167007_671_tl_30" n="N031"/>unbenützt. Die genannten Künstler, desgleichen Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4759">Sal
+      <lb facs="#facs_2_region_1684586167007_671_tl_31" n="N032" break="no"/>vioni</rs></hi> und Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_42">Bioschi</rs></hi> wurden durch reichlichen Bei¬
       <lb facs="#facs_2_region_1684586167007_671_tl_32" n="N033"/>fall und Hervorruf ausgezeichnet; ihre Leistungen werden dem
       <lb facs="#facs_2_region_1684586167007_671_tl_33" n="N034"/>„<rs type="bibl">Robert</rs>“ gewiß für lange Zeit seine neugewonnene Zugkraft
       <lb facs="#facs_2_region_1684586167007_671_tl_34" n="N035"/>sichern.</p>

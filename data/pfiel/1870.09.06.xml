@@ -107,6 +107,7 @@
          <change who="kbamer ampfiel" when="2024-09-10">Transkribus OCR und Lektorat.</change>
             <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
             <change when="2024-10-07" who="ampfiel">header, lb, p, space</change>
+            <change when="2024-11-12" who="ampfiel">rs ref ausgefüllt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -866,7 +867,7 @@
       <head type="h1">
             <lb facs="#facs_1_region_1684586329990_727_tl_1" n="N001"/><hi rendition="#em">Musik</hi>.</head>
       <head type="h2">
-            <lb facs="#facs_1_region_1684586329990_727_tl_2" n="N002"/>(„<rs type="bibl">Die Wacht am Rhein</rs>“. — Hofoperntheater. — Theodor <rs type="person">Wachtel</rs>.)</head>
+            <lb facs="#facs_1_region_1684586329990_727_tl_2" n="N002"/>(„<rs type="bibl" ref="#hsl_work_id_4068">Die Wacht am Rhein</rs>“. — Hofoperntheater. — Theodor <rs type="person" ref="#hsl_person_id_318">Wachtel</rs>.)</head>
             <p>      
       <lb facs="#facs_1_region_1684586329990_727_tl_3" n="N003"/>Ed. H. Das Musik- und Theater-Feuilleton verhält sich
       <lb facs="#facs_1_region_1684586329990_727_tl_4" n="N004"/>jetzt zu dem ganzen übrigen Inhalt einer Zeitung, wie Frieden
@@ -881,7 +882,7 @@
       <lb facs="#facs_1_region_1684586329990_727_tl_13" n="N013"/>gelehrt, daß die Musen zwar vom Feinde zeitweilig zurück
       <lb facs="#facs_1_region_1684586329990_727_tl_14" n="N014" break="no"/>gedrängt, umgangen, eingeschlossen sind, aber niemals ganz
       <lb facs="#facs_1_region_1684586329990_727_tl_15" n="N015"/>todtgeschossen werden. Die Kunst thut das Gegentheil von der
-      <lb facs="#facs_1_region_1684586329990_727_tl_16" n="N016"/><rs type="place">französisch</rs>en Garde: sie ergibt sich zuweilen, aber sie stirbt
+      <lb facs="#facs_1_region_1684586329990_727_tl_16" n="N016"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>en Garde: sie ergibt sich zuweilen, aber sie stirbt
       <lb facs="#facs_1_region_1684586329990_727_tl_17" n="N017"/>nicht. Und so gewahrten wir auch in den letzten Wochen, wie
       <lb facs="#facs_1_region_1684586329990_727_tl_18" n="N018"/>gerade die aufgereiztesten Politiker sich aus dem Pulverdampf
       <lb facs="#facs_1_region_1684586329990_727_tl_19" n="N019"/>der Telegramme ein wenig sehnten nach dem einzigen
@@ -896,38 +897,36 @@
       <lb facs="#facs_1_line_1719426998756_1648" n="N027" break="no"/>geht und mit zündendem Wort dem Gefühle des Augenblicks
       <lb facs="#facs_1_region_1684586329990_727_tl_26" n="N028"/>Ausdruck gibt, die politisch-patriotische Musik. Ein Blick auf
       <lb facs="#facs_1_region_1684586329990_727_tl_27" n="N029"/>die neuesten Kataloge der Musik-Verleger zeigt uns fast nichts
-      <lb facs="#facs_1_line_1719427015253_1663" n="N030"/>Anderes als „<rs type="bibl">Weißenburger Sturmmarsch</rs>“, „<rs type="bibl">Wörther Sieges
-      <lb facs="#facs_1_line_1719427021216_1667" n="N031" break="no"/>marsch</rs>“, „<rs type="bibl">Der Sieg von Saarbrücken</rs>“, „<rs type="bibl">Hurrah Germania</rs>“
-      <lb facs="#facs_1_region_1684586329990_727_tl_32" n="N032"/>und vor Allem „<rs type="bibl">Die Wacht am Rhein</rs>“ in allen möglichen
+      <lb facs="#facs_1_line_1719427015253_1663" n="N030"/>Anderes als „<rs type="bibl" ref="#hsl_work_id_4070">Weißenburger Sturmmarsch</rs>“, „<rs type="bibl" ref="#hsl_work_id_4072">Wörther Sieges
+      <lb facs="#facs_1_line_1719427021216_1667" n="N031" break="no"/>marsch</rs>“, „<rs type="bibl" ref="#hsl_work_id_4073">Der Sieg von Saarbrücken</rs>“, „<rs type="bibl" ref="#hsl_work_id_4071">Hurrah Germania</rs>“
+      <lb facs="#facs_1_region_1684586329990_727_tl_32" n="N032"/>und vor Allem „<rs type="bibl" ref="#hsl_work_id_4068">Die Wacht am Rhein</rs>“ in allen möglichen
       <lb facs="#facs_1_region_1684586329990_727_tl_33" n="N033"/>und unmöglichen Arrangements. In einer von den Herren
-      <lb facs="#facs_1_line_1719427096647_1740" n="N034"/>
-               <rs type="person">Weinwurm</rs> und <rs type="person">Kremser</rs> trefflich geleiteten Liedertafel unseres<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_1_line_1719427096647_1740" n="N034"/><rs type="person" ref="#hsl_person_id_323">Weinwurm</rs> und <rs type="person" ref="#hsl_person_id_150">Kremser</rs> trefflich geleiteten Liedertafel unseres<space quantity="1" unit="char"/></p>
             <cb n="2"/>
             <p prev="true">
       <lb facs="#facs_1_region_1684586334712_730_tl_1" n="N001"/>Männergesang-Vereines haben wir nun auch in
-      <lb facs="#facs_1_region_1684586334712_730_tl_2" n="N002"/><rs type="place">Wien</rs> das berühmte Lied gehört. Der Anschlagzettel schien
+      <lb facs="#facs_1_region_1684586334712_730_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> das berühmte Lied gehört. Der Anschlagzettel schien
       <lb facs="#facs_1_region_1684586334712_730_tl_3" n="N003"/>uns freilich am bedeutsamsten durch das, was er verschwieg.
       <lb facs="#facs_1_region_1684586334712_730_tl_4" n="N004"/>„Für einen humanen Zweck,“ lautete geheimnißvoll die Wid
-      <lb facs="#facs_1_region_1684586334712_730_tl_5" n="N005" break="no"/>mung dieses die Verwundeten der <rs type="place">deutsch</rs>en Armee reichlich
+      <lb facs="#facs_1_region_1684586334712_730_tl_5" n="N005" break="no"/>mung dieses die Verwundeten der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Armee reichlich
       <lb facs="#facs_1_region_1684586334712_730_tl_6" n="N006"/>unterstützenden Gesangfestes, und jenes Lied, nach dessen Be
       <lb facs="#facs_1_region_1684586334712_730_tl_7" n="N007" break="no"/>kanntschaft hier Alles begierig verlangte, fehlte auf dem Pro
       <lb facs="#facs_1_region_1684586334712_730_tl_8" n="N008" break="no"/>gramm. Das heißt doch die „Neutralität“ correct auffassen,
       <lb facs="#facs_1_region_1684586334712_730_tl_9" n="N009"/>wenn man den Leuten nicht blos die Hände bindet, sondern
       <lb facs="#facs_1_region_1684586334712_730_tl_10" n="N010"/>auch den Mund stopft! Es gibt aber Momente der Begei
       <lb facs="#facs_1_line_1719427047038_1693" n="N011" break="no"/>sterung, welche derlei Polizeiverbote plötzlich mit Sturmes
-      <lb facs="#facs_1_region_1684586334712_730_tl_11" n="N012" break="no"/>gewalt niederreißen. „<rs type="bibl">Die Wacht am Rhein</rs>“ wurde stürmisch
+      <lb facs="#facs_1_region_1684586334712_730_tl_11" n="N012" break="no"/>gewalt niederreißen. „<rs type="bibl" ref="#hsl_work_id_4068">Die Wacht am Rhein</rs>“ wurde stürmisch
       <lb facs="#facs_1_region_1684586334712_730_tl_12" n="N013"/>begehrt, von den Sängern mit Enthusiasmus vorgetragen,
       <lb facs="#facs_1_region_1684586334712_730_tl_13" n="N014"/>abermals verlangt und abermals gesungen, und so fort, zwar
       <lb facs="#facs_1_region_1684586334712_730_tl_14" n="N015"/>nicht in Ewigkeit, aber doch in die späte Nachtstunde hinein.
       <lb facs="#facs_1_region_1684586334712_730_tl_15" n="N016"/>Wer diesen einmüthigen, jubelnden Ausbruch von 4000 Men
       <lb facs="#facs_1_line_1719427066701_1711" n="N017" break="no"/>schen verschiednsten Standes miterlebt hat, konnte über die
-      <lb facs="#facs_1_region_1684586334712_730_tl_16" n="N018"/>Stärke der <rs type="place">deutsch</rs>en Sieges-Sympathien in <rs type="place">Wien</rs> kaum länger
+      <lb facs="#facs_1_region_1684586334712_730_tl_16" n="N018"/>Stärke der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Sieges-Sympathien in <rs type="place" ref="#hsl_place_id_55">Wien</rs> kaum länger
       <lb facs="#facs_1_region_1684586334712_730_tl_17" n="N019"/>im Zweifel sein.</p>
                <p>
       <lb facs="#facs_1_region_1684586334712_730_tl_18" n="N020"/>Der musikalische Werth ist es nicht, was ein Lied po
       <lb facs="#facs_1_region_1684586334712_730_tl_19" n="N021" break="no"/>pulär macht und zu historischer Bedeutung emporhebt. Auch
-      <lb facs="#facs_1_region_1684586334712_730_tl_20" n="N022"/><hi rendition="#em">
-                  <rs type="person">Wilhelm</rs>'s</hi> Composition der „<rs type="bibl">Wacht am Rhein</rs>“, würde zu
+      <lb facs="#facs_1_region_1684586334712_730_tl_20" n="N022"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5899">Wilhelm</rs>'s</hi> Composition der „<rs type="bibl" ref="#hsl_work_id_4068">Wacht am Rhein</rs>“, würde zu
       <lb facs="#facs_1_region_1684586334712_730_tl_21" n="N023"/>anderer Zeit unter dem Wuste ähnlicher Erzeugnisse kaum be
       <lb facs="#facs_1_region_1684586334712_730_tl_22" n="N024" break="no"/>sonders bemerkt werden, so wenig Neues, Geniales liegt darin.
       <lb facs="#facs_1_region_1684586334712_730_tl_23" n="N025"/>Dennoch besitzt sie als Volkslied specifische Vorzüge, welche
@@ -949,57 +948,56 @@
       <lb facs="#facs_1_region_1684586338344_733_tl_2" n="N002"/>an diesem Kriegslied der Armee von <date when="1870">1870</date> ist, daß es nicht
       <lb facs="#facs_1_region_1684586338344_733_tl_3" n="N003"/>dem Momente selbst entsprang, sondern bereits vor dreißig
       <lb facs="#facs_1_region_1684586338344_733_tl_4" n="N004"/>Jahren, allerdings in verwandter politischer Atmosphäre (zu
-      <lb facs="#facs_1_region_1684586338344_733_tl_5" n="N005" break="no"/>gleich mit <rs type="person">Becker</rs>'s „<rs type="bibl">Rheinlied</rs>“) gedichtet wurde. Ein neuer
+      <lb facs="#facs_1_region_1684586338344_733_tl_5" n="N005" break="no"/>gleich mit <rs type="person" ref="#hsl_person_id_2229">Becker</rs>'s „<rs type="bibl" ref="#hsl_work_id_945">Rheinlied</rs>“) gedichtet wurde. Ein neuer
       <lb facs="#facs_1_region_1684586338344_733_tl_6" n="N006"/>Beweis, wie die Popularität eines Liedes sich nicht vorausbe
       <lb facs="#facs_1_region_1684586338344_733_tl_7" n="N007" break="no"/>stimmen läßt. Noch weniger läßt sie sich octroyiren, wie dies
-      <lb facs="#facs_1_region_1684586338344_733_tl_8" n="N008"/>zuletzt <date when="1867">1867</date> die <rs type="place">französisch</rs>e Regierung mit ihrer Preisausschrei
+      <lb facs="#facs_1_region_1684586338344_733_tl_8" n="N008"/>zuletzt <date when="1867">1867</date> die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Regierung mit ihrer Preisausschrei
       <lb facs="#facs_1_region_1684586338344_733_tl_9" n="N009" break="no"/>bung einer „Friedens-Marseillaise“ („Chant de la paix) er
       <lb facs="#facs_1_region_1684586338344_733_tl_10" n="N010" break="no"/>fahren mußte. Die beste dieser zu vielen Hunderten einge
-      <lb facs="#facs_1_line_1719427051971_1696" n="N011" break="no"/>laufenen Compositionen sollte officielles Volkslied der <rs type="place">franzö
+      <lb facs="#facs_1_line_1719427051971_1696" n="N011" break="no"/>laufenen Compositionen sollte officielles Volkslied der <rs type="place" ref="#hsl_place_id_21">franzö
       <lb facs="#facs_1_region_1684586338344_733_tl_12" n="N012" break="no"/>sisch</rs>en Nation werden. Wochenlang plagten wir uns mit der
       <lb facs="#facs_1_region_1684586338344_733_tl_13" n="N013"/>Durchsicht dieser zahllosen Compositionen von kleinstem Um
       <lb facs="#facs_1_region_1684586338344_733_tl_14" n="N014" break="no"/>fang und größter Einfachheit, um zuletzt zu dem weisesten
       <lb facs="#facs_1_region_1684586338344_733_tl_15" n="N015"/>Entschluß zu kommen: daß gar kein Preis zuzuerkennen sei.
       <lb facs="#facs_1_region_1684586338344_733_tl_16" n="N016"/>„Wir sind nicht da, um Gassenhauer zu prämiiren!“ rief der
-      <lb facs="#facs_1_line_1719427070401_1714" n="N017"/>alte <hi rendition="#em">
-                  <rs type="person">Berlioz</rs></hi> bei der Schlußsitzung ganz zornig aus. Und
+      <lb facs="#facs_1_line_1719427070401_1714" n="N017"/>alte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_28">Berlioz</rs></hi> bei der Schlußsitzung ganz zornig aus. Und
       <lb facs="#facs_1_region_1684586338344_733_tl_18" n="N018"/>dennoch gab es manche Composition darunter, so gut und
-      <lb facs="#facs_1_region_1684586338344_733_tl_19" n="N019"/>vielleicht noch besser als „<rs type="bibl">Die Wacht am Rhein</rs>“. Aber
-      <lb facs="#facs_1_region_1684586338344_733_tl_20" n="N020"/>wer beachtete sie, wer hätte <rs type="person">Wilhelm</rs>'s „<rs type="bibl">Wacht am Rhein</rs>“
+      <lb facs="#facs_1_region_1684586338344_733_tl_19" n="N019"/>vielleicht noch besser als „<rs type="bibl" ref="#hsl_work_id_4068">Die Wacht am Rhein</rs>“. Aber
+      <lb facs="#facs_1_region_1684586338344_733_tl_20" n="N020"/>wer beachtete sie, wer hätte <rs type="person" ref="#hsl_person_id_5899">Wilhelm</rs>'s „<rs type="bibl" ref="#hsl_work_id_4068">Wacht am Rhein</rs>“
       <lb facs="#facs_1_region_1684586338344_733_tl_21" n="N021"/>beachtet, bevor die Glorie ihrer siegreichen Popularität
       <lb facs="#facs_1_region_1684586338344_733_tl_22" n="N022"/>sie umgab? Musiker von Fach, welche über dergleichen patrio
       <lb facs="#facs_1_region_1684586338344_733_tl_23" n="N023" break="no"/>tische Lieder zu Gericht sitzen, werden sich von dem specifisch
       <lb facs="#facs_1_region_1684586338344_733_tl_24" n="N024"/>künstlerischen Standpunkte nie ganz losmachen können, und dieser
       <lb facs="#facs_1_region_1684586338344_733_tl_25" n="N025"/>entscheidet nicht über die Lebensfähigkeit und Wirkung eines
       <lb facs="#facs_1_region_1684586338344_733_tl_26" n="N026"/>Volksliedes. Der Erfolg solcher Lieder erscheint aus musi
-      <lb facs="#facs_1_region_1684586338344_733_tl_27" n="N027" break="no"/>kalischem Gesichtspunkt ebenso oft verdient („<rs type="bibl">Marseillaise</rs>“, „<rs type="bibl">Des
-      <lb facs="#facs_1_region_1684586338344_733_tl_28" n="N028"/>Deutschen Vaterland</rs>“, „<rs type="bibl">Gott erhalte</rs>“), wie unverdient; in beiden
+      <lb facs="#facs_1_region_1684586338344_733_tl_27" n="N027" break="no"/>kalischem Gesichtspunkt ebenso oft verdient („<rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs>“, „<rs type="bibl" ref="#hsl_work_id_2891">Des
+      <lb facs="#facs_1_region_1684586338344_733_tl_28" n="N028"/>Deutschen Vaterland</rs>“, „<rs type="bibl" ref="#hsl_work_id_1005">Gott erhalte</rs>“), wie unverdient; in beiden
       <lb facs="#facs_1_region_1684586338344_733_tl_29" n="N029"/>Fällen spielen der Zufall und die Gewalt eines Augenblickes eine
       <lb facs="#facs_1_region_1684586338344_733_tl_30" n="N030"/>große Rolle in der thatsächlichen Carrière derselben. Im
-      <lb facs="#facs_1_region_1684586338344_733_tl_31" n="N031"/><date when="1791-08">August 1791</date> trat im <rs type="place">Paris</rs>er Opernhause während des Zwischen
+      <lb facs="#facs_1_region_1684586338344_733_tl_31" n="N031"/><date when="1791-08">August 1791</date> trat im <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Opernhause während des Zwischen
       <lb facs="#facs_1_region_1684586338344_733_tl_32" n="N032" break="no"/>actes ein Schauspieler auf die Bühne und hub mit zitternder
-      <lb facs="#facs_1_region_1684586338344_733_tl_33" n="N033"/>Stimme die damals in <rs type="place">Paris</rs> noch fast unbekannte Hymne
-      <lb facs="#facs_1_region_1684586338344_733_tl_34" n="N034"/>von Rouget de <rs type="person">l'Isle</rs> zu singen an. Bei der letzten Strophe
+      <lb facs="#facs_1_region_1684586338344_733_tl_33" n="N033"/>Stimme die damals in <rs type="place" ref="#hsl_place_id_44">Paris</rs> noch fast unbekannte <rs type="bibl" ref="#hsl_work_id_1027">Hymne</rs>
+      <lb facs="#facs_1_region_1684586338344_733_tl_34" n="N034"/>von Rouget de <rs type="bibl" ref="#hsl_person_id_5903">l'Isle</rs> zu singen an. Bei der letzten Strophe
       <lb facs="#facs_1_region_1684586338344_733_tl_35" n="N035"/>„Amour sacré de la patrie“ sank er auf die Knie, und Alles
       <lb facs="#facs_1_region_1684586338344_733_tl_36" n="N036"/>weinte und jubelte. Von dem Abend datirt die große, welt
-      <lb facs="#facs_1_line_1719427104781_1746" n="N037" break="no"/>geschichtliche Rolle der <rs type="bibl">Marseillaise</rs>. Vor vier Wochen setzt<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_1_line_1719427104781_1746" n="N037" break="no"/>geschichtliche Rolle der <rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs>. Vor vier Wochen setzt<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684586351621_739_tl_1" n="N001"/>die <rs type="place">französisch</rs>e Regierung diesen Theatercoup officiell wieder
-      <lb facs="#facs_2_region_1684586351621_739_tl_2" n="N002"/>in Scene und rief die lange verpönte <rs type="bibl">Marseillaise</rs> in der
-      <lb facs="#facs_2_region_1684586351621_739_tl_3" n="N003"/>Stunde der Noth zu Hilfe. Diesmal vergebens. Die <rs type="bibl">Mar
-      <lb facs="#facs_2_region_1684586351621_739_tl_4" n="N004" break="no"/>seillaise</rs> ist von den <rs type="place">französisch</rs>en Regierungen abwechselnd ge
+      <lb facs="#facs_2_region_1684586351621_739_tl_1" n="N001"/>die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Regierung diesen Theatercoup officiell wieder
+      <lb facs="#facs_2_region_1684586351621_739_tl_2" n="N002"/>in Scene und rief die lange verpönte <rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs> in der
+      <lb facs="#facs_2_region_1684586351621_739_tl_3" n="N003"/>Stunde der Noth zu Hilfe. Diesmal vergebens. Die <rs type="bibl" ref="#hsl_work_id_1027">Mar
+      <lb facs="#facs_2_region_1684586351621_739_tl_4" n="N004" break="no"/>seillaise</rs> ist von den <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Regierungen abwechselnd ge
       <lb facs="#facs_2_region_1684586351621_739_tl_5" n="N005" break="no"/>fördert und unterdrückt worden; die Protection konnte ihre
       <lb facs="#facs_2_region_1684586351621_739_tl_6" n="N006"/>volksthümliche Macht nicht erhöhen, das Verbot nicht sie zer
-      <lb facs="#facs_2_region_1684586351621_739_tl_7" n="N007" break="no"/>stören. „Ich habe die Schlacht gewonnen,“ schrieb <rs type="person">Bonaparte</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684586351621_739_tl_8" n="N008"/>einmal an das Directorium, „die <rs type="bibl">Marseillaise</rs> theilte mit mir
-      <lb facs="#facs_2_region_1684586351621_739_tl_9" n="N009"/>das Commando.“ Schon nach <rs type="person">Robespierre</rs>’s Tod bedurfte es
-      <lb facs="#facs_2_region_1684586351621_739_tl_10" n="N010"/>eigener Erlässe, um die <rs type="bibl">Marseillaise</rs> im Theater spielen zu
+      <lb facs="#facs_2_region_1684586351621_739_tl_7" n="N007" break="no"/>stören. „Ich habe die Schlacht gewonnen,“ schrieb <rs type="person" ref="#hsl_person_id_39">Bonaparte</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684586351621_739_tl_8" n="N008"/>einmal an das Directorium, „die <rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs> theilte mit mir
+      <lb facs="#facs_2_region_1684586351621_739_tl_9" n="N009"/>das Commando.“ Schon nach <rs type="person" ref="#hsl_person_id_3801">Robespierre</rs>’s Tod bedurfte es
+      <lb facs="#facs_2_region_1684586351621_739_tl_10" n="N010"/>eigener Erlässe, um die <rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs> im Theater spielen zu
       <lb facs="#facs_2_region_1684586351621_739_tl_11" n="N011"/>dürfen, aber draußen im Lager ersetzte sie den Soldaten das
       <lb facs="#facs_2_region_1684586351621_739_tl_12" n="N012"/>Brot und die Disciplin. An diesen beiden Artikeln hat es
-      <lb facs="#facs_2_region_1684586351621_739_tl_13" n="N013"/>der <rs type="place">deutsch</rs>en Armee von <date when="1870">1870</date> glücklicherweise nicht gefehlt;
-      <lb facs="#facs_2_region_1684586351621_739_tl_14" n="N014"/>aber „<rs type="bibl">Die Wacht am Rhein</rs>“, welche die Empfindung von
+      <lb facs="#facs_2_region_1684586351621_739_tl_13" n="N013"/>der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Armee von <date when="1870">1870</date> glücklicherweise nicht gefehlt;
+      <lb facs="#facs_2_region_1684586351621_739_tl_14" n="N014"/>aber „<rs type="bibl" ref="#hsl_work_id_4068">Die Wacht am Rhein</rs>“, welche die Empfindung von
       <lb facs="#facs_2_region_1684586351621_739_tl_15" n="N015"/>Tausenden in Einen harmonischen Strom zusammenfaßte und
       <lb facs="#facs_2_region_1684586351621_739_tl_16" n="N016"/>brausend entfesselte, spendete ihnen das Labsal fröhlicher Zu
       <lb facs="#facs_2_region_1684586351621_739_tl_17" n="N017" break="no"/>versicht. Und darum hat dieses Lied seinen bescheidenen Platz
@@ -1014,9 +1012,8 @@
       <lb facs="#facs_2_line_1719427384043_2003" n="N025"/>Musik ist nicht auf eine einzige Mission eingeengt, auch in
       <lb facs="#facs_2_region_1684586351621_739_tl_24" n="N026"/><hi rendition="#em">ihrem</hi> Reiche „gibt es der Wohnungen viele“. Was war es
       <lb facs="#facs_2_region_1684586351621_739_tl_25" n="N027"/>nur, das in der letzten Liedertafel den herzlichsten Anklang
-      <lb facs="#facs_2_region_1684586351621_739_tl_26" n="N028"/>fand nächst der „<rs type="bibl">Wacht am Rhein</rs>“? Ein anspruchsloser, von
-      <lb facs="#facs_2_region_1684586351621_739_tl_27" n="N029"/>sanfter, wehmüthiger Empfindung getragener <rs type="bibl">Chor</rs> von <hi rendition="#em">
-                  <rs type="person">En
+      <lb facs="#facs_2_region_1684586351621_739_tl_26" n="N028"/>fand nächst der „<rs type="bibl" ref="#hsl_work_id_4068">Wacht am Rhein</rs>“? Ein anspruchsloser, von
+      <lb facs="#facs_2_region_1684586351621_739_tl_27" n="N029"/>sanfter, wehmüthiger Empfindung getragener <rs type="bibl" ref="#hsl_work_id_4069">Chor</rs> von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_274">En
       <lb facs="#facs_2_region_1684586351621_739_tl_28" n="N030" break="no"/>gelsberg</rs></hi>. „Duftige Jugendzeit, o wie so weit!“ lautet der
       <lb facs="#facs_2_region_1684586351621_739_tl_29" n="N031"/>Refrain, dessen seelenvolle Melodie uns mit leiser sicherer Hand
       <lb facs="#facs_2_region_1684586351621_739_tl_30" n="N032"/>aus dem Gewühl des Tages herausführt und einkehren läßt
@@ -1030,57 +1027,40 @@
             <p prev="true">
       <lb facs="#facs_2_line_1719427286636_1926" n="N001"/>Opernhaus ist) wurden seit seiner Wiedereröffnung am
       <lb facs="#facs_2_region_1684586354718_742_tl_1" n="N002"/><date when="1870-09-01">1. September</date> nur bekannte Vorstellungen wiederholt. Am
-      <lb facs="#facs_2_region_1684586354718_742_tl_2" n="N003"/>ersten Abend („<rs type="bibl">Freischütz</rs>“) begrüßte das Publicum sehr leb
-      <lb facs="#facs_2_line_1719427265846_1914" n="N004" break="no"/>haft Herrn Hofcapellmeister <hi rendition="#em">
-                  <rs type="person">Herbeck</rs></hi> bei seinem Erscheinen
-      <lb facs="#facs_2_region_1684586354718_742_tl_3" n="N005"/>am Dirigentenpult und applaudirte die Sängerinnen <hi rendition="#em">
-                  <rs type="person">Dust
-      <lb facs="#facs_2_region_1684586354718_742_tl_4" n="N006" break="no"/>mann</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Tellheim</rs></hi>. Hierauf brachte 
-                  <rs type="person">Gounod</rs>'s „<rs type="bibl">Faust</rs>“
+      <lb facs="#facs_2_region_1684586354718_742_tl_2" n="N003"/>ersten Abend („<rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>“) begrüßte das Publicum sehr leb
+      <lb facs="#facs_2_line_1719427265846_1914" n="N004" break="no"/>haft Herrn Hofcapellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> bei seinem Erscheinen
+      <lb facs="#facs_2_region_1684586354718_742_tl_3" n="N005"/>am Dirigentenpult und applaudirte die Sängerinnen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_67">Dust
+      <lb facs="#facs_2_region_1684586354718_742_tl_4" n="N006" break="no"/>mann</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_304">Tellheim</rs></hi>. Hierauf brachte <rs type="person" ref="#hsl_person_id_102">Gounod</rs>'s „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“
       <lb facs="#facs_2_region_1684586354718_742_tl_5" n="N007"/>den Opernfreunden die erfreuliche Beruhigung, daß unsere
-      <lb facs="#facs_2_region_1684586354718_742_tl_6" n="N008"/>treffliche <hi rendition="#em">
-                  <rs type="person">Ehnn</rs></hi> die Kraft und den Wohllaut ihrer vordem
+      <lb facs="#facs_2_region_1684586354718_742_tl_6" n="N008"/>treffliche <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4123">Ehnn</rs></hi> die Kraft und den Wohllaut ihrer vordem
       <lb facs="#facs_2_region_1684586354718_742_tl_7" n="N009"/>empfindlich angegriffenen Stimme wieder gewonnen habe.
-      <lb facs="#facs_2_region_1684586354718_742_tl_8" n="N010"/>Meister <hi rendition="#em">
-                  <rs type="person">Beck</rs></hi> hat für sein Wiederauftreten den „<rs type="person">Wilhelm
+      <lb facs="#facs_2_region_1684586354718_742_tl_8" n="N010"/>Meister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> hat für sein Wiederauftreten den „<rs type="person" ref="#hsl_person_id_4650">Wilhelm
       <lb facs="#facs_2_region_1684586354718_742_tl_9" n="N011"/>Tell</rs>“ gewählt und mit dem verdienten großen Erfolg gesungen,
       <lb facs="#facs_2_region_1684586354718_742_tl_10" n="N012"/>welcher von dieser imposanten Leistung wol unzertrennlich ist.
       <lb facs="#facs_2_region_1684586354718_742_tl_11" n="N013"/>Gleichzeitig gastirt im <hi rendition="#em">Carltheater</hi> eine Operngesellschaft,
-      <lb facs="#facs_2_region_1684586354718_742_tl_12" n="N014"/>die förmlich aus allen Ecken <rs type="place">Deutschland</rs>s zusammengeweht ist.</p>
+      <lb facs="#facs_2_region_1684586354718_742_tl_12" n="N014"/>die förmlich aus allen Ecken <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s zusammengeweht ist.</p>
                <p>
-      <lb facs="#facs_2_region_1684586354718_742_tl_13" n="N015"/>Da haben wir Fräulein <hi rendition="#em">
-                  <rs type="person">Rudolff</rs></hi> aus <rs type="place">Schwerin</rs>, Fräu
-      <lb facs="#facs_2_region_1684586354718_742_tl_14" n="N016" break="no"/>lein <hi rendition="#em">
-                  <rs type="person">König</rs></hi> aus <rs type="place">Mainz</rs>, Fräulein <hi rendition="#em">
-                  <rs type="person">Reger</rs></hi> aus <rs type="place">Frankfurt</rs>,
-      <lb facs="#facs_2_line_1719427323185_1956" n="N017"/>Herr <hi rendition="#em">
-                  <rs type="person">Schmidt</rs></hi> aus <rs type="place">Bremen</rs>, Herrn <hi rendition="#em">
-                  <rs type="person">Eppich</rs></hi> aus <rs type="place">Wien</rs>,
-      <lb facs="#facs_2_line_1719427325115_1959" n="N018"/>Herrn <hi rendition="#em">
-                  <rs type="person">Stick</rs></hi> von <rs type="place">Königsberg</rs> und Herrn <hi rendition="#em">
-                  <rs type="person">Wachtel</rs></hi> von
+      <lb facs="#facs_2_region_1684586354718_742_tl_13" n="N015"/>Da haben wir Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3371">Rudolff</rs></hi> aus <rs type="place" ref="#hsl_place_id_507">Schwerin</rs>, Fräu
+      <lb facs="#facs_2_region_1684586354718_742_tl_14" n="N016" break="no"/>lein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5911">König</rs></hi> aus <rs type="place" ref="#hsl_place_id_314">Mainz</rs>, Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5912">Reger</rs></hi> aus <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs>,
+      <lb facs="#facs_2_line_1719427323185_1956" n="N017"/>Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2770">Schmidt</rs></hi> aus <rs type="place" ref="#hsl_place_id_124">Bremen</rs>, Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_91">Eppich</rs></hi> aus <rs type="place" ref="#hsl_place_id_55">Wien</rs>,
+      <lb facs="#facs_2_line_1719427325115_1959" n="N018"/>Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5910">Stick</rs></hi> von <rs type="place" ref="#hsl_place_id_86">Königsberg</rs> und Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_318">Wachtel</rs></hi> von
       <lb facs="#facs_2_region_1684586354718_742_tl_15" n="N019"/>überallher. Letzterer ist natürlich der hellleuchtende Stern
       <lb facs="#facs_2_region_1684586354718_742_tl_16" n="N020"/>erster Größe, welchen die übrigen Sänger als untergeordnete
-      <lb facs="#facs_2_region_1684586354718_742_tl_17" n="N021"/>Himmelskörper bescheiden umgeben. <rs type="person">Wachtel</rs> macht im Carl
+      <lb facs="#facs_2_region_1684586354718_742_tl_17" n="N021"/>Himmelskörper bescheiden umgeben. <rs type="person" ref="#hsl_person_id_318">Wachtel</rs> macht im Carl
       <lb facs="#facs_2_region_1684586354718_742_tl_18" n="N022" break="no"/>theater Furore und volle Häuser. Wir bedauern, daß die
       <lb facs="#facs_2_region_1684586354718_742_tl_19" n="N023"/>Direction des Hofoperntheaters verabsäumt hat, diesen Künst
       <lb facs="#facs_2_region_1684586354718_742_tl_20" n="N024" break="no"/>ler für ein Gastspiel im neuen Opernhause zu gewinnen, in
-      <lb facs="#facs_2_region_1684586354718_742_tl_21" n="N025"/>dessen Räumen eine glänzende Tenorstimme wie die <rs type="person">Wachtel</rs>'s
+      <lb facs="#facs_2_region_1684586354718_742_tl_21" n="N025"/>dessen Räumen eine glänzende Tenorstimme wie die <rs type="person" ref="#hsl_person_id_318">Wachtel</rs>'s
       <lb facs="#facs_2_line_1719427215799_1859" n="N026"/>erst ihre volle Wirkung üben würde. Vielleicht liegt dies im
       <lb facs="#facs_2_region_1684586354718_742_tl_23" n="N027"/>„System“, wie man denn seit Eröffnung des neuen Hauses
-      <lb facs="#facs_2_region_1684586354718_742_tl_24" n="N028"/>auch <hi rendition="#em">
-                  <rs type="person">Niemann</rs></hi>, <hi rendition="#em">
-                        <rs type="person">Sontheim</rs></hi> und (den jetzt in <rs type="place">Prag</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684586354718_742_tl_25" n="N029"/>gastirenden) <hi rendition="#em">
-                  <rs type="person">Nachbaur</rs></hi> ignorirt. Wir müssen uns somit
-      <lb facs="#facs_2_region_1684586354718_742_tl_26" n="N030"/>gratuliren, Herrn <rs type="person">Wachtel</rs> wenigstens im Carltheater zu
-      <lb facs="#facs_2_region_1684586354718_742_tl_27" n="N031"/>hören, dessen rastlos thätiger Director <rs type="person">Ascher</rs> binnen wenigen
+      <lb facs="#facs_2_region_1684586354718_742_tl_24" n="N028"/>auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_194">Niemann</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1807">Sontheim</rs></hi> und (den jetzt in <rs type="place" ref="#hsl_place_id_45">Prag</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684586354718_742_tl_25" n="N029"/>gastirenden) <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2949">Nachbaur</rs></hi> ignorirt. Wir müssen uns somit
+      <lb facs="#facs_2_region_1684586354718_742_tl_26" n="N030"/>gratuliren, Herrn <rs type="person" ref="#hsl_person_id_318">Wachtel</rs> wenigstens im Carltheater zu
+      <lb facs="#facs_2_region_1684586354718_742_tl_27" n="N031"/>hören, dessen rastlos thätiger Director <rs type="person" ref="#hsl_person_id_3902">Ascher</rs> binnen wenigen
       <lb facs="#facs_2_region_1684586354718_742_tl_28" n="N032"/>Monaten bereits die zweite Operngesellschaft glücklich zusammen
-      <lb facs="#facs_2_region_1684586354718_742_tl_29" n="N033" break="no"/>gebracht hat. Gratuliren wir aber vor Allem Herrn <hi rendition="#em">
-                  <rs type="person">Wach
+      <lb facs="#facs_2_region_1684586354718_742_tl_29" n="N033" break="no"/>gebracht hat. Gratuliren wir aber vor Allem Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_318">Wach
       <lb facs="#facs_2_region_1684586354718_742_tl_30" n="N034" break="no"/>tel</rs></hi> selbst zu seiner beneidenswerthen, unverwüstlich scheinenden
-      <lb facs="#facs_2_region_1684586354718_742_tl_31" n="N035"/>Jugend. Wer ihn als <rs type="person">Postillon</rs> von <rs type="place">Lonjumeau</rs> sieht, so
+      <lb facs="#facs_2_region_1684586354718_742_tl_31" n="N035"/>Jugend. Wer ihn als <rs type="person" ref="#hsl_person_id_5584">Postillon</rs> von Lonjumeau sieht, so
       <lb facs="#facs_2_line_1719427190495_1848" n="N036"/>schlank, lebhaft und schmuck, mit dem frischen, klaren Blick<space quantity="1" unit="char"/></p>
             <cb n="6"/>
             <p prev="true">
@@ -1088,37 +1068,34 @@
       <lb facs="#facs_2_region_1684586361569_745_tl_2" n="N002"/>der glaubt nimmermehr, ein patriarchalisches Familienhaupt
       <lb facs="#facs_2_region_1684586361569_745_tl_3" n="N003"/>von zehn Kindern (drei davon stehen vor dem Feinde) und
       <lb facs="#facs_2_line_1719427268733_1917" n="N004"/>fünf Enkeln vor sich zu haben. Das ist geradazu ein Phäno
-      <lb facs="#facs_2_region_1684586361569_745_tl_5" n="N005" break="no"/>men, ein ganz anderes als <rs type="person">Sontheim</rs>, der sich zwar auch
+      <lb facs="#facs_2_region_1684586361569_745_tl_5" n="N005" break="no"/>men, ein ganz anderes als <rs type="person" ref="#hsl_person_id_1807">Sontheim</rs>, der sich zwar auch
       <lb facs="#facs_2_region_1684586361569_745_tl_6" n="N006"/>Stimmkraft und Feuer des Vortrages merkwürdig conservirt
       <lb facs="#facs_2_region_1684586361569_745_tl_7" n="N007"/>hat, dessen Erscheinung aber doch schon jeder poetischen Illu
-      <lb facs="#facs_2_region_1684586361569_745_tl_8" n="N008" break="no"/>sion Hohn spricht. <rs type="person">Sontheim</rs> ist der Sänger von tieferer Em
+      <lb facs="#facs_2_region_1684586361569_745_tl_8" n="N008" break="no"/>sion Hohn spricht. <rs type="person" ref="#hsl_person_id_1807">Sontheim</rs> ist der Sänger von tieferer Em
       <lb facs="#facs_2_region_1684586361569_745_tl_9" n="N009" break="no"/>pfindung und intensiveren dramatischen Talente, daher im
       <lb facs="#facs_2_region_1684586361569_745_tl_10" n="N010"/>Vortrage heroischer und tragischer Scenen meistens überzeu
-      <lb facs="#facs_2_region_1684586361569_745_tl_11" n="N011" break="no"/>gender als <rs type="person">Wachtel</rs>; allein die Zeit hat ihn „fett und
-      <lb facs="#facs_2_region_1684586361569_745_tl_12" n="N012"/>kurzatmig“ gemacht wie <rs type="person">Hamlet</rs>, so daß er in jugendlich
-      <lb facs="#facs_2_region_1684586361569_745_tl_13" n="N013" break="no"/>heiteren, eleganten Rollen, wie <rs type="person">Chapelon</rs> und <rs type="person">George Brown</rs>,
+      <lb facs="#facs_2_region_1684586361569_745_tl_11" n="N011" break="no"/>gender als <rs type="person" ref="#hsl_person_id_318">Wachtel</rs>; allein die Zeit hat ihn „fett und
+      <lb facs="#facs_2_region_1684586361569_745_tl_12" n="N012"/>kurzatmig“ gemacht wie <rs type="person" ref="#hsl_person_id_551">Hamlet</rs>, so daß er in jugendlich
+      <lb facs="#facs_2_region_1684586361569_745_tl_13" n="N013" break="no"/>heiteren, eleganten Rollen, wie <rs type="person" ref="#hsl_person_id_5584">Chapelou</rs> und <rs type="person" ref="#hsl_person_id_2277">George Brown</rs>,
       <lb facs="#facs_2_region_1684586361569_745_tl_14" n="N014"/>eine unbeabsichtigte komische Wirkung hervorbringt. Um
-      <lb facs="#facs_2_region_1684586361569_745_tl_15" n="N015"/><hi rendition="#em">
-                  <rs type="person">Wachtel</rs>'s</hi> Stimme, Erscheinung und Beweglichkeit hin
+      <lb facs="#facs_2_region_1684586361569_745_tl_15" n="N015"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_318">Wachtel</rs>'s</hi> Stimme, Erscheinung und Beweglichkeit hin
       <lb facs="#facs_2_region_1684586361569_745_tl_16" n="N016" break="no"/>gegen können diesen seine jüngsten Collegen beneiden. Von
-      <lb facs="#facs_2_region_1684586361569_745_tl_17" n="N017"/>
-               <rs type="person">Wachtel</rs>'s <rs type="person">Postillon</rs> waren wir überrascht, so oft wir auch
+      <lb facs="#facs_2_region_1684586361569_745_tl_17" n="N017"/><rs type="person" ref="#hsl_person_id_318">Wachtel</rs>'s <rs type="person" ref="#hsl_person_id_5584">Postillon</rs> waren wir überrascht, so oft wir auch
       <lb facs="#facs_2_region_1684586361569_745_tl_18" n="N018"/>die Rolle in früheren Jahren von ihm gehört. Es ist eine
       <lb facs="#facs_2_region_1684586361569_745_tl_19" n="N019"/>vollendete Gesangsleistung und eine Charakterfigur von un
       <lb facs="#facs_2_region_1684586361569_745_tl_20" n="N020" break="no"/>übertrefflicher Frische und Wahrheit. An diesem ersten Abend
       <lb facs="#facs_2_region_1684586361569_745_tl_21" n="N021"/>klang seine Stimme so schön und kräftig, wie vor zehn Jah
-      <lb facs="#facs_2_region_1684586361569_745_tl_22" n="N022" break="no"/>ren. Man hätte nicht vermuthet, daß Herr <rs type="person">Wachtel</rs> bereits
+      <lb facs="#facs_2_region_1684586361569_745_tl_22" n="N022" break="no"/>ren. Man hätte nicht vermuthet, daß Herr <rs type="person" ref="#hsl_person_id_318">Wachtel</rs> bereits
       <lb facs="#facs_2_region_1684586361569_745_tl_23" n="N023"/>mit den Vorboten einer Grippe kämpfte, welche sich seitdem
       <lb facs="#facs_2_region_1684586361569_745_tl_24" n="N024"/>förmlich etablirt und dem Sänger die Durchführung als
-      <lb facs="#facs_2_region_1684586361569_745_tl_25" n="N025"/>
-               <rs type="person">George Brown</rs> in der „<rs type="bibl">Weißen Frau</rs>“ sehr erschwerth hat.
+      <lb facs="#facs_2_region_1684586361569_745_tl_25" n="N025"/><rs type="person" ref="#hsl_person_id_2277">George Brown</rs> in der „<rs type="bibl" ref="#hsl_work_id_1361">Weißen Frau</rs>“ sehr erschwerth hat.
       <lb facs="#facs_2_line_1719427220026_1862" n="N026"/>Wir hoffen ihn demnächst wieder im Vollbesitze seiner schönen
       <lb facs="#facs_2_region_1684586361569_745_tl_26" n="N027"/>Mittel zu hören. In der künstlerischen Ausbildung der
-      <lb facs="#facs_2_region_1684586361569_745_tl_27" n="N028"/>letzteren hat Herr <rs type="person">Wachtel</rs> seit seinem letzten Aufenthalte in
-      <lb facs="#facs_2_region_1684586361569_745_tl_28" n="N029"/><rs type="place">Wien</rs> große Fortschritte gemacht. Zu seinem eisernen Fleiße
+      <lb facs="#facs_2_region_1684586361569_745_tl_27" n="N028"/>letzteren hat Herr <rs type="person" ref="#hsl_person_id_318">Wachtel</rs> seit seinem letzten Aufenthalte in
+      <lb facs="#facs_2_region_1684586361569_745_tl_28" n="N029"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> große Fortschritte gemacht. Zu seinem eisernen Fleiße
       <lb facs="#facs_2_region_1684586361569_745_tl_29" n="N030"/>gesellte sich noch wohlthätig der Einfluß des alljährlichen
-      <lb facs="#facs_2_region_1684586361569_745_tl_30" n="N031"/>Zusammenwirkens mit den besten <rs type="place">italienisch</rs>en Sängern in
-      <lb facs="#facs_2_region_1684586361569_745_tl_31" n="N032"/><rs type="place">London</rs>. Seine Gesangstechnik muß jetzt außerordentlich ge
+      <lb facs="#facs_2_region_1684586361569_745_tl_30" n="N031"/>Zusammenwirkens mit den besten <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Sängern in
+      <lb facs="#facs_2_region_1684586361569_745_tl_31" n="N032"/><rs type="place" ref="#hsl_place_id_34">London</rs>. Seine Gesangstechnik muß jetzt außerordentlich ge
       <lb facs="#facs_2_region_1684586361569_745_tl_32" n="N033" break="no"/>nannt werden, in der Oekonomie des Athems, der Register-
       <lb facs="#facs_2_region_1684586361569_745_tl_33" n="N034"/>Verbindung, in der Behandlung des mezzavoce und pia
       <lb facs="#facs_2_line_1719427233109_1869" n="N035" break="no"/>nissimo, vor Allem in der Leichtigkeit und Zierlichkeit der
@@ -1127,19 +1104,19 @@
             <cb n="7"/>
             <p prev="true">
       <lb facs="#facs_3_region_1684586376863_751_tl_1" n="N001"/>Verzierungen der Täubchen-Romanze im zweiten Acte des
-      <lb facs="#facs_3_region_1684586376863_751_tl_2" n="N002"/>„<rs type="bibl">Postillon</rs>“ mahnen an feinstes Spitzengewebe. Neben so
+      <lb facs="#facs_3_region_1684586376863_751_tl_2" n="N002"/>„<rs type="bibl" ref="#hsl_work_id_587">Postillon</rs>“ mahnen an feinstes Spitzengewebe. Neben so
       <lb facs="#facs_3_region_1684586376863_751_tl_3" n="N003"/>zarter Behandlung des Details wirkt in den Kraftstellen die
       <lb facs="#facs_3_region_1684586376863_751_tl_4" n="N004"/>schmetternde Gewalt und Fülle seiner hohen Brusttöne noch
-      <lb facs="#facs_3_region_1684586376863_751_tl_5" n="N005"/>einmal so mächtig und überraschend. <rs type="person">Wachtel</rs>'s Gesang nimmt
+      <lb facs="#facs_3_region_1684586376863_751_tl_5" n="N005"/>einmal so mächtig und überraschend. <rs type="person" ref="#hsl_person_id_318">Wachtel</rs>'s Gesang nimmt
       <lb facs="#facs_3_region_1684586376863_751_tl_6" n="N006"/>unwiderstehlich die ganze Sinnlichkeit des Hörers gefangen.
       <lb facs="#facs_3_region_1684586376863_751_tl_7" n="N007"/>Was wir an ihm vermissen, ist die Tiefe und Wahrheit der
       <lb facs="#facs_3_region_1684586376863_751_tl_8" n="N008"/>Empfindung, ein Mangel, der allerdings in übermüthig hei
-      <lb facs="#facs_3_region_1684586376863_751_tl_9" n="N009" break="no"/>teren Partien, wie der „<rs type="bibl">Postillon</rs>“, nahezu unbemerkt bleibt.
+      <lb facs="#facs_3_region_1684586376863_751_tl_9" n="N009" break="no"/>teren Partien, wie der „<rs type="bibl" ref="#hsl_work_id_587">Postillon</rs>“, nahezu unbemerkt bleibt.
       <lb facs="#facs_3_line_1719427418217_2050" n="N010"/>Auch verleitet ihn die Freude an der eigenen Virtuosität zu
       <lb facs="#facs_3_line_1719427426154_2058" n="N011" break="no"/>weilen zu Verzierungen, welche nicht vom besten Geschmack
-      <lb facs="#facs_3_region_1684586376863_751_tl_12" n="N012"/>sind, wie die Kehlspielereien im Refrain des <rs type="person">Postillon</rs>-Liedes,
+      <lb facs="#facs_3_region_1684586376863_751_tl_12" n="N012"/>sind, wie die Kehlspielereien im Refrain des <rs type="person" ref="#hsl_person_id_5584">Postillon</rs>-Liedes,
       <lb facs="#facs_3_region_1684586376863_751_tl_13" n="N013"/>der zweimalige Triller in „Komm, o weiße Dame“ u. dgl.
-      <lb facs="#facs_3_region_1684586376863_751_tl_14" n="N014"/>Wir freuen uns, Herrn <rs type="person">Wachtel</rs> demnächst noch in neuen
+      <lb facs="#facs_3_region_1684586376863_751_tl_14" n="N014"/>Wir freuen uns, Herrn <rs type="person" ref="#hsl_person_id_318">Wachtel</rs> demnächst noch in neuen
       <lb facs="#facs_3_region_1684586376863_751_tl_15" n="N015"/>Rollen und von neuen Seiten kennen zu lernen; sein Erfolg
       <lb facs="#facs_3_region_1684586376863_751_tl_16" n="N016"/>wird noch auf lange hinaus der alte bleiben.</p>
          </div>
