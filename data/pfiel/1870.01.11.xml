@@ -107,6 +107,7 @@
          <change who="kbamer ampfiel" when="2024-07-03">Transkribus OCR und Lektorat.</change>
             <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
             <change when="2024-10-03" who="ampfiel">lb, p, head, space</change>
+            <change when="2024-10-29" who="ampfiel">fill rs ref</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1008,7 +1009,7 @@
       <head type="h1">
             <lb facs="#facs_1_region_1684587921262_1316_tl_1" n="N001"/>Concerte.</head>
       <head type="h2">
-            <lb facs="#facs_1_line_1719307772949_10" n="N002"/>(Gesellschaftsconcert im neuen Musikvereinssaale. — Clara <rs type="person">Schumann</rs>. Florentiner
+            <lb facs="#facs_1_line_1719307772949_10" n="N002"/>(Gesellschaftsconcert im neuen Musikvereinssaale. — Clara <rs type="person" ref="#hsl_person_id_281">Schumann</rs>. Florentiner
             <lb facs="#facs_1_line_1719307775909_13" n="N003"/>Quartett. Philharmonisches Concert.)</head>
             <p>      
       <lb facs="#facs_1_region_1684587921262_1316_tl_4" n="N004"/>Ed. H. Das bedeutendste musikalische Ereigniß — nicht
@@ -1030,8 +1031,7 @@
       <lb facs="#facs_1_region_1684587921262_1316_tl_19" n="N020"/>Ausrufes. Die Schönheiten des neuen Gebäudes von Innen
       <lb facs="#facs_1_region_1684587921262_1316_tl_20" n="N021"/>und Außen sind bereits von kundigerer Hand beschrieben. Ich
       <lb facs="#facs_1_region_1684587921262_1316_tl_21" n="N022"/>bin zu sehr Laie in der Architektur, als daß ich mich unter
-      <lb facs="#facs_1_region_1684587921262_1316_tl_22" n="N023" break="no"/>stehen sollte, Meister <hi rendition="#em">
-                  <rs type="person">Hansen</rs></hi> zu rühmen; mein Lob wäre
+      <lb facs="#facs_1_region_1684587921262_1316_tl_22" n="N023" break="no"/>stehen sollte, Meister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3283">Hansen</rs></hi> zu rühmen; mein Lob wäre
       <lb facs="#facs_1_region_1684587921262_1316_tl_23" n="N024"/>kaum ein Sandkorn zu dem stolzen Ruhmeshügel, den das
       <lb facs="#facs_1_region_1684587921262_1316_tl_24" n="N025"/>Urtheil der Kenner wie der Genießenden dem gefeierten Bau
       <lb facs="#facs_1_region_1684587921262_1316_tl_25" n="N026" break="no"/>künstler errichtet hat. Der Gedanke, daß hingegen auch ein
@@ -1063,7 +1063,7 @@
       <lb facs="#facs_1_region_1684587924077_1319_tl_18" n="N018" break="no"/>rativen Luxus, um so mehr auf die Größe der Dimensionen,
       <lb facs="#facs_1_region_1684587924077_1319_tl_19" n="N019"/>welche auch unbemittelten Hörern den Genuß guter Musik er
       <lb facs="#facs_1_region_1684587924077_1319_tl_20" n="N020" break="no"/>möglicht. Man denke an St. James-Hall und Exeter-Hall in
-      <lb facs="#facs_1_region_1684587924077_1319_tl_21" n="N021"/><rs type="place">London</rs>. Durch die goldenen Hermen zu beiden Seiten des
+      <lb facs="#facs_1_region_1684587924077_1319_tl_21" n="N021"/><rs type="place" ref="#hsl_place_id_34">London</rs>. Durch die goldenen Hermen zu beiden Seiten des
       <lb facs="#facs_1_region_1684587924077_1319_tl_22" n="N022"/>Parterres geht viel Raum verloren und erscheint der Saal
       <lb facs="#facs_1_region_1684587924077_1319_tl_23" n="N023"/>überdies kleiner, als er thatsächlich ist. Eine vollständig um
       <lb facs="#facs_1_region_1684587924077_1319_tl_24" n="N024"/>den Saal laufende zweite Galerie wäre vom prak
@@ -1075,7 +1075,7 @@
       <lb facs="#facs_1_region_1684587924077_1319_tl_30" n="N030"/>als zu Einem Gulden in diesem Prachtsaale angebracht wäre,
       <lb facs="#facs_1_region_1684587924077_1319_tl_31" n="N031"/>was bei der gegenwärtigen Disposition nicht thunlich ist. Man
       <lb facs="#facs_1_region_1684587924077_1319_tl_32" n="N032"/>schien eben äußere Schönheit und Eleganz vor Allem anzu
-      <lb facs="#facs_1_region_1684587924077_1319_tl_33" n="N033" break="no"/>streben, und diese Vorzüge besitzt <rs type="person">Hansen</rs>'s Saal in hohem
+      <lb facs="#facs_1_region_1684587924077_1319_tl_33" n="N033" break="no"/>streben, und diese Vorzüge besitzt <rs type="person" ref="#hsl_person_id_3283">Hansen</rs>'s Saal in hohem
       <lb facs="#facs_1_region_1684587924077_1319_tl_34" n="N034"/>Grade. Er besitzt noch einen anderen, musikalisch wichtigeren:
       <lb facs="#facs_1_line_1719307870158_86" n="N035"/>eine gute Akustik. Obwol man an jede fremde Akustik sich im<space quantity="1" unit="char"/></p>
             <cb n="3"/>
@@ -1086,13 +1086,12 @@
       <lb facs="#facs_1_region_1684587927824_1322_tl_4" n="N004"/>zurück; man wird, besondere Anlässe ausgenommen, keine allzu
       <lb facs="#facs_1_region_1684587927824_1322_tl_5" n="N005"/>starke Orchester-Besetzung nöthig haben. Am schönsten entfaltete
       <lb facs="#facs_1_region_1684587927824_1322_tl_6" n="N006"/>sich der Klang der Singstimmen, er wirkte bezaubernd in dem
-      <lb facs="#facs_1_region_1684587927824_1322_tl_7" n="N007"/>
-               <rs type="person">Schubert</rs>'schen Chore: „<rs type="bibl">Der Friede sei mit euch</rs>.“ Im Orchester
+      <lb facs="#facs_1_region_1684587927824_1322_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_278">Schubert</rs>'schen Chore: „<rs type="bibl" ref="#hsl_work_id_4008">Der Friede sei mit euch</rs>.“ Im Orchester
       <lb facs="#facs_1_region_1684587927824_1322_tl_8" n="N008"/>läßt der Ton der Violinen wie der Bläser kaum etwas zu wünschen;
       <lb facs="#facs_1_region_1684587927824_1322_tl_9" n="N009"/>nur die Celli und Basse wurden in den tieferen Lagen und
       <lb facs="#facs_1_region_1684587927824_1322_tl_10" n="N010"/>in figurirten Stellen nicht recht deutlich, womit keineswegs
       <lb facs="#facs_1_region_1684587927824_1322_tl_11" n="N011"/>der dreimalige Bajonnet-Angriff der Contrabasse in dem
-      <lb facs="#facs_1_region_1684587927824_1322_tl_12" n="N012"/>Scherzo der <rs type="bibl">C-moll-Symphonie</rs> gemeint sein soll — eine Stelle,
+      <lb facs="#facs_1_region_1684587927824_1322_tl_12" n="N012"/>Scherzo der <rs type="bibl" ref="#hsl_work_id_278">C-moll-Symphonie</rs> gemeint sein soll — eine Stelle,
       <lb facs="#facs_1_region_1684587927824_1322_tl_13" n="N013"/>die, von zwölf Bässen gespielt, in keinem Saale der Welt
       <lb facs="#facs_1_region_1684587927824_1322_tl_14" n="N014"/>deutlich werden kann. Da muß von jeher die Einbildungs
       <lb facs="#facs_1_region_1684587927824_1322_tl_15" n="N015" break="no"/>kraft und das mitsingende Gedächtniß im Hörer ein wenig
@@ -1115,27 +1114,26 @@
       <lb facs="#facs_1_region_1684587927824_1322_tl_32" n="N032"/>störend, daß lediglich die Gewohnheit ihn erträglich macht
       <lb facs="#facs_1_region_1684587927824_1322_tl_33" n="N033"/>und er dies zu sein aufhört, sobald wir den richtigen Gegen
       <lb facs="#facs_1_region_1684587927824_1322_tl_34" n="N034" break="no"/>satz aus eigener Anschauung kennen gelernt haben, wie in der
-      <lb facs="#facs_1_region_1684587927824_1322_tl_35" n="N035"/><rs type="place">München</rs>er Oper. Mit der Tieferlegung des Opern-Orchesters<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_1_region_1684587927824_1322_tl_35" n="N035"/><rs type="place" ref="#hsl_place_id_39">München</rs>er Oper. Mit der Tieferlegung des Opern-Orchesters<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684587939102_1328_tl_1" n="N001"/>hat die <rs type="place">München</rs>er Theater-Direction eine so echt künstlerische
+      <lb facs="#facs_2_region_1684587939102_1328_tl_1" n="N001"/>hat die <rs type="place" ref="#hsl_place_id_39">München</rs>er Theater-Direction eine so echt künstlerische
       <lb facs="#facs_2_region_1684587939102_1328_tl_2" n="N002"/>Idee durchgeführt, ein so preiswürdiges Beispiel gegeben,
-      <lb facs="#facs_2_line_1719307902579_94" n="N003"/>daß ihr alle „ <rs type="bibl">Rheingold</rs>“-Sünden dafür verziehen sind.
-      <lb facs="#facs_2_line_1719307914310_99" n="N004"/>Das „<rs type="bibl">Rheingold</rs>“ ist vergangen, aber das vertiefte Orchester
-      <lb facs="#facs_2_region_1684587939102_1328_tl_7" n="N005"/>ist geblieben, nicht blos im Dienste <rs type="person">Wagner</rs>'scher Musik, son
+      <lb facs="#facs_2_line_1719307902579_94" n="N003"/>daß ihr alle „ <rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“-Sünden dafür verziehen sind.
+      <lb facs="#facs_2_line_1719307914310_99" n="N004"/>Das „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“ ist vergangen, aber das vertiefte Orchester
+      <lb facs="#facs_2_region_1684587939102_1328_tl_7" n="N005"/>ist geblieben, nicht blos im Dienste <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'scher Musik, son
       <lb facs="#facs_2_region_1684587939102_1328_tl_8" n="N006" break="no"/>dern zum höchsten Vortheil aller dramatischen Werke. Nur
-      <lb facs="#facs_2_region_1684587939102_1328_tl_9" n="N007"/>im <rs type="place">München</rs>er Opernhause wird dem Zuschauer die volle
+      <lb facs="#facs_2_region_1684587939102_1328_tl_9" n="N007"/>im <rs type="place" ref="#hsl_place_id_39">München</rs>er Opernhause wird dem Zuschauer die volle
       <lb facs="#facs_2_region_1684587939102_1328_tl_10" n="N008"/>Illusion, weil er über die unsichtbaren Orchesterspieler hinweg
       <lb facs="#facs_2_region_1684587939102_1328_tl_11" n="N009"/>ungestört die ganze Bühne überblickt; nur dort wird dem
       <lb facs="#facs_2_region_1684587939102_1328_tl_12" n="N010"/>Sänger der ihm in der Oper gebührende Vorrang vor dem
       <lb facs="#facs_2_region_1684587939102_1328_tl_13" n="N011"/>Orchester, der Sieg über den modernen Instrumentenlärm.
-      <lb facs="#facs_2_region_1684587939102_1328_tl_14" n="N012"/>Nach dem Verschwinden des „<rs type="bibl">Rheingold</rs>“ vom <rs type="place">München</rs>er Re
+      <lb facs="#facs_2_region_1684587939102_1328_tl_14" n="N012"/>Nach dem Verschwinden des „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“ vom <rs type="place" ref="#hsl_place_id_39">München</rs>er Re
       <lb facs="#facs_2_region_1684587939102_1328_tl_15" n="N013" break="no"/>pertoire wurde zwar in einige Zeitungen die Nachricht ge
       <lb facs="#facs_2_region_1684587939102_1328_tl_16" n="N014" break="no"/>schwärzt, man habe das Orchester wieder „hoch zu Roß“ auf
       <lb facs="#facs_2_region_1684587939102_1328_tl_17" n="N015"/>sein ehemaliges Podium erhoben; sie ist, wie mir ein Brief
-      <lb facs="#facs_2_region_1684587939102_1328_tl_18" n="N016"/>des Capellmeisters <hi rendition="#em">
-                  <rs type="person">Wüllner</rs></hi> versichert, vollständig irrig.
+      <lb facs="#facs_2_region_1684587939102_1328_tl_18" n="N016"/>des Capellmeisters <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1695">Wüllner</rs></hi> versichert, vollständig irrig.
       <lb facs="#facs_2_region_1684587939102_1328_tl_19" n="N017"/>Wahrscheinlich ging dieser Fühler von selbstgefälligen Orchester
       <lb facs="#facs_2_region_1684587939102_1328_tl_20" n="N018" break="no"/>mitgliedern aus, welche um jeden Preis gesehen sein wollen
       <lb facs="#facs_2_region_1684587939102_1328_tl_21" n="N019"/>— ein begreifliches, aber keineswegs rühmliches Motiv, wel
@@ -1150,42 +1148,34 @@
       <lb facs="#facs_2_region_1684587939102_1328_tl_28" n="N027"/>Das Programm des Eröffnungsconcertes ging von dem
       <lb facs="#facs_2_region_1684587939102_1328_tl_29" n="N028"/>Grundgedanken einer Repräsentation jener großen Meister aus,
       <lb facs="#facs_2_region_1684587939102_1328_tl_30" n="N029"/>welche durch Geburt oder Ansässigkeit ein theurer Besitz <hi rendition="#em">
-                  <rs type="place">Wien</rs>'s</hi>
-      <lb facs="#facs_2_region_1684587939102_1328_tl_31" n="N030"/>geworden: <rs type="person">Haydn</rs>, <rs type="person">Mozart</rs>, <rs type="person">Beethoven</rs> und 
-                     <rs type="person">Schubert</rs>. Nur
-      <lb facs="#facs_2_region_1684587939102_1328_tl_32" n="N031"/>mit Einer Nummer (<rs type="bibl">Adagio für Violine</rs> von Seb. <hi rendition="#em">
-                  <rs type="person">Bach</rs></hi>)
-      <lb facs="#facs_2_region_1684587939102_1328_tl_33" n="N032"/>entfernte man sich, wahrscheinlich Herrn <rs type="person">Hellmesberger</rs> zu
+                  <rs type="place" ref="#hsl_place_id_55">Wien</rs>'s</hi>
+      <lb facs="#facs_2_region_1684587939102_1328_tl_31" n="N030"/>geworden: <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> und <rs type="person" ref="#hsl_person_id_278">Schubert</rs>. Nur
+      <lb facs="#facs_2_region_1684587939102_1328_tl_32" n="N031"/>mit Einer Nummer (<rs type="bibl" ref="#hsl_work_id_4011">Adagio für Violine</rs> von Seb. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_18">Bach</rs></hi>)
+      <lb facs="#facs_2_region_1684587939102_1328_tl_33" n="N032"/>entfernte man sich, wahrscheinlich Herrn <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs> zu
       <lb facs="#facs_2_region_1684587939102_1328_tl_34" n="N033"/>liebe, von diesem Principe; der Platz hatte an dem Tage
-      <lb facs="#facs_2_region_1684587939102_1328_tl_35" n="N034"/>jedenfalls <hi rendition="#em">
-                  <rs type="person">Gluck</rs></hi> gebührt. Die Ausführung glänzte durch
-      <lb facs="#facs_2_line_1719307975959_129" n="N035"/>Schwung und Präcision; Hofcapellmeister <hi rendition="#em">
-            <rs type="person">Herbeck</rs></hi> digirite<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_2_region_1684587939102_1328_tl_35" n="N034"/>jedenfalls <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi> gebührt. Die Ausführung glänzte durch
+      <lb facs="#facs_2_line_1719307975959_129" n="N035"/>Schwung und Präcision; Hofcapellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> digirite<space quantity="1" unit="char"/></p>
             <cb n="5"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1719307934897_107" n="N001"/>mit wahrhaft begeisterter Energie die „<rs type="bibl">Egmont</rs>“-Ouvertüre
-      <lb facs="#facs_2_region_1684587942348_1331_tl_2" n="N002"/>und <rs type="bibl">C-moll-Symphonie</rs> von <rs type="person">Beethoven</rs>. Unter seiner Lei
+      <lb facs="#facs_2_line_1719307934897_107" n="N001"/>mit wahrhaft begeisterter Energie die „<rs type="bibl" ref="#hsl_work_id_743">Egmont</rs>“-<rs type="bibl" ref="#hsl_work_id_21">Ouvertüre</rs>
+      <lb facs="#facs_2_region_1684587942348_1331_tl_2" n="N002"/>und <rs type="bibl" ref="#hsl_work_id_278">C-moll-Symphonie</rs> von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>. Unter seiner Lei
       <lb facs="#facs_2_region_1684587942348_1331_tl_3" n="N003" break="no"/>tung feierte auch der bewährte „Singverein“ der Gesellschaft
       <lb facs="#facs_2_region_1684587942348_1331_tl_4" n="N004"/>der Musikfreunde einen Triumph mit dem Vortrage zweier
-      <lb facs="#facs_2_region_1684587942348_1331_tl_5" n="N005"/><rs type="bibl">Chöre</rs> von <hi rendition="#em">
-                  <rs type="person">Haydn</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Schubert</rs></hi>. Herr <hi rendition="#em">
-                  <rs type="person">Walter</rs></hi> end
-      <lb facs="#facs_2_region_1684587942348_1331_tl_6" n="N006" break="no"/>lich sang die B-dur-Arie aus <rs type="person">Mozart</rs>'s „<rs type="bibl">Entführung</rs>“ ebenso
+      <lb facs="#facs_2_region_1684587942348_1331_tl_5" n="N005"/>Chöre von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_278">Schubert</rs></hi>. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi> end
+      <lb facs="#facs_2_region_1684587942348_1331_tl_6" n="N006" break="no"/>lich sang die B-dur-Arie aus <rs type="person" ref="#hsl_person_id_189">Mozart</rs>'s „<rs type="bibl" ref="#hsl_work_id_1292">Entführung</rs>“ ebenso
       <lb facs="#facs_2_region_1684587942348_1331_tl_7" n="N007"/>stylgemäß als seelenvoll. Das Eröffnungsconcert wurde Sonn
       <lb facs="#facs_2_region_1684587942348_1331_tl_8" n="N008" break="no"/>tag am <date when="1970-01-09">9. Januar</date> mit unverändertem Programme wieder
-      <lb facs="#facs_2_region_1684587942348_1331_tl_9" n="N009" break="no"/>holt. Eine einzige Nummer war neu hinzugekommen: <rs type="person">Or
+      <lb facs="#facs_2_region_1684587942348_1331_tl_9" n="N009" break="no"/>holt. Eine einzige Nummer war neu hinzugekommen: <rs type="person" ref="#hsl_person_id_637">Or
       <lb facs="#facs_2_region_1684587942348_1331_tl_10" n="N010" break="no"/>pheus</rs>' berühmte Arie: „Che farò senza Euridice.“ Eine
       <lb facs="#facs_2_region_1684587942348_1331_tl_11" n="N011"/>hier noch unbekannte Sängerin von gutem künstlerischen Rufe,
-      <lb facs="#facs_2_region_1684587942348_1331_tl_12" n="N012"/>Fräulein Henriette <hi rendition="#em">
-                  <rs type="person">Burenne</rs></hi>, sang dieselbe mit schöner,
+      <lb facs="#facs_2_region_1684587942348_1331_tl_12" n="N012"/>Fräulein Henriette <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5819">Burenne</rs></hi>, sang dieselbe mit schöner,
       <lb facs="#facs_2_region_1684587942348_1331_tl_13" n="N013"/>kraftvoller Altstimme, leider jedoch consequent zu hoch. Fräu
-      <lb facs="#facs_2_region_1684587942348_1331_tl_14" n="N014" break="no"/>lein <rs type="person">Burenne</rs> soll im nächsten Philharmonie-Concerte mitwirken, wo
+      <lb facs="#facs_2_region_1684587942348_1331_tl_14" n="N014" break="no"/>lein <rs type="person" ref="#hsl_person_id_5819">Burenne</rs> soll im nächsten Philharmonie-Concerte mitwirken, wo
       <lb facs="#facs_2_region_1684587942348_1331_tl_15" n="N015"/>sie, hoffentlich minder befangen, ein sichereres Urtheil zulassen wird.
-      <lb facs="#facs_2_region_1684587942348_1331_tl_16" n="N016"/>Die <rs type="person">Orpheus</rs>-Arie, von <rs type="person">Gluck</rs> mit „Vivace con disperazione“
+      <lb facs="#facs_2_region_1684587942348_1331_tl_16" n="N016"/>Die <rs type="person" ref="#hsl_person_id_637">Orpheus</rs>-Arie, von <rs type="person" ref="#hsl_person_id_99">Gluck</rs> mit „Vivace con disperazione“
       <lb facs="#facs_2_region_1684587942348_1331_tl_17" n="N017"/>bezeichnet, wurde im Gesellschaftsconcert entschieden zu lang
       <lb facs="#facs_2_region_1684587942348_1331_tl_18" n="N018" break="no"/>sam genommen. Eine neue, manchem Zuhörer noch räthsel
-      <lb facs="#facs_2_region_1684587942348_1331_tl_19" n="N019" break="no"/>hafte Zierde des <rs type="person">Hansen</rs>'schen Concertsaales ist der stattliche
+      <lb facs="#facs_2_region_1684587942348_1331_tl_19" n="N019" break="no"/>hafte Zierde des <rs type="person" ref="#hsl_person_id_3283">Hansen</rs>'schen Concertsaales ist der stattliche
       <lb facs="#facs_2_region_1684587942348_1331_tl_20" n="N020"/>Orgelkasten, welcher, von goldenen Hermen getragen, mit
       <lb facs="#facs_2_region_1684587942348_1331_tl_21" n="N021"/>einem griechischen Tempelgiebel gekrönt, sich hinter dem Orche
       <lb facs="#facs_2_line_1719307960077_121" n="N022" break="no"/>ster erhebt. Das malerische Gehäuse harrt noch seines In
@@ -1193,19 +1183,18 @@
       <lb facs="#facs_2_region_1684587942348_1331_tl_24" n="N024"/>hoffen, mustergiltig, wird sie eine eigenthümliche Lücke in un
       <lb facs="#facs_2_region_1684587942348_1331_tl_25" n="N025" break="no"/>serem Musikleben zum erstenmale ausfüllen. Nicht blos durch
       <lb facs="#facs_2_region_1684587942348_1331_tl_26" n="N026"/>ihre nächste Bestimmung als Begleitungs- und Füllstimme in
-      <lb facs="#facs_2_region_1684587942348_1331_tl_27" n="N027"/>den Oratorien von <rs type="person">Händel</rs> und <rs type="person">Bach</rs>, sondern auch als Solo-
+      <lb facs="#facs_2_region_1684587942348_1331_tl_27" n="N027"/>den Oratorien von <rs type="person" ref="#hsl_person_id_108">Händel</rs> und <rs type="person" ref="#hsl_person_id_18">Bach</rs>, sondern auch als Solo-
       <lb facs="#facs_2_region_1684587942348_1331_tl_28" n="N028"/>Instrument. Eine Lücke in unserem sonst so reichen Musik
-      <lb facs="#facs_2_region_1684587942348_1331_tl_29" n="N029" break="no"/>leben nennen wir es, daß <rs type="place">Wien</rs> keine Orgel-Concerte kennt.
+      <lb facs="#facs_2_region_1684587942348_1331_tl_29" n="N029" break="no"/>leben nennen wir es, daß <rs type="place" ref="#hsl_place_id_55">Wien</rs> keine Orgel-Concerte kennt.
       <lb facs="#facs_2_region_1684587942348_1331_tl_30" n="N030"/>Eines der kostbarsten Blätter der classischen Musik-Literatur,
-      <lb facs="#facs_2_region_1684587942348_1331_tl_31" n="N031"/>die Orgel-Compositionen von <rs type="person">Bach</rs>, 
-                  <rs type="person">Händel</rs>, <rs type="person">Mendelssohn</rs>, ist
+      <lb facs="#facs_2_region_1684587942348_1331_tl_31" n="N031"/>die Orgel-Compositionen von <rs type="person" ref="#hsl_person_id_18">Bach</rs>, <rs type="person" ref="#hsl_person_id_108">Händel</rs>, <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>, ist
       <lb facs="#facs_2_region_1684587942348_1331_tl_32" n="N032"/>uns dadurch vollständig entzogen, die Leistungen großer Orgel-
-      <lb facs="#facs_2_region_1684587942348_1331_tl_33" n="N033"/>Virtuosen sind es gleichfalls. In Nord<rs type="place">deutschland</rs>, <rs type="place">Belgien</rs>,
-      <lb facs="#facs_2_region_1684587942348_1331_tl_34" n="N034"/><rs type="place">Frankreich</rs> und der <rs type="place">Schweiz</rs> stehen Orgel-Concerte in den
+      <lb facs="#facs_2_region_1684587942348_1331_tl_33" n="N033"/>Virtuosen sind es gleichfalls. In Nord<rs type="place" ref="#hsl_place_id_14">deutschland</rs>, <rs type="place" ref="#hsl_place_id_177">Belgien</rs>,
+      <lb facs="#facs_2_region_1684587942348_1331_tl_34" n="N034"/><rs type="place" ref="#hsl_place_id_21">Frankreich</rs> und der <rs type="place" ref="#hsl_place_id_97">Schweiz</rs> stehen Orgel-Concerte in den
       <lb facs="#facs_2_line_1719307980739_132" n="N035"/>Kirchen auf der Tagesordnung. Welcher Reisende hätte sich<space quantity="1" unit="char"/></p>
             <cb n="6"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1719307941729_110" n="N001"/>einen Tag in <rs type="place">Bern</rs> oder <rs type="place">Freiburg</rs> aufgehalten, ohne die be
+      <lb facs="#facs_2_line_1719307941729_110" n="N001"/>einen Tag in <rs type="place" ref="#hsl_place_id_99">Bern</rs> oder <rs type="place" ref="#hsl_place_id_322">Freiburg</rs> aufgehalten, ohne die be
       <lb facs="#facs_2_region_1684587946529_1334_tl_1" n="N002" break="no"/>rühmten Orgeln daselbst gehört zu haben, die in regelmäßigen
       <lb facs="#facs_2_region_1684587946529_1334_tl_2" n="N003"/>Abend-Productionen gegen ein geringes Eintrittsgeld von den
       <lb facs="#facs_2_region_1684587946529_1334_tl_3" n="N004"/>(meistens sehr tüchtigen) Organisten gespielt werden. In die
@@ -1214,22 +1203,20 @@
       <lb facs="#facs_2_region_1684587946529_1334_tl_6" n="N007" break="no"/>blicum ansehen, den Gebrauch dieses Instrumentes auf den
       <lb facs="#facs_2_region_1684587946529_1334_tl_7" n="N008"/>rituellen Dienst zu beschränken und ihm jedes Lebenszeichen
       <lb facs="#facs_2_region_1684587946529_1334_tl_8" n="N009"/>künstlerischer Selbstständigkeit zu versagen. Vor Kurzem hielt
-      <lb facs="#facs_2_region_1684587946529_1334_tl_9" n="N010"/>sich der als Organist rühmlich bekannte Heinrich <hi rendition="#em">
-            <rs type="person">Stiehl</rs></hi><space quantity="1" unit="char"/>
-               <lb facs="#facs_2_region_1684587946529_1334_tl_10" n="N011"/>aus <rs type="place">Petersburg</rs> hier auf; trotz aller Bemühungen gelang es
+      <lb facs="#facs_2_region_1684587946529_1334_tl_9" n="N010"/>sich der a ls Organist rühmlich bekannte Heinrich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5014">Stiehl</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684587946529_1334_tl_10" n="N011"/>aus <rs type="place" ref="#hsl_place_id_50">Petersburg</rs> hier auf; trotz aller Bemühungen gelang es
       <lb facs="#facs_2_region_1684587946529_1334_tl_11" n="N012"/>ihm nicht, ein Orgel-Concert in einer der hiesigen katholischen
-      <lb facs="#facs_2_region_1684587946529_1334_tl_12" n="N013"/>Kirchen veranstalten zu dürfen. In <rs type="place">Brünn</rs>, 
-                  <rs type="place">Prag</rs>, <rs type="place">Klagen
-      <lb facs="#facs_2_region_1684587946529_1334_tl_13" n="N014" break="no"/>furt</rs> hat <rs type="person">Stiehl</rs> hierauf mit großem Beifall in protestantischen
+      <lb facs="#facs_2_region_1684587946529_1334_tl_12" n="N013"/>Kirchen veranstalten zu dürfen. In <rs type="place" ref="#hsl_place_id_228">Brünn</rs>, <rs type="place" ref="#hsl_place_id_45">Prag</rs>, <rs type="place" ref="#hsl_place_id_524">Klagen
+      <lb facs="#facs_2_region_1684587946529_1334_tl_13" n="N014" break="no"/>furt</rs> hat <rs type="person" ref="#hsl_person_id_5014">Stiehl</rs> hierauf mit großem Beifall in protestantischen
       <lb facs="#facs_2_region_1684587946529_1334_tl_14" n="N015"/>Kirchen Orgelvorträge gehalten. An dem Professor des hiesi
-      <lb facs="#facs_2_region_1684587946529_1334_tl_15" n="N016" break="no"/>gen Conservatoriums, <hi rendition="#em">Anton <rs type="person">Bruckner</rs></hi>, besitzen wir einen
+      <lb facs="#facs_2_region_1684587946529_1334_tl_15" n="N016" break="no"/>gen Conservatoriums, <hi rendition="#em">Anton <rs type="person" ref="#hsl_person_id_742">Bruckner</rs></hi>, besitzen wir einen
       <lb facs="#facs_2_region_1684587946529_1334_tl_16" n="N017"/>der hervorragendsten Orgel-Virtuosen, der bei dem letzten
-      <lb facs="#facs_2_region_1684587946529_1334_tl_17" n="N018"/>Musikfeste in <rs type="place">Nancy</rs>, dann in <rs type="place">Paris</rs> unter dem Zudrange
+      <lb facs="#facs_2_region_1684587946529_1334_tl_17" n="N018"/>Musikfeste in <rs type="place" ref="#hsl_place_id_682">Nancy</rs>, dann in <rs type="place" ref="#hsl_place_id_44">Paris</rs> unter dem Zudrange
       <lb facs="#facs_2_region_1684587946529_1334_tl_18" n="N019"/>der ganzen musikalischen Elite sich auf den berühmten Orgeln
-      <lb facs="#facs_2_region_1684587946529_1334_tl_19" n="N020"/>von <rs type="place">St. Epore</rs>, <rs type="place">St. Sulpice</rs> und <rs type="place">Notredame</rs> mit solchen
+      <lb facs="#facs_2_region_1684587946529_1334_tl_19" n="N020"/>von St. Epore, St. Sulpice und Notredame mit solchen
       <lb facs="#facs_2_region_1684587946529_1334_tl_20" n="N021"/>Erfolge producirte, daß er in förmlichem Wettkampf die re
-      <lb facs="#facs_2_region_1684587946529_1334_tl_21" n="N022" break="no"/>nommirtesten <rs type="place">belgisch</rs>en und <rs type="place">französisch</rs>en Organisten besiegt
-      <lb facs="#facs_2_region_1684587946529_1334_tl_22" n="N023"/>hat. Nur in <rs type="place">Wien</rs> ist es unmöglich, <rs type="person">Bruckner</rs> zu hören; denn
+      <lb facs="#facs_2_region_1684587946529_1334_tl_21" n="N022" break="no"/>nommirtesten <rs type="place" ref="#hsl_place_id_177">belgisch</rs>en und <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Organisten besiegt
+      <lb facs="#facs_2_region_1684587946529_1334_tl_22" n="N023"/>hat. Nur in <rs type="place" ref="#hsl_place_id_55">Wien</rs> ist es unmöglich, <rs type="person" ref="#hsl_person_id_742">Bruckner</rs> zu hören; denn
       <lb facs="#facs_2_region_1684587946529_1334_tl_23" n="N024"/>ihm, dem k. k. Hof-Organisten, ist die Benützung der Orgeln
       <lb facs="#facs_2_region_1684587946529_1334_tl_24" n="N025"/>behufs einer Production oder auch nur der Privatübung bis
       <lb facs="#facs_2_region_1684587946529_1334_tl_25" n="N026"/>jetzt nicht gestattet. Die Engherzigkeit unserer katholischen
@@ -1246,7 +1233,7 @@
             <cb n="7"/>
             <p prev="true">
       <lb facs="#facs_3_region_1684587956456_1340_tl_1" n="N001"/>und deren Wirkung ganz zu ersetzen, aber jedenfalls erschließt
-      <lb facs="#facs_3_region_1684587956456_1340_tl_2" n="N002"/>sie uns ein neues Kunstgebiet, pflegt sie einen bisher in <rs type="place">Wien</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684587956456_1340_tl_2" n="N002"/>sie uns ein neues Kunstgebiet, pflegt sie einen bisher in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_3_region_1684587956456_1340_tl_3" n="N003"/>verwaisten Musikzweig von ältestem und höchstem Adel. Darauf
       <lb facs="#facs_3_region_1684587956456_1340_tl_4" n="N004"/>bei dem glänzenden Neubau nicht vergessen zu haben, gehört
       <lb facs="#facs_3_region_1684587956456_1340_tl_5" n="N005"/>zu den echtesten Verdiensten unserer „Gesellschaft der Musik
@@ -1258,30 +1245,24 @@
       <lb facs="#facs_3_region_1684587956456_1340_tl_10" n="N010" break="no"/>ber registriren wir das Wichtigste daraus, zum Theil aus
       <lb facs="#facs_3_region_1684587956456_1340_tl_11" n="N011"/>zweiter Hand, da ein unmusikalisches Unwohlsein uns hinderte,
       <lb facs="#facs_3_region_1684587956456_1340_tl_12" n="N012"/>überall selbst dabei zu sein. Die glänzendsten Sterne der
-      <lb facs="#facs_3_region_1684587956456_1340_tl_13" n="N013"/>Saison, <hi rendition="#em">Clara <rs type="person">Schumann</rs></hi> und das 
-                     <hi rendition="#em">Florentiner
-      <lb facs="#facs_3_region_1684587956456_1340_tl_14" n="N014"/>Quartett</hi>, sind weitergezogen. Frau <rs type="person">Schumann</rs>, deren vorletzte
+      <lb facs="#facs_3_region_1684587956456_1340_tl_13" n="N013"/>Saison, <hi rendition="#em">Clara <rs type="person" ref="#hsl_person_id_281">Schumann</rs></hi> und das <hi rendition="#em">Florentiner
+      <lb facs="#facs_3_region_1684587956456_1340_tl_14" n="N014"/>Quartett</hi>, sind weitergezogen. Frau <rs type="person" ref="#hsl_person_id_281">Schumann</rs>, deren vorletzte
       <lb facs="#facs_3_region_1684587956456_1340_tl_15" n="N015"/>Production mitunter durch allzu schnelle Tempi und etwas frostig
-      <lb facs="#facs_3_region_1684587956456_1340_tl_16" n="N016"/>angehauchten Vortrag (<rs type="bibl">C-dur-Sonate</rs> von 
-                     <rs type="person">Beethoven</rs>, „<rs type="bibl">Carne
-      <lb facs="#facs_3_region_1684587956456_1340_tl_17" n="N017" break="no"/>val</rs>“ von <rs type="person">Schumann</rs>) an Wirkung einbüßte, gab im kleinen
+      <lb facs="#facs_3_region_1684587956456_1340_tl_16" n="N016"/>angehauchten Vortrag (<rs type="bibl" ref="#hsl_work_id_4009">C-dur-Sonate</rs> von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, „<rs type="bibl" ref="#hsl_work_id_2805">Carne
+      <lb facs="#facs_3_region_1684587956456_1340_tl_17" n="N017" break="no"/>val</rs>“ von <rs type="person" ref="#hsl_person_id_282">Schumann</rs>) an Wirkung einbüßte, gab im kleinen
       <lb facs="#facs_3_region_1684587956456_1340_tl_18" n="N018"/>Redoutensaal ihren Concerten einen desto vollendeteren Abschluß.
       <lb facs="#facs_3_region_1684587956456_1340_tl_19" n="N019"/>Die Meisterschaft ihres Spieles, das in gedrängter Menge
       <lb facs="#facs_3_region_1684587956456_1340_tl_20" n="N020"/>lauschende distinguirte Publicum, der bis zum Schluß sich
       <lb facs="#facs_3_region_1684587956456_1340_tl_21" n="N021"/>steigernde herzliche Beifall erinnerten an die glänzendste Concert
-      <lb facs="#facs_3_region_1684587956456_1340_tl_22" n="N022" break="no"/>periode der gefeierten Künstlerin. <hi rendition="#em">
-                  <rs type="person">Brahms</rs></hi>' vierstimmige
-      <lb facs="#facs_3_region_1684587956456_1340_tl_23" n="N023"/>„<rs type="bibl">Liebeslieder</rs>“, gesungen von Frau <rs type="person">Dustmann</rs>, Fräulein 
-                     <rs type="person">Girzig</rs>, 
-      <lb facs="#facs_3_region_1684587956456_1340_tl_24" n="N024"/>den Herren <rs type="person">Walter</rs> und <rs type="person">Krauß</rs>, auf dem Piano vierhändig be
-      <lb facs="#facs_3_region_1684587956456_1340_tl_25" n="N025" break="no"/>gleitet von Frau <rs type="person">Schumann</rs> und dem Componisten, erlebten
+      <lb facs="#facs_3_region_1684587956456_1340_tl_22" n="N022" break="no"/>periode der gefeierten Künstlerin. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>' vierstimmige
+      <lb facs="#facs_3_region_1684587956456_1340_tl_23" n="N023"/>„<rs type="bibl" ref="#hsl_work_id_2172">Liebeslieder</rs>“, gesungen von Frau <rs type="person" ref="#hsl_person_id_67">Dustmann</rs>, Fräulein <rs type="person" ref="#hsl_person_id_5015">Girzig</rs>, 
+      <lb facs="#facs_3_region_1684587956456_1340_tl_24" n="N024"/>den Herren <rs type="person" ref="#hsl_person_id_320">Walter</rs> und <rs type="person" ref="#hsl_person_id_5804">Krauß</rs>, auf dem Piano vierhändig be
+      <lb facs="#facs_3_region_1684587956456_1340_tl_25" n="N025" break="no"/>gleitet von Frau <rs type="person" ref="#hsl_person_id_281">Schumann</rs> und dem Componisten, erlebten
       <lb facs="#facs_3_region_1684587956456_1340_tl_26" n="N026"/>diesmal eine ungleich bessere Aufführung als jüngst in der
       <lb facs="#facs_3_region_1684587956456_1340_tl_27" n="N027"/>„Sing-Akademie“ und fanden den lebhaftesten Anklang. Auch
-      <lb facs="#facs_3_region_1684587956456_1340_tl_28" n="N028"/>
-               <hi rendition="#em">Jean <rs type="person">Becker</rs>'s</hi> „Florentiner Quartett“ verabschiedete sich
-      <lb facs="#facs_3_line_1719308046298_178" n="N029"/>mit allen Ehren. Die Aufführung von <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s</hi> großer
-      <lb facs="#facs_3_line_1719308052277_181" n="N030"/>Quartett-Fuge („<rs type="bibl">Tantôt libre, tantôt recherchée</rs>“, op. 133)
+      <lb facs="#facs_3_region_1684587956456_1340_tl_28" n="N028"/><hi rendition="#em">Jean <rs type="person" ref="#hsl_person_id_4507">Becker</rs>'s</hi> „Florentiner Quartett“ verabschiedete sich
+      <lb facs="#facs_3_line_1719308046298_178" n="N029"/>mit allen Ehren. Die Aufführung von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s</hi> großer
+      <lb facs="#facs_3_line_1719308052277_181" n="N030"/>Quartett-Fuge („<rs type="bibl" ref="#hsl_work_id_2170">Tantôt libre, tantôt recherchée</rs>“, op. 133)
       <lb facs="#facs_3_region_1684587956456_1340_tl_29" n="N031"/>war die beste, die sich denken läßt; aber auch die beste Auf
       <lb facs="#facs_3_region_1684587956456_1340_tl_30" n="N032" break="no"/>führung dieses nur von seltenen Lichtstrahlen erleuchteten und
       <lb facs="#facs_3_region_1684587956456_1340_tl_31" n="N033"/>erwärmten Tondickichts vermag uns dasselbe nicht freudvoll
@@ -1290,23 +1271,21 @@
       <lb facs="#facs_3_region_1684587956456_1340_tl_34" n="N036"/>dieser Fuge befreunden, als der Hörer; bei aller Genialität<space quantity="1" unit="char"/></p>
             <cb n="8"/>
             <p prev="true">
-      <lb facs="#facs_3_region_1684587962023_1343_tl_1" n="N001"/>ist und bleibt sie „Augenmusik“. Ein von dem <rs type="person">Becker</rs>'schen
-      <lb facs="#facs_3_region_1684587962023_1343_tl_2" n="N002"/>Verein mit Herrn <rs type="person">Brüll</rs> vorgetragenes <rs type="bibl">Clavier-Quintett</rs> von
-      <lb facs="#facs_3_region_1684587962023_1343_tl_3" n="N003"/>J. P. <hi rendition="#em">
-                  <rs type="person">Gotthard</rs></hi> hat, einstimmigen Berichten zufolge, den leb
+      <lb facs="#facs_3_region_1684587962023_1343_tl_1" n="N001"/>ist und bleibt sie „Augenmusik“. Ein von dem <rs type="person" ref="#hsl_person_id_4507">Becker</rs>'schen
+      <lb facs="#facs_3_region_1684587962023_1343_tl_2" n="N002"/>Verein mit Herrn <rs type="person" ref="#hsl_person_id_1085">Brüll</rs> vorgetragenes <rs type="bibl" ref="#hsl_work_id_4012">Clavier-Quintett</rs> von
+      <lb facs="#facs_3_region_1684587962023_1343_tl_3" n="N003"/>J. P. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5019">Gotthard</rs></hi> hat, einstimmigen Berichten zufolge, den leb
       <lb facs="#facs_3_region_1684587962023_1343_tl_4" n="N004" break="no"/>haftesten Beifall gefunden. Wir kennen aus verschiedenen
-      <lb facs="#facs_3_region_1684587962023_1343_tl_5" n="N005"/>Chören und Clavier-Compositionen <rs type="person">Gotthard</rs>'s gefälliges, an
+      <lb facs="#facs_3_region_1684587962023_1343_tl_5" n="N005"/>Chören und Clavier-Compositionen <rs type="person" ref="#hsl_person_id_5019">Gotthard</rs>'s gefälliges, an
       <lb facs="#facs_3_region_1684587962023_1343_tl_6" n="N006" break="no"/>spruchsloses Talent, dessen Schwingen für die größten Musik
       <lb facs="#facs_3_region_1684587962023_1343_tl_7" n="N007" break="no"/>formen vielleicht noch nicht hoch und weit genug tragen. Mag aber
-      <lb facs="#facs_3_region_1684587962023_1343_tl_8" n="N008"/>immerhin ein Theil des Herrn <rs type="person">Gotthard</rs> so stürmisch gespen
+      <lb facs="#facs_3_region_1684587962023_1343_tl_8" n="N008"/>immerhin ein Theil des Herrn <rs type="person" ref="#hsl_person_id_5019">Gotthard</rs> so stürmisch gespen
       <lb facs="#facs_3_region_1684587962023_1343_tl_9" n="N009" break="no"/>deten Beifalls dem liebenswürdigen Manne und allgemein ge
       <lb facs="#facs_3_region_1684587962023_1343_tl_10" n="N010" break="no"/>schätzten thätigen Musikverleger gegolten haben, es bleibt noch
       <lb facs="#facs_3_region_1684587962023_1343_tl_11" n="N011"/>immer genug, um den strebsamen Componisten zu erfreuen
       <lb facs="#facs_3_region_1684587962023_1343_tl_12" n="N012"/>und anzueifern. Auch auf das vierte Philharmonische Concert,
-      <lb facs="#facs_3_region_1684587962023_1343_tl_13" n="N013"/>in welchem nebst einer neuen <rs type="person">Lachner</rs>'schen <rs type="bibl">Suite (Nr. 5,
-      <lb facs="#facs_3_region_1684587962023_1343_tl_14" n="N014"/>F-moll)</rs> ein <rs type="bibl">Clavierconcert</rs> von Ignaz <hi rendition="#em">
-                  <rs type="person">Brüll</rs></hi> zur Auf
-      <lb facs="#facs_3_region_1684587962023_1343_tl_15" n="N015" break="no"/>führung kam, mußten wir leider verzichten. Herr <rs type="person">Brüll</rs> soll
+      <lb facs="#facs_3_region_1684587962023_1343_tl_13" n="N013"/>in welchem nebst einer neuen <rs type="person" ref="#hsl_person_id_151">Lachner</rs>'schen <rs type="bibl" ref="#hsl_work_id_4013">Suite (Nr. 5,
+      <lb facs="#facs_3_region_1684587962023_1343_tl_14" n="N014"/>F-moll)</rs> ein <rs type="bibl" ref="#hsl_work_id_4014">Clavierconcert</rs> von Ignaz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1085">Brüll</rs></hi> zur Auf
+      <lb facs="#facs_3_region_1684587962023_1343_tl_15" n="N015" break="no"/>führung kam, mußten wir leider verzichten. Herr <rs type="person" ref="#hsl_person_id_1085">Brüll</rs> soll
       <lb facs="#facs_3_region_1684587962023_1343_tl_16" n="N016"/>seine Composition sehr brillant vorgetragen haben, diese selbst
       <lb facs="#facs_3_region_1684587962023_1343_tl_17" n="N017"/>fand im Publicum wie in der Kritik nur mäßige und reser
       <lb facs="#facs_3_region_1684587962023_1343_tl_18" n="N018" break="no"/>virte Zustimmung. Wir haben oft genug für die Berücksichti
@@ -1317,19 +1296,14 @@
       <lb facs="#facs_3_region_1684587962023_1343_tl_23" n="N023" break="no"/>tät und Meisterschaft, doch nur eine gewisse Reife berechtigt.</p>
                <p>
       <lb facs="#facs_3_region_1684587962023_1343_tl_24" n="N024"/>Gibt es keine anderen Schulden zu tilgen, speciell im
-      <lb facs="#facs_3_region_1684587962023_1343_tl_25" n="N025"/>Fache des Clavierconcertes? Zwei „<rs type="bibl">Concertstücke</rs>“ von <hi rendition="#em">
-                  <rs type="person">Schu
-      <lb facs="#facs_3_region_1684587962023_1343_tl_26" n="N026" break="no"/>mann</rs></hi> (<rs type="bibl">op. 92 in G-dur</rs>, von <hi rendition="#em">
-                  <rs type="person">Jaell</rs></hi> allenthalben mit
-      <lb facs="#facs_3_region_1684587962023_1343_tl_27" n="N027"/>größtem Erfolg gespielt, und <rs type="bibl">op. 134 in D-moll</rs>, <hi rendition="#em">
-            <rs type="person">Brahms</rs></hi><space quantity="1" unit="char"/>
-      <lb facs="#facs_3_region_1684587962023_1343_tl_28" n="N028"/>gewidmet) sind dem <rs type="place">Wien</rs>er Publicum noch vollständig unbe
-      <lb facs="#facs_3_region_1684587962023_1343_tl_29" n="N029" break="no"/>kannt. Frau <hi rendition="#em">
-                  <rs type="person">Schumann</rs></hi> hätte, ihrer Versicherung zufolge,
+      <lb facs="#facs_3_region_1684587962023_1343_tl_25" n="N025"/>Fache des Clavierconcertes? Zwei „<rs type="bibl" ref="#hsl_work_id_1847 #hsl_work_id_4010">Concertstücke</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schu
+      <lb facs="#facs_3_region_1684587962023_1343_tl_26" n="N026" break="no"/>mann</rs></hi> (<rs type="bibl" ref="#hsl_work_id_4010">op. 92 in G-dur</rs>, von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1331">Jaell</rs></hi> allenthalben mit
+      <lb facs="#facs_3_region_1684587962023_1343_tl_27" n="N027"/>größtem Erfolg gespielt, und <rs type="bibl" ref="#hsl_work_id_1847">op. 134 in D-moll</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684587962023_1343_tl_28" n="N028"/>gewidmet) sind dem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum noch vollständig unbe
+      <lb facs="#facs_3_region_1684587962023_1343_tl_29" n="N029" break="no"/>kannt. Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_281">Schumann</rs></hi> hätte, ihrer Versicherung zufolge,
       <lb facs="#facs_3_region_1684587962023_1343_tl_30" n="N030"/>überaus gerne eines davon mit dem trefflichen Orchester der
-      <lb facs="#facs_3_region_1684587962023_1343_tl_31" n="N031"/>Philharmonie-Concerte gespielt. Auch <hi rendition="#em">
-                  <rs type="person">Brahms</rs></hi>' seit mehreren
-      <lb facs="#facs_3_region_1684587962023_1343_tl_32" n="N032"/>Jahren gedruckt vorliegendes <rs type="bibl">Clavierconcert</rs> verdiente einen
+      <lb facs="#facs_3_region_1684587962023_1343_tl_31" n="N031"/>Philharmonie-Concerte gespielt. Auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>' seit mehreren
+      <lb facs="#facs_3_region_1684587962023_1343_tl_32" n="N032"/>Jahren gedruckt vorliegendes <rs type="bibl" ref="#hsl_work_id_673">Clavierconcert</rs> verdiente einen
       <lb facs="#facs_3_region_1684587962023_1343_tl_33" n="N033"/>Platz in den Philharmonischen Concerten. Wenn man solchen
       <lb facs="#facs_3_region_1684587962023_1343_tl_34" n="N034"/>Werken gegenüber knickert, so darf man für „einheimische Ta
       <lb facs="#facs_3_line_1719308071287_198" n="N035" break="no"/>lente“ wenigsten nicht als Verschwender auftreten.</p>

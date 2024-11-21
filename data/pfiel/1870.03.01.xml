@@ -107,6 +107,7 @@
          <change who="kbamer ampfiel" when="2024-07-28">Transkribus OCR und Lektorat.</change>
             <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
             <change when="2024-10-03" who="ampfiel">header, lb, p, space</change>
+            <change when="2024-10-21" who="ampfiel">fill rs ref</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -989,60 +990,58 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
       <head type="h1">
-            <lb facs="#facs_1_region_1684587630168_1201_tl_1" n="N001"/>„<hi rendition="#em"><rs type="bibl">Die Meistersinger</rs></hi>“.</head>
+            <lb facs="#facs_1_region_1684587630168_1201_tl_1" n="N001"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_217">Die Meistersinger</rs></hi>“.</head>
       <head type="h2">
-            <lb facs="#facs_1_region_1684587630168_1201_tl_2" n="N002"/><hi rendition="#em">Von Richard <rs type="person">Wagner</rs></hi>.
+            <lb facs="#facs_1_region_1684587630168_1201_tl_2" n="N002"/><hi rendition="#em">Von Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>.
             <lb facs="#facs_1_line_1719308667899_684" n="N003"/>(Erste Aufführung im Hofoperntheater am <date when="1870-02-27">27. Februar 1870</date>.)
             <lb facs="#facs_1_line_1719308674787_688" n="N004"/>I.</head>
             <p>    
-      <lb facs="#facs_1_region_1684587630168_1201_tl_5" n="N005"/>Ed. H. In seiner berühmten „<rs type="bibl">Judenbroschüre</rs>“ hat
-      <lb facs="#facs_1_line_1719308715510_702" n="N006"/>R. <rs type="person">Wagner</rs> bekanntlich auch der Wiener Hofopern-Direction
+      <lb facs="#facs_1_region_1684587630168_1201_tl_5" n="N005"/>Ed. H. In seiner berühmten „<rs type="bibl" ref="#hsl_work_id_3182">Judenbroschüre</rs>“ hat
+      <lb facs="#facs_1_line_1719308715510_702" n="N006"/>R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> bekanntlich auch der Wiener Hofopern-Direction
       <lb facs="#facs_1_region_1684587630168_1201_tl_7" n="N007"/>eine ausgiebige Katzenmusik gebracht, indem er behauptet, diese
       <lb facs="#facs_1_region_1684587630168_1201_tl_8" n="N008"/>Direction habe durch ihre „Kniffe“ verrathen, „daß es ihr
-      <lb facs="#facs_1_region_1684587630168_1201_tl_9" n="N009"/>nicht allein darum zu thun sei, die „<rs type="bibl">Meistersinger</rs>“ <hi rendition="#em">nicht
+      <lb facs="#facs_1_region_1684587630168_1201_tl_9" n="N009"/>nicht allein darum zu thun sei, die „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“ <hi rendition="#em">nicht
       <lb facs="#facs_1_region_1684587630168_1201_tl_10" n="N010"/>geben</hi> zu dürfen, sondern auch deren Aufführung auf anderen
       <lb facs="#facs_1_region_1684587630168_1201_tl_11" n="N011"/>Theatern zu verhindern.“ Das Hofoperntheater hat auf diese
       <lb facs="#facs_1_region_1684587630168_1201_tl_12" n="N012"/>unglaubliche Beschuldigung mit einer glänzenden Aufführung
-      <lb facs="#facs_1_region_1684587630168_1201_tl_13" n="N013"/>der „<rs type="bibl">Meistersinger</rs>“ geantwortet. Die Directoren <hi rendition="#em">
-                  <rs type="person">Dingel
-      <lb facs="#facs_1_region_1684587630168_1201_tl_14" n="N014" break="no"/>stedt</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Herbeck</rs></hi> hatten Alles aufgeboten, um diese bei
+      <lb facs="#facs_1_region_1684587630168_1201_tl_13" n="N013"/>der „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“ geantwortet. Die Directoren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2595">Dingel
+      <lb facs="#facs_1_region_1684587630168_1201_tl_14" n="N014" break="no"/>stedt</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> hatten Alles aufgeboten, um diese bei
       <lb facs="#facs_1_region_1684587630168_1201_tl_15" n="N015" break="no"/>spiellos schwierige Aufgabe musterhaft zu lösen; und was un
       <lb facs="#facs_1_region_1684587630168_1201_tl_16" n="N016" break="no"/>sere besten Gesangskräfte sammt dem trefflichen Orchester nach
-      <lb facs="#facs_1_region_1684587630168_1201_tl_17" n="N017"/>einer langen, aufreibenden Probenreihe für <rs type="person">Wagner</rs>'s Werk leiste
+      <lb facs="#facs_1_region_1684587630168_1201_tl_17" n="N017"/>einer langen, aufreibenden Probenreihe für <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s Werk leiste
       <lb facs="#facs_1_region_1684587630168_1201_tl_18" n="N018" break="no"/>ten, vermag der nicht fachkundige Hörer kaum nach Verdienst zu
-      <lb facs="#facs_1_region_1684587630168_1201_tl_19" n="N019"/>würdigen. Das Publicum kam den „<rs type="bibl">Meistersingern</rs>“ mit jener
-      <lb facs="#facs_1_region_1684587630168_1201_tl_20" n="N020"/>gespannten Erwartung entgegen, auf die jede <rs type="person">Wagner</rs>'sche
+      <lb facs="#facs_1_region_1684587630168_1201_tl_19" n="N019"/>würdigen. Das Publicum kam den „<rs type="bibl" ref="#hsl_work_id_217">Meistersingern</rs>“ mit jener
+      <lb facs="#facs_1_region_1684587630168_1201_tl_20" n="N020"/>gespannten Erwartung entgegen, auf die jede <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'sche
       <lb facs="#facs_1_region_1684587630168_1201_tl_21" n="N021"/>Novität zählen darf und zu zählen ein Recht hat. Weiß
-      <lb facs="#facs_1_region_1684587630168_1201_tl_22" n="N022"/>doch Freund und Feind, daß eine neue Oper von <rs type="person">Wagner</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684587630168_1201_tl_22" n="N022"/>doch Freund und Feind, daß eine neue Oper von <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684587630168_1201_tl_23" n="N023"/>jedenfalls etwas Ungewöhnliches bedeute, etwas Apartes, das
       <lb facs="#facs_1_region_1684587630168_1201_tl_24" n="N024"/>nicht verfehlen wird, an- und aufregend zu wirken, Phantasie
       <lb facs="#facs_1_region_1684587630168_1201_tl_25" n="N025"/>und Verstand mit allen Mitteln zu beschäftigen. Eine merk
-      <lb facs="#facs_1_region_1684587630168_1201_tl_26" n="N026" break="no"/>würdige Schöpfung sind in der That die „<rs type="bibl">Meistersinger</rs>“, ein
+      <lb facs="#facs_1_region_1684587630168_1201_tl_26" n="N026" break="no"/>würdige Schöpfung sind in der That die „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“, ein
       <lb facs="#facs_1_region_1684587630168_1201_tl_27" n="N027"/>Werk von unsäglicher Consequenz der Methode, größtem Ernst
       <lb facs="#facs_1_region_1684587630168_1201_tl_28" n="N028"/>und Fleiß, neu in der ganzen Gestaltung, reich an geistvollen,
       <lb facs="#facs_1_region_1684587630168_1201_tl_29" n="N029"/>ja blendenden Zügen, oft ermüdend und verletzend, immer
       <lb facs="#facs_1_region_1684587630168_1201_tl_30" n="N030"/>eigenthümlich. Als ungewöhnliche Erscheinung müssen die
-      <lb facs="#facs_1_region_1684587630168_1201_tl_31" n="N031"/>„<rs type="bibl">Meistersinger</rs>“ Jedermann lebhaft interessiren; ob man sich da
+      <lb facs="#facs_1_region_1684587630168_1201_tl_31" n="N031"/>„<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“ Jedermann lebhaft interessiren; ob man sich da
       <lb facs="#facs_1_region_1684587630168_1201_tl_32" n="N032" break="no"/>von mehr befriedigt oder mehr abgestoßen fühle, hängt von
       <lb facs="#facs_1_region_1684587630168_1201_tl_33" n="N033"/>den dramatischen und musikalischen Schönheitsbegriffen
       <lb facs="#facs_1_region_1684587630168_1201_tl_34" n="N034"/>des Einzelnen ab. Dem Werke sind ebensowenig seine
       <lb facs="#facs_1_region_1684587630168_1201_tl_35" n="N035"/>Schönheiten abzusprechen, als seine schwachen und abstoßenden
       <lb facs="#facs_1_region_1684587630168_1201_tl_36" n="N036"/>Seiten: es enthält Scenen, die unter den glücklichsten musi
-      <lb facs="#facs_1_region_1684587630168_1201_tl_37" n="N037" break="no"/>kalischen Inspirationen <rs type="person">Wagner</rs>'s obenan stehen, und rund
+      <lb facs="#facs_1_region_1684587630168_1201_tl_37" n="N037" break="no"/>kalischen Inspirationen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s obenan stehen, und rund
       <lb facs="#facs_1_region_1684587630168_1201_tl_38" n="N038"/>umher wieder trostlos lange Strecken langweiliger oder wider
       <lb facs="#facs_1_region_1684587630168_1201_tl_39" n="N039" break="no"/>wärtiger Musik. Diesen gemischten Eindruck habe ich bereits
-      <lb facs="#facs_1_region_1684587630168_1201_tl_40" n="N040"/>vor zwei Jahren aus der <rs type="place">München</rs>er Aufführung davonge
-      <lb facs="#facs_1_region_1684587630168_1201_tl_41" n="N041" break="no"/>tragen und den Lesern der „<rs type="bibl">Neuen Freien Presse</rs>“ geschildert.
+      <lb facs="#facs_1_region_1684587630168_1201_tl_40" n="N040"/>vor zwei Jahren aus der <rs type="place" ref="#hsl_place_id_39">München</rs>er Aufführung davonge
+      <lb facs="#facs_1_region_1684587630168_1201_tl_41" n="N041" break="no"/>tragen und den Lesern der „<rs type="bibl" ref="#hsl_work_id_82">Neuen Freien Presse</rs>“ geschildert.
       <lb facs="#facs_1_region_1684587630168_1201_tl_42" n="N042"/>Ob nach solchem Zeitverlauf und erneuertem Studium des
-      <lb facs="#facs_1_region_1684587630168_1201_tl_43" n="N043"/>Werkes die <rs type="place">Wien</rs>er Vorstellung jenen Eindruck modificiren
+      <lb facs="#facs_1_region_1684587630168_1201_tl_43" n="N043"/>Werkes die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Vorstellung jenen Eindruck modificiren
       <lb facs="#facs_1_line_1719308869454_846" n="N044"/>werde, war ich begierig zu erfahren. Schon der Besuch der<space quantity="1" unit="char"/></p>
             <cb n="2"/>
             <p prev="true">
       <lb facs="#facs_1_region_1684587633508_1204_tl_1" n="N001"/>Generalprobe benahm mir darüber jeden Zweifel, sie ließ mich
       <lb facs="#facs_1_region_1684587633508_1204_tl_2" n="N002"/>einzelne interessante Details schärfer wahrnehmen, wiederholte
       <lb facs="#facs_1_region_1684587633508_1204_tl_3" n="N003"/>aber vollständig die Wirkung, welche das Ganze und jede ein
-      <lb facs="#facs_1_region_1684587633508_1204_tl_4" n="N004" break="no"/>zelne Scene in <rs type="place">München</rs> auf mich geübt, und zwar so genau,
+      <lb facs="#facs_1_region_1684587633508_1204_tl_4" n="N004" break="no"/>zelne Scene in <rs type="place" ref="#hsl_place_id_39">München</rs> auf mich geübt, und zwar so genau,
       <lb facs="#facs_1_region_1684587633508_1204_tl_5" n="N005"/>daß ich für die gleiche Empfindung mich werde mitunter der
       <lb facs="#facs_1_region_1684587633508_1204_tl_6" n="N006"/>gleichen Worte bedienen müssen.</p>
                <p>
@@ -1055,155 +1054,137 @@
       <lb facs="#facs_1_region_1684587633508_1204_tl_12" n="N013" break="no"/>ander zu schleudern. Ein Musikstück von peinlicher Künstelei
       <lb facs="#facs_1_region_1684587633508_1204_tl_13" n="N014"/>und geradezu brutaler Wirkung. Die Ouvertüre leitet un
       <lb facs="#facs_1_region_1684587633508_1204_tl_14" n="N015" break="no"/>mittelbar in die erste Scene, welche das Innere der Katha
-      <lb facs="#facs_1_region_1684587633508_1204_tl_15" n="N016" break="no"/>rinenkirche in <rs type="place">Nürnberg</rs> vorstellt. Die Gemeinde singt einen
+      <lb facs="#facs_1_region_1684587633508_1204_tl_15" n="N016" break="no"/>rinenkirche in <rs type="place" ref="#hsl_place_id_174">Nürnberg</rs> vorstellt. Die Gemeinde singt einen
       <lb facs="#facs_1_region_1684587633508_1204_tl_16" n="N017"/>Choral, zwischen dessen Absätzen das Orchester die zärtlichen
       <lb facs="#facs_1_region_1684587633508_1204_tl_17" n="N018"/>Empfindungen eines jungen Ritters malt, der, im Vorder
       <lb facs="#facs_1_region_1684587633508_1204_tl_18" n="N019" break="no"/>grund stehend, ein Bürgermädchen mit seinen Blicken verfolgt.
-      <lb facs="#facs_1_region_1684587633508_1204_tl_19" n="N020"/>Der Gottesdienst ist zu Ende; der Ritter, Walther v. <rs type="person">Stolzing</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_1_region_1684587633508_1204_tl_20" n="N021"/>(Herr <hi rendition="#em">
-                  <rs type="person">Walter</rs></hi>), eilt auf die schöne Unbekannte zu: „Mein
+      <lb facs="#facs_1_region_1684587633508_1204_tl_19" n="N020"/>Der Gottesdienst ist zu Ende; der Ritter, Walther v. <rs type="person" ref="#hsl_person_id_1367">Stolzing</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684587633508_1204_tl_20" n="N021"/>(Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi>), eilt auf die schöne Unbekannte zu: „Mein
       <lb facs="#facs_1_region_1684587633508_1204_tl_21" n="N022"/>Fräulein, sagt, seid Ihr schon Braut?“ Mit der elektrischen
       <lb facs="#facs_1_region_1684587633508_1204_tl_22" n="N023"/>Schnelligkeit und Energie, welche alle Liebesverhältnisse bei
-      <lb facs="#facs_1_region_1684587633508_1204_tl_23" n="N024"/>R. <rs type="person">Wagner</rs> charakterisirt, erwidert alsbald Eva <rs type="person">Pogner</rs> (Fräu
-      <lb facs="#facs_1_region_1684587633508_1204_tl_24" n="N025" break="no"/>lein <hi rendition="#em">
-                  <rs type="person">Ehnn</rs></hi>): „Euch wähl' ich oder Keinen.“ Nur müsse der
+      <lb facs="#facs_1_region_1684587633508_1204_tl_23" n="N024"/>R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> charakterisirt, erwidert alsbald Eva <rs type="person" ref="#hsl_person_id_4617">Pogner</rs> (Fräu
+      <lb facs="#facs_1_region_1684587633508_1204_tl_24" n="N025" break="no"/>lein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4123">Ehnn</rs></hi>): „Euch wähl' ich oder Keinen.“ Nur müsse der
       <lb facs="#facs_1_region_1684587633508_1204_tl_25" n="N026"/>Werber die von ihrem Vater gestellte Bedingung erfüllen, den
-      <lb facs="#facs_1_region_1684587633508_1204_tl_26" n="N027"/>Preis im Meistergesang zu erringen. <rs type="person">Eva</rs> entfernt sich, von
-      <lb facs="#facs_1_region_1684587633508_1204_tl_27" n="N028"/>ihrer Amme <rs type="person">Magdalena</rs> (Fräulein <hi rendition="#em">
-                  <rs type="person">Gindele</rs></hi>) begleitet; <rs type="person">Wal
+      <lb facs="#facs_1_region_1684587633508_1204_tl_26" n="N027"/>Preis im Meistergesang zu erringen. <rs type="person" ref="#hsl_person_id_4617">Eva</rs> entfernt sich, von
+      <lb facs="#facs_1_region_1684587633508_1204_tl_27" n="N028"/>ihrer Amme <rs type="person" ref="#hsl_person_id_5216">Magdalena</rs> (Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4049">Gindele</rs></hi>) begleitet; <rs type="person" ref="#hsl_person_id_1367">Wal
       <lb facs="#facs_1_region_1684587633508_1204_tl_28" n="N029" break="no"/>ther</rs> verbleibt in der Kirche, wo eben Vorbereitungen zu einer
       <lb facs="#facs_1_region_1684587633508_1204_tl_29" n="N030"/>Versammlung der Meistersinger getroffen werden. Ein geschäf
-      <lb facs="#facs_1_region_1684587633508_1204_tl_30" n="N031" break="no"/>tiger Lehrjunge, Namens <rs type="person">David</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Pirk</rs></hi>), belehrt den Rit
+      <lb facs="#facs_1_region_1684587633508_1204_tl_30" n="N031" break="no"/>tiger Lehrjunge, Namens <rs type="person" ref="#hsl_person_id_1914">David</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4974">Pirk</rs></hi>), belehrt den Rit
       <lb facs="#facs_1_region_1684587633508_1204_tl_31" n="N032" break="no"/>ter mit entsetzlicher Gründlichkeit über die Gesetze und Ein
       <lb facs="#facs_1_region_1684587633508_1204_tl_32" n="N033" break="no"/>richtungen des „Singgerichts“. Trotz der nicht genug zu prei
-      <lb facs="#facs_1_region_1684587633508_1204_tl_33" n="N034" break="no"/>senden Kürzungen, welche <rs type="person">Herbeck</rs> an dieser erzprosaischen, im
+      <lb facs="#facs_1_region_1684587633508_1204_tl_33" n="N034" break="no"/>senden Kürzungen, welche <rs type="person" ref="#hsl_person_id_121">Herbeck</rs> an dieser erzprosaischen, im
       <lb facs="#facs_1_region_1684587633508_1204_tl_34" n="N035"/>Original geradezu unaushaltbaren Scene vorgenommen, bleibt
       <lb facs="#facs_1_region_1684587633508_1204_tl_35" n="N036"/>sie noch immer trocken und langweilig genug. Endlich kommen
       <lb facs="#facs_1_region_1684587633508_1204_tl_36" n="N037"/>die Meister, conversiren eine zeitlang und werden dann von
-      <lb facs="#facs_1_region_1684587633508_1204_tl_37" n="N038"/>dem Bäcker <rs type="person">Kothner</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Mayerhofer</rs></hi>) namentlich auf
+      <lb facs="#facs_1_region_1684587633508_1204_tl_37" n="N038"/>dem Bäcker <rs type="person" ref="#hsl_person_id_5217">Kothner</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs></hi>) namentlich auf
       <lb facs="#facs_1_region_1684587633508_1204_tl_38" n="N039" break="no"/>gerufen. Die Sitzung beginnt mit einer „Anrede“ des Gold
-      <lb facs="#facs_1_region_1684587633508_1204_tl_39" n="N040" break="no"/>schmieds <rs type="person">Pogner</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Rokitansky</rs></hi>), worin er die Hand
-      <lb facs="#facs_1_region_1684587633508_1204_tl_40" n="N041"/>seiner Tochter <rs type="person">Eva</rs> sammt seinem reichen Hab' und Gut dem
+      <lb facs="#facs_1_region_1684587633508_1204_tl_39" n="N040" break="no"/>schmieds <rs type="person" ref="#hsl_person_id_1368">Pogner</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_240">Rokitansky</rs></hi>), worin er die Hand
+      <lb facs="#facs_1_region_1684587633508_1204_tl_40" n="N041"/>seiner Tochter <rs type="person" ref="#hsl_person_id_4617">Eva</rs> sammt seinem reichen Hab' und Gut dem
       <lb facs="#facs_1_region_1684587633508_1204_tl_41" n="N042" break="no"/>jenigen zusagt, der morgen, am St. Johannestag, „im Kunst
       <lb facs="#facs_1_region_1684587633508_1204_tl_42" n="N043" break="no"/>gesang vor allem Volk den Preis errang“. Die Anrede
-      <lb facs="#facs_1_region_1684587633508_1204_tl_43" n="N044"/><rs type="person">Pogner</rs>'s fällt wie ein Sonnenstrahl in den langweilig
+      <lb facs="#facs_1_region_1684587633508_1204_tl_43" n="N044"/><rs type="person" ref="#hsl_person_id_1368">Pogner</rs>'s fällt wie ein Sonnenstrahl in den langweilig
       <lb facs="#facs_1_region_1684587633508_1204_tl_44" n="N045"/>trüben Musiknebel, der bishin allein geherrscht. Die gleich
       <lb facs="#facs_1_line_1719308872885_849" n="N046" break="no"/>mäßige, innige Empfindung, welche dieses Musikstück mit seinem<space quantity="1" unit="char"/></p>
             <cb n="3"/>
             <p prev="true">
       <lb facs="#facs_1_region_1684587636736_1207_tl_1" n="N001"/>melodiösen, schön harmonisirten Hauptmotiv durchzieht, macht
       <lb facs="#facs_1_region_1684587636736_1207_tl_2" n="N002"/>es zu einem Glanzpunkt der Oper. Nach einer langwierigen
-      <lb facs="#facs_1_region_1684587636736_1207_tl_3" n="N003"/>Verhandlung über <rs type="person">Pogner</rs>'s schließlich angenommenen Antrag tritt
-      <lb facs="#facs_1_region_1684587636736_1207_tl_4" n="N004"/>Walther v. <rs type="person">Stolzing</rs> auf und wird zu singen aufgefordert. 
+      <lb facs="#facs_1_region_1684587636736_1207_tl_3" n="N003"/>Verhandlung über <rs type="person" ref="#hsl_person_id_1368">Pogner</rs>'s schließlich angenommenen Antrag tritt
+      <lb facs="#facs_1_region_1684587636736_1207_tl_4" n="N004"/>Walther v. <rs type="person" ref="#hsl_person_id_1367">Stolzing</rs> auf und wird zu singen aufgefordert. 
                   <note type="footnote" n="*)">
                         <lb facs="#facs_1_region_1684587636736_1207_tl_43" n="N043"/>„Meint Junker Ihr, in Sang' und Dicht' — Euch rechtlich
                         <lb facs="#facs_1_line_1719308902515_875" n="N044"/>unterwiesen, seid Ihr bereit, ob Euch gerieth — mit neuer Find' ein
                         <lb facs="#facs_1_line_1719308906256_878" n="N045"/>Meisterlied — nach Dicht' und Weis' Eu'r eigen, — zur Stunde jetzt
-                        <lb facs="#facs_1_line_1719308909880_881" n="N046"/>zu zeigen?“ — <hi rendition="#em">
-                              <rs type="person">Walther</rs></hi> antwortet: „Was heilig mir — der Lieb'
+                        <lb facs="#facs_1_line_1719308909880_881" n="N046"/>zu zeigen?“ — <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1367">Walther</rs></hi> antwortet: „Was heilig mir — der Lieb'
                         <lb facs="#facs_1_line_1719308913639_884" n="N047"/>Panier — schwing' ich und sing' ich, mir zu Hoff'!“ 
                   </note><space quantity="1" unit="char"/>
-      <lb facs="#facs_1_region_1684587636736_1207_tl_5" n="N005"/>Der Stadtschreiber <rs type="person">Beckmesser</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Campe</rs></hi>), ein boshafter
+      <lb facs="#facs_1_region_1684587636736_1207_tl_5" n="N005"/>Der Stadtschreiber <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_10">Campe</rs></hi>), ein boshafter
       <lb facs="#facs_1_region_1684587636736_1207_tl_6" n="N006"/>alter Geck, übt das Merker-Amt, d. h. er kreidet, hinter einem
       <lb facs="#facs_1_region_1684587636736_1207_tl_7" n="N007"/>Vorhang verborgen, alle Fehler an, welche der Sänger gegen
       <lb facs="#facs_1_region_1684587636736_1207_tl_8" n="N008"/>die Regeln der Tabulatur begangen. Zuvor werden dem Sän
       <lb facs="#facs_1_region_1684587636736_1207_tl_9" n="N009" break="no"/>ger noch diese Regeln vorgelesen, worauf das mit gelehrten
       <lb facs="#facs_1_region_1684587636736_1207_tl_10" n="N010"/>Explicationen schon hinreichend gesättigte Publicum gern ver
-      <lb facs="#facs_1_region_1684587636736_1207_tl_11" n="N011" break="no"/>zichten würde. <rs type="person">Walther</rs> beantwortet die ihm gestellten Fra
+      <lb facs="#facs_1_region_1684587636736_1207_tl_11" n="N011" break="no"/>zichten würde. <rs type="person" ref="#hsl_person_id_1367">Walther</rs> beantwortet die ihm gestellten Fra
       <lb facs="#facs_1_region_1684587636736_1207_tl_12" n="N012" break="no"/>gen mit einigen sehr stimmungsvollen, glücklich erfundenen
       <lb facs="#facs_1_region_1684587636736_1207_tl_13" n="N013"/>Strophen („Am stillen Herd in Winterszeit“), welche wir dem
       <lb facs="#facs_1_region_1684587636736_1207_tl_14" n="N014"/>darauf folgenden Lenz- und Liebeslied noch vorziehen. Letzteres
       <lb facs="#facs_1_region_1684587636736_1207_tl_15" n="N015"/>bringt es trotz geist- und anmuthsvoller Details zu keiner
       <lb facs="#facs_1_region_1684587636736_1207_tl_16" n="N016"/>vollen Wirkung ob der maßlosen Unruhe in der Begleitung
-      <lb facs="#facs_1_region_1684587636736_1207_tl_17" n="N017"/>und Modulation. <rs type="person">Walther</rs> hat noch nicht ausgesungen, als
-      <lb facs="#facs_1_region_1684587636736_1207_tl_18" n="N018"/>
-               <rs type="person">Beckmesser</rs> schon mit der vollgekreideten Tafel schimpfend aus
+      <lb facs="#facs_1_region_1684587636736_1207_tl_17" n="N017"/>und Modulation. <rs type="person" ref="#hsl_person_id_1367">Walther</rs> hat noch nicht ausgesungen, als
+      <lb facs="#facs_1_region_1684587636736_1207_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> schon mit der vollgekreideten Tafel schimpfend aus
       <lb facs="#facs_1_region_1684587636736_1207_tl_19" n="N019"/>dem „Gemerk“ hervorspringt.</p>
                <p>
-      <lb facs="#facs_1_region_1684587636736_1207_tl_20" n="N020"/>Mit Ausnahme von Hanns <rs type="person">Sachs</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Beck</rs></hi>) sind auch
-      <lb facs="#facs_1_region_1684587636736_1207_tl_21" n="N021"/>alle übrigen Meister empört über die Regelwidrigkeit von <rs type="person">Wal
+      <lb facs="#facs_1_region_1684587636736_1207_tl_20" n="N020"/>Mit Ausnahme von Hanns <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi>) sind auch
+      <lb facs="#facs_1_region_1684587636736_1207_tl_21" n="N021"/>alle übrigen Meister empört über die Regelwidrigkeit von <rs type="person" ref="#hsl_person_id_1367">Wal
       <lb facs="#facs_1_region_1684587636736_1207_tl_22" n="N022" break="no"/>ther</rs>'s Gesang, den sie als „eitel Ohrengeschinder“ bezeichnen. Es
       <lb facs="#facs_1_region_1684587636736_1207_tl_23" n="N023"/>folgt ein tobendes Durcheinander aller Stimmen, das mit dem
       <lb facs="#facs_1_region_1684587636736_1207_tl_24" n="N024"/>Wahrspruch endet: der Ritter habe „versungen und verthan“.
       <lb facs="#facs_1_region_1684587636736_1207_tl_25" n="N025"/>Der Total-Eindruck dieses Actes ist trotz der beiden gerühmten
-      <lb facs="#facs_1_region_1684587636736_1207_tl_26" n="N026"/>Sonnenblicke (<rs type="person">Pogner</rs>'s und <rs type="person">Walther</rs>'s Melodien) ein äußerst
+      <lb facs="#facs_1_region_1684587636736_1207_tl_26" n="N026"/>Sonnenblicke (<rs type="person" ref="#hsl_person_id_1368">Pogner</rs>'s und <rs type="person" ref="#hsl_person_id_1367">Walther</rs>'s Melodien) ein äußerst
       <lb facs="#facs_1_region_1684587636736_1207_tl_27" n="N027"/>ermüdender. Wir danken es den einsichtsvollen Kürzungen
-      <lb facs="#facs_1_region_1684587636736_1207_tl_28" n="N028"/>
-               <rs type="person">Herbeck</rs>'s, daß er hier nicht geradezu niederdrückt, wie bei der
-      <lb facs="#facs_1_region_1684587636736_1207_tl_29" n="N029"/>
-               <rs type="place">München</rs>er Aufführung. Der Stoff gäbe, leicht und lebhaft
+      <lb facs="#facs_1_region_1684587636736_1207_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_121">Herbeck</rs>'s, daß er hier nicht geradezu niederdrückt, wie bei der
+      <lb facs="#facs_1_region_1684587636736_1207_tl_29" n="N029"/><rs type="place" ref="#hsl_place_id_39">München</rs>er Aufführung. Der Stoff gäbe, leicht und lebhaft
       <lb facs="#facs_1_region_1684587636736_1207_tl_30" n="N030"/>behandelt, eine wirksame Introduction; zu einem ganzen lan
       <lb facs="#facs_1_region_1684587636736_1207_tl_31" n="N031" break="no"/>gen Act ausgesponnen, wird er zur schwerfälligen Last.</p>
                <p>
-      <lb facs="#facs_1_region_1684587636736_1207_tl_32" n="N032"/>Der zweite Act stellt eine Straße in <rs type="place">Nürnberg</rs> vor;
-      <lb facs="#facs_1_region_1684587636736_1207_tl_33" n="N033"/>rechts im Vordergrunde das schmucke Haus <rs type="person">Pogner</rs>'s, links
-      <lb facs="#facs_1_region_1684587636736_1207_tl_34" n="N034"/>die Schusterwerkstatt des Hanns <rs type="person">Sachs</rs>. Zwischen beiden sieht
+      <lb facs="#facs_1_region_1684587636736_1207_tl_32" n="N032"/>Der zweite Act stellt eine Straße in <rs type="place" ref="#hsl_place_id_174">Nürnberg</rs> vor;
+      <lb facs="#facs_1_region_1684587636736_1207_tl_33" n="N033"/>rechts im Vordergrunde das schmucke Haus <rs type="person" ref="#hsl_person_id_1368">Pogner</rs>'s, links
+      <lb facs="#facs_1_region_1684587636736_1207_tl_34" n="N034"/>die Schusterwerkstatt des Hanns <rs type="person" ref="#hsl_person_id_5214">Sachs</rs>. Zwischen beiden sieht
       <lb facs="#facs_1_region_1684587636736_1207_tl_35" n="N035"/>man in effectvoller Perspective die ganze Länge der Straße
-      <lb facs="#facs_1_region_1684587636736_1207_tl_36" n="N036"/>hinauf, welche (nach dem Muster der <rs type="place">München</rs>er Scenirung),
+      <lb facs="#facs_1_region_1684587636736_1207_tl_36" n="N036"/>hinauf, welche (nach dem Muster der <rs type="place" ref="#hsl_place_id_39">München</rs>er Scenirung),
       <lb facs="#facs_1_region_1684587636736_1207_tl_37" n="N037"/>durchaus plastisch, durch Versetzstücke dargestellt ist und in der
       <lb facs="#facs_1_region_1684587636736_1207_tl_38" n="N038"/>Vollmondbeleuchtung einen äußerst malerischen Anblick gewährt.
       <lb facs="#facs_1_region_1684587636736_1207_tl_39" n="N039"/>Der Act beginnt mit einem Singen und Springen der Lehr
       <lb facs="#facs_1_region_1684587636736_1207_tl_40" n="N040" break="no"/>buben, welche sich auf das Johannesfest freuen und ihren Ka
-      <lb facs="#facs_1_region_1684587636736_1207_tl_41" n="N041" break="no"/>meraden, den in die alte Lene verliebten <rs type="person">David</rs>, hänseln.
-      <lb facs="#facs_1_region_1684587636736_1207_tl_42" n="N042"/>
-                     <rs type="person">Pogner</rs> und <rs type="person">Eva</rs> kommen des Weges und singen ein höchst<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_1_region_1684587636736_1207_tl_41" n="N041" break="no"/>meraden, den in die alte Lene verliebten <rs type="person" ref="#hsl_person_id_1914">David</rs>, hänseln.
+      <lb facs="#facs_1_region_1684587636736_1207_tl_42" n="N042"/><rs type="person" ref="#hsl_person_id_1368">Pogner</rs> und <rs type="person" ref="#hsl_person_id_4617">Eva</rs> kommen des Weges und singen ein höchst<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1719309025569_955" n="N001"/>uninteressantes Gespräch, nach welchem 
-                  <rs type="person">Eva</rs> allein zu <rs type="person">Sachs</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1719309025569_955" n="N001"/>uninteressantes Gespräch, nach welchem <rs type="person" ref="#hsl_person_id_4617">Eva</rs> allein zu <rs type="person" ref="#hsl_person_id_5214">Sachs</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684587646933_1213_tl_1" n="N002"/>hinübergeht, um über das Schicksal ihres Ritters bei dem
       <lb facs="#facs_2_region_1684587646933_1213_tl_2" n="N003"/>Freisingen etwas zu erfahren.
                   <note type="footnote" n="*)">
                         <lb facs="#facs_2_line_1719309205118_1087" n="N043"/>Eine Stylprobe aus dieser Scene:
-                        <lb facs="#facs_2_line_1719309208826_1090" n="N044"/><hi rendition="#em">
-                              <rs type="person">Eva</rs></hi>: „Ihr wißt nichts, ihr sagt nichts? Ei, Freund <rs type="person">Sachs</rs>,
+                        <lb facs="#facs_2_line_1719309208826_1090" n="N044"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4617">Eva</rs></hi>: „Ihr wißt nichts, ihr sagt nichts? Ei, Freund <rs type="person" ref="#hsl_person_id_5214">Sachs</rs>,
                         <lb facs="#facs_2_line_1719309212500_1093" n="N045"/>Jetzt merk' ich wahrlich, Pech ist kein Wachs!“
-                        <lb facs="#facs_2_line_1719309216274_1096" n="N046"/><hi rendition="#em">
-                              <rs type="person">Sachs</rs></hi>: „Lieb' Evchen, machst mir blauen Dunst?“
-                        <lb facs="#facs_2_line_1719309220008_1099" n="N047"/><hi rendition="#em">
-                              <rs type="person">Eva</rs></hi>: „Nicht ich! Ihr seid's. Ihr macht mir <hi rendition="#em">Flausen</hi>“ u. s. w.
-                  </note><space quantity="1" unit="char"/><rs type="person">Sachs</rs> berichtet ihr den ungünsti
+                        <lb facs="#facs_2_line_1719309216274_1096" n="N046"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5214">Sachs</rs></hi>: „Lieb' Evchen, machst mir blauen Dunst?“
+                        <lb facs="#facs_2_line_1719309220008_1099" n="N047"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4617">Eva</rs></hi>: „Nicht ich! Ihr seid's. Ihr macht mir <hi rendition="#em">Flausen</hi>“ u. s. w.
+                  </note><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_5214">Sachs</rs> berichtet ihr den ungünsti
       <lb facs="#facs_2_line_1719309045348_968" n="N004" break="no"/>gen Ausgang. Das Duett (wenn man diesen sich endlos
       <lb facs="#facs_2_region_1684587646933_1213_tl_4" n="N005"/>hinziehenden Dialog so nennen kann) schlägt mitunter einen
       <lb facs="#facs_2_region_1684587646933_1213_tl_5" n="N006"/>recht traulichen, stimmungsvollen Ton an, bringt auch hie und
       <lb facs="#facs_2_region_1684587646933_1213_tl_6" n="N007"/>da einen vereinzelten hübschen Zug. Trotzdem ist das Ganze
       <lb facs="#facs_2_region_1684587646933_1213_tl_7" n="N008"/>von peinlicher Monotonie und Schwerfälligkeit. Mit einem
       <lb facs="#facs_2_region_1684587646933_1213_tl_8" n="N009"/>kleinen Duettsatz, allenfalls zum Schlusse der Conversation,
-      <lb facs="#facs_2_line_1719309062849_984" n="N010"/>wäre dem leicht abgeholfen, bei Richard <rs type="person">Wagner</rs> dürfen aber
+      <lb facs="#facs_2_line_1719309062849_984" n="N010"/>wäre dem leicht abgeholfen, bei Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> dürfen aber
       <lb facs="#facs_2_region_1684587646933_1213_tl_10" n="N011"/>bekanntlich die Leute nur nach einander singen, nie zugleich;
       <lb facs="#facs_2_region_1684587646933_1213_tl_11" n="N012"/>Letzteres ist nicht vornehm und könnte leicht angenehm klingen.
-      <lb facs="#facs_2_region_1684587646933_1213_tl_12" n="N013"/>Ritter <rs type="person">Walther</rs> kommt auf <rs type="person">Eva</rs> zu. Trotz der verlockenden Verse:
+      <lb facs="#facs_2_region_1684587646933_1213_tl_12" n="N013"/>Ritter <rs type="person" ref="#hsl_person_id_1367">Walther</rs> kommt auf <rs type="person" ref="#hsl_person_id_4617">Eva</rs> zu. Trotz der verlockenden Verse:
       <lb facs="#facs_2_region_1684587646933_1213_tl_13" n="N014"/>„Ja, Ihr seid es! Nein, du bist es!“ u. s. w. kommt es auch hier
       <lb facs="#facs_2_region_1684587646933_1213_tl_14" n="N015"/>zu keinem zweistimmigen Satz; Jedes singt dem Anderen seine
       <lb facs="#facs_2_region_1684587646933_1213_tl_15" n="N016"/>Gedanken separat vor, musikalisch sehr reizlose und gezwun
       <lb facs="#facs_2_line_1719309088269_1005" n="N017" break="no"/>gene Gedanken. Das Liebespaar ist zur Flucht bereit, muß
       <lb facs="#facs_2_line_1719309091259_1008" n="N018"/>sich jedoch zuerst vor dem Nachtwächter und jetzt gar vor
-      <lb facs="#facs_2_region_1684587646933_1213_tl_18" n="N019"/>Herrn <rs type="person">Beckmesser</rs> in die Ecke drücken. Letzterer präludirt
-      <lb facs="#facs_2_region_1684587646933_1213_tl_19" n="N020"/>auf der Laute, um vor <rs type="person">Eva</rs>'s Fenster ein Ständchen zu sin
-      <lb facs="#facs_2_region_1684587646933_1213_tl_20" n="N021" break="no"/>gen, Hanns <rs type="person">Sachs</rs> kommt ihm jedoch mit einem Schusterlied
+      <lb facs="#facs_2_region_1684587646933_1213_tl_18" n="N019"/>Herrn <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> in die Ecke drücken. Letzterer präludirt
+      <lb facs="#facs_2_region_1684587646933_1213_tl_19" n="N020"/>auf der Laute, um vor <rs type="person" ref="#hsl_person_id_4617">Eva</rs>'s Fenster ein Ständchen zu sin
+      <lb facs="#facs_2_region_1684587646933_1213_tl_20" n="N021" break="no"/>gen, Hanns <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> kommt ihm jedoch mit einem Schusterlied
       <lb facs="#facs_2_region_1684587646933_1213_tl_21" n="N022"/>zuvor („Jerum! Jerum! Holla, holla ho!“), das, angeblich
       <lb facs="#facs_2_region_1684587646933_1213_tl_22" n="N023"/>komisch, mehr an eine gereizte Hyäne erinnert, als an einen
-      <lb facs="#facs_2_region_1684587646933_1213_tl_23" n="N024"/>lustigen Schuster. Auf <rs type="person">Beckmesser</rs>'s Bitten verspricht <rs type="person">Sachs</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684587646933_1213_tl_23" n="N024"/>lustigen Schuster. Auf <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs>'s Bitten verspricht <rs type="person" ref="#hsl_person_id_5214">Sachs</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684587646933_1213_tl_24" n="N025"/>endlich zu schweigen, behält sich jedoch vor, jeden Declamations
       <lb facs="#facs_2_region_1684587646933_1213_tl_25" n="N026"/>oder Gesangsfehler in dem Ständchen durch einen Hammerschlag
       <lb facs="#facs_2_region_1684587646933_1213_tl_26" n="N027"/>auf die Sohle, die er eben bearbeitet, zu markiren. Diesen Spaß
       <lb facs="#facs_2_region_1684587646933_1213_tl_27" n="N028"/>preßt der Componist bis auf den letzten Tropfen aus, so daß
       <lb facs="#facs_2_region_1684587646933_1213_tl_28" n="N029"/>wir schließlich nur den Eindruck des Unendlich-Abgeschmackten
-      <lb facs="#facs_2_region_1684587646933_1213_tl_29" n="N030"/>haben. <rs type="person">Beckmesser</rs> beginnt seine Serenade, die, anfangs recht
-      <lb facs="#facs_2_region_1684587646933_1213_tl_30" n="N031"/>charakteristisch, sich nur zu bald verkünstelt. <rs type="person">Sachs</rs> klopft bei
-      <lb facs="#facs_2_region_1684587646933_1213_tl_31" n="N032"/>jedem Tacte ein- bis zweimal mit dem Hammer auf, <rs type="person">Beck
-      <lb facs="#facs_2_region_1684587646933_1213_tl_32" n="N033" break="no"/>messer</rs> stellt ihn entrüstet zur Rede, <rs type="person">Sachs</rs> beruhigt ihn,
-      <lb facs="#facs_2_region_1684587646933_1213_tl_33" n="N034"/>
-               <rs type="person">Beckmesser</rs> fängt wieder zu singen, <rs type="person">Sachs</rs> wieder zu klopfen
+      <lb facs="#facs_2_region_1684587646933_1213_tl_29" n="N030"/>haben. <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> beginnt seine Serenade, die, anfangs recht
+      <lb facs="#facs_2_region_1684587646933_1213_tl_30" n="N031"/>charakteristisch, sich nur zu bald verkünstelt. <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> klopft bei
+      <lb facs="#facs_2_region_1684587646933_1213_tl_31" n="N032"/>jedem Tacte ein- bis zweimal mit dem Hammer auf, <rs type="person" ref="#hsl_person_id_1913">Beck
+      <lb facs="#facs_2_region_1684587646933_1213_tl_32" n="N033" break="no"/>messer</rs> stellt ihn entrüstet zur Rede, <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> beruhigt ihn,
+      <lb facs="#facs_2_region_1684587646933_1213_tl_33" n="N034"/><rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> fängt wieder zu singen, <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> wieder zu klopfen
       <lb facs="#facs_2_region_1684587646933_1213_tl_34" n="N035"/>an, sie zanken schließlich so ausgiebig, daß die Nachbarn die
       <lb facs="#facs_2_region_1684587646933_1213_tl_35" n="N036"/>Köpfe herausstecken und sich über die nächtliche Ruhestörung
-      <lb facs="#facs_2_region_1684587646933_1213_tl_36" n="N037"/>beklagen. Der Lehrjunge <rs type="person">David</rs> erwischt <rs type="person">Beckmesser</rs> und
+      <lb facs="#facs_2_region_1684587646933_1213_tl_36" n="N037"/>beklagen. Der Lehrjunge <rs type="person" ref="#hsl_person_id_1914">David</rs> erwischt <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> und
       <lb facs="#facs_2_region_1684587646933_1213_tl_37" n="N038"/>prügelt ihn, die Gasse füllt sich mit Menschen, welche nun
       <lb facs="#facs_2_region_1684587646933_1213_tl_38" n="N039"/>alle zu schreien, zu schimpfen, zu prügeln beginnen, bis ein
       <lb facs="#facs_2_region_1684587646933_1213_tl_39" n="N040"/>wahrer Teufelslärm entsteht, wie man kaum einen ähnlichen
@@ -1213,7 +1194,7 @@
             </p>
             <cb n="5"/>
             <p prev="true">
-      <lb facs="#facs_2_line_1719309030449_958" n="N001"/>diesem Finale mehr erwartet; <rs type="person">Wagner</rs> hat mit wahrhaft
+      <lb facs="#facs_2_line_1719309030449_958" n="N001"/>diesem Finale mehr erwartet; <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat mit wahrhaft
       <lb facs="#facs_2_region_1684587651205_1216_tl_2" n="N002"/>raffinirter Kunst dieses Durcheinander aufgebaut, in welchem
       <lb facs="#facs_2_region_1684587651205_1216_tl_3" n="N003"/>bald einzelne Stimmen, bald ganze Chorgruppen sich gegenüber
       <lb facs="#facs_2_line_1719309048809_971" n="N004" break="no"/>stehen, einander im Eifer das Wort vom Munde abfangend.
@@ -1221,26 +1202,26 @@
       <lb facs="#facs_2_region_1684587651205_1216_tl_5" n="N006" break="no"/>tischer Blick getäuscht: von der ausgetüpfelten musikalischen
       <lb facs="#facs_2_region_1684587651205_1216_tl_6" n="N007"/>Disposition ist nichts, gar nichts zu unterscheiden, man hört
       <lb facs="#facs_2_region_1684587651205_1216_tl_7" n="N008"/>nichts als ein wahrhaft brutales Schreien und Lärmen. Eine
-      <lb facs="#facs_2_region_1684587651205_1216_tl_8" n="N009"/>sehr gute Idee, daß <rs type="person">Wagner</rs> den Act nicht geradezu mit dem
+      <lb facs="#facs_2_region_1684587651205_1216_tl_8" n="N009"/>sehr gute Idee, daß <rs type="person" ref="#hsl_person_id_319">Wagner</rs> den Act nicht geradezu mit dem
       <lb facs="#facs_2_line_1719309069838_987" n="N010"/>Straßenspectakel schließen, sondern die Leute sich verlaufen und
       <lb facs="#facs_2_region_1684587651205_1216_tl_9" n="N011"/>den Lärm allmälig verhallen läßt. Wir sehen den Nacht
       <lb facs="#facs_2_region_1684587651205_1216_tl_10" n="N012" break="no"/>wächter allein langsam durch die leere, mondbeglänzte Straße
       <lb facs="#facs_2_region_1684587651205_1216_tl_11" n="N013"/>schreiten — einer jener poetisch-pittoresken Effecte, auf die
-      <lb facs="#facs_2_region_1684587651205_1216_tl_12" n="N014"/>sich <rs type="person">Wagner</rs> vor Allen versteht. Der zweite Act ist zu Ende,
+      <lb facs="#facs_2_region_1684587651205_1216_tl_12" n="N014"/>sich <rs type="person" ref="#hsl_person_id_319">Wagner</rs> vor Allen versteht. Der zweite Act ist zu Ende,
       <lb facs="#facs_2_region_1684587651205_1216_tl_13" n="N015"/>und wir haben geistreiche Details bemerkt, aber kaum etwas
       <lb facs="#facs_2_region_1684587651205_1216_tl_14" n="N016"/>gehört, was uns anhaltend hätte erfreuen und erwärmen
       <lb facs="#facs_2_line_1719309098121_1014" n="N017"/>können. Endlich beginnt der dritte Act, der längste, aber auch
       <lb facs="#facs_2_line_1719309095518_1011" n="N018"/>beste der Oper. Zu Anfang desselben geht es freilich noch
       <lb facs="#facs_2_region_1684587651205_1216_tl_15" n="N019"/>ganz in dem flauen, gedehnten Declamir-Ton des zweiten Actes
       <lb facs="#facs_2_region_1684587651205_1216_tl_16" n="N020"/>fort. Da gibt es eine spießbürgerliche Einleitungs-Scene
-      <lb facs="#facs_2_region_1684587651205_1216_tl_17" n="N021"/>zwischen <rs type="person">Sachs</rs> und seinem Lehrjungen, der eine Johannes-
+      <lb facs="#facs_2_region_1684587651205_1216_tl_17" n="N021"/>zwischen <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> und seinem Lehrjungen, der eine Johannes-
       <lb facs="#facs_2_region_1684587651205_1216_tl_18" n="N022"/>Legende singt und dem Meister zum Namenstage gratulirt.
-      <lb facs="#facs_2_region_1684587651205_1216_tl_19" n="N023"/>Es folgt ein langer Monolog des <rs type="person">Sachs</rs>, worin er über den
+      <lb facs="#facs_2_region_1684587651205_1216_tl_19" n="N023"/>Es folgt ein langer Monolog des <rs type="person" ref="#hsl_person_id_5214">Sachs</rs>, worin er über den
       <lb facs="#facs_2_line_1719309245041_1130" n="N024"/>„Wahn“ philosophirt; blitzte nicht eine reizende kleine In
       <lb facs="#facs_2_region_1684587651205_1216_tl_22" n="N025" break="no"/>strumental-Schilderung („Glühwürmchen“) mitten in den sal
       <lb facs="#facs_2_region_1684587651205_1216_tl_23" n="N026" break="no"/>bungsvollen Singsang, man geriethe in Gefahr, einzunicken.
-      <lb facs="#facs_2_region_1684587651205_1216_tl_24" n="N027"/>Ritter <rs type="person">Walther</rs> tritt unter Harfen-Arpeggien bei <rs type="person">Sachs</rs> ein,
-      <lb facs="#facs_2_region_1684587651205_1216_tl_25" n="N028"/>dieser fordert ihn auf, seinen Traum zu erzählen. <rs type="person">Walther</rs>'s
+      <lb facs="#facs_2_region_1684587651205_1216_tl_24" n="N027"/>Ritter <rs type="person" ref="#hsl_person_id_1367">Walther</rs> tritt unter Harfen-Arpeggien bei <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> ein,
+      <lb facs="#facs_2_region_1684587651205_1216_tl_25" n="N028"/>dieser fordert ihn auf, seinen Traum zu erzählen. <rs type="person" ref="#hsl_person_id_1367">Walther</rs>'s
       <lb facs="#facs_2_region_1684587651205_1216_tl_26" n="N029"/>Lied: „Morgenlich leuchtend“ beginnt mit einer ungemein
       <lb facs="#facs_2_region_1684587651205_1216_tl_27" n="N030"/>schönen, zarten Melodie, die zum Glücke nicht schon mit dem
       <lb facs="#facs_2_region_1684587651205_1216_tl_28" n="N031"/>dritten Tacte sich in den Ocean der „Unendlichkeit“ verliert
@@ -1248,32 +1229,31 @@
       <lb facs="#facs_2_region_1684587651205_1216_tl_30" n="N033"/>macht einen sehr günstigen Eindruck, was der Componist nur
       <lb facs="#facs_2_region_1684587651205_1216_tl_31" n="N034"/>zu gut weiß, denn er kann davon nicht mehr fortkommen.
       <lb facs="#facs_2_region_1684587651205_1216_tl_32" n="N035"/>Die vielen Strophen und späteren Wiederholungen des Liedes
-      <lb facs="#facs_2_region_1684587651205_1216_tl_33" n="N036"/>schaden ohne Frage. Während <rs type="person">Walther</rs> singt, schreibt <hi rendition="#em">
-            <rs type="person">Sachs</rs></hi><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684587651205_1216_tl_34" n="N037"/>das Gedicht auf. <rs type="person">Beckmesser</rs>, der später eintritt, will das
-      <lb facs="#facs_2_region_1684587651205_1216_tl_35" n="N038"/>Blatt stehlen, <rs type="person">Sachs</rs> schenkt es ihm und erlaubt dem Ueber
+      <lb facs="#facs_2_region_1684587651205_1216_tl_33" n="N036"/>schaden ohne Frage. Während <rs type="person" ref="#hsl_person_id_1367">Walther</rs> singt, schreibt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5214">Sachs</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684587651205_1216_tl_34" n="N037"/>das Gedicht auf. <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs>, der später eintritt, will das
+      <lb facs="#facs_2_region_1684587651205_1216_tl_35" n="N038"/>Blatt stehlen, <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> schenkt es ihm und erlaubt dem Ueber
       <lb facs="#facs_2_region_1684587651205_1216_tl_36" n="N039" break="no"/>glücklichen, es beim Preissingen am Johannesfeste ohneweiters
-      <lb facs="#facs_2_region_1684587651205_1216_tl_37" n="N040"/>als sein eigenes vorzutragen. Die Unterredung zwischen <rs type="person">Sachs</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684587651205_1216_tl_38" n="N041"/>und <rs type="person">Beckmesser</rs> (der jetzt in seiner Freude ebenso barbarisch
+      <lb facs="#facs_2_region_1684587651205_1216_tl_37" n="N040"/>als sein eigenes vorzutragen. Die Unterredung zwischen <rs type="person" ref="#hsl_person_id_5214">Sachs</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684587651205_1216_tl_38" n="N041"/>und <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> (der jetzt in seiner Freude ebenso barbarisch
       <lb facs="#facs_2_region_1684587651205_1216_tl_39" n="N042"/>und unnatürlich singt, wie früher im Zorne) wäre abermals
-      <lb facs="#facs_2_region_1684587651205_1216_tl_40" n="N043"/>eine starke Geduldprobe für den Hörer, hätte <rs type="person">Herbeck</rs>'s Roth
+      <lb facs="#facs_2_region_1684587651205_1216_tl_40" n="N043"/>eine starke Geduldprobe für den Hörer, hätte <rs type="person" ref="#hsl_person_id_121">Herbeck</rs>'s Roth
       <lb facs="#facs_2_region_1684587651205_1216_tl_41" n="N044" break="no"/>stift nicht auch hier ein Einsehen gehabt. Zum Glück kommt
-      <lb facs="#facs_2_region_1684587651205_1216_tl_42" n="N045"/>endlich <rs type="person">Eva</rs> in vollem Festschmucke, läßt sich von <rs type="person">Sachs</rs> den
-      <lb facs="#facs_2_line_1719309273635_1161" n="N046"/>Schuh abziehen und ausdehnen, als plötzlich auch <rs type="person">Walther</rs> in<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_2_region_1684587651205_1216_tl_42" n="N045"/>endlich <rs type="person" ref="#hsl_person_id_4617">Eva</rs> in vollem Festschmucke, läßt sich von <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> den
+      <lb facs="#facs_2_line_1719309273635_1161" n="N046"/>Schuh abziehen und ausdehnen, als plötzlich auch <rs type="person" ref="#hsl_person_id_1367">Walther</rs> in<space quantity="1" unit="char"/></p>
             <cb n="6"/>
             <p prev="true">
       <lb facs="#facs_2_region_1684587655027_1219_tl_1" n="N001"/>rothseidenem Wamms hereintritt. Es versteht sich beinahe von
-      <lb facs="#facs_2_region_1684587655027_1219_tl_2" n="N002"/>selbst, daß die Beiden (wie „<rs type="person">Senta</rs>“ und der „<rs type="person">Holländer</rs>“)
+      <lb facs="#facs_2_region_1684587655027_1219_tl_2" n="N002"/>selbst, daß die Beiden (wie „<rs type="person" ref="#hsl_person_id_1375">Senta</rs>“ und der „<rs type="person" ref="#hsl_person_id_1376">Holländer</rs>“)
       <lb facs="#facs_2_region_1684587655027_1219_tl_3" n="N003"/>einander mehrere Minuten lang „wie festgebannt“ in sprach
-      <lb facs="#facs_2_line_1719309316195_1176" n="N004" break="no"/>losem Entzücken genüberstehen müssen. <rs type="person">Walther</rs> singt aber
+      <lb facs="#facs_2_line_1719309316195_1176" n="N004" break="no"/>losem Entzücken genüberstehen müssen. <rs type="person" ref="#hsl_person_id_1367">Walther</rs> singt aber
       <lb facs="#facs_2_region_1684587655027_1219_tl_6" n="N005" break="no"/>mals eine Strophe seiner „Morgentraumdeut-Weise“, die
-      <lb facs="#facs_2_region_1684587655027_1219_tl_8" n="N006"/><rs type="person">Sachs</rs> nun feierlich unter Beiziehung des Lehrbuben und der
+      <lb facs="#facs_2_region_1684587655027_1219_tl_8" n="N006"/><rs type="person" ref="#hsl_person_id_5214">Sachs</rs> nun feierlich unter Beiziehung des Lehrbuben und der
       <lb facs="#facs_2_region_1684587655027_1219_tl_9" n="N007"/>Magd auf diesen Namen tauft. Wir würden auf diese, etwas
       <lb facs="#facs_2_region_1684587655027_1219_tl_10" n="N008"/>kindische Feierlichkeit gern verzichten, wenn sich nicht daraus
       <lb facs="#facs_2_region_1684587655027_1219_tl_11" n="N009"/>etwas höchst Ueberraschendes und Erfreuliches entwickeln würde.
       <lb facs="#facs_2_region_1684587655027_1219_tl_12" n="N010"/>Nämlich nichts weniger als ein sehr wohlklingendes, schön ab
       <lb facs="#facs_2_region_1684587655027_1219_tl_13" n="N011" break="no"/>gerundetes <hi rendition="#em">Vocal-Quintett</hi>, dessen melodiöse Oberstimme
-      <lb facs="#facs_2_region_1684587655027_1219_tl_14" n="N012"/>zuerst <rs type="person">Eva</rs> allein intonirt. Durch drei Stunden hat man fast
+      <lb facs="#facs_2_region_1684587655027_1219_tl_14" n="N012"/>zuerst <rs type="person" ref="#hsl_person_id_4617">Eva</rs> allein intonirt. Durch drei Stunden hat man fast
       <lb facs="#facs_2_region_1684587655027_1219_tl_15" n="N013"/>nichts gehört als declamatorischen Einzelgesang über dem Ge
       <lb facs="#facs_2_region_1684587655027_1219_tl_16" n="N014" break="no"/>woge der „unendlichen Melodie“ oder lärmenden Chortumult.
       <lb facs="#facs_2_region_1684587655027_1219_tl_17" n="N015"/>Nun kommt ganz unerwartet dieses gesangvolle Quintett, und
@@ -1281,7 +1261,7 @@
       <lb facs="#facs_2_region_1684587655027_1219_tl_19" n="N017"/>welcher in irgend einer andern Oper vielleicht keine ungewöhn
       <lb facs="#facs_2_region_1684587655027_1219_tl_20" n="N018" break="no"/>liche Aufmerksamkeit erregt hätte. Das ist eines der Geheim
       <lb facs="#facs_2_region_1684587655027_1219_tl_21" n="N019" break="no"/>nisse unseres modernen Meistersingers. Die Scene verwandelt
-      <lb facs="#facs_2_region_1684587655027_1219_tl_22" n="N020"/>sich in einen freien Wiesenplatz vor den Thoren <rs type="place">Nürnberg</rs>s.
+      <lb facs="#facs_2_region_1684587655027_1219_tl_22" n="N020"/>sich in einen freien Wiesenplatz vor den Thoren <rs type="place" ref="#hsl_place_id_174">Nürnberg</rs>s.
       <lb facs="#facs_2_region_1684587655027_1219_tl_23" n="N021"/>Es ist Johannesfest; die verschiedenen Zünfte ziehen, in fest
       <lb facs="#facs_2_region_1684587655027_1219_tl_24" n="N022" break="no"/>licher Kleidung, mit Musik und Fahnen auf; die Schuster,
       <lb facs="#facs_2_region_1684587655027_1219_tl_25" n="N023"/>die Schneider, die Bäcker singen ihre Handwerkslieder, deren
@@ -1291,20 +1271,20 @@
       <lb facs="#facs_2_region_1684587655027_1219_tl_29" n="N027"/>Instrumentirung, belebt die Scene; Trompetengeschmetter auf
       <lb facs="#facs_2_region_1684587655027_1219_tl_30" n="N028"/>der Bühne verkündet das Herannahen der Meistersingerzunft.
       <lb facs="#facs_2_region_1684587655027_1219_tl_31" n="N029"/>Das Ganze bietet ein recht bewegtes und historisch treues Bild.
-      <lb facs="#facs_2_region_1684587655027_1219_tl_32" n="N030"/><rs type="person">Beckmesser</rs> ist der erste Sänger, der um den Preis
+      <lb facs="#facs_2_region_1684587655027_1219_tl_32" n="N030"/><rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> ist der erste Sänger, der um den Preis
       <lb facs="#facs_2_region_1684587655027_1219_tl_33" n="N031"/>zu kämpfen hat; er beginnt sich mit den fremden Federn
-      <lb facs="#facs_2_region_1684587655027_1219_tl_34" n="N032"/>(<rs type="person">Walther</rs>'s) zu schmücken. Aber verwirrt und furchtsam, wie
+      <lb facs="#facs_2_region_1684587655027_1219_tl_34" n="N032"/>(<rs type="person" ref="#hsl_person_id_1367">Walther</rs>'s) zu schmücken. Aber verwirrt und furchtsam, wie
       <lb facs="#facs_2_region_1684587655027_1219_tl_35" n="N033"/>er ist, vergißt er den Text und verdreht jeden Satz zu Unsinn,
       <lb facs="#facs_2_region_1684587655027_1219_tl_36" n="N034"/>so daß er unter Spott und Gelächter abtreten muß. Hanns
-      <lb facs="#facs_2_region_1684587655027_1219_tl_37" n="N035"/><rs type="person">Sachs</rs> erklärt, daß das Gedicht ursprünglich vortrefflich und
+      <lb facs="#facs_2_region_1684587655027_1219_tl_37" n="N035"/><rs type="person" ref="#hsl_person_id_5214">Sachs</rs> erklärt, daß das Gedicht ursprünglich vortrefflich und
       <lb facs="#facs_2_region_1684587655027_1219_tl_38" n="N036"/>nur durch die arge Verstümmelung so sehr durchgefallen
-      <lb facs="#facs_2_region_1684587655027_1219_tl_39" n="N037"/>sei. Auf seine Aufforderung singt nun <rs type="person">Walther</rs> selbst das
+      <lb facs="#facs_2_region_1684587655027_1219_tl_39" n="N037"/>sei. Auf seine Aufforderung singt nun <rs type="person" ref="#hsl_person_id_1367">Walther</rs> selbst das
       <lb facs="#facs_2_region_1684587655027_1219_tl_40" n="N038"/>Lied, das mit Jubel aufgenommen wird. Wir verstehen aller
       <lb facs="#facs_2_region_1684587655027_1219_tl_41" n="N039" break="no"/>dings nicht recht, wie dieselben Meistersinger, welche Tags
-      <lb facs="#facs_2_region_1684587655027_1219_tl_42" n="N040"/>zuvor einen ganz ähnlichen Gesang <rs type="person">Walther</rs>'s als „eitel Ohr
+      <lb facs="#facs_2_region_1684587655027_1219_tl_42" n="N040"/>zuvor einen ganz ähnlichen Gesang <rs type="person" ref="#hsl_person_id_1367">Walther</rs>'s als „eitel Ohr
       <lb facs="#facs_2_region_1684587655027_1219_tl_43" n="N041" break="no"/>geschinder“ verhöhnten, nun von seiner Poesie plötzlich so hin
-      <lb facs="#facs_2_region_1684587655027_1219_tl_44" n="N042" break="no"/>gerissen sein können, daß sie ihm den Preis und damit <rs type="person">Eva</rs>'s
-      <lb facs="#facs_2_region_1684587655027_1219_tl_45" n="N043"/>Hand votiren. Das wird uns Richard <rs type="person">Wagner</rs> vielleicht ein
+      <lb facs="#facs_2_region_1684587655027_1219_tl_44" n="N042" break="no"/>gerissen sein können, daß sie ihm den Preis und damit <rs type="person" ref="#hsl_person_id_4617">Eva</rs>'s
+      <lb facs="#facs_2_region_1684587655027_1219_tl_45" n="N043"/>Hand votiren. Das wird uns Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> vielleicht ein
       <lb facs="#facs_2_region_1684587655027_1219_tl_46" n="N044"/>andermal erklären; für heute sind wir froh, daß das liebende
       <lb facs="#facs_2_region_1684587655027_1219_tl_47" n="N045"/>Paar endlich vereinigt und die Oper mit einer malerischen
       <lb facs="#facs_2_line_1719309275677_1164" n="N046"/>Schlußgruppe zu Ende ist.</p>

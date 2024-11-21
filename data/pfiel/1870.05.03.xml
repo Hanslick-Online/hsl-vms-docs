@@ -107,6 +107,7 @@
          <change who="kbamer ampfiel" when="2024-08-28">Transkribus OCR und Lektorat.</change>
             <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
             <change when="2024-10-07" who="ampfiel">header, p, lb, space</change>
+            <change when="2024-11-05" who="ampfiel">fill ref rs</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -956,79 +957,72 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
       <head type="h1">
-            <lb facs="#facs_1_region_1684586998731_969_tl_1" n="N001"/><hi rendition="#em">Memoiren von Hector <rs type="person">Berlioz</rs></hi>.</head>
+            <lb facs="#facs_1_region_1684586998731_969_tl_1" n="N001"/><hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_561">Memoiren</rs> von Hector <rs type="person" ref="#hsl_person_id_28">Berlioz</rs></hi>.</head>
       <head type="h2">
             <lb facs="#facs_1_line_1719425258484_30" n="N002"/>II.</head>
             <p>     
-      <lb facs="#facs_1_region_1684586998731_969_tl_2" n="N003"/>Ed. H. <rs type="person">Berlioz</rs> hatte sein Choristenjoch glücklich abge
+      <lb facs="#facs_1_region_1684586998731_969_tl_2" n="N003"/>Ed. H. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> hatte sein Choristenjoch glücklich abge
       <lb facs="#facs_1_region_1684586998731_969_tl_3" n="N004" break="no"/>schüttelt und widmete sich nun mit ganzer Kraft dem Studium
       <lb facs="#facs_1_region_1684586998731_969_tl_4" n="N005"/>zunächst der dramatischen Musik. Der Mann seiner größten,
-      <lb facs="#facs_1_region_1684586998731_969_tl_5" n="N006"/>ja schrankenlosen Bewunderung ist <rs type="person">Gluck</rs>; sein leidenschaftlich
-      <lb facs="#facs_1_region_1684586998731_969_tl_6" n="N007" break="no"/>ster Haß gehört <rs type="person">Rossini</rs> und den <rs type="person">Rossini</rs>sten. Bei Vorstellun
-      <lb facs="#facs_1_region_1684586998731_969_tl_7" n="N008" break="no"/>gen <rs type="person">Gluck</rs>'scher Opern fungirte <rs type="person">Berlioz</rs> im Parterre geradezu
-      <lb facs="#facs_1_region_1684586998731_969_tl_8" n="N009"/>als Chef einer Handvoll <rs type="person">Gluck</rs>-Enthusiasten und solcher, die
+      <lb facs="#facs_1_region_1684586998731_969_tl_5" n="N006"/>ja schrankenlosen Bewunderung ist <rs type="person" ref="#hsl_person_id_99">Gluck</rs>; sein leidenschaftlich
+      <lb facs="#facs_1_region_1684586998731_969_tl_6" n="N007" break="no"/>ster Haß gehört <rs type="person" ref="#hsl_person_id_241">Rossini</rs> und den <rs type="person" ref="#hsl_person_id_241">Rossini</rs>sten. Bei Vorstellun
+      <lb facs="#facs_1_region_1684586998731_969_tl_7" n="N008" break="no"/>gen <rs type="person" ref="#hsl_person_id_99">Gluck</rs>'scher Opern fungirte <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> im Parterre geradezu
+      <lb facs="#facs_1_region_1684586998731_969_tl_8" n="N009"/>als Chef einer Handvoll <rs type="person" ref="#hsl_person_id_99">Gluck</rs>-Enthusiasten und solcher, die
       <lb facs="#facs_1_region_1684586998731_969_tl_9" n="N010"/>er dazu machen wollte. In den Zwischenacten erklärte er
       <lb facs="#facs_1_region_1684586998731_969_tl_10" n="N011"/>ihnen die Schönheiten des Textbuches und der Partitur, und
       <lb facs="#facs_1_region_1684586998731_969_tl_11" n="N012"/>wehe dem Sänger oder Orchester-Dirigenten, der sich die ge
       <lb facs="#facs_1_region_1684586998731_969_tl_12" n="N013" break="no"/>ringste Aenderung erlaubte. „Wo bleiben die Posaunen? Hier
-      <lb facs="#facs_1_region_1684586998731_969_tl_13" n="N014"/>stehen keine Becken! Wer untersteht sich, <rs type="person">Gluck</rs> zu corrigiren?“
+      <lb facs="#facs_1_region_1684586998731_969_tl_13" n="N014"/>stehen keine Becken! Wer untersteht sich, <rs type="person" ref="#hsl_person_id_99">Gluck</rs> zu corrigiren?“
       <lb facs="#facs_1_region_1684586998731_969_tl_14" n="N015"/>so schrie der junge Enthusiast ganz laut während dieser Vor
       <lb facs="#facs_1_region_1684586998731_969_tl_15" n="N016" break="no"/>stellung und erlebte meistens die Satisfaction, daß der Diri
       <lb facs="#facs_1_region_1684586998731_969_tl_16" n="N017" break="no"/>gent, aus Furcht vor der Wiederholung solcher Scandale, die
       <lb facs="#facs_1_region_1684586998731_969_tl_17" n="N018"/>gerügten Unrichtigkeiten verbesserte. Neue, ungeahnte Ideale
       <lb facs="#facs_1_region_1684586998731_969_tl_18" n="N019"/>schlossen sich nun in rascher Auseinanderfolge dem jungen
-      <lb facs="#facs_1_region_1684586998731_969_tl_19" n="N020"/>
-               <rs type="person">Berlioz</rs>: er stieß zum erstenmale auf K. M. v. <hi rendition="#em">
-                  <rs type="person">Weber</rs></hi>,
-      <lb facs="#facs_1_region_1684586998731_969_tl_20" n="N021"/><hi rendition="#em">
-                  <rs type="person">Beethoven</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Shakspeare</rs></hi>. „<rs type="bibl">Der Freischütz</rs>“, ent
-      <lb facs="#facs_1_region_1684586998731_969_tl_21" n="N022" break="no"/>zückte ihn trotz der bekannten Verstümmelung, welche <rs type="person">Castil-
+      <lb facs="#facs_1_region_1684586998731_969_tl_19" n="N020"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>: er stieß zum erstenmale auf K. M. v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs></hi>,
+      <lb facs="#facs_1_region_1684586998731_969_tl_20" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_287">Shakspeare</rs></hi>. „<rs type="bibl" ref="#hsl_work_id_236">Der Freischütz</rs>“, ent
+      <lb facs="#facs_1_region_1684586998731_969_tl_21" n="N022" break="no"/>zückte ihn trotz der bekannten Verstümmelung, welche <rs type="person" ref="#hsl_person_id_811">Castil-
       <lb facs="#facs_1_line_1719425300437_59" n="N023"/>Blaze</rs>, „dieser musikalische Thierarzt“, sich damit erlaubte.
-      <lb facs="#facs_1_region_1684586998731_969_tl_24" n="N024"/>„Sei verflucht! Verzweifle und stirb!“ ruft <rs type="person">Berlioz</rs> jedem
-      <lb facs="#facs_1_region_1684586998731_969_tl_25" n="N025"/>„Verbesserer“ eines Meisterwerkes zu. Gegen <hi rendition="#em">
-                  <rs type="person">Mozart</rs></hi> fühlt
-      <lb facs="#facs_1_region_1684586998731_969_tl_26" n="N026"/>
-               <rs type="person">Berlioz</rs> zeitlebens eine gewisse Voreingenommenheit, welche er
-      <lb facs="#facs_1_region_1684586998731_969_tl_27" n="N027"/>hauptsächlich darauf zurückführt, daß er „<rs type="bibl">Don Juan</rs>“ und
-      <lb facs="#facs_1_region_1684586998731_969_tl_28" n="N028"/>„<rs type="bibl">Figaro</rs>“ in <rs type="place">Paris</rs> nur in der ihm verhaßten <rs type="place">Italienisch</rs>en
+      <lb facs="#facs_1_region_1684586998731_969_tl_24" n="N024"/>„Sei verflucht! Verzweifle und stirb!“ ruft <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> jedem
+      <lb facs="#facs_1_region_1684586998731_969_tl_25" n="N025"/>„Verbesserer“ eines Meisterwerkes zu. Gegen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> fühlt
+      <lb facs="#facs_1_region_1684586998731_969_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> zeitlebens eine gewisse Voreingenommenheit, welche er
+      <lb facs="#facs_1_region_1684586998731_969_tl_27" n="N027"/>hauptsächlich darauf zurückführt, daß er „<rs type="bibl" ref="#hsl_work_id_174">Don Juan</rs>“ und
+      <lb facs="#facs_1_region_1684586998731_969_tl_28" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_4">Figaro</rs>“ in <rs type="place" ref="#hsl_place_id_44">Paris</rs> nur in der ihm verhaßten <rs type="place" ref="#hsl_place_id_28">Italienisch</rs>en
       <lb facs="#facs_1_region_1684586998731_969_tl_29" n="N029"/>Oper von Italienern aufführen sah. Außerdem kann er sei
       <lb facs="#facs_1_region_1684586998731_969_tl_30" n="N030" break="no"/>nen Abscheu vor der Coloraturstelle im Allegro der „Brief-
-      <lb facs="#facs_1_region_1684586998731_969_tl_31" n="N031"/>Arie“ <rs type="person">Donna Anna</rs>'s niemals verwinden; für diesen aller
-      <lb facs="#facs_1_line_1719425328754_76" n="N032" break="no"/>dings beklagenswerthen Fleck in der „<rs type="bibl">Don Juan</rs>“-Partitur
-      <lb facs="#facs_1_region_1684586998731_969_tl_32" n="N033"/>findet <rs type="person">Berlioz</rs> das Epitheton „schändlich“ noch zu milde.</p>
+      <lb facs="#facs_1_region_1684586998731_969_tl_31" n="N031"/>Arie“ <rs type="person" ref="#hsl_person_id_1474">Donna Anna</rs>'s niemals verwinden; für diesen aller
+      <lb facs="#facs_1_line_1719425328754_76" n="N032" break="no"/>dings beklagenswerthen Fleck in der „<rs type="bibl" ref="#hsl_work_id_174">Don Juan</rs>“-Partitur
+      <lb facs="#facs_1_region_1684586998731_969_tl_32" n="N033"/>findet <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> das Epitheton „schändlich“ noch zu milde.</p>
                <p>
-      <lb facs="#facs_1_region_1684586998731_969_tl_33" n="N034"/>Eine <rs type="place">englisch</rs>e Schauspielertruppe, welche im Odéon-
+      <lb facs="#facs_1_region_1684586998731_969_tl_33" n="N034"/>Eine <rs type="place" ref="#hsl_place_id_17">englisch</rs>e Schauspielertruppe, welche im Odéon-
       <lb facs="#facs_1_region_1684586998731_969_tl_34" n="N035"/>Theater gastirt, führt nun eine der bewegtesten und folgen
-      <lb facs="#facs_1_region_1684586998731_969_tl_35" n="N036" break="no"/>reichsten Perioden in <rs type="person">Berlioz</rs>' Leben herbei. Er sieht zum
-      <lb facs="#facs_1_region_1684586998731_969_tl_36" n="N037"/>erstenmale ein <rs type="person">Shakspeare</rs>'sches Trauerspiel („<rs type="bibl">Hamlet</rs>“) mit
-      <lb facs="#facs_1_region_1684586998731_969_tl_37" n="N038"/>Miß <hi rendition="#em">
-                  <rs type="person">Smithson</rs></hi> als <rs type="person">Ophelia</rs>. Gleichzeitig mit dem über
-      <lb facs="#facs_1_region_1684586998731_969_tl_38" n="N039" break="no"/>wältigenden Eindrucke des <rs type="person">Shakspeare</rs>'schen Dramas trifft ihn
+      <lb facs="#facs_1_region_1684586998731_969_tl_35" n="N036" break="no"/>reichsten Perioden in <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' Leben herbei. Er sieht zum
+      <lb facs="#facs_1_region_1684586998731_969_tl_36" n="N037"/>erstenmale ein <rs type="person" ref="#hsl_person_id_287">Shakspeare</rs>'sches Trauerspiel („<rs type="bibl" ref="#hsl_work_id_518">Hamlet</rs>“) mit
+      <lb facs="#facs_1_region_1684586998731_969_tl_37" n="N038"/>Miß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1003">Smithson</rs></hi> als <rs type="person" ref="#hsl_person_id_1004">Ophelia</rs>. Gleichzeitig mit dem über
+      <lb facs="#facs_1_region_1684586998731_969_tl_38" n="N039" break="no"/>wältigenden Eindrucke des <rs type="person" ref="#hsl_person_id_287">Shakspeare</rs>'schen Dramas trifft ihn
       <lb facs="#facs_1_region_1684586998731_969_tl_39" n="N040"/>blitzartig eine rasende Leidenschaft für die schöne Schauspielerin.
-      <lb facs="#facs_1_line_1719425370934_110" n="N041"/>Wer diese Capitel nicht bei <rs type="person">Berlioz</rs> selbst nachließt, kann sich<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_1_line_1719425370934_110" n="N041"/>Wer diese Capitel nicht bei <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> selbst nachließt, kann sich<space quantity="1" unit="char"/></p>
             <cb n="2"/>
             <p prev="true">
       <lb facs="#facs_1_region_1684587002265_972_tl_1" n="N001"/>kaum eine Vorstellung machen von der unbändigen, vulcanischen
       <lb facs="#facs_1_line_1719425396089_125" n="N002"/>Natur seines Gemüthes. Ruhige Leser dürften wol darin über
-      <lb facs="#facs_1_region_1684587002265_972_tl_3" n="N003" break="no"/>einstimmen, daß sich <rs type="person">Berlioz</rs> wie ein Narr benommen hat.
+      <lb facs="#facs_1_region_1684587002265_972_tl_3" n="N003" break="no"/>einstimmen, daß sich <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> wie ein Narr benommen hat.
       <lb facs="#facs_1_region_1684587002265_972_tl_4" n="N004"/>Er verliert vollständig „den Schlaf, die Lebhaftigkeit des
       <lb facs="#facs_1_region_1684587002265_972_tl_5" n="N005"/>Geistes, jedes Interesse für seine Lieblingsstudien, jede Mög
       <lb facs="#facs_1_region_1684587002265_972_tl_6" n="N006" break="no"/>lichkeit zu arbeiten“. Erschöpft von tagelangem ziellosen Um
-      <lb facs="#facs_1_region_1684587002265_972_tl_7" n="N007" break="no"/>herirren in den Straßen und Umgebungen von <rs type="place">Paris</rs>, schläft
-      <lb facs="#facs_1_region_1684587002265_972_tl_8" n="N008"/>er einmal im Schnee, am Ufer der gefrorenen <rs type="place">Seine</rs>, ein
+      <lb facs="#facs_1_region_1684587002265_972_tl_7" n="N007" break="no"/>herirren in den Straßen und Umgebungen von <rs type="place" ref="#hsl_place_id_44">Paris</rs>, schläft
+      <lb facs="#facs_1_region_1684587002265_972_tl_8" n="N008"/>er einmal im Schnee, am Ufer der gefrorenen <rs type="place" ref="#hsl_place_id_355">Seine</rs>, ein
       <lb facs="#facs_1_region_1684587002265_972_tl_9" n="N009"/>zweitesmal auf freiem Felde, ein drittesmal auf einem Tische
-      <lb facs="#facs_1_region_1684587002265_972_tl_10" n="N010"/>in einem Boulevard-Kaffeehause. Nach jener „<rs type="bibl">Hamlet</rs>“-Vor
-      <lb facs="#facs_1_region_1684587002265_972_tl_11" n="N011" break="no"/>stellung hatte sich <rs type="person">Berlioz</rs> fest vorgenommen, sich niemals wie
+      <lb facs="#facs_1_region_1684587002265_972_tl_10" n="N010"/>in einem Boulevard-Kaffeehause. Nach jener „<rs type="bibl" ref="#hsl_work_id_518">Hamlet</rs>“-Vor
+      <lb facs="#facs_1_region_1684587002265_972_tl_11" n="N011" break="no"/>stellung hatte sich <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> fest vorgenommen, sich niemals wie
       <lb facs="#facs_1_region_1684587002265_972_tl_12" n="N012" break="no"/>der einer ähnlichen Erschütterung auszusetzen. Doch kann er
-      <lb facs="#facs_1_region_1684587002265_972_tl_13" n="N013"/>der Anzeige von „<rs type="bibl">Romeo und Julie</rs>“ nicht widerstehen. Die
+      <lb facs="#facs_1_region_1684587002265_972_tl_13" n="N013"/>der Anzeige von „<rs type="bibl" ref="#hsl_work_id_57">Romeo und Julie</rs>“ nicht widerstehen. Die
       <lb facs="#facs_1_region_1684587002265_972_tl_14" n="N014"/>Wirkung ist furchtbar. Vom dritten Acte an vermag er —
-      <lb facs="#facs_1_region_1684587002265_972_tl_15" n="N015"/>der übrigens kein Wort <rs type="place">Englisch</rs> versteht — kaum mehr zu
+      <lb facs="#facs_1_region_1684587002265_972_tl_15" n="N015"/>der übrigens kein Wort <rs type="place" ref="#hsl_place_id_17">Englisch</rs> versteht — kaum mehr zu
       <lb facs="#facs_1_region_1684587002265_972_tl_16" n="N016"/>athmen, eine eiserne Faust preßt sein Herz zusammen, er sagt
       <lb facs="#facs_1_region_1684587002265_972_tl_17" n="N017"/>sich aus innerster Ueberzeugung: „Jetzt bin ich verloren.“
-      <lb facs="#facs_1_line_1719425455994_151" n="N018"/>Von den <rs type="person">Shakspeare</rs>-Vorstellungen hält er sich mit einer Art
+      <lb facs="#facs_1_line_1719425455994_151" n="N018"/>Von den <rs type="person" ref="#hsl_person_id_287">Shakspeare</rs>-Vorstellungen hält er sich mit einer Art
       <lb facs="#facs_1_line_1719425472573_161" n="N019"/>Todesangst fern, doch grübelt er unablässig, wie er die Auf
-      <lb facs="#facs_1_region_1684587002265_972_tl_20" n="N020" break="no"/>merksamkeit Miß <rs type="person">Smithson</rs>'s erregen könnte, welcher er doch
+      <lb facs="#facs_1_region_1684587002265_972_tl_20" n="N020" break="no"/>merksamkeit Miß <rs type="person" ref="#hsl_person_id_1003">Smithson</rs>'s erregen könnte, welcher er doch
       <lb facs="#facs_1_region_1684587002265_972_tl_21" n="N021"/>niemals in die Nähe zu kommen wagt. Es gelingt ihm, mit
       <lb facs="#facs_1_region_1684587002265_972_tl_22" n="N022"/>einer Concert-Aufführung mehrerer seiner Compositionen Auf
       <lb facs="#facs_1_region_1684587002265_972_tl_23" n="N023" break="no"/>sehen zu erregen — nur <hi rendition="#em">sie</hi> allein hat nie davon reden ge
@@ -1036,73 +1030,65 @@
       <lb facs="#facs_1_region_1684587002265_972_tl_25" n="N025"/>von ihr zu erhalten; endlich verbietet sie ihrer Kammer
       <lb facs="#facs_1_region_1684587002265_972_tl_26" n="N026" break="no"/>frau, Briefe von diesem schrecklichen Menschen anzunehmen.
       <lb facs="#facs_1_line_1719425491410_180" n="N027"/>Unter dem Eindrucke dieser verzehrenden Leidenschaft componirt
-      <lb facs="#facs_1_region_1684587002265_972_tl_28" n="N028"/>
-               <rs type="person">Berlioz</rs> seine „<hi rendition="#em">
-                  <rs type="bibl">Symphonie fantastique</rs></hi>“, die (in späterer
+      <lb facs="#facs_1_region_1684587002265_972_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> seine „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_65">Symphonie fantastique</rs></hi>“, die (in späterer
       <lb facs="#facs_1_region_1684587002265_972_tl_29" n="N029"/>radicaler Umarbeitung) zuerst den Ruhm des originellen Ton
       <lb facs="#facs_1_region_1684587002265_972_tl_30" n="N030" break="no"/>dichters begründete und über die Grenzen seines Vaterlandes
       <lb facs="#facs_1_region_1684587002265_972_tl_31" n="N031"/>trug. Endlich gelingt es ihm, den zweiten und bald darauf
       <lb facs="#facs_1_region_1684587002265_972_tl_32" n="N032"/>den ersten Preis in dem musikalischen Concurse des „Insti
       <lb facs="#facs_1_region_1684587002265_972_tl_33" n="N033" break="no"/>tutes“ zu erringen. Mit diesem ersten Preise ist ein fünfjähri
       <lb facs="#facs_1_region_1684587002265_972_tl_34" n="N034" break="no"/>ges Staatsstipendium von jährlich 3000 Francs verbunden
-      <lb facs="#facs_1_region_1684587002265_972_tl_35" n="N035"/>und die Verpflichtung, zwei Jahre in <rs type="place">Rom</rs> zuzubringen. 
-                  <rs type="person">Ber
-      <lb facs="#facs_1_line_1719425332587_79" n="N036" break="no"/>lioz</rs> begibt sich nach <rs type="place">Rom</rs>, wo er in Horace <hi rendition="#em">
-                  <rs type="person">Bernet</rs></hi>, dem
-      <lb facs="#facs_1_region_1684587002265_972_tl_37" n="N037"/>damaligen Director der <rs type="place">französisch</rs>en Akademie (in der Villa
-      <lb facs="#facs_1_region_1684587002265_972_tl_38" n="N038"/>
-               <rs type="person">Medici</rs>), einen wohlwollenden Vorgesetzten und väterlichen
-      <lb facs="#facs_1_region_1684587002265_972_tl_39" n="N039"/>Freund findet. <rs type="person">Berlioz</rs>' Mittheilungen über seinen <rs type="place">römisch</rs>en
-      <lb facs="#facs_1_region_1684587002265_972_tl_40" n="N040"/>Aufenthalt verrathen wenig Zufriedenheit, obgleich die <rs type="place">franzö
+      <lb facs="#facs_1_region_1684587002265_972_tl_35" n="N035"/>und die Verpflichtung, zwei Jahre in <rs type="place" ref="#hsl_place_id_47">Rom</rs> zuzubringen. <rs type="person" ref="#hsl_person_id_28">Ber
+      <lb facs="#facs_1_line_1719425332587_79" n="N036" break="no"/>lioz</rs> begibt sich nach <rs type="place" ref="#hsl_place_id_47">Rom</rs>, wo er in Horace <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1005">Vernet</rs></hi>, dem
+      <lb facs="#facs_1_region_1684587002265_972_tl_37" n="N037"/>damaligen Director der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Akademie (in der Villa
+      <lb facs="#facs_1_region_1684587002265_972_tl_38" n="N038"/><rs type="person" ref="#hsl_person_id_5882">Medici</rs>), einen wohlwollenden Vorgesetzten und väterlichen
+      <lb facs="#facs_1_region_1684587002265_972_tl_39" n="N039"/>Freund findet. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' Mittheilungen über seinen <rs type="place" ref="#hsl_place_id_47">römisch</rs>en
+      <lb facs="#facs_1_region_1684587002265_972_tl_40" n="N040"/>Aufenthalt verrathen wenig Zufriedenheit, obgleich die <rs type="place" ref="#hsl_place_id_21">franzö
       <lb facs="#facs_1_region_1684587002265_972_tl_41" n="N041" break="no"/>sisch</rs>en Laureaten dort eine fast unbegrenzte Freiheit genießen,
-      <lb facs="#facs_1_region_1684587002265_972_tl_42" n="N042"/>nach Belieben größere Reisen in ganz <rs type="place">Italien</rs> machen dürfen,
+      <lb facs="#facs_1_region_1684587002265_972_tl_42" n="N042"/>nach Belieben größere Reisen in ganz <rs type="place" ref="#hsl_place_id_28">Italien</rs> machen dürfen,
       <lb facs="#facs_1_region_1684587002265_972_tl_43" n="N043"/>in der Akademie mit allem Nöthigen versorgt und mit jeder
-      <lb facs="#facs_1_region_1684587002265_972_tl_44" n="N044"/>Controle ihrer Studien verschont sind. Aber <rs type="person">Berlioz</rs> hat
+      <lb facs="#facs_1_region_1684587002265_972_tl_44" n="N044"/>Controle ihrer Studien verschont sind. Aber <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> hat
       <lb facs="#facs_1_line_1719425374547_113" n="N045"/>wenig Sympathie für das Land und dessen Bewohner, die<space quantity="1" unit="char"/></p>
             <cb n="3"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1684587005673_975_tl_1" n="N001"/><rs type="place">italienisch</rs>e Musik ist ihm ein Gräuel, für Gemälde und Sta
+      <lb facs="#facs_1_region_1684587005673_975_tl_1" n="N001"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Musik ist ihm ein Gräuel, für Gemälde und Sta
       <lb facs="#facs_1_line_1719425400215_128" n="N002" break="no"/>tuen interessirt er sich nicht. Den Ruhm der päpstlichen Ca
       <lb facs="#facs_1_region_1684587005673_975_tl_2" n="N003" break="no"/>pelle nennt er einen ganz unverdienten, den Kirchen-Composi
-      <lb facs="#facs_1_region_1684587005673_975_tl_3" n="N004" break="no"/>tionen <rs type="person">Palestrina</rs>'s gesteht er zwar „Geschmack und Gelehrsam
+      <lb facs="#facs_1_region_1684587005673_975_tl_3" n="N004" break="no"/>tionen <rs type="person" ref="#hsl_person_id_927">Palestrina</rs>'s gesteht er zwar „Geschmack und Gelehrsam
       <lb facs="#facs_1_region_1684587005673_975_tl_4" n="N005" break="no"/>keit“ zu, findet es aber komisch (une plaisanterie), von dem
-      <lb facs="#facs_1_region_1684587005673_975_tl_5" n="N006"/>„Genie“ dieses Meisters zu sprechen. In <rs type="place">Rom</rs> verkehrt <rs type="person">Ber
-      <lb facs="#facs_1_region_1684587005673_975_tl_6" n="N007" break="no"/>lioz</rs> häufig mit <hi rendition="#em">
-                  <rs type="person">Mendelssohn-Bartholdy</rs></hi>, von dem er
-      <lb facs="#facs_1_region_1684587005673_975_tl_7" n="N008"/>jedoch in auffallend kühlem, fast gereiztem Tone spricht. <rs type="person">Men
+      <lb facs="#facs_1_region_1684587005673_975_tl_5" n="N006"/>„Genie“ dieses Meisters zu sprechen. In <rs type="place" ref="#hsl_place_id_47">Rom</rs> verkehrt <rs type="person" ref="#hsl_person_id_28">Ber
+      <lb facs="#facs_1_region_1684587005673_975_tl_6" n="N007" break="no"/>lioz</rs> häufig mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn-Bartholdy</rs></hi>, von dem er
+      <lb facs="#facs_1_region_1684587005673_975_tl_7" n="N008"/>jedoch in auffallend kühlem, fast gereiztem Tone spricht. <rs type="person" ref="#hsl_person_id_21">Men
       <lb facs="#facs_1_region_1684587005673_975_tl_8" n="N009" break="no"/>delssohn</rs> war seiner ganzen künstlerischen Individualität nach
-      <lb facs="#facs_1_region_1684587005673_975_tl_9" n="N010"/>nicht der Mann, an <rs type="person">Berlioz</rs>' extravaganter Musik Gefallen
+      <lb facs="#facs_1_region_1684587005673_975_tl_9" n="N010"/>nicht der Mann, an <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' extravaganter Musik Gefallen
       <lb facs="#facs_1_region_1684587005673_975_tl_10" n="N011"/>zu finden, und machte auch kein Hehl daraus. Jugendlicher
       <lb facs="#facs_1_region_1684587005673_975_tl_11" n="N012"/>Uebermuth mag ihm auch manches ironisch witzige Wort ein
-      <lb facs="#facs_1_region_1684587005673_975_tl_12" n="N013" break="no"/>gegeben haben, so daß er dem empfindlichen <rs type="person">Berlioz</rs> vorkam
-      <lb facs="#facs_1_region_1684587005673_975_tl_13" n="N014"/>wie ein „stacheliger Igel“. <rs type="person">Berlioz</rs> geräth in eine kaum
-      <lb facs="#facs_1_region_1684587005673_975_tl_14" n="N015"/>begreifliche Wonne, als <rs type="person">Bernet</rs> ihm erlaubt, seine
-      <lb facs="#facs_1_line_1719425520962_223" n="N016"/>„zweijährige <rs type="place">italienisch</rs>e Verbannung“ um sechs Mo
-      <lb facs="#facs_1_region_1684587005673_975_tl_17" n="N017" break="no"/>nate abzukürzen und (im Sommer <date mwhen="1832">1832</date>) nach <rs type="place">Paris</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684587005673_975_tl_12" n="N013" break="no"/>gegeben haben, so daß er dem empfindlichen <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> vorkam
+      <lb facs="#facs_1_region_1684587005673_975_tl_13" n="N014"/>wie ein „stacheliger Igel“. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> geräth in eine kaum
+      <lb facs="#facs_1_region_1684587005673_975_tl_14" n="N015"/>begreifliche Wonne, als <rs type="person" ref="#hsl_person_id_1005">Vernet</rs> ihm erlaubt, seine
+      <lb facs="#facs_1_line_1719425520962_223" n="N016"/>„zweijährige <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Verbannung“ um sechs Mo
+      <lb facs="#facs_1_region_1684587005673_975_tl_17" n="N017" break="no"/>nate abzukürzen und (im Sommer <date when="1832">1832</date>) nach <rs type="place" ref="#hsl_place_id_44">Paris</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_line_1719425460697_154" n="N018"/>zurückzukehren. Hier folgt er gleich einem unwiderstehlichen
       <lb facs="#facs_1_line_1719425476361_164" n="N019"/>Triebe, indem er sich gerade gegenüber der ehemaligen Woh
-      <lb facs="#facs_1_region_1684587005673_975_tl_18" n="N020" break="no"/>nung von Miß <rs type="person">Smithson</rs> einquartiert. Die alte Leidenschaft
+      <lb facs="#facs_1_region_1684587005673_975_tl_18" n="N020" break="no"/>nung von Miß <rs type="person" ref="#hsl_person_id_1003">Smithson</rs> einquartiert. Die alte Leidenschaft
       <lb facs="#facs_1_region_1684587005673_975_tl_19" n="N021"/>erwacht sofort, als er von der Anwesenheit der für ihn seit
-      <lb facs="#facs_1_region_1684587005673_975_tl_20" n="N022"/>zwei Jahren Verschollenen hört. <rs type="person">Berlioz</rs> arrangirt so schnell
-      <lb facs="#facs_1_region_1684587005673_975_tl_21" n="N023"/>als möglich ein großes Concert mit der „<rs type="bibl">Phantastischen 
+      <lb facs="#facs_1_region_1684587005673_975_tl_20" n="N022"/>zwei Jahren Verschollenen hört. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> arrangirt so schnell
+      <lb facs="#facs_1_region_1684587005673_975_tl_21" n="N023"/>als möglich ein großes Concert mit der „<rs type="bibl" ref="#hsl_work_id_65">Phantastischen 
       <lb facs="#facs_1_region_1684587005673_975_tl_22" n="N024"/>Symphonie</rs>“ an der Spitze und bringt es durch Vermittlung
-      <lb facs="#facs_1_region_1684587005673_975_tl_23" n="N025"/>von Freunden dahin, daß seine angebetete <rs type="person">Henriette</rs> der Pro
+      <lb facs="#facs_1_region_1684587005673_975_tl_23" n="N025"/>von Freunden dahin, daß seine angebetete <rs type="person" ref="#hsl_person_id_1003">Henriette</rs> der Pro
       <lb facs="#facs_1_region_1684587005673_975_tl_24" n="N026" break="no"/>duction beiwohnt. Sie erräth rasch den Zusammenhang und
       <lb facs="#facs_1_line_1719425495497_183" n="N027"/>erlaubt ihm am folgenden Tage, sie zu besuchen. Um seine
       <lb facs="#facs_1_region_1684587005673_975_tl_25" n="N028"/>Ruhe war es nun wieder für lange Zeit geschehen. Sowol
-      <lb facs="#facs_1_region_1684587005673_975_tl_26" n="N029"/>
-               <rs type="person">Berlioz</rs>' Eltern, als die Familie der <rs type="person">Smithson</rs> erklärten sich
+      <lb facs="#facs_1_region_1684587005673_975_tl_26" n="N029"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' Eltern, als die Familie der <rs type="person" ref="#hsl_person_id_1003">Smithson</rs> erklärten sich
       <lb facs="#facs_1_region_1684587005673_975_tl_27" n="N030"/>auf das entschiedenste gegen eine Verbindung zwischen den
       <lb facs="#facs_1_region_1684587005673_975_tl_28" n="N031"/>Beiden. Ein Jahr lang dauerte dieser Kampf, diese Qualen,
-      <lb facs="#facs_1_region_1684587005673_975_tl_29" n="N032"/>denen <rs type="person">Berlioz</rs> zu unterliegen fürchtete. Was seinen Wünschen
+      <lb facs="#facs_1_region_1684587005673_975_tl_29" n="N032"/>denen <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> zu unterliegen fürchtete. Was seinen Wünschen
       <lb facs="#facs_1_region_1684587005673_975_tl_30" n="N033"/>hilfreich entgegenkam, war leider eine Reihe von Unglücks
-      <lb facs="#facs_1_region_1684587005673_975_tl_31" n="N034" break="no"/>fällen, welche seine Geliebte trafen. Miß <rs type="person">Smithson</rs> hatte als
+      <lb facs="#facs_1_region_1684587005673_975_tl_31" n="N034" break="no"/>fällen, welche seine Geliebte trafen. Miß <rs type="person" ref="#hsl_person_id_1003">Smithson</rs> hatte als
       <lb facs="#facs_1_region_1684587005673_975_tl_32" n="N035"/>Directrice der Theater-Unternehmung ihr Vermögen eingebüßt
       <lb facs="#facs_1_region_1684587005673_975_tl_33" n="N036"/>und war von Gläubigern belagert; am Abend ihrer Benefice-
       <lb facs="#facs_1_region_1684587005673_975_tl_34" n="N037"/>Vorstellung springt sie rasch aus dem Wagen und bricht den
       <lb facs="#facs_1_region_1684587005673_975_tl_35" n="N038"/>Fuß. Die Heilung ging sehr langsam vorwärts. Endlich, im
-      <lb facs="#facs_1_region_1684587005673_975_tl_36" n="N039"/>Sommer <date when="1833">1833</date>, heiratete 
-                  <rs type="person">Berlioz</rs> seine Henriette <rs type="person">Smithson</rs>.
+      <lb facs="#facs_1_region_1684587005673_975_tl_36" n="N039"/>Sommer <date when="1833">1833</date>, heiratete <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> seine Henriette <rs type="person" ref="#hsl_person_id_1003">Smithson</rs>.
       <lb facs="#facs_1_region_1684587005673_975_tl_37" n="N040"/>„Sie hatte,“ so erzählt er, „an unserem Hochzeitstage nichts
       <lb facs="#facs_1_region_1684587005673_975_tl_38" n="N041"/>mehr auf der Welt als Schulden und die Aussicht, nur noch
       <lb facs="#facs_1_region_1684587005673_975_tl_39" n="N042"/>hinkend die Bühne betreten zu können; ich selbst besaß Alles
@@ -1112,51 +1098,46 @@
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p>
-      <lb facs="#facs_2_region_1684587019264_981_tl_1" n="N001"/>Für <rs type="person">Berlioz</rs> beginnt nun eine Zeit der Arbeit und Ent
+      <lb facs="#facs_2_region_1684587019264_981_tl_1" n="N001"/>Für <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> beginnt nun eine Zeit der Arbeit und Ent
       <lb facs="#facs_2_region_1684587019264_981_tl_2" n="N002" break="no"/>behrung, zugleich aber auch gekräftigter künstlerischer Zuver
-      <lb facs="#facs_2_region_1684587019264_981_tl_3" n="N003" break="no"/>sicht. Ein Concert, dass er unter Mitwirkung Franz <hi rendition="#em">
-            <rs type="person">Liszt</rs>'s</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684587019264_981_tl_3" n="N003" break="no"/>sicht. Ein Concert, dass er unter Mitwirkung Franz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs>'s</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684587019264_981_tl_4" n="N004"/>gibt, trägt 7000 Francs ein, welche sofort den Gläubigern
       <lb facs="#facs_2_region_1684587019264_981_tl_5" n="N005"/>seiner Frau in die Hände fallen. Erst mehrere Jahre später
-      <lb facs="#facs_2_region_1684587019264_981_tl_6" n="N006"/>und unter empfindlichen Entbehrungen gelang es <rs type="person">Berlioz</rs>, diese
-      <lb facs="#facs_2_region_1684587019264_981_tl_7" n="N007"/>Schuld gänzlich zu tilgen. Auf Anregung <rs type="person">Paganini</rs>'s, der für
-      <lb facs="#facs_2_region_1684587019264_981_tl_8" n="N008"/>seine Productionen ein Concertstück von <rs type="person">Berlioz</rs>' Compositionen
-      <lb facs="#facs_2_region_1684587019264_981_tl_9" n="N009"/>wünschte, schrieb dieser die <rs type="bibl">Harold-Symphonie</rs>. Bekanntlich
-      <lb facs="#facs_2_region_1684587019264_981_tl_10" n="N010"/>durchzieht diese ganze <rs type="bibl">Symphonie</rs>, gleichsam deren Helden
-      <lb facs="#facs_2_region_1684587019264_981_tl_11" n="N011"/>repräsentirend, eine Solo-Viola; <rs type="person">Paganini</rs> fand die Partie
-      <lb facs="#facs_2_region_1684587019264_981_tl_12" n="N012"/>für seine Zwecke nicht concertant genug. Als aber <rs type="person">Paganini</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_line_1719425597887_281" n="N013"/>ein Jahr später die <rs type="bibl">Harold-Symphonie</rs> und die „<rs type="bibl">Fantastique</rs>“
-      <lb facs="#facs_2_region_1684587019264_981_tl_15" n="N014"/>in <rs type="person">Paris</rs> unter <rs type="person">Berlioz</rs>' Leitung hörte, war er so entzückt
+      <lb facs="#facs_2_region_1684587019264_981_tl_6" n="N006"/>und unter empfindlichen Entbehrungen gelang es <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, diese
+      <lb facs="#facs_2_region_1684587019264_981_tl_7" n="N007"/>Schuld gänzlich zu tilgen. Auf Anregung <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>'s, der für
+      <lb facs="#facs_2_region_1684587019264_981_tl_8" n="N008"/>seine Productionen ein Concertstück von <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' Compositionen
+      <lb facs="#facs_2_region_1684587019264_981_tl_9" n="N009"/>wünschte, schrieb dieser die <rs type="bibl" ref="#hsl_work_id_182">Harold-Symphonie</rs>. Bekanntlich
+      <lb facs="#facs_2_region_1684587019264_981_tl_10" n="N010"/>durchzieht diese ganze <rs type="bibl" ref="#hsl_work_id_182">Symphonie</rs>, gleichsam deren Helden
+      <lb facs="#facs_2_region_1684587019264_981_tl_11" n="N011"/>repräsentirend, eine Solo-Viola; <rs type="person" ref="#hsl_person_id_1008">Paganini</rs> fand die Partie
+      <lb facs="#facs_2_region_1684587019264_981_tl_12" n="N012"/>für seine Zwecke nicht concertant genug. Als aber <rs type="person" ref="#hsl_person_id_1008">Paganini</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1719425597887_281" n="N013"/>ein Jahr später die <rs type="bibl" ref="#hsl_work_id_182">Harold-Symphonie</rs> und die „<rs type="bibl" ref="#hsl_work_id_65">Fantastique</rs>“
+      <lb facs="#facs_2_region_1684587019264_981_tl_15" n="N014"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs> unter <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' Leitung hörte, war er so entzückt
       <lb facs="#facs_2_region_1684587019264_981_tl_16" n="N015"/>davon, daß er dem Componisten am anderen Morgen
       <lb facs="#facs_2_region_1684587019264_981_tl_17" n="N016"/>20,000 Francs nebst einem enthusiastischen Schreiben zu
-      <lb facs="#facs_2_line_1719425613941_290" n="N017" break="no"/>schickte. <rs type="person">Berlioz</rs>, der krank zu Bette lag, rief, seiner Sinne
+      <lb facs="#facs_2_line_1719425613941_290" n="N017" break="no"/>schickte. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, der krank zu Bette lag, rief, seiner Sinne
       <lb facs="#facs_2_region_1684587019264_981_tl_20" n="N018"/>kaum mächtig, Frau und Kind herbei, welche an seinem Bette
       <lb facs="#facs_2_region_1684587019264_981_tl_21" n="N019"/>auf die Knie fielen und mit Freudenthränen Gott für die
-      <lb facs="#facs_2_region_1684587019264_981_tl_22" n="N020"/>unerwartete Hilfe dankten. <rs type="person">Paganini</rs>'s Großherzigkeit setzte
-      <lb facs="#facs_2_line_1719425668078_301" n="N021"/>
-               <rs type="person">Berlioz</rs> in den Stand, sich durch längere Zeit ausschließlich und
+      <lb facs="#facs_2_region_1684587019264_981_tl_22" n="N020"/>unerwartete Hilfe dankten. <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>'s Großherzigkeit setzte
+      <lb facs="#facs_2_line_1719425668078_301" n="N021"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in den Stand, sich durch längere Zeit ausschließlich und
       <lb facs="#facs_2_region_1684587019264_981_tl_24" n="N022"/>sorgenfrei jenem großen Werke zu widmen, in das er seine
-      <lb facs="#facs_2_region_1684587019264_981_tl_25" n="N023"/>beste Kraft legen wollte, um es <rs type="person">Paganini</rs> zuzueignen: die
-      <lb facs="#facs_2_region_1684587019264_981_tl_26" n="N024"/>dramatische Symphonie „<hi rendition="#em">
-                  <rs type="bibl">Romeo und Julia</rs></hi>“. Leider erlebte
-      <lb facs="#facs_2_region_1684587019264_981_tl_27" n="N025"/>
-               <rs type="person">Paganini</rs> nicht mehr die Vollendung dieser Compo
-      <lb facs="#facs_2_region_1684587019264_981_tl_28" n="N026" break="no"/>sition, er starb im <date when="1840-05">Mai 1840</date> in <rs type="place">Nizza</rs>. „Nun
+      <lb facs="#facs_2_region_1684587019264_981_tl_25" n="N023"/>beste Kraft legen wollte, um es <rs type="person" ref="#hsl_person_id_1008">Paganini</rs> zuzueignen: die
+      <lb facs="#facs_2_region_1684587019264_981_tl_26" n="N024"/>dramatische Symphonie „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_55">Romeo und Julia</rs></hi>“. Leider erlebte
+      <lb facs="#facs_2_region_1684587019264_981_tl_27" n="N025"/><rs type="person" ref="#hsl_person_id_1008">Paganini</rs> nicht mehr die Vollendung dieser Compo
+      <lb facs="#facs_2_region_1684587019264_981_tl_28" n="N026" break="no"/>sition, er starb im <date when="1840-05">Mai 1840</date> in <rs type="place" ref="#hsl_place_id_220">Nizza</rs>. „Nun
       <lb facs="#facs_2_region_1684587019264_981_tl_29" n="N027"/>brauche ich kein Feuilleton mehr zu schreiben!“ ist
-      <lb facs="#facs_2_region_1684587019264_981_tl_31" n="N028"/>der erste Ausruf, mit welchem <rs type="person">Berlioz</rs> das unerwartete Ge
-      <lb facs="#facs_2_region_1684587019264_981_tl_32" n="N029" break="no"/>schenk <rs type="person">Paganini</rs>'s jubelnd begrüßt. Durch das ganze Buch von
-      <lb facs="#facs_2_region_1684587019264_981_tl_33" n="N030"/>
-               <rs type="person">Berlioz</rs> zieht sich dieser Gedanke durch, in bitteren Klagen
+      <lb facs="#facs_2_region_1684587019264_981_tl_31" n="N028"/>der erste Ausruf, mit welchem <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> das unerwartete Ge
+      <lb facs="#facs_2_region_1684587019264_981_tl_32" n="N029" break="no"/>schenk <rs type="person" ref="#hsl_person_id_1008">Paganini</rs>'s jubelnd begrüßt. Durch das ganze Buch von
+      <lb facs="#facs_2_region_1684587019264_981_tl_33" n="N030"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> zieht sich dieser Gedanke durch, in bitteren Klagen
       <lb facs="#facs_2_region_1684587019264_981_tl_34" n="N031"/>über die ihm entsetzliche Thätigkeit als Kritiker, in lebhaften
       <lb facs="#facs_2_region_1684587019264_981_tl_35" n="N032"/>Schilderungen der peinlichen Mühe und Anstrengung, mit
-      <lb facs="#facs_2_region_1684587019264_981_tl_36" n="N033"/>welcher er ein Feuilleton für das <rs type="bibl">Journal des Debats</rs> fertig
+      <lb facs="#facs_2_region_1684587019264_981_tl_36" n="N033"/>welcher er ein Feuilleton für das <rs type="bibl" ref="#hsl_work_id_639">Journal des Debats</rs> fertig
       <lb facs="#facs_2_region_1684587019264_981_tl_37" n="N034"/>bringt. Einmal erzählt er sogar, wie er sich durch drei Tage
       <lb facs="#facs_2_region_1684587019264_981_tl_38" n="N035"/>in sein Zimmer eingeschlossen hatte, um über eine ihm ganz
       <lb facs="#facs_2_region_1684587019264_981_tl_39" n="N036"/>uninteressante komische Oper ein Feuilleton zu schreiben. Die
       <lb facs="#facs_2_region_1684587019264_981_tl_40" n="N037"/>Qual, durchaus keinen Anfang finden zu können, brachte ihn
       <lb facs="#facs_2_region_1684587019264_981_tl_41" n="N038"/>in solche Verzweiflung, daß er sich die Haare ausriß, wie ein
       <lb facs="#facs_2_region_1684587019264_981_tl_42" n="N039"/>Kind weinte, endlich, eine Pistole herablangend, dem Selbst
-      <lb facs="#facs_2_region_1684587019264_981_tl_43" n="N040" break="no"/>morde nahe war! Und doch verdankte <rs type="person">Berlioz</rs> seinen Ruhm
+      <lb facs="#facs_2_region_1684587019264_981_tl_43" n="N040" break="no"/>morde nahe war! Und doch verdankte <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> seinen Ruhm
       <lb facs="#facs_2_region_1684587019264_981_tl_44" n="N041"/>und Einfluß zum großen Theile seinen vortrefflichen Journal
       <lb facs="#facs_2_region_1684587019264_981_tl_45" n="N042" break="no"/>kritiken, die ihm auch, wie er selbst hervorhebt, glänzend hono
       <lb facs="#facs_2_region_1684587019264_981_tl_46" n="N043" break="no"/>rirt wurden! Seine wiederholte bittere Klage, gänzlich unbe
@@ -1166,89 +1147,76 @@
             <p prev="true">
       <lb facs="#facs_2_region_1684587022282_984_tl_1" n="N001"/>Aufklärung über seinen so krankhaft übertriebenen Widerwil
       <lb facs="#facs_2_line_1719425787196_365" n="N002" break="no"/>len gegen ein von ihm so glänzend vertretenes Fach. Bei dem
-      <lb facs="#facs_2_line_1719425789342_368" n="N003"/>herrschenden Lob- und Complimentir-System der <rs type="place">französisch</rs>en
+      <lb facs="#facs_2_line_1719425789342_368" n="N003"/>herrschenden Lob- und Complimentir-System der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
       <lb facs="#facs_2_region_1684587022282_984_tl_4" n="N004"/>Tageskritik (wenigstens einheimischen Künstlern gegenüber)
       <lb facs="#facs_2_line_1719425806895_387" n="N005"/>war es ihm, dem selbstproducirenden Tonkünstler, doppelt
       <lb facs="#facs_2_region_1684587022282_984_tl_6" n="N006"/>schwer gemacht, seine abfällige Meinung unverblümt auszu
-      <lb facs="#facs_2_region_1684587022282_984_tl_7" n="N007" break="no"/>sprechen. Ganz irrthümlicherweise hielt man in <rs type="place">Deutsch
-      <lb facs="#facs_2_region_1684587022282_984_tl_8" n="N008" break="no"/>land</rs> Hector <rs type="person">Berlioz</rs> für einen besonders strengen Kritiker.
-      <lb facs="#facs_2_region_1684587022282_984_tl_9" n="N009"/>Man braucht nur einen beliebigen Jahrgang des <rs type="bibl">Journal
+      <lb facs="#facs_2_region_1684587022282_984_tl_7" n="N007" break="no"/>sprechen. Ganz irrthümlicherweise hielt man in <rs type="place" ref="#hsl_place_id_14">Deutsch
+      <lb facs="#facs_2_region_1684587022282_984_tl_8" n="N008" break="no"/>land</rs> Hector <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> für einen besonders strengen Kritiker.
+      <lb facs="#facs_2_region_1684587022282_984_tl_9" n="N009"/>Man braucht nur einen beliebigen Jahrgang des <rs type="bibl" ref="#hsl_work_id_639">Journal
       <lb facs="#facs_2_region_1684587022282_984_tl_10" n="N010"/>des Debats</rs> aufzuschlagen, um sich gar sehr vom Gegentheil
-      <lb facs="#facs_2_region_1684587022282_984_tl_11" n="N011"/>zu überzeugen. Compositionen <rs type="place">französisch</rs>er Collegen, welche er
+      <lb facs="#facs_2_region_1684587022282_984_tl_11" n="N011"/>zu überzeugen. Compositionen <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Collegen, welche er
       <lb facs="#facs_2_region_1684587022282_984_tl_12" n="N012"/>in seinem Herzen verachtete und verlachte und die er im ver
       <lb facs="#facs_2_line_1719425824931_409" n="N013" break="no"/>trauten Gespräche gnadenlos mit einigen zweischneidigen Worten
-      <lb facs="#facs_2_region_1684587022282_984_tl_14" n="N014"/>hinrichtete, hat er in seinem <rs type="bibl">Journal</rs> in der Regel erstaunlich
+      <lb facs="#facs_2_region_1684587022282_984_tl_14" n="N014"/>hinrichtete, hat er in seinem <rs type="bibl" ref="#hsl_work_id_639">Journal</rs> in der Regel erstaunlich
       <lb facs="#facs_2_region_1684587022282_984_tl_15" n="N015"/>milde, sogar freundlich behandelt. Allerdings gewahrt der
       <lb facs="#facs_2_region_1684587022282_984_tl_16" n="N016"/>Kundige zwischen den Zeilen die Anstrengung dieses kritischen
-      <lb facs="#facs_2_region_1684587022282_984_tl_17" n="N017"/>Eiertanzes. Man vergleiche <rs type="person">Berlioz</rs>' zahlreiche apologetische
-      <lb facs="#facs_2_region_1684587022282_984_tl_18" n="N018"/>Kritiken über den „großen Meister <rs type="person">Meyerbeer</rs>“ im <rs type="bibl">Journal
+      <lb facs="#facs_2_region_1684587022282_984_tl_17" n="N017"/>Eiertanzes. Man vergleiche <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' zahlreiche apologetische
+      <lb facs="#facs_2_region_1684587022282_984_tl_18" n="N018"/>Kritiken über den „großen Meister <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>“ im <rs type="bibl" ref="#hsl_work_id_639">Journal
       <lb facs="#facs_2_line_1719425844332_432" n="N019"/>des Debats</rs> mit den wegwerfenden Worten, welche er ihm in
-      <lb facs="#facs_2_region_1684587022282_984_tl_20" n="N020"/>den <rs type="bibl">Memoiren</rs> widmet. Vollkommen freien Lauf hat der
-      <lb facs="#facs_2_line_1719425670978_304" n="N021"/>Feuilletonist <rs type="person">Berlioz</rs> seiner künstlerischen Entrüstung vielleicht
-      <lb facs="#facs_2_region_1684587022282_984_tl_21" n="N022"/>nur in zwei Fällen gegönnt: gegen die Verstümmler <rs type="person">Gluck</rs>'scher,
-      <lb facs="#facs_2_region_1684587022282_984_tl_22" n="N023"/>
-               <rs type="person">Weber</rs>'scher, <rs type="person">Beethoven</rs>'scher Partituren und gegen <hi rendition="#em">Richard
-      <lb facs="#facs_2_region_1684587022282_984_tl_23" n="N024"/>
-                     <rs type="person">Wagner</rs></hi>, dessen Erfolge ihm das Herz abfraßen. Im Uebrigen
+      <lb facs="#facs_2_region_1684587022282_984_tl_20" n="N020"/>den <rs type="bibl" ref="#hsl_work_id_561">Memoiren</rs> widmet. Vollkommen freien Lauf hat der
+      <lb facs="#facs_2_line_1719425670978_304" n="N021"/>Feuilletonist <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> seiner künstlerischen Entrüstung vielleicht
+      <lb facs="#facs_2_region_1684587022282_984_tl_21" n="N022"/>nur in zwei Fällen gegönnt: gegen die Verstümmler <rs type="person" ref="#hsl_person_id_99">Gluck</rs>'scher,
+      <lb facs="#facs_2_region_1684587022282_984_tl_22" n="N023"/><rs type="person" ref="#hsl_person_id_321">Weber</rs>'scher, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'scher Partituren und gegen <hi rendition="#em">Richard
+      <lb facs="#facs_2_region_1684587022282_984_tl_23" n="N024"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>, dessen Erfolge ihm das Herz abfraßen. Im Uebrigen
       <lb facs="#facs_2_region_1684587022282_984_tl_24" n="N025"/>vermochte er sich nicht aus den zahllosen Fäden und Fädchen
-      <lb facs="#facs_2_region_1684587022282_984_tl_25" n="N026"/>loszumachen, welche den <rs type="place">Paris</rs>er Feuilletonisten umwinden und
+      <lb facs="#facs_2_region_1684587022282_984_tl_25" n="N026"/>loszumachen, welche den <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Feuilletonisten umwinden und
       <lb facs="#facs_2_line_1719425859202_451" n="N027"/>sein Urtheil, wenn auch nicht verkehren, so doch unwiderstehlich
       <lb facs="#facs_2_region_1684587022282_984_tl_27" n="N028"/>nach rechts oder links biegen. Und diesen Zwang mußte gerade
       <lb facs="#facs_2_region_1684587022282_984_tl_28" n="N029"/>ein Musiker von so strenger, ja unduldsamer Exclusivität des
-      <lb facs="#facs_2_region_1684587022282_984_tl_29" n="N030"/>Geschmackes wie <rs type="person">Berlioz</rs> als Folterqual empfinden.</p>
+      <lb facs="#facs_2_region_1684587022282_984_tl_29" n="N030"/>Geschmackes wie <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> als Folterqual empfinden.</p>
                <p>
-      <lb facs="#facs_2_region_1684587022282_984_tl_30" n="N031"/>Es folgen die bereits seit Jahren bekannten „<rs type="bibl">Musikali
-      <lb facs="#facs_2_region_1684587022282_984_tl_31" n="N032" break="no"/>schen Reisebriefe</rs>“ 
-                  <rs type="person">Berlioz</rs>' aus <rs type="place">Deutschland</rs>, <rs type="place">Oesterreich</rs> und
-      <lb facs="#facs_2_region_1684587022282_984_tl_32" n="N033"/>
-               <rs type="place">Rußland</rs>. Auf das Publicum, die Künstlerschaft und die Kri
-      <lb facs="#facs_2_region_1684587022282_984_tl_33" n="N034" break="no"/>tik in <rs type="place">Wien</rs> und <rs type="place">Prag</rs> ist 
-                  <rs type="person">Berlioz</rs> sehr gut zu sprechen. Die
+      <lb facs="#facs_2_region_1684587022282_984_tl_30" n="N031"/>Es folgen die bereits seit Jahren bekannten „<rs type="bibl" ref="#hsl_work_id_561">Musikali
+      <lb facs="#facs_2_region_1684587022282_984_tl_31" n="N032" break="no"/>schen Reisebriefe</rs>“ <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' aus <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>, <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> und
+      <lb facs="#facs_2_region_1684587022282_984_tl_32" n="N033"/><rs type="place" ref="#hsl_place_id_48">Rußland</rs>. Auf das Publicum, die Künstlerschaft und die Kri
+      <lb facs="#facs_2_region_1684587022282_984_tl_33" n="N034" break="no"/>tik in <rs type="place" ref="#hsl_place_id_55">Wien</rs> und <rs type="place" ref="#hsl_place_id_45">Prag</rs> ist <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> sehr gut zu sprechen. Die
       <lb facs="#facs_2_region_1684587022282_984_tl_34" n="N035"/>Aufnahme, die er in diesen Städten gefunden, zählte er stets
       <lb facs="#facs_2_region_1684587022282_984_tl_35" n="N036"/>zu den Glanzpunkten seines Lebens. Manche irrthümliche An
-      <lb facs="#facs_2_region_1684587022282_984_tl_36" n="N037" break="no"/>gabe oder Auffassung wird man einem des <rs type="place">Deutsch</rs>en gänzlich
+      <lb facs="#facs_2_region_1684587022282_984_tl_36" n="N037" break="no"/>gabe oder Auffassung wird man einem des <rs type="place" ref="#hsl_place_id_14">Deutsch</rs>en gänzlich
       <lb facs="#facs_2_region_1684587022282_984_tl_37" n="N038"/>unkundigen Reisenden leicht nachsehen. Nur Eines berührte
-      <lb facs="#facs_2_region_1684587022282_984_tl_38" n="N039"/>mich peinlich: <rs type="person">Berlioz</rs>' kindische Behauptung, <rs type="person">Beethoven</rs>'s
-      <lb facs="#facs_2_region_1684587022282_984_tl_39" n="N040"/>
-               <rs type="bibl">A-dur-Symphonie</rs> sei noch im Jahre <date when="1820">1820</date> in <rs type="place">Wien</rs> mit der
+      <lb facs="#facs_2_region_1684587022282_984_tl_38" n="N039"/>mich peinlich: <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' kindische Behauptung, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>'s
+      <lb facs="#facs_2_region_1684587022282_984_tl_39" n="N040"/><rs type="bibl" ref="#hsl_work_id_593">A-dur-Symphonie</rs> sei noch im Jahre <date when="1820">1820</date> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> mit der
       <lb facs="#facs_2_region_1684587022282_984_tl_40" n="N041"/>äußersten Geringschätzung (avec le plus mortel dédain) be
       <lb facs="#facs_2_region_1684587022282_984_tl_41" n="N042" break="no"/>handelt worden, während man sich gleichzeitig zu den Opern
-      <lb facs="#facs_2_region_1684587022282_984_tl_42" n="N043"/>von <hi rendition="#em">
-                  <rs type="person">Salieri</rs></hi> drängte! Bei der oberflächlichsten Nachfor
-      <lb facs="#facs_2_region_1684587022282_984_tl_43" n="N044" break="no"/>schung hätte <rs type="person">Berlioz</rs> erfahren müssen, daß im Jahre <date when="1820">1820</date><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_line_1719425885347_483" n="N045"/>längst kein Mensch mehr von den Opern <rs type="person">Salieri</rs>'s sprach,<space quantity="1" unit="char"/></p>
+      <lb facs="#facs_2_region_1684587022282_984_tl_42" n="N043"/>von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_754">Salieri</rs></hi> drängte! Bei der oberflächlichsten Nachfor
+      <lb facs="#facs_2_region_1684587022282_984_tl_43" n="N044" break="no"/>schung hätte <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> erfahren müssen, daß im Jahre <date when="1820">1820</date><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_line_1719425885347_483" n="N045"/>längst kein Mensch mehr von den Opern <rs type="person" ref="#hsl_person_id_754">Salieri</rs>'s sprach,<space quantity="1" unit="char"/></p>
             <cb n="6"/>
             <p prev="true">
-      <lb facs="#facs_2_region_1684587026216_987_tl_1" n="N001"/>sondern <rs type="person">Rossini</rs>, <rs type="person">Weigl</rs>, 
-                  <rs type="person">Cherubini</rs>, <rs type="person">Boieldieu</rs>, <rs type="person">Catel</rs> und
-      <lb facs="#facs_2_line_1719425793604_371" n="N002"/>
-               <rs type="person">Méhul</rs> das Theater beherrschten. Und daß gerade die
-      <lb facs="#facs_2_line_1719425796296_374" n="N003"/>
-               <rs type="bibl">A-dur-Syphonie</rs> von <rs type="person">Beethoven</rs> gleich bei ihrer ersten
-      <lb facs="#facs_2_region_1684587026216_987_tl_2" n="N004"/>Aufführung in <rs type="place">Wien</rs> (<date month="0" day="0" year="0">1813</date>) einen unerhörten Triumph feierte
+      <lb facs="#facs_2_region_1684587026216_987_tl_1" n="N001"/>sondern <rs type="person" ref="#hsl_person_id_241">Rossini</rs>, <rs type="person" ref="#hsl_person_id_341">Weigl</rs>, <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>, <rs type="person" ref="#hsl_person_id_36">Boieldieu</rs>, <rs type="person" ref="#hsl_person_id_45">Catel</rs> und
+      <lb facs="#facs_2_line_1719425793604_371" n="N002"/><rs type="person" ref="#hsl_person_id_179">Méhul</rs> das Theater beherrschten. Und daß gerade die
+      <lb facs="#facs_2_line_1719425796296_374" n="N003"/><rs type="bibl" ref="#hsl_work_id_593">A-dur-Syphonie</rs> von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> gleich bei ihrer ersten
+      <lb facs="#facs_2_region_1684587026216_987_tl_2" n="N004"/>Aufführung in <rs type="place" ref="#hsl_place_id_55">Wien</rs> (<date when="1813">1813</date>) einen unerhörten Triumph feierte
       <lb facs="#facs_2_line_1719425809966_390" n="N005"/>und denselben fortan bei jeder Wiederholung behauptete, weiß
-      <lb facs="#facs_2_region_1684587026216_987_tl_3" n="N006"/>in <rs type="place">Deutschland</rs> der letzte Orchestergeiger. Aber ein Franzose,
+      <lb facs="#facs_2_region_1684587026216_987_tl_3" n="N006"/>in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> der letzte Orchestergeiger. Aber ein Franzose,
       <lb facs="#facs_2_region_1684587026216_987_tl_4" n="N007"/>sei er selbst Componist und Musikschriftsteller von dem Range
-      <lb facs="#facs_2_region_1684587026216_987_tl_5" n="N008"/>eines <rs type="person">Berlioz</rs>, läßt sich seine alten Kindermärchen nicht neh
-      <lb facs="#facs_2_region_1684587026216_987_tl_6" n="N009" break="no"/>men. Unter diese von <rs type="person">Berlioz</rs> geglaubten und neu aufgetisch
-      <lb facs="#facs_2_region_1684587026216_987_tl_7" n="N010" break="no"/>ten Kindermärchen gehört es auch, daß C. M. v. <hi rendition="#em">
-                  <rs type="person">Weber</rs></hi> in
-      <lb facs="#facs_2_region_1684587026216_987_tl_8" n="N011"/>
-               <rs type="place">London</rs> aus Kränkung über den Mißerfolg seines „<rs type="bibl">Oberon</rs>“
-      <lb facs="#facs_2_region_1684587026216_987_tl_9" n="N012"/>gestorben sei. Das Wahre daran ist, daß <rs type="person">Weber</rs> bereits sehr
-      <lb facs="#facs_2_line_1719425828067_412" n="N013"/>leidend, den Todeskeim in der Brust, nach <rs type="place">London</rs> gereist war,
+      <lb facs="#facs_2_region_1684587026216_987_tl_5" n="N008"/>eines <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, läßt sich seine alten Kindermärchen nicht neh
+      <lb facs="#facs_2_region_1684587026216_987_tl_6" n="N009" break="no"/>men. Unter diese von <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> geglaubten und neu aufgetisch
+      <lb facs="#facs_2_region_1684587026216_987_tl_7" n="N010" break="no"/>ten Kindermärchen gehört es auch, daß C. M. v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs></hi> in
+      <lb facs="#facs_2_region_1684587026216_987_tl_8" n="N011"/><rs type="place" ref="#hsl_place_id_34">London</rs> aus Kränkung über den Mißerfolg seines „<rs type="bibl" ref="#hsl_work_id_79">Oberon</rs>“
+      <lb facs="#facs_2_region_1684587026216_987_tl_9" n="N012"/>gestorben sei. Das Wahre daran ist, daß <rs type="person" ref="#hsl_person_id_321">Weber</rs> bereits sehr
+      <lb facs="#facs_2_line_1719425828067_412" n="N013"/>leidend, den Todeskeim in der Brust, nach <rs type="place" ref="#hsl_place_id_34">London</rs> gereist war,
       <lb facs="#facs_2_region_1684587026216_987_tl_10" n="N014"/>von wo er selbst den glänzenden, alle seine Erwartungen über
-      <lb facs="#facs_2_region_1684587026216_987_tl_11" n="N015" break="no"/>treffenden Erfolg des „<rs type="bibl">Oberon</rs>“ in mehr als Einem Brief ge
+      <lb facs="#facs_2_region_1684587026216_987_tl_11" n="N015" break="no"/>treffenden Erfolg des „<rs type="bibl" ref="#hsl_work_id_79">Oberon</rs>“ in mehr als Einem Brief ge
       <lb facs="#facs_2_region_1684587026216_987_tl_12" n="N016" break="no"/>schildert hat.</p>
                <p>
       <lb facs="#facs_2_region_1684587026216_987_tl_13" n="N017"/>Je weiter gegen das Ende, desto trüber und verbitterter
-      <lb facs="#facs_2_region_1684587026216_987_tl_14" n="N018"/>wird <rs type="person">Berlioz</rs>' <rs type="bibl">Selbstbiographie</rs>. Obwol er selbst zahlreiche
+      <lb facs="#facs_2_region_1684587026216_987_tl_14" n="N018"/>wird <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>' <rs type="bibl" ref="#hsl_work_id_561">Selbstbiographie</rs>. Obwol er selbst zahlreiche
       <lb facs="#facs_2_line_1719425847344_435" n="N019"/>ihm zu Theil gewordenen Auszeichnungen und küstlerische (auch
       <lb facs="#facs_2_region_1684587026216_987_tl_15" n="N020"/>pecuniär glänzende) Erfolge erzählt, wie die Aufführung der
-      <lb facs="#facs_2_region_1684587026216_987_tl_16" n="N021"/>„<rs type="bibl">Troyens</rs>“ in <rs type="place">Paris</rs>, der kleinen komischen Oper: „
-                  <rs type="bibl">Beatrice
-      <lb facs="#facs_2_region_1684587026216_987_tl_17" n="N022"/>und Benedict</rs>“ (von <rs type="person">Benazet</rs> in <rs type="place">Baden-Baden</rs> mit 8000 Francs
-      <lb facs="#facs_2_region_1684587026216_987_tl_18" n="N023"/>honorirt), mehrere Concerte im <rs type="place">Saale</rs> Herz etc., vergräbt er
+      <lb facs="#facs_2_region_1684587026216_987_tl_16" n="N021"/>„<rs type="bibl" ref="#hsl_work_id_104">Troyens</rs>“ in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, der kleinen komischen Oper: „<rs type="bibl" ref="#hsl_work_id_255">Beatrice
+      <lb facs="#facs_2_region_1684587026216_987_tl_17" n="N022"/>und Benedict</rs>“ (von <rs type="person" ref="#hsl_person_id_27">Benazet</rs> in <rs type="place" ref="#hsl_place_id_6">Baden-Baden</rs> mit 8000 Francs
+      <lb facs="#facs_2_region_1684587026216_987_tl_18" n="N023"/>honorirt), mehrere Concerte im <rs type="place" ref="#hsl_place_id_684">Saaale</rs> Herz etc., vergräbt er
       <lb facs="#facs_2_region_1684587026216_987_tl_19" n="N024"/>sich doch immer tiefer in die Ueberzeugung, von
       <lb facs="#facs_2_region_1684587026216_987_tl_20" n="N025"/>lauter Feinden und Intriganten umgeben zu sein.
       <lb facs="#facs_2_region_1684587026216_987_tl_21" n="N026"/>Seine Bannflüche gegen Künstler, Kritiker, Thea
@@ -1256,20 +1224,19 @@
       <lb facs="#facs_2_region_1684587026216_987_tl_22" n="N028" break="no"/>barische Nation“ der Franzosen werden immer häufiger
       <lb facs="#facs_2_region_1684587026216_987_tl_23" n="N029"/>und heftiger. In seinem 61. Jahre ergreift ihn nochmals
       <lb facs="#facs_2_region_1684587026216_987_tl_24" n="N030"/>die jugendliche Leidenschaft für seine um sechs Jahre ältere
-      <lb facs="#facs_2_region_1684587026216_987_tl_25" n="N031"/>
-               <rs type="person">Estella</rs>, die er als Witwe und Mutter erwachsener Söhne
-      <lb facs="#facs_2_region_1684587026216_987_tl_26" n="N032"/>nach langen Nachforschungen in <rs type="place">Lyon</rs> wiederfindet. An diese
-      <lb facs="#facs_2_region_1684587026216_987_tl_27" n="N033"/>würdige alte Frau, der er beinahe fremd ist, schreibt <rs type="person">Berlioz</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684587026216_987_tl_25" n="N031"/><rs type="person" ref="#hsl_person_id_5883">Estella</rs>, die er als Witwe und Mutter erwachsener Söhne
+      <lb facs="#facs_2_region_1684587026216_987_tl_26" n="N032"/>nach langen Nachforschungen in <rs type="place" ref="#hsl_place_id_121">Lyon</rs> wiederfindet. An diese
+      <lb facs="#facs_2_region_1684587026216_987_tl_27" n="N033"/>würdige alte Frau, der er beinahe fremd ist, schreibt <rs type="person" ref="#hsl_person_id_28">Berlioz</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684587026216_987_tl_28" n="N034"/>zärtliche Briefe von kindischer Leidenschaftlichkeit und melan
       <lb facs="#facs_2_region_1684587026216_987_tl_29" n="N035" break="no"/>cholischer Gefühleschwelgerei. Diese Briefe druckt er nebst den
-      <lb facs="#facs_2_region_1684587026216_987_tl_30" n="N036"/>Antworten in seinen <rs type="bibl">Memoiren</rs> vollständig ab. Die Schluß
+      <lb facs="#facs_2_region_1684587026216_987_tl_30" n="N036"/>Antworten in seinen <rs type="bibl" ref="#hsl_work_id_561">Memoiren</rs> vollständig ab. Die Schluß
       <lb facs="#facs_2_region_1684587026216_987_tl_31" n="N037" break="no"/>worte dieses edlen, in Verbitterung zusammenbrechenden Geistes
       <lb facs="#facs_2_region_1684587026216_987_tl_32" n="N038"/>sind von erschütternder Traurigkeit. Sie lauten: „Ich
       <lb facs="#facs_2_region_1684587026216_987_tl_33" n="N039"/>schreibe nichts mehr, ich componire nichts mehr. Die musi
-      <lb facs="#facs_2_region_1684587026216_987_tl_34" n="N040" break="no"/>kalische Welt von <rs type="place">Paris</rs> und anderwärts, die Art und Weise,
+      <lb facs="#facs_2_region_1684587026216_987_tl_34" n="N040" break="no"/>kalische Welt von <rs type="place" ref="#hsl_place_id_44">Paris</rs> und anderwärts, die Art und Weise,
       <lb facs="#facs_2_region_1684587026216_987_tl_35" n="N041"/>wie die Künste gepflegt, die Künstler geschätzt werden, das
       <lb facs="#facs_2_region_1684587026216_987_tl_36" n="N042"/>Alles erregt mir Brechreiz oder Wuthanfälle. Aber denken
-      <lb facs="#facs_2_region_1684587026216_987_tl_37" n="N043"/>wir nicht mehr an die Kunst. <rs type="person">Stella</rs>! <rs type="person">Stella</rs>! Ich kann jetzt
+      <lb facs="#facs_2_region_1684587026216_987_tl_37" n="N043"/>wir nicht mehr an die Kunst. <rs type="person" ref="#hsl_person_id_5883">Stella</rs>! <rs type="person" ref="#hsl_person_id_5883">Stella</rs>! Ich kann jetzt
       <lb facs="#facs_2_region_1684587026216_987_tl_38" n="N044"/>ohne Zorn und Bitterkeit sterben.“</p>
          </div>
       </body>
