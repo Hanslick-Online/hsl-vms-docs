@@ -107,7 +107,7 @@
          <change who="kbamer ampfiel" when="2024-09-20">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change when="2024-10-18" who="ampfiel">header, lb, p, space</change>
-         <change when="2024-11-12" who="ampfiel">rs ref angefangen</change>
+         <change when="2024-11-22" who="ampfiel">rs ref ausgefüllt</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -914,10 +914,11 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <p>
-               <lb facs="#facs_1_region_1684584088392_481_tl_1" n="N001"/>
-               <hi rendition="#em">Concerte</hi>.
-      <lb facs="#facs_1_region_1684584088392_481_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>, <date when="1870-11-11">11. November</date>.
+      <head type="h1">
+            <lb facs="#facs_1_region_1684584088392_481_tl_1" n="N001"/><hi rendition="#em">Concerte</hi>.</head>
+      <head type="h2">
+            <lb facs="#facs_1_region_1684584088392_481_tl_2" n="N002"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi>, <date when="1870-11-11">11. November</date>.</head>
+            <p>      
       <lb facs="#facs_1_region_1684584088392_481_tl_3" n="N003"/>Ed. H. Die Concertsaison beginnt diesmal auffallend
       <lb facs="#facs_1_region_1684584088392_481_tl_4" n="N004"/>früh in <rs type="place" ref="#hsl_place_id_55">Wien</rs> und mit allen Anzeichen ungewöhnlicher Frucht
       <lb facs="#facs_1_region_1684584088392_481_tl_5" n="N005" break="no"/>barkeit. Da in <rs type="place" ref="#hsl_place_id_44">Paris</rs> gegenwärtig kein Tummelplatz für Vir
@@ -928,36 +929,25 @@
       <lb facs="#facs_1_region_1684584088392_481_tl_10" n="N010"/>der Geldbeutel der Wiener können sich im Jahre <date when="1870">1870</date> auf
       <lb facs="#facs_1_region_1684584088392_481_tl_11" n="N011"/>manche Probe gefaßt machen. Möchte wenigstens das Sprich
       <lb facs="#facs_1_region_1684584088392_481_tl_12" n="N012" break="no"/>wort: „Anfang gut, Alles gut“ prophetische Deutung erlauben,
-      <lb facs="#facs_1_region_1684584088392_481_tl_13" n="N013"/>denn ein Anfang mit <hi rendition="#em">Jean 
-            <rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi> und <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs></hi><space quantity="1" unit="char"/>
-      <lb facs="#facs_1_region_1684584088392_481_tl_14" n="N014"/>war der allgemeinen Sympathie gewiß. 
-                  <hi rendition="#em">Jean <rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684584088392_481_tl_13" n="N013"/>denn ein Anfang mit <hi rendition="#em">Jean <rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684584088392_481_tl_14" n="N014"/>war der allgemeinen Sympathie gewiß. <hi rendition="#em">Jean <rs type="person" ref="#hsl_person_id_4507">Becker</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684584088392_481_tl_15" n="N015"/>hat, noch schwer betroffen von dem Schicksale <rs type="place" ref="#hsl_place_id_71">Straßburg</rs>s,
-      <lb facs="#facs_1_region_1684584088392_481_tl_16" n="N016"/>der Vaterstadt seiner Gattin, sich rasch zur Reise nach 
-                  <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_1_region_1684584088392_481_tl_17" n="N017"/>entschlossen. Seine musikalischen Gefährten, <hi rendition="#em">
-                  <rs type="person">Chiostri</rs></hi>,
-      <lb facs="#facs_1_region_1684584088392_481_tl_18" n="N018"/><hi rendition="#em">
-                  <rs type="person">Masi</rs></hi> und <hi rendition="#em">
-                  <rs type="person">Hilpert</rs></hi>, sind ihm glücklicherweise treu ge
+      <lb facs="#facs_1_region_1684584088392_481_tl_16" n="N016"/>der Vaterstadt seiner Gattin, sich rasch zur Reise nach <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684584088392_481_tl_17" n="N017"/>entschlossen. Seine musikalischen Gefährten, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5140">Chiostri</rs></hi>,
+      <lb facs="#facs_1_region_1684584088392_481_tl_18" n="N018"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5139">Masi</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_126">Hilpert</rs></hi>, sind ihm glücklicherweise treu ge
       <lb facs="#facs_1_region_1684584088392_481_tl_19" n="N019" break="no"/>blieben — Letzterer, der liebenswürdige blonde Cellist, wenig
       <lb facs="#facs_1_region_1684584088392_481_tl_20" n="N020" break="no"/>stens so weit, als einem jungen Ehemanne möglich ist. Diese
       <lb facs="#facs_1_region_1684584088392_481_tl_21" n="N021"/>vier „Species“, welche zusammen das unfehlbare Florentiner
       <lb facs="#facs_1_region_1684584088392_481_tl_22" n="N022"/>Quartett bilden, traten nach Jahresfrist gestern wieder vor das
-      <lb facs="#facs_1_region_1684584088392_481_tl_23" n="N023"/>
-               <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum. Längst gekannt und immer neu willkommen
+      <lb facs="#facs_1_region_1684584088392_481_tl_23" n="N023"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum. Längst gekannt und immer neu willkommen
       <lb facs="#facs_1_region_1684584088392_481_tl_24" n="N024"/>wie die Spieler selbst waren die vorgetragenen Quartette von
-      <lb facs="#facs_1_region_1684584088392_481_tl_25" n="N025"/>
-               <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> und <rs type="person">Mendelssohn</rs>. Da wir dem Floren
+      <lb facs="#facs_1_region_1684584088392_481_tl_25" n="N025"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> und <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>. Da wir dem Floren
       <lb facs="#facs_1_region_1684584088392_481_tl_26" n="N026" break="no"/>tiner Quartette noch recht häufig zu begegnen hoffen, wenden
       <lb facs="#facs_1_region_1684584088392_481_tl_27" n="N027"/>wir uns jetzt zu einem anderen Künstlervereine, der, kaum ge
       <lb facs="#facs_1_region_1684584088392_481_tl_28" n="N028" break="no"/>kommen, uns auch leider schon wieder verläßt: dem Ehepaar
-      <lb facs="#facs_1_region_1684584088392_481_tl_29" n="N029"/><hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_5544 #hsl_person_id_5913">Leschetizky</rs></hi>.</p>
+      <lb facs="#facs_1_region_1684584088392_481_tl_29" n="N029"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5544 #hsl_person_id_5913">Leschetizky</rs></hi>.</p>
                <p>
-      <lb facs="#facs_1_region_1684584088392_481_tl_30" n="N030"/>Der Pianist Theodor <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs></hi> hat seine Künstler
+      <lb facs="#facs_1_region_1684584088392_481_tl_30" n="N030"/>Der Pianist Theodor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs></hi> hat seine Künstler
       <lb facs="#facs_1_region_1684584088392_481_tl_31" n="N031" break="no"/>bahn in <rs type="place" ref="#hsl_place_id_55">Wien</rs> begonnen, wo er vor mehr als einem Viertel
       <lb facs="#facs_1_region_1684584088392_481_tl_32" n="N032" break="no"/>jahrhundert als Wunderknabe, später als Jüngling gerechtes
       <lb facs="#facs_1_region_1684584088392_481_tl_33" n="N033"/>Aufsehen erregte. Seit vielen Jahren in <rs type="place" ref="#hsl_place_id_50">St. Petersburg</rs> als
@@ -971,76 +961,56 @@
       <lb facs="#facs_1_region_1684584091589_484_tl_1" n="N001" break="no"/>lich aufzutreten. <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> ist uns als gereifter, durchgebildeter
       <lb facs="#facs_1_line_1719428267484_3046" n="N002"/>Künstler, als vollendeter Virtuose zurückgekehrt. Die gesammte
       <lb facs="#facs_1_region_1684584091589_484_tl_2" n="N003"/>Claviertechnik beherrscht er als Meister; er entfaltete eine
-      <lb facs="#facs_1_region_1684584091589_484_tl_3" n="N004"/>perlende Passagen-Geläufigkeit in <rs type="person" ref="#hsl_person_id_321">Weber</rs>'s <rs type="bibl">Allegro</rs>, eine unge
-      <lb facs="#facs_1_line_1719428286466_3062" n="N005" break="no"/>wöhnliche Kraft und Sprungsicherheit in <rs type="person">Litolff</rs>'s <rs type="bibl">Concert</rs>, eine
-      <lb facs="#facs_1_region_1684584091589_484_tl_5" n="N006"/>erstaunliche Octavenbravour in der „<rs type="bibl">Gavotte</rs>“ von <rs type="person">Silas</rs>,
+      <lb facs="#facs_1_region_1684584091589_484_tl_3" n="N004"/>perlende Passagen-Geläufigkeit in <rs type="person" ref="#hsl_person_id_321">Weber</rs>'s <rs type="bibl" ref="#hsl_work_id_4119">Allegro</rs>, eine unge
+      <lb facs="#facs_1_line_1719428286466_3062" n="N005" break="no"/>wöhnliche Kraft und Sprungsicherheit in <rs type="person" ref="#hsl_person_id_5951">Litolff</rs>'s <rs type="bibl" ref="#hsl_work_id_4099">Concert</rs>, eine
+      <lb facs="#facs_1_region_1684584091589_484_tl_5" n="N006"/>erstaunliche Octavenbravour in der „<rs type="bibl" ref="#hsl_work_id_4114">Gavotte</rs>“ von <rs type="person" ref="#hsl_person_id_5953">Silas</rs>,
       <lb facs="#facs_1_region_1684584091589_484_tl_6" n="N007"/>einen schönen, tonvollen Anschlag überall. Feuer und Energie,
       <lb facs="#facs_1_region_1684584091589_484_tl_7" n="N008"/>geistreiche, lebhafte Rhythmik schienen uns die hervorstechendsten
       <lb facs="#facs_1_region_1684584091589_484_tl_8" n="N009"/>Eigenschaften seines Vortrages; eigenthümlich ist ihm ein
       <lb facs="#facs_1_region_1684584091589_484_tl_9" n="N010"/>effectvolles Schleudern und Abreißen einzelner Accorde oder
       <lb facs="#facs_1_region_1684584091589_484_tl_10" n="N011"/>Phrasenschlüsse, das er wohlweislich nur am rechten Orte sich
       <lb facs="#facs_1_region_1684584091589_484_tl_11" n="N012"/>erlaubt. Das Glänzende, Pikante seiner Spielweise entfaltete
-      <lb facs="#facs_1_region_1684584091589_484_tl_12" n="N013"/>
-               <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> am wirksamsten in <hi rendition="#em">
-                  <rs type="person">Litolff</rs>'s</hi>
-                  <rs type="bibl">Symphonie-Concert</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_1_region_1684584091589_484_tl_13" n="N014"/>
-               <rs type="bibl">op. 45</rs>, dessen charakteristischer Titel: „
-                  <rs type="bibl">Symphonie nationale
+      <lb facs="#facs_1_region_1684584091589_484_tl_12" n="N013"/><rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> am wirksamsten in <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5951">Litolff</rs>'s</hi><space quantity="1" unit="char"/><rs type="bibl" ref="#hsl_work_id_4099">Symphonie-Concert 
+      <lb facs="#facs_1_region_1684584091589_484_tl_13" n="N014"/>op. 45</rs>, dessen charakteristischer Titel: „<rs type="bibl" ref="#hsl_work_id_4099">Symphonie nationale 
       <lb facs="#facs_1_region_1684584091589_484_tl_14" n="N015"/>Hollandaise</rs>“ auf dem Programme nicht hätte fehlen sollen.
-      <lb facs="#facs_1_region_1684584091589_484_tl_15" n="N016"/>
-               <rs type="place" ref="#hsl_place_id_171">Holländisch</rs>e Volksweisen sind es nämlich, welche darin effect
-      <lb facs="#facs_1_region_1684584091589_484_tl_16" n="N017" break="no"/>voll und geistreich verarbeitet sind. <hi rendition="#em">
-                  <rs type="person">Litolff</rs></hi> selbst hat dieses
-      <lb facs="#facs_1_region_1684584091589_484_tl_17" n="N018"/>
-               <rs type="bibl">Concert</rs> im Frühjahre <date when="1848">1848</date> in 
-                  <rs type="place" ref="#hsl_place_id_55">Wien</rs> mit großem Beifall
+      <lb facs="#facs_1_region_1684584091589_484_tl_15" n="N016"/><rs type="place" ref="#hsl_place_id_171">Holländisch</rs>e Volksweisen sind es nämlich, welche darin effect
+      <lb facs="#facs_1_region_1684584091589_484_tl_16" n="N017" break="no"/>voll und geistreich verarbeitet sind. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5951">Litolff</rs></hi> selbst hat dieses
+      <lb facs="#facs_1_region_1684584091589_484_tl_17" n="N018"/><rs type="bibl" ref="#hsl_work_id_4099">Concert</rs> im Frühjahre <date when="1848">1848</date> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> mit großem Beifall
       <lb facs="#facs_1_region_1684584091589_484_tl_18" n="N019"/>gespielt, in seiner genial ungestümen, überreizten Weise, welche
       <lb facs="#facs_1_region_1684584091589_484_tl_19" n="N020"/>der Composition kaum den gleichen Dienst erwies, wie <rs type="person" ref="#hsl_person_id_5544">Lesche
       <lb facs="#facs_1_region_1684584091589_484_tl_20" n="N021" break="no"/>tizky</rs>'s reineres und ruhigeres Spiel. Trotz mancher Wunder
-      <lb facs="#facs_1_region_1684584091589_484_tl_21" n="N022" break="no"/>lichkeit und Ueberwürze ist uns <rs type="person">Litolff</rs>'s „
-                  <rs type="bibl">Hollandaise</rs>“ doch
+      <lb facs="#facs_1_region_1684584091589_484_tl_21" n="N022" break="no"/>lichkeit und Ueberwürze ist uns <rs type="person" ref="#hsl_person_id_5951">Litolff</rs>'s „<rs type="bibl" ref="#hsl_work_id_4099">Hollandaise</rs>“ doch
       <lb facs="#facs_1_region_1684584091589_484_tl_22" n="N023"/>immer als eines der interessantesten und effectvollsten Clavier-
       <lb facs="#facs_1_region_1684584091589_484_tl_23" n="N024"/>Concerte neuester Zeit erschienen. Bei dem großen Mangel
       <lb facs="#facs_1_region_1684584091589_484_tl_24" n="N025"/>an solchen Bravour-Compositionen würden Virtuosen von
       <lb facs="#facs_1_region_1684584091589_484_tl_25" n="N026"/>kühner und kräftiger Art kaum fehlgehen, wenn sie auch mit
-      <lb facs="#facs_1_line_1719428309418_3098" n="N027"/>
-               <rs type="person">Litolff</rs>'s „<rs type="bibl">Eroica</rs>“ oder „
-                  <rs type="bibl">H-moll-Concert</rs>“ (mit dem geistvollen
-      <lb facs="#facs_1_region_1684584091589_484_tl_26" n="N028"/>Scherzo) einen Versuch wagten. <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_48">Chopin</rs>'s</hi> träumerische
-      <lb facs="#facs_1_region_1684584091589_484_tl_27" n="N029"/>
-               <rs type="bibl">Des-dur-Nocturne</rs> klang uns unter <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs>'s Fingern nicht
+      <lb facs="#facs_1_line_1719428309418_3098" n="N027"/><rs type="person" ref="#hsl_person_id_5951">Litolff</rs>'s „<rs type="bibl" ref="#hsl_work_id_4100">Eroica</rs>“ oder „<rs type="bibl" ref="#hsl_work_id_4101">H-moll-Concert</rs>“ (mit dem geistvollen
+      <lb facs="#facs_1_region_1684584091589_484_tl_26" n="N028"/>Scherzo) einen Versuch wagten. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_48">Chopin</rs>'s</hi> träumerische
+      <lb facs="#facs_1_region_1684584091589_484_tl_27" n="N029"/><rs type="bibl" ref="#hsl_work_id_3424">Des-dur-Nocturne</rs> klang uns unter <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs>'s Fingern nicht
       <lb facs="#facs_1_region_1684584091589_484_tl_28" n="N030"/>einfach und seelenvoll genug; diese Finger hatten zwar technisch
       <lb facs="#facs_1_region_1684584091589_484_tl_29" n="N031"/>Alles aufgeboten, was sich an Klangwirkung und filigraner
       <lb facs="#facs_1_region_1684584091589_484_tl_30" n="N032"/>Feinheit leisten läßt; aber das Ganze war durch Raffinement
       <lb facs="#facs_1_region_1684584091589_484_tl_31" n="N033"/>zerpflückt und erkältet. Solche Auffassung vertrug weit besser
-      <lb facs="#facs_1_region_1684584091589_484_tl_32" n="N034"/>
-               <rs type="person" ref="#hsl_person_id_48">Chopin</rs>'s <rs type="bibl">B-moll-Scherzo</rs>, das grauenvollste Nachtstück, welches
+      <lb facs="#facs_1_region_1684584091589_484_tl_32" n="N034"/><rs type="person" ref="#hsl_person_id_48">Chopin</rs>'s <rs type="bibl" ref="#hsl_work_id_4102">B-moll-Scherzo</rs>, das grauenvollste Nachtstück, welches
       <lb facs="#facs_1_region_1684584091589_484_tl_33" n="N035"/>je den Namen „Scherzo“ trug und aus welchem man mit
-      <lb facs="#facs_1_region_1684584091589_484_tl_34" n="N036"/><hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_116">Heine</rs>'s</hi> Talent für musikalische Visionen leicht die „letzte
+      <lb facs="#facs_1_region_1684584091589_484_tl_34" n="N036"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_116">Heine</rs>'s</hi> Talent für musikalische Visionen leicht die „letzte
       <lb facs="#facs_1_region_1684584091589_484_tl_35" n="N037"/>Nacht eines Selbstmörders“ heraushören könnte. Die hier
-      <lb facs="#facs_1_region_1684584091589_484_tl_36" n="N038"/>durch <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_53">Derffel</rs></hi> bekannt gewordene, vortreffliche „<rs type="bibl">Gavotte</rs>“
-      <lb facs="#facs_1_region_1684584091589_484_tl_37" n="N039"/>von <hi rendition="#em">
-                  <rs type="person">Silas</rs></hi> spielte <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> mit größter Bravour, aber
+      <lb facs="#facs_1_region_1684584091589_484_tl_36" n="N038"/>durch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_53">Derffel</rs></hi> bekannt gewordene, vortreffliche „<rs type="bibl" ref="#hsl_work_id_4114">Gavotte</rs>“
+      <lb facs="#facs_1_region_1684584091589_484_tl_37" n="N039"/>von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5953">Silas</rs></hi> spielte <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> mit größter Bravour, aber
       <lb facs="#facs_1_region_1684584091589_484_tl_38" n="N040"/>mit übertriebener, den Charakter des Stückes wesentlich alte
       <lb facs="#facs_1_region_1684584091589_484_tl_39" n="N041" break="no"/>rirender Eile. Eine bedenkliche Vorliebe für allzu schnelles
-      <lb facs="#facs_1_line_1719428370444_3187" n="N042"/>Zeitmaß verrieth auch <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> in dem 
-                  <rs type="person">Litolff</rs>'schen <rs type="bibl">Scherzo</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1719428370444_3187" n="N042"/>Zeitmaß verrieth auch <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> in dem <rs type="person" ref="#hsl_person_id_5951">Litolff</rs>'schen <rs type="bibl" ref="#hsl_work_id_4111">Scherzo</rs><space quantity="1" unit="char"/>
             </p>
             <cb n="3"/>
             <p>
-               <lb facs="#facs_1_region_1684584095292_487_tl_1" n="N001"/>und dem Finale von <rs type="person" ref="#hsl_person_id_321">Weber</rs>'s <rs type="bibl">Es-dur-Concert</rs>. Von schönster
+               <lb facs="#facs_1_region_1684584095292_487_tl_1" n="N001"/>und dem Finale von <rs type="person" ref="#hsl_person_id_321">Weber</rs>'s <rs type="bibl" ref="#hsl_work_id_4110">Es-dur-Concert</rs>. Von schönster
       <lb facs="#facs_1_line_1719428270684_3049" n="N002"/>Wirkung waren die perlenden Scalen und zephyrartig geschwell
       <lb facs="#facs_1_region_1684584095292_487_tl_3" n="N003" break="no"/>ten Arpeggien in letzterem Stücke. In zwei kleineren Genre
-      <lb facs="#facs_1_region_1684584095292_487_tl_4" n="N004" break="no"/>bildchen eigener Composition („<rs type="bibl">Aven</rs>“ und „<rs type="bibl">Mazurka</rs>“)
+      <lb facs="#facs_1_region_1684584095292_487_tl_4" n="N004" break="no"/>bildchen eigener Composition („<rs type="bibl" ref="#hsl_work_id_4112">Aven</rs>“ und „<rs type="bibl" ref="#hsl_work_id_4113">Mazurka</rs>“)
       <lb facs="#facs_1_line_1719428290504_3065" n="N005"/>glänzte Herr <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> als geschmackvoller Salonspieler.</p>
                <p>
       <lb facs="#facs_1_region_1684584095292_487_tl_5" n="N006"/>Mit großer Spannung sahen wir dem Erscheinen der Frau
-      <lb facs="#facs_1_region_1684584095292_487_tl_6" n="N007"/>Anna <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_5913">Leschetizky</rs></hi> entgegen. Schwärmen doch die allerhei
+      <lb facs="#facs_1_region_1684584095292_487_tl_6" n="N007"/>Anna <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5913">Leschetizky</rs></hi> entgegen. Schwärmen doch die allerhei
       <lb facs="#facs_1_region_1684584095292_487_tl_7" n="N008" break="no"/>kelsten unserer musikalischen Freunde so unbedingt für den
       <lb facs="#facs_1_region_1684584095292_487_tl_8" n="N009"/>Gesang dieser Frau, daß sie sich freuen, wenn in <rs type="place" ref="#hsl_place_id_126">Ischl</rs> die
       <lb facs="#facs_1_region_1684584095292_487_tl_9" n="N010"/>Sonne wieder einmal ihre Schuldigkeit nicht thut und die
@@ -1071,11 +1041,8 @@
       <lb facs="#facs_1_region_1684584095292_487_tl_36" n="N035"/>von Uebertreibung, von Koketterie oder falscher Sentimentali
       <lb facs="#facs_1_region_1684584095292_487_tl_37" n="N036" break="no"/>tät. Frau <rs type="person" ref="#hsl_person_id_5913">Leschetizky</rs> trägt immer ernst und einfach vor und
       <lb facs="#facs_1_region_1684584095292_487_tl_38" n="N037"/>hält sich wie eine Memnonsäule. Sie sang in allen Sprachen:
-      <lb facs="#facs_1_region_1684584095292_487_tl_39" n="N038"/>
-               <rs type="place" ref="#hsl_place_id_28">italienisch</rs> eine zum „<rs type="bibl">Faust</rs>“ nachcomponirte 
-                  <rs type="person" ref="#hsl_person_id_657">Siebel</rs>-<rs type="bibl">Romanze</rs>
-      <lb facs="#facs_1_region_1684584095292_487_tl_40" n="N039"/>von <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi>, ein unbedeutendes Stück, mit welchem <rs type="person" ref="#hsl_person_id_5913">Lesche
+      <lb facs="#facs_1_region_1684584095292_487_tl_39" n="N038"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs> eine zum „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ nachcomponirte <rs type="person" ref="#hsl_person_id_657">Siebel</rs>-<rs type="bibl" ref="#hsl_work_id_4115">Romanze</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684584095292_487_tl_40" n="N039"/>von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi>, ein unbedeutendes Stück, mit welchem <rs type="person" ref="#hsl_person_id_5913">Lesche
       <lb facs="#facs_1_region_1684584095292_487_tl_41" n="N040" break="no"/>tizky</rs> nicht viel anfangen konnte. Hierauf einige <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Lieder
       <lb facs="#facs_1_region_1684584095292_487_tl_42" n="N041"/>von Th. <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs>, welche, an <rs type="person" ref="#hsl_person_id_282">Schumann</rs> lehnend, ohne
       <lb facs="#facs_1_line_1719428373738_3190" n="N042"/>schöpferische Kraft, wenngleich nicht ohne pikante Einzelheiten<space quantity="1" unit="char"/></p>
@@ -1085,17 +1052,13 @@
                <lb facs="#facs_2_region_1684584109018_494_tl_1" n="N001"/>sind. Der „Zwiegesang“ entfesselt auf dem Clavier einen
       <lb facs="#facs_2_region_1684584109018_494_tl_2" n="N002"/>ganzen Vogelschwarm, obgleich der Dichter nur „ein Vöglein“
       <lb facs="#facs_2_region_1684584109018_494_tl_3" n="N003"/>singen läßt; man könnte das Accompagnement als Etude für
-      <lb facs="#facs_2_region_1684584109018_494_tl_4" n="N004"/>sich spielen. 
-                  Frau <rs type="person" ref="#hsl_person_id_5913">Leschetizky</rs> sang diese Lieder wahrhaft poe
+      <lb facs="#facs_2_region_1684584109018_494_tl_4" n="N004"/>sich spielen. Frau <rs type="person" ref="#hsl_person_id_5913">Leschetizky</rs> sang diese Lieder wahrhaft poe
       <lb facs="#facs_2_region_1684584109018_494_tl_5" n="N005" break="no"/>tisch, zur Vollkommenheit fehlt ihr nur eine noch deutlichere,
       <lb facs="#facs_2_region_1684584109018_494_tl_6" n="N006"/>schärfere Aussprache des <rs type="place" ref="#hsl_place_id_14">Deutsch</rs>en. Die Glanzpunkte ihrer
-      <lb facs="#facs_2_region_1684584109018_494_tl_7" n="N007"/>Production waren ein <rs type="place" ref="#hsl_place_id_48">russisch</rs>es „
-                  <rs type="bibl">Wiegenlied</rs>“ und eine <rs type="place" ref="#hsl_place_id_21">fran
-      <lb facs="#facs_2_region_1684584109018_494_tl_8" n="N008" break="no"/>zösisch</rs>e Romanze von Charles 
-                  <rs type="person" ref="#hsl_person_id_5914">Lewy</rs>: „<rs type="bibl">Je ne vous aime pas</rs>“.
+      <lb facs="#facs_2_region_1684584109018_494_tl_7" n="N007"/>Production waren ein <rs type="place" ref="#hsl_place_id_48">russisch</rs>es „<rs type="bibl" ref="#hsl_work_id_4117">Wiegenlied</rs>“ und eine <rs type="place" ref="#hsl_place_id_21">fran
+      <lb facs="#facs_2_region_1684584109018_494_tl_8" n="N008" break="no"/>zösisch</rs>e Romanze von Charles <rs type="person" ref="#hsl_person_id_5914">Lewy</rs>: „<rs type="bibl" ref="#hsl_work_id_4116">Je ne vous aime pas</rs>“.
       <lb facs="#facs_2_region_1684584109018_494_tl_9" n="N009"/>Solch negative Liebeserklärung ist selten in der musikalischen
-      <lb facs="#facs_2_region_1684584109018_494_tl_10" n="N010"/>Lyrik und wirklich nicht allzu musikalisch; 
-                  Frau <rs type="person" ref="#hsl_person_id_5913">Leschetizky</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684584109018_494_tl_10" n="N010"/>Lyrik und wirklich nicht allzu musikalisch; Frau <rs type="person" ref="#hsl_person_id_5913">Leschetizky</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684584109018_494_tl_11" n="N011"/>trug sie aber mit so liebenswürdiger Naivetät und so geist
       <lb facs="#facs_2_region_1684584109018_494_tl_12" n="N012" break="no"/>reicher Nuancirung vor, daß das Publicum nicht müde wurde,
       <lb facs="#facs_2_region_1684584109018_494_tl_13" n="N013"/>zu applaudiren, und offenbar die Wiederholung wenigstens der
@@ -1104,11 +1067,10 @@
       <lb facs="#facs_2_region_1684584109018_494_tl_16" n="N016"/>Rufe nach einem besonders ansprechenden Stück der
       <lb facs="#facs_2_region_1684584109018_494_tl_17" n="N017"/>Künstler endlich wieder vortritt — um etwas ganz Anderes
       <lb facs="#facs_2_region_1684584109018_494_tl_18" n="N018"/>zu singen, was dann gewöhnlich nicht oder nicht so sehr ge
-      <lb facs="#facs_2_region_1684584109018_494_tl_19" n="N019" break="no"/>fällt. Der Beifall, welchen sowol 
-                  Herr als Frau <rs type="person" ref="#hsl_person_id_5544 #hsl_person_id_5913">Leschetizky</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684584109018_494_tl_19" n="N019" break="no"/>fällt. Der Beifall, welchen sowol Herr als Frau <rs type="person" ref="#hsl_person_id_5544 #hsl_person_id_5913">Leschetizky</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684584109018_494_tl_20" n="N020"/>fand, war ein so aufrichtiger und wohlverdienter, daß eine
       <lb facs="#facs_2_region_1684584109018_494_tl_21" n="N021"/>ausdrückliche Anempfehlung ihres zweiten und letzten Concer
-      <lb facs="#facs_2_region_1684584109018_494_tl_22" n="N022" break="no"/>tes (<date when="">Montag</date> Abends) überflüssig erscheint. Für dieses zweite
+      <lb facs="#facs_2_region_1684584109018_494_tl_22" n="N022" break="no"/>tes (<date when="07-11-1870">Montag</date> Abends) überflüssig erscheint. Für dieses zweite
       <lb facs="#facs_2_region_1684584109018_494_tl_23" n="N023"/>Concert möchten wir uns eine einzige Aenderung ausbitten,
       <lb facs="#facs_2_region_1684584109018_494_tl_24" n="N024"/>welche nicht die Musik, sondern den kleinen Musikvereinssaal
       <lb facs="#facs_2_region_1684584109018_494_tl_25" n="N025"/>betrifft. Da werden nämlich die Zuhörer mit großartiger Rück
@@ -1132,7 +1094,7 @@
       <lb facs="#facs_2_region_1684584109018_494_tl_42" n="N043"/>noch enger sitzen sollen, als im alten Musikvereinssaale,<space quantity="1" unit="char"/></p>
             <cb n="5"/>
             <p prev="true">
-               <lb facs="#facs_2_region_1684584112207_497_tl_1" n="N001"/>dann sehen wir nicht recht ein, wozu ein neuer gebaut wer
+      <lb facs="#facs_2_region_1684584112207_497_tl_1" n="N001"/>dann sehen wir nicht recht ein, wozu ein neuer gebaut wer
       <lb facs="#facs_2_region_1684584112207_497_tl_2" n="N002" break="no"/>den mußte.</p>
                <p>
       <lb facs="#facs_2_region_1684584112207_497_tl_3" n="N003"/>Noch ein zweiter Uebelstand im neuen Musikverein schreit
@@ -1145,18 +1107,14 @@
       <lb facs="#facs_2_region_1684584112207_497_tl_10" n="N010"/>der kostbarsten Sammlungen von Partituren, Büchern, Auto
       <lb facs="#facs_2_region_1684584112207_497_tl_11" n="N011" break="no"/>graphen, Porträts, Medaillen und alten, seltenen Musik-
       <lb facs="#facs_2_region_1684584112207_497_tl_12" n="N012"/>Instrumenten. Wer diese Schätze, um welche jede Musikstadt
-      <lb facs="#facs_2_region_1684584112207_497_tl_13" n="N013"/>
-               <rs type="place" ref="#hsl_place_id_55">Wien</rs> beneiden kann, nicht aus eigener Anschauung kennt, kann
-      <lb facs="#facs_2_region_1684584112207_497_tl_14" n="N014"/>sich darüber am besten aus der eben erschienenen <rs type="bibl">Monographie</rs><space quantity="1" unit="char"/>
-      <lb facs="#facs_2_region_1684584112207_497_tl_15" n="N015"/>von C. F. <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi>, dem verdienstvollen Bibliothekar und
+      <lb facs="#facs_2_region_1684584112207_497_tl_13" n="N013"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> beneiden kann, nicht aus eigener Anschauung kennt, kann
+      <lb facs="#facs_2_region_1684584112207_497_tl_14" n="N014"/>sich darüber am besten aus der eben erschienenen <rs type="bibl" ref="#hsl_work_id_4118">Monographie</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684584112207_497_tl_15" n="N015"/>von C. F. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi>, dem verdienstvollen Bibliothekar und
       <lb facs="#facs_2_region_1684584112207_497_tl_16" n="N016"/>Archivar der „Gesellschaft der Musikfreunde“, belehren.
                      <note type="footnote" n="*)">
-                           <lb facs="#facs_2_line_1719428507084_3344" n="N035"/>„<hi rendition="#em">Die Gesellschaft der Musikfreunde und ihr
-                           <lb facs="#facs_2_line_1719428509437_3347" n="N036"/>Conservatorium</hi>.“ Auf Grundlage der Gesellschafts-Acten be
-                           <lb facs="#facs_2_line_1719428512254_3350" n="N037" break="no"/>arbeitet von C. F. <hi rendition="#em">
-                                 <rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi>. 
-                              <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/><date when="1871">1871</date>, bei W. <rs type="person">Braumüller</rs>. Diese
+                           <lb facs="#facs_2_line_1719428507084_3344" n="N035"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_4118">Die Gesellschaft der Musikfreunde und ihr
+                           <lb facs="#facs_2_line_1719428509437_3347" n="N036"/>Conservatorium</rs></hi>.“ Auf Grundlage der Gesellschafts-Acten be
+                           <lb facs="#facs_2_line_1719428512254_3350" n="N037" break="no"/>arbeitet von C. F. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi>. <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/><date when="1871">1871</date>, bei W. <rs type="person" ref="#hsl_person_id_5952">Braumüller</rs>. Diese
                            <lb facs="#facs_2_line_1719428515715_3353" n="N038"/>lesenswerthe, streng actenmäßige Darstellung erzählt die ganze Ge
                            <lb facs="#facs_2_line_1719428518352_3356" n="N039" break="no"/>schichte der „Gesellschaft“ von ihrer Gründung bis auf die neueste
                            <lb facs="#facs_2_line_1719428520659_3359" n="N040"/>Zeit. Urkundliche Beilagen (worin die Correspondenz der Gesellschaft
@@ -1218,13 +1176,12 @@
       <lb facs="#facs_2_region_1684584115711_500_tl_28" n="N029"/>unserer Bibliothek, aber ihr Nutzen ist hundertfach größer
       <lb facs="#facs_2_region_1684584115711_500_tl_29" n="N030"/>durch musterhafte Ordnung und bequeme Handhabung. Wozu
       <lb facs="#facs_2_line_1719428499029_3334" n="N031"/>dienen den <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Tonkünstlern die Schätze der „Gesellschaft“,
-      <lb facs="#facs_2_region_1684584115711_500_tl_30" n="N032"/>wenn diese auch im neuen Gebäude das <rs type="person">Aschenbrödel</rs> der Di
+      <lb facs="#facs_2_region_1684584115711_500_tl_30" n="N032"/>wenn diese auch im neuen Gebäude das <rs type="person" ref="#hsl_person_id_781">Aschenbrödel</rs> der Di
       <lb facs="#facs_2_region_1684584115711_500_tl_31" n="N033" break="no"/>rection bilden, Promenade-Concerten und Gastnahrungen weichen
       <lb facs="#facs_2_region_1684584115711_500_tl_32" n="N034"/>müssen? Es versteht sich von selbst, daß diese Uebelstände im
       <lb facs="#facs_2_region_1684584115711_500_tl_33" n="N035"/>Laufe des Jahres wiederholt und immer dringender der Direc
       <lb facs="#facs_2_region_1684584115711_500_tl_34" n="N036" break="no"/>tion geschildert wurden. Ein Mann von der Sachkenntniß
-      <lb facs="#facs_2_region_1684584115711_500_tl_35" n="N037"/>und Uneigennützigkeit <hi rendition="#em">
-                  <rs type="person" ref="#hsl_person_id_3866">Pohl</rs>'s</hi> hätte wol Gehör verdient, wo
+      <lb facs="#facs_2_region_1684584115711_500_tl_35" n="N037"/>und Uneigennützigkeit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs>'s</hi> hätte wol Gehör verdient, wo
       <lb facs="#facs_2_region_1684584115711_500_tl_36" n="N038"/>er im Interesse der „Gesellschaft“ hat und warnte. Nachdem
       <lb facs="#facs_2_region_1684584115711_500_tl_37" n="N039"/>in <hi rendition="#em">diesem</hi> Punkte das Interesse der „Gesellschaft“ ein all
       <lb facs="#facs_2_region_1684584115711_500_tl_38" n="N040" break="no"/>gemeines, künstlerisches ist, säumen wir nicht, der vielleicht
