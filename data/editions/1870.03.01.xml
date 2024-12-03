@@ -85,7 +85,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="1870-03-01">1. März 1870</date>
+                        <date when="1870-03-01">01.03.1870</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -103,11 +103,12 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="final">
          <change who="kbamer ampfiel" when="2024-07-28">Transkribus OCR und Lektorat.</change>
-            <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change when="2024-10-03" who="ampfiel">header, lb, p, space</change>
-            <change when="2024-10-21" who="ampfiel">fill rs ref</change>
+         <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2024-10-03" who="ampfiel">header, lb, p, space</change>
+         <change when="2024-10-21" who="ampfiel">fill rs ref</change>
+         <change when="2024-12-03" who="awilfing">final edits</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -989,11 +990,9 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-      <head type="h1">
-            <lb facs="#facs_1_region_1684587630168_1201_tl_1" n="N001"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_217">Die Meistersinger</rs></hi>“.</head>
-      <head type="h2">
-            <lb facs="#facs_1_region_1684587630168_1201_tl_2" n="N002"/><hi rendition="#em">Von Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>.
-            <lb facs="#facs_1_line_1719308667899_684" n="N003"/>(Erste Aufführung im Hofoperntheater am <date when="1870-02-27">27. Februar 1870</date>.)
+            <head type="h1"><lb facs="#facs_1_region_1684587630168_1201_tl_1" n="N001"/>„<rs type="bibl" ref="#hsl_work_id_217">Die Meistersinger</rs>“.</head>
+            <head type="h2"><lb facs="#facs_1_region_1684587630168_1201_tl_2" n="N002"/>Von Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>.</head>
+            <head type="h3"><lb facs="#facs_1_line_1719308667899_684" n="N003"/>(Erste Aufführung im Hofoperntheater am <date when="1870-02-27">27. Februar 1870</date>.)
             <lb facs="#facs_1_line_1719308674787_688" n="N004"/>I.</head>
             <p>    
       <lb facs="#facs_1_region_1684587630168_1201_tl_5" n="N005"/>Ed. H. In seiner berühmten „<rs type="bibl" ref="#hsl_work_id_3182">Judenbroschüre</rs>“ hat
@@ -1043,8 +1042,8 @@
       <lb facs="#facs_1_region_1684587633508_1204_tl_3" n="N003"/>aber vollständig die Wirkung, welche das Ganze und jede ein
       <lb facs="#facs_1_region_1684587633508_1204_tl_4" n="N004" break="no"/>zelne Scene in <rs type="place" ref="#hsl_place_id_39">München</rs> auf mich geübt, und zwar so genau,
       <lb facs="#facs_1_region_1684587633508_1204_tl_5" n="N005"/>daß ich für die gleiche Empfindung mich werde mitunter der
-      <lb facs="#facs_1_region_1684587633508_1204_tl_6" n="N006"/>gleichen Worte bedienen müssen.</p>
-               <p>
+      <lb facs="#facs_1_region_1684587633508_1204_tl_6" n="N006"/>gleichen Worte bedienen müssen.
+            </p><p>
       <lb facs="#facs_1_region_1684587633508_1204_tl_7" n="N007"/>Skizziren wir, so gut es mit raschen Strichen angeht,
       <lb facs="#facs_1_line_1719308721050_705" n="N008"/>den dramatischen und musikalischen Verlauf der Oper. Die
       <lb facs="#facs_1_region_1684587633508_1204_tl_8" n="N009"/>Ouvertüre ist am wenigsten geeignet, den Hörer günstig zu
@@ -1091,13 +1090,13 @@
       <lb facs="#facs_1_region_1684587636736_1207_tl_2" n="N002"/>es zu einem Glanzpunkt der Oper. Nach einer langwierigen
       <lb facs="#facs_1_region_1684587636736_1207_tl_3" n="N003"/>Verhandlung über <rs type="person" ref="#hsl_person_id_1368">Pogner</rs>'s schließlich angenommenen Antrag tritt
       <lb facs="#facs_1_region_1684587636736_1207_tl_4" n="N004"/>Walther v. <rs type="person" ref="#hsl_person_id_1367">Stolzing</rs> auf und wird zu singen aufgefordert. 
-                  <note type="footnote" n="*)">
-                        <lb facs="#facs_1_region_1684587636736_1207_tl_43" n="N043"/>„Meint Junker Ihr, in Sang' und Dicht' — Euch rechtlich
-                        <lb facs="#facs_1_line_1719308902515_875" n="N044"/>unterwiesen, seid Ihr bereit, ob Euch gerieth — mit neuer Find' ein
-                        <lb facs="#facs_1_line_1719308906256_878" n="N045"/>Meisterlied — nach Dicht' und Weis' Eu'r eigen, — zur Stunde jetzt
-                        <lb facs="#facs_1_line_1719308909880_881" n="N046"/>zu zeigen?“ — <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1367">Walther</rs></hi> antwortet: „Was heilig mir — der Lieb'
-                        <lb facs="#facs_1_line_1719308913639_884" n="N047"/>Panier — schwing' ich und sing' ich, mir zu Hoff'!“ 
-                  </note><space quantity="1" unit="char"/>
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_region_1684587636736_1207_tl_43" n="N043"/>„Meint Junker Ihr, in Sang' und Dicht' — Euch rechtlich
+            <lb facs="#facs_1_line_1719308902515_875" n="N044"/>unterwiesen, seid Ihr bereit, ob Euch gerieth — mit neuer Find' ein
+            <lb facs="#facs_1_line_1719308906256_878" n="N045"/>Meisterlied — nach Dicht' und Weis' Eu'r eigen, — zur Stunde jetzt
+            <lb facs="#facs_1_line_1719308909880_881" n="N046"/>zu zeigen?“ — <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1367">Walther</rs></hi> antwortet: „Was heilig mir — der Lieb'
+            <lb facs="#facs_1_line_1719308913639_884" n="N047"/>Panier — schwing' ich und sing' ich, mir zu Hoff'!“ 
+            </note><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684587636736_1207_tl_5" n="N005"/>Der Stadtschreiber <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_10">Campe</rs></hi>), ein boshafter
       <lb facs="#facs_1_region_1684587636736_1207_tl_6" n="N006"/>alter Geck, übt das Merker-Amt, d. h. er kreidet, hinter einem
       <lb facs="#facs_1_region_1684587636736_1207_tl_7" n="N007"/>Vorhang verborgen, alle Fehler an, welche der Sänger gegen
@@ -1112,8 +1111,8 @@
       <lb facs="#facs_1_region_1684587636736_1207_tl_16" n="N016"/>vollen Wirkung ob der maßlosen Unruhe in der Begleitung
       <lb facs="#facs_1_region_1684587636736_1207_tl_17" n="N017"/>und Modulation. <rs type="person" ref="#hsl_person_id_1367">Walther</rs> hat noch nicht ausgesungen, als
       <lb facs="#facs_1_region_1684587636736_1207_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> schon mit der vollgekreideten Tafel schimpfend aus
-      <lb facs="#facs_1_region_1684587636736_1207_tl_19" n="N019"/>dem „Gemerk“ hervorspringt.</p>
-               <p>
+      <lb facs="#facs_1_region_1684587636736_1207_tl_19" n="N019"/>dem „Gemerk“ hervorspringt.
+            </p><p>
       <lb facs="#facs_1_region_1684587636736_1207_tl_20" n="N020"/>Mit Ausnahme von Hanns <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi>) sind auch
       <lb facs="#facs_1_region_1684587636736_1207_tl_21" n="N021"/>alle übrigen Meister empört über die Regelwidrigkeit von <rs type="person" ref="#hsl_person_id_1367">Wal
       <lb facs="#facs_1_region_1684587636736_1207_tl_22" n="N022" break="no"/>ther</rs>'s Gesang, den sie als „eitel Ohrengeschinder“ bezeichnen. Es
@@ -1125,8 +1124,8 @@
       <lb facs="#facs_1_region_1684587636736_1207_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_121">Herbeck</rs>'s, daß er hier nicht geradezu niederdrückt, wie bei der
       <lb facs="#facs_1_region_1684587636736_1207_tl_29" n="N029"/><rs type="place" ref="#hsl_place_id_39">München</rs>er Aufführung. Der Stoff gäbe, leicht und lebhaft
       <lb facs="#facs_1_region_1684587636736_1207_tl_30" n="N030"/>behandelt, eine wirksame Introduction; zu einem ganzen lan
-      <lb facs="#facs_1_region_1684587636736_1207_tl_31" n="N031" break="no"/>gen Act ausgesponnen, wird er zur schwerfälligen Last.</p>
-               <p>
+      <lb facs="#facs_1_region_1684587636736_1207_tl_31" n="N031" break="no"/>gen Act ausgesponnen, wird er zur schwerfälligen Last.
+            </p><p>
       <lb facs="#facs_1_region_1684587636736_1207_tl_32" n="N032"/>Der zweite Act stellt eine Straße in <rs type="place" ref="#hsl_place_id_174">Nürnberg</rs> vor;
       <lb facs="#facs_1_region_1684587636736_1207_tl_33" n="N033"/>rechts im Vordergrunde das schmucke Haus <rs type="person" ref="#hsl_person_id_1368">Pogner</rs>'s, links
       <lb facs="#facs_1_region_1684587636736_1207_tl_34" n="N034"/>die Schusterwerkstatt des Hanns <rs type="person" ref="#hsl_person_id_5214">Sachs</rs>. Zwischen beiden sieht
@@ -1144,13 +1143,14 @@
       <lb facs="#facs_2_line_1719309025569_955" n="N001"/>uninteressantes Gespräch, nach welchem <rs type="person" ref="#hsl_person_id_4617">Eva</rs> allein zu <rs type="person" ref="#hsl_person_id_5214">Sachs</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684587646933_1213_tl_1" n="N002"/>hinübergeht, um über das Schicksal ihres Ritters bei dem
       <lb facs="#facs_2_region_1684587646933_1213_tl_2" n="N003"/>Freisingen etwas zu erfahren.
-                  <note type="footnote" n="*)">
-                        <lb facs="#facs_2_line_1719309205118_1087" n="N043"/>Eine Stylprobe aus dieser Scene:
-                        <lb facs="#facs_2_line_1719309208826_1090" n="N044"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4617">Eva</rs></hi>: „Ihr wißt nichts, ihr sagt nichts? Ei, Freund <rs type="person" ref="#hsl_person_id_5214">Sachs</rs>,
-                        <lb facs="#facs_2_line_1719309212500_1093" n="N045"/>Jetzt merk' ich wahrlich, Pech ist kein Wachs!“
-                        <lb facs="#facs_2_line_1719309216274_1096" n="N046"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5214">Sachs</rs></hi>: „Lieb' Evchen, machst mir blauen Dunst?“
-                        <lb facs="#facs_2_line_1719309220008_1099" n="N047"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4617">Eva</rs></hi>: „Nicht ich! Ihr seid's. Ihr macht mir <hi rendition="#em">Flausen</hi>“ u. s. w.
-                  </note><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_5214">Sachs</rs> berichtet ihr den ungünsti
+            <note type="footnote" n="**)">
+            <lb facs="#facs_2_line_1719309205118_1087" n="N043"/>Eine Stylprobe aus dieser Scene:
+            <lb facs="#facs_2_line_1719309208826_1090" n="N044"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4617">Eva</rs></hi>: „Ihr wißt nichts, ihr sagt nichts? Ei, Freund <rs type="person" ref="#hsl_person_id_5214">Sachs</rs>,
+            <lb facs="#facs_2_line_1719309212500_1093" n="N045"/>Jetzt merk' ich wahrlich, Pech ist kein Wachs!“
+            <lb facs="#facs_2_line_1719309216274_1096" n="N046"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5214">Sachs</rs></hi>: „Lieb' Evchen, machst mir blauen Dunst?“
+            <lb facs="#facs_2_line_1719309220008_1099" n="N047"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4617">Eva</rs></hi>: „Nicht ich! Ihr seid's. Ihr macht mir <hi rendition="#em">Flausen</hi>“ u. s. w.
+            </note><space quantity="1" unit="char"/>
+            <rs type="person" ref="#hsl_person_id_5214">Sachs</rs> berichtet ihr den ungünsti
       <lb facs="#facs_2_line_1719309045348_968" n="N004" break="no"/>gen Ausgang. Das Duett (wenn man diesen sich endlos
       <lb facs="#facs_2_region_1684587646933_1213_tl_4" n="N005"/>hinziehenden Dialog so nennen kann) schlägt mitunter einen
       <lb facs="#facs_2_region_1684587646933_1213_tl_5" n="N006"/>recht traulichen, stimmungsvollen Ton an, bringt auch hie und
@@ -1188,10 +1188,9 @@
       <lb facs="#facs_2_region_1684587646933_1213_tl_37" n="N038"/>prügelt ihn, die Gasse füllt sich mit Menschen, welche nun
       <lb facs="#facs_2_region_1684587646933_1213_tl_38" n="N039"/>alle zu schreien, zu schimpfen, zu prügeln beginnen, bis ein
       <lb facs="#facs_2_region_1684587646933_1213_tl_39" n="N040"/>wahrer Teufelslärm entsteht, wie man kaum einen ähnlichen
-      <lb facs="#facs_2_region_1684587646933_1213_tl_40" n="N041"/>auf der Bühne erlebt hat.</p>
-               <p>
-      <lb facs="#facs_2_region_1684587646933_1213_tl_41" n="N042"/>Beim Studium der Partitur hatte ich mir gerade von<space quantity="1" unit="char"/>
-            </p>
+      <lb facs="#facs_2_region_1684587646933_1213_tl_40" n="N041"/>auf der Bühne erlebt hat.
+            </p><p>
+      <lb facs="#facs_2_region_1684587646933_1213_tl_41" n="N042"/>Beim Studium der Partitur hatte ich mir gerade von<space quantity="1" unit="char"/></p>
             <cb n="5"/>
             <p prev="true">
       <lb facs="#facs_2_line_1719309030449_958" n="N001"/>diesem Finale mehr erwartet; <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat mit wahrhaft
