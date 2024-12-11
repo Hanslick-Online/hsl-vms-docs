@@ -85,7 +85,7 @@
                      </respStmt>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
-                        <date when="1870-03-02">2. März 1870</date>
+                        <date when="1870-03-02">02.03.1870</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -103,11 +103,12 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="final">
          <change who="kbamer ampfiel" when="2024-08-16">Transkribus OCR und Lektorat.</change>
-            <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change when="2024-10-03" who="ampfiel">header, lb, p, space</change>
-            <change when="2024-10-21" who="ampfiel">fill rs ref</change>
+         <change who="delsner" when="2024-09-25">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change when="2024-10-03" who="ampfiel">header, lb, p, space</change>
+         <change when="2024-10-21" who="ampfiel">fill rs ref</change>
+         <change when="2024-12-04" who="awilfing">final edits</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -766,12 +767,9 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-      <head type="h1">
-            <lb facs="#facs_1_region_1684587539342_1167_tl_2" n="N001"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_217">Die Meistersinger</rs></hi>“.</head>
-      <head type="h2">
-            <lb facs="#facs_1_line_1719309415949_1276" n="N002"/><hi rendition="#em">Von Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>
-            <lb facs="#facs_1_line_1719309425028_1279" n="N003"/>(Erste Aufführung im Hofoperntheater am <date when="1870-02-27">27. Februar 1870</date>.)
-            <lb facs="#facs_1_line_1719309438627_1283" n="N004"/>II.</head>
+            <head type="h1"><lb facs="#facs_1_region_1684587539342_1167_tl_2" n="N001"/>„<rs type="bibl" ref="#hsl_work_id_217">Die Meistersinger</rs>“.</head>
+            <head type="h2"><lb facs="#facs_1_line_1719309415949_1276" n="N002"/>Von Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></head>
+            <head type="h3"><lb facs="#facs_1_line_1719309425028_1279" n="N003"/>(Erste Aufführung im Hofoperntheater am 27. Februar <date>1870</date>.) II.</head>
             <p>      
       <lb facs="#facs_1_region_1684587539342_1167_tl_6" n="N005"/>Ed. H. Der Leser, dem wir soeben die Handlung der
       <lb facs="#facs_1_region_1684587539342_1167_tl_7" n="N006"/>„<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“ erzählt, dürfte staunen, wie daraus eine Oper
@@ -780,13 +778,13 @@
       <lb facs="#facs_1_region_1684587539342_1167_tl_13" n="N009"/>Ausdehnen und Zerren der ärmlichen Handlung, welche, ohne
       <lb facs="#facs_1_region_1684587539342_1167_tl_14" n="N010"/>spannende Verwicklung oder Zwischenfälle, fortwährend stillesteht.
       <lb facs="#facs_1_region_1684587539342_1167_tl_15" n="N011"/>Die zähe Weitschweifigkeit dieser Reden und Gegenreden, häus
-      <lb facs="#facs_1_region_1684587539342_1167_tl_17" n="N012" break="no"/>licher Gespräche und trockenen Belehrungen, welche durchweg in
+      <lb facs="#facs_1_region_1684587539342_1167_tl_17" n="N012" break="no"/>lichen Gespräche und trockenen Belehrungen, welche durchweg in
       <lb facs="#facs_1_line_1719309505127_1315" n="N013"/>ganz ähnlicher Ausdrucksweise und behäbig schleppendem Tempo
       <lb facs="#facs_1_line_1719309518839_1320" n="N014"/>über ameisenartig wühlendem Orchester sich bewegen, legt dem
       <lb facs="#facs_1_region_1684587539342_1167_tl_22" n="N015"/>Hörer mitunter starke Geduldproben auf. Von dieser ermü
       <lb facs="#facs_1_line_1719309545101_1331" n="N016" break="no"/>denden Behandlung abgesehen, scheint uns der Stoff ohneweiters
       <lb facs="#facs_1_line_1719309562288_1336" n="N017"/>ein Fortschritt, ein Weg zum Besseren und Gesünderen im
-      <lb facs="#facs_1_region_1684587539342_1167_tl_29" n="N018"/>Vergleich mit <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s vorhergehenden Opern. Im Widerspruch
+      <lb facs="#facs_1_region_1684587539342_1167_tl_29" n="N018"/>Vergleich mit <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s vorhergehenden Opern. Im Widerspruch
       <lb facs="#facs_1_region_1684587539342_1167_tl_30" n="N019"/>zu seiner (nur den <hi rendition="#em">Mythus</hi> als berechtigtes Stoffgebiet
       <lb facs="#facs_1_region_1684587539342_1167_tl_32" n="N020"/>anerkennenden) Theorie, aber in richtigem Instinct ist <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_line_1719309608230_1356" n="N021"/>von seinen abstrusen, unter dem Wasser und über den Wolken
@@ -802,10 +800,10 @@
       <lb facs="#facs_1_region_1684587539342_1167_tl_51" n="N031"/>des Volksfestes auf der <rs type="place" ref="#hsl_place_id_174">Nürnberg</rs>er Wiese hat <rs type="person" ref="#hsl_person_id_319">Wagner</rs> einen
       <lb facs="#facs_1_region_1684587539342_1167_tl_52" n="N032"/>poetisch glücklichen Griff gethan.</p>
                <p>
-      <lb facs="#facs_1_region_1684587539342_1167_tl_53" n="N033"/>Was um so empfindlicher auffällt, ist <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s Mangel an Hu
+      <lb facs="#facs_1_region_1684587539342_1167_tl_53" n="N033"/>Was um so empfindlicher auffällt, ist <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Mangel an Hu
       <lb facs="#facs_1_region_1684587539342_1167_tl_54" n="N034" break="no"/>mor. Für die komische Oper — und das sind die „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“
       <lb facs="#facs_1_region_1684587539342_1167_tl_55" n="N035"/>nach ihrer ganzen Anlage wie durch ihre beiden ausgesprochenen
-      <lb facs="#facs_1_line_1719309729237_1413" n="N036"/>Buffo-Figuren — erscheint <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s Talent durchaus ungeeignet.
+      <lb facs="#facs_1_line_1719309729237_1413" n="N036"/>Buffo-Figuren — erscheint <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Talent durchaus ungeeignet.
       <lb facs="#facs_1_region_1684587539342_1167_tl_58" n="N037"/>Der Conversationston, welcher doch fast ausschließlich in den
       <lb facs="#facs_1_region_1684587539342_1167_tl_59" n="N038"/>zwei ersten Acten herrscht, klingt nicht einen Augenblick leicht und
       <lb facs="#facs_1_line_1719309792620_1450" n="N039"/>fließend, er ist vielmehr durch eine schwerfällige, gesuchte, fort</p>
@@ -818,7 +816,7 @@
       <lb facs="#facs_1_region_1684587542496_1170_tl_6" n="N005"/>Schwall des Orchesters zu übertönen. Mit dieser verfehlten Fär
       <lb facs="#facs_1_line_1719309817932_1469" n="N006" break="no"/>bung verbindet sich die verfehlte Zeichnung durch eine meist sprach
       <lb facs="#facs_1_line_1719309827947_1474" n="N007" break="no"/>widrige, unnatürlich auf und abspringende Declamation. Im Aus
-      <lb facs="#facs_1_line_1719309836640_1478" n="N008" break="no"/>druck des Komischen ist <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'s Musik vollends unglücklich; da
+      <lb facs="#facs_1_line_1719309836640_1478" n="N008" break="no"/>druck des Komischen ist <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Musik vollends unglücklich; da
       <lb facs="#facs_1_region_1684587542496_1170_tl_13" n="N009"/>wird sie regelmäßig gespreizt, überladen, ja widerwärtig. Mit den
       <lb facs="#facs_1_line_1719309848027_1484" n="N010"/>grausen Dissonanzen, in welchen der „komische“ <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> schimpft
       <lb facs="#facs_1_region_1684587542496_1170_tl_16" n="N011"/>oder wehklagt, könnte man die entsetzlichsten Scenen eines Schauer
@@ -830,7 +828,7 @@
       <lb facs="#facs_1_region_1684587542496_1170_tl_24" n="N017"/>bleibt dem Componisten noch übrig etwa für die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Re
       <lb facs="#facs_1_region_1684587542496_1170_tl_25" n="N018" break="no"/>volution? Von dem gar nicht komischen, sondern nur häßlichen
       <lb facs="#facs_1_region_1684587542496_1170_tl_26" n="N019"/>und gemeinen Prügelfinale des zweiten Actes wollen wir gar
-      <lb facs="#facs_1_region_1684587542496_1170_tl_27" n="N020"/>nicht sprechen. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_153">Laube</rs>'s</hi> wehmüthiger Ausruf bei der <rs type="place" ref="#hsl_place_id_39">München</rs>er
+      <lb facs="#facs_1_region_1684587542496_1170_tl_27" n="N020"/>nicht sprechen. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_153">Laube</rs>’s</hi> wehmüthiger Ausruf bei der <rs type="place" ref="#hsl_place_id_39">München</rs>er
       <lb facs="#facs_1_region_1684587542496_1170_tl_29" n="N021"/>Vorstellung: „O leichtfertiger <rs type="person" ref="#hsl_person_id_241">Rossini</rs>, sei du gesegnet!“ fiel uns
       <lb facs="#facs_1_line_1719309905080_1521" n="N022"/>unwillkürlich ein und dazu das bei aller Tollheit so harmonische
       <lb facs="#facs_1_region_1684587542496_1170_tl_33" n="N023"/>graziöse Finale im „<rs type="bibl" ref="#hsl_work_id_176">Barbier</rs>“. Die Musik hat freilich nur sehr
@@ -840,7 +838,7 @@
       <lb facs="#facs_1_region_1684587542496_1170_tl_44" n="N027" break="no"/>mor, Leichtigkeit und unbefangener Frohsinn fehlen aber <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684587542496_1170_tl_45" n="N028"/>vollständig, er ist immer pathetisch, wie sein <rs type="place" ref="#hsl_place_id_28">italienisch</rs>es Gegenbild
       <lb facs="#facs_1_line_1719309972740_1555" n="N029"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi>. Was in den „<rs type="bibl" ref="#hsl_work_id_217">Meistersingern</rs>“ oasengleich aus grauer Wüste
-      <lb facs="#facs_1_line_1719309986118_1561" n="N030"/>herausleuchtet (<rs type="person" ref="#hsl_person_id_1368">Pogner</rs>'s Anrede, <rs type="person" ref="#hsl_person_id_1367">Walther</rs>'s Lieder, das Quintett im
+      <lb facs="#facs_1_line_1719309986118_1561" n="N030"/>herausleuchtet (<rs type="person" ref="#hsl_person_id_1368">Pogner</rs>’s Anrede, <rs type="person" ref="#hsl_person_id_1367">Walther</rs>’s Lieder, das Quintett im
       <lb facs="#facs_1_region_1684587542496_1170_tl_51" n="N031"/>dritten Act), gehört nicht dem komischen, sondern durchweg dem
       <lb facs="#facs_1_region_1684587542496_1170_tl_52" n="N032"/>pathetischen Theil der Oper an.</p>
                <p>
@@ -856,13 +854,13 @@
       <lb facs="#facs_1_line_1719309802700_1454" n="N042" break="no"/>gen, das Ersetzen selbstständiger, gegliederter Melodien durch ein<space quantity="1" unit="char"/></p>
             <cb n="3"/>
             <p prev="true">
-      <lb facs="#facs_1_region_1684587546502_1173_tl_1" n="N001"/>vages Melodisiren. Die „unendliche Melodie“ (mann kann
+      <lb facs="#facs_1_region_1684587546502_1173_tl_1" n="N001"/>vages Melodisiren. Die „unendliche Melodie“ (man kann
       <lb facs="#facs_1_line_1719309776470_1439" n="N002"/>dieses von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> erfundene Wort bereits als technischen Aus
       <lb facs="#facs_1_region_1684587546502_1173_tl_5" n="N003" break="no"/>druck gebrauchen) ist die herrschende, zugleich die musikalisch
       <lb facs="#facs_1_line_1719310084670_1616" n="N004"/>unterwühlende Macht in den „<rs type="bibl" ref="#hsl_work_id_217">Meistersingern</rs>“. Ein kleines
       <lb facs="#facs_1_region_1684587546502_1173_tl_8" n="N005"/>Motiv beginnt, es wird, bevor es zur eigentlichen Melodie, zum
       <lb facs="#facs_1_line_1719310094670_1623" n="N006"/>Thema sich gestaltet, gleichsam umgebogen, geknickt, durch fort
-      <lb facs="#facs_1_line_1719310101017_1627" n="N007" break="no"/>währendes Moduliren und enharmonische Rücken höher oder
+      <lb facs="#facs_1_line_1719310101017_1627" n="N007" break="no"/>währendes Moduliren und enharmonisches Rücken höher oder
       <lb facs="#facs_1_line_1719310116080_1632" n="N008"/>tiefer gestellt, durch Rosalien fortgesetzt, dann angestückelt und
       <lb facs="#facs_1_line_1719310124459_1636" n="N009"/>wieder verkürzt, bald von diesem, bald von jenem Instrument
       <lb facs="#facs_1_region_1684587546502_1173_tl_17" n="N010"/>wiederholt oder nachgebildet. Mit ängstlicher Vermeidung jeder
@@ -874,14 +872,14 @@
       <lb facs="#facs_1_region_1684587546502_1173_tl_27" n="N016" break="no"/>mäßig, wo das Ohr einen abschließenden Dreiklang erwartet, in
       <lb facs="#facs_1_region_1684587546502_1173_tl_28" n="N017"/>einen dissonirenden Accord einlenkt. Welch überraschend wohl
       <lb facs="#facs_1_region_1684587546502_1173_tl_29" n="N018" break="no"/>thuenden Effect machen die zwei lang austönenden C-dur-Accorde
-      <lb facs="#facs_1_region_1684587546502_1173_tl_30" n="N019"/>vor <rs type="person" ref="#hsl_person_id_1367">Walther</rs>'s Preislied im dritten Act! Sie machen ihn, weil
+      <lb facs="#facs_1_region_1684587546502_1173_tl_30" n="N019"/>vor <rs type="person" ref="#hsl_person_id_1367">Walther</rs>’s Preislied im dritten Act! Sie machen ihn, weil
       <lb facs="#facs_1_line_1719310184245_1668" n="N020"/>der Hörer drei Stunden lang nach einem einzigen gesunden
       <lb facs="#facs_1_line_1719310191287_1673" n="N021"/>Dreiklang geschmachtet hat. Ueberschaut man ganze große
       <lb facs="#facs_1_region_1684587546502_1173_tl_35" n="N022"/>Partien dieser Oper mit einem Blick, so gewahrt man immer
       <lb facs="#facs_1_region_1684587546502_1173_tl_36" n="N023"/>dieselbe Einförmigkeit des Total-Eindruckes, bei fortwähren
       <lb facs="#facs_1_region_1684587546502_1173_tl_37" n="N024" break="no"/>der nervöser Unruhe und Störung des Details. Nur an den
       <lb facs="#facs_1_region_1684587546502_1173_tl_38" n="N025"/>wenigen Stellen, wo ein lyrischer Ruhepunkt, eine Art Liedform
-      <lb facs="#facs_1_region_1684587546502_1173_tl_39" n="N026"/>schon im Texte geboten ist (die Gesänge <rs type="person" ref="#hsl_person_id_1367">Walther</rs>'s, das Schuster
+      <lb facs="#facs_1_region_1684587546502_1173_tl_39" n="N026"/>schon im Texte geboten ist (die Gesänge <rs type="person" ref="#hsl_person_id_1367">Walther</rs>’s, das Schuster
       <lb facs="#facs_1_region_1684587546502_1173_tl_40" n="N027" break="no"/>lied), concentrirt sich der Gesang wenigstens eine Weile hindurch
       <lb facs="#facs_1_region_1684587546502_1173_tl_41" n="N028"/>zur selbstständigen, wirklichen Melodie; hingegen ist im ganzen
       <lb facs="#facs_1_region_1684587546502_1173_tl_42" n="N029"/>Fortgang des Dramatischen, in den Monologen, Dialogen, Ge
@@ -907,7 +905,7 @@
       <lb facs="#facs_2_line_1719312555910_1773" n="N004"/>Unvollständiges, sondern gar nichts; die Begleitung ist Alles,
       <lb facs="#facs_2_line_1719312559113_1776" n="N005"/>ist eine selbstständige symphonische Schöpfung, eine Orchester-
       <lb facs="#facs_2_region_1684587556853_1179_tl_12" n="N006"/>Phantasie mit begleitender Singstimme ad libitum. Gibt man
-      <lb facs="#facs_2_region_1684587556853_1179_tl_14" n="N007"/>einem geschickten, mit <rs type="person" ref="#hsl_person_id_319">Wagner</rs>'scher Musik vertrauten Musiker
+      <lb facs="#facs_2_region_1684587556853_1179_tl_14" n="N007"/>einem geschickten, mit <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’scher Musik vertrauten Musiker
       <lb facs="#facs_2_region_1684587556853_1179_tl_15" n="N008"/>von den „<rs type="bibl" ref="#hsl_work_id_217">Meistersingern</rs>“ nichts als das Textbuch und die Or
       <lb facs="#facs_2_region_1684587556853_1179_tl_17" n="N009" break="no"/>chester-Begleitung, so wird er passende Singstimmen in die leeren
       <lb facs="#facs_2_region_1684587556853_1179_tl_18" n="N010"/>Notensysteme eintragen können, etwa wie der Bildhauer die feh
@@ -932,10 +930,10 @@
       <lb facs="#facs_2_line_1719312723068_1855" n="N029"/>Uniformen, an welchen man die Leute im Gedränge oder in der
       <lb facs="#facs_2_line_1719312734141_1860" n="N030"/>Dämmerung erkennt. Nun begründen bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs> diese Gedächt
       <lb facs="#facs_2_line_1719312778142_1880" n="N031" break="no"/>nißmotive nicht blos Personen-, sondern auch Sachenrechte. So
-      <lb facs="#facs_2_line_1719312786482_1884" n="N032" break="no"/>bald irgendwer in der Oper vom Johannesfest oder dem Preis
-      <lb facs="#facs_2_line_1719312791960_1888" n="N033" break="no"/>singen spricht, ertönt das Motiv <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1368">Pogner</rs>'s</hi> aus dem ersten Act;
-      <lb facs="#facs_2_region_1684587556853_1179_tl_62" n="N034"/>das Motiv <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1367">Walther</rs>'s</hi> begleitet nicht blos dessen Person, sondern
-      <lb facs="#facs_2_region_1684587556853_1179_tl_63" n="N035"/>jede Anspielung auf ihn, auf <rs type="person" ref="#hsl_person_id_4617">Eva</rs>'s Liebe, auf die echte Poesie
+      <lb facs="#facs_2_line_1719312786482_1884" n="N032" break="no"/>bald irgendwer in der Oper vom <rs type="person" ref="#hsl_person_id_5219">Johannes</rs>fest oder dem Preis
+      <lb facs="#facs_2_line_1719312791960_1888" n="N033" break="no"/>singen spricht, ertönt das Motiv <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1368">Pogner</rs>’s</hi> aus dem ersten Act;
+      <lb facs="#facs_2_region_1684587556853_1179_tl_62" n="N034"/>das Motiv <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1367">Walther</rs>’s</hi> begleitet nicht blos dessen Person, sondern
+      <lb facs="#facs_2_region_1684587556853_1179_tl_63" n="N035"/>jede Anspielung auf ihn, auf <rs type="person" ref="#hsl_person_id_4617">Eva</rs>’s Liebe, auf die echte Poesie
       <lb facs="#facs_2_line_1719312812036_1894" n="N036"/>im Gegensatze zur zünftigen u. s. f. Nachdem das, worauf diese
       <lb facs="#facs_2_line_1719312817997_1898" n="N037"/>Motive anspielen, so ziemlich den ganzen Stoff der „<rs type="bibl" ref="#hsl_work_id_217">Meister
       <lb facs="#facs_2_line_1719312825039_1902" n="N038" break="no"/>singer</rs>“ ausmacht, überdies die Motive selbst die glücklichsten
@@ -947,7 +945,7 @@
       <lb facs="#facs_2_region_1684587561602_1182_tl_1" n="N001"/>gefärbt, Anfangs freut sich der Hörer an diesen Melodiechen,
       <lb facs="#facs_2_region_1684587561602_1182_tl_2" n="N002"/>deren Verfolgen und Erkennen überdies den Verstand beschäftigt;
       <lb facs="#facs_2_region_1684587561602_1182_tl_3" n="N003"/>je unablässiger sie ihn aber hin und her schaukeln, desto unbehag
-      <lb facs="#facs_2_line_1719312847484_1912" n="N004" break="no"/>licher wird ihm Muthe. Für den Musiker, der befähigt und
+      <lb facs="#facs_2_line_1719312847484_1912" n="N004" break="no"/>licher wird ihm zu Muthe. Für den Musiker, der befähigt und
       <lb facs="#facs_2_line_1719312855914_1916" n="N005"/>geneigt ist, sich vorzugsweise an dem technischen Detail zu er
       <lb facs="#facs_2_region_1684587561602_1182_tl_8" n="N006" break="no"/>freuen und darüber zeitweise das Unerquickliche des Total-Ein
       <lb facs="#facs_2_region_1684587561602_1182_tl_9" n="N007" break="no"/>drucks zu vergessen, hat die Orchester-Begleitung der „<rs type="bibl" ref="#hsl_work_id_217">Meister
@@ -956,7 +954,7 @@
       <lb facs="#facs_2_line_1719312885809_1932" n="N010"/>Orchester anbringt, verändert, deren zwei und drei mit einander ver
       <lb facs="#facs_2_line_1719312890592_1937" n="N011" break="no"/>webt, ist ohne Frage bewunderungswürdig. Schade nur, daß diese
       <lb facs="#facs_2_line_1719312902464_1941" n="N012"/>„<hi rendition="#em">dramatische</hi> Polyphonie“, wie man das neue Princip <rs type="person" ref="#hsl_person_id_319">Wag
-      <lb facs="#facs_2_region_1684587561602_1182_tl_17" n="N013" break="no"/>ner</rs>'s mit Einem Worte und zum Unterschiede der bisherigen, <hi rendition="#em">mu
+      <lb facs="#facs_2_region_1684587561602_1182_tl_17" n="N013" break="no"/>ner</rs>’s mit Einem Worte und zum Unterschiede der bisherigen, <hi rendition="#em">mu
       <lb facs="#facs_2_region_1684587561602_1182_tl_18" n="N014" break="no"/>sikalisch</hi> gedachten Polyphonie bezeichnen könnte, durchweg
       <lb facs="#facs_2_region_1684587561602_1182_tl_19" n="N015"/>Product der Reflexion ist. Die zauberische Macht des „Unbe
       <lb facs="#facs_2_region_1684587561602_1182_tl_20" n="N016" break="no"/>wußten“, welche in der Conception jedes Kunstwerks das erste
@@ -966,9 +964,9 @@
       <lb facs="#facs_2_region_1684587561602_1182_tl_23" n="N019"/>Die Aufführung der „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“ wird jedem Musik
       <lb facs="#facs_2_region_1684587561602_1182_tl_24" n="N020" break="no"/>freund ein denkwürdiges Kunsterlebniß bleiben, wenn auch keines
       <lb facs="#facs_2_region_1684587561602_1182_tl_25" n="N021"/>von jenen, deren echter Schönheitssegen uns beglückend und läu
-      <lb facs="#facs_2_line_1719312937348_1956" n="N022" break="no"/>ternd durch's Leben begleitet. Wir erblicken in dieser Oper keine
+      <lb facs="#facs_2_line_1719312937348_1956" n="N022" break="no"/>ternd durch’s Leben begleitet. Wir erblicken in dieser Oper keine
       <lb facs="#facs_2_line_1719312942339_1960" n="N023"/>Schöpfung von tiefer Ursprünglichkeit, von bleibender Wahrheit
-      <lb facs="#facs_2_line_1719312953730_1964" n="N024"/>und Schönheit, sondern geistreiches Experiment, das durch
+      <lb facs="#facs_2_line_1719312953730_1964" n="N024"/>und Schönheit, sondern ein geistreiches Experiment, das durch
       <lb facs="#facs_2_line_1719312964572_1968" n="N025"/>die zähe Energie seiner Durchführung und die unleugbare Neu
       <lb facs="#facs_2_line_1719312970696_1972" n="N026" break="no"/>heit nicht sowol des Erfundenen, als der Methode des Erfinders
       <lb facs="#facs_2_line_1719312980188_1978" n="N027"/>frappirt. Die „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“ gehören für uns mit Einem Wort
