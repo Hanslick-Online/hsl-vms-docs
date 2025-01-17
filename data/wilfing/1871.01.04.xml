@@ -106,7 +106,7 @@
       <revisionDesc status="final">
             <change who="awilfing" when="2024-12-31">Transkribus OCR und Lektorat.</change>
             <change who="delsner" when="2025-01-15">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-            <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+            <change who="awilfing" when="2025-01-17">Formatierung und Referenzen eingefügt.</change>
             <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
@@ -856,245 +856,248 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
             <head type="h1"><lb facs="#facs_1_region_1684583455853_229_tl_1" n="N001"/><hi rendition="#em">Hofoperntheater</hi>.</head>
-            <head type="h2"><lb facs="#facs_1_region_1684583455853_229_tl_2" n="N002"/>(„<hi rendition="#em"><rs type="bibl">Judith</rs></hi>“, Oper von Franz <hi rendition="#em"><rs type="person">Doppler</rs></hi>.)</head>
+            <head type="h2"><lb facs="#facs_1_region_1684583455853_229_tl_2" n="N002"/>(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_3973">Judith</rs></hi>“, Oper von Franz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_64">Doppler</rs></hi>.)</head>
             <p>
-      <lb facs="#facs_1_line_1734175893603_980" n="N003"/>Ed. H. Es ist nicht das erstemal, daß die <rs type="bibl">biblisch</rs>e
-      <lb facs="#facs_1_region_1684583455853_229_tl_3" n="N004"/><rs type="person">Judith</rs> als Opernstoff benützt wird. Zwei ältere <rs type="place">Wien</rs>er Com¬
-      <lb facs="#facs_1_region_1684583455853_229_tl_4" n="N005"/>ponisten, Johann <hi rendition="#em"><rs type="person">Fuß</rs></hi> und Leopold <hi rendition="#em"><rs type="person">Kozeluch</rs></hi>, brachten, der
-      <lb facs="#facs_1_region_1684583455853_229_tl_5" n="N006"/>Erste ein Melodram, der Zweite eine heroische Oper „<rs type="bibl">Judith</rs>“
+      <lb facs="#facs_1_line_1734175893603_980" n="N003"/>Ed. H. Es ist nicht das erstemal, daß die <rs type="bibl" ref="#hsl_work_id_820">biblisch</rs>e
+      <lb facs="#facs_1_region_1684583455853_229_tl_3" n="N004"/><rs type="person" ref="#hsl_person_id_3769">Judith</rs> als Opernstoff benützt wird. Zwei ältere <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Com
+      <lb facs="#facs_1_region_1684583455853_229_tl_4" n="N005" break="no"/>ponisten, Johann <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6238">Fuß</rs></hi> und Leopold <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6239">Kozeluch</rs></hi>, brachten, der
+      <lb facs="#facs_1_region_1684583455853_229_tl_5" n="N006"/>Erste ein Melodram, der Zweite eine heroische Oper „<rs type="bibl" ref="#hsl_work_id_4367 #hsl_work_id_4368">Judith</rs>“
       <lb facs="#facs_1_region_1684583455853_229_tl_6" n="N007"/>zu Ende des vorigen Jahrhunderts zur Aufführung. In neuerer
-      <lb facs="#facs_1_region_1684583455853_229_tl_7" n="N008"/>Zeit haben wir <rs type="bibl">„Judith“-Opern</rs> von dem Italiener <hi rendition="#em"><rs type="person">Levi</rs></hi>
-      <lb facs="#facs_1_region_1684583455853_229_tl_8" n="N009"/>(<rs type="place">Venedig</rs><date month="0" day="0" year="0">1844</date>), dem Russen <hi rendition="#em"><rs type="person">Seroff</rs></hi> (<rs type="place">Petersburg</rs><date month="0" day="0" year="0">1863</date>),
-      <lb facs="#facs_1_region_1684583455853_229_tl_9" n="N010"/>dem Deutschen Emil <hi rendition="#em"><rs type="person">Naumann</rs></hi> (<rs type="place">Dresden</rs><date month="0" day="0" year="0">1858</date>); gar nicht
-      <lb facs="#facs_1_region_1684583455853_229_tl_10" n="N011"/>zu gedenken der <rs type="bibl">Oratorien</rs> gleichen Stoffes von <hi rendition="#em"><rs type="person">Cimarosa</rs></hi>
-      <lb facs="#facs_1_region_1684583455853_229_tl_11" n="N012"/>(<date month="0" day="0" year="0">1750</date>), <hi rendition="#em"><rs type="person">Raimondi</rs></hi> (<date month="0" day="0" year="0">1830</date>) und Anderen. Solch wiederholtes
+      <lb facs="#facs_1_region_1684583455853_229_tl_7" n="N008"/>Zeit haben wir <rs type="bibl" ref="#hsl_work_id_4371 #hsl_work_id_4372 #hsl_work_id_4373">„Judith“-Opern</rs> von dem Italiener <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6254">Levi</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684583455853_229_tl_8" n="N009"/>(<rs type="place" ref="#hsl_place_id_89">Venedig</rs><space unit="char" quantity="1"/><date>1844</date>), dem Russen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6240">Seroff</rs></hi> (<rs type="place" ref="#hsl_place_id_50">Petersburg</rs><space unit="char" quantity="1"/><date>1863</date>),
+      <lb facs="#facs_1_region_1684583455853_229_tl_9" n="N010"/>dem Deutschen Emil <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6241">Naumann</rs></hi> (<rs type="place" ref="#hsl_place_id_15">Dresden</rs><space unit="char" quantity="1"/><date>1858</date>); gar nicht
+      <lb facs="#facs_1_region_1684583455853_229_tl_10" n="N011"/>zu gedenken der <rs type="bibl" ref="#hsl_work_id_4369 #hsl_work_id_4370">Oratorien</rs> gleichen Stoffes von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_928">Cimarosa</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684583455853_229_tl_11" n="N012"/>(<date>1750</date>), <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6242">Raimondi</rs></hi> (<date>1830</date>) und Anderen. Solch wiederholtes
       <lb facs="#facs_1_region_1684583455853_229_tl_12" n="N013"/>Zusammentreffen verschiedener Zeiten und Nationen in einem und
       <lb facs="#facs_1_region_1684583455853_229_tl_13" n="N014"/>demselben Stoff spricht wenigstens für das Vorhandensein eines
-      <lb facs="#facs_1_region_1684583455853_229_tl_14" n="N015"/>tüchtigen, musikalisch triebkräftigen Kernes. In der That ent¬
-      <lb facs="#facs_1_region_1684583455853_229_tl_15" n="N016"/>hält die bekannte <rs type="person">Judith</rs>-Historie auffallend günstige, geradezu
+      <lb facs="#facs_1_region_1684583455853_229_tl_14" n="N015"/>tüchtigen, musikalisch triebkräftigen Kernes. In der That ent
+      <lb facs="#facs_1_region_1684583455853_229_tl_15" n="N016" break="no"/>hält die bekannte <rs type="person" ref="#hsl_person_id_3769">Judith</rs>-Historie auffallend günstige, geradezu
       <lb facs="#facs_1_region_1684583455853_229_tl_16" n="N017"/>auf die Oper hinweisende Theater-Elemente. Kann man
-      <lb facs="#facs_1_region_1684583455853_229_tl_17" n="N018"/>mächtigere, schärfer ausgeprägte Charaktere finden, als <rs type="person">Judith</rs>
-      <lb facs="#facs_1_region_1684583455853_229_tl_18" n="N019"/>und <rs type="person">Holofernes</rs>? Dieser individuelle Gegensatz multiplicirt und
-      <lb facs="#facs_1_region_1684583455853_229_tl_19" n="N020"/>erweitert sich zum Völkercontrast in den gottesfürchtig dulden¬
-      <lb facs="#facs_1_region_1684583455853_229_tl_20" n="N021"/>den Juden und ihren wilden <rs type="place">assyrisch</rs>en Bedrängern. Volksscenen
+      <lb facs="#facs_1_region_1684583455853_229_tl_17" n="N018"/>mächtigere, schärfer ausgeprägte Charaktere finden, als <rs type="person" ref="#hsl_person_id_3769">Judith</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684583455853_229_tl_18" n="N019"/>und <rs type="person" ref="#hsl_person_id_3612">Holofernes</rs>? Dieser individuelle Gegensatz multiplicirt und
+      <lb facs="#facs_1_region_1684583455853_229_tl_19" n="N020"/>erweitert sich zum Völkercontrast in den gottesfürchtig dulden
+      <lb facs="#facs_1_region_1684583455853_229_tl_20" n="N021" break="no"/>den Juden und ihren wilden <rs type="place" ref="#hsl_place_id_748">assyrisch</rs>en Bedrängern. Volksscenen
       <lb facs="#facs_1_region_1684583455853_229_tl_21" n="N022"/>von würdevollem und von stürmischem Charakter, Monologe
       <lb facs="#facs_1_region_1684583455853_229_tl_22" n="N023"/>und Duette ergeben sich wie von selbst und bieten obendrein
-      <lb facs="#facs_1_region_1684583455853_229_tl_23" n="N024"/>dem Componisten eine lockende Gelegenheit zu fremdartig <rs type="place">orien¬</rs>
-      <lb facs="#facs_1_region_1684583455853_229_tl_24" n="N025"/><rs type="place">t</rs>alisirender Färbung seiner Musik. Einen glücklichen Griff, wenn
-      <lb facs="#facs_1_region_1684583455853_229_tl_25" n="N026"/>auch keinen neuen, hat daher <hi rendition="#em"><rs type="person">Mosenthal</rs></hi> mit diesem Stoffe
-      <lb facs="#facs_1_region_1684583455853_229_tl_26" n="N027"/>gemacht. Sehr einfach und übersichtlich gliedert er ihn folgender¬
-      <lb facs="#facs_1_region_1684583455853_229_tl_27" n="N028"/>maßen: Der erste Act schildert uns die Noth der Belagerten in
-      <lb facs="#facs_1_region_1684583455853_229_tl_28" n="N029"/><rs type="place">Bethulien</rs>; der <rs type="person">Hohepriester</rs> sucht das Gottvertrauen der ver¬
-      <lb facs="#facs_1_region_1684583455853_229_tl_29" n="N030"/>zagenden Bevölkerung durch Zuspruch und Gebet zu stärken;
-      <lb facs="#facs_1_region_1684583455853_229_tl_30" n="N031"/>da erscheint <rs type="person">Judith</rs>, welche durch göttliche Eingebung eine
+      <lb facs="#facs_1_region_1684583455853_229_tl_23" n="N024"/>dem Componisten eine lockende Gelegenheit zu fremdartig <rs type="place" ref="#hsl_place_id_526">orien
+      <lb facs="#facs_1_region_1684583455853_229_tl_24" n="N025" break="no"/>t</rs>alisirender Färbung seiner Musik. Einen glücklichen Griff, wenn
+      <lb facs="#facs_1_region_1684583455853_229_tl_25" n="N026"/>auch keinen neuen, hat daher <hi rendition="#em"><rs type="person" ref="#hsl_person_id_188">Mosenthal</rs></hi> mit diesem Stoffe
+      <lb facs="#facs_1_region_1684583455853_229_tl_26" n="N027"/>gemacht. Sehr einfach und übersichtlich gliedert er ihn folgender
+      <lb facs="#facs_1_region_1684583455853_229_tl_27" n="N028" break="no"/>maßen: Der erste Act schildert uns die Noth der Belagerten in
+      <lb facs="#facs_1_region_1684583455853_229_tl_28" n="N029"/><rs type="place" ref="#hsl_place_id_749">Bethulien</rs>; der <rs type="person" ref="#hsl_person_id_6243">Hohepriester</rs> sucht das Gottvertrauen der ver
+      <lb facs="#facs_1_region_1684583455853_229_tl_29" n="N030" break="no"/>zagenden Bevölkerung durch Zuspruch und Gebet zu stärken;
+      <lb facs="#facs_1_region_1684583455853_229_tl_30" n="N031"/>da erscheint <rs type="person" ref="#hsl_person_id_6244">Judith</rs>, welche durch göttliche Eingebung eine
       <lb facs="#facs_1_region_1684583455853_229_tl_31" n="N032"/>Quelle entdeckt hat, und bringt den Verschmachtenden Labung.
-      <lb facs="#facs_1_region_1684583455853_229_tl_32" n="N033"/>Im zweiten Acte sehen wir <rs type="person">Judith</rs> den um sie werbenden
-      <lb facs="#facs_1_region_1684583455853_229_tl_33" n="N034"/><rs type="person">Ataniel</rs> zum Kampfe gegen <rs type="person">Holofernes</rs> entflammen. Allein
-      <lb facs="#facs_1_region_1684583455853_229_tl_34" n="N035"/>zurückbleibend, hört <rs type="person">Judith</rs> hierauf überirdische Stimmen,
-      <lb facs="#facs_1_region_1684583455853_229_tl_35" n="N036"/>welche sie als die auserwählte Retterin ihres Volkes bezeich¬</p>
+      <lb facs="#facs_1_region_1684583455853_229_tl_32" n="N033"/>Im zweiten Acte sehen wir <rs type="person" ref="#hsl_person_id_6244">Judith</rs> den um sie werbenden
+      <lb facs="#facs_1_region_1684583455853_229_tl_33" n="N034"/><rs type="person" ref="#hsl_person_id_6245">Ataniel</rs> zum Kampfe gegen <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> entflammen. Allein
+      <lb facs="#facs_1_region_1684583455853_229_tl_34" n="N035"/>zurückbleibend, hört <rs type="person" ref="#hsl_person_id_6244">Judith</rs> hierauf überirdische Stimmen,
+      <lb facs="#facs_1_region_1684583455853_229_tl_35" n="N036"/>welche sie als die auserwählte Retterin ihres Volkes bezeich</p>
             <cb n="2"/>
-            <p>
-      <lb facs="#facs_1_region_1684583459104_232_tl_1" n="N001"/>nen und zur That aufrufen. Da sie die Trauerkunde von
-      <lb facs="#facs_1_region_1684583459104_232_tl_2" n="N002"/>der Vernichtung des jüdischen Heeres vernimmt, läßt <rs type="person">Judith</rs>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684583459104_232_tl_1" n="N001" break="no"/>nen und zur That aufrufen. Da sie die Trauerkunde von
+      <lb facs="#facs_1_region_1684583459104_232_tl_2" n="N002"/>der Vernichtung des jüdischen Heeres vernimmt, läßt <rs type="person" ref="#hsl_person_id_6244">Judith</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684583459104_232_tl_3" n="N003"/>sich prachtvoll schmücken und unternimmt, nur von ihrer
-      <lb facs="#facs_1_region_1684583459104_232_tl_4" n="N004"/>Magd <rs type="person">Abra</rs> begleitet, den Gang ins feindliche Lager. Der
+      <lb facs="#facs_1_region_1684583459104_232_tl_4" n="N004"/>Magd <rs type="person" ref="#hsl_person_id_6247">Abra</rs> begleitet, den Gang ins feindliche Lager. Der
       <lb facs="#facs_1_region_1684583459104_232_tl_5" n="N005"/>dritte Act führt uns in das von wildem Gesang und Tanz
-      <lb facs="#facs_1_region_1684583459104_232_tl_6" n="N006"/>widerhallende Lager des <rs type="person">Holofernes</rs>. <rs type="person">Judith</rs> tritt vor ihn;
-      <lb facs="#facs_1_region_1684583459104_232_tl_7" n="N007"/><rs type="person">Holofernes</rs>, von ihrer Schönheit geblendet, feiert sie sofort als
-      <lb facs="#facs_1_region_1684583459104_232_tl_8" n="N008"/>„seine Königin“. <rs type="person">Ataniel</rs> und <rs type="person">Joakim</rs> werden gefangen her¬
-      <lb facs="#facs_1_region_1684583459104_232_tl_9" n="N009"/>beigeschleppt, jedoch auf <rs type="person">Judith</rs>'s Fürbitte freigegeben. Im
-      <lb facs="#facs_1_region_1684583459104_232_tl_10" n="N010"/>Zelte des <rs type="person">Holofernes</rs> spielt der vierte und letzte Act. <rs type="person">Ataniel</rs>
-      <lb facs="#facs_1_region_1684583459104_232_tl_11" n="N011"/>dringt ein, um <rs type="person">Judith</rs> mit glühenden Liebesworten zur Flucht
-      <lb facs="#facs_1_region_1684583459104_232_tl_12" n="N012"/>zu bereden. <rs type="person">Holofernes</rs> tritt zwischen Beide, und da <rs type="person">Judith</rs>
-      <lb facs="#facs_1_region_1684583459104_232_tl_13" n="N013"/>auf seine Frage betheuert, den <rs type="person">Ataniel</rs> nicht zu kennen, tödtet
-      <lb facs="#facs_1_line_1734176051662_1027" n="N014"/>er Letzteren. <rs type="person">Holofernes</rs> berauscht sich noch eine Weile in
-      <lb facs="#facs_1_region_1684583459104_232_tl_14" n="N015"/>Wein und Zärtlichkeit und zieht dann <rs type="person">Judith</rs> in sein Schlaf¬
-      <lb facs="#facs_1_region_1684583459104_232_tl_15" n="N016"/>gemach, wo hinter dem Vorhang sein Haupt fällt. Die Scene
+      <lb facs="#facs_1_region_1684583459104_232_tl_6" n="N006"/>widerhallende Lager des <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs>. <rs type="person" ref="#hsl_person_id_6244">Judith</rs> tritt vor ihn;
+      <lb facs="#facs_1_region_1684583459104_232_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_6246">Holofernes</rs>, von ihrer Schönheit geblendet, feiert sie sofort als
+      <lb facs="#facs_1_region_1684583459104_232_tl_8" n="N008"/>„seine Königin“. <rs type="person" ref="#hsl_person_id_6245">Ataniel</rs> und <rs type="person" ref="#hsl_person_id_6243">Joakim</rs> werden gefangen her
+      <lb facs="#facs_1_region_1684583459104_232_tl_9" n="N009" break="no"/>beigeschleppt, jedoch auf <rs type="person" ref="#hsl_person_id_6244">Judith</rs>’s Fürbitte freigegeben. Im
+      <lb facs="#facs_1_region_1684583459104_232_tl_10" n="N010"/>Zelte des <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> spielt der vierte und letzte Act. <rs type="person" ref="#hsl_person_id_6245">Ataniel</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684583459104_232_tl_11" n="N011"/>dringt ein, um <rs type="person" ref="#hsl_person_id_6244">Judith</rs> mit glühenden Liebesworten zur Flucht
+      <lb facs="#facs_1_region_1684583459104_232_tl_12" n="N012"/>zu bereden. <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> tritt zwischen Beide, und da <rs type="person" ref="#hsl_person_id_6244">Judith</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684583459104_232_tl_13" n="N013"/>auf seine Frage betheuert, den <rs type="person" ref="#hsl_person_id_6245">Ataniel</rs> nicht zu kennen, tödtet
+      <lb facs="#facs_1_line_1734176051662_1027" n="N014"/>er Letzteren. <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> berauscht sich noch eine Weile in
+      <lb facs="#facs_1_region_1684583459104_232_tl_14" n="N015"/>Wein und Zärtlichkeit und zieht dann <rs type="person" ref="#hsl_person_id_6244">Judith</rs> in sein Schlaf
+      <lb facs="#facs_1_region_1684583459104_232_tl_15" n="N016" break="no"/>gemach, wo hinter dem Vorhang sein Haupt fällt. Die Scene
       <lb facs="#facs_1_region_1684583459104_232_tl_16" n="N017"/>verwandelt sich in eine freie Landschaft. Frohlockend begrüßt
-      <lb facs="#facs_1_region_1684583459104_232_tl_17" n="N018"/>das Volk die im Triumphe auf einem Goldschild hereingetra¬
-      <lb facs="#facs_1_region_1684583459104_232_tl_18" n="N019"/>gene <rs type="person">Judith</rs>. „In prophetischer Ekstase mit weitausgebreite¬
-      <lb facs="#facs_1_region_1684583459104_232_tl_19" n="N020"/>ten Armen“ stellt sich <rs type="person">Judith</rs> in die Mitte des Volkes, fleht
-      <lb facs="#facs_1_region_1684583459104_232_tl_20" n="N021"/>zu <rs type="person">Jehovah</rs> um einen sie vernichtenden Blitzstrahl, der auch
-      <lb facs="#facs_1_region_1684583459104_232_tl_21" n="N022"/>sofort sich einstellt und <rs type="person">Judith</rs> tödtet, während „unter einem
+      <lb facs="#facs_1_region_1684583459104_232_tl_17" n="N018"/>das Volk die im Triumphe auf einem Goldschild hereingetra
+      <lb facs="#facs_1_region_1684583459104_232_tl_18" n="N019" break="no"/>gene <rs type="person" ref="#hsl_person_id_6244">Judith</rs>. „In prophetischer Ekstase mit weitausgebreite
+      <lb facs="#facs_1_region_1684583459104_232_tl_19" n="N020" break="no"/>ten Armen“ stellt sich <rs type="person" ref="#hsl_person_id_6244">Judith</rs> in die Mitte des Volkes, fleht
+      <lb facs="#facs_1_region_1684583459104_232_tl_20" n="N021"/>zu <rs type="person" ref="#hsl_person_id_1665">Jehovah</rs> um einen sie vernichtenden Blitzstrahl, der auch
+      <lb facs="#facs_1_region_1684583459104_232_tl_21" n="N022"/>sofort sich einstellt und <rs type="person" ref="#hsl_person_id_6244">Judith</rs> tödtet, während „unter einem
       <lb facs="#facs_1_region_1684583459104_232_tl_22" n="N023"/>siebenfachen Regenbogen“ in weiter Ferne die Zinnen von
-      <lb facs="#facs_1_region_1684583459104_232_tl_23" n="N024"/><rs type="place">Jerusalem</rs> erglänzen.
-      <lb facs="#facs_1_region_1684583459104_232_tl_24" n="N025"/>Das Libretto hat die Vorzüge der besten <rs type="person">Mosenthal</rs>'¬
-      <lb facs="#facs_1_region_1684583459104_232_tl_25" n="N026"/>schen Textbücher: eine klare, übersichtliche Gliederung des
+      <lb facs="#facs_1_region_1684583459104_232_tl_23" n="N024"/><rs type="place" ref="#hsl_place_id_63">Jerusalem</rs> erglänzen.
+            </p><p>
+      <lb facs="#facs_1_region_1684583459104_232_tl_24" n="N025"/>Das Libretto hat die Vorzüge der besten <rs type="person" ref="#hsl_person_id_188">Mosenthal</rs>’
+      <lb facs="#facs_1_region_1684583459104_232_tl_25" n="N026" break="no"/>schen Textbücher: eine klare, übersichtliche Gliederung des
       <lb facs="#facs_1_region_1684583459104_232_tl_26" n="N027"/>Stoffes, effectvolle, musikalisch vorgedachte Scenen, endlich
-      <lb facs="#facs_1_region_1684583459104_232_tl_27" n="N028"/>sehr klangvolle Verse. Seinen Hauptmangel theilt es gleich¬
-      <lb facs="#facs_1_region_1684583459104_232_tl_28" n="N029"/>falls mit einigen früheren Arbeiten <rs type="person">Mosenthal</rs>'s: die für
+      <lb facs="#facs_1_region_1684583459104_232_tl_27" n="N028"/>sehr klangvolle Verse. Seinen Hauptmangel theilt es gleich
+      <lb facs="#facs_1_region_1684583459104_232_tl_28" n="N029" break="no"/>falls mit einigen früheren Arbeiten <rs type="person" ref="#hsl_person_id_188">Mosenthal</rs>’s: die für
       <lb facs="#facs_1_region_1684583459104_232_tl_29" n="N030"/>einen ganzen Theaterabend allzu dürftige, jeder Verwicklung
       <lb facs="#facs_1_region_1684583459104_232_tl_30" n="N031"/>entbehrende Handlung und den dramatisch sehr bedenklichen
       <lb facs="#facs_1_region_1684583459104_232_tl_31" n="N032"/>Abschluß. Es ist doch ein gar zu wohlfeiler Knall-Effect,
-      <lb facs="#facs_1_region_1684583459104_232_tl_32" n="N033"/>diese augenblickliche Tödtung <rs type="person">Judith</rs>'s durch den erbetenen
-      <lb facs="#facs_1_region_1684583459104_232_tl_33" n="N034"/>Blitzstrahl. Wir wollen gar nicht fragen, warum <rs type="person">Judith</rs>,
-      <lb facs="#facs_1_region_1684583459104_232_tl_34" n="N035"/>wenn sie auf so unfehlbar gutem Fuße mit <rs type="person">Jehovah</rs> steht,
-      <lb facs="#facs_1_region_1684583459104_232_tl_35" n="N036"/>diesen Blitz nicht lieber etwas früher auf <rs type="person">Holofernes</rs> herabge¬
-      <lb facs="#facs_1_region_1684583459104_232_tl_36" n="N037"/>betet habe? Aber das Eine müssen wir fragen: Wie kommt
-      <lb facs="#facs_1_region_1684583459104_232_tl_37" n="N038"/><rs type="person">Judith</rs>, die nach der Anschauung ihres ganzen Volkes eine
-      <lb facs="#facs_1_region_1684583459104_232_tl_38" n="N039"/>gottgefällige, rühmliche That vollbracht, zu der Anschauung,</p>
+      <lb facs="#facs_1_region_1684583459104_232_tl_32" n="N033"/>diese augenblickliche Tödtung <rs type="person" ref="#hsl_person_id_6244">Judith</rs>’s durch den erbetenen
+      <lb facs="#facs_1_region_1684583459104_232_tl_33" n="N034"/>Blitzstrahl. Wir wollen gar nicht fragen, warum <rs type="person" ref="#hsl_person_id_6244">Judith</rs>,
+      <lb facs="#facs_1_region_1684583459104_232_tl_34" n="N035"/>wenn sie auf so unfehlbar gutem Fuße mit <rs type="person" ref="#hsl_person_id_1665">Jehovah</rs> steht,
+      <lb facs="#facs_1_region_1684583459104_232_tl_35" n="N036"/>diesen Blitz nicht lieber etwas früher auf <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> herabge
+      <lb facs="#facs_1_region_1684583459104_232_tl_36" n="N037" break="no"/>betet habe? Aber das Eine müssen wir fragen: Wie kommt
+      <lb facs="#facs_1_region_1684583459104_232_tl_37" n="N038"/><rs type="person" ref="#hsl_person_id_6244">Judith</rs>, die nach der Anschauung ihres ganzen Volkes eine
+      <lb facs="#facs_1_region_1684583459104_232_tl_38" n="N039"/>gottgefällige, rühmliche That vollbracht, zu der Anschauung,<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-      <lb facs="#facs_1_region_1684583462381_235_tl_1" n="N001"/>dafür mit dem Leben büßen zu müssen? <hi rendition="#em"><rs type="person">Hebbel</rs></hi> brachte
-      <lb facs="#facs_1_region_1684583462381_235_tl_2" n="N002"/>in seinem gleichnamigen <rs type="bibl">Drama</rs> zuerst den modernen Hauch
-      <lb facs="#facs_1_region_1684583462381_235_tl_3" n="N003"/>in das Bewußtsein der <rs type="person">Judith</rs>, daß sie, von der Größe des
-      <lb facs="#facs_1_region_1684583462381_235_tl_4" n="N004"/><rs type="person">Holofernes</rs> gefesselt, den Feind ihres Volkes verehren und
-      <lb facs="#facs_1_region_1684583462381_235_tl_5" n="N005"/>lieben muß, den sie doch tödtet. Und dennoch schließt <rs type="person">Hebbel</rs>'s
-      <lb facs="#facs_1_region_1684583462381_235_tl_6" n="N006"/><rs type="bibl">Drama</rs> keineswegs mit dem Tode <rs type="person">Judith</rs>'s. Ein Selbstmord,
-      <lb facs="#facs_1_region_1684583462381_235_tl_7" n="N007"/>sei es durch Eisen oder durch Gebet, liegt weder in der <rs type="bibl">bibli¬</rs>
-      <lb facs="#facs_1_line_1734175918678_987" n="N008"/><rs type="bibl">sch</rs>en <rs type="person">Judith</rs> begründet, noch in der <hi rendition="#em"><rs type="person">Mosenthal</rs></hi>'schen,
-      <lb facs="#facs_1_line_1734175939718_993" n="N009"/>welche (anders als bei <rs type="person">Hebbel</rs>) für <rs type="person">Holofernes</rs> nur Haß und
-      <lb facs="#facs_1_region_1684583462381_235_tl_8" n="N010"/>Verachtung fühlt. Die Art ihres Todes bei <rs type="person">Mosenthal</rs> —
+            <p prev="true">
+      <lb facs="#facs_1_region_1684583462381_235_tl_1" n="N001"/>dafür mit dem Leben büßen zu müssen? <hi rendition="#em"><rs type="person" ref="#hsl_person_id_115">Hebbel</rs></hi> brachte
+      <lb facs="#facs_1_region_1684583462381_235_tl_2" n="N002"/>in seinem gleichnamigen <rs type="bibl" ref="#hsl_work_id_4366">Drama</rs> zuerst den modernen Hauch
+      <lb facs="#facs_1_region_1684583462381_235_tl_3" n="N003"/>in das Bewußtsein der <rs type="person" ref="#hsl_person_id_6248">Judith</rs>, daß sie, von der Größe des
+      <lb facs="#facs_1_region_1684583462381_235_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_6249">Holofernes</rs> gefesselt, den Feind ihres Volkes verehren und
+      <lb facs="#facs_1_region_1684583462381_235_tl_5" n="N005"/>lieben muß, den sie doch tödtet. Und dennoch schließt <rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s
+      <lb facs="#facs_1_region_1684583462381_235_tl_6" n="N006"/><rs type="bibl" ref="#hsl_work_id_4366">Drama</rs> keineswegs mit dem Tode <rs type="person" ref="#hsl_person_id_6248">Judith</rs>’s. Ein Selbstmord,
+      <lb facs="#facs_1_region_1684583462381_235_tl_7" n="N007"/>sei es durch Eisen oder durch Gebet, liegt weder in der <rs type="bibl" ref="#hsl_work_id_820">bibli
+      <lb facs="#facs_1_line_1734175918678_987" n="N008" break="no"/>sch</rs>en <rs type="person" ref="#hsl_person_id_3769">Judith</rs> begründet, noch in der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_188">Mosenthal</rs></hi>’schen,
+      <lb facs="#facs_1_line_1734175939718_993" n="N009"/>welche (anders als bei <rs type="person" ref="#hsl_person_id_115">Hebbel</rs>) für <rs type="person" ref="#hsl_person_id_3612">Holofernes</rs> nur Haß und
+      <lb facs="#facs_1_region_1684583462381_235_tl_8" n="N010"/>Verachtung fühlt. Die Art ihres Todes bei <rs type="person" ref="#hsl_person_id_188">Mosenthal</rs> —
       <lb facs="#facs_1_region_1684583462381_235_tl_9" n="N011"/>Blitz bei Regenbogen-Beleuchtung, mit plötzlicher Aussicht auf
-      <lb facs="#facs_1_region_1684583462381_235_tl_10" n="N012"/><rs type="place">Jerusalem</rs> — möchten wir nicht einmal „opernhaft“ nennen,
+      <lb facs="#facs_1_region_1684583462381_235_tl_10" n="N012"/><rs type="place" ref="#hsl_place_id_63">Jerusalem</rs> — möchten wir nicht einmal „opernhaft“ nennen,
       <lb facs="#facs_1_line_1734175966394_1000" n="N013"/>songern krippenspielmäßig. Die Charakterzeichnung erscheint,
       <lb facs="#facs_1_region_1684583462381_235_tl_11" n="N014"/>wenigstens nach dem in Operndingen üblichen bescheidenen
-      <lb facs="#facs_1_line_1734175988749_1006" n="N015"/>Maß, gelungen in den Figuren des <rs type="person">Holofernes</rs> und der
-      <lb facs="#facs_1_region_1684583462381_235_tl_12" n="N016"/><rs type="person">Judith</rs>; Letztere besonders bietet geistvollen dramatischen Künst¬
-      <lb facs="#facs_1_region_1684583462381_235_tl_13" n="N017"/>lerinnen eine sehr dankbare Aufgabe.
-      <lb facs="#facs_1_region_1684583462381_235_tl_14" n="N018"/>Zwischen die beiden Hauptpersonen hat <rs type="person">Mosenthal</rs> als
-      <lb facs="#facs_1_region_1684583462381_235_tl_15" n="N019"/>dritte den <rs type="person">Ataniel</rs> eingefügt, den <rs type="person">Ephraim</rs><space unit="char" quantity="1"/><rs type="person">Hebbel</rs>'s. Diese
-      <lb facs="#facs_1_region_1684583462381_235_tl_16" n="N020"/>Figur ist nicht glücklich erfunden und wird fortwährend nutz¬
-      <lb facs="#facs_1_region_1684583462381_235_tl_17" n="N021"/>los hin- und hergeschoben; es wird niemals recht klar, ob
-      <lb facs="#facs_1_region_1684583462381_235_tl_18" n="N022"/><rs type="person">Ataniel</rs> Courage hat oder Furcht, und ob <rs type="person">Judith</rs> ihn liebt oder
+      <lb facs="#facs_1_line_1734175988749_1006" n="N015"/>Maß, gelungen in den Figuren des <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> und der
+      <lb facs="#facs_1_region_1684583462381_235_tl_12" n="N016"/><rs type="person" ref="#hsl_person_id_6244">Judith</rs>; Letztere besonders bietet geistvollen dramatischen Künst
+      <lb facs="#facs_1_region_1684583462381_235_tl_13" n="N017" break="no"/>lerinnen eine sehr dankbare Aufgabe.
+            </p><p>
+      <lb facs="#facs_1_region_1684583462381_235_tl_14" n="N018"/>Zwischen die beiden Hauptpersonen hat <rs type="person" ref="#hsl_person_id_188">Mosenthal</rs> als
+      <lb facs="#facs_1_region_1684583462381_235_tl_15" n="N019"/>dritte den <rs type="person" ref="#hsl_person_id_6245">Ataniel</rs> eingefügt, den <rs type="person" ref="#hsl_person_id_6250">Ephraim</rs><space unit="char" quantity="1"/><rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s. Diese
+      <lb facs="#facs_1_region_1684583462381_235_tl_16" n="N020"/>Figur ist nicht glücklich erfunden und wird fortwährend nutz
+      <lb facs="#facs_1_region_1684583462381_235_tl_17" n="N021" break="no"/>los hin- und hergeschoben; es wird niemals recht klar, ob
+      <lb facs="#facs_1_region_1684583462381_235_tl_18" n="N022"/><rs type="person" ref="#hsl_person_id_6245">Ataniel</rs> Courage hat oder Furcht, und ob <rs type="person" ref="#hsl_person_id_6244">Judith</rs> ihn liebt oder
       <lb facs="#facs_1_region_1684583462381_235_tl_19" n="N023"/>nicht. Um dieser Tenorpartie zu nützen, hat der Dichter
-      <lb facs="#facs_1_region_1684583462381_235_tl_20" n="N024"/>seinem Stück und der Hauptfigur <rs type="person">Judith</rs> empfindlich ge¬
-      <lb facs="#facs_1_region_1684583462381_235_tl_21" n="N025"/>schadet, nämlich durch das zweite Erscheinen <rs type="person">Ataniel</rs>'s im
-      <lb facs="#facs_1_region_1684583462381_235_tl_22" n="N026"/>Lager und die Scene seiner Tödtung durch <rs type="person">Holofernes</rs>. Un¬
-      <lb facs="#facs_1_region_1684583462381_235_tl_23" n="N027"/>mittelbar auf die Ereignisse des dritten Actes erscheint diese
+      <lb facs="#facs_1_region_1684583462381_235_tl_20" n="N024"/>seinem Stück und der Hauptfigur <rs type="person" ref="#hsl_person_id_6244">Judith</rs> empfindlich ge
+      <lb facs="#facs_1_region_1684583462381_235_tl_21" n="N025" break="no"/>schadet, nämlich durch das zweite Erscheinen <rs type="person" ref="#hsl_person_id_6245">Ataniel</rs>’s im
+      <lb facs="#facs_1_region_1684583462381_235_tl_22" n="N026"/>Lager und die Scene seiner Tödtung durch <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs>. Un
+      <lb facs="#facs_1_region_1684583462381_235_tl_23" n="N027" break="no"/>mittelbar auf die Ereignisse des dritten Actes erscheint diese
       <lb facs="#facs_1_region_1684583462381_235_tl_24" n="N028"/>Scene kaum begreiflich. Im Finale des zweiten Actes (wo
-      <lb facs="#facs_1_region_1684583462381_235_tl_25" n="N029"/><rs type="person">Ataniel</rs> gefangen vorgeführt wird) sieht <rs type="person">Holofernes</rs> ihn lange
-      <lb facs="#facs_1_region_1684583462381_235_tl_26" n="N030"/>und inständig mit <rs type="person">Judith</rs> sprechen, ihr die Hände drücken,
-      <lb facs="#facs_1_region_1684583462381_235_tl_27" n="N031"/>er wird von <rs type="person">Ataniel</rs> um den Tod gebeten, der besser sei, als
+      <lb facs="#facs_1_region_1684583462381_235_tl_25" n="N029"/><rs type="person" ref="#hsl_person_id_6245">Ataniel</rs> gefangen vorgeführt wird) sieht <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> ihn lange
+      <lb facs="#facs_1_region_1684583462381_235_tl_26" n="N030"/>und inständig mit <rs type="person" ref="#hsl_person_id_6244">Judith</rs> sprechen, ihr die Hände drücken,
+      <lb facs="#facs_1_region_1684583462381_235_tl_27" n="N031"/>er wird von <rs type="person" ref="#hsl_person_id_6245">Ataniel</rs> um den Tod gebeten, der besser sei, als
       <lb facs="#facs_1_region_1684583462381_235_tl_28" n="N032"/>„aus <hi rendition="#em">dieses</hi> Weibes Hand das Leben“! Und dennoch fragt
-      <lb facs="#facs_1_line_1734176070007_1036" n="N033"/><rs type="person">Holofernes</rs> wenige Stunden später die <rs type="person">Judith</rs>, zu deren Füßen
-      <lb facs="#facs_1_line_1734176075045_1042" n="N034"/>er <rs type="person">Ataniel</rs> findet: „Sprich, kennst du diesen hier?“ <rs type="person">Judith</rs>
-      <lb facs="#facs_1_region_1684583462381_235_tl_33" n="N035"/>antwortet kaltblütig mit „<hi rendition="#em">Nein</hi>“ und wirft sich dem <rs type="person">Holo¬</rs>
-      <lb facs="#facs_1_region_1684583462381_235_tl_34" n="N036"/><rs type="person">fernes</rs> an den Hals; sie gibt ihre ausdrückliche Zustimmung,
-      <lb facs="#facs_1_region_1684583462381_235_tl_35" n="N037"/>daß <rs type="person">Holofernes</rs> ihn niedersteche, und als dies geschehen, credenzt
+      <lb facs="#facs_1_line_1734176070007_1036" n="N033"/><rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> wenige Stunden später die <rs type="person" ref="#hsl_person_id_6244">Judith</rs>, zu deren Füßen
+      <lb facs="#facs_1_line_1734176075045_1042" n="N034"/>er <rs type="person" ref="#hsl_person_id_6245">Ataniel</rs> findet: „Sprich, kennst du diesen hier?“ <rs type="person" ref="#hsl_person_id_6244">Judith</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684583462381_235_tl_33" n="N035"/>antwortet kaltblütig mit „<hi rendition="#em">Nein</hi>“ und wirft sich dem <rs type="person" ref="#hsl_person_id_6246">Holo
+      <lb facs="#facs_1_region_1684583462381_235_tl_34" n="N036" break="no"/>fernes</rs> an den Hals; sie gibt ihre ausdrückliche Zustimmung,
+      <lb facs="#facs_1_region_1684583462381_235_tl_35" n="N037"/>daß <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> ihn niedersteche, und als dies geschehen, credenzt
       <lb facs="#facs_1_region_1684583462381_235_tl_36" n="N038"/>sie angesichts der Leiche ihres Bräutigams dem Mörder
-      <lb facs="#facs_1_line_1734176027374_1020" n="N039"/>unermüdlich den Becher und „der Liebe Flammenkuß“. Die</p>
+      <lb facs="#facs_1_line_1734176027374_1020" n="N039"/>unermüdlich den Becher und „der Liebe Flammenkuß“. Die<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_2_region_1684583471665_241_tl_1" n="N001"/>Scene ist ebenso unnöthig, als sie abscheulich und empörend ist.
       <lb facs="#facs_2_region_1684583471665_241_tl_2" n="N002"/>Wir begreifen nicht, wozu die Mörderin des Landesfeindes auch
       <lb facs="#facs_2_region_1684583471665_241_tl_3" n="N003"/>noch zur Mörderin ihres Verlobten gemacht und so zum Heroismus
-      <lb facs="#facs_2_region_1684583471665_241_tl_4" n="N004"/>die kalte Bestialität gefügt werden mußte. Bei <rs type="person">Hebbel</rs>, der
+      <lb facs="#facs_2_region_1684583471665_241_tl_4" n="N004"/>die kalte Bestialität gefügt werden mußte. Bei <rs type="person" ref="#hsl_person_id_115">Hebbel</rs>, der
       <lb facs="#facs_2_region_1684583471665_241_tl_5" n="N005"/>doch vor dem Gräßlichen nicht zurückzuschrecken pflegte, ist
-      <lb facs="#facs_2_region_1684583471665_241_tl_6" n="N006"/><rs type="person">Judith</rs> gänzlich unbetheiligt an dem traurigen Geschick
-      <lb facs="#facs_2_region_1684583471665_241_tl_7" n="N007"/><rs type="person">Ephraim</rs>'s, von <rs type="person">Holofernes</rs> in einen Käfig gesteckt zu werden.
+      <lb facs="#facs_2_region_1684583471665_241_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_6248">Judith</rs> gänzlich unbetheiligt an dem traurigen Geschick
+      <lb facs="#facs_2_region_1684583471665_241_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_6250">Ephraim</rs>’s, von <rs type="person" ref="#hsl_person_id_6249">Holofernes</rs> in einen Käfig gesteckt zu werden.
       <lb facs="#facs_2_region_1684583471665_241_tl_8" n="N008"/>Vom rein bühnentechnischen Standpunkte ist es ein Fehler in
-      <lb facs="#facs_2_region_1684583471665_241_tl_9" n="N009"/><rs type="person">Mosenthal</rs>'s Textbuch, daß <rs type="person">Holofernes</rs>, die zweitwichtigste
+      <lb facs="#facs_2_region_1684583471665_241_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_188">Mosenthal</rs>’s Textbuch, daß <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs>, die zweitwichtigste
       <lb facs="#facs_2_region_1684583471665_241_tl_10" n="N010"/>Person, erst im dritten Acte auftritt. Die vieractige Form
-      <lb facs="#facs_2_region_1684583471665_241_tl_11" n="N011"/>endlich, für's Schauspiel nicht räthlich, ist verwerflich für die
-      <lb facs="#facs_2_region_1684583471665_241_tl_12" n="N012"/>Oper, welche, wo sie einen nicht in zwei Acten zu bewälti¬
-      <lb facs="#facs_2_region_1684583471665_241_tl_13" n="N013"/>genden Stoff hat, nur zwischen drei und fünf Acten wählen sollte.
-      <lb facs="#facs_2_region_1684583471665_241_tl_14" n="N014"/><hi rendition="#em"><rs type="person">Doppler</rs>'s</hi> Partitur zur „<rs type="bibl">Judith</rs>“ ist kein eigentlich
+      <lb facs="#facs_2_region_1684583471665_241_tl_11" n="N011"/>endlich, für’s Schauspiel nicht räthlich, ist verwerflich für die
+      <lb facs="#facs_2_region_1684583471665_241_tl_12" n="N012"/>Oper, welche, wo sie einen nicht in zwei Acten zu bewälti
+      <lb facs="#facs_2_region_1684583471665_241_tl_13" n="N013" break="no"/>genden Stoff hat, nur zwischen drei und fünf Acten wählen sollte.
+            </p><p>
+      <lb facs="#facs_2_region_1684583471665_241_tl_14" n="N014"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_64">Doppler</rs>’s</hi> Partitur zur „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ ist kein eigentlich
       <lb facs="#facs_2_region_1684583471665_241_tl_15" n="N015"/>schöpferisches Werk, aber eine tüchtige wohlgerathene Arbeit,
       <lb facs="#facs_2_region_1684583471665_241_tl_16" n="N016"/>der sich manch gewichtiger Vorzug nachrühmen läßt. Vor
       <lb facs="#facs_2_region_1684583471665_241_tl_17" n="N017"/>Allem blickt der erfahrene, seiner Mittel völlig sichere und
-      <lb facs="#facs_2_region_1684583471665_241_tl_18" n="N018"/>effectkundige Praktiker überall durch. Die Natur der Sing¬
-      <lb facs="#facs_2_region_1684583471665_241_tl_19" n="N019"/>stimme kennt er genau, und die Orchester-Instrumente haben
+      <lb facs="#facs_2_region_1684583471665_241_tl_18" n="N018"/>effectkundige Praktiker überall durch. Die Natur der Sing
+      <lb facs="#facs_2_region_1684583471665_241_tl_19" n="N019" break="no"/>stimme kennt er genau, und die Orchester-Instrumente haben
       <lb facs="#facs_2_line_1734176112076_1054" n="N020"/>ihm ihre Geheimnisse enthüllt. Die ganze Oper ist mit Ernst
       <lb facs="#facs_2_region_1684583471665_241_tl_20" n="N021"/>und Gewissenhaftigkeit geschrieben, mit lobenswerthem und
-      <lb facs="#facs_2_region_1684583471665_241_tl_21" n="N022"/>manchmal auch entsprechend gelohntem Streben nach dramati¬
-      <lb facs="#facs_2_region_1684583471665_241_tl_22" n="N023"/>scher Charakteristik. Schon vor der Vorstellung hörte man
-      <lb facs="#facs_2_region_1684583471665_241_tl_23" n="N024"/>„<rs type="bibl">Judith</rs>“ als einen außerordentlichen Fortschritt des Compo¬
-      <lb facs="#facs_2_region_1684583471665_241_tl_24" n="N025"/>nisten rühmen, und die Kritik dürfte wol nahezu einhellig
+      <lb facs="#facs_2_region_1684583471665_241_tl_21" n="N022"/>manchmal auch entsprechend gelohntem Streben nach dramati
+      <lb facs="#facs_2_region_1684583471665_241_tl_22" n="N023" break="no"/>scher Charakteristik. Schon vor der Vorstellung hörte man
+      <lb facs="#facs_2_region_1684583471665_241_tl_23" n="N024"/>„<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ als einen außerordentlichen Fortschritt des Compo
+      <lb facs="#facs_2_region_1684583471665_241_tl_24" n="N025" break="no"/>nisten rühmen, und die Kritik dürfte wol nahezu einhellig
       <lb facs="#facs_2_region_1684583471665_241_tl_25" n="N026"/>dieses Lob bestätigen. In Bezug auf die Einheit des Styles
-      <lb facs="#facs_2_region_1684583471665_241_tl_26" n="N027"/>ist „<rs type="bibl">Judith</rs>“ ohne Zweifel ein solcher Fortschritt und <rs type="person" continued="true">Dopp¬</rs>
-      <lb facs="#facs_2_region_1684583471665_241_tl_27" n="N028"/><rs type="person" continued="true">ler</rs>'s vornehmstes Werk. Wir gestehen indessen, daß die Ein¬
-      <lb facs="#facs_2_region_1684583471665_241_tl_28" n="N029"/>heit des Styles und eine gewisse „noblere“ Ausdrucksweise
+      <lb facs="#facs_2_region_1684583471665_241_tl_26" n="N027"/>ist „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ ohne Zweifel ein solcher Fortschritt und <rs type="person" ref="#hsl_person_id_64">Dopp
+      <lb facs="#facs_2_region_1684583471665_241_tl_27" n="N028" break="no"/>ler</rs>’s vornehmstes Werk. Wir gestehen indessen, daß die Ein
+      <lb facs="#facs_2_region_1684583471665_241_tl_28" n="N029" break="no"/>heit des Styles und eine gewisse „noblere“ Ausdrucksweise
       <lb facs="#facs_2_region_1684583471665_241_tl_29" n="N030"/>uns nicht unbedingt den höchsten Werth einer Musik
       <lb facs="#facs_2_region_1684583471665_241_tl_30" n="N031"/>bezeichnen, ja daß dieselben durch Unterdrückung anderer
-      <lb facs="#facs_2_region_1684583471665_241_tl_31" n="N032"/>Vorzüge mitunter zu theuer erkauft werden können. <rs type="person">Doppler</rs>'s
-      <lb facs="#facs_2_region_1684583471665_241_tl_32" n="N033"/>frühere Opern „<rs type="bibl">Wanda</rs>“ und „<rs type="bibl">Ilka</rs>“ standen auf einer
+      <lb facs="#facs_2_region_1684583471665_241_tl_31" n="N032"/>Vorzüge mitunter zu theuer erkauft werden können. <rs type="person" ref="#hsl_person_id_64">Doppler</rs>’s
+      <lb facs="#facs_2_region_1684583471665_241_tl_32" n="N033"/>frühere Opern „<rs type="bibl" ref="#hsl_work_id_2525">Wanda</rs>“ und „<rs type="bibl" ref="#hsl_work_id_2523">Ilka</rs>“ standen auf einer
       <lb facs="#facs_2_region_1684583471665_241_tl_33" n="N034"/>niedrigeren Gattungsstufe, allein sie bewegten sich darauf
-      <lb facs="#facs_2_region_1684583471665_241_tl_34" n="N035"/>mit mehr Natürlichkeit, Frische und Naivetät. In der „<rs type="bibl">Judith</rs>“
+      <lb facs="#facs_2_region_1684583471665_241_tl_34" n="N035"/>mit mehr Natürlichkeit, Frische und Naivetät. In der „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“
       <lb facs="#facs_2_region_1684583471665_241_tl_35" n="N036"/>versucht der Componist allerdings einen höheren Flug, aber
-      <lb facs="#facs_2_region_1684583471665_241_tl_36" n="N037"/>die Flügel sind ihm nicht angewachsen. <rs type="person">Doppler</rs>'s Talent war
+      <lb facs="#facs_2_region_1684583471665_241_tl_36" n="N037"/>die Flügel sind ihm nicht angewachsen. <rs type="person" ref="#hsl_person_id_64">Doppler</rs>’s Talent war
       <lb facs="#facs_2_region_1684583471665_241_tl_37" n="N038"/>niemals von besonderer Kraft; seine größte Wirksamkeit lag,
-      <lb facs="#facs_2_line_1734176167339_1059" n="N039"/>was den Inhalt betrifft, im Anmuthigen, Heiteren, leicht</p>
+      <lb facs="#facs_2_line_1734176167339_1059" n="N039"/>was den Inhalt betrifft, im Anmuthigen, Heiteren, leicht<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_2_region_1684583475201_244_tl_1" n="N001"/>Empfindungsvollen; was die Form betrifft, im Liedmäßigen,
       <lb facs="#facs_2_region_1684583475201_244_tl_2" n="N002"/>in klarer, symmetrischer Gestaltung. Für den starken, ja harten
-      <lb facs="#facs_2_region_1684583475201_244_tl_3" n="N003"/>Stoff, der in der „<rs type="bibl">Judith</rs>“ vorliegt, reicht seine künstlerische
-      <lb facs="#facs_2_region_1684583475201_244_tl_4" n="N004"/>Eigenthümlichkeit nicht aus. Bisher schrieb <rs type="person">Doppler</rs> „Opern“
+      <lb facs="#facs_2_region_1684583475201_244_tl_3" n="N003"/>Stoff, der in der „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ vorliegt, reicht seine künstlerische
+      <lb facs="#facs_2_region_1684583475201_244_tl_4" n="N004"/>Eigenthümlichkeit nicht aus. Bisher schrieb <rs type="person" ref="#hsl_person_id_64">Doppler</rs> „Opern“
       <lb facs="#facs_2_region_1684583475201_244_tl_5" n="N005"/>von altem Schlag, Opern mit Strophenliedern, Arien,
       <lb facs="#facs_2_region_1684583475201_244_tl_6" n="N006"/>Duetten etc. — Formen, die man heutzutage überwunden
-      <lb facs="#facs_2_region_1684583475201_244_tl_7" n="N007"/>schelten mag, in welchen sich aber <rs type="person">Doppler</rs> wohl und heimisch
+      <lb facs="#facs_2_region_1684583475201_244_tl_7" n="N007"/>schelten mag, in welchen sich aber <rs type="person" ref="#hsl_person_id_64">Doppler</rs> wohl und heimisch
       <lb facs="#facs_2_region_1684583475201_244_tl_8" n="N008"/>fand und die seine leichte melodiöse Erfindung begünstigten.
-      <lb facs="#facs_2_region_1684583475201_244_tl_9" n="N009"/>Sie gestatteten obendrein starke Anklänge an <rs type="place">polnisch</rs>e und
-      <lb facs="#facs_2_region_1684583475201_244_tl_10" n="N010"/><rs type="place">ungarisch</rs>e Nationalweisen, welche, von <rs type="person">Doppler</rs> bekanntlich mit
-      <lb facs="#facs_2_region_1684583475201_244_tl_11" n="N011"/>viel Geschick und Vorliebe verwendet, geradezu seine Speciali¬
-      <lb facs="#facs_2_region_1684583475201_244_tl_12" n="N012"/>tät wurden. Die Frische und Anspruchslosigkeit der älteren
-      <lb facs="#facs_2_region_1684583475201_244_tl_13" n="N013"/><rs type="person">Doppler</rs>'schen Opern fehlt seiner „<rs type="bibl">Judith</rs>“, welche den Compo¬
-      <lb facs="#facs_2_region_1684583475201_244_tl_14" n="N014"/>nisten zwingt, sich größer zu strecken, als er gewachsen ist. Der
-      <lb facs="#facs_2_region_1684583475201_244_tl_15" n="N015"/>Einfluß Richard <rs type="person">Wagner</rs>'s wirkt hier entscheidend, und je
+      <lb facs="#facs_2_region_1684583475201_244_tl_9" n="N009"/>Sie gestatteten obendrein starke Anklänge an <rs type="place" ref="#hsl_place_id_231">polnisch</rs>e und
+      <lb facs="#facs_2_region_1684583475201_244_tl_10" n="N010"/><rs type="place" ref="#hsl_place_id_53">ungarisch</rs>e Nationalweisen, welche, von <rs type="person" ref="#hsl_person_id_64">Doppler</rs> bekanntlich mit
+      <lb facs="#facs_2_region_1684583475201_244_tl_11" n="N011"/>viel Geschick und Vorliebe verwendet, geradezu seine Speciali
+      <lb facs="#facs_2_region_1684583475201_244_tl_12" n="N012" break="no"/>tät wurden. Die Frische und Anspruchslosigkeit der älteren
+      <lb facs="#facs_2_region_1684583475201_244_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_64">Doppler</rs>’schen Opern fehlt seiner „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“, welche den Compo
+      <lb facs="#facs_2_region_1684583475201_244_tl_14" n="N014" break="no"/>nisten zwingt, sich größer zu strecken, als er gewachsen ist. Der
+      <lb facs="#facs_2_region_1684583475201_244_tl_15" n="N015"/>Einfluß Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s wirkt hier entscheidend, und je
       <lb facs="#facs_2_line_1734176209645_1065" n="N016"/>stärker diese Tendenz zum Styl des „Musikdramas“ in der
-      <lb facs="#facs_2_line_1734176228246_1071" n="N017"/>„<rs type="bibl">Judith</rs>“ auftritt, desto schwächer wird die musikalische Er¬
-      <lb facs="#facs_2_region_1684583475201_244_tl_16" n="N018"/>findung, desto ermüdender das gestaltlose Schwanken zwischen
-      <lb facs="#facs_2_region_1684583475201_244_tl_17" n="N019"/>Recitativ und Cantilene. Der größere Theil von <rs type="person">Judith</rs>'s
-      <lb facs="#facs_2_region_1684583475201_244_tl_18" n="N020"/>Rolle, fast die ganze des <rs type="person">Holofernes</rs>, bewegt sich in diesem
-      <lb facs="#facs_2_region_1684583475201_244_tl_19" n="N021"/>übertriebenen, melodiespinnenden und doch melodienarmen Sing¬
-      <lb facs="#facs_2_region_1684583475201_244_tl_20" n="N022"/>sang. Wie <rs type="person">Holofernes</rs> bei <rs type="person">Hebbel</rs> ange<rs type="person">hegel</rs>t ist, so ist er bei <rs type="person" continued="true">Dopp¬</rs>
-      <lb facs="#facs_2_region_1684583475201_244_tl_21" n="N023"/><rs type="person" continued="true">ler</rs> ange<rs type="person">wagner</rs>t. Trotz des Aufgebots aller erdenklichen Mittel
-      <lb facs="#facs_2_region_1684583475201_244_tl_22" n="N024"/>bleibt dieser <rs type="person">Holofernes</rs> doch musikalisch ohne alles Temperament.
+      <lb facs="#facs_2_line_1734176228246_1071" n="N017"/>„<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ auftritt, desto schwächer wird die musikalische Er
+      <lb facs="#facs_2_region_1684583475201_244_tl_16" n="N018" break="no"/>findung, desto ermüdender das gestaltlose Schwanken zwischen
+      <lb facs="#facs_2_region_1684583475201_244_tl_17" n="N019"/>Recitativ und Cantilene. Der größere Theil von <rs type="person" ref="#hsl_person_id_6244">Judith</rs>’s
+      <lb facs="#facs_2_region_1684583475201_244_tl_18" n="N020"/>Rolle, fast die ganze des <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs>, bewegt sich in diesem
+      <lb facs="#facs_2_region_1684583475201_244_tl_19" n="N021"/>übertriebenen, melodiespinnenden und doch melodienarmen Sing
+      <lb facs="#facs_2_region_1684583475201_244_tl_20" n="N022" break="no"/>sang. Wie <rs type="person" ref="#hsl_person_id_6249">Holofernes</rs> bei <rs type="person" ref="#hsl_person_id_115">Hebbel</rs> ange<rs type="person" ref="#hsl_person_id_378">hegel</rs>t ist, so ist er bei <rs type="person" ref="#hsl_person_id_64">Dopp
+      <lb facs="#facs_2_region_1684583475201_244_tl_21" n="N023" break="no"/>ler</rs> ange<rs type="person" ref="#hsl_person_id_319">wagner</rs>t. Trotz des Aufgebots aller erdenklichen Mittel
+      <lb facs="#facs_2_region_1684583475201_244_tl_22" n="N024"/>bleibt dieser <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> doch musikalisch ohne alles Temperament.
       <lb facs="#facs_2_region_1684583475201_244_tl_23" n="N025"/>Nicht einmal im Trinklied wagt er eine frische Melodie, einen
       <lb facs="#facs_2_region_1684583475201_244_tl_24" n="N026"/>kecken Rhythmus; die gebildete Tournüre der „unendlichen
-      <lb facs="#facs_2_region_1684583475201_244_tl_25" n="N027"/>Melodie“ lähmt ihm alle Glieder. Zumeist in den Einzel¬
-      <lb facs="#facs_2_region_1684583475201_244_tl_26" n="N028"/>gesängen und Duetten ist die Musik vor lauter Anstrengung,
+      <lb facs="#facs_2_region_1684583475201_244_tl_25" n="N027"/>Melodie“ lähmt ihm alle Glieder. Zumeist in den Einzel
+      <lb facs="#facs_2_region_1684583475201_244_tl_26" n="N028" break="no"/>gesängen und Duetten ist die Musik vor lauter Anstrengung,
       <lb facs="#facs_2_region_1684583475201_244_tl_27" n="N029"/>immer leidenschaftlich zu sein, wirkungslos, unwahr, nicht
-      <lb facs="#facs_2_region_1684583475201_244_tl_28" n="N030"/>überzeugend. Außer <rs type="person">Wagner</rs> begegnen wir in der „<rs type="bibl">Judith</rs>“
-      <lb facs="#facs_2_region_1684583475201_244_tl_29" n="N031"/>auch manchen anderen Componisten: <rs type="person">Meyerbeer</rs>, <rs type="person">Gounod</rs>, <rs type="person">Weber</rs>,
-      <lb facs="#facs_2_region_1684583475201_244_tl_30" n="N032"/><rs type="person">Marschner</rs>, <rs type="person">Verdi</rs>, seltener Franz <rs type="person">Doppler</rs>. Er entlehnt nicht,
-      <lb facs="#facs_2_region_1684583475201_244_tl_31" n="N033"/>aber er erinnert. Die Ausdrucksweisen, in welchen <rs type="person">Doppler</rs>'s
+      <lb facs="#facs_2_region_1684583475201_244_tl_28" n="N030"/>überzeugend. Außer <rs type="person" ref="#hsl_person_id_319">Wagner</rs> begegnen wir in der „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“
+      <lb facs="#facs_2_region_1684583475201_244_tl_29" n="N031"/>auch manchen anderen Componisten: <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>, <rs type="person" ref="#hsl_person_id_102">Gounod</rs>, <rs type="person" ref="#hsl_person_id_321">Weber</rs>,
+      <lb facs="#facs_2_region_1684583475201_244_tl_30" n="N032"/><rs type="person" ref="#hsl_person_id_174">Marschner</rs>, <rs type="person" ref="#hsl_person_id_312">Verdi</rs>, seltener Franz <rs type="person" ref="#hsl_person_id_64">Doppler</rs>. Er entlehnt nicht,
+      <lb facs="#facs_2_region_1684583475201_244_tl_31" n="N033"/>aber er erinnert. Die Ausdrucksweisen, in welchen <rs type="person" ref="#hsl_person_id_64">Doppler</rs>’s
       <lb facs="#facs_2_region_1684583475201_244_tl_32" n="N034"/>Talent am eigenthümlichsten und liebenswürdigsten erscheint,
-      <lb facs="#facs_2_line_1734176252861_1079" n="N035"/>sie sind in Opern vom Style der „<rs type="bibl">Judith</rs>“ ausgeschlossen.
-      <lb facs="#facs_2_region_1684583475201_244_tl_33" n="N036"/>In diesem Sinne bezeichnet also die <rs type="bibl">Judith</rs> zwar einen
-      <lb facs="#facs_2_region_1684583475201_244_tl_34" n="N037"/>Fortschritt auf einer, aber zugleich eine Einbuße auf der an¬
-      <lb facs="#facs_2_region_1684583475201_244_tl_35" n="N038"/>deren Seite. In der „<rs type="bibl">Judith</rs>“ ist Alles sehr geschickt ge¬
-      <lb facs="#facs_2_region_1684583475201_244_tl_36" n="N039"/>macht, allein wir sehen fast nichts von selbst wachsen. Das</p>
+      <lb facs="#facs_2_line_1734176252861_1079" n="N035"/>sie sind in Opern vom Style der „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ ausgeschlossen.
+      <lb facs="#facs_2_region_1684583475201_244_tl_33" n="N036"/>In diesem Sinne bezeichnet also die <rs type="bibl" ref="#hsl_work_id_3973">Judith</rs> zwar einen
+      <lb facs="#facs_2_region_1684583475201_244_tl_34" n="N037"/>Fortschritt auf einer, aber zugleich eine Einbuße auf der an
+      <lb facs="#facs_2_region_1684583475201_244_tl_35" n="N038" break="no"/>deren Seite. In der „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ ist Alles sehr geschickt ge
+      <lb facs="#facs_2_region_1684583475201_244_tl_36" n="N039" break="no"/>macht, allein wir sehen fast nichts von selbst wachsen. Das<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-      <lb facs="#facs_2_region_1684583478720_247_tl_1" n="N001"/>Beste sind jedenfalls die größeren Chor- und Ensemble-Num¬
-      <lb facs="#facs_2_region_1684583478720_247_tl_2" n="N002"/>mern. So verdient die ganze Einleitung, noch mehr das
-      <lb facs="#facs_2_region_1684583478720_247_tl_3" n="N003"/>Gebet des <rs type="person">Hohenpriester</rs>s mit den Leviten in A-moll, das
-      <lb facs="#facs_2_region_1684583478720_247_tl_4" n="N004"/>aufrichtigste Lob; die Stimmung ist gut getroffen, die Sing¬
-      <lb facs="#facs_2_region_1684583478720_247_tl_5" n="N005"/>stimmen vereinigen und lösen sich ungezwungen, wohllautend,
-      <lb facs="#facs_2_region_1684583478720_247_tl_6" n="N006"/>gegen das Ende erheben sie sich zu breiter, effectvoller Stei¬
-      <lb facs="#facs_2_region_1684583478720_247_tl_7" n="N007"/>gerung. Von gleichem Effecte, freilich auch von fast gleichem
+            <p prev="true">
+      <lb facs="#facs_2_region_1684583478720_247_tl_1" n="N001"/>Beste sind jedenfalls die größeren Chor- und Ensemble-Num
+      <lb facs="#facs_2_region_1684583478720_247_tl_2" n="N002" break="no"/>mern. So verdient die ganze Einleitung, noch mehr das
+      <lb facs="#facs_2_region_1684583478720_247_tl_3" n="N003"/>Gebet des <rs type="person" ref="#hsl_person_id_6243">Hohenpriester</rs>s mit den Leviten in A-moll, das
+      <lb facs="#facs_2_region_1684583478720_247_tl_4" n="N004"/>aufrichtigste Lob; die Stimmung ist gut getroffen, die Sing
+      <lb facs="#facs_2_region_1684583478720_247_tl_5" n="N005" break="no"/>stimmen vereinigen und lösen sich ungezwungen, wohllautend,
+      <lb facs="#facs_2_region_1684583478720_247_tl_6" n="N006"/>gegen das Ende erheben sie sich zu breiter, effectvoller Stei
+      <lb facs="#facs_2_region_1684583478720_247_tl_7" n="N007" break="no"/>gerung. Von gleichem Effecte, freilich auch von fast gleichem
       <lb facs="#facs_2_region_1684583478720_247_tl_8" n="N008"/>Baue sind die übrigen langsamen Ensemblesätze in der Oper,
-      <lb facs="#facs_2_region_1684583478720_247_tl_9" n="N009"/>z.B. das breite Andante im zweiten Finale: „Sie ist's“;
-      <lb facs="#facs_2_region_1684583478720_247_tl_10" n="N010"/>hingegen bleiben die Allegrosätze nicht immer frei von lärmen¬
-      <lb facs="#facs_2_region_1684583478720_247_tl_11" n="N011"/>der Trivialität. Sehr geschickt und charakteristisch verwendet
-      <lb facs="#facs_2_region_1684583478720_247_tl_12" n="N012"/>der Componist Anklänge an <rs type="place">orient</rs>alische Musik in man¬
-      <lb facs="#facs_2_region_1684583478720_247_tl_13" n="N013"/>chen Scenen, z. B. in der Vorlesung der heiligen
-      <lb facs="#facs_2_region_1684583478720_247_tl_14" n="N014"/>Rollen durch <rs type="person">Abra</rs>, in den Judenchören und Anderem.
-      <lb facs="#facs_2_region_1684583478720_247_tl_15" n="N015"/>So enthält <rs type="person">Doppler</rs>'s „<rs type="bibl">Judith</rs>“ genug des Wirksamen
-      <lb facs="#facs_2_region_1684583478720_247_tl_16" n="N016"/>und Gelungenen, um auch auf anderen Bühnen einer freund¬
-      <lb facs="#facs_2_region_1684583478720_247_tl_17" n="N017"/>lichen Aufnahme entgegenzusehen. In <rs type="place">Wien</rs>, wo zu dem
+      <lb facs="#facs_2_region_1684583478720_247_tl_9" n="N009"/>z.B. das breite Andante im zweiten Finale: „Sie ist’s“;
+      <lb facs="#facs_2_region_1684583478720_247_tl_10" n="N010"/>hingegen bleiben die Allegrosätze nicht immer frei von lärmen
+      <lb facs="#facs_2_region_1684583478720_247_tl_11" n="N011" break="no"/>der Trivialität. Sehr geschickt und charakteristisch verwendet
+      <lb facs="#facs_2_region_1684583478720_247_tl_12" n="N012"/>der Componist Anklänge an <rs type="place" ref="#hsl_place_id_526">orient</rs>alische Musik in man
+      <lb facs="#facs_2_region_1684583478720_247_tl_13" n="N013" break="no"/>chen Scenen, z. B. in der Vorlesung der heiligen
+      <lb facs="#facs_2_region_1684583478720_247_tl_14" n="N014"/>Rollen durch <rs type="person" ref="#hsl_person_id_6243">Abra</rs>, in den Judenchören und Anderem.
+      <lb facs="#facs_2_region_1684583478720_247_tl_15" n="N015"/>So enthält <rs type="person" ref="#hsl_person_id_64">Doppler</rs>’s „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ genug des Wirksamen
+      <lb facs="#facs_2_region_1684583478720_247_tl_16" n="N016"/>und Gelungenen, um auch auf anderen Bühnen einer freund
+      <lb facs="#facs_2_region_1684583478720_247_tl_17" n="N017" break="no"/>lichen Aufnahme entgegenzusehen. In <rs type="place" ref="#hsl_place_id_55">Wien</rs>, wo zu dem
       <lb facs="#facs_2_region_1684583478720_247_tl_18" n="N018"/>Interesse an der Musik die lebhafte Theilnahme für den
-      <lb facs="#facs_2_region_1684583478720_247_tl_19" n="N019"/>allgemein geschätzten, ebenso tüchtigen wie bescheidenen Compo¬
-      <lb facs="#facs_2_region_1684583478720_247_tl_20" n="N020"/>nisten hinzutrat, nahm der Beifall eine fast enthusiastische
-      <lb facs="#facs_2_region_1684583478720_247_tl_21" n="N021"/>Färbung an. Herr <rs type="person">Doppler</rs> wurde wiederholt mit den Dar¬
-      <lb facs="#facs_2_region_1684583478720_247_tl_22" n="N022"/>stellern der Hauptrollen gerufen. Unter diesen verdient das
-      <lb facs="#facs_2_region_1684583478720_247_tl_23" n="N023"/>erste Lob Herr <hi rendition="#em"><rs type="person">Beck</rs></hi>, welcher den <rs type="person">Holofernes</rs> vortrefflich sang
+      <lb facs="#facs_2_region_1684583478720_247_tl_19" n="N019"/>allgemein geschätzten, ebenso tüchtigen wie bescheidenen Compo
+      <lb facs="#facs_2_region_1684583478720_247_tl_20" n="N020" break="no"/>nisten hinzutrat, nahm der Beifall eine fast enthusiastische
+      <lb facs="#facs_2_region_1684583478720_247_tl_21" n="N021"/>Färbung an. Herr <rs type="person" ref="#hsl_person_id_64">Doppler</rs> wurde wiederholt mit den Dar
+      <lb facs="#facs_2_region_1684583478720_247_tl_22" n="N022" break="no"/>stellern der Hauptrollen gerufen. Unter diesen verdient das
+      <lb facs="#facs_2_region_1684583478720_247_tl_23" n="N023"/>erste Lob Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi>, welcher den <rs type="person" ref="#hsl_person_id_6246">Holofernes</rs> vortrefflich sang
       <lb facs="#facs_2_region_1684583478720_247_tl_24" n="N024"/>und spielte, in einigen Stellen allerdings so feurig, daß er
       <lb facs="#facs_2_region_1684583478720_247_tl_25" n="N025"/>seine Stimmkraft über das schöne Maß hinaus entfesselte.
-      <lb facs="#facs_2_region_1684583478720_247_tl_26" n="N026"/>Die überaus schwierige und anstrengende Rolle der <rs type="person">Judith</rs>
-      <lb facs="#facs_2_region_1684583478720_247_tl_27" n="N027"/>sang Frau <hi rendition="#em"><rs type="person">Materna</rs></hi> mit großem Erfolge. Wenige Bühnen
+      <lb facs="#facs_2_region_1684583478720_247_tl_26" n="N026"/>Die überaus schwierige und anstrengende Rolle der <rs type="person" ref="#hsl_person_id_6244">Judith</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684583478720_247_tl_27" n="N027"/>sang Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1031">Materna</rs></hi> mit großem Erfolge. Wenige Bühnen
       <lb facs="#facs_2_region_1684583478720_247_tl_28" n="N028"/>dürften eine Sängerin besitzen, deren ganze Persönlichkeit sich
-      <lb facs="#facs_2_region_1684583478720_247_tl_29" n="N029"/>so trefflich für eine „<rs type="bibl">Judith</rs>“ eignet und deren Stimme die
+      <lb facs="#facs_2_region_1684583478720_247_tl_29" n="N029"/>so trefflich für eine „<rs type="bibl" ref="#hsl_work_id_3973">Judith</rs>“ eignet und deren Stimme die
       <lb facs="#facs_2_region_1684583478720_247_tl_30" n="N030"/>Rolle mit solcher Kraft und Ausdauer bewältigt. Dem Spiele
-      <lb facs="#facs_2_region_1684583478720_247_tl_31" n="N031"/>der Frau <hi rendition="#em"><rs type="person">Materna</rs></hi> hätten wir etwas mehr Ruhe gewünscht.
-      <lb facs="#facs_2_region_1684583478720_247_tl_32" n="N032"/>Die wenig dankbaren Rollen der <rs type="person">Abra</rs>, des <rs type="person">Ataniel</rs>, <rs type="person">Joakim</rs>
-      <lb facs="#facs_2_region_1684583478720_247_tl_33" n="N033"/>und <rs type="person">Ossias</rs> wurden von Fräulein <hi rendition="#em"><rs type="person">Gindele</rs></hi>, den Herren
-      <lb facs="#facs_2_region_1684583478720_247_tl_34" n="N034"/><hi rendition="#em"><rs type="person">Labatt</rs></hi>, <hi rendition="#em"><rs type="person">Schmid</rs></hi> und <hi rendition="#em"><rs type="person">Krauß</rs></hi> mit lobenswerthem Eifer
+      <lb facs="#facs_2_region_1684583478720_247_tl_31" n="N031"/>der Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1031">Materna</rs></hi> hätten wir etwas mehr Ruhe gewünscht.
+      <lb facs="#facs_2_region_1684583478720_247_tl_32" n="N032"/>Die wenig dankbaren Rollen der <rs type="person" ref="#hsl_person_id_6247">Abra</rs>, des <rs type="person" ref="#hsl_person_id_6245">Ataniel</rs>, <rs type="person" ref="#hsl_person_id_6243">Joakim</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684583478720_247_tl_33" n="N033"/>und <rs type="person" ref="#hsl_person_id_6251">Ossias</rs> wurden von Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4049">Gindele</rs></hi>, den Herren
+      <lb facs="#facs_2_region_1684583478720_247_tl_34" n="N034"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4981">Labatt</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_271">Schmid</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5804">Krauß</rs></hi> mit lobenswerthem Eifer
       <lb facs="#facs_2_region_1684583478720_247_tl_35" n="N035"/>gesungen. Ein nicht geringes Verdienst um das glückliche
-      <lb facs="#facs_2_region_1684583478720_247_tl_36" n="N036"/>Gelingen der Vorstellung hat endlich Herr <hi rendition="#em"><rs type="person">Dessoff</rs></hi>, welcher
+      <lb facs="#facs_2_region_1684583478720_247_tl_36" n="N036"/>Gelingen der Vorstellung hat endlich Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_56">Dessoff</rs></hi>, welcher
       <lb facs="#facs_2_region_1684583478720_247_tl_37" n="N037"/>die Oper dirigirte.</p>
          </div>
       </body>
