@@ -106,7 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2025-01-06">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2025-01-15">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2025-01-22">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
@@ -907,8 +907,8 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
             <head type="h1"><lb facs="#facs_1_region_1684660486905_3207_tl_1" n="N001"/><hi rendition="#em">Hofoperntheater</hi>.</head>
-            <head type="h2"><lb facs="#facs_1_region_1684660486905_3207_tl_2" n="N002"/>(Die Gäste: Herr <hi rendition="#em"><rs type="person">Hill</rs></hi>, Herr <hi rendition="#em"><rs type="person">Adams</rs></hi>, Fräulein <hi rendition="#em"><rs type="person">Zimmermann</rs></hi>, Fräulein
-                            <lb facs="#facs_1_line_1734678052027_630" n="N003"/><hi rendition="#em"><rs type="person">Trousil</rs></hi>.)</head>
+            <head type="h2"><lb facs="#facs_1_region_1684660486905_3207_tl_2" n="N002"/>(Die Gäste: Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6296">Hill</rs></hi>, Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4109">Adams</rs></hi>, Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs></hi>, Fräulein
+                            <lb facs="#facs_1_line_1734678052027_630" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3362">Trousil</rs></hi>.)</head>
             <p>
       <lb facs="#facs_1_region_1684660486905_3207_tl_3" n="N004"/>Ed. H. Wenn man den erschreckend großen und raschen
       <lb facs="#facs_1_region_1684660486905_3207_tl_4" n="N005"/>Verbrauch an Gesangskräften beobachtet, der sich in unserem
@@ -916,254 +916,259 @@
       <lb facs="#facs_1_region_1684660486905_3207_tl_6" n="N007"/>werden für die allernächste Zukunft. Wir sehen nach einander
       <lb facs="#facs_1_region_1684660486905_3207_tl_7" n="N008"/>unsere besten Künstler abdanken oder altern und können doch
       <lb facs="#facs_1_region_1684660486905_3207_tl_8" n="N009"/>trotz der Genügsamkeit, mit welcher wir unsere Ansprüche
-      <lb facs="#facs_1_region_1684660486905_3207_tl_9" n="N010"/>von Jahr zu Jahr herabstimmen, nirgends einen ausreichen¬
-      <lb facs="#facs_1_region_1684660486905_3207_tl_10" n="N011"/>den Nachwuchs erblicken. Sänger, die eben nur von anständi¬
-      <lb facs="#facs_1_region_1684660486905_3207_tl_11" n="N012"/>ger Tüchtigkeit sind, allenfalls glänzend in Einem Punkte,
+      <lb facs="#facs_1_region_1684660486905_3207_tl_9" n="N010"/>von Jahr zu Jahr herabstimmen, nirgends einen ausreichen
+      <lb facs="#facs_1_region_1684660486905_3207_tl_10" n="N011" break="no"/>den Nachwuchs erblicken. Sänger, die eben nur von anständi
+      <lb facs="#facs_1_region_1684660486905_3207_tl_11" n="N012" break="no"/>ger Tüchtigkeit sind, allenfalls glänzend in Einem Punkte,
       <lb facs="#facs_1_region_1684660486905_3207_tl_12" n="N013"/>sei es die Stimme oder die Virtuosität oder die dramatische
       <lb facs="#facs_1_region_1684660486905_3207_tl_13" n="N014"/>Begabung, bei gleichzeitiger Dürftigkeit in allen übrigen, sie
       <lb facs="#facs_1_region_1684660486905_3207_tl_14" n="N015"/>werden jetzt — halbfertig — mit Summen engagirt, für
       <lb facs="#facs_1_region_1684660486905_3207_tl_15" n="N016"/>welche man vor zwanzig Jahren Künstler allerersten Ranges
       <lb facs="#facs_1_region_1684660486905_3207_tl_16" n="N017"/>gewann. Wie soll das weitergehen? In so skeptisch und
       <lb facs="#facs_1_region_1684660486905_3207_tl_17" n="N018"/>hypochondrisch stimmenden Verhältnissen thut es doppelt wohl,
-      <lb facs="#facs_1_region_1684660486905_3207_tl_18" n="N019"/>wenn plötzlich, fast aus dem Dunkel, einige neue Talente her¬
-      <lb facs="#facs_1_region_1684660486905_3207_tl_19" n="N020"/>vortreten, die wieder tröstliche Zuversicht verbreiten. So sind
-      <lb facs="#facs_1_region_1684660486905_3207_tl_20" n="N021"/>in <rs type="place">Wien</rs> gleichzeitig die Sänger <hi rendition="#em"><rs type="person">Vogl</rs></hi> und <hi rendition="#em"><rs type="person">Hill</rs></hi> als unbe¬
-      <lb facs="#facs_1_region_1684660486905_3207_tl_21" n="N022"/>rühmte, wenngleich nicht ganz unbekannte Namen erschienen,
+      <lb facs="#facs_1_region_1684660486905_3207_tl_18" n="N019"/>wenn plötzlich, fast aus dem Dunkel, einige neue Talente her
+      <lb facs="#facs_1_region_1684660486905_3207_tl_19" n="N020" break="no"/>vortreten, die wieder tröstliche Zuversicht verbreiten. So sind
+      <lb facs="#facs_1_region_1684660486905_3207_tl_20" n="N021"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> gleichzeitig die Sänger <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1030">Vogl</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6296">Hill</rs></hi> als unbe
+      <lb facs="#facs_1_region_1684660486905_3207_tl_21" n="N022" break="no"/>rühmte, wenngleich nicht ganz unbekannte Namen erschienen,
       <lb facs="#facs_1_region_1684660486905_3207_tl_22" n="N023"/>um, mit dem Purpur eines glänzenden Erfolges bekleidet,
-      <lb facs="#facs_1_region_1684660486905_3207_tl_23" n="N024"/>wieder nach <rs type="place">Deutschland</rs> zurückzukehren. An sie schloß sich die
-      <lb facs="#facs_1_region_1684660486905_3207_tl_24" n="N025"/>jugendliche Sängerin <hi rendition="#em">Emmy <rs type="person">Zimmermann</rs></hi>, deren Name
+      <lb facs="#facs_1_region_1684660486905_3207_tl_23" n="N024"/>wieder nach <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> zurückzukehren. An sie schloß sich die
+      <lb facs="#facs_1_region_1684660486905_3207_tl_24" n="N025"/>jugendliche Sängerin <hi rendition="#em">Emmy <rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs></hi>, deren Name
       <lb facs="#facs_1_region_1684660486905_3207_tl_25" n="N026"/>ebenfalls einen ungleich stärkeren Klang von hier fortnimmt,
-      <lb facs="#facs_1_region_1684660486905_3207_tl_26" n="N027"/>als er mitgebracht. <rs type="place">Wien</rs> hat dabei nur die Freude, daß es
-      <lb facs="#facs_1_line_1734678105710_645" n="N028"/>in Einem Abende den Ruhm eines fremden Talentes mächti¬
-      <lb facs="#facs_1_region_1684660486905_3207_tl_27" n="N029"/>ger fördert, als ein jahrelanges pflichttreues Wirken an
-      <lb facs="#facs_1_region_1684660486905_3207_tl_28" n="N030"/><rs type="place">deutsch</rs>en Stadt- und Hoftheatern es vermocht. Man kann
-      <lb facs="#facs_1_region_1684660486905_3207_tl_29" n="N031"/>allerorten in <rs type="place">Deutschland</rs> ein tüchtiger Künstler sein, ein be¬
-      <lb facs="#facs_1_region_1684660486905_3207_tl_30" n="N032"/>rühmter wird man nicht ohne <rs type="place">Wien</rs> und <rs type="place">Berlin</rs>.
+      <lb facs="#facs_1_region_1684660486905_3207_tl_26" n="N027"/>als er mitgebracht. <rs type="place" ref="#hsl_place_id_55">Wien</rs> hat dabei nur die Freude, daß es
+      <lb facs="#facs_1_line_1734678105710_645" n="N028"/>in Einem Abende den Ruhm eines fremden Talentes mächti
+      <lb facs="#facs_1_region_1684660486905_3207_tl_27" n="N029" break="no"/>ger fördert, als ein jahrelanges pflichttreues Wirken an
+      <lb facs="#facs_1_region_1684660486905_3207_tl_28" n="N030"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Stadt- und Hoftheatern es vermocht. Man kann
+      <lb facs="#facs_1_region_1684660486905_3207_tl_29" n="N031"/>allerorten in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> ein tüchtiger Künstler sein, ein be
+      <lb facs="#facs_1_region_1684660486905_3207_tl_30" n="N032" break="no"/>rühmter wird man nicht ohne <rs type="place" ref="#hsl_place_id_55">Wien</rs> und <rs type="place" ref="#hsl_place_id_9">Berlin</rs>.
+            </p><p>
       <lb facs="#facs_1_region_1684660486905_3207_tl_31" n="N033"/>Die Opernlaufbahn der genannten Sänger datirt aus
-      <lb facs="#facs_1_region_1684660486905_3207_tl_32" n="N034"/>neuester Zeit. <hi rendition="#em"><rs type="person">Vogl</rs></hi> war vor sieben oder acht Jahren ehr¬
-      <lb facs="#facs_1_region_1684660486905_3207_tl_33" n="N035"/>samer Schullehrer in einem <rs type="place">baierisch</rs>en Städtchen. <hi rendition="#em"><rs type="person">Hill</rs></hi>
-      <lb facs="#facs_1_region_1684660486905_3207_tl_34" n="N036"/>lernte ich noch im Jahre <date month="0" day="0" year="0">1866</date> als Postbeamten der freien
-      <lb facs="#facs_1_line_1734678126752_651" n="N037"/>Stadt <rs type="place">Frankfurt</rs> kennen; damals schon als Lieder- und Ora¬
-      <lb facs="#facs_1_region_1684660486905_3207_tl_35" n="N038"/>toriensänger geschätzt, vertauschte er doch erst später die
-      <lb facs="#facs_1_line_1734678151368_657" n="N039"/>Briefpost mit der Opernbühne — ein trefflicher Entschluß,</p>
+      <lb facs="#facs_1_region_1684660486905_3207_tl_32" n="N034"/>neuester Zeit. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1030">Vogl</rs></hi> war vor sieben oder acht Jahren ehr
+      <lb facs="#facs_1_region_1684660486905_3207_tl_33" n="N035" break="no"/>samer Schullehrer in einem <rs type="place" ref="#hsl_place_id_7">baierisch</rs>en Städtchen. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6296">Hill</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684660486905_3207_tl_34" n="N036"/>lernte ich noch im Jahre <date>1866</date> als Postbeamten der freien
+      <lb facs="#facs_1_line_1734678126752_651" n="N037"/>Stadt <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs> kennen; damals schon als Lieder- und Ora
+      <lb facs="#facs_1_region_1684660486905_3207_tl_35" n="N038" break="no"/>toriensänger geschätzt, vertauschte er doch erst später die
+      <lb facs="#facs_1_line_1734678151368_657" n="N039"/>Briefpost mit der Opernbühne — ein trefflicher Entschluß,<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_1_line_1734678191647_671" n="N001"/>durch den er sich im schönsten Sinne frei und recommandirt
-      <lb facs="#facs_1_line_1734678231096_677" n="N002"/>gemacht hat. Emmy <hi rendition="#em"><rs type="person">Zimmermann</rs></hi> endlich ward als An¬
-      <lb facs="#facs_1_region_1684660490502_3210_tl_1" n="N003"/>fängerin aus kleinstädtischen Verhältnissen durch <hi rendition="#em"><rs type="person">Laube</rs></hi>
-      <lb facs="#facs_1_region_1684660490502_3210_tl_2" n="N004"/>emporgehoben und am <rs type="place">Leipzig</rs>er Theater engagirt. <rs type="person">Laube</rs>'s
+      <lb facs="#facs_1_line_1734678231096_677" n="N002"/>gemacht hat. Emmy <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs></hi> endlich ward als An
+      <lb facs="#facs_1_region_1684660490502_3210_tl_1" n="N003" break="no"/>fängerin aus kleinstädtischen Verhältnissen durch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_153">Laube</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684660490502_3210_tl_2" n="N004"/>emporgehoben und am <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>er Theater engagirt. <rs type="person" ref="#hsl_person_id_153">Laube</rs>’s
       <lb facs="#facs_1_region_1684660490502_3210_tl_3" n="N005"/>scharfer Blick hatte den Werth dieses schönen, bildungsfähigen
       <lb facs="#facs_1_region_1684660490502_3210_tl_4" n="N006"/>Talentes erkannt, unbeirrt von mißtrauischen Bedenken seiner
       <lb facs="#facs_1_region_1684660490502_3210_tl_5" n="N007"/>Capellmeister; der Erfolg gab ihm Recht, denn nach wenigen
-      <lb facs="#facs_1_region_1684660490502_3210_tl_6" n="N008"/>Monaten fleißigen Studiums war Fräulein <rs type="person">Zimmermann</rs> die
+      <lb facs="#facs_1_region_1684660490502_3210_tl_6" n="N008"/>Monaten fleißigen Studiums war Fräulein <rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs> die
       <lb facs="#facs_1_line_1734678080687_637" n="N009"/>größte Anziehungskraft seines Theaters.
-      <lb facs="#facs_1_region_1684660490502_3210_tl_7" n="N010"/>Herrn <hi rendition="#em"><rs type="person">Vogl</rs>'s</hi> leicht ansprechenden, wohlgeschulten,
-      <lb facs="#facs_1_region_1684660490502_3210_tl_8" n="N011"/>jugendlich kräftigen Tenor lernten wir leider nur im Ora¬
-      <lb facs="#facs_1_region_1684660490502_3210_tl_9" n="N012"/>torium kennen. An drei aufeinanderfolgenden Abenden (in der
-      <lb facs="#facs_1_region_1684660490502_3210_tl_10" n="N013"/>„<rs type="bibl">Schöpfung</rs>“, den „<rs type="bibl">Jahreszeiten</rs>“ und der „<rs type="bibl">Matthäus-Passion</rs>“)
+            </p><p>
+      <lb facs="#facs_1_region_1684660490502_3210_tl_7" n="N010"/>Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1030">Vogl</rs>’s</hi> leicht ansprechenden, wohlgeschulten,
+      <lb facs="#facs_1_region_1684660490502_3210_tl_8" n="N011"/>jugendlich kräftigen Tenor lernten wir leider nur im Ora
+      <lb facs="#facs_1_region_1684660490502_3210_tl_9" n="N012" break="no"/>torium kennen. An drei aufeinanderfolgenden Abenden (in der
+      <lb facs="#facs_1_region_1684660490502_3210_tl_10" n="N013"/>„<rs type="bibl" ref="#hsl_work_id_243">Schöpfung</rs>“, den „<rs type="bibl" ref="#hsl_work_id_244">Jahreszeiten</rs>“ und der „<rs type="bibl" ref="#hsl_work_id_294">Matthäus-Passion</rs>“)
       <lb facs="#facs_1_line_1734678250660_683" n="N014"/>machte dieser unermüdliche Sänger Furore, und so wird es
       <lb facs="#facs_1_region_1684660490502_3210_tl_11" n="N015"/>hoffentlich sein eigener Wunsch sein und nicht blos der unserige,
       <lb facs="#facs_1_region_1684660490502_3210_tl_12" n="N016"/>sich den Wienern recht bald auch als Opernsänger zu zeigen.
-      <lb facs="#facs_1_region_1684660490502_3210_tl_13" n="N017"/>Der <rs type="place">mecklenburg</rs>'sche Kammersänger Herr <hi rendition="#em"><rs type="person">Hill</rs></hi>, welcher be¬
-      <lb facs="#facs_1_region_1684660490502_3210_tl_14" n="N018"/>reits in vier Rollen hier aufgetreten ist, theilt mit <rs type="person">Vogl</rs> den
-      <lb facs="#facs_1_region_1684660490502_3210_tl_15" n="N019"/>unschätzbaren Vorzug musikalischer Durchbildung und Sicher¬
-      <lb facs="#facs_1_region_1684660490502_3210_tl_16" n="N020"/>heit, die Natur hat ihn allerdings minder freigebig bedacht.
+      <lb facs="#facs_1_region_1684660490502_3210_tl_13" n="N017"/>Der <rs type="place" ref="#hsl_place_id_506">mecklenburg</rs>’sche Kammersänger Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6296">Hill</rs></hi>, welcher be
+      <lb facs="#facs_1_region_1684660490502_3210_tl_14" n="N018" break="no"/>reits in vier Rollen hier aufgetreten ist, theilt mit <rs type="person" ref="#hsl_person_id_1030">Vogl</rs> den
+      <lb facs="#facs_1_region_1684660490502_3210_tl_15" n="N019"/>unschätzbaren Vorzug musikalischer Durchbildung und Sicher
+      <lb facs="#facs_1_region_1684660490502_3210_tl_16" n="N020" break="no"/>heit, die Natur hat ihn allerdings minder freigebig bedacht.
       <lb facs="#facs_1_region_1684660490502_3210_tl_17" n="N021"/>Seine Stimme, ein Bariton von immerhin ausreichender
       <lb facs="#facs_1_region_1684660490502_3210_tl_18" n="N022"/>Kraft, entbehrt des Metalls, klingt gedeckt, in der Tiefe hohl
       <lb facs="#facs_1_region_1684660490502_3210_tl_19" n="N023"/>und wird bei starkem Ansatz in der Höhe leicht unedel. Weich
-      <lb facs="#facs_1_region_1684660490502_3210_tl_20" n="N024"/>und seelenvoll spricht seine Stimme im Piano und Mezza¬
-      <lb facs="#facs_1_region_1684660490502_3210_tl_21" n="N025"/>voce an, während im Forte die Töne sich sondern und die
-      <lb facs="#facs_1_region_1684660490502_3210_tl_22" n="N026"/>mächtigeren Lagen leicht zerbröckeln. <rs type="person">Hill</rs>'s Aussprache ist
+      <lb facs="#facs_1_region_1684660490502_3210_tl_20" n="N024"/>und seelenvoll spricht seine Stimme im Piano und Mezza
+      <lb facs="#facs_1_region_1684660490502_3210_tl_21" n="N025" break="no"/>voce an, während im Forte die Töne sich sondern und die
+      <lb facs="#facs_1_region_1684660490502_3210_tl_22" n="N026"/>mächtigeren Lagen leicht zerbröckeln. <rs type="person" ref="#hsl_person_id_6296">Hill</rs>’s Aussprache ist
       <lb facs="#facs_1_region_1684660490502_3210_tl_23" n="N027"/>wunderbar deutlich, seine Intonation unfehlbar rein, seine
       <lb facs="#facs_1_region_1684660490502_3210_tl_24" n="N028"/>Methode überhaupt so gediegen, daß sie selbst den etwas
-      <lb facs="#facs_1_region_1684660490502_3210_tl_25" n="N029"/>kurzen Athem geschickt maskirt. Mit diesen keineswegs glän¬
-      <lb facs="#facs_1_region_1684660490502_3210_tl_26" n="N030"/>zenden Mitteln (auch Statur und Gesichtsbildung sind nicht
-      <lb facs="#facs_1_region_1684660490502_3210_tl_27" n="N031"/>bedeutend) weiß Herr <rs type="person">Hill</rs> große Wirkungen zu erreichen. Durch
+      <lb facs="#facs_1_region_1684660490502_3210_tl_25" n="N029"/>kurzen Athem geschickt maskirt. Mit diesen keineswegs glän
+      <lb facs="#facs_1_region_1684660490502_3210_tl_26" n="N030" break="no"/>zenden Mitteln (auch Statur und Gesichtsbildung sind nicht
+      <lb facs="#facs_1_region_1684660490502_3210_tl_27" n="N031"/>bedeutend) weiß Herr <rs type="person" ref="#hsl_person_id_6296">Hill</rs> große Wirkungen zu erreichen. Durch
       <lb facs="#facs_1_region_1684660490502_3210_tl_28" n="N032"/>anhaltende Schulung hat er seine Stimme gehorsam und geschmeidig
       <lb facs="#facs_1_region_1684660490502_3210_tl_29" n="N033"/>gemacht, durch geistigen Ausdruck und dramatische Beseelung wird
       <lb facs="#facs_1_region_1684660490502_3210_tl_30" n="N034"/>sie ihm zum Organ der edelsten künstlerischen Intentionen.
-      <lb facs="#facs_1_region_1684660490502_3210_tl_31" n="N035"/><rs type="person">Hill</rs> ist ein eminent dramatischer Sänger; er setzt seine Rol¬
-      <lb facs="#facs_1_region_1684660490502_3210_tl_32" n="N036"/>len nicht aus effectvollen Einzelheiten zusammen, sondern ge¬
-      <lb facs="#facs_1_region_1684660490502_3210_tl_33" n="N037"/>staltet sie organisch, bis in die feinsten Auszweigungen, aus
+      <lb facs="#facs_1_region_1684660490502_3210_tl_31" n="N035"/><rs type="person" ref="#hsl_person_id_6296">Hill</rs> ist ein eminent dramatischer Sänger; er setzt seine Rol
+      <lb facs="#facs_1_region_1684660490502_3210_tl_32" n="N036" break="no"/>len nicht aus effectvollen Einzelheiten zusammen, sondern ge
+      <lb facs="#facs_1_region_1684660490502_3210_tl_33" n="N037" break="no"/>staltet sie organisch, bis in die feinsten Auszweigungen, aus
       <lb facs="#facs_1_region_1684660490502_3210_tl_34" n="N038"/>dem Mittelpunkt des Charakters. Gesang und dramatische
       <lb facs="#facs_1_region_1684660490502_3210_tl_35" n="N039"/>Darstellung sind ihm Aeußerungen <hi rendition="#em">eines</hi> Wesens. Sein
       <lb facs="#facs_1_region_1684660490502_3210_tl_36" n="N040"/>schönster Vorzug ist die innige und vollkommene gegenseitige
-      <lb facs="#facs_1_region_1684660490502_3210_tl_37" n="N041"/>Durchdringung von Wort und Ton, seine größte Kunst die</p>
+      <lb facs="#facs_1_region_1684660490502_3210_tl_37" n="N041"/>Durchdringung von Wort und Ton, seine größte Kunst die<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
+            <p prev="true">      
       <lb facs="#facs_1_region_1684660493879_3213_tl_1" n="N001"/>Behandlung des declamatorischen Elementes im Gesang.
       <lb facs="#facs_1_region_1684660493879_3213_tl_2" n="N002"/>Ueberall, wo diese speciellen Vorzüge den Ausschlag geben,
-      <lb facs="#facs_1_region_1684660493879_3213_tl_3" n="N003"/>da steht <rs type="person">Hill</rs> als Herr und Meister auf seinem eigensten
-      <lb facs="#facs_1_region_1684660493879_3213_tl_4" n="N004"/>Boden; das zeigte sein <rs type="person">Wolfram von Eschenbach</rs>, sein
-      <lb facs="#facs_1_region_1684660493879_3213_tl_5" n="N005"/>„<rs type="person">fliegender Holländer</rs>“. <rs type="person">Wolfram</rs>'s Rhapsodien beim Sän¬
-      <lb facs="#facs_1_region_1684660493879_3213_tl_6" n="N006"/>gerkrieg, sonst keine kleine Geduldprobe für den Hörer, wußte
-      <lb facs="#facs_1_region_1684660493879_3213_tl_7" n="N007"/><rs type="person">Hill</rs> mit so eindringender Articulation vorzutragen, daß sie
+      <lb facs="#facs_1_region_1684660493879_3213_tl_3" n="N003"/>da steht <rs type="person" ref="#hsl_person_id_6296">Hill</rs> als Herr und Meister auf seinem eigensten
+      <lb facs="#facs_1_region_1684660493879_3213_tl_4" n="N004"/>Boden; das zeigte sein <rs type="person" ref="#hsl_person_id_671">Wolfram von Eschenbach</rs>, sein
+      <lb facs="#facs_1_region_1684660493879_3213_tl_5" n="N005"/>„fliegender <rs type="person" ref="#hsl_person_id_1376">Holländer</rs>“. <rs type="person" ref="#hsl_person_id_671">Wolfram</rs>’s Rhapsodien beim Sän
+      <lb facs="#facs_1_region_1684660493879_3213_tl_6" n="N006" break="no"/>gerkrieg, sonst keine kleine Geduldprobe für den Hörer, wußte
+      <lb facs="#facs_1_region_1684660493879_3213_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_6296">Hill</rs> mit so eindringender Articulation vorzutragen, daß sie
       <lb facs="#facs_1_region_1684660493879_3213_tl_8" n="N008"/>durch diesen Vortrag interessirten. Ohne Zweifel hat er viel
-      <lb facs="#facs_1_region_1684660493879_3213_tl_9" n="N009"/>von der Gesangsweise <hi rendition="#em"><rs type="person">Stockhausen</rs>'s</hi> gelernt, und ähnlich
-      <lb facs="#facs_1_region_1684660493879_3213_tl_10" n="N010"/>können wieder alle Sänger von Herrn <rs type="person">Hill</rs> profitiren. Musi¬
-      <lb facs="#facs_1_region_1684660493879_3213_tl_11" n="N011"/>kalisch wie dramatisch waren beide Rollen vortrefflich; als
-      <lb facs="#facs_1_region_1684660493879_3213_tl_12" n="N012"/><rs type="person">Holländer</rs> hatte Herr <rs type="person">Hill</rs> noch den Vortheil, besser aus¬
-      <lb facs="#facs_1_region_1684660493879_3213_tl_13" n="N013"/>zusehen, als in dem bunten Gewande <rs type="person">Wolfram</rs>'s. Es kann
-      <lb facs="#facs_1_region_1684660493879_3213_tl_14" n="N014"/>Herrn <rs type="person">Hill</rs>'s <rs type="person">Holländer</rs> nichts anhaben, daß man <hi rendition="#em"><rs type="person">Beck</rs>'s</hi>
+      <lb facs="#facs_1_region_1684660493879_3213_tl_9" n="N009"/>von der Gesangsweise <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1611">Stockhausen</rs>’s</hi> gelernt, und ähnlich
+      <lb facs="#facs_1_region_1684660493879_3213_tl_10" n="N010"/>können wieder alle Sänger von Herrn <rs type="person" ref="#hsl_person_id_6296">Hill</rs> profitiren. Musi
+      <lb facs="#facs_1_region_1684660493879_3213_tl_11" n="N011" break="no"/>kalisch wie dramatisch waren beide Rollen vortrefflich; als
+      <lb facs="#facs_1_region_1684660493879_3213_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_1376">Holländer</rs> hatte Herr <rs type="person" ref="#hsl_person_id_6296">Hill</rs> noch den Vortheil, besser aus
+      <lb facs="#facs_1_region_1684660493879_3213_tl_13" n="N013" break="no"/>zusehen, als in dem bunten Gewande <rs type="person" ref="#hsl_person_id_671">Wolfram</rs>’s. Es kann
+      <lb facs="#facs_1_region_1684660493879_3213_tl_14" n="N014"/>Herrn <rs type="person" ref="#hsl_person_id_6296">Hill</rs>’s <rs type="person" ref="#hsl_person_id_1376">Holländer</rs> nichts anhaben, daß man <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs>’s</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684660493879_3213_tl_15" n="N015"/>mächtiges Organ und feurigeren Vortrag in den effectvollsten
-      <lb facs="#facs_1_region_1684660493879_3213_tl_16" n="N016"/>Stellen vermißte. Glänzender, hinreißender ist <hi rendition="#em"><rs type="person">Beck</rs>'s</hi> „<rs type="person">flie¬</rs>
-      <lb facs="#facs_1_region_1684660493879_3213_tl_17" n="N017"/><rs type="person">gender Holländer</rs>“ ohne Frage; allein das ruhigere, in ge¬
-      <lb facs="#facs_1_region_1684660493879_3213_tl_18" n="N018"/>dämpften, durchgeistigten Farben ausgeführte Bild Herrn <rs type="person">Hill</rs>'s
-      <lb facs="#facs_1_region_1684660493879_3213_tl_19" n="N019"/>steht als Kunstwerk hinter jenem nicht zurück. <rs type="person">Hill</rs> faßt den
-      <lb facs="#facs_1_region_1684660493879_3213_tl_20" n="N020"/>Charakter viel elegischer auf als <rs type="person">Beck</rs>; die schmerzliche, beinahe
+      <lb facs="#facs_1_region_1684660493879_3213_tl_16" n="N016"/>Stellen vermißte. Glänzender, hinreißender ist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs>’s</hi> „flie
+      <lb facs="#facs_1_region_1684660493879_3213_tl_17" n="N017" break="no"/>gender <rs type="person" ref="#hsl_person_id_1376">Holländer</rs>“ ohne Frage; allein das ruhigere, in ge
+      <lb facs="#facs_1_region_1684660493879_3213_tl_18" n="N018" break="no"/>dämpften, durchgeistigten Farben ausgeführte Bild Herrn <rs type="person" ref="#hsl_person_id_6296">Hill</rs>’s
+      <lb facs="#facs_1_region_1684660493879_3213_tl_19" n="N019"/>steht als Kunstwerk hinter jenem nicht zurück. <rs type="person" ref="#hsl_person_id_6296">Hill</rs> faßt den
+      <lb facs="#facs_1_region_1684660493879_3213_tl_20" n="N020"/>Charakter viel elegischer auf als <rs type="person" ref="#hsl_person_id_24">Beck</rs>; die schmerzliche, beinahe
       <lb facs="#facs_1_region_1684660493879_3213_tl_21" n="N021"/>resignirte Sehnsucht nach Erlösung bildet den Grundton,
       <lb facs="#facs_1_region_1684660493879_3213_tl_22" n="N022"/>gegen welchen die dämonischen und heroischen Accente fast
-      <lb facs="#facs_1_region_1684660493879_3213_tl_23" n="N023"/>ganz zurücktreten. Dieser Auffassung gemäß begibt sich <rs type="person">Hill</rs>
+      <lb facs="#facs_1_region_1684660493879_3213_tl_23" n="N023"/>ganz zurücktreten. Dieser Auffassung gemäß begibt sich <rs type="person" ref="#hsl_person_id_6296">Hill</rs><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684660493879_3213_tl_24" n="N024"/>der starken Ausbrüche von Leidenschaft, um durch Rührung
-      <lb facs="#facs_1_region_1684660493879_3213_tl_25" n="N025"/>den Weg zum Herzen zu finden. Das gelang ihm als <rs type="person">Hol¬</rs>
-      <lb facs="#facs_1_region_1684660493879_3213_tl_26" n="N026"/><rs type="person">länder</rs>, ohne in Weichlichkeit zu verfallen; seine Klage war
+      <lb facs="#facs_1_region_1684660493879_3213_tl_25" n="N025"/>den Weg zum Herzen zu finden. Das gelang ihm als <rs type="person" ref="#hsl_person_id_1376">Hol
+      <lb facs="#facs_1_region_1684660493879_3213_tl_26" n="N026" break="no"/>länder</rs>, ohne in Weichlichkeit zu verfallen; seine Klage war
       <lb facs="#facs_1_region_1684660493879_3213_tl_27" n="N027"/>tief, aber nicht unmännlich. Von eindringendem Verständniß
-      <lb facs="#facs_1_region_1684660493879_3213_tl_28" n="N028"/>der Rolle zeugte auch die äußerste Sparsamkeit im Geberden¬
-      <lb facs="#facs_1_region_1684660493879_3213_tl_29" n="N029"/>spiel; <rs type="person">Hill</rs>, der überhaupt selten eine unnöthige Bewegung
+      <lb facs="#facs_1_region_1684660493879_3213_tl_28" n="N028"/>der Rolle zeugte auch die äußerste Sparsamkeit im Geberden
+      <lb facs="#facs_1_region_1684660493879_3213_tl_29" n="N029" break="no"/>spiel; <rs type="person" ref="#hsl_person_id_6296">Hill</rs>, der überhaupt selten eine unnöthige Bewegung
       <lb facs="#facs_1_region_1684660493879_3213_tl_30" n="N030"/>macht, erreichte gerade durch die fast statuarische Darstellung
-      <lb facs="#facs_1_region_1684660493879_3213_tl_31" n="N031"/>des <rs type="person">Holländers</rs> die rechte, volle Wirkung.
-      <lb facs="#facs_1_region_1684660493879_3213_tl_32" n="N032"/>Gegen diese trefflichen Rollen <rs type="person">Hill</rs>'s in den beiden
-      <lb facs="#facs_1_region_1684660493879_3213_tl_33" n="N033"/><rs type="person">Wagner</rs>'schen Opern standen sein <hi rendition="#em"><rs type="person">Figaro</rs></hi> (in „<rs type="bibl">Figaro's</rs>
-      <lb facs="#facs_1_region_1684660493879_3213_tl_34" n="N034"/><rs type="bibl">Hochzeit</rs>“) und <hi rendition="#em"><rs type="person">Valentin</rs></hi> (in „<rs type="bibl">Faust</rs>“) unleugbar zurück,
+      <lb facs="#facs_1_region_1684660493879_3213_tl_31" n="N031"/>des <rs type="person" ref="#hsl_person_id_1376">Holländers</rs> die rechte, volle Wirkung.
+            </p><p>
+      <lb facs="#facs_1_region_1684660493879_3213_tl_32" n="N032"/>Gegen diese trefflichen Rollen <rs type="person" ref="#hsl_person_id_6296">Hill</rs>’s in den beiden
+      <lb facs="#facs_1_region_1684660493879_3213_tl_33" n="N033"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen Opern standen sein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_534">Figaro</rs></hi> (in „<rs type="bibl" ref="#hsl_work_id_4">Figaro’s
+      <lb facs="#facs_1_region_1684660493879_3213_tl_34" n="N034"/>Hochzeit</rs>“) und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_665">Valentin</rs></hi> (in „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“) unleugbar zurück,
       <lb facs="#facs_1_region_1684660493879_3213_tl_35" n="N035"/>obgleich Beides ganz tüchtige Leistungen sind. Für Charaktere
-      <lb facs="#facs_1_region_1684660493879_3213_tl_36" n="N036"/>wie <rs type="person">Figaro</rs> scheint Herrn <rs type="person">Hill</rs> die natürliche Beweglichkeit
-      <lb facs="#facs_1_region_1684660493879_3213_tl_37" n="N037"/>und Laune zu fehlen, auch bereitete die tiefe Lage dieser Baß¬
-      <lb facs="#facs_1_region_1684660493879_3213_tl_38" n="N038"/>partie ihm einige Schwierigkeiten. Noch Eines fiel im
-      <lb facs="#facs_1_region_1684660493879_3213_tl_39" n="N039"/><rs type="bibl">Figaro</rs> auf: daß Herr <rs type="person">Hill</rs> (wie manche denkende Künstler
-      <lb facs="#facs_1_region_1684660493879_3213_tl_40" n="N040"/>im Gefühl ihrer geistigen Selbstständigkeit gern thun) zu ab¬
-      <lb facs="#facs_1_line_1734678170944_665" n="N041"/>sichtsvoll ins Detail arbeite, bekannten Stellen neue Accente</p>
+      <lb facs="#facs_1_region_1684660493879_3213_tl_36" n="N036"/>wie <rs type="person" ref="#hsl_person_id_534">Figaro</rs> scheint Herrn <rs type="person" ref="#hsl_person_id_6296">Hill</rs> die natürliche Beweglichkeit
+      <lb facs="#facs_1_region_1684660493879_3213_tl_37" n="N037"/>und Laune zu fehlen, auch bereitete die tiefe Lage dieser Baß
+      <lb facs="#facs_1_region_1684660493879_3213_tl_38" n="N038" break="no"/>partie ihm einige Schwierigkeiten. Noch Eines fiel im
+      <lb facs="#facs_1_region_1684660493879_3213_tl_39" n="N039"/><rs type="bibl" ref="#hsl_work_id_4">Figaro</rs> auf: daß Herr <rs type="person" ref="#hsl_person_id_6296">Hill</rs> (wie manche denkende Künstler
+      <lb facs="#facs_1_region_1684660493879_3213_tl_40" n="N040"/>im Gefühl ihrer geistigen Selbstständigkeit gern thun) zu ab
+      <lb facs="#facs_1_line_1734678170944_665" n="N041" break="no"/>sichtsvoll ins Detail arbeite, bekannten Stellen neue Accente<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_2_region_1684660504649_3219_tl_1" n="N001"/>und Auffassungen aufdränge. In der Stelle: „Will der
       <lb facs="#facs_2_region_1684660504649_3219_tl_2" n="N002"/>Herr Graf“ in der Schlußarie des ersten Actes unter Anderem
       <lb facs="#facs_2_region_1684660504649_3219_tl_3" n="N003"/>fielen uns solche allzu reflectirte, interpretirende Züge auf,
       <lb facs="#facs_2_region_1684660504649_3219_tl_4" n="N004"/>die doch nicht mehr und nicht Besseres leisten, als der volle,
-      <lb facs="#facs_2_region_1684660504649_3219_tl_5" n="N005"/>ungehemmte Strom der Melodie für sich vollbringt. Vor¬
-      <lb facs="#facs_2_region_1684660504649_3219_tl_6" n="N006"/>züglich gelang Herrn <rs type="person">Hill</rs> die große Arie im letzten Act,
-      <lb facs="#facs_2_region_1684660504649_3219_tl_7" n="N007"/>deren schnelles Tempo sich auf <rs type="place">deutsch</rs>en Text so unbarm¬
-      <lb facs="#facs_2_region_1684660504649_3219_tl_8" n="N008"/>herzig schwer singt. Daß unser geschätzter Gast den <hi rendition="#em"><rs type="person">Valen¬</rs></hi>
-      <lb facs="#facs_2_region_1684660504649_3219_tl_9" n="N009"/><hi rendition="#em"><rs type="person">tin</rs></hi> im „<rs type="bibl">Faust</rs>“ richtig erfaßte und wiedergab, bedarf nicht
+      <lb facs="#facs_2_region_1684660504649_3219_tl_5" n="N005"/>ungehemmte Strom der Melodie für sich vollbringt. Vor
+      <lb facs="#facs_2_region_1684660504649_3219_tl_6" n="N006" break="no"/>züglich gelang Herrn <rs type="person" ref="#hsl_person_id_6296">Hill</rs> die große Arie im letzten Act,
+      <lb facs="#facs_2_region_1684660504649_3219_tl_7" n="N007"/>deren schnelles Tempo sich auf <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Text so unbarm
+      <lb facs="#facs_2_region_1684660504649_3219_tl_8" n="N008" break="no"/>herzig schwer singt. Daß unser geschätzter Gast den <hi rendition="#em"><rs type="person" ref="#hsl_person_id_665">Valen
+      <lb facs="#facs_2_region_1684660504649_3219_tl_9" n="N009" break="no"/>tin</rs></hi> im „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ richtig erfaßte und wiedergab, bedarf nicht
       <lb facs="#facs_2_region_1684660504649_3219_tl_10" n="N010"/>ausdrücklicher Erwähnung, die Rolle ist nicht zu vergreifen.
-      <lb facs="#facs_2_region_1684660504649_3219_tl_11" n="N011"/>Nur vergriff sich Herr <rs type="person">Hill</rs> einigemal in der Tonstärke und
+      <lb facs="#facs_2_region_1684660504649_3219_tl_11" n="N011"/>Nur vergriff sich Herr <rs type="person" ref="#hsl_person_id_6296">Hill</rs> einigemal in der Tonstärke und
       <lb facs="#facs_2_region_1684660504649_3219_tl_12" n="N012"/>forcirte seine Stimme zu unschöner Klangwirkung. Dieser
-      <lb facs="#facs_2_region_1684660504649_3219_tl_13" n="N013"/>kleine Flecken vermag uns aber das Gesammtbild <rs type="person">Hill</rs>'s
-      <lb facs="#facs_2_region_1684660504649_3219_tl_14" n="N014"/>nicht zu trüben, in welchem wir einen der besten Gesangs¬
-      <lb facs="#facs_2_region_1684660504649_3219_tl_15" n="N015"/>künstler und Darsteller kennen gelernt, deren die <rs type="place">deutsch</rs>e
+      <lb facs="#facs_2_region_1684660504649_3219_tl_13" n="N013"/>kleine Flecken vermag uns aber das Gesammtbild <rs type="person" ref="#hsl_person_id_6296">Hill</rs>’s
+      <lb facs="#facs_2_region_1684660504649_3219_tl_14" n="N014"/>nicht zu trüben, in welchem wir einen der besten Gesangs
+      <lb facs="#facs_2_region_1684660504649_3219_tl_15" n="N015" break="no"/>künstler und Darsteller kennen gelernt, deren die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e
       <lb facs="#facs_2_region_1684660504649_3219_tl_16" n="N016"/>Oper sich heutzutage rühmen kann.
-      <lb facs="#facs_2_region_1684660504649_3219_tl_17" n="N017"/>Fräulein <hi rendition="#em"><rs type="person">Zimmermann</rs></hi>, welche bisher in drei
-      <lb facs="#facs_2_region_1684660504649_3219_tl_18" n="N018"/>Rollen (<rs type="person">Elsa</rs>, <rs type="person">Gretchen</rs>, <rs type="person">Alice</rs>) aufgetreten ist, hat zwei wuch¬
-      <lb facs="#facs_2_region_1684660504649_3219_tl_19" n="N019"/>tige Bundesgenossen: ihre Persönlichkeit und ihre Stimme.
+            </p><p>
+      <lb facs="#facs_2_region_1684660504649_3219_tl_17" n="N017"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs></hi>, welche bisher in drei
+      <lb facs="#facs_2_region_1684660504649_3219_tl_18" n="N018"/>Rollen (<rs type="person" ref="#hsl_person_id_2640">Elsa</rs>, <rs type="person" ref="#hsl_person_id_549">Gretchen</rs>, <rs type="person" ref="#hsl_person_id_4750">Alice</rs>) aufgetreten ist, hat zwei wuch
+      <lb facs="#facs_2_region_1684660504649_3219_tl_19" n="N019" break="no"/>tige Bundesgenossen: ihre Persönlichkeit und ihre Stimme.
       <lb facs="#facs_2_region_1684660504649_3219_tl_20" n="N020"/>Sie braucht blos aufzutreten und einige Tacte zu singen, so
-      <lb facs="#facs_2_region_1684660504649_3219_tl_21" n="N021"/>hat sie auch schon das Publicum eingenommen. Die persön¬
-      <lb facs="#facs_2_region_1684660504649_3219_tl_22" n="N022"/>liche Erscheinung einer Darstellerin ist nichts Gleichgiltiges
-      <lb facs="#facs_2_region_1684660504649_3219_tl_23" n="N023"/>oder Nebensächliches, wie man gerade in der Oper uns manch¬
-      <lb facs="#facs_2_region_1684660504649_3219_tl_24" n="N024"/>mal weißmachen möchte; nur wer das musikalische Drama
+      <lb facs="#facs_2_region_1684660504649_3219_tl_21" n="N021"/>hat sie auch schon das Publicum eingenommen. Die persön
+      <lb facs="#facs_2_region_1684660504649_3219_tl_22" n="N022" break="no"/>liche Erscheinung einer Darstellerin ist nichts Gleichgiltiges
+      <lb facs="#facs_2_region_1684660504649_3219_tl_23" n="N023"/>oder Nebensächliches, wie man gerade in der Oper uns manch
+      <lb facs="#facs_2_region_1684660504649_3219_tl_24" n="N024" break="no"/>mal weißmachen möchte; nur wer das musikalische Drama
       <lb facs="#facs_2_region_1684660504649_3219_tl_25" n="N025"/>vom bloßen Concert nicht unterscheidet, kann sie dafür halten.
-      <lb facs="#facs_2_region_1684660504649_3219_tl_26" n="N026"/>Müssen wir in der Regel schon zufrieden sein, wenn die Per¬
-      <lb facs="#facs_2_region_1684660504649_3219_tl_27" n="N027"/>sönlichkeit eines Opernsängers die dramatische Illusion nicht
+      <lb facs="#facs_2_region_1684660504649_3219_tl_26" n="N026"/>Müssen wir in der Regel schon zufrieden sein, wenn die Per
+      <lb facs="#facs_2_region_1684660504649_3219_tl_27" n="N027" break="no"/>sönlichkeit eines Opernsängers die dramatische Illusion nicht
       <lb facs="#facs_2_region_1684660504649_3219_tl_28" n="N028"/>geradezu Lügen straft, so dürfen wir wol auch dankbar sein,
       <lb facs="#facs_2_region_1684660504649_3219_tl_29" n="N029"/>wenn sie diese Illusion einmal fördert. Wir empfinden es
-      <lb facs="#facs_2_region_1684660504649_3219_tl_30" n="N030"/>schmerzlich, wenn wir einer Sängerin, singe sie noch so vir¬
-      <lb facs="#facs_2_line_1734678370116_715" n="N031"/>tuos, keine ihrer Gestalten <hi rendition="#em">glauben</hi> können; daß <rs type="person">Elsa</rs> oder
-      <lb facs="#facs_2_region_1684660504649_3219_tl_31" n="N032"/><rs type="person">Alice</rs> in der Phantasie des Dichters so aussah, wie Fräulein
-      <lb facs="#facs_2_region_1684660504649_3219_tl_32" n="N033"/><rs type="person">Zimmermann</rs> in diesen Rollen aussieht, das glaubt man
+      <lb facs="#facs_2_region_1684660504649_3219_tl_30" n="N030"/>schmerzlich, wenn wir einer Sängerin, singe sie noch so vir
+      <lb facs="#facs_2_line_1734678370116_715" n="N031" break="no"/>tuos, keine ihrer Gestalten <hi rendition="#em">glauben</hi> können; daß <rs type="person" ref="#hsl_person_id_2640">Elsa</rs> oder
+      <lb facs="#facs_2_region_1684660504649_3219_tl_31" n="N032"/><rs type="person" ref="#hsl_person_id_4750">Alice</rs> in der Phantasie des Dichters so aussah, wie Fräulein
+      <lb facs="#facs_2_region_1684660504649_3219_tl_32" n="N033"/><rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs> in diesen Rollen aussieht, das glaubt man
       <lb facs="#facs_2_line_1734678393539_723" n="N034"/>sofort und bringt damit die rechte „gläubige“ Stimmung
       <lb facs="#facs_2_line_1734678418136_731" n="N035"/>den poetischen Ereignissen auf der Bühne entgegen. Die Gestalt
-      <lb facs="#facs_2_region_1684660504649_3219_tl_33" n="N036"/>Fräulein <rs type="person">Zimmermann</rs>'s ist fein und stattlich, ihre Gesichtszüge
+      <lb facs="#facs_2_region_1684660504649_3219_tl_33" n="N036"/>Fräulein <rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs>’s ist fein und stattlich, ihre Gesichtszüge
       <lb facs="#facs_2_region_1684660504649_3219_tl_34" n="N037"/>sind edel, von sanftem Ausdruck, die mimische Gewalt über dieselben
       <lb facs="#facs_2_region_1684660504649_3219_tl_35" n="N038"/>freilich noch unentwickelt. Die Stimme der Sängerin, ein Sopran
       <lb facs="#facs_2_region_1684660504649_3219_tl_36" n="N039"/>von bezauberndem Wohlaut, weich und blühend, klingt durchaus
-      <lb facs="#facs_2_region_1684660504649_3219_tl_37" n="N040"/>gleichmäßig, am schönsten in der Mittellage, nur etwas müh¬
-      <lb facs="#facs_2_region_1684660504649_3219_tl_38" n="N041"/>sam im starken Anschlagen der hohen über A hinaus liegenden
-      <lb facs="#facs_2_line_1734678467616_749" n="N042"/>Töne. Eine tadellose Tonbildung, reine Intonation, gute</p>
+      <lb facs="#facs_2_region_1684660504649_3219_tl_37" n="N040"/>gleichmäßig, am schönsten in der Mittellage, nur etwas müh
+      <lb facs="#facs_2_region_1684660504649_3219_tl_38" n="N041" break="no"/>sam im starken Anschlagen der hohen über A hinaus liegenden
+      <lb facs="#facs_2_line_1734678467616_749" n="N042"/>Töne. Eine tadellose Tonbildung, reine Intonation, gute<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-      <lb facs="#facs_2_region_1684660508185_3222_tl_1" n="N001"/>Aussprache und ruhige Haltung sind Fräulein <rs type="person">Zimmermann</rs>
-      <lb facs="#facs_2_region_1684660508185_3222_tl_2" n="N002"/>nachzurühmen. Ueberdies phrasirt sie gut, schreit nicht, tre¬
-      <lb facs="#facs_2_line_1734678295136_694" n="N003"/>molirt nicht, hat überhaupt keine modernen Gesangsunarten.
+            <p prev="true">
+      <lb facs="#facs_2_region_1684660508185_3222_tl_1" n="N001"/>Aussprache und ruhige Haltung sind Fräulein <rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684660508185_3222_tl_2" n="N002"/>nachzurühmen. Ueberdies phrasirt sie gut, schreit nicht, tre
+      <lb facs="#facs_2_line_1734678295136_694" n="N003" break="no"/>molirt nicht, hat überhaupt keine modernen Gesangsunarten.
       <lb facs="#facs_2_region_1684660508185_3222_tl_3" n="N004"/>Was hingegen noch mangelt, ist die dramatische Energie, der
       <lb facs="#facs_2_region_1684660508185_3222_tl_4" n="N005"/>volle Erguß des Gefühles. Vortrag und Spiel dieser Sängerin
       <lb facs="#facs_2_region_1684660508185_3222_tl_5" n="N006"/>sind zwar immer fein und stylvoll, jedoch kühl angehaucht von
       <lb facs="#facs_2_region_1684660508185_3222_tl_6" n="N007"/>jener zurückhaltenden Verständigkeit und Reflexion, welche
-      <lb facs="#facs_2_region_1684660508185_3222_tl_7" n="N008"/><rs type="place">norddeutsch</rs>en Sängerinnen so häufig eignet. Wo der Feuer¬
-      <lb facs="#facs_2_region_1684660508185_3222_tl_8" n="N009"/>strom der Leidenschaft sich entfesseln oder die tiefsten, leisesten
+      <lb facs="#facs_2_region_1684660508185_3222_tl_7" n="N008"/><rs type="place" ref="#hsl_place_id_502">norddeutsch</rs>en Sängerinnen so häufig eignet. Wo der Feuer
+      <lb facs="#facs_2_region_1684660508185_3222_tl_8" n="N009" break="no"/>strom der Leidenschaft sich entfesseln oder die tiefsten, leisesten
       <lb facs="#facs_2_region_1684660508185_3222_tl_9" n="N010"/>Töne des Herzens erklingen sollen, da läßt uns Fräulein
-      <lb facs="#facs_2_region_1684660508185_3222_tl_10" n="N011"/><rs type="person">Zimmermann</rs> unbefriedigt; es fehlt ihr gewiß nicht an Em¬
-      <lb facs="#facs_2_region_1684660508185_3222_tl_11" n="N012"/>pfindung, aber an dem naiven, unmittelbaren Ausdruck der¬
-      <lb facs="#facs_2_region_1684660508185_3222_tl_12" n="N013"/>selben. Insbesondere mußte <hi rendition="#em"><rs type="person">Gretchen</rs></hi> (in <rs type="person">Gounod</rs>'s
-      <lb facs="#facs_2_region_1684660508185_3222_tl_13" n="N014"/>„<rs type="bibl">Faust</rs>“) diesen Mangel an Ursprünglichkeit und Naivetät
+      <lb facs="#facs_2_region_1684660508185_3222_tl_10" n="N011"/><rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs> unbefriedigt; es fehlt ihr gewiß nicht an Em
+      <lb facs="#facs_2_region_1684660508185_3222_tl_11" n="N012" break="no"/>pfindung, aber an dem naiven, unmittelbaren Ausdruck der
+      <lb facs="#facs_2_region_1684660508185_3222_tl_12" n="N013" break="no"/>selben. Insbesondere mußte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_549">Gretchen</rs></hi> (in <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s
+      <lb facs="#facs_2_region_1684660508185_3222_tl_13" n="N014"/>„<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“) diesen Mangel an Ursprünglichkeit und Naivetät
       <lb facs="#facs_2_line_1734678318408_700" n="N015"/>empfinden lassen; die ganze Gestalt wurzelte nicht im Volk,
-      <lb facs="#facs_2_region_1684660508185_3222_tl_14" n="N016"/>sondern in den gebildeten Ständen <rs type="place">Norddeutschland</rs>s. Diese Ueber¬
-      <lb facs="#facs_2_region_1684660508185_3222_tl_15" n="N017"/>feinerung im Spiel machte sich analog in der Musik durch Neigung
+      <lb facs="#facs_2_region_1684660508185_3222_tl_14" n="N016"/>sondern in den gebildeten Ständen <rs type="place" ref="#hsl_place_id_502">Norddeutschland</rs>s. Diese Ueber
+      <lb facs="#facs_2_region_1684660508185_3222_tl_15" n="N017" break="no"/>feinerung im Spiel machte sich analog in der Musik durch Neigung
       <lb facs="#facs_2_line_1734678512038_764" n="N018"/>zum sentimentalen Schleppen des Zeitmaßes (zum Beispiel in der
       <lb facs="#facs_2_region_1684660508185_3222_tl_16" n="N019"/>ersten Begegnung, im „König von Thule“ etc.) geltend. In
-      <lb facs="#facs_2_region_1684660508185_3222_tl_17" n="N020"/>der Scene vor dem <rs type="person">Madonnen</rs>bild entwickelte Fräulein <rs type="person" continued="true">Zim¬</rs>
-      <lb facs="#facs_2_region_1684660508185_3222_tl_18" n="N021"/><rs type="person" continued="true">mermann</rs> mehr Energie, als wir vermuthet hätten; hingegen
-      <lb facs="#facs_2_region_1684660508185_3222_tl_19" n="N022"/>blieb ihr Liebesduett mit <rs type="person">Faust</rs>, sowie das mit <rs type="person">Lohengrin</rs> bei¬
-      <lb facs="#facs_2_region_1684660508185_3222_tl_20" n="N023"/>nahe wirkungslos. Gerade in <rs type="place">Wien</rs> ist man in diesen Num¬
-      <lb facs="#facs_2_line_1734678487667_758" n="N024"/>mern den Ausdruck leidenschaftlicher Erregung in Gesang und
-      <lb facs="#facs_2_region_1684660508185_3222_tl_21" n="N025"/>Spiel gewohnt. Fräulein <hi rendition="#em"><rs type="person">Zimmermann</rs></hi> wurde als <rs type="person">Elsa</rs>
-      <lb facs="#facs_2_region_1684660508185_3222_tl_22" n="N026"/>wie als <rs type="person">Gretchen</rs> sehr freundlich aufgenommen, den entschiedensten,
-      <lb facs="#facs_2_region_1684660508185_3222_tl_23" n="N027"/>ungetheiltesten Erfolg errung sie jedoch als <hi rendition="#em"><rs type="person">Alice</rs></hi> in
-      <lb facs="#facs_2_region_1684660508185_3222_tl_24" n="N028"/>„<rs type="bibl">Robert der Teufel</rs>“. Im ersten Acte war sie ganz vor¬
-      <lb facs="#facs_2_region_1684660508185_3222_tl_25" n="N029"/>trefflich, in den Kraftstellen der folgenden verursachten die
+      <lb facs="#facs_2_region_1684660508185_3222_tl_17" n="N020"/>der Scene vor dem <rs type="person" ref="#hsl_person_id_2903">Madonnen</rs>bild entwickelte Fräulein <rs type="person" ref="#hsl_person_id_6306">Zim
+      <lb facs="#facs_2_region_1684660508185_3222_tl_18" n="N021" break="no"/>mermann</rs> mehr Energie, als wir vermuthet hätten; hingegen
+      <lb facs="#facs_2_region_1684660508185_3222_tl_19" n="N022"/>blieb ihr Liebesduett mit <rs type="person" ref="#hsl_person_id_1111">Faust</rs>, sowie das mit <rs type="person" ref="#hsl_person_id_1126">Lohengrin</rs> bei
+      <lb facs="#facs_2_region_1684660508185_3222_tl_20" n="N023" break="no"/>nahe wirkungslos. Gerade in <rs type="place" ref="#hsl_place_id_55">Wien</rs> ist man in diesen Num
+      <lb facs="#facs_2_line_1734678487667_758" n="N024" break="no"/>mern den Ausdruck leidenschaftlicher Erregung in Gesang und
+      <lb facs="#facs_2_region_1684660508185_3222_tl_21" n="N025"/>Spiel gewohnt. Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs></hi> wurde als <rs type="person" ref="#hsl_person_id_2640">Elsa</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684660508185_3222_tl_22" n="N026"/>wie als <rs type="person" ref="#hsl_person_id_549">Gretchen</rs> sehr freundlich aufgenommen, den entschiedensten,
+      <lb facs="#facs_2_region_1684660508185_3222_tl_23" n="N027"/>ungetheiltesten Erfolg errung sie jedoch als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4750">Alice</rs></hi> in
+      <lb facs="#facs_2_region_1684660508185_3222_tl_24" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_58">Robert der Teufel</rs>“. Im ersten Acte war sie ganz vor
+      <lb facs="#facs_2_region_1684660508185_3222_tl_25" n="N029" break="no"/>trefflich, in den Kraftstellen der folgenden verursachten die
       <lb facs="#facs_2_region_1684660508185_3222_tl_26" n="N030"/>höchsten Töne zwar einige Anstrengung, aber sie mißglückten
       <lb facs="#facs_2_region_1684660508185_3222_tl_27" n="N031"/>nicht. In diesen Scenen ist man hier freilich an solche
       <lb facs="#facs_2_region_1684660508185_3222_tl_28" n="N032"/>Entfesselung der Stimmkraft gewöhnt oder verwöhnt, daß
       <lb facs="#facs_2_region_1684660508185_3222_tl_29" n="N033"/>bald nichts mehr stark genug sein wird. Wer Sinn und
-      <lb facs="#facs_2_region_1684660508185_3222_tl_30" n="N034"/>Werthschätzung für musikalische Vorzüge hat, wird die Leistun¬
-      <lb facs="#facs_2_region_1684660508185_3222_tl_31" n="N035"/>gen Fräulein <rs type="person">Zimmermann</rs>'s, so weit sie auch noch zur Voll¬
-      <lb facs="#facs_2_region_1684660508185_3222_tl_32" n="N036"/>endung haben, mit aufrichtigem Vergnügen begrüßen. Es ist
+      <lb facs="#facs_2_region_1684660508185_3222_tl_30" n="N034"/>Werthschätzung für musikalische Vorzüge hat, wird die Leistun
+      <lb facs="#facs_2_region_1684660508185_3222_tl_31" n="N035" break="no"/>gen Fräulein <rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs>’s, so weit sie auch noch zur Voll
+      <lb facs="#facs_2_region_1684660508185_3222_tl_32" n="N036" break="no"/>endung haben, mit aufrichtigem Vergnügen begrüßen. Es ist
       <lb facs="#facs_2_region_1684660508185_3222_tl_33" n="N037"/>dies eine reich ausgestattete, gut musikalische, talentvolle und
       <lb facs="#facs_2_region_1684660508185_3222_tl_34" n="N038"/>offenbar noch bildungsfähige Sängerin. Bleibend in ein
       <lb facs="#facs_2_region_1684660508185_3222_tl_35" n="N039"/>Ensemble eingereiht, das etwas frischer und heißblütiger sich
-      <lb facs="#facs_2_region_1684660508185_3222_tl_36" n="N040"/>bewegt, würde Fräulein <rs type="person">Zimmermann</rs> wahrscheinlich auch noch
+      <lb facs="#facs_2_region_1684660508185_3222_tl_36" n="N040"/>bewegt, würde Fräulein <rs type="person" ref="#hsl_person_id_6306">Zimmermann</rs> wahrscheinlich auch noch
       <lb facs="#facs_2_region_1684660508185_3222_tl_37" n="N041"/>wärmer werden und einige ihrer allzu zierlichen Spitzen gegen
-      <lb facs="#facs_2_region_1684660508185_3222_tl_38" n="N042"/>eine kräftigere Natürlichkeit eintauschen. Die neueste hier</p>
+      <lb facs="#facs_2_region_1684660508185_3222_tl_38" n="N042"/>eine kräftigere Natürlichkeit eintauschen. Die neueste hier<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-      <lb facs="#facs_2_region_1684660512740_3225_tl_1" n="N001"/>gastirende Sängerin, Fräulein <hi rendition="#em">Johanna <rs type="person">Trousil</rs></hi> (eine
-      <lb facs="#facs_2_region_1684660512740_3225_tl_2" n="N002"/>Schülerin der <rs type="person">Bochkoltz-Falconi</rs>), ist bis jetzt nur als <hi rendition="#em"><rs type="person">Gemmy</rs></hi>
-      <lb facs="#facs_2_region_1684660512740_3225_tl_3" n="N003"/>im „<rs type="bibl">Tell</rs>“ aufgetreten — einer Rolle, die bekanntlich wenig Ge¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_4" n="N004"/>legenheit zur Auszeichnung gibt. Innerhin hat Fräulein
-      <lb facs="#facs_2_region_1684660512740_3225_tl_5" n="N005"/><hi rendition="#em"><rs type="person">Trousil</rs></hi> durch ihre wohltönende, kräftige Mezzosopran¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_6" n="N006"/>stimme und durch guten Vortrag die Aufmerksamkeit in
+            <p prev="true">
+      <lb facs="#facs_2_region_1684660512740_3225_tl_1" n="N001"/>gastirende Sängerin, Fräulein <hi rendition="#em">Johanna <rs type="person" ref="#hsl_person_id_3362">Trousil</rs></hi> (eine
+      <lb facs="#facs_2_region_1684660512740_3225_tl_2" n="N002"/>Schülerin der <rs type="person" ref="#hsl_person_id_3361">Bochkoltz-Falconi</rs>), ist bis jetzt nur als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6307">Jemmy</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684660512740_3225_tl_3" n="N003"/>im „<rs type="bibl" ref="#hsl_work_id_186">Tell</rs>“ aufgetreten — einer Rolle, die bekanntlich wenig Ge
+      <lb facs="#facs_2_region_1684660512740_3225_tl_4" n="N004" break="no"/>legenheit zur Auszeichnung gibt. Innerhin hat Fräulein
+      <lb facs="#facs_2_region_1684660512740_3225_tl_5" n="N005"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3362">Trousil</rs></hi> durch ihre wohltönende, kräftige Mezzosopran
+      <lb facs="#facs_2_region_1684660512740_3225_tl_6" n="N006" break="no"/>stimme und durch guten Vortrag die Aufmerksamkeit in
       <lb facs="#facs_2_region_1684660512740_3225_tl_7" n="N007"/>günstiger Weise auf sich gelenkt, so daß man ihren nächsten
-      <lb facs="#facs_2_region_1684660512740_3225_tl_8" n="N008"/>(hoffentlich etwas dankbareren) Rollen mit Interesse entgegen¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_9" n="N009"/>sehen darf.
-      <lb facs="#facs_2_region_1684660512740_3225_tl_10" n="N010"/>Den Tenoristen Herrn <hi rendition="#em"><rs type="person">Adams</rs></hi>, welcher gegenwärtig
+      <lb facs="#facs_2_region_1684660512740_3225_tl_8" n="N008"/>(hoffentlich etwas dankbareren) Rollen mit Interesse entgegen
+      <lb facs="#facs_2_region_1684660512740_3225_tl_9" n="N009" break="no"/>sehen darf.
+            </p><p>
+      <lb facs="#facs_2_region_1684660512740_3225_tl_10" n="N010"/>Den Tenoristen Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4109">Adams</rs></hi>, welcher gegenwärtig
       <lb facs="#facs_2_line_1734678344776_708" n="N011"/>auf dem Theaterzettel „als Gast“ figurirt, brauchen wir nicht
-      <lb facs="#facs_2_region_1684660512740_3225_tl_11" n="N012"/>als solchen vorzustellen, er ist ein guter alter Bekannter un¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_12" n="N013"/>seres Publicums und erst seit ganz kurzer Zeit kein engagirtes
-      <lb facs="#facs_2_region_1684660512740_3225_tl_13" n="N014"/>Mitglied des Hofoperntheaters mehr. Fleißig und verwend¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_14" n="N015"/>bar wie er ist, hilft Herr <rs type="person">Adams</rs> in dieser bösen Periode der
-      <lb facs="#facs_2_region_1684660512740_3225_tl_15" n="N016"/>Tenoristennoth wacker aus. Er ist, was man in der <rs type="place">fran¬</rs>
-      <lb facs="#facs_2_region_1684660512740_3225_tl_16" n="N017"/><rs type="place">zösisch</rs>en Theatersprache „grande utilité“ nennt und als solche
+      <lb facs="#facs_2_region_1684660512740_3225_tl_11" n="N012"/>als solchen vorzustellen, er ist ein guter alter Bekannter un
+      <lb facs="#facs_2_region_1684660512740_3225_tl_12" n="N013" break="no"/>seres Publicums und erst seit ganz kurzer Zeit kein engagirtes
+      <lb facs="#facs_2_region_1684660512740_3225_tl_13" n="N014"/>Mitglied des Hofoperntheaters mehr. Fleißig und verwend
+      <lb facs="#facs_2_region_1684660512740_3225_tl_14" n="N015" break="no"/>bar wie er ist, hilft Herr <rs type="person" ref="#hsl_person_id_4109">Adams</rs> in dieser bösen Periode der
+      <lb facs="#facs_2_region_1684660512740_3225_tl_15" n="N016"/>Tenoristennoth wacker aus. Er ist, was man in der <rs type="place" ref="#hsl_place_id_21">fran
+      <lb facs="#facs_2_region_1684660512740_3225_tl_16" n="N017" break="no"/>zösisch</rs>en Theatersprache „grande utilité“ nennt und als solche
       <lb facs="#facs_2_region_1684660512740_3225_tl_17" n="N018"/>willkommen. Das Nützliche und das Reizende sind freilich
-      <lb facs="#facs_2_region_1684660512740_3225_tl_18" n="N019"/>zweierlei in der Kunst. Herr <rs type="person">Adams</rs> wird keine Rolle ver¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_19" n="N020"/>derben, aber auch in keiner einzigen entzücken oder hinreißen.
-      <lb facs="#facs_2_region_1684660512740_3225_tl_20" n="N021"/>Was er auch an Fleiß und Geschicklichkeit aufwende, es schei¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_21" n="N022"/>tert an dem trockenen, reizlosen, papierenen Klang seiner Stimme.
+      <lb facs="#facs_2_region_1684660512740_3225_tl_18" n="N019"/>zweierlei in der Kunst. Herr <rs type="person" ref="#hsl_person_id_4109">Adams</rs> wird keine Rolle ver
+      <lb facs="#facs_2_region_1684660512740_3225_tl_19" n="N020" break="no"/>derben, aber auch in keiner einzigen entzücken oder hinreißen.
+      <lb facs="#facs_2_region_1684660512740_3225_tl_20" n="N021"/>Was er auch an Fleiß und Geschicklichkeit aufwende, es schei
+      <lb facs="#facs_2_region_1684660512740_3225_tl_21" n="N022" break="no"/>tert an dem trockenen, reizlosen, papierenen Klang seiner Stimme.
       <lb facs="#facs_2_region_1684660512740_3225_tl_22" n="N023"/>Der Glanz ist von jeder Tenorpartie weggewischt, wenn Herr
-      <lb facs="#facs_2_region_1684660512740_3225_tl_23" n="N024"/><rs type="person">Adams</rs> sie singt. Da hilft kein Leugnen und kein noch so
-      <lb facs="#facs_2_region_1684660512740_3225_tl_24" n="N025"/>wohlwollendes Anerkennen der formellen Vorzüge dieses Sän¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_25" n="N026"/>gers. Auch gegen diese formelle Abrundung seiner Leistungen
+      <lb facs="#facs_2_region_1684660512740_3225_tl_23" n="N024"/><rs type="person" ref="#hsl_person_id_4109">Adams</rs> sie singt. Da hilft kein Leugnen und kein noch so
+      <lb facs="#facs_2_region_1684660512740_3225_tl_24" n="N025"/>wohlwollendes Anerkennen der formellen Vorzüge dieses Sän
+      <lb facs="#facs_2_region_1684660512740_3225_tl_25" n="N026" break="no"/>gers. Auch gegen diese formelle Abrundung seiner Leistungen
       <lb facs="#facs_2_region_1684660512740_3225_tl_26" n="N027"/>wird man unempfindlicher, wenn man ihn (wie in den letzten
       <lb facs="#facs_2_region_1684660512740_3225_tl_27" n="N028"/>Wochen Gelegenheit war) oft nach einander in verschiedenen
-      <lb facs="#facs_2_region_1684660512740_3225_tl_28" n="N029"/>Rollen hört. Da ist eine genau wie die andere, <rs type="person">Robert</rs> der
-      <lb facs="#facs_2_region_1684660512740_3225_tl_29" n="N030"/>Teufel, <rs type="person">Lohengrin</rs>, <rs type="person">Edgar</rs> — immer dieselbe kerzengerade Hal¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_30" n="N031"/>tung, dasselbe unbewegliche, hübsche Gesicht, dieselben akade¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_31" n="N032"/>misch gerundeten Armbewegungen, kein Schritt kürzer oder
+      <lb facs="#facs_2_region_1684660512740_3225_tl_28" n="N029"/>Rollen hört. Da ist eine genau wie die andere, <rs type="person" ref="#hsl_person_id_1138">Robert</rs> der
+      <lb facs="#facs_2_region_1684660512740_3225_tl_29" n="N030"/>Teufel, <rs type="person" ref="#hsl_person_id_1126">Lohengrin</rs>, <rs type="person" ref="#hsl_person_id_521">Edgar</rs> — immer dieselbe kerzengerade Hal
+      <lb facs="#facs_2_region_1684660512740_3225_tl_30" n="N031" break="no"/>tung, dasselbe unbewegliche, hübsche Gesicht, dieselben akade
+      <lb facs="#facs_2_region_1684660512740_3225_tl_31" n="N032" break="no"/>misch gerundeten Armbewegungen, kein Schritt kürzer oder
       <lb facs="#facs_2_region_1684660512740_3225_tl_32" n="N033"/>länger, kein Ton heftiger oder sanfter als in jeder anderen
-      <lb facs="#facs_2_region_1684660512740_3225_tl_33" n="N034"/>Rolle. Herr <hi rendition="#em"><rs type="person">Adams</rs></hi>, der im Privatleben für einen tadel¬
-      <lb facs="#facs_2_region_1684660512740_3225_tl_34" n="N035"/>losen Gentleman gilt, ist dies auch auf der Bühne, leider ist
+      <lb facs="#facs_2_region_1684660512740_3225_tl_33" n="N034"/>Rolle. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4109">Adams</rs></hi>, der im Privatleben für einen tadel
+      <lb facs="#facs_2_region_1684660512740_3225_tl_34" n="N035" break="no"/>losen Gentleman gilt, ist dies auch auf der Bühne, leider ist
       <lb facs="#facs_2_region_1684660512740_3225_tl_35" n="N036"/>er in jeder Rolle immer und blos Gentleman. Von den
-      <lb facs="#facs_2_region_1684660512740_3225_tl_36" n="N037"/>neuesten Leistungen des Herrn <rs type="person">Adams</rs> war <rs type="person">Lohengrin</rs> die
-      <lb facs="#facs_2_region_1684660512740_3225_tl_37" n="N038"/>relativ glänzendste; die schwächste war <rs type="person">Robert</rs> der Teufel,
+      <lb facs="#facs_2_region_1684660512740_3225_tl_36" n="N037"/>neuesten Leistungen des Herrn <rs type="person" ref="#hsl_person_id_4109">Adams</rs> war <rs type="person" ref="#hsl_person_id_1126">Lohengrin</rs> die
+      <lb facs="#facs_2_region_1684660512740_3225_tl_37" n="N038"/>relativ glänzendste; die schwächste war <rs type="person" ref="#hsl_person_id_1138">Robert</rs> der Teufel,
       <lb facs="#facs_2_region_1684660512740_3225_tl_38" n="N039"/>eine Rolle, die ohne sinnliche Schönheit der Stimme gar nicht
-      <lb facs="#facs_2_region_1684660512740_3225_tl_39" n="N040"/>gedacht werden kann. Und dennoch wollen wir sie künftig¬
-      <lb facs="#facs_2_line_1734678448909_739" n="N041"/>hin uns lieber denken.</p>
+      <lb facs="#facs_2_region_1684660512740_3225_tl_39" n="N040"/>gedacht werden kann. Und dennoch wollen wir sie künftig
+      <lb facs="#facs_2_line_1734678448909_739" n="N041" break="no"/>hin uns lieber denken.</p>
          </div>
       </body>
    </text>

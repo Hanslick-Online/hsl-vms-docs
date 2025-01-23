@@ -106,7 +106,7 @@
       <revisionDesc status="final">
          <change who="awilfing" when="2025-01-06">Transkribus OCR und Lektorat.</change>
          <change who="delsner" when="2025-01-15">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
-         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="2025-01-23">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
@@ -1191,139 +1191,143 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
-            <head type="h1"><lb facs="#facs_1_region_1684660361175_3157_tl_1" n="N001"/>Aus dem Leben und der Correspondenz von Franz <rs type="person">Hauser</rs>. II.</head>
-            <head type="h2"><lb facs="#facs_1_region_1684660361175_3157_tl_2" n="N002"/>(Briefe von <rs type="person">Seydelmann</rs>, Jenny <rs type="person">Lind</rs> und Otto <rs type="person">Jahn</rs>.)</head>
+            <head type="h1"><lb facs="#facs_1_region_1684660361175_3157_tl_1" n="N001"/>Aus dem Leben und der Correspondenz von Franz <rs type="person" ref="#hsl_person_id_1832">Hauser</rs>. II.</head>
+            <head type="h2"><lb facs="#facs_1_region_1684660361175_3157_tl_2" n="N002"/>(Briefe von <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>, Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> und Otto <rs type="person" ref="#hsl_person_id_135">Jahn</rs>.)</head>
             <p>
-      <lb facs="#facs_1_region_1684660361175_3157_tl_3" n="N003"/>Ed. H. Der berühmte Schauspieler <rs type="person">Seydelmann</rs>, am
-      <lb facs="#facs_1_region_1684660361175_3157_tl_4" n="N004"/><rs type="place">Prag</rs>er Theater zugleich mit <rs type="person">Hauser</rs> engagirt, blieb diesem
+      <lb facs="#facs_1_region_1684660361175_3157_tl_3" n="N003"/>Ed. H. Der berühmte Schauspieler <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>, am
+      <lb facs="#facs_1_region_1684660361175_3157_tl_4" n="N004"/><rs type="place" ref="#hsl_place_id_45">Prag</rs>er Theater zugleich mit <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> engagirt, blieb diesem
       <lb facs="#facs_1_region_1684660361175_3157_tl_5" n="N005"/>zeitlebens in warmer Freundschaft zugethan. Mit Schmerz
-      <lb facs="#facs_1_region_1684660361175_3157_tl_6" n="N006"/>sieht er ihn von <rs type="place">Prag</rs> nach <rs type="place">Kassel</rs> übersiedeln und sendet ihm
+      <lb facs="#facs_1_region_1684660361175_3157_tl_6" n="N006"/>sieht er ihn von <rs type="place" ref="#hsl_place_id_45">Prag</rs> nach <rs type="place" ref="#hsl_place_id_538">Kassel</rs> übersiedeln und sendet ihm
       <lb facs="#facs_1_line_1734934769298_87" n="N007"/>eine Reihe von Briefen, deren gleichmäßige feinste Perlschrift
       <lb facs="#facs_1_region_1684660361175_3157_tl_7" n="N008"/>manchmal von dem etwas derben Schauspieler-Humor des
-      <lb facs="#facs_1_region_1684660361175_3157_tl_8" n="N009"/>Inhalts absticht. „Wenn dieser Brief an Sie kommt,“ be¬
-      <lb facs="#facs_1_region_1684660361175_3157_tl_9" n="N010"/>ginnt <rs type="person">Seydelmann</rs>'s erster <rs type="place">Prag</rs>er Brief vom Mai <date month="0" day="0" year="0">1822</date>, „so
-      <lb facs="#facs_1_line_1734934700380_64" n="N011"/>weiß ich nichts davon, denn ich gab' ihn gar nicht auf die
+      <lb facs="#facs_1_region_1684660361175_3157_tl_8" n="N009"/>Inhalts absticht. „Wenn dieser Brief an Sie kommt,“ be
+      <lb facs="#facs_1_region_1684660361175_3157_tl_9" n="N010" break="no"/>ginnt <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>’s erster <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Brief vom Mai <date>1822</date>, „so
+      <lb facs="#facs_1_line_1734934700380_64" n="N011"/>weiß ich nichts davon, denn ich gab’ ihn gar nicht auf die
       <lb facs="#facs_1_line_1734934704700_69" n="N012"/>Post — Sie Grobian!“ Trotz dieser forcirten Lustigkeit
       <lb facs="#facs_1_region_1684660361175_3157_tl_14" n="N013"/>macht sich jetzt schon das misanthropische Wesen bemerkbar,
-      <lb facs="#facs_1_line_1734934788757_93" n="N014"/>das später in <rs type="person">Seydelmann</rs> überhandnahm. Obgleich er seinen
-      <lb facs="#facs_1_region_1684660361175_3157_tl_15" n="N015"/>Director Franz v. <rs type="person">Holbein</rs> hochschätzt, geht er nicht zu dessen
-      <lb facs="#facs_1_region_1684660361175_3157_tl_16" n="N016"/>Soireen, „was selbst <hi rendition="#em"><rs type="person">Bayer</rs></hi> fleißig thut, <rs type="person">Polawsky</rs> und
-      <lb facs="#facs_1_region_1684660361175_3157_tl_17" n="N017"/><rs type="person">Wilhelmi</rs>“. „Ich hofire nicht,“ fährt er fort, „mich juckt es
+      <lb facs="#facs_1_line_1734934788757_93" n="N014"/>das später in <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs> überhandnahm. Obgleich er seinen
+      <lb facs="#facs_1_region_1684660361175_3157_tl_15" n="N015"/>Director Franz v. <rs type="person" ref="#hsl_person_id_128">Holbein</rs> hochschätzt, geht er nicht zu dessen
+      <lb facs="#facs_1_region_1684660361175_3157_tl_16" n="N016"/>Soireen, „was selbst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6309">Bayer</rs></hi> fleißig thut, <rs type="person" ref="#hsl_person_id_6310">Polawsky</rs> und
+      <lb facs="#facs_1_region_1684660361175_3157_tl_17" n="N017"/><rs type="person" ref="#hsl_person_id_6311">Wilhelmi</rs>“. „Ich hofire nicht,“ fährt er fort, „mich juckt es
       <lb facs="#facs_1_region_1684660361175_3157_tl_18" n="N018"/>nicht, gleich den Leuten so zu vertrauen, eine Art Fremdheit
-      <lb facs="#facs_1_region_1684660361175_3157_tl_19" n="N019"/>find' ich viel ersprießlicher; auf <hi rendition="#em">freundlich-süß</hi> ins Werk
+      <lb facs="#facs_1_region_1684660361175_3157_tl_19" n="N019"/>find’ ich viel ersprießlicher; auf <hi rendition="#em">freundlich-süß</hi> ins Werk
       <lb facs="#facs_1_region_1684660361175_3157_tl_20" n="N020"/>gesetzte Schurkereien bin ich stets gefaßt, auf Dienste, die nur
-      <lb facs="#facs_1_region_1684660361175_3157_tl_21" n="N021"/>mir allein von Nutzen, rechne ich nicht.“ Im Jahre <date month="0" day="0" year="0">1825</date>
-      <lb facs="#facs_1_region_1684660361175_3157_tl_22" n="N022"/>finden wir <rs type="person">Seydelmann</rs> in <rs type="place">Kassel</rs> engagirt, von wo jedoch
-      <lb facs="#facs_1_region_1684660361175_3157_tl_23" n="N023"/><rs type="person">Hauser</rs> bereits nach <rs type="place">Dresden</rs> abgegangen war. <rs type="person">Seydelmann</rs>
-      <lb facs="#facs_1_region_1684660361175_3157_tl_24" n="N024"/>kann dem Freunde jetzt aus <rs type="place">Kassel</rs>, wie früher aus <rs type="place">Prag</rs>, be¬
-      <lb facs="#facs_1_region_1684660361175_3157_tl_25" n="N025"/>richten, daß keiner von <rs type="person">Hauser</rs>'s Nachfolgern in dessen Rollen
-      <lb facs="#facs_1_region_1684660361175_3157_tl_26" n="N026"/>zu gefallen vermöge. <rs type="person">Seydelmann</rs> fühlt sich bald unglücklich
-      <lb facs="#facs_1_region_1684660361175_3157_tl_27" n="N027"/>in <rs type="place">Kassel</rs>, wo Alles Convenienz ist, nichts Kräftiges, nichts
+      <lb facs="#facs_1_region_1684660361175_3157_tl_21" n="N021"/>mir allein von Nutzen, rechne ich nicht.“ Im Jahre <date>1825</date><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684660361175_3157_tl_22" n="N022"/>finden wir <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs> in <rs type="place" ref="#hsl_place_id_538">Kassel</rs> engagirt, von wo jedoch
+      <lb facs="#facs_1_region_1684660361175_3157_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_1832">Hauser</rs> bereits nach <rs type="place" ref="#hsl_place_id_15">Dresden</rs> abgegangen war. <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684660361175_3157_tl_24" n="N024"/>kann dem Freunde jetzt aus <rs type="place" ref="#hsl_place_id_538">Kassel</rs>, wie früher aus <rs type="place" ref="#hsl_place_id_45">Prag</rs>, be
+      <lb facs="#facs_1_region_1684660361175_3157_tl_25" n="N025" break="no"/>richten, daß keiner von <rs type="person" ref="#hsl_person_id_1832">Hauser</rs>’s Nachfolgern in dessen Rollen
+      <lb facs="#facs_1_region_1684660361175_3157_tl_26" n="N026"/>zu gefallen vermöge. <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs> fühlt sich bald unglücklich
+      <lb facs="#facs_1_region_1684660361175_3157_tl_27" n="N027"/>in <rs type="place" ref="#hsl_place_id_538">Kassel</rs>, wo Alles Convenienz ist, nichts Kräftiges, nichts
       <lb facs="#facs_1_region_1684660361175_3157_tl_28" n="N028"/>Gefühltes, nur Mißtrauen und Kälte. Er fragt wiederholt,
-      <lb facs="#facs_1_region_1684660361175_3157_tl_29" n="N029"/>ob er nicht beim <rs type="place">Dresden</rs>er Theater ankommen könnte — „ich
-      <lb facs="#facs_1_line_1734934737580_75" n="N030"/>beneide Sie um <hi rendition="#em"><rs type="person">Tieck</rs>'s</hi> Nähe!“ Im Jahre <date month="0" day="0" year="0">1828</date> war
-      <lb facs="#facs_1_region_1684660361175_3157_tl_32" n="N031"/><rs type="person">Börne</rs> acht Tage lang in <rs type="place">Kassel</rs>. „Es hat ihm so
-      <lb facs="#facs_1_region_1684660361175_3157_tl_33" n="N032"/>gefallen,“ schreibt <rs type="person">Seydelmann</rs>, „daß er mich auf¬
-      <lb facs="#facs_1_line_1734934749166_82" n="N033"/>munterte, lieber heut' als morgen davonzugehen.“ Persön¬
-      <lb facs="#facs_1_region_1684660361175_3157_tl_36" n="N034"/>liches und eine Menge Theatergeschichtchen füllen zumeist</p>
+      <lb facs="#facs_1_region_1684660361175_3157_tl_29" n="N029"/>ob er nicht beim <rs type="place" ref="#hsl_place_id_15">Dresden</rs>er Theater ankommen könnte — „ich
+      <lb facs="#facs_1_line_1734934737580_75" n="N030"/>beneide Sie um <hi rendition="#em"><rs type="person" ref="#hsl_person_id_306">Tieck</rs>’s</hi> Nähe!“ Im Jahre <date>1828</date> war
+      <lb facs="#facs_1_region_1684660361175_3157_tl_32" n="N031"/><rs type="person" ref="#hsl_person_id_40">Börne</rs> acht Tage lang in <rs type="place" ref="#hsl_place_id_538">Kassel</rs>. „Es hat ihm so
+      <lb facs="#facs_1_region_1684660361175_3157_tl_33" n="N032"/>gefallen,“ schreibt <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>, „daß er mich auf
+      <lb facs="#facs_1_line_1734934749166_82" n="N033" break="no"/>munterte, lieber heut’ als morgen davonzugehen.“ Persön
+      <lb facs="#facs_1_region_1684660361175_3157_tl_36" n="N034" break="no"/>liches und eine Menge Theatergeschichtchen füllen zumeist<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-      <lb facs="#facs_1_line_1734934874228_131" n="N001"/><rs type="person">Seydelmann</rs>'s Briefe;*) wo Kunsturtheile vorkommen, sind
-      <lb facs="#facs_1_region_1684660364421_3160_tl_1" n="N002"/>sie ernst und strenge. So sagt er von dem berühmten Teno¬
-      <lb facs="#facs_1_line_1734934903605_138" n="N003"/>risten Franz <hi rendition="#em"><rs type="person">Wild</rs></hi> (<date month="0" day="0" year="0">1825</date>): „<hi rendition="#em"><rs type="person">Wild</rs></hi> ist kein Künstler, ein
-      <lb facs="#facs_1_region_1684660364421_3160_tl_2" n="N004"/>seltener Sänger, ja, aber doch ein Comödiant. Sein <rs type="person">Don</rs>
-      <lb facs="#facs_1_region_1684660364421_3160_tl_3" n="N005"/><rs type="person">Juan</rs> berechtigt zu dem Ausspruch.“ <rs type="person">Seydelmann</rs> tadelt nun
-      <lb facs="#facs_1_region_1684660364421_3160_tl_4" n="N006"/>das „schmähliche Verfahren“ <rs type="person">Wild</rs>'s, die Melodien zu ändern,
+            <p prev="true">
+      <lb facs="#facs_1_line_1734934874228_131" n="N001"/><rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>’s Briefe;
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_line_1734934832789_121" n="N036"/>So endet ein langer Brief <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>’s (<rs type="place" ref="#hsl_place_id_538">Kassel</rs><space quantity="1" unit="char"/><date>1825</date>) mit
+            <lb facs="#facs_1_line_1734934837380_124" n="N037"/>der Nachschrift: „Um Gotteswillen! Da hätte ich bald das Wichtigste
+            <lb facs="#facs_1_line_1734934840700_127" n="N038"/>vergessen: Ludwig <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1287">Löwe</rs></hi> geht mit ’nem <hi rendition="#em">Schnurrbart</hi> herum!“
+            </note>
+            wo Kunsturtheile vorkommen, sind
+      <lb facs="#facs_1_region_1684660364421_3160_tl_1" n="N002"/>sie ernst und strenge. So sagt er von dem berühmten Teno
+      <lb facs="#facs_1_line_1734934903605_138" n="N003" break="no"/>risten Franz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_325">Wild</rs></hi> (<date>1825</date>): „<hi rendition="#em"><rs type="person" ref="#hsl_person_id_325">Wild</rs></hi> ist kein Künstler, ein
+      <lb facs="#facs_1_region_1684660364421_3160_tl_2" n="N004"/>seltener Sänger, ja, aber doch ein Comödiant. Sein <rs type="person" ref="#hsl_person_id_475">Don
+      <lb facs="#facs_1_region_1684660364421_3160_tl_3" n="N005"/>Juan</rs> berechtigt zu dem Ausspruch.“ <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs> tadelt nun
+      <lb facs="#facs_1_region_1684660364421_3160_tl_4" n="N006"/>das „schmähliche Verfahren“ <rs type="person" ref="#hsl_person_id_325">Wild</rs>’s, die Melodien zu ändern,
       <lb facs="#facs_1_region_1684660364421_3160_tl_5" n="N007"/>zu verunglimpfen, obendrein in der Försterscene ein Ariettchen
-      <lb facs="#facs_1_region_1684660364421_3160_tl_6" n="N008"/>einzulegen. Nur als <hi rendition="#em"><rs type="person">Othello</rs></hi> findet er <rs type="person">Wild</rs> hinreißend.
-      <lb facs="#facs_1_region_1684660364421_3160_tl_7" n="N009"/>Noch strenger erscheint uns <rs type="person">Seydelmann</rs>'s Urtheil über die
-      <lb facs="#facs_1_line_1734934931685_145" n="N010"/>große Schauspielerin Sophie <hi rendition="#em"><rs type="person">Schröder</rs></hi> — ein Urtheil, das
+      <lb facs="#facs_1_region_1684660364421_3160_tl_6" n="N008"/>einzulegen. Nur als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4669">Othello</rs></hi> findet er <rs type="person" ref="#hsl_person_id_325">Wild</rs> hinreißend.
+      <lb facs="#facs_1_region_1684660364421_3160_tl_7" n="N009"/>Noch strenger erscheint uns <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>’s Urtheil über die
+      <lb facs="#facs_1_line_1734934931685_145" n="N010"/>große Schauspielerin Sophie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2207">Schröder</rs></hi> — ein Urtheil, das
       <lb facs="#facs_1_region_1684660364421_3160_tl_8" n="N011"/>jedoch zu viel Treffendes enthält und zu ehrenvolles Zeugniß
-      <lb facs="#facs_1_region_1684660364421_3160_tl_9" n="N012"/>gibt für den seltenen Ernst von <rs type="person">Seydelmann</rs>'s Kunstanschauung,
+      <lb facs="#facs_1_region_1684660364421_3160_tl_9" n="N012"/>gibt für den seltenen Ernst von <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>’s Kunstanschauung,
       <lb facs="#facs_1_region_1684660364421_3160_tl_10" n="N013"/>als daß es der Vergessenheit anheimzufallen verdiente. Er
-      <lb facs="#facs_1_region_1684660364421_3160_tl_11" n="N014"/>schreibt an <rs type="person">Hauser</rs> über die im Jahre <date month="0" day="0" year="0">1825</date> in <rs type="place">Kassel</rs> gasti¬
-      <lb facs="#facs_1_region_1684660364421_3160_tl_12" n="N015"/>rende <rs type="place">Wien</rs>er Hofschauspielerin: „Auch Madame <hi rendition="#em"><rs type="person">Schröder</rs></hi>
+      <lb facs="#facs_1_region_1684660364421_3160_tl_11" n="N014"/>schreibt an <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> über die im Jahre <date>1825</date> in <rs type="place" ref="#hsl_place_id_538">Kassel</rs> gasti
+      <lb facs="#facs_1_region_1684660364421_3160_tl_12" n="N015" break="no"/>rende <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hofschauspielerin: „Auch Madame <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2207">Schröder</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_1_region_1684660364421_3160_tl_13" n="N016"/>ist keine Künstlerin. Das klingt nun freilich ganz entsetzlich,
-      <lb facs="#facs_1_region_1684660364421_3160_tl_14" n="N017"/>wenn man von dieser weltbekannten Dame spricht. Mich kön¬
-      <lb facs="#facs_1_region_1684660364421_3160_tl_15" n="N018"/>nen aber Anderer Meinungen nicht gut verblüffen. Eigenschaf¬
-      <lb facs="#facs_1_region_1684660364421_3160_tl_16" n="N019"/>ten, Künstlerin zu sein, sind beiweitem nicht die Sache selbst,
-      <lb facs="#facs_1_region_1684660364421_3160_tl_17" n="N020"/>und Madame <rs type="person">Schröder</rs> hat's versäumt, seltene Gaben künst¬
-      <lb facs="#facs_1_region_1684660364421_3160_tl_18" n="N021"/>lerisch zu bilden und zu einen. Daß sie in der Reihe <rs type="place">deutsch</rs>er
+      <lb facs="#facs_1_region_1684660364421_3160_tl_14" n="N017"/>wenn man von dieser weltbekannten Dame spricht. Mich kön
+      <lb facs="#facs_1_region_1684660364421_3160_tl_15" n="N018" break="no"/>nen aber Anderer Meinungen nicht gut verblüffen. Eigenschaf
+      <lb facs="#facs_1_region_1684660364421_3160_tl_16" n="N019" break="no"/>ten, Künstlerin zu sein, sind beiweitem nicht die Sache selbst,
+      <lb facs="#facs_1_region_1684660364421_3160_tl_17" n="N020"/>und Madame <rs type="person" ref="#hsl_person_id_2207">Schröder</rs> hat’s versäumt, seltene Gaben künst
+      <lb facs="#facs_1_region_1684660364421_3160_tl_18" n="N021" break="no"/>lerisch zu bilden und zu einen. Daß sie in der Reihe <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er
       <lb facs="#facs_1_line_1734934965165_153" n="N022"/>Schauspielerinnen, die mit ihr in Einem Fache wirken, als
       <lb facs="#facs_1_line_1734934988892_159" n="N023"/>die bessere, als die beste meinetwegen dasteht, kann ihr doch
       <lb facs="#facs_1_region_1684660364421_3160_tl_19" n="N024"/>unmöglich schon das Prädicat der Künstlerin erwerben; in
-      <lb facs="#facs_1_region_1684660364421_3160_tl_20" n="N025"/>diesem Fall wär' ja der Einäugige unter den Blinden ein
-      <lb facs="#facs_1_region_1684660364421_3160_tl_21" n="N026"/>völlig Gesunder. Madame <rs type="person">Schröder</rs> ist nichts als eine glück¬
-      <lb facs="#facs_1_region_1684660364421_3160_tl_22" n="N027"/>liche, eine seltene Naturalistin. Seltenes Organ, seltene Kraft
+      <lb facs="#facs_1_region_1684660364421_3160_tl_20" n="N025"/>diesem Fall wär’ ja der Einäugige unter den Blinden ein
+      <lb facs="#facs_1_region_1684660364421_3160_tl_21" n="N026"/>völlig Gesunder. Madame <rs type="person" ref="#hsl_person_id_2207">Schröder</rs> ist nichts als eine glück
+      <lb facs="#facs_1_region_1684660364421_3160_tl_22" n="N027" break="no"/>liche, eine seltene Naturalistin. Seltenes Organ, seltene Kraft
       <lb facs="#facs_1_line_1734935030413_171" n="N028"/>und Dauer, heißes Blut (und nicht Gemüth!), Geschick im
-      <lb facs="#facs_1_region_1684660364421_3160_tl_23" n="N029"/>Auffinden und Hinstellen sogenannter Knall-Effecte, ein unge¬
-      <lb facs="#facs_1_region_1684660364421_3160_tl_24" n="N030"/>fähres Fassen ihrer Aufgabe, hin und wieder auch ein
-      <lb facs="#facs_1_line_1734935011405_165" n="N031"/>feiner Zug: das ist's, was ich aus ihrem Spiele
+      <lb facs="#facs_1_region_1684660364421_3160_tl_23" n="N029"/>Auffinden und Hinstellen sogenannter Knall-Effecte, ein unge
+      <lb facs="#facs_1_region_1684660364421_3160_tl_24" n="N030" break="no"/>fähres Fassen ihrer Aufgabe, hin und wieder auch ein
+      <lb facs="#facs_1_line_1734935011405_165" n="N031"/>feiner Zug: das ist’s, was ich aus ihrem Spiele
       <lb facs="#facs_1_region_1684660364421_3160_tl_25" n="N032"/>erkannt. <hi rendition="#em">Ideal</hi> sind ihre Leistungen mir keineswegs
       <lb facs="#facs_1_region_1684660364421_3160_tl_26" n="N033"/>erschienen; es belebt sie eine Kraft (die übrigens weit mehr
-      <lb facs="#facs_1_region_1684660364421_3160_tl_27" n="N034"/>vom <rs type="person">Teufel</rs> als von Oben stammt!), sich über die Alltäglich¬
-      <lb facs="#facs_1_region_1684660364421_3160_tl_28" n="N035"/>keit zu heben; doch gilt dies nur von Augenblicken — diese
-      <lb facs="#facs_1_line_1734934832789_121" n="N036"/>*) So endet ein langer Brief <rs type="person">Seydelmann</rs>'s (<rs type="place">Kassel</rs><date month="0" day="0" year="0">1825</date>) mit
-      <lb facs="#facs_1_line_1734934837380_124" n="N037"/>der Nachschrift: „Um Gotteswillen! Da hätte ich bald das Wichtigste
-      <lb facs="#facs_1_line_1734934840700_127" n="N038"/>vergessen: Ludwig <hi rendition="#em"><rs type="person">Löwe</rs></hi> geht mit 'nem <hi rendition="#em">Schnurrbart</hi> herum!“</p>
+      <lb facs="#facs_1_region_1684660364421_3160_tl_27" n="N034"/>vom <rs type="person" ref="#hsl_person_id_664">Teufel</rs> als von Oben stammt!), sich über die Alltäglich
+      <lb facs="#facs_1_region_1684660364421_3160_tl_28" n="N035" break="no"/>keit zu heben; doch gilt dies nur von Augenblicken — diese<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_1_region_1684660367820_3163_tl_1" n="N001"/>Augenblicke nun verblüffen und — futsch! sind die Kenner (!)
       <lb facs="#facs_1_region_1684660367820_3163_tl_2" n="N002"/>wie die Laien. Mir aber gelten derlei Augenblicke nichts,
       <lb facs="#facs_1_region_1684660367820_3163_tl_3" n="N003"/>gar nichts, wenn sie sich zum Uebrigen verhalten, wie der
-      <lb facs="#facs_1_region_1684660367820_3163_tl_4" n="N004"/>Bettelsack zur kurfürstlich <rs type="place">hessisch</rs>en Schatzkammer. Ein
+      <lb facs="#facs_1_region_1684660367820_3163_tl_4" n="N004"/>Bettelsack zur kurfürstlich <rs type="place" ref="#hsl_place_id_488">hessisch</rs>en Schatzkammer. Ein
       <lb facs="#facs_1_region_1684660367820_3163_tl_5" n="N005"/>mittelmäßiges Ganzes — muß es uns nicht lieber sein, als
-      <lb facs="#facs_1_region_1684660367820_3163_tl_6" n="N006"/>ein <rs type="person">Rafael</rs>'scher Kopf auf einem miserablen Rumpf? An
+      <lb facs="#facs_1_region_1684660367820_3163_tl_6" n="N006"/>ein <rs type="person" ref="#hsl_person_id_380">Rafael</rs>’scher Kopf auf einem miserablen Rumpf? An
       <lb facs="#facs_1_region_1684660367820_3163_tl_7" n="N007"/>einem schönen Kunstgebilde darf nichts unschön sein, und wenn
       <lb facs="#facs_1_region_1684660367820_3163_tl_8" n="N008"/>ich nun ein angepriesenes Kunstwerk jener hochgepriesenen
       <lb facs="#facs_1_region_1684660367820_3163_tl_9" n="N009"/>Frau gesehen hatte, so konnte ich mit ihr nur grollen,
       <lb facs="#facs_1_region_1684660367820_3163_tl_10" n="N010"/>daß so schöne Gaben gleichwol verschwendet sind.“
-      <lb facs="#facs_1_region_1684660367820_3163_tl_11" n="N011"/><rs type="person">Seydelmann</rs> schien es nicht beschieden zu sein, irgendwo
+      <lb facs="#facs_1_region_1684660367820_3163_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs> schien es nicht beschieden zu sein, irgendwo
       <lb facs="#facs_1_region_1684660367820_3163_tl_12" n="N012"/>dauernde Befriedigung zu finden; in seinen späteren Briefen
-      <lb facs="#facs_1_region_1684660367820_3163_tl_13" n="N013"/>klagt er über <rs type="place">Mannheim</rs> und <rs type="place">Stuttgart</rs>, wie früher über
-      <lb facs="#facs_1_region_1684660367820_3163_tl_14" n="N014"/><rs type="place">Kassel</rs>. Als Grund, warum er <date month="0" day="0" year="0">1832</date> schon zum zweitenmal
-      <lb facs="#facs_1_region_1684660367820_3163_tl_15" n="N015"/>um seine Entlassung vom <rs type="place">Stuttgart</rs>er Hoftheater gebeten,
+      <lb facs="#facs_1_region_1684660367820_3163_tl_13" n="N013"/>klagt er über <rs type="place" ref="#hsl_place_id_36">Mannheim</rs> und <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs>, wie früher über
+      <lb facs="#facs_1_region_1684660367820_3163_tl_14" n="N014"/><rs type="place" ref="#hsl_place_id_538">Kassel</rs>. Als Grund, warum er <date>1832</date> schon zum zweitenmal
+      <lb facs="#facs_1_region_1684660367820_3163_tl_15" n="N015"/>um seine Entlassung vom <rs type="place" ref="#hsl_place_id_87">Stuttgart</rs>er Hoftheater gebeten,
       <lb facs="#facs_1_region_1684660367820_3163_tl_16" n="N016"/>nennt er „die überhandnehmende Schürzenherrschaft“ einer
-      <lb facs="#facs_1_region_1684660367820_3163_tl_17" n="N017"/>damals berühmten, dem verstorbenen <rs type="person">König</rs> sehr nahestehenden
-      <lb facs="#facs_1_region_1684660367820_3163_tl_18" n="N018"/>Künstlerin. „Nimmermehr kann ich dieser Wirthschaft hul¬
-      <lb facs="#facs_1_region_1684660367820_3163_tl_19" n="N019"/>digen. Und das Schlimmste von diesem öffentlichen Geheimniß
-      <lb facs="#facs_1_region_1684660367820_3163_tl_20" n="N020"/>ist: man <hi rendition="#em">darf's</hi> nicht wissen!“ <hi rendition="#em"><rs type="place">Wien</rs></hi> hieß von jetzt an
-      <lb facs="#facs_1_region_1684660367820_3163_tl_21" n="N021"/>die Sehnsucht <rs type="person">Seydelmann</rs>'s, wie vordem <hi rendition="#em"><rs type="place">Dresden</rs></hi>. Seinem
-      <lb facs="#facs_1_region_1684660367820_3163_tl_22" n="N022"/>Freunde <rs type="person">Hauser</rs> war es vergönnt, wonach <rs type="person">Seydelmann</rs> so
+      <lb facs="#facs_1_region_1684660367820_3163_tl_17" n="N017"/>damals berühmten, dem verstorbenen <rs type="person" ref="#hsl_person_id_6312">König</rs> sehr nahestehenden
+      <lb facs="#facs_1_region_1684660367820_3163_tl_18" n="N018"/>Künstlerin. „Nimmermehr kann ich dieser Wirthschaft hul
+      <lb facs="#facs_1_region_1684660367820_3163_tl_19" n="N019" break="no"/>digen. Und das Schlimmste von diesem öffentlichen Geheimniß
+      <lb facs="#facs_1_region_1684660367820_3163_tl_20" n="N020"/>ist: man <hi rendition="#em">darf’s</hi> nicht wissen!“ <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> hieß von jetzt an
+      <lb facs="#facs_1_region_1684660367820_3163_tl_21" n="N021"/>die Sehnsucht <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs>’s, wie vordem <hi rendition="#em"><rs type="place" ref="#hsl_place_id_15">Dresden</rs></hi>. Seinem
+      <lb facs="#facs_1_region_1684660367820_3163_tl_22" n="N022"/>Freunde <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> war es vergönnt, wonach <rs type="person" ref="#hsl_person_id_4360">Seydelmann</rs> so
       <lb facs="#facs_1_region_1684660367820_3163_tl_23" n="N023"/>lange vergeblich strebte, eine würdige Stätte seiner Thätigkeit
-      <lb facs="#facs_1_region_1684660367820_3163_tl_24" n="N024"/>zuerst in <rs type="person">Dresden</rs>, dann in <hi rendition="#em"><rs type="place">Wien</rs></hi> zu finden.
+      <lb facs="#facs_1_region_1684660367820_3163_tl_24" n="N024"/>zuerst in <rs type="place" ref="#hsl_place_id_15">Dresden</rs>, dann in <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> zu finden.
+            </p><p>
       <lb facs="#facs_1_region_1684660367820_3163_tl_25" n="N025"/>Sehr interessant, charakteristisch für die Schreiberin wie
-      <lb facs="#facs_1_region_1684660367820_3163_tl_26" n="N026"/>für den Empfänger, sind die Briefe <hi rendition="#em">Jenny <rs type="person">Lind</rs>'s</hi> an
-      <lb facs="#facs_1_region_1684660367820_3163_tl_27" n="N027"/><rs type="person">Hauser</rs>. Es spricht daraus jenes tiefe Freundschaftsgefühl,
+      <lb facs="#facs_1_region_1684660367820_3163_tl_26" n="N026"/>für den Empfänger, sind die Briefe <hi rendition="#em">Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs>’s</hi> an
+      <lb facs="#facs_1_region_1684660367820_3163_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_1832">Hauser</rs>. Es spricht daraus jenes tiefe Freundschaftsgefühl,
       <lb facs="#facs_1_region_1684660367820_3163_tl_28" n="N028"/>jene bis zum Herben strenge Wahrhaftigkeit und Moralität,
       <lb facs="#facs_1_region_1684660367820_3163_tl_29" n="N029"/>welche wir an dieser Künstlerin kennen. Wir begreifen, wie
       <lb facs="#facs_1_region_1684660367820_3163_tl_30" n="N030"/>treu ihr Jeder anhing, den sie einmal in ihr Herz geschlossen,
       <lb facs="#facs_1_region_1684660367820_3163_tl_31" n="N031"/>während kaum Jemand, dem nur oberflächlicher Verkehr mit
-      <lb facs="#facs_1_region_1684660367820_3163_tl_32" n="N032"/>Jenny <rs type="person">Lind</rs> vergönnt war, sie „liebenswürdig“ gefunden hat.
-      <lb facs="#facs_1_region_1684660367820_3163_tl_33" n="N033"/>Unser <rs type="person">Hauser</rs> erfreute sich ganz besonderer Bevorzugung von
+      <lb facs="#facs_1_region_1684660367820_3163_tl_32" n="N032"/>Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> vergönnt war, sie „liebenswürdig“ gefunden hat.
+      <lb facs="#facs_1_region_1684660367820_3163_tl_33" n="N033"/>Unser <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> erfreute sich ganz besonderer Bevorzugung von
       <lb facs="#facs_1_region_1684660367820_3163_tl_34" n="N034"/>Seite dieser Künstlerin; als Mensch und Künstler stand er
-      <lb facs="#facs_1_region_1684660367820_3163_tl_35" n="N035"/>ihr überaus hoch. Jenny <rs type="person">Lind</rs> brachte <rs type="person">Hauser</rs> bei ihrer ersten
-      <lb facs="#facs_1_region_1684660367820_3163_tl_36" n="N036"/>Kunstreise nach <rs type="place">Wien</rs> einen Empfehlungsbrief von <rs type="person" continued="true">Mendels¬</rs>
-      <lb facs="#facs_1_region_1684660367820_3163_tl_37" n="N037"/><rs type="person" continued="true">sohn</rs> und verkehrte viel und gern mit <rs type="person">Hauser</rs>. Bald nach
-      <lb facs="#facs_1_region_1684660367820_3163_tl_38" n="N038"/>ihrer Abreise von <rs type="place">Wien</rs> beginnen ihre Briefe, deren große</p>
+      <lb facs="#facs_1_region_1684660367820_3163_tl_35" n="N035"/>ihr überaus hoch. Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> brachte <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> bei ihrer ersten
+      <lb facs="#facs_1_region_1684660367820_3163_tl_36" n="N036"/>Kunstreise nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> einen Empfehlungsbrief von <rs type="person" ref="#hsl_person_id_21">Mendels
+      <lb facs="#facs_1_region_1684660367820_3163_tl_37" n="N037" break="no"/>sohn</rs> und verkehrte viel und gern mit <rs type="person" ref="#hsl_person_id_1832">Hauser</rs>. Bald nach
+      <lb facs="#facs_1_region_1684660367820_3163_tl_38" n="N038"/>ihrer Abreise von <rs type="place" ref="#hsl_place_id_55">Wien</rs> beginnen ihre Briefe, deren große<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_2_region_1684660379752_3169_tl_1" n="N001"/>ungefüge Lateinschrift in nicht allzu leserlichen Zügen und nicht
-      <lb facs="#facs_2_region_1684660379752_3169_tl_2" n="N002"/>allzu correctem <rs type="place">Deutsch</rs> eigenthümlich zu uns spricht. „Ich
-      <lb facs="#facs_2_region_1684660379752_3169_tl_3" n="N003"/>habe oft, seitdem ich von <rs type="place">Wien</rs> fort bin, an Sie gedacht,“
-      <lb facs="#facs_2_region_1684660379752_3169_tl_4" n="N004"/>schreibt sie aus <rs type="place">Bremen</rs> im Juni <date month="0" day="0" year="0">1845</date> an <rs type="person">Hauser</rs>, „und oft
+      <lb facs="#facs_2_region_1684660379752_3169_tl_2" n="N002"/>allzu correctem <rs type="place" ref="#hsl_place_id_14">Deutsch</rs> eigenthümlich zu uns spricht. „Ich
+      <lb facs="#facs_2_region_1684660379752_3169_tl_3" n="N003"/>habe oft, seitdem ich von <rs type="place" ref="#hsl_place_id_55">Wien</rs> fort bin, an Sie gedacht,“
+      <lb facs="#facs_2_region_1684660379752_3169_tl_4" n="N004"/>schreibt sie aus <rs type="place" ref="#hsl_place_id_124">Bremen</rs> im Juni <date>1845</date> an <rs type="person" ref="#hsl_person_id_1832">Hauser</rs>, „und oft
       <lb facs="#facs_2_region_1684660379752_3169_tl_5" n="N005"/>im Gedanken an Sie geschrieben — aber nun kommt es auf
       <lb facs="#facs_2_region_1684660379752_3169_tl_6" n="N006"/>einmal wieder so mit Gewalt über mich, daß muß Ihnen
       <lb facs="#facs_2_region_1684660379752_3169_tl_7" n="N007"/>sprechen mit ein schlechten Feder, schlimmes Papier und in
-      <lb facs="#facs_2_region_1684660379752_3169_tl_8" n="N008"/><rs type="place">deutsch</rs>en Sprache! Aber was schadet das Alles, wenn man
-      <lb facs="#facs_2_region_1684660379752_3169_tl_9" n="N009"/>an einen <hi rendition="#em">Mensch</hi> schreibt. Ich habe was auf's Herz, und das will
+      <lb facs="#facs_2_region_1684660379752_3169_tl_8" n="N008"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Sprache! Aber was schadet das Alles, wenn man
+      <lb facs="#facs_2_region_1684660379752_3169_tl_9" n="N009"/>an einen <hi rendition="#em">Mensch</hi> schreibt. Ich habe was auf’s Herz, und das will
       <lb facs="#facs_2_region_1684660379752_3169_tl_10" n="N010"/>ich Ihnen ordentlich erzählen, aber zu allererst: ich danke
-      <lb facs="#facs_2_region_1684660379752_3169_tl_11" n="N011"/>Ihnen für die Zeit, die ich in <rs type="place">Wien</rs> war! ich danke Ihnen
+      <lb facs="#facs_2_region_1684660379752_3169_tl_11" n="N011"/>Ihnen für die Zeit, die ich in <rs type="place" ref="#hsl_place_id_55">Wien</rs> war! ich danke Ihnen
       <lb facs="#facs_2_region_1684660379752_3169_tl_12" n="N012"/>dann aus vollstem Herzen für die Freundschaft, die Sie mir
-      <lb facs="#facs_2_region_1684660379752_3169_tl_13" n="N013"/>gegeben und bewiesen. Ich danke Ihnen, daß Sie mir er¬
-      <lb facs="#facs_2_region_1684660379752_3169_tl_14" n="N014"/>kannt, ich meine, daß sie gleich auf der Stelle bemerkt, daß
-      <lb facs="#facs_2_region_1684660379752_3169_tl_15" n="N015"/><hi rendition="#em">auch mir</hi> der liebe Gott ein Herz gegeben! und nun kommt
+      <lb facs="#facs_2_region_1684660379752_3169_tl_13" n="N013"/>gegeben und bewiesen. Ich danke Ihnen, daß Sie mir er
+      <lb facs="#facs_2_region_1684660379752_3169_tl_14" n="N014" break="no"/>kannt, ich meine, daß sie gleich auf der Stelle bemerkt, daß
+      <lb facs="#facs_2_region_1684660379752_3169_tl_15" n="N015"/><hi rendition="#em">auch mir</hi> der liebe <rs type="person" ref="#hsl_person_id_416">Gott</rs> ein Herz gegeben! und nun kommt
       <lb facs="#facs_2_region_1684660379752_3169_tl_16" n="N016"/>meine Erzählung: ich habe Sie innig herzlich lieb gewonnen
       <lb facs="#facs_2_region_1684660379752_3169_tl_17" n="N017"/>und fühle mit Bestimmtheit, daß ich Sie <hi rendition="#em">nie</hi> in meinem
       <lb facs="#facs_2_region_1684660379752_3169_tl_18" n="N018"/>Leben werde vergessen können, und daß Sie zu denen (ge)hören,
@@ -1334,217 +1338,224 @@
       <lb facs="#facs_2_region_1684660379752_3169_tl_23" n="N023"/>nun bin ich gleich leichter zu Muthe. Glauben Sie nur
       <lb facs="#facs_2_region_1684660379752_3169_tl_24" n="N024"/>nicht, daß ich irgend ein Brief oder Antwort verlange, oder
       <lb facs="#facs_2_region_1684660379752_3169_tl_25" n="N025"/>daß Sie eine Correspondenze auf dem Halse bekommen haben.
-      <lb facs="#facs_2_region_1684660379752_3169_tl_26" n="N026"/>Nein, das ist ja nicht nöthig, aber doch möchte ich doch <hi rendition="#em">ein¬</hi>
-      <lb facs="#facs_2_region_1684660379752_3169_tl_27" n="N027"/><hi rendition="#em">mal</hi> hören, wie es Ihnen alle geht! Sie sind doch wohl in
-      <lb facs="#facs_2_region_1684660379752_3169_tl_28" n="N028"/><rs type="place">Wien</rs> nächsten Winter? Denn wie soll es denn gehen, wenn
+      <lb facs="#facs_2_region_1684660379752_3169_tl_26" n="N026"/>Nein, das ist ja nicht nöthig, aber doch möchte ich doch <hi rendition="#em">ein
+      <lb facs="#facs_2_region_1684660379752_3169_tl_27" n="N027" break="no"/>mal</hi> hören, wie es Ihnen alle geht! Sie sind doch wohl in
+      <lb facs="#facs_2_region_1684660379752_3169_tl_28" n="N028"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> nächsten Winter? Denn wie soll es denn gehen, wenn
       <lb facs="#facs_2_region_1684660379752_3169_tl_29" n="N029"/>ich nicht Ihr freundliches Gesicht auf der Bühne zuweilen zu
       <lb facs="#facs_2_region_1684660379752_3169_tl_30" n="N030"/>sehen kriege, oder Ihren väterlichen Rath oder dergleichen?
-      <lb facs="#facs_2_region_1684660379752_3169_tl_31" n="N031"/>Am <rs type="place">Rhein</rs> war es schön! Die Zeit ist sehr sehr schnell vor¬
-      <lb facs="#facs_2_region_1684660379752_3169_tl_32" n="N032"/>über gegangen, aber sie lebt doch in frischen Farben in mein
-      <lb facs="#facs_2_region_1684660379752_3169_tl_33" n="N033"/>dankbares Herz. Denn das größte Glück bleibt doch: <hi rendition="#em">Reine,</hi>
-      <lb facs="#facs_2_region_1684660379752_3169_tl_34" n="N034"/><hi rendition="#em">Edle Menschenherzen</hi> zu finden. Sie zweifeln gewiß
+      <lb facs="#facs_2_region_1684660379752_3169_tl_31" n="N031"/>Am <rs type="place" ref="#hsl_place_id_245">Rhein</rs> war es schön! Die Zeit ist sehr sehr schnell vor
+      <lb facs="#facs_2_region_1684660379752_3169_tl_32" n="N032" break="no"/>über gegangen, aber sie lebt doch in frischen Farben in mein
+      <lb facs="#facs_2_region_1684660379752_3169_tl_33" n="N033"/>dankbares Herz. Denn das größte Glück bleibt doch: <hi rendition="#em">Reine,
+      <lb facs="#facs_2_region_1684660379752_3169_tl_34" n="N034"/>Edle Menschenherzen</hi> zu finden. Sie zweifeln gewiß
       <lb facs="#facs_2_region_1684660379752_3169_tl_35" n="N035"/>nicht, daß dies Bezug auf meine Reisegefährten hat! Ach!
-      <lb facs="#facs_2_region_1684660379752_3169_tl_36" n="N036"/>Das Leben ist schön, das Leben ist reich. <hi rendition="#em">Das Andere</hi>
-      <lb facs="#facs_2_region_1684660379752_3169_tl_37" n="N037"/>muß aber etwas ruhiger und länger werden, sonst bleib' ich
-      <lb facs="#facs_2_region_1684660379752_3169_tl_38" n="N038"/>glaub' ich lieber hier! Aber — Scherz bei Seite — mögen</p>
+      <lb facs="#facs_2_region_1684660379752_3169_tl_36" n="N036"/>Das Leben ist schön, das Leben ist reich. <hi rendition="#em">Das Andere</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684660379752_3169_tl_37" n="N037"/>muß aber etwas ruhiger und länger werden, sonst bleib’ ich
+      <lb facs="#facs_2_region_1684660379752_3169_tl_38" n="N038"/>glaub’ ich lieber hier! Aber — Scherz bei Seite — mögen<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_2_region_1684660383469_3172_tl_1" n="N001"/>wir uns doch am liebsten bald <hi rendition="#em">da</hi> wiedersehen, wo
       <lb facs="#facs_2_region_1684660383469_3172_tl_2" n="N002"/>keine Trennung mehr vorkommt (aber wieder kein
-      <lb facs="#facs_2_line_1734935117038_198" n="N003"/>Wiedersehen, und das ist schade!) <rs type="person">Gott</rs> beschütze Sie!
-      <lb facs="#facs_2_line_1734935120405_203" n="N004"/>Für immer Ihre treu ergebene <hi rendition="#em">Jenny <rs type="person">Lind</rs></hi>.“
-      <lb facs="#facs_2_line_1734935066709_183" n="N005"/>Die nächsten Briefe sind schon nach <rs type="place">München</rs> gerichtet, wo
-      <lb facs="#facs_2_region_1684660383469_3172_tl_7" n="N006"/><hi rendition="#em"><rs type="person">Hauser</rs></hi> Director des Conservatoriums geworden war. „Sind
-      <lb facs="#facs_2_region_1684660383469_3172_tl_8" n="N007"/>Sie noch krank?“ fragt Jenny <rs type="person">Lind</rs>. „Ja, ja — das ist
+      <lb facs="#facs_2_line_1734935117038_198" n="N003"/>Wiedersehen, und das ist schade!) <rs type="person" ref="#hsl_person_id_416">Gott</rs> beschütze Sie!
+      <lb facs="#facs_2_line_1734935120405_203" n="N004"/>Für immer Ihre treu ergebene <hi rendition="#em">Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs></hi>.“
+      <lb facs="#facs_2_line_1734935066709_183" n="N005"/>Die nächsten Briefe sind schon nach <rs type="place" ref="#hsl_place_id_39">München</rs> gerichtet, wo
+      <lb facs="#facs_2_region_1684660383469_3172_tl_7" n="N006"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1832">Hauser</rs></hi> Director des Conservatoriums geworden war. „Sind
+      <lb facs="#facs_2_region_1684660383469_3172_tl_8" n="N007"/>Sie noch krank?“ fragt Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs>. „Ja, ja — das ist
       <lb facs="#facs_2_region_1684660383469_3172_tl_9" n="N008"/>eine böse Krankheit, wenn man sich nach irgend etwas sehnt,
       <lb facs="#facs_2_region_1684660383469_3172_tl_10" n="N009"/>besonders nach dem Vaterlande! Ach warum sind die meisten
-      <lb facs="#facs_2_line_1734935147037_210" n="N010"/>Menschen entweder <hi rendition="#em">dumm, boshaft, neidisch</hi> oder <hi rendition="#em">ohne</hi>
+      <lb facs="#facs_2_line_1734935147037_210" n="N010"/>Menschen entweder <hi rendition="#em">dumm, boshaft, neidisch</hi> oder <hi rendition="#em">ohne</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684660383469_3172_tl_11" n="N011"/>die geringste Auffassung? Warum haben alle nicht so ein
-      <lb facs="#facs_2_region_1684660383469_3172_tl_12" n="N012"/><hi rendition="#em">Gebirgsgemüth</hi> wie z. B. <hi rendition="#em"><rs type="person">Gasser</rs></hi>, für dessen Gefühle
-      <lb facs="#facs_2_region_1684660383469_3172_tl_13" n="N013"/>und Aeußerungen ich niederknien könnte, so rein und himmels¬
-      <lb facs="#facs_2_region_1684660383469_3172_tl_14" n="N014"/>blau kommen sie alle heraus!*) Wie neugierig bin ich, zu
-      <lb facs="#facs_2_region_1684660383469_3172_tl_15" n="N015"/>sehen, wie der liebe <rs type="person">Gott</rs> die Menschen classiren werde ein¬
-      <lb facs="#facs_2_region_1684660383469_3172_tl_16" n="N016"/>mal. Da gibt's eine schöne Geschichte. O Friede! O stille zu¬
-      <lb facs="#facs_2_region_1684660383469_3172_tl_17" n="N017"/>rückgezogene Häuslichkeit! Wann werd' ich in deine Thüre ein¬
-      <lb facs="#facs_2_region_1684660383469_3172_tl_18" n="N018"/>gelassen!“
+      <lb facs="#facs_2_region_1684660383469_3172_tl_12" n="N012"/><hi rendition="#em">Gebirgsgemüth</hi> wie z. B. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6308">Gasser</rs></hi>, für dessen Gefühle
+      <lb facs="#facs_2_region_1684660383469_3172_tl_13" n="N013"/>und Aeußerungen ich niederknien könnte, so rein und himmels
+      <lb facs="#facs_2_region_1684660383469_3172_tl_14" n="N014" break="no"/>blau kommen sie alle heraus!
+            <note type="footnote" n="**)">
+            <lb facs="#facs_2_region_1684660383469_3172_tl_37" n="N037"/>*) Es ist der Bildhauer <hi rendition="#em">Hanns <rs type="person" ref="#hsl_person_id_6308">Gasser</rs></hi> gemeint.
+            </note>
+            Wie neugierig bin ich, zu
+      <lb facs="#facs_2_region_1684660383469_3172_tl_15" n="N015"/>sehen, wie der liebe <rs type="person" ref="#hsl_person_id_416">Gott</rs> die Menschen classiren werde ein
+      <lb facs="#facs_2_region_1684660383469_3172_tl_16" n="N016" break="no"/>mal. Da gibt’s eine schöne Geschichte. O Friede! O stille zu
+      <lb facs="#facs_2_region_1684660383469_3172_tl_17" n="N017" break="no"/>rückgezogene Häuslichkeit! Wann werd’ ich in deine Thüre ein
+      <lb facs="#facs_2_region_1684660383469_3172_tl_18" n="N018" break="no"/>gelassen!“
+            </p><p>
       <lb facs="#facs_2_region_1684660383469_3172_tl_19" n="N019"/>Der herzliche, freundschaftliche Ton bleibt sich immer
-      <lb facs="#facs_2_region_1684660383469_3172_tl_20" n="N020"/>gleich, auch in folgenden Briefen, die Jenny <rs type="person">Lind</rs> zu Anfang
-      <lb facs="#facs_2_region_1684660383469_3172_tl_21" n="N021"/>des Jahres <date month="0" day="0" year="0">1847</date> aus <rs type="place">Wien</rs> an <rs type="person">Hauser</rs> schreibt. „Nun schrei¬
-      <lb facs="#facs_2_region_1684660383469_3172_tl_22" n="N022"/>ben wir also <date month="0" day="0" year="0">1847</date>! Ja, alles geht in der Welt — und
-      <lb facs="#facs_2_region_1684660383469_3172_tl_23" n="N023"/>Sieben und vierzig wird wol auch gehen. Mögen Sie froh, ge¬
-      <lb facs="#facs_2_region_1684660383469_3172_tl_24" n="N024"/>sund und glücklich bleiben, und mögen Sie überhaupt es <hi rendition="#em">so</hi>
-      <lb facs="#facs_2_region_1684660383469_3172_tl_25" n="N025"/>haben, wie ich's Ihnen wünsche. Aber Sie wissen ja, man
+      <lb facs="#facs_2_region_1684660383469_3172_tl_20" n="N020"/>gleich, auch in folgenden Briefen, die Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> zu Anfang
+      <lb facs="#facs_2_region_1684660383469_3172_tl_21" n="N021"/>des Jahres <date>1847</date> aus <rs type="place" ref="#hsl_place_id_55">Wien</rs> an <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> schreibt. „Nun schrei
+      <lb facs="#facs_2_region_1684660383469_3172_tl_22" n="N022" break="no"/>ben wir also <date>1847</date>! Ja, alles geht in der Welt — und
+      <lb facs="#facs_2_region_1684660383469_3172_tl_23" n="N023"/>Sieben und vierzig wird wol auch gehen. Mögen Sie froh, ge
+      <lb facs="#facs_2_region_1684660383469_3172_tl_24" n="N024" break="no"/>sund und glücklich bleiben, und mögen Sie überhaupt es <hi rendition="#em">so</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684660383469_3172_tl_25" n="N025"/>haben, wie ich’s Ihnen wünsche. Aber Sie wissen ja, man
       <lb facs="#facs_2_region_1684660383469_3172_tl_26" n="N026"/>kann nur das Beste für seine Freunde hoffen und wünschen,
       <lb facs="#facs_2_region_1684660383469_3172_tl_27" n="N027"/>das Leiden kann man dennoch nicht immer vorbeugen! Ich
       <lb facs="#facs_2_region_1684660383469_3172_tl_28" n="N028"/>werde Sie immer mit der aufrichtigsten Freundschaft gedenken,
-      <lb facs="#facs_2_region_1684660383469_3172_tl_29" n="N029"/>und zwischen uns wird's immer beim alten bleiben, d. h. wir
+      <lb facs="#facs_2_region_1684660383469_3172_tl_29" n="N029"/>und zwischen uns wird’s immer beim alten bleiben, d. h. wir
       <lb facs="#facs_2_region_1684660383469_3172_tl_30" n="N030"/>werden uns gewiß immer gut verstehen und vertragen können
       <lb facs="#facs_2_region_1684660383469_3172_tl_31" n="N031"/>und fürchte <hi rendition="#em">nie</hi>, daß eine veränderte Stimmung zwischen uns
-      <lb facs="#facs_2_region_1684660383469_3172_tl_32" n="N032"/><hi rendition="#em">je</hi> eintreffen wird. Dafür bürge ich und ich weiß — <hi rendition="#em">Sie</hi>
+      <lb facs="#facs_2_region_1684660383469_3172_tl_32" n="N032"/><hi rendition="#em">je</hi> eintreffen wird. Dafür bürge ich und ich weiß — <hi rendition="#em">Sie</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684660383469_3172_tl_33" n="N033"/>auch.“ „Wohin werden aber die Wiener zuletzt kommen, bester
-      <lb facs="#facs_2_region_1684660383469_3172_tl_34" n="N034"/><rs type="person">Hauser</rs>? Es ist zu toll. Ich war gestern im Kärnthnerthor
-      <lb facs="#facs_2_region_1684660383469_3172_tl_35" n="N035"/>(oder wie schreibt man das Wort) und hörte <hi rendition="#em"><rs type="bibl">Robert</rs></hi> und
-      <lb facs="#facs_2_region_1684660383469_3172_tl_36" n="N036"/>es ging so <hi rendition="#em">schändlich</hi>, daß ich weiß keine Worte dafür.
-      <lb facs="#facs_2_region_1684660383469_3172_tl_37" n="N037"/>*) Es ist der Bildhauer <hi rendition="#em">Hanns <rs type="person">Gasser</rs></hi> gemeint.</p>
+      <lb facs="#facs_2_region_1684660383469_3172_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_1832">Hauser</rs>? Es ist zu toll. Ich war gestern im Kärnthnerthor
+      <lb facs="#facs_2_region_1684660383469_3172_tl_35" n="N035"/>(oder wie schreibt man das Wort) und hörte <hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_58">Robert</rs></hi> und
+      <lb facs="#facs_2_region_1684660383469_3172_tl_36" n="N036"/>es ging so <hi rendition="#em">schändlich</hi>, daß ich weiß keine Worte dafür.<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-      <lb facs="#facs_2_line_1734935101956_189" n="N001"/>Die <hi rendition="#em"><rs type="person">Hasselt-Barth</rs></hi> sang <rs type="person">Alice</rs>! und die <hi rendition="#em"><rs type="person">Zerr</rs></hi> die <rs type="person">Prin¬</rs>
-      <lb facs="#facs_2_region_1684660386942_3175_tl_1" n="N002"/><rs type="person">zessin</rs>, o du mein Himmel! und das Publicum hat <hi rendition="#em">gerast</hi>!
+            <p prev="true">
+      <lb facs="#facs_2_line_1734935101956_189" n="N001"/>Die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_111">Hasselt-Barth</rs></hi> sang <rs type="person" ref="#hsl_person_id_4750">Alice</rs>! und die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2931">Zerr</rs></hi> die <rs type="person" ref="#hsl_person_id_596">Prin
+      <lb facs="#facs_2_region_1684660386942_3175_tl_1" n="N002" break="no"/>zessin</rs>, o du mein Himmel! und das Publicum hat <hi rendition="#em">gerast</hi>!
       <lb facs="#facs_2_region_1684660386942_3175_tl_2" n="N003"/>Ich zittere noch heute, wenn ich an dies <hi rendition="#em">Tremulando</hi> von
-      <lb facs="#facs_2_region_1684660386942_3175_tl_3" n="N004"/>diesen beiden Damen denke. Das ist uns're jetzige Kunst! Es
-      <lb facs="#facs_2_region_1684660386942_3175_tl_4" n="N005"/>ist viel besser in <rs type="place">München</rs>, und sogar bei <hi rendition="#em"><rs type="person">Pokorny</rs></hi> ist es
-      <lb facs="#facs_2_region_1684660386942_3175_tl_5" n="N006"/>viel besser. Gott sei Dank, ich bleibe nicht lange. Die <rs type="bibl">Regi¬</rs>
-      <lb facs="#facs_2_region_1684660386942_3175_tl_6" n="N007"/><rs type="bibl">mentstochter</rs> wird wol übermorgen sein, <rs type="person">Staudigl</rs> macht den
+      <lb facs="#facs_2_region_1684660386942_3175_tl_3" n="N004"/>diesen beiden Damen denke. Das ist uns’re jetzige Kunst! Es
+      <lb facs="#facs_2_region_1684660386942_3175_tl_4" n="N005"/>ist viel besser in <rs type="place" ref="#hsl_place_id_39">München</rs>, und sogar bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5908">Pokorny</rs></hi> ist es
+      <lb facs="#facs_2_region_1684660386942_3175_tl_5" n="N006"/>viel besser. Gott sei Dank, ich bleibe nicht lange. Die <rs type="bibl" ref="#hsl_work_id_1279">Regi
+      <lb facs="#facs_2_region_1684660386942_3175_tl_6" n="N007" break="no"/>mentstochter</rs> wird wol übermorgen sein, <rs type="person" ref="#hsl_person_id_8">Staudigl</rs> macht den
       <lb facs="#facs_2_region_1684660386942_3175_tl_7" n="N008"/>Sergeanten.“
-      <lb facs="#facs_2_region_1684660386942_3175_tl_8" n="N009"/>Am 20. Februar <date month="0" day="0" year="0">1847</date> schreibt Jenny <rs type="person">Lind</rs> sehr aufgeregt
-      <lb facs="#facs_2_region_1684660386942_3175_tl_9" n="N010"/>über die durch Lola <rs type="person">Montez</rs> heraufbeschworenen Unruhen in
-      <lb facs="#facs_2_region_1684660386942_3175_tl_10" n="N011"/><rs type="place">München</rs>, von welchen <rs type="person">Hauser</rs> ihr eben Nachricht gegeben:
+            </p><p>
+      <lb facs="#facs_2_region_1684660386942_3175_tl_8" n="N009"/>Am 20. Februar <date>1847</date> schreibt Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> sehr aufgeregt
+      <lb facs="#facs_2_region_1684660386942_3175_tl_9" n="N010"/>über die durch Lola <rs type="person" ref="#hsl_person_id_5957">Montez</rs> heraufbeschworenen Unruhen in
+      <lb facs="#facs_2_region_1684660386942_3175_tl_10" n="N011"/><rs type="place" ref="#hsl_place_id_39">München</rs>, von welchen <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> ihr eben Nachricht gegeben:
       <lb facs="#facs_2_region_1684660386942_3175_tl_11" n="N012"/>„Ich kann Ihnen nicht beschreiben,“ ruft sie aus, „wie mich
       <lb facs="#facs_2_region_1684660386942_3175_tl_12" n="N013"/>die Sachen aufgeregt! Ist denn alle Vernunft ausgestorben?
       <lb facs="#facs_2_region_1684660386942_3175_tl_13" n="N014"/>und kann man denn so eine ganze Nation wegwerfen? Es ist
-      <lb facs="#facs_2_region_1684660386942_3175_tl_14" n="N015"/>traurig. Gebe <rs type="person">Gott</rs>, daß da bald was geschieht — aber
+      <lb facs="#facs_2_region_1684660386942_3175_tl_14" n="N015"/>traurig. Gebe <rs type="person" ref="#hsl_person_id_416">Gott</rs>, daß da bald was geschieht — aber
       <lb facs="#facs_2_region_1684660386942_3175_tl_15" n="N016"/>bald — und daß Sie in voller Ruhe dort bleiben können,
       <lb facs="#facs_2_region_1684660386942_3175_tl_16" n="N017"/>und daß irgend eine Veränderung eintreffe und Sie wieder
-      <lb facs="#facs_2_region_1684660386942_3175_tl_17" n="N018"/>vielleicht nach <rs type="place">Wien</rs> kämen — so passen Sie mal auf (wie
-      <lb facs="#facs_2_region_1684660386942_3175_tl_18" n="N019"/>der <hi rendition="#em"><rs type="person">Dessauer</rs></hi> immer sagt) dann heirathe ich hier in <rs type="place">Wien</rs>,
+      <lb facs="#facs_2_region_1684660386942_3175_tl_17" n="N018"/>vielleicht nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> kämen — so passen Sie mal auf (wie
+      <lb facs="#facs_2_region_1684660386942_3175_tl_18" n="N019"/>der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_751">Dessauer</rs></hi> immer sagt) dann heirathe ich hier in <rs type="place" ref="#hsl_place_id_55">Wien</rs>,
       <lb facs="#facs_2_region_1684660386942_3175_tl_19" n="N020"/>damit wir zusammen bleiben. Sonderbar, wie es nur in der
-      <lb facs="#facs_2_region_1684660386942_3175_tl_20" n="N021"/>letzten Zeit sonderbar geht! So viel Spectakel in <rs type="place">London</rs>,
+      <lb facs="#facs_2_region_1684660386942_3175_tl_20" n="N021"/>letzten Zeit sonderbar geht! So viel Spectakel in <rs type="place" ref="#hsl_place_id_34">London</rs>,
       <lb facs="#facs_2_region_1684660386942_3175_tl_21" n="N022"/>daß ich lieber ich weiß nicht was thue, als hinzugehen, und
-      <lb facs="#facs_2_region_1684660386942_3175_tl_22" n="N023"/>nach <rs type="place">München</rs> zu gehen wird jetzt bedenklich. <rs type="person">Gott</rs> behüte
+      <lb facs="#facs_2_region_1684660386942_3175_tl_22" n="N023"/>nach <rs type="place" ref="#hsl_place_id_39">München</rs> zu gehen wird jetzt bedenklich. <rs type="person" ref="#hsl_person_id_416">Gott</rs> behüte
       <lb facs="#facs_2_region_1684660386942_3175_tl_23" n="N024"/>Euch vor Revolution; die Sache ist zu scabrös und fordert
-      <lb facs="#facs_2_region_1684660386942_3175_tl_24" n="N025"/>große Opfer, ehe es wieder gut gehen kann. Ist denn so un¬
-      <lb facs="#facs_2_region_1684660386942_3175_tl_25" n="N026"/>möglich, dies verlorene Wesen wegzubringen, todt oder lebendig
+      <lb facs="#facs_2_region_1684660386942_3175_tl_24" n="N025"/>große Opfer, ehe es wieder gut gehen kann. Ist denn so un
+      <lb facs="#facs_2_region_1684660386942_3175_tl_25" n="N026" break="no"/>möglich, dies verlorene Wesen wegzubringen, todt oder lebendig
       <lb facs="#facs_2_region_1684660386942_3175_tl_26" n="N027"/>— einerlei? Nein, das ist wahr, etwas Aehnliches hat man
       <lb facs="#facs_2_line_1734935166629_217" n="N028"/>nie erlebt; keine Zeit, schlecht sie auch war, vermag etwas
-      <lb facs="#facs_2_line_1734935171652_221" n="N029"/>Aehnliches aufzuweisen!“ Von der Politik geht die Brief¬
-      <lb facs="#facs_2_region_1684660386942_3175_tl_31" n="N030"/>stellerin nun zur Kunst über und berichtet von der ersten Auf¬
-      <lb facs="#facs_2_region_1684660386942_3175_tl_32" n="N031"/>führung der „<rs type="bibl">Vielka</rs>“ im <rs type="place">Wieden</rs>er Theater. „Die Oper ist
-      <lb facs="#facs_2_region_1684660386942_3175_tl_33" n="N032"/>sehr gut aufgenommen worden und <rs type="person">Meyerbeer</rs><hi rendition="#em">stürmisch</hi>
-      <lb facs="#facs_2_region_1684660386942_3175_tl_34" n="N033"/>empfangen. Ich hatte eine solche Angst, daß ich <hi rendition="#em">stockheiser</hi>
+      <lb facs="#facs_2_line_1734935171652_221" n="N029"/>Aehnliches aufzuweisen!“ Von der Politik geht die Brief
+      <lb facs="#facs_2_region_1684660386942_3175_tl_31" n="N030" break="no"/>stellerin nun zur Kunst über und berichtet von der ersten Auf
+      <lb facs="#facs_2_region_1684660386942_3175_tl_32" n="N031" break="no"/>führung der „<rs type="bibl" ref="#hsl_work_id_8">Vielka</rs>“ im <rs type="place" ref="#hsl_place_id_61">Wieden</rs>er Theater. „Die Oper ist
+      <lb facs="#facs_2_region_1684660386942_3175_tl_33" n="N032"/>sehr gut aufgenommen worden und <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs><hi rendition="#em">stürmisch</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684660386942_3175_tl_34" n="N033"/>empfangen. Ich hatte eine solche Angst, daß ich <hi rendition="#em">stockheiser</hi><space quantity="1" unit="char"/>
       <lb facs="#facs_2_region_1684660386942_3175_tl_35" n="N034"/>war, und begreife nicht, daß man mich nicht ausgepfiffen hat.
       <lb facs="#facs_2_region_1684660386942_3175_tl_36" n="N035"/>Die Oper enthält viel Schönes, etwas lang — aber je mehr
-      <lb facs="#facs_2_region_1684660386942_3175_tl_37" n="N036"/>man sie hört, desto mehr versöhnt man sich damit. Sag' ich,
+      <lb facs="#facs_2_region_1684660386942_3175_tl_37" n="N036"/>man sie hört, desto mehr versöhnt man sich damit. Sag’ ich,
       <lb facs="#facs_2_region_1684660386942_3175_tl_38" n="N037"/>daß die Oper für die Wiener so eigentlich paßt, so lüge ich,
-      <lb facs="#facs_2_region_1684660386942_3175_tl_39" n="N038"/>aber sie sind Alle in solcher Aufregung, daß sie noch nicht</p>
+      <lb facs="#facs_2_region_1684660386942_3175_tl_39" n="N038"/>aber sie sind Alle in solcher Aufregung, daß sie noch nicht<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_3_region_1684660398365_3181_tl_1" n="N001"/>wissen, wie es zusammenhängt. Von halb 11 Uhr an war
-      <lb facs="#facs_3_region_1684660398365_3181_tl_2" n="N002"/>der Schauplatz beinahe gefüllt, und also beinah dreizehn Stun¬
-      <lb facs="#facs_3_region_1684660398365_3181_tl_3" n="N003"/>den sind die Menschen dagesessen! Oh <rs type="person">Dieu</rs>!! Ich sehne
+      <lb facs="#facs_3_region_1684660398365_3181_tl_2" n="N002"/>der Schauplatz beinahe gefüllt, und also beinah dreizehn Stun
+      <lb facs="#facs_3_region_1684660398365_3181_tl_3" n="N003" break="no"/>den sind die Menschen dagesessen! Oh <rs type="person" ref="#hsl_person_id_416">Dieu</rs>!! Ich sehne
       <lb facs="#facs_3_region_1684660398365_3181_tl_4" n="N004"/>mich so nach dem Frühling und von der Bühne! Nach
       <lb facs="#facs_3_region_1684660398365_3181_tl_5" n="N005"/>jeder Vorstellung nimmt dieser Wunsch bei mir zu. Die
-      <lb facs="#facs_3_region_1684660398365_3181_tl_6" n="N006"/>Intriguen in <rs type="place">London</rs> will ich nicht mitmachen; in dieses
+      <lb facs="#facs_3_region_1684660398365_3181_tl_6" n="N006"/>Intriguen in <rs type="place" ref="#hsl_place_id_34">London</rs> will ich nicht mitmachen; in dieses
       <lb facs="#facs_3_region_1684660398365_3181_tl_7" n="N007"/>Elend hinzugehen, fällt mir nicht ein, denn es ward gewiß
       <lb facs="#facs_3_region_1684660398365_3181_tl_8" n="N008"/>um mich geschehen, dies Alles kann mein Talent nicht tragen!
-      <lb facs="#facs_3_region_1684660398365_3181_tl_9" n="N009"/>Heute ist wieder die „<rs type="bibl">Vielka</rs>“ — <rs type="person">Gott</rs> stehe uns Allen bei!“
-      <lb facs="#facs_3_region_1684660398365_3181_tl_10" n="N010"/>Diese Abneigung gegen <rs type="place">London</rs> verkehrte sich bald in das
-      <lb facs="#facs_3_region_1684660398365_3181_tl_11" n="N011"/>Gegentheil, denn noch im selben Jahre (August <date month="0" day="0" year="0">1847</date>) schreibt
-      <lb facs="#facs_3_region_1684660398365_3181_tl_12" n="N012"/>Jenny <rs type="person">Lind</rs> von dort an <rs type="person">Hauser</rs>: „Ich habe eine schöne Zeit
+      <lb facs="#facs_3_region_1684660398365_3181_tl_9" n="N009"/>Heute ist wieder die „<rs type="bibl" ref="#hsl_work_id_8">Vielka</rs>“ — <rs type="person" ref="#hsl_person_id_416">Gott</rs> stehe uns Allen bei!“
+      <lb facs="#facs_3_region_1684660398365_3181_tl_10" n="N010"/>Diese Abneigung gegen <rs type="place" ref="#hsl_place_id_34">London</rs> verkehrte sich bald in das
+      <lb facs="#facs_3_region_1684660398365_3181_tl_11" n="N011"/>Gegentheil, denn noch im selben Jahre (August <date>1847</date>) schreibt
+      <lb facs="#facs_3_region_1684660398365_3181_tl_12" n="N012"/>Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> von dort an <rs type="person" ref="#hsl_person_id_1832">Hauser</rs>: „Ich habe eine schöne Zeit
       <lb facs="#facs_3_region_1684660398365_3181_tl_13" n="N013"/>erlebt und es ist mir gelungen das ganze Theater auf meinen
       <lb facs="#facs_3_region_1684660398365_3181_tl_14" n="N014"/>Schultern zu tragen und das ist meine einzige Entschuldigung
       <lb facs="#facs_3_region_1684660398365_3181_tl_15" n="N015"/>warum ich nicht geschrieben. Ich habe sehr viel gearbeitet und
       <lb facs="#facs_3_region_1684660398365_3181_tl_16" n="N016"/>bin auch reichlich belohnt, denn das hiesige Publicum behandelt
       <lb facs="#facs_3_region_1684660398365_3181_tl_17" n="N017"/>mich wie ihr <hi rendition="#em">Kind</hi>! und ich finde die Engländer das
-      <lb facs="#facs_3_region_1684660398365_3181_tl_18" n="N018"/>dankbarste Publicum das existirt. Mit der <rs type="bibl">Nachtwandlerin</rs>
-      <lb facs="#facs_3_region_1684660398365_3181_tl_19" n="N019"/>hab' ich besonders Glück gemacht und wir hätten diese Oper
-      <lb facs="#facs_3_region_1684660398365_3181_tl_20" n="N020"/>allein geben (können) die ganze Saison. Die <rs type="person">Königin</rs> ist sehr
-      <lb facs="#facs_3_region_1684660398365_3181_tl_21" n="N021"/>gnädig und lieb gegen mich gewesen, die <hi rendition="#em">Mutter <rs type="person">Grisi</rs></hi>
+      <lb facs="#facs_3_region_1684660398365_3181_tl_18" n="N018"/>dankbarste Publicum das existirt. Mit der <rs type="bibl" ref="#hsl_work_id_352">Nachtwandlerin</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684660398365_3181_tl_19" n="N019"/>hab’ ich besonders Glück gemacht und wir hätten diese Oper
+      <lb facs="#facs_3_region_1684660398365_3181_tl_20" n="N020"/>allein geben (können) die ganze Saison. Die <rs type="person" ref="#hsl_person_id_4133">Königin</rs> ist sehr
+      <lb facs="#facs_3_region_1684660398365_3181_tl_21" n="N021"/>gnädig und lieb gegen mich gewesen, die <hi rendition="#em">Mutter <rs type="person" ref="#hsl_person_id_5350 #hsl_person_id_862">Grisi</rs></hi><space quantity="1" unit="char"/>
       <lb facs="#facs_3_region_1684660398365_3181_tl_22" n="N022"/>aber — sie mag mir gar nicht leiden.“
+            </p><p>
       <lb facs="#facs_3_region_1684660398365_3181_tl_23" n="N023"/>Eine lebhafte Correspondenz von durchaus ernstem, meist
-      <lb facs="#facs_3_region_1684660398365_3181_tl_24" n="N024"/>musikwissenschaftlichem Inhalte verband <hi rendition="#em"><rs type="person">Hauser</rs></hi> mit dem
-      <lb facs="#facs_3_region_1684660398365_3181_tl_25" n="N025"/>trefflichen <rs type="person">Mozart</rs>-Biographen Professor <hi rendition="#em">Otto <rs type="person">Jahn</rs></hi>. Ein
+      <lb facs="#facs_3_region_1684660398365_3181_tl_24" n="N024"/>musikwissenschaftlichem Inhalte verband <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1832">Hauser</rs></hi> mit dem
+      <lb facs="#facs_3_region_1684660398365_3181_tl_25" n="N025"/>trefflichen <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-Biographen Professor <hi rendition="#em">Otto <rs type="person" ref="#hsl_person_id_135">Jahn</rs></hi>. Ein
       <lb facs="#facs_3_region_1684660398365_3181_tl_26" n="N026"/>Päckchen Briefe von Letzterem liegt uns vor, sie reichen vom
-      <lb facs="#facs_3_region_1684660398365_3181_tl_27" n="N027"/>Jahre <date month="0" day="0" year="0">1853</date> bis <date month="0" day="0" year="0">1868</date> — immer dieselben unverändert festen,
+      <lb facs="#facs_3_region_1684660398365_3181_tl_27" n="N027"/>Jahre <date>1853</date> bis <date>1868</date> — immer dieselben unverändert festen,
       <lb facs="#facs_3_region_1684660398365_3181_tl_28" n="N028"/>sauberen Züge, die engste, kleinste, aufrechtstehendste aller
-      <lb facs="#facs_3_region_1684660398365_3181_tl_29" n="N029"/>Rabenfederschriften! <hi rendition="#em">Sebastian <rs type="person">Bach</rs></hi> und die Ausgabe
+      <lb facs="#facs_3_region_1684660398365_3181_tl_29" n="N029"/>Rabenfederschriften! <hi rendition="#em">Sebastian <rs type="person" ref="#hsl_person_id_18">Bach</rs></hi> und die Ausgabe
       <lb facs="#facs_3_region_1684660398365_3181_tl_30" n="N030"/>seiner Werke durch die „Bach-Gesellschaft“ bilden den Stoff
-      <lb facs="#facs_3_region_1684660398365_3181_tl_31" n="N031"/>der ersten, noch aus <rs type="person">Jahn</rs>'s <rs type="place">Leipzig</rs>er Aufenthalt stammenden
-      <lb facs="#facs_3_region_1684660398365_3181_tl_32" n="N032"/>Briefe. <rs type="person">Hauser</rs> war im Besitze zahlreicher sehr werthvoller
-      <lb facs="#facs_3_region_1684660398365_3181_tl_33" n="N033"/>und seltener „Bachica“; es wird von Seite <hi rendition="#em"><rs type="person">Jahn</rs>'s</hi> um
+      <lb facs="#facs_3_region_1684660398365_3181_tl_31" n="N031"/>der ersten, noch aus <rs type="person" ref="#hsl_person_id_135">Jahn</rs>’s <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>er Aufenthalt stammenden
+      <lb facs="#facs_3_region_1684660398365_3181_tl_32" n="N032"/>Briefe. <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> war im Besitze zahlreicher sehr werthvoller
+      <lb facs="#facs_3_region_1684660398365_3181_tl_33" n="N033"/>und seltener „Bachica“; es wird von Seite <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs>’s</hi> um
       <lb facs="#facs_3_region_1684660398365_3181_tl_34" n="N034"/>Mittheilung derselben für die Bach-Gesellschaft gebeten, über
       <lb facs="#facs_3_region_1684660398365_3181_tl_35" n="N035"/>Thätigkeit und Methode der letzteren berichtet, endlich der Rath
-      <lb facs="#facs_3_region_1684660398365_3181_tl_36" n="N036"/><rs type="person">Hauser</rs>'s in Betreff einzelner <rs type="person">Bach</rs>-Editionen und Autographe an¬
-      <lb facs="#facs_3_region_1684660398365_3181_tl_37" n="N037"/>gesucht. <rs type="person">Jahn</rs>'s Briefe bleiben meistens streng bei der Sache, doch
-      <lb facs="#facs_3_line_1734935370700_254" n="N038"/>enthalten einige davon auch manche willkommene Abschweifung und</p>
+      <lb facs="#facs_3_region_1684660398365_3181_tl_36" n="N036"/><rs type="person" ref="#hsl_person_id_1832">Hauser</rs>’s in Betreff einzelner <rs type="person" ref="#hsl_person_id_18">Bach</rs>-Editionen und Autographe an
+      <lb facs="#facs_3_region_1684660398365_3181_tl_37" n="N037" break="no"/>gesucht. <rs type="person" ref="#hsl_person_id_135">Jahn</rs>’s Briefe bleiben meistens streng bei der Sache, doch
+      <lb facs="#facs_3_line_1734935370700_254" n="N038"/>enthalten einige davon auch manche willkommene Abschweifung und<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-      <lb facs="#facs_3_region_1684660402046_3184_tl_1" n="N001"/>feine selbstständige Bemerkung: „Wenn Sie nicht ein so lebens¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_2" n="N002"/>erfahrener Mann wären,“ apostrophirt er einmal seinen Freund
-      <lb facs="#facs_3_region_1684660402046_3184_tl_3" n="N003"/><rs type="person">Hauser</rs>, „würde ich Ihnen eine schöne Entschuldigung her¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_4" n="N004"/>setzen, warum ich erst jetzt schreibe: so aber zweifle ich nicht
+            <p prev="true">
+      <lb facs="#facs_3_region_1684660402046_3184_tl_1" n="N001"/>feine selbstständige Bemerkung: „Wenn Sie nicht ein so lebens
+      <lb facs="#facs_3_region_1684660402046_3184_tl_2" n="N002" break="no"/>erfahrener Mann wären,“ apostrophirt er einmal seinen Freund
+      <lb facs="#facs_3_region_1684660402046_3184_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_1832">Hauser</rs>, „würde ich Ihnen eine schöne Entschuldigung her
+      <lb facs="#facs_3_region_1684660402046_3184_tl_4" n="N004" break="no"/>setzen, warum ich erst jetzt schreibe: so aber zweifle ich nicht
       <lb facs="#facs_3_line_1734935265444_229" n="N005"/>im mindesten, daß Sie genau wissen, wie es zugeht, daß man
       <lb facs="#facs_3_region_1684660402046_3184_tl_5" n="N006"/>zu Zeiten alle seine Briefe in Gedanken, aber keinen mit der
-      <lb facs="#facs_3_region_1684660402046_3184_tl_6" n="N007"/>Feder schreibt. Warum hat man noch keinen Gedanken-Tele¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_7" n="N008"/>graphen erfunden? Man wird es gewiß, aber hoffentlich er¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_8" n="N009"/>leben wir es nicht mehr, wo sollte man vor lauter Gedanken
-      <lb facs="#facs_3_region_1684660402046_3184_tl_9" n="N010"/>hin?“ Während <rs type="person">Jahn</rs> noch an seinem „<rs type="bibl">Mozart</rs>“ arbeitete, beschäf¬
-      <lb facs="#facs_3_line_1734935285900_235" n="N011"/>tigte ihn bekanntlich schon der Plan einer später zu verfassen¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_10" n="N012"/>den <rs type="bibl">Beethoven-Biographie</rs>. Darauf bezieht sich folgende Stelle
-      <lb facs="#facs_3_region_1684660402046_3184_tl_11" n="N013"/>aus einem Briefe <rs type="person">Jahn</rs>'s vom 19. Juni <date month="0" day="0" year="0">1858</date>: „Was Sie
-      <lb facs="#facs_3_region_1684660402046_3184_tl_12" n="N014"/>über das Verhältniß <rs type="person">Mozart</rs>'s und <rs type="person">Beethoven</rs>'s andeuten, in¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_13" n="N015"/>teressirt mich lebhaft und hat mich, wie Sie denken können,
-      <lb facs="#facs_3_region_1684660402046_3184_tl_14" n="N016"/>lange und lebhaft beschäftigt. In <hi rendition="#em"><rs type="person">Mozart</rs></hi> kann ich Sie fast
-      <lb facs="#facs_3_region_1684660402046_3184_tl_15" n="N017"/>ganz umgehen und thue es absichtlich, weil ich so weitgrei¬
-      <lb facs="#facs_3_line_1734935408228_262" n="N018"/>fende Fragen nicht gern abstract, sondern vom Concreten aus
+      <lb facs="#facs_3_region_1684660402046_3184_tl_6" n="N007"/>Feder schreibt. Warum hat man noch keinen Gedanken-Tele
+      <lb facs="#facs_3_region_1684660402046_3184_tl_7" n="N008" break="no"/>graphen erfunden? Man wird es gewiß, aber hoffentlich er
+      <lb facs="#facs_3_region_1684660402046_3184_tl_8" n="N009" break="no"/>leben wir es nicht mehr, wo sollte man vor lauter Gedanken
+      <lb facs="#facs_3_region_1684660402046_3184_tl_9" n="N010"/>hin?“ Während <rs type="person" ref="#hsl_person_id_135">Jahn</rs> noch an seinem „<rs type="bibl" ref="#hsl_work_id_485">Mozart</rs>“ arbeitete, beschäf
+      <lb facs="#facs_3_line_1734935285900_235" n="N011" break="no"/>tigte ihn bekanntlich schon der Plan einer später zu verfassen
+      <lb facs="#facs_3_region_1684660402046_3184_tl_10" n="N012" break="no"/>den <rs type="bibl" ref="#hsl_work_id_3251">Beethoven-Biographie</rs>. Darauf bezieht sich folgende Stelle
+      <lb facs="#facs_3_region_1684660402046_3184_tl_11" n="N013"/>aus einem Briefe <rs type="person" ref="#hsl_person_id_135">Jahn</rs>’s vom 19. Juni <date>1858</date>: „Was Sie
+      <lb facs="#facs_3_region_1684660402046_3184_tl_12" n="N014"/>über das Verhältniß <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s andeuten, in
+      <lb facs="#facs_3_region_1684660402046_3184_tl_13" n="N015" break="no"/>teressirt mich lebhaft und hat mich, wie Sie denken können,
+      <lb facs="#facs_3_region_1684660402046_3184_tl_14" n="N016"/>lange und lebhaft beschäftigt. In <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> kann ich Sie fast
+      <lb facs="#facs_3_region_1684660402046_3184_tl_15" n="N017"/>ganz umgehen und thue es absichtlich, weil ich so weitgrei
+      <lb facs="#facs_3_line_1734935408228_262" n="N018" break="no"/>fende Fragen nicht gern abstract, sondern vom Concreten aus
       <lb facs="#facs_3_region_1684660402046_3184_tl_16" n="N019"/>und in ihrem ganzen lebendigen Zusammenhange behandle;
-      <lb facs="#facs_3_region_1684660402046_3184_tl_17" n="N020"/>bei <hi rendition="#em"><rs type="person">Beethoven</rs></hi> liegt die Frage nothwendig vor, und mir graut
+      <lb facs="#facs_3_region_1684660402046_3184_tl_17" n="N020"/>bei <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> liegt die Frage nothwendig vor, und mir graut
       <lb facs="#facs_3_region_1684660402046_3184_tl_18" n="N021"/>davor, nicht weil ich mich fürchte, offen herauszureden, sondern
       <lb facs="#facs_3_region_1684660402046_3184_tl_19" n="N022"/>weil so etwas nicht blos Schweiß, sondern Herzblut kostet.
-      <lb facs="#facs_3_region_1684660402046_3184_tl_20" n="N023"/>Ihre Gegensätze: <rs type="place">Italienisch</rs> — <rs type="place">deutsch</rs>, akademisch — nicht aka¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_21" n="N024"/>demisch sind gewiß treffend, aber ich meine, man muß noch
+      <lb facs="#facs_3_region_1684660402046_3184_tl_20" n="N023"/>Ihre Gegensätze: <rs type="place" ref="#hsl_place_id_28">Italienisch</rs> — <rs type="place" ref="#hsl_place_id_14">deutsch</rs>, akademisch — nicht aka
+      <lb facs="#facs_3_region_1684660402046_3184_tl_21" n="N024" break="no"/>demisch sind gewiß treffend, aber ich meine, man muß noch
       <lb facs="#facs_3_region_1684660402046_3184_tl_22" n="N025"/>weiter hineingehen, und ich weiß nicht, wie weit Sie mitgehen.
       <lb facs="#facs_3_region_1684660402046_3184_tl_23" n="N026"/>Mir scheint, der alte nie endende Kampf um die Freiheit des
       <lb facs="#facs_3_region_1684660402046_3184_tl_24" n="N027"/>Individuums, den der Humanismus, die Reformation, die
-      <lb facs="#facs_3_region_1684660402046_3184_tl_25" n="N028"/>Revolution u. s. w. an anderen Stellen der geistigen Exi¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_26" n="N029"/>stenz begonnen haben, den hat <rs type="person">Beethoven</rs> in der Musik auf¬
-      <lb facs="#facs_3_line_1734935436117_270" n="N030"/>genommen. Mit Ernst und Wahrheit unternehmen das nur
-      <lb facs="#facs_3_region_1684660402046_3184_tl_27" n="N031"/>große Naturen, und noch hat es Keiner gethan, ohne die Ge¬
-      <lb facs="#facs_3_region_1684660402046_3184_tl_28" n="N032"/>fahren aufzudecken, die es ihm und seinen Nachfahren bringt.
+      <lb facs="#facs_3_region_1684660402046_3184_tl_25" n="N028"/>Revolution u. s. w. an anderen Stellen der geistigen Exi
+      <lb facs="#facs_3_region_1684660402046_3184_tl_26" n="N029" break="no"/>stenz begonnen haben, den hat <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in der Musik auf
+      <lb facs="#facs_3_line_1734935436117_270" n="N030" break="no"/>genommen. Mit Ernst und Wahrheit unternehmen das nur
+      <lb facs="#facs_3_region_1684660402046_3184_tl_27" n="N031"/>große Naturen, und noch hat es Keiner gethan, ohne die Ge
+      <lb facs="#facs_3_region_1684660402046_3184_tl_28" n="N032" break="no"/>fahren aufzudecken, die es ihm und seinen Nachfahren bringt.
       <lb facs="#facs_3_region_1684660402046_3184_tl_29" n="N033"/>Ich glaube, seine Größe und seine Schwächen liegen in diesem
       <lb facs="#facs_3_line_1734935310396_242" n="N034"/>Keime nothwendig beschlossen, darum zeugen auch seine
       <lb facs="#facs_3_region_1684660402046_3184_tl_30" n="N035"/>Schwächen für seine Größe. Natürlich trauen Sie mir nicht
       <lb facs="#facs_3_region_1684660402046_3184_tl_31" n="N036"/>zu, daß ich ihn für einen Radicalen in Religion, Politik,
       <lb facs="#facs_3_region_1684660402046_3184_tl_32" n="N037"/>Philosophie, nebenbei auch in Musik halte, wie man jetzt zu
-      <lb facs="#facs_3_region_1684660402046_3184_tl_33" n="N038"/>schwatzen liebt, ich spreche von seiner innersten künstlerischen</p>
+      <lb facs="#facs_3_region_1684660402046_3184_tl_33" n="N038"/>schwatzen liebt, ich spreche von seiner innersten künstlerischen<space quantity="1" unit="char"/></p>
             <cb n="9"/>
-            <p>
+            <p prev="true">
       <lb facs="#facs_3_region_1684660405906_3187_tl_1" n="N001"/>Natur. Aber, bester Freund, das ist ein Meer auszutrinken
       <lb facs="#facs_3_line_1734935335804_248" n="N002"/>und nichts für einen Brief.“
-      <lb facs="#facs_3_region_1684660405906_3187_tl_2" n="N003"/>Zehn Jahre später (<date month="0" day="0" year="0">1868</date>) correspondiren die beiden
-      <lb facs="#facs_3_region_1684660405906_3187_tl_3" n="N004"/>Freunde über die Herausgabe einer Auswahl von M. <hi rendition="#em"><rs type="person" continued="true">Haupt¬</rs></hi>
-      <lb facs="#facs_3_region_1684660405906_3187_tl_4" n="N005"/><hi rendition="#em"><rs type="person" continued="true">mann</rs>'s</hi> Briefen. Nach dem Tode dieses berühmten Musik-
-      <lb facs="#facs_3_region_1684660405906_3187_tl_5" n="N006"/>Theoretikers und geistvollen Schriftstellers hatte <rs type="person">Jahn</rs> sich
-      <lb facs="#facs_3_region_1684660405906_3187_tl_6" n="N007"/>entschlossen, eine Auswahl von <rs type="person">Hauptmann</rs>'s Briefen zu ver¬
-      <lb facs="#facs_3_region_1684660405906_3187_tl_7" n="N008"/>öffentlichen. „Ich denke, das kann und soll ein Buch werden,
-      <lb facs="#facs_3_region_1684660405906_3187_tl_8" n="N009"/>wie es nicht viele gibt!“ <rs type="person">Hauptmann</rs> hat mitunter seine
+            </p><p>
+      <lb facs="#facs_3_region_1684660405906_3187_tl_2" n="N003"/>Zehn Jahre später (<date>1868</date>) correspondiren die beiden
+      <lb facs="#facs_3_region_1684660405906_3187_tl_3" n="N004"/>Freunde über die Herausgabe einer Auswahl von M. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_687">Haupt
+      <lb facs="#facs_3_region_1684660405906_3187_tl_4" n="N005" break="no"/>mann</rs>’s</hi> Briefen. Nach dem Tode dieses berühmten Musik-
+      <lb facs="#facs_3_region_1684660405906_3187_tl_5" n="N006"/>Theoretikers und geistvollen Schriftstellers hatte <rs type="person" ref="#hsl_person_id_135">Jahn</rs> sich
+      <lb facs="#facs_3_region_1684660405906_3187_tl_6" n="N007"/>entschlossen, eine Auswahl von <rs type="person" ref="#hsl_person_id_687">Hauptmann</rs>’s Briefen zu ver
+      <lb facs="#facs_3_region_1684660405906_3187_tl_7" n="N008" break="no"/>öffentlichen. „Ich denke, das kann und soll ein Buch werden,
+      <lb facs="#facs_3_region_1684660405906_3187_tl_8" n="N009"/>wie es nicht viele gibt!“ <rs type="person" ref="#hsl_person_id_687">Hauptmann</rs> hat mitunter seine
       <lb facs="#facs_3_region_1684660405906_3187_tl_9" n="N010"/>treffendsten Urtheile, seine geistreichsten Ausführungen in
       <lb facs="#facs_3_region_1684660405906_3187_tl_10" n="N011"/>freundschaftlichen Briefen niedergelegt, und wer je einige
-      <lb facs="#facs_3_region_1684660405906_3187_tl_11" n="N012"/>davon gelesen, wird obigem Ausrufe <rs type="person">Jahn</rs>'s beistimmen und
+      <lb facs="#facs_3_region_1684660405906_3187_tl_11" n="N012"/>davon gelesen, wird obigem Ausrufe <rs type="person" ref="#hsl_person_id_135">Jahn</rs>’s beistimmen und
       <lb facs="#facs_3_region_1684660405906_3187_tl_12" n="N013"/>mit uns bedauern, daß jenes Unternehmen noch immer nicht
-      <lb facs="#facs_3_region_1684660405906_3187_tl_13" n="N014"/>ausgeführt ist. Vielleicht die kostbarsten Briefe <rs type="person">Hauptmann</rs>'s
-      <lb facs="#facs_3_region_1684660405906_3187_tl_14" n="N015"/>waren an <rs type="person">Hauser</rs> gerichtet, der, in langjährigem freundschaft¬
-      <lb facs="#facs_3_region_1684660405906_3187_tl_15" n="N016"/>lichsten Verkehr mit ihm stehend, drei Bände solcher Briefe
-      <lb facs="#facs_3_region_1684660405906_3187_tl_16" n="N017"/>von <rs type="person">Hauptmann</rs> besaß und an <rs type="person">Jahn</rs> einschickte. Letzterer starb
-      <lb facs="#facs_3_region_1684660405906_3187_tl_17" n="N018"/>über der Redaction dieser Briefsammlung, welche sich wahr¬
-      <lb facs="#facs_3_region_1684660405906_3187_tl_18" n="N019"/>scheinlich in Händen der Herren Breitkopf und Härtel in
-      <lb facs="#facs_3_region_1684660405906_3187_tl_19" n="N020"/><rs type="place">Leipzig</rs> befindet. Möchten diese Zeilen dazu beitragen, die
-      <lb facs="#facs_3_region_1684660405906_3187_tl_20" n="N021"/>hochverdienten Verleger zur baldigen Herausgabe dieses Brief¬
-      <lb facs="#facs_3_region_1684660405906_3187_tl_21" n="N022"/>schatzes anzueifern! <hi rendition="#em"><rs type="person">Jahn</rs>'s</hi> letzter kurzer Brief an <rs type="person">Hauser</rs>
-      <lb facs="#facs_3_region_1684660405906_3187_tl_22" n="N023"/>(aus <rs type="place">Bonn</rs>, den 15. Juni <date month="0" day="0" year="0">1869</date>) macht einen tiefwehmüthigen
-      <lb facs="#facs_3_region_1684660405906_3187_tl_23" n="N024"/>Eindruck. „Sie machen sich,“ beginnt er, „eine falsche Vor¬
-      <lb facs="#facs_3_region_1684660405906_3187_tl_24" n="N025"/>stellung von meiner Gesundheit, lieber Freund, wenn Sie
+      <lb facs="#facs_3_region_1684660405906_3187_tl_13" n="N014"/>ausgeführt ist. Vielleicht die kostbarsten Briefe <rs type="person" ref="#hsl_person_id_687">Hauptmann</rs>’s
+      <lb facs="#facs_3_region_1684660405906_3187_tl_14" n="N015"/>waren an <rs type="person" ref="#hsl_person_id_1832">Hauser</rs> gerichtet, der, in langjährigem freundschaft
+      <lb facs="#facs_3_region_1684660405906_3187_tl_15" n="N016" break="no"/>lichsten Verkehr mit ihm stehend, drei Bände solcher Briefe
+      <lb facs="#facs_3_region_1684660405906_3187_tl_16" n="N017"/>von <rs type="person" ref="#hsl_person_id_687">Hauptmann</rs> besaß und an <rs type="person" ref="#hsl_person_id_135">Jahn</rs> einschickte. Letzterer starb
+      <lb facs="#facs_3_region_1684660405906_3187_tl_17" n="N018"/>über der Redaction dieser Briefsammlung, welche sich wahr
+      <lb facs="#facs_3_region_1684660405906_3187_tl_18" n="N019" break="no"/>scheinlich in Händen der Herren Breitkopf und Härtel in
+      <lb facs="#facs_3_region_1684660405906_3187_tl_19" n="N020"/><rs type="place" ref="#hsl_place_id_32">Leipzig</rs> befindet. Möchten diese Zeilen dazu beitragen, die
+      <lb facs="#facs_3_region_1684660405906_3187_tl_20" n="N021"/>hochverdienten Verleger zur baldigen Herausgabe dieses Brief
+      <lb facs="#facs_3_region_1684660405906_3187_tl_21" n="N022" break="no"/>schatzes anzueifern! <hi rendition="#em"><rs type="person" ref="#hsl_person_id_135">Jahn</rs>’s</hi> letzter kurzer Brief an <rs type="person" ref="#hsl_person_id_1832">Hauser</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684660405906_3187_tl_22" n="N023"/>(aus <rs type="place" ref="#hsl_place_id_67">Bonn</rs>, den 15. Juni <date>1869</date>) macht einen tiefwehmüthigen
+      <lb facs="#facs_3_region_1684660405906_3187_tl_23" n="N024"/>Eindruck. „Sie machen sich,“ beginnt er, „eine falsche Vor
+      <lb facs="#facs_3_region_1684660405906_3187_tl_24" n="N025" break="no"/>stellung von meiner Gesundheit, lieber Freund, wenn Sie
       <lb facs="#facs_3_region_1684660405906_3187_tl_25" n="N026"/>mich auf einem Musikfest vermuthen. Seit mehreren Jahren
-      <lb facs="#facs_3_region_1684660405906_3187_tl_26" n="N027"/>habe ich mich von allem socialen und wissenschaftlichen Um¬
-      <lb facs="#facs_3_region_1684660405906_3187_tl_27" n="N028"/>gang und Verkehr ganz zurückgezogen und lebe ganz isolirt.
+      <lb facs="#facs_3_region_1684660405906_3187_tl_26" n="N027"/>habe ich mich von allem socialen und wissenschaftlichen Um
+      <lb facs="#facs_3_region_1684660405906_3187_tl_27" n="N028" break="no"/>gang und Verkehr ganz zurückgezogen und lebe ganz isolirt.
       <lb facs="#facs_3_region_1684660405906_3187_tl_28" n="N029"/>Musik habe ich seit drei Jahren keinen Ton gehört und werde
       <lb facs="#facs_3_region_1684660405906_3187_tl_29" n="N030"/>keinen wieder hören. Besonders in diesem Jahre ist mein
       <lb facs="#facs_3_region_1684660405906_3187_tl_30" n="N031"/>Befinden so gesunken, daß ich mit Mühe den Pflichten des
-      <lb facs="#facs_3_region_1684660405906_3187_tl_31" n="N032"/>Amtes nachkomme. Da sieht es nicht gut mit <rs type="person">Hauptmann</rs>'s
+      <lb facs="#facs_3_region_1684660405906_3187_tl_31" n="N032"/>Amtes nachkomme. Da sieht es nicht gut mit <rs type="person" ref="#hsl_person_id_687">Hauptmann</rs>’s
       <lb facs="#facs_3_region_1684660405906_3187_tl_32" n="N033"/>Briefen aus, die Frische und Freiheit und Kraft verlangen;
       <lb facs="#facs_3_region_1684660405906_3187_tl_33" n="N034"/>vielleicht hilft der Sommer noch etwas nach.“ Der Sommer
-      <lb facs="#facs_3_region_1684660405906_3187_tl_34" n="N035"/>hat leider nicht nachgeholfen: der unvergeßliche und unersetz¬
-      <lb facs="#facs_3_region_1684660405906_3187_tl_35" n="N036"/>liche Mann starb wenige Wochen nach jenem Briefe.
+      <lb facs="#facs_3_region_1684660405906_3187_tl_34" n="N035"/>hat leider nicht nachgeholfen: der unvergeßliche und unersetz
+      <lb facs="#facs_3_region_1684660405906_3187_tl_35" n="N036" break="no"/>liche Mann starb wenige Wochen nach jenem Briefe.
       <lb facs="#facs_3_region_1684660405906_3187_tl_36" n="N037"/>(Ein dritter und letzter Artikel folgt.)</p>
          </div>
       </body>
