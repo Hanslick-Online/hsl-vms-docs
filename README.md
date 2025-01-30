@@ -1,6 +1,5 @@
 [![Build and publish](https://github.com/Hanslick-Online/hsl-data-ct/actions/workflows/build.yml/badge.svg)](https://github.com/Hanslick-Online/hsl-data-ct/actions/workflows/build.yml) 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13945187.svg)](https://doi.org/10.5281/zenodo.13945187)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8033446.svg)](https://doi.org/10.5281/zenodo.8033446)
 
 # Hanslick Digitale Edition: Hanslicks Schriften für die "Neue Freie Presse"
 
