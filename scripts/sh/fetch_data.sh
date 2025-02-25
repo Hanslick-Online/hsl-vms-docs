@@ -6,7 +6,7 @@ wget https://github.com/Hanslick-Online/hsl-transkribus-export/archive/refs/head
 unzip main
 mkdir ./data/pre-process
 mkdir ./data/tmp
-mv hsl-transkribus-export-main/tei/162553/*.xml ./data/pre-process
-mv hsl-transkribus-export-main/mets/162553/*.xml ./data/facs
+mv hsl-transkribus-export-main/tei/1944511/*.xml ./data/pre-process
+mv hsl-transkribus-export-main/mets/1944511/*.xml ./data/facs
 rm -rf hsl-transkribus-export-main
 rm main.zip
