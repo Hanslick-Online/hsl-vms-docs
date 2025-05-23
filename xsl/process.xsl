@@ -20,8 +20,8 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="//tei:name[@ref='https://orcid.org/0000-0002-0636-4476']">
-        <name xmlns="http://www.tei-c.org/ns/1.0" ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+    <xsl:template match="//tei:name[@ref='https://orcid.org/0000-0002-8815-6741' or @ref='https://d-nb.info/gnd/1297553608']">
+        <name xmlns="http://www.tei-c.org/ns/1.0" ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
     </xsl:template>
     
 </xsl:stylesheet>
