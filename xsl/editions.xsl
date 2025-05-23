@@ -7,23 +7,59 @@
     
     <xsl:output encoding="UTF-8" media-type="text/xml" method="xml" indent="yes" omit-xml-declaration="yes"/>
     
-    <xsl:template match="/">
-        <xsl:variable name="file" select="//tei:titleStmt/tei:title[1]/text()"/>
-        <xsl:result-document href="{$file}.xml" method="xml">
+<xsl:template match="/">
+        <xsl:variable name="original-file" select="//tei:titleStmt/tei:title[1]/text()"/>
+        <xsl:variable name="formatted-file">
+            <xsl:call-template name="format-filename">
+                <xsl:with-param name="filename" select="$original-file"/>
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:result-document href="{$formatted-file}.xml" method="xml">
             <xsl:text disable-output-escaping='yes'>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</xsl:text>
             <xsl:copy>
                 <xsl:apply-templates select="node()|@*"/>
             </xsl:copy>
         </xsl:result-document>
     </xsl:template>
-    
+
+    <xsl:template name="format-filename">
+        <xsl:param name="filename"/>
+        <xsl:variable name="no-spaces" select="translate($filename, ' ', '')"/>
+        
+        <!-- Check if filename ends with numbers -->
+        <xsl:choose>
+            <xsl:when test="matches($no-spaces, '^Hanslick.*\d+$')">
+                <!-- Extract the trailing numbers -->
+                <xsl:variable name="numbers" select="replace($no-spaces, '^Hanslick.*?(\d+)$', '$1')"/>
+                <!-- Extract the middle part (everything after Hanslick and before the numbers) -->
+                <xsl:variable name="middle-part" select="replace($no-spaces, '^Hanslick(.*?)(\d+)$', '$1')"/>
+                <xsl:value-of select="concat('Hanslick_', $middle-part, '_', $numbers)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <!-- No trailing numbers, just add underscore after Hanslick -->
+                <xsl:choose>
+                    <xsl:when test="starts-with($no-spaces, 'Hanslick')">
+                        <xsl:variable name="after-hanslick" select="substring-after($no-spaces, 'Hanslick')"/>
+                        <xsl:value-of select="concat('Hanslick_', $after-hanslick)"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="$no-spaces"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
     <xsl:template match="node()|@*">
         <xsl:copy>
             <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>
-    
-    <xsl:template match="tei:publicationStmt">
+
+   
+
+
+<xsl:template match="tei:publicationStmt">
         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
@@ -153,9 +189,9 @@
             </respStmt>
             <respStmt>
                 <resp>Projektmitarbeiterinnen</resp>
-                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                 <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                 <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+                <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name> 
             </respStmt>
         </editionStmt>
     </xsl:template>
