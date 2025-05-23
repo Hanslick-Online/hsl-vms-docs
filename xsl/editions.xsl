@@ -163,7 +163,7 @@
     
     <xsl:template match="tei:titleStmt">
         <xsl:copy>
-            <title xmlns="http://www.tei-c.org/ns/1.0" level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
+            <title xmlns="http://www.tei-c.org/ns/1.0" level="s">Hanslick Edition: Dokumente zu „Vom Musikalisch-Schönen“</title>
             <title xmlns="http://www.tei-c.org/ns/1.0" level="a"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]//text()"/></title>
             <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor xmlns="http://www.tei-c.org/ns/1.0">
@@ -182,7 +182,7 @@
             </funder>
         </xsl:copy>
         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
-            <edition>Hanslick Edition: Hanslick in Neue Freie Presse</edition>
+            <edition>Hanslick Edition: Dokumente zu „Vom Musikalisch-Schönen“</edition>
             <respStmt>
                 <resp>Herausgegeben von</resp>
                 <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
