@@ -141,15 +141,14 @@
                 <biblStruct xmlns="http://www.tei-c.org/ns/1.0">
                     <analytic xmlns="http://www.tei-c.org/ns/1.0">
                         <title xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]//text()"/></title>
-                        <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
+                        <author xmlns="http://www.tei-c.org/ns/1.0" ref=""></author>
                     </analytic>
                     <monogr xmlns="http://www.tei-c.org/ns/1.0">
-                        <title type="main">Neue Freie Presse</title>
+                        <title type="main"></title>
                         <title type="sub"><xsl:value-of select="//tei:body/tei:div/tei:ab[1]//text()"/></title>
                         <respStmt>
-                            <resp>Herausgegeben von</resp>
-                            <name type="person">Etienne, Michael</name>
-                            <name type="person">Friedländer, Max</name>
+                            <resp></resp>
+                            <name type="person"></name>
                         </respStmt>
                         <imprint>
                             <pubPlace><xsl:value-of select="//tei:body/tei:div/tei:ab[2]/tei:rs[@type='place']"/></pubPlace>
