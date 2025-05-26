@@ -3,7 +3,7 @@
 #transkribus valid login
 #export .secret variables
 
-colId=162553
+colId=1944511
 
 SRC=`dirname "$0"`/../../../TranskribusPyClient/src
 
@@ -33,7 +33,7 @@ echo "OK"
 #making a login and persisting the session token
 echo
 echo "--- login"
-tmp_col_id=`$PYTHON $SRC/TranskribusCommands/do_login.py --persist -l $TRK_USR -p $TRK_PW` || error "login error"
+tmp_col_id=`$PYTHON $SRC/TranskribusCommands/do_login.py --persist -l $TR_USER -p $TR_PW` || error "login error"
 echo "OK"
 
 #---------------------------------------------------
@@ -53,6 +53,6 @@ echo "OK"
 echo "= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ="
 echo
 echo "moving transkribus export jpg to facs dir"
-mv ./trnskrbs_162553/col/*/*.jpg ./data/facs
+mv ./trnskrbs_${colId}/col/*/*.jpg ./data/facs
 echo "done"
 #---------------------------------------------------
