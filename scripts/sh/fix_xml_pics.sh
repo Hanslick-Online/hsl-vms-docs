@@ -15,4 +15,4 @@ grep -E 'jpe?g' data/tmp/* | sed -n 's/.*url="\([^"]*jpe\?g\)".*/\1/p' | while I
 done
 
 
-sed -i -E 's/(Hanslick_.+\.jpg)/d__\1' data/editions/*
+sed -i -E 's/(Hanslick_.+\.jpg)/d__\1/g' data/editions/*
