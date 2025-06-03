@@ -14,5 +14,4 @@ grep -E 'jpe?g' data/tmp/* | sed -n 's/.*url="\([^"]*jpe\?g\)".*/\1/p' | while I
     sed -i "s|$file_name|d__$new_name|g" data/tmp/*xml
 done
 
-
-sed -i -E 's/(Hanslick_.+\.jpg)/d__\1/g' data/editions/*
+#sed -i -E 's/(Hanslick_.+\.jpg)/d__\1/g' data/editions/*
