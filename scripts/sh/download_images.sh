@@ -1,58 +1,37 @@
-# bin/bash
-
-#transkribus valid login
-#export .secret variables
-
+#!/bin/bash
 colId=1944511
-
-SRC=`dirname "$0"`/../../../TranskribusPyClient/src
-
-tmp_col_name="toto_$$"
+SRC=`dirname "$0"`/../../../../TranskribusPyClient/src
 
 #PYTHON=python
 PYTHON=python
 
 function error {
-	echo "ERROR: $1"
+	echo -e "\e[31mERROR\e[0m:\t$1\n"
 	exit 1
 }
 
-#cleaning any persistent login info
-echo "==================================================================="
-echo "--- logout"
-tmp_col_id=`$PYTHON $SRC/TranskribusCommands/do_logout.py --persist`
-echo "OK"
+function isok {
+	if [[ $1 = 1 ]] ; then
+		echo -e "[\e[31mERROR\e[0m]\t$2\n"
+		exit 1
+	else
+		echo -e "[\e[32mOK\e[0m]\t$1"
+	fi
+}
 
-#testing a bad login
-echo
-echo "--- login"
-tmp_col_id=`$PYTHON $SRC/TranskribusCommands/do_login.py --persist -l "tilla" -p "miaouuuu"` && error "login should have failed"
-echo
-echo "OK"
+
+#cleaning any persistent login info
+tmp_col_id=`$PYTHON $SRC/TranskribusCommands/do_logout.py --persist`  && isok "cleaning" || isok 1  "cleaning error"
 
 #making a login and persisting the session token
-echo
-echo "--- login"
-tmp_col_id=`$PYTHON $SRC/TranskribusCommands/do_login.py --persist -l $TR_USER -p $TR_PW` || error "login error"
-echo "OK"
+tmp_col_id=`$PYTHON $SRC/TranskribusCommands/do_login.py --persist -l $TR_USER -p $TR_PW` && isok "login" || isok 1  "login"
 
-#---------------------------------------------------
-echo "= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ="
+rm -rf trnskrbs_$colId  && isok "clean up" || isok 1 "delete error trnskrbs_${colId}"
 
-#---------------------------------------------------
-echo "= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ="
-echo
-echo "--- download all $colId ---"
-rm -rf trnskrbs_$colId 
-echo "--- download "
-$PYTHON $SRC/TranskribusCommands/Transkribus_downloader.py $colId --persist || error " download error"
-echo "OK"
-#---------------------------------------------------
+$PYTHON $SRC/TranskribusCommands/Transkribus_downloader.py $colId --persist && isok "download" || isok 1 "download error"
 
-#---------------------------------------------------
-echo "= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ="
-echo
-echo "moving transkribus export jpg to facs dir"
-mv ./trnskrbs_${colId}/col/*/*.jpg ./data/facs
-echo "done"
-#---------------------------------------------------
+echo "moving transkribus export jpg to facs dir…"
+for i in ./trnskrbs_${colId}/col/*/*.jpeg ; do
+	mv "${i}" ./data/facs/"`echo $i|cut -d / -f 5 | sed 's/jpeg$/jpg/'`" && isok "${i}" || isok 1 "mv error ${i}"
+done
+echo -e "\n\n* DONE *"
