@@ -13,4 +13,7 @@ grep -E 'jpe?g' data/tmp/* | sed -n 's/.*url="\([^"]*jpe\?g\)".*/\1/p' | while I
     sed -i "s|$file_name|$new_name|g" data/tmp/*xml
 done
 
+for xmlfile in data/editions/*.xml; do
+	./scripts/py/join_p.py "$xmlfile"
+done
 #sed -i -E 's/(Hanslick_.+\.jpg)/d__\1/g' data/editions/*

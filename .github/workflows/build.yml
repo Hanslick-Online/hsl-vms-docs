@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: |
         ant -f scripts/ant/build.xml
-    - name: Fix pictures names
+    - name: Apply fixes
       run: ./scripts/sh/fix_xml_pics.sh
     - name: Commit data
       uses: stefanzweifel/git-auto-commit-action@v4
