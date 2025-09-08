@@ -137,6 +137,7 @@
         </xsl:copy>
     </xsl:template>
     
+    
     <xsl:template match="tei:sourceDesc">
         <xsl:copy>
             <listBibl xmlns="http://www.tei-c.org/ns/1.0">
