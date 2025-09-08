@@ -7,6 +7,8 @@
     
     <xsl:output encoding="UTF-8" media-type="text/xml" method="xml" indent="yes" omit-xml-declaration="yes"/>
     
+     
+    
 <xsl:template match="/">
         <xsl:variable name="original-file" select="//tei:titleStmt/tei:title[1]/text()"/>
         <xsl:variable name="formatted-file">
@@ -140,8 +142,10 @@
             <listBibl xmlns="http://www.tei-c.org/ns/1.0">
                 <biblStruct xmlns="http://www.tei-c.org/ns/1.0">
                     <analytic xmlns="http://www.tei-c.org/ns/1.0">
-                        <title xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]//text()"/></title>
-                        <author xmlns="http://www.tei-c.org/ns/1.0" ref=""></author>
+                        <title xmlns="http://www.tei-c.org/ns/1.0">
+                            <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/>
+                        </title>
+                        <author xmlns="http://www.tei-c.org/ns/1.0" ref=""/>
                     </analytic>
                     <monogr xmlns="http://www.tei-c.org/ns/1.0">
                         <title type="main"></title>
@@ -159,40 +163,47 @@
             </listBibl>
         </xsl:copy>
     </xsl:template>
-    
     <xsl:template match="tei:titleStmt">
-        <xsl:copy>
-            <title xmlns="http://www.tei-c.org/ns/1.0" level="s">Hanslick Edition: Dokumente zu „Vom Musikalisch-Schönen“</title>
-            <title xmlns="http://www.tei-c.org/ns/1.0" level="a"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]//text()"/></title>
-            <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
-            <editor xmlns="http://www.tei-c.org/ns/1.0">
-                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
-            </editor>
-            <funder xmlns="http://www.tei-c.org/ns/1.0">
-                <name>FWF Der Wissenschaftsfond.</name>
-                <address>
-                    <street>Georg-Coch-Platz 2</street>
-                    <postCode>1010 Wien</postCode>
-                    <placeName>
-                        <country>Österreich</country>
-                        <settlement>Wien</settlement>
-                    </placeName>
-                </address>
-            </funder>
-        </xsl:copy>
-        <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
-            <edition>Hanslick Edition: Dokumente zu „Vom Musikalisch-Schönen“</edition>
-            <respStmt>
-                <resp>Herausgegeben von</resp>
-                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
-            </respStmt>
-            <respStmt>
-                <resp>Projektmitarbeiterinnen</resp>
-                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
-                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
-                <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name> 
-            </respStmt>
-        </editionStmt>
+        <titleStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <title level="s">Hanslick Edition: Dokumente zu „Vom Musikalisch-Schönen"</title>
+            <xsl:choose>
+                <xsl:when test="//tei:title[@type='main']">
+                    <title level="a">
+                        <xsl:value-of select="//tei:title[@type='main']"/>
+                    </title>
+                </xsl:when>
+                <xsl:otherwise>
+                    <!-- fallback to previous logic if no main title found -->
+                    <title level="a">
+                        <xsl:value-of select="//tei:ab[2]"/>
+                    </title>
+                </xsl:otherwise>
+            </xsl:choose>
+            <!-- Add standard project author/editor/funder if they don't exist -->
+            <xsl:if test="not(tei:author)">
+                <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
+            </xsl:if>
+            <xsl:if test="not(tei:editor)">
+                <editor>
+                    <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
+                </editor>
+            </xsl:if>
+            <xsl:if test="not(tei:funder)">
+                <funder>
+                    <name>FWF Der Wissenschaftsfond.</name>
+                    <address>
+                        <street>Georg-Coch-Platz 2</street>
+                        <postCode>1010 Wien</postCode>
+                        <placeName>
+                            <country>Österreich</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </xsl:if>
+            <!-- Apply templates to all non-title children to preserve them -->
+            <xsl:apply-templates select="node()[not(self::tei:title)]"/>
+        </titleStmt>
     </xsl:template>
     
     <xsl:template match="tei:principal"/>
@@ -208,9 +219,6 @@
             </xsl:attribute>
         </xsl:copy>
     </xsl:template>
-    
-    <xsl:template match="tei:body/tei:div/tei:ab[1]"/>
-    <xsl:template match="tei:body/tei:div/tei:ab[2]"/>
     
     <xsl:template match="tei:body/tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0">
