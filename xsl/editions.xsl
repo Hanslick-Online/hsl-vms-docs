@@ -143,7 +143,7 @@
                 <biblStruct xmlns="http://www.tei-c.org/ns/1.0">
                     <analytic xmlns="http://www.tei-c.org/ns/1.0">
                         <title xmlns="http://www.tei-c.org/ns/1.0">
-                            <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/>
+                            <xsl:value-of select="normalize-space((//tei:titleStmt/tei:title[@type='main'])[1])"/>
                         </title>
                         <author xmlns="http://www.tei-c.org/ns/1.0" ref=""/>
                     </analytic>
@@ -163,19 +163,21 @@
             </listBibl>
         </xsl:copy>
     </xsl:template>
+
     <xsl:template match="tei:titleStmt">
         <titleStmt xmlns="http://www.tei-c.org/ns/1.0">
-            <title level="s">Hanslick Edition: Dokumente zu „Vom Musikalisch-Schönen"</title>
+            <title level="s">Hanslick Edition: Dokumente zu „Vom Musikalisch-Schönen“</title>
             <xsl:choose>
                 <xsl:when test="//tei:title[@type='main']">
                     <title level="a">
-                        <xsl:value-of select="//tei:title[@type='main']"/>
+                        <!-- Take only the first title and normalize it -->
+                        <xsl:value-of select="normalize-space((//tei:title[@type='main'])[1])"/>
                     </title>
                 </xsl:when>
                 <xsl:otherwise>
                     <!-- fallback to previous logic if no main title found -->
                     <title level="a">
-                        <xsl:value-of select="//tei:ab[2]"/>
+                        <xsl:value-of select="normalize-space((//tei:ab[2])[1])"/>
                     </title>
                 </xsl:otherwise>
             </xsl:choose>
@@ -205,6 +207,7 @@
             <xsl:apply-templates select="node()[not(self::tei:title)]"/>
         </titleStmt>
     </xsl:template>
+          
     
     <xsl:template match="tei:principal"/>
     
