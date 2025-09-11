@@ -61,13 +61,7 @@
                   </analytic>
                   <monogr>
                      <title type="main"/>
-                     <title type="sub">
-               Herrn Prof
-               Lott
-               im Gericht
-               am 6. Juni 1856
-               [???]
-            </title>
+                     <title type="sub"/>
                      <respStmt>
                         <resp/>
                         <name type="person"/>
@@ -95,7 +89,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="final">
-         <change who="awilfing mwilfing-albrecht" when="2025-09-03">Transkribus OCR und Lektorat.</change>
+         <change who="awilfing mwilfing" when="2025-09-03">Transkribus OCR und Lektorat.</change>
          <change who="fsanzlazaro" when="2025-09-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
          <change who="awilfing" when="2025-09-09">Formatierung und Referenzen eingefügt.</change>
          <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
@@ -433,9 +427,9 @@
             <cb n="1"/>
             <p>
                <lb facs="#facs_1_tr_1_tl_1" n="N001"/>Herrn Prof
-               <lb facs="#facs_1_tr_1_tl_2" n="N002"/><rs type="person">Lott</rs>
+               <lb facs="#facs_1_tr_1_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_7333">Lott</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_1_tr_1_tl_3" n="N003"/>im Gericht
-               <lb facs="#facs_1_tr_1_tl_4" n="N004"/>am 6. Juni 1856
+               <lb facs="#facs_1_tr_1_tl_4" n="N004"/>am 6. Juni <date>1856</date>
                <lb facs="#facs_1_tr_1_tl_5" n="N005"/>[???]</p>
             <cb n="2"/>
             <p>
@@ -443,13 +437,13 @@
                <lb facs="#facs_1_tr_2_tl_2" n="N002"/>praes. 16. Juni <date>1856</date>.
             </p><p>
                <lb facs="#facs_1_tr_2_tl_3" n="N003"/>An
-               <lb facs="#facs_1_tr_2_tl_4" n="N004"/><hi rendition="#em">das hochlöbl. Professorencollegium</hi>
+               <lb facs="#facs_1_tr_2_tl_4" n="N004"/><hi rendition="#em">das hochlöbl. Professorencollegium</hi><space quantity="1" unit="char"/>
                <lb facs="#facs_1_tr_2_tl_5" n="N005"/>der
-               <lb facs="#facs_1_tr_2_tl_6" n="N006"/><hi rendition="#em">philosophischen Facultät</hi>
+               <lb facs="#facs_1_tr_2_tl_6" n="N006"/><hi rendition="#em">philosophischen Facultät</hi><space quantity="1" unit="char"/>
                <lb facs="#facs_1_tr_2_tl_7" n="N007"/>an der
-               <lb facs="#facs_1_tr_2_tl_8" n="N008"/><hi rendition="#em">Universität <rs type="place">Wien</rs></hi>!
+               <lb facs="#facs_1_tr_2_tl_8" n="N008"/><hi rendition="#em">Universität <rs type="place" ref="#hsl_place_id_55">Wien</rs></hi>!
             </p><p>
-               <lb facs="#facs_1_tr_2_tl_9" n="N009"/>Dr. Eduard <rs type="person">Hanslick</rs>
+               <lb facs="#facs_1_tr_2_tl_9" n="N009"/>Dr. Eduard <rs type="person" ref="#hsl_person_id_1">Hanslick</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_1_tr_2_tl_10" n="N010"/>kk Conceptsadjunct im h. Ministerium
                <lb facs="#facs_1_tr_2_tl_11" n="N011"/>für Cultus u. Unterricht
             </p><p>
@@ -469,86 +463,86 @@
                <lb facs="#facs_2_tr_1_tl_2" n="N001"/><hi rendition="#em">Biographische Skizze (Curriculum vitae)</hi>
             </p><p>
                <lb facs="#facs_2_tr_1_tl_3" n="N002"/>(als Beilage zu dem Gesuch des
-               <lb facs="#facs_2_tr_1_tl_4" n="N003"/><hi rendition="#em">Dr Eduard <rs type="person">Hanslick</rs></hi> um Habilitirung als
+               <lb facs="#facs_2_tr_1_tl_4" n="N003"/><hi rendition="#em">Dr Eduard <rs type="person" ref="#hsl_person_id_1">Hanslick</rs></hi> um Habilitirung als
                <lb facs="#facs_2_tr_1_tl_5" n="N004"/>Privatdozent für Geschichte u. Aesthetik
                <lb facs="#facs_2_tr_1_tl_6" n="N005"/>der Tonkunst.)
             </p><p>
-               <lb facs="#facs_2_tr_1_tl_7" n="N006"/>Der Bittsteller ist geboren zu <hi rendition="#em"><rs type="place">Prag</rs></hi> im Jahr <date>1825</date>
+               <lb facs="#facs_2_tr_1_tl_7" n="N006"/>Der Bittsteller ist geboren zu <hi rendition="#em"><rs type="place" ref="#hsl_place_id_45">Prag</rs></hi> im Jahr <date>1825</date><space quantity="1" unit="char"/>
                <lb facs="#facs_2_tr_1_tl_8" n="N007"/>und erhielt eine sehr sorgfältige Erziehung von
                <lb facs="#facs_2_tr_1_tl_9" n="N008"/>seinem Vater, dem kk. Universitäts-Bibliotheksskriptor
-               <lb facs="#facs_2_tr_1_tl_10" n="N009"/>Joseph Ad. <rs type="person">Hanslick</rs>, welcher durch seine „<rs type="bibl">Geschichte</rs>
-               <lb facs="#facs_2_tr_1_tl_11" n="N010"/><rs type="bibl">der Prager Bibliothek</rs>“ ( – herausgegeben von der
+               <lb facs="#facs_2_tr_1_tl_10" n="N009"/>Joseph Ad. <rs type="person" ref="#hsl_person_id_7334">Hanslick</rs>, welcher durch seine „<rs type="bibl" ref="#hsl_work_id_5129">Geschichte
+               <lb facs="#facs_2_tr_1_tl_11" n="N010"/>der Prager Bibliothek</rs>“ ( – herausgegeben von der
                <lb facs="#facs_2_tr_1_tl_12" n="N011"/>kk. Akademie der Wissenschaften – ) und durch seine
-               <lb facs="#facs_2_tr_1_tl_13" n="N012"/>Edition des einst hochgeschützten „<rs type="bibl">Lehrbuchs</rs>
-               <lb facs="#facs_2_tr_1_tl_14" n="N013"/><rs type="bibl">der Aesthetik</rs> von Prof. <rs type="person">Dambeck</rs>“ sich den Ruf
+               <lb facs="#facs_2_tr_1_tl_13" n="N012"/>Edition des einst hochgeschützten „<rs type="bibl" ref="#hsl_work_id_5130">Lehrbuchs
+               <lb facs="#facs_2_tr_1_tl_14" n="N013"/>der Aesthetik</rs> von Prof. <rs type="person" ref="#hsl_person_id_7335">Dambeck</rs>“ sich den Ruf
                <lb facs="#facs_2_tr_1_tl_15" n="N014"/>eines tüchtigen Gelehrten erworben hat.
             </p><p>
-               <lb facs="#facs_2_tr_1_tl_16" n="N015"/>In seiner Vaterstadt <rs type="place">Prag</rs> absolvirte der
+               <lb facs="#facs_2_tr_1_tl_16" n="N015"/>In seiner Vaterstadt <rs type="place" ref="#hsl_place_id_45">Prag</rs> absolvirte der
                <lb facs="#facs_2_tr_1_tl_17" n="N016"/>Bittsteller das Gymnasium, die philosophischen
                <lb facs="#facs_2_tr_1_tl_18" n="N017"/>Studien und die 3 ersten juridischen Jahrgänge
                <lb facs="#facs_2_tr_1_tl_19" n="N018"/>mit vorzüglichem Erfolge. Zugleich widmete
                <lb facs="#facs_2_tr_1_tl_20" n="N019"/>er sich mit Vorliebe u. Eifer der Musik,
-               <lb facs="#facs_2_tr_1_tl_21" n="N020"/>zuerst unter der Anleitung J. F. <rs type="person">Kittl</rs>'s (gegen¬
-               <lb facs="#facs_2_tr_1_tl_22" n="N021"/>wärtig Directors des Conservatoriums) später
+               <lb facs="#facs_2_tr_1_tl_21" n="N020"/>zuerst unter der Anleitung J. F. <rs type="person" ref="#hsl_person_id_965">Kittl</rs>’s (gegen
+               <lb facs="#facs_2_tr_1_tl_22" n="N021" break="no"/>wärtig Directors des Conservatoriums) später
                <lb facs="#facs_2_tr_1_tl_23" n="N022"/>unter dem berühmten Theoretiker u. Tonsetzer
-               <lb facs="#facs_2_tr_1_tl_24" n="N023"/>W. J. <hi rendition="#em"><rs type="person">Tomaschek</rs></hi>. Bei letzterem studierte
+               <lb facs="#facs_2_tr_1_tl_24" n="N023"/>W. J. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_951">Tomaschek</rs></hi>. Bei letzterem studierte
                <lb facs="#facs_2_tr_1_tl_25" n="N024"/>über 4 Jahre die Musik, wovon 3 Jahre allein
                <lb facs="#facs_2_tr_1_tl_26" n="N025"/>für die Compositionslehre in ihrem ganzen
                <lb facs="#facs_2_tr_1_tl_27" n="N026"/>Umfang verwendet wurden.</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="5"/>
-            <p prev="true">
+            <p>
                <lb facs="#facs_3_tr_1_tl_1" n="N001"/>Ein Jahr lang ( – nach den philos. Jahrgängen – )
                <lb facs="#facs_3_tr_1_tl_2" n="N002"/>unterbrach derselbe seine Universitätsstudien
                <lb facs="#facs_3_tr_1_tl_3" n="N003"/>um ungestört die musikalischen Studien bei
-               <lb facs="#facs_3_tr_1_tl_4" n="N004"/><rs type="person">Tomaschek</rs> zu vollenden.
+               <lb facs="#facs_3_tr_1_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_951">Tomaschek</rs> zu vollenden.
             </p><p>
                <lb facs="#facs_3_tr_1_tl_5" n="N005"/>Im Jahre <date>1846/7</date> vollendete der Bittsteller seine
-               <lb facs="#facs_3_tr_1_tl_6" n="N006"/>juridischen Studien an der <hi rendition="#em"><rs type="place">Wien</rs>er</hi> Hochschule,
+               <lb facs="#facs_3_tr_1_tl_6" n="N006"/>juridischen Studien an der <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs>er</hi> Hochschule,
                <lb facs="#facs_3_tr_1_tl_7" n="N007"/>erlangte daselbst das Doctorat u. trat als
-               <lb facs="#facs_3_tr_1_tl_8" n="N008"/>Conceptspraktikant bei der Hof- u. <rs type="place">nö.</rs> Kammer¬
-               <lb facs="#facs_3_tr_1_tl_9" n="N009"/>prokuratur ein. Zur selben Zeit erschienen
+               <lb facs="#facs_3_tr_1_tl_8" n="N008"/>Conceptspraktikant bei der Hof- u. <rs type="place" ref="#hsl_place_id_144">nö.</rs> Kammer
+               <lb facs="#facs_3_tr_1_tl_9" n="N009" break="no"/>prokuratur ein. Zur selben Zeit erschienen
                <lb facs="#facs_3_tr_1_tl_10" n="N010"/>von seiner Feder musikalische Aufsätze in
-               <lb facs="#facs_3_tr_1_tl_11" n="N011"/>den „<rs type="bibl">Sonntagsblättern</rs>“ u. der A. <rs type="person">Schmied</rs>'schen
-               <lb facs="#facs_3_tr_1_tl_12" n="N012"/>„<rs type="bibl">Wiener Musikzeitung</rs>“, – welche zur Folge
-               <lb facs="#facs_3_tr_1_tl_13" n="N013"/>hatten, daß die Hn. Professoren <rs type="person">Stubenrauch</rs> und
-               <lb facs="#facs_3_tr_1_tl_14" n="N014"/><rs type="person">Heyßler</rs> denselben unverweilt für die
-               <lb facs="#facs_3_tr_1_tl_15" n="N015"/>offizielle <rs type="bibl">Wiener Zeitung</rs> engagirten, deren
+               <lb facs="#facs_3_tr_1_tl_11" n="N011"/>den „<rs type="bibl" ref="#hsl_work_id_695">Sonntagsblättern</rs>“ u. der A. <rs type="person" ref="#hsl_person_id_3766">Schmied</rs>’schen
+               <lb facs="#facs_3_tr_1_tl_12" n="N012"/>„<rs type="bibl" ref="#hsl_work_id_2285">Wiener Musikzeitung</rs>“, – welche zur Folge
+               <lb facs="#facs_3_tr_1_tl_13" n="N013"/>hatten, daß die Hn. Professoren <rs type="person" ref="#hsl_person_id_4935">Stubenrauch</rs> und
+               <lb facs="#facs_3_tr_1_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_7336">Heyßler</rs> denselben unverweilt für die
+               <lb facs="#facs_3_tr_1_tl_15" n="N015"/>offizielle <rs type="bibl" ref="#hsl_work_id_156">Wiener Zeitung</rs> engagirten, deren
                <lb facs="#facs_3_tr_1_tl_16" n="N016"/>Redaction sie damals übernahmen.
-               <lb facs="#facs_3_tr_1_tl_17" n="N017"/>Im Jahr <date>1850</date> wurde der Bittsteller als Aus¬
-               <lb facs="#facs_3_tr_1_tl_18" n="N018"/>hilfsReferent zum Fiskalamt nach <hi rendition="#em"><rs type="place">Klagenfurt</rs></hi>
+               <lb facs="#facs_3_tr_1_tl_17" n="N017"/>Im Jahr <date>1850</date> wurde der Bittsteller als Aus
+               <lb facs="#facs_3_tr_1_tl_18" n="N018" break="no"/>hilfsReferent zum Fiskalamt nach <hi rendition="#em"><rs type="place" ref="#hsl_place_id_524">Klagenfurt</rs></hi><space quantity="1" unit="char"/>
                <lb facs="#facs_3_tr_1_tl_19" n="N019"/>gesendet, im J. <date>1852</date> als Conceptsadjunct zum
                <lb facs="#facs_3_tr_1_tl_20" n="N020"/>kk. Finanzministerium einberufen, endlich
                <lb facs="#facs_3_tr_1_tl_21" n="N021"/>im J. <date>1854</date> zum Conceptsadjuncten beim H.
                <lb facs="#facs_3_tr_1_tl_22" n="N022"/>Ministerium des <hi rendition="#em">Unterrichts</hi> ernannt,
                <lb facs="#facs_3_tr_1_tl_23" n="N023"/>in welcher Anstellung er sich derzeit noch befindet.
-               <lb facs="#facs_3_tr_1_tl_24" n="N024"/>Die bei R. <rs type="person">Weigel</rs> in <rs type="place">Leipzig</rs> verlegte Schrift
-               <lb facs="#facs_3_tr_1_tl_25" n="N025"/>„<rs type="place">Vom Musikalisch Schönen</rs>“ erschien <date>1854</date> und</p>
+               <lb facs="#facs_3_tr_1_tl_24" n="N024"/>Die bei R. <rs type="person" ref="#hsl_person_id_377">Weigel</rs> in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs> verlegte Schrift
+               <lb facs="#facs_3_tr_1_tl_25" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_1083">Vom Musikalisch Schönen</rs>“ erschien <date>1854</date> und<space quantity="1" unit="char"/></p>
             <pb facs="#facs_4" n="4" xml:id="img_0004"/>
             <cb n="6"/>
-            <p>
+            <p prev="true">
                <lb facs="#facs_4_tr_1_tl_1" n="N001"/>fand solchen Anklang, daß gegenwärtig schon eine
                <lb facs="#facs_4_tr_1_tl_2" n="N002"/>2te Auflage vorbereitet wird.
             </p><p>
                <lb facs="#facs_4_tr_1_tl_3" n="N003"/>Für die musikalische Ausbildung des Bittstellers
-               <lb facs="#facs_4_tr_1_tl_4" n="N004"/>war auch eine Reise durch <rs type="place">Deutschland</rs> von
-               <lb facs="#facs_4_tr_1_tl_5" n="N005"/>günstigem Einfluß, die er im Sommer <date>1855</date>
+               <lb facs="#facs_4_tr_1_tl_4" n="N004"/>war auch eine Reise durch <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> von
+               <lb facs="#facs_4_tr_1_tl_5" n="N005"/>günstigem Einfluß, die er im Sommer <date>1855</date><space quantity="1" unit="char"/>
                <lb facs="#facs_4_tr_1_tl_6" n="N006"/>aus Anlaß einer ehrenvollen Einladung
-               <lb facs="#facs_4_tr_1_tl_7" n="N007"/>zum <rs type="place">Niederrheinisch</rs>en Musikfest unternahm
+               <lb facs="#facs_4_tr_1_tl_7" n="N007"/>zum <rs type="place" ref="#hsl_place_id_859">Niederrheinisch</rs>en Musikfest unternahm
                <lb facs="#facs_4_tr_1_tl_8" n="N008"/>u. dazu benützte, die ausgezeichnetsten mus. Anstalten
                <lb facs="#facs_4_tr_1_tl_9" n="N009"/>u. die hervorragendsten Notabilitäten der
                <lb facs="#facs_4_tr_1_tl_10" n="N010"/>musikal. Theorie u. Aesthetik kennen zu lernen.
             </p><p>
                <lb facs="#facs_4_tr_1_tl_11" n="N011"/>Da die ersten Aufsätze über Musik aus der
                <lb facs="#facs_4_tr_1_tl_12" n="N012"/>Feder des Bittstellers bereits im Jahre <date><hi rendition="#em">1844</hi></date> (in
-               <lb facs="#facs_4_tr_1_tl_13" n="N013"/>der Zeitschrift <rs type="bibl">Ost u. West</rs>) gedruckt erschienen,
+               <lb facs="#facs_4_tr_1_tl_13" n="N013"/>der Zeitschrift <rs type="bibl" ref="#hsl_work_id_4341">Ost u. West</rs>) gedruckt erschienen,
                <lb facs="#facs_4_tr_1_tl_14" n="N014"/>darf derselbe wohl behaupten, daß er zum
                <lb facs="#facs_4_tr_1_tl_15" n="N015"/><hi rendition="#em">mindesten</hi> durch zwölf volle Jahre dem
                <lb facs="#facs_4_tr_1_tl_17" n="N016"/>Studium der mus. Aesthetik bereits obliegt. –
             </p><p>
-               <lb facs="#facs_4_tr_1_tl_18" n="N017"/>Dr Eduard <rs type="person">Hanslick</rs>
+               <lb facs="#facs_4_tr_1_tl_18" n="N017"/>Dr Eduard <rs type="person" ref="#hsl_person_id_1">Hanslick</rs>
             </p><p>
-               <lb facs="#facs_4_tr_1_tl_19" n="N018"/><rs type="place">Wien</rs> 27t April <date>1856</date>.
+               <lb facs="#facs_4_tr_1_tl_19" n="N018"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> 27t April <date>1856</date>.
             </p>
          </div>
       </body>
